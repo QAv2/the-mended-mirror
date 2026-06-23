@@ -78,19 +78,26 @@
   <hr class="crack">
 
   <h2><span class="n">§2</span>The daily loop</h2>
+  <p class="muted">Three commands per shard. <code>make</code> calls DeepSeek directly (no aider for
+     generation — aider's diff/whole edit machinery kept dropping fresh-file output; the direct API
+     call is bulletproof and one command). Optionally <code>./mend brief &lt;id&gt;</code> first to preview
+     the brief, or <code>./mend queue 1</code> to see what's left.</p>
   <ol class="loop">
-    <li><b>Pick the next shard</b> and get its brief. It prints the exact aider command and the
-        first message to paste — color, region, and anchor motif already filled in.
-        <pre><span class="k">./mend brief judaism</span></pre></li>
-    <li><b>Run the aider line it gave you.</b> The spec and a finished shard ride along as read-only
-        context; the new <code>data/_fanout/&lt;id&gt;.json</code> is the only file aider writes.
-        Paste the first message, let it draft, <code>/exit</code>.</li>
-    <li><b>Build &amp; validate.</b> This merges your shard into the live dataset and runs the
-        same sanity check the engine uses.
+    <li><b>Generate the shard.</b> DeepSeek writes <code>data/_fanout/&lt;id&gt;.json</code>, validates it's
+        real JSON, and prints a summary (figure count, seam count, tier spread) with warnings if
+        anything looks off (too few figures, missing facets, over-claimed tier-1s).
+        <pre><span class="k">./mend make judaism</span>
+<span class="c"># a stubborn/contested one? give it the reasoner:</span>
+<span class="k">./mend make judaism reasoner</span></pre></li>
+    <li><b>Build &amp; validate.</b> Merges your shard into the live dataset and runs the same
+        sanity check the engine uses.
         <pre><span class="k">./mend build</span></pre>
         <span class="ok">✓ clean</span> → open the map and eyeball it. &nbsp;
         <span class="no">✗ problems</span> → it tells you what's wrong (almost always a seam pointing
-        at an id that isn't in the inventory). Fix in aider, build again. <b>Don't commit dirty.</b></li>
+        at an id not in the inventory). Just <code>./mend make &lt;id&gt;</code> again for a fresh draft,
+        or hand-fix the JSON. <b>Don't commit dirty.</b>
+        <br><span class="muted">(Harmless: a <code>no period for tradition</code> warning — the timeline
+        table doesn't know new traditions yet. Ignore it; Claude batch-fixes on return.)</span></li>
     <li><b>Eyeball the honesty</b> — open <code>index.html</code>, find your new tradition, follow its
         gold seams. Are the convergences real? Are the tiers humble (mostly tier&nbsp;3)? If yes:
         <pre><span class="k">git add -A && git commit -m</span> "mirror: add judaism shard"</pre></li>
@@ -117,8 +124,9 @@
     <tr><td>aider gives <code>402</code> / insufficient balance</td><td>Your DeepSeek credit ran dry — top up at platform.deepseek.com. (A week of shards should cost well under $1, so this shouldn't happen.)</td></tr>
     <tr><td>aider gives <code>429</code> / rate-limit</td><td>Brief pause then retry the same command — DeepSeek rate-limits are generous; this is transient.</td></tr>
     <tr><td><code>./mend build</code> shows <span class="no">✗</span> dangling ref</td><td>A seam points to a non-existent id. In aider: "fix the seam whose <code>b</code> is X — seam to a joint id from the palette instead." Rebuild.</td></tr>
-    <tr><td>A shard came out badly / you want a redo</td><td><code>git checkout data/_fanout/&lt;id&gt;.json</code> (or delete it), then re-brief. The merge is rebuilt from scratch every time, so deletions are clean.</td></tr>
-    <tr><td>aider edited the wrong file / a commit you dislike</td><td><code>git log --oneline</code> then <code>git revert &lt;hash&gt;</code> — or <code>/undo</code> inside aider undoes its last commit.</td></tr>
+    <tr><td><code>make</code> says "invalid JSON" + saved a <code>.RAW.txt</code></td><td>DeepSeek emitted slightly-broken JSON (usually a trailing comma). Open the <code>.RAW.txt</code> to glance, or just re-run <code>./mend make &lt;id&gt;</code> — a fresh draft almost always parses.</td></tr>
+    <tr><td>A shard came out badly / you want a redo</td><td>Just <code>./mend make &lt;id&gt;</code> again — it overwrites. The merge rebuilds from scratch every time, so it's clean.</td></tr>
+    <tr><td>A commit you dislike</td><td><code>git log --oneline</code> then <code>git revert &lt;hash&gt;</code>, or <code>git reset --hard HEAD~1</code>.</td></tr>
     <tr><td>Everything feels wedged</td><td>You can always <code>git reset --hard HEAD</code> back to the last good commit. The baseline commit is your floor.</td></tr>
   </table>
 
