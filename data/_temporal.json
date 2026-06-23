@@ -510,6 +510,14 @@
       "living": false,
       "certainty": "attested",
       "note": "the tauroctony (bull-slaying); 7-grade cave initiation (auto-dated; refine later)"
+    },
+    "hermeticism": {
+      "from": -100,
+      "to": 2026,
+      "peak": 750,
+      "living": true,
+      "certainty": "attested",
+      "note": "Hermes Trismegistus & the Corpus Hermeticum; 'as above, so below'; the nous-ascent (auto-dated; refine later)"
     }
   },
   "figures": {

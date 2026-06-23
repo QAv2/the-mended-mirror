@@ -14,7 +14,7 @@ window.MIRROR_DATA = {
     "workingTitle": "The Mended Mirror",
     "subtitle": "a kintsugi of the world's pantheons",
     "purpose": "mending the mirror — so the one face can be seen again",
-    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 56 traditions, 447 figures, 32 archetype-joints.",
+    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 57 traditions, 457 figures, 32 archetype-joints.",
     "span": {
       "from": -50000,
       "to": 2026
@@ -604,6 +604,19 @@ window.MIRROR_DATA = {
         "living": true,
         "certainty": "attested",
         "note": "Settlement ~1000–1200; living revival."
+      }
+    },
+    "hermeticism": {
+      "name": "Hermeticism",
+      "region": "Greco-Roman Egypt",
+      "color": "#9a7fd0",
+      "period": {
+        "from": -100,
+        "to": 2026,
+        "peak": 750,
+        "living": true,
+        "certainty": "attested",
+        "note": "Hermes Trismegistus & the Corpus Hermeticum; 'as above, so below'; the nous-ascent (auto-dated; refine later)"
       }
     },
     "hittite": {
@@ -4154,6 +4167,130 @@ window.MIRROR_DATA = {
       "provenance": "Malo and Kamakau on the kapu and the aliʻi; Valerio Valeri, 'Kingship and Sacrifice' (1985); the wider Polynesian 'mana'/'tapu' literature (Codrington's original 'mana' report concerns Melanesia; the Hawaiian usage is treated by Valeri and Beckwith)."
     },
     {
+      "id": "hermeticism-hermes-trismegistus",
+      "tradition": "hermeticism",
+      "kind": "deity",
+      "name": "Hermes Trismegistus (Thrice-Great Hermes, the Scribe of the Gods)",
+      "archetypes": [
+        "culture-hero",
+        "psychopomp"
+      ],
+      "gloss": "The legendary author of the Corpus Hermeticum — a syncretic fusion of the Greek Hermes (messenger, psychopomp, god of writing) and the Egyptian Thoth (god of wisdom, magic, and the moon). Hermes Trismegistus is the revealer of gnosis, the one who teaches the way of ascent through the seven spheres to the Ogdoad (the eighth, the realm of Nous). He is both a god and a primordial sage, the 'thrice-great' who knows the three parts of wisdom: alchemy, astrology, and theurgy.",
+      "facet": "The thrice-great revealer: Hermes Trismegistus is not a dying-and-rising god, not a culture-hero who brings fire or law, but a scribe who reveals the hidden structure of the cosmos. His 'thrice-great' title (from Egyptian 'aa aa aa' — 'great, great, great') marks him as the mediator between the One and the many, the one who writes the book of the universe. He is the archetypal initiate who has ascended and returned to teach.",
+      "provenance": "Corpus Hermeticum (esp. Poimandres, Asclepius); Clement of Alexandria, Stromata; Lactantius, Divine Institutes; Iamblichus, De Mysteriis; Ficino's Latin translation (1471); Garth Fowden, The Egyptian Hermes (1986); Brian Copenhaver, Hermetica (1992)."
+    },
+    {
+      "id": "hermeticism-poimandres",
+      "tradition": "hermeticism",
+      "kind": "force",
+      "name": "Poimandres (the Shepherd of Men, the Nous of the Supreme)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "The divine Nous (Mind) that appears to Hermes Trismegistus in the first tractate of the Corpus Hermeticum — a radiant, boundless light that speaks as 'the Shepherd of Men.' Poimandres reveals the cosmogony: the One (the Monad) emanates the Nous, which emanates the Logos, which separates the elements and creates the seven planetary governors (the Hebdomad). Poimandres is the first emanation, the mind of God that contains the forms of all things.",
+      "facet": "The shepherd of light: Poimandres is not a creator god in the sense of a demiurge who shapes matter — he is the Nous that reveals the path of ascent. He is the light that is the source of all light, the 'shepherd' who guides the soul back to the One. Unlike the Gnostic Sophia, Poimandres does not fall or err; he is the perfect emanation that shows the way.",
+      "provenance": "Corpus Hermeticum I (Poimandres); Ficino's translation; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus (2018)."
+    },
+    {
+      "id": "hermeticism-nous",
+      "tradition": "hermeticism",
+      "kind": "concept",
+      "name": "Nous (the Divine Mind, the Intellect)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The central principle of Hermetic cosmology — the Nous is the first emanation from the One (the Monad), the divine intellect that contains the forms of all things. It is both the mind of God and the mind of the initiate who has been 'nousified' (nous-thesis). The goal of Hermetic practice is to 'become Nous' — to ascend through the spheres and reunite with the divine intellect. The Nous is the light that illuminates the darkness of matter.",
+      "facet": "The intellect that saves: in Hermeticism, salvation is not through faith or works but through gnosis — the knowledge that one's true self (the inner Nous) is identical with the divine Nous. The Nous is not a personal god but a state of being: the initiate becomes Nous by stripping away the layers of the planetary spheres. This is a soteriology of intellectual ascent, not of grace or sacrifice.",
+      "provenance": "Corpus Hermeticum I, IV, XI; Plotinus, Enneads (parallels); Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Antoine Faivre, The Eternal Hermes (1995)."
+    },
+    {
+      "id": "hermeticism-as-above-so-below",
+      "tradition": "hermeticism",
+      "kind": "principle",
+      "name": "The Principle of Correspondence ('As Above, So Below')",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The foundational Hermetic axiom — the macrocosm (the universe, the heavens) and the microcosm (the human being, the earth) are reflections of each other. The seven planetary spheres are mirrored in the seven metals, the seven organs, the seven days of the week. The Emerald Tablet states: 'That which is above is from that which is below, and that which is below is from that which is above.' This principle governs alchemy, astrology, and theurgy.",
+      "facet": "The mirror of the cosmos: 'As above, so below' is not a metaphor but a literal ontological claim — the human being is a microcosm that contains all the powers of the macrocosm. The initiate can manipulate the below (through alchemy, ritual) to affect the above, and vice versa. This is the basis of Hermetic magic: the universe is a web of correspondences, and the sage is the one who knows the threads.",
+      "provenance": "Emerald Tablet (Tabula Smaragdina, c. 6th-8th c. CE); Corpus Hermeticum XII; Ficino's translation; Julius Ruska, Tabula Smaragdina (1926); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    },
+    {
+      "id": "hermeticism-seven-spheres",
+      "tradition": "hermeticism",
+      "kind": "concept",
+      "name": "The Seven Planetary Spheres (the Hebdomad, the Spheres of Fate)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The seven concentric spheres of the planets (Moon, Mercury, Venus, Sun, Mars, Jupiter, Saturn) that surround the earth in Hermetic cosmology. Each sphere is ruled by a 'governor' (a planetary daimon) that imparts a quality to the soul — growth, desire, reason, etc. The soul descends through these spheres at birth, acquiring the passions and limitations of each. The Hermetic ascent is the reverse: the initiate strips away the influences of each sphere to reach the Ogdoad (the eighth, the realm of Nous).",
+      "facet": "The spheres as garments: the seven spheres are not heavens to be enjoyed but veils to be pierced. Each sphere adds a 'tunic' (a layer of passion, a planetary influence) to the soul, and the initiate must shed these tunics one by one to return to the One. The spheres are the realm of Heimarmene (Fate), and the Hermetic goal is to escape Fate by becoming Nous. This is a cosmology of liberation, not of reward.",
+      "provenance": "Corpus Hermeticum I (Poimandres), X, XIII; Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-ogdoad",
+      "tradition": "hermeticism",
+      "kind": "concept",
+      "name": "The Ogdoad (the Eighth Sphere, the Realm of Nous)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The eighth sphere beyond the seven planetary spheres — the realm of the fixed stars, the abode of the divine Nous. In Hermetic ascent, the initiate passes through the seven spheres, shedding their influences, and enters the Ogdoad, where he becomes 'nousified' and joins the choir of the gods. The Ogdoad is the threshold of the One (the Monad), the place where the soul recovers its original unity with the divine. It is the goal of the Hermetic path.",
+      "facet": "The eighth as return: the Ogdoad is not a heaven of eternal bliss but a state of being — the soul becomes Nous, and in becoming Nous, it remembers its origin. The Ogdoad is the 'eighth' because it is beyond the seven spheres of fate; it is the number of the covenant, the new creation. Unlike the Gnostic Pleroma, the Ogdoad is not a fullness of aeons but a single point of light: the Nous that is the image of the One.",
+      "provenance": "Corpus Hermeticum I (Poimandres), XIII; Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-emerald-tablet",
+      "tradition": "hermeticism",
+      "kind": "principle",
+      "name": "The Emerald Tablet (Tabula Smaragdina, the Tablet of Hermes)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A short, cryptic text attributed to Hermes Trismegistus, said to be inscribed on an emerald tablet — it contains the core principles of Hermetic alchemy and philosophy. The most famous line: 'That which is above is from that which is below, and that which is below is from that which is above.' The tablet describes the unity of the cosmos, the operation of the sun and moon, the generation of the One Thing (the Philosopher's Stone), and the ascent of the soul. It is the foundational text of Western alchemy.",
+      "facet": "The emerald as microcosm: the Emerald Tablet is not a philosophical treatise but a practical recipe — it is the formula for the Philosopher's Stone, the substance that transmutes base metals into gold and the soul into Nous. The tablet is said to be made of emerald, the stone of Mercury, the planet of Hermes. The text is a riddle that only the initiate can decode: 'The wind carried it in its belly' is the air, 'the earth is its nurse' is the prima materia. The tablet is the map of the cosmos in a single page.",
+      "provenance": "Emerald Tablet (Tabula Smaragdina, c. 6th-8th c. CE, earliest known in Arabic sources like the Kitab Sirr al-Asrar); Latin translation by Hugo of Santalla (12th c.); Julius Ruska, Tabula Smaragdina (1926); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    },
+    {
+      "id": "hermeticism-anthropos",
+      "tradition": "hermeticism",
+      "kind": "concept",
+      "name": "The Anthropos (the Primal Human, the Androgyne)",
+      "archetypes": [
+        "first-ancestor",
+        "complementarity"
+      ],
+      "gloss": "The primordial human being in Hermetic cosmogony — the Anthropos is the first creation of the Nous, a perfect androgynous being who descends through the seven spheres and falls in love with the lower world (Nature). The Anthropos is the archetype of humanity, the image of God, who becomes fragmented into individual souls. The Hermetic path is the reunification of the Anthropos — the recovery of the original androgynous unity through gnosis.",
+      "facet": "The fallen androgyne: the Anthropos is not a creator god but a mirror — he is the image of the Nous, and his fall is the result of love, not of sin. He looks down at Nature and sees his own reflection, and in that desire, he becomes entangled in matter. Unlike the Gnostic Sophia, the Anthropos does not fall through error but through eros. The Hermetic goal is not to escape the body but to reunite the divided self into the original androgyne.",
+      "provenance": "Corpus Hermeticum I (Poimandres), IV, X; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus; Antoine Faivre, The Eternal Hermes."
+    },
+    {
+      "id": "hermeticism-hermetic-rebirth",
+      "tradition": "hermeticism",
+      "kind": "rite",
+      "name": "The Hermetic Rebirth (the Generation of the Nous, the Baptism of Mind)",
+      "archetypes": [
+        "dying-rising",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The central rite of Hermetic initiation — described in Corpus Hermeticum XIII, where Hermes Trismegistus instructs his son Tat on the 'generation' (palingenesis) of the Nous. The initiate undergoes a symbolic death and rebirth, shedding the twelve 'torments' (anger, desire, ignorance, etc.) and receiving the ten 'powers' of the Nous (knowledge, joy, truth, etc.). The rebirth is not a physical baptism but a transformation of the mind: the initiate becomes a 'son of God' and enters the Ogdoad.",
+      "facet": "The birth of the mind: Hermetic rebirth is not a ritual of water or blood but of gnosis — the initiate is 'born again' by understanding the nature of the cosmos and the self. The twelve torments are the zodiacal influences, the ten powers are the divine names. The rite is a theurgic ascent: the initiate calls upon the powers of the Nous to strip away the old self and generate the new. There is no savior, no mediator — the initiate saves himself by knowing.",
+      "provenance": "Corpus Hermeticum XIII (On Rebirth); Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-hermetic-alchemy",
+      "tradition": "hermeticism",
+      "kind": "rite",
+      "name": "Hermetic Alchemy (the Opus, the Great Work)",
+      "archetypes": [
+        "smith"
+      ],
+      "gloss": "The practical and spiritual discipline of transmutation — the alchemist works with base metals (lead, tin, copper) to produce the Philosopher's Stone, which transmutes base metals into gold. But the outer work (the laboratory) mirrors the inner work (the soul): the alchemist purifies his own soul, stripping away the 'dross' of the planetary influences, to become the 'gold' of the Nous. The stages of the opus (nigredo, albedo, rubedo) correspond to the stages of the Hermetic ascent.",
+      "facet": "The laboratory as soul: Hermetic alchemy is not proto-chemistry but a theurgic art — the metals are symbols of the soul's states: lead is the uninitiated soul, silver is the purified soul, gold is the nousified soul. The Philosopher's Stone is the Nous itself, the 'stone that is not a stone.' The alchemist is the 'smith' who forges his own salvation through the opus. Unlike modern chemistry, the goal is not to understand matter but to transmute the self.",
+      "provenance": "Emerald Tablet; Zosimos of Panopolis, On the Virtue of the Letter Omega; Corpus Hermeticum XII; Ficino's translation; Carl Jung, Psychology and Alchemy (1944); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    },
+    {
       "id": "tarhunna",
       "tradition": "hittite",
       "kind": "deity",
@@ -5255,15 +5392,15 @@ window.MIRROR_DATA = {
       "id": "mithraism-mithras",
       "tradition": "mithraism",
       "kind": "deity",
-      "name": "Mithras (Sol Invictus Mithras, the Bull-Slayer)",
+      "name": "Mithras (the Invincible Sun, the Bull-Slayer)",
       "archetypes": [
-        "dying-rising",
         "solar",
+        "dying-rising",
         "culture-hero"
       ],
-      "gloss": "The central figure of the Roman mysteries — a youthful, Phrygian-capped god born from a rock (petra genetrix), who slays the primordial bull in a cave, an act that creates life, vegetation, and the cosmos. Mithras is identified with the sun (Sol Invictus) and is the savior who leads initiates through seven grades of purification toward immortality. He dines with Sol after the tauroctony and ascends to the heavens in Sol's chariot.",
-      "facet": "The rock-born bull-slayer: Mithras is not a dying-and-rising god in the agricultural sense — he is born fully adult from a rock, kills the bull as a creative act, and ascends without dying. His tauroctony is a cosmic sacrifice that generates life, not a seasonal cycle of death and rebirth. The cave is the cosmos, the bull is the moon/life-force, and Mithras is the agent of order.",
-      "provenance": "Iconography of tauroctony reliefs (over 400 known); CIMRM (Corpus Inscriptionum et Monumentorum Religionis Mithriacae); Porphyry, De Antro Nympharum; Justin Martyr, Dialogue with Trypho (polemical); Franz Cumont, The Mysteries of Mithra (1903); Roger Beck, The Religion of the Mithras Cult in the Roman Empire (2006)."
+      "gloss": "The central figure of the Roman mysteries — a young, solar god born from a rock (petra genitrix), who slays the primordial bull in a cave, creating life, grain, and wine from its blood and body. He is the Invincible Sun (Sol Invictus), the mediator between the celestial and earthly realms, and the savior who leads initiates through seven grades of ascent. His tauroctony is the iconic image of the cult.",
+      "facet": "The rock-born savior: Mithras is not born of a virgin or a god's union with a mortal — he emerges fully formed from a rock, holding a torch and a knife, already armed for the cosmic bull-slaying. There is no infancy narrative, no childhood, no mother. He simply appears, an adult god with a mission, and his birth is a geological event, not a biological one. This is a god of the cave and the stone, not the womb.",
+      "provenance": "Mithraic reliefs and inscriptions (CIMRM 1-2500); Porphyry, De Antro Nympharum; Justin Martyr, Dialogue with Trypho 70; Franz Cumont, The Mysteries of Mithra (1903); Roger Beck, The Religion of the Mithras Cult in the Roman Empire (2006)."
     },
     {
       "id": "mithraism-sol",
@@ -5273,109 +5410,107 @@ window.MIRROR_DATA = {
       "archetypes": [
         "solar"
       ],
-      "gloss": "The sun god who accompanies Mithras — Sol is depicted as a radiant youth driving a four-horse chariot, often shown shaking hands with Mithras or crowning him. In the tauroctony, Sol's raven serves as Mithras' messenger. Sol and Mithras share a feast after the bull-slaying, and Mithras eventually ascends in Sol's chariot. Sol is both a distinct deity and a hypostasis of Mithras.",
-      "facet": "The twin sun: Sol is both Mithras' ally and his divine counterpart — they are not identical but bound in a covenant of mutual honor. Mithras is the 'unconquered sun' but also a separate figure who earns Sol's respect through the bull-slaying. This dyad of two solar powers is unique: one is the celestial sun, the other is the savior who becomes the sun.",
-      "provenance": "Tauroctony reliefs (Sol in upper left corner); CIMRM 1-200; the Mithras liturgy (PGM IV.475-829); Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
+      "gloss": "The Roman sun god who shares Mithras' cave and feast — Sol is both a separate deity and a double of Mithras, often shown kneeling before Mithras or shaking his hand. In Mithraic iconography, Sol drives a four-horse chariot across the sky, and Mithras ascends with him at the end of his earthly mission. The two are sometimes identified, sometimes distinct.",
+      "facet": "The handshake of equals: Sol and Mithras are not master and servant but partners — they share a meal, a covenant, and an ascent. The handshake (dextrarum iunctio) between them is the central ritual gesture of the cult, symbolizing the initiate's own union with the divine. Sol is not eclipsed by Mithras but elevated alongside him.",
+      "provenance": "Mithraic reliefs (e.g., the Mithras-Sol handshake at the Santa Prisca mithraeum); CIMRM 480, 540; Beck, The Religion of the Mithras Cult; H. G. Speidel, Mithras-Orion: Greek Hero and Roman Army God (1980)."
     },
     {
       "id": "mithraism-cautes-cautopates",
       "tradition": "mithraism",
-      "kind": "force",
+      "kind": "deity",
       "name": "Cautes and Cautopates (the Torchbearers)",
       "archetypes": [
         "divine-twins",
         "complementarity"
       ],
-      "gloss": "Two torch-bearing youths who flank the tauroctony — Cautes holds his torch raised, Cautopates holds his lowered. They represent the equinoxes, the rising and setting of the sun, life and death, ascent and descent. Often depicted with crossed legs and Phrygian caps, they are the guardians of the cave's entrance and the cosmic poles. Their torches mark the passage of the soul through the seven grades.",
-      "facet": "The asymmetrical twins: unlike most divine twins (Castor/Pollux, Romulus/Remus), Cautes and Cautopates are not equal — one is up, one is down. They are not brothers but complementary forces: the rising and setting of the sun, the spring and autumn equinoxes, the ascent and descent of the soul. Their torches are the only light in the cave of the cosmos.",
-      "provenance": "Tauroctony reliefs (Cautes right, Cautopates left); CIMRM 1-200; Porphyry, De Antro Nympharum 24; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+      "gloss": "Two torch-bearing youths who flank Mithras in the tauroctony — Cautes holds his torch raised (symbolizing dawn, life, ascent), Cautopates holds his torch lowered (symbolizing dusk, death, descent). They are often identified with the equinoxes or the solstices, marking the cosmic axis of the sun's journey. They are Mithras' attendants and the guardians of the cave's thresholds.",
+      "facet": "The fixed polarity: unlike most divine twins who are rivals or brothers, Cautes and Cautopates are perfectly symmetrical and complementary — one always raised, one always lowered, never reversed. They are not individuals but positions, the two poles of a single axis. Their function is to mark the boundary between the celestial and the chthonic, the light and the dark, without conflict.",
+      "provenance": "Mithraic reliefs (CIMRM 368, 390, 400); Porphyry, De Antro Nympharum 24; Beck, The Religion of the Mithras Cult; Ugo Bianchi, The Mysteries of Mithras (1982)."
     },
     {
-      "id": "mithraism-tauroctony",
+      "id": "mithraism-tauroctony-bull",
       "tradition": "mithraism",
-      "kind": "rite",
-      "name": "Tauroctony (the Bull-Slaying)",
+      "kind": "creature",
+      "name": "The Primordial Bull (the Tauroctony's Victim)",
       "archetypes": [
-        "primordial-sacrifice",
-        "cosmic-order"
+        "primordial-sacrifice"
       ],
-      "gloss": "The central icon of Mithraism — Mithras, astride a bull, plunges a dagger into its neck while a dog leaps to lick the wound, a scorpion attacks the bull's genitals, and a snake drinks the blood. From the bull's tail spring ears of grain; from its blood, vines and life. The scene is set in a cave, framed by the zodiac and the torchbearers. The tauroctony is the cosmogonic act that creates the world.",
-      "facet": "The cosmic sacrifice: the tauroctony is not a hunting scene but a creation myth — the bull is the primordial life-force (the moon, the wet, the feminine), and its death generates the ordered cosmos. The dog, snake, and scorpion are constellations (Canis Minor, Hydra, Scorpius) that mark the celestial axis. The cave is the universe, and the bull's blood is the substance of life.",
-      "provenance": "Over 400 tauroctony reliefs across the Roman Empire; CIMRM; Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; David Ulansey, The Origins of the Mithraic Mysteries (1989)."
+      "gloss": "The cosmic bull slain by Mithras in the cave — from its blood spring grain and vines, from its body the creatures of the earth, and from its tail the wheat-ears that become the first bread. The bull is not evil but a primordial being whose death is necessary for creation. Its slaying is the central act of Mithraic cosmology, reenacted in every tauroctony relief.",
+      "facet": "The willing victim: the bull is not a monster to be conquered but a sacrificial animal whose death is a cosmic necessity. In some versions, the bull is the moon (Selene) or a creature of the primal waters, and its death is a dismemberment that orders the cosmos. Unlike the dragon slain by other gods, the bull is not an enemy — it is the source of life through its death.",
+      "provenance": "Mithraic reliefs (CIMRM 1-2500); Porphyry, De Antro Nympharum 18; Beck, The Religion of the Mithras Cult; David Ulansey, The Origins of the Mithraic Mysteries (1989)."
     },
     {
-      "id": "mithraism-petra-genetrix",
+      "id": "mithraism-leo",
       "tradition": "mithraism",
       "kind": "concept",
-      "name": "Petra Genetrix (the Rock-Birth, the Birth-Giving Stone)",
+      "name": "The Lion Grade (Leo, the Fiery Initiate)",
       "archetypes": [
-        "great-mother",
-        "emergence"
-      ],
-      "gloss": "The rock from which Mithras is born — depicted as a massive stone or cave wall from which the god emerges, fully adult, holding a torch and a dagger. The rock is sometimes personified as a female figure (the rock-mother) or marked with flames. Mithras is 'the god from the rock' (deus ex petra), born not of woman but of the earth itself, the primal matter of the cosmos.",
-      "facet": "The virgin rock: Mithras has no mother — he is born from a rock, a petra genitrix that is both womb and tomb. This is not a human birth but a theophany: the god emerges from the earth as the sun rises from the horizon. The rock is the cave, the cosmos, the unformed matter that gives birth to order. There is no goddess, no mother — only the stone that is the world.",
-      "provenance": "Rock-birth reliefs (e.g., CIMRM 1, 2, 3); Porphyry, De Antro Nympharum 6; Justin Martyr, Dialogue with Trypho 70; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
-    },
-    {
-      "id": "mithraism-seven-grades",
-      "tradition": "mithraism",
-      "kind": "rite",
-      "name": "The Seven Grades of Initiation (Corax, Nymphus, Miles, Leo, Perses, Heliodromus, Pater)",
-      "archetypes": [
-        "axis-mundi",
         "ecstatic-shaman"
       ],
-      "gloss": "The hierarchical initiation system of the Mithraic mysteries — each grade (Raven, Bridegroom, Soldier, Lion, Persian, Sun-Runner, Father) corresponds to a planet, a metal, a virtue, and a stage of the soul's ascent. Initiates progressed through seven ordeals, each conferring new knowledge and powers. The Pater (Father) presided over the cult, and the highest grade was the Heliodromus (Sun-Runner), who represented Sol himself.",
-      "facet": "The planetary ladder: the seven grades are not arbitrary ranks but a cosmic ascent — the soul climbs through the spheres of the planets (Moon, Venus, Mercury, Jupiter, Mars, Sun, Saturn) to reach the fixed stars. Each grade is a 'gate' that strips away earthly attachments. The initiate becomes a 'soldier' (miles) of Mithras, and the final grade is union with the sun. This is a soteriology of ascent, not descent.",
-      "provenance": "CIMRM 1-200 (grade inscriptions and mosaics); Porphyry, De Antro Nympharum 15-16; Jerome, Epistulae 107.2; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+      "gloss": "The fourth of the seven Mithraic grades — the Lion is the first 'participatory' grade, whose members tend the sacred fire and perform the ritual meals. The Lion wears a lion-mask or headdress, holds a sistrum (rattle), and is associated with the element of fire and the planet Jupiter. The Lion grade is the threshold between the lower (servant) grades and the higher (father) grades.",
+      "facet": "The roaring fire-keeper: the Lion is not a symbol of kingship but of purification through fire — the initiate must become a 'lion' to handle the sacred flame, and his roar is the sound of the spirit burning away impurity. The Lion grade is the first where the initiate actively serves the cult, not just passively receives instruction. The sistrum he shakes is the same instrument used in the cult of Isis, a sign of the mystery cult's shared ritual language.",
+      "provenance": "Mithraic inscriptions (CIMRM 480, 540); Porphyry, De Antro Nympharum 15-16; Jerome, Letters 107; Beck, The Religion of the Mithras Cult; M. J. Vermaseren, Mithraica I (1971)."
     },
     {
-      "id": "mithraism-mithraeum",
+      "id": "mithraism-pater",
       "tradition": "mithraism",
-      "kind": "place",
-      "name": "The Mithraeum (the Cave-Temple)",
+      "kind": "concept",
+      "name": "The Father Grade (Pater, the Perfect Initiate)",
       "archetypes": [
         "axis-mundi"
       ],
-      "gloss": "The underground temple of Mithras — a narrow, vaulted chamber designed as a 'cave' (specus) representing the cosmos. The tauroctony relief stood at the far end, flanked by benches where initiates reclined for the sacred meal. The ceiling was painted with stars and zodiacs, and the floor sometimes depicted the seven grades. The mithraeum was a microcosm: the cave was the universe, and the initiate's journey through it was the soul's ascent.",
-      "facet": "The artificial cave: mithraea were not natural caves but purpose-built underground chambers, often in the basements of Roman buildings. They were small (seating 20-30), dark, and windowless — the only light came from torches and lamps. The cave was the cosmos, the tauroctony was the axis mundi, and the benches were the planetary spheres. The initiate entered the cave as a mortal and emerged as a 'sun-runner.'",
-      "provenance": "Excavated mithraea (e.g., Santa Prisca, Dura-Europos, Carrawburgh); CIMRM; Porphyry, De Antro Nympharum; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+      "gloss": "The highest of the seven Mithraic grades — the Father is the leader of the mithraeum, the one who presides over the ritual meals and initiations. He wears a Phrygian cap, holds a staff and a ring, and is associated with the planet Saturn and the element of water. The Father is the living image of Mithras on earth, the mediator between the initiates and the god.",
+      "facet": "The earthly Mithras: the Father is not merely a priest but an incarnation — he is called 'pater' (father) and is the sole authority in the mithraeum, but he is also a fellow initiate who has passed through all the grades. His Phrygian cap is the same as Mithras' own, and his staff is the symbol of his power to bind and loose. The Father is the axis of the community, the point where the cave meets the cosmos.",
+      "provenance": "Mithraic inscriptions (CIMRM 480, 540); Porphyry, De Antro Nympharum 15-16; Jerome, Letters 107; Beck, The Religion of the Mithras Cult; Vermaseren, Mithraica I."
+    },
+    {
+      "id": "mithraism-cave",
+      "tradition": "mithraism",
+      "kind": "place",
+      "name": "The Mithraeum (the Cave, the Image of the Cosmos)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The underground temple where Mithraic initiates gathered — a long, narrow chamber with benches along the sides, a central aisle, and a tauroctony relief at the far end. The cave was understood as an 'image of the cosmos' (Porphyry), with the seven grades corresponding to the seven planetary spheres. The mithraeum was a microcosm of the universe, and the initiate's journey through it was a journey through the heavens.",
+      "facet": "The man-made cave: unlike most temples that are built above ground to face the sun, the mithraeum is deliberately subterranean — a cave built by human hands, often in the basement of a building or carved into a hillside. It is a womb of rebirth, a tomb of the old self, and a model of the cosmos all at once. The initiate descends into the earth to ascend to the stars.",
+      "provenance": "Porphyry, De Antro Nympharum 5-6, 20-24; Beck, The Religion of the Mithras Cult; L. M. White, The Social Origins of Christian Architecture (1990); J. R. Hinnells, Mithraic Studies (1975)."
+    },
+    {
+      "id": "mithraism-helped-animals",
+      "tradition": "mithraism",
+      "kind": "creature",
+      "name": "The Helper Animals (Dog, Snake, Scorpion, Raven)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "Four animals that appear in the tauroctony scene — the dog leaps up to lick the bull's blood, the snake drinks from the wound, the scorpion attacks the bull's genitals, and the raven perches on Mithras' billowing cloak. Each animal has a cosmic or astrological meaning: the dog is Sirius, the snake is the constellation Hydra, the scorpion is Scorpius, and the raven is Corvus. They are the witnesses and agents of the bull's sacrifice.",
+      "facet": "The astrological chorus: the animals are not random companions but fixed stars that mark the celestial equator in the ancient zodiac — they are the constellations that rise and set with the sun at the equinoxes. The tauroctony is a star map, and the animals are the coordinates. The dog, snake, scorpion, and raven are not helpers in the sense of allies but markers of the cosmic moment when the bull dies.",
+      "provenance": "Mithraic reliefs (CIMRM 1-2500); Beck, The Religion of the Mithras Cult; Ulansey, The Origins of the Mithraic Mysteries; Speidel, Mithras-Orion."
+    },
+    {
+      "id": "mithraism-leontocephalus",
+      "tradition": "mithraism",
+      "kind": "deity",
+      "name": "Aion (the Lion-Headed God, the Leontocephalus)",
+      "archetypes": [
+        "cosmic-adversary",
+        "underworld-sovereign"
+      ],
+      "gloss": "A enigmatic figure found in some mithraea — a human body with a lion's head, entwined by a serpent, holding keys and a thunderbolt, often standing on a globe. He is identified with Aion (Eternal Time), Zurvan (Zoroastrian infinite time), or Kronos/Saturn. He represents the unbounded, primordial time that encompasses the cycles of creation and destruction, and he is the guardian of the threshold between the mortal and immortal realms.",
+      "facet": "The terrifying eternity: the Leontocephalus is not a benevolent god but a figure of awe and dread — his lion's head is the devouring maw of time, his serpent is the endless cycle of rebirth, his keys unlock the gates of heaven and hell. He is the god who stands outside the Mithraic drama, the one who watches the bull-slaying from the perspective of eternity. He is not worshipped but acknowledged as the ground of all being.",
+      "provenance": "Mithraic reliefs (CIMRM 78, 695, 860); Porphyry, De Antro Nympharum 24; Beck, The Religion of the Mithras Cult; H. G. Speidel, Mithras-Orion; Ulansey, The Origins of the Mithraic Mysteries."
     },
     {
       "id": "mithraism-sacred-meal",
       "tradition": "mithraism",
       "kind": "rite",
-      "name": "The Sacred Meal (the Mithraic Feast)",
+      "name": "The Sacred Meal (the Mithraic Eucharist)",
       "archetypes": [
-        "dying-rising"
+        "primordial-sacrifice"
       ],
-      "gloss": "The ritual meal shared by initiates in the mithraeum — depicted on reliefs as Mithras and Sol reclining on a couch (sigma) with a bull's hide as a table, eating bread and drinking wine. The meal reenacts the feast after the tauroctony, where Mithras and Sol dined on the bull's flesh. Initiates, ranked by grade, shared a communal meal of bread, water, and wine, symbolizing their bond with the god and with each other.",
-      "facet": "The bull's flesh as sacrament: the Mithraic meal is not a memorial of a death but a celebration of a creation — the bull's body becomes the food that sustains the cosmos. Initiates eat the bull's flesh symbolically, becoming part of the cosmic order. Unlike the Christian Eucharist, there is no identification with a dying god; the meal is a feast of victory, not of sacrifice.",
-      "provenance": "Tauroctony reliefs (the banquet scene); CIMRM 1-200; Justin Martyr, First Apology 66 (polemical comparison to Eucharist); Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
-    },
-    {
-      "id": "mithraism-leontica",
-      "tradition": "mithraism",
-      "kind": "rite",
-      "name": "The Leontica (the Lion-Grade Rite)",
-      "archetypes": [
-        "dying-rising"
-      ],
-      "gloss": "A specific initiation rite for the fifth grade (Leo, the Lion) — the initiate was purified with honey, not water, and underwent a symbolic death and rebirth. The Lion was the 'fire-grade,' associated with the planet Jupiter and the element of fire. The initiate's hands were washed with honey to protect them from pollution, and he was 'born again' as a Lion of Mithras. The rite involved a ritual bath of fire (or honey) and the recitation of sacred formulas.",
-      "facet": "The honey-bath: unlike other mystery cults that used water for purification, the Mithraic Lion-grade used honey — the food of the gods, the preservative of the dead, the symbol of the golden age. The initiate was anointed with honey from head to toe, becoming 'incorruptible.' This is not a baptism but a 'honeying' that makes the initiate divine. The Lion is the grade of fire, and honey is the fire that does not burn.",
-      "provenance": "CIMRM 1-200 (inscriptions mentioning leones); Porphyry, De Antro Nympharum 15; Jerome, Epistulae 107.2; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
-    },
-    {
-      "id": "mithraism-ahriman",
-      "tradition": "mithraism",
-      "kind": "force",
-      "name": "Ahriman (the Lion-Headed God, Arimanius)",
-      "archetypes": [
-        "cosmic-adversary"
-      ],
-      "gloss": "A mysterious figure in Mithraic iconography — a lion-headed, serpent-entwined god with four wings, holding keys and a scepter, often identified with Ahriman (the Zoroastrian evil principle) or with Time (Aion). He is depicted on Mithraic altars and statues, sometimes with a thunderbolt on his chest. His role is ambiguous: he may represent the destructive aspect of time, the underworld, or the cosmic adversary that Mithras overcomes.",
-      "facet": "The bound adversary: unlike the Zoroastrian Ahriman, who is a co-eternal evil principle, the Mithraic lion-headed god is often shown bound or chained — he is a defeated power, not a rival. He may be the 'evil' that Mithras conquers in the tauroctony, or the god of time who devours all things. His lion head suggests the constellation Leo, and his serpent body the zodiac. He is the shadow that Mithras illuminates.",
-      "provenance": "CIMRM 1-200 (lion-headed god statues, e.g., from Ostia and Rome); Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; David Ulansey, The Origins of the Mithraic Mysteries."
+      "gloss": "A ritual reenactment of the feast shared by Mithras and Sol after the bull-slaying — initiates gathered in the mithraeum to share bread and wine (or water), often in the presence of the tauroctony relief. The meal was a communion with the divine, a foretaste of the celestial banquet, and a bond of brotherhood among the initiates. It was the central ritual of the cult, performed by the Father and the Lion grade.",
+      "facet": "The bloodless sacrifice: unlike the tauroctony itself, which is a violent death, the sacred meal is a feast of life — the bread and wine are the transformed body and blood of the bull, but no animal is killed in the ritual. The meal is a memorial of the primordial sacrifice, not a repetition of it. The initiates eat the god's gift, not the god himself.",
+      "provenance": "Mithraic reliefs (CIMRM 390, 400); Justin Martyr, First Apology 66 (comparing Mithraic meal to Christian Eucharist); Tertullian, De Praescriptione Haereticorum 40; Beck, The Religion of the Mithras Cult; Vermaseren, Mithraica I."
     },
     {
       "id": "changing-woman",
@@ -10356,6 +10491,293 @@ window.MIRROR_DATA = {
       "note": "The kapu as a Hawaiian face of impersonal cosmic law — the system of sacred prohibition that keeps mana and the world in right separation, kin in function to Ṛta, Maʿat, and hózhó, holiness made into binding order."
     },
     {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-poimandres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres appears to Hermes Trismegistus in the first tractate — the Nous reveals the cosmogony to the scribe. Hermes is the recipient of the revelation, Poimandres is the revealer."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-nous",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermes Trismegistus is the teacher of the Nous — he instructs Tat on how to become Nous. The Nous is both the goal and the means of Hermetic ascent."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-as-above-so-below",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The principle of correspondence is attributed to Hermes Trismegistus in the Emerald Tablet — it is the foundational axiom of Hermetic philosophy."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-seven-spheres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermes Trismegistus teaches the ascent through the seven spheres — the initiate must pass through the Hebdomad to reach the Ogdoad."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Ogdoad is the goal of the Hermetic path — Hermes Trismegistus reveals the way to enter the eighth sphere and become Nous."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-emerald-tablet",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet is attributed to Hermes Trismegistus — it is the foundational text of Hermetic alchemy and philosophy."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-anthropos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Anthropos is the primordial human whose fall and reunification is the subject of Hermetic teaching — Hermes Trismegistus reveals the path of return."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth is the central rite of initiation — Hermes Trismegistus instructs Tat on the generation of the Nous in Corpus Hermeticum XIII."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermetic alchemy is the practical discipline of transmutation — Hermes Trismegistus is the legendary author of the Emerald Tablet, the foundation of alchemy."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-nous",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres is the Nous — the Shepherd of Men is the divine intellect that reveals the cosmogony and the path of ascent."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-seven-spheres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres reveals the creation of the seven planetary governors (the Hebdomad) in the cosmogony of Corpus Hermeticum I."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres reveals the Ogdoad as the goal of the ascent — the eighth sphere beyond the seven spheres of fate."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Ogdoad is the realm of the Nous — the initiate becomes Nous by entering the eighth sphere."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "hermeticism-anthropos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Anthropos is the image of the Nous — the primordial human is the first creation of the divine intellect."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The seven spheres are the path to the Ogdoad — the initiate must pass through the Hebdomad to reach the eighth sphere."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth involves shedding the influences of the seven spheres — the twelve torments are the zodiacal powers."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "hermeticism-as-above-so-below",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet contains the principle of correspondence — 'That which is above is from that which is below' is the central axiom."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet is the foundational text of Hermetic alchemy — it contains the recipe for the Philosopher's Stone."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth is the reunification of the Anthropos — the initiate recovers the original androgynous unity through gnosis."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Both are processes of transmutation — the rebirth transmutes the soul, alchemy transmutes metals. The inner and outer works mirror each other."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the same figure — Hermes Trismegistus is the central figure of Hermeticism, also present in the Gnostic tradition as a revealer of wisdom. The seam is to the existing gnostic figure id."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermes Trismegistus is a syncretic fusion of Hermes and Thoth — both are gods of writing, wisdom, and magic. The Egyptian Thoth is the scribe of the gods, the measurer of time, the lord of the moon."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermes Trismegistus is identified with the Greek Hermes — both are messengers, psychopomps, and gods of boundaries. Hermes is the herald of the gods, the guide of souls, the inventor of the lyre."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermes Trismegistus is a culture-hero who brings wisdom, writing, and the knowledge of the cosmos to humanity — he is the revealer of the Hermetic arts."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermes Trismegistus is a psychopomp — he guides the soul through the seven spheres to the Ogdoad, just as Hermes guides souls to the underworld."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Poimandres is the Nous, the first emanation of the One — analogous to the Monad in Gnosticism, the first principle from which all things proceed. Both are the source of light and intellect."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Poimandres reveals the Ogdoad, the eighth sphere — analogous to the Gnostic Pleroma, the fullness of the divine aeons. Both are the realm of light beyond the material world."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Nous is the divine intellect within the human being — analogous to the Gnostic divine spark, the fragment of light that must be awakened and returned to the Pleroma."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Nous is the universal intellect that is both transcendent and immanent — analogous to Brahman, the ultimate reality that is the ground of all being. Both are the goal of gnosis."
+    },
+    {
+      "a": "hermeticism-as-above-so-below",
+      "b": "complementarity",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The principle of correspondence is a form of complementarity — the macrocosm and microcosm are reflections of each other, just as yin and yang are complementary opposites."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The seven spheres are a ladder of ascent — the initiate climbs through the planetary spheres to reach the Ogdoad, akin to the axis mundi that connects heaven and earth."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are cosmic mountains or spheres that the soul must ascend — the seven spheres are the planetary heavens, while Mount Sumeru is the axis of the Buddhist cosmos. Both represent the vertical structure of the universe."
+    },
+    {
+      "a": "hermeticism-ogdoad",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Ogdoad is the eighth sphere beyond the seven — analogous to the Gnostic Pleroma, the fullness of the divine aeons. Both are the realm of light and unity beyond the material world."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Emerald Tablet is a culture-hero artifact — it is the foundational text of Hermetic alchemy, a gift of wisdom from Hermes Trismegistus to humanity."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Anthropos is the primordial human who is the image of the Nous — analogous to Purusha, the cosmic man whose body becomes the universe in the Rig Veda. Both are androgynous and both are the source of creation."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "first-ancestor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Anthropos is the first ancestor — the primordial human from whom all individual souls descend. The Hermetic path is the return to the original unity."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Hermetic rebirth is a dying-and-rising rite — the initiate undergoes a symbolic death and is born again as a 'son of God.' The joint is instantiated by the transformation."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "ecstatic-shaman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Hermetic rebirth is a shamanic ascent — the initiate travels through the seven spheres, shedding the torments, and enters the Ogdoad. The soul-flight is the core of the ecstatic shaman's journey."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "smith",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermetic alchemy is the art of the smith — the alchemist works with fire and metals to transmute base matter into gold. The joint is instantiated by the transformative craft."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are masters of the forge — Hephaestus is the Greek god of smiths and fire, while the Hermetic alchemist is the 'smith' who transmutes metals and souls. The joint is instantiated by the transformative fire."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "goibniu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are smiths of the divine — Goibniu is the Celtic smith-god who forges weapons and brews the ale of immortality, while the Hermetic alchemist forges the Philosopher's Stone that grants eternal life."
+    },
+    {
       "a": "tarhunna",
       "b": "illuyanka",
       "type": "pairs",
@@ -12215,168 +12637,182 @@ window.MIRROR_DATA = {
       "b": "mithraism-sol",
       "type": "pairs",
       "tier": "2",
-      "note": "Mithras and Sol are bound in a covenant — Sol serves as Mithras' messenger (the raven), they feast together after the tauroctony, and Mithras ascends in Sol's chariot. They are two aspects of the same solar power."
+      "note": "Mithras and Sol are a bound dyad — they share a meal, a handshake, and an ascent. Sol is both a separate deity and a double of Mithras, and the two are often identified in later syncretism."
     },
     {
       "a": "mithraism-mithras",
       "b": "mithraism-cautes-cautopates",
       "type": "pairs",
       "tier": "2",
-      "note": "Cautes and Cautopates flank the tauroctony as the rising and setting sun — they are the guardians of the cave and the cosmic poles that Mithras' bull-slaying orders."
+      "note": "The torchbearers flank Mithras in the tauroctony, marking the cosmic axis of dawn and dusk, life and death. They are his attendants and the guardians of the cave's thresholds."
     },
     {
       "a": "mithraism-mithras",
-      "b": "mithraism-tauroctony",
+      "b": "mithraism-tauroctony-bull",
       "type": "pairs",
       "tier": "2",
-      "note": "The tauroctony is Mithras' defining act — he is the bull-slayer, and the bull-slaying is the cosmogonic event that creates the world. The figure and the rite are inseparable."
+      "note": "The bull is the victim of Mithras' central act — its death creates life, and the tauroctony is the defining image of the cult. The two are locked in a sacrificial dyad."
     },
     {
       "a": "mithraism-mithras",
-      "b": "mithraism-petra-genetrix",
+      "b": "mithraism-helped-animals",
       "type": "pairs",
       "tier": "2",
-      "note": "Mithras is born from the rock (petra genitrix) — the rock is his mother, his womb, and his origin. The rock-birth is the first act of the Mithraic drama."
+      "note": "The dog, snake, scorpion, and raven are the astrological witnesses to the bull-slaying — they are the fixed stars that mark the celestial equator in the ancient zodiac."
     },
     {
       "a": "mithraism-mithras",
-      "b": "mithraism-seven-grades",
+      "b": "mithraism-cave",
       "type": "pairs",
       "tier": "2",
-      "note": "The seven grades are the path to Mithras — each grade brings the initiate closer to the god, culminating in the Heliodromus (Sun-Runner) who represents Sol and the Pater who represents Mithras."
+      "note": "The mithraeum is the cave where Mithras slays the bull and where initiates gather — it is the image of the cosmos and the stage for the Mithraic drama."
     },
     {
-      "a": "mithraism-tauroctony",
+      "a": "mithraism-mithras",
+      "b": "mithraism-leo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Lion grade tends the sacred fire and performs the ritual meals — the Lion is the first participatory grade, and his fire is the element of Mithras' solar nature."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-pater",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Father is the living image of Mithras on earth — he wears the Phrygian cap, holds the staff, and presides over the mithraeum as the mediator between initiates and the god."
+    },
+    {
+      "a": "mithraism-mithras",
       "b": "mithraism-sacred-meal",
       "type": "pairs",
       "tier": "2",
-      "note": "The sacred meal reenacts the feast after the tauroctony — the bull's body becomes the food that sustains the initiates, just as it sustains the cosmos."
-    },
-    {
-      "a": "mithraism-seven-grades",
-      "b": "mithraism-leontica",
-      "type": "pairs",
-      "tier": "2",
-      "note": "The Leontica is the initiation rite for the fifth grade (Leo) — the honey-bath purifies the Lion-grade initiate and marks his transition to a higher level of the cosmic ascent."
+      "note": "The sacred meal reenacts the feast of Mithras and Sol after the bull-slaying — it is the central ritual of the cult, a communion with the divine through bread and wine."
     },
     {
       "a": "mithraism-mithras",
-      "b": "mithraism-ahriman",
+      "b": "mithraism-leontocephalus",
       "type": "pairs",
       "tier": "2",
-      "note": "Ahriman is the lion-headed adversary that Mithras overcomes — the tauroctony may represent the defeat of the evil principle, and the bound lion-headed god is the conquered enemy."
-    },
-    {
-      "a": "mithraism-mithras",
-      "b": "mithraism-mithraeum",
-      "type": "pairs",
-      "tier": "2",
-      "note": "The mithraeum is the cave-temple where Mithras dwells and where the tauroctony is reenacted — it is the cosmos in miniature, and the initiate's journey through it is the soul's ascent."
+      "note": "The Leontocephalus is the figure of eternal time that encompasses the Mithraic drama — he is the ground of the bull-slaying, the one who watches from outside time."
     },
     {
       "a": "mithraism-mithras",
       "b": "mithra-iran",
       "type": "analogous",
       "tier": "3",
-      "note": "GOLD SEAM: Both are solar deities of covenant and light — the Iranian Mithra is a god of contracts and the sun, while the Roman Mithras is a bull-slaying savior. The name is cognate (from *mitra), but the cults are historically distinct and the Roman figure is a syncretic creation."
+      "note": "GOLD SEAM: Both are solar, covenant-keeping gods who mediate between heaven and earth — but the Roman Mithras is a bull-slaying savior in a cave, while the Iranian Mithra is a judge and warrior of the open sky. The two share a name and some solar traits but diverge radically in myth and cult."
     },
     {
       "a": "mithraism-mithras",
       "b": "dying-rising",
       "type": "analogous",
       "tier": "3",
-      "note": "Mithras is a dying-rising figure in the sense that he is born from a rock, performs a cosmogonic sacrifice, and ascends to the heavens — but he does not die and rise in the agricultural cycle. The joint is instantiated with a caveat."
+      "note": "Mithras dies and rises in the sense that he ascends to the heavens after his earthly mission — but his death is not a crucifixion or a descent to the underworld. He is a solar god who sets and rises, not a dying-and-rising vegetation god."
     },
     {
       "a": "mithraism-mithras",
       "b": "culture-hero",
       "type": "analogous",
       "tier": "3",
-      "note": "Mithras is a culture-hero who brings order to the cosmos through the bull-slaying — he creates life, vegetation, and the celestial order. The joint is instantiated by his creative act."
+      "note": "Mithras brings civilization through the bull-slaying — grain, wine, and life spring from the bull's blood. He is a culture-hero who transforms the primordial chaos into order."
     },
     {
-      "a": "mithraism-tauroctony",
-      "b": "primordial-sacrifice",
+      "a": "mithraism-sol",
+      "b": "surya",
       "type": "analogous",
       "tier": "3",
-      "note": "The tauroctony is a primordial sacrifice — the bull is dismembered to create the world, just as Purusha is dismembered in the Vedic hymn. The joint is instantiated by the cosmogonic killing."
+      "note": "GOLD SEAM: Both are solar gods who drive a chariot across the sky — Sol Invictus is the Roman sun, Surya is the Vedic sun. Both are associated with light, truth, and the daily cycle."
     },
     {
-      "a": "mithraism-tauroctony",
-      "b": "purusha-prakriti",
+      "a": "mithraism-sol",
+      "b": "helios",
       "type": "analogous",
       "tier": "3",
-      "note": "GOLD SEAM: Both are cosmogonic sacrifices — the bull's body becomes the world in Mithraism, while Purusha's body becomes the cosmos in the Rig Veda. The bull is the primordial life-force, and its dismemberment is the act of creation."
-    },
-    {
-      "a": "mithraism-petra-genetrix",
-      "b": "great-mother",
-      "type": "analogous",
-      "tier": "3",
-      "note": "The rock that gives birth to Mithras is a great-mother figure — it is the primal matter, the earth, the womb of the cosmos. The joint is instantiated by the rock-birth."
+      "note": "GOLD SEAM: Both are the sun personified — Helios is the Greek sun god who drives a four-horse chariot, and Sol is his Roman counterpart. The two were often syncretized in the Roman period."
     },
     {
       "a": "mithraism-cautes-cautopates",
       "b": "divine-twins",
       "type": "analogous",
       "tier": "3",
-      "note": "Cautes and Cautopates are divine twins — they flank the tauroctony as the rising and setting sun, the equinoxes, the poles of the cosmos. The joint is instantiated by their complementary asymmetry."
+      "note": "The torchbearers are a fixed polarity of raised and lowered torches — they are the divine-twins joint made symmetrical and complementary, without rivalry."
     },
     {
       "a": "mithraism-cautes-cautopates",
-      "b": "hero-twins",
+      "b": "yin-yang",
       "type": "analogous",
-      "tier": "3",
-      "note": "GOLD SEAM: Both are pairs of complementary figures — Cautes and Cautopates are the torchbearers of Mithras, while the Hero Twins (Hunahpu and Xbalanque) are the ballplayers of the Popol Vuh. Both represent the dual nature of the cosmos."
+      "tier": "4",
+      "note": "Both are complementary polarities — Cautes and Cautopates are raised/lowered, dawn/dusk, while yin-yang is dark/light, passive/active. A loose structural echo of complementarity, flagged."
     },
     {
-      "a": "mithraism-seven-grades",
-      "b": "axis-mundi",
+      "a": "mithraism-tauroctony-bull",
+      "b": "primordial-sacrifice",
       "type": "analogous",
       "tier": "3",
-      "note": "The seven grades are a ladder of ascent through the planetary spheres — the initiate climbs the axis mundi from the cave to the fixed stars. The joint is instantiated by the vertical cosmology."
+      "note": "The bull is a primordial being whose dismemberment creates the world — this is the primordial-sacrifice joint, also seen in Purusha (Vedic) and Ymir (Norse)."
     },
     {
-      "a": "mithraism-seven-grades",
+      "a": "mithraism-tauroctony-bull",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are primordial beings whose sacrifice creates the cosmos — the bull's blood becomes grain and wine, Purusha's body becomes the four varnas and the cosmos. The structure of sacrifice-as-creation is identical."
+    },
+    {
+      "a": "mithraism-leo",
       "b": "ecstatic-shaman",
       "type": "analogous",
       "tier": "3",
-      "note": "The Mithraic initiate undergoes a soul-flight through the seven planetary spheres — this is a shamanic ascent, akin to the soul-travel of the ecstatic shaman. The joint is instantiated by the graded initiation."
+      "note": "The Lion grade tends the sacred fire and performs rituals — the Lion is a fire-keeper and a shamanic figure who mediates between the mundane and the divine through the element of fire."
     },
     {
-      "a": "mithraism-mithraeum",
+      "a": "mithraism-pater",
       "b": "axis-mundi",
       "type": "analogous",
       "tier": "3",
-      "note": "The mithraeum is a microcosm — the cave is the universe, the tauroctony is the center, and the benches are the planetary spheres. The initiate's journey through the cave is the soul's ascent of the axis mundi."
+      "note": "The Father is the axis of the mithraeum — he is the living image of Mithras, the mediator between the initiates and the god, and the point where the cave meets the cosmos."
+    },
+    {
+      "a": "mithraism-cave",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The mithraeum is an image of the cosmos — the cave is the axis mundi where the initiate descends to ascend, a microcosm of the universe."
+    },
+    {
+      "a": "mithraism-helped-animals",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The dog, snake, and raven are psychopompic animals in many traditions — the dog guides souls, the snake is a guardian of thresholds, the raven is a messenger. A loose parallel, flagged."
+    },
+    {
+      "a": "mithraism-leontocephalus",
+      "b": "underworld-sovereign",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Leontocephalus is a figure of eternal time who guards the threshold between life and death — he is an underworld sovereign who holds the keys to heaven and hell."
+    },
+    {
+      "a": "mithraism-leontocephalus",
+      "b": "shiva",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are figures of time and destruction — the Leontocephalus is the devouring maw of eternity, Shiva is the destroyer who dances the cosmos into and out of existence. A loose parallel of the terrifying aspect of time, flagged."
     },
     {
       "a": "mithraism-sacred-meal",
-      "b": "dying-rising",
+      "b": "primordial-sacrifice",
       "type": "analogous",
       "tier": "3",
-      "note": "The sacred meal reenacts the feast after the tauroctony — the bull's flesh is the food of immortality, and the meal is a ritual of bonding with the god. The joint is instantiated by the communal feast."
+      "note": "The sacred meal reenacts the feast after the bull-slaying — it is a memorial of the primordial sacrifice, a communion with the divine through the transformed body and blood of the bull."
     },
     {
-      "a": "mithraism-leontica",
-      "b": "dying-rising",
+      "a": "mithraism-sacred-meal",
+      "b": "christ",
       "type": "analogous",
       "tier": "3",
-      "note": "The Leontica involves a symbolic death and rebirth — the initiate is purified with honey and 'born again' as a Lion of Mithras. The joint is instantiated by the initiation rite."
-    },
-    {
-      "a": "mithraism-ahriman",
-      "b": "angra-mainyu",
-      "type": "analogous",
-      "tier": "3",
-      "note": "GOLD SEAM: Both are adversarial forces — the Mithraic lion-headed god is identified with Ahriman, the Zoroastrian evil principle. But the Mithraic figure is bound and defeated, while Angra Mainyu is a co-eternal opponent. The name is cognate, but the theology diverges."
-    },
-    {
-      "a": "mithraism-ahriman",
-      "b": "cosmic-adversary",
-      "type": "analogous",
-      "tier": "3",
-      "note": "The lion-headed god is a cosmic adversary — he represents the destructive aspect of time, the underworld, or the evil that Mithras overcomes. The joint is instantiated by his adversarial role."
+      "note": "GOLD SEAM: Both are ritual meals of bread and wine that commemorate a sacrificial death — the Mithraic meal reenacts the feast of Mithras and Sol, the Christian Eucharist reenacts the Last Supper. The parallel was noted by early Christian apologists (Justin Martyr, Tertullian)."
     },
     {
       "a": "changing-woman",

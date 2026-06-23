@@ -1,0 +1,414 @@
+{
+  "tradition": {
+    "id": "hermeticism",
+    "name": "Hermeticism",
+    "region": "Greco-Roman Egypt",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "hermeticism-hermes-trismegistus",
+      "kind": "deity",
+      "name": "Hermes Trismegistus (Thrice-Great Hermes, the Scribe of the Gods)",
+      "archetypes": [
+        "culture-hero",
+        "psychopomp"
+      ],
+      "gloss": "The legendary author of the Corpus Hermeticum — a syncretic fusion of the Greek Hermes (messenger, psychopomp, god of writing) and the Egyptian Thoth (god of wisdom, magic, and the moon). Hermes Trismegistus is the revealer of gnosis, the one who teaches the way of ascent through the seven spheres to the Ogdoad (the eighth, the realm of Nous). He is both a god and a primordial sage, the 'thrice-great' who knows the three parts of wisdom: alchemy, astrology, and theurgy.",
+      "facet": "The thrice-great revealer: Hermes Trismegistus is not a dying-and-rising god, not a culture-hero who brings fire or law, but a scribe who reveals the hidden structure of the cosmos. His 'thrice-great' title (from Egyptian 'aa aa aa' — 'great, great, great') marks him as the mediator between the One and the many, the one who writes the book of the universe. He is the archetypal initiate who has ascended and returned to teach.",
+      "provenance": "Corpus Hermeticum (esp. Poimandres, Asclepius); Clement of Alexandria, Stromata; Lactantius, Divine Institutes; Iamblichus, De Mysteriis; Ficino's Latin translation (1471); Garth Fowden, The Egyptian Hermes (1986); Brian Copenhaver, Hermetica (1992)."
+    },
+    {
+      "id": "hermeticism-poimandres",
+      "kind": "force",
+      "name": "Poimandres (the Shepherd of Men, the Nous of the Supreme)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "The divine Nous (Mind) that appears to Hermes Trismegistus in the first tractate of the Corpus Hermeticum — a radiant, boundless light that speaks as 'the Shepherd of Men.' Poimandres reveals the cosmogony: the One (the Monad) emanates the Nous, which emanates the Logos, which separates the elements and creates the seven planetary governors (the Hebdomad). Poimandres is the first emanation, the mind of God that contains the forms of all things.",
+      "facet": "The shepherd of light: Poimandres is not a creator god in the sense of a demiurge who shapes matter — he is the Nous that reveals the path of ascent. He is the light that is the source of all light, the 'shepherd' who guides the soul back to the One. Unlike the Gnostic Sophia, Poimandres does not fall or err; he is the perfect emanation that shows the way.",
+      "provenance": "Corpus Hermeticum I (Poimandres); Ficino's translation; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus (2018)."
+    },
+    {
+      "id": "hermeticism-nous",
+      "kind": "concept",
+      "name": "Nous (the Divine Mind, the Intellect)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The central principle of Hermetic cosmology — the Nous is the first emanation from the One (the Monad), the divine intellect that contains the forms of all things. It is both the mind of God and the mind of the initiate who has been 'nousified' (nous-thesis). The goal of Hermetic practice is to 'become Nous' — to ascend through the spheres and reunite with the divine intellect. The Nous is the light that illuminates the darkness of matter.",
+      "facet": "The intellect that saves: in Hermeticism, salvation is not through faith or works but through gnosis — the knowledge that one's true self (the inner Nous) is identical with the divine Nous. The Nous is not a personal god but a state of being: the initiate becomes Nous by stripping away the layers of the planetary spheres. This is a soteriology of intellectual ascent, not of grace or sacrifice.",
+      "provenance": "Corpus Hermeticum I, IV, XI; Plotinus, Enneads (parallels); Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Antoine Faivre, The Eternal Hermes (1995)."
+    },
+    {
+      "id": "hermeticism-as-above-so-below",
+      "kind": "principle",
+      "name": "The Principle of Correspondence ('As Above, So Below')",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The foundational Hermetic axiom — the macrocosm (the universe, the heavens) and the microcosm (the human being, the earth) are reflections of each other. The seven planetary spheres are mirrored in the seven metals, the seven organs, the seven days of the week. The Emerald Tablet states: 'That which is above is from that which is below, and that which is below is from that which is above.' This principle governs alchemy, astrology, and theurgy.",
+      "facet": "The mirror of the cosmos: 'As above, so below' is not a metaphor but a literal ontological claim — the human being is a microcosm that contains all the powers of the macrocosm. The initiate can manipulate the below (through alchemy, ritual) to affect the above, and vice versa. This is the basis of Hermetic magic: the universe is a web of correspondences, and the sage is the one who knows the threads.",
+      "provenance": "Emerald Tablet (Tabula Smaragdina, c. 6th-8th c. CE); Corpus Hermeticum XII; Ficino's translation; Julius Ruska, Tabula Smaragdina (1926); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    },
+    {
+      "id": "hermeticism-seven-spheres",
+      "kind": "concept",
+      "name": "The Seven Planetary Spheres (the Hebdomad, the Spheres of Fate)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The seven concentric spheres of the planets (Moon, Mercury, Venus, Sun, Mars, Jupiter, Saturn) that surround the earth in Hermetic cosmology. Each sphere is ruled by a 'governor' (a planetary daimon) that imparts a quality to the soul — growth, desire, reason, etc. The soul descends through these spheres at birth, acquiring the passions and limitations of each. The Hermetic ascent is the reverse: the initiate strips away the influences of each sphere to reach the Ogdoad (the eighth, the realm of Nous).",
+      "facet": "The spheres as garments: the seven spheres are not heavens to be enjoyed but veils to be pierced. Each sphere adds a 'tunic' (a layer of passion, a planetary influence) to the soul, and the initiate must shed these tunics one by one to return to the One. The spheres are the realm of Heimarmene (Fate), and the Hermetic goal is to escape Fate by becoming Nous. This is a cosmology of liberation, not of reward.",
+      "provenance": "Corpus Hermeticum I (Poimandres), X, XIII; Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-ogdoad",
+      "kind": "concept",
+      "name": "The Ogdoad (the Eighth Sphere, the Realm of Nous)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The eighth sphere beyond the seven planetary spheres — the realm of the fixed stars, the abode of the divine Nous. In Hermetic ascent, the initiate passes through the seven spheres, shedding their influences, and enters the Ogdoad, where he becomes 'nousified' and joins the choir of the gods. The Ogdoad is the threshold of the One (the Monad), the place where the soul recovers its original unity with the divine. It is the goal of the Hermetic path.",
+      "facet": "The eighth as return: the Ogdoad is not a heaven of eternal bliss but a state of being — the soul becomes Nous, and in becoming Nous, it remembers its origin. The Ogdoad is the 'eighth' because it is beyond the seven spheres of fate; it is the number of the covenant, the new creation. Unlike the Gnostic Pleroma, the Ogdoad is not a fullness of aeons but a single point of light: the Nous that is the image of the One.",
+      "provenance": "Corpus Hermeticum I (Poimandres), XIII; Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-emerald-tablet",
+      "kind": "principle",
+      "name": "The Emerald Tablet (Tabula Smaragdina, the Tablet of Hermes)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A short, cryptic text attributed to Hermes Trismegistus, said to be inscribed on an emerald tablet — it contains the core principles of Hermetic alchemy and philosophy. The most famous line: 'That which is above is from that which is below, and that which is below is from that which is above.' The tablet describes the unity of the cosmos, the operation of the sun and moon, the generation of the One Thing (the Philosopher's Stone), and the ascent of the soul. It is the foundational text of Western alchemy.",
+      "facet": "The emerald as microcosm: the Emerald Tablet is not a philosophical treatise but a practical recipe — it is the formula for the Philosopher's Stone, the substance that transmutes base metals into gold and the soul into Nous. The tablet is said to be made of emerald, the stone of Mercury, the planet of Hermes. The text is a riddle that only the initiate can decode: 'The wind carried it in its belly' is the air, 'the earth is its nurse' is the prima materia. The tablet is the map of the cosmos in a single page.",
+      "provenance": "Emerald Tablet (Tabula Smaragdina, c. 6th-8th c. CE, earliest known in Arabic sources like the Kitab Sirr al-Asrar); Latin translation by Hugo of Santalla (12th c.); Julius Ruska, Tabula Smaragdina (1926); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    },
+    {
+      "id": "hermeticism-anthropos",
+      "kind": "concept",
+      "name": "The Anthropos (the Primal Human, the Androgyne)",
+      "archetypes": [
+        "first-ancestor",
+        "complementarity"
+      ],
+      "gloss": "The primordial human being in Hermetic cosmogony — the Anthropos is the first creation of the Nous, a perfect androgynous being who descends through the seven spheres and falls in love with the lower world (Nature). The Anthropos is the archetype of humanity, the image of God, who becomes fragmented into individual souls. The Hermetic path is the reunification of the Anthropos — the recovery of the original androgynous unity through gnosis.",
+      "facet": "The fallen androgyne: the Anthropos is not a creator god but a mirror — he is the image of the Nous, and his fall is the result of love, not of sin. He looks down at Nature and sees his own reflection, and in that desire, he becomes entangled in matter. Unlike the Gnostic Sophia, the Anthropos does not fall through error but through eros. The Hermetic goal is not to escape the body but to reunite the divided self into the original androgyne.",
+      "provenance": "Corpus Hermeticum I (Poimandres), IV, X; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus; Antoine Faivre, The Eternal Hermes."
+    },
+    {
+      "id": "hermeticism-hermetic-rebirth",
+      "kind": "rite",
+      "name": "The Hermetic Rebirth (the Generation of the Nous, the Baptism of Mind)",
+      "archetypes": [
+        "dying-rising",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The central rite of Hermetic initiation — described in Corpus Hermeticum XIII, where Hermes Trismegistus instructs his son Tat on the 'generation' (palingenesis) of the Nous. The initiate undergoes a symbolic death and rebirth, shedding the twelve 'torments' (anger, desire, ignorance, etc.) and receiving the ten 'powers' of the Nous (knowledge, joy, truth, etc.). The rebirth is not a physical baptism but a transformation of the mind: the initiate becomes a 'son of God' and enters the Ogdoad.",
+      "facet": "The birth of the mind: Hermetic rebirth is not a ritual of water or blood but of gnosis — the initiate is 'born again' by understanding the nature of the cosmos and the self. The twelve torments are the zodiacal influences, the ten powers are the divine names. The rite is a theurgic ascent: the initiate calls upon the powers of the Nous to strip away the old self and generate the new. There is no savior, no mediator — the initiate saves himself by knowing.",
+      "provenance": "Corpus Hermeticum XIII (On Rebirth); Iamblichus, De Mysteriis; Garth Fowden, The Egyptian Hermes; Brian Copenhaver, Hermetica; Christian Bull, The Tradition of Hermes Trismegistus."
+    },
+    {
+      "id": "hermeticism-hermetic-alchemy",
+      "kind": "rite",
+      "name": "Hermetic Alchemy (the Opus, the Great Work)",
+      "archetypes": [
+        "smith"
+      ],
+      "gloss": "The practical and spiritual discipline of transmutation — the alchemist works with base metals (lead, tin, copper) to produce the Philosopher's Stone, which transmutes base metals into gold. But the outer work (the laboratory) mirrors the inner work (the soul): the alchemist purifies his own soul, stripping away the 'dross' of the planetary influences, to become the 'gold' of the Nous. The stages of the opus (nigredo, albedo, rubedo) correspond to the stages of the Hermetic ascent.",
+      "facet": "The laboratory as soul: Hermetic alchemy is not proto-chemistry but a theurgic art — the metals are symbols of the soul's states: lead is the uninitiated soul, silver is the purified soul, gold is the nousified soul. The Philosopher's Stone is the Nous itself, the 'stone that is not a stone.' The alchemist is the 'smith' who forges his own salvation through the opus. Unlike modern chemistry, the goal is not to understand matter but to transmute the self.",
+      "provenance": "Emerald Tablet; Zosimos of Panopolis, On the Virtue of the Letter Omega; Corpus Hermeticum XII; Ficino's translation; Carl Jung, Psychology and Alchemy (1944); Antoine Faivre, The Eternal Hermes; Brian Copenhaver, Hermetica."
+    }
+  ],
+  "edges": [
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-poimandres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres appears to Hermes Trismegistus in the first tractate — the Nous reveals the cosmogony to the scribe. Hermes is the recipient of the revelation, Poimandres is the revealer."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-nous",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermes Trismegistus is the teacher of the Nous — he instructs Tat on how to become Nous. The Nous is both the goal and the means of Hermetic ascent."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-as-above-so-below",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The principle of correspondence is attributed to Hermes Trismegistus in the Emerald Tablet — it is the foundational axiom of Hermetic philosophy."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-seven-spheres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermes Trismegistus teaches the ascent through the seven spheres — the initiate must pass through the Hebdomad to reach the Ogdoad."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Ogdoad is the goal of the Hermetic path — Hermes Trismegistus reveals the way to enter the eighth sphere and become Nous."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-emerald-tablet",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet is attributed to Hermes Trismegistus — it is the foundational text of Hermetic alchemy and philosophy."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-anthropos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Anthropos is the primordial human whose fall and reunification is the subject of Hermetic teaching — Hermes Trismegistus reveals the path of return."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth is the central rite of initiation — Hermes Trismegistus instructs Tat on the generation of the Nous in Corpus Hermeticum XIII."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hermetic alchemy is the practical discipline of transmutation — Hermes Trismegistus is the legendary author of the Emerald Tablet, the foundation of alchemy."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-nous",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres is the Nous — the Shepherd of Men is the divine intellect that reveals the cosmogony and the path of ascent."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-seven-spheres",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres reveals the creation of the seven planetary governors (the Hebdomad) in the cosmogony of Corpus Hermeticum I."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Poimandres reveals the Ogdoad as the goal of the ascent — the eighth sphere beyond the seven spheres of fate."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Ogdoad is the realm of the Nous — the initiate becomes Nous by entering the eighth sphere."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "hermeticism-anthropos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Anthropos is the image of the Nous — the primordial human is the first creation of the divine intellect."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "hermeticism-ogdoad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The seven spheres are the path to the Ogdoad — the initiate must pass through the Hebdomad to reach the eighth sphere."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth involves shedding the influences of the seven spheres — the twelve torments are the zodiacal powers."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "hermeticism-as-above-so-below",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet contains the principle of correspondence — 'That which is above is from that which is below' is the central axiom."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emerald Tablet is the foundational text of Hermetic alchemy — it contains the recipe for the Philosopher's Stone."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "hermeticism-hermetic-rebirth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Hermetic rebirth is the reunification of the Anthropos — the initiate recovers the original androgynous unity through gnosis."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "hermeticism-hermetic-alchemy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Both are processes of transmutation — the rebirth transmutes the soul, alchemy transmutes metals. The inner and outer works mirror each other."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the same figure — Hermes Trismegistus is the central figure of Hermeticism, also present in the Gnostic tradition as a revealer of wisdom. The seam is to the existing gnostic figure id."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermes Trismegistus is a syncretic fusion of Hermes and Thoth — both are gods of writing, wisdom, and magic. The Egyptian Thoth is the scribe of the gods, the measurer of time, the lord of the moon."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermes Trismegistus is identified with the Greek Hermes — both are messengers, psychopomps, and gods of boundaries. Hermes is the herald of the gods, the guide of souls, the inventor of the lyre."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermes Trismegistus is a culture-hero who brings wisdom, writing, and the knowledge of the cosmos to humanity — he is the revealer of the Hermetic arts."
+    },
+    {
+      "a": "hermeticism-hermes-trismegistus",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermes Trismegistus is a psychopomp — he guides the soul through the seven spheres to the Ogdoad, just as Hermes guides souls to the underworld."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Poimandres is the Nous, the first emanation of the One — analogous to the Monad in Gnosticism, the first principle from which all things proceed. Both are the source of light and intellect."
+    },
+    {
+      "a": "hermeticism-poimandres",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Poimandres reveals the Ogdoad, the eighth sphere — analogous to the Gnostic Pleroma, the fullness of the divine aeons. Both are the realm of light beyond the material world."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Nous is the divine intellect within the human being — analogous to the Gnostic divine spark, the fragment of light that must be awakened and returned to the Pleroma."
+    },
+    {
+      "a": "hermeticism-nous",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Nous is the universal intellect that is both transcendent and immanent — analogous to Brahman, the ultimate reality that is the ground of all being. Both are the goal of gnosis."
+    },
+    {
+      "a": "hermeticism-as-above-so-below",
+      "b": "complementarity",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The principle of correspondence is a form of complementarity — the macrocosm and microcosm are reflections of each other, just as yin and yang are complementary opposites."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The seven spheres are a ladder of ascent — the initiate climbs through the planetary spheres to reach the Ogdoad, akin to the axis mundi that connects heaven and earth."
+    },
+    {
+      "a": "hermeticism-seven-spheres",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are cosmic mountains or spheres that the soul must ascend — the seven spheres are the planetary heavens, while Mount Sumeru is the axis of the Buddhist cosmos. Both represent the vertical structure of the universe."
+    },
+    {
+      "a": "hermeticism-ogdoad",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Ogdoad is the eighth sphere beyond the seven — analogous to the Gnostic Pleroma, the fullness of the divine aeons. Both are the realm of light and unity beyond the material world."
+    },
+    {
+      "a": "hermeticism-emerald-tablet",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Emerald Tablet is a culture-hero artifact — it is the foundational text of Hermetic alchemy, a gift of wisdom from Hermes Trismegistus to humanity."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Anthropos is the primordial human who is the image of the Nous — analogous to Purusha, the cosmic man whose body becomes the universe in the Rig Veda. Both are androgynous and both are the source of creation."
+    },
+    {
+      "a": "hermeticism-anthropos",
+      "b": "first-ancestor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Anthropos is the first ancestor — the primordial human from whom all individual souls descend. The Hermetic path is the return to the original unity."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Hermetic rebirth is a dying-and-rising rite — the initiate undergoes a symbolic death and is born again as a 'son of God.' The joint is instantiated by the transformation."
+    },
+    {
+      "a": "hermeticism-hermetic-rebirth",
+      "b": "ecstatic-shaman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Hermetic rebirth is a shamanic ascent — the initiate travels through the seven spheres, shedding the torments, and enters the Ogdoad. The soul-flight is the core of the ecstatic shaman's journey."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "smith",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hermetic alchemy is the art of the smith — the alchemist works with fire and metals to transmute base matter into gold. The joint is instantiated by the transformative craft."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are masters of the forge — Hephaestus is the Greek god of smiths and fire, while the Hermetic alchemist is the 'smith' who transmutes metals and souls. The joint is instantiated by the transformative fire."
+    },
+    {
+      "a": "hermeticism-hermetic-alchemy",
+      "b": "goibniu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are smiths of the divine — Goibniu is the Celtic smith-god who forges weapons and brews the ale of immortality, while the Hermetic alchemist forges the Philosopher's Stone that grants eternal life."
+    }
+  ],
+  "proposedArchetypes": []
+}
