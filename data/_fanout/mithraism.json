@@ -1,0 +1,326 @@
+{
+  "tradition": {
+    "id": "mithraism",
+    "name": "Mithraism (Roman Mysteries of Mithras)",
+    "region": "Roman Empire (army frontier)",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "mithraism-mithras",
+      "kind": "deity",
+      "name": "Mithras (Sol Invictus Mithras, the Bull-Slayer)",
+      "archetypes": [
+        "dying-rising",
+        "solar",
+        "culture-hero"
+      ],
+      "gloss": "The central figure of the Roman mysteries — a youthful, Phrygian-capped god born from a rock (petra genetrix), who slays the primordial bull in a cave, an act that creates life, vegetation, and the cosmos. Mithras is identified with the sun (Sol Invictus) and is the savior who leads initiates through seven grades of purification toward immortality. He dines with Sol after the tauroctony and ascends to the heavens in Sol's chariot.",
+      "facet": "The rock-born bull-slayer: Mithras is not a dying-and-rising god in the agricultural sense — he is born fully adult from a rock, kills the bull as a creative act, and ascends without dying. His tauroctony is a cosmic sacrifice that generates life, not a seasonal cycle of death and rebirth. The cave is the cosmos, the bull is the moon/life-force, and Mithras is the agent of order.",
+      "provenance": "Iconography of tauroctony reliefs (over 400 known); CIMRM (Corpus Inscriptionum et Monumentorum Religionis Mithriacae); Porphyry, De Antro Nympharum; Justin Martyr, Dialogue with Trypho (polemical); Franz Cumont, The Mysteries of Mithra (1903); Roger Beck, The Religion of the Mithras Cult in the Roman Empire (2006)."
+    },
+    {
+      "id": "mithraism-sol",
+      "kind": "deity",
+      "name": "Sol Invictus (the Unconquered Sun)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The sun god who accompanies Mithras — Sol is depicted as a radiant youth driving a four-horse chariot, often shown shaking hands with Mithras or crowning him. In the tauroctony, Sol's raven serves as Mithras' messenger. Sol and Mithras share a feast after the bull-slaying, and Mithras eventually ascends in Sol's chariot. Sol is both a distinct deity and a hypostasis of Mithras.",
+      "facet": "The twin sun: Sol is both Mithras' ally and his divine counterpart — they are not identical but bound in a covenant of mutual honor. Mithras is the 'unconquered sun' but also a separate figure who earns Sol's respect through the bull-slaying. This dyad of two solar powers is unique: one is the celestial sun, the other is the savior who becomes the sun.",
+      "provenance": "Tauroctony reliefs (Sol in upper left corner); CIMRM 1-200; the Mithras liturgy (PGM IV.475-829); Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
+    },
+    {
+      "id": "mithraism-cautes-cautopates",
+      "kind": "force",
+      "name": "Cautes and Cautopates (the Torchbearers)",
+      "archetypes": [
+        "divine-twins",
+        "complementarity"
+      ],
+      "gloss": "Two torch-bearing youths who flank the tauroctony — Cautes holds his torch raised, Cautopates holds his lowered. They represent the equinoxes, the rising and setting of the sun, life and death, ascent and descent. Often depicted with crossed legs and Phrygian caps, they are the guardians of the cave's entrance and the cosmic poles. Their torches mark the passage of the soul through the seven grades.",
+      "facet": "The asymmetrical twins: unlike most divine twins (Castor/Pollux, Romulus/Remus), Cautes and Cautopates are not equal — one is up, one is down. They are not brothers but complementary forces: the rising and setting of the sun, the spring and autumn equinoxes, the ascent and descent of the soul. Their torches are the only light in the cave of the cosmos.",
+      "provenance": "Tauroctony reliefs (Cautes right, Cautopates left); CIMRM 1-200; Porphyry, De Antro Nympharum 24; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+    },
+    {
+      "id": "mithraism-tauroctony",
+      "kind": "rite",
+      "name": "Tauroctony (the Bull-Slaying)",
+      "archetypes": [
+        "primordial-sacrifice",
+        "cosmic-order"
+      ],
+      "gloss": "The central icon of Mithraism — Mithras, astride a bull, plunges a dagger into its neck while a dog leaps to lick the wound, a scorpion attacks the bull's genitals, and a snake drinks the blood. From the bull's tail spring ears of grain; from its blood, vines and life. The scene is set in a cave, framed by the zodiac and the torchbearers. The tauroctony is the cosmogonic act that creates the world.",
+      "facet": "The cosmic sacrifice: the tauroctony is not a hunting scene but a creation myth — the bull is the primordial life-force (the moon, the wet, the feminine), and its death generates the ordered cosmos. The dog, snake, and scorpion are constellations (Canis Minor, Hydra, Scorpius) that mark the celestial axis. The cave is the universe, and the bull's blood is the substance of life.",
+      "provenance": "Over 400 tauroctony reliefs across the Roman Empire; CIMRM; Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; David Ulansey, The Origins of the Mithraic Mysteries (1989)."
+    },
+    {
+      "id": "mithraism-petra-genetrix",
+      "kind": "concept",
+      "name": "Petra Genetrix (the Rock-Birth, the Birth-Giving Stone)",
+      "archetypes": [
+        "great-mother",
+        "emergence"
+      ],
+      "gloss": "The rock from which Mithras is born — depicted as a massive stone or cave wall from which the god emerges, fully adult, holding a torch and a dagger. The rock is sometimes personified as a female figure (the rock-mother) or marked with flames. Mithras is 'the god from the rock' (deus ex petra), born not of woman but of the earth itself, the primal matter of the cosmos.",
+      "facet": "The virgin rock: Mithras has no mother — he is born from a rock, a petra genitrix that is both womb and tomb. This is not a human birth but a theophany: the god emerges from the earth as the sun rises from the horizon. The rock is the cave, the cosmos, the unformed matter that gives birth to order. There is no goddess, no mother — only the stone that is the world.",
+      "provenance": "Rock-birth reliefs (e.g., CIMRM 1, 2, 3); Porphyry, De Antro Nympharum 6; Justin Martyr, Dialogue with Trypho 70; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
+    },
+    {
+      "id": "mithraism-seven-grades",
+      "kind": "rite",
+      "name": "The Seven Grades of Initiation (Corax, Nymphus, Miles, Leo, Perses, Heliodromus, Pater)",
+      "archetypes": [
+        "axis-mundi",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The hierarchical initiation system of the Mithraic mysteries — each grade (Raven, Bridegroom, Soldier, Lion, Persian, Sun-Runner, Father) corresponds to a planet, a metal, a virtue, and a stage of the soul's ascent. Initiates progressed through seven ordeals, each conferring new knowledge and powers. The Pater (Father) presided over the cult, and the highest grade was the Heliodromus (Sun-Runner), who represented Sol himself.",
+      "facet": "The planetary ladder: the seven grades are not arbitrary ranks but a cosmic ascent — the soul climbs through the spheres of the planets (Moon, Venus, Mercury, Jupiter, Mars, Sun, Saturn) to reach the fixed stars. Each grade is a 'gate' that strips away earthly attachments. The initiate becomes a 'soldier' (miles) of Mithras, and the final grade is union with the sun. This is a soteriology of ascent, not descent.",
+      "provenance": "CIMRM 1-200 (grade inscriptions and mosaics); Porphyry, De Antro Nympharum 15-16; Jerome, Epistulae 107.2; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+    },
+    {
+      "id": "mithraism-mithraeum",
+      "kind": "place",
+      "name": "The Mithraeum (the Cave-Temple)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The underground temple of Mithras — a narrow, vaulted chamber designed as a 'cave' (specus) representing the cosmos. The tauroctony relief stood at the far end, flanked by benches where initiates reclined for the sacred meal. The ceiling was painted with stars and zodiacs, and the floor sometimes depicted the seven grades. The mithraeum was a microcosm: the cave was the universe, and the initiate's journey through it was the soul's ascent.",
+      "facet": "The artificial cave: mithraea were not natural caves but purpose-built underground chambers, often in the basements of Roman buildings. They were small (seating 20-30), dark, and windowless — the only light came from torches and lamps. The cave was the cosmos, the tauroctony was the axis mundi, and the benches were the planetary spheres. The initiate entered the cave as a mortal and emerged as a 'sun-runner.'",
+      "provenance": "Excavated mithraea (e.g., Santa Prisca, Dura-Europos, Carrawburgh); CIMRM; Porphyry, De Antro Nympharum; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+    },
+    {
+      "id": "mithraism-sacred-meal",
+      "kind": "rite",
+      "name": "The Sacred Meal (the Mithraic Feast)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The ritual meal shared by initiates in the mithraeum — depicted on reliefs as Mithras and Sol reclining on a couch (sigma) with a bull's hide as a table, eating bread and drinking wine. The meal reenacts the feast after the tauroctony, where Mithras and Sol dined on the bull's flesh. Initiates, ranked by grade, shared a communal meal of bread, water, and wine, symbolizing their bond with the god and with each other.",
+      "facet": "The bull's flesh as sacrament: the Mithraic meal is not a memorial of a death but a celebration of a creation — the bull's body becomes the food that sustains the cosmos. Initiates eat the bull's flesh symbolically, becoming part of the cosmic order. Unlike the Christian Eucharist, there is no identification with a dying god; the meal is a feast of victory, not of sacrifice.",
+      "provenance": "Tauroctony reliefs (the banquet scene); CIMRM 1-200; Justin Martyr, First Apology 66 (polemical comparison to Eucharist); Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult."
+    },
+    {
+      "id": "mithraism-leontica",
+      "kind": "rite",
+      "name": "The Leontica (the Lion-Grade Rite)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "A specific initiation rite for the fifth grade (Leo, the Lion) — the initiate was purified with honey, not water, and underwent a symbolic death and rebirth. The Lion was the 'fire-grade,' associated with the planet Jupiter and the element of fire. The initiate's hands were washed with honey to protect them from pollution, and he was 'born again' as a Lion of Mithras. The rite involved a ritual bath of fire (or honey) and the recitation of sacred formulas.",
+      "facet": "The honey-bath: unlike other mystery cults that used water for purification, the Mithraic Lion-grade used honey — the food of the gods, the preservative of the dead, the symbol of the golden age. The initiate was anointed with honey from head to toe, becoming 'incorruptible.' This is not a baptism but a 'honeying' that makes the initiate divine. The Lion is the grade of fire, and honey is the fire that does not burn.",
+      "provenance": "CIMRM 1-200 (inscriptions mentioning leones); Porphyry, De Antro Nympharum 15; Jerome, Epistulae 107.2; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; Manfred Clauss, The Roman Cult of Mithras."
+    },
+    {
+      "id": "mithraism-ahriman",
+      "kind": "force",
+      "name": "Ahriman (the Lion-Headed God, Arimanius)",
+      "archetypes": [
+        "cosmic-adversary",
+        "dual-ism"
+      ],
+      "gloss": "A mysterious figure in Mithraic iconography — a lion-headed, serpent-entwined god with four wings, holding keys and a scepter, often identified with Ahriman (the Zoroastrian evil principle) or with Time (Aion). He is depicted on Mithraic altars and statues, sometimes with a thunderbolt on his chest. His role is ambiguous: he may represent the destructive aspect of time, the underworld, or the cosmic adversary that Mithras overcomes.",
+      "facet": "The bound adversary: unlike the Zoroastrian Ahriman, who is a co-eternal evil principle, the Mithraic lion-headed god is often shown bound or chained — he is a defeated power, not a rival. He may be the 'evil' that Mithras conquers in the tauroctony, or the god of time who devours all things. His lion head suggests the constellation Leo, and his serpent body the zodiac. He is the shadow that Mithras illuminates.",
+      "provenance": "CIMRM 1-200 (lion-headed god statues, e.g., from Ostia and Rome); Porphyry, De Antro Nympharum; Franz Cumont, The Mysteries of Mithra; Roger Beck, The Religion of the Mithras Cult; David Ulansey, The Origins of the Mithraic Mysteries."
+    }
+  ],
+  "edges": [
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-sol",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Mithras and Sol are bound in a covenant — Sol serves as Mithras' messenger (the raven), they feast together after the tauroctony, and Mithras ascends in Sol's chariot. They are two aspects of the same solar power."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-cautes-cautopates",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Cautes and Cautopates flank the tauroctony as the rising and setting sun — they are the guardians of the cave and the cosmic poles that Mithras' bull-slaying orders."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-tauroctony",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The tauroctony is Mithras' defining act — he is the bull-slayer, and the bull-slaying is the cosmogonic event that creates the world. The figure and the rite are inseparable."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-petra-genetrix",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Mithras is born from the rock (petra genitrix) — the rock is his mother, his womb, and his origin. The rock-birth is the first act of the Mithraic drama."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-seven-grades",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The seven grades are the path to Mithras — each grade brings the initiate closer to the god, culminating in the Heliodromus (Sun-Runner) who represents Sol and the Pater who represents Mithras."
+    },
+    {
+      "a": "mithraism-tauroctony",
+      "b": "mithraism-sacred-meal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sacred meal reenacts the feast after the tauroctony — the bull's body becomes the food that sustains the initiates, just as it sustains the cosmos."
+    },
+    {
+      "a": "mithraism-seven-grades",
+      "b": "mithraism-leontica",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Leontica is the initiation rite for the fifth grade (Leo) — the honey-bath purifies the Lion-grade initiate and marks his transition to a higher level of the cosmic ascent."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-ahriman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ahriman is the lion-headed adversary that Mithras overcomes — the tauroctony may represent the defeat of the evil principle, and the bound lion-headed god is the conquered enemy."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithraism-mithraeum",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The mithraeum is the cave-temple where Mithras dwells and where the tauroctony is reenacted — it is the cosmos in miniature, and the initiate's journey through it is the soul's ascent."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithra-iran",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are solar deities of covenant and light — the Iranian Mithra is a god of contracts and the sun, while the Roman Mithras is a bull-slaying savior. The name is cognate (from *mitra), but the cults are historically distinct and the Roman figure is a syncretic creation."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "sol",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Mithras is identified with Sol Invictus, the Roman sun god — they are depicted together, and Mithras ascends in Sol's chariot. The solar joint is instantiated by both figures."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Mithras is a dying-rising figure in the sense that he is born from a rock, performs a cosmogonic sacrifice, and ascends to the heavens — but he does not die and rise in the agricultural cycle. The joint is instantiated with a caveat."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Mithras is a culture-hero who brings order to the cosmos through the bull-slaying — he creates life, vegetation, and the celestial order. The joint is instantiated by his creative act."
+    },
+    {
+      "a": "mithraism-tauroctony",
+      "b": "primordial-sacrifice",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The tauroctony is a primordial sacrifice — the bull is dismembered to create the world, just as Purusha is dismembered in the Vedic hymn. The joint is instantiated by the cosmogonic killing."
+    },
+    {
+      "a": "mithraism-tauroctony",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are cosmogonic sacrifices — the bull's body becomes the world in Mithraism, while Purusha's body becomes the cosmos in the Rig Veda. The bull is the primordial life-force, and its dismemberment is the act of creation."
+    },
+    {
+      "a": "mithraism-petra-genetrix",
+      "b": "great-mother",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The rock that gives birth to Mithras is a great-mother figure — it is the primal matter, the earth, the womb of the cosmos. The joint is instantiated by the rock-birth."
+    },
+    {
+      "a": "mithraism-cautes-cautopates",
+      "b": "divine-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cautes and Cautopates are divine twins — they flank the tauroctony as the rising and setting sun, the equinoxes, the poles of the cosmos. The joint is instantiated by their complementary asymmetry."
+    },
+    {
+      "a": "mithraism-cautes-cautopates",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are pairs of complementary figures — Cautes and Cautopates are the torchbearers of Mithras, while the Hero Twins (Hunahpu and Xbalanque) are the ballplayers of the Popol Vuh. Both represent the dual nature of the cosmos."
+    },
+    {
+      "a": "mithraism-seven-grades",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The seven grades are a ladder of ascent through the planetary spheres — the initiate climbs the axis mundi from the cave to the fixed stars. The joint is instantiated by the vertical cosmology."
+    },
+    {
+      "a": "mithraism-seven-grades",
+      "b": "ecstatic-shaman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Mithraic initiate undergoes a soul-flight through the seven planetary spheres — this is a shamanic ascent, akin to the soul-travel of the ecstatic shaman. The joint is instantiated by the graded initiation."
+    },
+    {
+      "a": "mithraism-mithraeum",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The mithraeum is a microcosm — the cave is the universe, the tauroctony is the center, and the benches are the planetary spheres. The initiate's journey through the cave is the soul's ascent of the axis mundi."
+    },
+    {
+      "a": "mithraism-sacred-meal",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sacred meal reenacts the feast after the tauroctony — the bull's flesh is the food of immortality, and the meal is a ritual of bonding with the god. The joint is instantiated by the communal feast."
+    },
+    {
+      "a": "mithraism-leontica",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Leontica involves a symbolic death and rebirth — the initiate is purified with honey and 'born again' as a Lion of Mithras. The joint is instantiated by the initiation rite."
+    },
+    {
+      "a": "mithraism-ahriman",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are adversarial forces — the Mithraic lion-headed god is identified with Ahriman, the Zoroastrian evil principle. But the Mithraic figure is bound and defeated, while Angra Mainyu is a co-eternal opponent. The name is cognate, but the theology diverges."
+    },
+    {
+      "a": "mithraism-ahriman",
+      "b": "cosmic-adversary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The lion-headed god is a cosmic adversary — he represents the destructive aspect of time, the underworld, or the evil that Mithras overcomes. The joint is instantiated by his adversarial role."
+    },
+    {
+      "a": "mithraism-mithras",
+      "b": "mithra-iran",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are solar deities of covenant and light — the Iranian Mithra is a god of contracts and the sun, while the Roman Mithras is a bull-slaying savior. The name is cognate (from *mitra), but the cults are historically distinct and the Roman figure is a syncretic creation."
+    },
+    {
+      "a": "mithraism-tauroctony",
+      "b": "primordial-sacrifice",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The tauroctony is a primordial sacrifice — the bull is dismembered to create the world, just as Purusha is dismembered in the Vedic hymn. The joint is instantiated by the cosmogonic killing."
+    },
+    {
+      "a": "mithraism-petra-genetrix",
+      "b": "great-mother",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The rock that gives birth to Mithras is a great-mother figure — it is the primal matter, the earth, the womb of the cosmos. The joint is instantiated by the rock-birth."
+    }
+  ],
+  "proposedArchetypes": []
+}

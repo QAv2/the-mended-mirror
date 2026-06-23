@@ -494,6 +494,22 @@
       "living": false,
       "certainty": "attested",
       "note": "The forgery — precisely datable to its publication run (1968–98)."
+    },
+    "judaism": {
+      "from": -550,
+      "to": 2026,
+      "peak": 480,
+      "living": true,
+      "certainty": "attested",
+      "note": "YHWH, Torah, the covenant; the Oral Law (auto-dated; refine later)"
+    },
+    "mithraism": {
+      "from": -100,
+      "to": 400,
+      "peak": 100,
+      "living": false,
+      "certainty": "attested",
+      "note": "the tauroctony (bull-slaying); 7-grade cave initiation (auto-dated; refine later)"
     }
   },
   "figures": {

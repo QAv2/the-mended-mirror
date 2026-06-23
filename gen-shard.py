@@ -86,6 +86,31 @@ except json.JSONDecodeError as e:
     die(f"model returned invalid JSON ({e}). Raw saved to {bad} — eyeball it, "
         f"usually a trailing comma. Fix or just re-run: ./mend make {wid}")
 
+def ensure_period(wid, hit):
+    """Give the new tradition a timeline period in _temporal.json so it places on
+    the time-axis and passes sanity. Heuristic from candidate date/living — Claude
+    refines exact dates on return."""
+    tpath = os.path.join(ROOT, "data", "_temporal.json")
+    t = json.load(open(tpath))
+    trs = t.setdefault("traditions", {})
+    if wid in trs:
+        return
+    date = hit.get("date")
+    if date is None:
+        return
+    frm = int(date)
+    living = bool(hit.get("living", False))
+    to = 2026 if living else frm + 500
+    peak = frm + int((to - frm) * 0.4)
+    cert = "reconstructed" if "reconstruct" in hit.get("region", "").lower() else "attested"
+    trs[wid] = {"from": frm, "to": to, "peak": peak, "living": living,
+                "certainty": cert,
+                "note": (hit.get("anchor", "")[:110] + " (auto-dated; refine later)")}
+    json.dump(t, open(tpath, "w"), indent=2, ensure_ascii=False)
+    print(f"  · dated {wid}: {frm}→{to} (peak {peak}{', living' if living else ''})")
+
+ensure_period(wid, hit)
+
 # light shape check
 figs, edges = data.get("figures", []), data.get("edges", [])
 missing_facet = [f["id"] for f in figs if not f.get("facet")]

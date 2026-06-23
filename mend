@@ -100,6 +100,10 @@ make)
   python3 gen-shard.py "$ID" "${3:-}"
   ;;
 
+gui)
+  exec python3 forge-server.py
+  ;;
+
 build|view)
   echo "• merging shards -> mirror-data.js"
   node merge.js
