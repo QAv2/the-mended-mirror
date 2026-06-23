@@ -4,3 +4,4 @@ node_modules/
 _render_*.png
 _scroll_*.png
 .aider*
+session-context/
