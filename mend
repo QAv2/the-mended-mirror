@@ -14,6 +14,8 @@
 # ============================================================================
 set -euo pipefail
 cd "$(dirname "$0")"
+# load API keys (DEEPSEEK_API_KEY lives in ~/.env)
+[ -f "$HOME/.env" ] && set -a && . "$HOME/.env" && set +a || true
 CMD="${1:-status}"
 
 py() { python3 "$@"; }
@@ -85,24 +87,17 @@ print(f"  date   : {hit.get('date','?')}      living: {hit.get('living','?')}")
 print(f"  color  : {hue}")
 print(f"  anchor : {hit.get('anchor','')}")
 print()
-print("  ---- run this, then describe the shard at the > prompt ----")
+print("  ---- generate it (DeepSeek writes + validates the shard) ----")
 print()
-print(f"  aider --model deepseek/deepseek-chat \\")
-print(f"        --read data/_fanout/_SPEC.md \\")
-print(f"        --read {ex} \\")
-print(f"        data/_fanout/{wid}.json")
+print(f"      ./mend make {wid}")
 print()
-print("  ---- paste this as your first message to aider ----")
-print()
-print(f"  Write data/_fanout/{wid}.json, the {hit['name']} shard, following")
-print(f"  _SPEC.md EXACTLY. tradition id '{wid}', color {hue}. 7-11 figures,")
-print(f"  8-20 cross-tradition gold seams to EXISTING ids from the inventory in")
-print(f"  the spec, ruthless honest tiering (when unsure pick the lower tier).")
-print(f"  {os.path.basename(ex)} is your format + quality exemplar. Anchor motif:")
-print(f"  {hit.get('anchor','')}")
-print()
-print("  Then exit aider (/exit) and run:  ./mend build")
+print("  then:  ./mend build   ->   eyeball index.html   ->   git commit")
 PY
+  ;;
+
+make)
+  ID="${2:?usage: ./mend make <id> [reasoner]}"
+  python3 gen-shard.py "$ID" "${3:-}"
   ;;
 
 build|view)

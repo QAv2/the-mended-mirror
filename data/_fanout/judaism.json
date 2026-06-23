@@ -1,0 +1,336 @@
+{
+  "tradition": {
+    "id": "judaism",
+    "name": "Judaism (Rabbinic)",
+    "region": "Levant / diaspora",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "judaism-yhwh",
+      "kind": "deity",
+      "name": "YHWH (the Tetragrammaton, HaShem, Adonai)",
+      "archetypes": [
+        "withdrawn-creator",
+        "storm-wielder",
+        "cosmic-order"
+      ],
+      "gloss": "The unpronounced name of the God of Israel — revealed to Moses at the burning bush as 'I Will Be What I Will Be' (Exodus 3:14), the one who creates, liberates, and commands. He is the sole sovereign of the universe, the giver of the Torah at Sinai, and the covenant partner of Israel. His name is never spoken aloud; in prayer He is called Adonai ('my Lord'), in study HaShem ('the Name').",
+      "facet": "The unpronounceable name: YHWH is a God whose identity is a verb in the first-person future — a self-disclosure that withholds as much as it reveals. The Tetragrammaton is not a label but a presence too holy to utter, replaced by titles that acknowledge His lordship without claiming to know His essence. This is a God who cannot be named, only addressed.",
+      "provenance": "Hebrew Bible (Exodus 3:14-15, 6:2-3; Deuteronomy 6:4); Rabbinic literature (Mishnah Yoma 3:8, Talmud Kiddushin 71a on the prohibition of pronouncing the Name); Maimonides, Guide for the Perplexed I:61-64 on the Tetragrammaton as a unique divine name."
+    },
+    {
+      "id": "judaism-torah",
+      "kind": "concept",
+      "name": "Torah (the Teaching, the Written and Oral Law)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The revealed instruction of God — the Written Torah (the Five Books of Moses) and the Oral Torah (the interpretive tradition of the Rabbis, eventually codified in the Mishnah and Talmud). Torah is not merely law but the blueprint of creation: God looked into the Torah and created the world (Genesis Rabbah 1:1). Study of Torah is the highest religious act, equal to all other commandments combined.",
+      "facet": "The written-and-oral dyad: Torah is not a static text but a living conversation — the Written Torah is the fixed word, but the Oral Torah is the ongoing human interpretation that unlocks its meaning. The Rabbis claimed the authority to interpret, even to override the plain sense of Scripture, because the Oral Law was given at Sinai alongside the Written. Revelation is complete, but its meaning is never finished.",
+      "provenance": "Hebrew Bible (Deuteronomy 31:9-13); Mishnah Avot 1:1 (the chain of transmission from Sinai); Talmud Shabbat 31a (the story of Hillel and the convert); Genesis Rabbah 1:1 (Torah as the blueprint of creation); Maimonides, Mishneh Torah, Hilkhot Talmud Torah."
+    },
+    {
+      "id": "judaism-shekhinah",
+      "kind": "concept",
+      "name": "Shekhinah (the Indwelling Presence of God)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The feminine aspect of God's presence — the Shekhinah dwells among Israel, goes into exile with them, and is the immanent face of the transcendent YHWH. In rabbinic literature, the Shekhinah is the divine presence that rests upon the righteous, fills the Tabernacle and Temple, and is the bride of Israel in the Song of Songs. In Kabbalah, she becomes the tenth sefirah, Malkhut, the feminine receiver of divine flow.",
+      "facet": "The exile of God: the Shekhinah is not merely a presence but a presence that SUFFERS — she goes into exile with Israel, is separated from the King (the transcendent God), and longs for reunion. This is a God who is not impassible but who shares in the pain of His people. The Shekhinah's exile is the cosmic wound that redemption will heal.",
+      "provenance": "Targumim (e.g., Targum Onkelos on Exodus 33:14-15); Talmud (Megillah 29a, Berakhot 6a); Zohar (e.g., Zohar III:4a-5b on the Shekhinah as the bride); Gershom Scholem, Major Trends in Jewish Mysticism (1941) on the Shekhinah in Kabbalah."
+    },
+    {
+      "id": "judaism-eliyahu",
+      "kind": "hero",
+      "name": "Eliyahu ha-Navi (Elijah the Prophet)",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "The prophet who never died — taken to heaven in a fiery chariot (2 Kings 2:11), he returns to herald the messianic age, resolve all legal disputes, and announce the coming of the Messiah. At every circumcision and Passover seder, a chair is set for him; he is the guest who may appear at any moment to bring redemption.",
+      "facet": "The undead mediator: Elijah is not a resurrected figure but one who NEVER DIED — he is a living being who moves between heaven and earth, a prophet who is also an angel. He is the one who will 'turn the hearts of fathers to children' (Malachi 3:24), the reconciler of all divisions. His perpetual presence makes him the most intimate of the biblical figures, always expected but never arriving.",
+      "provenance": "Hebrew Bible (1 Kings 17-19, 2 Kings 2:1-11, Malachi 3:23-24); Mishnah (Eduyot 8:7, Bava Metzia 1:8, 2:8, 3:4-5 on Elijah's future role); Talmud (Sanhedrin 98a, Eruvin 43b); the chair of Elijah at circumcision (Shulchan Arukh, Yoreh De'ah 265:11) and the cup of Elijah at the seder (Pesachim 10:7)."
+    },
+    {
+      "id": "judaism-mashiach",
+      "kind": "concept",
+      "name": "Mashiach (the Anointed One, the Messiah)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The future redeemer — a human descendant of King David who will restore the Davidic monarchy, rebuild the Temple, gather the exiles, and usher in an age of universal peace and knowledge of God. He is not divine but a mortal leader, anointed with oil, who will perfect the world under God's sovereignty. His coming is preceded by Elijah's announcement and followed by the resurrection of the dead.",
+      "facet": "The human redeemer: the Jewish Messiah is not a divine being who dies for sins but a human king who brings political and spiritual redemption. He is a mortal who will die and be succeeded by his descendants. The messianic age is a this-worldly era of peace and Torah observance, not a supernatural kingdom. The Messiah is the instrument of God's plan, not its object.",
+      "provenance": "Hebrew Bible (Isaiah 11:1-10, Jeremiah 23:5-6, Ezekiel 37:24-28); Talmud (Sanhedrin 98a-99a, Megillah 17b-18a); Maimonides, Mishneh Torah, Hilkhot Melakhim 11-12 (the 13 principles of faith, including the belief in the Messiah); the Amidah prayer (14th blessing for the restoration of the Davidic dynasty)."
+    },
+    {
+      "id": "judaism-satan",
+      "kind": "force",
+      "name": "Ha-Satan (the Adversary, the Accuser)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A servant of God whose role is to test, accuse, and prosecute — not a rebel or enemy of God but a member of the divine court (Job 1-2, Zechariah 3). He is the 'evil inclination' (yetzer hara) personified, the tempter who leads humans astray, but he acts only with God's permission and for God's purposes. In rabbinic thought, he is identified with the angel of death and the yetzer hara.",
+      "facet": "The obedient prosecutor: the Jewish Satan is not a fallen angel or a cosmic adversary of God — he is a loyal servant whose job is to challenge human righteousness. He is the prosecuting attorney in the heavenly court, not the leader of a rebellion. The dualism of good vs. evil is not between God and Satan but between the yetzer tov (good inclination) and yetzer hara (evil inclination) within every human heart.",
+      "provenance": "Hebrew Bible (Job 1-2, Zechariah 3:1-2, 1 Chronicles 21:1); Talmud (Bava Batra 16a, Sukkah 52a-b, Yoma 20a); Midrash (Genesis Rabbah 9:7, Exodus Rabbah 41:7); Maimonides, Guide for the Perplexed III:22 on the Satan as a force of trial."
+    },
+    {
+      "id": "judaism-yetzer-hara",
+      "kind": "principle",
+      "name": "Yetzer Hara (the Evil Inclination)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The innate human impulse toward selfishness, desire, and transgression — created by God as part of human nature (Genesis 6:5, 8:21). It is not evil per se but the raw energy of life that, when uncontrolled, leads to sin. The yetzer hara is necessary for human existence: without it, no one would marry, build, or strive. The task of the righteous is to channel it toward good.",
+      "facet": "The necessary impulse: the yetzer hara is not a demonic force to be destroyed but a God-given drive to be redirected. It is the source of ambition, creativity, and passion — the very energy that makes life possible. The rabbis say that the yetzer hara is 'very good' (Genesis 1:31) because without it, no one would build a house or have children. Evil is not a separate power but a misdirected good.",
+      "provenance": "Hebrew Bible (Genesis 6:5, 8:21, Deuteronomy 31:21); Talmud (Sukkah 52a-b, Kiddushin 30b, Berakhot 5a); Midrash (Genesis Rabbah 9:7, 34:10); Maimonides, Mishneh Torah, Hilkhot De'ot 1-2 on the balance of inclinations."
+    },
+    {
+      "id": "judaism-reshut",
+      "kind": "principle",
+      "name": "Reshut (Free Will, the Power of Choice)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The fundamental human capacity to choose between good and evil — given by God as the foundation of moral responsibility. 'All is in the hands of heaven except the fear of heaven' (Talmud Berakhot 33b). Each person is free to be righteous or wicked, and the choice is real: God does not predetermine human actions. Reward and punishment depend on this freedom.",
+      "facet": "The paradox of divine foreknowledge and human freedom: the rabbis affirm that God knows all that will happen, yet humans are still free to choose. Maimonides calls this a 'great principle' and a 'pillar of the Torah and the commandments' — even though the logic is beyond human understanding. The tension is not resolved but held: God knows, yet we choose.",
+      "provenance": "Hebrew Bible (Deuteronomy 30:15-20, Joshua 24:15); Talmud (Berakhot 33b, Niddah 16b, Kiddushin 30b); Maimonides, Mishneh Torah, Hilkhot Teshuvah 5:1-5 (the laws of repentance and free will); Maimonides, Guide for the Perplexed III:20-21."
+    },
+    {
+      "id": "judaism-teshuvah",
+      "kind": "concept",
+      "name": "Teshuvah (Repentance, Return to God)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The act of turning away from sin and returning to God — a process of regret, confession, abandonment of the sin, and resolution not to repeat it. Teshuvah was created before the world (Talmud Pesachim 54a) and is so powerful that it can transform deliberate sins into merits. It is the path to atonement, especially during the Ten Days of Repentance between Rosh Hashanah and Yom Kippur.",
+      "facet": "The power to rewrite the past: teshuvah does not merely erase sin but transforms it — the same act that was a transgression becomes a merit because it led to repentance. This is not forgiveness from an external judge but an internal alchemy: the sinner becomes a different person, and the past is recontextualized. God does not just forgive; He allows the sinner to become a new creation.",
+      "provenance": "Hebrew Bible (Hosea 14:2-5, Ezekiel 18:21-23, Isaiah 55:7); Talmud (Yoma 86a-b, Pesachim 54a, Kiddushin 40b); Maimonides, Mishneh Torah, Hilkhot Teshuvah (entire section); the liturgy of the High Holy Days (Unetanneh Tokef, Vidui)."
+    },
+    {
+      "id": "judaism-olam-haba",
+      "kind": "concept",
+      "name": "Olam Ha-Ba (the World to Come)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The age of redemption that follows the messianic era — a state of eternal life, spiritual reward, and closeness to God. The righteous inherit a share in the World to Come, where they bask in the radiance of the Shekhinah. This is not a separate realm but the final stage of history, when death is abolished and the soul returns to its source. The resurrection of the dead is a central belief.",
+      "facet": "The this-worldly and other-worldly: the World to Come is both a future historical age (after the Messiah) and a spiritual state (the soul's reward after death). The rabbis debated whether the resurrection is for the righteous alone or for all, and whether the soul exists before birth. The World to Come is not a Platonic heaven but the fulfillment of God's covenant with Israel in history.",
+      "provenance": "Hebrew Bible (Daniel 12:2-3, Isaiah 25:8, 26:19); Mishnah (Sanhedrin 10:1, Avot 4:16-17); Talmud (Berakhot 17a, Shabbat 152b, Sanhedrin 90a-92b); Maimonides, Mishneh Torah, Hilkhot Teshuvah 8-9 (the principles of faith); the 13 principles of faith (the 13th: belief in the resurrection of the dead)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "judaism-yhwh",
+      "b": "judaism-shekhinah",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The transcendent YHWH and the immanent Shekhinah are the same God experienced as distant and near, masculine and feminine — a dyad that becomes explicit in Kabbalah as the union of Tiferet and Malkhut."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "judaism-torah",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Torah is the revealed will of YHWH — the written word that mediates His presence and command. In rabbinic thought, Torah is both the blueprint of creation and the covenant document between God and Israel."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "judaism-satan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ha-Satan is a servant of YHWH, not an enemy — the accuser in the divine court who acts only with God's permission. The Jewish Satan is subordinate, not a co-eternal adversary."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "judaism-reshut",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Free will is given by God as the foundation of moral responsibility — the paradox of divine sovereignty and human choice is a central tension in rabbinic theology."
+    },
+    {
+      "a": "judaism-torah",
+      "b": "judaism-yetzer-hara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Torah is the antidote to the yetzer hara (Talmud Kiddushin 30b) — the study of Torah channels the evil inclination toward good. The two are locked in a dynamic struggle."
+    },
+    {
+      "a": "judaism-teshuvah",
+      "b": "judaism-yetzer-hara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Teshuvah is the process by which the yetzer hara's misdeeds are transformed into merits — the evil inclination is not destroyed but redeemed through repentance."
+    },
+    {
+      "a": "judaism-mashiach",
+      "b": "judaism-eliyahu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Elijah heralds the Messiah — the undead prophet announces the coming of the anointed king. Their roles are sequential and complementary in the eschatological drama."
+    },
+    {
+      "a": "judaism-mashiach",
+      "b": "judaism-olam-haba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Messiah ushers in the messianic age, which is followed by the World to Come — the resurrection of the dead and the final redemption. The two are stages of the same eschatological timeline."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "allah-meccan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the sole creator, sovereign, and lawgiver of the universe, revealed through scripture and covenant — but YHWH is unpronounceable and personal, while Allah is the generic name for God in Arabic. The two traditions share a common ancestor in the Abrahamic line but diverged radically."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "ahura-mazda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme, wise, and just creators who reveal truth through a prophet (Moses/Zarathustra) and demand ethical conduct — but YHWH is a covenant partner with a chosen people, while Ahura Mazda is the source of all good in a dualist cosmos."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "dyaus-pita",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are sky-fathers and creators — but Dyaus Pita is a fading figure in the Vedic pantheon, while YHWH is the sole sovereign of a monotheistic faith. A loose structural echo of the sky-father joint, flagged."
+    },
+    {
+      "a": "judaism-torah",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the cosmic order revealed as divine law — Torah is the blueprint of creation and the guide for human life, while Ma'at is the principle of truth and justice that sustains the universe. Both are personified and studied."
+    },
+    {
+      "a": "judaism-torah",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the divine order that humans must align with — Torah is the revealed instruction of God, while Aṣ̌a is the cosmic truth that the righteous embody. Both are central to their respective traditions as the path to salvation."
+    },
+    {
+      "a": "judaism-shekhinah",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the feminine aspect of the divine — the Shekhinah is God's indwelling presence, while Sophia is the wisdom of God personified. Both are associated with exile and longing for reunion with the masculine divine."
+    },
+    {
+      "a": "judaism-shekhinah",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are feminine divine figures associated with the earth and the underworld — but the Shekhinah is a presence of light and holiness, while Coatlicue is a fearsome earth-mother of life and death. A loose great-mother echo, flagged."
+    },
+    {
+      "a": "judaism-eliyahu",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are messengers between heaven and earth, psychopomps who guide souls, and figures who never die — Elijah is taken to heaven in a chariot, Hermes is the herald of the gods and guide of the dead. Both are liminal figures who cross boundaries."
+    },
+    {
+      "a": "judaism-eliyahu",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are psychopomps who guide the dead — but Xolotl is a dog-headed god of the underworld, while Elijah is a human prophet who never died. A loose structural echo of the psychopomp joint, flagged."
+    },
+    {
+      "a": "judaism-mashiach",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are anointed figures who bring redemption — but the Jewish Messiah is a human king who restores the Davidic monarchy, while Christ is the divine Son of God who dies for sins. The two are radically different in nature and role, though historically related."
+    },
+    {
+      "a": "judaism-mashiach",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are future saviors who will bring about the final redemption — the Jewish Messiah is a descendant of David, while the Zoroastrian Saoshyant is a posthumous son of Zarathustra who will raise the dead and renew the world. Both are eschatological figures."
+    },
+    {
+      "a": "judaism-satan",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are adversarial forces — but Ha-Satan is a servant of God who tests humans, while Angra Mainyu is the co-eternal evil principle in Zoroastrian dualism. The Jewish Satan is subordinate; the Zoroastrian one is a cosmic opponent. The difference is the key."
+    },
+    {
+      "a": "judaism-satan",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are tempters who oppose spiritual progress — Ha-Satan tests human righteousness, while Mara tempts the Buddha with desire and fear. Both are forces of illusion and attachment, not ultimate enemies of God."
+    },
+    {
+      "a": "judaism-yetzer-hara",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both address the problem of desire and the self — but the yetzer hara is a God-given impulse to be channeled, while anatman is the doctrine of no-self to be realized. A loose parallel of the human condition, flagged."
+    },
+    {
+      "a": "judaism-reshut",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both involve the idea of personal destiny and choice — but reshut is the free will to choose good or evil, while tonal is the day-soul that shapes one's fate. A loose parallel of human agency, flagged."
+    },
+    {
+      "a": "judaism-teshuvah",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the process of making the world good again — teshuvah is individual repentance that transforms sin into merit, while frashokereti is the Zoroastrian renovation that purifies all creation. Both are acts of restoration."
+    },
+    {
+      "a": "judaism-olam-haba",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are the final state of redemption — the World to Come is the age of eternal life and closeness to God, while frashokereti is the Zoroastrian renewal of the world after the final battle. Both involve resurrection and judgment."
+    },
+    {
+      "a": "judaism-olam-haba",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are states of ultimate liberation — but the World to Come is a communal resurrection in history, while the Jain siddha is an individual soul freed from the cycle of rebirth. A loose eschatological echo, flagged."
+    },
+    {
+      "a": "judaism-yhwh",
+      "b": "withdrawn-creator",
+      "type": "analogous",
+      "tier": "3",
+      "note": "YHWH is both transcendent and immanent — He creates and then reveals Himself in history, but His essence remains hidden. The Tetragrammaton is unpronounceable, and His face cannot be seen. This is a deus otiosus who is also a covenant partner."
+    },
+    {
+      "a": "judaism-torah",
+      "b": "cosmic-order",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Torah is the blueprint of creation and the moral law of the universe — it is the cosmic order revealed to Israel. The joint is instantiated by the figure of Torah as the divine instruction that sustains the world."
+    },
+    {
+      "a": "judaism-shekhinah",
+      "b": "great-mother",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Shekhinah is the feminine, immanent presence of God — a mother figure who dwells with Israel, shares their exile, and longs for reunion. She is the great-mother joint made monotheistic."
+    },
+    {
+      "a": "judaism-eliyahu",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Elijah is a psychopomp who guides souls and mediates between heaven and earth — he is the undead prophet who will return to herald the Messiah and resolve all disputes."
+    }
+  ],
+  "proposedArchetypes": []
+}
