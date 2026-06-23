@@ -297,8 +297,18 @@ refresh();
 </script></body></html>"""
 
 if __name__ == "__main__":
-    srv = ThreadingHTTPServer(("127.0.0.1", PORT), H)
+    import socket
     url = f"http://127.0.0.1:{PORT}"
+    # idempotent: if the Forge is already running, just open the browser and exit
+    s = socket.socket()
+    s.settimeout(0.3)
+    if s.connect_ex(("127.0.0.1", PORT)) == 0:
+        s.close()
+        print(f"⚒  Forge already lit → {url} (opening browser)")
+        webbrowser.open(url)
+        raise SystemExit
+    s.close()
+    srv = ThreadingHTTPServer(("127.0.0.1", PORT), H)
     print(f"⚒  The Forge is lit → {url}")
     print("   (leave this terminal open; close it to stop the server)")
     threading.Timer(0.8, lambda: webbrowser.open(url)).start()
