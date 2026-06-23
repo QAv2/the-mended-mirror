@@ -3,3 +3,4 @@ node_modules/
 /tmp/
 _render_*.png
 _scroll_*.png
+.aider*

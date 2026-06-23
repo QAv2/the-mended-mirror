@@ -54,7 +54,7 @@
 <div class="wrap">
 
   <h1>The Mended Mirror — the solo loop</h1>
-  <p class="sub">A week of shard-production with aider + Gemini. One unit, repeated. Honest gold only.</p>
+  <p class="sub">A week of shard-production with aider + DeepSeek. One unit, repeated. Honest gold only.</p>
 
   <div class="callout">
     <b>The division of labor.</b> You produce <b>raw shards</b> this week — the bulk, parallelizable
@@ -114,7 +114,8 @@
   <h2><span class="n">§4</span>If something breaks while I'm gone</h2>
   <table>
     <tr><th>Symptom</th><th>Do this</th></tr>
-    <tr><td>aider gives <code>429</code> / quota / rate-limit</td><td>Switch the model to <code>gemini/gemini-2.5-flash</code> in the command (or wait a minute). Flash has far higher free limits.</td></tr>
+    <tr><td>aider gives <code>402</code> / insufficient balance</td><td>Your DeepSeek credit ran dry — top up at platform.deepseek.com. (A week of shards should cost well under $1, so this shouldn't happen.)</td></tr>
+    <tr><td>aider gives <code>429</code> / rate-limit</td><td>Brief pause then retry the same command — DeepSeek rate-limits are generous; this is transient.</td></tr>
     <tr><td><code>./mend build</code> shows <span class="no">✗</span> dangling ref</td><td>A seam points to a non-existent id. In aider: "fix the seam whose <code>b</code> is X — seam to a joint id from the palette instead." Rebuild.</td></tr>
     <tr><td>A shard came out badly / you want a redo</td><td><code>git checkout data/_fanout/&lt;id&gt;.json</code> (or delete it), then re-brief. The merge is rebuilt from scratch every time, so deletions are clean.</td></tr>
     <tr><td>aider edited the wrong file / a commit you dislike</td><td><code>git log --oneline</code> then <code>git revert &lt;hash&gt;</code> — or <code>/undo</code> inside aider undoes its last commit.</td></tr>
@@ -127,7 +128,7 @@
      canonical render. Your week of raw production is exactly the input that pass needs.</p>
 
   <p class="foot">mend wrapper: <code>~/the-mended-mirror/mend</code> · spec: <code>data/_fanout/_SPEC.md</code> ·
-     aider defaults: <code>~/.aider.conf.yml</code> · queue + colors: <code>data/_candidates.json</code></p>
+     aider defaults: <code>~/.aider.conf.yml</code> (model: deepseek/deepseek-chat) · key: <code>~/.env</code> · queue: <code>data/_candidates.json</code></p>
 
 </div>
 </body>
