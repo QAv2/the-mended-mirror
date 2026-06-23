@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mended Mirror — the solo loop</title>
+<style>
+  :root{
+    --bg:#0c0b10; --panel:#15131c; --ink:#e7e2d6; --muted:#9d97a8;
+    --gold:#d4af52; --gold-dim:#8a7330; --line:#2a2733; --seam:#c98a3d;
+    --code:#10131a; --green:#6aa06a; --red:#c0566a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#1a1726 0%,var(--bg) 60%);
+       color:var(--ink);font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+       padding:48px 20px 100px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:34px;
+     letter-spacing:.3px;margin:0 0 6px;
+     background:linear-gradient(90deg,var(--gold),#f0dca0,var(--gold));-webkit-background-clip:text;
+     background-clip:text;color:transparent}
+  .sub{color:var(--muted);font-style:italic;margin:0 0 36px;font-family:Georgia,serif}
+  h2{font-family:Georgia,serif;font-size:22px;margin:42px 0 10px;color:#f0dca0;
+     border-bottom:1px solid var(--line);padding-bottom:8px}
+  h2 .n{color:var(--gold-dim);font-size:16px;margin-right:10px}
+  p{margin:10px 0}
+  .muted{color:var(--muted)}
+  .gold{color:var(--gold)}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:14px 0}
+  code{background:var(--code);border:1px solid var(--line);border-radius:4px;padding:1px 6px;
+       font-family:'SF Mono',Menlo,Consolas,monospace;font-size:13.5px;color:#e7c97a}
+  pre{background:var(--code);border:1px solid var(--line);border-left:3px solid var(--seam);
+      border-radius:8px;padding:16px 18px;overflow-x:auto;font-family:'SF Mono',Menlo,Consolas,monospace;
+      font-size:13px;line-height:1.55;color:#cdd6e3;margin:12px 0}
+  pre .c{color:#6c7689}      /* comment */
+  pre .k{color:#e7c97a}      /* keyword/cmd */
+  ol{padding-left:22px} li{margin:8px 0}
+  .step{counter-reset:none}
+  .loop li{margin:14px 0}
+  .loop b{color:#f0dca0}
+  .pill{display:inline-block;background:#241f17;border:1px solid var(--gold-dim);color:var(--gold);
+        border-radius:20px;padding:2px 12px;font-size:12.5px;margin:0 6px 6px 0}
+  .ok{color:var(--green)} .no{color:var(--red)}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+  th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+  th{background:#1b1825;color:#f0dca0;font-family:Georgia,serif;font-weight:600}
+  .callout{border-left:3px solid var(--gold);background:#181420;padding:12px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+  .crack{height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);
+         margin:40px 0;border:0}
+  .foot{color:var(--muted);font-size:13px;margin-top:40px;font-style:italic}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>The Mended Mirror — the solo loop</h1>
+  <p class="sub">A week of shard-production with aider + Gemini. One unit, repeated. Honest gold only.</p>
+
+  <div class="callout">
+    <b>The division of labor.</b> You produce <b>raw shards</b> this week — the bulk, parallelizable
+    half of the fan-out. The <b>adversarial verify / tiering audit</b> (the part that needs orchestration)
+    waits for Claude. Nothing is wasted: verification is a later gate, not a write-time requirement.
+    A Gemini-written shard <i>is</i> what a swarm agent produced — same spec, just human-paced.
+  </div>
+
+  <h2><span class="n">§1</span>This week's target</h2>
+  <p>
+    <span class="pill">Wave 1 · 34 shards</span>
+    <span class="pill">~5/day clears it</span>
+  </p>
+  <p>Wave 1 is decision-free (no granularity-dial calls) and the highest-value batch — it includes the
+     <b>Abrahamic split you asked for</b> (Judaism · Christianity · Islam · Kabbalah · Bahá'í · Druze ·
+     Yazidism · Mandaeism · Rastafari), the <b>whole African diaspora</b> (Santería · Vodou · Candomblé),
+     the <b>Western esoteric core</b> (Hermeticism · Alchemy · Golden Dawn · Thelema · Theosophy), and the
+     major missing living faiths (Sikhism · Confucianism · Wicca · Scientology · New Age).</p>
+  <pre><span class="k">./mend queue 1</span>      <span class="c"># see the 34, grouped by family with anchors</span></pre>
+
+  <hr class="crack">
+
+  <h2><span class="n">§2</span>The daily loop</h2>
+  <ol class="loop">
+    <li><b>Pick the next shard</b> and get its brief. It prints the exact aider command and the
+        first message to paste — color, region, and anchor motif already filled in.
+        <pre><span class="k">./mend brief judaism</span></pre></li>
+    <li><b>Run the aider line it gave you.</b> The spec and a finished shard ride along as read-only
+        context; the new <code>data/_fanout/&lt;id&gt;.json</code> is the only file aider writes.
+        Paste the first message, let it draft, <code>/exit</code>.</li>
+    <li><b>Build &amp; validate.</b> This merges your shard into the live dataset and runs the
+        same sanity check the engine uses.
+        <pre><span class="k">./mend build</span></pre>
+        <span class="ok">✓ clean</span> → open the map and eyeball it. &nbsp;
+        <span class="no">✗ problems</span> → it tells you what's wrong (almost always a seam pointing
+        at an id that isn't in the inventory). Fix in aider, build again. <b>Don't commit dirty.</b></li>
+    <li><b>Eyeball the honesty</b> — open <code>index.html</code>, find your new tradition, follow its
+        gold seams. Are the convergences real? Are the tiers humble (mostly tier&nbsp;3)? If yes:
+        <pre><span class="k">git add -A && git commit -m</span> "mirror: add judaism shard"</pre></li>
+  </ol>
+
+  <h2><span class="n">§3</span>What "good" means (so the week isn't wasted)</h2>
+  <table>
+    <tr><th>Check</th><th>Pass looks like</th></tr>
+    <tr><td>Figures</td><td>7–11, each with a <b>gloss</b> (what it is) <i>and</i> a <b>facet</b> (why it can't be folded into another shard)</td></tr>
+    <tr><td>Gold seams</td><td>8–20 cross-tradition edges, every <code>b</code> id a real one from the inventory</td></tr>
+    <tr><td>Tiering</td><td>mostly <b>tier 3</b> (analogous). Tier 1–2 only for proven descent/contact. Tier 4 must say "a loose parallel…" in the note</td></tr>
+    <tr><td>Sources</td><td><code>provenance</code> names real attestation; contested/reconstructed material is flagged, not asserted</td></tr>
+    <tr><td>Sanity</td><td><code>./mend build</code> ends <span class="ok">✓ clean</span></td></tr>
+  </table>
+  <div class="callout">
+    <b>The one unforgivable error is over-claiming.</b> Bright fake gold poisons the whole thesis;
+    faint honest gold is the point. When a shard reads as lazy perennialism ("everything is secretly the
+    same"), reject it — tell aider to lower tiers and add facets. <i>Flag, don't fold.</i>
+  </div>
+
+  <h2><span class="n">§4</span>If something breaks while I'm gone</h2>
+  <table>
+    <tr><th>Symptom</th><th>Do this</th></tr>
+    <tr><td>aider gives <code>429</code> / quota / rate-limit</td><td>Switch the model to <code>gemini/gemini-2.5-flash</code> in the command (or wait a minute). Flash has far higher free limits.</td></tr>
+    <tr><td><code>./mend build</code> shows <span class="no">✗</span> dangling ref</td><td>A seam points to a non-existent id. In aider: "fix the seam whose <code>b</code> is X — seam to a joint id from the palette instead." Rebuild.</td></tr>
+    <tr><td>A shard came out badly / you want a redo</td><td><code>git checkout data/_fanout/&lt;id&gt;.json</code> (or delete it), then re-brief. The merge is rebuilt from scratch every time, so deletions are clean.</td></tr>
+    <tr><td>aider edited the wrong file / a commit you dislike</td><td><code>git log --oneline</code> then <code>git revert &lt;hash&gt;</code> — or <code>/undo</code> inside aider undoes its last commit.</td></tr>
+    <tr><td>Everything feels wedged</td><td>You can always <code>git reset --hard HEAD</code> back to the last good commit. The baseline commit is your floor.</td></tr>
+  </table>
+
+  <h2><span class="n">§5</span>When I'm back</h2>
+  <p>Hand me the week's commits. I run the verify pass over every new shard — the adversarial tiering
+     audit, the cross-seam reconciliation, the proposed-joint review — and we fold the survivors into the
+     canonical render. Your week of raw production is exactly the input that pass needs.</p>
+
+  <p class="foot">mend wrapper: <code>~/the-mended-mirror/mend</code> · spec: <code>data/_fanout/_SPEC.md</code> ·
+     aider defaults: <code>~/.aider.conf.yml</code> · queue + colors: <code>data/_candidates.json</code></p>
+
+</div>
+</body>
+</html>
