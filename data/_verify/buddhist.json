@@ -1,0 +1,88 @@
+{
+  "verdicts": [
+    {
+      "a": "buddhist-sumeru",
+      "b": "mount-meru",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Defensible cognate. Sumeru is literally su-Meru ('excellent Meru'), the same Sanskrit world-mountain inherited from Vedic/Puranic into Buddhist cosmology. Same name, same language tradition (Indic), direct descent. Tier 1 stands."
+    },
+    {
+      "a": "buddhist-sumeru",
+      "b": "axis-mundi",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Down-tier from 1. The reason text itself says 'joint membership... shared with Yggdrasil, the Ceiba, Eden's rivers' — that is a cross-family structural/functional parallel (axis-mundi archetype), NOT proven linguistic descent. A shared archetypal motif across unrelated traditions is analogous, tier 3, not a cognate."
+    },
+    {
+      "a": "buddhist-yama",
+      "b": "yama",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Defensible cognate/inheritance. Vedic Yama, first-mortal and king of the dead, is carried wholesale into Buddhism (and east as Yanluo/Enma). Same figure, same name, Indic-internal direct inheritance. Tier 1 stands."
+    },
+    {
+      "a": "buddhist-indra-sakra",
+      "b": "indra",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Defensible. Sakra IS Vedic Indra, name and vajra retained, inherited into Buddhism then demoted. Same deity, same Indic tradition, direct inheritance. Tier 1 stands (the demotion is the content; the descent is real)."
+    },
+    {
+      "a": "buddhist-anatman",
+      "b": "brahman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Down-tier from 1. Anatman as the explicit denial of the Upanisadic Brahman/Atman is a genuine, documented historical argument within Indian religion — that makes it tier-2 attested (a documented doctrinal dispute/contact), NOT a tier-1 cognate. Tier 1 requires linguistic descent between two figures; this is a relationship between doctrines, not a sound-law cognate. Properly tier 2."
+    },
+    {
+      "a": "buddhist-anatman",
+      "b": "purusha-prakriti",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible tier 2. The Buddhist denial of an abiding witness-self against the Samkhya eternal Purusa is a real, documented doctrinal dispute between Indian schools — attested historical contact/argument. Tier 2 stands."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "buddhist-yama",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible. Mara (death-the-tempter) and Yama (death-the-judge) as twin faces of death is supported in Buddhist textual tradition, including texts where Mara is associated with the realms Yama governs. An intra-shard documented textual association — tier 2 stands."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "buddhist-wheel",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible. The Bhavacakra (Wheel of Becoming) is canonically depicted clasped in the jaws of Mara/Yama — a standard iconographic/textual fact of Buddhist art and doctrine. Intra-shard attested link, tier 2 stands."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "buddhist-avalokitesvara",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible as an intra-shard doctrinal relationship. Both are Mahayana; Avalokitesvara's manifold forms exemplify the trikaya principle of one nature taking many shapes. This is a documented doctrine-and-example relationship within one tradition — tier 2 is acceptable (a doctrinal/textual link, not a loose cross-family parallel)."
+    },
+    {
+      "a": "buddhist-kalpas",
+      "b": "buddhist-wheel",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Down-tier from 2. Kalpas (cosmic cycles) and the wheel (individual rebirth) being 'two scales of the one cyclic vision' is a structural/conceptual parallel the shard draws, not a documented historical borrowing or a single attested doctrinal identity. It is an analogous pairing of two concepts within the tradition — tier 3 fits better than tier-2 'attested'."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "brahman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Reason text says 'Kinship in structure, documented opposition in content.' The structural kinship (one reality appearing as many) is an analogous parallel; the doctrinal opposition is real but the seam as stated is primarily a structural comparison with noted divergence. Cross-doctrine structural parallel = tier 3 analogous. (If framed purely as the documented dharmakaya-vs-Brahman dispute it could be 2, but as a kinship-in-structure claim it is analogous.)"
+    },
+    {
+      "a": "buddhist-indra-sakra",
+      "b": "indra",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible as tier 2. The re-ranking of supreme Vedic Indra into the demoted Buddhist Sakra is a documented theological re-ranking within Indic religion — attested historical relationship. Tier 2 stands. (Note: this duplicates the same figure-pair as the tier-1 inheritance claim above; both are legitimate readings — descent at 1, the inversion-relationship at 2.)"
+    }
+  ]
+}

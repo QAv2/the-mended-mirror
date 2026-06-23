@@ -1,0 +1,39 @@
+{
+  "verdicts": [
+    {
+      "a": "nyame",
+      "b": "nyankopon",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Both are praise-names for the same supreme Akan deity within one language. Nyankopon is analyzed as Nyame-koro-pon ('the one great Nyame'), a transparent compound built on Nyame itself. This is genuine linguistic identity/derivation within a single language family — a defensible tier-1."
+    },
+    {
+      "a": "anansi",
+      "b": "nyame",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "This is a NARRATIVE/mythological relationship (Anansi buys the stories from Nyame and outwits him), not linguistic common descent. A cognate requires proven sound-law descent between the two names. There is no demonstration that 'Anansi' and 'Nyame' descend from a shared root — they are simply two figures in one mythology. Down-tier to analogous/structural (3)."
+    },
+    {
+      "a": "tano",
+      "b": "nyame",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "This is an internal mythological GENEALOGY (Tano named as son of Nyame), not a linguistic cognate. The names 'Tano' and 'Nyame' are not shown to descend from a common reconstructed root by sound-law. Genealogy within a pantheon is a structural relationship, not cognacy. Down-tier to 3."
+    },
+    {
+      "a": "abosom",
+      "b": "nyame",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The abosom being children of Nyame is a theological/structural relationship (withdrawn creator staying present through lesser deities), not linguistic descent. 'Abosom' (plural of obosom, lesser deity) and 'Nyame' are unrelated words; no cognate sound-correspondence is claimed. The 'structural device' wording in the claim itself signals tier-3, not tier-1."
+    },
+    {
+      "a": "tano",
+      "b": "abosom",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tano being the greatest of the abosom is a relationship of class membership/hierarchy within Akan religion, not linguistic cognacy. 'Tano' is a specific theonym; 'abosom' is the category of lesser deities. Membership in a category is structural, not common descent. Down-tier to 3."
+    }
+  ]
+}

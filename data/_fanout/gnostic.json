@@ -1,0 +1,342 @@
+{
+  "tradition": {
+    "id": "gnostic",
+    "name": "Gnostic / Hermetic / Manichaean",
+    "region": "Late-antique Mediterranean & Near East",
+    "color": "#c9b56f"
+  },
+  "figures": [
+    {
+      "id": "the-monad",
+      "kind": "principle",
+      "name": "The Monad (the One)",
+      "archetypes": ["one-through-many", "withdrawn-creator"],
+      "gloss": "The unknowable Source above being, beyond name and number, from whose overflowing fullness the Pleroma of Aeons proceeds — the One so transcendent it does not touch the material world at all.",
+      "facet": "The shard that pushes the withdrawn-creator to the absolute limit: not merely receded but UNNAMEABLE and unreachable, so far above creation that a lesser, ignorant power must make the world in its place.",
+      "provenance": "Apocryphon of John; Valentinian sources; the Corpus Hermeticum's 'the One and All'."
+    },
+    {
+      "id": "the-pleroma",
+      "kind": "concept",
+      "name": "The Pleroma",
+      "archetypes": ["one-through-many", "axis-mundi"],
+      "gloss": "The Fullness — the luminous realm of paired Aeons emanated from the One, the divine totality of which our cosmos is only a fallen, distorted shadow.",
+      "facet": "Where the heavenly world is not a place above but a STATE of fullness, and the visible cosmos is its deficiency — the map of the sacred turned inside out.",
+      "provenance": "Valentinian and Sethian texts; Nag Hammadi library."
+    },
+    {
+      "id": "sophia",
+      "kind": "deity",
+      "name": "Sophia",
+      "archetypes": ["great-mother", "dying-rising"],
+      "gloss": "Wisdom, the youngest Aeon, whose yearning to know the unknowable One outran her bounds — her passion fell out of the Pleroma and congealed into matter, and her grief and repentance are sown into the world as the spark seeking return.",
+      "facet": "The fallen-feminine-wisdom: the Mother who does not nurture the cosmos but accidentally BIRTHS its flaw, then must be redeemed along with it — divine error as the origin of the world.",
+      "provenance": "Valentinian myth; Apocryphon of John. Her descent/restoration is the prototype behind Kabbalah's exiled Shekhinah."
+    },
+    {
+      "id": "yaldabaoth",
+      "kind": "deity",
+      "name": "Yaldabaoth (the Demiurge)",
+      "archetypes": ["smith", "cosmic-adversary"],
+      "gloss": "The blind craftsman-god, lion-faced offspring of Sophia's fall, who fashions the material cosmos and its seven planetary rulers and proclaims himself the only god — ignorant that anything exists above him.",
+      "facet": "The smith INVERTED into a villain: the maker of the world is here not benevolent but blind, jealous and false — and the Creator of Genesis is unmasked as this lesser, deluded power.",
+      "provenance": "Apocryphon of John; On the Origin of the World. The name plausibly = 'child of chaos' (Aramaic yalda bahut)."
+    },
+    {
+      "id": "the-divine-spark",
+      "kind": "principle",
+      "name": "The Divine Spark (Gnosis)",
+      "archetypes": ["dying-rising", "one-through-many"],
+      "gloss": "The fragment of the Pleroma trapped in the human being, asleep in matter — salvation is not faith or works but gnosis, the saving knowledge that awakens the spark to remember its origin and ascend home.",
+      "facet": "Salvation as REMEMBERING, not redemption: the human is a sleeping god, and the whole drama is waking up — the only shard where the cosmos itself is the prison and knowledge alone the key.",
+      "provenance": "Gospel of Thomas; the Hymn of the Pearl; the Hermetic ascent texts."
+    },
+    {
+      "id": "hermes-trismegistus",
+      "kind": "hero",
+      "name": "Hermes Trismegistus",
+      "archetypes": ["psychopomp", "culture-hero"],
+      "gloss": "Thrice-Greatest Hermes, the syncretic sage of the Hermetica, fusing Egyptian Thoth with Greek Hermes — revealer of the path by which mind ascends through the planetary spheres to the divine, teacher that the soul is kin to God.",
+      "facet": "The mender-figure within the tradition: a single named teacher built deliberately FROM two gods of two peoples, the act of syncretism made into a person.",
+      "provenance": "Corpus Hermeticum; Asclepius. Hermes Trismegistus IS Thoth-Hermes, an attested Hellenistic-Egyptian fusion."
+    },
+    {
+      "id": "as-above-so-below",
+      "kind": "principle",
+      "name": "As Above, So Below",
+      "archetypes": ["complementarity", "axis-mundi"],
+      "gloss": "The Hermetic axiom of correspondence — the macrocosm mirrored in the microcosm, heaven legible in earth and the human being a small cosmos — the working principle of all later Western esotericism, astrology and alchemy.",
+      "facet": "Not two warring halves but two MIRRORING halves: a complementarity of scale rather than opposition, the cosmos as a single nested order readable up or down.",
+      "provenance": "The Emerald Tablet ('that which is above is as that which is below'); the Hermetica."
+    },
+    {
+      "id": "mani",
+      "kind": "hero",
+      "name": "Mani",
+      "archetypes": ["culture-hero", "dualism"],
+      "gloss": "The third-century prophet of Babylon who proclaimed himself the Seal of the Prophets and fused Zoroaster, Jesus and the Buddha into one universal religion of Light against Darkness — a faith built on purpose to gather all revelations into one.",
+      "facet": "The meta-shard: a tradition that consciously TRIED to mend the mirror, declaring the prior prophets partial witnesses of one truth — and was branded the arch-heresy for it across three empires.",
+      "provenance": "Cologne Mani-Codex; Coptic Kephalaia; Augustine's anti-Manichaean works."
+    },
+    {
+      "id": "manichaean-dualism",
+      "kind": "principle",
+      "name": "The Two Principles (Light & Darkness)",
+      "archetypes": ["dualism", "complementarity"],
+      "gloss": "Manichaean cosmology: two co-eternal, unmixed kingdoms — Light and Darkness — whose violent collision scatters particles of Light through the material world, which the elect free through ascetic life until the two are sundered forever.",
+      "facet": "Dualism radicalised past Iran: not a good creation invaded but matter itself as DARKNESS — the body a prison of mixed light, salvation the great un-mixing rather than a final battle won.",
+      "provenance": "Kephalaia; the Manichaean cosmogony. The most thoroughgoing dualism of late antiquity."
+    },
+    {
+      "id": "abraxas",
+      "kind": "deity",
+      "name": "Abraxas",
+      "archetypes": ["solar", "one-through-many"],
+      "gloss": "The supreme archon of the Basilidean system, whose Greek letters sum to 365 — ruler of the 365 heavens, a name graven on gnostic gems, the totality of the cosmic spheres bound into a single power.",
+      "facet": "Where number itself becomes deity: a god who is a SUM, the whole circuit of the year's heavens folded into one name — divinity as completeness counted out.",
+      "provenance": "Basilides (via Irenaeus, Hippolytus); abraxas/abrasax engraved amulets. Number-symbolism, not narrative."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "the-monad",
+      "b": "the-pleroma",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the tradition: the Pleroma is the One's own fullness emanated outward — Source and the totality of Aeons it overflows into are a single doctrine of one-through-many."
+    },
+    {
+      "a": "the-pleroma",
+      "b": "sophia",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sophia is the youngest Aeon of the Pleroma; her fall is a tearing within the Fullness itself, the seam where the perfect realm cracks and the cosmos begins."
+    },
+    {
+      "a": "sophia",
+      "b": "yaldabaoth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Yaldabaoth is the malformed offspring of Sophia's fall — mother and blind demiurge are bound as cause and consequence: divine error generating the false creator."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "the-divine-spark",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The Demiurge builds the prison; the spark is the captive light within it. The whole gnostic drama is the spark escaping the world Yaldabaoth made."
+    },
+    {
+      "a": "sophia",
+      "b": "the-divine-spark",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The light Sophia lost in her fall is the very spark sown into humankind; her redemption and the soul's awakening are the same return to the Pleroma."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "as-above-so-below",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The axiom of correspondence is the heart of the Hermetica that Hermes Trismegistus reveals — teacher and teaching are one within the Hermetic corpus."
+    },
+    {
+      "a": "mani",
+      "b": "manichaean-dualism",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Two Principles are the cosmology Mani proclaimed; prophet and the Light-versus-Darkness system are inseparable."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both make MATTER the problem, but Sethian gnosis blames a blind craftsman's error while Mani makes Darkness a co-eternal kingdom — two roads to a world that ought not to be."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "ptah",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The exact inversion of the benevolent craftsman: where Ptah speaks the good world into being by the heart and tongue, Yaldabaoth fashions a flawed cosmos in blindness and pride."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "hephaestus",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The smith-joint turned dark: Hephaestus is the lamed but skilled maker of marvels; Yaldabaoth is the maker whose very craftsmanship is the indictment, a demiurge who builds a trap."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The scandal at the tradition's core: the gnostics read the Creator of Genesis ('I am God and there is no other') AS Yaldabaoth — the jealous demiurge mistaking himself for the One. A documented inversion of the Abrahamic creator."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the principled source of a flawed world, but Ahriman is a free moral evil opposing a good creation, while Yaldabaoth is IGNORANCE wearing the mask of God — malice versus blindness."
+    },
+    {
+      "a": "manichaean-dualism",
+      "b": "spenta-mainyu",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Mani consciously drew on Zoroastrian dualism; both pit two primal principles against each other — but Iran's good Spirit defends a good creation, while Mani condemns matter itself as Darkness. Attested borrowing, radicalised."
+    },
+    {
+      "a": "manichaean-dualism",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Mani named Zoroaster among his forerunners; the Light-Darkness war is built on the Iranian template of co-primordial good and evil — historical descent of doctrine, then pushed past its source into anti-cosmic dualism."
+    },
+    {
+      "a": "manichaean-dualism",
+      "b": "yin-yang",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The mirror's hinge again: Mani makes Light and Darkness UNMIXED enemies to be sundered forever, where Yin and Yang interpenetrate and become each other — total dualism against total complementarity."
+    },
+    {
+      "a": "mani",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Mani held Jesus among the true apostles of Light and called himself an apostle of Jesus Christ; Manichaean texts venerate a Jesus of Light. A deliberate, documented incorporation of Christ into the fused religion."
+    },
+    {
+      "a": "mani",
+      "b": "saoshyant",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Mani placed himself in the prophetic succession that includes Zoroaster, whose tradition awaits the Saoshyant — the Seal of the Prophets claiming and completing the Iranian revelation he gathered in."
+    },
+    {
+      "a": "mani",
+      "b": "buddha",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Mani named the Buddha among the prior messengers of Light; Manichaeism spread east in explicitly Buddhist dress along the Silk Road. The bridge-tradition's deliberate reach toward a fourth shard.",
+      "_unverified_target": true
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "hermes",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Half of Trismegistus IS the Greek Hermes — psychopomp and messenger reread as the sage who guides the soul's ascent through the spheres. Attested Hellenistic identification, not a parallel."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "ra",
+      "type": "syncretic",
+      "tier": "3",
+      "note": "The Egyptian half of Trismegistus is Thoth — scribe and reckoner beside the sun-god Ra. No Thoth id exists in the mirror yet, so the seam homes to the Egyptian shard via its solar centre; the true target is Thoth."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Hermetic ascent through emanated spheres toward the unknowable One closely parallels the Kabbalist climb through the sefirot to Ein Sof — and the two streams actually cross-fertilised in the Renaissance."
+    },
+    {
+      "a": "the-monad",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The unknowable Source beyond being from which graded emanations flow is shared structure; Lurianic Kabbalah's contraction-and-fall of the divine echoes the gnostic Pleroma, via documented late-antique and medieval transmission."
+    },
+    {
+      "a": "the-monad",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the formless Absolute behind all manifestation, and the gnostic spark that IS the One rhymes with Atman that is Brahman — knowing the self as the All. No descent claimed, a deep structural cousinhood."
+    },
+    {
+      "a": "the-monad",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The One that cannot be named yet sources all things shares the apophatic core of the Dao that cannot be spoken — two traditions guarding the ineffable behind the world."
+    },
+    {
+      "a": "sophia",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Sophia's exile and yearning return is the attested prototype of Kabbalah's Shekhinah, the divine presence fallen into exile with the world — fallen-feminine-wisdom transmitted into Jewish mysticism."
+    },
+    {
+      "a": "sophia",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are great goddesses who DESCEND and are restored, but Inanna descends in power to seize the underworld while Sophia falls by error into matter — descent as conquest versus descent as fault."
+    },
+    {
+      "a": "sophia",
+      "b": "persephone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A feminine figure whose loss into the lower world entangles the cosmos and whose return is the world's hope — the dying-rising goddess read as the fall and redemption of Wisdom herself."
+    },
+    {
+      "a": "the-divine-spark",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Light hidden and tended within the world is shared, but Iran's Atar is the kept outward flame of Truth while the gnostic spark is the SECRET inner light asleep in matter — public witness versus buried captive."
+    },
+    {
+      "a": "the-divine-spark",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Samkhya purusa, pure consciousness mistakenly entangled in prakrti and freed by discriminating knowledge, mirrors the spark trapped in matter and freed by gnosis — salvation as KNOWING, in two distant traditions."
+    },
+    {
+      "a": "as-above-so-below",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both read the cosmos as a single legible correspondence rather than warring halves, but the Hermetic axiom mirrors scale (macrocosm/microcosm) while Yin-Yang mirrors polarity — two grammars of complementarity."
+    },
+    {
+      "a": "as-above-so-below",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Microcosm-equals-macrocosm rhymes with the Upanishadic identity of Atman and Brahman — the small self found to BE the cosmic whole, correspondence raised to identity."
+    },
+    {
+      "a": "abraxas",
+      "b": "the-monad",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Within the tradition's variety: Basilides sets Abraxas as the counted totality of 365 heavens, where the Sethian-Valentinian stream sets the uncounted, nameless One above all number — completeness measured versus completeness beyond measure."
+    },
+    {
+      "a": "abraxas",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Abraxas of the 365 heavens is invoked alongside solar imagery on gnostic gems and in the magical papyri, a god of the year's full circuit — a solar-cosmic ruler by number, not the daily-driving sun of Helios."
+    },
+    {
+      "a": "the-pleroma",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both order the totality of being into a single structure one ascends or descends, but Yggdrasil is a cosmic axis of nine worlds while the Pleroma is a fullness of emanated Aeons — structure of the All, by very different geometry. Flagged speculative."
+    }
+  ]
+}

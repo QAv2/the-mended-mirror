@@ -1,0 +1,67 @@
+{
+  "verdicts": [
+    {
+      "a": "changing-woman",
+      "b": "naayee-neizghani",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Intra-tradition narrative relationship documented in the recorded Dine creation story (Matthews' Navaho Legends; Wyman's Blessingway). Changing Woman bearing and dispatching the elder Hero Twin is canonical, recorded ethnography — a real attested textual link, not a cross-family cognate or a mere resemblance. Tier-2 is correct."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "tobadzistsini",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The paired Hero Twins (Monster Slayer and Born-for-Water / Child of the Water) are a core, well-documented unit of the recorded Navajo monster-slaying cycle. Same-tradition attested narrative structure, not cross-family linguistics. Tier-2 holds."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "changing-woman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Sun-Bearer and Changing Woman as parents of the Hero Twins is documented in the recorded creation narrative. An internal attested relationship of one tradition, not borrowing between families. Tier-2 is defensible."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "naayee-neizghani",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Sun testing his sons and arming them with lightning is a central, recorded episode of Dine Bahane. Attested intra-tradition narrative, correctly tier-2."
+    },
+    {
+      "a": "spider-woman",
+      "b": "naayee-neizghani",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Spider Woman as counsellor giving the twins the protective feather and life-saving words on the road to the Sun is a documented episode in the recorded story. Same-tradition attested relationship, tier-2 correct."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "first-man-first-woman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "First Man establishing the four sacred mountains from the medicine bundle after the emergence is canonical recorded narrative. An attested internal relationship of the Dine cosmology, tier-2 holds."
+    },
+    {
+      "a": "hozho",
+      "b": "changing-woman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Changing Woman's gift of the Blessingway (Hozhooji), the central rite for restoring hozho, is documented in Wyman's Blessingway and the ethnographic record. The mother and the harmony principle are bound at the heart of recorded Dine ceremony — attested, tier-2 correct."
+    },
+    {
+      "a": "hozho",
+      "b": "maii-coyote",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Coyote as the disorder against which hozho is re-made (the star-scattering episode) is a documented motif of the recorded tradition. The inversion is an attested intra-tradition relationship, not a cross-family claim. Tier-2 defensible."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "hozho",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The quartered homeland within the four mountains as the spatial body of hozho is a documented cosmological tenet of the recorded tradition. Internal attested relationship, tier-2 correct."
+    }
+  ]
+}

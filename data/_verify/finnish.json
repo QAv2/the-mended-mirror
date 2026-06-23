@@ -1,0 +1,67 @@
+{
+  "verdicts": [
+    {
+      "a": "ukko",
+      "b": "ilmarinen",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tier-2 requires a DOCUMENTED historical contact/borrowing/syncretism between distinct traditions. Ukko and Ilmarinen are both internal to Finnic religion, so this is not a cross-tradition syncretism. The relationship asserted is a narrative/functional one (sky-god and sky-smith sharing the celestial dome). The hedged linguistic note ('names may even share an air/sky root') is speculative and unproven — Ilmarinen derives from ilma 'air/sky' but Ukko means 'old man', so no shared root. This is a structural/functional parallel within one tradition: tier 3."
+    },
+    {
+      "a": "ilmatar",
+      "b": "vainamoinen",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tier-1 requires PROVEN common LINGUISTIC descent via sound-law (cognate names). Ilmatar ('air-maiden', from ilma) and Väinämöinen are not linguistic cognates — they are mother and son within one cosmogony. This is a narrative/genealogical relationship attested within a single epic, not a sound-law cognate. Down-tier to 3 (structural/narrative parallel within one tradition)."
+    },
+    {
+      "a": "ilmatar",
+      "b": "world-egg-kalevala",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tier-1 cognate requires proven shared linguistic descent between two named figures. Here one node is a motif (the world-egg) not a cognate name, and the link is a narrative scene (egg laid on Ilmatar's knee). The world-egg/cosmic-egg creation motif is a well-known cross-cultural type — within the Kalevala its relation to Ilmatar is narrative, not linguistic descent. Tier 3 (motif/structural parallel)."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "ilmarinen",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Not a linguistic cognate — these are two distinct heroes whose names share no sound-law reconstruction. The bond is a narrative working-partnership (sage commissions, smith forges) within one epic. Tier-1 demands proven common descent of the names themselves; this is a functional/narrative pairing. Down-tier to 3."
+    },
+    {
+      "a": "ilmarinen",
+      "b": "sampo",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "A maker-and-artifact narrative relationship (Ilmarinen forges the Sampo), not a linguistic cognate of two figures sharing reconstructed descent. Tier-1 is reserved for sound-law cognates. This is a narrative/attributive link within the epic: tier 3."
+    },
+    {
+      "a": "louhi",
+      "b": "sampo",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Louhi receiving/guarding the Sampo is a plot relationship, not a linguistic cognate. No shared reconstructed root is claimed or possible. Tier-1 misapplied to a narrative possession/conflict link; down-tier to 3."
+    },
+    {
+      "a": "louhi",
+      "b": "vainamoinen",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Rival shaman-singers of opposed households (North vs sunlit Kaleva). This is a narrative antagonism/inversion, not a proven linguistic cognate between the two names. Tier-1 requires sound-law common descent; the 'inverts' relation here is mythic/structural. Down-tier to 3."
+    },
+    {
+      "a": "lemminkainen",
+      "b": "tuonela",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Lemminkäinen's death/dismemberment at the river of Tuonela is a narrative-geographic link (hero bound to the underworld setting), not a linguistic cognate of two figures. Tuonela (from Tuoni, death) and Lemminkäinen share no reconstructed root. Tier-1 misapplied; this is a structural death-and-resurrection motif tied to place: tier 3."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "tuonela",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tier-2 requires a DOCUMENTED historical contact/borrowing/syncretism between distinct traditions. The hero's descent into Tuonela is an internal episode of the runo cycle — a narrative katabasis motif within one tradition, not an attested cross-tradition borrowing. The descent-to-the-underworld type is a structural parallel. Down-tier to 3."
+    }
+  ]
+}

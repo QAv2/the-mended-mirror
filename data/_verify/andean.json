@@ -1,0 +1,39 @@
+{
+  "verdicts": [
+    {
+      "a": "viracocha",
+      "b": "inti",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Both are within the single Inca pantheon, so this is not a cross-tradition borrowing, but their relationship and the precedence dispute (Viracocha the maker vs. Inti the dynastic Sun) is genuinely documented in the colonial chronicles (Cieza de Leon, Garcilaso, Betanzos). As an attested, recorded intra-pantheon relationship it holds at tier 2. Not a cognate (the words are unrelated), so tier 1 would be wrong; tier 2 is defensible."
+    },
+    {
+      "a": "inti",
+      "b": "mama-killa",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Tier 1 is incorrect: 'inti' (sun) and 'killa' (moon) are unrelated Quechua words with no shared reconstruction or sound-law descent. A cognate requires proven common LINGUISTIC descent, not a mythological marriage. What is real here is a documented intra-pantheon divine couple: their paired images in the Coricancha and their festival calendar are attested in the chronicles. Down-tier 1 to 2 (attested cult relationship), not a cognate."
+    },
+    {
+      "a": "pachamama",
+      "b": "mama-cocha",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Pachamama (earth mother) and Mama Cocha (sea/water mother) are both within the Andean tradition and are documented as jointly invoked female powers of ground and water in colonial-era and ethnographic sources. The shared element 'mama' is merely the word 'mother', not a cognate between the two figures, so tier 1 would be wrong; but as an attested paired cult within one tradition, tier 2 is defensible. Keep at 2."
+    },
+    {
+      "a": "illapa",
+      "b": "pariacaca",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Illapa is the Inca state thunder/lightning god (Cuzco); Pariacaca is the Huarochiri highland storm-and-flood deity of the Huarochiri Manuscript. These are two DISTINCT regional traditions, and no source documents them as the same god or as a syncretism — the equation 'same power in imperial and local dress' is an interpretive structural parallel, not an attested historical link. That is the textbook tier-3 (analogous) claim. Down-tier 2 to 3."
+    },
+    {
+      "a": "inkari",
+      "b": "christ",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Inkarri myth (the buried Inca head that regrows its body and will rise to overturn the world) is a well-documented colonial-era syncretic fusion of Inca memory with the Christian resurrection, recorded and analyzed by ethnographers (Arguedas, Ossio, Flores Galindo). This is a genuine documented syncretism between two traditions in contact — exactly what tier 2 'attested/syncretic' is for. Keep at 2."
+    }
+  ]
+}

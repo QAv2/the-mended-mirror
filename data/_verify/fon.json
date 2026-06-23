@@ -1,0 +1,32 @@
+{
+  "verdicts": [
+    {
+      "a": "fon-mawu",
+      "b": "fon-lisa",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Intra-tradition pairing within Fon cosmology itself — Mawu (moon) and Lisa (sun) are the two halves of the hyphenated androgynous creator Mawu-Lisa. This is not a cross-family linguistic claim but a complementary couple at the root of one system, the strongest and most secure kind of seam. Tier 1 stands."
+    },
+    {
+      "a": "fon-legba",
+      "b": "eshu",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Fon Legba and Yoruba Esu/Elegba are an attested shared/borrowed crossroads-trickster cult among directly neighbouring peoples (the Elegba~Legba name relation reflects real religious contact, not coincidence). Fon (Gbe/Kwa) and Yoruba (Yoruboid) are different sub-branches, so this is NOT a sound-law tier-1 cognate despite the seam label — but the documented regional cult-sharing legitimately supports tier 2 (attested)."
+    },
+    {
+      "a": "fon-gu",
+      "b": "ogun",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Gu (Fon) and Ogun (Yoruba) are the same iron-and-war smith-god shared across the documented Fon–Yoruba religious frontier — a real, historically attested regional cult, not a distant structural analogy. Different sub-families rule out a true tier-1 cognate, but the documented contact/syncretism holds tier 2 (attested)."
+    },
+    {
+      "a": "fon-xevioso",
+      "b": "shango",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Xevioso/Heviosso (Fon) and Shango (Yoruba) are neighbouring thunder-gods sharing the stone-axe and lightning-judgement complex of an attested West-African storm cult with documented Fon–Yoruba contact. This is more than abstract analogy — it is regional cult-sharing/syncretism, so tier 2 (attested) is defensible rather than demoting to 3."
+    }
+  ]
+}

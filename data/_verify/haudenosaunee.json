@@ -1,0 +1,53 @@
+{
+  "verdicts": [
+    {
+      "a": "sky-woman",
+      "b": "great-turtle",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Core, well-documented episode of the Haudenosaunee creation cycle: Sky Woman falls from the Sky-World and is caught/set upon the Great Turtle's back. This is a single recorded narrative scene attested across Iroquois tellings (Hewitt's Iroquoian Cosmology), not a cross-family resemblance. Tier-2 (attested within the same corpus) is defensible."
+    },
+    {
+      "a": "great-turtle",
+      "b": "earth-diver-animals",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The earth-diver motif (muskrat/toad brings up mud spread on the turtle's shell) is an integral, documented part of the same Iroquois creation narrative. Diver and platform belong to one recorded cosmogonic episode; attested within the tradition. Tier-2 holds."
+    },
+    {
+      "a": "teharonhiawako",
+      "b": "tawiskaron",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Sapling (Teharonhiawako) and Flint (Tawiskaron) are the canonical antagonistic twins of the recorded Iroquois cosmology; their contention shaping/unmaking the world is a central documented narrative relationship. Attested within the corpus, not a speculative parallel. Tier-2 defensible."
+    },
+    {
+      "a": "sky-woman",
+      "b": "teharonhiawako",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Genealogical link explicit in the recorded cosmology: Sky Woman's daughter bears the twins, and Teharonhiawako (Sapling) completes the world Sky Woman began. A documented narrative kinship within the same tradition. Tier-2 holds."
+    },
+    {
+      "a": "tawiskaron",
+      "b": "sky-woman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "In recorded tellings Flint (Tawiskaron) causes his mother's death in birth (matricide); the death of the twins' mother is a documented event of the cycle. The claim conflates Sky Woman with her daughter (it is the daughter, Sky Woman's child, who dies bearing the twins) — the figure-of-origin is the daughter, not Sky Woman herself in most versions. The relationship is attested within the corpus, but the specific identification is imprecise; kept at tier-2 since the matricide event is genuinely documented, though the 'mother' is properly the daughter."
+    },
+    {
+      "a": "great-peace",
+      "b": "great-turtle",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The Tree of Peace (Great Law) rooted on Turtle Island and the Great Turtle of the creation cosmology belong to two distinct narrative layers — the political/constitutional tradition (Deganawida/Great Law) and the cosmogonic tradition. Their joining ('the constitution grows from the creation') is a structural/interpretive parallel drawn between two corpora rather than a single documented narrative episode linking the two figures. This is the comparativist's honest 'analogous' claim, not a textually-attested direct link. Down-tier to 3."
+    },
+    {
+      "a": "three-sisters",
+      "b": "sky-woman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Documented in many recorded Iroquois tellings: the Three Sisters (maize, bean, squash) and other plants spring from the buried body of Sky Woman's daughter. The claim says 'Sky Woman's buried daughter,' correctly identifying the daughter as the source. A genuine attested motif within the same corpus. Tier-2 holds."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "verdicts": [
+    {
+      "a": "kaggen",
+      "b": "kaang",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible at tier 2 as an ATTESTED feature of the recorded tradition, not a linguistic cognate. The 19th-c. ethnographic corpus (Bleek & Lloyd for the |Xam Mantis |Kaggen; the wider Khoisan literature for the Naro/Northern-San creator Kaang/!Khwa) genuinely treats the trickster-Mantis and the recessive creator as one being under two names in places. That conflation is a documented fact about the sources (parallel to the Zulu umvelinqangi/unkulunkulu case). NOT a sound-law cognate — |Kaggen and Kaang are not shown to be the same word by reconstruction, and they come from different San groups — so tier 1 would be wrong, but tier 2 (attested textual ambiguity) holds. Keep."
+    },
+    {
+      "a": "kaggen",
+      "b": "san-eland",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "This is a MYTHIC/narrative relation (|Kaggen makes, rears and loves the eland; its killing reshapes the world), not a linguistic cognate. Tier 1 requires proven common descent by sound-law between two words/figures within one language family. 'Kaggen' (Mantis) and 'eland' are unrelated lexical items bound by a story, not by phonology. Tier 1 is unjustified. It is a celebrated |Xam myth but as a SEAM it is a structural/symbolic creator-and-creature relation; down-tier to 3."
+    },
+    {
+      "a": "kaggen",
+      "b": "san-moon-hare",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Down-tier from 2 to 3. The Mantis casting his shoe/feather to make the moon is genuinely recorded in the Bleek & Lloyd |Xam corpus, but tier 2 is reserved for a documented historical CONTACT, borrowing or syncretism BETWEEN traditions. This is an intra-San narrative relation (the moon and the hare's-refusal death-myth as products of |Kaggen's own creation) — a mythic/structural link, not a cross-tradition borrowing. A myth being written down is not 'attested contact.' Analogous/narrative tier 3 is the honest placement."
+    },
+    {
+      "a": "san-eland",
+      "b": "san-trance-dance",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Not a linguistic cognate, so tier 1 is wrong, but this is the single most heavily DOCUMENTED ethnographic relation in the San material: the eland's potency as the n|om that drives trance, the dancer 'dying the eland's death,' and the fusion of holy beast and central rite in the painted rock-art record (Bleek & Lloyd; Lewis-Williams' neuropsychological/rock-art scholarship). That is a documented ritual-symbolic link within the recorded tradition, which supports tier 2 (attested) rather than mere resemblance. Down-tier 1 -> 2."
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "san-gao-na",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Not a sound-law cognate, so tier 1 fails. The healer's trance-journey contending with //Gauwa and the gauwasi while petitioning the great god is real Ju|'hoan/!Kung ethnography (Marshall, Katz, Biesele), but it also blends San subgroups (the trance-dance complex is pan-San / |Xam-documented; the //Gauwa-gauwasi two-god gradient is specifically Ju|'hoan). Because it crosses subgroups and rests on a structural theological gradient rather than a single documented contact-event, the honest placement is 3 (structural/functional parallel), not 1."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "san-trance-dance",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Down-tier from 2 to 3. The rain-shaman capturing and killing the rain-animal in altered state, and rain-making being the same shamanic potency as healing, is documented in the |Xam corpus and rock-art scholarship (Bleek & Lloyd; Lewis-Williams). But the claim itself is explicitly a STRUCTURAL identity ('the same power turned to different ends') — an analogous/functional parallel between two ritual roads, not a documented historical contact or borrowing between distinct traditions. That is the textbook tier-3 (analogous) claim. Keep the seam, fix the tier."
+    }
+  ]
+}

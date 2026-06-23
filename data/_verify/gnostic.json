@@ -1,0 +1,123 @@
+{
+  "verdicts": [
+    {
+      "a": "the-monad",
+      "b": "the-pleroma",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Internal Gnostic doctrine: the Pleroma is the Monad's own emanated fullness. Source and the totality of Aeons are a single attested teaching within one textual corpus (Sethian/Valentinian). A doctrinal link, not a cross-family cognate. Tier 2 holds."
+    },
+    {
+      "a": "the-pleroma",
+      "b": "sophia",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Sophia is the youngest Aeon of the Pleroma in the same texts (Apocryphon of John, Valentinian myth). Her fall is internal to the Fullness. Attested within one tradition's documents. Tier 2 holds."
+    },
+    {
+      "a": "sophia",
+      "b": "yaldabaoth",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Yaldabaoth as the malformed offspring of Sophia's fall is explicit in the Apocryphon of John and related Sethian texts. Mother-and-demiurge are bound as documented narrative cause-and-effect within the same corpus. Tier 2 holds."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "the-divine-spark",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Demiurge's cosmos as prison and the captive spark of light are the two poles of the same Gnostic drama, documented across the tradition's texts. An internal doctrinal inversion. Tier 2 holds."
+    },
+    {
+      "a": "sophia",
+      "b": "the-divine-spark",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The light Sophia lost being the spark sown into humanity is core Gnostic soteriology, attested in the same myth-cycle. Internal doctrinal link, one corpus. Tier 2 holds."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "as-above-so-below",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The correspondence axiom is the teaching of the Hermetica (Emerald Tablet / Corpus Hermeticum) ascribed to Hermes Trismegistus himself. Teacher and teaching are one within the same body of texts. Tier 2 holds."
+    },
+    {
+      "a": "mani",
+      "b": "manichaean-dualism",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Two Principles are the system Mani proclaimed and authored. Prophet and his own doctrine are inseparable and documented (Mani's own writings, Coptic Manichaean texts). Tier 2 holds."
+    },
+    {
+      "a": "yaldabaoth",
+      "b": "yahweh",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Gnostic identification of the Genesis creator with the blind demiurge Yaldabaoth is explicitly documented: the Apocryphon of John quotes the creator's 'I am God and there is no other' (Isaiah 45:5 / Exodus echo) AND glosses it as the demiurge's arrogant blindness. A real intertextual inversion of the Abrahamic creator in actual texts. Tier 2 holds."
+    },
+    {
+      "a": "manichaean-dualism",
+      "b": "spenta-mainyu",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Mani, raised in Sasanian Iran, demonstrably drew on Zoroastrian dualism; he named Zoroaster among his forerunners. The engagement with the Iranian good-Spirit/evil-Spirit template is a documented historical borrowing (then radicalised into anti-cosmic dualism). Attested contact, not mere resemblance. Tier 2 holds."
+    },
+    {
+      "a": "manichaean-dualism",
+      "b": "angra-mainyu",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Same documented Iranian descent: Mani built the Light-Darkness war on the co-primordial good/evil template of Zoroastrian cosmology, naming Zoroaster a forerunner. Historical transmission of doctrine is attested. Tier 2 holds."
+    },
+    {
+      "a": "mani",
+      "b": "christ",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Mani called himself an apostle of Jesus Christ and counted Jesus among the true apostles of Light; the Jesus of Light is venerated across Manichaean texts. A deliberate, documented incorporation of Christ into the fused religion. Tier 2 holds."
+    },
+    {
+      "a": "mani",
+      "b": "saoshyant",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Mani placed himself as Seal of the Prophets within a succession that explicitly includes Zoroaster, whose tradition awaits the Saoshyant. His self-insertion into and completion of the Iranian prophetic line is documented in his own claims. Tier 2 holds as an attested syncretic incorporation."
+    },
+    {
+      "a": "mani",
+      "b": "buddha",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Mani named the Buddha among prior messengers of Light, and Manichaeism's eastward spread in explicit Buddhist dress along the Silk Road is well documented (Uyghur/Chinese Manichaean texts). A deliberate, attested incorporation. Tier 2 holds."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "hermes",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Hermes Trismegistus is the documented Hellenistic syncretism of Greek Hermes with Egyptian Thoth; the Greek psychopomp is one half of the figure by direct identification, not parallel. An attested Greco-Egyptian fusion. Tier 2 holds."
+    },
+    {
+      "a": "hermes-trismegistus",
+      "b": "ein-sof",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The seam's own wording is 'closely parallels' — a structural analogy between Hermetic spheres-ascent and the Kabbalist climb to Ein Sof. The named contact is Renaissance cross-fertilisation (Pico, Ficino), which is real but late and did not generate either figure; it post-dates and merely juxtaposes two already-formed systems. The load-bearing claim is structural parallel, not a borrowing that produced Ein Sof. Down-tier to 3 (analogous)."
+    },
+    {
+      "a": "the-monad",
+      "b": "ein-sof",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The unknowable Source beyond being from which graded emanations flow is genuine shared structure, but direct Gnostic-to-Kabbalah transmission producing Ein Sof is scholarly-contested, not firmly documented; the Lurianic contraction/fall 'echo' is itself a typological parallel. The honest claim is analogous structure (the strongest of the three Kabbalah seams, but still a parallel). Down-tier to 3."
+    },
+    {
+      "a": "sophia",
+      "b": "ein-sof",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The reasoning actually argues Sophia->Shekhinah (fallen feminine wisdom), not Sophia->Ein Sof, so the endpoint is mismatched. And the Sophia/Shekhinah link, while a real and frequently-drawn scholarly comparison, is a typological/analogous parallel whose 'attested prototype' status with direct transmission is contested, not a documented borrowing. Down-tier to 3 (analogous)."
+    }
+  ]
+}

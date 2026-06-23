@@ -1,0 +1,294 @@
+{
+  "tradition": {
+    "id": "fon",
+    "name": "Fon / Dahomey (Vodun)",
+    "region": "West Africa (Benin)",
+    "color": "#c76b4e"
+  },
+  "figures": [
+    {
+      "id": "fon-nana-buluku",
+      "kind": "deity",
+      "name": "Nana Buluku",
+      "archetypes": ["withdrawn-creator", "great-mother", "first-ancestor"],
+      "gloss": "The primordial androgyne-mother who bore Mawu-Lisa and then withdrew utterly from the world's affairs, leaving creation to her twin offspring.",
+      "facet": "The deus otiosus stripped to her essence: a creator so absolute that she has no cult, no temple, no prayer — divinity defined precisely by its recession.",
+      "provenance": "Recorded chiefly through Herskovits' 1930s Dahomey ethnography; the creator's near-total silence in lived cult is itself the attested fact."
+    },
+    {
+      "id": "fon-mawu-lisa",
+      "kind": "deity",
+      "name": "Mawu-Lisa",
+      "archetypes": ["complementarity", "world-parents", "lunar", "solar"],
+      "gloss": "The twin demiurge of moon-Mawu (night, coolness, mercy, the female west) and sun-Lisa (day, heat, strength, the male east), whose union orders and governs the made world.",
+      "facet": "A creator-pair held in a single hyphenated name: not two gods in tension but one balance spoken with two mouths — sky-parenthood rendered as deliberate, gendered complementarity."
+    },
+    {
+      "id": "fon-mawu",
+      "kind": "deity",
+      "name": "Mawu",
+      "archetypes": ["lunar", "great-mother"],
+      "gloss": "The moon-half of the creating pair: coolness, night, wisdom and gentleness, associated with the west and with the fertility of women.",
+      "facet": "The lunar reckoner cast as the elder, calmer wisdom — the moon as the seat of mercy rather than the mere measure of time."
+    },
+    {
+      "id": "fon-lisa",
+      "kind": "deity",
+      "name": "Lisa",
+      "archetypes": ["solar"],
+      "gloss": "The sun-half of the creating pair: heat, day, strength and labour, associated with the east and the chameleon who carried his light.",
+      "facet": "A solar god who is one wing of a couple, never a lone sovereign eye — the sun bound by covenant to the moon."
+    },
+    {
+      "id": "fon-legba",
+      "kind": "deity",
+      "name": "Legba",
+      "archetypes": ["trickster", "psychopomp", "axis-mundi"],
+      "gloss": "Youngest son of Mawu-Lisa and divine linguist: the guardian of the crossroads and every threshold, through whom alone the speech of gods and humans may pass.",
+      "facet": "The gate that must be opened first: no rite begins until Legba is fed — the trickster installed as the indispensable opening protocol of all worship."
+    },
+    {
+      "id": "fon-fa",
+      "kind": "concept",
+      "name": "Fa (Destiny / Divination)",
+      "archetypes": ["cosmic-order", "one-through-many"],
+      "gloss": "The system of destiny written in 256 signs, read through palm-nuts and casting-chains; the personal lot and the cosmic script each being holds and may consult.",
+      "facet": "Order not as a king's decree but as a readable text — fate rendered as a finite alphabet of signs, the cosmos made legible and queryable.",
+      "provenance": "Fa is the Fon reception of Yoruba Ifa; an attested borrowing between neighbouring peoples, the 256 odu shared in structure."
+    },
+    {
+      "id": "fon-dan-ayida",
+      "kind": "deity",
+      "name": "Dan & Ayida-Wedo",
+      "archetypes": ["cosmic-serpent", "complementarity", "axis-mundi"],
+      "gloss": "Dan Ayido Hwedo, the rainbow-serpent who coils the world together and bears Mawu through the sky; with his consort Ayida-Wedo he is the arc of male and female, the motion that keeps creation from collapsing.",
+      "facet": "The cosmos held by a serpent's continuous motion, not slain by a hero: the snake as the world's living tendon and circulation, coiled beneath the earth in 3,500 turns above and below.",
+      "provenance": "Dan crosses the Atlantic as Damballa in Haitian Vodou; the rainbow-serpent complex is widespread across West Africa."
+    },
+    {
+      "id": "fon-sakpata",
+      "kind": "deity",
+      "name": "Sakpata",
+      "archetypes": ["great-mother", "underworld-sovereign"],
+      "gloss": "The earth-god and lord of smallpox and pestilence — King of the Earth, feared and propitiated, whose name was so charged it was spoken only in circumlocution.",
+      "facet": "The earth itself as a dread sovereign of disease: fertility and death held in one ground, the great-mother who heals and afflicts with the same hand."
+    },
+    {
+      "id": "fon-xevioso",
+      "kind": "deity",
+      "name": "Xevioso (Hevioso)",
+      "archetypes": ["storm-wielder"],
+      "gloss": "The thunder-god who hurls stone axes from the sky, a son of Mawu-Lisa governing storm, rain and the justice of the lightning-stroke that strikes the guilty.",
+      "facet": "Thunder as moral verdict: the ram-voiced sky-axe that does not merely destroy but adjudicates, lightning aimed by righteousness."
+    },
+    {
+      "id": "fon-gu",
+      "kind": "deity",
+      "name": "Gu",
+      "archetypes": ["smith", "culture-hero"],
+      "gloss": "The vodun of iron, war and the forge — the divine smith and tool-bringer, Mawu-Lisa's instrument for clearing and shaping the world for human life.",
+      "facet": "Iron as the very means of civilisation: Gu is not only a war-god but the cutting edge by which forest becomes field, the smith fused with the world-clearing culture-hero."
+    },
+    {
+      "id": "fon-tohosu",
+      "kind": "spirit",
+      "name": "Tohosu",
+      "archetypes": ["first-ancestor"],
+      "gloss": "Spirits of the waters and of children born deformed or extraordinary — royal water-guardians and ancestral kings, deified anomalies who rule streams and pools.",
+      "facet": "The shard that sanctifies the anomaly: where many traditions cast out the strange-born, the Fon enthrone them as water-kings — divinity located in deviation itself.",
+      "provenance": "Closely tied to the Dahomean royal lineage; documented in Herskovits and in the cult of the kings' deified children."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "fon-mawu-lisa",
+      "b": "fon-nana-buluku",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The withdrawn primordial mother bears the active creating twins — recession above, governance below; one Fon cosmogony in two storeys."
+    },
+    {
+      "a": "fon-mawu",
+      "b": "fon-lisa",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Moon and sun as the two halves of one hyphenated creator within the same tradition — the complementary couple at the root of Fon cosmology."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "fon-legba",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Legba is the youngest son and appointed linguist of the creating pair — the gate they set between themselves and humankind."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "fon-dan-ayida",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The rainbow-serpent Dan bears Mawu through the heavens and undergirds the world the twins govern — serpent as the creation's load-bearing motion."
+    },
+    {
+      "a": "fon-legba",
+      "b": "eshu",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Fon Legba and Yoruba Esu/Elegba are near-identical crossroads-tricksters among neighbouring peoples — an attested shared cult, not a distant analogy."
+    },
+    {
+      "a": "fon-gu",
+      "b": "ogun",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Gu (Fon) and Ogun (Yoruba) are the same iron-and-war smith-god shared across the Fon–Yoruba neighbourhood — a documented regional cult."
+    },
+    {
+      "a": "fon-fa",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both reduce destiny to a casting-system over a fixed sign-set; offered cautiously, no contact — divination and board-cosmogram as two readings of fate."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two traditions render the world as a balance of cool/dark/female and hot/bright/male principles — complementarity, not warring dualism."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name a single dual creator of paired male/female aspect at the head of the cosmos — divinity as a self-complementary couple."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The creating pair as the male and female poles whose union produces the lived world — structural rhyme with Purusa and Prakrti."
+    },
+    {
+      "a": "fon-mawu-lisa",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sky-and-earth / sun-and-moon parenthood: world-parents whose union and roles order the made cosmos."
+    },
+    {
+      "a": "fon-nana-buluku",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The supreme source who recedes from cult into impersonality — the withdrawn high-god with little direct worship."
+    },
+    {
+      "a": "fon-mawu",
+      "b": "amaterasu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Both luminary-deities head the bright order, but Fon assigns the calm sovereign light to the MOON and a female, where Shinto crowns the female SUN — the gendering of the luminaries reversed."
+    },
+    {
+      "a": "fon-lisa",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Solar power as heat, day and labour — but Lisa is one wing of a couple where Ra is the lone sovereign eye."
+    },
+    {
+      "a": "fon-dan-ayida",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The serpent as cosmic sustainer and sky-bridge rather than slain dragon — feathered/rainbow snake as continuity, not chaos."
+    },
+    {
+      "a": "fon-dan-ayida",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The world held together by a single coiling axis — serpent-as-world-frame beside tree-as-world-frame; a reach, flagged."
+    },
+    {
+      "a": "fon-xevioso",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Neighbouring Fon and Yoruba thunder-gods who hurl stone axes and judge the guilty by lightning — shared West-African storm-cult, near-mirror roles."
+    },
+    {
+      "a": "fon-xevioso",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Axe/hammer-wielding thunderer of the sky — the storm-wielder joint across unrelated families."
+    },
+    {
+      "a": "fon-xevioso",
+      "b": "raijin",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Ram-voiced thunder hurled from heaven; the lightning-striker as a recurring sky-figure."
+    },
+    {
+      "a": "fon-gu",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The divine smith who forges the tools of war and civilisation — fire-craft as a god's office."
+    },
+    {
+      "a": "fon-gu",
+      "b": "tvastr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Divine artificer who shapes the implements of the world — the smith-joint across families."
+    },
+    {
+      "a": "fon-sakpata",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The earth personified as great-mother — but Sakpata fuses fertile ground with the sovereign of pestilence, earth as dread as well as nurse."
+    },
+    {
+      "a": "fon-sakpata",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The earth-mother who gives life and deals death in one body — terrible fertility shared across continents."
+    },
+    {
+      "a": "fon-legba",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Divine messenger and god of the crossroads, translator between worlds and opener of the way — psychopomp-trickster across families."
+    },
+    {
+      "a": "fon-fa",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "4",
+      "note": "An impersonal order the cosmos and each being obey — but Fa is a readable script of 256 signs where the Dao is the unspeakable way; a partial rhyme, flagged."
+    },
+    {
+      "a": "fon-fa",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both build a destiny-system from binary marks combined into a closed set of signs — odu and hexagram as cousins of method, no contact implied."
+    },
+    {
+      "a": "fon-nana-buluku",
+      "b": "fon-mawu",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Within the tradition, the withdrawn grandmother-creator stands behind Mawu the moon — the recession that lets the active luminaries govern."
+    }
+  ]
+}

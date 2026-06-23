@@ -1,0 +1,95 @@
+{
+  "verdicts": [
+    {
+      "a": "ahura-mazda",
+      "b": "asa",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Intra-Iran structural pairing, not a cross-family cognate claim. Ahura Mazda as lord of Asha and the inseparability of the Wise Lord and the Truth he upholds are explicit in the Gathas (same corpus). A proven within-system identity holds at tier 1."
+    },
+    {
+      "a": "spenta-mainyu",
+      "b": "angra-mainyu",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The primal twin Spirits of Yasna 30 are textually explicit in a single corpus. A documented intra-tradition pairing, not a cross-family resemblance. Tier 1 defensible."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "asa",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Angra Mainyu as partisan of Druj, the inverse of Asha, is the Gathic Truth-versus-Lie axis stated within the tradition's own texts. Intra-system inversion holds at tier 1."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "amesha-spentas",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Amesha Spentas as facets/emanations of the single Wise Lord is attested Zoroastrian doctrine within one tradition, not a cross-family claim. Tier 1 defensible."
+    },
+    {
+      "a": "frashokereti",
+      "b": "saoshyant",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Saoshyant as agent of the Frashokereti is a single attested eschatological relation inside the tradition's own scripture. Intra-system pairing holds at tier 1."
+    },
+    {
+      "a": "asa",
+      "b": "brahman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The genuine cognate is Avestan asha/Old Persian arta <-> Vedic RTA < PIE *h2r-to. But the seam as drawn lands on Brahman/Atman, and rta is NOT cognate with brahman. The reason text itself concedes the true cognate term is rta. Asha and Brahman as cosmic-order concepts are a functional/structural parallel, not a linguistic cognate between the two endpoints actually drawn. Down-tier to 3."
+    },
+    {
+      "a": "yima",
+      "b": "yama",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Avestan Yima <-> Vedic Yama descend from Indo-Iranian *Yama 'twin' — a textbook proven cognate within the Indo-Iranian branch of one family. The functional divergence (first king vs first to die) does not undo the linguistic descent. Tier 1 holds."
+    },
+    {
+      "a": "yima",
+      "b": "yama",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Same proven Indo-Iranian cognate (*Yama 'twin') viewed through its inversion of function. The underlying common linguistic descent is real and well established, so the inversion relation is also tier-1 defensible."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "dyaus-pita",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Labeled cognate but the seam endpoints are not cognate. The real Indo-Iranian cognate buried here is ahura <-> asura (flipped valence); Dyaus belongs to the separate *dyeus sky-father line (cognate with Zeus/Jupiter), NOT with ahura/mazda. Dyaus is used only as a stand-in for shared high-sky inheritance — that is comparative-method analogy, not a documented borrowing or a cognate between the named figures. Down-tier to 3."
+    },
+    {
+      "a": "frashokereti",
+      "b": "christ",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Persian-period influence on Second-Temple/Christian apocalyptic is, by the claim's own words, 'widely held' and 'contested degree' — a scholarly influence hypothesis, not a documented textual borrowing. The contact (Persia ruling Judea) is real but the transmission is inferred. Tier 2 requires attested borrowing; this is a structural parallel. Down-tier to 3."
+    },
+    {
+      "a": "saoshyant",
+      "b": "christ",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The future virgin-born redeemer who raises the dead is a 'likely' / contested influence on the messianic template — a hypothesis of transmission, not a documented borrowing with a text trail. The parallel is structural/functional. Down-tier to 3."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "yahweh",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The development of ha-satan into a true cosmic Adversary under Persian dominion is explicitly flagged as 'contested degree.' Real historical contact, but the influence on Abrahamic demonology is inferred, not an attested borrowing. A contested influence hypothesis belongs at 3, not 2."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "yahweh",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Two near-monotheist creator-lords of Truth in real Achaemenid-era contact, but the claim itself says 'possibly genetic kinship' — speculative/structural, not documented borrowing. Achaemenid contact does not amount to attested religious transmission. Down-tier to 3."
+    }
+  ]
+}

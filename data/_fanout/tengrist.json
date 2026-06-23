@@ -1,0 +1,274 @@
+{
+  "tradition": {
+    "id": "tengrist",
+    "name": "Tengrism (Turkic-Mongolic / Siberian)",
+    "region": "Central Asia & Siberia",
+    "color": "#6f9fc7"
+  },
+  "figures": [
+    {
+      "id": "tengri",
+      "kind": "deity",
+      "name": "Tengri (Köke Möngke Tengri)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The Eternal Blue Sky itself — not a sky behind which a god sits but the sky that is the god: vast, impartial, the giver of the kut (fortune, mandate) by which a khan rules and a people endures. The Orkhon inscriptions open by invoking him: 'When the blue sky above and the brown earth below were made, between the two were made the sons of men.'",
+      "facet": "A sky-father by pure function, not descent: where Dyeus and his cognate sons are reconstructed from a single Indo-European word, Tengri is the same archetype reached down an utterly separate road — proof that the joint is a shape the human eye finds in the sky, not an heirloom passed hand to hand.",
+      "provenance": "Earliest firm attestation in the 8th-c. Old Turkic Orkhon inscriptions; the term spans Turkic *teŋri and Mongolic tngri across two millennia and many peoples, so 'Tengrism' names a family of related skies, not one creed."
+    },
+    {
+      "id": "umai",
+      "kind": "deity",
+      "name": "Umai (Umay)",
+      "archetypes": [
+        "great-mother",
+        "first-ancestor"
+      ],
+      "gloss": "The womb-goddess — her very name an old word for placenta and womb — guardian of mothers, infants and the new-born soul, often pictured as a woman with sixty golden tresses descending from the sky to ward the cradle. To Tengri's high impartial sky she is the near, warm power that tends the threshold of birth.",
+      "facet": "The mother imagined as the organ of bearing itself: not earth-as-field nor sea-as-deep but the placenta personified — the great-mother joint touched at its most intimate biological root, fertility named for the flesh that feeds the unborn."
+    },
+    {
+      "id": "erlik",
+      "kind": "deity",
+      "name": "Erlik (Erlik Khan)",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "Lord of the lower world and the dead, the dark first-made who dived for the earth and kept a fragment back, and so seeded sickness, death and the night-side of creation; he rules the nine-layered underworld and sends his messengers up for the souls of men.",
+      "facet": "The same figure is judge of the dead AND the principled spoiler of creation — underworld-sovereign and adversary fused in one body, so that death and evil are not separated here as they are where a neutral Hades faces a separate devil. His name carries to the Tibetan-Buddhist Yama (Erlik/Yama), a junction where two underworlds met.",
+      "provenance": "Best recorded among the Altai Turks and Siberian peoples by 19th–20th-c. ethnographers (Radloff, Anokhin); the Erlik–Ülgen creation-rivalry shows clear later contact with Buddhist and dualist (Manichaean/Zoroastrian) framings, to be weighed when reading it as 'pure' Tengrism."
+    },
+    {
+      "id": "ulgen",
+      "kind": "deity",
+      "name": "Ülgen (Bai-Ülgen)",
+      "archetypes": [
+        "sky-father",
+        "smith"
+      ],
+      "gloss": "The bright maker of the upper world among the Altai, who shaped the earth, the first man and the useful things, and to whom the white shaman ascends through the sky-layers in the great horse-sacrifice; the benign creator-half to Erlik's dark half.",
+      "facet": "A creator who must be climbed to, layer by sky-layer, rather than prayed down: Ülgen's worship is an ascent, the shaman riding the offered horse-soul up through the heavens — godhead reached by journey, the smith-maker met at the top of a vertical road."
+    },
+    {
+      "id": "shaman-three-worlds",
+      "kind": "rite",
+      "name": "The Shaman & the Three Worlds",
+      "archetypes": [
+        "axis-mundi",
+        "psychopomp",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The Siberian shaman — the type-specimen from whom the very word 'shaman' is taken (Evenki/Tungus šaman) — who in trance and drum climbs the world-tree or pillar through upper, middle and lower worlds, escorting souls, retrieving the strayed and the stolen, bargaining with Erlik for the sick.",
+      "facet": "Here the axis-mundi is not a static cosmic landmark but a road actually travelled in the body: the tree, the notched pole, the smoke-hole are rungs a living person ascends and descends in ecstasy — the world-pillar defined by the act of climbing it, cosmology as technique.",
+      "provenance": "'Shaman' enters the world's languages through 17th-c. Russian reports of Tungus practice; Eliade's classic synthesis universalised the Siberian type but also flattened local variety — read the 'three worlds' as a widespread Siberian pattern, not a single fixed dogma."
+    },
+    {
+      "id": "world-tree-pillar",
+      "kind": "concept",
+      "name": "The World-Tree & Sky-Pillar (Bai Terek)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The great tree or iron pillar at the navel of the earth whose roots drink the lower world and whose crown brushes Tengri's sky, about which the heavens turn on the Pole Star — the nail that pins the cosmos, the ladder the shaman's soul ascends, mirrored on earth in the tent-pole and the sacred birch.",
+      "facet": "The axis figured as the still nail of a turning sky: the North Star is the peg through the world-pole's top, and the whole heaven a tethered horse circling it — a cosmology built from what the steppe nomad actually watched wheel above him each night."
+    },
+    {
+      "id": "earth-diver-creation",
+      "kind": "rite",
+      "name": "The Earth-Diver Creation",
+      "archetypes": [
+        "earth-diver"
+      ],
+      "gloss": "On the first all-covering water, a being dives to the bottom for a fragment of mud, from which the dry earth is spread and grows — in the Altai and wider Siberian telling, a contest between the bright maker and a dark diver who hides a pinch of soil and so makes the world wider and his own dominion of death within it.",
+      "facet": "The diver here is doubled into rivals, so the creation-dive becomes the origin of evil itself: the earth grows large precisely because the dark one held some back — the same cosmogonic gesture the Haudenosaunee tell as the muskrat's selfless death is told here as the first deceit.",
+      "provenance": "The earth-diver motif forms a genuine circum-Arctic belt linking Siberia and Native North America — a real distributional link of great age, but one of shared inheritance or deep diffusion, NOT documented historical contact between the specific traditions."
+    },
+    {
+      "id": "kut",
+      "kind": "force",
+      "name": "Kut (Heaven's Fortune & the Soul)",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The vital fortune-force granted from the sky: the kut that makes a khan legitimate, a hunt prosper, a child live — and also the soul itself, which the shaman must guard, for a lost or stolen kut is sickness and a fled kut is death. To rule is to hold the sky's kut; to fall is to have it withdrawn.",
+      "facet": "Sovereignty as a substance the sky lends and can recall: the Turkic mandate is not a covenant or a law-code but a fortune-fluid issuing from Tengri — political order and personal life-force named by the very same word, so that losing the throne and losing the soul are one kind of loss."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "tengri",
+      "b": "umai",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The high impartial sky and the near womb-goddess form the sky/earth, far/intimate pairing — Tengri grants the kut, Umai guards the cradle that receives the new soul."
+    },
+    {
+      "a": "ulgen",
+      "b": "erlik",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Bright upper maker and dark lower keeper, rivals in the earth-diver creation — a creator/spoiler dyad whose sharpness owes something to later Buddhist and dualist contact."
+    },
+    {
+      "a": "shaman-three-worlds",
+      "b": "world-tree-pillar",
+      "type": "cognate",
+      "tier": "3",
+      "note": "Same cosmology from two sides: the tree/pillar IS the road, the shaman's flight is the act of climbing it. (Structural identity within one tradition, not linguistic cognation.)"
+    },
+    {
+      "a": "shaman-three-worlds",
+      "b": "erlik",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The shaman descends to Erlik's nine-layered underworld to bargain back the souls of the sick — psychopomp and underworld-sovereign locked in the same rite."
+    },
+    {
+      "a": "tengri",
+      "b": "kut",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Kut is what Tengri grants and withdraws — the sky-god and the fortune-force are the giving and the gift."
+    },
+    {
+      "a": "tengri",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two East/Inner-Asian high heavens reached without Indo-European descent — impartial Sky as legitimating mandate (kut / Tianming); centuries of steppe-China contact make some mutual influence likely but the parallel itself is structural."
+    },
+    {
+      "a": "tengri",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sky-father shape reached down a wholly separate (Altaic, non-IE) road — the brightest proof that this joint is convergent, NOT an Indo-European inheritance. Never a cognate."
+    },
+    {
+      "a": "tengri",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both a single supreme sky-power who legitimates rulership and recedes from images; a speculative reach across families, flagged as such."
+    },
+    {
+      "a": "umai",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Great-mother to a sky-father, but Umai diverges sharply — she is the womb/placenta personified, fertility named for the bearing-flesh rather than the earth's body."
+    },
+    {
+      "a": "umai",
+      "b": "parvati",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the warm near mother-power complementing a remote supreme; analogous function, no descent or contact claimed."
+    },
+    {
+      "a": "erlik",
+      "b": "yama",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Through Tibetan-Mongolian Buddhism, Erlik is directly identified with Yama (Erlik Nomun Khan) as judge of the dead — a documented religious syncretism, not a mere parallel."
+    },
+    {
+      "a": "erlik",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both sovereigns of the realm of the dead; Erlik diverges by also being the cosmic spoiler — judge and adversary in one, where Hades is morally neutral."
+    },
+    {
+      "a": "erlik",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Lords of the lowest layered underworld (nine layers in both reckonings), receivers of all the dead — a striking structural rhyme across utterly unconnected worlds."
+    },
+    {
+      "a": "ulgen",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A benign creator-maker met at the topmost sky-layer, paired against a destructive double — analogous high-creator function across families."
+    },
+    {
+      "a": "shaman-three-worlds",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Odin's nine-night hanging on the world-tree to win wisdom rhymes hard with the shaman's ascent of the world-tree — and some scholars suspect real circumpolar diffusion behind the resemblance, though it stays unproven (tier 3)."
+    },
+    {
+      "a": "shaman-three-worlds",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the conductor of souls across the boundary; the shaman diverges by making the crossing a living ecstatic journey he returns from, not a one-way ferry."
+    },
+    {
+      "a": "world-tree-pillar",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "World-tree at the cosmic centre joining the three worlds — one of the strongest North-Eurasian axis-mundi convergences; circumpolar diffusion is plausible but undemonstrated."
+    },
+    {
+      "a": "world-tree-pillar",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the vertical axis about which the heavens revolve, mirrored in built ritual form (sky-pillar / cosmic mountain); some of the layered-cosmos detail entered Altai cosmology via Buddhism."
+    },
+    {
+      "a": "world-tree-pillar",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Pole-Star-as-nail and the turning sky-as-tethered-horse is this shard's distinctive contribution to the axis-mundi joint — the axis defined by what the steppe sky actually does overhead."
+    },
+    {
+      "a": "earth-diver-creation",
+      "b": "earth-diver-animals",
+      "type": "cognate",
+      "tier": "3",
+      "note": "The genuine circum-Arctic earth-diver belt: Siberia and the Haudenosaunee muskrat share one ancient cosmogonic motif. A real distributional link of great antiquity — shared deep inheritance/diffusion, not documented contact, so tiered 3 not 1."
+    },
+    {
+      "a": "earth-diver-creation",
+      "b": "great-turtle",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Same earth-from-the-deep cosmogony; the Siberian telling diverges by doubling the diver into rivals so the dive births evil, where the Turtle-Island telling makes it an act of consent and self-sacrifice."
+    },
+    {
+      "a": "kut",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Kut as Heaven's mandate to rule rhymes pointedly with the Chinese Mandate of Heaven (Tianming) — the sky's withdrawable warrant for a sovereign; the steppe-China political contact makes this rhyme partly historical."
+    },
+    {
+      "a": "kut",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both a diffuse indwelling sacred potency rather than a personal god; kut diverges by binding political legitimacy and the living soul into one substance the sky lends."
+    },
+    {
+      "a": "kut",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A single animating sacred force underlying many beings (one-through-many) — analogous impersonal-power concepts across wholly separate worlds."
+    }
+  ]
+}

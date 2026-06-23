@@ -1,0 +1,260 @@
+{
+  "tradition": {
+    "id": "dravidian",
+    "name": "Dravidian / Tamil",
+    "region": "South India",
+    "color": "#d07a52"
+  },
+  "figures": [
+    {
+      "id": "dravidian-murugan",
+      "kind": "deity",
+      "name": "Murugan (Cēyōṉ)",
+      "archetypes": ["solar", "storm-wielder", "dragon-slayer"],
+      "gloss": "The youthful red god of the hills, spear in hand, lord of the kuṟiñci uplands and of war — beautiful, fierce and forever young, who splits the demon-mountain Krauñca with his lance (vēl) and dances the victory-dance of the warriors.",
+      "facet": "The shard that kept its own god through the conquest: Murugan is the indigenous Tamil deity who was identified with the Sanskrit Skanda-Kārttikeya, yet never wholly absorbed — his red colour, his spear, his peacock and his hill-shrines are older than the Veda's reach, a native godhead wearing a Brahmanical name without surrendering his face.",
+      "provenance": "Attested in the Caṅkam corpus (Tirumurukāṟṟuppaṭai, c. 2nd–5th c. CE) and earlier; the equation with Skanda/Kārttikeya is a documented later Sanskritisation, not the original layer."
+    },
+    {
+      "id": "dravidian-kotravai",
+      "kind": "deity",
+      "name": "Koṟṟavai",
+      "archetypes": ["great-mother", "storm-wielder"],
+      "gloss": "The Tamil mother of war and victory, goddess of the pālai wasteland and the battlefield, who feeds on the slain and grants triumph — danced before by warriors, mother of Murugan, drinker of blood and giver of the spoils of war.",
+      "facet": "A war-goddess who is also a mother: where the conquering tradition split fierce and nurturing into separate deities, the Tamil shard holds them in one body — Koṟṟavai was later folded into Sanskrit Durgā / Kālī, the documented seam by which the indigenous victory-mother became the pan-Indian slayer of demons.",
+      "provenance": "Caṅkam and Cilappatikāram (the Veṭṭuva-vari hymn); the assimilation into Durgā is a historically traceable layering of the Tamil goddess under the Sanskrit one."
+    },
+    {
+      "id": "dravidian-mariyamman",
+      "kind": "deity",
+      "name": "Māriyammaṉ",
+      "archetypes": ["great-mother"],
+      "gloss": "The fierce village mother of rain, smallpox, pox-fevers and protection — she who both sends the burning disease and cools it, worshipped at the boundary of the village with neem, turmeric and the cooling pot, the grāma-devatā who guards her people against what she herself can inflict.",
+      "facet": "The mother as the disease and its cure in one: the Amman goddesses refuse the split between benevolent and malevolent — the same hand that scatters the pox is the hand that heals it, and worship is the act of cooling a heat that is divine. A theology of the dangerous-protective feminine the high tradition never quite reabsorbs.",
+      "provenance": "Living village (folk) religion across Tamil Nadu; older than its textual fixing and largely outside the Sanskrit canon. The smallpox association is ethnographically well documented though the deity is fluid across localities."
+    },
+    {
+      "id": "dravidian-amman",
+      "kind": "deity",
+      "name": "The Ammaṉ (Grāma-devatā)",
+      "archetypes": ["great-mother", "one-through-many"],
+      "gloss": "The countless village mothers — Aṅkāḷammaṉ, Eḷḷaiyammaṉ, Karumāriyammaṉ and a thousand more — each the guardian of her own village's ground and gate, often unmarried and fierce, each a local face of a single protective mother-power.",
+      "facet": "One mother, ten thousand villages: the Amman complex is the one-through-many lived at ground level, where every settlement has its own named goddess who is also, somehow, the same Mother — the divine multiplied by locality rather than refracted by doctrine.",
+      "provenance": "Pan-Tamil and pan-Dravidian village religion; the deities are intensely local and resist any single canonical list — a folk-religious pattern, not a scriptural one."
+    },
+    {
+      "id": "dravidian-anangu",
+      "kind": "force",
+      "name": "Aṉaṅku",
+      "archetypes": ["one-through-many"],
+      "gloss": "Sacred, dangerous, impersonal power — a numinous force that inheres in women, in kings, in mountains, in the battlefield and in certain charged places and acts, neither good nor evil but perilous, demanding ritual containment lest it harm.",
+      "facet": "The precious divergence — power before persons: aṉaṅku is the sacred conceived not as a god with a will but as a charged, ambient potency that must be managed, bound and cooled. The holy as voltage, not as someone — the Tamil shard's gift of an impersonal sacred underlying every named deity.",
+      "provenance": "Reconstructed from the Caṅkam corpus by Tamil scholars (notably G. L. Hart, who drew the comparison to mana). The pre-Sanskritic sense is partly interpretive; the comparison to Oceanic mana is analogical, not historical."
+    },
+    {
+      "id": "dravidian-ayyanar",
+      "kind": "deity",
+      "name": "Aiyaṉār",
+      "archetypes": ["psychopomp", "axis-mundi"],
+      "gloss": "The guardian of the village boundary who rides his horse through the night to keep the fields safe, attended by ranks of terracotta horses and the fierce gate-spirits — the protector of the threshold between the cultivated village and the wild dark beyond it.",
+      "facet": "A god of the edge, not the centre: Aiyaṉār guards the seam between the ordered village and the chaos outside, the boundary-keeper who patrols the line the community draws around itself — the sacred located at the threshold, where the human ends and the wild begins.",
+      "provenance": "Tamil folk religion; the terracotta-horse shrines are well attested ethnographically. Later partly assimilated to the Sanskrit Śāstā / Ayyappan, a documented overlay."
+    },
+    {
+      "id": "dravidian-pey",
+      "kind": "spirit",
+      "name": "Pēy & the Hungry Dead",
+      "archetypes": ["psychopomp"],
+      "gloss": "The ghouls and ravenous spirits that haunt the battlefield and the cremation ground — pēy who feast on corpses, the restless dead who were not given proper rites, dancing in the wasteland where Koṟṟavai reigns.",
+      "facet": "The dead who were not finished: the pēy mark the failure of the funeral rather than its completion — the underworld here is not a kingdom but a hunger, the ungoverned remainder of death that ritual exists to settle. A vision of the dead as appetite, not as subjects of a sovereign.",
+      "provenance": "Caṅkam battlefield poetry (the pālai and tiṇai conventions); folk belief in pēy and the unappeased dead is continuous into the present."
+    },
+    {
+      "id": "dravidian-pongal",
+      "kind": "rite",
+      "name": "Poṅkal",
+      "archetypes": ["solar"],
+      "gloss": "The boiling-over rite at the sun's northward turn — rice and milk cooked in a new pot until it foams over the rim, the overflow itself the omen of plenty, addressed to the sun and the renewed earth at the turning of the agricultural year.",
+      "facet": "Worship as overflow: the holy moment is the pot boiling over the brim, abundance made visible as excess — a solar harvest-rite that locates the sacred not in sacrifice or slaughter but in the cooking-over of the year's first grain. The sun honoured through the surplus it grows.",
+      "provenance": "Living Tamil harvest festival at the winter solstice / Makara transition; its Caṅkam-era antecedents (the Tai-Niradal bathing rites) are attested, though the festival's present form is medieval and later."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "dravidian-murugan",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Murugan (Cēyōṉ, 'the Red One') is a solar hill-god identified with the Sanskrit Skanda-Kārttikeya — a documented Sanskritisation in which the indigenous Tamil deity was overlaid with the war-god of the Veda, the seam where the Dravidian shard meets the Vedic one."
+    },
+    {
+      "a": "dravidian-murugan",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The young warrior-god who splits the demon-mountain with his weapon rhymes with Indra cleaving Vala / the mountains to free the waters — the dragon-slayer / mountain-breaker pattern, reached on the Tamil side through Murugan's lancing of Krauñca."
+    },
+    {
+      "a": "dravidian-murugan",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two young war-gods born to fierce mothers, each a solar warrior who dances victory and is honoured on heights — Murugan of the Tamil hills and Huitzilopochtli of the Mexica, the youthful martial sun reached independently."
+    },
+    {
+      "a": "dravidian-murugan",
+      "b": "dravidian-kotravai",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the shard, Murugan is the son of Koṟṟavai — the victory-mother and the war-son, the indigenous mother-and-warrior dyad that the high tradition later split into Durgā and Skanda."
+    },
+    {
+      "a": "dravidian-kotravai",
+      "b": "parvati",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Koṟṟavai, the Tamil mother of war and victory, was historically assimilated into the Sanskrit Durgā / Kālī (a face of Pārvatī/Devī) — a documented layering by which the indigenous goddess was reidentified as the pan-Indian demon-slayer."
+    },
+    {
+      "a": "dravidian-kotravai",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The battlefield goddess who feeds on the slain and grants or withholds victory — Koṟṟavai and the Morrígan as the war-mother who haunts the field of the dead, a striking structural parallel across wholly separate families."
+    },
+    {
+      "a": "dravidian-kotravai",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The fierce mother of the war-god, bloody and devouring yet generative — Koṟṟavai mother of Murugan and Coatlicue mother of Huitzilopochtli, the terrible-mother-of-the-warrior reached independently."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "dravidian-amman",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Māriyammaṉ is the most widespread single face of the Amman complex — the named goddess and the diffuse mother-power she exemplifies, both belonging to the same Tamil village-goddess religion."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "parvati",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The fierce Amman goddesses were partially drawn into the Sanskrit Devī as local forms of the great goddess — a documented Brahmanical assimilation of village mothers, though Māriyammaṉ's disease-and-protection theology stays largely outside the canon."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The mother who both blights and blesses the crop and the body — Māriyammaṉ's heat-and-cooling of disease rhymes with Demeter's power to wither or grant the harvest, the ambivalent giver-and-taker mother across families."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The protective mother invoked against sickness and for healing — Māriyammaṉ and Isis as the goddess who guards the body from the very afflictions she commands; a functional parallel, no contact."
+    },
+    {
+      "a": "dravidian-amman",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "One protective nature meeting each community in a local form — the Amman multiplied across villages and Avalokiteśvara taking whatever shape will save: the one-through-many lived as locality on the Tamil side, as skilful-means on the Buddhist."
+    },
+    {
+      "a": "dravidian-amman",
+      "b": "parvati",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The doctrine that all the village mothers are forms of one Goddess maps onto the Devī theology that makes every local goddess a face of the single Mahādevī — the Sanskrit frame that absorbed the Tamil multiplicity, a documented assimilation."
+    },
+    {
+      "a": "dravidian-anangu",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "An impersonal sacred potency saturating the world beneath the named gods — aṉaṅku as charged dangerous power and teōtl as the single sacred force refracted into deities; the holy-as-energy reached independently in Tamil country and in Mexico."
+    },
+    {
+      "a": "dravidian-anangu",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both place an impersonal sacred behind the personal gods — yet they diverge sharply: Brahman is serene, deathless, one with the self, while aṉaṅku is perilous, ambient and to be contained. Kinship of structure (a power beneath the deities), opposite in temperament."
+    },
+    {
+      "a": "dravidian-anangu",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: both name an impersonal sacred order prior to any god — but aṉaṅku is dangerous voltage to be managed where the Dao is the effortless way to be aligned with. A reach of category, opposite in valence; flagged."
+    },
+    {
+      "a": "dravidian-ayyanar",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The guardian of the threshold and crossroads who patrols the boundary between the human village and the wild — Aiyaṉār at the field's edge and Eṣù at the crossroads, both the keeper of the dangerous seam, reached independently."
+    },
+    {
+      "a": "dravidian-ayyanar",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The boundary-marker and night-traveller who guards passage between realms — Aiyaṉār riding the village edge and Hermes of the herm-stones and the roads, the god of the threshold across separate families."
+    },
+    {
+      "a": "dravidian-pey",
+      "b": "dravidian-kotravai",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the shard the pēy dance and feast on the battlefield that is Koṟṟavai's domain — the victory-mother and the ravenous dead who attend her, both of the pālai wasteland."
+    },
+    {
+      "a": "dravidian-pey",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The carrion-spirits of the battlefield, feeding on the slain where the war-goddess reigns — the pēy and the Morrígan's crows as the appetite of the field of the dead, a parallel of the same grim image."
+    },
+    {
+      "a": "dravidian-pey",
+      "b": "lords-of-xibalba",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: both figure the dead as hungry and ungoverned — but the pēy are a swarming appetite, not a court, where Xibalba is a ruled kingdom. A loose rhyme of the dead-as-hunger; flagged for the difference."
+    },
+    {
+      "a": "dravidian-pongal",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Poṅkal is timed to the sun's northward turn (the Makara / Uttarāyaṇa transition) honoured across Indic religion — the Tamil harvest-overflow rite sharing the solar calendar that Sūrya governs, a documented pan-Indic solar reckoning."
+    },
+    {
+      "a": "dravidian-pongal",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sun honoured at the turning of the year for the renewal of life and grain — Poṅkal's solstice overflow and the Shinto solar rites, the harvest-sun celebrated independently."
+    },
+    {
+      "a": "dravidian-murugan",
+      "b": "dravidian-anangu",
+      "type": "bridge",
+      "tier": "3",
+      "note": "Murugan, beautiful and dangerous, is charged with aṉaṅku — the named god as a focus of the impersonal sacred power; within the shard the deity and the potency are two views of one holiness."
+    },
+    {
+      "a": "dravidian-kotravai",
+      "b": "dravidian-anangu",
+      "type": "bridge",
+      "tier": "3",
+      "note": "The battlefield and the war-mother are the very places aṉaṅku gathers most perilously — Koṟṟavai's domain is saturated with the dangerous sacred power the shard names; goddess and force, the same charge under two names."
+    }
+  ]
+}

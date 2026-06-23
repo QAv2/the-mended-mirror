@@ -1,0 +1,301 @@
+{
+  "tradition": {
+    "id": "andean",
+    "name": "Inca / Andean",
+    "region": "Andes (South America)",
+    "color": "#46b89a"
+  },
+  "figures": [
+    {
+      "id": "viracocha",
+      "kind": "deity",
+      "name": "Viracocha",
+      "archetypes": ["withdrawn-creator", "culture-hero"],
+      "gloss": "Wiraqucha, the maker who rose from Lake Titicaca, shaped a first humankind from stone, broke it, made it again, then walked north as a wandering teacher and vanished over the western sea — promising to return.",
+      "facet": "The creator who leaves a forwarding address: most withdrawn makers simply recede, but Viracocha exits across the water as a recognisable traveller-teacher, so that the sails of Pizarro could be mistaken for his promised return — a cosmology with a fatal open door.",
+      "provenance": "Reconstructed from colonial chroniclers (Betanzos, Cieza de León, Molina, Sarmiento); the pre-conquest Viracocha is overlaid with Christianised 'creator-god' framing imposed by Spanish recorders."
+    },
+    {
+      "id": "inti",
+      "kind": "deity",
+      "name": "Inti",
+      "archetypes": ["solar"],
+      "gloss": "The Sun, divine father of the Inca royal line and patron of the empire, whose great festival Inti Raymi crowned the Andean year; the Sapa Inca ruled as his living son and the Coricancha was sheathed in his gold.",
+      "facet": "Sun as the charter of a dynasty: where many solar gods light the world for all, Inti is above all the *ancestor of the kings* — sovereignty itself descends from the solar disk, making astronomy a title-deed.",
+      "provenance": "Inti's pre-eminence partly reflects Inca state cult elevating a dynastic sun over older regional deities; the relation of Inti to Viracocha is debated in the sources."
+    },
+    {
+      "id": "mama-killa",
+      "kind": "deity",
+      "name": "Mama Killa",
+      "archetypes": ["lunar"],
+      "gloss": "Mama Quilla, 'Mother Moon', sister-wife of Inti, mistress of the calendar, of festivals and of women; her image was silver as Inti's was gold, and eclipses were a beast devouring her, beaten back by noise.",
+      "facet": "The moon as wife AND sister of the sun, both his equal and his consort — the lunar reckoner of time given a queenly, maternal face rather than a wandering or punished one."
+    },
+    {
+      "id": "pachamama",
+      "kind": "deity",
+      "name": "Pachamama",
+      "archetypes": ["great-mother", "cosmic-order"],
+      "gloss": "Mother of earth and time together — *pacha* means both world and moment — the fertile ground who must be fed before she gives, honoured to this day with the buried offering of the despacho and the first sip poured to the soil.",
+      "facet": "Earth and time as one mother: Pachamama is not only the soil but the unfolding world-age itself, so to tend the ground is to keep the order of the era — a great-mother who is also the measure of the world's seasons.",
+      "provenance": "Still actively venerated across the Andes; the living folk-cult preserves a layer older and more continuous than the colonial chronicles."
+    },
+    {
+      "id": "illapa",
+      "kind": "deity",
+      "name": "Illapa",
+      "archetypes": ["storm-wielder"],
+      "gloss": "Thunder, lightning and rain personified — a warrior who crosses the sky drawing water from the celestial river (the Milky Way) in his jug and shattering it with a crack of his sling, the flash his garment and the bolt his stone.",
+      "facet": "The thunderbolt as a slung stone: Illapa fights not with hammer or axe but with the Andean herder's own weapon, the sling — the storm-god dressed in the technology of the people who feared him."
+    },
+    {
+      "id": "pariacaca",
+      "kind": "deity",
+      "name": "Pariacaca",
+      "archetypes": ["storm-wielder", "culture-hero"],
+      "gloss": "Born as five eggs that hatched into five falcons and then men, the storm-and-water hero of the Huarochirí highlands who loosed a flood to drown the false fire-god Huallallo Carhuincho and ordered the irrigation of the valleys.",
+      "facet": "The shard that kept its own scripture: Pariacaca survives in the Huarochirí Manuscript, the one extended mythology written down in Quechua by Andean hands — a flood-bringing rival storm-power outside the Cuzco state cult.",
+      "provenance": "From the early-17th-c. Huarochirí Manuscript, the closest thing to an indigenous Andean sacred text, compiled under Francisco de Ávila's extirpation campaign yet recording local Yauyos tradition."
+    },
+    {
+      "id": "mama-cocha",
+      "kind": "deity",
+      "name": "Mama Cocha",
+      "archetypes": ["mother-of-waters", "great-mother"],
+      "gloss": "Mama Qucha, 'Mother Sea', the great waters from whom fish and rain ultimately come; coastal peoples implored her for calm and for the shoals, and the highland lakes were her inland faces.",
+      "facet": "The sea revered by a mountain empire: an Andean state whose heart was the high sierra still kept the Mother of Waters at the centre of its cosmos, the western ocean over which Viracocha departed."
+    },
+    {
+      "id": "inkari",
+      "kind": "hero",
+      "name": "Inkarrí",
+      "archetypes": ["dying-rising", "first-ancestor"],
+      "gloss": "Inka Rey, the dismembered king of post-conquest Andean prophecy: the Spaniards severed and buried his head, but the head grows its body back beneath the earth, and when it is whole the Inca order — *pachakuti*, the world's overturning — will return.",
+      "facet": "Resurrection rewritten as resistance: born after the conquest, Inkarrí turns the dying-and-rising pattern into a buried promise of historical reversal — the murdered sovereign regrowing underground as the hope of a colonised people.",
+      "provenance": "A 20th-c. ethnographic myth (Arguedas and others) of the post-conquest Andes, not a pre-Columbian deity; it fuses Inca memory, Christian resurrection imagery and millenarian hope — flagged as syncretic by formation."
+    },
+    {
+      "id": "supay",
+      "kind": "spirit",
+      "name": "Supay",
+      "archetypes": ["underworld-sovereign"],
+      "gloss": "Lord of the *Ukhu Pacha*, the inner/lower world and its dead, and of the mineral wealth and dangers within the mountain; the miners of the Andes still placate him as 'El Tío' deep in the silver and tin shafts.",
+      "facet": "The demonised sovereign who never left the mine: like other underworld lords flattened into a 'devil' by missionaries, Supay alone keeps a living, fed cult underground — propitiated with coca and liquor by the very Catholics who renamed him.",
+      "provenance": "Pre-Christian Supay was the morally-neutral lord of the below; colonial usage forced the word to translate the Christian Devil, and the modern miners' 'Tío' is the surviving older figure beneath that overlay."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "viracocha",
+      "b": "inti",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Creator and royal Sun stand at the head of the Andean cosmos together; the chronicles dispute their precedence — Viracocha the maker, Inti the dynastic patron the maker set in the sky."
+    },
+    {
+      "a": "inti",
+      "b": "mama-killa",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Gold Sun and silver Moon, husband-and-sister, the imperial divine couple whose images faced each other in the Coricancha and whose festivals divided the Inca year."
+    },
+    {
+      "a": "pachamama",
+      "b": "mama-cocha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Mother Earth and Mother Sea, the two great female waters-and-ground of the Andean world, jointly invoked as the givers of all sustenance."
+    },
+    {
+      "a": "illapa",
+      "b": "pariacaca",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Two Andean masters of storm and water — the Cuzco state's Illapa and the Huarochirí highlands' flood-loosing Pariacaca — the same rain-and-lightning power in imperial and local dress."
+    },
+    {
+      "a": "supay",
+      "b": "pachamama",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Lord of the inner world below and Mother of the surface earth: the Andean three-world scheme (Hanan/Kay/Ukhu Pacha) sets Supay's depths against Pachamama's fertile ground."
+    },
+    {
+      "a": "viracocha",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two American creator-teachers who civilise, then depart over the sea promising return — and whose myths each opened a door the conquistadors walked through; a striking structural twin across unrelated families."
+    },
+    {
+      "a": "viracocha",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both stand as the remote, self-existent maker behind the working gods of their pantheon; a loose parallel of the high creator-principle, with no contact or descent."
+    },
+    {
+      "a": "inti",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sun-gods who father kings: as Inti sires the Sapa Inca, Ra is the dynastic father of pharaohs — solar sovereignty independently arrived at in the Andes and the Nile."
+    },
+    {
+      "a": "inti",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sun as royal ancestor of a sacred dynasty — the Sapa Inca descends from Inti as the Japanese emperor from Amaterasu, the same solar charter of kingship in two unconnected worlds."
+    },
+    {
+      "a": "inti",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Solar deities at the head of a sky-cult; both fountains of royal legitimacy, though Inti is a dynastic ancestor where Sūrya is the wheeling celestial eye."
+    },
+    {
+      "a": "inti",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two American solar patrons of an empire whose state cult fed the sun to keep the world turning — Inti through Inti Raymi, Huitzilopochtli through war and offering."
+    },
+    {
+      "a": "mama-killa",
+      "b": "mama-cocha",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Moon and sea bound by the tides within the Andean cosmos; both 'mothers' (mama) of the watery, cyclical order beneath Inti's daylight realm."
+    },
+    {
+      "a": "mama-killa",
+      "b": "menulis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Reckoners of the calendar by the moon's course; Mama Killa keeps the festivals where the Baltic Mėnulis keeps the marriage-myth — parallel lunar timekeepers, no shared line."
+    },
+    {
+      "a": "pachamama",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Earth herself as mother and source, fed and thanked by those who till her; Pachamama and Gaia are independent personifications of the living ground."
+    },
+    {
+      "a": "pachamama",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "American earth-mothers who both give and take life — Pachamama demanding her offering before she yields, Coatlicue devouring as she bears; the ambivalent ground of two cordilleras."
+    },
+    {
+      "a": "pachamama",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Grain-and-ground mothers whose first-fruits and libations secure the harvest; the Andean despacho echoes Demeter's agrarian rite without any descent."
+    },
+    {
+      "a": "illapa",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two American rain-and-lightning lords on whom the farmed highlands depended; both draw and break the celestial waters, fearsome bringers of the planting rains."
+    },
+    {
+      "a": "illapa",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Warrior storm-gods who release the held-up waters with a thunder-stroke; Illapa shatters his celestial jug as Indra breaks Vṛtra's grip on the rivers — same template, separate worlds."
+    },
+    {
+      "a": "illapa",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Thunder-warriors whose hurled weapon is the lightning — Illapa's slung stone for Thor's hammer; the storm-wielder pattern arrived at far outside Indo-European."
+    },
+    {
+      "a": "illapa",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both hurl the thunderbolt as a stone from the sky — Illapa's sling-stone and Sango's celt — independent witnesses to lightning imagined as a flung rock."
+    },
+    {
+      "a": "pariacaca",
+      "b": "viracocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both order the Andean landscape and waters as culture-bringers — Viracocha the wandering teacher, Pariacaca the flood-loosing hero who lays out the irrigation; the highland and imperial faces of the same shaping power."
+    },
+    {
+      "a": "pariacaca",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Hero born in unusual form (Pariacaca from five eggs, Māui prematurely cast to the sea) who reshapes the world for humankind; a loose culture-hero rhyme across the Pacific, flagged as a reach."
+    },
+    {
+      "a": "mama-cocha",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both primal mother-bodies of the world, but Mama Cocha is the sea where Gaia is the earth — a divergent parallel, the maternal deep against the maternal ground."
+    },
+    {
+      "a": "inkari",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Inkarrí's buried head that regrows its body and will rise to overturn the world is built directly upon the resurrection preached by the conquerors — a colonial fusion of Inca memory and Christian rising."
+    },
+    {
+      "a": "inkari",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Dismembered sovereigns who regenerate from the buried body — Osiris reassembled in the underworld, Inkarrí regrowing beneath the earth; the murdered king as the seed of return."
+    },
+    {
+      "a": "inkari",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both carry the promise of a departed/defeated lord's return that becomes a charge against the conqueror; Inkarrí's underground resurrection rhymes loosely with the awaited Feathered Serpent."
+    },
+    {
+      "a": "supay",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sovereigns of the world below who are also keepers of its buried wealth — Supay of the mineral veins, Hades the 'rich one' — the underworld as the storehouse of riches."
+    },
+    {
+      "a": "supay",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "American lords of the lowest world and its dead; Supay's Ukhu Pacha answers Mictlantecuhtli's Mictlan, each the rightful master of the realm beneath."
+    },
+    {
+      "a": "supay",
+      "b": "velnias",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Underworld lords of wealth and the dead alike demoted by Christian missionaries into 'the Devil', yet each keeping an older, richer face beneath the slander — a shared scar of conversion across families."
+    },
+    {
+      "a": "viracocha",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both belong to the high creative order of their cosmos, but the link is faint — Viracocha the personal maker, Ranginui the sky-parent; included as a weak creator-principle echo only."
+    }
+  ]
+}

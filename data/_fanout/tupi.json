@@ -1,0 +1,281 @@
+{
+  "tradition": {
+    "id": "tupi",
+    "name": "Tupi-Guaraní",
+    "region": "Amazonia & coastal Brazil / Paraguay",
+    "color": "#5cae5c"
+  },
+  "figures": [
+    {
+      "id": "tupi-nhanderu",
+      "kind": "deity",
+      "name": "Ñamandú / Nhanderuvuçú (Ñande Ru, Our First Father)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many",
+        "culture-hero"
+      ],
+      "gloss": "The self-created First Father who, amid the primeval winds and darkness, unfolds his own divine body 'like a tree that flowers,' lighting the void from the wisdom in his heart; before the earth he conceives the foundation of human speech, the sacred hymn, and the ñeʼẽ — the word-soul that every Guaraní child receives. He raises four more First Beings, then withdraws, leaving the world to be tended by song.",
+      "facet": "A cosmos spoken, not forged or fought into being: where most makers shape matter, Ñamandú first invents LANGUAGE — the world is an utterance, the soul is a 'word that stands and unfolds,' and to lose your sacred name is to lose your share of the First Father. Creation here is a hymn the maker is still singing through us.",
+      "provenance": "The genuine pre-Christian Guaraní high-cosmogony, but recoverable only through León Cadogan's Ayvu Rapyta (1959), recited by Mbyá-Guaraní karaí of the Guairá — itself a 20th-c. salvage; the Apapocúva variant (Nimuendajú, 1914) names the maker Ñanderuvuçú. The very loftiness has drawn suspicion of post-contact reshaping, though Cadogan's esoteric texts are widely held to preserve an authentically indigenous core."
+    },
+    {
+      "id": "tupi-tupa",
+      "kind": "deity",
+      "name": "Tupã (Tupan, the Thunder)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "Thunder and lightning, the crash and flash of the storm — in pre-contact Tupinambá and Guaraní reckoning not a sovereign god at all but a feared celestial phenomenon, a manifestation moved by the First Father, lord of rains and tempest who answered to the shamans. Only later did he become 'God Most High.'",
+      "facet": "The clearest scar of conversion in this whole shard: a minor thunder-power who was PROMOTED to the supreme creator by missionaries precisely because he had no cult of his own to displace — the storm-wielder turned monotheist's loan-word. His facet is the seam itself, a deity whose modern grandeur is borrowed Christian clothing.",
+      "provenance": "FLAGGED — missionary syncretism. The Jesuit José de Anchieta (from the 1550s) and the 17th-c. Paraguay reductions equated Tupã with the Christian God in their Tupi catechisms; Métraux and later scholars stress that the pre-contact Tupã was the thunder, not a high god. 'Tupã' is now the ordinary Guaraní word for God — the elevation is documented and near-total."
+    },
+    {
+      "id": "tupi-jaci",
+      "kind": "deity",
+      "name": "Jaci (Yacy, the Moon)",
+      "archetypes": [
+        "lunar",
+        "mother-of-waters"
+      ],
+      "gloss": "The moon, in much Brazilian-Tupi lore a female power and mother of the night, governess of waters, plants, tides and the generative cycles of women; she is moved to pity for the drowned and the lost, and in folk versions it is Jaci who transforms the maiden Iara into the river's mermaid.",
+      "facet": "A lunar deity bound tightly to WATER and reproduction rather than to time-reckoning or the hunt — the moon as the wet, fertile, compassionate counter-pole to the dry solar day; her mercy is what re-makes a drowned girl into a goddess of the deep.",
+      "provenance": "Largely from later Brazilian folk-tradition (the romantic-era and modern Tupi-derived corpus, e.g. the lore gathered around Couto de Magalhães's O Selvagem, 1876); the sharply gendered Jaci/Guaraci sun-moon pair owes much to caboclo and literary synthesis layered over genuine indigenous lunar belief."
+    },
+    {
+      "id": "tupi-guaraci",
+      "kind": "deity",
+      "name": "Guaraci (Coaraci, the Sun)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The sun, in Tupi folk-cosmology the source of warmth, daylight and the growth of all living things, often cast as the male luminary and creative principle paired against Jaci the moon — the eye of day under which the forest and its peoples live and hunt.",
+      "facet": "Sun as life-giver of the GREEN world rather than charter of kings: unlike the dynastic solar gods of empires, Guaraci legitimises no throne — he warms the canopy and ripens the manioc, a sun measured by the forest's growth, not a court's lineage.",
+      "provenance": "As with Jaci, attested chiefly through 19th–20th-c. Brazilian folkloric and literary tradition over an indigenous substrate; the neat Guaraci-sun / Jaci-moon polarity is partly a later systematisation of scattered Tupi star-lore."
+    },
+    {
+      "id": "tupi-kurupira",
+      "kind": "creature",
+      "name": "Kurupira / Curupira",
+      "archetypes": [
+        "master-of-animals",
+        "trickster"
+      ],
+      "gloss": "The forest-guardian — in the best-known image a boy with flame-red hair and feet turned backward, who whistles to disorient, leaves tracks that point the wrong way, and rides game like steeds; he punishes the hunter who kills nursing mothers or takes more than need, and torments the woodcutter who fells without cause.",
+      "facet": "Conservation enforced by a body that is itself a deception: the backward feet make the protector unfollowable and his forest unmappable — the master-of-animals as a TRICKSTER of the trail, who defends the wild not by giving game but by making the over-taker lose his way and his mind.",
+      "provenance": "One of the oldest attested Tupi spirits — named in a 1560 letter of José de Anchieta — and continuous into living Brazilian folklore (the red hair likely conflated later with the caipora). Pre-contact in root, though the modern figure carries centuries of caboclo elaboration."
+    },
+    {
+      "id": "tupi-anhanga",
+      "kind": "creature",
+      "name": "Anhangá",
+      "archetypes": [
+        "master-of-animals",
+        "psychopomp"
+      ],
+      "gloss": "The shapeshifting protector of the game, appearing most often as a pale deer with fiery eyes but able to take nearly any animal form; called the 'god of the field-hunt' who shields the wild from excess, punishing those who slay pregnant or suckling beasts — and, in his older Tupinambá sense, the wandering anga, the soul of the dead, a roaming phantom of the night.",
+      "facet": "A keeper-of-animals fused with a SPIRIT-OF-THE-DEAD: Anhangá guards the game partly because he is what poached animals and forest-fallen humans become — the wild's defender is its restless ghost, so to over-hunt is to be hunted by the soul of what you killed.",
+      "provenance": "Tupinambá-attested (the term anhanga/anga for the dead's wandering soul is in early colonial sources); the protector-of-game elaboration is drawn out by Couto de Magalhães (O Selvagem, 1876) and modern folklore. Note: missionaries later bent 'Anhangá' toward 'Devil,' a secondary Christian overlay."
+    },
+    {
+      "id": "tupi-jurupari",
+      "kind": "hero",
+      "name": "Jurupari (Yurupary)",
+      "archetypes": [
+        "culture-hero",
+        "cosmic-order"
+      ],
+      "groupNote": "law-giver of the men's sacred-flute cult",
+      "gloss": "The culture-hero and law-bringer who reformed human society — imposing the rules of initiation, the prohibition of incest, and the order of the world — and whose voice still sounds through the sacred flutes and bark-trumpets. In the central myth ritual power once belonged to women; the men seized it, and the flutes that carry Jurupari's voice may not be seen by any woman on pain of death.",
+      "facet": "Law founded on a single, lethal SECRET: the social order is held in place not by a code but by a sound women must never see produced — Jurupari encodes the whole patriarchal cosmos in the concealment of an instrument, making the keeping of a secret the very act that keeps the world.",
+      "provenance": "Pan-Amazonian (Tupi, Tucano and Arawak peoples of the upper Rio Negro); reported from the earliest contact as the most widespread cult the Europeans met. The famous literary epic Jurupary was set down by the Tariana-descended Maximiano José Roberto and published by Stradelli (1890) — an indigenous text mediated by a 19th-c. recorder."
+    },
+    {
+      "id": "tupi-mboitata",
+      "kind": "creature",
+      "name": "Mboi-tata (Boitatá, the Fire-Serpent)",
+      "archetypes": [
+        "cosmic-serpent",
+        "master-of-animals"
+      ],
+      "gloss": "The 'fiery snake' — a colossal serpent of living flame or blazing light that glides through the night across fields, rivers and forest, guarding them against those who would set the land alight; in one origin it is the great snake that swallowed the eyes of the dead and so came to shine, the will-o'-the-wisp made monstrous.",
+      "facet": "A serpent that is itself the FIRE it polices — not a snake that fights flame but flame given a serpent's body, the world's only fire-warden who is made of the very thing he forbids; light as both the danger and the guardian against it.",
+      "provenance": "Tupi in name (mbaʼe 'thing' + tatá 'fire,' drawn toward mbói 'snake') and among the oldest documented — Anchieta's 1560 letter calls it the baetatá, 'thing of fire.' Heavily developed in southern-Brazilian (Rio Grande do Sul) folklore, where the field-protector reading and the female 'a boitatá' are strongest; a deep indigenous root under thick folk accretion."
+    },
+    {
+      "id": "tupi-iara",
+      "kind": "creature",
+      "name": "Iara (Uiara, the Mother-of-Water)",
+      "archetypes": [
+        "mother-of-waters",
+        "trickster"
+      ],
+      "gloss": "The 'lady of the waters' (y-îara) — a river-being of the Amazon, in the folk legend a beautiful long-haired mermaid whose song lures men to the surface of the water and then draws them down to drown in the deep; the seduction that is also a death, the river's beauty and its undertow in one body.",
+      "facet": "The mother-of-waters as a LURE rather than a withholding sea-mother: where the polar deeps keep their dead and ration their game, Iara reaches up to take the living, the freshwater deep personified as desire that pulls men under — drowning dressed as enchantment.",
+      "provenance": "Tupi in etymology (y-îara) and partly descended from the older Tupi water-monster Ipupiara; but the mermaid form is strongly shaped by post-contact European mermaid/siren imagery, making the modern Iara a genuine syncretic figure — indigenous water-spirit fused with the colonial siren. FLAGGED as syncretised."
+    },
+    {
+      "id": "tupi-yvymarane",
+      "kind": "place",
+      "name": "Yvy marã eʼỹ (the Land-Without-Evil)",
+      "archetypes": [
+        "cyclic-ages",
+        "one-through-many"
+      ],
+      "gloss": "The deathless paradise 'where the land is unspoiled' — a real place upon the earth, beyond the sea or deep inland, where no one ages or dies, food grows of itself, and the people dance without tiring, safe from the coming fire and flood. When a karaí prophet declared the hour come, whole villages abandoned their fields and set out walking, often eastward toward the rising sun and the ocean's edge, to reach it in the living body.",
+      "facet": "Salvation as MIGRATION, not afterlife: the Guaraní did not wait to die into paradise — they walked toward it, sometimes to the sea and the drowning of hundreds, because the deathless land was geography, reachable on foot by the perfected and the singing. A religion whose central act is a journey, the world ended by being left behind.",
+      "provenance": "FLAGGED — partly a scholarly construct. The historic eastward migrations are well-documented from the 16th c.; the systematic 'Land-Without-Evil' theology is chiefly Nimuendajú's Apapocúva-Guaraní (1914) and was generalised to all Tupi-Guaraní by Métraux. Clastres made it the heart of his work; Shapiro (1987) argues the migration-to-paradise synthesis is itself partly shaped by Christian eschatology read back into the sources. The longing is real; its tidy systematisation is contested."
+    }
+  ],
+  "edges": [
+    {
+      "a": "tupi-nhanderu",
+      "b": "tupi-tupa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "In genuine Guaraní reckoning Tupã the thunder is a MANIFESTATION moved by Ñamandú the First Father, not his equal — a documented relation the missionaries overturned when they made Tupã the supreme God in the maker's place."
+    },
+    {
+      "a": "tupi-nhanderu",
+      "b": "tupi-yvymarane",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The First Father's hymn and the Land-Without-Evil are one religion's two poles — the world sung into being by the sacred word, and the perfected who sing their way back across the earth to the deathless land before the fire."
+    },
+    {
+      "a": "tupi-jaci",
+      "b": "tupi-guaraci",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Moon and Sun as the bound female-and-male luminaries of Tupi folk-cosmology — Jaci the wet, fertile, merciful night against Guaraci the warming day; a polarity largely systematised in later folklore."
+    },
+    {
+      "a": "tupi-jaci",
+      "b": "tupi-iara",
+      "type": "pairs",
+      "tier": "3",
+      "note": "In the folk legend it is the moon Jaci who, pitying her, transforms the drowned maiden into Iara the mermaid — the lunar mother of waters making a water-goddess of a girl."
+    },
+    {
+      "a": "tupi-kurupira",
+      "b": "tupi-anhanga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The two great forest-guardians of game — Kurupira who fools the over-hunter on the trail and Anhangá who haunts him as the dead beast's soul; paired keepers who together police the wild against excess."
+    },
+    {
+      "a": "tupi-anhanga",
+      "b": "tupi-mboitata",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Both are nocturnal forest-wardens linked to the dead's light — Anhangá the wandering soul, Mboi-tata the serpent that swallowed the eyes of the dead to shine; protectors that glow with what has died."
+    },
+    {
+      "a": "tupi-kurupira",
+      "b": "master-of-animals",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Kurupira is the keeper who owns the wild and looses or withholds the game, punishing the taker of too much — a clear instance of the master-of-animals joint in the Amazon forest."
+    },
+    {
+      "a": "tupi-kurupira",
+      "b": "artemis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both stand as the dread guardian of wild game who turns on the hunter that violates the bounds of the chase — Kurupira fooling him on the trail as Artemis destroys the over-bold; the wilderness defending itself against its own hunters."
+    },
+    {
+      "a": "tupi-anhanga",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two keepers-of-the-game who own and protect the prey — Anhangá the white deer of the forest-hunt and the Inuit Tekkeitsertok master of the caribou; the herd's owner who decides what the hunter may take, in tropic and arctic alike."
+    },
+    {
+      "a": "tupi-mboitata",
+      "b": "cosmic-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The fire-serpent that winds through the land guarding it embodies the great encircling snake rather than the slain dragon — a world-warding serpent, the cosmic-serpent joint in flame."
+    },
+    {
+      "a": "tupi-mboitata",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two great non-draconic serpents who ARE a primal element and guard the living land — the Amazonian snake of fire and light against the Australian snake of water and the rainbow; the serpent as the body of an element, not a chaos-enemy to be killed."
+    },
+    {
+      "a": "tupi-mboitata",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach across the Americas: both are luminous serpents bound to a shining sky-element rather than to slaying — but Quetzalcoatl is a great creator-civiliser and Mboi-tata a guarding fire-beast; flagged as a loose serpent-of-light rhyme."
+    },
+    {
+      "a": "tupi-iara",
+      "b": "mother-of-waters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Iara the 'lady of the waters' personifies the river-deep itself — the mother-of-waters joint, here freshwater and luring rather than oceanic and withholding."
+    },
+    {
+      "a": "tupi-iara",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are female sovereigns of the deep into whom people pass and drown — but Sedna is the rationing mother of sea-game whose body is the ocean's law, while Iara is a luring drowner of men; flagged, the deep personified at opposite moral poles."
+    },
+    {
+      "a": "tupi-iara",
+      "b": "mama-cocha",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are South-American mother-of-waters figures, but Mama Cocha is the great benevolent Mother Sea implored for calm and fish, while Iara is the freshwater enchantress who takes men under; flagged as a divergent water-mother parallel."
+    },
+    {
+      "a": "tupi-nhanderu",
+      "b": "viracocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two South-American makers who shape a first humankind and then withdraw — Viracocha walking off across the western sea, Ñamandú unfolding the world by hymn and receding into the winds; the creator who recedes, on either side of the continent."
+    },
+    {
+      "a": "tupi-tupa",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "FLAGGED: the missionary scar made explicit — Jesuit catechists from Anchieta on identified the thunder Tupã with the one God of scripture, and 'Tupã' became the standard Guaraní word for the Christian God; a documented elevation of a storm-power to monotheist creator."
+    },
+    {
+      "a": "tupi-jurupari",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Jurupari is the law-bringer who founds initiation, the incest ban, and ritual order — the culture-hero joint in its lawgiver aspect, the hero who hands down the rules of being human."
+    },
+    {
+      "a": "tupi-yvymarane",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "4",
+      "note": "FLAGGED reach: both promise a deathless, evil-free world — but Frashokereti is the cosmic Making-Wonderful at the end of time, an eschatological renovation, while the Land-Without-Evil is a place reached by WALKING in the living body. The shared longing for a world without death, sought versus awaited."
+    },
+    {
+      "a": "tupi-yvymarane",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "4",
+      "note": "FLAGGED: both name an earthly paradise of deathlessness and effortless plenty — but Eden is the garden humankind was expelled FROM, the Land-Without-Evil the garden the Guaraní walk TOWARD; the lost paradise behind versus the sought paradise ahead. (The very systematisation of the Guaraní myth may carry Christian-eschatological colouring — Shapiro 1987.)"
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "promised-land",
+      "name": "The Promised Land (the sought deathless paradise)",
+      "subtype": "place",
+      "gloss": "An earthly, reachable land of deathlessness and effortless plenty toward which a people moves or hopes to move — paradise as geography and destination rather than as a heaven of the dead or a primordial garden already lost. The journey, exodus, or migration toward it is the central religious act.",
+      "reason": "The existing joints miss what is most particular here: the Land-Without-Evil is neither an afterlife (psychopomp/underworld), a lost first garden (Eden), nor an end-time renovation (cyclic-ages/frashokereti) — it is a place reached by WALKING. At least three traditions share this 'sought earthly paradise / promised land of the living' pattern — Guaraní Yvy marã eʼỹ, the Israelite Exodus toward the Promised Land, and the Andean millenarian return — enough to warrant its own joint rather than force-fitting cyclic-ages. Flagged: I attached cyclic-ages and one-through-many to the figure as the nearest existing joints pending this."
+    }
+  ]
+}

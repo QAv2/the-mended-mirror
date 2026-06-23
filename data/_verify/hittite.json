@@ -1,0 +1,116 @@
+{
+  "verdicts": [
+    {
+      "a": "tarhunna",
+      "b": "illuyanka",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Both figures belong to the SAME Hittite/Anatolian tradition; the seam is an intra-tradition structural relationship (the Storm-God's combat with the serpent he first loses to), not a cross-family linguistic cognate. As a within-tradition 'pairs' relationship attested in the Illuyanka texts (CTH 321), tier-1 stands."
+    },
+    {
+      "a": "tarhunna",
+      "b": "inara",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Father-daughter pairing within the single Hittite tradition; Inara's banquet-trap and her mortal ally Hupasiya are explicit in the Illuyanka myth. Intra-tradition, textually attested, tier-1 holds."
+    },
+    {
+      "a": "kumarbi",
+      "b": "anu-hittite",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Within the single Hurrian-Hittite Kingship in Heaven cycle (CTH 344); Kumarbi castrating/dethroning Anu and swallowing his seed is the explicit narrative. Intra-tradition relationship, tier-1 holds."
+    },
+    {
+      "a": "kumarbi",
+      "b": "tarhunna",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Within the same Kumarbi cycle; the Storm-God (Teshub/Tarhunna) is born from Kumarbi's body and overthrows him. Intra-tradition, textually attested, tier-1 holds."
+    },
+    {
+      "a": "kumarbi",
+      "b": "ullikummi",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Song of Ullikummi (CTH 345) is part of the Kumarbi cycle; Kumarbi engineers the stone Ullikummi against the Storm-God. Intra-tradition, textually attested, tier-1 holds."
+    },
+    {
+      "a": "illuyanka",
+      "b": "purulli",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Illuyanka myth is explicitly framed as recited at the purulli festival in the texts themselves. Intra-tradition ritual-mythic link, directly attested, tier-1 holds."
+    },
+    {
+      "a": "telipinu",
+      "b": "hannahanna",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Within the single Hittite tradition; in the Telipinu myth (CTH 324) Hannahanna sends the bee to find the vanished god. Intra-tradition, textually attested, tier-1 holds."
+    },
+    {
+      "a": "arinna",
+      "b": "tarhunna",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Sun-Goddess of Arinna and the Storm-God as the chief divine couple of the Hittite state pantheon is directly documented in Hittite royal prayers and treaties. A real attested pairing within the tradition; tier-2 (documented) is appropriate."
+    },
+    {
+      "a": "kumarbi",
+      "b": "zeus",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The dependence of Hesiod's Ouranos-Kronos-Zeus succession on the Hurrian-Hittite Kingship in Heaven is one of the best-documented cases of Near-Eastern-to-Greek mythic transmission (Forrer, Gterstenberger, West's 'East Face of Helicon'). The castration-of-the-sky motif is the load-bearing shared element. Genuinely attested motif-transmission; tier-2 holds."
+    },
+    {
+      "a": "anu-hittite",
+      "b": "zeus",
+      "keep": false,
+      "correctedTier": "3",
+      "reason": "The Anatolian Anu corresponds to Ouranos, NOT to Zeus — Anu is the castrated sky-king (= Ouranos), while Zeus is the final victorious storm-god. Pairing Anu with Zeus is the wrong correspondence; the transmission claim as stated mismatches the figures. The genuine Anu-Ouranos transmission is already carried by the kumarbi->zeus succession bridge. Set keep=false as a mislabeled/redundant seam; if retained the honest tier is 3."
+    },
+    {
+      "a": "kumarbi",
+      "b": "jupiter",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Jupiter inherits the succession pattern only secondarily via the Greek tradition; there is no direct documented Anatolia-to-Rome transmission. This is a structural/genealogical parallel mediated by Greece, not a directly attested borrowing into Roman myth. Down-tier from 2 to 3 (analogous), consistent with the claim's own 'analogous' label."
+    },
+    {
+      "a": "illuyanka",
+      "b": "zeus",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Zeus-Typhon combat (Typhon localised in Cilicia, on Anatolia's edge) is widely and credibly held to reflect Near-Eastern Chaoskampf transmission, with the Storm-God-vs-serpent type. There is real scholarly support and a geographic anchor for contact. Tier-2 is defensible (though near the 2/3 border); kept at 2 as an attested-transmission seam."
+    },
+    {
+      "a": "tarhunna",
+      "b": "thor",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Tarhunna and Thor are NOT a clean Indo-European cognate. Thor (Old Norse Thunarr/*Thunraz) does descend from PIE thunder vocabulary, but Tarhunna derives from Anatolian *tarh- 'to overcome/be powerful', not from *Perkwunos. Their storm-and-serpent rhyme is a shared Indo-European TYPE/inherited motif, not a proven phonological cognate of the two theonyms. Down-tier from 1 to 3 (analogous/inherited type)."
+    },
+    {
+      "a": "tarhunna",
+      "b": "indra",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Same problem: the Tarhunna theonym does not share a reconstructed root with Indra. The Indra-Vrtra vs Tarhunna-Illuyanka parallel is a genuine inherited Indo-European Chaoskampf TYPE, but that is a structural/inherited-motif parallel, not a name-level cognate. Down-tier from 1 to 3 (analogous)."
+    },
+    {
+      "a": "tarhunna",
+      "b": "baal",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Baal Hadad (West Semitic) and Teshub/Tarhunna (Hurrian/Anatolian) are unrelated language families; the storm-vs-serpent parallel (Baal-Yam/Lotan vs Teshub-Illuyanka) is a regional shared TYPE. Real cultural contact existed across the Levant/Anatolia, but the specific divine-combat link is a structural parallel, not a documented borrowing of one figure into the other's myth. Down-tier from 2 to 3 (analogous)."
+    },
+    {
+      "a": "kumarbi",
+      "b": "anu",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The Anu of the Hurrian-Hittite Kumarbi cycle IS the Mesopotamian sky-god An/Anu adopted into the succession myth — a documented borrowing of the heaven-king into Hurrian-Hittite tradition. This is a genuine attested syncretism/adoption. Tier-2 holds."
+    }
+  ]
+}

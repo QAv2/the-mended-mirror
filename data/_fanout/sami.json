@@ -1,0 +1,332 @@
+{
+  "tradition": {
+    "id": "sami",
+    "name": "Sámi",
+    "region": "Sápmi (Fennoscandia, Uralic)",
+    "color": "#92a9d6"
+  },
+  "figures": [
+    {
+      "id": "sami-beaivi",
+      "kind": "deity",
+      "name": "Beaivi (the Sun)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The Sun herself, life-giver and ripener, who returns over the rim of the polar dark and to whom white reindeer were sacrificed, their meat threaded on rings of birch-twig wound sunwise; in the deepest winter she is implored to bring back the green and the fertility of the herds. On the drumheads she rides at the very centre as a great rayed lozenge.",
+      "facet": "A sun worshipped against the polar night, not the desert glare: in a land of months-long darkness the Sun is not a sovereign to be feared but a returning warmth begged back with white-reindeer blood and sunwise birch — solar divinity figured as the survival of light, and most often felt as feminine.",
+      "provenance": "Drum iconography (the central rayed figure on countless runebommer) plus 17th–18th-c. missionary records; Beaivi's gender wavers across regions in the sources, sometimes solar mother, sometimes paired with a moon-spouse."
+    },
+    {
+      "id": "sami-manno",
+      "kind": "deity",
+      "name": "Mánnu (the Moon)",
+      "archetypes": [
+        "lunar"
+      ],
+      "gloss": "The Moon, lamp of the long winter and reckoner of the dark half of the year, set opposite Beaivi the Sun and like her given a place on the sacred drum; the night-light by which the herder reads the season when the sun has sunk below the world's edge for weeks together.",
+      "facet": "The Moon as the OTHER half of an Arctic year split in two: where milder peoples mark day and night, Sápmi is governed by a sun-season and a moon-season, and Mánnu is the ruling light of the dark months — the lunar joint reached as a calendar of polar survival, not a mere nocturnal counterpart.",
+      "provenance": "Attested on the drums opposite the solar figure and in the missionary god-lists; the lunar cult is thinner in the record than the solar, often known chiefly through the drum's paired sun-and-moon symbols."
+    },
+    {
+      "id": "sami-horagalles",
+      "kind": "deity",
+      "name": "Horagalles / Tiermes / Dierpmis (the Thunder-Man)",
+      "archetypes": [
+        "storm-wielder",
+        "sky-father"
+      ],
+      "gloss": "The thunder-god who rules weather, life and death, carrying a hammer (the vietjer) and sometimes two, who hurls the bolt, splits the troll-rock and is figured on the drum gripping his mallet; called Tiermes or Dierpmis in the north and Horagalles in the south, he is implored for fair weather and to smite the unseen evil powers.",
+      "facet": "A Thor in NAME yet not in blood: 'Horagalles' is the Norse 'Þórr karl' (Thor the old man / Thor-fellow) taken up by a Uralic people from their Norse neighbours, the borrowed title laid over an indigenous thunder-power (Tiermes/Dierpmis) — the rare case where the gold seam of a name is genuinely documented across the IE/Uralic line.",
+      "provenance": "The Horagalles = *Þórr-karl etymology is a long-standing and well-supported reading of the missionary sources (Friis, Læstadius, the 17th–18th-c. manuscripts); the native northern names Tiermes/Dierpmis show the thunder-god predates and underlies the imported Norse title."
+    },
+    {
+      "id": "sami-leib-olmai",
+      "kind": "deity",
+      "name": "Leib-olmai (the Alder-Man)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The 'Alder-Man', lord of the forest and master of its game, ruler above all of the bear, who must be propitiated before the hunt and who grants or withholds the quarry; alder-bark, chewed to a blood-red dye, was spat or sprinkled on hunters, weapons and the slain bear in his rites, the red of the alder standing for the blood of the chase.",
+      "facet": "The keeper of the wild named for the ALDER, the tree that 'bleeds' red when cut: the master-of-animals is fixed here to one species whose dye reddens every rite of the hunt, so that the lord of the game is met through the bleeding bark of a single sacred tree — ecology condensed into one plant's wound.",
+      "provenance": "Recorded by the 18th-c. missionary-ethnographers (notably the alder-bark/red-dye bear rites); Leib-olmai's name and forest-and-bear lordship are well attested, though his exact rank among the spirits varies by source."
+    },
+    {
+      "id": "sami-maderakka",
+      "kind": "deity",
+      "name": "Máttaráhkká and her Daughters (Sáráhkká, Juoksáhkká, Uksáhkká)",
+      "archetypes": [
+        "great-mother",
+        "first-ancestor"
+      ],
+      "gloss": "The mother-goddess Máttaráhkká and her three daughters, the Áhkká, who dwell beneath the floor of the lavvu and govern birth: Sáráhkká, nearest the hearth, opens the womb and shares the mother's birth-pangs, receiving offerings in the fire and food; Juoksáhkká, the bow-woman, can turn a girl-child to a boy; Uksáhkká at the door wards the newborn's first steps. Máttaráhkká takes the soul from Beaivi and gives it a body.",
+      "facet": "A pantheon of WOMEN beneath the tent-floor running the whole work of birth — conception, sex-of-the-child, delivery, the threshold — addressed by the household's women as the daily, ground-level divinity: a female-centred, domestic, sub-floor godhead that is the living centre of Sámi religion where the sky-gods are remote and occasional.",
+      "provenance": "The Áhkká complex is among the best-attested Sámi cults (Læstadius's 'Fragments of Lappish Mythology', the 17th–18th-c. manuscripts, and Bäckman & Hultkrantz); their place beneath the lavvu floor and the division of birth-offices is consistently reported."
+    },
+    {
+      "id": "sami-jabmeahkka",
+      "kind": "deity",
+      "name": "Jábmeáhkká (Mistress of the Dead)",
+      "archetypes": [
+        "underworld-sovereign",
+        "great-mother"
+      ],
+      "gloss": "The death-mother who rules Jábmeaimo, the underworld of the dead beneath the living earth, where the deceased lead a second, shadowed life; she holds the dead and can claim the sick toward her realm, and the noaidi must descend and bargain — often with the sacrifice of a black animal — to redeem a soul she is drawing down.",
+      "facet": "An underworld ruled by a MOTHER, mirroring the birth-mothers above: as the Áhkká beneath the tent-floor give the body, Jábmeáhkká beneath the earth receives it — death imagined as a return to a maternal keeping under the ground, the female sovereignty of Sámi belief carried clean through into the land of the dead.",
+      "provenance": "Recorded in the missionary sources and synthesised in Bäckman & Hultkrantz; Jábmeaimo and its mistress belong to a layered Sámi afterworld (with the lower Rota-aimo), the details varying across the manuscripts."
+    },
+    {
+      "id": "sami-noaidi",
+      "kind": "ancestor",
+      "name": "The Noaidi (the Shaman)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The Sámi shaman, who beats the goavddis (the runebomme drum) into trance and, lying as if dead, sends his free-soul out in the shape of a fish, a bird or a reindeer to travel the worlds — diving to Jábmeaimo to ransom a sick soul, racing rival noaidis as fighting bull-reindeer, reading the future from the brass ring that dances over the painted drumhead as the hammer falls.",
+      "facet": "A soul-traveller whose vehicle is the herd-and-water world itself: the noaidi flies not as an abstract spirit but AS a fish through the lakes, a bird through the air, a bull-reindeer across the fells — and noaidi-duels are fought in those animal forms, the ecstatic journey wholly bodied in the fauna of Sápmi.",
+      "provenance": "Among the most fully recorded shamanisms in Europe — drum-trance, the arpa (the ring/index on the drum), and the animal-form soul-flight are detailed in the 17th–18th-c. accounts and in Bäckman & Hultkrantz; many drums were confiscated and burned in the Christianisation, so the record is also the record of a suppression."
+    },
+    {
+      "id": "sami-goavddis",
+      "kind": "rite",
+      "name": "The Goavddis / Runebomme (the Drum)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The shaman's drum, an oval or bowl of birch or pine roofed with a reindeer-hide head painted in alder-red with a cosmos: sun and moon, the gods, the world's three or more tiers, the herds and the holy places. The brass arpa-ring set on it leaps from figure to figure as the drum is struck — at once the map of the worlds, the instrument of trance, and the oracle read by where the ring comes to rest.",
+      "facet": "The ONLY map of the three worlds the Sámi drew: cosmology here is not spoken in epic but PAINTED on a drumhead, a single membrane on which heaven, earth and the dead are laid out and then read like a board — the world-axis and the world-picture fused into one struck object, divination and diagram in the same skin.",
+      "provenance": "Some seventy painted drums survive in museums, seized as idols by missionaries; their layouts are the primary visual source for Sámi cosmology, read alongside the manuscript accounts and the syntheses of Bäckman & Hultkrantz and of Manker's drum catalogue."
+    },
+    {
+      "id": "sami-sieidi",
+      "kind": "place",
+      "name": "The Sieidi / Seita (Sacred Stone)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A sacred site — most often a strangely shaped stone or rock, sometimes a stump or a cleft — that is itself a power and a place of offering: smeared with the fat and blood of reindeer, antlers heaped before it, given the first of the catch, and bound to a family or a fishing-water whose luck it holds. To feed the sieidi well is to keep the game and the fish coming.",
+      "facet": "Divinity LODGED in a particular stone on a particular shore — not a temple raised by hands but a found feature of the land recognised as holy, the sacred read off the terrain itself; a religion of named places rather than built shrines, where the rock IS the god and the offering is its meal.",
+      "provenance": "Sieidi sites are attested archaeologically (bone, antler and metal-offering deposits) as well as in the missionary record; they remained in quiet use long after formal conversion, and many are still known on the land in Sápmi today."
+    },
+    {
+      "id": "sami-bear-cult",
+      "kind": "rite",
+      "name": "The Bear-Feast and Bear-Grave",
+      "archetypes": [
+        "master-of-animals",
+        "dying-rising"
+      ],
+      "gloss": "The great hunting rite: the bear, slain in its winter den, is addressed with apology and honorific by-names so its spirit takes no offence, its body brought home with song and ceremony, the flesh eaten by men and women apart under strict rule, and the bones — above all the skull — buried whole in anatomical order in a bear-grave so the lord of the forest may clothe them in flesh again and the bear return to be hunted anew.",
+      "facet": "Killing performed as an APOLOGY and a promise of resurrection: the most powerful and most human-like beast is hunted only with elaborate courtesy and then re-assembled in the ground so it can come back — the hunter's debt to the animal he eats made into a liturgy of respect and renewal, the bear honoured precisely as it is killed.",
+      "provenance": "The Sámi bear-feast is recorded in 17th–18th-c. accounts and confirmed by excavated ordered bear-graves; it belongs to a circumpolar bear-ceremonialism (compared by Hallowell, and synthesised for Sápmi in Bäckman & Hultkrantz), shared in pattern across the northern hunting peoples."
+    }
+  ],
+  "proposedArchetypes": [],
+  "edges": [
+    {
+      "a": "sami-beaivi",
+      "b": "sami-manno",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sun and Moon stand opposite each other on the drumheads as the paired lights of the Arctic year — Beaivi ruling the sun-season, Mánnu the months of polar dark."
+    },
+    {
+      "a": "sami-beaivi",
+      "b": "sami-maderakka",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Máttaráhkká takes the new soul down from Beaivi the Sun and clothes it in a body — the solar life-giver and the birth-mothers form one chain from light to flesh."
+    },
+    {
+      "a": "sami-maderakka",
+      "b": "sami-jabmeahkka",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Mirror-mothers at opposite ends of life: the Áhkká beneath the tent-floor give the body at birth, Jábmeáhkká beneath the earth receives it at death — the same maternal sovereignty turned from cradle to grave."
+    },
+    {
+      "a": "sami-noaidi",
+      "b": "sami-goavddis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The noaidi cannot travel the worlds without the drum: the goavddis is both the instrument that beats him into trance and the painted map his free-soul reads — shaman and drum are one working tool."
+    },
+    {
+      "a": "sami-noaidi",
+      "b": "sami-jabmeahkka",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The noaidi's hardest journey is the descent to Jábmeaimo to bargain back a soul the death-mother is drawing down — psychopomp and underworld-sovereign locked in the same rite."
+    },
+    {
+      "a": "sami-leib-olmai",
+      "b": "sami-bear-cult",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Leib-olmai the Alder-Man is the lord above all of the bear; his red alder-dye reddens the bear-rites and it is to him the ordered bones are given so the bear may be re-fleshed and return."
+    },
+    {
+      "a": "sami-goavddis",
+      "b": "sami-sieidi",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The two surfaces of Sámi sacred space — the cosmos painted on the drumhead and the cosmos found in the holy stone; the drum often maps the very sieidi-sites it is read beside."
+    },
+    {
+      "a": "sami-horagalles",
+      "b": "thor",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The strong gold here: 'Horagalles' is the Norse 'Þórr karl' (Thor the old man) borrowed by the Sámi from their Norse neighbours and laid over the native thunder-god — a documented name-borrowing across the Indo-European/Uralic line, the title imported even as Tiermes/Dierpmis stays indigenous."
+    },
+    {
+      "a": "sami-horagalles",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hammer-and-bolt thunder-gods of the northern forests who smite the powers of evil; a structural rhyme with the Slavic storm-father, but Perun's *Perkwunos name leaves no Uralic descendant — the pattern shared, not the blood."
+    },
+    {
+      "a": "sami-horagalles",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The thunder-wielder who shatters the rock and looses the waters/weather is one of humanity's most widespread divine offices; Tiermes meets Indra at the storm-wielder joint by independent road, no descent between Uralic and Indo-Aryan."
+    },
+    {
+      "a": "sami-horagalles",
+      "b": "ukko",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two Uralic thunder-'old-men' of Fennoscandia, the Sámi Horagalles/Tiermes and the Finnish Ukko, sharing hammer, bolt and bow through close Finnic-Sámi neighbourhood — kindred storm-fathers reached without the Indo-European word."
+    },
+    {
+      "a": "sami-noaidi",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Sámi noaidi and the Siberian shaman are two members of one great North-Eurasian shamanism: drum-trance, the three worlds, the soul sent out and the descent to ransom the sick — a real circumpolar pattern, shared inheritance or deep diffusion rather than documented contact."
+    },
+    {
+      "a": "sami-noaidi",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the Arctic soul-traveller who leaves the body to fly the worlds and treat with the powers of game and death; the noaidi diverges by riding the herd-world itself (fish, bird, bull-reindeer), where the angakkuq descends to the sea-mother of the seals."
+    },
+    {
+      "a": "sami-noaidi",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both ecstatic specialists who treat the living by dealing with spirits and the dead; a loose North-Asian shamanic rhyme across utterly separate peoples, flagged as a soft parallel."
+    },
+    {
+      "a": "sami-goavddis",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The drum is the Sámi axis-mundi made portable — where the Siberian shaman climbs the world-tree, the noaidi reads the three worlds off the painted membrane he strikes; the same vertical cosmos held in different objects."
+    },
+    {
+      "a": "sami-leib-olmai",
+      "b": "master-of-animals",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Leib-olmai is the Sámi instance of the keeper who owns the wild and looses the game — the master-of-animals joint, fixed here to the alder-tree and the bear above all other quarry."
+    },
+    {
+      "a": "sami-leib-olmai",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Forest-lords of neighbouring Uralic peoples who hold the keys to the game and must be coaxed before the bow finds its mark — the Sámi Alder-Man and the Finnish green king Tapio, kindred keepers of the woods across the Finnic-Sámi border."
+    },
+    {
+      "a": "sami-leib-olmai",
+      "b": "artemis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both preside over the wild and its beasts and govern the hunt's right conduct; an honest structural parallel of the wilderness-keeper, no descent or contact between Sámi and Greek."
+    },
+    {
+      "a": "sami-bear-cult",
+      "b": "ungnyeo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two northern reverences for the bear as the near-human beast — the Sámi honour and re-bury it to return, the Korean Ungnyeo is the she-bear who becomes a woman and ancestress; the sacred kinship of bear and human, on a circumpolar belt with no contact."
+    },
+    {
+      "a": "sami-bear-cult",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The bear treated with apology and re-fleshed so the game returns rhymes with the Inuit master of the land-animals who must be kept in good will for the hunt to renew — the hunter's debt to the owned wild, met across the Arctic by separate peoples."
+    },
+    {
+      "a": "sami-bear-cult",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The ordered burial of the bear's bones so the lord of the forest may clothe them in flesh again sets this rite at the dying-rising joint — resurrection figured not for a god but for the honoured prey, killed only to come back."
+    },
+    {
+      "a": "sami-beaivi",
+      "b": "saule",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Northern solar divinities reached against the long winter, both frequently feminine — Beaivi the returning Sámi Sun and the Baltic sun-goddess Saulė; the solar joint filled by the warmth begged back over the dark, in two unrelated families of the same latitudes."
+    },
+    {
+      "a": "sami-beaivi",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both the Sun personified and given the central place in cult and image; a thin parallel, since Beaivi diverges as an often-feminine warmth implored back from the polar night rather than a charioteer crossing a Mediterranean sky — flagged as loose."
+    },
+    {
+      "a": "sami-jabmeahkka",
+      "b": "tuonela",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Bleak northern lands of the dead beneath the world ruled by a death-keeping power; the Sámi Jábmeaimo and the Finnish Tuonela rhyme as sober Uralic afterworlds of shadowed second life, by Finnic-Sámi neighbourhood rather than descent."
+    },
+    {
+      "a": "sami-jabmeahkka",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "An underworld of the dead ruled by a female sovereign — Jábmeáhkká and the Norse Hel both women who keep the departed; an analogous death-mistress across the Uralic/Germanic line, contact plausible but the parallel structural."
+    },
+    {
+      "a": "sami-maderakka",
+      "b": "samsin-halmoni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Household birth-goddesses who govern conception and safe delivery from within the dwelling — the Sámi Áhkká beneath the tent-floor and the Korean Samsin grandmother of the inner room; the domestic, female sovereignty of birth, convergent across Asia's north."
+    },
+    {
+      "a": "sami-maderakka",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The near, warm mother-power of birth complementing a remote sky — Máttaráhkká's household of birth-mothers beside the Inner-Asian womb-goddess Umai; the great-mother met at the threshold of the cradle, no descent claimed."
+    },
+    {
+      "a": "sami-sieidi",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Sacred stones recognised as holy and made the focus of offering and pilgrimage; the Sámi offering-rock and the Black Stone are far-flung, unrelated answers to the impulse to find godhead lodged in stone — a distant rhyme, flagged."
+    },
+    {
+      "a": "sami-manno",
+      "b": "menulis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Moon-gods of the northern latitudes paired against the Sun — the Sámi Mánnu and the Baltic Mēnulis; the lunar joint as the ruling light of the dark season, reached in two separate families along the same cold sky."
+    }
+  ]
+}

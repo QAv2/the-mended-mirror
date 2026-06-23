@@ -1,0 +1,262 @@
+{
+  "tradition": {
+    "id": "baltic",
+    "name": "Baltic (Lithuanian / Latvian)",
+    "region": "North-eastern Europe",
+    "color": "#8fb3c9"
+  },
+  "figures": [
+    {
+      "id": "dievas",
+      "kind": "deity",
+      "name": "Dievas / Dievs",
+      "archetypes": ["sky-father", "withdrawn-creator"],
+      "gloss": "The bright sky and high god of the Balts, whose very name is the unbroken cognate of *Dyeus — the same word as Zeus, Jupiter, Dyaus, Tiwaz, worn smooth across five thousand years.",
+      "facet": "The shard that kept the word: where Tyr decayed and Zeus was renamed, the Baltic peasant still said *Dievas* into the twentieth century — the longest-surviving utterance of the Sky-Father's true name.",
+      "provenance": "Reconstructed from Lithuanian and Latvian folksong (dainas) collected 18th–20th c.; the late Christianisation of the Balts preserved an unusually archaic layer."
+    },
+    {
+      "id": "perkunas",
+      "kind": "deity",
+      "name": "Perkūnas / Pērkons",
+      "archetypes": ["storm-wielder", "dragon-slayer"],
+      "gloss": "The thunder-god who rides the sky in a fiery chariot and splits the oak, his name from *Perkwunos — the near-twin of Slavic Perun and structural brother to Indra and Thor.",
+      "facet": "Keeper of the oldest storm-myth still living in folklore: Perkūnas hunts Velnias the serpent across the sky and through every tree and stone the devil hides behind — the IE thunder-vs-serpent combat told as a peasant chase."
+    },
+    {
+      "id": "saule",
+      "kind": "deity",
+      "name": "Saulė / Saule",
+      "archetypes": ["solar", "great-mother"],
+      "gloss": "The Sun as a goddess and mother, who drives her copper-wheeled chariot across the sky, weeps amber tears into the sea, and tends the cosmic apple-tree at the world's edge.",
+      "facet": "The divergence that overturns a habit: where most pantheons make the sun a king or charioteer-god, the Balts kept the Sun female and maternal — a feminine solar eye, complement not consort to the moon."
+    },
+    {
+      "id": "menulis",
+      "kind": "deity",
+      "name": "Mėnulis / Mēness",
+      "archetypes": ["lunar"],
+      "gloss": "The Moon, husband of the Sun, who weds Saulė at the world's beginning and then, faithless, courts the dawn-star Aušrinė — for which Perkūnas cleaves him, and his wound is the moon's waning.",
+      "facet": "A cosmic divorce written into the calendar: the Sun-and-Moon marriage, their quarrel, and the Moon's punishment explain the phases as the scar of an infidelity — myth as the reckoning of time itself."
+    },
+    {
+      "id": "zemyna",
+      "kind": "deity",
+      "name": "Žemyna",
+      "archetypes": ["great-mother"],
+      "gloss": "The Earth-Mother, the blossoming ground from whom all life rises and to whom it returns; her name shares the root *dhg'hem- with Greek chthon and Latin humus — the Earth herself.",
+      "facet": "Kissed at dawn and at death: the Lithuanian farmer greeted Žemyna by kissing the soil and poured the first of every drink to her — a great-mother worshipped not in temple but in the daily act of touching the ground."
+    },
+    {
+      "id": "laima",
+      "kind": "deity",
+      "name": "Laima",
+      "archetypes": ["great-mother", "cosmic-order"],
+      "gloss": "Goddess of fate, fortune and birth, who lays down each life's measure at the threshold; her decree is *lemtis*, the allotted portion no god overturns.",
+      "facet": "Fate as a midwife, not a spinner: Laima stands at the moment of birth to speak the lot, and even Dievas defers to what she has set — the impersonal allotment that order itself obeys."
+    },
+    {
+      "id": "velnias",
+      "kind": "deity",
+      "name": "Velnias / Velns",
+      "archetypes": ["underworld-sovereign", "cosmic-serpent"],
+      "gloss": "Lord of the dead, of cattle, water and the dark below — the serpentine chthonic power whom Perkūnas eternally hunts; later flattened by Christianity into the folk-devil.",
+      "facet": "The slandered sovereign: Velnias was not evil but the underworld's rightful master of wealth and the dead, demoted to 'the Devil' only when the new faith needed an enemy for its God — a shard cracked by conversion.",
+      "provenance": "The pre-Christian Velnias/Vels must be read beneath the later Christianised folk-devil; the chthonic, cattle-keeping layer is the genuinely archaic one (cf. Latvian Veļi, the dead)."
+    },
+    {
+      "id": "dieva-deli",
+      "kind": "deity",
+      "name": "Dieva dēli",
+      "archetypes": ["divine-twins", "solar"],
+      "gloss": "The 'Sons of God', the Latvian divine twins who court Saule's daughter, rescue her from the sea and steady her sinking boat — the Baltic face of the Indo-European Dawn-Twins.",
+      "facet": "A living witness to a reconstruction: the Dieva dēli courting the Sun-Maiden mirror the Vedic Aśvins and Greek Dioskouroi so closely that they confirm the *Diwos sunu — Sons of Dyeus — as a real inherited myth, not a guess."
+    },
+    {
+      "id": "ausrine",
+      "kind": "deity",
+      "name": "Aušrinė",
+      "archetypes": ["solar"],
+      "gloss": "The Morning Star, the dawn-goddess who kindles Saulė's fire and lights her way; her name from *h2ews-, the same root as Greek Eos, Latin Aurora, Vedic Uṣas.",
+      "facet": "The dawn the Balts kept by name: where Eos and Aurora became literary figures, Aušrinė stayed a working morning-star whose mythic root is audible in the word itself."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "dievas",
+      "b": "dyeus",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Lithuanian Dievas / Latvian Dievs continues *Dyeus directly — among the least-altered reflexes of the reconstructed Sky-Father's name."
+    },
+    {
+      "a": "dievas",
+      "b": "zeus",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Same Indo-European etymon *Dyeus; Dievas and Zeus are the same inherited word in different daughter tongues."
+    },
+    {
+      "a": "dievas",
+      "b": "jupiter",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Dievas and Iuppiter (Dieus-pater) share the *Dyeus root by regular sound-law within Indo-European."
+    },
+    {
+      "a": "dievas",
+      "b": "dyaus-pita",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Dievas and Vedic Dyaus continue the same *Dyeus — the cognate star at its widest span."
+    },
+    {
+      "a": "dievas",
+      "b": "tyr",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Both from *Dyeus/*Tiwaz; Dievas kept the supreme sky-god role that Tyr surrendered to Odin and Thor."
+    },
+    {
+      "a": "perkunas",
+      "b": "perun",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Perkūnas and Perun both reflect *Perkwunos within the Balto-Slavic node — the closest cognate pair in the whole storm-cluster, oak and thunder shared."
+    },
+    {
+      "a": "perkunas",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The thunder-god who slays the serpent: Perkūnas hunting Velnias rhymes structurally with Indra and Vṛtra, though the names are not cognate."
+    },
+    {
+      "a": "perkunas",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Oak-and-thunder god wielding the bolt against a chthonic serpent — the same IE storm-template, distinct lineage from Perkūnas's *Perkwunos."
+    },
+    {
+      "a": "perkunas",
+      "b": "taranis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Wheel-and-thunder gods of the western and eastern IE world; both carry the *(s)tenh2- / *Perkwunos thunder-complex, no proven common name."
+    },
+    {
+      "a": "velnias",
+      "b": "perkunas",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The defining Baltic combat: Perkūnas (sky) eternally pursues Velnias (the serpent below) — the IE thunder-vs-serpent myth preserved as living folklore."
+    },
+    {
+      "a": "saule",
+      "b": "menulis",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Sun-wife and Moon-husband, their marriage and quarrel are the Baltic cosmogony of day, night and the lunar phases."
+    },
+    {
+      "a": "saule",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two of the rare feminine solar deities — Saulė and Amaterasu — independent witnesses that the sun need not be male."
+    },
+    {
+      "a": "saule",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both drive the solar chariot across the sky and both belong to IE solar imagery, but Saulė is mother where Sūrya is lord — the gender inverts."
+    },
+    {
+      "a": "saule",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Chariot-driving sun of the IE world; the Baltic Saulė keeps the wheel and the daily course while turning the charioteer female."
+    },
+    {
+      "a": "menulis",
+      "b": "ausrine",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Moon's faithless courting of the dawn-star Aušrinė is the offence for which Perkūnas wounds him — the myth that reads the lunar phases."
+    },
+    {
+      "a": "ausrine",
+      "b": "saule",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the Baltic sky-family Aušrinė the morning-star serves and kindles Saulė the Sun, attested together in the dainas."
+    },
+    {
+      "a": "zemyna",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Earth personified as mother and source; Žemyna and Gaia share the function and, with chthon, the *dhg'hem- earth-root — but the divine figures are parallels, not one name."
+    },
+    {
+      "a": "zemyna",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Grain-and-ground mothers of the field; the Lithuanian first-fruits to Žemyna echo Demeter's agrarian cult without proven descent."
+    },
+    {
+      "a": "dieva-deli",
+      "b": "saule",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Dieva dēli court and rescue Saule's daughter and right her sinking boat — the Baltic Sons-of-God / Sun-Maiden cycle in one scene."
+    },
+    {
+      "a": "dievas",
+      "b": "dieva-deli",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The 'Sons of God' are by name the sons of Dievas — *Diwos sunu, the divine twins begotten of the Sky-Father."
+    },
+    {
+      "a": "ausrine",
+      "b": "helios",
+      "type": "cognate",
+      "tier": "4",
+      "note": "Aušrinė's root *h2ews- (dawn) is cognate with Greek Eos/Aurora, not with Helios; the seam belongs to the dawn-goddess line — flagged as a reach, true target is the dawn not the sun."
+    },
+    {
+      "a": "laima",
+      "b": "frigg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Goddesses presiding over birth, marriage and the measure of a life; Laima at the threshold rhymes with Frigg who knows all fates yet speaks none."
+    },
+    {
+      "a": "laima",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both touch the allotment of life and death, but Laima is a benevolent midwife of fate where the Morrigan is its war-shadow — a loose, divergent parallel."
+    },
+    {
+      "a": "velnias",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Wealth-keeping lords of the dead below; Velnias, master of cattle and the buried hoard, parallels Hades the rich one — independent underworld sovereigns."
+    },
+    {
+      "a": "velnias",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "First-and-foremost lords of the dead in IE daughter traditions; the Latvian Veļi (the dead) gather under Velnias as the departed gather under Yama."
+    }
+  ]
+}

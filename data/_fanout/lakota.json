@@ -1,0 +1,303 @@
+{
+  "tradition": {
+    "id": "lakota",
+    "name": "Lakota / Sioux",
+    "region": "North America (Plains)",
+    "color": "#c98a55"
+  },
+  "figures": [
+    {
+      "id": "wakan-tanka",
+      "kind": "principle",
+      "name": "Wakáŋ Tȟáŋka",
+      "archetypes": ["one-through-many", "cosmic-order"],
+      "gloss": "The Great Mystery — not a god among gods but the sacred totality, the wakȟáŋ (holy power) that is in and through all things; the wičháša wakȟáŋ Black Elk numbered it as Tȟobtób kiŋ, sixteen aspects that are nonetheless one, kin and circle rather than throne.",
+      "facet": "The shard that refuses the throne: where most traditions place a Person at the summit, Wakáŋ Tȟáŋka is a *mystery* and a *relatedness* — best rendered panentheist, the holy diffused through the whole, so that to translate it 'Great Spirit' is already to mistranslate it into a face it does not have.",
+      "provenance": "The sixteen-aspect schema comes through James R. Walker's early-20th-c. Oglala interlocutors (esp. George Sword); 'Great Spirit' is a missionary-era flattening Lakota commentators have long contested. Read with care for the colonial recording layer."
+    },
+    {
+      "id": "inktomi",
+      "kind": "spirit",
+      "name": "Iktómi",
+      "archetypes": ["trickster", "culture-hero"],
+      "gloss": "The spider, first son of Iŋyaŋ the Rock and the one who named all things; clever, lecherous, perpetually undone by his own scheming, yet the very being who gave the people language and, in his blundering, teaches the law by breaking it.",
+      "facet": "The teacher whose lessons are his failures: Iktómi instructs not by gift or commandment but by getting caught — the trickster as a pedagogy of consequence, the cautionary tale that walks and talks and never learns.",
+      "provenance": "Walker's Oglala texts make Iktómi a primal cosmic actor (son of Iŋyaŋ); the popular 'Spider' trickster tales are the living oral surface of that older theology."
+    },
+    {
+      "id": "ptesan-win",
+      "kind": "hero",
+      "name": "Ptesáŋwiŋ (White Buffalo Calf Woman)",
+      "archetypes": ["culture-hero", "great-mother"],
+      "gloss": "The holy woman who came across the plains to the Lakota in time of hunger, bearing the Čhaŋnúŋpa, the sacred pipe, and the teaching of the rites; as she departed she rolled upon the earth and turned to a buffalo calf of white, black, red and yellow, and the herds came.",
+      "facet": "Revelation as a woman walking in: the foundational sacred order arrives not from a sky-throne or a slain monster but as a visitor received with hospitality — covenant given through gift and relationship, the pipe a portable axis joining earth and sky in every hand that lifts it.",
+      "provenance": "Central living tradition of the Lakota; the keeping of the Čhaŋnúŋpa bundle continues. Recounted by Black Elk, Lame Deer and others — a covenant-narrative still actively held, not a museum artifact."
+    },
+    {
+      "id": "wi",
+      "kind": "deity",
+      "name": "Wí",
+      "archetypes": ["solar"],
+      "gloss": "The Sun, chief of the visible wakȟáŋ and patron of the four great virtues — bravery, fortitude, generosity, wisdom; it is to Wí, gazing into his light, that the dancers of the Wiwáŋyaŋg Wačhípi, the Sun Dance, offer their flesh and their thirst for the people.",
+      "facet": "The sun answered by sacrifice of the self, not of another: where solar cults elsewhere feed the sun with captives or kings, the Lakota repay the light by giving their own flesh in the piercing — the offering turned inward, the body itself the gift.",
+      "provenance": "The Sun Dance was banned by the U.S. government 1883–1934 and survived underground; its modern practice is a restoration of a suppressed rite, which colours the available record."
+    },
+    {
+      "id": "sacred-hoop",
+      "kind": "concept",
+      "name": "Čháŋgleška Wakȟáŋ (The Sacred Hoop & Four Directions)",
+      "archetypes": ["axis-mundi", "complementarity"],
+      "gloss": "The hoop of the world and the cross of the four winds within it — Wazíyata, Itókağata, Wiyóȟpeyata, Wiyóȟiyaŋpata, each with its colour, power and lesson; the camp circle, the pipe's quartered bowl and the round of the seasons all repeat the one figure, the nation as an unbroken ring.",
+      "facet": "The cosmogram that is also a polity: the quartered circle is not only a map of the cosmos but the living shape of the people — Black Elk's grief that 'the nation's hoop is broken' is a single image doing the work of theology, ethics and history at once.",
+      "provenance": "The four-directions colour-scheme varies by account and band; the famous 'broken hoop' framing reaches us through Black Elk Speaks (Neihardt, 1932), a mediated text whose poetry is partly Neihardt's."
+    },
+    {
+      "id": "wakinyan",
+      "kind": "spirit",
+      "name": "Wakíŋyaŋ (The Thunderbeings)",
+      "archetypes": ["storm-wielder"],
+      "gloss": "The Thunderbirds of the west, winged powers whose glance is lightning and whose voice is thunder, beautiful and terrible, eternal enemies of the water-monster Uŋktéȟi; those they touch in dream become heyókȟa, the sacred clowns who must live everything backwards.",
+      "facet": "The storm-power that conscripts its visionaries into contraries: to dream of the Wakíŋyaŋ is to be bound to the heyókȟa path — to ride backwards, laugh at terror and do all things in reverse — the lightning's lesson delivered as holy absurdity.",
+      "provenance": "Recorded by Walker, Densmore and Black Elk; the heyókȟa ceremony is closely held and was among the suppressed rites."
+    },
+    {
+      "id": "unktehi",
+      "kind": "spirit",
+      "name": "Uŋktéȟi",
+      "archetypes": ["cosmic-serpent", "mother-of-waters"],
+      "gloss": "The great horned water-monster of the rivers and deep places, a power of the waters and the underneath whose endless war with the Thunderbeings of the sky orders the world between flood and storm; her bones, the people said, are the great fossils washed from the Plains earth.",
+      "facet": "The serpent read in the fossil bed: the Lakota saw the mammoth and dinosaur bones eroding from the Badlands and knew them for Uŋktéȟi — a cosmology that takes the deep-time bones of the land as the body of its water-power, myth as a reading of the actual ground.",
+      "provenance": "Walker and others; the identification of fossil remains with Uŋktéȟi is well attested in Plains ethnography."
+    },
+    {
+      "id": "hanwi",
+      "kind": "deity",
+      "name": "Haŋwí",
+      "archetypes": ["lunar"],
+      "gloss": "The Moon, companion of Wí; in the Walker cosmogony she once shared his honoured place, lost it through the trickery of the world's making, and so walks the night — the measure of the months and the woman's seasons, set apart from the day she once shared.",
+      "facet": "The displaced co-regent: Haŋwí's demotion from the sun's side to the lonely night is told as the very event that set day apart from night and time in motion — the moon's exile as the origin of measured time itself.",
+      "provenance": "Chiefly from Walker's Oglala mythology, whose systematised theogony (Wí, Haŋwí, Tȟaté, the wind-sons) bears the marks of a single learned informant's ordering."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "wakan-tanka",
+      "b": "inktomi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the one Mystery, Iktómi is a named aspect (son of the Rock, namer of things) — the totality and its sly intelligence, mystery and the mind that schemes inside it."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "wi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Wí the Sun is counted among the Tȟobtób kiŋ, the sixteen aspects of Wakáŋ Tȟáŋka — the visible chief of the holy powers that are, all together, the one Great Mystery."
+    },
+    {
+      "a": "wi",
+      "b": "hanwi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sun and Moon, once seated together and parted by the world's making — Wí keeping the day and the Sun Dance, Haŋwí keeping the night and the months; the Lakota day-and-night couple."
+    },
+    {
+      "a": "wakinyan",
+      "b": "unktehi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The sky-power and the water-power locked in eternal war — Wakíŋyaŋ of the west against Uŋktéȟi of the deep; their unending strife is the Lakota engine of cosmic balance, storm against flood."
+    },
+    {
+      "a": "wi",
+      "b": "sacred-hoop",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Sun is the centre the dancers face and the hoop is the world drawn around that centre; the Sun Dance is performed within the quartered circle, light and ring as one rite."
+    },
+    {
+      "a": "ptesan-win",
+      "b": "sacred-hoop",
+      "type": "pairs",
+      "tier": "2",
+      "note": "White Buffalo Calf Woman brought the Čhaŋnúŋpa whose quartered bowl and four ribbons ARE the sacred hoop and four directions in the hand — the culture-hero's gift is the cosmogram itself."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two American conceptions of a single sacred power-stuff diffused through all things — wakȟáŋ and teōtl alike a holy energy pervading the cosmos rather than a personal high god; the panentheist intuition reached twice in the Americas."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sacred totality of which all beings are aspects — Wakáŋ Tȟáŋka's sixteen-in-one answers Brahman's one-without-a-second behind the many; both resist the idol of a single ruling Person."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The unnameable holy whole that is in and through everything and cannot be reduced to a god — the Great Mystery and the Dao alike name reality's sacred ground rather than a being within it."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both stand behind the working powers as the source-totality, but the parallel is loose — Ometeotl a self-existent dual deity, Wakáŋ Tȟáŋka a mystery and relatedness, not a maker; a faint one-through-many echo only."
+    },
+    {
+      "a": "inktomi",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Tricksters who are also the keepers of language and the crossroads of meaning — Iktómi who named all things, Èṣù who carries every word between human and divine; the trickster as the hinge of communication."
+    },
+    {
+      "a": "inktomi",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Culture-hero tricksters whose gifts to humankind come wrapped in mischief and overreach — Iktómi the namer, Māui the fire-snarer and sun-snarer; benefaction inseparable from the prank."
+    },
+    {
+      "a": "inktomi",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The clever schemer forever undone by his own cunning, half-helper half-saboteur of the cosmic order; Iktómi and Loki are the trickster's two-faced intelligence in unrelated worlds."
+    },
+    {
+      "a": "inktomi",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both the restless, deceiving intelligence loose within the sacred order, but the weight differs — Tezcatlipoca a dread omnipotent power, Iktómi a comic primal namer; a loose trickster rhyme, flagged."
+    },
+    {
+      "a": "ptesan-win",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "American culture-bringers who deliver the sacred arts and the rites of right living and then depart in transfigured form — the Feathered Serpent and the White Buffalo Calf Woman, revelation that walks in and walks out."
+    },
+    {
+      "a": "ptesan-win",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The benefactor who hands humankind the founding gift of culture — Ptesáŋwiŋ the pipe and the rites, Prometheus the fire; the civilising boon, though hers is freely given where his is stolen."
+    },
+    {
+      "a": "ptesan-win",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A holy woman who arrives among a starving people and whose coming restores plenty and institutes a sacred rite — Ptesáŋwiŋ bringing the buffalo and the pipe, Demeter the grain and the Mysteries; a loose great-mother/culture-rite rhyme."
+    },
+    {
+      "a": "wi",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sun as chief of the holy powers and centre of the people's highest rite — Wí of the Sun Dance and Amaterasu of the imperial cult; the solar disk as the focus of a nation's worship in two unconnected worlds."
+    },
+    {
+      "a": "wi",
+      "b": "huitzilopochtli",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Two New-World solar cults whose great rite feeds the sun with offered flesh — but inverted: Huitzilopochtli is fed the captive's heart, Wí is repaid the dancer's OWN flesh; sacrifice of the other against sacrifice of the self."
+    },
+    {
+      "a": "wi",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sun as the wheeling holy eye and patron of high virtue, gazed upon in disciplined devotion; Wí and Sūrya are independent solar foci of a sky-revering people."
+    },
+    {
+      "a": "wakinyan",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Thunder-powers of the sky whose voice is the storm and whose ancient enemy is the great serpent/monster of the waters — the Thunderbirds against Uŋktéȟi as Thor against the World-Serpent; the storm-versus-serpent template reached far outside Indo-European."
+    },
+    {
+      "a": "wakinyan",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Storm-wielders whose thunderbolt war with a water-withholding serpent-monster keeps the world in order — Wakíŋyaŋ against Uŋktéȟi, Indra against Vṛtra; the same sky-against-deep drama, no shared line."
+    },
+    {
+      "a": "wakinyan",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The thunder imagined as a living, glancing power of the sky whose touch marks and consecrates certain people; the Thunderbeings and Ṣàngó are independent personifications of the storm's holy charge."
+    },
+    {
+      "a": "unktehi",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both name a great serpent of the deep set against the powers above, but loosely — Níðhöggr gnaws the world-tree's root where Uŋktéȟi wars with the sky; included as a faint cosmic-serpent-of-the-underneath echo only.",
+      "provenance": "The seam is to the Norse underworld-serpent complex around Yggdrasil's roots, not the tree itself; flagged as a reach."
+    },
+    {
+      "a": "unktehi",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Lords of the waters and the deep whose bones and storms govern flood and rain; the Lakota water-monster and the Mesoamerican rain-lord both rule the perilous gift of water from below and above."
+    },
+    {
+      "a": "hanwi",
+      "b": "mama-killa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Moon-women set beside the sun and made the reckoners of months and women's seasons — Haŋwí parted from Wí, Mama Killa wedded to Inti; the lunar consort/timekeeper arrived at in two American cosmoses."
+    },
+    {
+      "a": "hanwi",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose sun-and-moon-separation echo: Haŋwí's parting from Wí sets day apart from night, faintly rhyming with the sun-hidden-and-restored dramas of solar myth; flagged, no shared structure beyond the day/night divide."
+    },
+    {
+      "a": "sacred-hoop",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The quartered cosmos centred on a holy axis — the sacred hoop crossed by the four winds against Eden's tree fed by four rivers to the four quarters; the cross-in-circle world-map, twice imagined."
+    },
+    {
+      "a": "sacred-hoop",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The four-directions cosmogram made the ground-plan of a sacred figure — the Lakota hoop-and-cross and the Mesoamerican quartered board both lay the quartered cosmos flat as a usable diagram of the world."
+    },
+    {
+      "a": "sacred-hoop",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The world held by its four quarters, each a coloured power with its own quarter of the sky — the four winds of the Lakota hoop answering the four Tezcatlipocas of the four directions, the quartered cosmos in two Americas."
+    },
+    {
+      "a": "sacred-hoop",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The axis that joins the worlds and gathers the directions — the upright pipe and centre-pole of the hoop answering the world-tree; vertical axis and quartered circle, the same cosmic centring."
+    }
+  ]
+}

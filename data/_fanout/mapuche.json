@@ -1,0 +1,290 @@
+{
+  "tradition": {
+    "id": "mapuche",
+    "name": "Mapuche",
+    "region": "Araucanía (Chile & Argentina)",
+    "color": "#7e9ec2"
+  },
+  "figures": [
+    {
+      "id": "mapuche-ngenechen",
+      "kind": "deity",
+      "name": "Ngenechen (Ngünechen)",
+      "archetypes": ["sky-father", "complementarity", "one-through-many"],
+      "gloss": "The 'owner/ruler of the people', supreme power of the Wenu Mapu, addressed in the ngillatun not as one face but as a fourfold unity — fücha (old man) and kushe (old woman), weche (young man) and üllcha (young woman) — the elder and youthful, male and female aspects invoked together so that the single sovereign is spoken as a family of four.",
+      "facet": "Sovereignty that can only be named in the plural: the high god is grammatically and ritually a quartet of age-and-gender, so to pray rightly is to address old-man, old-woman, young-man and young-woman at once — complementarity not as two consorts beside a king but as the very structure of the one ruler.",
+      "provenance": "The fourfold formula is best documented in 20th-c. ethnography (Faron, *Hawks of the Sun*; Course); some scholars hold the unified 'Ngenechen' as partly a post-contact consolidation of older plural ngen owner-spirits under mission and pan-Mapuche pressure — flagged as debated."
+    },
+    {
+      "id": "mapuche-pillan",
+      "kind": "ancestor",
+      "name": "Pillán",
+      "archetypes": ["storm-wielder", "first-ancestor"],
+      "gloss": "The ancestral thunder-and-volcano spirits — the powerful, honoured dead raised into the upper world, who speak in the eruption, the earthquake and the storm. Wenüy (friendly) or weküfü-tinged, they are the warrior forefathers become weather: the mountain's fire and the sky's voice are the lineage still acting upon the living.",
+      "facet": "Here the thunder-god IS the ancestor, not a separate sky-power: the storm is not Zeus hurling bolts but the dead grandfather speaking from inside the volcano — meteorology and genealogy fused, so that to read the weather is to hear which forebear is present.",
+      "provenance": "Attested from early colonial accounts (Núñez de Pineda, the Araucanian chroniclers) through Guevara and modern ethnography; the boundary between Pillán as ancestral-collective and as a named high power shifts between sources and eras."
+    },
+    {
+      "id": "mapuche-antu",
+      "kind": "deity",
+      "name": "Antü",
+      "archetypes": ["solar"],
+      "gloss": "The Sun — light, warmth and the order of the day, husband of the Moon Küyen, often folded into the address of Ngenechen as the male, daytime, life-giving aspect of the supreme. The east where Antü rises is the direction of good and of prayer; the ngillatun's altar faces it.",
+      "facet": "A sun that is half of a married sky rather than a sovereign in its own right: Antü's force is reckoned always with Küyen the Moon, the pair together keeping day and night, so the solar joint here is one pole of a conjugal cosmos, not a lone king of heaven."
+    },
+    {
+      "id": "mapuche-kuyen",
+      "kind": "deity",
+      "name": "Küyen",
+      "archetypes": ["lunar"],
+      "gloss": "The Moon, wife of Antü the Sun, mistress of night, of the tides of the body and of women's reckoning; her phases order the right times for planting and for ritual. With Antü she forms the conjugal sky-pair beneath whom the Mapuche world turns.",
+      "facet": "The moon as wife and night-counterpart of the sun within a single bound couple — not a wandering or devoured light but the settled feminine pole of a marriage that is itself the calendar, the dark half of a sky reckoned as a household."
+    },
+    {
+      "id": "mapuche-machi",
+      "kind": "rite",
+      "name": "The Machi",
+      "archetypes": ["ecstatic-shaman", "psychopomp"],
+      "gloss": "The Mapuche shaman, most often a woman, who heals, divines and does battle with the wëküfü (harm-bringing forces); in the küymin trance, drumming the kultrún, she mounts the rewe and rises through the sky-layers to the Wenu Mapu to treat with the spirits and bring back the strayed or stolen soul of the sick.",
+      "facet": "The three-world soul-traveller arrived at on the far side of the Andes and usually in a woman's body: the machi's authority is not inherited rank but a called, dreamed vocation confirmed by ascent of the carved tree — ecstatic shamanism whose normative practitioner is female, climbing a ladder cut for her alone.",
+      "provenance": "Richly documented by Bacigalupo (*Shamans of the Foye Tree*), Faron and Guevara; the machi remains a living office, so the record is ongoing ethnography rather than reconstruction — gendered fluidity of the role is itself a studied subject."
+    },
+    {
+      "id": "mapuche-rewe",
+      "kind": "place",
+      "name": "The Rewe",
+      "archetypes": ["axis-mundi"],
+      "gloss": "The machi's altar-ladder: a tree-trunk (often foye, the sacred cinnamon) carved with step-notches and a human head or faces, planted at the centre of the ritual ground and of the machi's own household. Its notches are the sky-layers; in trance she literally climbs it, rung by rung, to reach the upper world.",
+      "facet": "The world-axis as a stair you ascend with the body: not a cosmic mountain seen from afar but a notched post cut so the machi's feet can mount it during the küymin — the axis-mundi defined, as among the Siberians, by the act of climbing, and made personal to one shaman's calling.",
+      "provenance": "Described by Bacigalupo, Faron and Guevara; the step-notched ascent-pole is a strong type-match to the Siberian shamanic ladder, a resemblance long noted but read as convergence, not contact."
+    },
+    {
+      "id": "mapuche-kaikai",
+      "kind": "creature",
+      "name": "Kai-Kai filu",
+      "archetypes": ["cosmic-serpent", "cosmic-adversary"],
+      "gloss": "The serpent of the sea and the deep waters who, angered, raises the ocean to drown the land — the flood-bringer of the great Mapuche origin-story, whose rising waters force the people to flee uphill. Filu, 'snake', of the lower, watery, chaos-side of the cosmos, she is the principle of inundation and unmaking.",
+      "facet": "The chaos-serpent as one racer in a contest, not a single monster slain: Kai-Kai does not encircle the world nor get cut to pieces by a champion — she races a rival snake, lifting the sea against the land, and is answered not by a sword but by another serpent lifting the earth.",
+      "provenance": "Central to the Mapuche flood-myth recorded by Guevara, Latcham and later collectors; spellings (Cai-Cai, Kai-Kai, Coi-Coi) and the gendering of the two serpents vary by community and teller."
+    },
+    {
+      "id": "mapuche-trengtreng",
+      "kind": "creature",
+      "name": "Treng-Treng filu (Tren-Tren)",
+      "archetypes": ["cosmic-serpent", "dragon-slayer"],
+      "gloss": "The serpent of the earth and the mountains who, as Kai-Kai's flood rises, raises the land — making the sacred hills swell upward and carrying the people on her back above the drowning water. The saving, land-lifting snake of the upper, dry, order-side: she does not slay the flood-serpent but out-climbs her.",
+      "facet": "The dragon-slayer's role played by a fellow serpent who lifts rather than kills: order is restored not by Marduk's blade or Indra's bolt but by a counter-snake that hoists the mountain — a chaoskampf resolved as a vertical race between two serpents, the hero-function discharged by raising the ground, not splitting the foe.",
+      "provenance": "The Treng-Treng / Kai-Kai duel is the core Mapuche flood-and-origin narrative (Guevara, Latcham, Faron, Course); the swelling mountains (cerros tren-tren) are named real peaks of refuge, the myth mapped onto the visible land."
+    },
+    {
+      "id": "mapuche-wenumapu",
+      "kind": "place",
+      "name": "Wenu Mapu",
+      "archetypes": ["axis-mundi", "complementarity"],
+      "gloss": "The 'land above' — the upper world of Ngenechen, the Pillán ancestors, Antü and Küyen, conceived (like the earth below) as a quartered, fourfold land aligned to the cardinal directions, with the good east of sunrise opposed to the ill of the west. It is the destination the machi climbs the rewe to reach.",
+      "facet": "Heaven imagined as a four-cornered country mirroring the ordered earth, not a throne-room or a paradise of reward: the upper world is *mapu*, land — surveyed, quartered and directional — so cosmology is a kind of sacred geography stacked above the lived one.",
+      "provenance": "The Meli Witran Mapu (the four quarters) and the layered above/below cosmos are described by Faron, Grebe and modern Mapuche sources; the precise number of upper layers varies between accounts."
+    },
+    {
+      "id": "mapuche-ngillatun",
+      "kind": "rite",
+      "name": "The Ngillatun",
+      "archetypes": ["cosmic-order", "first-ancestor"],
+      "gloss": "The great collective prayer-ceremony for fertility, rain, good harvest and the renewal of the people's right relation with Ngenechen and the ancestors — held over days at the ritual field around the rewe, with the machi, the lonko (chief), dance, the sacrifice of an animal and the sharing of muday, the whole community reaffirming the cosmic and social order.",
+      "facet": "The keeping of the world's order made the work of the gathered community, not the priesthood alone: the ngillatun renews the bond between people, ancestors and the supreme by the assembled lineages acting together — order maintained through collective rite, the social body and the cosmos repaired in one ceremony.",
+      "provenance": "A living, central ceremony, extensively documented (Faron, *Hawks of the Sun*; Course, *Becoming Mapuche*); forms and frequency differ widely across communities and have shifted under historical pressure."
+    }
+  ],
+  "proposedArchetypes": [],
+  "edges": [
+    {
+      "a": "mapuche-kaikai",
+      "b": "mapuche-trengtreng",
+      "type": "inverts",
+      "tier": "1",
+      "note": "The two flood-serpents who race — Kai-Kai lifting the drowning sea against the land, Treng-Treng lifting the saving mountain above it; one bound dyad of opposite valence at the heart of the origin-myth. THE FACET: survival means the people climbed onto Treng-Treng's rising hill, and lineages still trace to those who reached the top."
+    },
+    {
+      "a": "mapuche-antu",
+      "b": "mapuche-kuyen",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Sun and Moon as husband and wife, the conjugal sky-pair beneath whom the Mapuche world turns and by whose courses day, night and the calendar are kept."
+    },
+    {
+      "a": "mapuche-machi",
+      "b": "mapuche-rewe",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The shaman and her ladder: the machi mounts the step-notched rewe in trance to climb to the Wenu Mapu — the practitioner and the axis she ascends, inseparable."
+    },
+    {
+      "a": "mapuche-rewe",
+      "b": "mapuche-wenumapu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The notched pole is the road and the upper land is its destination — the rewe's rungs are the sky-layers of the Wenu Mapu the machi rises through."
+    },
+    {
+      "a": "mapuche-ngenechen",
+      "b": "mapuche-wenumapu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The fourfold sovereign and the fourfold heaven mirror each other — Ngenechen the quartered owner dwelling in the quartered upper land, the same four-cornered order in ruler and realm."
+    },
+    {
+      "a": "mapuche-ngenechen",
+      "b": "mapuche-pillan",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The supreme owner of the people and the ancestral dead of the upper world are addressed together in the ngillatun — the high sovereign and the storm-wielding forefathers as the powers of the Wenu Mapu."
+    },
+    {
+      "a": "mapuche-ngillatun",
+      "b": "mapuche-machi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The great renewal-ceremony turns on the machi: she drums, divines and treats with the upper world within the ngillatun, the rite and its officiant bound at the ritual field."
+    },
+    {
+      "a": "mapuche-antu",
+      "b": "mapuche-ngenechen",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Antü the Sun is frequently folded into the address of Ngenechen as the male, daytime, life-giving aspect — the solar power read as one face of the fourfold supreme."
+    },
+    {
+      "a": "mapuche-kaikai",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Chaoskampf across families: Kai-Kai is the watery-chaos serpent like Tiamat — but where Marduk SLAYS Tiamat and builds the world from her body, Kai-Kai is answered by a rival serpent who out-lifts her, the combat resolved by raising land, not by butchery. (Tiamat herself is not yet in the mirror; seamed to her slayer.)"
+    },
+    {
+      "a": "mapuche-trengtreng",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both discharge the order-restoring, water-freeing hero-function against a serpent of the deep — but Treng-Treng does it as a fellow snake hoisting the mountain above the flood, where Indra splits Vṛtra with the bolt; the chaoskampf template reached and inverted in the means."
+    },
+    {
+      "a": "mapuche-kaikai",
+      "b": "unktehi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Great water-serpents who raise the deep to drown the land — Kai-Kai's flood answers the Lakota Unktehi's; both the inundating chaos-snake of an origin-and-flood story in the unconnected Americas."
+    },
+    {
+      "a": "mapuche-trengtreng",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose parallel: in Lakota telling the Thunderbird Wakinyan is the upper-world power that opposes and drives back the water-monster Unktehi, as Treng-Treng opposes Kai-Kai — but the Mapuche answerer is a counter-serpent of the earth, not a sky-bird, so the rhyme is in the role, not the form."
+    },
+    {
+      "a": "mapuche-kaikai",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both vast serpents identified with the deep waters and their power to flood and reshape the land; a loose cosmic-serpent rhyme across hemispheres, with no shared valence — the Rainbow Serpent is ambivalent creator-and-destroyer where Kai-Kai is the chaos pole of a duel."
+    },
+    {
+      "a": "mapuche-trengtreng",
+      "b": "illuyanka",
+      "type": "inverts",
+      "tier": "4",
+      "note": "Same chaoskampf furniture, opposite casting: the Hittite Illuyanka is the serpent the storm-god must DEFEAT, while Treng-Treng is the serpent who SAVES — the snake as foil in Anatolia, as rescuer in Araucanía; flagged as a reach on the shared serpent-combat frame."
+    },
+    {
+      "a": "mapuche-machi",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The ecstatic three-world soul-traveller reached on the far side of the Andes: the machi's küymin trance, drum and ascent treat with the upper world and retrieve the strayed soul exactly as the Siberian type — convergent shamanic technique, normatively in a woman's body here."
+    },
+    {
+      "a": "mapuche-rewe",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The step-notched rewe is a near type-match to the Siberian shaman's notched world-tree/sky-pillar — the axis figured as a ladder of layers the shaman climbs in the body; long noted, read as convergence not contact."
+    },
+    {
+      "a": "mapuche-rewe",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "This shard's distinctive turn on the axis-joint: the world-pole made personal and climbable — a carved tree cut with footholds and a face, planted at one machi's own house, the cosmic centre owned by a single called shaman."
+    },
+    {
+      "a": "mapuche-ngenechen",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sovereignty figured as a fourfold unity: Ngenechen invoked as old-man/old-woman/young-man/young-woman rhymes with the single Tezcatlipoca quartered into four directional sons — the one ruler that can only be named as four, reached independently in two American cosmoses."
+    },
+    {
+      "a": "mapuche-ngenechen",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The supreme as an internally-dual/complementary principle — Ngenechen's male-female, elder-youthful unity beside the Nahua 'Lord-and-Lady of Duality'; the high god as built-in complementarity rather than a lone king, two American witnesses to the same shape."
+    },
+    {
+      "a": "mapuche-antu",
+      "b": "inti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring Andean and Araucanian suns: both the daytime sky-power of the east — but Inti is the dynastic solar ancestor of an empire, while Antü is one married pole of a conjugal sky, the contrast of imperial sun against household sun."
+    },
+    {
+      "a": "mapuche-kuyen",
+      "b": "mama-killa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two South-American moon-wives of the sun, mistresses of the night and the calendar — Küyen wedded to Antü as Mama Killa to Inti; the lunar consort of a sky-couple reached on both sides of the Andes."
+    },
+    {
+      "a": "mapuche-pillan",
+      "b": "taranis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Thunder as a venerated power, but Pillán diverges sharply: where Taranis is a sky-borne thunder-god, the Mapuche thunder IS the ancestral dead speaking from the volcano — the storm-wielder joint reached through genealogy, not a separate deity."
+    },
+    {
+      "a": "mapuche-pillan",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name the storm and the thunder as a high honoured power; Pillán's facet is that the bolt and the eruption are the powerful dead themselves, not Perun's distinct sky-warrior — storm-wielding ancestor against storm-wielding god."
+    },
+    {
+      "a": "mapuche-pillan",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Thunder as an ancestral/elder power of the upper world in the Americas — the Lakota Thunderbeings and the Mapuche Pillán each make the storm the voice of the honoured non-human kin above, though one is winged and one is volcanic."
+    },
+    {
+      "a": "mapuche-wenumapu",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both stack a quartered, directional sacred cosmos above the lived world; a loose parallel of the four-cornered layered heaven, the Wenu Mapu as surveyed 'land above' against Meru's cosmic mountain, no contact implied."
+    },
+    {
+      "a": "mapuche-ngillatun",
+      "b": "purulli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Great communal renewal-festivals that re-secure the cosmic order: the Mapuche ngillatun for fertility and right relation with the supreme rhymes with the Hittite Purulli new-year rite — the world's order repaired by the gathered people, two unconnected liturgies of renewal."
+    },
+    {
+      "a": "mapuche-ngillatun",
+      "b": "cosmic-order",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The ngillatun's distinctive contribution to the order-joint: the impersonal right-relation of people, ancestors and Ngenechen is kept not by a priesthood or a law-code but by the assembled lineages dancing and offering together — cosmic order as collective ceremonial work."
+    }
+  ]
+}

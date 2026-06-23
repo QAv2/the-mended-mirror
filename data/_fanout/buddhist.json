@@ -1,0 +1,280 @@
+{
+  "tradition": {
+    "id": "buddhist",
+    "name": "Buddhist cosmology",
+    "region": "South & East Asia",
+    "color": "#d9a44e"
+  },
+  "figures": [
+    {
+      "id": "buddhist-sumeru",
+      "kind": "concept",
+      "name": "Mount Sumeru",
+      "archetypes": ["axis-mundi"],
+      "gloss": "The golden world-mountain at the centre of every world-system, ringed by seven golden ranges and seven seas, with the heavens stacked at its summit and the hells beneath its root — the axle around which the cosmos is built.",
+      "facet": "The same mountain under a new law: Buddhism inherited Meru entire from the Vedic world, then hollowed out its theism — Sumeru stands at the centre, but no creator sits on its peak, only Mara's heaven of desire and the impermanent gods of Indra's host.",
+      "provenance": "Systematised in the Abhidharmakośa (Vasubandhu, c. 4th–5th c. CE) and the Pali Abhidhamma; the geography is shared Indic inheritance from the older Meru cosmology."
+    },
+    {
+      "id": "buddhist-mara",
+      "kind": "deity",
+      "name": "Māra",
+      "archetypes": ["cosmic-adversary", "underworld-sovereign"],
+      "gloss": "The lord of the desire-realm, death and delusion who assails the Buddha beneath the Bodhi tree with armies, temptresses and the demand 'by what right do you sit there?' — the one who would keep all beings bound to the wheel.",
+      "facet": "An adversary disarmed, not defeated: Māra is not slain like a chaos-dragon but simply seen-through — the Buddha touches the earth to witness him, and his armies dissolve. Evil here is a misreading of reality, not a rival kingdom.",
+      "provenance": "Pali Canon (Padhāna Sutta, Māra-saṃyutta) and later hagiography of the Bodhi-tree assault."
+    },
+    {
+      "id": "buddhist-yama",
+      "kind": "deity",
+      "name": "Yama (Enma)",
+      "archetypes": ["psychopomp", "underworld-sovereign"],
+      "gloss": "Judge and king of the dead, who holds up the mirror of karma in which each soul sees its own deeds and is sent to its rebirth — inherited from the Vedic first-mortal and carried east into Chinese and Japanese hells as Yanluo and Enma.",
+      "facet": "A judge who only shows: Yama passes no arbitrary sentence — the karmic mirror reflects what the being itself has done, so judgement is exposure, not decree. The cosmic-order, not the king, condemns.",
+      "provenance": "Directly continuous with Vedic Yama; the East-Asian Ten Kings of Hell elaborate him through Tang-era apocrypha."
+    },
+    {
+      "id": "buddhist-avalokitesvara",
+      "kind": "deity",
+      "name": "Avalokiteśvara",
+      "archetypes": ["one-through-many", "psychopomp"],
+      "gloss": "The bodhisattva of boundless compassion, who hears every cry of the world and takes whatever form will save the one who calls — eleven heads, a thousand arms, and across the seas becoming Guanyin, Kannon, Chenrezig.",
+      "facet": "One mercy, ten thousand faces: where another tradition would split this into a pantheon, Buddhism insists the multiplicity is a single compassionate nature meeting each being in its own shape — the one-through-many made into a doctrine of skilful means.",
+      "provenance": "Lotus Sūtra (Universal Gateway chapter) and the Kāraṇḍavyūha; the gender shift to the female Guanyin occurs in Chinese transmission from the Tang onward."
+    },
+    {
+      "id": "buddhist-trikaya",
+      "kind": "principle",
+      "name": "The Three Bodies (Trikāya)",
+      "archetypes": ["one-through-many"],
+      "gloss": "The doctrine that every Buddha is one awakened reality in three bodies — the formless truth-body (dharmakāya), the radiant heaven-body (saṃbhogakāya), and the historical man who walked and taught (nirmāṇakāya).",
+      "facet": "The unifying key of the whole shard: countless buddhas and bodhisattvas are not many gods but one awakened nature refracted — the trikāya is the explicit theology of the one-through-many, naming how the absolute appears as the manifold.",
+      "provenance": "Mahāyāna systematisation (Yogācāra; Laṅkāvatāra and Mahāyāna-sūtrālaṃkāra)."
+    },
+    {
+      "id": "buddhist-kalpas",
+      "kind": "concept",
+      "name": "The Kalpas",
+      "archetypes": ["cyclic-ages"],
+      "gloss": "The immense aeons of cosmic time, each world-system arising, enduring, dissolving in fire, water and wind, and lying void before it forms again — measured by similes of mountains worn away by a passing cloth once a century.",
+      "facet": "Destruction without a destroyer: the worlds dissolve and reform by impersonal law, not by a god's will or wrath — cyclic time as the breathing of dependent-origination itself, with no hand to start or stop it."
+    },
+    {
+      "id": "buddhist-wheel",
+      "kind": "concept",
+      "name": "The Wheel of Becoming (Bhavacakra)",
+      "archetypes": ["cyclic-ages"],
+      "gloss": "The six-spoked wheel of the realms — gods, titans, humans, beasts, hungry ghosts, hells — turned by the three poisons at its hub and clutched in the jaws of Yama, the whole round of rebirth made into a single image.",
+      "facet": "A cosmos drawn as a diagnosis: the wheel is not a map to revere but a prison to escape, every realm including the heavens marked as impermanent suffering — the great-cycle reframed as the very thing salvation undoes."
+    },
+    {
+      "id": "buddhist-anatman",
+      "kind": "principle",
+      "name": "Anātman (No-Self)",
+      "archetypes": ["cosmic-order"],
+      "gloss": "The teaching that there is no eternal self and no creator-ground — only a stream of conditioned arising, empty of any fixed essence, where the Vedic schools found the deathless Ātman one with Brahman.",
+      "facet": "The precious divergence — the shard that says NO: against the Upaniṣadic Brahman-Ātman and against every withdrawn-creator, Buddhism denies both the world-soul and the maker, putting impersonal law (dharma, dependent-origination) where other traditions put a god. Its 'cosmic-order' is order all the way down, with nothing behind it.",
+      "provenance": "Pali Canon (Anattalakkhaṇa Sutta) and Madhyamaka emptiness (Nāgārjuna). Stated here as an explicit, honoured contradiction of Brahman/Ātman — not a parallel."
+    },
+    {
+      "id": "buddhist-indra-sakra",
+      "kind": "deity",
+      "name": "Śakra (Indra)",
+      "archetypes": ["sky-father", "storm-wielder"],
+      "gloss": "The Vedic thunder-king demoted to a Buddhist householder-god — lord of the Heaven of the Thirty-Three on Sumeru's summit, still wielding the thunderbolt, but now a pious if impermanent disciple subject to rebirth.",
+      "facet": "The sky-king as a cautionary tale: Śakra keeps Indra's vajra and his heaven, yet Buddhism makes him mortal and unenlightened — a once-supreme god enrolled as a student, the storm-wielder humbled beneath the law he too must obey."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "buddhist-sumeru",
+      "b": "mount-meru",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Sumeru IS Meru — the same world-mountain, the same Sanskrit name (su-meru, 'excellent Meru'), carried from Vedic into Buddhist cosmology as direct Indic inheritance. The brightest seam in the shard."
+    },
+    {
+      "a": "buddhist-sumeru",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "1",
+      "note": "The quartered cosmos around a central mountain — joint membership, shared with Yggdrasil, the Ceiba, Eden's rivers and Meru itself."
+    },
+    {
+      "a": "buddhist-yama",
+      "b": "yama",
+      "type": "cognate",
+      "tier": "1",
+      "note": "One and the same deity by descent: Vedic Yama, first-mortal and king of the dead, inherited wholesale into Buddhism and carried east as Yanluo / Enma. Indic-internal cognate."
+    },
+    {
+      "a": "buddhist-indra-sakra",
+      "b": "indra",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Śakra is Indra — the Vedic storm-king himself, name and vajra retained, but reduced to an impermanent heaven-god subject to rebirth. Direct inheritance, then demotion."
+    },
+    {
+      "a": "buddhist-anatman",
+      "b": "brahman",
+      "type": "inverts",
+      "tier": "1",
+      "note": "The load-bearing divergence: anātman is the explicit DENIAL of the Brahman/Ātman of the Upaniṣads — same Indic conversation, opposite verdict. No eternal self, no world-soul. Tiered 1 because the contradiction is a documented historical argument within one tradition, not a loose parallel."
+    },
+    {
+      "a": "buddhist-anatman",
+      "b": "purusha-prakriti",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Against the Sāṃkhya eternal Puruṣa (the witness-self), Buddhism denies any abiding witness — a documented doctrinal dispute between Indian schools."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "buddhist-yama",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the shard Māra and Yama are twin faces of death — Māra-as-death the tempter who keeps beings bound, Yama-as-death the judge who sorts them; in some texts Māra is even called the lord over the realms Yama rules."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "buddhist-wheel",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Māra (or Yama) clasps the Wheel of Becoming in his jaws — the adversary IS the round of rebirth that the Buddha steps out of."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "buddhist-avalokitesvara",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Avalokiteśvara's thousand forms are the trikāya doctrine in practice — one awakened nature taking every shape; the principle and its richest example, both Mahāyāna."
+    },
+    {
+      "a": "buddhist-kalpas",
+      "b": "buddhist-wheel",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Two scales of the one cyclic vision — the kalpas the great breathing of world-systems, the wheel the turning of individual rebirth; both impersonal, both within the shard."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the Bodhi-tree temptation rhymes with the wilderness temptation of Christ by Satan — the tempter who tests the awakener with power and doubt. A structural rhyme of motif, no contact; flagged."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The temptation-and-victory pattern: a saviour assailed by the prince of this world and overcoming through refusal — Bodhi tree and wilderness as the same narrative joint, independently arrived at."
+    },
+    {
+      "a": "buddhist-yama",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Judge-of-the-dead who weighs deeds: Yama's karmic mirror and Anubis's scale both make the verdict an exposure of what the soul itself carries — order judging, not whim."
+    },
+    {
+      "a": "buddhist-yama",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sovereign of the land of the dead through which all the unliberated must pass — a structural parallel of the underworld-king, no contact."
+    },
+    {
+      "a": "buddhist-yama",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "King and judge of the dead presiding over the reckoning — analogous office, separate families."
+    },
+    {
+      "a": "buddhist-avalokitesvara",
+      "b": "buddhist-yama",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Two psychopomps within the shard at opposite poles — Avalokiteśvara the mercy that guides souls out of the hells, Yama the law that assigns them; compassion and judgement on the same wheel."
+    },
+    {
+      "a": "buddhist-avalokitesvara",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The compassionate intercessor who hears the suffering and saves — Guanyin and Isis as the merciful divine mother answering the cry; functional parallel across families."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Both name the one reality appearing as the many — yet they diverge at the root: Brahman is the eternal Self the trikāya's dharmakāya pointedly is NOT. Kinship in structure, documented opposition in content."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "One sacred reality refracted into countless masks (ixiptla / nirmāṇakāya) — the one-through-many reached independently in Mesoamerica and in Mahāyāna."
+    },
+    {
+      "a": "buddhist-trikaya",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The formless absolute (dharmakāya / Ein Sof) that emanates the manifest worlds — a structural parallel of the unmanifest ground, no contact."
+    },
+    {
+      "a": "buddhist-kalpas",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Impersonal cosmic process unfolding by its own law without a willing creator — the kalpas and the Dao both put order in the place where other traditions put a god."
+    },
+    {
+      "a": "buddhist-anatman",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name an order with no personal maker behind it — cosmic-order as the floor of reality; a true functional convergence, distinct families."
+    },
+    {
+      "a": "buddhist-kalpas",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Time as successive worlds destroyed and remade — the Mesoamerican Five Suns and the Buddhist kalpas both read history as recurring catastrophe-and-renewal, independently."
+    },
+    {
+      "a": "buddhist-indra-sakra",
+      "b": "indra",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The same god, inverted in rank: Vedic Indra is the supreme storm-king; Buddhist Śakra is the same figure demoted to an impermanent, unenlightened disciple — a documented theological re-ranking within Indic religion."
+    },
+    {
+      "a": "buddhist-indra-sakra",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The thunderbolt-wielding sky-king atop the world-mountain's heaven — Śakra and Zeus as the storm-sovereign archetype, with Buddhism uniquely subordinating him to a higher law."
+    },
+    {
+      "a": "buddhist-mara",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the lord of delusion and the smoking-mirror lord of fate and temptation both rule the realm of binding desire — a reach of theme, no descent; flagged."
+    },
+    {
+      "a": "buddhist-sumeru",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The world-axis with heavens above and hells below — Sumeru and the world-tree as the same cosmological spine, separate families."
+    }
+  ]
+}

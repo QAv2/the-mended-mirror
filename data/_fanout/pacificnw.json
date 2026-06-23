@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "pacificnw",
+    "name": "Pacific Northwest (Haida / Tlingit)",
+    "region": "North America (NW Coast)",
+    "color": "#4f9fb0"
+  },
+  "figures": [
+    {
+      "id": "pnw-raven",
+      "kind": "deity",
+      "name": "Raven / Yéil",
+      "archetypes": ["trickster", "culture-hero"],
+      "gloss": "Yéil the Raven, who found the world in darkness and stole the sun, moon and stars from the box where the rich chief Nass-shakee-yéil hoarded the light — then loosed them into the sky for all. He brings water and fire to people, gluttonous and cunning in the same breath.",
+      "facet": "The one figure who is rogue and benefactor inseparably: the world receives the light only as a by-product of theft, greed and a swallowed daughter — civilisation arrives by accident, never by gift.",
+      "provenance": "Haida/Tlingit Raven (Yéil) cycle; widely attested across NW Coast oral traditions (Swanton, Boas)."
+    },
+    {
+      "id": "pnw-raven-light",
+      "kind": "rite",
+      "name": "The Theft of Light (Box of Daylight)",
+      "archetypes": ["solar", "lunar"],
+      "gloss": "The myth-act in which Raven, born as the chief's grandson, cries for the bentwood boxes until he is given the stars, then the moon, then the sun — and escaping as a bird, releases each into the heavens, ordering the cosmos by liberation rather than fabrication.",
+      "facet": "Here the sun is not begotten nor forged but stolen and released: light is property redistributed, the firmament made by a heist.",
+      "provenance": "The 'Box of Daylight' episode, central to the Raven cycle."
+    },
+    {
+      "id": "pnw-nascakiyetl",
+      "kind": "deity",
+      "name": "Nass-shakee-yéil (Raven-at-the-Head-of-Nass)",
+      "archetypes": ["withdrawn-creator", "sky-father"],
+      "gloss": "The remote elder chief who, in the time before light, kept the sun, moon and stars sealed in nested boxes at the head of the Nass River — the dim originating power from whom the lit world must be taken, not received.",
+      "facet": "A creator-figure who hoards rather than gives: the deus otiosus inverted into a miser, so that the world's beginning is a dispossession of the maker, not his benefaction.",
+      "provenance": "Tlingit; the name and role vary across tellings — sometimes conflated with a separate Raven, an instability the tradition itself preserves."
+    },
+    {
+      "id": "pnw-konankada",
+      "kind": "spirit",
+      "name": "Konankada / Chief of the Undersea",
+      "archetypes": ["mother-of-waters", "underworld-sovereign"],
+      "gloss": "The great Chief of the Undersea World (Haida Konankada, Tlingit Gonaqadét), lord of a house beneath the ocean whose doorway is a face; master of the wealth, salmon and fortune that rise from the deep to the living.",
+      "facet": "The sea-sovereign is a house-holding chief, not a formless deep: the ocean is read as a noble lineage's longhouse, the underworld modelled on the clan hall.",
+      "provenance": "Haida/Tlingit sea-being; Gonaqadét associated with sudden wealth and danger."
+    },
+    {
+      "id": "pnw-thunderbird",
+      "kind": "spirit",
+      "name": "Thunderbird",
+      "archetypes": ["storm-wielder"],
+      "gloss": "The vast bird whose wingbeats are thunder and whose blinking eyes throw lightning; it preys on the whale, lifting it from the sea, and rules the upper air as the storm made flesh.",
+      "facet": "Thunder is not a god's hammer but a living predator — the storm imagined as an animal that hunts, locked in eternal combat with the whale of the deep.",
+      "provenance": "Pan-NW-Coast; central to Kwakwaka'wakw and Nuu-chah-nulth as well, present in Haida/Tlingit crest art."
+    },
+    {
+      "id": "pnw-fog-woman",
+      "kind": "spirit",
+      "name": "Fog Woman / Creek Woman",
+      "archetypes": ["great-mother", "mother-of-waters"],
+      "gloss": "The woman Raven married who, washing her hands in the bilge, brought forth the first salmon and filled the smokehouses — and when slighted, walked back into the sea taking every fish with her, so the runs follow her still.",
+      "facet": "The salmon-mother whose generosity is conditional: the staple of life is a marriage-gift that can be withdrawn, binding subsistence to the keeping of respect.",
+      "provenance": "Tlingit Fog Woman (Kaxdakw / Creek Woman) narrative."
+    },
+    {
+      "id": "pnw-property-soul",
+      "kind": "principle",
+      "name": "The Potlatch (Reciprocity & Rank)",
+      "archetypes": ["complementarity", "cosmic-order"],
+      "gloss": "The great ceremonial of giving and destroying wealth by which rank, names and crests are validated and the cosmic ledger of obligation is kept; status is real only when given away, and the world is held in order by the binding force of reciprocity.",
+      "facet": "Right-order is enacted as economy: the law the cosmos obeys is the law of the gift — to receive is to owe, and balance is maintained by deliberate dispossession.",
+      "provenance": "Potlatch as institution (Haida/Tlingit and pan-NW Coast); read here as the tradition's cosmic-order principle."
+    },
+    {
+      "id": "pnw-crest-lineage",
+      "kind": "concept",
+      "name": "Crest & Moiety (Raven / Eagle)",
+      "archetypes": ["complementarity", "one-through-many"],
+      "gloss": "Society divided into two reciprocal moieties — Raven and Eagle (Wolf among the Tlingit) — each holding inherited crests, names and stories; one may marry and bury only across the line, so the whole people is a single body whose two halves complete each other.",
+      "facet": "Duality here is not metaphysics but kinship law made paired: the two are not warring forces but the obligatory partners who must intermarry for the world to continue.",
+      "provenance": "Matrilineal moiety system, Haida and Tlingit."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "pnw-raven",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Theft of light/fire from a hoarding power for the benefit of humankind — the benefactor-by-larceny pattern. No descent or contact; a structural rhyme across unrelated families."
+    },
+    {
+      "a": "pnw-raven",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are trickster culture-heroes who master the sun — Maui snares and slows it, Raven steals and releases it. Parallel of the trickster bending the solar order to human use."
+    },
+    {
+      "a": "pnw-raven",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Trickster as indispensable mediator: Esu the required crossroads-gate, Raven the agent who alone moves between sealed cosmic boxes and the lit world."
+    },
+    {
+      "a": "pnw-raven",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Trickster whose appetite and deceit nonetheless drive cosmic events; the rogue inside the order rather than outside it."
+    },
+    {
+      "a": "pnw-raven",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are dark, shape-shifting trickster-makers entangled with the origin of the lit world; an interpretive reach, the resemblance loose."
+    },
+    {
+      "a": "pnw-raven-light",
+      "b": "pnw-raven",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The defining act of the Raven cycle — the figure and his signature deed."
+    },
+    {
+      "a": "pnw-raven-light",
+      "b": "ra",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Where Ra is the self-generating solar source the cosmos issues from, here the sun is pre-existing property stolen and released — light by redistribution, not emanation."
+    },
+    {
+      "a": "pnw-raven-light",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both turn on the sun's confinement and release — Amaterasu lured from the cave, the sun loosed from the box; the lit world restored by drawing light out of enclosure."
+    },
+    {
+      "a": "pnw-nascakiyetl",
+      "b": "pnw-raven",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Within the tradition: the hoarding elder against the liberating grandson — creation framed as the maker dispossessed by the trickster."
+    },
+    {
+      "a": "pnw-nascakiyetl",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A remote sky-elder at the origin, but inverted into a miser — a withdrawn-creator read against the Indo-European luminous sky-father. Speculative, flagged."
+    },
+    {
+      "a": "pnw-konankada",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sovereign of a realm below — the undersea house as analogue to the underworld throne, master of what the living cannot reach."
+    },
+    {
+      "a": "pnw-konankada",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both personify a vast elemental domain as the source of sustenance, though one is the sea-chief and one the earth-mother; a loose mother-of-waters/great-source rhyme."
+    },
+    {
+      "a": "pnw-thunderbird",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The storm-power as a sky-warrior — but Thunderbird is the storm as living predator, not a god wielding a weapon. Functional storm-wielder parallel, divergent in form."
+    },
+    {
+      "a": "pnw-thunderbird",
+      "b": "raijin",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Thunder personified as a sky-being whose body makes the storm; both render thunder as embodied rather than instrumental."
+    },
+    {
+      "a": "pnw-thunderbird",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Storm-power locked in combat with a great water-beast (Thunderbird/whale ~ Indra/Vrtra) — the resemblance is real but distant; flagged."
+    },
+    {
+      "a": "pnw-fog-woman",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The provider-mother whose withdrawal takes the staple food with her — salmon-runs as Fog Woman's gift, grain as Demeter's; subsistence bound to a goddess's keeping."
+    },
+    {
+      "a": "pnw-fog-woman",
+      "b": "pnw-raven",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Within the cycle: Raven's wife whose slighting drives the salmon back to sea — the trickster's appetite costing the world its abundance."
+    },
+    {
+      "a": "pnw-property-soul",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both name an impersonal order the world is held in — but the potlatch's law is the law of the gift and reciprocity, not the Dao's effortless way. A reach across very different registers."
+    },
+    {
+      "a": "pnw-property-soul",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "An immanent ordering force enacted through ritual rather than a personal deity; loose structural kinship, flagged."
+    },
+    {
+      "a": "pnw-crest-lineage",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Reality organised as two complementary halves that require each other — but here it is kinship law (Raven/Eagle moieties must intermarry), not metaphysical polarity."
+    },
+    {
+      "a": "pnw-crest-lineage",
+      "b": "pnw-property-soul",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Within the tradition: the moiety system and the potlatch are one machine — crests and rank are validated only by reciprocal giving across the two halves."
+    },
+    {
+      "a": "pnw-crest-lineage",
+      "b": "complementarity",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The moiety embodies complementarity as social fact: the whole people is one body only because its two halves are bound to complete each other."
+    }
+  ]
+}

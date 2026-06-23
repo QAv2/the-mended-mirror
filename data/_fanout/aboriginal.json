@@ -1,0 +1,290 @@
+{
+  "tradition": {
+    "id": "aboriginal",
+    "name": "Aboriginal Australian (the Dreaming)",
+    "region": "Australia",
+    "color": "#cf8347"
+  },
+  "figures": [
+    {
+      "id": "the-dreaming",
+      "kind": "concept",
+      "name": "The Dreaming (Altjira / Tjukurpa)",
+      "archetypes": ["axis-mundi", "cosmic-order"],
+      "gloss": "Not a past but an everywhen — the sacred ground-of-being in which the Ancestors walked, sang, and shaped the world, and which is present still, beneath and within the living land. To 'enter the Dreaming' is to touch a time that never stopped: the Law, the songlines, the country, and the unborn all coexist there at once.",
+      "facet": "A tradition whose central category is not a creator nor a creation EVENT but a mode of time itself — the sacred is not back-then but always-now, woven into the ground one walks on. Where most shards put their truth in a being or a deed, the oldest continuous culture on earth puts it in an enduring sacred present that the Law merely keeps faith with.",
+      "provenance": "'Altjira'/'Alcheringa' is Arrernte; 'Tjukurpa' Western Desert; 'the Dreaming' is W. E. H. Stanner's careful English coinage (1956), itself a translation that softens edges. 'Aboriginal Australia' is hundreds of distinct nations and languages — this is an honest generalisation across them, not a single doctrine; every nation's Law is its own."
+    },
+    {
+      "id": "rainbow-serpent",
+      "kind": "deity",
+      "name": "The Rainbow Serpent",
+      "archetypes": ["cosmic-serpent", "great-mother"],
+      "gloss": "The great snake of the waterholes and the rainbow — gouger of rivers and gorges as it moved through the soft first world, keeper and giver of water, fertility, and life, and a swallowing destroyer of those who break the Law. Called Ngalyod, Wagyl, Yurlunggur, Kunmanggur and a hundred other names across the continent, it is at once the most widespread and the most local of beings.",
+      "facet": "The single most widely shared figure of Aboriginal Australia — yet it proves the opposite of a 'pan-Australian pantheon': each nation's serpent is its OWN, bound to its own waterholes and Law, sometimes male, sometimes female, sometimes both. The convergence is real and the unity is refused in the same breath.",
+      "provenance": "The Rainbow Serpent is among the best-attested and oldest motifs on the continent (rock art read at many thousands of years); but its sex, name, and stories vary enormously by nation, and naming a single 'Rainbow Serpent' already flattens that diversity — flagged."
+    },
+    {
+      "id": "baiame",
+      "kind": "deity",
+      "name": "Baiame",
+      "archetypes": ["sky-father", "withdrawn-creator"],
+      "gloss": "The All-Father of many southeastern nations — Baiame, who came out of the everywhen, made the rivers, mountains, and laws, instituted the initiation rites, and then went up to rest in the sky-camp beyond the western horizon, leaving the Law behind him. His likeness is cut into stone and his name spoken only by the initiated.",
+      "facet": "A sky All-Father held BY THE INITIATED as a secret — Baiame is not a god of public worship but of the Bora ground, revealed to men at initiation and guarded from the uninitiated and from women. The withdrawn creator here recedes not only into heaven but into secrecy itself.",
+      "provenance": "Baiame is attested chiefly from southeastern nations (Kamilaroi, Wiradjuri, Euahlayi) via 19th–20th c. ethnography (Howitt, K. Langloh Parker); some scholars debate post-contact Christian colouring of the 'All-Father' image, and the mirror flags that the sky-creator role may be overstated by colonial-era recorders."
+    },
+    {
+      "id": "bunjil",
+      "kind": "deity",
+      "name": "Bunjil the Eaglehawk",
+      "archetypes": ["sky-father", "culture-hero"],
+      "gloss": "The creator-ancestor of the Kulin nations of the southeast — Bunjil, the wedge-tailed eagle, who made the land, the rivers, the animals and the first men, gave them the Law and the arts, and then was carried up on the winds with his sons to become a star and watch over the country.",
+      "facet": "The All-Father in the body of a totem bird — Bunjil is not anthropomorphic-first but an eaglehawk, the supreme maker indistinguishable from the totemic animal whose moiety bears his name. Creator and totem are one, and the sky-father wears feathers, not a beard.",
+      "provenance": "Bunjil from the Kulin nations (Woiwurrung, Boonwurrung and kin) of present-day Victoria, via 19th-c. record (Howitt) and living Kulin tradition; paired in a moiety system with Waa the crow."
+    },
+    {
+      "id": "wandjina",
+      "kind": "spirit",
+      "name": "The Wandjina",
+      "archetypes": ["storm-wielder", "first-ancestor"],
+      "gloss": "The cloud and rain ancestral beings of the Kimberley — mouthless, haloed faces with great dark eyes, who made the country and the laws, brought the monsoon, and then laid themselves down into the rock as the very images that must be repainted to keep the rains and the world renewed. To retouch a Wandjina is to keep creation going.",
+      "facet": "Ancestors who ARE their own images — the Wandjina did not merely leave paintings, they became the paintings, and the rite of repainting them in the rock-shelters is not depiction but maintenance of the living cosmos. Sacred art as the engine of the weather, owned by particular Worrorra, Ngarinyin, and Wunambal custodians alone.",
+      "provenance": "The Wandjina belong specifically to the Worrorra, Ngarinyin, and Wunambal nations of the northwest Kimberley; their painting and repainting is living, restricted, and not freely reproducible — naming them here honours a tradition that guards its own images closely."
+    },
+    {
+      "id": "songlines",
+      "kind": "concept",
+      "name": "The Songlines (Dreaming Tracks)",
+      "archetypes": ["axis-mundi", "one-through-many"],
+      "gloss": "The paths the Ancestors sang and walked across the land in the Dreaming, leaving the country itself as a score — every hill, soak, and rock a verse. To sing the song in order is to navigate the land, to hold its Law, and to re-walk the ancestor's creating journey; the song, the track, and the country are one inseparable thing.",
+      "facet": "A cosmos whose scripture is the land and whose liturgy is a journey — the Aboriginal axis-mundi is not a single central tree or mountain but a continent-wide MESH of sung paths, the sacred distributed along lines rather than gathered at a centre. The map is the myth is the law is the song.",
+      "provenance": "'Songline' is Bruce Chatwin's popularising term (1987); the underlying reality of sung Dreaming-tracks is deeply attested ethnographically (Strehlow, Berndt, and Aboriginal scholars), though Chatwin's romantic gloss is contested. Many tracks are secret-sacred and nation-specific."
+    },
+    {
+      "id": "wawilak-sisters",
+      "kind": "ancestor",
+      "name": "The Wawilak Sisters",
+      "archetypes": ["first-ancestor", "great-mother"],
+      "gloss": "Two ancestral sisters of Arnhem Land who travelled north naming the country, plants, and animals, until at the sacred waterhole the great serpent Yurlunggur smelt their birth-blood, rose in a flood, and swallowed them and their children — then spoke their languages, and was made to give them up, vomiting the people forth. Their story is the charter of the great initiation ceremonies.",
+      "facet": "Creation by being SWALLOWED — the sisters do not slay the serpent nor escape it; they are consumed, and their consumption is the founding sacrament, re-enacted in the men's secret rites. The first ancestors here are women whose blood and ingestion by the snake institute the Law, a fertility myth in which the womb is the serpent's belly.",
+      "provenance": "The Wawilak (Wawalag) cycle belongs to the Yolŋu of northeast Arnhem Land; recorded by W. L. Warner (1937) and others, much of it is restricted men's knowledge, and the public version is only a surface. The mirror keeps to the openly told layer."
+    },
+    {
+      "id": "bora-initiation",
+      "kind": "rite",
+      "name": "The Bora / Initiation Ground",
+      "archetypes": ["dying-rising", "axis-mundi"],
+      "gloss": "The initiation rite and its sacred ground — the boy is taken from the women, 'killed' to his childhood (a tooth knocked out, the body marked), shown the secret Dreaming and the name of the All-Father, and reborn a man bound to the Law. The bullroarer's voice is the ancestor speaking; the cleared ground and its earthen figures are the everywhen made local.",
+      "facet": "A death-and-rebirth that turns a boy into a custodian of secret knowledge — the dying-rising pattern here is not a god's passion but a society's machinery for transmitting the Law, the sacred protected by graded revelation so that to grow up is literally to be told the world. Knowledge itself is the initiatory death.",
+      "provenance": "'Bora' is an eastern term; equivalent men's initiations span the continent under many names, details varying and much restricted. Generalised honestly across nations; the deepest content is not for open record and is not reproduced here."
+    },
+    {
+      "id": "yhi-bila",
+      "kind": "deity",
+      "name": "Yhi (the Sun-Woman)",
+      "archetypes": ["solar", "great-mother"],
+      "gloss": "In southeastern tellings, Yhi the sun is a woman — sleeping in the dark of the everywhen until a whisper woke her, and where her light first fell the world stirred into life, plants and insects and beasts following her warmth out of the cold ground. She walks the sky each day and sinks into the west, her going-down the first death and her return the first promise.",
+      "facet": "The sun as life-waking MOTHER, not a fiery king — across much of Aboriginal Australia the sun is feminine and the moon masculine, the reverse of the Indo-European default, and creation begins not with a thunderclap or a word but with a sleeper opening her eyes to warmth.",
+      "provenance": "Yhi is from southeastern material (notably K. Langloh Parker's Euahlayi collections), where colonial-era shaping is possible; the feminine sun, however, is widely and genuinely attested across many Aboriginal nations and is a real structural feature, not an artefact of one recorder."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "the-dreaming",
+      "b": "songlines",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The songlines ARE the Dreaming made walkable: each track is an ancestor's creating journey sung into the land, the everywhen laid out as a path one can travel and re-perform. Concept and practice are a single fabric."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "rainbow-serpent",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Rainbow Serpent is a — often the — great Dreaming Ancestor whose movements through the soft first world cut the rivers and set the waterholes; the everywhen's most widespread shaping power. The Dreaming is the ground in which the Serpent acts."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "bora-initiation",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Initiation is the door INTO the Dreaming — the boy is shown the secret Law, the ancestor's name, and the sacred ground, and so is admitted to the everywhen as a custodian. The rite is how the timeless time is transmitted across generations."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "wawilak-sisters",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Wawilak cycle is the great serpent's own charter myth: Yurlunggur, a Rainbow-Serpent being, smells the sisters' blood, swallows them in a flood, and their disgorging institutes the initiation Law. Serpent and first-mothers are bound in one founding sacrament."
+    },
+    {
+      "a": "baiame",
+      "b": "bora-initiation",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Baiame's name and likeness are precisely the secret revealed at the Bora — the All-Father is an initiatory disclosure, his ground the cleared Bora ring. The sky-creator and the men's rite are inseparable in the southeast."
+    },
+    {
+      "a": "baiame",
+      "b": "bunjil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two southeastern All-Fathers — the anthropomorphic sky-creator Baiame and the eaglehawk-creator Bunjil — overlapping in role across neighbouring nations; both make the Law and withdraw upward to the sky-camp or the stars. Regional kin, distinct nations, not one figure."
+    },
+    {
+      "a": "bunjil",
+      "b": "wandjina",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two creator-ancestors who are inseparable from a non-human form — Bunjil the eagle of the southeast and the cloud-faced Wandjina of the Kimberley — both showing the maker as totemic image rather than a man-shaped god, by widely separated and unrelated nations."
+    },
+    {
+      "a": "yhi-bila",
+      "b": "the-dreaming",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Yhi's first dawn is the southeastern account of the everywhen quickening into life — the sun-woman's waking is the Dreaming's stir, light falling on the cold ground and the world following it up."
+    },
+    {
+      "a": "songlines",
+      "b": "bora-initiation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "To be initiated is to be given the songs — the Law transmitted at the Bora is in large part the right to hold and sing particular Dreaming-tracks. The rite confers custodianship of the very lines that bind country and ancestor."
+    },
+    {
+      "a": "baiame",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are sky-dwelling 'father' makers who recede above the lived world — but Dyeus is a reconstructed Indo-European god by descent, while Baiame's kinship is purely structural, an independent and far older sky-All-Father. The shared shape is the datum, never a cognate."
+    },
+    {
+      "a": "baiame",
+      "b": "kaang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two of the world's oldest deus-otiosus makers from foraging cultures — the southeastern All-Father and the San Kaang — who create, give the Law, and withdraw from cult. But Baiame recedes into sky and secrecy while Kaang dissolves into the game; the withdrawn creator diverging into heaven versus into the hunt."
+    },
+    {
+      "a": "baiame",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two supreme makers who withdraw upward into the sky after creation — the Australian All-Father and the Akan high god — structurally kin as deus otiosus, by wholly unrelated peoples; never a cognate, only a recurring human answer to the absent maker."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "san-rain-bull",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two southern-hemisphere foraging traditions that make WATER a great animate beast — the Rainbow Serpent of the waterholes and the |Xam rain-bull/water-snake — weather and fertility embodied as a single creature tied to specific waterpits, rather than ruled by a sky-god. Independent, structural."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The rainbow-snake as bringer of water, fertility and continuity — Australia's Rainbow Serpent and the Fon/Vodun rainbow-serpent Dan/Ayida-Wedo — both make the snake the cosmos's life-and-water principle, NOT a chaos-dragon to be slain. The cosmic-serpent shared across unrelated families."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both are great serpent creator-beings central to their worlds, but Quetzalcoatl is a feathered culture-hero god of wind and learning while the Rainbow Serpent is the water-snake of the land's own making. Serpent-as-cosmos in both, but the resemblance is loose. Flagged."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "indra",
+      "type": "inverts",
+      "tier": "3",
+      "note": "An exact inversion: Indra SLAYS the serpent to release the waters, while the Rainbow Serpent IS the waters and must be honoured, not killed. The same serpent-and-water knot read from opposite ends — dragon-slaying versus serpent-keeping."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two impersonal ground-of-reality concepts that the world and its order arise from and conform to — the Dreaming's everywhen-Law and the Dao — neither a personal creator, both the abiding pattern beneath things. The cosmic-order answer reached independently at opposite edges of the earth."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name a single sacred ground-power immanent in all things rather than a god above them — the Dreaming and the Mesoamerican teotl — the divine as the very fabric of what-is, expressed through countless particular beings. One-through-many reached by unrelated peoples."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A faint touch: both point to an underlying timeless reality that ordinary time and self are surface-ripples upon — the everywhen and Brahman — but the Dreaming is land-bound, ancestral, and plural where Brahman is one absolute consciousness. Flagged as a stretch."
+    },
+    {
+      "a": "yhi-bila",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two FEMININE suns — Yhi and Amaterasu — both life-giving sun-women whose light is the world's first awakening, jointly upholding that the solar-as-mother is no anomaly but a recurring choice unrelated cultures make against the Indo-European sun-king."
+    },
+    {
+      "a": "yhi-bila",
+      "b": "surya",
+      "type": "inverts",
+      "tier": "3",
+      "note": "A pointed inversion of gender: Surya is the masculine solar charioteer of the Indo-European world, Yhi the sun-WOMAN whose waking begins life — the same daily sun divinised at opposite poles of sex, the divergence itself the lesson."
+    },
+    {
+      "a": "wandjina",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two rain-and-storm powers with great staring eyes whose images must be served to keep the rains coming — the haloed mouthless Wandjina repainted in the rock, and the goggle-eyed rain-god fed in his mountains. The rain made a face that maintenance keeps alive, by unrelated peoples."
+    },
+    {
+      "a": "wandjina",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Loose: both fuse the sacred being with its physical embodiment so that tending the image IS tending the god — the Wandjina that became its own painting, the Mesoamerican ixiptla that the deity inhabits. Presence-in-the-image in both, but the mechanisms differ sharply. Flagged."
+    },
+    {
+      "a": "bora-initiation",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two foraging traditions whose living religion is an ACT of the body rather than a creed — the men's initiation and the all-night healing dance — the sacred reached and transmitted through ordeal, marking, and altered state, not through scripture or temple."
+    },
+    {
+      "a": "bora-initiation",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both stage a ritual death and rebirth into secret knowledge guarded from the uninitiated — the Bora and the Dionysian/Eleusinian mysteries — but one makes a tribesman, the other promises a blessed afterlife. Initiatory death in both, different stakes. Flagged."
+    },
+    {
+      "a": "wawilak-sisters",
+      "b": "persephone",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Faint: in both, a swallowing/abduction of female figures by a chthonic power becomes the charter of fertility and ritual — the sisters taken into the serpent, Persephone into the underworld — but the Yolŋu myth is about initiation, not seasonal return. Flagged."
+    },
+    {
+      "a": "bunjil",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two Oceanic/Australasian sky-creator-ancestors who shape the world and are bound to the heavens — the eaglehawk Bunjil and the sky-father Ranginui — neighbouring oceans, unrelated traditions, both putting the maker in the sky. Structural kin, never a cognate."
+    },
+    {
+      "a": "songlines",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Where most traditions anchor the cosmos at a single centre — a world-tree or world-mountain — the songlines distribute the sacred AXIS along continent-spanning lines; a deliberate counter-example that stretches the axis-mundi joint from a point into a mesh."
+    }
+  ]
+}

@@ -1,0 +1,2344 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mended Mirror — Setting the Table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#e9dcc0;--ink-dim:#b6a883;--gold:#e6ad44;--gold-bright:#ffd86b;--bg:#090604;
+  --serif-d:"Marcellus",Georgia,serif;--serif-b:"Spectral",Georgia,serif}
+*{box-sizing:border-box}
+html,body{margin:0;background:radial-gradient(120% 80% at 50% 0%,#160f08 0%,#0c0805 55%,#070503 100%);
+  color:var(--ink);font-family:var(--serif-b);-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:54px 30px 100px}
+header.top{text-align:center;margin-bottom:14px}
+header.top .kick{font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+header.top h1{font-family:var(--serif-d);font-weight:400;font-size:40px;letter-spacing:.07em;margin:.18em 0 .1em}
+header.top .sub{font-style:italic;color:var(--ink-dim);font-size:15px;max-width:680px;margin:.2em auto 0}
+.mandate{max-width:760px;margin:22px auto 0;padding:14px 20px;border:1px solid rgba(230,173,68,.22);
+  border-radius:3px;background:rgba(40,30,16,.32);font-size:13.5px;color:var(--ink);font-style:italic;text-align:center}
+.mandate b{color:var(--gold-bright);font-style:normal}
+/* scoreboard */
+.score{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:30px auto 8px}
+.stat{border:1px solid rgba(230,173,68,.28);border-radius:4px;padding:12px 20px;min-width:120px;text-align:center;
+  background:linear-gradient(180deg,rgba(28,21,12,.6),rgba(12,8,5,.6))}
+.stat .n{font-family:var(--serif-d);font-size:34px;color:var(--gold-bright);line-height:1}
+.stat .l{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin-top:6px}
+.score .arrow{align-self:center;font-size:24px;color:var(--gold);opacity:.7}
+.waves{display:flex;gap:10px;justify-content:center;margin:14px auto 0;font-size:12.5px;color:var(--ink-dim);flex-wrap:wrap}
+.waves span{border:1px solid rgba(230,173,68,.2);border-radius:20px;padding:4px 14px}
+.waves b{color:var(--gold-bright)}
+.legend{text-align:center;font-size:12px;color:var(--ink-dim);margin:18px auto 4px;max-width:760px}
+.legend .chip{margin:0 4px}
+/* families */
+.family{margin:34px 0 0;border-top:1px solid rgba(230,173,68,.12);padding-top:20px}
+.family h2{font-family:var(--serif-d);font-weight:400;font-size:22px;letter-spacing:.04em;margin:0 0 4px;
+  color:var(--ink);display:flex;align-items:center;gap:11px}
+.family h2 .dot{width:11px;height:11px;border-radius:50%;background:var(--hue);box-shadow:0 0 12px var(--hue)}
+.family h2 em{font-family:var(--serif-b);font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-dim);margin-left:auto;opacity:.85}
+.row{padding:10px 12px 11px 16px;margin:8px 0;border-left:2px solid var(--hue);border-radius:0 3px 3px 0;
+  background:rgba(255,255,255,.012)}
+.row.add{background:linear-gradient(90deg,rgba(230,173,68,.08),rgba(230,173,68,.012));border-left-color:var(--gold)}
+.row.have{opacity:.62}
+.row.fold{opacity:.78;border-left-style:dashed}
+.r-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.name{font-family:var(--serif-d);font-size:16.5px;color:var(--ink)}
+.row.add .name{color:var(--gold-bright)}
+.meta{font-size:11.5px;color:var(--ink-dim);margin-left:auto;letter-spacing:.02em;white-space:nowrap}
+.chip{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;border:1px solid var(--c);color:var(--c);
+  border-radius:10px;padding:1px 8px}
+.wave{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;border-radius:10px;padding:1px 8px;
+  border:1px solid rgba(255,216,107,.4);color:var(--gold-bright)}
+.wave.w2{opacity:.78}.wave.w3{opacity:.58}
+.into{font-size:11px;color:#8f7fae;font-style:italic}
+.live{color:#7fae6a}.dead{color:#9c8f6f}
+.anchor{font-size:13.5px;color:var(--ink);opacity:.9;margin-top:3px}
+.note{font-size:12px;color:var(--ink-dim);font-style:italic;margin-top:3px}
+.note:before{content:"⟡ ";color:var(--gold);font-style:normal}
+footer{text-align:center;margin-top:50px;font-size:11.5px;color:var(--ink-dim);opacity:.7;font-style:italic}
+</style></head><body><div class="wrap">
+
+<header class="top">
+  <div class="kick">The Mended Mirror &middot; the completeness audit</div>
+  <h1>Setting the Table</h1>
+  <p class="sub">Every ingredient for the dish &mdash; the full menu of human belief, from the deep-time embers to the religions invented last decade. Nothing excluded; each set at its right altitude.</p>
+</header>
+
+<div class="mandate">Joe: full coverage — every available human belief system, New Age included, dark/occult included, no exceptions or exclusions. Every ingredient for the dish.</div>
+
+<div class="score">
+  <div class="stat"><div class="n">54</div><div class="l">shards now</div></div>
+  <div class="arrow">→</div>
+  <div class="stat"><div class="n">215</div><div class="l">shards at full coverage</div></div>
+  <div class="stat"><div class="n">+162</div><div class="l">new shards mapped</div></div>
+  <div class="stat"><div class="n">3</div><div class="l">fold-clusters<br>(100s of sub-currents)</div></div>
+</div>
+<div class="waves">
+  <span>Wave 1 &mdash; <b>34</b> &middot; Joe's named families + the Abrahamic split</span>
+  <span>Wave 2 &mdash; <b>88</b> &middot; major indigenous + ancient/dead + branches</span>
+  <span>Wave 3 &mdash; <b>40</b> &middot; the long tail</span>
+</div>
+<div class="legend">
+  <span class="chip" style="--c:#7fae6a">have</span> one of the existing 54 &nbsp;
+  <span class="chip" style="--c:#e6ad44">add</span> recommended new shard &nbsp;
+  <span class="chip" style="--c:#8f7fae">fold</span> represented as figures inside another shard (target shown) &nbsp;&mdash;&nbsp;
+  <em>the altitude rule: A SHARD sits at the civilization / distinct-current altitude of the existing 54 (Greek, Norse, Yoruba, Abrahamic...). True sub-variants (denominations, nações, regional NRMs) FOLD as figures or gloss-notes inside an anchor shard — represented, never excluded. Joe can promote any FOLD to a full shard by saying so.</em>
+</div>
+
+<section class="family" style="--hue:#b9a7d6">
+    <h2><span class="dot"></span>Ancestral &amp; Reconstructed <em>1 have</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Proto-Indo-European</span>
+      <span class="meta">4,500 BCE &middot; reconstructed &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Dyēus the sky-father (the root of Zeus/Jupiter/Dyaus/Tyr)</div>
+    
+  </div>
+  </section>
+<section class="family" style="--hue:#d8a24a">
+    <h2><span class="dot"></span>Ancient Near East <em>5 have &middot; 7 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Mesopotamian (Sumer/Akkad/Babylon)</span>
+      <span class="meta">3,500 BCE &middot; Fertile Crescent &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Anu, Marduk, Inanna, Ereshkigal</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Egyptian</span>
+      <span class="meta">3,100 BCE &middot; Nile &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Ra, Osiris, Isis, Thoth, Maʿat</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Canaanite / Levantine (Phoenician)</span>
+      <span class="meta">2,000 BCE &middot; Levant &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Baal, El, Asherah, Leviathan</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Hittite / Anatolian</span>
+      <span class="meta">1,700 BCE &middot; Anatolia &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Tarhunna, Illuyanka, Kumarbi</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Pre-Islamic Arabian</span>
+      <span class="meta">800 BCE &middot; Arabian Peninsula &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Hubal, al-Lat, al-Uzza, Manat, the Kaaba black stone</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Elamite</span>
+      <span class="meta">2,700 BCE &middot; SW Iran (Susa) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Inshushinak + the highland triad Napirisha/Kiririsha</div>
+    <div class="note">non-Semitic, non-IE isolate pantheon</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Hurrian</span>
+      <span class="meta">2,300 BCE &middot; Upper Mesopotamia / N Syria &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Teshub vs Kumarbi succession-myth — the SOURCE of the Greek Kronos-Zeus pattern</div>
+    <div class="note">feeds hittite &amp; greek; documented transmission = rare tier-2 seam</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Urartian (Van / Ararat)</span>
+      <span class="meta">860 BCE &middot; Armenian highlands &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Haldi the war-god atop a lion</div>
+    <div class="note">sibling to hurrian</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Nubian / Kushite (Meroitic)</span>
+      <span class="meta">2,500 BCE &middot; Sudan (Napata, Meroe) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Apedemak the lion-headed war-god (indigenous, vs imported Amun)</div>
+    <div class="note">NOT a fold of egyptian — the indigenous Meroitic layer</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Carthaginian / Punic</span>
+      <span class="meta">814 BCE &middot; Carthage / W Mediterranean &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Tanit &amp; Baal Hammon; the tophet rite</div>
+    <div class="note">Phoenician diaspora; distinct western development of canaanite</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Berber / Amazigh (Libyco-Berber)</span>
+      <span class="meta">3,000 BCE &middot; Maghreb / Atlas &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Gurzil the bull-god; Tanit/Ifri; the Siwa oracle of Ammon</div>
+    <div class="note">pre-Islamic North Africa; survivals in Rif/Kabyle folk practice</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Indus Valley / Harappan</span>
+      <span class="meta">2,600 BCE &middot; Indus basin &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the 'Pashupati' proto-Shiva seal; terracotta Mother-Goddess; pipal &amp; water cult</div>
+    <div class="note">pre-Vedic substrate; speculative tiers — flag honestly</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#9fb8d8">
+    <h2><span class="dot"></span>Ancient &amp; Pagan Europe <em>9 have &middot; 8 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Greek</span>
+      <span class="meta">1,200 BCE &middot; Mediterranean &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Zeus, Athena, Hermes, Prometheus, Dionysus</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Roman</span>
+      <span class="meta">753 BCE &middot; Mediterranean &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Jupiter (thin shard — deepen)</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Norse / Germanic</span>
+      <span class="meta">500 BCE &middot; Northern Europe &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Tyr, Thor, Loki, Yggdrasil</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Celtic</span>
+      <span class="meta">800 BCE &middot; Western Europe &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Taranis, Danu, Badb</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Slavic</span>
+      <span class="meta">600 BCE &middot; Eastern Europe &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Perun (thin shard — deepen: Veles, Mokosh, Svarog)</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Baltic (Lithuanian / Latvian)</span>
+      <span class="meta">1,000 BCE &middot; NE Europe &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Dievas, Perkūnas, Saulė — rebuilt the Dyēus cognate-star at tier-1</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Finnish / Karelian (Kalevala)</span>
+      <span class="meta">1,000 BCE &middot; Fennoscandia (Uralic) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Ukko, Ilmatar, the Sampo, Väinämöinen</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Etruscan</span>
+      <span class="meta">900 BCE &middot; Pre-Roman Italy (isolate) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Tinia, Uni, Menrva, the Piacenza liver / disciplina etrusca</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Basque</span>
+      <span class="meta">1,000 BCE &middot; W Pyrenees (isolate) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Mari, Sugaar, the herensuge dragon</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Minoan</span>
+      <span class="meta">3,000 BCE &middot; Crete &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Snake-Goddess / Mountain-Mother; labrys &amp; bull-leaping</div>
+    <div class="note">pre-Greek Aegean — NOT a fold of greek</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Mycenaean (Linear B)</span>
+      <span class="meta">1,600 BCE &middot; Bronze-Age Greece &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Potnia 'the Lady'; earliest attested Zeus/Poseidon</div>
+    <div class="note">ancestral to greek but doctrinally distinct (Potnia, di-wo-nu-so)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Scythian</span>
+      <span class="meta">800 BCE &middot; Pontic-Caspian steppe &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Tabiti the fire/hearth goddess; Ares as a planted iron sword</div>
+    <div class="note">E. Iranian steppe — distinct from vedic/zoroastrian</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Thracian</span>
+      <span class="meta">1,500 BCE &middot; Thrace (Balkans) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Zalmoxis the immortality-god; the Thracian Horseman</div>
+    <div class="note">fold dacian (Gebeleizis) as a figure here</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Illyrian</span>
+      <span class="meta">1,000 BCE &middot; W Balkans &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Dei-pátrous / Redon; serpent-veneration → Albanian folklore</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Iberian (pre-Roman, non-IE)</span>
+      <span class="meta">600 BCE &middot; E &amp; S Spain &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Lady-goddess (Dama de Elche); sphinx/underworld cult</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Lusitanian / Gallaecian</span>
+      <span class="meta">700 BCE &middot; W Iberia &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Endovelicus the oracular healer; Ataecina</div>
+    <div class="note">para-Celtic IE; distinct from non-IE iberian</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Guanche (Canary Islands)</span>
+      <span class="meta">500 BCE &middot; Canary Islands &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Achamán the sky-father; Guayota the volcano-demon of Teide</div>
+    <div class="note">insular Berber, extinct post-conquest</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#c8a6d0">
+    <h2><span class="dot"></span>Greco-Roman Mysteries &amp; Philosophies <em>12 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Eleusinian Mysteries</span>
+      <span class="meta">1,500 BCE &middot; Eleusis, Attica &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Demeter &amp; Persephone; the secret kykeon initiation</div>
+    <div class="note">distinct mystery institution, not civic greek; seams to persephone/demeter</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Orphism</span>
+      <span class="meta">550 BCE &middot; Greece / Magna Graecia &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Orpheus &amp; dismembered Zagreus; the gold soul-tablets</div>
+    <div class="note">fold pythagorean? keep twinned</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Pythagoreanism</span>
+      <span class="meta">530 BCE &middot; Croton, Magna Graecia &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">number as cosmos; metempsychosis; the akousmata brotherhood</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Dionysian / Bacchic Mysteries</span>
+      <span class="meta">700 BCE &middot; Greece → Italy &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">ecstatic mania, maenads, the liknon</div>
+    <div class="note">Dionysus is in greek; the initiatory mysteria are distinct</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Mithraism (Roman Mysteries of Mithras)</span>
+      <span class="meta">100 BCE &middot; Roman Empire (army frontier) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the tauroctony (bull-slaying); 7-grade cave initiation</div>
+    <div class="note">★ Late-Antiquity 'big-3 receipts' seam — Roman cult distinct from Iranian Mithra</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Cult of Isis &amp; Serapis</span>
+      <span class="meta">300 BCE &middot; Egypt → Roman world &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Isis Myrionymos 'of ten-thousand names'; Serapis</div>
+    <div class="note">★ Isis-Madonna borrowing seam; Hellenistic mystery, distinct from pharaonic egyptian</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Cybele / Magna Mater (Phrygian)</span>
+      <span class="meta">700 BCE &middot; Phrygia → Rome &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Great Mother &amp; Attis; the Galli; the taurobolium blood-baptism</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Sol Invictus</span>
+      <span class="meta">200 CE &middot; Roman Empire &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Unconquered Sun; Aurelian's 274 CE state cult; Dec-25 Dies Natalis</div>
+    <div class="note">★ Sol-Invictus→Christmas borrowing seam — the headline 'big-3 receipt'</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Neoplatonism</span>
+      <span class="meta">200 CE &middot; Alexandria / Rome / Athens &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Plotinus' emanation from the One; theurgy (Iamblichus)</div>
+    <div class="note">bridges to gnostic / hermeticism / kabbalah</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Stoicism</span>
+      <span class="meta">300 BCE &middot; Athens → Rome &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Logos/pneuma pervading a providential cosmos; kata physin</div>
+    <div class="note">its pantheist cosmology functions as a belief-system</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Epicureanism</span>
+      <span class="meta">307 BCE &middot; Athens (the Garden) → Rome &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">gods in the metakosmia, indifferent; atomism; ataraxia</div>
+    <div class="note">a deus-otiosus theology</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Sabians of Harran (astral cult)</span>
+      <span class="meta">300 BCE &middot; Harran (Upper Mesopotamia) &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">seven planetary temple-spirits; Hermes as prophet — last living pagan astral cult</div>
+    <div class="note">Hermetic overlap; survived into Islamic era</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#e0c060">
+    <h2><span class="dot"></span>Iranian &amp; Gnostic-Dualist <em>2 have &middot; 1 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Zoroastrian / Persian</span>
+      <span class="meta">1,200 BCE &middot; Greater Iran &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ahura Mazda vs Angra Mainyu; Aṣ̌a; the Amesha Spentas; Frashokereti</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Gnostic / Hermetic</span>
+      <span class="meta">100 CE &middot; Late-antique Mediterranean &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Monad, Sophia, Yaldabaoth, the divine spark</div>
+    <div class="note">★ SPLIT: Hermeticism &amp; Manichaeism should leave this composite (see hermeticism, manichaeism)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Manichaeism</span>
+      <span class="meta">240 CE &middot; Sasanian Mesopotamia → China &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Mani; radical Light/Darkness dualism — a universal world religion</div>
+    <div class="note">★ split OUT of gnostic — it was a world religion, not a footnote</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#cf6b52">
+    <h2><span class="dot"></span>Abrahamic (the split Joe asked for) <em>1 have &middot; 15 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Abrahamic (composite — to be DISSOLVED)</span>
+      <span class="meta">1,800 BCE &middot; Near East → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">yahweh, christ, eden-four-rivers, ein-sof</div>
+    <div class="note">★ Joe's standing ask: split into judaism/christianity/islam; reassign its 4 figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Judaism (Rabbinic)</span>
+      <span class="meta">550 BCE &middot; Levant / diaspora &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">YHWH, Torah, the covenant; the Oral Law</div>
+    <div class="note">the trunk; fold Karaite, Hasidism, Sabbatean/Frankist as figures; Second-Temple Judaism as a historical figure-cluster</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Christianity</span>
+      <span class="meta">30 CE &middot; Levant → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Christ, Trinity, the Cross &amp; Resurrection</div>
+    <div class="note">one shard with branch-figures (Catholic/Orthodox/Protestant/Coptic); LDS &amp; JW may warrant own shards (wave 2); Cathar/Bogomil/Arian = historical figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Islam</span>
+      <span class="meta">610 CE &middot; Arabia → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Allah, the Qur'an, the Prophet; Sunni/Shia/Sufi streams</div>
+    <div class="note">one shard with branch-figures; Sufism rich enough to flag for its own shard</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Kabbalah (Jewish esoteric)</span>
+      <span class="meta">1,180 CE &middot; Provence / Spain &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ein Sof &amp; the ten Sefirot; the Zohar</div>
+    <div class="note">own esoteric shard — bridges to hermetic-qabalah &amp; western esotericism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Samaritanism</span>
+      <span class="meta">400 BCE &middot; Mt Gerizim, Palestine &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Mt Gerizim (not Jerusalem); the Samaritan Pentateuch</div>
+    <div class="note">ancient living parallel to Judaism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Bahá'í Faith</span>
+      <span class="meta">1,863 CE &middot; Persia → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Baháʼu'lláh; progressive revelation; unity of all religions</div>
+    <div class="note">fold Bábism as the precursor figure</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Druze (Muwaḥḥidūn)</span>
+      <span class="meta">1,017 CE &middot; Levant &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">al-Hakim as divine manifestation; taqammus (reincarnation); closed initiation</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Yazidism (Êzidî)</span>
+      <span class="meta">1,160 CE &middot; Kurdistan (Lalish) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Melek Taûs the Peacock Angel; the seven holy beings</div>
+    <div class="note">gnostic-adjacent; commonly &amp; wrongly demonized — handle with care</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Yarsanism / Ahl-e Haqq</span>
+      <span class="meta">1,380 CE &middot; W Iran (Kermanshah) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Sultan Sahak; the Divine in seven avatars; the jam</div>
+    <div class="note">Kurdish esoteric; kin to yazidism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Alevism (Qizilbash / Bektashi)</span>
+      <span class="meta">1,250 CE &middot; Anatolia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the cem ritual, semah dance; the Twelve Imams; no mosque</div>
+    <div class="note">fold Bektashi order; heterodox Shia-Sufi</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Alawism (Nusayrism)</span>
+      <span class="meta">859 CE &middot; coastal Syria &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Ali-Muhammad-Salman trinity; metempsychosis; secret rites</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Mandaeism (Sabians)</span>
+      <span class="meta">100 CE &middot; Lower Mesopotamia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">John the Baptist as great prophet; World of Light vs Darkness; masbuta baptism</div>
+    <div class="note">★ the last living Gnostic religion — a real tier-2 seam to gnostic</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Rastafari</span>
+      <span class="meta">1,930 CE &middot; Jamaica &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Haile Selassie I as Jah; Babylon vs Zion; Ethiopianism; the ganja sacrament</div>
+    <div class="note">cross-listed with diaspora; Abrahamic/Old-Testament-rooted</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Nation of Islam</span>
+      <span class="meta">1,930 CE &middot; USA (Detroit) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">W.D. Fard as God-in-person; Elijah Muhammad; Yakub myth; the Mother Plane</div>
+    <div class="note">fold Five-Percent Nation &amp; Moorish Science Temple as kin-figures (or wave-3 shards)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Black Hebrew Israelites</span>
+      <span class="meta">1,886 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">African Americans as the literal lost tribes of Israel</div>
+    
+  </div>
+  </section>
+<section class="family" style="--hue:#e08a3c">
+    <h2><span class="dot"></span>Dharmic / South Asian <em>5 have &middot; 10 add &middot; 2 fold</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Vedic / Hindu</span>
+      <span class="meta">1,500 BCE &middot; South Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Dyaus-Pita, Indra, Varuna, Agni, Shiva, Brahman, Purusha-Prakriti</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Buddhist cosmology</span>
+      <span class="meta">500 BCE &middot; South &amp; East Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Sumeru, Mara, the Wheel, Anatman, Avalokiteshvara, the kalpas</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Jain cosmology</span>
+      <span class="meta">800 BCE &middot; South Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the loka-body, the Tirthankaras, ahimsa, anekantavada, the kalacakra</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Dravidian / Tamil</span>
+      <span class="meta">1,000 BCE &middot; South India &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Murugan, Kotravai, Mariyamman, anangu</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Bön (Tibetan Yungdrung)</span>
+      <span class="meta">200 BCE &middot; Tibetan plateau &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the pre-Buddhist Tibetan substrate</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Sikhism</span>
+      <span class="meta">1,469 CE &middot; Punjab &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ik Onkar — one formless creator; the Guru Granth Sahib as living Guru</div>
+    <div class="note">major world religion; clearly missing at civilization-altitude</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Shaivism</span>
+      <span class="meta">400 BCE &middot; South Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Shiva as supreme reality; lingam, Nataraja, the third eye</div>
+    <div class="note">split from vedic? — flag for Joe; largest Hindu stream</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Vaishnavism</span>
+      <span class="meta">400 BCE &middot; South Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Vishnu/Krishna; the avatara doctrine; bhakti</div>
+    <div class="note">split from vedic? — flag; fold ISKCON/Gaudiya as a modern figure</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Shaktism</span>
+      <span class="meta">400 BCE &middot; Bengal/Assam &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Devi/Shakti supreme; Durga, Kali, the ten Mahavidyas</div>
+    <div class="note">split from vedic? — flag; fold Hindu Tantra/Sri Vidya here</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Lingayatism (Veerashaivism)</span>
+      <span class="meta">1,150 CE &middot; Karnataka &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Basava; the ishtalinga; rejection of caste &amp; rebirth</div>
+    <div class="note">self-identifies as a distinct religion</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Ayyavazhi</span>
+      <span class="meta">1,833 CE &middot; Tamil Nadu &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ayya Vaikundar; the Akilam scripture; anti-caste</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Brahmoism / Arya Samaj (Hindu reform)</span>
+      <span class="meta">1,828 CE &middot; Bengal / N India &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ram Mohan Roy / Dayananda; formless monotheism; 'back to the Vedas'</div>
+    <div class="note">fold both reform movements together</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Kalash religion</span>
+      <span class="meta">1,500 BCE &middot; Chitral, Pakistan &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Dezau the creator; Balumain — the LAST living Indo-Aryan pagan tradition</div>
+    <div class="note">★ high value — a surviving branch of the IE root</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Balinese Hinduism (Agama Hindu Dharma)</span>
+      <span class="meta">1,000 CE &middot; Bali &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Acintya/Sang Hyang Widhi; Tri Hita Karana; offering-ritualism</div>
+    <div class="note">syncretic Hindu-Buddhist-animist; distinct from mainland</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Sarnaism / Adivasi nature-religion</span>
+      <span class="meta">1,000 BCE &middot; Chota Nagpur, India &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the sacred grove (sarna sthal); village &amp; ancestral spirits</div>
+    <div class="note">anchor shard for India's tribal religions — fold Santal/Sari, Gond/Koya Punem, Bhil, Donyi-Polo, Sanamahism, Bathou, Kirat-Mundhum as figures (or promote any to wave-3 shards)</div>
+  </div>
+<div class="row fold">
+    <div class="r-head">
+      <span class="chip" style="--c:#8f7fae">fold</span>
+      <span class="into">→ buddhist</span>
+      <span class="name">Buddhist vehicles (Theravada / Mahayana / Vajrayana)</span>
+      <span class="meta">250 BCE &middot; Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the arahant / the bodhisattva / the tantric deity-yoga</div>
+    <div class="note">the existing buddhist shard is cosmological; Joe may want Theravada/Mahayana/Vajrayana (+Zen/Pure-Land/Nichiren) as their own shards — flag. For now: figures within buddhist.</div>
+  </div>
+<div class="row fold">
+    <div class="r-head">
+      <span class="chip" style="--c:#8f7fae">fold</span>
+      <span class="into">→ vedic</span>
+      <span class="name">Modern Hindu-derived NRMs</span>
+      <span class="meta">1,875 CE &middot; India → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">TM, Brahma Kumaris, Self-Realization Fellowship, Ananda Marga, Osho, Sahaja Yoga, ISKCON</div>
+    <div class="note">fold as a modern-export figure-cluster; promote TM / ISKCON / Osho to wave-3 shards if Joe wants</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#d05a5a">
+    <h2><span class="dot"></span>East Asian <em>4 have &middot; 8 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Chinese (I Ching / Tao)</span>
+      <span class="meta">1,500 BCE &middot; East Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Shangdi, yin-yang, qian-kun, the Tao</div>
+    <div class="note">this shard is the philosophical Tao/I-Ching layer</div>
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Korean (Mu / foundation myth)</span>
+      <span class="meta">2,000 BCE &middot; Korea &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Hwanin-Hwanung-Dangun; the mudang shaman; Sansin</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Shinto</span>
+      <span class="meta">500 BCE &middot; Japan &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Amaterasu, Susanoo, Raijin; the kami</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Ainu (kamuy animism)</span>
+      <span class="meta">1,000 BCE &middot; Hokkaidō &amp; Sakhalin &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Kamuy-huci the hearth-grandmother; Kim-un-kamuy the bear; the iyomante</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Confucianism (Ruism)</span>
+      <span class="meta">500 BCE &middot; China / E Asia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Confucius; Tian (Heaven); ren &amp; li; sage &amp; ancestor veneration</div>
+    <div class="note">distinct from the Tao shard — the other half of the Chinese cosmos</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Religious Taoism (Daojiao)</span>
+      <span class="meta">142 CE &middot; China &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Zhang Daoling &amp; the Celestial Masters; the Jade Emperor; talismanic liturgy; neidan alchemy</div>
+    <div class="note">institutional Daoism, distinct from the philosophical Tao shard</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Chinese folk religion (Shenism)</span>
+      <span class="meta">1,500 BCE &middot; China / diaspora &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Jade Emperor's bureaucratic pantheon; ancestor worship; temple cults</div>
+    <div class="note">the living substrate beneath Tao/Confucian/Buddhist; fold Mazu, Wong Tai Sin, the Bai/Yi/Zhuang local gods as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Yiguandao / Chinese redemptive societies</span>
+      <span class="meta">1,930 CE &middot; China → Taiwan &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Eternal Venerable Mother (Wusheng Laomu); five-teachings syncretism; spirit-writing</div>
+    <div class="note">fold Xiantiandao, Dejiao</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Falun Gong (Falun Dafa)</span>
+      <span class="meta">1,992 CE &middot; China → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Li Hongzhi; the rotating falun; Zhen-Shan-Ren (truth-compassion-forbearance)</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Tenrikyo + Japanese new religions</span>
+      <span class="meta">1,838 CE &middot; Japan &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nakayama Miki; Oyagami 'God the Parent'; the Joyous Life</div>
+    <div class="note">anchor shard for Japanese shinshūkyō — fold Oomoto, Konkokyo, Seicho-no-Ie, Sukyo Mahikari, PL Kyodan, Reiyukai, Aum/Aleph as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Cheondoism (Donghak) + Korean NRMs</span>
+      <span class="meta">1,860 CE &middot; Korea &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Choe Je-u; 'In-nae-cheon' — humanity IS Heaven</div>
+    <div class="note">fold Jeungsanism, Won Buddhism, Daejonggyo as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Caodaism (Cao Đài)</span>
+      <span class="meta">1,926 CE &middot; Vietnam (Tây Ninh) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the supreme Cao Đài via séance; the Divine Eye; saints Victor Hugo &amp; Sun Yat-sen</div>
+    <div class="note">fold Hòa Hảo &amp; Đạo Mẫu (Vietnamese mother-goddess mediumship) as kin-figures or wave-3 shards</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#3aa6a0">
+    <h2><span class="dot"></span>SE Asian &amp; Austronesian Indigenous <em>4 have &middot; 11 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Polynesian</span>
+      <span class="meta">900 BCE &middot; Oceania &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ranginui &amp; Papatūānuku, Maui, the Kāne↔Tāne cognate-star</div>
+    <div class="note">incl. Māori deepening</div>
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Hawaiian</span>
+      <span class="meta">1,000 CE &middot; E Polynesia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Kāne, Kū, Lono, Pele</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Ngaju Dayak (Kaharingan)</span>
+      <span class="meta">1,000 BCE &middot; Borneo &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ranying Hatalla; the Tiwah secondary-burial rite</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Aboriginal Australian (the Dreaming)</span>
+      <span class="meta">50,000 BCE &middot; Australia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Dreaming, the Rainbow Serpent, Baiame, the songlines</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Rapa Nui (Easter Island)</span>
+      <span class="meta">1,200 CE &middot; Easter Island &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Makemake the creator; the Tangata Manu (Birdman) cult at Orongo; the moai</div>
+    <div class="note">★ sui generis even within Polynesia — split out</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Melanesian (Mana / Tabu)</span>
+      <span class="meta">1,000 BCE &middot; Solomons, Vanuatu, New Caledonia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">mana — the impersonal sacred power (Codrington's source-concept); ancestral tindalo</div>
+    <div class="note">the baseline island-Melanesian religion</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Cargo Cults (Melanesian millenarian)</span>
+      <span class="meta">1,885 CE &middot; Vanuatu / PNG &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">John Frum; the Prince Philip Movement; Western goods as returning-ancestor cargo</div>
+    <div class="note">★ Joe's mandate explicitly wants cargo cults in</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Papuan (Highland &amp; lowland New Guinea)</span>
+      <span class="meta">3,000 BCE &middot; New Guinea &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">ancestral ghosts &amp; the pig-exchange (Te/Moka); the Asmat bisj poles; the Marind Dema</div>
+    <div class="note">fold highland (Enga/Melpa) + lowland (Asmat/Marind) as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Micronesian (Pohnpei / Chamorro / Yap)</span>
+      <span class="meta">1,500 BCE &middot; Caroline &amp; Mariana Islands &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nan Madol's priest-kings &amp; Isokelekel; Puntan &amp; Fu'una the Chamorro sibling-creators</div>
+    <div class="note">anchors a whole un-covered region; fold Palau/Yap stone-money sacrality</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Fijian (iTaukei)</span>
+      <span class="meta">900 BCE &middot; Fiji &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Degei the great serpent-god; ancestral vū spirits</div>
+    <div class="note">the Melanesia-Polynesia bridge; the Tuka movement's homeland</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Burmese Nat worship</span>
+      <span class="meta">1,000 BCE &middot; Myanmar &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Thirty-Seven Nats (spirits of violent death); Mahagiri; nat-pwe possession</div>
+    <div class="note">institutionalized spirit-pantheon alongside Theravada</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Tai-Khmer spirit cults (Phi / Neak Ta)</span>
+      <span class="meta">1,000 BCE &middot; Thailand / Laos / Cambodia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the phi spirits &amp; the spirit-house; Khmer neak ta territorial guardians; the baci soul-calling</div>
+    <div class="note">animist substrate under SE-Asian Buddhism; fold Lao Satsana Phi</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Anitism (Philippine folk religion)</span>
+      <span class="meta">1,500 BCE &middot; Philippines &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">anito &amp; diwata spirits; Bathala; the babaylan shaman-priestess</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Kejawèn &amp; Indonesian indigenous</span>
+      <span class="meta">500 BCE &middot; Java / Sumatra / Sulawesi / Sumba &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Javanese inner-essence mysticism (rasa)</div>
+    <div class="note">anchor shard — fold Sunda Wiwitan, Parmalim (Batak), Aluk To Dolo (Toraja), Marapu (Sumba), Wetu Telu, Iban as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Hmong shamanism (Ua Dab)</span>
+      <span class="meta">1,000 BCE &middot; SW China / SE Asia / diaspora &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the txiv neeb shaman; soul-calling (hu plig); three-world journeys</div>
+    
+  </div>
+  </section>
+<section class="family" style="--hue:#7fae9a">
+    <h2><span class="dot"></span>Central Asian &amp; Siberian <em>1 have &middot; 7 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Tengrism (Turkic-Mongolic)</span>
+      <span class="meta">1,000 BCE &middot; Central Asia &amp; Siberia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Tengri, Umai, Erlik, Ülgen; the world-tree pillar; the three-world shaman</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Evenki / Tungus</span>
+      <span class="meta">1,000 BCE &middot; Central/East Siberian taiga &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Buga the cosmos-spirit; the three-world taiga — ★ the etymological HOME of the word 'shaman'</div>
+    <div class="note">non-Turkic, non-Mongol; reindeer-taiga cosmology</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Yakut / Sakha</span>
+      <span class="meta">800 BCE &middot; Sakha (Lena basin) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ürüng Aiyy Toyon the white-creator vs the abaasy; the white-vs-black shaman split</div>
+    <div class="note">Turkic but a distinct NE-Siberian dual-pantheon</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Buryat</span>
+      <span class="meta">500 BCE &middot; Lake Baikal &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the 99 tengri; Father-Heaven/Mother-Earth; the böö shamans of Olkhon</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Chukchi &amp; Koryak (Paleo-Siberian)</span>
+      <span class="meta">1,000 BCE &middot; Chukotka / Kamchatka &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Raven (Kutkh) the trickster-creator; Amanita shamanism</div>
+    <div class="note">wholly outside the Altaic/tengrist family; the Raven-creator complex bridges to pacificnw</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Nenets / Samoyedic</span>
+      <span class="meta">800 BCE &middot; NW Siberian Arctic &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Num the sky-god &amp; Nga the death-god; Ya-Nebya 'Mother Earth'; the sacred sledge</div>
+    <div class="note">Uralic — kin-family to sami/finnish</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Khanty &amp; Mansi (Ob-Ugric)</span>
+      <span class="meta">800 BCE &middot; W Siberia (Ob-Irtysh) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Numi-Torum the sky-father; the World-Surveyor-Man; the bear-feast</div>
+    <div class="note">linguistic cousins of the Hungarians</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Mongolian folk religion (Böö Mörgöl)</span>
+      <span class="meta">1,000 BCE &middot; Mongolia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Qormusta Tengri, chief of the 99 tngri; ovoo cairn-offerings</div>
+    <div class="note">the Mongol heartland strand of tengri-worship</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#8fb3c9">
+    <h2><span class="dot"></span>Uralic North <em>1 have</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Sámi</span>
+      <span class="meta">1,000 BCE &middot; Sápmi (Fennoscandia) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the noaidi drum; Beaivi the sun; the bear-cult</div>
+    
+  </div>
+  </section>
+<section class="family" style="--hue:#c75f9a">
+    <h2><span class="dot"></span>African (Continental) <em>9 have &middot; 12 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Yoruba</span>
+      <span class="meta">800 BCE &middot; West Africa &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Shango, Eshu, Ogun; the orishas</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Akan / Ashanti</span>
+      <span class="meta">500 BCE &middot; Ghana &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nyame the withdrawn sky-god; Anansi; Asase Yaa</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Dogon</span>
+      <span class="meta">500 BCE &middot; Mali &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Amma &amp; the world-egg; the Nommo; the Sigui rite</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Igbo</span>
+      <span class="meta">500 BCE &middot; SE Nigeria &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Chukwu, Ala the earth, chi the personal spirit</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Kongo / Bantu</span>
+      <span class="meta">500 BCE &middot; Central Africa &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nzambi a Mpungu; the dikenga cosmogram; Kalunga; the minkisi</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Fon / Dahomey (Vodun)</span>
+      <span class="meta">500 BCE &middot; Benin &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Mawu-Lisa; Legba; Dan the rainbow-serpent; the Fa oracle</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Zulu / Nguni</span>
+      <span class="meta">500 BCE &middot; Southern Africa &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Unkulunkulu, uMvelinqangi, Nomkhubulwane</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">San / |Xam (Bushman)</span>
+      <span class="meta">20,000 BCE &middot; Kalahari &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">ǀKaggen the mantis; the trance-dance; the eland; the moon-hare</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Khoekhoe (Khoikhoi / Nama)</span>
+      <span class="meta">2,000 BCE &middot; Cape &amp; Namaqualand &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the origin-of-death moon-message; ǀ/Heitsi-Eibib</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Shona</span>
+      <span class="meta">1,000 BCE &middot; Zimbabwe &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Mwari/Musikavanhu at the Matonjeni oracle-caves; the mhondoro lion-spirits</div>
+    <div class="note">fold Venda (Raluvhimba) here</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Maasai</span>
+      <span class="meta">1,000 BCE &middot; Kenya / Tanzania &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Enkai/Engai, the black-and-red sky-god of Ol Doinyo Lengai; cattle from God</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Kikuyu (Gĩkũyũ)</span>
+      <span class="meta">1,000 BCE &middot; Central Kenya &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ngai/Mwene-Nyaga on Mt Kenya; the Gĩkũyũ &amp; Mũmbi ancestral couple</div>
+    <div class="note">fold Akamba (shared Ngai)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Dinka &amp; Nuer (Nilotic)</span>
+      <span class="meta">1,000 BCE &middot; South Sudan &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nhialic / Kwoth the sky-creator; the ox-sacrifice &amp; spear-master</div>
+    <div class="note">fold Shilluk (Juok / divine-king Reth) &amp; Anuak</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Serer (A ƭat Roog)</span>
+      <span class="meta">1,000 BCE &middot; Senegal / Gambia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Roog Sene the supreme immensity; the pangool ancestral intercessors</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Bamana / Bambara</span>
+      <span class="meta">1,000 BCE &middot; Mali &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Maa Ngala the creator; the six initiation societies (Komo, Chiwara…)</div>
+    <div class="note">kin to dogon; distinct Komo/Chiwara complex</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Waaqeffanna (Oromo)</span>
+      <span class="meta">1,000 BCE &middot; Ethiopia / N Kenya &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Waaqa the sky supreme-being; the Gadaa system; the Irreecha thanksgiving</div>
+    <div class="note">Cushitic monotheism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Baganda (Lubaale)</span>
+      <span class="meta">1,000 BCE &middot; Uganda &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Katonda the distant creator; the Balubaale pantheon (Mukasa, Kibuka); royal shrines</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Luba &amp; Kuba (Central Bantu)</span>
+      <span class="meta">500 BCE &middot; DR Congo &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Shakapanga/Leza; Mbombo/Bumba who vomited the sun &amp; moon into being</div>
+    <div class="note">the vomit-creation cosmogony is the anchor</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Chewa (Maravi)</span>
+      <span class="meta">500 BCE &middot; Malawi / Zambia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Chiuta the rainbow sky-creator; the Nyau secret society &amp; Gule Wamkulu masked dance</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Tswana-Sotho</span>
+      <span class="meta">1,000 BCE &middot; Botswana / Lesotho / S Africa &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Modimo the source-of-all via the badimo ancestors; rain-making</div>
+    <div class="note">fold Lozi (Nyambe) — could pair with zulu as Southern Bantu</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Ewe &amp; Ga (Gbe / Kwa coast)</span>
+      <span class="meta">1,000 BCE &middot; Togo / SE Ghana &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ewe Mawu-Lisa &amp; Afa divination; Ga Ataa-Naa Nyongmo &amp; the Homowo festival</div>
+    <div class="note">sibling to fon; distinct from inland akan</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#b8447a">
+    <h2><span class="dot"></span>African Diaspora (none yet covered) <em>12 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Santería (Regla de Ocha / Lucumí)</span>
+      <span class="meta">1,500 CE &middot; Cuba &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Orichas (Elegguá, Changó, Yemayá) under the Catholic saints; Ifá divination; the asiento</div>
+    <div class="note">★ Yoruba-derived but creolized — do NOT fold into yoruba</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Haitian Vodou</span>
+      <span class="meta">1,500 CE &middot; Haiti &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Lwa (Legba, Erzulie, Baron Samedi) in Rada &amp; Petwo nanchon; the poto-mitan</div>
+    <div class="note">★ distinct from Fon Vodun root AND from Louisiana Voodoo</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Candomblé</span>
+      <span class="meta">1,549 CE &middot; Brazil (Bahia) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Orixás in nação houses (Ketu/Jeje/Angola); axé; the terreiro</div>
+    <div class="note">fold the nações (Jeje, Angola, Batuque, Tambor de Mina, Xangô do Nordeste) as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Umbanda</span>
+      <span class="meta">1,908 CE &middot; Brazil (Rio) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Kardecist spiritism + Orixás + the Pretos Velhos, Caboclos &amp; Exu spirit-lines</div>
+    <div class="note">20th-c synthesis distinct from candomble</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Quimbanda</span>
+      <span class="meta">1,900 CE &middot; Brazil &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Exu &amp; Pomba Gira worked for direct results; the reinos of Exu</div>
+    <div class="note">the 'left-hand' counterpart to umbanda — fits the dark/occult mandate too</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Palo (Reglas de Congo / Palo Monte)</span>
+      <span class="meta">1,500 CE &middot; Cuba &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Nzambi + the nganga/prenda cauldron housing an nfumbi spirit; the mpungos</div>
+    <div class="note">Bakongo-derived; distinct from kongo root AND santeria</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Abakuá (Ñañiguismo)</span>
+      <span class="meta">1,836 CE &middot; Cuba (Havana/Matanzas) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">all-male Cross-River Ékpè leopard society; the Sikán myth; the Ekue drum; the Íreme masquerade</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Winti</span>
+      <span class="meta">1,700 CE &middot; Suriname &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Anana the creator + pantheons of winti spirits (Aisa, Papa Winti, the Kromanti)</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Espiritismo</span>
+      <span class="meta">1,856 CE &middot; Caribbean diaspora &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Kardecan spiritism creolized; the mesa blanca; spirit guides; the 'cruzado' fusion with Santería</div>
+    <div class="note">bridges to Spiritualism in the West</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Trinidad Orisha &amp; Spiritual Baptist</span>
+      <span class="meta">1,800 CE &middot; Trinidad &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Orishas (Shango central) feasted with saints; the 'mourning' rite, bell &amp; chalk veves</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Jamaican Revival / Kumina / Myal / Obeah</span>
+      <span class="meta">1,700 CE &middot; Jamaica &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Kongo ancestral possession (Kumina); the obeah-man's spirit-work; Revival Zion bands of angels</div>
+    <div class="note">anchor shard for the Jamaican complex — fold Myal, Convince, Maroon Kromanti as figures; Obeah's harm/heal duality</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Hoodoo (Conjure / Rootwork)</span>
+      <span class="meta">1,700 CE &middot; US South &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">mojo bags, goofer dust, crossroads work, High John the Conqueror; psalms as spells</div>
+    <div class="note">a folk-magic SYSTEM, not a pantheon; fold Louisiana Voodoo (Marie Laveau, Li Grand Zombi) &amp; Gullah-Geechee ring-shout</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#5a8fc7">
+    <h2><span class="dot"></span>Indigenous North America <em>6 have &middot; 6 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Lakota / Sioux</span>
+      <span class="meta">1,000 CE &middot; Plains &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Wakan Tanka; Iktomi; Ptesan-Win (White Buffalo Woman); the sacred hoop</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Navajo / Diné</span>
+      <span class="meta">1,000 CE &middot; SW &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Changing Woman; the Hero Twins; Spider Woman; hózhó; the four sacred mountains</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Haudenosaunee / Iroquois</span>
+      <span class="meta">1,100 CE &middot; NE Woodlands &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Sky Woman &amp; the Great Turtle; the earth-diver; orenda; the Great Peace</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Inuit / Yupik</span>
+      <span class="meta">2,000 BCE &middot; Arctic &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Sedna mistress of the sea; Sila; the angakkuq soul-flight</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Pacific NW (Haida / Tlingit)</span>
+      <span class="meta">1,000 BCE &middot; NW Coast &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Raven who steals the light; the Thunderbird; crest-lineage; the property-soul</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Pueblo (Hopi &amp; Zuni)</span>
+      <span class="meta">700 CE &middot; SW mesas &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the kachinas; the emergence from lower worlds; the sipapu</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Cherokee</span>
+      <span class="meta">1,000 CE &middot; S Appalachia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Unetlanvhi the Great Spirit; the three-world cosmos; the Uktena horned serpent</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Anishinaabe / Ojibwe</span>
+      <span class="meta">1,000 CE &middot; Upper Great Lakes &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Gitche Manitou the Great Mystery; Nanabozho the trickster-transformer; the Midewiwin lodge</div>
+    <div class="note">fold Cree (Wīhtikow/Wendigo) &amp; Blackfoot (Napi) — or promote to wave-3 shards</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Muscogee (Creek) &amp; Mississippian</span>
+      <span class="meta">800 CE &middot; SE Woodlands / Cahokia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the sacred fire &amp; the Green Corn (Busk) renewal; the Master of Breath; the Cahokia Birdman</div>
+    <div class="note">fold the Southeastern Ceremonial Complex / the mound-religion</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">California (Chumash &amp; neighbors)</span>
+      <span class="meta">1,000 BCE &middot; California &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Hutash the Earth-Mother &amp; the Rainbow Bridge; the 'antap astronomer-priesthood; Sky-Coyote</div>
+    <div class="note">fold the Chinigchinich religion &amp; Maidu Worldmaker</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Native American Church (Peyotism)</span>
+      <span class="meta">1,880 CE &middot; SW → Plains &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the peyote sacrament ('Mescalito'); the Half-Moon altar; the Peyote Road</div>
+    <div class="note">a documented pan-tribal syncretic religion; cross-lists with entheogenic churches</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Ghost Dance &amp; prophetic movements</span>
+      <span class="meta">1,869 CE &middot; Great Basin → Plains &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Wovoka's circle-dance prophecy of the returning dead; the Ghost Shirt</div>
+    <div class="note">fold the Longhouse Religion (Handsome Lake, 1799) &amp; the Indian Shaker Church (1882)</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#5ab87a">
+    <h2><span class="dot"></span>Indigenous Meso &amp; South America <em>5 have &middot; 8 add</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Mesoamerican (composite)</span>
+      <span class="meta">1,500 BCE &middot; Mexico &amp; Maya lands &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Tlaloc, Tezcatlipoca, Quetzalcoatl, Ometeotl, the ballgame, patolli, the Hero Twins</div>
+    <div class="note">★ collapses Aztec+Maya+more — Joe may split (see aztec, maya)</div>
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Inca / Andean</span>
+      <span class="meta">1,200 CE &middot; Andes &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Viracocha, Inti, Pachamama, Mama Killa, the inkari</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Mapuche</span>
+      <span class="meta">1,000 CE &middot; Araucanía &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Ngenechen; the machi shaman; the rewe step-tree</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Tupi-Guaraní</span>
+      <span class="meta">1,000 BCE &middot; Amazonia / coastal Brazil &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Tupã; Yvy marã eʼỹ — the Land-Without-Evil</div>
+    
+  </div>
+<div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Taíno</span>
+      <span class="meta">1,000 CE &middot; Greater Antilles &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Yúcahu &amp; Atabey; the zemís; the cohoba rite</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Aztec (Mexica)</span>
+      <span class="meta">1,325 CE &middot; Central Mexico &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Huitzilopochtli demanding blood to forestall the Fifth Sun's collapse</div>
+    <div class="note">split from mesoamerican? — flag; distinct Nahua pantheon &amp; the tonalpohualli</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Maya</span>
+      <span class="meta">2,000 BCE &middot; Yucatán / Guatemala &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Itzamna &amp; the Popol Vuh Hero Twins; the Lords of Xibalba; K'inich Ajaw</div>
+    <div class="note">split from mesoamerican? — flag; own glyphic corpus &amp; calendar; living in highland practice</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Olmec</span>
+      <span class="meta">1,500 BCE &middot; Gulf Coast &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the were-jaguar / proto-Feathered-Serpent — the 'mother culture' the later gods descend from</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Zapotec &amp; Mixtec (Oaxacan)</span>
+      <span class="meta">700 BCE &middot; Oaxaca &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Cocijo the lightning-rain god; Dzahui; the codex lineage-cosmology</div>
+    <div class="note">own scripts/calendars; fold Toltec (Quetzalcoatl-priest-king) &amp; Teotihuacan (the Storm-God &amp; Great Goddess) &amp; Purépecha (Curicaueri)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Muisca (Chibcha)</span>
+      <span class="meta">600 CE &middot; Colombian Altiplano &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Bochica the bearded culture-hero; the El Dorado gold-offering at Guatavita</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Selk'nam &amp; Yámana (Fuegian)</span>
+      <span class="meta">3,000 BCE &middot; Tierra del Fuego &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Temáukel &amp; the Hain initiation with its masked spirits; Watauinéwa — the southernmost human religion</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Amazonian visionary (Yanomami / Shipibo / Tukano / Gê)</span>
+      <span class="meta">2,000 BCE &middot; Amazon basin &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Omama &amp; the xapiri; the ayahuasca icaros &amp; kené patterns; the Sun-Father's Yuruparí order</div>
+    <div class="note">anchor shard for forest cosmologies — fold Shipibo, Desana/Tukano, Kayapó/Gê as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Pre-Inca Andean (Chavín / Moche / Tiwanaku)</span>
+      <span class="meta">1,200 BCE &middot; Peru / Bolivia &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">the Chavín Lanzón Staff-God; the Moche 'Decapitator' Ai-Apaec; the Tiwanaku Gateway-of-the-Sun (Viracocha prototype)</div>
+    <div class="note">the root horizons the andean/Inca shard grew from; fold Nazca, Wari</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#9a7fd0">
+    <h2><span class="dot"></span>Western Esotericism &amp; Occult <em>14 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Hermeticism</span>
+      <span class="meta">100 BCE &middot; Greco-Roman Egypt &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Hermes Trismegistus &amp; the Corpus Hermeticum; 'as above, so below'; the nous-ascent</div>
+    <div class="note">★ split OUT of gnostic — its own initiatic philosophy, living via the Renaissance/occult revival</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Alchemy</span>
+      <span class="meta">300 BCE &middot; Hellenistic Egypt → Europe / China &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Magnum Opus; the Philosopher's Stone; nigredo→albedo→rubedo</div>
+    <div class="note">inner-transmutation as a spiritual system; Chinese neidan cross-links to taoism-religious</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Hermetic Qabalah</span>
+      <span class="meta">1,486 CE &middot; Renaissance Europe &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Tree of Life &amp; 32 Paths as the occult skeleton of the West</div>
+    <div class="note">the Christianized-occult offshoot of Jewish kabbalah</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Rosicrucianism</span>
+      <span class="meta">1,614 CE &middot; Germany &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Christian Rosenkreuz &amp; the Fama Fraternitatis; the invisible college</div>
+    <div class="note">fold the modern AMORC</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Esoteric Freemasonry</span>
+      <span class="meta">1,717 CE &middot; British Isles &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Craft degrees; Hiram Abiff; the Royal Art as moral allegory</div>
+    <div class="note">fold Martinism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Hermetic Order of the Golden Dawn</span>
+      <span class="meta">1,888 CE &middot; London &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Mathers/Westcott/Woodman; the master-synthesis of Western ceremonial magic</div>
+    <div class="note">fold Enochian (Dee), BOTA, the Society of the Inner Light (Dion Fortune)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Thelema (Crowley / OTO / A∴A∴)</span>
+      <span class="meta">1,904 CE &middot; Cairo / UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Aleister Crowley &amp; the Book of the Law; 'Do what thou wilt'; True Will; the Aeon of Horus</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Theosophy</span>
+      <span class="meta">1,875 CE &middot; USA / India &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">H.P. Blavatsky &amp; the Secret Doctrine; the Masters; root-races; akasha — ★ the root of the New Age</div>
+    <div class="note">fold Ascended-Master teachings (I AM / CUT) or give them their own NRM shard</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Anthroposophy</span>
+      <span class="meta">1,912 CE &middot; Germany / Switzerland &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Rudolf Steiner; spiritual science; the etheric Christ; Waldorf &amp; biodynamics</div>
+    <div class="note">split from theosophy</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Spiritualism</span>
+      <span class="meta">1,848 CE &middot; USA (Hydesville) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Fox sisters; mediumship; 'no death, only transition' — the 19th-c root of channeling</div>
+    <div class="note">bridges to espiritismo &amp; the New Age channeling stream</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Swedenborgianism (New Church)</span>
+      <span class="meta">1,745 CE &middot; Sweden / England &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Emanuel Swedenborg; the doctrine of correspondences; heaven &amp; hell as inner states</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">The Fourth Way (Gurdjieff)</span>
+      <span class="meta">1,915 CE &middot; Russia / France &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">G.I. Gurdjieff; 'man is asleep'; self-remembering; the Enneagram; conscious labor</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Chaos Magic</span>
+      <span class="meta">1,976 CE &middot; UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Carroll &amp; Spare's sigils; 'nothing is true, everything is permitted'; belief as a tool</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Astrology · Tarot · Numerology</span>
+      <span class="meta">2,000 BCE &middot; Mesopotamia → global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the zodiac as fate-map; the 78 Tarot keys; Pythagorean sacred number</div>
+    <div class="note">anchor shard for divination-as-worldview ('as above, so below' applied to a life); fold the three as figures or split astrology out (wave-3)</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#8a3550">
+    <h2><span class="dot"></span>Left-Hand-Path &amp; Dark Currents <em>7 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">LaVeyan Satanism (Church of Satan)</span>
+      <span class="meta">1,966 CE &middot; USA (San Francisco) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Anton LaVey &amp; the Satanic Bible; self-as-one's-own-god; indulgence over abstinence</div>
+    <div class="note">the modern-Satanism anchor; atheistic/symbolic</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">The Satanic Temple</span>
+      <span class="meta">2,013 CE &middot; USA (Salem) &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Baphomet-as-civil-liberties; the Seven Tenets; non-theistic activism</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Theistic / Traditional Satanism</span>
+      <span class="meta">1,970 CE &middot; diffuse Western &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">worship of Satan as a real entity (vs LaVey's symbol)</div>
+    <div class="note">umbrella for devotional currents; fold demonolatry &amp; Goetic command-magic</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Setianism (Temple of Set)</span>
+      <span class="meta">1,975 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Michael Aquino; Set as the principle of isolate intelligence (Xeper)</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Luciferianism</span>
+      <span class="meta">1,880 CE &middot; diffuse Western &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Lucifer as light-bringer/liberator (not Satan); gnostic-adjacent self-divinization</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Order of Nine Angles (O9A)</span>
+      <span class="meta">1,970 CE &middot; UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">'Anton Long' (David Myatt); the sinister Seven-Fold Way</div>
+    <div class="note">the extremist pole — include &amp; flag honestly (accelerationist ties); do not sanitize, do not valorize</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Goetia &amp; Grimoire Demonology</span>
+      <span class="meta">1,500 CE &middot; early-modern Europe &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the 72 demons of the Lesser Key of Solomon; conjure-and-command magic</div>
+    <div class="note">the grimoire tradition; bridges to demonolatry &amp; ceremonial magic</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#6aa06a">
+    <h2><span class="dot"></span>Modern Pagan Revivals <em>6 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Wicca (Gardnerian / Alexandrian)</span>
+      <span class="meta">1,939 CE &middot; UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Gerald Gardner &amp; the Wiccan Rede; the Goddess &amp; Horned God; the coven; the Wheel of the Year</div>
+    <div class="note">★ distinct from the ancient celtic shard — a modern revival</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Modern Druidry (OBOD / ADF)</span>
+      <span class="meta">1,717 CE &middot; UK / USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Iolo Morganwg's bardic revival; the awen; the bard-ovate-druid path</div>
+    <div class="note">revival construct — distinct from ancient celtic</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Heathenry / Ásatrú / Odinism</span>
+      <span class="meta">1,972 CE &middot; Iceland / USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Sveinbjörn Beinteinsson; the blót; the Nine Noble Virtues; the Æsir reborn</div>
+    <div class="note">modern reconstruction — distinct from the ancient norse shard; flag the folkish/universalist split</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Goddess Movement / feminist witchcraft</span>
+      <span class="meta">1,971 CE &middot; USA / UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Great Goddess reclaimed; thealogy; 'the Goddess is alive'</div>
+    <div class="note">fold Dianic (Z Budapest), Reclaiming (Starhawk), Feri (Anderson) as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Stregheria</span>
+      <span class="meta">1,899 CE &middot; Italy / USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Leland's Aradia; Diana, Lucifer &amp; Aradia as witch-deities</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Church of All Worlds</span>
+      <span class="meta">1,962 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Heinlein-derived 'Thou art God/Goddess'; water-sharing; Gaia the living Earth</div>
+    
+  </div>
+  </section>
+<section class="family" style="--hue:#d8b84a">
+    <h2><span class="dot"></span>New Age &amp; New Religious Movements <em>14 add &middot; 1 fold</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">New Age movement</span>
+      <span class="meta">1,971 CE &middot; USA / UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the coming Age of Aquarius; channeling, crystals, holism, self-as-divine</div>
+    <div class="note">★ the umbrella Joe explicitly wants — fold Findhorn, the Harmonic Convergence/2012, crystal-energy healing, Human Design as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">New Thought (mind-cure)</span>
+      <span class="meta">1,860 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Quimby; 'thoughts create reality'; divine Mind; the root of the Law of Attraction</div>
+    <div class="note">fold Unity, Religious Science (Science of Mind), Christian Science as figures (or split Christian Science to wave 2)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Ascended Master Teachings (I AM / CUT)</span>
+      <span class="meta">1,934 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Saint Germain &amp; the Great White Brotherhood; the Violet Flame; decrees</div>
+    <div class="note">Theosophy offshoot — fold here or under theosophy</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Channeling current (Seth / Ramtha / ACIM)</span>
+      <span class="meta">1,963 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Seth (Jane Roberts), Ramtha (JZ Knight), A Course in Miracles (Schucman); 'you create your own reality'</div>
+    <div class="note">the trance-conduit family; descends from Spiritualism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Neoshamanism / Core Shamanism</span>
+      <span class="meta">1,980 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Michael Harner's 'core' shamanic journey to non-ordinary reality via the drum</div>
+    <div class="note">overlaps the existing castaneda forgery-shard — seam it there</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">Scientology / Dianetics</span>
+      <span class="meta">1,954 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">L. Ron Hubbard; the thetan; the reactive mind; auditing toward 'Clear'</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Eckankar</span>
+      <span class="meta">1,965 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Paul Twitchell; Soul Travel via the Light &amp; Sound of God (ECK); the living Mahanta</div>
+    <div class="note">Western reframe of surat-shabd yoga; fold Radhasoami/Sant Mat as the root-figure</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Subud</span>
+      <span class="meta">1,925 CE &middot; Indonesia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Muhammad Subuh (Bapak); the latihan kejiwaan — spontaneous surrender to the divine force</div>
+    
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Transcendental Meditation (TM)</span>
+      <span class="meta">1,955 CE &middot; India / USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Maharishi Mahesh Yogi; the mantra technique; the Maharishi Effect</div>
+    <div class="note">cross-lists with modern Hindu NRMs</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w1">wave 1</span>
+      <span class="name">UFO religions (Raëlism / Heaven's Gate / Aetherius)</span>
+      <span class="meta">1,947 CE &middot; France / USA / UK &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the Elohim cloned us (Raël); shed the vehicle to board the craft (Heaven's Gate); the Cosmic Masters (Aetherius); Ashtar Command</div>
+    <div class="note">★ resonant with Joe's disclosure/trillion-eyed work — anchor shard; fold Unarius, Unizverse People, the 1950s Contactees</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Invented &amp; parody religions</span>
+      <span class="meta">1,957 CE &middot; USA / global &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Eris/Discordianism, the Flying Spaghetti Monster, Jediism, the Church of the SubGenius's 'Slack', Kopimism, Dudeism</div>
+    <div class="note">anchor shard for fiction-based &amp; satirical religions — each a figure; note the serious-vs-satire spectrum</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Transhumanist &amp; techno-religions</span>
+      <span class="meta">1,881 CE &middot; USA / Russia &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Fyodorov's Cosmist 'Common Task' (resurrect all the dead); Terasem (mindfiles); the Turing Church; Way of the Future (AI godhead)</div>
+    <div class="note">★ thematically adjacent to Joe's substrate/consciousness work</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Entheogenic churches (Santo Daime / UDV / Bwiti)</span>
+      <span class="meta">1,900 CE &middot; Brazil / Gabon &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the ayahuasca sacrament 'Daime' &amp; the hymns; the UDV's hoasca; Gabonese iboga &amp; the initiatory death-rebirth</div>
+    <div class="note">the sacrament-as-doorway family; cross-lists with the Native American Church (peyote)</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Urantia / channeled-scripture religions</span>
+      <span class="meta">1,882 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">the celestial-authored Urantia Book cosmology; the Thought Adjuster; an expanded Jesus (Michael)</div>
+    <div class="note">fold Oahspe (1882) the proto-UFO channeled 'new bible'</div>
+  </div>
+<div class="row fold">
+    <div class="r-head">
+      <span class="chip" style="--c:#8f7fae">fold</span>
+      <span class="into">→ nation-of-islam</span>
+      <span class="name">Esoteric Black-American Islam</span>
+      <span class="meta">1,913 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">Moorish Science (Noble Drew Ali); the Five-Percent Nation's Supreme Mathematics</div>
+    <div class="note">kin-figures to the nation-of-islam shard</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#9aa0a8">
+    <h2><span class="dot"></span>Liberal &amp; Secular Life-Stances <em>4 add</em></h2>
+    <div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Unitarian Universalism</span>
+      <span class="meta">1,565 CE &middot; USA &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">a creedless covenantal faith drawing from all traditions; the inherent worth of every person</div>
+    <div class="note">fold historical Unitarianism (Dávid/Socinus) &amp; Universalism</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Deism</span>
+      <span class="meta">1,624 CE &middot; Britain / France &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">a Creator known by reason who does not intervene; the clockmaker God</div>
+    <div class="note">diffuse — a stance, no institution</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w2">wave 2</span>
+      <span class="name">Pantheism / Spinozism / Gaianism</span>
+      <span class="meta">1,677 CE &middot; Europe &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">God and Nature are identical (Deus sive Natura); the living Earth revered (Gaia)</div>
+    <div class="note">fold Spinozism, Pandeism, Panentheism, Deep Ecology, Gaianism as figures</div>
+  </div>
+<div class="row add">
+    <div class="r-head">
+      <span class="chip" style="--c:#e6ad44">add</span>
+      <span class="wave w3">wave 3</span>
+      <span class="name">Secular Humanism / organized Atheism</span>
+      <span class="meta">1,876 CE &middot; USA / Britain &middot; <span class="live">living</span></span>
+    </div>
+    <div class="anchor">human reason, ethics &amp; dignity without the supernatural; Ethical Culture's 'deed before creed'</div>
+    <div class="note">the boundary case — a non-theistic life-stance; include per 'no exceptions' but mark it the edge of the set</div>
+  </div>
+  </section>
+<section class="family" style="--hue:#8a8a8a">
+    <h2><span class="dot"></span>Modern Fabrication (kept as fool's-gold) <em>1 have</em></h2>
+    <div class="row have">
+    <div class="r-head">
+      <span class="chip" style="--c:#7fae6a">have</span>
+      
+      <span class="name">Castaneda (forged Toltec)</span>
+      <span class="meta">1,968 CE &middot; 20th-c fabrication &middot; <span class="dead">historic</span></span>
+    </div>
+    <div class="anchor">Don Juan Matus; the tonal/nagual — de Mille's 'Piltdown of anthropology'</div>
+    <div class="note">kept deliberately as the forgery/fool's-gold tier; seam points home to Horden's grounded Tarahumara line</div>
+  </div>
+  </section>
+
+<footer>7-specialist parallel completeness sweep (Abrahamic / Dharmic-E.Asian / African+diaspora / indigenous-Americas-Oceania-Siberia / ancient-dead / Western-esoteric-occult-dark / New-Age-NRM-secular) → deduped + granularity-judged here.<br>data/_candidates.json &middot; regenerate: <code>node render-candidates.js</code></footer>
+
+</div></body></html>

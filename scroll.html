@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Scroll of Ages — The Mended Mirror</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scroll.css">
+</head>
+<body>
+<canvas id="scroll-canvas"></canvas>
+
+<header id="scroll-header">
+  <h1>The Scroll of Ages</h1>
+  <p class="sub">walk the line of history &mdash; the mirror, cracking and re-fusing</p>
+</header>
+<div class="mode-note">scroll skin &middot; bite 2</div>
+
+<div id="controls">
+  <button id="play" title="play / pause">&#9655;</button>
+  <span class="sep"></span>
+  <button data-go="-50000">deep&nbsp;time</button>
+  <button data-go="-500">axial&nbsp;age</button>
+  <button data-go="400">late&nbsp;antiquity</button>
+  <button data-go="2026">now</button>
+</div>
+
+<aside id="reliquary"></aside>
+<div id="hint">drag the ribbon or use &larr; &rarr; to scrub time &middot; click a shard for its reliquary &middot; &#9655; to let the ages run</div>
+
+<script src="data/mirror-data.js"></script>
+<script src="temporal-engine.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>

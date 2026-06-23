@@ -1,0 +1,46 @@
+{
+  "verdicts": [
+    {
+      "a": "wakan-tanka",
+      "b": "inktomi",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Documented within Lakota cosmology (Walker/Sword): Iktómi (Spider) is the son of Iŋyaŋ (the Rock) and is the trickster/namer counted among the wakáŋ beings under the totality of Wakáŋ Tȟáŋka. This is an attested structural relationship inside ONE tradition, recorded in real ethnographic texts (James R. Walker's Oglala material). Tier-2 'attested' is the correct register for a documented intra-tradition relation; it is not a linguistic cognate claim, so tier-1 would be wrong, but tier-2 holds."
+    },
+    {
+      "a": "wakan-tanka",
+      "b": "wi",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Wí (the Sun) is explicitly enumerated among the Tȟobtób kiŋ, the sixteen aspects of Wakáŋ Tȟáŋka, in the Walker/Sword material — Wí is the chief of the Wakáŋ Aŋkátu (Superior Wakan). This is a documented part-of-whole relationship within one tradition. Attested (tier 2) is defensible and correctly applied."
+    },
+    {
+      "a": "wi",
+      "b": "hanwi",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Wí (Sun) and Haŋwí (Moon) are a documented paired couple in the Walker corpus — Haŋwí is given as the companion of Wí, displaced to the night after the feast where Iktómi tricks her, dividing day from night. The pairing and their parting are recorded narrative within ONE tradition. Tier-2 attested is the right register (documented relationship, not a sound-law cognate)."
+    },
+    {
+      "a": "wakinyan",
+      "b": "unktehi",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The enmity of Wakíŋyaŋ (Thunderbird, sky/west power) and Uŋktéȟi (the water-monster of the deep) is a documented antagonism in Lakota tradition — the Thunderbirds war on the Uŋktéȟila. This is an attested intra-tradition mythological relationship (here an inversion/opposition), recorded in ethnographic sources. Tier-2 holds; the 'inverts' relation is well-grounded."
+    },
+    {
+      "a": "wi",
+      "b": "sacred-hoop",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Down-tier from 2 to 3. That the Sun Dance is performed facing the Sun within a quartered/circular arbor is genuine Lakota practice, but the link asserted here between Wí (a named holy power) and 'sacred-hoop' (the cȟaŋgléška wakáŋ / cosmogram concept) is a structural/ritual-spatial parallel rather than a single documented identity or named relationship between two figures. It is the honest comparativist's 'analogous' claim — the Sun is centre, the hoop is circumference — not an attested figure-to-figure syncretism. Tier-3 analogous is the defensible register."
+    },
+    {
+      "a": "ptesan-win",
+      "b": "sacred-hoop",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible at tier 2. The White Buffalo Calf Woman (Ptesáŋwiŋ) narrative is a documented Lakota tradition in which she brings the Čhaŋnúŋpa (sacred pipe), and the pipe with its four-direction symbolism is explicitly read in Lakota teaching (Black Elk / Brown, The Sacred Pipe) as embodying the hoop of the world and the four directions. The culture-hero's gift carrying the quartered-circle cosmogram is an attested teaching within ONE tradition, recorded in real texts. Tier-2 attested holds (it is intra-tradition and documented, not a cross-family cognate)."
+    }
+  ]
+}

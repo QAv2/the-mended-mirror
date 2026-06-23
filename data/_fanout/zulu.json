@@ -1,0 +1,278 @@
+{
+  "tradition": {
+    "id": "zulu",
+    "name": "Zulu / Nguni",
+    "region": "Southern Africa",
+    "color": "#cf7a4a"
+  },
+  "figures": [
+    {
+      "id": "unkulunkulu",
+      "kind": "ancestor",
+      "name": "Unkulunkulu",
+      "archetypes": [
+        "first-ancestor",
+        "withdrawn-creator"
+      ],
+      "gloss": "The Great-Great-One who came first from uHlanga, the bed of reeds, and broke off humankind and cattle after him — at once the first man, the first ancestor, and the maker of the world's institutions and names.",
+      "facet": "The shard where creator and ancestor are not two things but one: Unkulunkulu does not stand above the world like a sky-god — he is the eldest of the lineage itself, the first link of the ancestral chain. Divinity is not descended from heaven but ascended from the reed-bed of the dead.",
+      "provenance": "Drawn chiefly from Bishop Callaway's 1860s-70s Zulu testimonies; even the earliest informants disputed whether Unkulunkulu was creator, first man, or both — a genuine and recorded ambiguity, not a missionary tidying."
+    },
+    {
+      "id": "zulu-uthlanga",
+      "kind": "concept",
+      "name": "uHlanga (the Reed-Bed)",
+      "archetypes": [
+        "world-egg",
+        "axis-mundi"
+      ],
+      "gloss": "The primal source — a marsh of reeds, or a single great reed — from which Unkulunkulu and all things broke off and came forth, the undifferentiated origin out of which the differentiated world is snapped loose.",
+      "facet": "Not an egg and not a sea but a REED: the Nguni image of origin is a stem that buds and breaks, so creation is figured as vegetal severance — life pinched off from a living source rather than hatched, dived-up, or spoken.",
+      "provenance": "uHlanga / uthlanga in Callaway; the word means both 'source/origin' and 'reed', and the slippage between the two is itself the cosmogony."
+    },
+    {
+      "id": "umvelinqangi",
+      "kind": "deity",
+      "name": "uMvelinqangi",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "'The One Who Came First' — the sky-dwelling supreme being associated with thunder and the high heaven, sometimes named as the father (or elder aspect) of Unkulunkulu, remote from the daily affairs of the living.",
+      "facet": "A high-god distilled out of a verb: uMvelinqangi is less a personality than a priority — 'the first to appear' — divinity named by its place at the beginning of the sequence rather than by deeds, so awe attaches to firstness itself.",
+      "provenance": "In some Nguni testimonies uMvelinqangi and Unkulunkulu merge; in others the sky-being is distinguished from the reed-born ancestor. The mirror keeps them as two faces of one origin."
+    },
+    {
+      "id": "nomkhubulwane",
+      "kind": "deity",
+      "name": "Nomkhubulwane (Inkosazana)",
+      "archetypes": [
+        "great-mother",
+        "storm-wielder"
+      ],
+      "gloss": "The Princess of Heaven, daughter of the sky, mistress of rain, grain, fertility and the green growth of spring — for whom young women plant a small garden and walk in procession so the rains will come and the harvest hold.",
+      "facet": "A goddess served by maidens alone: her rite belongs to unmarried girls who till her field and go bare in procession, a sphere of the sacred reserved to women and the unwed — fertility tended by those not yet themselves fertile.",
+      "provenance": "Nomkhubulwane / Inkosazana yezulu ('Princess of the Sky'); the ukweshwama and maiden-garden rites are attested in 19th- and 20th-c. ethnography of the Zulu and neighbouring Nguni."
+    },
+    {
+      "id": "zulu-unwabu",
+      "kind": "concept",
+      "name": "Unwabu & Intulo (Chameleon and Lizard)",
+      "archetypes": [
+        "origin-of-death"
+      ],
+      "gloss": "Unkulunkulu sent the slow chameleon Unwabu to tell humankind, 'You shall not die,' then sent the swift lizard Intulo after with, 'You shall die.' The lizard arrived first; so death entered the world and stayed because the message of life came late.",
+      "facet": "Mortality not as punishment but as a MISCARRIED MESSAGE — death is a delivery failure, the consequence of the chameleon's dawdling, not of any human sin. The Zulu still rebuke the chameleon for it. This 'failed message of immortality' is the signature pan-African answer to why we die.",
+      "provenance": "Among the most widely attested African myths, found from the Zulu to the Akan to East Africa; recorded for the Zulu by Callaway. Its near-universality across unrelated language-families is itself a datum."
+    },
+    {
+      "id": "amadlozi",
+      "kind": "ancestor",
+      "name": "Amadlozi (the Ancestral Shades)",
+      "archetypes": [
+        "first-ancestor",
+        "one-through-many"
+      ],
+      "gloss": "The shades of the dead — the abaphansi, 'those below' — who watch over the lineage, send dreams and illness as warnings, and receive the slaughtered beast and the poured beer that bind the living to their forebears.",
+      "facet": "The true working religion of the Nguni: prayer is addressed not to the remote creator but downward and inward to one's own dead, the snake in the homestead their visible form. The sacred is the family extended past the grave, not a heaven above it.",
+      "provenance": "Amadlozi / amathongo / abaphansi; ancestral veneration is the living core of Nguni religious practice, far better attested than any high-god cult."
+    },
+    {
+      "id": "zulu-inkanyamba",
+      "kind": "force",
+      "name": "Inkanyamba",
+      "archetypes": [
+        "cosmic-serpent",
+        "storm-wielder"
+      ],
+      "gloss": "The great serpent of storm and waterfall, a vast snake whose movements through the sky raise the tornado and the seasonal tempest, dwelling in deep pools and rising to seek its mate in the clouds.",
+      "facet": "A weather made of snake: where other traditions split the storm-god from the world-serpent, the Nguni fuse them — the tempest is not hurled by a sky-wielder but is the very body of a serpent moving between pool and cloud.",
+      "provenance": "Inkanyamba of the Zulu and neighbouring peoples (notably tied to Howick Falls); a living folk-belief recorded into the modern era."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "unkulunkulu",
+      "b": "zulu-uthlanga",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Within Zulu myth: Unkulunkulu breaks off FROM uHlanga, the reed-source. The maker and the matrix he emerges from, in one cosmogony."
+    },
+    {
+      "a": "umvelinqangi",
+      "b": "unkulunkulu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "In the recorded testimonies these two names are sometimes one being, sometimes father-and-son; an attested internal ambiguity of the Nguni high-god, not a clean genealogy."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "zulu-unwabu",
+      "type": "pairs",
+      "tier": "1",
+      "note": "It is Unkulunkulu himself who sends the chameleon and the lizard; the death-myth is the creator's own act of (failed) gift-giving."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "amadlozi",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Unkulunkulu is the FIRST and greatest of the ancestors; the amadlozi are the chain that begins with him. Creator and ancestor are continuous in Nguni thought."
+    },
+    {
+      "a": "umvelinqangi",
+      "b": "nomkhubulwane",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The sky-father 'who came first' and the Princess of the Sky — high heaven and its rain-bearing daughter, the remote source and the near fertility that descends from it."
+    },
+    {
+      "a": "nomkhubulwane",
+      "b": "zulu-inkanyamba",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Both govern the rains the Nguni depend on — the maiden-tended grain-mother who calls the storm, and the serpent who is the storm; two faces of the sky's water."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African supreme beings who recede from daily worship — but Nyame is a sky-creator who withdraws upward, while Unkulunkulu recedes DOWNWARD into the ancestral reed-bed. The shared deus-otiosus drift makes the African divergence (heaven vs. lineage) legible."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the oldest, most withdrawn source-being behind the working pantheon — the African high origin that creates and then steps back beyond reach."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both stand at the head of their world's sequence, but Dyeus is an active sky-sovereign while Unkulunkulu is the first ancestor merged with the creator — sky-firstness versus lineage-firstness."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: Unkulunkulu as first cosmic man from whom humankind breaks off faintly echoes the Purusa whose body seeds the world — but there is no sacrifice here, only a snapping-off. Flagged as speculative."
+    },
+    {
+      "a": "umvelinqangi",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are supreme sky-powers held in distant awe while the ancestors and lesser powers receive the actual cult — high heaven worshipped less directly than the near dead."
+    },
+    {
+      "a": "umvelinqangi",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sky-being 'who came first' over the lived world; both name the heavens as the prior, originating term of creation."
+    },
+    {
+      "a": "zulu-uthlanga",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both figure origin as an undifferentiated source from which the world is brought forth — but uHlanga is a vegetal reed-matrix, not a dual divinity. A loose world-egg echo, flagged."
+    },
+    {
+      "a": "zulu-uthlanga",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The primal ground from which the first beings emerge; uHlanga is a marsh-source rather than Earth personified, so the parallel is structural and loose."
+    },
+    {
+      "a": "nomkhubulwane",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Grain-and-growth goddess whose rite secures the harvest, served in processions of women — the green of the field made divine in both."
+    },
+    {
+      "a": "nomkhubulwane",
+      "b": "parvati",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sky's daughter as great-mother of fertility and abundance; both gather the powers of growth and the rains into a single nurturing goddess."
+    },
+    {
+      "a": "nomkhubulwane",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Earth/fertility mother tied to the agricultural cycle, but where Coatlicue devours as well as bears, Nomkhubulwane is wholly the green giver — a partial echo, flagged."
+    },
+    {
+      "a": "amadlozi",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African cults of the honoured dead — the Akan nsamanfo and the Nguni amadlozi — in which one's own forebears, not a remote god, are the nearest sacred power. Functional kin across unrelated families, never cognate."
+    },
+    {
+      "a": "amadlozi",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose link: Yama is the first man to die who becomes lord of the dead, while the amadlozi are the collective dead who govern the living — both make the deceased a continuing power, by different routes."
+    },
+    {
+      "a": "zulu-unwabu",
+      "b": "zulu-uthlanga",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Origin and end frame the human shard: life breaks off from the reed at the beginning, and the chameleon's failed message fixes death at the threshold."
+    },
+    {
+      "a": "zulu-unwabu",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two answers to why humankind lost immortality — Eden makes death a punishment for transgression, the chameleon makes it a delivery failure. Same question, opposite moral logic."
+    },
+    {
+      "a": "zulu-unwabu",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A faint structural touch: both concern the entry of death into the human order, but Dumuzi's is a seasonal dying-rising, the chameleon's a once-for-all miscarried message. Flagged as a stretch."
+    },
+    {
+      "a": "zulu-inkanyamba",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Storm and serpent meet in both, but inverted: Indra SLAYS the serpent Vrtra to release the rains, while Inkanyamba IS the serpent that brings them — the dragon-fight read backwards."
+    },
+    {
+      "a": "zulu-inkanyamba",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The serpent fused with sky and weather; both are world-serpents of cloud and storm rather than mere chaos-dragons, the snake as continuity rather than enemy."
+    },
+    {
+      "a": "zulu-inkanyamba",
+      "b": "raijin",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both personify the tempest, but Raijin is a drum-beating thunder-spirit and Inkanyamba a serpent of the falls — same weather, very different body. Flagged."
+    },
+    {
+      "a": "nomkhubulwane",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are Southern/West African powers tied to storm and the sky's bounty, but Sango is a thunder-king and Nomkhubulwane a rain-and-grain princess — a loose regional rhyme, not a cognate."
+    }
+  ]
+}

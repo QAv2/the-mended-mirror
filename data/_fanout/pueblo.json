@@ -1,0 +1,316 @@
+{
+  "tradition": {
+    "id": "pueblo",
+    "name": "Pueblo (Hopi & Zuni)",
+    "region": "North America (Southwest mesas & pueblos)",
+    "color": "#d9a155"
+  },
+  "figures": [
+    {
+      "id": "pueblo-emergence",
+      "kind": "concept",
+      "name": "The Emergence (Sípàapuni / the place of emergence)",
+      "archetypes": [
+        "emergence",
+        "axis-mundi"
+      ],
+      "gloss": "Humankind climbs up through three or four dark, imperfect lower worlds into this present world, ascending a great reed or pine and squeezing out through the sípapu, a navel-hole in the floor of the world; the Hopi mark its place in the Grand Canyon and cut a small sípapu into every kiva floor, the umbilical scar by which the people came up and the dead go back down.",
+      "facet": "Origin is an ascent and a birth, not a fabrication: the cosmos is a stack of wombs and the sípapu the ever-present navel kept open in the kiva floor — so every ritual descent into the kiva re-enters the world the people climbed out of, beginning made permanently visitable rather than once-and-done.",
+      "provenance": "Hopi and Zuni emergence narratives recorded by Cushing, Stephen, Parsons, Tyler (Pueblo Gods and Myths) and Tedlock (Finding the Center); the number of underworlds (three or four) varies by pueblo and clan."
+    },
+    {
+      "id": "pueblo-spider-grandmother",
+      "kind": "deity",
+      "name": "Kókyangwúti / Tsʼitsʼtsʼinako (Spider Grandmother, Zuni Thought Woman)",
+      "archetypes": [
+        "great-mother",
+        "culture-hero"
+      ],
+      "gloss": "Spider Grandmother, who at Zuni is Tsʼitsʼtsʼinako, Thought Woman — creator-by-thinking, who spins the people's path and counsel; she leads humankind up through the lower worlds, mends and feeds them, spits on earth to mould the Hero Twins, and teaches the arts of living. To name a thing is to make it; the world is thought into being and then climbed.",
+      "facet": "Creation by cognition embodied as a tiny grandmother in a web: where other makers shape matter, Thought Woman thinks the world and its names into existence, then personally guides the climb — cosmogony as thought-plus-mothering, the universe spun from a mind that also tucks the people in.",
+      "provenance": "Hopi Kókyangwúti and Zuni Tsʼitsʼtsʼinako attested in Cushing (Zuni Creation Myths), Stephen, Parsons (Pueblo Indian Religion) and Tyler; 'Thought Woman' is the standard rendering of the thinking-into-being motif."
+    },
+    {
+      "id": "pueblo-tawa",
+      "kind": "deity",
+      "name": "Tawa (Táawa, the Hopi Sun Father)",
+      "archetypes": [
+        "solar",
+        "sky-father"
+      ],
+      "gloss": "Tawa, the Sun Father — creator of the First World from the endless space of Tokpella, who together with Spider Grandmother forms living things and presides as father of the upper world; the sun is greeted at dawn with corn-meal and prayer-feathers, and the path of the dead and the daily blessing of the people both run by his light.",
+      "facet": "The sun as a present, prayed-to father whose daily crossing must be met and fed by the people: not a remote disk but the addressee of the first morning prayer and the warmth a maize-people lives or dies by — solar fatherhood as a reciprocal daily covenant of breath and corn-meal.",
+      "provenance": "Hopi Sun-Father tradition in Tyler (Pueblo Gods and Myths) and Voth/Stephen; dawn corn-meal offering to the sun is widely documented Pueblo practice."
+    },
+    {
+      "id": "pueblo-awonawilona",
+      "kind": "deity",
+      "name": "Awonawilona (the Zuni He-She, the All-Container)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "Awonawilona, the All-Container, 'He-She' — the bisexual, self-existent first being who alone was in the beginning in the black void; thinking outward, it made mist and from its own flesh the seed of the worlds and the Sun, who in turn thickened the green-scummed seas into the fourfold womb of earth, and then it recedes behind the work it set going.",
+      "facet": "A maker who is both sexes in one and makes the cosmos out of its own substance, then withdraws: creation is neither sexual union nor fabrication from outside but the self-fission of a single He-She whole into the many — a unitary androgyne dividing itself into a world and stepping back.",
+      "provenance": "Recorded by Frank Hamilton Cushing (Outlines of Zuni Creation Myths, 1896); a contested high-deity formulation often read as filtered through Cushing's own framing, so flagged as ethnographically singular rather than securely communal doctrine."
+    },
+    {
+      "id": "pueblo-kachina",
+      "kind": "ancestor",
+      "name": "The Katsinam (Kachinas, the masked cloud-spirits)",
+      "archetypes": [
+        "dying-rising",
+        "one-through-many"
+      ],
+      "gloss": "The Katsinam — hundreds of ancestral spirits of cloud and rain who dwell half the year on the sacred peaks (the Hopi place them on the San Francisco Peaks) and half among the living, walking the plazas as masked dancers from the winter solstice to Niman in July; the dead become Kachinas and return as the rain they bring, and the masked man who dances is held to BE the spirit, not to portray it.",
+      "facet": "The ancestral dead come back as rain and are danced into bodily presence: in the act of masking, the dancer does not represent the Kachina but becomes it for the dance — the dead made literally present and life-giving, religion as the seasonal, masked RETURN of the ancestors as the water the desert lives on.",
+      "provenance": "Hopi and Zuni Katsina practice documented by Stephen, Voth, Fewkes, Parsons (Pueblo Indian Religion) and Tyler; the doctrine that the masker becomes the spirit, and that the dead return as cloud, is widely reported. Detailed ceremonial and clan-specific Katsina knowledge is guarded and is here treated only at the level of published ethnography."
+    },
+    {
+      "id": "pueblo-war-twins",
+      "kind": "hero",
+      "name": "Pöqángwhoya & Palöngawhoya (the Hopi war-brothers; Zuni Ahayuta)",
+      "archetypes": [
+        "divine-twins",
+        "culture-hero"
+      ],
+      "gloss": "The little war-god twins — Pöqángwhoya the elder and Palöngawhoya the younger to the Hopi, the Áhayúːta to the Zuni — born of the Sun (or spat into being by Spider Grandmother), small, mischievous and dangerous; they were set at the cardinal points to steady the new-emerged earth, sound out its echoes, and slay or tame the monsters that beset the people, and they patron war, games and the hunt.",
+      "facet": "Tiny, comic, paired hooligan-gods who are nonetheless the earth's stabilizers and monster-killers: the world is held level and made safe not by a lone champion but by two small impudent brothers — divine-twinship as the boyish double-deity who steadies creation by play and violence at once.",
+      "provenance": "Hopi Pöqángwhoya/Palöngawhoya and Zuni Ahayuta attested in Cushing, Stephen, Parsons and Tyler; names, paternity and exploits vary across pueblos but the paired war-twin pattern is constant."
+    },
+    {
+      "id": "pueblo-masauu",
+      "kind": "deity",
+      "name": "Maasaw (Másaw / Masauʼu, the Hopi caretaker of this world)",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "Maasaw — god of death, fire and the earth's surface, skull-faced and fearsome yet kindly, the owner and caretaker of this Fourth World; he meets the people as they emerge, and they choose to live by his hard way of the planting-stick and the short blue ear of corn. He keeps the boundary of death, walks the night with his fire, and from him the Hopi hold the land in stewardship, not ownership.",
+      "facet": "The lord of death is also the landlord of the living world and the giver of its founding covenant: at the Emergence the people deliberately take the humble, laborious life Maasaw offers — religion as a CONTRACT of humility struck with death itself, the master of the grave consented to as caretaker of the surface and teacher of how to live small.",
+      "provenance": "Hopi tradition of Maasaw in Tyler (Pueblo Gods and Myths), Malotki & Lomatuway'ma (Maasaw: Profile of a Hopi God), Stephen and Voth; the Emergence covenant and corn-choice are central and widely recorded, though much Maasaw lore is held closely."
+    },
+    {
+      "id": "pueblo-muyingwa",
+      "kind": "deity",
+      "name": "Muyingwa (Múyíngwa, the god of germination below)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "Muyingwa — the deity of the world below who germinates and ripens the seed, lord of the underworld's generative warmth from whom the corn, the beans and all growing things draw their increase; the Powamuy (Bean Dance) and planting rites turn toward him, and the seed kept and sprouted in the dark kiva is his work made visible.",
+      "facet": "Fertility located downward, in the world the people left at the Emergence: growth is not a gift from the sky but a force pushed up from the lower world through the same opening the people climbed — generation as the underworld's answering ascent, the seed germinated in the dark below and the maize-people fed from beneath.",
+      "provenance": "Hopi Muyingwa recorded by Fewkes, Stephen, Voth and Parsons; the germination-god of the below and his tie to the Bean Dance are documented, with ceremonial specifics held by the societies that keep them."
+    },
+    {
+      "id": "pueblo-four-worlds",
+      "kind": "concept",
+      "name": "The Four Worlds (the prior worlds and their ruin)",
+      "archetypes": [
+        "cyclic-ages",
+        "emergence"
+      ],
+      "gloss": "Before this one there were lower worlds — Tokpela the first, then Tokpa, then Kuskurza in the common Hopi reckoning — each made good and each ruined when the people forgot the right way and fell to corruption, so that the faithful were led up and out and the world below was destroyed or sealed behind them; this Fourth World, Túwaqachi, is itself provisional and may be left in turn if its people lose the path.",
+      "facet": "World-ages stacked as a vertical ascent of moral failures: the successive worlds are not turning wheels of time but lower rooms abandoned, each destroyed because the people corrupted it, so cosmic history is a climb away from one's own ruin — ages as floors of a house left behind, not epochs that recur.",
+      "provenance": "Hopi four-worlds tradition in Tyler, Waters' Book of the Hopi (a popular and partly contested source, flagged), and the older accounts of Stephen and Voth; the names and number of worlds vary, and some sequences are held differently by different clans."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "pueblo-emergence",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Spider Grandmother / Thought Woman is the guide of the Emergence — she spins the path and leads the people up through the lower worlds and out of the sípapu into this world."
+    },
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "pueblo-tawa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sun Father and Spider Grandmother form the first living things together in the Hopi creation — the warming sky-father and the thinking, moulding grandmother as the paired makers of the world."
+    },
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "pueblo-war-twins",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Spider Grandmother spits on the earth to mould the little war-twins and counsels them, as the Diné Spider Woman counsels her own Hero Twins — mother-maker of the steadying brothers."
+    },
+    {
+      "a": "pueblo-masauu",
+      "b": "pueblo-emergence",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Maasaw meets the people at the moment they emerge and gives them the covenant of the humble life and the short blue corn; the lord of this world greets them at the sípapu's mouth."
+    },
+    {
+      "a": "pueblo-masauu",
+      "b": "pueblo-kachina",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Both bind the living to the ancestral dead — Maasaw keeps the boundary of death and the surface world, while the Katsinam are the dead themselves returning as rain; the two faces of how the Hopi dwell with their dead."
+    },
+    {
+      "a": "pueblo-muyingwa",
+      "b": "pueblo-emergence",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Muyingwa germinates the seed in the world below, from which growth rises up through the same opening the people climbed — fertility ascending by the road of the Emergence."
+    },
+    {
+      "a": "pueblo-four-worlds",
+      "b": "pueblo-emergence",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Emergence is the climb out of the ruined prior worlds; the four-worlds sequence and the ascent through the sípapu are the same story told as ages and as an act."
+    },
+    {
+      "a": "pueblo-awonawilona",
+      "b": "pueblo-tawa",
+      "type": "pairs",
+      "tier": "3",
+      "note": "In the Zuni account the All-Container Awonawilona makes the Sun from its own substance and the Sun then thickens the world; the withdrawn He-She and the working sun as first cause and active maker."
+    },
+    {
+      "a": "pueblo-emergence",
+      "b": "first-man-first-woman",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The Pueblo and the neighbouring Diné share the Southwest emergence pattern — the people climb up through stacked coloured/dark lower worlds into this world; close geographic neighbours whose cosmogonies rhyme strongly, attested as a regional form rather than proven common descent."
+    },
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "spider-woman",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Hopi/Zuni Spider Grandmother and Diné Spider Woman are the same Southwest weaver-counsellor — a spider grandmother atop the world who guides the people and advises the war/hero twins; neighbouring traditions sharing one figure, kept tier-2 as a regional analogue, not a demonstrated single origin."
+    },
+    {
+      "a": "pueblo-war-twins",
+      "b": "naayee-neizghani",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The Pueblo war-twins and the Diné Monster Slayer are the Southwest's monster-killing sons of the Sun, counselled by Spider Grandmother/Woman; neighbouring versions of one regional war-twin tradition."
+    },
+    {
+      "a": "pueblo-war-twins",
+      "b": "tobadzistsini",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Paired Southwest war-brothers set at the world's points and born of the Sun; the Hopi Pöqángwhoya/Palöngawhoya beside the Diné Monster Slayer and Born-for-Water, the same neighbouring twin-pattern."
+    },
+    {
+      "a": "pueblo-tawa",
+      "b": "johonaa-ei",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Hopi Sun Father and Diné Sun-Bearer are the Southwest's solar father of the twins, greeted at dawn and reckoned the measure of the day; neighbouring solar fatherhoods of one regional cast."
+    },
+    {
+      "a": "pueblo-war-twins",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Pueblo war-twins and the Maya Hunahpu and Xbalanque are paired marvel-born brothers who tame or slay the monstrous and patron games — a structural rhyme of the American divine-twins across unrelated families, not a shared line."
+    },
+    {
+      "a": "pueblo-kachina",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The masked Katsina dancer who BECOMES the spirit and the Mexica ixiptla, the human or image into whom a god is made present, are two American forms of the vessel-of-spirit — the deity bodied forth in a consecrated wearer, independently reached."
+    },
+    {
+      "a": "pueblo-kachina",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose parallel: the sacred animating presence the masked dancer takes on rhymes with teotl, the Nahua charged sacred force that fills its vessels — flagged as a reach toward the idea of an immanent power donned, not a documented link."
+    },
+    {
+      "a": "pueblo-emergence",
+      "b": "emergence",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Pueblo climb up through prior worlds is a paradigm case of the emergence joint shared across the Americas — origin as ascent and birth from below rather than fabrication from above."
+    },
+    {
+      "a": "pueblo-kachina",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Katsinam as cloud-and-rain ancestors who must be danced into presence to bring the water, and Tláloc the Mexica rain-lord of the storied mountaintops, are two Southwestern-Mesoamerican faces of the rain made personal and petitioned by a maize-people."
+    },
+    {
+      "a": "pueblo-masauu",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Skull-faced American lords of death and the earth's lower realm — Maasaw who owns the Fourth World's surface and keeps the dead, Mictlantēcuhtli who rules Mictlan; the death-sovereign of the New World, though Maasaw uniquely also greets and keeps the living."
+    },
+    {
+      "a": "pueblo-masauu",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Underworld lords who own a fixed realm of the dead; Maasaw rhymes with Hades as the dread keeper of the boundary, but diverges sharply in being the caretaker of the living surface and the giver of the corn-covenant rather than only the receiver of the dead."
+    },
+    {
+      "a": "pueblo-masauu",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Death-gods who conduct or guard the passage of the dead and carry fire/light in the dark; a loose parallel between Maasaw the night-walking fire-keeper and Anubis the guide of the dead, flagged as a reach across wholly separate traditions."
+    },
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "athena",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both give weaving and wise counsel to the people — Spider Grandmother's spun path and craft beside Athena the loom-goddess; Athena is named in the inventory but absent from the built mirror, so logged as a reach toward the weaver-civiliser pattern, not to a present node."
+    },
+    {
+      "a": "pueblo-spider-grandmother",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Creation-by-thought: Thought Woman thinks the world and its names into being, a faint rhyme with Ptah who conceives creation in the heart and speaks it forth — logged as a loose parallel toward the cosmos-thought-into-being motif, not a documented link."
+    },
+    {
+      "a": "pueblo-awonawilona",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Bisexual self-existent first beings who contain both sexes and generate the cosmos from their own dual wholeness — the Zuni All-Container 'He-She' and the Nahua Ōmeteōtl 'Two-God'; the androgyne source as one-through-many, separately conceived in two American highlands."
+    },
+    {
+      "a": "pueblo-tawa",
+      "b": "inti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sun-fathers at the head of a maize-and-mountain people, met with dawn offering and reckoned the source of life — the Hopi Tawa and the Andean Inti as two New-World solar fathers of agriculturalists, independently central."
+    },
+    {
+      "a": "pueblo-tawa",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Creator sun-gods who make the world by their light and traverse the heavens daily; Tawa shaping the First World from Tokpella answers Ra's solar making, two unconnected accounts of the sun as first maker."
+    },
+    {
+      "a": "pueblo-four-worlds",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Successive worlds made and destroyed: the Hopi four worlds ruined by corruption and the Mexica suns ended in cataclysm under the four Tezcatlipocas — the American world-ages motif, ascent-by-floors here, recurring-suns there."
+    },
+    {
+      "a": "pueblo-muyingwa",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Powers of grain whose generative work runs through the world below — Muyingwa germinating the seed in the lower world, Demeter whose daughter's underworld sojourn turns the growing year; a loose parallel of fertility tied to the realm beneath, flagged as a reach."
+    }
+  ]
+}

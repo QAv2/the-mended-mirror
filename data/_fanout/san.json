@@ -1,0 +1,324 @@
+{
+  "tradition": {
+    "id": "san",
+    "name": "San / |Xam (Bushman)",
+    "region": "Southern Africa (Kalahari)",
+    "color": "#d2a25c"
+  },
+  "figures": [
+    {
+      "id": "kaggen",
+      "kind": "deity",
+      "name": "|Kaggen the Mantis",
+      "archetypes": [
+        "trickster",
+        "culture-hero",
+        "withdrawn-creator"
+      ],
+      "gloss": "The Mantis — |Kaggen, who dreams things into being, makes the moon by throwing his shoe into the sky, and is for ever blundering, killed, and remade. Creator, fool, and benefactor in one small green body, he made the eland in secret and loved it before any other thing.",
+      "facet": "The creator as an insect that can be crushed and come back to life — divinity housed in the smallest, most killable body. Where other traditions thunder their maker across the sky, the |Xam put the world's author in a mantis that is eaten by ants and reassembles from his own scattered pieces: omnipotence and absurdity are not opposites here.",
+      "provenance": "Recorded in the Bleek-Lloyd archive (1870s) from |Xam informants such as ||Kabbo and Diä!kwä; the testimonies are oral, fragmentary, and filtered through Victorian transcription — every San 'figure' is a reconstruction from a single great salvage, not a scripture."
+    },
+    {
+      "id": "kaang",
+      "kind": "deity",
+      "name": "/Kaang (Cagn)",
+      "archetypes": [
+        "withdrawn-creator",
+        "trickster"
+      ],
+      "gloss": "The supreme being and maker of the |Xam's southern and Kalahari neighbours — Cagn / Kaang — who created all things, gave them their natures, and then withdrew, surviving in the world as the mantis and in the hunter's luck. Often spoken of in the same breath as |Kaggen, his name another face of the Mantis-maker.",
+      "facet": "A creator who recedes not into a high heaven but into the brush and the game — Kaang does not sit enthroned above; he is dispersed into the eland's body and the hunt's outcome, a deus otiosus who became the very world he abandoned.",
+      "provenance": "Cagn/Kaang chiefly from 19th-c. Cape and ǀXam ethnography (Orpen's 1874 Maluti-San account, Bleek-Lloyd); the relation of Kaang to |Kaggen is genuinely blurred in the sources and the mirror keeps them as two faces of one maker."
+    },
+    {
+      "id": "san-eland",
+      "kind": "spirit",
+      "name": "The Eland",
+      "archetypes": [
+        "first-ancestor",
+        "dying-rising",
+        "master-of-animals"
+      ],
+      "gloss": "The first and most beloved creature, made by the Mantis in secret and reared in a reed; the great antelope whose fat is potency itself, whose killing seeds the rain, and whose form a girl at first blood, a marrying couple, and a trance-dancer all become. The eland is the |Xam's holy beast — meat, medicine, and metaphor at once.",
+      "facet": "An animal that is the sacrament: not a god in beast-shape but a beast through which the sacred flows directly — its grease anoints the initiate, its death calls the rain, and the shaman 'dies' the eland's death to enter trance. The shard where the holy is not personified above the animal world but located fully inside one animal.",
+      "provenance": "The eland's centrality is among the best-attested San beliefs, corroborated by the rock-art record (the eland is the most-painted animal across thousands of southern African sites) as well as the Bleek-Lloyd and Kalahari ethnography — a rare case of myth and image confirming each other."
+    },
+    {
+      "id": "san-trance-dance",
+      "kind": "rite",
+      "name": "The Trance Dance (n|om / !gi)",
+      "archetypes": [
+        "axis-mundi",
+        "psychopomp",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The healing dance — women clapping the songs, men circling the fire through the night until the boiling potency n|om rises up the spine, the body 'dies,' and the healer's spirit travels out to draw sickness from the people, fight the spirits of the dead, and walk to God's place to plead for the living. The central, living religion of the San: not a creed but an act.",
+      "facet": "A tradition whose true worship is a state of the body, not a doctrine about gods — the |Xam reach the sacred by trance, sweat, and song rather than by sacrifice or prayer to a throne. The healer is his own axis-mundi: the road to the other world runs up his own backbone, and he is the psychopomp who walks it nightly.",
+      "provenance": "The healing dance is the best-documented and still-living element of San religion, recorded among the Ju|'hoansi and other Kalahari groups across the 20th c. (Marshall, Katz, Lee) and read back into the Bleek-Lloyd |Xam material and the rock art."
+    },
+    {
+      "id": "san-moon-hare",
+      "kind": "concept",
+      "name": "The Moon and the Hare",
+      "archetypes": [
+        "lunar",
+        "first-ancestor"
+      ],
+      "gloss": "The Moon sent word to humankind: 'As I die and return, so shall you die and return.' But the Hare, grieving her mother, contradicted the message — 'we die and do not come back' — and so mortality became final. The Moon struck the Hare's lip in anger, splitting it; the hare carries the wound, and we carry the death, to this day.",
+      "facet": "Mortality as a MISCARRIED MESSAGE — death entered not by sin but by a botched delivery, the same pan-African answer the Zulu give with chameleon and lizard. But the |Xam bind it to the moon: immortality was offered on the moon's own terms, by something that visibly dies and is visibly reborn each month, and was lost only because a mourner refused to believe it.",
+      "provenance": "Among the most widely recorded |Xam myths (Bleek-Lloyd); the moon-and-hare 'origin of death' is shared in variant form across many southern and eastern African peoples, its near-universality across unrelated families a datum in itself."
+    },
+    {
+      "id": "san-gao-na",
+      "kind": "deity",
+      "name": "//Gauwa & the Two Gods",
+      "archetypes": [
+        "complementarity",
+        "cosmic-adversary"
+      ],
+      "gloss": "The Ju|'hoansi hold two great beings — the greater eastern god //Gao!na or N!adima, maker and giver, and a lesser, trickier western god //Gauwa, ambivalent and bound up with the dead and the spirits that bring sickness to the dance. The great god gives life; the lesser god and the gauwasi (the dead) press disease and disorder upon the living, and the healer's nightly fight is against them.",
+      "facet": "Not a war of good against evil but a gradient of two unequal gods — the San refuse a clean dualism: the lesser god is troublesome, not satanic, and the dead who afflict are family, not demons. Disorder is a relative, never an absolute, opponent.",
+      "provenance": "From 20th-c. Ju|'hoansi ethnography (Marshall, Lee); the names and even the number of gods vary between San groups and recorders, and the mirror flags the ambivalence rather than resolving it into a tidy dualism."
+    },
+    {
+      "id": "san-rain-bull",
+      "kind": "force",
+      "name": "!Khwa, the Rain (the Rain-Bull)",
+      "archetypes": [
+        "storm-wielder",
+        "cosmic-serpent"
+      ],
+      "gloss": "The Rain is a being — !Khwa — sometimes a great water-bull or water-snake led across the dry land on a thong by the rain-shaman, to be killed where its blood-water is wanted so that rain falls there. A girl at first menstruation must observe its taboos, for !Khwa is jealous and may carry the careless away into its waterpit.",
+      "facet": "Rain not as a sky-god's gift but as a captured animal — the |Xam make weather into livestock, a rain-beast hunted, haltered, and slaughtered by a shaman so its body becomes the downpour. The storm is herded, not hurled.",
+      "provenance": "The rain-bull and rain-making are vividly attested in the Bleek-Lloyd |Xam record and in rock-art scenes interpreted as rain-animal capture; the gendered first-blood taboos around !Khwa are among the archive's richest material."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "kaggen",
+      "b": "kaang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the San world the Mantis |Kaggen and the creator Kaang are spoken of as one being under two names — an attested blur in the 19th-c. sources, not a clean distinction. The maker who recedes IS the trickster who blunders."
+    },
+    {
+      "a": "kaggen",
+      "b": "san-eland",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Core San myth: |Kaggen makes the eland in secret, rears it in a reed, and loves it above all things; when it is killed his grief and rage shape the world. Creator and his holiest creature, bound in one story."
+    },
+    {
+      "a": "kaggen",
+      "b": "san-moon-hare",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Mantis makes the moon by casting his shoe (or a feather) into the sky; the moon that promises return-after-death is the trickster's own handiwork, which makes the hare's refusal a fault inside |Kaggen's creation."
+    },
+    {
+      "a": "san-eland",
+      "b": "san-trance-dance",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The dancer 'dies the eland's death' to enter trance — the eland's potency is the very power n|om that boils up the spine. The holy beast and the central rite are one engine, beast and ritual fused in the rock art."
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "san-gao-na",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The healer's nightly journey is precisely a fight against //Gauwa and the gauwasi who bring sickness, and a plea to the great god for the living — the rite is structured by the two-god gradient."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "san-trance-dance",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Rain-making is a shamanic act of the same potency as healing: the rain-shaman in altered state captures and kills the rain-animal, so the trance-road and the rain-road are the same power turned to different ends."
+    },
+    {
+      "a": "kaggen",
+      "b": "san-rain-bull",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Within the wider San world the maker and the rain belong to the same animate, herdable cosmos — weather is a creature among the Mantis's creatures, not a department of the sky."
+    },
+    {
+      "a": "kaggen",
+      "b": "anansi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African trickster-shapers in small bodies — the Akan spider and the |Xam mantis — both creator-adjacent culture-heroes who carry the world's order in an insect or arachnid form. Functional kin across unrelated families, never cognate."
+    },
+    {
+      "a": "kaggen",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are African tricksters at the seam between human and divine, but Esu is the required gate of sacrifice while |Kaggen is the maker himself in fool's-shape — the trickster as doorway versus the trickster as creator."
+    },
+    {
+      "a": "kaggen",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are trickster culture-heroes who reshape the cosmos by audacious acts and who give humankind its conditions of life; |Kaggen makes the moon as Maui hauls up lands and snares the sun."
+    },
+    {
+      "a": "kaggen",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose touch: both are tricksters whose blundering is woven into the cosmic order, but Loki is no creator and ends as adversary, while |Kaggen is the world's own maker. Flagged as a stretch."
+    },
+    {
+      "a": "kaang",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two southern/west African supreme makers who create and recede — but Nyame withdraws upward into the sky while Kaang dissolves into the eland and the hunt; the African deus-otiosus diverging into heaven versus into the game."
+    },
+    {
+      "a": "kaang",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the oldest, most withdrawn source-being behind a working religion of nearer powers — the African high origin that makes the world and then steps beyond reach of cult."
+    },
+    {
+      "a": "kaang",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two southern-African remote creators worshipped less by petition than presupposed behind the lived ritual; the supreme maker as a horizon rather than a recipient of prayer."
+    },
+    {
+      "a": "kaang",
+      "b": "unkulunkulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring southern-African creators who both recede from daily worship, but Unkulunkulu sinks into the ancestral reed-bed of the dead while Kaang disperses into the living game — lineage-firstness versus animal-immanence."
+    },
+    {
+      "a": "san-eland",
+      "b": "san-moon-hare",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The two poles of the San answer to death: the eland whose killing is sacrament and rain, and the hare whose refusal made death final — sacrifice that gives life set against the message that lost it."
+    },
+    {
+      "a": "san-eland",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both gather sacred potency into a sacrificial animal whose death the worshipper ritually shares to reach ecstasy — but Dionysus is a god in beast-aspect and the eland a beast through which power flows. Flagged."
+    },
+    {
+      "a": "san-eland",
+      "b": "fon-sakpata",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Loose: both locate sacred potency in the body of a creature/power consumed and feared, but the link is faint and structural only. Flagged."
+    },
+    {
+      "a": "san-moon-hare",
+      "b": "zulu-unwabu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The same pan-African 'origin of death by miscarried message' — the |Xam hare contradicts the moon's promise of return as the Zulu lizard outpaces the chameleon's word of life. Near-universal across unrelated families; the shared shape is the datum, never a cognate."
+    },
+    {
+      "a": "san-moon-hare",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two answers to why humankind lost immortality — Eden makes death a punishment for transgression, the moon-and-hare a delivery failure and a mourner's disbelief. Same question, opposite moral logic."
+    },
+    {
+      "a": "san-moon-hare",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Faint: the moon that dies and returns each month offers a model of resurrection humankind failed to take up, distantly echoing the dying-and-rising lord; but the San moon grants no afterlife, only the lost chance of one. Flagged."
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "dikenga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both encode the crossing between the world of the living and the world of the dead as the heart of practice — the Kongo cosmogram's mirrored worlds and the San healer's nightly passage out and back along his own spine."
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two religions whose core is ecstatic, body-borne dissolution of the self rather than doctrine — the all-night trance circle and the maenad's frenzy both reach the sacred by leaving ordinary consciousness behind."
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name a second, hidden register of the self that the practitioner crosses into — the San healer in trance and the Mesoamerican nagual-state — the everyday self set against its potent other. (Joe's truth-bar: the San dance is grounded ethnography; the kinship is structural, and the Mesoamerican side carries its own forgery caveat.)"
+    },
+    {
+      "a": "san-trance-dance",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Loose: the healer who walks out of the body to lead souls and treat with the dead echoes the psychopomp's office, but here the guide is a human in trance, not a god. Flagged."
+    },
+    {
+      "a": "san-gao-na",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A stretch: the two unequal San gods form a gradient of giving and troubling power, faintly like a complementarity — but it is asymmetric and unsystematised, NOT a balanced dyad. Flagged precisely to mark the divergence: the San decline a clean dualism."
+    },
+    {
+      "a": "san-gao-na",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Loose: the lesser, ambivalent god bound up with the dead and with sorcery distantly rhymes with the smoking-mirror god of fate and affliction, but the San figure is far less personified and far less malign. Flagged."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "zulu-inkanyamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two southern-African rain-as-animal beliefs — the |Xam rain-bull/water-snake captured and killed for its rain, and the Nguni storm-serpent of pool and waterfall; weather embodied as a single great beast in both, by neighbouring but distinct peoples."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The rain-serpent face of !Khwa rhymes with the great cosmic snake of the waters and sky; both make the serpent the body of weather and abundance rather than a chaos-enemy to be slain."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the rain made a being to be ritually fed — but Tlaloc is an enthroned rain-god served with sacrifice, while !Khwa is a rain-animal hunted and slaughtered by a shaman. The same dependence on rain, divinised at opposite poles: god versus quarry."
+    },
+    {
+      "a": "san-rain-bull",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Inverted and loose: Indra slays a serpent to RELEASE the waters, while the San shaman slays the water-animal itself to MAKE the rain — the rain-by-slaughter motif read from opposite ends. Flagged."
+    },
+    {
+      "a": "san-eland",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A faint regional touch: both gather fertility and the giving of life into a single sacred locus tied to the land, but Asase Yaa is the earth herself and the eland an animal sacrament — different bodies of the same dependence. Flagged."
+    }
+  ]
+}

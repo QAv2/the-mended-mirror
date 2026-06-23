@@ -1,0 +1,67 @@
+{
+  "verdicts": [
+    {
+      "a": "tinia",
+      "b": "jupiter",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Genuinely attested transmission. The Capitoline triad Tinia-Uni-Menrva became Jupiter-Juno-Minerva — a documented Etruscan bequest to Roman state religion (Etruscan kings, the Capitoline temple). This is real historical syncretism/donor-relationship, not mere resemblance. Note: not a linguistic cognate (Etruscan is non-IE), but tier 2 is for documented contact, which holds."
+    },
+    {
+      "a": "tinia",
+      "b": "zeus",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Documented interpretatio and iconographic borrowing: Tinia was assimilated to Zeus under heavy Greek influence on Etruria, and the thunderbolt imagery is demonstrably borrowed from Greek Zeus iconography in Etruscan art. Real attested contact, not coincidence. Stays tier 2."
+    },
+    {
+      "a": "uni",
+      "b": "isis",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Overclaimed at tier 2. The Pyrgi Tablets document Uni=Astarte (and Uni=Juno is standard) — but the target here is ISIS, reached only via a transitive Astarte-Isis-Juno great-goddess 'chain.' There is no direct documented Uni-Isis syncretism; it rides on chained equations. That is a structural/functional great-goddess parallel, not a documented Uni->Isis borrowing. Down-tier to 3."
+    },
+    {
+      "a": "aita",
+      "b": "hades",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Direct documented loan. Etruscan Aita is a hellenised borrowing of Hades (Aïdes) — name, enthroned iconography and consort imported wholesale into Etruscan funerary art, with the native wolf-cap added. Attested borrowing, tier 2 holds."
+    },
+    {
+      "a": "phersipnai",
+      "b": "persephone",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Transparent name-loan. Etruscan Phersipnai/Phersipnei renders Greek Persephone — a documented borrowing of the underworld queen into Etruscan iconography alongside Aita. Attested loan, tier 2 holds."
+    },
+    {
+      "a": "phersipnai",
+      "b": "aita",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Within-tradition attested pairing. Aita and Phersipnai form the Etruscan underworld couple in tomb painting (e.g. Tomba dell'Orco II), imported together and modelled on the Greek Hades-Persephone dyad. A documented cultic/iconographic pairing inside the tradition; tier 2 is defensible."
+    },
+    {
+      "a": "charun",
+      "b": "charon",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Documented name-borrowing with native transformation. Etruscan Charun's name derives from Greek Charon, but the office inverts — hammer-wielding death-demon rather than ferryman. The name-loan fitted to a native figure is attested; tier 2 holds."
+    },
+    {
+      "a": "vanth",
+      "b": "charun",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Attested within-tradition iconographic pairing. Vanth (winged psychopomp) and Charun (hammer-guardian) recur together as the native Etruscan death-pair across funerary art. A documented pairing inside the Etruscan tradition; tier 2 is defensible. Note this is an internal Etruscan seam, not a cross-family link."
+    },
+    {
+      "a": "disciplina-etrusca",
+      "b": "piacenza-liver",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Genuine internal structural seam, not a cross-tradition linguistic claim. The Piacenza bronze liver IS an instrument of the disciplina etrusca — haruspicy (extispicy) is a documented branch of that priestly discipline and the liver is its surviving 'textbook in metal' with its theonym-inscribed regions. The cognate-requires-descent rule targets cross-family linguistic claims; this is one tradition's own internal part-of relationship, so tier 1 (same-tradition structural seam) is appropriate."
+    }
+  ]
+}

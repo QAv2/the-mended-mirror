@@ -1,0 +1,240 @@
+{
+  "tradition": {
+    "id": "akan",
+    "name": "Akan / Ashanti",
+    "region": "West Africa (Ghana)",
+    "color": "#d98a3d"
+  },
+  "figures": [
+    {
+      "id": "nyame",
+      "kind": "deity",
+      "name": "Nyame",
+      "archetypes": ["withdrawn-creator", "sky-father"],
+      "gloss": "The supreme sky-creator of the Akan, maker of all things, who shaped the world and then drew back beyond the firmament — too high and too holy for daily worship.",
+      "facet": "The signature African shard: a high-god who is not dead but RECEDED. A myth tells that an old woman pounding fufu kept striking the sky with her pestle, so Nyame withdrew upward in irritation — divinity made remote not by war but by human nearness.",
+      "provenance": "Reconstructed from Rattray's early-20th-c. Ashanti ethnography and oral Anansesem; the pestle myth is widely attested across Akan and neighbouring peoples."
+    },
+    {
+      "id": "nyankopon",
+      "kind": "deity",
+      "name": "Nyankopon",
+      "archetypes": ["withdrawn-creator", "solar"],
+      "gloss": "The 'Nyame-who-alone-is-great' — the supreme deity under his aspect of shining, solitary sovereignty, often associated with the sun and the title Kwame (Saturday, his day).",
+      "facet": "Not a separate god but a praise-name: the Akan name the same creator differently for each of his powers, so the one mirror is glimpsed through many faces without ever being divided."
+    },
+    {
+      "id": "asase-yaa",
+      "kind": "deity",
+      "name": "Asase Yaa",
+      "archetypes": ["great-mother"],
+      "gloss": "The old-woman Earth, mother of the dead and giver of crops, second only to Nyame. No farming or grave-digging may begin without her leave, and Thursday (Yaa, her day) is kept sacred from the hoe.",
+      "facet": "She has no temple and no priesthood — the Akan say the Earth needs no shrine because she IS the shrine. Worship that requires no building: reverence woven directly into the working week.",
+      "provenance": "Asase Yaa (Ashanti) / Asase Efua (Fante) — the day-name varies by sub-group; rendered here in the dominant Ashanti form."
+    },
+    {
+      "id": "anansi",
+      "kind": "deity",
+      "name": "Anansi (Kwaku Ananse)",
+      "archetypes": ["trickster", "culture-hero"],
+      "gloss": "The spider who outwits the great: by capturing the python, the hornets and the leopard he bought all the world's stories from Nyame, so that tales are called Anansesem — 'Spider-words' — to this day.",
+      "facet": "The trickster as KEEPER of narrative itself: not the bringer of fire but the buyer of stories, who turns cunning into the founding deed of culture. The web is the world's first archive.",
+      "provenance": "Anansesem oral tradition; the 'buying of the stories' tale recorded by Rattray and ubiquitous across Akan and the diaspora (Anansi/Aunt Nancy in the Caribbean and the American South)."
+    },
+    {
+      "id": "tano",
+      "kind": "deity",
+      "name": "Tano (Ta Kora)",
+      "archetypes": ["storm-wielder", "axis-mundi"],
+      "gloss": "Greatest of the abosom (lesser gods), spirit of the Tano River and lord of war and thunder, eldest son of Nyame contending with his brother Bia for precedence over the world.",
+      "facet": "A river that is also a thunder-god: in Akan thought the abosom are children of Nyame inhabiting waters and stones, so the storm is not above the land but rises from its very rivers."
+    },
+    {
+      "id": "abosom",
+      "kind": "spirit",
+      "name": "The Abosom",
+      "archetypes": ["one-through-many"],
+      "gloss": "The children of Nyame — the lesser deities of river, lake, sea and tree who manage the world the withdrawn creator left behind, receiving the worship he himself does not.",
+      "facet": "The structural answer to a remote high-god: where Nyame recedes, the many abosom fill the daily distance — one divinity dispersed downward into the rivers so it stays within reach."
+    },
+    {
+      "id": "nsamanfo",
+      "kind": "ancestor",
+      "name": "Nsamanfo (the Ancestors)",
+      "archetypes": ["first-ancestor"],
+      "gloss": "The honoured dead who dwell in Asamando, the ancestor-land beneath Asase Yaa's keeping, libated and consulted as the living elders of the lineage who guard its continuance.",
+      "facet": "The dead are not gone but promoted: an Akan does not pray past the ancestors to reach the divine — the lineage's own forebears are the nearest sacred power, closer than any god."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "nyame",
+      "b": "nyankopon",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Same Akan deity under two praise-names; Nyankopon = Nyame-koro-pon, 'the one great Nyame.' Cognate identity within a single language."
+    },
+    {
+      "a": "nyame",
+      "b": "asase-yaa",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The Akan sky/earth couple — withdrawn Sky-father above, working Earth-mother below; the lived world hangs between them."
+    },
+    {
+      "a": "anansi",
+      "b": "nyame",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Within Akan myth: Anansi buys all stories from Nyame, binding the world's narrative to the creator he serves and outwits."
+    },
+    {
+      "a": "tano",
+      "b": "nyame",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Tano is named son of Nyame; the abosom are the creator's children, an internal Akan genealogy."
+    },
+    {
+      "a": "abosom",
+      "b": "nyame",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The abosom ARE the children of Nyame — the structural device by which a withdrawn creator stays present through many lesser hands."
+    },
+    {
+      "a": "tano",
+      "b": "abosom",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Tano is the greatest of the abosom; within Akan religion the chief river-god heads the lesser gods."
+    },
+    {
+      "a": "nsamanfo",
+      "b": "asase-yaa",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The ancestors dwell in the earth's keeping; Asase Yaa is mother of the dead as well as of crops."
+    },
+    {
+      "a": "nyame",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two sky-fathers across unrelated families — but where Dyeus stays the active head of his pantheon, Nyame WITHDRAWS. The convergence on sky-sovereignty makes the divergence (deus otiosus) legible."
+    },
+    {
+      "a": "nyame",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sky-father over earth-mother in both, but Ranginui is separated by force while Nyame recedes of his own holiness — two routes to the same remote sky."
+    },
+    {
+      "a": "nyame",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are supreme sky-powers worshipped less directly than the nearer gods/ancestors — high heaven held in awe at a distance."
+    },
+    {
+      "a": "nyame",
+      "b": "anu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "An/Anu, the Mesopotamian sky-head, likewise recedes into remote authority while younger gods (Enlil, Marduk) run the world — a parallel deus-otiosus drift."
+    },
+    {
+      "a": "asase-yaa",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Earth personified as primal mother and ground of the dead; both are reverenced as the body of the world itself."
+    },
+    {
+      "a": "asase-yaa",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Earth-mother beneath a withdrawn/separated sky-father, keeper of crops and of the dead — the world-parents pattern across unrelated families."
+    },
+    {
+      "a": "asase-yaa",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Old-woman Earth who both bears and devours, mother of crops and grave of the dead."
+    },
+    {
+      "a": "anansi",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two West African tricksters, neighbours but unrelated in language-family — Esu the Yoruba crossroads-gate, Anansi the Akan spider who buys the stories. Functional kin, not cognates."
+    },
+    {
+      "a": "anansi",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The cunning shapeshifter who wins by wit against stronger powers — trickster as destabiliser of the great."
+    },
+    {
+      "a": "anansi",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are trickster culture-heroes who wrest boons from the gods by guile; Maui fishes up islands, Anansi buys the stories."
+    },
+    {
+      "a": "anansi",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The cunning benefactor who takes from heaven and gives to humankind — Prometheus fire, Anansi the tales."
+    },
+    {
+      "a": "anansi",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Trickster as patron of speech, story and clever exchange — both make cunning into a civilising art."
+    },
+    {
+      "a": "tano",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "West African thunder/war powers in neighbouring but distinct traditions — Sango the Yoruba storm-king, Tano the Akan river-thunder. Structural kin, never cognate."
+    },
+    {
+      "a": "tano",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Storm-and-war power who is the people's nearest protective god while the sky-father stays remote."
+    },
+    {
+      "a": "abosom",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both name the many sacred powers as faces of a single diffused divinity — the one-through-many. Speculative, no contact."
+    },
+    {
+      "a": "nyame",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both supreme, unmade, beyond image — but the parallel is interpretive; Akan Nyame recedes where YHWH demands covenant. Flagged as a stretch."
+    },
+    {
+      "a": "nsamanfo",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both centre the honoured dead as a living sacred power, but Osiris is a dying-rising god where the nsamanfo are simply ancestors promoted — a loose structural echo."
+    }
+  ]
+}

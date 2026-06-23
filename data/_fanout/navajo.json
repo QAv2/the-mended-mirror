@@ -1,0 +1,374 @@
+{
+  "tradition": {
+    "id": "navajo",
+    "name": "Navajo / Diné",
+    "region": "North America (Southwest)",
+    "color": "#d98f5e"
+  },
+  "figures": [
+    {
+      "id": "changing-woman",
+      "kind": "deity",
+      "name": "Asdzáá Nádleehé (Changing Woman)",
+      "archetypes": [
+        "great-mother",
+        "cyclic-ages"
+      ],
+      "gloss": "Changing Woman — found as an infant on a mountaintop, she grows to maturity in four days, ages through the seasons and renews herself endlessly young; mother of the Hero Twins, she shaped the first Diné clans from skin rubbed from her own body and gave the Blessingway, the rite that walks a person back into hózhó, beauty-and-harmony.",
+      "facet": "A great mother who is herself the year: not a fertile womb-of-earth alone but a single body that grows old and young again in cycle — the great-mother and the wheel of ages fused into one ageing-and-renewing person, regeneration made biographical.",
+      "provenance": "Recorded from Blessingway and creation-cycle tradition (Wyman, Reichard, Zolbrod); ceremonial detail is held sacred and many tellings are deliberately incomplete in print at Diné direction."
+    },
+    {
+      "id": "naayee-neizghani",
+      "kind": "hero",
+      "name": "Naayééʼ Neizghání (Monster Slayer)",
+      "archetypes": [
+        "divine-twins",
+        "dragon-slayer"
+      ],
+      "gloss": "Elder of the Hero Twins, son of Changing Woman and the Sun — guided by Spider Woman past the rolling rocks and crushing reeds to his father's house, armed with lightning arrows, he hunted down the Naayééʼ, the monsters born of disorder, beheading Yéʼiitsoh the Big Giant whose blood became the black lava beds of the Southwest.",
+      "facet": "The slayer who pays for the killing: having cleansed the world of monsters, the twin himself sickens from the death he has dealt and must be sung back to balance by the Enemyway — violence against chaos is itself a wound that ceremony must heal.",
+      "provenance": "From the Diné Bahaneʼ creation cycle and the Enemyway/Monsterway ceremonials; lava fields, mountains and canyons are named as the monsters' remains across the actual Navajo landscape."
+    },
+    {
+      "id": "tobadzistsini",
+      "kind": "hero",
+      "name": "Tó Bájíshchíní (Born-for-Water)",
+      "archetypes": [
+        "divine-twins",
+        "psychopomp"
+      ],
+      "gloss": "Younger of the Hero Twins, conceived of his mother by dripping water as his brother was by the Sun; he does not strike the monsters but keeps the watch — holding the life-token and guarding the home-fire so that if his brother falls he will know and act, the still partner of the warrior.",
+      "facet": "The twin who waits: where one brother is the sword, Born-for-Water is the tether to life and home, paired guardian rather than rival — divine-twinship as warrior-and-watcher, not the two equal slayers of the Maya pattern.",
+      "provenance": "Held in the same Hero-Twins tradition; the water-and-sun paternity distinguishes the two and is central to how the Diné read complementary natures."
+    },
+    {
+      "id": "johonaa-ei",
+      "kind": "deity",
+      "name": "Jóhonaaʼéí (Sun-Bearer)",
+      "archetypes": [
+        "solar",
+        "sky-father"
+      ],
+      "gloss": "The one who carries the sun — Jóhonaaʼéí bears the turquoise disk across the sky each day on his back, dwelling in a house of turquoise in the east; father of the Hero Twins, he demands they prove their lineage through deadly tests before he will arm them against the monsters.",
+      "facet": "A sun who is a labourer and a hard father: the solar light is a burden physically carried, and the sky-father grants his sons nothing until they survive his trials — fatherhood as a debt the children must earn, not a gift bestowed.",
+      "provenance": "From the Diné Bahaneʼ; the Sun's demand for payment (a life for each day's crossing) is a recurring theme in the cycle."
+    },
+    {
+      "id": "spider-woman",
+      "kind": "deity",
+      "name": "Naʼashjéʼii Asdzáá (Spider Woman)",
+      "archetypes": [
+        "culture-hero",
+        "great-mother"
+      ],
+      "gloss": "Spider Woman, dwelling atop Spider Rock in Canyon de Chelly — she taught the Diné to weave on a loom whose crosspieces are sky and earth, sun-rays and lightning, and it is she who counsels the Hero Twins, giving the elder a feather and the words to pass his father's tests.",
+      "facet": "Civilisation arrives as weaving, and the weaver is the cosmos in miniature: the loom Spider Woman gives is itself a model of the quartered world, so to weave is to re-make order — the culture-hero's gift is a method for keeping hózhó thread by thread.",
+      "provenance": "Living tradition tied to a named landmark (Spider Rock); weaving practice and its sacred account remain active among Diné weavers."
+    },
+    {
+      "id": "maii-coyote",
+      "kind": "deity",
+      "name": "Mąʼii (Coyote)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "Mąʼii the Coyote, Áłtsé Hashké 'First Scolder' — the meddler who flings the carefully-placed stars into chaos across the night sky out of impatience, who steals and lies and lusts, yet whose very disorder seeds death, change and the unfixed possibility the world needs to be alive.",
+      "facet": "Disorder smuggled in as necessary: when Coyote scatters the ordered stars he is not merely failing — he introduces the irregular and the mortal without which the cosmos would be a sterile, frozen perfection; the trickster as the deliberate flaw that lets the world breathe.",
+      "provenance": "Coyote tales are traditionally told only in winter; the figure runs through both the solemn creation cycle and a vast body of comic narrative."
+    },
+    {
+      "id": "four-sacred-mountains",
+      "kind": "concept",
+      "name": "Dził Diyinii (The Four Sacred Mountains)",
+      "archetypes": [
+        "axis-mundi",
+        "complementarity"
+      ],
+      "gloss": "Blanca Peak in the east, Mount Taylor in the south, the San Francisco Peaks in the west, Hesperus Peak in the north — fastened to the earth with sunbeams, lightning, a stone knife and rainbow, each dressed in its own colour (white shell, turquoise, abalone, jet); within them lies Dinétah, the proper Diné world, kept in beauty.",
+      "facet": "A homeland whose borders are a cosmogram: the four mountains are not merely sacred but legally definitional — to live in hózhó is to live inside this quartered, colour-coded house of the world, identity and territory and cosmic order made one bounded thing.",
+      "provenance": "The four peaks are real, mapped mountains still central to Diné identity and land claims; their colours and the materials binding them are standard in the tradition."
+    },
+    {
+      "id": "first-man-first-woman",
+      "kind": "ancestor",
+      "name": "Áłtsé Hastiin dóó Áłtsé Asdzáá (First Man & First Woman)",
+      "archetypes": [
+        "first-ancestor",
+        "world-parents",
+        "emergence"
+      ],
+      "gloss": "First Man and First Woman, formed of ears of white and yellow corn met with wind and the medicine bundles in the lowest of the underworlds; they lead the people up through the coloured worlds to this, the Glittering World, and from First Man's bundle the mountains and the order of things are laid out.",
+      "facet": "Ancestors who are emergent, not made: the Diné first beings are not fashioned by a creator above but climb upward through stacked prior worlds, so origin is an ascent and a migration rather than a fabrication — a people who came up rather than being put down.",
+      "provenance": "From the Diné emergence (Hajíínéí) narrative; the number and colours of the underworlds vary by telling and singer."
+    },
+    {
+      "id": "hozho",
+      "kind": "principle",
+      "name": "Hózhó",
+      "archetypes": [
+        "cosmic-order",
+        "complementarity"
+      ],
+      "gloss": "The central Diné principle — beauty, harmony, balance, rightness and health woven together: 'Sąʼah Naagháí Bikʼeh Hózhóón', the path of long life walked in beauty; every ceremony aims to restore a person or the world to hózhó, and its prayers close 'in beauty it is finished' four times over.",
+      "facet": "Order as a thing you walk back into, not a law you obey: hózhó is not a fixed cosmic decree but a balance constantly lost and ceremonially re-made — right-order recovered through ritual restoration, the cosmic law as ongoing repair rather than standing edict.",
+      "provenance": "Hózhó is the organising concept of Diné philosophy and ceremony; its full sense resists translation and the common gloss 'beauty' is acknowledged as partial."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "changing-woman",
+      "b": "naayee-neizghani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Mother and elder son: Changing Woman bears the Hero Twins to the Sun and to the dripping water, and it is to rid her world of the devouring monsters that the elder takes up the lightning arrows."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "tobadzistsini",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The two Hero Twins, sun-begotten slayer and water-begotten watcher — one strikes the monsters while the other holds the life-token and guards the home; warrior and keeper, a single power split in two."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "changing-woman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sun-Bearer and Changing Woman, father and mother of the Hero Twins; their union (and his demands of the sons) drives the whole monster-slaying cycle."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "naayee-neizghani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Father and son: Jóhonaaʼéí makes the twins prove their solar lineage through lethal trials before arming them with lightning against the Naayééʼ."
+    },
+    {
+      "a": "spider-woman",
+      "b": "naayee-neizghani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Spider Woman is the twins' indispensable counsellor — she gives the elder the protective feather and the words to survive the road to the Sun's house and his father's tests."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "first-man-first-woman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "First Man lays out the four sacred mountains from the medicine bundle after the emergence, fixing the quartered Diné world that the people climbed up into."
+    },
+    {
+      "a": "hozho",
+      "b": "changing-woman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Changing Woman gives the Blessingway, the central rite for walking a life back into hózhó; the renewing mother and the principle of restored balance are bound at the heart of Diné ceremony."
+    },
+    {
+      "a": "hozho",
+      "b": "maii-coyote",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Coyote is hózhó's necessary disturbance: his star-scattering disorder is the irregularity against which balance is forever re-made — the principle and its built-in saboteur within one cosmos."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "hozho",
+      "type": "pairs",
+      "tier": "2",
+      "note": "To dwell inside the four mountains is to dwell in hózhó; the quartered homeland is the spatial body of the harmony the ceremonies restore."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Diné Hero Twins and the Maya Hunahpu and Xbalanque are the great American twin-pair — both born of a marvel, both ridding the world of devouring powers — but a structural rhyme across unrelated families, NOT a shared line."
+    },
+    {
+      "a": "tobadzistsini",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Paired saviour-brothers who overcome monstrous adversaries together; the Diné split into striker and watcher where the Maya twins are two equal tricksters, two faces of one widespread twin-archetype."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Lightning-armed slayers of the monster that blocks the world's life — Monster Slayer with his bolt-arrows beheading Yéʼiitsoh as Indra wields the vajra against Vṛtra; the dragon-slayer template arrived at far outside Indo-European."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Champions who slay the primordial monster of chaos and from its body shape the ordered world — Marduk splits Tiamat, Monster Slayer's giant-blood becomes the lava beds; world-from-the-slain-foe, independently reached."
+    },
+    {
+      "a": "naayee-neizghani",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two warrior sons of a self-renewing mother who are born to destroy the enemies threatening her — the Diné Monster Slayer and the Mexica solar warrior, each violence sanctified as protection of the maternal order."
+    },
+    {
+      "a": "spider-woman",
+      "b": "athena",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Goddesses who give the loom and the craft of weaving — but Athena is an attested figure absent from this mirror; logged as a reach toward the weaver-as-civiliser pattern, not to a present node."
+    },
+    {
+      "a": "spider-woman",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Culture-bringers who hand humankind a defining art and aid the heroes against hostile powers — Spider Woman's weaving and counsel against the monsters answering Prometheus's fire and craft for mortals."
+    },
+    {
+      "a": "maii-coyote",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Shape-shifting troublemakers whose disorder is woven into the cosmos itself — Coyote scattering the stars, Loki breeding chaos among the gods — the trickster as the mischief the world cannot do without."
+    },
+    {
+      "a": "maii-coyote",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Tricksters who are also the principle of unpredictability the order requires — Coyote and Èṣù both keep the world from freezing into dead perfection by introducing chance and change."
+    },
+    {
+      "a": "maii-coyote",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "American disorder-bringers and shape-shifters whose meddling drives the world's mutability; Coyote's smaller mischief rhymes with the Smoking Mirror's cosmic disruption, a New-World trickster cast."
+    },
+    {
+      "a": "maii-coyote",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both thief, deceiver and culture-bringer at once; a loose parallel of the trickster who also benefits humankind, flagged as a reach across wholly separate families."
+    },
+    {
+      "a": "changing-woman",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Mothers in whom the year's turning is embodied — Changing Woman ageing and renewing with the seasons as Demeter's grief and joy drive winter and spring; the great-mother as the cycle of the year, separately conceived."
+    },
+    {
+      "a": "changing-woman",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Earth-and-fertility mothers from whom the people descend — Changing Woman forms the first clans from her own skin as Gaia brings forth the lineages; the maternal source of humankind in two unrelated worlds."
+    },
+    {
+      "a": "changing-woman",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A solar-linked renewing goddess at the centre of her people's ceremony and identity — a faint parallel of the life-giving female power, with the seam tied to no shared descent."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sun as a bearer who physically carries the disk across the sky each day — Jóhonaaʼéí on his back, Helios in his chariot — the daily solar crossing as labour, independently imagined."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Solar deities who father heroic sons and serve as the sky's measure; the Sun-Bearer's demanding paternity of the twins rhymes with Sūrya siring his sons, a parallel solar fatherhood."
+    },
+    {
+      "a": "johonaa-ei",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sun-gods who traverse the heavens daily and stand at the head of the cosmos; Jóhonaaʼéí's turquoise crossing answers Ra's solar barque, two unconnected accounts of the sun's journey."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The quartered, colour-coded cosmos — four Diné mountains at the cardinal points, four Tezcatlipocas holding the world's corners; the same four-directional cosmogram across separate American traditions."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A sacred centre fixed by a fourfold scheme — four mountains binding Dinétah, four rivers parting from Eden; the quartered axis-mundi independently witnessed."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both lay the cosmos out as a quartered, four-directional figure — the Diné homeland's four colour-coded peaks and the cross-shaped Patolli board — the same diagram of the world in landscape and in play."
+    },
+    {
+      "a": "four-sacred-mountains",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Sacred mountains as the structuring centre of the cosmos; the four Diné peaks bound the proper world as Meru axes the Vedic one — the world-mountain motif, four-fold here, central there."
+    },
+    {
+      "a": "hozho",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hózhó and Ma'at name the same office — the right-order of beauty, truth and balance the world must be kept in — but where Ma'at is a standing cosmic law, hózhó is a balance ritually re-made; one of the great cross-family rhymes of the cosmic-order joint. (Ma'at not yet a node in this mirror; seam logged toward the principle.)"
+    },
+    {
+      "a": "hozho",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the all-embracing way of harmony in which one walks rather than a god to be obeyed — hózhó the path of beauty, the Dao the path of nature; cosmic order as a way of life, separately arrived at."
+    },
+    {
+      "a": "hozho",
+      "b": "rta-asha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hózhó belongs with Ṛta and Aṣ̌a in the family of impersonal right-orders the cosmos obeys — though uniquely it is recovered by ceremony rather than upheld by gods. (Seam logged toward the cosmic-order joint shared across the mirror.)"
+    },
+    {
+      "a": "first-man-first-woman",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "4",
+      "note": "First beings from whom the people descend, but the Diné pair emerge by ascent through prior worlds rather than being born of the earth; a divergent parallel of the first-ancestor pattern, flagged as a reach."
+    },
+    {
+      "a": "first-man-first-woman",
+      "b": "ranginui",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Where the Sky-and-Earth world-parents must be forced apart to make the lived world, the Diné First Man and First Woman are a paired human origin reached by climbing upward through stacked worlds — emergence inverting separation as the shape of beginning."
+    },
+    {
+      "a": "tobadzistsini",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The quieter, water-and-death-shadowed half of a divine pair — Born-for-Water as watcher beside the slayer, Xolotl the underworld twin of Quetzalcoatl; a loose parallel of the second, darker twin, flagged as a reach."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/nano-banana",
+  "mode": "text-to-image",
+  "prompt": "Seamless dark obsidian stone surface with a subtle cold silver sheen and faint delicate hairline veins of gold running through it, deep black with hints of midnight indigo, abstract sacred minimal background texture, no text no words",
+  "inputs": [],
+  "num": 1,
+  "aspect": "16:9",
+  "request_id": "019ee83b-fddd-7e21-a2df-2feb7d38376c",
+  "description": "Here's that dark obsidian stone surface with the silver sheen and gold veins you requested! ",
+  "outputs": [
+    "concepts/obsidian-texture.png"
+  ],
+  "ts": "20260620-233155"
+}

@@ -1,0 +1,251 @@
+{
+  "tradition": {
+    "id": "kongo",
+    "name": "Kongo / Bantu",
+    "region": "Central Africa",
+    "color": "#b8703a"
+  },
+  "figures": [
+    {
+      "id": "nzambi-a-mpungu",
+      "kind": "deity",
+      "name": "Nzambi a Mpungu",
+      "archetypes": ["withdrawn-creator", "sky-father"],
+      "gloss": "The supreme maker of the BaKongo — Nzambi a Mpungu, 'the Most High Nzambi,' who fashioned the world and the first people and then withdrew above the firmament, neither prayed to nor offered to in daily life, for he is too vast to be approached directly.",
+      "facet": "The creator who leaves NO cult behind: the BaKongo address the bakisi and the ancestors, never Nzambi himself, holding that what is everywhere needs no shrine. Divinity proven by its very absence from the altar.",
+      "provenance": "Reconstructed from Kongo oral tradition and the writings of Wyatt MacGaffey, Karl Laman and John Janzen; 17th-c. missionary records already note the high-god's remoteness."
+    },
+    {
+      "id": "dikenga",
+      "kind": "concept",
+      "name": "Dikenga (the Kongo Cosmogram)",
+      "archetypes": ["axis-mundi", "complementarity"],
+      "gloss": "The cross-in-a-circle — a vertical line through a horizontal one, ringed by the sun's four moments (musoni dawn, kala noon, luvemba dusk, tukula midnight). Above is the land of the living, below the land of the dead, and the line between is Kalunga, the water that mirrors.",
+      "facet": "Not a deity but a DIAGRAM of the soul's whole circuit: the four points are the four stages of a single life and a single sun — birth, maturity, death, rebirth — so the cross encodes reincarnation as a clockwise turning of the same wheel. The cosmos read as one revolving glyph.",
+      "provenance": "The dikenga / yowa cross documented by MacGaffey and Robert Farris Thompson ('Flash of the Spirit'); attested in nkisi practice, gravesite art and diasporic Kongo survivals (Cuba, Haiti, the American South)."
+    },
+    {
+      "id": "kalunga",
+      "kind": "concept",
+      "name": "Kalunga",
+      "archetypes": ["mother-of-waters", "psychopomp"],
+      "gloss": "The great water — the horizontal line of the cosmogram, the sea and the threshold both. Kalunga is the mirror-surface dividing the living world above from the inverted world of the dead below, where the BaKongo say day and night, our seasons and theirs, run in reverse.",
+      "facet": "Death imagined not as a downward fall but as a CROSSING and an INVERSION: to die is to pass through the water-line and walk a world that is the photographic negative of this one. The grave and the ocean are the same door — a reading that armed the enslaved with the belief that the sea-passage could be re-crossed home.",
+      "provenance": "Kalunga as both 'sea/abyss' and 'death-line' is widely attested across Bantu languages (Kongo, Mbundu, Ndonga); the mirror-inversion of the dead's world is core to MacGaffey's account of Kongo cosmology."
+    },
+    {
+      "id": "bisimbi",
+      "kind": "spirit",
+      "name": "Bisimbi (Simbi water-spirits)",
+      "archetypes": ["one-through-many"],
+      "gloss": "The simbi (plural bisimbi) — local spirits of springs, rivers, pools and stones, the nearer powers that inhabit the watery places along Kalunga's edge and govern the fortunes of a clan's territory.",
+      "facet": "Where the creator recedes, the WATER fills with presences: the BaKongo people their landscape with the bisimbi so that the sacred is never far — a divinity dispersed into every spring rather than enthroned in one heaven.",
+      "provenance": "Bisimbi documented by Laman and MacGaffey; carried into the diaspora as 'Simbi' loa in Haitian Vodou and as water-spirits in Gullah and Lowcountry tradition."
+    },
+    {
+      "id": "minkisi",
+      "kind": "rite",
+      "name": "Minkisi (nkisi power-objects)",
+      "archetypes": ["axis-mundi"],
+      "gloss": "The nkisi (plural minkisi) — a sacred container bound with medicines and earth from the grave, animated by a captured spirit of the dead and directed by the nganga ritual-expert to heal, to judge, or to strike. The nail-studded nkondi is its most famous form.",
+      "facet": "A portable axis between worlds: the nkisi works precisely because it holds graveyard matter — it is a node where the land of the dead is folded into a single object, the cosmogram made graspable in the hand. Ritual not as appeal to a far god but as engineering of the near dead.",
+      "provenance": "Minkisi extensively recorded in Laman's Kongo texts and MacGaffey's translations of nganga testimony; many nkondi figures survive in European museums from the colonial seizures of the 1880s-1900s."
+    },
+    {
+      "id": "bakulu",
+      "kind": "ancestor",
+      "name": "Bakulu (the Ancestors)",
+      "archetypes": ["first-ancestor", "psychopomp"],
+      "gloss": "The clan dead who dwell across Kalunga in the village below the water, white-skinned in the inverted land, still members of the lineage — consulted, fed, and depended upon to send back their own as newborn children.",
+      "facet": "The dead are the engine of the living: in the cosmogram's turning, the bakulu below are not an end-state but the supply of souls returning above. Ancestry is a tide, not a terminus.",
+      "provenance": "Bakulu / bambuta in Kongo ethnography (MacGaffey, Janzen); the whiteness of the dead underlies the early Kongo identification of returning Europeans-from-the-sea with ancestors."
+    },
+    {
+      "id": "mahungu",
+      "kind": "concept",
+      "name": "Mahungu (the primal whole)",
+      "archetypes": ["complementarity", "first-ancestor"],
+      "gloss": "In a Kongo-Angolan myth, the first human Mahungu was whole and complete, both male and female together, until a wind at the palm-tree of the world split the being into Lumbu the woman and Luwawa the man, who forever seek to rejoin.",
+      "facet": "The androgyne BEFORE difference: completeness is the original state and division the fall, so union (marriage, ritual, the rejoined cosmogram) is a homecoming to a wholeness once held. A complementarity remembered as loss, not as eternal balance.",
+      "provenance": "The Mahungu split-androgyne myth recorded among Kongo and neighbouring Angolan peoples; less universally attested than the cosmogram and flagged here as regional rather than pan-Kongo."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "nzambi-a-mpungu",
+      "b": "bisimbi",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Where Nzambi withdraws, the bisimbi fill the daily distance — the structural device of a remote high-god dispersed downward into the waters and stones within reach."
+    },
+    {
+      "a": "dikenga",
+      "b": "kalunga",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Kalunga IS the horizontal line of the dikenga — the water-axis dividing living from dead is one element of the same Kongo glyph."
+    },
+    {
+      "a": "kalunga",
+      "b": "bakulu",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The bakulu dwell across Kalunga in the inverted world below the water; the death-line and the ancestor-land are two faces of one Kongo cosmology."
+    },
+    {
+      "a": "kalunga",
+      "b": "bisimbi",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The bisimbi inhabit the watery edge of Kalunga — the spirits of the threshold-water between the worlds."
+    },
+    {
+      "a": "minkisi",
+      "b": "bakulu",
+      "type": "pairs",
+      "tier": "1",
+      "note": "An nkisi is animated by a captured spirit of the dead and packed with grave-earth; the bakulu are the very power the nkisi harnesses."
+    },
+    {
+      "a": "minkisi",
+      "b": "dikenga",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The nkisi folds the land of the dead into a single object — the cosmogram's two worlds made portable in the hand."
+    },
+    {
+      "a": "bakulu",
+      "b": "dikenga",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The clockwise turning of the cosmogram IS the cycle of the bakulu — souls descending below the water and returning above as newborns."
+    },
+    {
+      "a": "nzambi-a-mpungu",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African high-gods who CREATE then RECEDE, leaving no daily cult — the deus-otiosus pattern shared across unrelated Niger-Congo branches (Akan and Bantu), structural kin not cognates."
+    },
+    {
+      "a": "nzambi-a-mpungu",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both supreme sky-powers held in awe at a remove while nearer spirits and ancestors receive the worship — high heaven distant by its own holiness."
+    },
+    {
+      "a": "nzambi-a-mpungu",
+      "b": "anu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "An/Anu likewise drifts into remote authority while younger powers run the world — a parallel withdrawn-creator across families."
+    },
+    {
+      "a": "nzambi-a-mpungu",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both unmade, supreme, beyond image — but interpretive only: Nzambi recedes from cult where YHWH demands covenant. Flagged as a reach."
+    },
+    {
+      "a": "dikenga",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A cross / quartering at the centre of the world dividing the cosmos into four — the BaKongo sun's four moments against Eden's four rivers from one source. Quartered-cosmos parallel, no contact."
+    },
+    {
+      "a": "dikenga",
+      "b": "four-tezcatlipocas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The fourfold quartered cosmos — four directional powers / four moments turning around a still centre — appears in both Kongo and Mesoamerica with no possible contact. A striking structural convergence."
+    },
+    {
+      "a": "dikenga",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are quartered-cosmos diagrams: a cross-in-a-circle whose four arms map the directions and the turning of time. The cosmogram and the gameboard as the same fourfold glyph."
+    },
+    {
+      "a": "dikenga",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both set a vertical axis joining the worlds at the centre of a quartered space — but the dikenga's axis is a line of light and water, not a tree. A loose axis-mundi echo, flagged."
+    },
+    {
+      "a": "kalunga",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The water that must be crossed to reach the dead — Kalunga's mirror-line against the Styx that Charon ferries. Death as a watery passage across families."
+    },
+    {
+      "a": "kalunga",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both govern an underworld reached by crossing waters, but Kalunga is a threshold-line and inversion rather than an enthroned lord of the dead — a loose echo, flagged."
+    },
+    {
+      "a": "bisimbi",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The many lesser water-spirits who manage the world a withdrawn creator left behind — bisimbi and abosom are the same answer to a remote high-god, in neighbouring but distinct Niger-Congo branches."
+    },
+    {
+      "a": "bisimbi",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both diffuse one sacred power into the many faces of the landscape — the one-through-many. Speculative, no contact."
+    },
+    {
+      "a": "bakulu",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African ancestor-cults where the honoured dead are the nearest sacred power, closer than the withdrawn creator — Kongo bakulu and Akan nsamanfo, functional kin across branches."
+    },
+    {
+      "a": "bakulu",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both centre the dead as a living power and tie them to renewal, but the bakulu are promoted ancestors who recycle souls, not a single dying-rising god — a loose structural echo."
+    },
+    {
+      "a": "minkisi",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both make a fashioned object/body into a true vessel of sacred presence — the nkisi inhabited by a captured dead, the ixiptla by a god. A reach across unrelated rites, flagged."
+    },
+    {
+      "a": "mahungu",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Male-and-female completeness as the ground of being — but where Yin-Yang holds the two in eternal balance, Mahungu is a wholeness SPLIT, complementarity remembered as a fall. The divergence sharpens the shared joint."
+    },
+    {
+      "a": "mahungu",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both name a primal dual-gendered unity prior to division, but the parallel is interpretive and Mahungu is a first human rather than a creator-pair. Flagged as a reach."
+    },
+    {
+      "a": "mahungu",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The original androgyne / dual principle whose splitting begins the lived world — a loose echo across unrelated families, flagged."
+    }
+  ]
+}

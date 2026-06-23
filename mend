@@ -1,0 +1,133 @@
+#!/usr/bin/env bash
+# ============================================================================
+# THE MENDED MIRROR — solo loop wrapper.
+# One command for the week-without-Claude shard-production loop.
+#
+#   ./mend status            counts: done / remaining, by wave
+#   ./mend queue [wave]      list remaining shards (default: wave 1)
+#   ./mend brief <id>        print a shard's brief + the exact aider command
+#   ./mend build             validate the new shard, merge, sanity-check, report
+#   ./mend view              (re)build then tell you what to open
+#
+# Daily rhythm:  ./mend brief <id>  ->  run the aider line it prints  ->
+#                ./mend build  ->  open index.html  ->  if good, git commit.
+# ============================================================================
+set -euo pipefail
+cd "$(dirname "$0")"
+CMD="${1:-status}"
+
+py() { python3 "$@"; }
+
+case "$CMD" in
+
+status)
+  py - <<'PY'
+import json, glob, os
+d = json.load(open('data/_candidates.json'))
+done = {os.path.basename(f)[:-5] for f in glob.glob('data/_fanout/*.json')}
+from collections import Counter
+c = Counter(); total = 0
+for fam in d['families']:
+    for it in fam['items']:
+        if it.get('status') != 'have' and it['id'] not in done:
+            c[it.get('wave', '?')] += 1; total += 1
+print(f"shards written : {len(done)}")
+print(f"remaining      : {total}")
+print(f"  by wave      : " + "  ".join(f"w{k}={v}" for k, v in sorted(c.items(), key=lambda x: str(x[0]))))
+PY
+  ;;
+
+queue)
+  WAVE="${2:-1}"
+  WAVE="$WAVE" py - <<'PY'
+import json, glob, os
+wave = os.environ['WAVE']
+d = json.load(open('data/_candidates.json'))
+done = {os.path.basename(f)[:-5] for f in glob.glob('data/_fanout/*.json')}
+print(f"=== remaining shards in wave {wave} ===\n")
+n = 0
+for fam in d['families']:
+    todo = [it for it in fam['items']
+            if it.get('status') != 'have' and it['id'] not in done
+            and str(it.get('wave', '?')) == wave]
+    if not todo:
+        continue
+    print(f"# {fam['name']}  (color {fam['hue']})")
+    for it in todo:
+        print(f"   {it['id']:<24} {it['name'][:42]:<42} {it.get('anchor','')[:50]}")
+    print()
+    n += len(todo)
+print(f"--- {n} shards in wave {wave}.  Next: ./mend brief <id>")
+PY
+  ;;
+
+brief)
+  ID="${2:?usage: ./mend brief <id>}"
+  ID="$ID" py - <<'PY'
+import json, os, glob
+wid = os.environ['ID']
+d = json.load(open('data/_candidates.json'))
+hit = None; hue = None
+for fam in d['families']:
+    for it in fam['items']:
+        if it['id'] == wid:
+            hit = it; hue = fam['hue']; break
+if not hit:
+    raise SystemExit(f"! '{wid}' not found in _candidates.json. Try ./mend queue")
+# pick a recent finished shard as the quality exemplar
+exemplars = sorted(glob.glob('data/_fanout/*.json'), key=os.path.getmtime, reverse=True)
+ex = next((e for e in exemplars if os.path.basename(e)[:-5] != wid), exemplars[0])
+print("="*70)
+print(f"  {hit['name']}   (id: {wid})")
+print("="*70)
+print(f"  region : {hit.get('region','?')}")
+print(f"  date   : {hit.get('date','?')}      living: {hit.get('living','?')}")
+print(f"  color  : {hue}")
+print(f"  anchor : {hit.get('anchor','')}")
+print()
+print("  ---- run this, then describe the shard at the > prompt ----")
+print()
+print(f"  aider --model gemini/gemini-2.5-pro \\")
+print(f"        --read data/_fanout/_SPEC.md \\")
+print(f"        --read {ex} \\")
+print(f"        data/_fanout/{wid}.json")
+print()
+print("  ---- paste this as your first message to aider ----")
+print()
+print(f"  Write data/_fanout/{wid}.json, the {hit['name']} shard, following")
+print(f"  _SPEC.md EXACTLY. tradition id '{wid}', color {hue}. 7-11 figures,")
+print(f"  8-20 cross-tradition gold seams to EXISTING ids from the inventory in")
+print(f"  the spec, ruthless honest tiering (when unsure pick the lower tier).")
+print(f"  {os.path.basename(ex)} is your format + quality exemplar. Anchor motif:")
+print(f"  {hit.get('anchor','')}")
+print()
+print("  Then exit aider (/exit) and run:  ./mend build")
+PY
+  ;;
+
+build|view)
+  echo "• merging shards -> mirror-data.js"
+  node merge.js
+  echo
+  echo "• sanity check"
+  if node sanity-check.js | tee /tmp/mend-sanity.txt | grep -qE '✗'; then
+    echo
+    echo "!!  SANITY CHECK FOUND PROBLEMS (✗ above). The most common cause:"
+    echo "!!  a gold seam points to an id that doesn't exist in the inventory."
+    echo "!!  Open the new shard, fix the bad 'b' id (or seam to a joint id"
+    echo "!!  instead), then re-run ./mend build. Don't commit until it's clean."
+    exit 1
+  fi
+  echo
+  echo "✓ clean. Open in a browser to eyeball the new shard's seams:"
+  echo "    xdg-open $(pwd)/index.html"
+  echo
+  echo "If it looks honest (gold seams real, tiers not over-claimed), commit:"
+  echo "    git add -A && git commit -m \"mirror: add <id> shard\""
+  ;;
+
+*)
+  echo "usage: ./mend {status|queue [wave]|brief <id>|build|view}"
+  exit 1
+  ;;
+esac

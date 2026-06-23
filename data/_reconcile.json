@@ -1,0 +1,160 @@
+{
+  "archetypes": [
+    {
+      "id": "withdrawn-creator",
+      "name": "Withdrawn Creator",
+      "subtype": "character",
+      "gloss": "The supreme maker who fashions the world and then recedes (deus otiosus), leaving its governance to younger, nearer powers. Worshipped less than invoked — the high god who has turned his face away."
+    },
+    {
+      "id": "divine-twins",
+      "name": "Divine Twins",
+      "subtype": "character",
+      "gloss": "The paired brothers born together, dawn-bringers and rescuers — one often mortal, one immortal. They ride at the edges of night to deliver the storm-tossed and the lost."
+    },
+    {
+      "id": "culture-hero",
+      "name": "Culture Hero",
+      "subtype": "character",
+      "gloss": "The bringer of fire, tools, law, and the arts of living — the benefactor face of the trickster. He steals from the gods or the deep so that humankind might stand upright."
+    },
+    {
+      "id": "cosmic-serpent",
+      "name": "Cosmic Serpent",
+      "subtype": "character",
+      "gloss": "The world-encircling or world-sustaining snake — not the slain chaos-dragon but the serpent as the very ring of the cosmos, biting its tail, holding continuity coiled around all that is."
+    },
+    {
+      "id": "lunar",
+      "name": "Lunar",
+      "subtype": "character",
+      "gloss": "The moon made deity — reckoner of months and tides, lamp of the dead, complement to the solar eye. She measures time by her own dying and return."
+    },
+    {
+      "id": "mother-of-waters",
+      "name": "Mother of Waters",
+      "subtype": "character",
+      "gloss": "The sea and the deep personified — the womb-water that gives life and the drowning-water that takes it back. From her salt the first things rose, and to her they return."
+    },
+    {
+      "id": "cosmic-adversary",
+      "name": "Cosmic Adversary",
+      "subtype": "character",
+      "gloss": "The principled enemy of order — the Lie, entropy, the destroyer who must be resisted at every turn. Not chaos to be slain once, but a will that opposes the right ordering of the world."
+    },
+    {
+      "id": "first-ancestor",
+      "name": "First Ancestor",
+      "subtype": "character",
+      "gloss": "The first being whose life — or whose death — seeds humankind. From his sundered body or his founding line the peoples reckon their descent."
+    },
+    {
+      "id": "cosmic-order",
+      "name": "Cosmic Order",
+      "subtype": "principle",
+      "gloss": "The impersonal law and truth the cosmos and the gods themselves obey — Rta, Asha, Ma'at, Dao, Logos. Not a ruler's decree but the grain of reality, the right-order to which even heaven bends."
+    },
+    {
+      "id": "dualism",
+      "name": "Dualism",
+      "subtype": "principle",
+      "gloss": "Reality as the battlefield of two co-eternal powers, light against dark, truth against the lie. The warring inverse of balanced complementarity — here the two do not embrace but contend until the end of days."
+    },
+    {
+      "id": "world-egg",
+      "name": "World Egg",
+      "subtype": "principle",
+      "gloss": "The undifferentiated whole from which the world hatches — the sealed shell holding heaven and earth folded together until it cracks and the cosmos spills out."
+    },
+    {
+      "id": "primordial-sacrifice",
+      "name": "Primordial Sacrifice",
+      "subtype": "principle",
+      "gloss": "The cosmos built from the body of a slain primordial being — sky from his skull, sea from his blood, the world raised on a death that founds all life."
+    },
+    {
+      "id": "cyclic-ages",
+      "name": "Cyclic Ages",
+      "subtype": "principle",
+      "gloss": "Time as recurring creation and destruction, great ages turning and burning and beginning again. The world is not made once but remade endlessly, each age dissolving into the seed of the next."
+    },
+    {
+      "id": "earth-diver",
+      "name": "Earth-Diver",
+      "subtype": "principle",
+      "gloss": "Creation by a being who plunges into the primal deep and surfaces with a handful of mud — the first dry earth, dredged up and spread upon the face of the waters."
+    },
+    {
+      "id": "world-parents",
+      "name": "World Parents",
+      "subtype": "principle",
+      "gloss": "The primal Sky-and-Earth couple locked in embrace, whose forced separation opens the space where life can stand. The lived world is the gap torn between mother and father."
+    },
+    {
+      "id": "origin-of-death",
+      "name": "Origin of Death",
+      "subtype": "principle",
+      "gloss": "Why we die: the first death enters the world not as a punishment but as an accident of delivery — the immortality meant for humankind miscarried. A messenger dawdles, the moon’s word is garbled, the wrong runner arrives first. Mortality as a message that came late."
+    },
+    {
+      "id": "master-of-animals",
+      "name": "Master & Mistress of Animals",
+      "subtype": "character",
+      "gloss": "The keeper who owns the wild and its creatures — who looses the game to the hunter and withholds it from the impious, and to whom the hunter owes ritual return. Older than the gods of the sown field: the numen of the hunt itself, male or female, whom the beasts obey."
+    },
+    {
+      "id": "emergence",
+      "name": "Emergence",
+      "subtype": "principle",
+      "gloss": "Humankind climbs up into this world from a series of lower or previous worlds — through a hole, a reed, or a cave (the sipapu) — having been ripened or driven out below. Creation as ascent and arrival, not descent from the sky."
+    },
+    {
+      "id": "ecstatic-shaman",
+      "name": "The Ecstatic Specialist",
+      "subtype": "character",
+      "gloss": "The soul-traveler — who leaves the body in trance to walk the three worlds, heal the sick, guide the dead, and treat with the spirits on the community’s behalf. The technician of ecstasy."
+    }
+  ],
+  "remap": [
+    {
+      "from": "rta",
+      "to": "cosmic-order"
+    },
+    {
+      "from": "rta-asha",
+      "to": "cosmic-order"
+    },
+    {
+      "from": "asura-vedic",
+      "to": "varuna"
+    },
+    {
+      "from": "varuna-asura",
+      "to": "varuna"
+    },
+    {
+      "from": "mitra-vedic",
+      "to": "mitra"
+    },
+    {
+      "from": "agni-vedic",
+      "to": "agni"
+    },
+    {
+      "from": "thoth-egyptian",
+      "to": "thoth"
+    },
+    {
+      "from": "purusha",
+      "to": "purusha-prakriti"
+    },
+    {
+      "from": "buddha",
+      "to": "buddhist-trikaya"
+    },
+    {
+      "from": "kane",
+      "to": "hawaiian-kane"
+    }
+  ]
+}

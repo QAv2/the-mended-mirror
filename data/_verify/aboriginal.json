@@ -1,0 +1,53 @@
+{
+  "verdicts": [
+    {
+      "a": "the-dreaming",
+      "b": "songlines",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Within one tradition (Aboriginal Australian), this is a part-whole identity, not a cross-family linguistic cognate. Songlines (dreaming-tracks) are the Dreaming made walkable: each track is an ancestor's creative journey sung into country. Ethnographically well established (Strehlow, Chatwin's popularization aside; the underlying tjukurpa/Songline scholarship is solid). The two are a single fabric, so the tier-1 'common descent / single source' reading holds. Keep at 1."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "rainbow-serpent",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Rainbow Serpent is a (often THE) great Dreaming Ancestor whose movements shaped rivers and waterholes; it is the most widespread shaping figure of the everywhen across the continent (Radcliffe-Brown's classic survey). This is subsumption within one tradition, not a cross-family claim. The Serpent acts within and is OF the Dreaming. Defensible at 1."
+    },
+    {
+      "a": "the-dreaming",
+      "b": "bora-initiation",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Initiation is the institutional door into the Dreaming: the novice is shown the secret Law, the ancestor's name, and the sacred ground, becoming a custodian of the everywhen. The rite is the transmission mechanism of the Dreaming itself. Within one tradition this is a constitutive identity, not a mere parallel. Keep at 1."
+    },
+    {
+      "a": "rainbow-serpent",
+      "b": "wawilak-sisters",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "The Wawilak (Wawalag) sisters cycle IS the charter myth of the great python Yurlunggur, a Rainbow-Serpent being who smells their blood, swallows them in the flood, and whose disgorging founds the initiation Law. Documented in detail by Warner ('A Black Civilization') and Berndt for Arnhem Land. Serpent and first-mothers are bound in one founding myth within the same tradition. The tier-1 'one founding source' reading is correct. Keep at 1."
+    },
+    {
+      "a": "baiame",
+      "b": "bora-initiation",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "In the southeast, Baiame (the All-Father / sky-being) is precisely the secret disclosed at the Bora; the cleared Bora ground is his. Howitt's ethnography ('The Native Tribes of South-East Australia') ties the All-Father revelation directly to the initiation ring. Within one tradition and region this is an inseparable identity. Keep at 1."
+    },
+    {
+      "a": "yhi-bila",
+      "b": "the-dreaming",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "This is presented as tier-2 'attested historical link', but it is really an interpretive equation of Yhi's first-dawn creation story with 'the everywhen quickening into life.' Yhi is a southeastern sun-woman creation figure; relating her dawn to the Dreaming's stir is a structural/thematic reading within the tradition, not a documented contact, borrowing, or syncretism between two distinct traditions. There is no historical-document link to attest in the tier-2 sense — it is a within-tradition thematic parallel. Down-tier to 3."
+    },
+    {
+      "a": "songlines",
+      "b": "bora-initiation",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Tier-2 here is defensible as a documented practice-link rather than a syncretism: ethnographically, initiation confers the RIGHT to hold and sing particular Dreaming-tracks — the Law transmitted at the Bora includes custodianship of specific songlines (Strehlow on song-ownership and rank; Berndt). This is an attested institutional connection between two practices within the tradition, supported by the ethnographic record, not a mere resemblance. Keep at 2."
+    }
+  ]
+}

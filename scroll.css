@@ -1,0 +1,51 @@
+/* ============================================================================
+   THE MENDED MIRROR — The Scroll of Ages (skin).  Parchment-in-shadow + gold.
+   ============================================================================ */
+:root{
+  --ink:#e9dcc0; --ink-dim:#b6a883; --gold:#e6ad44; --gold-bright:#ffd86b;
+  --vellum-0:#1b150d; --vellum-1:#120d08; --vellum-2:#090604;
+  --serif-d:"Marcellus", Georgia, serif; --serif-b:"Spectral", Georgia, serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#090604;overflow:hidden;
+  font-family:var(--serif-b);color:var(--ink);-webkit-font-smoothing:antialiased}
+#scroll-canvas{position:fixed;inset:0;display:block}
+
+#scroll-header{position:fixed;top:18px;left:26px;z-index:5;pointer-events:none}
+#scroll-header h1{font-family:var(--serif-d);font-weight:400;font-size:23px;margin:0;
+  letter-spacing:.14em;color:var(--ink)}
+#scroll-header .sub{margin:.25em 0 0;font-size:12px;letter-spacing:.05em;
+  color:var(--ink-dim);font-style:italic}
+
+/* time controls, lower-left */
+#controls{position:fixed;left:26px;bottom:120px;z-index:6;display:flex;gap:8px;align-items:center}
+#controls button{font-family:var(--serif-b);font-size:12px;letter-spacing:.06em;
+  color:var(--ink);background:rgba(40,30,16,.55);border:1px solid rgba(230,173,68,.30);
+  border-radius:2px;padding:6px 11px;cursor:pointer;transition:.18s}
+#controls button:hover{border-color:var(--gold);color:var(--gold-bright);
+  background:rgba(60,44,20,.65)}
+#controls #play{min-width:34px;font-size:13px}
+#controls .sep{width:1px;height:18px;background:rgba(230,173,68,.22);margin:0 2px}
+
+/* reliquary panel */
+#reliquary{position:fixed;top:0;right:0;height:100%;width:340px;max-width:84vw;z-index:8;
+  background:linear-gradient(180deg,rgba(20,15,9,.97),rgba(9,6,4,.98));
+  border-left:1px solid rgba(230,173,68,.25);box-shadow:-26px 0 60px rgba(0,0,0,.5);
+  transform:translateX(102%);transition:transform .42s cubic-bezier(.5,0,.2,1);
+  padding:26px 26px 40px;overflow-y:auto}
+#reliquary.open{transform:translateX(0)}
+#reliquary h2{font-family:var(--serif-d);font-weight:400;font-size:24px;margin:.1em 0 .1em;
+  color:var(--ink);letter-spacing:.02em}
+#reliquary .kick{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+#reliquary .span{font-family:var(--serif-d);font-size:14px;color:var(--ink-dim);margin:.4em 0 1em}
+#reliquary .note{font-size:14px;line-height:1.55;color:var(--ink);opacity:.92}
+#reliquary .chip{display:inline-block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  border:1px solid var(--c,#888);color:var(--c,#aaa);border-radius:10px;padding:2px 9px;margin:.2em .3em .2em 0}
+#reliquary #rel-close{position:absolute;top:14px;right:16px;background:none;border:none;
+  color:var(--ink-dim);font-size:24px;cursor:pointer;line-height:1}
+#reliquary #rel-close:hover{color:var(--gold-bright)}
+
+#hint{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:4;
+  font-size:11px;letter-spacing:.06em;color:var(--ink-dim);opacity:.7;pointer-events:none}
+.mode-note{position:fixed;right:24px;top:20px;z-index:5;font-size:11px;font-style:italic;
+  color:var(--ink-dim);opacity:.6;pointer-events:none}

@@ -1,0 +1,11 @@
+{
+  "verdicts": [
+    {
+      "a": "basque-sugaar",
+      "b": "basque-herensuge",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Both names are built on the genuine Basque root 'suge' (serpent): Sugaar (sug(e)-ar, 'male serpent') and Herensuge (with -suge). This is a real shared morphological element WITHIN one language family (Basque/Vasconic) — exactly what a tier-1 cognate requires: the '-suge' element is the same lexeme by demonstrable shared descent, not analogy or contact. The original tier-2 framing was about the legendary conflation under Christianisation (Sugaar the consort-serpent rewritten as the slain Herensuge), but the FALSIFIABLE linguistic backbone — the shared 'suge' morpheme in a single family — is a proper cognate relationship. Up-tier to 1."
+    }
+  ]
+}

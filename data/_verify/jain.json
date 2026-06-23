@@ -1,0 +1,109 @@
+{
+  "verdicts": [
+    {
+      "a": "jain-loka",
+      "b": "jain-kalacakra",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Not a linguistic cognate. 'Loka' (space-cosmos) and 'Kalacakra' (wheel of time) are two distinct doctrinal categories within Jain cosmology related by a structural/conceptual parallelism (eternal cosmos seen spatially vs temporally). No sound-law descent from a common proto-form links the two terms; this is an internal structural analogy. Down-tier to 3."
+    },
+    {
+      "a": "jain-tirthankara",
+      "b": "jain-kalacakra",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "A doctrinal-functional dependency (the 24 ford-makers are scheduled by the time-wheel), not a linguistic cognate. Tier-1 requires proven common descent by sound-law within one family; this is a conceptual entailment between two Jain doctrines. Down-tier to 3."
+    },
+    {
+      "a": "jain-rishabha",
+      "b": "jain-tirthankara",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "An instance-of/membership relation (Rishabha is the first of the 24 tirthankaras), not a cognate. Rishabha IS a tirthankara; this is a part-whole/exemplar relation internal to one tradition, not a sound-law descent linking two words. Down-tier to 3."
+    },
+    {
+      "a": "jain-mahavira",
+      "b": "jain-tirthankara",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "An instance-of relation (Mahavira is the 24th/last tirthankara of this cycle), not a linguistic cognate. Membership within a doctrinal series is structural, not etymological. Down-tier to 3."
+    },
+    {
+      "a": "jain-jiva",
+      "b": "jain-ahimsa",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "A logical/ethical entailment (because every jiva is a precious soul, non-harm follows), not a cognate. This is doctrinal consequence, not common phonological descent between two terms. Down-tier to 3."
+    },
+    {
+      "a": "jain-jiva",
+      "b": "jain-siddha",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "A state-transition/identity relation (the same soul, bound vs liberated), not a linguistic cognate. The jiva that is purified becomes a siddha — a doctrinal continuity, not a sound-law derivation between two words. Down-tier to 3."
+    },
+    {
+      "a": "jain-kalacakra",
+      "b": "buddhist-kalpas",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Labeled 'cognate' but Jain Kalacakra and Buddhist kalpas are NOT linguistic cognates and there is no documented borrowing of one cyclic-time scheme from the other. Both are independent sramana systematisations of beginningless cyclic time arising from the shared Gangetic milieu — a structural/functional parallel, not attested contact. Down-tier to 3."
+    },
+    {
+      "a": "jain-ahimsa",
+      "b": "buddhist-anatman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The prose itself calls these 'kindred refusals, not derivations.' Two independent sramana doctrines from the same era/region answering the same problem differently — a structural parallel with no proven borrowing. Tier-2 (attested contact) is not met. Down-tier to 3."
+    },
+    {
+      "a": "jain-jiva",
+      "b": "buddhist-anatman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "An 'inverts' contrast (eternal plural soul vs no-self) between two contemporaneous sramana traditions. This is a structural opposition, not a documented historical borrowing or syncretism. No attested transmission of doctrine in either direction is named; shared milieu alone is tier 3. Down-tier to 3."
+    },
+    {
+      "a": "jain-jiva",
+      "b": "brahman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "A doctrinal counter-position (souls stay eternally many vs Atman merging into Brahman). While Jainism developed alongside Vedic/Upanisadic thought, the claim asserts a deliberate doctrinal contrast, not a specific attested textual borrowing/syncretism event. This is a structural inversion = tier 3, not tier-2 attested contact. Down-tier to 3."
+    },
+    {
+      "a": "jain-loka",
+      "b": "mount-meru",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Jainism does inherit the shared pan-Indic Meru-centred cosmography, which makes a contact/inheritance case plausible — but the seam as written is an 'inverts' contrast (Meru crowned by Brahma's heaven vs Loka's summit holding only liberated souls). The shared world-mountain motif is a structural commonplace across Indic traditions rather than a documented borrowing from a specific source into Jain doctrine. Honest tier is 3."
+    },
+    {
+      "a": "jain-loka",
+      "b": "buddhist-sumeru",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Explicitly 'analogous': two sramana cosmographies that both inherit the Meru axis and de-theise it. Parallel inheritance of a common Indic motif, not a documented borrowing of one from the other. Tier-2 attested contact is not demonstrated. Down-tier to 3."
+    },
+    {
+      "a": "jain-mahavira",
+      "b": "buddhist-mara",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The prose states 'not one borrowed from the other' — a structural parallel between Mahavira-as-jina (conqueror of passion) and the Buddha's victory over Mara, among contemporaries. By its own wording this denies borrowing, so tier-2 attested contact fails. Note also the endpoints are mismatched (Mahavira the victor vs Mara the tempter), but the kindred-conquest reading holds at tier 3. Down-tier to 3."
+    },
+    {
+      "a": "jain-siddha",
+      "b": "brahman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "An 'inverts' contrast of liberation models (the Jain soul persists as itself vs the Vedic atman dissolving into Brahman). A structural/doctrinal opposition rooted in shared milieu, not a specific documented borrowing or syncretism. Down-tier to 3."
+    },
+    {
+      "a": "jain-siddha",
+      "b": "buddhist-anatman",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "An 'inverts' contrast between two sramana liberation-doctrines (freed jiva remains an eternal individual vs nirvana extinguishing any abiding self). Kindred denials of a creator-ground but opposite verdicts on the self — a structural parallel/opposition, not attested historical transmission. Down-tier to 3."
+    }
+  ]
+}

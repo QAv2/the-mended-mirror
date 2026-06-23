@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/nano-banana",
+  "mode": "text-to-image",
+  "prompt": "A circular obsidian scrying mirror shattered into angular facets and rejoined with rivers of molten gold in the Japanese kintsugi style, each shard faintly reflecting a different pantheon of world deities and constellations, sacred reverent and museum-lit, deep indigo-black glass with cold silver sheen and luminous warm gold repair-seams, painterly fine-art, no text no words no letters",
+  "inputs": [],
+  "num": 1,
+  "aspect": "16:9",
+  "request_id": "019ee83b-a957-7010-a91d-3fda05e1c4f6",
+  "description": "",
+  "outputs": [
+    "concepts/signature.png"
+  ],
+  "ts": "20260620-233133"
+}

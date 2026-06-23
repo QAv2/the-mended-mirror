@@ -1,0 +1,288 @@
+{
+  "tradition": {
+    "id": "dogon",
+    "name": "Dogon",
+    "region": "West Africa (Mali)",
+    "color": "#c0894a"
+  },
+  "figures": [
+    {
+      "id": "dogon-amma",
+      "kind": "deity",
+      "name": "Amma",
+      "archetypes": ["withdrawn-creator", "sky-father", "world-egg"],
+      "gloss": "The single supreme god who shaped the world from an egg of his own thought, setting the first seed of creation spinning within it; having made all things he withdraws above the firmament he raised.",
+      "facet": "A creator who makes by inward vibration rather than by hand or word — the cosmos as Amma's egg trembling into form, a maker known through his geometry more than through any cult.",
+      "provenance": "The cosmogony is well attested in Dogon ritual and Griaule–Dieterlen ethnography; the figure of Amma is secure, distinct from the contested astronomical glosses layered onto it."
+    },
+    {
+      "id": "dogon-amma-egg",
+      "kind": "principle",
+      "name": "The Egg of Amma",
+      "archetypes": ["world-egg", "axis-mundi", "one-through-many"],
+      "gloss": "The cosmic egg (aduno kine, 'the world-egg') in which Amma planted the first seed; from its spiralling, vibrating germination all the categories of creation — the 266 signs, the eight grains, the directions — unfold.",
+      "facet": "Creation as a seed swelling toward a perfect helical figure: the Dogon render the whole made world as a single image-bearing egg, so that cosmology and geometry are the same act of reading.",
+      "provenance": "Central to Dogon cosmological symbolism; the egg-and-spiral imagery is well documented, while specific star-correlations remain academically contested."
+    },
+    {
+      "id": "dogon-nommo",
+      "kind": "deity",
+      "name": "Nommo",
+      "archetypes": ["divine-twins", "primordial-sacrifice", "dying-rising"],
+      "gloss": "The first beings Amma made: amphibious, twinned, water-dwelling ancestors of perfect androgynous order. One Nommo is sacrificed and dismembered to purify the disordered cosmos, then resurrected and multiplied to bring water, speech and life to the earth.",
+      "facet": "A redeemer who is also the twins and the sacrifice in one body: the slain-and-risen saviour is plural and watery, his dismembered parts scattered to seed the world's directions before he rises whole.",
+      "provenance": "The Nommo sacrifice-and-resurrection is a core, well-attested Dogon mythologem; the 'amphibious instructors from Sirius' reading is the contested Griaule-derived layer and is not relied on here."
+    },
+    {
+      "id": "dogon-ogo",
+      "kind": "deity",
+      "name": "Ogo / the Pale Fox",
+      "archetypes": ["trickster", "cosmic-adversary", "first-ancestor"],
+      "gloss": "The impatient firstborn who broke from his egg before completion, rebelling against Amma's order; his premature, incestuous descent introduced disorder, dryness and death, and he is changed into Yurugu, the Pale Fox who wanders the bush.",
+      "facet": "The fall told as prematurity, not pride: disorder enters the world because one twin could not wait to be finished — and the very fox who ruined creation becomes the Dogon's truest diviner, his pawprints in the sand read as oracle.",
+      "provenance": "Ogo/Yurugu and the fox-divination (yurugu/sand-table) are well attested; the precise astronomical exegesis attached to his egg is the contested material."
+    },
+    {
+      "id": "dogon-eight-ancestors",
+      "kind": "ancestor",
+      "name": "The Eight Ancestors",
+      "archetypes": ["first-ancestor", "one-through-many"],
+      "gloss": "The eight primordial Nommo ancestors, four male and four female pairs, from whom the lineages of humankind descend; they carry the eight seed-grains and the original speech down to the earth in the celestial granary.",
+      "facet": "Humanity descended not from one first man but from a counted set of eight paired ancestors — the human family rendered as an ordered, gendered octave rather than a single Adam.",
+      "provenance": "The eight ancestors and eight grains are firmly attested structural features of Dogon cosmology."
+    },
+    {
+      "id": "dogon-granary",
+      "kind": "concept",
+      "name": "The Celestial Granary",
+      "archetypes": ["axis-mundi", "one-through-many"],
+      "gloss": "The world-system descended from heaven by the Nommo: a stepped pyramidal granary whose ordered compartments hold the eight grains and map every creature and direction — the cosmos as an architecture lowered to earth on a thread.",
+      "facet": "The axis of the world imagined as a storehouse: order is a granary's grid, and to build a house, a field or a village is to re-inscribe the whole cosmic plan in miniature.",
+      "provenance": "The granary-descent and its geometric exegesis are central to Dogon ritual architecture, documented in Griaule and in standing village structure."
+    },
+    {
+      "id": "dogon-lebe",
+      "kind": "ancestor",
+      "name": "Lébé",
+      "archetypes": ["dying-rising", "first-ancestor"],
+      "gloss": "The first ancestor to die, swallowed and then revived by a Nommo in serpent form; his death sanctifies the earth and binds the living to the soil, and the Hogon priest tends the altar where his life is renewed.",
+      "facet": "Death enters as gift, not curse: Lébé's dying makes the ground holy and arable, so that mortality itself is the seed by which the people are rooted to the land they farm.",
+      "provenance": "The Lébé cult and the Hogon priesthood are well-attested living institutions of Dogon religion."
+    },
+    {
+      "id": "dogon-sigui",
+      "kind": "rite",
+      "name": "The Sigui",
+      "archetypes": ["cyclic-ages", "first-ancestor"],
+      "gloss": "The great masked festival held once every sixty years, commemorating the first death and the descent of speech; its procession passes from village to village across years, renewing the covenant between the living, the ancestors and the made world.",
+      "facet": "A calendar measured in human lifetimes: the Sigui's sixty-year beat means most who dance it do so only once, the rite itself binding mortality to a cosmic cycle no single life can see whole.",
+      "provenance": "The sixty-year Sigui cycle is a well-documented Dogon institution; the claim that its period tracks the orbit of Sirius B is the contested astronomical interpretation, flagged as speculative."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "dogon-amma",
+      "b": "dogon-amma-egg",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Within the tradition, Amma and the egg he thinks into being are one act of creation — the maker and the world-seed he sets spinning, inseparable."
+    },
+    {
+      "a": "dogon-amma",
+      "b": "dogon-nommo",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Amma's first and perfect creatures are the Nommo; the supreme maker recedes and the watery twins become the working redeemers of his creation."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "dogon-ogo",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Ogo the impatient twin and the perfected, sacrificed Nommo are the two outcomes of Amma's paired creation — disorder broken loose against the order restored by sacrifice."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "dogon-eight-ancestors",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The eight ancestors are themselves Nommo offspring who carry the grains and speech to earth — the twin redeemer multiplied into the human lineages."
+    },
+    {
+      "a": "dogon-eight-ancestors",
+      "b": "dogon-granary",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The eight ancestors descend in the celestial granary bearing the eight grains; ancestors and architecture come down to earth as a single ordered system."
+    },
+    {
+      "a": "dogon-lebe",
+      "b": "dogon-nommo",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Lébé, the first to die, is swallowed and revived by a Nommo in serpent form — the dying-rising redeemer extended into the founding ancestor of the soil."
+    },
+    {
+      "a": "dogon-sigui",
+      "b": "dogon-lebe",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Sigui commemorates the first death and the gift of speech that Lébé and the ancestors brought — the rite that re-enacts the founding mortality."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The dismembered-and-resurrected redeemer whose scattered body fertilises the world — a dying-rising saviour rebuilt to renew creation, across unrelated families."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A primordial being sacrificed and parcelled out so that the ordered cosmos and its categories arise from his body — primordial-sacrifice as the engine of creation."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both render the first divine reality as androgynous and paired before differentiation; a reach across families, flagged — twinned primordial wholeness."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Divine twins who pass through death to set the world right — but the Dogon twins are watery, androgynous redeemers where the Maya twins are hunters who outwit death."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A perfect being voluntarily sacrificed and resurrected to purify and redeem a disordered creation; a structural rhyme, flagged, with no contact implied."
+    },
+    {
+      "a": "dogon-amma",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring West-African supreme makers who create and then withdraw from the world's affairs — the deus otiosus shared across the region, no proven common descent."
+    },
+    {
+      "a": "dogon-amma",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A supreme sky-source that recedes into impersonal remoteness above the working powers — the withdrawn high-god across unrelated families."
+    },
+    {
+      "a": "dogon-amma",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The single ground from which all categories of being unfold by inward vibration rather than external act; a reach toward Brahman as the source, flagged."
+    },
+    {
+      "a": "dogon-amma-egg",
+      "b": "ranginui",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both place an undifferentiated primal whole at the origin from which the ordered world emerges; world-egg beside the unseparated sky-earth, offered cautiously."
+    },
+    {
+      "a": "dogon-amma-egg",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The infinite undifferentiated source contracting and unfolding into the categories of creation — world-egg as a rhyme with Ein Sof's emanation, flagged."
+    },
+    {
+      "a": "dogon-ogo",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The disorder-bringing trickster who is nonetheless indispensable to divination and the working of fate — but Ogo's mischief is a fall, where Esu's is a necessary gate."
+    },
+    {
+      "a": "dogon-ogo",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The kin-trickster whose impatience and rebellion introduce death and disorder into a made world — the adversary-from-within across families."
+    },
+    {
+      "a": "dogon-ogo",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A primordial figure who seizes from the creator before the appointed time and so alters the human lot; a reach, flagged — premature theft against ordered patience."
+    },
+    {
+      "a": "dogon-ogo",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both pair a disordering trickster-power against an ordering creator-sibling; offered cautiously, the adversary as the necessary counterweight to order."
+    },
+    {
+      "a": "dogon-lebe",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The first ancestor whose death sanctifies the earth and binds the people to the soil — mortality made the root of agriculture and lineage."
+    },
+    {
+      "a": "dogon-lebe",
+      "b": "dogon-amma",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Lébé's altar is tended by the Hogon, the priest-king of Amma's order — the first death folded into the standing cult of the supreme maker."
+    },
+    {
+      "a": "dogon-eight-ancestors",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both seed humankind from a counted, ordered origin laid out in directions and grains/rivers — but the Dogon count eight paired ancestors against a single first couple; a flagged structural rhyme."
+    },
+    {
+      "a": "dogon-granary",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The world ordered along a single descending axis lowered from heaven — granary-architecture beside world-tree as the frame that holds the cosmos."
+    },
+    {
+      "a": "dogon-granary",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A stepped, tiered cosmic structure that maps every direction and being onto an axis; a reach across families, flagged."
+    },
+    {
+      "a": "dogon-granary",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both lay the cosmos out as a quartered, direction-bearing plan radiating from a central order; offered cautiously as a cosmogram-rhyme."
+    },
+    {
+      "a": "dogon-sigui",
+      "b": "ballgame",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A recurring ritual that re-enacts the founding passage through death to renew the covenant of the world; a distant structural parallel, flagged."
+    },
+    {
+      "a": "dogon-amma-egg",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both encode the whole cosmos as a single geometric figure to be read — the world-egg's spiral beside the quartered board; a flagged cosmogram-rhyme, no contact."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "verdicts": [
+    {
+      "a": "dogon-amma",
+      "b": "dogon-amma-egg",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Intra-Dogon narrative pairing (maker and his world-egg), not a linguistic cognate. Tier-1 requires proven common descent by sound-law within one language family between two distinct figures; this is a structural/conceptual relationship inside a single myth. Down-tier to 3 (analogous/structural)."
+    },
+    {
+      "a": "dogon-amma",
+      "b": "dogon-nommo",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Creator-to-creature genealogical relationship within the Dogon system, not a sound-law cognate. 'Cognate' is a linguistic-descent claim, which this is not. The relationship is real and well-documented but structural; down-tier to 3."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "dogon-ogo",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Ogo (the disorderly twin) vs. the sacrificed Nommo (restored order) is an internal mythic contrast, not a linguistic cognate. Tier-1 misapplied; this is an analogous/structural twin-opposition. Down-tier to 3."
+    },
+    {
+      "a": "dogon-nommo",
+      "b": "dogon-eight-ancestors",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The eight ancestors as Nommo offspring is an intra-tradition descent narrative, not a sound-law cognate between figures. Real Dogon doctrine but structural, not linguistic. Down-tier to 3."
+    },
+    {
+      "a": "dogon-eight-ancestors",
+      "b": "dogon-granary",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Ancestors descending in the celestial granary with the eight grains is a narrative/architectural pairing within Dogon cosmology, not a linguistic cognate. Tier-1 inappropriate; down-tier to 3 (structural)."
+    },
+    {
+      "a": "dogon-lebe",
+      "b": "dogon-nommo",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Lébé swallowed and revived by a serpent-form Nommo is a dying-rising motif extended within the tradition, not a sound-law cognate. The link is genuine Dogon myth but structural/functional. Down-tier to 3."
+    },
+    {
+      "a": "dogon-sigui",
+      "b": "dogon-lebe",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The Sigui rite commemorating Lébé's first death is a ritual-to-myth relationship inside the tradition, not a linguistic cognate. Tier-1 misapplied; down-tier to 3 (analogous/structural)."
+    },
+    {
+      "a": "dogon-lebe",
+      "b": "dogon-amma",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Lébé's altar tended by the Hogon within Amma's cult is intra-tradition cultic structure, not a documented cross-tradition contact/borrowing. Tier-2 'attested' in this rubric means a historical link BETWEEN traditions; an internal cultic relationship is structural. Down-tier to 3."
+    }
+  ]
+}

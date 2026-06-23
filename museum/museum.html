@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mended Mirror — The Atrium</title>
+
+<!-- ============================================================================
+     THE MENDED MIRROR · THE ATRIUM  (first-person 3D prototype)
+     ----------------------------------------------------------------------------
+     A reliquary, not a video game. Obsidian + gold + parchment.
+     The visitor walks out of the dark to a single lit plinth bearing two relics —
+     the Scroll of Ages and the Astrolabe of Ages — two lenses onto one history.
+     Choosing one TRANSFORMS the room into that exhibit's vessel.
+
+     This is a PROTOTYPE: it makes the SPACE and the FEELING real. The exhibit
+     CONTENT (the actual timeline ribbon / the actual wheeling pantheons) is
+     placeholder. Look for  >>> MOUNT-HOOK <<<  comments where the real 2D
+     exhibits will later be projected.
+
+     Tech: Three.js r160 (0.160.0) as ES modules via importmap (jsDelivr CDN).
+     Runs from file:// in a modern Chrome/Firefox (importmap + ESM supported).
+     ============================================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --obsidian:   #0b0d12;
+    --obsidian-2: #06070b;
+    --gold:       #f0c45a;
+    --gold-bright:#ffe49a;
+    --gold-deep:  #b8893a;
+    --silver:     #cdd2dc;
+    --silver-dim: #828b9c;
+    --parchment:  #e9dcc0;
+  }
+  *{ box-sizing:border-box; }
+  html,body{
+    margin:0; height:100%; overflow:hidden; background:var(--obsidian-2);
+    font-family:'Spectral', Georgia, serif; color:var(--silver);
+    -webkit-font-smoothing:antialiased; cursor:default;
+  }
+  #app{ position:fixed; inset:0; }
+  canvas{ display:block; }
+
+  /* ---------- start overlay (the threshold) ---------- */
+  #gate{
+    position:fixed; inset:0; z-index:30;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; cursor:pointer;
+    background:
+      radial-gradient(circle at 50% 42%, rgba(240,196,90,0.10), rgba(6,7,11,0.0) 45%),
+      radial-gradient(circle at 50% 50%, #0b0d12 0%, #06070b 70%);
+    transition:opacity 1.1s ease;
+  }
+  #gate.hidden{ opacity:0; pointer-events:none; }
+  #gate .kicker{
+    font-size:12px; letter-spacing:.34em; text-transform:uppercase;
+    color:var(--gold-deep); margin-bottom:1.6em;
+  }
+  #gate h1{
+    font-family:'Marcellus', serif; font-weight:400; margin:0;
+    font-size:clamp(34px, 6vw, 60px); letter-spacing:.05em; line-height:1.05;
+    background:linear-gradient(180deg,#fff1c8,#e7b24a 68%,#a9772f);
+    -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  }
+  #gate .sub{
+    margin:.9em 0 0; font-style:italic; font-weight:300;
+    font-size:clamp(14px,2.2vw,18px); color:var(--silver-dim); letter-spacing:.03em;
+  }
+  #gate .enter{
+    margin-top:3.2em; font-size:13px; letter-spacing:.24em; text-transform:uppercase;
+    color:var(--gold-bright); border:1px solid rgba(240,196,90,0.35);
+    border-radius:2px; padding:13px 30px;
+    background:rgba(240,196,90,0.04);
+    animation:breathe 3.4s ease-in-out infinite;
+  }
+  @keyframes breathe{
+    0%,100%{ opacity:.62; box-shadow:0 0 0 rgba(240,196,90,0); }
+    50%    { opacity:1;   box-shadow:0 0 26px rgba(240,196,90,0.14); }
+  }
+  #gate .controls-note{
+    margin-top:2.4em; font-size:11.5px; letter-spacing:.05em; color:rgba(130,139,156,0.6);
+    line-height:1.7;
+  }
+
+  /* ---------- persistent control hint ---------- */
+  #hud-hint{
+    position:fixed; bottom:22px; left:50%; transform:translateX(-50%); z-index:12;
+    font-size:12px; letter-spacing:.08em; color:rgba(205,210,220,0.55);
+    pointer-events:none; text-align:center; text-shadow:0 2px 14px rgba(0,0,0,0.9);
+    transition:opacity .6s ease;
+  }
+  #hud-hint b{ color:var(--gold); font-weight:400; }
+
+  /* ---------- floating object label (3D-anchored, drawn in 2D) ---------- */
+  #obj-label{
+    position:fixed; z-index:11; pointer-events:none;
+    transform:translate(-50%,-140%);
+    font-family:'Marcellus', serif; font-size:17px; letter-spacing:.06em;
+    color:var(--gold-bright); white-space:nowrap;
+    text-shadow:0 2px 18px rgba(0,0,0,0.95), 0 0 22px rgba(240,196,90,0.25);
+    opacity:0; transition:opacity .35s ease;
+  }
+  #obj-label .reticle-cap{
+    display:block; font-family:'Spectral',serif; font-style:italic; font-weight:300;
+    font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--silver-dim); margin-top:.35em; text-shadow:0 2px 10px rgba(0,0,0,0.9);
+  }
+
+  /* ---------- exhibit title (fades in on choice) ---------- */
+  #exhibit-title{
+    position:fixed; top:7vh; left:50%; transform:translateX(-50%); z-index:10;
+    text-align:center; pointer-events:none; opacity:0;
+    transition:opacity 1.6s ease;
+  }
+  #exhibit-title h2{
+    font-family:'Marcellus',serif; font-weight:400; margin:0;
+    font-size:clamp(28px,4.4vw,44px); letter-spacing:.07em;
+    color:var(--gold-bright); text-shadow:0 2px 30px rgba(0,0,0,0.85);
+  }
+  #exhibit-title p{
+    margin:.55em 0 0; font-style:italic; font-weight:300; font-size:15px;
+    color:var(--silver-dim); letter-spacing:.04em; text-shadow:0 2px 16px rgba(0,0,0,0.9);
+  }
+
+  /* ---------- "step back" affordance (only shown inside an exhibit) ---------- */
+  #back-cue{
+    position:fixed; top:22px; left:50%; transform:translateX(-50%); z-index:12;
+    font-size:11px; letter-spacing:.2em; text-transform:uppercase;
+    color:rgba(130,139,156,0.7); pointer-events:none; opacity:0; transition:opacity .5s ease;
+  }
+  #back-cue b{ color:var(--gold-deep); }
+
+  /* center reticle dot — quiet, lapidary */
+  #reticle{
+    position:fixed; top:50%; left:50%; width:5px; height:5px; z-index:9;
+    margin:-2.5px 0 0 -2.5px; border-radius:50%;
+    background:rgba(240,196,90,0.0); border:1px solid rgba(205,210,220,0.30);
+    pointer-events:none; transition:background .25s, border-color .25s, transform .25s;
+  }
+  #reticle.hot{ background:rgba(240,196,90,0.85); border-color:rgba(240,196,90,0.9);
+    transform:scale(1.4); }
+
+  #blocker-note{
+    position:fixed; bottom:22px; right:24px; z-index:12;
+    font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+    color:rgba(130,139,156,0.35); pointer-events:none;
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<!-- threshold / pointer-lock start overlay -->
+<div id="gate">
+  <div class="kicker">The Mended Mirror</div>
+  <h1>The Atrium</h1>
+  <p class="sub">a kintsugi of the world&rsquo;s pantheons</p>
+  <div class="enter">click to enter</div>
+  <p class="controls-note">
+    WASD / arrows to walk &nbsp;·&nbsp; mouse to look<br>
+    walk to the lit plinth &nbsp;·&nbsp; click a relic to choose &nbsp;·&nbsp; Esc to step back
+  </p>
+</div>
+
+<!-- persistent HUD -->
+<div id="reticle"></div>
+<div id="obj-label"></div>
+<div id="exhibit-title"><h2></h2><p></p></div>
+<div id="back-cue">press <b>Q</b> to step back to the plinth</div>
+<div id="hud-hint">click to enter &middot; <b>WASD</b> to walk &middot; click an object to choose &middot; <b>Esc</b> to step back</div>
+<div id="blocker-note">prototype · space &amp; feeling, not final content</div>
+
+<!-- ============================================================================
+     Three.js r160 via importmap (jsDelivr). ESM + importmap run from file://.
+     ============================================================================ -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+
+/* ============================================================================
+   PALETTE  (kept in sync with mirror.css — the relic's own skin)
+   ============================================================================ */
+const COL = {
+  obsidian:   0x0b0d12,
+  obsidian2:  0x06070b,
+  gold:       0xf0c45a,
+  goldBright: 0xffe49a,
+  goldDeep:   0xb8893a,
+  silver:     0xcdd2dc,
+  parchment:  0xe9dcc0,
+  parchDeep:  0xc9b78f,
+  brass:      0xc7972f,
+};
+
+/* ============================================================================
+   SCENE · CAMERA · RENDERER
+   ============================================================================ */
+const app = document.getElementById('app');
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(COL.obsidian2);
+// Gentle fog for depth & mystery — the far walls dissolve into the dark.
+scene.fog = new THREE.FogExp2(COL.obsidian2, 0.022);
+
+const camera = new THREE.PerspectiveCamera(62, innerWidth/innerHeight, 0.1, 240);
+const EYE = 1.65;                       // eye height (m)
+camera.position.set(0, EYE, 16);        // spawn several steps BACK from center
+
+const renderer = new THREE.WebGLRenderer({ antialias:true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+app.appendChild(renderer.domElement);
+
+/* ============================================================================
+   THE ROOM — a large, dark, sparse atrium.
+   Room is ~ 34 x 34, walls 9 tall. We keep it EMPTY on purpose: the awe is
+   the walk and the restraint, not the props.
+   ============================================================================ */
+const ROOM = { w: 34, d: 34, h: 9 };
+const room = new THREE.Group();
+scene.add(room);
+
+// --- floor (polished obsidian — faint, near-mirror dark) ---
+const floorMat = new THREE.MeshStandardMaterial({
+  color: 0x14171f, roughness: 0.42, metalness: 0.35,
+});
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(ROOM.w, ROOM.d), floorMat);
+floor.rotation.x = -Math.PI/2;
+floor.receiveShadow = true;
+room.add(floor);
+
+// --- walls (dark obsidian, inward-facing) ---
+const wallMat = new THREE.MeshStandardMaterial({
+  color: 0x0c0f16, roughness: 0.9, metalness: 0.05, side: THREE.FrontSide,
+});
+function makeWall(w, h){ return new THREE.Mesh(new THREE.PlaneGeometry(w, h), wallMat.clone()); }
+const wallN = makeWall(ROOM.w, ROOM.h); wallN.position.set(0, ROOM.h/2, -ROOM.d/2); room.add(wallN);
+const wallS = makeWall(ROOM.w, ROOM.h); wallS.position.set(0, ROOM.h/2,  ROOM.d/2); wallS.rotation.y = Math.PI; room.add(wallS);
+const wallW = makeWall(ROOM.d, ROOM.h); wallW.position.set(-ROOM.w/2, ROOM.h/2, 0); wallW.rotation.y =  Math.PI/2; room.add(wallW);
+const wallE = makeWall(ROOM.d, ROOM.h); wallE.position.set( ROOM.w/2, ROOM.h/2, 0); wallE.rotation.y = -Math.PI/2; room.add(wallE);
+const walls = [wallN, wallS, wallW, wallE];
+
+// --- ceiling (kept dark; becomes the Astrolabe dome later) ---
+const ceilMat = new THREE.MeshStandardMaterial({ color: 0x070910, roughness:1.0, metalness:0.0, side:THREE.FrontSide });
+const ceiling = new THREE.Mesh(new THREE.PlaneGeometry(ROOM.w, ROOM.d), ceilMat);
+ceiling.position.set(0, ROOM.h, 0); ceiling.rotation.x = Math.PI/2;
+room.add(ceiling);
+
+/* ============================================================================
+   LIGHT — restrained. A single warm shaft on the plinth; cool dim fill else.
+   ============================================================================ */
+const ambient = new THREE.AmbientLight(0x223047, 0.16);       // cool, very low fill
+scene.add(ambient);
+
+const hemi = new THREE.HemisphereLight(0x2a3346, 0x05060a, 0.18);
+scene.add(hemi);
+
+// The shaft: warm gold spotlight straight down onto the plinth.
+const shaft = new THREE.SpotLight(0xffe9bf, 70, 26, Math.PI/7.5, 0.55, 1.4);
+shaft.position.set(0, ROOM.h - 0.4, 0);
+shaft.target.position.set(0, 0.9, 0);
+shaft.castShadow = true;
+shaft.shadow.mapSize.set(1024, 1024);
+shaft.shadow.camera.near = 1; shaft.shadow.camera.far = 14;
+shaft.shadow.bias = -0.0004;
+scene.add(shaft); scene.add(shaft.target);
+
+// A soft point fill right at the relics so the gold/parchment read up close.
+const relicGlow = new THREE.PointLight(0xffd98a, 7, 9, 2.0);
+relicGlow.position.set(0, 1.7, 0);
+scene.add(relicGlow);
+
+/* Visible volumetric-ish cone of dust/light around the shaft (fake god-ray).
+   Additive cone, double-sided, very faint — sells the "shaft of light". */
+const beamGeo = new THREE.CylinderGeometry(0.15, 3.0, ROOM.h - 1.0, 32, 1, true);
+const beamMat = new THREE.MeshBasicMaterial({
+  color: 0xffe6b0, transparent:true, opacity:0.045,
+  side:THREE.DoubleSide, depthWrite:false, blending:THREE.AdditiveBlending,
+});
+const beam = new THREE.Mesh(beamGeo, beamMat);
+beam.position.set(0, (ROOM.h - 1.0)/2 + 0.5, 0);
+scene.add(beam);
+
+/* ============================================================================
+   THE PLINTH — waist-high obsidian altar at center, under the shaft.
+   ============================================================================ */
+const plinth = new THREE.Group();
+plinth.position.set(0, 0, 0);
+scene.add(plinth);
+
+const plinthMat = new THREE.MeshStandardMaterial({ color: 0x0e1118, roughness:0.5, metalness:0.5 });
+const plinthTopMat = new THREE.MeshStandardMaterial({ color: 0x12151d, roughness:0.35, metalness:0.55 });
+
+const PLINTH_H = 0.95;
+const base = new THREE.Mesh(new THREE.BoxGeometry(1.9, 0.18, 1.9), plinthMat);
+base.position.y = 0.09; base.castShadow = true; base.receiveShadow = true; plinth.add(base);
+
+const column = new THREE.Mesh(new THREE.CylinderGeometry(0.6, 0.72, PLINTH_H - 0.3, 8), plinthMat);
+column.position.y = 0.09 + (PLINTH_H - 0.3)/2; column.castShadow = true; column.receiveShadow = true; plinth.add(column);
+
+const cap = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.16, 1.5), plinthTopMat);
+cap.position.y = PLINTH_H; cap.castShadow = true; cap.receiveShadow = true; plinth.add(cap);
+
+// thin gold inlay line around the cap edge — the seam motif, the sacred gold
+const inlayMat = new THREE.MeshStandardMaterial({
+  color: COL.gold, roughness:0.25, metalness:1.0,
+  emissive: COL.goldDeep, emissiveIntensity:0.25,
+});
+const inlay = new THREE.Mesh(new THREE.TorusGeometry(0.86, 0.012, 8, 48), inlayMat);
+inlay.rotation.x = Math.PI/2; inlay.position.y = PLINTH_H + 0.085;
+plinth.add(inlay);
+
+const TOP_Y = PLINTH_H + 0.08;   // surface the relics sit on
+
+/* ============================================================================
+   RELIC 1 · THE SCROLL OF AGES  (left)
+   A rolled parchment, slightly unrolled at one end.
+   ============================================================================ */
+const scroll = new THREE.Group();
+scroll.position.set(-0.42, TOP_Y, 0);
+scroll.userData = {
+  kind: 'scroll',
+  label: 'The Scroll of Ages',
+  reticleCap: 'walk the ring of history',
+};
+plinth.add(scroll);
+
+const parchMat = new THREE.MeshStandardMaterial({ color: COL.parchment, roughness:0.85, metalness:0.0 });
+const parchDeepMat = new THREE.MeshStandardMaterial({ color: COL.parchDeep, roughness:0.9, metalness:0.0 });
+
+// main rolled body, lying on its side (long axis = X)
+const scrollBody = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.11, 0.62, 28), parchMat);
+scrollBody.rotation.z = Math.PI/2;
+scrollBody.castShadow = true; scrollBody.receiveShadow = true;
+scroll.add(scrollBody);
+
+// rolled cores at each end (slightly larger, darker — the wound paper edge)
+const core1 = new THREE.Mesh(new THREE.CylinderGeometry(0.115, 0.115, 0.04, 28), parchDeepMat);
+core1.rotation.z = Math.PI/2; core1.position.x = 0.31; scroll.add(core1);
+const core2 = core1.clone(); core2.position.x = -0.31; scroll.add(core2);
+
+// the unrolled tongue at one end — a thin curved sheet flopping onto the cap
+const tongueShape = new THREE.PlaneGeometry(0.30, 0.34, 12, 4);
+{ // gently curl it
+  const p = tongueShape.attributes.position;
+  for (let i=0;i<p.count;i++){
+    const x = p.getX(i);
+    p.setZ(i, -0.05*Math.cos((x/0.15)*0.8));
+  }
+  tongueShape.computeVertexNormals();
+}
+const tongueMat = new THREE.MeshStandardMaterial({ color: COL.parchment, roughness:0.8, metalness:0.0, side:THREE.DoubleSide });
+const tongue = new THREE.Mesh(tongueShape, tongueMat);
+tongue.rotation.x = -Math.PI/2;
+tongue.position.set(0.45, -0.085, 0);
+tongue.castShadow = true; tongue.receiveShadow = true;
+scroll.add(tongue);
+
+// faint "inked" ribs on the tongue (placeholder text-lines)
+const inkMat = new THREE.MeshBasicMaterial({ color: 0x6a5836, transparent:true, opacity:0.5 });
+for (let i=0;i<3;i++){
+  const rib = new THREE.Mesh(new THREE.PlaneGeometry(0.20, 0.006), inkMat);
+  rib.rotation.x = -Math.PI/2;
+  rib.position.set(0.45, -0.078, -0.07 + i*0.06);
+  scroll.add(rib);
+}
+
+/* ============================================================================
+   RELIC 2 · THE ASTROLABE OF AGES  (right)
+   A brass instrument: solid mater disc, raised rim, engraved rings, and a
+   pierced ROTATING star-ring (the rete) with a few star-pointers.
+   ============================================================================ */
+const astro = new THREE.Group();
+astro.position.set(0.46, TOP_Y + 0.02, 0);
+astro.userData = {
+  kind: 'astrolabe',
+  label: 'The Astrolabe of Ages',
+  reticleCap: 'let the pantheons wheel',
+};
+plinth.add(astro);
+
+const brassMat = new THREE.MeshStandardMaterial({
+  color: COL.brass, roughness:0.28, metalness:1.0,
+  emissive: 0x3a2a08, emissiveIntensity:0.12,
+});
+const brassDark = new THREE.MeshStandardMaterial({ color: 0x7a5c1e, roughness:0.45, metalness:1.0 });
+
+// stand it upright-ish, tilted toward the viewer like an instrument on display
+astro.rotation.x = -Math.PI/2 + 0.5;
+
+// mater (solid back disc)
+const mater = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.26, 0.025, 48), brassMat);
+astro.add(mater);
+
+// raised outer rim (limb)
+const limb = new THREE.Mesh(new THREE.TorusGeometry(0.255, 0.022, 12, 48), brassMat);
+limb.rotation.x = Math.PI/2; limb.position.y = 0.012; astro.add(limb);
+
+// two engraved concentric rings on the face
+const ring1 = new THREE.Mesh(new THREE.TorusGeometry(0.20, 0.006, 8, 48), brassDark);
+ring1.rotation.x = Math.PI/2; ring1.position.y = 0.014; astro.add(ring1);
+const ring2 = new THREE.Mesh(new THREE.TorusGeometry(0.135, 0.005, 8, 48), brassDark);
+ring2.rotation.x = Math.PI/2; ring2.position.y = 0.014; astro.add(ring2);
+
+// hour/tick marks around the limb (engraving)
+const tickMat = brassDark;
+for (let i=0;i<24;i++){
+  const t = new THREE.Mesh(new THREE.BoxGeometry(0.006, 0.004, 0.03), tickMat);
+  const a = (i/24)*Math.PI*2;
+  t.position.set(Math.cos(a)*0.232, 0.016, Math.sin(a)*0.232);
+  t.rotation.y = -a; astro.add(t);
+}
+
+// --- the RETE: a pierced rotating star-ring that catches the light ---
+const rete = new THREE.Group();
+rete.position.y = 0.02;
+astro.add(rete);
+
+const reteRing = new THREE.Mesh(new THREE.TorusGeometry(0.175, 0.01, 8, 48), brassMat);
+reteRing.rotation.x = Math.PI/2; rete.add(reteRing);
+const reteRingInner = new THREE.Mesh(new THREE.TorusGeometry(0.085, 0.008, 8, 40), brassMat);
+reteRingInner.rotation.x = Math.PI/2; rete.add(reteRingInner);
+
+// the eccentric ecliptic ring (off-center loop — the signature astrolabe look)
+const ecliptic = new THREE.Mesh(new THREE.TorusGeometry(0.10, 0.007, 8, 40), brassMat);
+ecliptic.rotation.x = Math.PI/2; ecliptic.position.set(0.05, 0.001, 0.0); rete.add(ecliptic);
+
+// star pointers — little curved brass tongues with a bright tip
+for (let i=0;i<6;i++){
+  const a = (i/6)*Math.PI*2 + 0.3;
+  const r = 0.10 + (i%2)*0.05;
+  const arm = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.006, 0.006), brassMat);
+  arm.position.set(Math.cos(a)*r, 0.0, Math.sin(a)*r);
+  arm.rotation.y = -a; rete.add(arm);
+  const star = new THREE.Mesh(new THREE.SphereGeometry(0.011, 8, 8),
+    new THREE.MeshStandardMaterial({ color:COL.goldBright, emissive:COL.gold, emissiveIntensity:0.7, metalness:1, roughness:0.2 }));
+  star.position.set(Math.cos(a)*(r+0.03), 0.005, Math.sin(a)*(r+0.03));
+  rete.add(star);
+}
+
+// the rule (the rotating pointer bar across the face)
+const rule = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.004, 0.012), brassMat);
+rule.position.y = 0.03; astro.add(rule);
+// central pivot pin
+const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 0.06, 12), brassMat);
+pin.position.y = 0.03; astro.add(pin);
+
+/* ============================================================================
+   FLOATING LABELS (drawn as 2D DOM, anchored to the 3D objects)
+   The DOM #obj-label is moved to the object's projected screen position.
+   ============================================================================ */
+const objLabelEl = document.getElementById('obj-label');
+const labelAnchor = new THREE.Vector3();   // scratch
+
+/* ============================================================================
+   >>> MOUNT-HOOK A · THE SCROLL EXHIBIT (the ring of history) <<<
+   ----------------------------------------------------------------------------
+   On "scroll" choice, a long horizontal BAND wraps the four walls — a
+   placeholder timeline ribbon with faint inked era-divisions. THE REAL
+   EXHIBIT replaces these strip materials with the actual 2D timeline art:
+   render each era panel to a CanvasTexture / load an image atlas, and set it
+   as `scrollBand[i].material.map`. The band is positioned at eye height so
+   the visitor literally walks the ring of recorded history.
+   Tag for the integration pass:  group `scrollBandGroup`, meshes `scrollBand[]`.
+   ============================================================================ */
+const scrollBandGroup = new THREE.Group();
+scrollBandGroup.visible = false;
+scene.add(scrollBandGroup);
+const scrollBand = [];
+const BAND_Y = 2.3, BAND_H = 1.5, BAND_INSET = 0.06;
+{
+  // one tall strip just inside each wall
+  const segs = [
+    { w:ROOM.w, pos:[0,BAND_Y,-ROOM.d/2+BAND_INSET], ry:0 },
+    { w:ROOM.w, pos:[0,BAND_Y, ROOM.d/2-BAND_INSET], ry:Math.PI },
+    { w:ROOM.d, pos:[-ROOM.w/2+BAND_INSET,BAND_Y,0], ry:Math.PI/2 },
+    { w:ROOM.d, pos:[ ROOM.w/2-BAND_INSET,BAND_Y,0], ry:-Math.PI/2 },
+  ];
+  for (const s of segs){
+    // placeholder ribbon texture: warm strip with faint vertical era-divisions
+    const tex = makeRibbonTexture(s.w);
+    const mat = new THREE.MeshBasicMaterial({ map:tex, transparent:true, opacity:0.0, side:THREE.FrontSide });
+    const strip = new THREE.Mesh(new THREE.PlaneGeometry(s.w, BAND_H), mat);
+    strip.position.set(...s.pos); strip.rotation.y = s.ry;
+    scrollBandGroup.add(strip); scrollBand.push(strip);
+  }
+}
+function makeRibbonTexture(worldW){
+  const c = document.createElement('canvas');
+  const px = Math.min(2048, Math.round(worldW*60)); c.width = px; c.height = 128;
+  const g = c.getContext('2d');
+  // parchment gradient
+  const grad = g.createLinearGradient(0,0,0,128);
+  grad.addColorStop(0,'#cdbb90'); grad.addColorStop(0.5,'#e3d4ac'); grad.addColorStop(1,'#c2b086');
+  g.fillStyle = grad; g.fillRect(0,0,px,128);
+  // faint inked era-divisions + tick text placeholders
+  g.strokeStyle = 'rgba(80,64,38,0.55)'; g.lineWidth = 2;
+  g.fillStyle = 'rgba(70,56,34,0.65)'; g.font = '20px Georgia';
+  const eras = Math.max(4, Math.round(worldW/4));
+  for (let i=0;i<=eras;i++){
+    const x = (i/eras)*px;
+    g.beginPath(); g.moveTo(x,8); g.lineTo(x,120); g.stroke();
+    g.fillText('· era ·', Math.min(px-70, x+8), 70);
+  }
+  // top & bottom gold seam lines (the sacred gold)
+  g.strokeStyle = 'rgba(200,150,60,0.8)'; g.lineWidth = 3;
+  g.beginPath(); g.moveTo(0,6); g.lineTo(px,6); g.stroke();
+  g.beginPath(); g.moveTo(0,122); g.lineTo(px,122); g.stroke();
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 4;
+  return t;
+}
+
+/* ============================================================================
+   >>> MOUNT-HOOK B · THE ASTROLABE EXHIBIT (the wheeling dome) <<<
+   ----------------------------------------------------------------------------
+   On "astrolabe" choice, the CEILING/DOME ignites with a slowly wheeling field
+   of stars (a placeholder rete), and the floor gets a faint engraved-disc.
+   THE REAL EXHIBIT: replace/augment `domeStars` with the actual pantheon
+   placements — each star becomes a constellation/deity node textured with its
+   2D art, positioned by era so the heavens literally turn as the years pass.
+   Rotate `domeGroup` by the timeline cursor.
+   Tag for the integration pass:  group `domeGroup`, points `domeStars`,
+   mesh `floorDisc`.
+   ============================================================================ */
+const domeGroup = new THREE.Group();
+domeGroup.visible = false;
+scene.add(domeGroup);
+
+// the placeholder rete: a starfield on a dome just under the ceiling
+let domeStars;
+{
+  const N = 700;
+  const pos = new Float32Array(N*3);
+  const R = 22;
+  for (let i=0;i<N;i++){
+    // upper hemisphere only
+    const u = Math.random(), v = Math.random()*0.85;   // bias to upper
+    const theta = u*Math.PI*2;
+    const phi = Math.acos(v);            // 0 at top
+    const r = R*(0.7 + Math.random()*0.3);
+    pos[i*3]   = r*Math.sin(phi)*Math.cos(theta);
+    pos[i*3+1] = ROOM.h - 0.5 + r*Math.cos(phi)*0.18;   // hug the ceiling
+    pos[i*3+2] = r*Math.sin(phi)*Math.sin(theta);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+  const starMat = new THREE.PointsMaterial({
+    color: COL.goldBright, size:0.13, sizeAttenuation:true,
+    transparent:true, opacity:0.0, depthWrite:false, blending:THREE.AdditiveBlending,
+  });
+  domeStars = new THREE.Points(geo, starMat);
+  domeGroup.add(domeStars);
+
+  // a few brighter "deity" anchor-stars (placeholder for pantheon nodes)
+  for (let i=0;i<9;i++){
+    const a = (i/9)*Math.PI*2;
+    const s = new THREE.Mesh(new THREE.SphereGeometry(0.16,10,10),
+      new THREE.MeshBasicMaterial({ color:COL.goldBright, transparent:true, opacity:0, blending:THREE.AdditiveBlending, depthWrite:false }));
+    s.position.set(Math.cos(a)*16, ROOM.h-1.2, Math.sin(a)*16);
+    s.userData.bright = true;
+    domeGroup.add(s);
+  }
+}
+
+// faint engraved disc on the floor (astrolabe plate underfoot)
+const floorDisc = new THREE.Mesh(
+  new THREE.RingGeometry(2.4, 9.5, 64, 4),
+  new THREE.MeshBasicMaterial({ map:makeDiscTexture(), transparent:true, opacity:0.0, side:THREE.DoubleSide, depthWrite:false })
+);
+floorDisc.rotation.x = -Math.PI/2; floorDisc.position.y = 0.02;
+domeGroup.add(floorDisc);
+function makeDiscTexture(){
+  const c = document.createElement('canvas'); c.width=c.height=1024;
+  const g = c.getContext('2d'); const cx=512, cy=512;
+  g.clearRect(0,0,1024,1024);
+  g.strokeStyle='rgba(200,150,60,0.45)'; g.lineWidth=2;
+  for (const rr of [180,300,420,500]){ g.beginPath(); g.arc(cx,cy,rr,0,Math.PI*2); g.stroke(); }
+  g.lineWidth=1.4; g.strokeStyle='rgba(200,150,60,0.30)';
+  for (let i=0;i<36;i++){ const a=(i/36)*Math.PI*2;
+    g.beginPath(); g.moveTo(cx+180*Math.cos(a),cy+180*Math.sin(a));
+    g.lineTo(cx+500*Math.cos(a),cy+500*Math.sin(a)); g.stroke(); }
+  const t = new THREE.CanvasTexture(c); t.colorSpace=THREE.SRGBColorSpace; return t;
+}
+
+/* ============================================================================
+   CONTROLS — PointerLockControls
+   ============================================================================ */
+const controls = new PointerLockControls(camera, renderer.domElement);
+scene.add(controls.getObject());
+
+const gate = document.getElementById('gate');
+const hudHint = document.getElementById('hud-hint');
+const backCue = document.getElementById('back-cue');
+const reticle = document.getElementById('reticle');
+const exTitleWrap = document.getElementById('exhibit-title');
+const exTitleH = exTitleWrap.querySelector('h2');
+const exTitleP = exTitleWrap.querySelector('p');
+
+gate.addEventListener('click', ()=> controls.lock());
+controls.addEventListener('lock',   ()=>{ gate.classList.add('hidden'); });
+controls.addEventListener('unlock', ()=>{ gate.classList.remove('hidden'); });
+
+// movement state
+const move = { f:false, b:false, l:false, r:false };
+const KEYMAP = {
+  KeyW:'f', ArrowUp:'f', KeyS:'b', ArrowDown:'b',
+  KeyA:'l', ArrowLeft:'l', KeyD:'r', ArrowRight:'r',
+};
+addEventListener('keydown', e=>{
+  if (KEYMAP[e.code]) move[KEYMAP[e.code]] = true;
+  // Q = step back to the plinth/choice from inside an exhibit
+  if (e.code === 'KeyQ' && mode !== 'pillar') exitToPillar();
+});
+addEventListener('keyup', e=>{ if (KEYMAP[e.code]) move[KEYMAP[e.code]] = false; });
+
+/* Esc behaviour: PointerLockControls releases the lock on Esc (browser-level).
+   We also treat Esc as "step back" when inside an exhibit — listen on keydown
+   BEFORE the browser may exit lock, and re-lock intent stays via the gate. */
+addEventListener('keydown', e=>{
+  if (e.code === 'Escape' && mode !== 'pillar') exitToPillar();
+}, true);
+
+/* ============================================================================
+   INTERACTION — gaze + click pick on the two relics
+   We raycast from screen-center (the reticle) so "look at an object" works.
+   ============================================================================ */
+const raycaster = new THREE.Raycaster();
+const screenCenter = new THREE.Vector2(0,0);
+const pickables = [scroll, astro];
+let hovered = null;       // currently gazed relic group (or null)
+let mode = 'pillar';      // 'pillar' | 'scroll' | 'astrolabe'
+
+function getGazed(){
+  raycaster.setFromCamera(screenCenter, camera);
+  const hits = raycaster.intersectObjects(pickables, true);
+  if (!hits.length) return null;
+  // climb to the relic group
+  let o = hits[0].object;
+  while (o && !o.userData.kind) o = o.parent;
+  // proximity gate — only "near" the plinth
+  const dist = controls.getObject().position.distanceTo(plinth.position);
+  if (dist > 6.5) return null;
+  return o || null;
+}
+
+// click → choose
+renderer.domElement.addEventListener('mousedown', ()=>{
+  if (!controls.isLocked) return;
+  if (mode !== 'pillar') return;          // already inside an exhibit
+  if (hovered) enterExhibit(hovered.userData.kind);
+});
+
+/* ============================================================================
+   HIGHLIGHT — scale + emissive pulse on the gazed relic
+   ============================================================================ */
+const baseScale = new WeakMap();
+[scroll, astro].forEach(g=> baseScale.set(g, g.scale.x));
+function setHighlight(group, on, k){
+  group.traverse(o=>{
+    if (o.isMesh && o.material && 'emissiveIntensity' in o.material){
+      o.userData._emTarget = on ? 0.55 : (o.material.userData?._em0 ?? 0.0);
+    }
+  });
+}
+
+/* ============================================================================
+   MODE TRANSITIONS
+   ============================================================================ */
+let titleTimer = null;
+function enterExhibit(kind){
+  mode = kind;
+  hovered = null; objLabelEl.style.opacity = 0;
+
+  if (kind === 'scroll'){
+    // --- room takes a warm parchment tone ---
+    tweenColor(wallMat0List(), 0x2a2417, 1.4);   // walls warm up
+    tweenColor([floorMat], 0x1a160e, 1.4);
+    tweenColor([ceilMat], 0x14110a, 1.4);
+    tweenLight(ambient, 0.30, 1.4); tweenLight(hemi, 0.30, 1.4);
+    scrollBandGroup.visible = true;
+    fadeBand(0.96, 1.8);
+    // dome stays dark
+    showTitle('The Scroll of Ages', 'Walk the ring of recorded history.');
+  } else {
+    // --- ceiling/dome ignites; room cools to near-black so stars read ---
+    tweenColor(wallMat0List(), 0x080a12, 1.4);
+    tweenColor([floorMat], 0x0c0f17, 1.4);
+    tweenColor([ceilMat], 0x04060c, 1.4);
+    tweenLight(ambient, 0.10, 1.4); tweenLight(hemi, 0.10, 1.4);
+    domeGroup.visible = true;
+    fadeStars(0.9, 2.0); fadeBright(0.85, 2.2); fadeDisc(0.85, 2.0);
+    showTitle('The Astrolabe of Ages', 'The pantheons wheel as the years turn.');
+  }
+  backCue.style.opacity = 0.9;
+  hudHint.textContent = '';  // handled by back-cue now
+}
+
+function exitToPillar(){
+  mode = 'pillar';
+  // restore room
+  tweenColor(wallMat0List(), 0x0c0f16, 1.0);
+  tweenColor([floorMat], 0x14171f, 1.0);
+  tweenColor([ceilMat], 0x070910, 1.0);
+  tweenLight(ambient, 0.16, 1.0); tweenLight(hemi, 0.18, 1.0);
+  fadeBand(0.0, 0.8);  fadeStars(0.0, 0.8); fadeBright(0.0,0.8); fadeDisc(0.0,0.8);
+  setTimeout(()=>{ scrollBandGroup.visible=false; domeGroup.visible=false; }, 850);
+  hideTitle();
+  backCue.style.opacity = 0;
+  hudHint.innerHTML = 'click to enter &middot; <b>WASD</b> to walk &middot; click an object to choose &middot; <b>Esc</b> to step back';
+}
+
+function showTitle(t, s){
+  exTitleH.textContent = t; exTitleP.textContent = s;
+  clearTimeout(titleTimer);
+  // small delay so it "fades in" after the room starts moving
+  exTitleWrap.style.opacity = 0;
+  titleTimer = setTimeout(()=> exTitleWrap.style.opacity = 1, 350);
+}
+function hideTitle(){ exTitleWrap.style.opacity = 0; }
+
+// helpers to list wall material clones
+function wallMat0List(){ return walls.map(w=>w.material); }
+
+/* --- tiny tween helpers (no deps) --- */
+const tweens = [];
+function tweenColor(mats, hex, dur){
+  const target = new THREE.Color(hex);
+  mats.forEach(m=>{
+    const from = m.color.clone();
+    tweens.push({ t:0, dur, fn:(k)=> m.color.copy(from).lerp(target, k) });
+  });
+}
+function tweenLight(light, to, dur){
+  const from = light.intensity;
+  tweens.push({ t:0, dur, fn:(k)=> light.intensity = from + (to-from)*k });
+}
+function fadeBand(to, dur){ scrollBand.forEach(s=>{ const from=s.material.opacity; tweens.push({t:0,dur,fn:k=> s.material.opacity = from+(to-from)*k}); }); }
+function fadeStars(to, dur){ const from=domeStars.material.opacity; tweens.push({t:0,dur,fn:k=> domeStars.material.opacity = from+(to-from)*k}); }
+function fadeBright(to, dur){ domeGroup.children.forEach(c=>{ if(c.userData.bright){ const from=c.material.opacity; tweens.push({t:0,dur,fn:k=> c.material.opacity=from+(to-from)*k}); }}); }
+function fadeDisc(to, dur){ const from=floorDisc.material.opacity; tweens.push({t:0,dur,fn:k=> floorDisc.material.opacity = from+(to-from)*k}); }
+function easeInOut(x){ return x<0.5 ? 2*x*x : 1-Math.pow(-2*x+2,2)/2; }
+
+/* ============================================================================
+   COLLISION — keep the visitor inside the room and off the plinth.
+   ============================================================================ */
+const HALF = { x: ROOM.w/2 - 0.6, z: ROOM.d/2 - 0.6 };
+function clampToRoom(p){
+  p.x = Math.max(-HALF.x, Math.min(HALF.x, p.x));
+  p.z = Math.max(-HALF.z, Math.min(HALF.z, p.z));
+  // soft no-go bubble around the plinth so you can't walk through it
+  const dx = p.x, dz = p.z, d = Math.hypot(dx,dz);
+  const R = 1.4;
+  if (d < R && d > 0.0001){ p.x = dx/d*R; p.z = dz/d*R; }
+}
+
+/* ============================================================================
+   ANIMATION LOOP
+   ============================================================================ */
+const clock = new THREE.Clock();
+const vel = new THREE.Vector3();
+const dir = new THREE.Vector3();
+const SPEED = 4.2;
+
+function animate(){
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), 0.05);
+  const t = clock.elapsedTime;
+
+  // --- movement ---
+  if (controls.isLocked){
+    dir.set(0,0,0);
+    if (move.f) dir.z += 1; if (move.b) dir.z -= 1;
+    if (move.l) dir.x -= 1; if (move.r) dir.x += 1;
+    dir.normalize();
+    const damp = 1 - Math.min(1, dt*10);
+    vel.x *= damp; vel.z *= damp;
+    vel.x += dir.x * SPEED * dt;
+    vel.z += dir.z * SPEED * dt;
+    controls.moveRight(vel.x);
+    controls.moveForward(vel.z);
+    const obj = controls.getObject();
+    obj.position.y = EYE;
+    clampToRoom(obj.position);
+  }
+
+  // --- gaze pick + highlight (only in pillar mode) ---
+  if (controls.isLocked && mode === 'pillar'){
+    const g = getGazed();
+    if (g !== hovered){
+      if (hovered) setHighlight(hovered, false);
+      hovered = g;
+      if (hovered) setHighlight(hovered, true);
+    }
+    reticle.classList.toggle('hot', !!hovered);
+    // floating label follows the gazed object
+    if (hovered){
+      hovered.getWorldPosition(labelAnchor);
+      labelAnchor.y += 0.34;
+      const v = labelAnchor.clone().project(camera);
+      const sx = (v.x*0.5+0.5)*innerWidth;
+      const sy = (-v.y*0.5+0.5)*innerHeight;
+      objLabelEl.style.left = sx+'px'; objLabelEl.style.top = sy+'px';
+      objLabelEl.innerHTML = hovered.userData.label +
+        '<span class="reticle-cap">'+hovered.userData.reticleCap+'</span>';
+      objLabelEl.style.opacity = 1;
+    } else {
+      objLabelEl.style.opacity = 0;
+    }
+  } else {
+    reticle.classList.remove('hot');
+    if (mode==='pillar') objLabelEl.style.opacity = 0;
+  }
+
+  // --- gentle relic highlight easing (scale breath + emissive) ---
+  [scroll, astro].forEach(grp=>{
+    const base = baseScale.get(grp);
+    const want = (grp === hovered) ? base*1.07 : base;
+    const s = THREE.MathUtils.lerp(grp.scale.x, want, 1-Math.pow(0.001, dt));
+    grp.scale.setScalar(s);
+    grp.traverse(o=>{
+      if (o.isMesh && o.material && 'emissiveIntensity' in o.material && o.userData._emTarget!=null){
+        o.material.emissiveIntensity = THREE.MathUtils.lerp(
+          o.material.emissiveIntensity, o.userData._emTarget, 1-Math.pow(0.01, dt));
+      }
+    });
+  });
+
+  // --- idle life: rete slowly wheels; the dome turns; beam shimmers ---
+  rete.rotation.y = t*0.25;                 // the astrolabe's star-ring always turns
+  rule.rotation.y = -t*0.12;
+  if (domeGroup.visible) domeGroup.rotation.y = t*0.012;   // pantheons wheel overhead
+  beam.material.opacity = 0.04 + Math.sin(t*0.7)*0.012;
+  relicGlow.intensity = 6.5 + Math.sin(t*1.3)*0.6;
+
+  // --- run tweens ---
+  for (let i=tweens.length-1;i>=0;i--){
+    const tw = tweens[i]; tw.t += dt/tw.dur;
+    const k = easeInOut(Math.min(1, tw.t));
+    tw.fn(k);
+    if (tw.t >= 1) tweens.splice(i,1);
+  }
+
+  renderer.render(scene, camera);
+}
+animate();
+
+/* ============================================================================
+   RESIZE
+   ============================================================================ */
+addEventListener('resize', ()=>{
+  camera.aspect = innerWidth/innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+
+// capture the relics' resting emissive so highlight can return to it
+[scroll, astro].forEach(g=> g.traverse(o=>{
+  if (o.isMesh && o.material && 'emissiveIntensity' in o.material){
+    o.material.userData = o.material.userData || {};
+    o.material.userData._em0 = o.material.emissiveIntensity;
+    o.userData._emTarget = o.material.emissiveIntensity;
+  }
+}));
+</script>
+</body>
+</html>

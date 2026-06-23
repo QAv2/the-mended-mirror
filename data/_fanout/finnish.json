@@ -1,0 +1,340 @@
+{
+  "tradition": {
+    "id": "finnish",
+    "name": "Finnish / Karelian (Kalevala)",
+    "region": "Fennoscandia (Uralic)",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "ukko",
+      "kind": "deity",
+      "name": "Ukko",
+      "archetypes": [
+        "sky-father",
+        "storm-wielder"
+      ],
+      "gloss": "The sky and weather 'old man', ruler of cloud and rain, who strikes thunder with his hammer or axe Ukonvasara and bends the rainbow as his bow — the supreme god the Karelian farmer prayed to for the harvest.",
+      "facet": "A storm-wielder who is NOT a cognate: Ukko wears the same hammer and thunder as Thor and Perun yet descends from no *Perkwunos and no *Dyeus — a Uralic god who arrived at the sky-father's office by independent road, proof the joint can be reached without the Indo-European word.",
+      "provenance": "Reconstructed chiefly from the Kalevala (Lönnrot, 1835/1849) and the runo-song archive behind it; the heathen layer is read beneath heavy Christian overlay (Ukko later conflated with the Christian God)."
+    },
+    {
+      "id": "ilmatar",
+      "kind": "deity",
+      "name": "Ilmatar",
+      "archetypes": [
+        "great-mother",
+        "mother-of-waters"
+      ],
+      "gloss": "The virgin daughter of the air who descends to the primal sea and floats upon the waters for ages until a duck nests upon her knee; from the broken eggs and from her own shaping hand the world is made, and she becomes the Water-Mother who bears Väinämöinen.",
+      "facet": "Creation without a creator-king: the cosmos is not commanded into being but slowly shaped by a floating mother's knee and hand in the deep — a maternal, oceanic genesis where the Indo-European pantheons set a sky-lord or a sacrificial body."
+    },
+    {
+      "id": "world-egg-kalevala",
+      "kind": "concept",
+      "name": "The Egg of Creation",
+      "archetypes": [
+        "world-egg",
+        "earth-diver"
+      ],
+      "gloss": "The diving duck lays its eggs on Ilmatar's knee; when they roll into the sea and shatter, the lower shell becomes the earth, the upper the dome of sky, the yolk the sun, the white the moon, the speckles the stars — the whole world hatched from a broken egg in the water.",
+      "facet": "World-egg and earth-diver fused in one image: the egg supplies the cosmic membrane the world hatches from, while its sinking into the primal sea and rising as land carries the diving-creation pattern — two of the great cosmogonic joints folded into a single shattering."
+    },
+    {
+      "id": "vainamoinen",
+      "kind": "hero",
+      "name": "Väinämöinen",
+      "archetypes": [
+        "culture-hero",
+        "first-ancestor"
+      ],
+      "gloss": "The primordial sage born aged from the Water-Mother, the eternal singer whose songs shape boats, sink foes into bogs, and sustain the people; he gives Kaleva's land its first sowing, its instruments and its laws, then departs over the sea promising to return when needed.",
+      "facet": "The hero whose weapon is the WORD: where other culture-heroes steal fire or forge tools, Väinämöinen makes and unmakes the world by sung incantation — knowledge as magic, the rune-singer as demiurge, a shard where the spell IS the civilising act.",
+      "provenance": "A composite of older Karelian runo-figures synthesised by Lönnrot into a single epic protagonist; the departing-savior ending is an old motif Christianised into a Christ-yielding farewell."
+    },
+    {
+      "id": "ilmarinen",
+      "kind": "deity",
+      "name": "Ilmarinen",
+      "archetypes": [
+        "smith"
+      ],
+      "gloss": "The eternal smith, 'the one who hammered out the air', who forged the very dome of the sky so finely that no hammer-mark shows, and afterward forged the Sampo, the mill of endless plenty.",
+      "facet": "The smith who forged the SKY itself: most divine smiths make weapons, ornaments or the gods' halls, but Ilmarinen's first work is the firmament — the craftsman raised from armourer to cosmic architect, the heavens his earliest forging."
+    },
+    {
+      "id": "sampo",
+      "kind": "concept",
+      "name": "The Sampo",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The mysterious mill forged by Ilmarinen that grinds out grain, salt and gold without end — a talisman of inexhaustible plenty; contested for, broken in the struggle, and its fragments wash ashore to seed Finland's prosperity.",
+      "facet": "Abundance you can lose: the Sampo is no eternal cornucopia but a made thing fought over and shattered, its scattered shards the source of all later wealth — prosperity figured as a fragile artifact whose very breaking distributes the world's goods.",
+      "provenance": "The Sampo's exact nature is genuinely unsettled in scholarship (world-pillar, mill, idol, sky-dome?); the Kalevala leaves it deliberately numinous."
+    },
+    {
+      "id": "louhi",
+      "kind": "deity",
+      "name": "Louhi",
+      "archetypes": [
+        "great-mother",
+        "cosmic-adversary"
+      ],
+      "gloss": "The gap-toothed mistress of Pohjola, the cold dark North, a powerful shamanic sorceress and matriarch who guards the Sampo, sets the heroes their impossible tasks, and at the climax steals the sun and moon and hides them in a hill of stone.",
+      "facet": "The adversary as a sovereign mother, not a monster: Louhi is no chaos-dragon but a rival ruler with her own land, daughters and rights, who darkens the world by theft of the lights — opposition figured as a competing household rather than as evil incarnate."
+    },
+    {
+      "id": "tuonela",
+      "kind": "concept",
+      "name": "Tuonela / Manala",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The land of the dead beyond a dark river, ruled by Tuoni and his wife Tuonetar; their daughter ferries the living across, and Väinämöinen who journeys there must trick his way out, for none return by the road they came.",
+      "facet": "An underworld entered by cunning, not conquered: the Finnish land of the dead is a river-girt house one must out-sing and escape, its ferrywoman a daughter of Death — a sober, riverine afterworld with no judgement and no reward, only the cold north water."
+    },
+    {
+      "id": "lemminkainen",
+      "kind": "hero",
+      "name": "Lemminkäinen",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The reckless, amorous warrior-shaman who rides to Tuonela's river and is shot down, hewn apart and cast into the death-stream; his mother rakes the pieces from the black water and sings him back to life with charms and the ointments of the bees.",
+      "facet": "Resurrection by a mother's song, not a god's mercy: Lemminkäinen is restored not through sacrifice or divine grace but by the rune-magic and grief of his mother re-membering his scattered body — the dying-and-rising joint reached through shamanic re-assembly."
+    },
+    {
+      "id": "tapio",
+      "kind": "deity",
+      "name": "Tapio & Mielikki",
+      "archetypes": [
+        "great-mother",
+        "master-of-animals"
+      ],
+      "gloss": "The lord and lady of the forest, the bearded green king Tapio and his consort Mielikki, mistress of the woods, who hold the keys to the game and must be praised and coaxed before the hunter's bow finds its quarry.",
+      "facet": "Divinity as a household of the wilderness: the forest is not a place but a family with whom the hunter must bargain — a sacred ecology where every wood, water and quarry has its keeper to be addressed by name."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "ukko",
+      "b": "ilmarinen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Within the Kalevala the sky-god Ukko and the sky-smith Ilmarinen share the dome of heaven — Ukko rules the weather above the firmament that Ilmarinen hammered; the names may even share an air/sky root within Finnic."
+    },
+    {
+      "a": "ilmatar",
+      "b": "vainamoinen",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Ilmatar the Water-Mother bears Väinämöinen from the sea after the world is made — mother and first-born hero of the same cosmogony, attested as one continuous opening of the epic."
+    },
+    {
+      "a": "ilmatar",
+      "b": "world-egg-kalevala",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The egg is laid upon Ilmatar's own knee and shaped by her hand into the world — the Water-Mother and the cosmic egg are two halves of a single creation scene."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "ilmarinen",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Sage-singer and sky-smith are the twinned makers of Kaleva — Väinämöinen commissions and Ilmarinen forges (the sky, the Sampo); the epic's central working partnership."
+    },
+    {
+      "a": "ilmarinen",
+      "b": "sampo",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Ilmarinen forges the Sampo as his masterwork after forging the sky — the smith and his greatest artifact, the act that drives the whole second half of the epic."
+    },
+    {
+      "a": "louhi",
+      "b": "sampo",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Louhi receives the Sampo as bride-price and guards it in Pohjola's stone hill; the heroes' raid to reclaim it and its breaking is the epic's climax."
+    },
+    {
+      "a": "louhi",
+      "b": "vainamoinen",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Louhi of the dark North against Väinämöinen of the sunlit Kaleva — rival shaman-singers and households whose contest over the Sampo and the stolen lights is the spine of the Kalevala."
+    },
+    {
+      "a": "lemminkainen",
+      "b": "tuonela",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Lemminkäinen is slain at the river of Tuonela and dismembered into its black water — his death and resurrection are bound to the geography of the Finnish underworld."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "tuonela",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Väinämöinen journeys into Tuonela to win the words of a charm and must out-trick Death to return — the hero's descent and escape, a fixed episode of the runo cycle."
+    },
+    {
+      "a": "ukko",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Hammer-and-thunder sky-gods who smite with a striking-tool — but Ukko is Uralic and Thor Indo-European (*þunraz); the shared weapon is convergence or areal influence, emphatically NOT a cognate."
+    },
+    {
+      "a": "ukko",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both supreme storm-fathers of the northern forests wielding axe and thunderbolt; Slavic contact may have coloured the Finnic image, but Perun's *Perkwunos name has no Uralic descendant — a borrowed motif at most, not shared blood."
+    },
+    {
+      "a": "ukko",
+      "b": "perkunas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring storm-gods of the Baltic shore, Ukko and Perkūnas share thunder, axe and the rainbow-bow through long Balto-Finnic contact — a real areal rhyme across the IE/Uralic divide, never a common name."
+    },
+    {
+      "a": "ukko",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the chief sky-father wielding the bolt, but from utterly separate families — Ukko shows the sky-father office filled with no *Dyeus word behind it, the joint reached by another lineage entirely."
+    },
+    {
+      "a": "ilmarinen",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Divine smiths of supreme skill; yet where Hephaestus forges arms and divine ornament, Ilmarinen first forges the dome of heaven itself — parallel craftsmen, the Finn raised to cosmic architect."
+    },
+    {
+      "a": "ilmarinen",
+      "b": "tvastr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are cosmic artificers who shape the very vessels and frame of the world; an honest structural parallel across Uralic and Indo-European with no descent between them."
+    },
+    {
+      "a": "ilmarinen",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Craftsman-gods whose making is cosmogonic — Ptah thinks and speaks the world, Ilmarinen hammers out its sky; a loose reach across wholly unrelated traditions, flagged as speculative."
+    },
+    {
+      "a": "ilmatar",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Primal mother-figures of a water-and-earth genesis; Ilmatar floats on the deep to shape the land as Papatūānuku is the earth-mother — independent maternal cosmogonies, no contact."
+    },
+    {
+      "a": "ilmatar",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the generative mother from whom the world's order issues; Ilmatar shapes earth and sky from the egg as Gaia brings them forth — parallel great-mothers of creation."
+    },
+    {
+      "a": "world-egg-kalevala",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The cosmic egg whose halves become heaven and earth echoes the Hiraṇyagarbha / world-egg of Indic thought — one of humanity's most widely scattered cosmogonic images, here with no shared line."
+    },
+    {
+      "a": "world-egg-kalevala",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both render the first division of the cosmos from an undifferentiated whole; the Finnish egg-halves and the Nahua dual-source are far-flung, unrelated answers to the same question — a distant rhyme, flagged."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Culture-bringers who endow humankind with the arts of living; Väinämöinen gives song, the kantele, sowing and law where Prometheus gives fire — the benefactor-hero on parallel roads."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are primordial wonder-working culture-heroes who reshape the world by cunning and craft — Väinämöinen by song, Māui by trickery and the magic hook; structural kin, no contact."
+    },
+    {
+      "a": "vainamoinen",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The Kalevala closes with Väinämöinen departing by sea before a virgin-born child, vowing to return when needed — a parting shaped by the Christian Christ overlaid on an older returning-savior motif; a syncretic overprint, not a true cognate."
+    },
+    {
+      "a": "louhi",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Powerful, fearsome female sovereigns set against the heroes; Louhi the northern sorceress-queen and the Morrigan share menace and command, but the parallel is loose and the families unrelated."
+    },
+    {
+      "a": "tuonela",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "River-bounded lands of the dead one crosses by ferry and from which return is barred; Tuonela parallels Hades' realm and Styx, yet without judgement or reward — a colder, plainer underworld."
+    },
+    {
+      "a": "tuonela",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Northern underworlds of cold and mist ruled by a death-keeping family; Tuonela and Hel rhyme as bleak realms of the departed across the Uralic/Germanic line, by neighbourhood not descent."
+    },
+    {
+      "a": "tuonela",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The daughter of Tuoni who ferries souls over the death-river fills the same office as Charon — the psychopomp-boatman convergently invented at opposite ends of Europe."
+    },
+    {
+      "a": "lemminkainen",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are dismembered and gathered back together by a devoted woman — Lemminkäinen's mother rakes his pieces from the river as Isis collects Osiris; the re-membered, resurrected body, independently arrived at."
+    },
+    {
+      "a": "lemminkainen",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The torn-apart god restored to life rhymes with the sparagmos and rebirth of Dionysus, but the Finnish version is shamanic mother-magic, not mystery-cult — a distant structural echo, flagged."
+    },
+    {
+      "a": "tapio",
+      "b": "danu",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Tutelary keepers of the wild presiding over a sacred natural order; Mielikki of the forest loosely parallels the great mother-of-the-land figures — a soft, divergent rhyme rather than a firm joint."
+    },
+    {
+      "a": "sampo",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Some scholars read the Sampo as a world-pillar or sky-dome holding the cosmos, which would set it beside the world-axis like Yggdrasil — but the Sampo's nature is genuinely unsettled, so the seam is flagged speculative."
+    }
+  ]
+}

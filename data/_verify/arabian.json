@@ -1,0 +1,88 @@
+{
+  "verdicts": [
+    {
+      "a": "allah-meccan",
+      "b": "al-lat",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "al-Lat as one of the banat Allah ('daughters of Allah') is a documented relationship within a single tradition (pre-Islamic Hijazi religion, named in the Quranic polemic Q 53 and Ibn al-Kalbi's Kitab al-Asnam). Same language/culture, attested in real texts. Tier-2 attested holds."
+    },
+    {
+      "a": "allah-meccan",
+      "b": "al-uzza",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "al-Uzza as a second 'daughter of Allah' is documented in the same Arabian corpus (Q 53:19-20, Book of Idols). An intra-traditional cultic relationship recorded in real texts. Tier-2 attested holds."
+    },
+    {
+      "a": "allah-meccan",
+      "b": "manat",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Manat completing the triad of intercessor-goddesses is attested in the same Arabian sources. Documented within one tradition. Tier-2 attested holds."
+    },
+    {
+      "a": "al-lat",
+      "b": "al-uzza",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "al-Lat and al-Uzza are repeatedly invoked together as part of the Quraysh triad in attested pre-Islamic and early Islamic sources. A documented cultic pairing within one tradition. Tier-2 attested holds."
+    },
+    {
+      "a": "hubal",
+      "b": "kaaba-black-stone",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Hubal as the presiding idol of the Kaaba with divining arrows cast there is attested in Ibn al-Kalbi and the early tradition. A documented figure-to-shrine cultic relationship within one tradition. Tier-2 attested holds."
+    },
+    {
+      "a": "manat",
+      "b": "al-uzza",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Manat and al-Uzza as two of the three named daughters of Allah are documented together in the same Arabian polemic. An attested intra-traditional pairing; the fate/Venus functional contrast is a gloss but the link itself is documented. Tier-2 holds."
+    },
+    {
+      "a": "allah-meccan",
+      "b": "yahweh",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Both Arabic and Hebrew are Semitic, and Allah (al-ilah) and El/Eloah descend from the common Semitic root '-l, so the lexical core is genuine. The reidentification of the Meccan high-god with the God of Abraham is documented within the Islamic tradition itself. Tier-2 attested (documented continuity/syncretism) is defensible; arguably the lexical part could be cognate-1, but the claim's load is the historical reidentification, so 2 is correct."
+    },
+    {
+      "a": "kaaba-black-stone",
+      "b": "yahweh",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The claim explicitly frames the Arabian betyl and the Canaanite/Israelite massebah/Bethel stone as 'cousin' and a 'shared family' of holy-stone practice. That is a structural/cultic parallel across the Semitic world, not a documented specific historical borrowing between the Black Stone and the stone of Bethel. The text itself says 'shared practice,' which is analogy. Down-tier 2 to 3."
+    },
+    {
+      "a": "allah-meccan",
+      "b": "baal",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Explicitly a 'shared Semitic theological grammar of lordship' (high-god named by title). That is a structural/typological parallel, not a documented contact, borrowing or syncretism between the Meccan high-god and Canaanite Baal. Even within Semitic, title-naming similarity is analogy. The node was already labeled 'analogous'; tier should be 3, not 2. Down-tier."
+    },
+    {
+      "a": "al-uzza",
+      "b": "inanna",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The claim itself states 'no direct descent claimed' and 'real cultic kinship.' This is the Near-Eastern Venus-goddess type (Inanna/Ishtar/Astarte/al-Uzza) — a structural/functional parallel, not a documented borrowing from Inanna into the al-Uzza cult. Labeled 'analogous'; correct tier is 3. Down-tier."
+    },
+    {
+      "a": "dhu-l-sharra",
+      "b": "dionysus",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Tier-2 does not require linguistic descent (Greek and Arabic are unrelated families); it requires documented contact/syncretism. Classical authors (the interpretatio graeca naming Dushara as Dionysos, e.g. in the Suda and patristic notices) provide a real attested identification. Documented syncretism. Tier-2 attested holds."
+    },
+    {
+      "a": "almaqah",
+      "b": "south-arabian-sin",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The claim conflates the Sabaean national god Almaqah with the Hadrami moon-god (Sayin/Sin) and asserts 'documented cultic continuity' with Mesopotamian Sin of Ur and Harran. The name resemblance (Sayin/Sin) is real and both are Semitic, but a shared Semitic lunar complex is not a documented specific borrowing; Almaqah's own lunar identity is itself contested in scholarship. This is shared-type kinship, not attested historical transmission. Down-tier 2 to 3."
+    }
+  ]
+}

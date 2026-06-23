@@ -1,0 +1,60 @@
+{
+  "verdicts": [
+    {
+      "a": "dravidian-murugan",
+      "b": "surya",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The documented Sanskritisation overlays Murugan onto Skanda-Karttikeya (the war-god), NOT onto Surya. The Murugan-Surya link rests on a shared solar character (Ceyon, the Red One, a solar hill-god), which is a structural/functional resemblance, not a documented deity-to-deity syncretism. The genuine attested seam runs Murugan->Skanda; this Surya edge is analogous, so down-tier to 3."
+    },
+    {
+      "a": "dravidian-murugan",
+      "b": "dravidian-kotravai",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Intra-shard relationship between two Tamil/Dravidian figures. The mother-son / victory-mother-and-war-son pairing of Korravai and Murugan is attested within Sangam-era Tamil tradition itself. A documented relationship inside one tradition supports tier 2 (attested)."
+    },
+    {
+      "a": "dravidian-kotravai",
+      "b": "parvati",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The assimilation of the Tamil victory-goddess Korravai into the pan-Indian Durga/Kali (a face of Parvati/Devi) is a well-documented Brahmanical syncretism, traceable in Sangam-to-medieval textual and temple history. A genuine attested historical layering; tier 2 holds."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "dravidian-amman",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Intra-shard part-whole relationship: Mariyamman is the most widespread named instance of the diffuse Amman village-goddess complex, both belonging to the same Tamil village-goddess religion. Factually accurate and attested within the tradition; tier 2 holds."
+    },
+    {
+      "a": "dravidian-mariyamman",
+      "b": "parvati",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "The claim itself hedges that Mariyamman's disease-and-protection theology 'stays largely outside the canon' and was only 'partially drawn into' the Sanskrit Devi. There is no clean documented absorption of Mariyamman specifically into Parvati; the link is the general analogical pull of fierce village mothers toward the great goddess. Down-tier to 3."
+    },
+    {
+      "a": "dravidian-amman",
+      "b": "parvati",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "The doctrinal mapping of the Tamil village-mother multiplicity onto the Devi/Mahadevi 'every local goddess is a face of the one Goddess' frame is the documented Brahmanical assimilation process attested across Puranic and temple theology. A real historical syncretic frame; tier 2 holds."
+    },
+    {
+      "a": "dravidian-pey",
+      "b": "dravidian-kotravai",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Intra-shard relationship attested in Sangam palai poetry: the pey (ravenous battlefield dead) dance and feast in Korravai's wasteland domain. Documented within the Tamil literary tradition itself; tier 2 holds."
+    },
+    {
+      "a": "dravidian-pongal",
+      "b": "surya",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Pongal sharing the Makara/Uttarayana solar transition with pan-Indic reckoning is a calendrical/structural parallel, not a documented borrowing or syncretism of the deity Surya into the harvest rite. The edge is even labelled 'analogous' in its own text; a shared solar calendar is the honest comparativist's tier-3 claim, not attested tier-2 contact. Down-tier to 3."
+    }
+  ]
+}

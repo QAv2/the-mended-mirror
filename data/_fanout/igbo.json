@@ -1,0 +1,360 @@
+{
+  "tradition": {
+    "id": "igbo",
+    "name": "Igbo",
+    "region": "Southeastern Nigeria",
+    "color": "#c0964a"
+  },
+  "figures": [
+    {
+      "id": "igbo-chukwu",
+      "kind": "deity",
+      "name": "Chukwu (Chineke, Chukwu-Okike)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The supreme being of the Igbo — Chi-ukwu, 'the Great Chi,' also Chineke ('the Chi that creates') and Chukwu-Okike ('Chukwu of creation'). Source and sustainer of all, the sun-bright high god from whom every personal chi is portioned out, yet who keeps no temple and receives almost no direct cult.",
+      "facet": "A creator named as the GREAT version of the inner self: Chi-ukwu is literally the 'big chi,' so the supreme god and the soul's private daemon are the same word at two scales. Divinity is not enthroned far above but distributed — one light shattered into a portion for every person.",
+      "provenance": "Achebe, 'Chi in Igbo Cosmology' (in Morning Yet on Creation Day, 1975), on chukwu/chi as one word at two scales; Talbot, The Peoples of Southern Nigeria (1926); Isichei, A History of the Igbo People (1976); Arinze, Sacrifice in Ibo Religion (1970). Chineke's exact parsing ('Chi-na-Eke') is debated."
+    },
+    {
+      "id": "igbo-ala",
+      "kind": "deity",
+      "name": "Ala (Ani, Ana)",
+      "archetypes": [
+        "great-mother",
+        "cosmic-order",
+        "underworld-sovereign"
+      ],
+      "gloss": "The earth-goddess — greatest of the alusi after Chukwu, mother of the land, womb of crops and grave of the dead. She is the source of human morality: law itself is hers, and a crime is nsọ Ala, an abomination 'against the Earth.' She holds the dead in her body and rules the underworld of the buried.",
+      "facet": "Morality grounded literally in the SOIL: among the Igbo right and wrong are not decreed from the sky but rooted downward into the earth one walks and is buried in. To offend is to defile the ground itself — and the same mother who feeds the living keeps the dead in her keeping. Womb and tomb are one goddess.",
+      "provenance": "Talbot (1926) and Isichei (1976) on Ala/Ani as earth-mother and moral source; nsọ Ala (abomination against the Earth) and the mbari houses built in her honour are widely attested across Igboland; Meek, Law and Authority in a Nigerian Tribe (1937)."
+    },
+    {
+      "id": "igbo-amadioha",
+      "kind": "deity",
+      "name": "Amadioha (Kamalu, Igwe)",
+      "archetypes": [
+        "storm-wielder",
+        "cosmic-order"
+      ],
+      "gloss": "The thunder-and-lightning power, called Kamalu among the southern Igbo. He speaks in thunder and strikes with the bolt; his symbol and his apparition is a white ram. Where Ala makes the law, Amadioha enforces it — the perjurer and the secret murderer are killed by his lightning, the corpse left unmourned as a righteous death.",
+      "facet": "Justice delivered as METEOROLOGY: divine law is not pleaded in a court but executed from the sky, the lightning-strike read as a verdict already rendered. The white ram makes the storm gentle-faced — a thunder-god whose violence is the impartial arm of the earth's own morality.",
+      "provenance": "Talbot (1926); Isichei (1976); the white-ram symbol, the black scorch-mark of a guilty death, and the Ala-makes / Amadioha-enforces division are widely attested. Kamalu is the southern (Owerri/Ngwa) name, Amadioha the more northern; treated here as one power under regional names."
+    },
+    {
+      "id": "igbo-anyanwu",
+      "kind": "deity",
+      "name": "Anyanwụ (with Agbala)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "Anyanwụ — 'the eye of the sun,' the solar power and the visible face of Chukwu's light, often paired with Agbala, the fertilising spirit/force of the land and its oracles. To swear by Anyanwụ is to call the sun's eye as witness; the rising light is the high god made daily visible.",
+      "facet": "The sun not as a separate god but as the EYE of the supreme being: where Chukwu withdraws from cult, Anyanwụ is his open eye in the sky, the one face of the remote creator that can be looked toward each morning. Light as the high god's only daily presence.",
+      "provenance": "Talbot (1926) and Isichei (1976) on Anyanwụ as solar aspect of the high god; 'Anyanwụ na Agbala' invoked as a paired light-and-fertility formula. Agbala is also the name of the Awka and Oracle-of-the-Hills spirit (cf. Achebe's Things Fall Apart); the two senses are related but distinct."
+    },
+    {
+      "id": "igbo-chi",
+      "kind": "concept",
+      "name": "Chi (the personal spirit-double / destiny)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The personal chi — the spirit-double and destiny each person is given at birth, a private portion of Chukwu that lives in the spirit-world while its bearer lives here, shaping the whole pattern of a life. 'When a man says yes, his chi says yes also'; one approaches no fortune or ruin without it.",
+      "facet": "Destiny as a COMPANION you can argue with, not a decree you suffer: the chi is bargained with, blamed, praised, and even contradicted — a man of strong will is said to wrestle his chi, and the proverb warns that the chi affirms what the man affirms. Fate rendered as a second self, negotiable and answerable, each person's own splinter of the divine.",
+      "provenance": "Achebe, 'Chi in Igbo Cosmology' (1975) — the foregrounded source: chi as the duality at the heart of Igbo thought, 'no condition is permanent,' and the wrestling of the strong-willed against his chi; Talbot (1926); Isichei (1976); the proverb 'onye kwe chi ya ekwe' ('he who agrees, his chi agrees') is ubiquitous."
+    },
+    {
+      "id": "igbo-ikenga",
+      "kind": "concept",
+      "name": "Ikenga (the horned shrine of the right hand)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The horned carved shrine of personal achievement — 'the strength of motion,' the cult-object of a man's own right hand (aka ikenga) by which he hews his fortune. Ram-horned, often holding a blade and a head, it embodies will, accomplishment, and the self that a person makes by his own effort; at death it is split and buried with him.",
+      "facet": "The self as a thing you CARVE and consecrate: where the chi is the destiny one is given, the ikenga is the achievement one forges — a shrine not to a god but to one's own striving right hand. Personal power made into a horned image and fed, so that a man's will has an altar of its own.",
+      "provenance": "Boston, 'Ikenga Figures Among the North-West Igbo and the Igala' (1977); Talbot (1926); Isichei (1976). The ram's horns (force), the held machete and trophy-head (achievement in war), and the splitting of the ikenga at its owner's death are widely documented across Igbo carving."
+    },
+    {
+      "id": "igbo-ekwensu",
+      "kind": "deity",
+      "name": "Ekwensu (Agụ of war and bargain)",
+      "archetypes": [
+        "trickster",
+        "cosmic-adversary"
+      ],
+      "gloss": "The spirit of war, trade, and contention — invoked by warriors for courage and victory and by traders for sharp bargaining, a force of chaos, cunning, and change, associated with the tortoise (mbe). A power of trial and reversal, never an enemy of the creator: in Igbo thought there is no cosmic Satan, only gods of varying force.",
+      "facet": "COLONIAL FOOL'S GOLD — flag it: 19th-century Church Missionary Society translators rendered Ekwensu as 'Satan/the Devil' to supply Bible vocabulary, fusing a war-and-bargain trickster onto an alien dualism the Igbo did not hold. Ekwensu was a TESTING force that challenged a person to grow, never Chukwu's principled adversary; the 'devil' is the missionary's import, not the deity.",
+      "provenance": "Wikipedia and TalkAfricana on the CMS Bible mistranslation of Ekwensu as Satan; Igbo Cyber Shrine (Odinani) and the CACH-journal study 'Ekwensu Deity and the Paradox of the Christian Devil' (2022); Isichei (1976) on the absence of a dualist devil in Igbo cosmology. The demonization is documented as a colonial-Christian overlay, NOT indigenous."
+    },
+    {
+      "id": "igbo-agwu",
+      "kind": "deity",
+      "name": "Agwụ (patron of the dibịa)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The spirit of divination, medicine, and ambivalence — patron of the dibịa, the diviner-healer. Agwụ seizes the one it calls, throwing them into the disorder, sickness, or madness that is the sign of vocation; only by being initiated and serving the spirit does the afflicted become a healer who reads the unseen and treats the sick.",
+      "facet": "The sickness IS the call: among the Igbo the diviner's gift arrives as affliction, and Agwụ is at once the disease and the cure — the spirit that breaks a person in order to make them a healer. Wisdom and madness, medicine and illness, held in one ambivalent power that walks between the worlds.",
+      "provenance": "Isichei (1976) and Talbot (1926) on Agwụ and the dibịa; the affliction-as-vocation pattern (Agwụ-sickness preceding initiation into the healing/divining vocation) is widely attested in Igbo ethnography of the dibịa and ọgba afa (divination)."
+    },
+    {
+      "id": "igbo-ndichie",
+      "kind": "ancestor",
+      "name": "Ndichie (the ancestors; ịlọ ụwa, reincarnation)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The honoured dead — the ndichie, the lineage forebears who passed well, were buried with full rites, and now dwell as living elders of the kindred, libated and consulted, guarding their descendants. The Igbo hold ịlọ ụwa, 'returning to the world': the dead come back among their own people, a grandfather reborn as a grandchild.",
+      "facet": "Death as a REVOLVING DOOR within one bloodline: the ancestors are not gone to a distant heaven but cycling back through the family, so the newborn may be the elder returned. The lineage is a closed circuit of the same souls, the dead and the unborn members of one continuing house.",
+      "provenance": "Arinze, Sacrifice in Ibo Religion (1970), on ancestor-veneration and offerings to the dead; Isichei (1976) and Talbot (1926) on ịlọ ụwa (reincarnation within the lineage); the naming of children as a returned forebear (e.g. Nnenna, 'father's mother') reflects the belief."
+    },
+    {
+      "id": "igbo-ofo-ogu",
+      "kind": "principle",
+      "name": "Ọfọ na Ọgụ (the staff and the principle of justice)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The twinned principle of righteous innocence — Ọfọ, the sacred staff cut from the ọfọ tree, held by the lineage head and the just as the very emblem of truth and authority; Ọgụ, the moral force of being in the right. To hold ọfọ na ọgụ is to be blameless: only the innocent may invoke them, and they vindicate the wronged and ruin the false.",
+      "facet": "Justice as a STAFF you can only lift if you are clean: ọfọ na ọgụ is an impersonal law that gods and elders alike must answer to, vindicating the innocent automatically and turning back upon any who invoke it falsely. Righteousness made into an object and a force — truth that defends itself.",
+      "provenance": "Meek, Law and Authority in a Nigerian Tribe (1937), and Isichei (1976) on the ọfọ staff as emblem of authority and truth; the formula 'ọfọ na ọgụ' (the staff and the moral right) and its self-vindicating invocation by the innocent are widely attested in Igbo law and oath-taking."
+    }
+  ],
+  "newArchetypes": [
+    {
+      "id": "personal-daimon",
+      "name": "Personal Daimon",
+      "subtype": "principle",
+      "gloss": "The destiny-spirit assigned to each individual at birth — a private guardian-double that carries one's fate and can be addressed, bargained with, or blamed, distinct from the collective high-god and the ancestors. The self's own portion of the divine.",
+      "reason": "The Igbo chi is not merely 'one-through-many' (a diffusion of the high god) nor a hero-cult: it is a per-person fate-spirit one negotiates with. At least three traditions carry the same distinct figure — Igbo chi, Roman genius (the birth-spirit each man is born with), and the Mesoamerican tonal (the day-soul/companion-spirit) — and arguably the Greek personal daimon. They share a structure no existing joint names: an individual destiny-companion, not a face of the cosmos. A 'personal-daimon' joint would let chi, genius, and tonal seam to one another as instantiations rather than only as loose analogies."
+    }
+  ],
+  "edges": [
+    {
+      "a": "igbo-chukwu",
+      "b": "igbo-chi",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Chi-ukwu IS the 'great chi' — the supreme being and the personal destiny-spirit are one Igbo word at two scales; the high god is the source from which each chi is portioned. A cognate identity within the language itself."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "igbo-anyanwu",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Anyanwụ, 'the eye of the sun,' is the visible solar face of the withdrawn Chukwu — the one daily presence of a creator who keeps no temple."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "igbo-amadioha",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Ala makes the law, Amadioha enforces it — the earth-mother is the moral source and the thunder-god her executing arm; together they hold Igbo justice between earth and sky."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "igbo-ndichie",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Ala keeps the dead in her body and rules the underworld of the buried; the ndichie dwell in the earth's keeping until they return — mother of crops and grave of the lineage are one goddess."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "igbo-ofo-ogu",
+      "type": "pairs",
+      "tier": "3",
+      "note": "A crime is nsọ Ala, an abomination against the Earth; ọfọ na ọgụ is the principle of innocence by which the wronged are vindicated — Ala's morality and the self-vindicating law are two faces of one moral order."
+    },
+    {
+      "a": "igbo-chi",
+      "b": "igbo-ikenga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The chi is the destiny one is GIVEN; the ikenga is the achievement one MAKES with one's own right hand — the two Igbo poles of a self, fate and effort, given and forged."
+    },
+    {
+      "a": "igbo-agwu",
+      "b": "igbo-chukwu",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Agwụ the divination-spirit is the medium through which the dibịa reads the will of the unseen high god and the alusi — the channel between the remote creator and the living seeker."
+    },
+    {
+      "a": "igbo-ekwensu",
+      "b": "igbo-amadioha",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Both are powers of force, but Amadioha is the impartial JUSTICE of the storm while Ekwensu is the CHAOS of war and contention — order's lightning against the trickster's reversal, two valences of violent power."
+    },
+    {
+      "a": "igbo-chi",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the chi and the Mesoamerican tonal are both a destiny-companion-spirit bound to a person from birth — a portion of self carried in the unseen. Independent invention across families; both seam to the proposed personal-daimon joint."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: two West African high-gods who create then RECEDE, leaving no daily cult while nearer powers (alusi / abosom) receive worship — the deus-otiosus pattern across unrelated Niger-Congo branches (Igbo and Akan). Structural kin, not cognates."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the withdrawn-creator shared with the BaKongo Nzambi a Mpungu — supreme, unmade, addressed almost never, the world handed to lesser spirits. The West/Central African deus otiosus across distinct branches."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are supreme sky-powers held in awe at a remove, worshipped less directly than the nearer gods and ancestors — high heaven kept distant by its own holiness."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: both supreme, unmade, source of all — but Chukwu RECEDES from cult where YHWH demands covenant, and the Igbo equation of Chukwu with the Christian God is itself a contested colonial-era identification. Flagged as interpretive."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: two West African earth-mothers, second only to the withdrawn sky-creator, who are the source of moral law and the keepers of the dead — Igbo Ala and Akan Asase Yaa, functional kin across branches."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Earth personified as the great mother who must be asked leave before the land is worked and who receives the dead — Igbo Ala against Andean Pachamama, the world's body reverenced across unrelated families."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Earth as primal mother and ground of the dead — but Ala is also the active source of human morality (nsọ Ala), a law-giving earth where Gaia is the cosmogonic body. The divergence sharpens the shared great-mother joint."
+    },
+    {
+      "a": "igbo-ala",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are an earth-mother who is womb and tomb at once, bearing crops and devouring the dead — but Coatlicue is a fearsome serpent-skirted devourer where Ala is the gentle moral ground. A loose structural echo, flagged."
+    },
+    {
+      "a": "igbo-amadioha",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: West African thunder-powers in neighbouring but distinct traditions — Yoruba Ṣàngó the storm-king and Igbo Amadioha the thunder-justice with his white ram. Structural kin, never cognate."
+    },
+    {
+      "a": "igbo-amadioha",
+      "b": "fon-xevioso",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: thunder as the executor of divine justice — Fon Xevioso strikes the wrongdoer with the bolt as Amadioha strikes the perjurer and murderer; the lightning read as a verdict across West African traditions. Both carry the ram as emblem."
+    },
+    {
+      "a": "igbo-amadioha",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the thunder-god as guarantor of oaths and smiter of the false — Slavic Perun and Igbo Amadioha, the storm wielded as the impartial arm of cosmic law across wholly unrelated families."
+    },
+    {
+      "a": "igbo-amadioha",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are thunder-powers and the people's near protector while the high creator stays remote — but Thor is a giant-fighting champion where Amadioha is a strict judge. A loose storm-wielder echo, flagged."
+    },
+    {
+      "a": "igbo-ekwensu",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM — but FLAG: Yoruba Èṣù and Igbo Ekwensu are neighbouring West African trickster-powers, both of contention, reversal, and the bargain, and BOTH were mistranslated by missionaries as 'the Devil.' Neither is a Satan: the demonization is the colonial overlay, not the indigenous figure. Functional kin, not cognates."
+    },
+    {
+      "a": "igbo-ekwensu",
+      "b": "fon-legba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM — FLAG: Fon Legba and Igbo Ekwensu are West African trickster-powers of crossing, change, and negotiation, both demonized into 'devils' by Christian missionaries. The 'Legba=Devil' and 'Ekwensu=Satan' equations are imported dualism, not native theology."
+    },
+    {
+      "a": "igbo-ekwensu",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A reach: the cunning agent of chaos and reversal who is read as the cosmos's enemy — but Loki is woven into a genuine dualist eschatology (Ragnarök) where Ekwensu is a testing-force the Igbo never opposed to Chukwu. The parallel risks importing the very devil-frame the facet rejects; flagged."
+    },
+    {
+      "a": "igbo-agwu",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the affliction-call to the diviner's vocation — Agwụ seizes the dibịa with sickness and madness as the Korean mudang is claimed by sinbyeong, the 'spirit-illness'; healing earned by first being broken, across unrelated families."
+    },
+    {
+      "a": "igbo-agwu",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are the soul-traveller's power that walks between worlds to heal and divine — but the Inuit angakkuq flies the soul out where the Igbo dibịa reads the unseen through Agwụ's affa divination. A loose ecstatic-shaman echo, flagged."
+    },
+    {
+      "a": "igbo-ndichie",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: two West African ancestor-cults where the honoured dead are the nearest sacred power, closer than the withdrawn creator — Igbo ndichie and Akan nsamanfo, functional kin across branches."
+    },
+    {
+      "a": "igbo-ndichie",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: ancestors who recycle back into the lineage as newborns — Igbo ịlọ ụwa and Kongo bakulu both make death a revolving door within the bloodline rather than a terminus. Reincarnation-within-the-clan across distinct branches."
+    },
+    {
+      "a": "igbo-ofo-ogu",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: an impersonal principle of truth and right that gods and men alike must answer to — Igbo ọfọ na ọgụ and Egyptian Maʿat, righteousness as a cosmic order that vindicates the innocent. The law above the law-giver, across unrelated families."
+    },
+    {
+      "a": "igbo-ofo-ogu",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the impersonal cosmic order (Zoroastrian Aṣ̌a / Aša) that truth-tellers embody and liars violate — ọfọ na ọgụ likewise vindicates only the clean and turns upon the false. Righteousness as a self-enforcing law across families."
+    },
+    {
+      "a": "igbo-ofo-ogu",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both name a state of rightness one must hold to be in order — but Navajo hózhó is harmony/beauty restored through ceremony where ọfọ na ọgụ is forensic innocence in oath and law. A loose cosmic-order echo, flagged."
+    },
+    {
+      "a": "igbo-chukwu",
+      "b": "one-through-many",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Chukwu is the joint made literal: the supreme being is the 'great chi' shattered into a personal chi for every person — the one divine light dispersed into a portion for each, the clearest case of one-through-many in the mirror."
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "tradition": {
+    "id": "zoroastrian",
+    "name": "Zoroastrian / Persian",
+    "region": "Greater Iran",
+    "color": "#b06ab0"
+  },
+  "figures": [
+    {
+      "id": "ahura-mazda",
+      "kind": "deity",
+      "name": "Ahura Mazda",
+      "archetypes": ["sky-father", "withdrawn-creator", "one-through-many"],
+      "gloss": "The Wise Lord, uncreated and supreme — the one luminous ordering god from whom Truth proceeds and who fathers the Bounteous Immortals as facets of his own mind.",
+      "facet": "The shard where the sky-father becomes an ethical absolute: not the strongest god but the wholly GOOD one, who reigns by Truth rather than by storm or sky alone.",
+      "provenance": "Gathas of Zarathushtra; later Avesta. 'Ahura' is the cognate of Vedic 'asura'."
+    },
+    {
+      "id": "asa",
+      "kind": "principle",
+      "name": "Asa (Arta)",
+      "archetypes": ["cosmic-order"],
+      "gloss": "Truth and right Order — the cosmic righteousness the world is built upon and to which every soul and even the gods are bound; the opposite of Druj, the Lie.",
+      "facet": "Where impersonal cosmic law becomes a moral demand: Asa is not merely how the cosmos turns but the ethical Truth a human being must actively choose and uphold.",
+      "provenance": "Avestan asa, Old Persian arta; from PIE *h2r-to, the same root as Vedic rta."
+    },
+    {
+      "id": "angra-mainyu",
+      "kind": "force",
+      "name": "Angra Mainyu (Ahriman)",
+      "archetypes": ["cosmic-adversary", "dualism"],
+      "gloss": "The Destroying Spirit, the hostile mind who chose the Lie at the beginning — the principled author of evil, decay and death, locked in cosmic combat with the good creation.",
+      "facet": "The world's first fully ethical Devil: evil here is not chaos or shadow but a free moral CHOICE, an adversary co-primordial in will though doomed to lose in time.",
+      "provenance": "Avesta; elaborated in the Pahlavi Bundahishn. The classic source of principled cosmic dualism."
+    },
+    {
+      "id": "spenta-mainyu",
+      "kind": "principle",
+      "name": "Spenta Mainyu",
+      "archetypes": ["dualism", "complementarity"],
+      "gloss": "The Bounteous Spirit, the creative and holy mind of Ahura Mazda, the twin of Angra Mainyu — the good half of the primal pair of choosing wills.",
+      "facet": "The twin that refuses to be a balanced complement: paired with its opposite like Yin and Yang, yet the pairing is WAR, not harmony — the moment complementarity fractures into dualism.",
+      "provenance": "Gathas, Yasna 30: the two primal Spirits who chose."
+    },
+    {
+      "id": "mithra-iran",
+      "kind": "deity",
+      "name": "Mithra",
+      "archetypes": ["solar", "cosmic-order"],
+      "gloss": "Lord of the covenant and the wide pastures, all-seeing guardian of oaths who rides before the sun — the divine enforcer of the bond between persons and between worlds.",
+      "facet": "The god of the SWORN WORD: where the solar eye is moralised into the unsleeping witness of every contract, the one a liar cannot escape.",
+      "provenance": "Mihr Yasht. Avestan Mithra is the tier-1 cognate of Vedic Mitra; later the namesake of Roman Mithras."
+    },
+    {
+      "id": "yima",
+      "kind": "ancestor",
+      "name": "Yima (Jamshid)",
+      "archetypes": ["first-ancestor", "culture-hero"],
+      "gloss": "The first king and shepherd of mortals, who built the vara to shelter the seeds of all living things against the killing winter — a Noah before the flood, a Golden-Age sovereign undone by pride.",
+      "facet": "The first-ancestor as ARK-BUILDER: not the man humanity descends from by death, but the king who preserves life through catastrophe, then forfeits his glory by lying.",
+      "provenance": "Vendidad fargard 2; Shahnameh. Avestan Yima is the tier-1 cognate of Vedic Yama."
+    },
+    {
+      "id": "frashokereti",
+      "kind": "concept",
+      "name": "Frashokereti",
+      "archetypes": ["dying-rising", "cyclic-ages"],
+      "gloss": "The Making Wonderful — the final renovation when evil is purged, the dead are raised, a river of molten metal refines all souls, and the world is restored to deathless perfection.",
+      "facet": "Where cyclic time bends into an ARROW: not eternal return but a single decisive end, the first true eschatology — history goes somewhere and finishes good.",
+      "provenance": "Avesta; Bundahishn and Zand-i Wahman Yasn."
+    },
+    {
+      "id": "saoshyant",
+      "kind": "hero",
+      "name": "Saoshyant",
+      "archetypes": ["dying-rising", "culture-hero"],
+      "gloss": "The world-saviour to come, born of Zarathushtra's preserved seed and a virgin, who will lead the final battle, raise the dead and usher in the renovation.",
+      "facet": "The redeemer as FUTURE certainty: a saviour not yet born but guaranteed by the structure of time itself — the template behind the awaited messiah.",
+      "provenance": "Farvardin Yasht; Pahlavi sources. Argued to influence later messianic expectation."
+    },
+    {
+      "id": "amesha-spentas",
+      "kind": "deity",
+      "name": "Amesha Spentas",
+      "archetypes": ["one-through-many", "cosmic-order"],
+      "gloss": "The Bounteous Immortals — Good Mind, Truth, Dominion, Devotion, Wholeness and Immortality — six radiant aspects of Ahura Mazda's nature, each guarding one realm of creation.",
+      "facet": "Monotheism that still breathes as a pantheon: the One refracted into a council of virtues, divine persons who are also abstractions you are meant to BECOME.",
+      "provenance": "Gathas and Younger Avesta."
+    },
+    {
+      "id": "atar",
+      "kind": "force",
+      "name": "Atar",
+      "archetypes": ["solar"],
+      "gloss": "The sacred Fire, son of Ahura Mazda — not worshipped as an idol but tended as the visible presence of Truth and the purifying instrument of the divine.",
+      "facet": "Where fire is neither devoured offering nor stolen gift but a kept WITNESS: the undying flame as the focal point of right worship, purity made visible.",
+      "provenance": "Avesta; Atash Niyayesh. Cognate root with Vedic and Latin fire-words is debated, not secure."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "ahura-mazda",
+      "b": "asa",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Within Iran: Ahura Mazda is the lord OF Asa; the Wise Lord and the Truth he upholds are inseparable in the Gathas."
+    },
+    {
+      "a": "spenta-mainyu",
+      "b": "angra-mainyu",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The primal twin Spirits of Yasna 30 who each chose — the structural core of the dualism, a pairing that is war not balance."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "asa",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Angra Mainyu is the partisan of Druj (the Lie), the exact inverse of Asa (Truth) — the dualism is fundamentally Truth versus Lie."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "amesha-spentas",
+      "type": "pairs",
+      "tier": "1",
+      "note": "One-through-many within Iran: the six Bounteous Immortals are facets of the single Wise Lord, the One read as a council of virtues."
+    },
+    {
+      "a": "frashokereti",
+      "b": "saoshyant",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The Saoshyant is the agent who brings about the Frashokereti — saviour and renovation are one eschatological event."
+    },
+    {
+      "a": "asa",
+      "b": "rta",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Flagship cosmic-order cognate: Avestan asa / Old Persian arta and Vedic rta both descend from PIE *h2r-to. THE brightest gold seam to Vedic — but note: no 'rta' figure id is listed; seam realised via brahman/cosmic-order joint.",
+      "_unverified_target": true
+    },
+    {
+      "a": "mithra-iran",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both solar guardians, but the true cognate is to Mitra not Surya; here a functional solar parallel only."
+    },
+    {
+      "a": "yima",
+      "b": "yama",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Avestan Yima and Vedic Yama descend from a common Indo-Iranian *Yama, 'twin' — but Iran keeps him as FIRST KING and ark-builder while India makes him first to DIE and lord of the dead: a cognate that inverts function."
+    },
+    {
+      "a": "yima",
+      "b": "yama",
+      "type": "inverts",
+      "tier": "1",
+      "note": "The cognate's divergence: Iran's Yima preserves life through the winter; India's Yama is the first mortal and king of the underworld. Same name, opposite valence of death."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "asura-vedic",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The great Ahura/Asura inversion: Avestan 'ahura' and Vedic 'asura' are cognate, but Iran exalts the ahuras as good and demonises the daevas, while India exalts the devas and demonises the asuras — cognate words, flipped valence. (No standalone asura figure id listed; seam noted home.)",
+      "_unverified_target": true
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "dyaus-pita",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both inherit the Indo-Iranian high-sky lordship, but Ahura Mazda is moralised into an ethical creator-absolute rather than a passive Father Sky."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "varuna-asura",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Long-argued kinship of the Wise Lord with the Vedic asura Varuna, sovereign guardian of rta and the oath — structurally the closest Vedic match. (Varuna not in listed ids; noted as scholarly link.)",
+      "_unverified_target": true
+    },
+    {
+      "a": "mithra-iran",
+      "b": "mitra-vedic",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Tier-1 Indo-Iranian cognate: Avestan Mithra and Vedic Mitra, both gods of the covenant/contract, from a shared Indo-Iranian deity of the binding bond. (Mitra not in listed ids; the seam's home is the Vedic shard.)",
+      "_unverified_target": true
+    },
+    {
+      "a": "spenta-mainyu",
+      "b": "yin-yang",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The hinge of the whole mirror: Iran takes the paired-opposites structure and makes it WAR (good must defeat evil), where China makes it harmony (each contains and becomes the other). Dualism is complementarity refused."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "yin-yang",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Where Yin is not evil but the necessary complement of Yang, Ahriman is evil that ought not to exist — the moral asymmetry that separates dualism from balance."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are principled adversaries woven into the cosmos, but Tezcatlipoca is ambivalent fate-and-smoke while Ahriman is unambiguous evil — the contrast sharpens what ethical dualism means."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both bring death into a good creation, but Loki is a trickster-insider who turns, whereas Angra Mainyu is the adversary by original choice — chaos versus principled evil."
+    },
+    {
+      "a": "frashokereti",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Resurrection of the dead, final judgement and a world made new — Zoroastrian eschatology is widely held to have shaped Second-Temple and Christian apocalyptic during Persian rule over Judea."
+    },
+    {
+      "a": "saoshyant",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The virgin-born future redeemer who raises the dead at the end of days — a documented likely influence on the messianic template, via the Achaemenid/Parthian contact with Judaism."
+    },
+    {
+      "a": "angra-mainyu",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The principled Adversary as a cosmic figure (ha-satan grown into a true Devil) enters Abrahamic thought during and after the Babylonian exile under Persian dominion — historical contact, contested degree."
+    },
+    {
+      "a": "yima",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Yima's vara built to outlast a world-ending winter rhymes with Noah's ark before the flood — a shared flood-survival/ark motif, no descent claimed."
+    },
+    {
+      "a": "atar",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both center sacred fire, but Iran's Atar is the kept witness of Truth, not the stolen gift of the culture-hero — fire as worship versus fire as theft."
+    },
+    {
+      "a": "atar",
+      "b": "agni-vedic",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Indo-Iranian fire-cult kinship: both tend a divine sacrificial fire as messenger between worlds, though Iran refuses to treat the flame as a devouring idol. (Agni not in listed ids.)",
+      "_unverified_target": true
+    },
+    {
+      "a": "asa",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are the impersonal right-order the cosmos obeys, but Asa is moralised into a Truth one must fight FOR, while the Dao is the order one yields TO."
+    },
+    {
+      "a": "asa",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Asa as cosmic Truth shares the cosmic-order joint with the Vedic absolute; the firmer cognate, though, is Asa to rta, not to Brahman."
+    },
+    {
+      "a": "amesha-spentas",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The One refracted into emanated aspects/virtues — a structural rhyme with the sefirot flowing from Ein Sof, the unknowable refracting into nameable powers."
+    },
+    {
+      "a": "ahura-mazda",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Two near-monotheist creator-lords of Truth in historical contact under the Achaemenids; the structural and possibly genetic kinship of ethical monotheism."
+    }
+  ]
+}

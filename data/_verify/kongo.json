@@ -1,0 +1,25 @@
+{
+  "verdicts": [
+    {
+      "a": "dikenga",
+      "b": "kalunga",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Factually correct: Kalunga is the horizontal water-line of the dikenga cosmogram (MacGaffey, Thompson). But this is a part-whole/compositional relation WITHIN one Kongo cosmology, not the descent of two figures from a common ancestor word. A 'cognate' requires proven lexical common descent by sound-law; this is a structural relation, not linguistic descent. Down-tier to 3 (analogous/structural)."
+    },
+    {
+      "a": "kalunga",
+      "b": "bakulu",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Accurate ethnography: the bakulu (ancestral dead) dwell across Kalunga in the inverted world below the water. But Kalunga (the death-line/sea) and bakulu (the ancestors) are two DISTINCT concepts bound conceptually within one cosmology — not two reflexes of a common ancestor form. Not a linguistic cognate, and not a tier-2 cross-tradition syncretism. Honest tier is 3 (a structural pairing internal to Kongo thought)."
+    },
+    {
+      "a": "minkisi",
+      "b": "bakulu",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Correct: an nkisi is animated by a captured spirit of the dead and packed with grave-earth, harnessing ancestral power (MacGaffey). This is a functional/ritual relation, not common lexical descent. Tier 1 (cognate) is wrong; the relation is structural/functional within one tradition. Down-tier to 3."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/nano-banana",
+  "mode": "text-to-image",
+  "prompt": "A broken black obsidian mirror repaired with glowing molten-gold kintsugi seams that branch into a constellation network of luminous points, like a star-map of gods joined by veins of gold, obsidian and silver and gold only, dark reverent sacred background, fine art, no text no words",
+  "inputs": [],
+  "num": 1,
+  "aspect": "1:1",
+  "request_id": "019ee83b-d47f-72c3-a402-87d2d7c75e98",
+  "description": "",
+  "outputs": [
+    "concepts/mirror-network.png"
+  ],
+  "ts": "20260620-233144"
+}

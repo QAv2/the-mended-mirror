@@ -1,0 +1,32 @@
+{
+  "verdicts": [
+    {
+      "a": "unkulunkulu",
+      "b": "zulu-uthlanga",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "This is a mythic-relational claim (the creator emerging from uHlanga, the reed-source), not a LINGUISTIC cognate. Tier 1 requires proven common descent by sound-law between two words/figures. 'Unkulunkulu' (reduplication of -khulu, 'great/old') and 'uHlanga' (reed/source) are NOT etymologically the same word; they are a narrative pair within one cosmogony. Down-tier to 3 (structural/mythic relation). Keep the seam, fix the tier."
+    },
+    {
+      "a": "umvelinqangi",
+      "b": "unkulunkulu",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Defensible at tier 2. This is a DOCUMENTED internal ambiguity of the Nguni high-god as recorded in actual testimonies (Callaway's 19th-c. collections show the two names treated sometimes as one being, sometimes father/son). That is an attested textual fact about the recorded tradition, not merely a resemblance. Tier 2 holds."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "zulu-unwabu",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Not a linguistic cognate. 'Unwabu' (the chameleon of the origin-of-death myth) and 'Unkulunkulu' are unrelated words; the link is that Unkulunkulu sends the chameleon — a narrative/functional relation within the death-myth. Tier 1 is wrong. Down-tier to 3."
+    },
+    {
+      "a": "unkulunkulu",
+      "b": "amadlozi",
+      "keep": true,
+      "correctedTier": "3",
+      "reason": "Not a sound-law cognate. 'Amadlozi' (the ancestral shades) and 'Unkulunkulu' are distinct lexical items; the claim is the conceptual continuity that the creator is the first/greatest ancestor. That is a structural/theological relation within Nguni thought, not proven common linguistic descent. Tier 1 unjustified; down-tier to 3."
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "tradition": {
+    "id": "korean",
+    "name": "Korean (Mu / foundation myth)",
+    "region": "Korea",
+    "color": "#cf7a7a"
+  },
+  "figures": [
+    {
+      "id": "hwanin",
+      "kind": "deity",
+      "name": "Hwanin (Lord of Heaven)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The Heavenly Emperor of the Dangun myth, ruler of the upper sky, who looks down on the human world from his high seat and, seeing his son's longing for it, grants him leave to descend and govern below. He himself never comes down: he gives the mandate and remains aloft.",
+      "facet": "A sky-father defined by abdication rather than reign — Hwanin's whole act is to delegate the world to his son and recede, the deus otiosus caught at the exact instant of withdrawing. In later tellings he is glossed as Śakra/Indra, a Buddhist overwriting of an older native sky.",
+      "provenance": "Earliest written source is the 13th-c. Samguk Yusa of the monk Iryeon, who frames the high god through Buddhist Indra (Sakra) — the native pre-Buddhist name and shape must be read back through that lens."
+    },
+    {
+      "id": "hwanung",
+      "kind": "deity",
+      "name": "Hwanung (the Descended Son)",
+      "archetypes": [
+        "culture-hero",
+        "axis-mundi"
+      ],
+      "gloss": "Son of Hwanin, who descends from heaven to the sandalwood tree atop sacred Mount Taebaek with three thousand spirits and the three Heavenly Seals, bringing with him the lords of wind, rain and cloud, and teaching grain, law, medicine and the arts of the social world — 'benefiting humankind widely' (hongik ingan).",
+      "facet": "The point where heaven touches earth is a precise place and act: a god comes DOWN a mountain-tree to found civilisation, so the axis-mundi is not climbed by men but descended by a god — the culture-hero arriving from above rather than stealing fire from it.",
+      "provenance": "Samguk Yusa (Iryeon, c.1281); the descent-to-the-tree-atop-the-mountain detail is the kernel scholars read as a shamanic world-axis older than its Buddhist framing."
+    },
+    {
+      "id": "dangun",
+      "kind": "ancestor",
+      "name": "Dangun Wanggeom",
+      "archetypes": [
+        "first-ancestor",
+        "sky-father"
+      ],
+      "gloss": "Born of Hwanung and Ungnyeo the bear-woman, Dangun founds Gojoseon, the first Korean kingdom, and reigns for a vast span before withdrawing into the mountain to become its god. Half-heaven, half-earth-beast, he is the founder-ancestor in whom sky and the bear-mother's flesh are joined.",
+      "facet": "Sacred kingship by literal hybrid descent — the nation's first ruler is the child of a sky-prince and a she-bear made woman, so legitimacy is grounded not in conquest but in a marriage of heaven and the wild earth itself. He ends as a mountain-god, the founder dissolving back into the land he founded.",
+      "provenance": "Samguk Yusa; the 2333 BCE foundation date is traditional/symbolic, and Dangun's modern role as ethnic progenitor was sharpened by 19th–20th-c. nationalism — the myth is ancient but its political weight is partly recent."
+    },
+    {
+      "id": "ungnyeo",
+      "kind": "ancestor",
+      "name": "Ungnyeo (the Bear-Woman)",
+      "archetypes": [
+        "first-ancestor",
+        "great-mother"
+      ],
+      "gloss": "A bear who, with a tiger, begs Hwanung for human form; given mugwort and twenty cloves of garlic and told to shun the sunlight, she alone endures the fast in the dark cave for the appointed days and emerges a woman, then bears Dangun to the descended god. The tiger fails and stays a beast.",
+      "facet": "The mother of the people is an animal who earns humanity through ascetic endurance — the great-mother joint touched at its most archaic, totemic root, where becoming human is a rite of darkness and patience passed by the bear and failed by the tiger. The maternal line is not divine but transformed-wild.",
+      "provenance": "Samguk Yusa; widely read as a memory of bear-totemism shared across north-east Asian and circumpolar peoples, though the totemic reading is interpretive."
+    },
+    {
+      "id": "mudang",
+      "kind": "rite",
+      "name": "The Mudang & the Gut",
+      "archetypes": [
+        "psychopomp",
+        "axis-mundi",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The shaman of Korean musok — most often a woman — who in the gut ritual, amid drum, gong and dance, becomes the seat of the gods and the dead, voicing them, healing, divining, and guiding wandering or aggrieved spirits across to the other world. Her calling typically comes through sinbyeong, an initiatory sickness only the spirits can cure.",
+      "facet": "Here the shaman is overwhelmingly the woman possessed rather than the man who flies: in the charismatic gangsinmu, the god comes DOWN into the body and speaks through it, so the axis is crossed by descent and indwelling, not by an ecstatic upward journey — possession as the native Korean mode of the sacred road.",
+      "provenance": "Musok is a living tradition documented continuously into the present; regional split between the possessed gangsinmu (north/centre) and the hereditary seseummu (south) — beware reading one 'Korean shaman' where there are several."
+    },
+    {
+      "id": "sansin",
+      "kind": "spirit",
+      "name": "Sansin (the Mountain-God)",
+      "archetypes": [
+        "axis-mundi",
+        "master-of-animals"
+      ],
+      "gloss": "The god of each mountain, pictured as a serene old man with a white beard and a tiger at his side, enshrined in a small hall (sansin-gak) at the back of nearly every Korean Buddhist temple. Dangun himself becomes a sansin at the myth's close — the founder-king ending as the spirit of the peak.",
+      "facet": "The world-axis distributed and domesticated: not one cosmic mountain but every local peak its own god, the holy height kept alive at the edge of imported Buddhism as the indigenous power that even the temples must house. The tiger that failed to become human returns here as the mountain-god's faithful companion.",
+      "provenance": "Sansin worship is pan-Korean folk religion absorbed into and tolerated by Buddhism; the sansin-gak's placement at temples' rear marks the native cult surviving inside the imported one."
+    },
+    {
+      "id": "samsin-halmoni",
+      "kind": "spirit",
+      "name": "Samsin Halmeoni (Grandmother of Birth)",
+      "archetypes": [
+        "great-mother",
+        "first-ancestor"
+      ],
+      "gloss": "The 'Three-Spirit Grandmother' who governs conception, childbirth and the care of infants — petitioned by mothers for a child and for the newborn's safe first years, her offering a simple bowl of rice and seaweed soup. She is the near, household-level mother-power of Korean folk belief.",
+      "facet": "Fertility imagined as an old woman, not a maiden or a queen — the great-mother as grandmother, the threshold of birth tended by an ancestral crone rather than a youthful goddess, intimacy and age fused in the giver of children."
+    },
+    {
+      "id": "hongik-ingan",
+      "kind": "principle",
+      "name": "Hongik Ingan (Benefit All Humankind)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The founding charge Hwanung carries down from heaven — to 'broadly benefit the human world' — named in the Samguk Yusa as the very reason heaven consented to the descent. It survives as the stated ideal of Korean national education to this day.",
+      "facet": "The mandate of heaven cast as an ethic of universal benefit rather than mere rule: the sky permits the founding only because it will serve all people — order grounded in benevolence toward humankind, a cosmic law written as a humane purpose."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "hwanin",
+      "b": "hwanung",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Father-in-heaven and descended son: Hwanin grants the mandate and remains aloft, Hwanung carries it down the mountain to found the social world — the withdrawn sky and its earthward agent."
+    },
+    {
+      "a": "hwanung",
+      "b": "ungnyeo",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The descended god and the bear made woman — the marriage of heaven and transformed-wild earth whose child is the first king."
+    },
+    {
+      "a": "hwanung",
+      "b": "dangun",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Father and founder-son: Hwanung the heaven-bringer, Dangun the half-earthly king who establishes the kingdom and ends as the mountain's god."
+    },
+    {
+      "a": "dangun",
+      "b": "sansin",
+      "type": "cognate",
+      "tier": "3",
+      "note": "The same figure at his two ends: Dangun the founder-king withdraws into the mountain to become a sansin — founder and mountain-god are one being. (Identity within the tradition, not linguistic cognation.)"
+    },
+    {
+      "a": "ungnyeo",
+      "b": "sansin",
+      "type": "pairs",
+      "tier": "4",
+      "note": "A speculative echo: the tiger who failed to become human returns as the tiger at the mountain-god's side — the bear-myth's losing beast reappearing in the iconography of the peak. Interpretive, flagged."
+    },
+    {
+      "a": "mudang",
+      "b": "sansin",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The mudang's gut frequently honours the mountain-gods among the spirits she seats and voices — the living shaman and the local sacred height in one ritual web."
+    },
+    {
+      "a": "hwanung",
+      "b": "hongik-ingan",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Hwanung descends FOR hongik ingan — the culture-hero and the founding charge he carries are the agent and the law that licenses him."
+    },
+    {
+      "a": "dangun",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "East-Asian sacred-descent kingship: as Amaterasu's heavenly grandchild founds the imperial line from the descent to the peak, so Hwanung's son Dangun founds the first Korean kingdom from the descent to the mountain — a strong structural rhyme of heaven-descended legitimacy, no descent or borrowing proven."
+    },
+    {
+      "a": "hwanung",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both myths turn on a god's grandchild/son descending from heaven to a sacred mountain to found a people — the shared 'tenson korin'-type descent of East-Asian foundation myth, parallel structure without demonstrated contact."
+    },
+    {
+      "a": "hwanin",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A supreme Lord of Heaven who grants the warrant to rule below — Hwanin's mandate to descend rhymes with Tian/Shangdi's Mandate of Heaven; long Sinitic cultural contact makes some influence likely, but the high-sky parallel is structural."
+    },
+    {
+      "a": "hwanin",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two North/East-Asian high heavens that legitimate kingship and recede from the lived world — the sky-father reached down a non-Indo-European road, convergent not inherited. Never a cognate."
+    },
+    {
+      "a": "hwanin",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sky-father shape met far outside the Indo-European family; proof the joint is convergent, an heirloom of no single tongue. Never a cognate across families."
+    },
+    {
+      "a": "hwanung",
+      "b": "prometheus",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Both bring the arts of civilisation to humankind, but inverted: Prometheus STEALS fire up against heaven's will, while Hwanung is SENT down with heaven's blessing to 'benefit all' — the culture-hero as licensed gift versus stolen transgression."
+    },
+    {
+      "a": "hwanung",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A descending divine benefactor who brings grain, law and the civilised arts to a people — analogous culture-hero/civiliser across wholly separate worlds."
+    },
+    {
+      "a": "mudang",
+      "b": "shaman-three-worlds",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Both the shamanic crossing between worlds, but inverted in direction: the Siberian shaman ASCENDS the world-tree in ecstasy, while the Korean mudang is most often DESCENDED-INTO and possessed — flight versus indwelling as the mode of the sacred road. Northeast-Asian shamanic kinship is real but the relation is structural, not documented descent."
+    },
+    {
+      "a": "mudang",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both conduct souls across the boundary to the other world; the mudang diverges by making the passage a possessed ritual drama (the ssitgim/jinogwi gut) she performs among the living, not a one-way ferry."
+    },
+    {
+      "a": "mudang",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the indispensable channel between humans and the gods — no message passes except through them; the mudang diverges as a possessed human medium rather than a divine gatekeeper-orisa."
+    },
+    {
+      "a": "ungnyeo",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the near, archaic North-Asian mother-power; Ungnyeo diverges as a totemic she-bear who earns humanity, where Umai is the womb personified — two roots of the great-mother in one cultural belt, parallel not proven-shared."
+    },
+    {
+      "a": "ungnyeo",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Great-mother of a people, but Ungnyeo diverges hard — an animal transformed by ascetic endurance rather than the primal earth-body, fertility born of patience in the dark."
+    },
+    {
+      "a": "samsin-halmoni",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the household guardian of birth and infancy petitioned by mothers and watching the cradle — closely parallel North-Asian birth-mother spirits, structural kinship without proven contact."
+    },
+    {
+      "a": "samsin-halmoni",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A speculative reach: both maternal givers of fruitfulness, but Samsin Halmeoni is a folk grandmother of childbirth, not a grain-goddess of the seasons — flagged as a loose parallel."
+    },
+    {
+      "a": "sansin",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both the holy height where heaven meets earth, the road of the descent; sansin diverges by distributing the axis across every local peak rather than one cosmic tree-pillar."
+    },
+    {
+      "a": "sansin",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The sacred mountain as the meeting of worlds — Korean sansin worship survives inside Buddhism much as the cosmic-mountain idea was carried in by it; parallel of the holy height, partly entangled by historical Buddhist contact."
+    },
+    {
+      "a": "dangun",
+      "b": "purusha",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose first-ancestor parallel: both founding beings from whom a people springs, but Dangun is a born hybrid king, not a sacrificed cosmic body — flagged, the seam tiered down."
+    },
+    {
+      "a": "hongik-ingan",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both a guiding cosmic-order ideal underlying right action; hongik ingan diverges by being explicitly humane and purposive — the order named as benefit-to-all rather than the impersonal Way."
+    },
+    {
+      "a": "hongik-ingan",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Heaven's warrant cast as moral purpose: hongik ingan rhymes with the ethical conditioning of the Mandate of Heaven — the sky's sanction tied to benevolent rule; Sinitic contact makes the rhyme partly historical."
+    },
+    {
+      "a": "hwanin",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both a single supreme heaven-lord who decrees and recedes from the lived world; a speculative cross-family reach, flagged."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "tradition": {
+    "id": "inuit",
+    "name": "Inuit / Yupik",
+    "region": "Arctic (North America & Greenland)",
+    "color": "#5fbcc9"
+  },
+  "figures": [
+    {
+      "id": "sedna",
+      "kind": "deity",
+      "name": "Sedna / Nuliajuk",
+      "archetypes": [
+        "mother-of-waters",
+        "underworld-sovereign",
+        "great-mother",
+        "master-of-animals"
+      ],
+      "gloss": "The Sea-Mother who sank to the ocean floor when her own father severed her clinging fingers; each joint became a seal, a walrus, a whale. From her undersea house she withholds or releases all the sea-game, and the angakkuq must descend to comb the filth from her tangled hair before the hunt can resume.",
+      "facet": "The great-mother as wounded and resentful — provider not by overflowing love but by extracted appeasement; the food-source is a maimed woman who must be soothed, the moral order written into the body of the prey.",
+      "provenance": "Names and details vary widely across Inuit and Yupik groups (Sedna, Nuliajuk, Takannaaluk, Arnakuagsak); Rasmussen's early-20thC ethnography is the principal but mediated source."
+    },
+    {
+      "id": "anguta",
+      "kind": "deity",
+      "name": "Anguta",
+      "archetypes": [
+        "psychopomp",
+        "underworld-sovereign"
+      ],
+      "gloss": "Father of Sedna and ferryman of the dead, in some accounts the very hand that cut her loose into the sea. He gathers the dead and carries them down to Adlivun, the cold realm beneath the waters and the ice, where they atone before release.",
+      "facet": "Kinship as cosmology: the underworld is not a stranger's hall but the household of a family broken by a single act of violence — the psychopomp and the sea-goddess are father and daughter, the wound that made the world is domestic."
+    },
+    {
+      "id": "sila",
+      "kind": "force",
+      "name": "Sila",
+      "archetypes": [
+        "cosmic-order",
+        "sky-father"
+      ],
+      "gloss": "Breath, air, weather, and the encompassing intelligence of the world all at once — the medium of life that is also a moral awareness pervading everything. Sila is not prayed to like a person but kept in right relation; a broken taboo troubles the weather, and the storm is the cosmos registering a wrong.",
+      "facet": "Order as the air itself: where other traditions externalise their law into a king or a written rule, the Inuit locate it in the very breath drawn in and out — sky, sentience, and right-conduct are one indivisible substance.",
+      "provenance": "Sila (Sila / Silap Inua) is rendered variably as impersonal force, weather-spirit, or near-supreme being across sources; the abstraction is partly a product of translation."
+    },
+    {
+      "id": "angakkuq-soul-flight",
+      "kind": "rite",
+      "name": "The Angakkuq's Soul-Flight",
+      "archetypes": [
+        "psychopomp",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The shaman, drumming into trance, sends the soul out of the body to journey beneath the sea to Sedna or up through the layers of sky — to comb the goddess's hair, retrieve a stolen soul, or read the cause of sickness and dearth. The descent is dangerous and bodily: passing the guard-dog, the spinning floor, the dark threshold.",
+      "facet": "The psychopomp inverted — here the living specialist makes the round-trip the dead cannot, a working technology of descent-and-return rather than a one-way ferrying; salvation is a craft, repeatedly performed."
+    },
+    {
+      "id": "tarniq",
+      "kind": "concept",
+      "name": "Tarniq (the soul) & Atiq (the name-soul)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "Each person carries a tarniq, a miniature double of the self that can be lost or stolen, and an atiq, a name-soul passed down so that a dead grandparent lives again in the newborn who bears the name. To name a child is to seat an ancestor's soul within it.",
+      "facet": "Reincarnation without a wheel: identity is a relay of names, the ancestors continuously re-housed among the living — continuity of the dead achieved not by an afterworld but by the naming of children."
+    },
+    {
+      "id": "tekkeitsertok",
+      "kind": "spirit",
+      "name": "Tuurngait & the Game-Masters",
+      "archetypes": [
+        "one-through-many",
+        "master-of-animals"
+      ],
+      "gloss": "The helping and harming spirits — tuurngait — that the angakkuq binds as allies, and the master-spirits who own the land-animals as Sedna owns the sea's. The caribou, the bear, the wind each have their keeper; the hunt is a negotiation among owners, not a taking of mere things.",
+      "facet": "A cosmos with no surplus and no waste: every animal is somebody's, and so every kill is a transaction inside a vast web of consent — the 'one through many' here is ownership, the single rule that all flesh belongs to its master-spirit."
+    },
+    {
+      "id": "aningaaq-malina",
+      "kind": "deity",
+      "name": "Aningaaq & Malina (Moon-Brother, Sun-Sister)",
+      "archetypes": [
+        "lunar",
+        "solar"
+      ],
+      "gloss": "A sister and brother who lay together in the dark of a winter house; when she smeared his face with soot to know her unseen lover and saw it was her brother, she fled aflame into the sky as the Sun, and he chased her forever as the soot-dark Moon. Their eternal pursuit turns the day and the month.",
+      "facet": "The luminaries born of incest and shame rather than of sky-marriage — the sun is a fleeing woman and the moon a guilty brother, the heavens set in motion by a transgression the cosmos cannot resolve."
+    },
+    {
+      "id": "atiq",
+      "kind": "concept",
+      "name": "Atiq (name-soul)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The name-soul — the inherited identity carried by a personal name. When a child is given the name of the recently dead, the atiq returns: the ancestor lives again through the newborn, who may be addressed with the dead one’s kin-terms.",
+      "facet": "Personhood as heritable and shared, not singular — you carry whoever’s name you bear. Among the Inuit, naming is a form of return.",
+      "provenance": "Inuit soul-dualism is well attested (tarniq, the vital double; atiq, the name-soul); see Saladin d’Anglure on the Inuit name and the third sex."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "sedna",
+      "b": "anguta",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Daughter and father, sea-mother and ferryman of the dead — the founding act of violence (the severed fingers) binds them into a single household cosmology."
+    },
+    {
+      "a": "angakkuq-soul-flight",
+      "b": "sedna",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The rite exists for the goddess: the shaman dives to comb Sedna's hair and release the game — the descent and the deity define each other."
+    },
+    {
+      "a": "sila",
+      "b": "aningaaq-malina",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Sila is the encompassing weather-order; the Sun-sister and Moon-brother are the visible reckoners of time turning within it."
+    },
+    {
+      "a": "sedna",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both turn on a descent to a watery/underworld realm to restore the flow of life; Sedna's undersea house and Inanna's underworld each gate the world's fertility behind a journey down."
+    },
+    {
+      "a": "sedna",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Wounded, withholding queen of the deep whose grievance must be soothed before she releases what she holds — Ereshkigal's combed hair in the Inanna myth uncannily rhymes with the angakkuq combing Sedna's."
+    },
+    {
+      "a": "sedna",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Both are mother-bodies from which sustenance is drawn, but Sedna is sea and resentment where Papatuanuku is earth and grief — a speculative pairing of provider-mothers wounded into their role."
+    },
+    {
+      "a": "sedna",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The withholding mother whose mood is the world's scarcity: Demeter starves the earth in grief, Sedna stops the seals in anger — fertility hostage to a goddess's wound."
+    },
+    {
+      "a": "anguta",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both ferry the dead across water to the cold realm beneath — Anguta carrying souls down to Adlivun as Charon poles them over the Styx."
+    },
+    {
+      "a": "anguta",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both conduct and hold the dead in a place of atonement before release — the psychopomp as keeper of the threshold of judgement."
+    },
+    {
+      "a": "sila",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "An impersonal, all-pervading order that is kept in relation rather than worshipped — Sila as breath-and-rightness rhymes with the Dao as the way the cosmos moves."
+    },
+    {
+      "a": "sila",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A speculative reach: Sila as encompassing world-awareness in which the self participates, faintly echoing Brahman as the pervading ground — but Sila is weather and breath, never a metaphysical absolute."
+    },
+    {
+      "a": "sila",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both name a single all-pervading sacred power/process behind the many spirits rather than a personal high god — order as substance, not sovereign."
+    },
+    {
+      "a": "angakkuq-soul-flight",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The shaman's detachable soul that journeys and can be lost rhymes with the Mesoamerican nagual — the self that travels apart from the body."
+    },
+    {
+      "a": "tarniq",
+      "b": "atiq",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Two souls in one person — the vital double (tarniq) and the inherited name-soul (atiq) — together making identity a thing both vulnerable and reborn."
+    },
+    {
+      "a": "aningaaq-malina",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "A female Sun fleeing into or out of the dark over a sibling's offence — Malina chased by her Moon-brother, Amaterasu withdrawing from Susanoo's violence; the sun gendered female and driven by family rupture."
+    },
+    {
+      "a": "aningaaq-malina",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both personify the sun's daily course, but the Inuit Sun is a wronged sister fleeing rather than a charioteer riding in glory — the same body read through shame instead of majesty."
+    },
+    {
+      "a": "tekkeitsertok",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "4",
+      "note": "A loose reach: the game-master who owns the wild animals faintly parallels the orisa-owner of a domain, but Inuit master-spirits are keepers of consent in the hunt, not personal gods — flag as speculative."
+    }
+  ]
+}

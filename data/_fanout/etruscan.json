@@ -1,0 +1,123 @@
+{
+  "tradition": {
+    "id": "etruscan",
+    "name": "Etruscan",
+    "region": "Pre-Roman Italy (language isolate)",
+    "color": "#b07f9a"
+  },
+  "figures": [
+    {
+      "id": "tinia",
+      "kind": "deity",
+      "name": "Tinia (Tin)",
+      "archetypes": ["sky-father", "storm-wielder"],
+      "gloss": "The sky-king of the Etruscan triad, hurler of three grades of thunderbolt — one he casts at will, two only with the counsel of the veiled gods. Syncretised with Jupiter and Zeus once Rome absorbed his people.",
+      "facet": "A sky-father who is NOT sovereign over the lightning: he must take counsel before the gravest bolts. The Etruscan shard shows the storm-king bound by a council — even the highest god obeys a higher procedure.",
+      "provenance": "Reconstructed from Seneca and Pliny on Etruscan fulgural doctrine; the council of the dii consentes is attested but its membership debated."
+    },
+    {
+      "id": "uni",
+      "kind": "deity",
+      "name": "Uni",
+      "archetypes": ["great-mother", "sky-father"],
+      "gloss": "Queen-consort of Tinia and tutelary mother of the city of Veii, identified by the Etruscans themselves with Juno and with Punic Astarte on the Pyrgi Tablets — a goddess of sovereignty and the suckling breast.",
+      "provenance": "The Pyrgi gold tablets (c. 500 BCE) equate Uni with Phoenician Astarte in a bilingual dedication — a documented act of self-syncretism."
+    },
+    {
+      "id": "menrva",
+      "kind": "deity",
+      "name": "Menrva",
+      "archetypes": ["great-mother", "smith"],
+      "gloss": "Maiden goddess of wisdom, crafts and the thunderbolt, third of the great Etruscan triad. The Romans received her as Minerva and through her the Greek Athena, but the Etruscans gave her lightning the Greeks never did.",
+      "facet": "A wisdom-goddess who wields the bolt: in Etruria Menrva is herself a thunder-caster, a feminine claim on the storm-weapon that her Greek and Roman cognates surrendered to the sky-father."
+    },
+    {
+      "id": "aita",
+      "kind": "deity",
+      "name": "Aita",
+      "archetypes": ["underworld-sovereign", "psychopomp"],
+      "gloss": "Lord of the Etruscan dead, wolf-capped and grim, enthroned beside his queen Phersipnai in the painted tombs of Tarquinia and Orvieto. His very name and image are borrowed from Greek Hades.",
+      "provenance": "Aita (Eita) appears late, a hellenised form layered over older native death-powers; the wolf-cap is the Etruscan signature added to the Greek loan."
+    },
+    {
+      "id": "phersipnai",
+      "kind": "deity",
+      "name": "Phersipnai",
+      "archetypes": ["great-mother", "underworld-sovereign"],
+      "gloss": "Queen of the Etruscan underworld, consort of Aita, her name a direct Etruscan rendering of Greek Persephone — the grain-maiden made dread sovereign of the tomb.",
+      "provenance": "Attested in tomb paintings (Tomba dell'Orco II, Tarquinia); a transparent borrowing of Persephone's name and station."
+    },
+    {
+      "id": "vanth",
+      "kind": "spirit",
+      "name": "Vanth",
+      "archetypes": ["psychopomp"],
+      "gloss": "Winged female demon of death, torch and scroll in hand, who attends the dying and escorts souls without malice — she does not judge or torment, she witnesses and conducts.",
+      "facet": "A psychopomp with no analogue in the Greek loan-set: Vanth is native Etruscan, a benign winged escort with eyes upon her wings, all-seeing, who marks the appointed hour rather than punishing the dead.",
+      "provenance": "Purely Etruscan iconography, no Greek prototype; paired with the hammer-demon Charun in tomb art."
+    },
+    {
+      "id": "charun",
+      "kind": "spirit",
+      "name": "Charun",
+      "archetypes": ["psychopomp", "underworld-sovereign"],
+      "gloss": "Blue-fleshed, tusked, hammer-bearing guardian of the death-passage, who strikes the threshold of the tomb. He shares Greek Charon's name but not his trade — no ferry, but a mallet.",
+      "facet": "The name is Charon's; the office is not. Where the Greek poles a boat across a river, the Etruscan Charun seals the door of death with a hammer-blow — a borrowed name fitted to a wholly native demon."
+    },
+    {
+      "id": "piacenza-liver",
+      "kind": "rite",
+      "name": "The Piacenza Liver",
+      "archetypes": ["axis-mundi", "cosmic-order"],
+      "gloss": "A bronze model of a sheep's liver divided into forty regions, sixteen on the rim, each inscribed with a god's name — a map of the templum, the quartered heaven projected onto the organ so the haruspex could read the will of the sky in the body of the sacrifice.",
+      "facet": "The cosmos as a divination-grid: the Etruscan templum quarters the sky into sixteen houses of gods, an axis-and-quarters scheme read not in stars but in flesh — the only such bronze cosmogram to survive from the ancient Mediterranean.",
+      "provenance": "The Piacenza Liver (2nd c. BCE bronze); the sixteen-fold sky is corroborated by Martianus Capella's later list of the regiones caeli."
+    },
+    {
+      "id": "disciplina-etrusca",
+      "kind": "concept",
+      "name": "Disciplina Etrusca",
+      "archetypes": ["cosmic-order"],
+      "gloss": "The revealed science of reading divine will — haruspicy (the liver), fulgural lore (lightning), and the brontoscopic calendar (thunder by day) — held to be dictated by the child-sage Tages and the nymph Vegoia, a fixed law the gods themselves announce.",
+      "facet": "Revelation as cosmic-order: the Etruscans alone systematised the reading of the divine into a written discipline with a doctrine of world-ages — order is not obeyed but DECODED, the future spelled out in liver, bolt and thunder."
+    },
+    {
+      "id": "tages",
+      "kind": "hero",
+      "name": "Tages",
+      "archetypes": ["culture-hero"],
+      "gloss": "The child with an old man's wisdom who sprang from a freshly ploughed furrow at Tarquinia and dictated the whole disciplina to the assembled Etruscans before sinking back into the earth.",
+      "facet": "A culture-hero born from the furrow and unborn from it again in a single day: the bringer of the sacred sciences arrives not from the sky but UP from the tilled field, an earth-born teacher of the arts of reading heaven.",
+      "provenance": "Cicero (De Divinatione) and Ovid relate the Tages legend; a foundational Etruscan myth preserved only through Roman authors."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {"a": "tinia", "b": "jupiter", "type": "syncretic", "tier": "2", "note": "The Etruscans' own equation: Tinia is the model and donor for Roman Jupiter, the Capitoline triad (Tinia-Uni-Menrva → Jupiter-Juno-Minerva) being the most direct Etruscan bequest to Rome."},
+    {"a": "tinia", "b": "zeus", "type": "syncretic", "tier": "2", "note": "Through Greek contact and Roman mediation Tinia was assimilated to Zeus; his thunderbolt iconography is borrowed from Greek Zeus-imagery."},
+    {"a": "uni", "b": "jupiter", "type": "pairs", "tier": "3", "note": "Consort-pair within the Etruscan triad, mirroring the Tinia-Uni sovereignty couple at the head of the pantheon."},
+    {"a": "uni", "b": "frigg", "type": "analogous", "tier": "3", "note": "Both are the sovereign queen-consort of the sky-king, tutelary mother of the people — a recurrent great-mother-beside-sky-father joint."},
+    {"a": "uni", "b": "isis", "type": "syncretic", "tier": "2", "note": "The Pyrgi Tablets equate Uni with Phoenician Astarte; the Astarte-Isis-Juno chain of Mediterranean great-goddess identification is documented in the syncretic age."},
+    {"a": "menrva", "b": "tinia", "type": "pairs", "tier": "3", "note": "Third member of the Etruscan triad alongside Tinia and Uni — the wisdom-and-craft seat of the sovereign three."},
+    {"a": "menrva", "b": "hephaestus", "type": "analogous", "tier": "3", "note": "Shared smith/craft archetype — Menrva patronises artisans as Hephaestus does, though she is also a wisdom-goddess."},
+    {"a": "menrva", "b": "tvastr", "type": "analogous", "tier": "3", "note": "Both join wisdom/craft to the thunder-weapon's making — Menrva wields the bolt, Tvastr forges Indra's; the smith near the storm."},
+    {"a": "aita", "b": "hades", "type": "syncretic", "tier": "2", "note": "Aita is a direct hellenised borrowing of Hades — name, throne and consort imported, the wolf-cap added as the native signature."},
+    {"a": "aita", "b": "mictlantecuhtli", "type": "analogous", "tier": "3", "note": "Independent underworld-sovereigns of unrelated traditions — both grim enthroned lords of a chthonic realm, convergence on the death-king joint."},
+    {"a": "phersipnai", "b": "persephone", "type": "syncretic", "tier": "2", "note": "Phersipnai is Persephone's name rendered into Etruscan — a transparent loan of the maiden-queen of the dead."},
+    {"a": "phersipnai", "b": "aita", "type": "pairs", "tier": "2", "note": "The Etruscan death-couple, modelled on the Greek Hades-Persephone pairing they imported together."},
+    {"a": "charun", "b": "charon", "type": "syncretic", "tier": "2", "note": "Charun shares Charon's name and underworld station but inverts the office — hammer for the ferry-pole; a borrowed name fitted to a native death-demon."},
+    {"a": "charun", "b": "charon", "type": "inverts", "tier": "3", "note": "Where Charon takes payment to row the dead across, Charun seals the tomb-door with a mallet — the same name, the opposite gesture toward the threshold."},
+    {"a": "vanth", "b": "charun", "type": "pairs", "tier": "2", "note": "The native Etruscan death-pair of tomb-art: Vanth the benign winged witness, Charun the hammer-guardian, who attend the dying together."},
+    {"a": "vanth", "b": "badb", "type": "analogous", "tier": "3", "note": "Both are winged female death-attendants who mark rather than cause the appointed end — the Morrigan over the battlefield, Vanth at the deathbed."},
+    {"a": "vanth", "b": "anubis", "type": "analogous", "tier": "3", "note": "Psychopomps who conduct without condemning — both escort the soul through the passage as office-holders of the threshold, not judges."},
+    {"a": "piacenza-liver", "b": "patolli", "type": "analogous", "tier": "3", "note": "Two quartered-cosmos grids of unrelated peoples: the templum's sixteen sky-houses on the liver and the four-directions board of Patolli, the cosmos drawn as a divided field to be read or played."},
+    {"a": "piacenza-liver", "b": "four-tezcatlipocas", "type": "analogous", "tier": "3", "note": "The quartered heaven as a working diagram — sixteen regiones around the rim echoing the four-cornered cosmos held by the four Tezcatlipocas; the axis-and-quarters joint surfacing on two continents."},
+    {"a": "piacenza-liver", "b": "eden-four-rivers", "type": "analogous", "tier": "3", "note": "Both project a quartered, centred cosmos as sacred map — the templum divided into orienting regions as Eden's garden parts into four rivers from the centre."},
+    {"a": "disciplina-etrusca", "b": "piacenza-liver", "type": "pairs", "tier": "1", "note": "The liver IS an instrument of the disciplina — haruspicy is one of its three branches, the bronze model its surviving textbook in metal. (Same tradition: an internal structural seam.)"},
+    {"a": "disciplina-etrusca", "b": "tao", "type": "analogous", "tier": "3", "note": "Both posit an impersonal right-order the cosmos announces and the wise decode — the Dao read in the cosmos, the disciplina read in liver, bolt and thunder."},
+    {"a": "disciplina-etrusca", "b": "teotl", "type": "analogous", "tier": "3", "note": "Comparable conceptions of an all-pervading sacred order made legible through ritual specialists — the Etruscan revealed-law beside the Nahua teotl as ground of the read cosmos."},
+    {"a": "tages", "b": "prometheus", "type": "analogous", "tier": "3", "note": "Culture-heroes who hand humankind the saving arts — Prometheus brings fire and craft, Tages brings the sciences of reading the divine; the benefactor face of the bringer-of-arts."},
+    {"a": "tages", "b": "quetzalcoatl", "type": "analogous", "tier": "3", "note": "Both are teacher-heroes who deliver the sacred calendar and ritual knowledge to a people, then withdraw — Tages sinks into the furrow, Quetzalcoatl departs over the sea."},
+    {"a": "tinia", "b": "perun", "type": "analogous", "tier": "3", "note": "Sky-father storm-wielders of unrelated families converging on the same joint, both defined by the thunderbolt at the head of their pantheons."}
+  ]
+}

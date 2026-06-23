@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "polynesian",
+    "name": "Polynesian",
+    "region": "Aotearoa & Oceania",
+    "color": "#4fb0bf"
+  },
+  "figures": [
+    {
+      "id": "tane",
+      "kind": "deity",
+      "name": "Tāne-mahuta (Tāne, lord of forests)",
+      "archetypes": ["culture-hero", "world-parents", "sky-father"],
+      "gloss": "Son of Ranginui and Papatūānuku, atua of the forests, birds and growing things. In the council of the cramped children it is Tāne who, lying on his back and thrusting with his legs, at last forces the Sky-Father up off the Earth-Mother so that light may flood between them. He props the sky on poles, clothes his father in stars, and later fashions Hine-ahu-one, the first woman, from the red earth of Kurawaka.",
+      "facet": "The shard where the world is born from a SON'S strength against his own parents: separation is not a god's decree but a child's straining limbs, and the same hands that pry heaven loose then mould the first human from soil — maker of the lit space and of the people who will stand in it.",
+      "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'; Tregear, 'Maori-Polynesian Comparative Dictionary'. The separation-and-creation of Hine-ahu-one is the central Māori cosmogonic act."
+    },
+    {
+      "id": "tangaroa",
+      "kind": "deity",
+      "name": "Tangaroa (lord of the sea)",
+      "archetypes": ["mother-of-waters"],
+      "gloss": "Son of Rangi and Papa, atua of the ocean and the father of fish and reptiles. When the storm-brother Tāwhirimātea attacks the children who parted their parents, Tangaroa flees into the deep; his descendants split, the fish staying in the sea and the lizards taking refuge inland — a primal quarrel that, Māori say, set sea against land forever.",
+      "facet": "The deep here is not a slain chaos but an aggrieved BROTHER who retreats: the sea-god withdraws into his own element under the storm's assault, and the rift between his ocean-children and his land-children is read as the standing enmity of water and shore.",
+      "provenance": "Grey, 'Polynesian Mythology' (the children of Rangi and Papa); Best. Across wider Polynesia (Tahiti, Hawai‘i as Kanaloa) Tangaroa is elevated far higher — in Māoridom he is one brother among the storm-scattered six."
+    },
+    {
+      "id": "tumatauenga",
+      "kind": "deity",
+      "name": "Tūmatauenga (Tū, the war-faced)",
+      "archetypes": ["culture-hero", "first-ancestor"],
+      "gloss": "Fiercest of the brothers, atua of war and of humankind. Alone among the children he stands his ground against the storm-brother Tāwhirimātea and is not driven off. In revenge upon the siblings who abandoned him to the gale, Tū hunts and eats the children of his brothers — Tāne's birds, Tangaroa's fish, Rongo's and Haumia's plants — and by this devouring establishes humanity's right to take all of them as food.",
+      "facet": "Humanity's ancestor is the brother who would NOT flinch and who answered desertion by eating his kin's offspring: the karakia of the hunt, the net and the digging-stick all descend from Tū's act, so the right to consume the world is founded in an originary fratricidal appetite, not a gift.",
+      "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. Tū is invoked as the ancestor-atua of warriors and in rites of war and first-fruits."
+    },
+    {
+      "id": "tawhirimatea",
+      "kind": "deity",
+      "name": "Tāwhirimātea (lord of storms)",
+      "archetypes": ["storm-wielder", "cosmic-adversary"],
+      "gloss": "Son of Rangi and Papa, atua of wind, cloud and tempest. He ALONE among the brothers opposed the parting of their parents, and when it was done he followed his father Ranginui up into the sky in fury. From there he loosed his winds, rains and squalls upon his brothers — snapping Tāne's forests, churning Tangaroa's sea, hounding all but unbending Tū — and rages against them still.",
+      "facet": "The storm here is GRIEF and dissent made weather: Tāwhirimātea is the one child loyal to the embrace, who could not bear to see his parents torn apart, and every gale is his unhealed protest at the separation that made the world — the cosmic order itself founded over a brother's refusal.",
+      "provenance": "Grey, 'Polynesian Mythology'; Orbell, 'Concise Encyclopedia of Māori Myth and Legend'. His standing war on his siblings is the Māori etiology of storms."
+    },
+    {
+      "id": "rongo",
+      "kind": "deity",
+      "name": "Rongo-mā-tāne (Rongo, lord of the kūmara)",
+      "archetypes": ["culture-hero"],
+      "gloss": "Son of Rangi and Papa, atua of cultivated foods — above all the kūmara (sweet potato) — and of peace and the arts of the planted field. With his brother Haumia he hides in the body of their mother Papatūānuku when the storm assails the children, and from her flesh the food-plants of the garden are drawn. His name means 'sound' or 'tidings', and he presides over the rituals of planting and harvest.",
+      "facet": "The cultivated harvest is a brother who SHELTERS in the earth-mother's body and is plucked from her flesh — agriculture as a child taking refuge in his mother, so the kūmara crop is literally of Papatūānuku, and Rongo holds peace as the counter-pole to war-faced Tū.",
+      "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Agriculture'. Rongo is cognate with wider Polynesian Lono/Ro‘o, an attested Polynesian descent though glossed only here."
+    },
+    {
+      "id": "haumia",
+      "kind": "deity",
+      "name": "Haumia-tiketike (lord of fernroot)",
+      "archetypes": ["culture-hero"],
+      "gloss": "Son of Rangi and Papa, atua of the uncultivated foods that grow wild — chiefly the aruhe, the rhizome of the bracken fern that was a staple of the old Māori diet. Like his brother Rongo he hides within their mother Papatūānuku from Tāwhirimātea's storm, his fern-root buried in her body, and is dragged forth to be eaten by Tū's descendants.",
+      "facet": "The wild harvest set as the twin of the sown: where Rongo is the planted garden, Haumia is the food that needs no tending — so even the fernroot dug from the hillside is a divine brother sheltering in the earth-mother, and Māori subsistence is split between cultivated and foraged at the root of creation.",
+      "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. Haumia and Rongo are consistently paired as the wild and cultivated foods hidden in Papatūānuku."
+    },
+    {
+      "id": "hine-nui-te-po",
+      "kind": "deity",
+      "name": "Hine-nui-te-pō (the Great Lady of Night)",
+      "archetypes": ["underworld-sovereign", "origin-of-death"],
+      "gloss": "Goddess of death and ruler of the Pō, the night-world to which the dead return. She is Hine-ahu-one's daughter Hine-tītama, who on learning that her husband Tāne was also her father fled in shame to the underworld to receive her descendants as the dead. When Māui sought to win immortality by crawling through her sleeping body, she woke and crushed him in the obsidian teeth between her thighs — so that death has never since been undone.",
+      "facet": "Death is a SHE who was wronged and went down willingly: the first woman's daughter, fleeing the discovery of incest, becomes the gentle gatherer of all her offspring in the dark — and the one barrier no trickster passes, the threshold where even Māui's cunning is ground to nothing between her thighs.",
+      "provenance": "Grey, 'Polynesian Mythology' (the death of Māui); Best; Orbell. The Hine-tītama-to-Hine-nui-te-pō transformation is the Māori myth of the entry of death."
+    },
+    {
+      "id": "hine-ahu-one",
+      "kind": "ancestor",
+      "name": "Hine-ahu-one (the Earth-formed Maid)",
+      "archetypes": ["first-ancestor", "great-mother"],
+      "gloss": "The first woman, fashioned by Tāne from the red earth of Kurawaka, the pubic mound of the Earth-Mother Papatūānuku, and quickened with his breath. Tāne takes her to wife, and their daughter Hine-tītama — who will become Hine-nui-te-pō — is the first human born of woman. Through Hine-ahu-one the line of humankind begins from moulded soil.",
+      "facet": "The mother of the people is SHAPED, not born — clay of the Earth-Mother's own body breathed into life by the forest-god — so humankind is at once made of Papatūānuku's flesh and fathered by Tāne, the first woman a sculpture before she is an ancestor.",
+      "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. The forming of Hine-ahu-one at Kurawaka is the Māori anthropogony."
+    },
+    {
+      "id": "whiro",
+      "kind": "deity",
+      "name": "Whiro (lord of darkness and decay)",
+      "archetypes": ["cosmic-adversary", "underworld-sovereign"],
+      "gloss": "Atua of darkness, disease and death, and Tāne's implacable underworld rival. The two brothers contend over the ascent to the highest heaven to fetch the three baskets of knowledge; Tāne prevails and Whiro, defeated, descends into the underworld (Rarohenga / the Muriwai-hou) whence he sends sickness, evil and decay up into the world of light to gnaw at humankind. He commands the maggots and biting insects, the agents of corruption.",
+      "facet": "The principled enemy of order as ENVY of the light-bringer's victory: Whiro is the brother who lost the race to heaven and turned the whole apparatus of disease and decay into a standing campaign of revenge — evil here is not chaos but a defeated sibling's grudge, eating the world from below.",
+      "provenance": "Best, 'Maori Religion and Mythology' (the contest of Tāne and Whiro for the baskets of knowledge); Tregear. Whiro's cosmic-adversary role is most developed in the esoteric whare-wānanga teachings recorded by Best, which are themselves a learned tradition."
+    },
+    {
+      "id": "te-kore-te-po",
+      "kind": "concept",
+      "name": "Te Kore · Te Pō · Te Ao Mārama (the unfolding of light)",
+      "archetypes": ["world-egg", "cosmic-order"],
+      "gloss": "The Māori cosmogony as a graded becoming: from Te Kore, the void of unrealised potential, through the long succession of Te Pō, the many deepening nights (Te Pō-nui, Te Pō-roa), the world ripens until Rangi and Papa appear, are parted by their children, and Te Ao Mārama — the World of Light — breaks forth. Many chants count the Pō in numbered generations, a whakapapa of nothingness slowly quickening into being.",
+      "facet": "Creation as a GENEALOGY rather than an act: not a maker shaping matter but existence itself reckoned in descent — void begetting night begetting night begetting the parents whose parting is light — so the cosmos is a whakapapa, and to know the world is to be able to recite the long nights from which it grew.",
+      "provenance": "Best, 'Maori Religion and Mythology'; Tregear; the cosmogonic chants of the whare-wānanga (e.g. as preserved in the teachings of Te Matorohanga). The numbered-Pō genealogies vary between tribal traditions — this is a learned, recited cosmology, not a single fixed text."
+    }
+  ],
+  "newArchetypes": [],
+  "edges": [
+    {
+      "a": "tane",
+      "b": "ranginui",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Son against father: it is Tāne who lies on his back and thrusts Ranginui up off the Earth-Mother, propping the sky on poles — the separation that makes the lit world is the work of this child's straining legs."
+    },
+    {
+      "a": "tane",
+      "b": "papatuanuku",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Tāne pries Papatūānuku free of her sky-husband and then moulds the first woman, Hine-ahu-one, from the red earth of Kurawaka on her body — he frees the Earth-Mother and shapes humanity from her flesh."
+    },
+    {
+      "a": "tawhirimatea",
+      "b": "ranginui",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The one loyal son: Tāwhirimātea alone opposed the parting and followed his father up into the sky, from where he looses the storms in unending protest at the separation."
+    },
+    {
+      "a": "tawhirimatea",
+      "b": "tane",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Brother against brother and the hinge of creation: Tāne forces the parents apart, Tāwhirimātea rages against it and snaps Tāne's forests in revenge — the maker of the lit world and the storm that mourns it."
+    },
+    {
+      "a": "tawhirimatea",
+      "b": "tangaroa",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The storm drives Tangaroa into the deep; in the flight his sea-children and land-children split, setting ocean against shore — the Māori etiology of why the lizard fled inland and the fish stayed in the sea."
+    },
+    {
+      "a": "tawhirimatea",
+      "b": "tumatauenga",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Tū alone stands unbroken before the storm-brother's full assault; the gale cannot drive him off, and his endurance against Tāwhirimātea is why war-faced Tū becomes the ancestor of unyielding humankind."
+    },
+    {
+      "a": "tumatauenga",
+      "b": "tane",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Revenge on the brothers who fled: Tū hunts and eats Tāne's birds, Tangaroa's fish, and Rongo's and Haumia's plants, founding by that devouring humankind's right to take them all as food."
+    },
+    {
+      "a": "rongo",
+      "b": "haumia",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The cultivated and the wild harvest as twin brothers who both hide in Papatūānuku's body from the storm — Rongo the planted kūmara, Haumia the gathered fernroot, drawn together from the Earth-Mother's flesh."
+    },
+    {
+      "a": "rongo",
+      "b": "tumatauenga",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Peace against war: Rongo-mā-tāne, atua of the planted field and of peace, stands as the counter-pole to his brother Tū the war-faced — the garden and the battlefield as opposed brothers."
+    },
+    {
+      "a": "tane",
+      "b": "hine-ahu-one",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Maker and made: Tāne forms Hine-ahu-one from the earth of Kurawaka and breathes her alive, then takes her to wife — the first woman shaped by the same god who pried heaven from earth."
+    },
+    {
+      "a": "hine-ahu-one",
+      "b": "hine-nui-te-po",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Mother and daughter, life into death: Hine-ahu-one's daughter Hine-tītama flees in shame on learning Tāne is both husband and father, descends to the Pō, and becomes Hine-nui-te-pō, gatherer of the dead."
+    },
+    {
+      "a": "hine-nui-te-po",
+      "b": "whiro",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The two powers of the underworld: Hine-nui-te-pō receives the dead in the Pō, while Whiro sends sickness, decay and the gnawing insects up from below — the gathering-dark and the corrupting-dark."
+    },
+    {
+      "a": "whiro",
+      "b": "tane",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Light against decay: Tāne and Whiro contend for the ascent to heaven to fetch the three baskets of knowledge; Tāne wins and Whiro, defeated, descends to send disease and evil up against the world of light forever."
+    },
+    {
+      "a": "te-kore-te-po",
+      "b": "ranginui",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The cosmogony delivers the world-parents: out of Te Kore and the long nights of Te Pō, Rangi and Papa at last appear, and their children's parting opens Te Ao Mārama, the World of Light."
+    },
+    {
+      "a": "hine-nui-te-po",
+      "b": "maui",
+      "type": "inverts",
+      "tier": "1",
+      "note": "Why death stands: Māui crawls into the sleeping Hine-nui-te-pō to win immortality for humankind, but she wakes and crushes him in the obsidian teeth between her thighs — the trickster's one defeat, and the reason death has never been undone."
+    },
+    {
+      "a": "tane",
+      "b": "kane",
+      "type": "cognate",
+      "tier": "1",
+      "note": "True Polynesian descent: Māori Tāne and Hawaiian Kāne are the same atua-name carried apart by the regular Proto-Polynesian *t → Hawaiian k sound-shift (cf. tapu/kapu) — the forest-and-light god under two island tongues."
+    },
+    {
+      "a": "tane",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both turn on the violent parting of a Sky-and-Earth couple by their children — but the Māori myth puts the deed in a SON'S thrusting legs (Tāne) where the Greek hands it to Kronos's sickle; the world-parents joint reached by two unrelated routes."
+    },
+    {
+      "a": "te-kore-te-po",
+      "b": "qian-kun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cosmos as an irreducible Heaven-and-Earth polarity emerging from a prior undifferentiation; Qián/Kūn name the primal pair as Te Kore and Te Pō ripen toward Rangi and Papa — a structural rhyme of differentiation, no contact."
+    },
+    {
+      "a": "hine-nui-te-po",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two queens of the night-world who receive all the dead into the dark; Hine-nui-te-pō diverges as the wronged first-daughter who went down by her own shame, the gentle gatherer rather than the dread Mesopotamian sovereign of the great below."
+    },
+    {
+      "a": "tumatauenga",
+      "b": "tyr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both atua/god of war and the founder of human martial order; Tū diverges by being also the literal ancestor of humankind, whose originary act is devouring his brothers' children to license the hunt — war and humanity in one figure."
+    }
+  ]
+}

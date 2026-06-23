@@ -1,0 +1,615 @@
+{
+  "_comment": "The temporal spine of the Mended Mirror. Skin-agnostic data: the Scroll and the Astrolabe both read this. Years are integers, negative = BCE, positive = CE. 'to' = 2026 means living-to-present. certainty: attested | inferred | reconstructed | contested | deep (deep-time continuous, datable only as 'very old') | prophesied (future). Axis note for skins: the span runs ~-50000 to 2026, so the time axis MUST be non-linear (compress deep past, expand the last ~5000 years) or everything piles on the right edge.",
+  "eras": [
+    {
+      "id": "deep-time",
+      "name": "Deep Time",
+      "from": -50000,
+      "to": -10000
+    },
+    {
+      "id": "neolithic",
+      "name": "Neolithic",
+      "from": -10000,
+      "to": -3300
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze Age",
+      "from": -3300,
+      "to": -1200
+    },
+    {
+      "id": "iron-axial",
+      "name": "Iron & Axial Age",
+      "from": -1200,
+      "to": -300
+    },
+    {
+      "id": "classical",
+      "name": "Classical Antiquity",
+      "from": -300,
+      "to": 300
+    },
+    {
+      "id": "late-antiquity",
+      "name": "Late Antiquity",
+      "from": 300,
+      "to": 700
+    },
+    {
+      "id": "medieval",
+      "name": "Medieval",
+      "from": 700,
+      "to": 1500
+    },
+    {
+      "id": "modern",
+      "name": "Modern",
+      "from": 1500,
+      "to": 2026
+    },
+    {
+      "id": "future",
+      "name": "The Prophesied",
+      "from": 2026,
+      "to": 4000
+    }
+  ],
+  "highlights": [
+    {
+      "id": "axial",
+      "name": "The Axial Age",
+      "from": -800,
+      "to": -200,
+      "note": "Within a few centuries: the Buddha, Mahavira, the Hebrew prophets, the Greek philosophers, Laozi & Confucius — a planetary simultaneity of awakening. The scroll should make this band glow."
+    }
+  ],
+  "traditions": {
+    "aboriginal": {
+      "from": -50000,
+      "to": 2026,
+      "living": true,
+      "certainty": "deep",
+      "note": "The Dreaming — among the oldest continuous living cultures on Earth (~50,000+ yrs)."
+    },
+    "san": {
+      "from": -22000,
+      "to": 2026,
+      "living": true,
+      "certainty": "deep",
+      "note": "The |Xam/San — deep-time continuous; rock-art tens of millennia old."
+    },
+    "pie": {
+      "from": -4500,
+      "to": -2500,
+      "peak": -3300,
+      "living": false,
+      "certainty": "reconstructed",
+      "note": "Proto-Indo-European homeland & dispersal; a linguistic reconstruction, not an attestation."
+    },
+    "mesopotamian": {
+      "from": -3500,
+      "to": 80,
+      "peak": -1800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Sumer → Babylon; last datable cuneiform (Uruk almanac) 79/80 CE."
+    },
+    "egyptian": {
+      "from": -3100,
+      "to": 400,
+      "peak": -1300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Dynastic; last hieroglyphs ~394 CE, Philae closed 537."
+    },
+    "basque": {
+      "from": -3000,
+      "to": 1600,
+      "peak": -500,
+      "living": false,
+      "certainty": "inferred",
+      "note": "Pre-Indo-European substrate; recoverable mostly through late folklore."
+    },
+    "sami": {
+      "from": -2000,
+      "to": 2026,
+      "living": true,
+      "certainty": "inferred",
+      "note": "Indigenous Fennoscandia; the deep date is inferred from Iron-Age archaeology (direct records only 17th–18th c.); living, with active revival."
+    },
+    "canaanite": {
+      "from": -2000,
+      "to": -146,
+      "peak": -1200,
+      "living": false,
+      "certainty": "attested",
+      "note": "Ugarit/Levant; continued as Phoenician-Punic to the fall of Carthage (146 BCE)."
+    },
+    "hittite": {
+      "from": -1700,
+      "to": -1180,
+      "peak": -1300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Anatolian Bronze Age; ended at the Bronze Age collapse."
+    },
+    "greek": {
+      "from": -1600,
+      "to": 400,
+      "peak": -450,
+      "living": false,
+      "certainty": "attested",
+      "note": "Mycenaean → Classical → Christianized."
+    },
+    "vedic": {
+      "from": -1500,
+      "to": 2026,
+      "peak": -1000,
+      "living": true,
+      "certainty": "attested",
+      "note": "Rigvedic; continues as living Hindu tradition (Vedic→Hindu)."
+    },
+    "dravidian": {
+      "from": -1500,
+      "to": 2026,
+      "peak": 300,
+      "living": true,
+      "certainty": "inferred",
+      "note": "Pre/para-Vedic South Indian substrate; living Tamil Shaivism & folk cults."
+    },
+    "zoroastrian": {
+      "from": -1200,
+      "to": 2026,
+      "peak": -500,
+      "living": true,
+      "certainty": "contested",
+      "note": "Zoroaster's date debated (linguistic ~1200–1000 BCE vs traditional ~6th c. BCE); living among Parsis/Iranis."
+    },
+    "abrahamic": {
+      "from": -1200,
+      "to": 2026,
+      "peak": 30,
+      "living": true,
+      "certainty": "attested",
+      "note": "Composite: Israelite Yahwism → Judaism / Christianity / Islam. Deserves its own splitting/deepening pass."
+    },
+    "chinese": {
+      "from": -1600,
+      "to": 2026,
+      "peak": -500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Shang → the I Ching/Laozi/Confucius axial flowering → living Taoism & folk religion."
+    },
+    "mesoamerican": {
+      "from": -1200,
+      "to": 1521,
+      "peak": 800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Composite: Olmec → Maya → Aztec; ended at the Conquest, with folk continuity."
+    },
+    "finnish": {
+      "from": -1000,
+      "to": 1400,
+      "peak": -200,
+      "living": false,
+      "certainty": "attested",
+      "note": "Finnic pagan oral substrate; Christianized ~1200; compiled as the Kalevala in 1835."
+    },
+    "andean": {
+      "from": -1000,
+      "to": 1533,
+      "peak": 1450,
+      "living": false,
+      "certainty": "attested",
+      "note": "Chavín → Inca; ended at the Conquest, with Quechua/Aymara folk continuity."
+    },
+    "tengrist": {
+      "from": -400,
+      "to": 2026,
+      "peak": 600,
+      "living": true,
+      "certainty": "attested",
+      "note": "Steppe sky-cult; Tengri first attested ~4th c. BCE (Xiongnu) → Göktürk peak → living revival; substrate plausibly older."
+    },
+    "celtic": {
+      "from": -800,
+      "to": 450,
+      "peak": -200,
+      "living": false,
+      "certainty": "attested",
+      "note": "Hallstatt/La Tène → Romanized/Christianized."
+    },
+    "jain": {
+      "from": -800,
+      "to": 2026,
+      "peak": -300,
+      "living": true,
+      "certainty": "attested",
+      "note": "Parshvanatha (~-800) → Mahavira (6th c. BCE) → living."
+    },
+    "etruscan": {
+      "from": -900,
+      "to": -100,
+      "peak": -500,
+      "living": false,
+      "certainty": "attested",
+      "note": "Tyrrhenian; absorbed into Rome."
+    },
+    "arabian": {
+      "from": -900,
+      "to": 630,
+      "peak": -200,
+      "living": false,
+      "certainty": "attested",
+      "note": "Pre-Islamic Arabian; the Kaaba idols destroyed 630 CE with the rise of Islam."
+    },
+    "shinto": {
+      "from": -300,
+      "to": 2026,
+      "peak": 712,
+      "living": true,
+      "certainty": "attested",
+      "note": "Yayoi kami-roots; codified (Kojiki 712); living."
+    },
+    "korean": {
+      "from": -300,
+      "to": 2026,
+      "peak": 1,
+      "living": true,
+      "certainty": "attested",
+      "note": "Foundation myth dates Dangun to 2333 BCE; muism/folk religion is living."
+    },
+    "roman": {
+      "from": -750,
+      "to": 400,
+      "peak": 1,
+      "living": false,
+      "certainty": "attested",
+      "note": "Archaic → Imperial; paganism banned 380–392 CE."
+    },
+    "slavic": {
+      "from": -500,
+      "to": 1100,
+      "peak": 800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Rooted earlier; attested late; Christianization of Rus 988."
+    },
+    "baltic": {
+      "from": -500,
+      "to": 1400,
+      "peak": 1,
+      "living": false,
+      "certainty": "attested",
+      "note": "Conservative IE paganism; Lithuania was Europe's last pagan state (1387); revived as Romuva."
+    },
+    "ainu": {
+      "from": -500,
+      "to": 2026,
+      "peak": 1600,
+      "living": true,
+      "certainty": "attested",
+      "note": "Jōmon-rooted; Ainu culture proper from ~13th c.; living, with revival."
+    },
+    "norse": {
+      "from": -500,
+      "to": 1100,
+      "peak": 950,
+      "living": false,
+      "certainty": "attested",
+      "note": "Proto-Germanic roots → Viking Age → Christianization ~1000–1100."
+    },
+    "tupi": {
+      "from": -100,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "inferred",
+      "note": "Tupi-Guaraní; pre-contact, much recorded post-contact; some Guaraní communities continue."
+    },
+    "pueblo": {
+      "from": -500,
+      "to": 2026,
+      "peak": 1100,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ancestral Puebloan from Basketmaker II horticultural roots (maize ~1500 BCE→); Chaco/Mesa Verde peak ~1100; Hopi & Zuni continuous."
+    },
+    "khoekhoe": {
+      "from": -100,
+      "to": 2026,
+      "peak": 1,
+      "living": true,
+      "certainty": "inferred",
+      "note": "Khoe pastoralists ~2000 yrs in southern Africa; the traditional religion was largely displaced by Christianity by ~1900, but the Nama survive with language, oral tradition & cultural revival."
+    },
+    "gnostic": {
+      "from": 100,
+      "to": 1370,
+      "peak": 200,
+      "living": false,
+      "certainty": "attested",
+      "note": "Gnostic/Hermetic/Manichaean; Manichaeism survived among the Uyghurs & in SE China into the 14th c."
+    },
+    "mapuche": {
+      "from": 600,
+      "to": 2026,
+      "peak": 1600,
+      "living": true,
+      "certainty": "attested",
+      "note": "Araucanía; pre-Inca roots; living."
+    },
+    "taino": {
+      "from": 600,
+      "to": 1550,
+      "peak": 1400,
+      "living": false,
+      "certainty": "attested",
+      "note": "Greater Antilles Arawak; devastated after 1492; revival movements today."
+    },
+    "polynesian": {
+      "from": -900,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Proto-Polynesian pantheon crystallized in the Tonga–Samoa homeland (~1000–500 BCE, Lapita); East-Polynesian/Māori florescence ~1250–1500; living Māori tradition."
+    },
+    "yoruba": {
+      "from": 800,
+      "to": 2026,
+      "peak": 1200,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ife florescence; living, with vast diaspora (Santería, Candomblé)."
+    },
+    "hawaiian": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1700,
+      "living": true,
+      "certainty": "attested",
+      "note": "Settlement ~1000–1200; living revival."
+    },
+    "akan": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1700,
+      "living": true,
+      "certainty": "attested",
+      "note": "Rooted earlier; Ashanti florescence; living."
+    },
+    "dayak": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1700,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ngaju Borneo; living as Kaharingan."
+    },
+    "dogon": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Living; the Sirius/Nommo cosmology rests on Griaule's contested ethnography."
+    },
+    "igbo": {
+      "from": 900,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Igbo-Ukwu (~9th–10th c.); living."
+    },
+    "kongo": {
+      "from": 1300,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Kongo kingdom roots; living, with diaspora."
+    },
+    "inuit": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Thule culture ~1000 CE → Inuit (the figures are Thule-Inuit); rests on older Paleo-Eskimo (Pre-Dorset/Dorset) Arctic roots; living."
+    },
+    "pacificnw": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 1700,
+      "living": true,
+      "certainty": "attested",
+      "note": "Haida/Tlingit; ancient roots; living."
+    },
+    "haudenosaunee": {
+      "from": 1100,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "contested",
+      "note": "Confederacy founding contested: Haudenosaunee oral tradition (eclipse-dated) ~1142 vs mainstream archaeology ~1450; living."
+    },
+    "navajo": {
+      "from": 1400,
+      "to": 2026,
+      "peak": 1700,
+      "living": true,
+      "certainty": "attested",
+      "note": "Diné migration to the Southwest ~1400; living."
+    },
+    "lakota": {
+      "from": 1500,
+      "to": 2026,
+      "peak": 1750,
+      "living": true,
+      "certainty": "attested",
+      "note": "Plains florescence (post-horse); living."
+    },
+    "zulu": {
+      "from": 1600,
+      "to": 2026,
+      "peak": 1820,
+      "living": true,
+      "certainty": "attested",
+      "note": "Nguni/Bantu roots; Shaka's peak ~1820; living."
+    },
+    "fon": {
+      "from": 1600,
+      "to": 2026,
+      "peak": 1750,
+      "living": true,
+      "certainty": "attested",
+      "note": "Dahomey Vodun; living, with diaspora (Vodou)."
+    },
+    "buddhist": {
+      "from": -500,
+      "to": 2026,
+      "peak": 200,
+      "living": true,
+      "certainty": "contested",
+      "note": "From the Buddha — death-date contested (long chronology ~483 BCE vs short ~400 BCE); living across Asia & beyond."
+    },
+    "bon": {
+      "from": -500,
+      "to": 2026,
+      "peak": 1100,
+      "living": true,
+      "certainty": "contested",
+      "note": "Archaic Tibetan substrate (undatable) systematized as Yungdrung Bön ~11th c. CE alongside Buddhism; living."
+    },
+    "castaneda": {
+      "from": 1968,
+      "to": 1998,
+      "peak": 1972,
+      "living": false,
+      "certainty": "attested",
+      "note": "The forgery — precisely datable to its publication run (1968–98)."
+    }
+  },
+  "figures": {
+    "christ": {
+      "from": -4,
+      "to": 33,
+      "peak": 30,
+      "certainty": "attested",
+      "note": "The historical Jesus ~4 BCE–30 CE; the risen Christ as worshipped develops after."
+    },
+    "mani": {
+      "from": 216,
+      "to": 274,
+      "peak": 250,
+      "certainty": "attested",
+      "note": "Mani, historical founder of Manichaeism."
+    },
+    "castaneda-tonal-nagual": {
+      "from": 1968,
+      "to": 1998,
+      "peak": 1972,
+      "certainty": "attested",
+      "note": "The fabricated shard, datable to publication."
+    },
+    "ein-sof": {
+      "from": 1200,
+      "to": 2026,
+      "peak": 1300,
+      "certainty": "attested",
+      "note": "The Kabbalistic Ein Sof crystallizes ~12th–13th c. (Sefer ha-Zohar)."
+    },
+    "saoshyant": {
+      "from": 2026,
+      "to": 3000,
+      "peak": 2500,
+      "certainty": "prophesied",
+      "future": true,
+      "note": "The Zoroastrian end-time savior — a future, not a past; lives to the RIGHT of now."
+    },
+    "frashokereti": {
+      "from": 2026,
+      "to": 3000,
+      "peak": 2500,
+      "certainty": "prophesied",
+      "future": true,
+      "note": "The final renovation of the world — eschatological future."
+    },
+    "tupi-yvymarane": {
+      "from": 2026,
+      "to": 3000,
+      "peak": 2200,
+      "certainty": "prophesied",
+      "future": true,
+      "note": "The Land-Without-Evil — a paradise still sought; a future on the scroll."
+    }
+  },
+  "seams": {
+    "indra|perun": {
+      "when": -3300,
+      "certainty": "reconstructed",
+      "note": "Divergence: both inherit the PIE storm-god *Perkʷūnos."
+    },
+    "perun|thor": {
+      "when": -3300,
+      "certainty": "reconstructed",
+      "note": "Divergence: the shared Indo-European thunderer."
+    },
+    "baal|yahweh": {
+      "when": -1000,
+      "certainty": "inferred",
+      "note": "Israelite adoption of Canaanite storm/Chaoskampf imagery (Iron Age)."
+    },
+    "dionysus|osiris": {
+      "when": -450,
+      "certainty": "attested",
+      "note": "Herodotus flatly identifies them (Histories II)."
+    },
+    "demeter|isis": {
+      "when": -300,
+      "certainty": "attested",
+      "note": "Hellenistic syncretism of the two great mother-goddesses."
+    },
+    "anubis|hermes": {
+      "when": -50,
+      "certainty": "attested",
+      "note": "Hermanubis, fused in Greco-Roman Egypt."
+    },
+    "christ|osiris": {
+      "when": 100,
+      "certainty": "contested",
+      "note": "The dying-rising parallel — real but Frazer over-read it; held at arm's length, not asserted."
+    },
+    "sami-horagalles|thor": {
+      "when": 1000,
+      "certainty": "attested",
+      "note": "Norse loan laid over the indigenous thunder-god during the Viking age."
+    },
+    "tupi-tupa|yahweh": {
+      "when": 1550,
+      "certainty": "attested",
+      "note": "Jesuit elevation of Tupã to 'God' in the reductions."
+    },
+    "hawaiian-kane|tane": {
+      "when": 1100,
+      "certainty": "attested",
+      "note": "Divergence: Hawaiian Kāne and Māori Tāne split as Polynesians settled the far islands."
+    },
+    "tonal-nagual|yin-yang": {
+      "when": 2009,
+      "certainty": "attested",
+      "note": "Horden’s The Toltec I Ching (2009) — a documented modern synthesis."
+    },
+    "castaneda-tonal-nagual|tonal-nagual": {
+      "when": 1968,
+      "certainty": "attested",
+      "note": "The forgery published — its seam points home to the real line it imitated."
+    }
+  }
+}

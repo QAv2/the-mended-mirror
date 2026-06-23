@@ -1,0 +1,325 @@
+{
+  "tradition": {
+    "id": "bon",
+    "name": "Bön (Tibetan Yungdrung Bön & the pre-Buddhist substrate)",
+    "region": "Tibetan plateau & Zhang-zhung",
+    "color": "#b39ad9"
+  },
+  "figures": [
+    {
+      "id": "bon-tonpa-shenrab",
+      "kind": "hero",
+      "name": "Tönpa Shenrab Miwoche",
+      "archetypes": ["culture-hero", "one-through-many"],
+      "gloss": "The founder-teacher of Yungdrung ('Eternal') Bön, born in the western paradise-land of Olmo Lungring in Tagzig (Ta-zig), who descended into the world to subdue its demons, bind the malign spirits to oath, and hand down the rites, medicine, divination and doctrine — the enlightened first-teacher whom Bön sets at the head of its own immense cosmic time, ages before the historical Buddha.",
+      "facet": "A wholly parallel buddha for a wholly separate revelation: Bön does not deny Śākyamuni so much as out-flank him, planting an earlier, western, Tibetan-facing enlightened teacher whose canon and biography (the gZi-brjid / mDo-'dus) run on rails strikingly like the Buddha's — birth as prince, renunciation, the conquest of the demon-tempter — yet asserted as the prior and original source.",
+      "provenance": "Yungdrung Bön hagiography (the long gZi-brjid, the medium Zermig, the short mDo-'dus), largely codified from the 10th–14th c. CE. The structural parallelism with Śākyamuni is conspicuous and, on the scholarly consensus (Snellgrove, Karmay, Kvaerne), reflects deep mutual modelling of 'organised Bön' against Buddhism — the FIGURE as systematised is medieval, however archaic the underlying priest-Shenrab title may be."
+    },
+    {
+      "id": "bon-lha-klu-nyen",
+      "kind": "force",
+      "name": "The lha, klu and nyen (the threefold spirit-world)",
+      "archetypes": ["cosmic-serpent", "master-of-animals"],
+      "gloss": "The indigenous animist strata of the plateau: the lha, bright gods of the high sky, mountain-tops and the white upper world; the klu (glu), serpent water-spirits coiled in springs, lakes, soil and the dark depths, who send leprosy and dropsy if their ground is broken; and the nyen (gnyan), the ambivalent powers of rock, pass, tree and the middle air, quick to strike the trespasser with sickness. The whole inhabited landscape is owned, tiered and touchy.",
+      "facet": "A three-tier cosmos of LANDLORDS rather than rulers — every spring, scree-slope and boulder has a resident proprietor who must be propitiated, not worshipped; the klu in particular bind disease to the disturbance of earth and water, making piety an ecology of not-offending the ground you live on.",
+      "provenance": "Among the most genuinely ARCHAIC strata of Tibetan religion, attested in the oldest indigenous ritual and surviving folk practice; the threefold lha/nyen/klu (sky/rock/water) scheme is treated by Karmay and Tucci as pre-Buddhist substrate. The later assimilation of klu to the Indic nāga is a Buddhist-era overlay grafted onto an indigenous serpent-of-the-waters already present."
+    },
+    {
+      "id": "bon-mu-cord",
+      "kind": "concept",
+      "name": "The dmu-thag / mu-cord (the sky-rope)",
+      "archetypes": ["axis-mundi", "origin-of-death"],
+      "gloss": "The luminous rope or ladder of light — the dmu-thag — by which the first kings of Tibet descended from the dmu-heaven to rule and, at the end of each reign, re-ascended bodily up the cord into the sky, dissolving like a rainbow and LEAVING NO CORPSE. The line ran from the first king Nyatri Tsenpo down seven 'heavenly' (gnam) thrones, each king roped to heaven by the crown of his head.",
+      "facet": "Death enters Tibet the moment the cord is CUT: the eighth king, Drigum Tsenpo ('slain-by-pollution'), severs his own mu-cord in a duel — and from that severing kings begin to die, rot and require a tomb. The axis-mundi here is not a fixed pillar but a retractable umbilical, and its cutting is the precise mythic hinge at which mortality and the grave are born.",
+      "provenance": "The dmu-thag and the Drigum episode are recorded in the Old Tibetan Chronicle (Dunhuang mss, c. 9th–10th c.) and elaborated by Karmay (The Arrow and the Spindle) and Tucci — a genuinely archaic royal myth of the Yarlung dynasty, independent of and older than the Buddhist conversion, though transmitted through later Bön and Buddhist hands."
+    },
+    {
+      "id": "bon-yungdrung-mountain",
+      "kind": "place",
+      "name": "Yungdrung Gutsek (the nine-storey swastika mountain)",
+      "archetypes": ["axis-mundi", "one-through-many"],
+      "gloss": "The cosmic mountain at the centre of the world, 'the pyramid of nine swastikas' (g.yung-drung dgu-brtsegs), its nine ascending storeys figured by the left-turning Bön swastika (yungdrung) — the emblem of the indestructible, the eternal — stacked into the sky. Identified with the holy Mount Tise (Kailash) and standing at the heart of Olmo Lungring, the fount from which the four great rivers flow to the four quarters.",
+      "facet": "The world-axis stamped with the YUNGDRUNG itself: where the neighbour-cosmologies pile a Meru or a tree at the centre, Bön builds its axis out of nine tiers of the swastika of permanence — the cosmic mountain and the sign of the unchanging fused, the centre of the world made of the symbol for what cannot decay.",
+      "provenance": "Yungdrung Bön cosmology (gZi-brjid; the Olmo Lungring geography). The nine-storey axis-mountain at a paradisal centre with four quarter-rivers parallels both Mount Meru/Sumeru and the Olmo Lungring sacred geography; the equation with Kailash is traditional. Heavily systematised in the same medieval corpus as Tönpa Shenrab — the swastika emblem and indigenous mountain-cult are older than the literary edifice raised on them."
+    },
+    {
+      "id": "bon-satrig-ersang",
+      "kind": "deity",
+      "name": "Satrig Ersang (Yum Chen, the Great Mother)",
+      "archetypes": ["great-mother", "world-egg"],
+      "gloss": "The great wisdom-mother of Bön, 'the Loving Mother' (Yum Chen), the female ground of being among the supreme deities (with Shenlha Ökar and Sangpo Bumtri) — the matrix of wisdom and compassion from whom manifestation issues, the maternal pole at the very top of the Bön pantheon rather than a consort tucked beneath a male sky-god.",
+      "facet": "Primordial femininity placed at the SUMMIT, not the hearth: Satrig Ersang is no fertility-of-the-fields mother but the wisdom-womb of the whole cosmos, the great-mother joint touched at its most metaphysical — the origin-matrix herself enthroned among the highest gods.",
+      "provenance": "Yungdrung Bön supreme-deity sets (the 'Four Transcendent Lords'). As a systematised supreme goddess of wisdom she shows clear convergence with the Mahāyāna Prajñāpāramitā 'Mother of the Buddhas' — POST-BUDDHIST in her developed theology, however much an older mother-of-being may underlie her."
+    },
+    {
+      "id": "bon-sipe-gyalmo",
+      "kind": "deity",
+      "name": "Sidpa Gyalmo (Queen of Existence)",
+      "archetypes": ["great-mother", "storm-wielder"],
+      "gloss": "The fierce 'Queen of the World of Becoming' (srid-pa'i rgyal-mo), supreme protectress (yidam and dharma-guardian) of Bön — a wrathful, many-armed mother riding a mule through a sea of blood, wielding sword, banner and the weapons of the elements, who scatters the enemies of the doctrine and rules the unfolding of phenomenal existence.",
+      "facet": "The Great Mother as her own war-band: Sidpa Gyalmo fuses the maternal source of 'existence' (srid-pa) with the terrible guardian who defends it by force — creatrix and protectress-in-arms in one wrathful body, the queen of becoming who is also its fiercest sentinel.",
+      "provenance": "Yungdrung Bön protector-cult. Iconographically and functionally she closely parallels the Buddhist wrathful goddess Palden Lhamo (Śrī Devī) — the two are near-twins, a clear marker of the shared Tibetan tantric idiom; her developed form is POST-BUDDHIST, the wrathful-mountain-protectress impulse beneath her arguably older."
+    },
+    {
+      "id": "bon-srid-cosmogony",
+      "kind": "concept",
+      "name": "The srid-pa cosmogony (the becoming of the world)",
+      "archetypes": ["world-egg", "world-parents"],
+      "gloss": "The 'how the world came to be' (srid-pa) myths: out of primordial emptiness arise the elements and a cosmic EGG (or paired eggs of light and dark), from which hatch the first ordered being and the bright and dark lineages of gods and anti-gods; in a parallel strand a black-light egg yields non-being and a white-light egg yields being, and from their interplay the phenomenal world is brought into existence (srid).",
+      "facet": "Creation as a HATCHING out of light, sorted into pairs: the Bön egg splits the cosmos into luminous and dark moieties at its very origin, so that the world is born already doubled — being and non-being, white and black lineage — a dualising egg distinct from the single golden seed of other traditions.",
+      "provenance": "Bön srid-pa cosmogonies (Karmay, The Arrow and the Spindle, on the cosmogonic egg; Namkhai Norbu, Drung, Deu and Bön). The cosmic-egg and bipartite light/dark lineages are reported as genuinely archaic indigenous cosmogony, though preserved and edited within the literate Bön tradition; the light/dark dualism may also have absorbed some later influence."
+    },
+    {
+      "id": "bon-sky-burial-bardo",
+      "kind": "rite",
+      "name": "The death-passage: royal tomb-cult & the later bardo",
+      "archetypes": ["psychopomp", "underworld-sovereign"],
+      "gloss": "The Tibetan handling of death across two strata: the ARCHAIC royal funerary cult — once the mu-cord was cut, the dead kings required great tumulus-tombs in the Yarlung valley, furnished with goods, animal sacrifice (gshen priests guiding the dead) and a 'ransom' for the journey of the soul; and the LATER, Buddhist-shaped guidance of consciousness through the intermediate state (bardo) toward rebirth — with Tibetan sky-burial (offering the body to the vultures) emerging as the characteristic later disposal once mountainside excarnation displaced the tomb.",
+      "facet": "Two opposite verdicts on the corpse, hinged on the severed cord: BEFORE death, the perfect king leaves NO body at all (he ropes up to heaven); AFTER, the body becomes first a treasure to be entombed with the dead, then a thing to be GIVEN AWAY to the vultures — the same culture moving from corpse-lessness to corpse-burial to corpse-as-offering.",
+      "provenance": "Royal tomb-cult and gshen funerary priests: Old Tibetan sources and Karmay/Tucci (genuinely PRE-Buddhist). Sky-burial (jhator) and the bardo guidance are LATER developments — the bardo strongly Buddhist (cf. the 'Tibetan Book of the Dead'); flagged as distinct strata, not one timeless rite."
+    },
+    {
+      "id": "bon-drung-deu",
+      "kind": "rite",
+      "name": "Drung, Deu and Bön (the priest's threefold craft)",
+      "archetypes": ["ecstatic-shaman", "culture-hero"],
+      "gloss": "The triad by which, in Namkhai Norbu's account, the early priests held the world in order: the drung (narrative tales and the royal genealogies that legitimated kingship), the deu (the cryptic symbolic language of RIDDLES through which sacred meaning was coded and decoded), and the bön (the body of RITES proper — funerary, healing, propitiatory, divinatory) performed by the gshen and bönpo priests to bind spirits, cure sickness, ransom the soul and order the realm.",
+      "facet": "Cosmic maintenance as STORY, CIPHER and RITE braided together: the world is kept whole not by a single revelation but by a working craft — tale that legitimates, riddle that encodes, rite that operates — the priest as ecstatic technician AND keeper of the secret language, holding king, soul and spirit-world in one functioning weave.",
+      "provenance": "Namkhai Norbu, Drung, Deu and Bön: Narrations, Symbolic Languages and the Bön Tradition in Ancient Tibet — a reconstruction of the pre-imperial priestly culture from indigenous sources. Treated as describing the ARCHAIC (pre-Buddhist) priestly stratum, though the reconstruction itself is modern and is read by some scholars more cautiously than by the Bön tradition."
+    }
+  ],
+  "proposedArchetypes": [],
+  "edges": [
+    {
+      "a": "bon-mu-cord",
+      "b": "bon-sky-burial-bardo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The hinge of the shard: while the mu-cord is intact the king leaves no corpse; its cutting (Drigum) is the documented mythic cause of the royal tomb-cult — the rope and the grave are one story told from its two ends."
+    },
+    {
+      "a": "bon-mu-cord",
+      "b": "bon-yungdrung-mountain",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Two figures of the vertical world-axis — the swastika-mountain as the standing centre, the sky-rope as the climbable umbilical to heaven; the static and the travelled axis within one cosmos."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "bon-srid-cosmogony",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The bright/dark lineages hatched from the cosmogonic egg are the source-stock from which the lha (high, bright) and klu/nyen (low, dark, ambivalent) spirit-tiers descend — origin and inhabitants of the same three-tier world."
+    },
+    {
+      "a": "bon-satrig-ersang",
+      "b": "bon-sipe-gyalmo",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The two great Bön mothers as peaceful and wrathful poles — Satrig Ersang the serene wisdom-womb at the summit, Sidpa Gyalmo the fierce queen-protectress who defends the becoming the other bears."
+    },
+    {
+      "a": "bon-tonpa-shenrab",
+      "b": "bon-drung-deu",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The founder-teacher is cast as the source of the very rites, tales and divinations the gshen priests perform — the culture-hero and the craft he is said to have handed down."
+    },
+    {
+      "a": "bon-tonpa-shenrab",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "FLAG — rivalry/borrowing: Bön's enlightened first-teacher is modelled with the same three-body/enlightened-buddha structure as Mahāyāna, set up as the PRIOR original. Conspicuous mutual modelling (Snellgrove, Kvaerne), but as a structural parallel of organised systems it is tiered 3, not a proven derivation."
+    },
+    {
+      "a": "bon-tonpa-shenrab",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "FLAG: like the Buddha beneath the Bodhi tree, Tönpa Shenrab subdues the demon-host and binds the tempter-spirits to oath — the awakener-versus-adversary scene shared with (and plausibly patterned on) the Māra episode."
+    },
+    {
+      "a": "bon-tonpa-shenrab",
+      "b": "culture-hero",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Joint membership: the demon-subduer who brings rites, medicine, writing-cipher and law to humankind — the law/tools-bringer reached in a Tibetan register."
+    },
+    {
+      "a": "bon-mu-cord",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "FLAG — a distinctive variant of the origin-of-death joint: death is not a miscarried message but the CUTTING of the sky-rope; mortality enters as a severed connection to heaven rather than a garbled one. Genuinely archaic royal myth, but the joint-match is structural (tier 3)."
+    },
+    {
+      "a": "bon-mu-cord",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: both are deathless-first-king myths whose loss of an original immortal condition founds mortality — Yima's fall from grace and the cut mu-cord as the end of corpse-less kingship. A loose thematic parallel across the plateau and Iran; no contact claimed, flagged."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The lha/nyen/klu sky-rock-water tiers rhyme with the Siberian shaman's upper/middle/lower worlds — both an indigenous Inner-Asian three-world cosmos; structural kinship across the plateau and the steppe, no proven descent."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The three-tier spirit-world implies a vertical axis joining sky, surface and depths, as the Tengrist world-pillar does; the Bön axis is realised separately in the swastika-mountain and the mu-cord. Structural parallel of the three-storeyed cosmos."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "cosmic-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The klu — serpent water-spirits coiled in spring, lake and soil, sending sickness when the ground is broken — instantiate the cosmic-serpent/mother-of-waters joint as an indigenous serpent-of-the-depths, before any Indic overlay."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the klu as serpentine owners of waterholes and bringers of skin-disease loosely echo the Rainbow Serpent's guardianship of waters and punishment of trespass — a far-flung functional rhyme of the water-snake, flagged as a reach."
+    },
+    {
+      "a": "bon-lha-klu-nyen",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the touchy, place-bound nyen-power that strikes the trespasser with sickness rhymes with the diffuse dangerous sacred potency (ananku) of South Indian thought — both an ambient, non-personal sacredness that wounds the unwary; a loose cross-family parallel, flagged."
+    },
+    {
+      "a": "bon-yungdrung-mountain",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The nine-storey central world-mountain with four quarter-rivers parallels Meru at the centre of its cosmos; shared Inner-Asian/Indic axis-mountain idiom and likely some Buddhist-era cross-modelling, but stamped uniquely with the Bön swastika rather than inherited by descent."
+    },
+    {
+      "a": "bon-yungdrung-mountain",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "2",
+      "note": "FLAG: the developed Yungdrung-Gutsek cosmology shares the central-axis-mountain structure with Buddhist Sumeru within the same Tibetan literate milieu — documented coexistence and mutual shaping of the two cosmologies; the swastika-tiering remains Bön's own signature."
+    },
+    {
+      "a": "bon-yungdrung-mountain",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Joint membership: the centre of the world from which four rivers run to the quarters — the Bön contribution being an axis built of nine tiers of the swastika of permanence."
+    },
+    {
+      "a": "bon-satrig-ersang",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "2",
+      "note": "FLAG: Satrig Ersang as the supreme wisdom-mother strongly converges with the Mahāyāna Prajñāpāramitā 'Mother of the Buddhas'; her developed theology is post-Buddhist within the shared Tibetan idiom — a documented kinship of the wisdom-matrix, not a coincidence."
+    },
+    {
+      "a": "bon-satrig-ersang",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Great-mother across Inner Asia, but inverted in altitude: Umai is the near womb that warms the cradle, Satrig Ersang the metaphysical wisdom-womb enthroned at the summit — same joint, opposite register."
+    },
+    {
+      "a": "bon-sipe-gyalmo",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: a fierce battle-mother who scatters the enemies of her people — Sidpa Gyalmo and the Morrígan-figure as the war-band aspect of the great-mother; a loose cross-family rhyme of the martial feminine, flagged."
+    },
+    {
+      "a": "bon-sipe-gyalmo",
+      "b": "dravidian-kotravai",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: both are wrathful warrior-mothers of the field of battle and becoming; a structural parallel of the fierce-mother across unconnected traditions, flagged as a reach."
+    },
+    {
+      "a": "bon-srid-cosmogony",
+      "b": "world-egg-kalevala",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cosmos hatched from a primordial egg — the Bön srid-pa egg and the Kalevala's egg of creation as the world-egg joint reached independently; the Bön telling diverges by splitting the egg into light and dark moieties."
+    },
+    {
+      "a": "bon-srid-cosmogony",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The world issuing from a cosmic egg that already contains its ordering pairs — the Bön bipartite egg and Amma's egg of the world as the same world-egg figure, separate families, no contact."
+    },
+    {
+      "a": "bon-srid-cosmogony",
+      "b": "world-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Joint membership: creation as a hatching; the Bön signature is that the egg is doubled (white/black, being/non-being) so the world is born already split into moieties."
+    },
+    {
+      "a": "bon-srid-cosmogony",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the splitting of the primordial source into a luminous and a dark lineage at the origin loosely rhymes with the dual-natured Ometeotl from whom the paired ordering powers issue — a reach of the dualising-origin theme, flagged."
+    },
+    {
+      "a": "bon-sky-burial-bardo",
+      "b": "buddhist-yama",
+      "type": "analogous",
+      "tier": "2",
+      "note": "FLAG: the later (Buddhist-shaped) bardo passage runs the dead toward judgement and rebirth under the Yama/karmic-mirror schema of Tibetan Buddhism — a documented borrowing into the later death-stratum, distinct from the archaic tomb-cult."
+    },
+    {
+      "a": "bon-sky-burial-bardo",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The guided journey of the soul toward its assignment after death rhymes with the Vedic-derived lord-of-the-dead; here the office is met as a passage and a ransom rather than a throne, and only in the later stratum."
+    },
+    {
+      "a": "bon-sky-burial-bardo",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The gshen funerary priest conducts the royal dead across the death-threshold with goods and a ransom for the way — psychopomp function shared with the ferryman, the Bön divergence being the priest as living guide rather than otherworld boatman."
+    },
+    {
+      "a": "bon-sky-burial-bardo",
+      "b": "tarniq",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: sky-burial's giving of the corpse back to the vultures rhymes faintly with circumpolar economies of the soul and body returned to the animal world; a loose functional parallel of corpse-as-offering, flagged."
+    },
+    {
+      "a": "bon-drung-deu",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The gshen/bönpo as ecstatic technician who heals, ransoms souls and binds spirits parallels the Siberian shaman's office; the Bön divergence is the braiding of that craft with narrative legitimation (drung) and a secret riddle-language (deu)."
+    },
+    {
+      "a": "bon-drung-deu",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The world held in order by sung tale and potent word — the drung-and-deu priest and the Kalevala's singer-sage both work reality through narrative and coded utterance; analogous word-power, separate families."
+    },
+    {
+      "a": "bon-drung-deu",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Speculative: the keeper of the cryptic deu language and the divinatory-scribal craft loosely echoes the scribe-god of secret words and rites; a reach of the keeper-of-sacred-cipher theme across families, flagged."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "verdicts": [
+    {
+      "a": "dievas",
+      "b": "dyeus",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Lithuanian Dievas / Latvian Dievs is a direct reflex of PIE *Dyeus within Indo-European. This is a textbook cognate to the reconstructed etymon itself. Tier 1 is fully defensible."
+    },
+    {
+      "a": "dievas",
+      "b": "zeus",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Both Dievas and Greek Zeus continue PIE *Dyeus by regular sound-law within the Indo-European family. A classic established cognate. Tier 1 stands."
+    },
+    {
+      "a": "dievas",
+      "b": "jupiter",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Iuppiter < *Dyeu-pater shares the *Dyeus root with Dievas; both Italic and Baltic are IE branches, so this is a proven cognate. Tier 1 defensible."
+    },
+    {
+      "a": "dievas",
+      "b": "dyaus-pita",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Vedic Dyaus(-pita) and Baltic Dievas both reflect PIE *Dyeus within Indo-European. Among the canonical cognate sets for the Sky-Father. Tier 1 holds."
+    },
+    {
+      "a": "dievas",
+      "b": "tyr",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Old Norse Tyr < Germanic *Tiwaz < PIE *Dyeus, the same etymon as Dievas; both Germanic and Baltic are IE. The name is a genuine cognate even though the role/rank diverged. Tier 1 defensible (the etymological claim is sound; the role-survival note is gloss, not the cognate basis)."
+    },
+    {
+      "a": "perkunas",
+      "b": "perun",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Lithuanian Perkunas and Slavic Perun within the Balto-Slavic node; both plausibly reflect *Perk(w)unos. Closely related branches, and the thunder/oak association is shared. Defensible as a cognate, though it is the most-debated reflex pair — kept at tier 1 since both descend from a common Balto-Slavic/IE source."
+    },
+    {
+      "a": "velnias",
+      "b": "perkunas",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Not a cognate claim but an intra-Baltic mythological PAIRING (thunder-god vs serpent/chthonic adversary) — the same tradition's living folklore, the IE thunder-vs-serpent combat. As an internal pairing within one tradition, tier-1 ('pairs') is appropriate; both figures are Baltic, no cross-family forgery risk."
+    },
+    {
+      "a": "saule",
+      "b": "menulis",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Internal Baltic pairing: Sun-wife Saule and Moon-husband Menulis, their marriage/quarrel attested in the dainas. Same-tradition mythological dyad — tier-1 'pairs' is defensible."
+    },
+    {
+      "a": "menulis",
+      "b": "ausrine",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Internal Baltic pairing within the celestial-marriage cycle: the Moon's courting of the dawn-star Ausrine. Same-tradition figures attested together in folklore. Tier-1 'pairs' holds."
+    },
+    {
+      "a": "ausrine",
+      "b": "saule",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Within the single Baltic tradition the morning-star Ausrine and the Sun Saule are attested together in the dainas as part of one sky-family cycle. As a same-tradition documented mythological relationship the tier is acceptable; this is an internal pairing rather than a cross-family link, so no forgery risk and no need to down-tier."
+    },
+    {
+      "a": "dieva-deli",
+      "b": "saule",
+      "keep": true,
+      "correctedTier": "1",
+      "reason": "Internal Baltic pairing: the Dieva deli (Sons of God) court and rescue Saule's daughter / right her boat in the Sun-Maiden cycle. Same-tradition mythological dyad attested in Latvian dainas. Tier-1 'pairs' is defensible."
+    },
+    {
+      "a": "dievas",
+      "b": "dieva-deli",
+      "keep": true,
+      "correctedTier": "2",
+      "reason": "Internal Baltic relationship: the Dieva deli are named as the sons of Dievas, the Divine Twins (cf. *Diwos sunu / Vedic Divo napata, Greek Dioskouroi). Within the one tradition this is an attested mythological/genealogical pairing. Tier acceptable; same-tradition link, no cross-family over-claim."
+    }
+  ]
+}
