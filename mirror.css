@@ -26,17 +26,19 @@ html,body{ margin:0; height:100%; overflow:hidden; background:var(--obsidian-2);
 #mirror-canvas{ position:fixed; inset:0; width:100vw; height:100vh; display:block; cursor:grab; }
 
 /* ---------- header ---------- */
-#mirror-header{ position:fixed; top:26px; left:30px; z-index:5; pointer-events:none;
-  text-shadow:0 2px 20px rgba(0,0,0,0.7); }
+#mirror-header{ position:fixed; top:30px; left:34px; z-index:5; pointer-events:none;
+  max-width:400px; text-shadow:0 2px 20px rgba(0,0,0,0.7); }
 #mirror-header h1{ font-family:'Marcellus', serif; font-weight:400; margin:0;
-  font-size:34px; letter-spacing:.06em;
+  font-size:34px; letter-spacing:.06em; line-height:1.1;
   color:var(--gold-bright);
   background:linear-gradient(180deg,#fff1c8,#e7b24a 70%,#a9772f);
   -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
-#mirror-header .sub{ margin:.25em 0 0; font-style:italic; font-weight:300;
-  font-size:15px; letter-spacing:.04em; color:var(--silver-dim); }
-#mirror-header .wt{ margin:.5em 0 0; font-size:11px; letter-spacing:.18em;
-  text-transform:uppercase; color:rgba(130,139,156,0.6); }
+#mirror-header .sub{ margin:.55em 0 1.5em; font-style:italic; font-weight:300;
+  font-size:15.5px; letter-spacing:.04em; color:var(--silver-dim); }
+#mirror-header .mandate{ margin:0 0 .85em; font-weight:300; font-size:13px;
+  line-height:1.6; letter-spacing:.01em; color:var(--silver-dim); }
+#mirror-header .mandate:last-child{ margin-bottom:0; }
+#mirror-header .mandate b{ color:var(--gold); font-weight:400; }
 
 /* ---------- controls ---------- */
 #controls{ position:fixed; top:28px; right:30px; z-index:6; }
