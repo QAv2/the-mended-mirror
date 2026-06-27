@@ -1,0 +1,262 @@
+{
+  "tradition": {
+    "id": "shona",
+    "name": "Shona",
+    "region": "Zimbabwe",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "shona-mwari",
+      "kind": "deity",
+      "name": "Mwari (Musikavanhu)",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme, androgynous creator who resides in both the sky and the deep pools. Known as Musikavanhu ('Creator of People') and Dzivaguru ('Great Pool'), Mwari is the ultimate source of fertility, rain, and the overarching cosmic order.",
+      "facet": "Mwari is not entirely distant. The deity maintains an acutely active, political presence by speaking audibly through the dark crevices of the Matonjeni cave shrines to dictate statecraft and ecological justice.",
+      "provenance": "M.L. Daneel 'The God of the Matopo Hills' (1970); Michael Gelfand 'Shona Religion' (1962)."
+    },
+    {
+      "id": "shona-matonjeni",
+      "kind": "place",
+      "name": "Matonjeni (The Oracle Caves)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred granite cave complex in the Matobo Hills serving as the cultic and oracular nexus of the Shona world. It is the geographic coordinate where high priests and mediums approach to hear the living voice of Mwari.",
+      "facet": "The divine does not reside in constructed temples but in the acoustic resonance of raw geology; the granite bedrock itself serves as the literal, vibrating throat of the Creator.",
+      "provenance": "T.O. Ranger 'Voices from the Rocks: Nature, Culture and History in the Matopos' (1999)."
+    },
+    {
+      "id": "shona-mhondoro",
+      "kind": "ancestor",
+      "name": "Mhondoro (Lion Spirits)",
+      "archetypes": [
+        "first-ancestor",
+        "master-of-animals"
+      ],
+      "gloss": "The exalted spirits of dynastic founders and ancient kings who transition after death into territorial protectors. Manifesting initially as literal lions, they possess senior mediums (svikiro) to govern land distribution and call the rains.",
+      "facet": "Political authority is permanently leased from the dead. A living chief holds no mandate over the earth without the explicit, channeled endorsement of the mhondoro whose soil he purports to govern.",
+      "provenance": "David Lan 'Guns and Rain: Guerrillas and Spirit Mediums in Zimbabwe' (1985)."
+    },
+    {
+      "id": "shona-vadzimu",
+      "kind": "ancestor",
+      "name": "Vadzimu (Family Ancestors)",
+      "archetypes": [
+        "living-dead",
+        "one-through-many"
+      ],
+      "gloss": "The intimately involved spirits of deceased family members, usually parents and grandparents, who continuously oversee their living descendants. They demand remembrance through libations and protect the lineage from witchcraft and misfortune.",
+      "facet": "The boundary between life and death is fully porous. The vadzimu are functional, demanding members of the household whose ongoing spiritual protection must be actively purchased with ritual beer and moral conduct.",
+      "provenance": "M.F.C. Bourdillon 'The Shona Peoples' (1976); Gelfand (1962)."
+    },
+    {
+      "id": "shona-ngozi",
+      "kind": "force",
+      "name": "Ngozi (The Avenging Spirit)",
+      "archetypes": [
+        "cosmic-adversary",
+        "cosmic-order"
+      ],
+      "gloss": "The terrifying, relentless spirit of a murdered person, an abused servant, or an unpaid debtor. The ngozi strikes the offender's entire lineage with catastrophic illness, madness, and death until absolute restitution is made.",
+      "facet": "The ngozi operates not as a demonic entity, but as a violent, inescapable mechanism of absolute moral justice. It cannot be exorcised by medicine, only satisfied by heavy public compensation—often blood-wealth.",
+      "provenance": "Michael Gelfand 'The Spiritual Beliefs of the Shona' (1977); Bourdillon (1976)."
+    },
+    {
+      "id": "shona-mashave",
+      "kind": "force",
+      "name": "Mashave (Wandering Spirits)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "Alien, unquiet spirits of foreigners, animals, or those who died far from home without proper rites. They attach themselves to living Shona hosts, offering specialized talents—such as healing or hunting—in exchange for embodiment.",
+      "facet": "Skill and genius are viewed as exogenous forces. Exceptional talent is rarely seen as innate human ability, but rather as the temporary, negotiated lease of an alien spirit's specific competence.",
+      "provenance": "Bourdillon (1976); Gelfand (1962)."
+    },
+    {
+      "id": "shona-bira",
+      "kind": "rite",
+      "name": "Bira (Ancestral Trance Ceremony)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "sacred-resonance"
+      ],
+      "gloss": "An all-night communal ritual of polyrhythmic music, intense dancing, and ritual beer-drinking designed to call the vadzimu or mhondoro into the physical bodies of their mediums to resolve crises and reaffirm the lineage.",
+      "facet": "Trance is communal and mechanically induced. The spirits are virtually forced to attend through the irresistible sonic pull of interlocking musical patterns and the communal heat of dancing bodies.",
+      "provenance": "Paul Berliner 'The Soul of Mbira' (1978); Thomas Turino (2000)."
+    },
+    {
+      "id": "shona-mbira",
+      "kind": "concept",
+      "name": "Mbira DzaVadzimu (Voice of the Ancestors)",
+      "archetypes": [
+        "sacred-resonance"
+      ],
+      "gloss": "A lamellophone consisting of forged iron keys bound to a wooden soundboard and amplified inside a calabash. Its cascading, cyclical polyrhythms are the literal 'telephone to the spirits.'",
+      "facet": "The instrument is alive. The iron is forged from the earth, and the repetitive, interlocking melodies dissolve the human perception of linear time, aligning the mind with the eternal present of the ancestors.",
+      "provenance": "Berliner 'The Soul of Mbira' (1978)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "shona-mwari",
+      "b": "shona-matonjeni",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The unseen Supreme Creator and the literal geological throat through which He speaks to the nation."
+    },
+    {
+      "a": "shona-vadzimu",
+      "b": "shona-ngozi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The morally protective, nurturing family dead versus the retributive, violently destructive dead."
+    },
+    {
+      "a": "shona-bira",
+      "b": "shona-mbira",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ecstatic ceremonial framework and the sacred acoustic technology required to drive it."
+    },
+    {
+      "a": "shona-mhondoro",
+      "b": "shona-mwari",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The territorial lion-spirits act as the vital political and ecological intermediaries, petitioning Mwari for the rains."
+    },
+    {
+      "a": "shona-mashave",
+      "b": "shona-vadzimu",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Alien, non-lineage spirits granting extraneous individual talents, contrasting directly with bloodline spirits ensuring collective moral survival."
+    },
+    {
+      "a": "shona-mwari",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly fused by Zimbabwean independent churches, identifying the cave-speaking Musikavanhu with the biblical God."
+    },
+    {
+      "a": "shona-mwari",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An overarching, self-contained supreme creator who orders the cosmos but relies on intermediate forces for daily governance."
+    },
+    {
+      "a": "shona-mwari",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme, primordial androgynous creator who originates the cosmos and delegates active worldly rule to subordinate spiritual entities."
+    },
+    {
+      "a": "shona-matonjeni",
+      "b": "navajo-four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Specific geological formations that do not merely represent the divine, but act as literal, active conduits for divine interaction."
+    },
+    {
+      "a": "shona-mhondoro",
+      "b": "zulu-amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Potent ancestral spirits inexorably tied to the political legitimacy and territorial fertility of the land."
+    },
+    {
+      "a": "shona-mhondoro",
+      "b": "andean-pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The profound equation of physical earth and soil with conscious, demanding spiritual custodianship."
+    },
+    {
+      "a": "shona-vadzimu",
+      "b": "kongo-bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intimately involved lineage dead who continuously govern the moral and physical welfare of their descendants."
+    },
+    {
+      "a": "shona-vadzimu",
+      "b": "akan-nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Functionally active ancestral guardians who demand reciprocal offerings to maintain the protective boundary around the family."
+    },
+    {
+      "a": "shona-ngozi",
+      "b": "egyptian-maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Though violent in execution, the Ngozi operates as an absolute, inescapable mechanism for restoring moral balance and cosmic justice."
+    },
+    {
+      "a": "shona-ngozi",
+      "b": "inuit-sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A deeply aggrieved force that inflicts physical illness and ecological ruin upon a community until public confession and restitution are made."
+    },
+    {
+      "a": "shona-ngozi",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ferocious, unsettled spirits of the dead that aggressively afflict the living, demanding specific ritual appeasement."
+    },
+    {
+      "a": "shona-mashave",
+      "b": "kongo-bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Non-lineage, localized spirits that temporarily attach to human hosts to bestow specialized esoteric knowledge or skills."
+    },
+    {
+      "a": "shona-bira",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An all-night, rhythmically driven communal ritual specifically engineered to alter consciousness and open the community to spirit intervention."
+    },
+    {
+      "a": "shona-bira",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A massive, socially binding ceremonial engine that collapses time, bridging the gap between the living and the ancestral continuum."
+    },
+    {
+      "a": "shona-mbira",
+      "b": "kongo-minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A physically forged, ritually charged artifact that acts as a technology to actively house and command unseen spiritual forces."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "living-dead",
+      "name": "The Living Dead",
+      "subtype": "ancestor",
+      "gloss": "The intimately involved, recently deceased family members who continue to function as active, protective guardians of the household, demanding ongoing reciprocal relationships with the living.",
+      "reason": "Distinguishes the daily, household family ancestors from remote mythic 'first-ancestors' or grand dynastic founders."
+    },
+    {
+      "id": "sacred-resonance",
+      "name": "Sacred Resonance",
+      "subtype": "concept",
+      "gloss": "The use of specific sonic patterns, polyrhythms, or physical instruments that act as a literal technology to bridge dimensions, effectively coercing spirits into the physical realm.",
+      "reason": "Needed to capture the mechanical, sonic compulsion of the spirit world, found in traditions where trance and possession are driven by acoustic technologies rather than internal meditation alone."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "tradition": {
+    "id": "scientology",
+    "name": "Scientology / Dianetics",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "scientology-thetan",
+      "kind": "concept",
+      "name": "The Thetan",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The immortal, omnipotent spiritual being that is the true identity of the individual. It is not a physical thing but the creator of things, having existed long before the material universe.",
+      "facet": "Rejects the idea of a single universal soul or a spirit created by a supreme God. Instead, there is a multiplicity of independent, uncreated thetans who collectively mocked up the physical universe and became trapped in their own creation.",
+      "provenance": "L. Ron Hubbard, 'Scientology: The Fundamentals of Thought'."
+    },
+    {
+      "id": "scientology-mest",
+      "kind": "principle",
+      "name": "MEST (Matter, Energy, Space, Time)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "An acronym for the physical universe. It is considered a dense, enturbulated illusion originally created by thetans as a game, which eventually ensnared them through agreement.",
+      "facet": "The physical universe is neither inherently evil nor a divine creation to be revered. It is a shared, incredibly sticky hallucination that thetans have simply forgotten how to un-create.",
+      "provenance": "L. Ron Hubbard, 'Scientology 8-8008'."
+    },
+    {
+      "id": "scientology-reactive-mind",
+      "kind": "concept",
+      "name": "The Reactive Mind",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The purely stimulus-response portion of the human mind, acting as a crude survival mechanism that records all pain and unconsciousness. It enforces irrational compulsions and psychosomatic illnesses upon the thetan.",
+      "facet": "Demystifies 'evil' or 'sin' into a literal, biological tape-recorder of trauma. It possesses no malice, only a stupid, computational exactitude that blindly dictates human misery.",
+      "provenance": "L. Ron Hubbard, 'Dianetics: The Modern Science of Mental Health'."
+    },
+    {
+      "id": "scientology-engram",
+      "kind": "concept",
+      "name": "The Engram",
+      "archetypes": [
+        "origin-of-death"
+      ],
+      "gloss": "A detailed mental image picture of a moment of physical pain and unconsciousness, permanently recorded in the reactive mind. It contains all perceptics of that moment and hidden verbal commands.",
+      "facet": "Replaces the metaphysical concept of karma or original sin with localized, physicalized memory implants. Suffering is not a moral failing or cosmic debt, but a literal cellular misfire triggered by environmental restimulation.",
+      "provenance": "L. Ron Hubbard, 'Dianetics'."
+    },
+    {
+      "id": "scientology-auditing",
+      "kind": "rite",
+      "name": "Auditing",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The highly structured, technological pastoral counseling of Scientology. A practitioner uses specific commands and an E-meter to help the preclear locate and discharge the enturbulated energy of engrams.",
+      "facet": "Transmutes confession and meditation into a rigorously quantified cybernetic engineering process. There is no grace, divine intervention, or moral judgment—only the precise application of technology to recover spiritual memory.",
+      "provenance": "L. Ron Hubbard, 'Dianetics' and standard technical bulletins."
+    },
+    {
+      "id": "scientology-clear",
+      "kind": "concept",
+      "name": "Clear",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "A state achieved when an individual has completely erased their reactive mind through auditing. A Clear no longer has engrams or the stimulus-response mechanism dictating their behavior.",
+      "facet": "Presents spiritual liberation not as an ongoing moral struggle or a mystical union with God, but as a permanent, achievable psychological baseline—a literal hardware upgrade yielding perfect recall and high rationality.",
+      "provenance": "L. Ron Hubbard, 'Dianetics'."
+    },
+    {
+      "id": "scientology-operating-thetan",
+      "kind": "concept",
+      "name": "Operating Thetan (OT)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The highest state of spiritual attainment, where the thetan realizes their original state of godhood. An OT can knowingly and at will control matter, energy, space, and time completely independent of a physical body.",
+      "facet": "Enlightenment is not dissolution into the void or submission to the Almighty, but the recovery of supreme, individual telekinetic and causal dominion over the physical universe.",
+      "provenance": "L. Ron Hubbard, 'Scientology 8-8008' and advanced OT materials."
+    },
+    {
+      "id": "scientology-xenu",
+      "kind": "force",
+      "name": "Xenu",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The tyrannical ruler of the Galactic Confederacy who, 75 million years ago, brought billions of thetans to Earth (Teegeeack) and subjected them to traumatic implants to suppress their power.",
+      "facet": "Translates the Gnostic demiurge and the fall of man into a pulp space-opera narrative. Humanity's spiritual amnesia stems not from a moral fall, but from a literal psychiatric atrocity committed by a cosmic politician.",
+      "provenance": "L. Ron Hubbard, OT III materials."
+    }
+  ],
+  "edges": [
+    {
+      "a": "scientology-auditing",
+      "b": "scientology-reactive-mind",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Auditing is the explicit technological rite engineered to dismantle the architecture of the reactive mind."
+    },
+    {
+      "a": "scientology-thetan",
+      "b": "scientology-mest",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The thetan is pure spirit and infinite cause; MEST is pure mass, condensation, and effect."
+    },
+    {
+      "a": "scientology-clear",
+      "b": "scientology-operating-thetan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Clear is the baseline eradication of the reactive mind; Operating Thetan is the subsequent active recovery of god-like causation over MEST."
+    },
+    {
+      "a": "scientology-thetan",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both posit the true self as an uncreated, divine fragment trapped in a material prison of its own amnesia."
+    },
+    {
+      "a": "scientology-thetan",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both define the soul as eternally individual, uncreated, and naturally possessing infinite knowledge and power before being clouded by material accumulation."
+    },
+    {
+      "a": "scientology-thetan",
+      "b": "brahman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Vedanta sees ultimate liberation as the dissolution of the individual self into a single universal consciousness, Scientology insists on the eternal individuality of liberated thetans."
+    },
+    {
+      "a": "scientology-thetan",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Buddhism liberates by extinguishing the illusion of a permanent self; Scientology liberates by recovering the absolute permanence and causal power of the self."
+    },
+    {
+      "a": "scientology-mest",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: MEST precisely parallels Prakriti as the dense, entangling matrix of matter that traps the pure consciousness of the thetan (Purusha)."
+    },
+    {
+      "a": "scientology-mest",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both enforce a strict dichotomy between pure spirit and the dense trap of the physical universe, though Scientology views MEST as an illusion rather than a co-eternal evil."
+    },
+    {
+      "a": "scientology-mest",
+      "b": "yin-yang",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Daoism posits harmony and balance within the material universe; Scientology views the physical universe purely as a degradation to be escaped or dominated by spirit."
+    },
+    {
+      "a": "scientology-reactive-mind",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both act as the chief adversary to enlightenment through the weaponization of illusion, craving, and automated stimulus-response, rather than through positive malice."
+    },
+    {
+      "a": "scientology-engram",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The continuous cycle of stimulus and response dictated by engrams mirrors the mechanical, repeating nature of samsara driven by accrued karma."
+    },
+    {
+      "a": "scientology-auditing",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both transmute spiritual intervention from impassioned prayer into an exact, highly technical methodology requiring rigid adherence to protocol and the reading of instruments."
+    },
+    {
+      "a": "scientology-operating-thetan",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The OT state perfectly mirrors the Siddha: a liberated soul that retains perfect individuality and achieves omniscience after shedding all physical entanglements."
+    },
+    {
+      "a": "scientology-xenu",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both function as the ignorant, tyrannical architect who traps divine consciousness in physical forms and uses false realities to prevent their awakening."
+    },
+    {
+      "a": "scientology-xenu",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A cosmic adversary responsible for the corruption of the original pure state, translating the concept of primeval evil into the figure of a despotic galactic politician."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "spiritual-technology",
+      "name": "Spiritual Technology",
+      "subtype": "rite",
+      "gloss": "The use of highly structured, quasi-scientific instrumentation and rigid procedural manuals to achieve spiritual liberation, replacing faith, grace, or mystical ecstasy with reproducible mechanics.",
+      "reason": "Captures traditions where salvation is treated as an engineering problem requiring exact, invariable technical processes (e.g., Auditing, rigorous divinatory mechanics)."
+    },
+    {
+      "id": "somatic-record",
+      "name": "Somatic Record",
+      "subtype": "concept",
+      "gloss": "The idea that past spiritual or physical traumas are literally recorded in the cellular or spiritual architecture of the being, acting as hidden commands that compel irrational behavior.",
+      "reason": "Bridges concepts like the Engram, deep karmic imprints (samskaras), and ancestral trauma that function mechanistically rather than morally."
+    }
+  ]
+}

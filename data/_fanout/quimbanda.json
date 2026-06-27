@@ -1,0 +1,241 @@
+{
+  "tradition": {
+    "id": "quimbanda",
+    "name": "Quimbanda",
+    "region": "Brazil",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "quimbanda-exu-maioral",
+      "kind": "deity",
+      "name": "Exu Maioral (The Great Exu)",
+      "archetypes": [
+        "cosmic-adversary",
+        "trickster"
+      ],
+      "gloss": "The supreme esoteric head of Quimbanda, often syncretized with Lucifer or Baphomet. He is not the Christian epitome of evil, but rather the ultimate spark of rebellion, cosmic fire, and unrestricted freedom.",
+      "facet": "Unlike the purely chaotic Christian Devil, Maioral is an initiator and emancipator. He represents the raw, amoral power necessary to break structural oppression and achieve material mastery.",
+      "provenance": "Nicholaj de Mattos Frisvold, 'Pomba Gira and the Quimbanda of Mbumba Nzila' (2011)."
+    },
+    {
+      "id": "quimbanda-exu-rei",
+      "kind": "deity",
+      "name": "Exu Rei (King Exu)",
+      "archetypes": [
+        "underworld-sovereign"
+      ],
+      "gloss": "The sovereign of the Quimbanda pantheon, ruler of the Seven Kingdoms. He governs the lower zones of the astral plane, directing the vast legions of working Exus to execute the sorcerer's will on earth.",
+      "facet": "He commands the 'left path' not as a punisher of sins, but as an absolute monarch of pragmatic forces, demanding respect, pacts, and tribute rather than moral purity.",
+      "provenance": "Mario dos Ventos, 'Na Gira do Exu' (2006)."
+    },
+    {
+      "id": "quimbanda-maria-padilha",
+      "kind": "force",
+      "name": "Maria Padilha (The Sorceress Queen)",
+      "archetypes": [
+        "trickster",
+        "subversive-feminine"
+      ],
+      "gloss": "The most famous Pomba Gira, rooted in the historical Maria de Padilla of 14th-century Spain. She commands a vast legion of spirits and is invoked for matters of desperate love, domination, sexual agency, and fierce, unyielding protection.",
+      "facet": "She alchemizes the European witch-figure and the marginalized Afro-Brazilian woman into an invincible spirit of sovereignty who weaponizes sexuality to subjugate the patriarchal order.",
+      "provenance": "Kelly E. Hayes, 'Holy Harlots: Femininity, Sexuality, and Black Magic in Brazil' (2011)."
+    },
+    {
+      "id": "quimbanda-exu-caveira",
+      "kind": "force",
+      "name": "Exu Caveira (Exu of the Skull)",
+      "archetypes": [
+        "psychopomp",
+        "underworld-sovereign"
+      ],
+      "gloss": "An ancient Exu governing the Kingdom of the Cemetery. He rules over bones, ancestral memory, and necromantic magic, directly consuming the heavy energies of death and decay to work on behalf of the sorcerer.",
+      "facet": "He acts as the great equalizer. Stripping away the flesh of social status and earthly illusion, Caveira reveals the harsh, bare truth of existence and protects practitioners from lethal curses.",
+      "provenance": "Nicholaj de Mattos Frisvold, 'Kiumbanda: A Complete Grammar of the Art of Exu' (2006)."
+    },
+    {
+      "id": "quimbanda-sete-reinos",
+      "kind": "place",
+      "name": "Os Sete Reinos (The Seven Kingdoms)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The structural cosmology of Quimbanda, dividing the spiritual and material world into seven domains—such as Crossroads, Cemeteries, Souls, and Forests—each governed by specific legions of Exus holding dominion over those aspects of nature and society.",
+      "facet": "It maps spiritual power directly onto the mundane geography of the urban and natural environment, asserting that every physical space is a living, accessible altar for sorcery.",
+      "provenance": "Danilo Coppini, 'Quimbanda: The Cult of the Red and Black Flame' (2019)."
+    },
+    {
+      "id": "quimbanda-ze-pelintra",
+      "kind": "hero",
+      "name": "Zé Pelintra (The Patron of the Streets)",
+      "archetypes": [
+        "trickster",
+        "psychopomp"
+      ],
+      "gloss": "A charismatic 'malandro' or rogue spirit clad in a white suit and red tie. Born in Catimbó and embraced by Quimbanda, he is the master of street-smarts, nightlife, gambling, and navigating impossible odds.",
+      "facet": "He subverts the legal and social order through cunning and charm rather than raw force, becoming the divine patron of the marginalized hustler surviving in a rigged system.",
+      "provenance": "Stefania Capone, 'Searching for Africa in Brazil' (2010)."
+    },
+    {
+      "id": "quimbanda-assentamento",
+      "kind": "rite",
+      "name": "O Assentamento (The Seated Vessel)",
+      "archetypes": [
+        "fetish-vessel",
+        "axis-mundi"
+      ],
+      "gloss": "An iron cauldron or clay pot containing earth, metals, animal blood, and specific sacred objects called 'fundamentos'. This complex magical construction physically anchors an Exu or Pomba Gira to the practitioner's ritual space.",
+      "facet": "The spirit does not merely visit; it is literally 'seated' and materialized in the physical realm, creating a permanent, localized battery of spiritual power requiring constant feeding and interaction.",
+      "provenance": "Nicholaj de Mattos Frisvold, 'Pomba Gira and the Quimbanda of Mbumba Nzila' (2011)."
+    },
+    {
+      "id": "quimbanda-ponto-riscado",
+      "kind": "rite",
+      "name": "Ponto Riscado (The Drawn Seal)",
+      "archetypes": [
+        "cosmic-order",
+        "amoral-sorcery"
+      ],
+      "gloss": "A complex sigil drawn on the ground using pemba (chalk), incorporating arrows, tridents, and crosses. It acts as both a spiritual signature and a cosmological map that summons a specific Exu to the physical plane.",
+      "facet": "It is not merely symbolic but mechanically functional; drawing the seal temporarily tears a hole in reality, forcing the corresponding spirit to manifest and obey the terms of their pact.",
+      "provenance": "Danilo Coppini, 'Quimbanda: The Cult of the Red and Black Flame' (2019)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "quimbanda-exu-rei",
+      "b": "quimbanda-sete-reinos",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Exu Rei is the sovereign intelligence that governs and delegates power across all Seven Kingdoms."
+    },
+    {
+      "a": "quimbanda-ponto-riscado",
+      "b": "quimbanda-assentamento",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The drawn seal summons the spirit, while the seated vessel gives it a permanent physical body to inhabit."
+    },
+    {
+      "a": "quimbanda-exu-maioral",
+      "b": "quimbanda-exu-rei",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Maioral is the supreme esoteric principle, while Exu Rei is the active monarch who rules the working spirits."
+    },
+    {
+      "a": "quimbanda-exu-maioral",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Derives its core trickster and crossroads identity from the Yoruba Eshu, but alchemized into a supreme agent of left-hand sorcery."
+    },
+    {
+      "a": "quimbanda-assentamento",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A direct continuation of Kongo vessel magic, where spirits are physically housed in empowered containers of earth and blood."
+    },
+    {
+      "a": "quimbanda-sete-reinos",
+      "b": "dikenga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The cosmology of Quimbanda's realms heavily adapts the Kongo cosmogram's division of the physical and spiritual worlds."
+    },
+    {
+      "a": "quimbanda-exu-caveira",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A skeletal lord of the underworld who consumes the dead and rules over the stark reality of the grave."
+    },
+    {
+      "a": "quimbanda-exu-caveira",
+      "b": "charun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fearsome, heavily armed guardian of the underworld boundary who marshals the dead."
+    },
+    {
+      "a": "quimbanda-maria-padilha",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fiercely independent queen of desire and underworld power, weaponizing sexuality to subordinate male authority."
+    },
+    {
+      "a": "quimbanda-maria-padilha",
+      "b": "dravidian-mariyamman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A hot-tempered feminine force tied to marginalized communities, offering explosive power, vengeance, and immediate results."
+    },
+    {
+      "a": "quimbanda-ze-pelintra",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The patron of boundaries, travelers, and thieves; a cunning rogue who navigates the streets and outwits the rigid laws of society."
+    },
+    {
+      "a": "quimbanda-ze-pelintra",
+      "b": "inktomi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A cultural rule-breaker and trickster who uses charm and intellect to circumvent brute force and societal norms."
+    },
+    {
+      "a": "quimbanda-exu-maioral",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An ultimate principle of opposition and rebellion, often demonized by orthodox systems but essential to the cosmic tension of the left-hand path."
+    },
+    {
+      "a": "quimbanda-exu-maioral",
+      "b": "abraxas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme deity transcending dualistic morality, containing both light and absolute darkness in one terrifying whole."
+    },
+    {
+      "a": "quimbanda-exu-rei",
+      "b": "fon-legba",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Shares deep historical roots with the Fon master of languages and doorways, recontextualized as a monarch of sorcery."
+    },
+    {
+      "a": "quimbanda-exu-caveira",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A sovereign intimately tied to the literal graveyard and the physical reality of decay and ancestral bones."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "subversive-feminine",
+      "name": "Subversive Feminine",
+      "subtype": "concept",
+      "gloss": "A fierce female spiritual force that reclaims marginalized sexuality, witchcraft, and street power, acting as a protector of women and a deliberate subverter of patriarchal chastity norms.",
+      "reason": "Captures figures like Pomba Gira who weaponize desire and social marginalization as potent, liberating spiritual power."
+    },
+    {
+      "id": "fetish-vessel",
+      "name": "Fetish Vessel",
+      "subtype": "rite",
+      "gloss": "A physical object—often a pot, statue, or bundle—ritually activated with blood, earth, and herbs to permanently house a spirit, transforming it into a living, localized battery of power.",
+      "reason": "Necessary for traditions like Quimbanda and Kongo where gods do not just visit, but physically reside in constructed shrines."
+    },
+    {
+      "id": "amoral-sorcery",
+      "name": "Amoral Sorcery",
+      "subtype": "principle",
+      "gloss": "The pragmatic manipulation of spiritual forces for immediate material results—wealth, hexing, or love—without regard for orthodox moral frameworks or karmic purity.",
+      "reason": "Crucial for left-hand path traditions and folk magic where spirits are contracted for worldly power rather than spiritual ascension."
+    }
+  ]
+}

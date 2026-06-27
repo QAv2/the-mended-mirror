@@ -1,0 +1,251 @@
+{
+  "tradition": {
+    "id": "nubian",
+    "name": "Nubian / Kushite (Meroitic)",
+    "region": "Sudan (Napata, Meroe)",
+    "color": "#d8a24a"
+  },
+  "figures": [
+    {
+      "id": "nubian-apedemak",
+      "kind": "deity",
+      "name": "Apedemak (The Lion of the South)",
+      "archetypes": [
+        "national-patron",
+        "solar"
+      ],
+      "gloss": "The lion-headed god of war and victory, and the premier indigenous deity of the Meroitic empire. Often depicted wearing a hemhem crown, wielding a bow, and leading bound captives on a leash, he is the fierce protector of the royal family and the guarantor of Kushite military supremacy.",
+      "facet": "He represents an unyielding assertion of Nubian identity against Egyptian cultural hegemony. While the imported state gods demanded cosmic balance, Apedemak is an engine of pure, localized martial dominance and untamed savannah power.",
+      "provenance": "Lion Temple at Musawwarat es-Sufra, Temple of Naqa reliefs."
+    },
+    {
+      "id": "nubian-amani",
+      "kind": "deity",
+      "name": "Amani (Amun of Kush)",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "The supreme ram-headed deity of Napata and Meroe, syncretized from the Egyptian Amun. As the ultimate sovereign of Kush, he physically dwelled within the sacred mountain of Jebel Barkal and actively dictated state policy and royal succession through trembling oracular statues.",
+      "facet": "Unlike his hidden, abstract Egyptian counterpart, Amani is heavily localized and visceral. He does not merely oversee the state from the heavens; he operates as a physically present, communicative political actor embedded in stone.",
+      "provenance": "Victory Stele of Piye, Election Stele of Aspelta, Jebel Barkal inscriptions."
+    },
+    {
+      "id": "nubian-sebiumeker",
+      "kind": "deity",
+      "name": "Sebiumeker (Lord of Musawwarat)",
+      "archetypes": [
+        "first-ancestor",
+        "withdrawn-creator"
+      ],
+      "gloss": "An indigenous Meroitic creator god and divine guardian, typically depicted in human form wearing the double crown of Egypt. Despite his royal iconography, his primary cultic role was flanking the monumental doorways of temples to protect the sacred precincts from chaos.",
+      "facet": "He is a creator deity who relinquished cosmic supremacy. Rather than ruling from on high, this ancient maker-god was repurposed by the Meroitic state into an eternal, grounded sentry, guarding the thresholds of newer, more politically active gods.",
+      "provenance": "Statues at the entrance of the Lion Temple at Musawwarat es-Sufra; Tabo temple."
+    },
+    {
+      "id": "nubian-arensnuphis",
+      "kind": "deity",
+      "name": "Arensnuphis (The Hunter of the South)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "A dynamic Nubian companion deity, closely associated with the untamed south. Appearing as a human or lion, often wearing a plumed crown and leading hunting hounds, he is a god of the wilderness, the hunt, and the raw energy of the frontier.",
+      "facet": "He embodies the roaming, uncontained power of the periphery. While the principal gods are statically bound to temples and mountains, Arensnuphis is a mobile force, representing Kushite mastery over the wild, peripheral landscapes of their empire.",
+      "provenance": "Temple of Philae (Kiosk of Taharqa), Musawwarat es-Sufra reliefs."
+    },
+    {
+      "id": "nubian-mandulis",
+      "kind": "deity",
+      "name": "Mandulis (The Diplomatic Sun)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The indigenous sun god of Lower Nubia, specifically championed by the Blemmyes. Depicted as a hawk with a human head or wearing an elaborate plumed crown, he represents the youth and vitality of the solar cycle.",
+      "facet": "Mandulis is a frontier sun. Rather than serving as the absolute center of a unified cosmos, his cult was an active political mechanism to pacify and integrate fierce eastern desert nomads into the Meroitic and later Roman spheres.",
+      "provenance": "The Temple of Kalabsha, the 'Vision of Mandulis' inscription."
+    },
+    {
+      "id": "nubian-dedwen",
+      "kind": "deity",
+      "name": "Dedwen (Lord of Incense)",
+      "archetypes": [
+        "sacred-commodity"
+      ],
+      "gloss": "The ancient Nubian god of incense, wealth, and the southern lands. Revered since the Old Kingdom, he personifies the luxurious resources—specifically resin, gold, and myrrh—that made Nubia an indispensable economic powerhouse in the ancient world.",
+      "facet": "He is the theological embodiment of geopolitical leverage. By deifying incense, the Nubians ensured that their primary export was not just a trade commodity, but the literal, sacred breath required for all foreign rituals.",
+      "provenance": "Egyptian Pyramid Texts (Utterance 446), Temple of Thutmose III at El-Lessiya."
+    },
+    {
+      "id": "nubian-jebel-barkal",
+      "kind": "place",
+      "name": "Jebel Barkal (The Pure Mountain)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A massive, flat-topped mesa at the Fourth Cataract of the Nile, featuring a distinct, towering uraeus-shaped pinnacle. Known as the 'Pure Mountain', it was universally recognized as the primeval hill of creation and the physical residence of Amani.",
+      "facet": "The mountain itself is the primary icon. The colossal rock spire was interpreted by Kushites and Egyptians alike as an uncarved, natural statue of the royal cobra, proving that sovereignty was geologically baked into the Nubian landscape.",
+      "provenance": "Stele of Thutmose III, numerous Kushite royal inscriptions at the site."
+    },
+    {
+      "id": "nubian-kandake",
+      "kind": "concept",
+      "name": "The Kandake (Divine Queen Mother)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The institutional and sacred role of the Meroitic queen mother. Far from mere consorts, the Kandakes were independent, divine sovereigns—often depicted larger than the king—who personally led armies, mediated directly with the gods, and guaranteed the royal succession.",
+      "facet": "This represents a radical departure from neighboring patriarchal monarchies. The Kandake embodies a formalized, matriarchal axis of divine right, where the legitimacy and militant power of the state flow explicitly through the female line.",
+      "provenance": "Reliefs of Amanitore at Naqa, Stele of Amanishakheto, accounts of Strabo."
+    }
+  ],
+  "edges": [
+    {
+      "a": "nubian-apedemak",
+      "b": "nubian-amani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The twin pillars of Meroitic kingship, pairing the indigenous, militant lion with the imported, oracular ram."
+    },
+    {
+      "a": "nubian-sebiumeker",
+      "b": "nubian-arensnuphis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The static creator and the roaming hunter, consistently paired as dual guardians flanking Meroitic temple entrances."
+    },
+    {
+      "a": "nubian-amani",
+      "b": "nubian-jebel-barkal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme god and the geographical omphalos that physically contains him."
+    },
+    {
+      "a": "nubian-kandake",
+      "b": "nubian-amani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The god who grants the mandate of rule, and the divine matriarch who actively mediates and enacts it."
+    },
+    {
+      "a": "nubian-apedemak",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Fierce, dynamic martial gods whose violent, untamed power is intimately linked to the preservation of royal authority."
+    },
+    {
+      "a": "nubian-apedemak",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Indigenous patron deities of warfare who demand captive offerings and define the militant identity of an ascendant empire."
+    },
+    {
+      "a": "nubian-amani",
+      "b": "ra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Directly syncretized in Kushite theology as Amun-Ra, merging the local ram deity with the universal Egyptian sun."
+    },
+    {
+      "a": "nubian-amani",
+      "b": "zeus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Historically conflated by Greco-Roman authors as Zeus-Ammon, the supreme desert oracle."
+    },
+    {
+      "a": "nubian-amani",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme sky sovereigns who communicate through divination and issue absolute, revokable mandates to legitimize rulers."
+    },
+    {
+      "a": "nubian-sebiumeker",
+      "b": "ptah",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicitly equated in Meroitic theology with the Egyptian craftsman god, sharing his role as a primordial maker."
+    },
+    {
+      "a": "nubian-arensnuphis",
+      "b": "artemis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Divine hunters who preside over the wild, untamed spaces outside the civilized center of the state."
+    },
+    {
+      "a": "nubian-arensnuphis",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Roaming gods of the wild frontier, often accompanied by ecstatic followers and beasts, standing in contrast to static temple order."
+    },
+    {
+      "a": "nubian-mandulis",
+      "b": "helios",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Radiant solar deities heavily invoked in late antiquity as universal, diplomatic unifiers across disparate cultures."
+    },
+    {
+      "a": "nubian-jebel-barkal",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The solitary, sacred mountain recognized not just as a high place, but as the literal, physical axis of the universe."
+    },
+    {
+      "a": "nubian-jebel-barkal",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The towering natural spire that acts as the unbroken conduit connecting the earth to the divine realm."
+    },
+    {
+      "a": "nubian-kandake",
+      "b": "isis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Meroitic queens explicitly modeled their sovereign iconography and mythic role on Isis, acting as her living embodiment."
+    },
+    {
+      "a": "nubian-kandake",
+      "b": "dravidian-kotravai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Fierce, independent maternal figures fundamentally associated with warfare, victory, and supreme sovereignty."
+    },
+    {
+      "a": "nubian-dedwen",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Deities who command the hidden, terrestrial wealth of the earth, translating immense earthly resources into divine power."
+    },
+    {
+      "a": "nubian-dedwen",
+      "b": "osiris",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Equated in early Egyptian texts as the essential provider of the holy incense necessary for the resurrection of the dead."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "national-patron",
+      "name": "National Patron",
+      "subtype": "principle",
+      "gloss": "A deity originally local to a specific city or tribe who is elevated to the supreme head of a pantheon strictly due to political conquest and state formation.",
+      "reason": "Essential to capture the phenomenon of the politically elevated state-god seen in Apedemak, Haldi, Yahweh, and Huitzilopochtli."
+    },
+    {
+      "id": "sacred-commodity",
+      "name": "Sacred Commodity",
+      "subtype": "concept",
+      "gloss": "A deity or principle that embodies a critical economic resource or trade good, elevating a geopolitical advantage into a divine presence.",
+      "reason": "Required to account for Dedwen, who literalizes Nubia's monopoly on incense into a necessary theological component of both domestic and foreign rituals."
+    }
+  ]
+}

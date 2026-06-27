@@ -1,0 +1,227 @@
+{
+  "tradition": {
+    "id": "fijian",
+    "name": "Fijian (iTaukei)",
+    "region": "Fiji",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "fijian-degei",
+      "kind": "deity",
+      "name": "Degei (The Great Serpent)",
+      "archetypes": [
+        "cosmic-serpent",
+        "withdrawn-creator",
+        "underworld-sovereign"
+      ],
+      "gloss": "The supreme serpent-god who slumbers in a cave in the Nakauvadra mountains. He hatched the first humans from an egg, shakes the earth when he tosses in his sleep, and ultimately receives and judges the souls of the dead.",
+      "facet": "Merges the chthonic earth-serpent with the celestial high god. He is both the origin of life and the terrifying, isolated judge of the underworld, bridging creation and eschatology in one reptilian form.",
+      "provenance": "Oral traditions of Viti Levu; recorded by 19th-century missionaries like Thomas Williams ('Fiji and the Fijians', 1858)."
+    },
+    {
+      "id": "fijian-dakuwaqa",
+      "kind": "deity",
+      "name": "Dakuwaqa (The Shark God)",
+      "archetypes": [
+        "master-of-animals",
+        "culture-hero"
+      ],
+      "gloss": "The fierce shark-god of Vanua Levu and patron of fishermen. A notorious shapeshifter, he arrogantly challenged the guardians of every island until he was humbled by the octopus-god of Kadavu, subsequently swearing to protect all seafarers from harm.",
+      "facet": "Transforms from an aggressive, chaotic apex predator into a bound guardian through ritual defeat. He embodies the taming of the ocean's raw violence into reciprocal protection for the community.",
+      "provenance": "Widespread coastal Fijian mythology; still revered as a protective totem ('waqawaqa') by traditional fishing lineages."
+    },
+    {
+      "id": "fijian-kalou-vu",
+      "kind": "ancestor",
+      "name": "Kalou-vu (The Root Spirits)",
+      "archetypes": [
+        "first-ancestor",
+        "one-through-many"
+      ],
+      "gloss": "The deified founding ancestors of Fijian lineages ('yavusa'). Each kalou-vu manifests through a specific animal or plant avatar ('waqawaqa') and bestows distinct skills, taboos, and spiritual protection upon their direct descendants.",
+      "facet": "The divine is strictly hyper-local and genealogical. A kalou-vu is not universally accessible but bound exclusively to a specific clan and physical geography, mediating between living descendants and the broader cosmos.",
+      "provenance": "Fundamental to the iTaukei worldview; documented extensively in A.M. Hocart's 'Lau Islands, Fiji' (1929)."
+    },
+    {
+      "id": "fijian-lutunasobasoba",
+      "kind": "hero",
+      "name": "Lutunasobasoba",
+      "archetypes": [
+        "culture-hero",
+        "first-ancestor"
+      ],
+      "gloss": "The legendary high chief who navigated the first ancestors to Fiji across the ocean in the great canoe Kaunitoni. He brought the sacred relics of governance, though many were lost at sea, establishing the chiefly hierarchy.",
+      "facet": "Grounds the mythological genesis of the iTaukei not in magical emergence from the earth, but in a gritty, historical maritime migration that justifies the sacred social order and the loss of ancient knowledge.",
+      "provenance": "The Kaunitoni migration narrative; formalized in the late 19th and early 20th centuries, heavily influencing modern Fijian identity."
+    },
+    {
+      "id": "fijian-ravuyalo",
+      "kind": "deity",
+      "name": "Ravuyalo (The Soul Smasher)",
+      "archetypes": [
+        "psychopomp",
+        "cosmic-adversary"
+      ],
+      "gloss": "The dreaded guardian of the spirit path. When a soul journeys toward the afterlife ('Murimuria'), Ravuyalo waits in ambush with a club to strike it down. Souls must present the ghost of a whale tooth to pass safely.",
+      "facet": "The afterlife is not guaranteed by moral purity but by ritual preparedness and material wealth. Death is a perilous physical journey where the soul must bribe or evade a literal supernatural assassin.",
+      "provenance": "Pre-Christian eschatology from Viti Levu; detailed by early anthropologists and missionary accounts."
+    },
+    {
+      "id": "fijian-burotu",
+      "kind": "place",
+      "name": "Burotu (Burotu Kula)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An idyllic, mythical island paradise characterized by red feathers, endless abundance, and eternal youth. It is inhabited by gods and elite spirits, occasionally appearing in the mist before sinking beneath the waves.",
+      "facet": "A transcendent, wandering Eden that is fundamentally maritime; it exists not in the heavens or deep underground, but horizontally across the ocean, teasingly out of reach of the living.",
+      "provenance": "Polynesian and Fijian shared mythology (cognate with Pulotu/Bulotu); central to traditional chants ('meke')."
+    },
+    {
+      "id": "fijian-mana",
+      "kind": "concept",
+      "name": "Mana",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The active, sacred spiritual power that animates the universe. In Fiji, mana flows downwards from the ancestor gods ('kalou-vu') through the sacred chiefs ('turaga') and into the land and the people ('Vanua').",
+      "facet": "Mana is not merely an invisible energy, but a strictly hierarchical, highly political force. It validates earthly authority and must be meticulously maintained through strict protocols, reverence, and taboos ('tabu').",
+      "provenance": "Pan-Oceanic concept; highly institutionalized in Fijian socio-political structures."
+    },
+    {
+      "id": "fijian-tabua",
+      "kind": "concept",
+      "name": "Tabua (The Sacred Whale Tooth)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The highly polished tooth of the sperm whale, serving as the ultimate vehicle of 'mana'. It is ceremonially presented to atone for wrongs, seal marriages, cement alliances, or request favors from chiefs and gods.",
+      "facet": "Materializes social and spiritual gravity; the tooth itself is not merely symbolic currency, but physically houses the binding power to compel human action and appease the divine.",
+      "provenance": "The supreme object of traditional Fijian ceremonial exchange ('solevu'); still essential in modern diplomacy."
+    }
+  ],
+  "edges": [
+    {
+      "a": "fijian-degei",
+      "b": "fijian-kalou-vu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The supreme uncreated serpent and the localized ancestral spirits that mediate his world."
+    },
+    {
+      "a": "fijian-degei",
+      "b": "fijian-ravuyalo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ultimate judge of the dead and the violent warden who guards the path to his domain."
+    },
+    {
+      "a": "fijian-mana",
+      "b": "fijian-tabua",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The invisible divine authority and its ultimate, heavy physical vessel used in human ritual to manipulate that authority."
+    },
+    {
+      "a": "fijian-degei",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial, earth-shaping serpent whose movements dictate the landscape and who serves as the supreme native deity."
+    },
+    {
+      "a": "fijian-degei",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In 19th-century colonial syncretism (such as the Tuka movement), indigenous prophets explicitly identified the Creator serpent Degei with the biblical Jehovah."
+    },
+    {
+      "a": "fijian-ravuyalo",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The perilous guardian of the afterlife path who requires a specific material toll to allow the soul to pass."
+    },
+    {
+      "a": "fijian-ravuyalo",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fearsome, monstrous escort and adversary encountered on the perilous physical journey through the underworld."
+    },
+    {
+      "a": "fijian-kalou-vu",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Highly localized, intermediary deities tied to specific lineages and geographical features, rather than universal pantheonic domains."
+    },
+    {
+      "a": "fijian-kalou-vu",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Deified ancestral spirits who actively mediate the cosmos and provide supernatural protection for their direct, living descendants."
+    },
+    {
+      "a": "fijian-dakuwaqa",
+      "b": "tangaroa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Apex divine powers of the ocean, governing the treacherous domain of seafarers and marine predators."
+    },
+    {
+      "a": "fijian-mana",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The permeating, invisible spiritual energy that concentrates in specific people, objects, and words of power."
+    },
+    {
+      "a": "fijian-mana",
+      "b": "kut",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The spiritual life-force that simultaneously acts as the sacred mandate for political sovereignty and earthly authority."
+    },
+    {
+      "a": "fijian-lutunasobasoba",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The great founding patriarch who leads humanity's ancestors to their destined home before the closing of the primordial era."
+    },
+    {
+      "a": "fijian-tabua",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A singular, sacred physical object that acts as the absolute focal point of binding spiritual and communal gravity."
+    },
+    {
+      "a": "fijian-tabua",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, mythological artifact of wealth and metaphysical power that ensures the prosperity and cohesion of the people."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-exchange",
+      "name": "Sacred Exchange",
+      "subtype": "rite",
+      "gloss": "A ritualized system of giving and receiving highly charged material objects to balance cosmic, social, and spiritual debts.",
+      "reason": "Necessary to map the Fijian tabua, the Melanesian Kula ring, the Pacific Northwest Potlatch, and other systems where spiritual equilibrium requires the physical circulation of power."
+    },
+    {
+      "id": "lost-paradise",
+      "name": "Lost Paradise",
+      "subtype": "place",
+      "gloss": "A primordial or secluded realm of absolute abundance, immortality, and peace that has been physically severed from the living world, often hidden by mists or oceans.",
+      "reason": "Bridges Fijian Burotu, Celtic Tír na nÓg, Daoist Penglai, and Arthurian Avalon—the wandering Eden across the water."
+    }
+  ]
+}

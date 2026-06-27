@@ -1,0 +1,262 @@
+{
+  "tradition": {
+    "id": "vaishnava",
+    "name": "Vaishnavism",
+    "region": "South Asia",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "vaishnava-vishnu",
+      "kind": "deity",
+      "name": "Vishnu (Narayana)",
+      "archetypes": [
+        "sky-father",
+        "cosmic-order"
+      ],
+      "gloss": "The all-pervading Supreme Being who sustains the multiverse. He dreams the cosmos into existence while slumbering on the serpent of infinity upon the causal ocean, periodically waking to intervene and uphold cosmic order. He is pure Sattva (goodness), infinite, and radiantly sovereign.",
+      "facet": "Unlike static preservers or distant clockmaker gods, his preservation is deeply active and intimately loving; he does not merely observe from afar but dynamically orchestrates the salvation of souls across infinite cosmic cycles.",
+      "provenance": "Rigveda (as a solar deity); Shatapatha Brahmana; Bhagavata Purana; Pancharatra Agamas."
+    },
+    {
+      "id": "vaishnava-krishna",
+      "kind": "deity",
+      "name": "Krishna",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The eighth avatar, worshipped by many lineages as the Supreme Personality ('Svayam Bhagavan') himself. He spans roles from the mischievous butter-thief and enchanting flute-player of Vrindavan to the absolute cosmic sovereign reciting the Bhagavad Gita on the battlefield.",
+      "facet": "He collapses the infinite distance between God and humanity by actively seeking intimacy through playful, transgressive love ('rasa lila'), establishing emotional devotion as a higher path than rigid Vedic duty.",
+      "provenance": "Mahabharata (Bhagavad Gita); Bhagavata Purana (Tenth Canto); Harivamsa."
+    },
+    {
+      "id": "vaishnava-rama",
+      "kind": "hero",
+      "name": "Rama",
+      "archetypes": [
+        "dragon-slayer",
+        "solar"
+      ],
+      "gloss": "The seventh avatar and the ultimate exemplar of 'dharma' (righteousness). As the ideal king ('maryada purushottama'), he exiles himself to the forest to honor his father's word and slays the ten-headed demon-king Ravana to rescue his kidnapped wife, Sita.",
+      "facet": "His divinity is heavily cloaked in agonizing human limitation; he suffers true grief and binds himself strictly to worldly rules, demonstrating that absolute perfection is achieved through unyielding duty rather than miraculous shortcuts.",
+      "provenance": "Ramayana of Valmiki; Ramcharitmanas of Tulsidas."
+    },
+    {
+      "id": "vaishnava-avatara",
+      "kind": "principle",
+      "name": "Avatara (Divine Descent)",
+      "archetypes": [
+        "cyclic-ages",
+        "divine-descent"
+      ],
+      "gloss": "The doctrine of the divine 'crossing down' into material form. Whenever dharma declines and chaos rises, the Supreme takes birth in various forms—fish, turtle, boar, man-lion, or human—to protect the good, annihilate evil, and reestablish cosmic balance.",
+      "facet": "Unlike prophets who only deliver a message, an avatar is the actual ontological descent of the absolute into finite biology, subjecting itself to mortal physics and karma to manually repair the fabric of reality.",
+      "provenance": "Bhagavad Gita (4.7-8); Vishnu Purana; Jayadeva's Dashavatara Stotra."
+    },
+    {
+      "id": "vaishnava-lakshmi",
+      "kind": "deity",
+      "name": "Lakshmi (Shri)",
+      "archetypes": [
+        "great-mother",
+        "complementarity"
+      ],
+      "gloss": "The eternal consort of Vishnu and the goddess of spiritual and material abundance. In Srivaishnava theology, she acts as the supreme mediatrix ('Purushakara'), transforming Vishnu's strict cosmic justice into infinite, accessible compassion for the devoted soul.",
+      "facet": "She proves that absolute sovereign power without grace is terrifying to the sinner; divinity requires a mediating maternal matrix of pure forgiveness so that flawed humans can actually approach the absolute.",
+      "provenance": "Shri Sukta; Vishnu Purana; Pancharatra Agamas; Ramanuja's Sharanagati Gadyam."
+    },
+    {
+      "id": "vaishnava-ananta-shesha",
+      "kind": "creature",
+      "name": "Ananta Shesha",
+      "archetypes": [
+        "cosmic-serpent",
+        "axis-mundi"
+      ],
+      "gloss": "The thousand-headed serpent of infinity floating upon the causal ocean. He serves as Vishnu's divine bed during universal dissolution and physically incarnates alongside Vishnu (as Lakshmana and Balarama) to serve him in the mortal realm.",
+      "facet": "In a stark reversal of global mythologies where the primordial serpent represents chaos to be slain, Shesha is the ultimate emblem of cosmic stability, servitude, and the remainder that survives when all else is destroyed.",
+      "provenance": "Mahabharata; Bhagavata Purana; Vishnu Purana."
+    },
+    {
+      "id": "vaishnava-narasimha",
+      "kind": "deity",
+      "name": "Narasimha",
+      "archetypes": [
+        "liminal-destroyer"
+      ],
+      "gloss": "The ferocious, liminal man-lion avatar. Manifested from a pillar at twilight to circumvent a demon's boons of invulnerability, he is pure, terrifying grace erupting into the world strictly to protect his absolute devotee, Prahlada.",
+      "facet": "He embodies the terrifying violence of divine love. His horrific, blood-soaked form is a nightmare to the cosmos but intensely comforting to the devotee, proving God will literally shatter reality's rules to save his own.",
+      "provenance": "Vishnu Purana; Bhagavata Purana (Canto 7); Narasimha Tapaniya Upanishad."
+    },
+    {
+      "id": "vaishnava-bhakti",
+      "kind": "rite",
+      "name": "Bhakti-Prapatti",
+      "archetypes": [
+        "devotional-surrender"
+      ],
+      "gloss": "The ultimate soteriological path of Vaishnavism: intense, emotional devotion ('bhakti') culminating in total, unconditional surrender ('prapatti') at the lotus feet of the Lord. It explicitly supersedes all rituals, scriptural knowledge, and asceticism as the highest means of liberation.",
+      "facet": "It fundamentally shifts the burden of salvation from human ascetic effort to the deity's infinite grace; the soul's only true action is to stop resisting the Lord's salvific gravity.",
+      "provenance": "Bhagavad Gita (Chapter 12, 18.66); Divya Prabandham of the Alvars; Narada Bhakti Sutra."
+    }
+  ],
+  "edges": [
+    {
+      "a": "vaishnava-vishnu",
+      "b": "vaishnava-lakshmi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The indivisible dyad of absolute sovereign reality and its mediating, compassionate grace."
+    },
+    {
+      "a": "vaishnava-avatara",
+      "b": "vaishnava-vishnu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The unmanifest absolute and its cyclical, localized historical interventions."
+    },
+    {
+      "a": "vaishnava-krishna",
+      "b": "vaishnava-rama",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition bond: The playful, rule-bending deity of ecstatic love paired against the rigid, suffering exemplar of perfect duty."
+    },
+    {
+      "a": "vaishnava-vishnu",
+      "b": "vaishnava-ananta-shesha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The preserver and the bedrock of infinity upon which he rests and dreams."
+    },
+    {
+      "a": "vaishnava-vishnu",
+      "b": "surya",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The historical evolution of the Vedic sun god's world-encompassing strides into the all-pervading Supreme Being."
+    },
+    {
+      "a": "vaishnava-vishnu",
+      "b": "indra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The deliberate theological absorption of the Vedic storm king's role as the supreme demon-conqueror and protector of the worlds."
+    },
+    {
+      "a": "vaishnava-lakshmi",
+      "b": "purusha-prakriti",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The philosophical mapping of Lakshmi onto Prakriti, identifying her as the active, material energy through which the passive supreme consciousness acts."
+    },
+    {
+      "a": "vaishnava-avatara",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The profound structural theological commitment that the absolute must take on finite, suffering flesh to save a broken creation."
+    },
+    {
+      "a": "vaishnava-avatara",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The manifestation of the absolute truth into a localized, phenomenal body (Nirmanakaya) for the specific soteriological benefit of trapped beings."
+    },
+    {
+      "a": "vaishnava-lakshmi",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine feminine emanation that mediates between the unapproachable, ineffable absolute and the material cosmos."
+    },
+    {
+      "a": "vaishnava-lakshmi",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intensely devoted divine mother and consort who actively secures the throne and administers the power of the high god."
+    },
+    {
+      "a": "vaishnava-krishna",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The alluring, transgressive lord of ecstasy who violently shatters societal norms and rigidity to offer liberation through divine intoxication and dance."
+    },
+    {
+      "a": "vaishnava-krishna",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The eternally youthful, mesmerizing, and dangerously unpredictable supreme lord who playfully manipulates human destinies like a cosmic game."
+    },
+    {
+      "a": "vaishnava-ananta-shesha",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The immense, primordial serpent intrinsically bound to cosmic waters, continuous cyclical time, and the underlying stability of the universe."
+    },
+    {
+      "a": "vaishnava-bhakti",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The soteriological pivot away from grueling ascetic self-effort and toward pure, emotional surrender to an entity of infinite compassion."
+    },
+    {
+      "a": "vaishnava-rama",
+      "b": "naayee-neizghani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dutiful, weapon-wielding hero who systematically cleanses the earth of alien, chaos-bringing monsters to make it habitable for humanity."
+    },
+    {
+      "a": "vaishnava-vishnu",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmic sovereign who calmly dreams or speaks the intricate order of the universe into existence from a state of serene repose."
+    },
+    {
+      "a": "vaishnava-rama",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conceptual absolute of cosmic, social, and personal order ('dharma') made physically manifest in the person and behavior of the perfect ruler."
+    },
+    {
+      "a": "vaishnava-bhakti",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The theological premise that the individual soul inherently recognizes its exile and burns with a desperate, emotional yearning to reunite with its true source."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-descent",
+      "name": "Divine Descent",
+      "subtype": "principle",
+      "gloss": "The ontological crossing over of the absolute, infinite divine into a localized, finite historical body specifically to rescue creation from systemic decay.",
+      "reason": "Needed to bridge the Vaishnava Avatara, the Christian Incarnation (Christ), and the Buddhist Nirmanakaya (Trikaya)—where the divine doesn't just send a message, but becomes the biology."
+    },
+    {
+      "id": "devotional-surrender",
+      "name": "Devotional Surrender",
+      "subtype": "rite",
+      "gloss": "The total relinquishment of self-effort and ego in favor of absolute emotional trust and reliance on the supreme deity's grace for salvation.",
+      "reason": "Provides a precise structural joint for Vaishnava Bhakti/Prapatti, Pure Land Buddhist Tariki (Other-Power), and Sufi Fana, distinguishing grace-based salvation from works-based or knowledge-based asceticism."
+    },
+    {
+      "id": "liminal-destroyer",
+      "name": "Liminal Destroyer",
+      "subtype": "deity",
+      "gloss": "A terrifying manifestation of the divine that operates specifically in the threshold spaces (twilight, doorways, neither man nor beast) to bypass structural laws and destroy an otherwise unkillable evil.",
+      "reason": "Essential for categorizing Narasimha and other esoteric guardian deities who weaponize paradoxes and liminality to uphold cosmic order against entities who have hacked the rules."
+    }
+  ]
+}

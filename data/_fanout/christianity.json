@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "christianity",
+    "name": "Christianity",
+    "region": "Levant → global",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "christianity-christ",
+      "kind": "deity",
+      "name": "Jesus Christ (The Word Made Flesh)",
+      "archetypes": [
+        "dying-rising",
+        "one-through-many"
+      ],
+      "gloss": "The incarnate Son of God, fully divine and fully human, who preached the Kingdom of God, was crucified under Pontius Pilate, and resurrected on the third day. He is the Logos through whom the universe was made, voluntarily entering history.",
+      "facet": "God does not merely send an avatar or a message; God becomes meat, suffers a humiliating, state-sanctioned execution, and validates the material world by resurrecting in a physical body, destroying the barrier between transcendent deity and human agony.",
+      "provenance": "The Canonical Gospels; Epistles of Paul; Nicene Creed."
+    },
+    {
+      "id": "christianity-trinity",
+      "kind": "principle",
+      "name": "The Trinity (Father, Son, Holy Spirit)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The foundational Christian mystery: one God existing eternally as three distinct, co-equal persons. They share a single divine essence but interact in dynamic, self-giving love, fundamentally defining the Christian understanding of the divine nature.",
+      "facet": "It shatters strict unitarian monotheism without collapsing into polytheism. God's inner life is intrinsically relational; love is not just something God does, but the ontological reality of what God is before anything was created.",
+      "provenance": "Gospel of Matthew; First Council of Nicaea; Athanasian Creed; Augustine's De Trinitate."
+    },
+    {
+      "id": "christianity-cross",
+      "kind": "concept",
+      "name": "The Cross (The Atonement)",
+      "archetypes": [
+        "axis-mundi",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The instrument of Roman torture transformed into the ultimate symbol of victory and reconciliation. Upon it, Christ bore the weight of human sin and death, offering himself as a spotless lamb to reconcile creation to the Creator.",
+      "facet": "The axis mundi is not a majestic world tree or cosmic mountain, but a bloody instrument of execution. Salvation is achieved through ultimate defeat, vulnerability, and the shedding of innocent blood, turning worldly power entirely upside down.",
+      "provenance": "Pauline Epistles; Gospel accounts of the Passion; Anselm's Cur Deus Homo."
+    },
+    {
+      "id": "christianity-mary",
+      "kind": "hero",
+      "name": "Mary (Theotokos / The God-Bearer)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The young Jewish woman chosen to conceive the Son of God through the Holy Spirit. Venerated as the new Eve, her fiat ('let it be done') reversed the disobedience of Eden, making her the preeminent saint and intercessor.",
+      "facet": "Unlike primordial earth mothers who give birth to the cosmos through blind nature, her motherhood is a conscious, dangerous act of human consent to the divine will. The infinite God requires the permission of a teenage girl to enter history.",
+      "provenance": "Gospels of Luke and Matthew; Council of Ephesus (431 AD); Protoevangelium of James."
+    },
+    {
+      "id": "christianity-satan",
+      "kind": "force",
+      "name": "Satan (The Accuser / Lucifer)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The highest of angels who fell through pride, becoming the adversary of God and the deceiver of humanity. He tempts Christ in the desert, prowls the earth seeking souls to ruin, and is definitively defeated by the resurrection.",
+      "facet": "He is not a co-equal evil god in a dualistic war. He is a created, deeply limited being—a rebellious subordinate whose very attempts to destroy God's plan are ironically used by God to bring about ultimate redemption.",
+      "provenance": "Book of Revelation; Book of Job; Gospels; Augustine's City of God."
+    },
+    {
+      "id": "christianity-eucharist",
+      "kind": "rite",
+      "name": "The Eucharist (Holy Communion)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The central sacrament of the Christian faith, instituted by Christ at the Last Supper. Bread and wine are consecrated to become the body and blood of Christ, offered as spiritual nourishment to the faithful.",
+      "facet": "It radically transforms ancient sacrificial meals. The deity is not just the recipient of the sacrifice but the sacrifice itself, voluntarily broken and consumed by the worshippers to incorporate them directly into the divine life.",
+      "provenance": "1 Corinthians 11; The Didache; Justin Martyr's First Apology."
+    },
+    {
+      "id": "christianity-fall",
+      "kind": "concept",
+      "name": "The Fall (Original Sin)",
+      "archetypes": [
+        "origin-of-death"
+      ],
+      "gloss": "The ancestral catastrophe in Eden where humanity rebelled against God's command, fracturing the original harmony of creation. This act infected all subsequent generations with a fallen nature, introducing death, labor, and spiritual estrangement from the Creator.",
+      "facet": "Death and suffering are not natural, intended features of the cosmos, nor the fault of a flawed demiurge. They are the direct, tragic consequence of human moral agency and the abuse of free will.",
+      "provenance": "Genesis 3; Romans 5; Augustine's anti-Pelagian writings."
+    },
+    {
+      "id": "christianity-resurrection",
+      "kind": "concept",
+      "name": "The Resurrection of the Body",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The eschatological hope that at the end of time, Christ will return to judge the living and the dead. Believers will be raised not as disembodied spirits, but in glorified, physical bodies to live in a renewed, physical heaven and earth.",
+      "facet": "It utterly rejects the Platonic and Gnostic idea that salvation is the soul escaping the prison of the body. The Christian endgame is the eternal redemption and glorification of the physical, material world.",
+      "provenance": "1 Corinthians 15; Book of Revelation; Apostles' Creed."
+    }
+  ],
+  "edges": [
+    {
+      "a": "christianity-christ",
+      "b": "christianity-trinity",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Christ is the second person of the Triune Godhead, co-eternal with the Father and the Spirit."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "christianity-cross",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The cross is the defining altar upon which the incarnate God accomplishes the cosmic atonement."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "christianity-satan",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Christ's perfect obedience and humility perfectly invert Satan's absolute pride and rebellion."
+    },
+    {
+      "a": "christianity-mary",
+      "b": "christianity-fall",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Mary is understood as the 'New Eve' whose obedient consent unties the knot of Eve's original disobedience."
+    },
+    {
+      "a": "christianity-eucharist",
+      "b": "christianity-cross",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Eucharist is the perpetual, bloodless re-presentation of the bloody sacrifice accomplished once on the cross."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Literal same-god identity; the specific Christian elaboration of the shared Abrahamic Messiah."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Early Christian theology radically identified Jesus directly with Yahweh, applying Old Testament texts about the God of Israel to the crucified carpenter."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are dying-and-rising figures whose resurrection conquers death and guarantees the eternal life of their followers."
+    },
+    {
+      "a": "christianity-mary",
+      "b": "isis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The iconography of Isis nursing Horus in Ptolemaic Egypt profoundly influenced early Christian visual depictions of the Madonna and Child."
+    },
+    {
+      "a": "christianity-satan",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The cosmic adversary who seeks to ruin the supreme deity's good creation through deception, though Christian theology denies him co-eternal status."
+    },
+    {
+      "a": "christianity-cross",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A cosmic tree upon which a divine figure hangs and suffers to gain ultimate victory and cosmic reconciliation."
+    },
+    {
+      "a": "christianity-eucharist",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both feature the ritual ingestion of wine as the blood of a suffering god, though the Eucharist transfigures ecstatic frenzy into a sober sacrament of communion."
+    },
+    {
+      "a": "christianity-resurrection",
+      "b": "frashokereti",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The eschatological vision of a final bodily resurrection and a remade, purified world entered Second Temple Judaism and early Christianity through Persian Zoroastrian contact."
+    },
+    {
+      "a": "christianity-satan",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme tempter who confronts the savior in the wilderness, offering worldly dominion to distract them from their world-saving mission."
+    },
+    {
+      "a": "christianity-fall",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions trace the flawed, difficult nature of the present world to a premature, rebellious act that fractured the creator's original design."
+    },
+    {
+      "a": "christianity-christ",
+      "b": "baldr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The beloved, innocent son of the divine whose tragic, unjust death shifts the cosmic age and causes the whole world to weep."
+    },
+    {
+      "a": "christianity-satan",
+      "b": "mictlantecuhtli",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Spanish colonizers intentionally conflated the Mesoamerican lord of the dead with the Christian Devil, projecting moral evil onto a morally neutral cosmic function."
+    },
+    {
+      "a": "christianity-cross",
+      "b": "ceiba-world-tree",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In the Americas, indigenous populations and missionaries frequently synthesized the Christian cross directly with the Mesoamerican axis mundi."
+    },
+    {
+      "a": "christianity-mary",
+      "b": "athena",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: As Christianity displaced paganism, virgin goddesses like Athena were frequently overlaid with Marian devotion, most famously in the conversion of the Parthenon into a church of Mary."
+    },
+    {
+      "a": "christianity-trinity",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A structural resonance where ultimate reality manifests in three distinct but inseparable dimensions (Father/Dharmakaya, Son/Nirmanakaya, Spirit/Sambhogakaya)."
+    }
+  ],
+  "proposedArchetypes": []
+}

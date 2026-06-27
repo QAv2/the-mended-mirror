@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "cybele",
+    "name": "Cybele / Magna Mater (Phrygian)",
+    "region": "Phrygia → Rome",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "cybele-magna-mater",
+      "kind": "deity",
+      "name": "Cybele (Magna Mater)",
+      "archetypes": [
+        "great-mother",
+        "master-of-animals"
+      ],
+      "gloss": "The primordial Phrygian mountain-mother, crowned with city walls and drawn by lions. She is the wild, untamed earth whose terrible vitality precedes civic order, yet she was imported to Rome in 204 BCE as its ultimate protector, reigning over nature, cities, and wild beasts.",
+      "facet": "She collapses the binary between the savage wilderness and civilization. She is not merely an agricultural earth-mother, but the ferocious, chaotic vitality of the untamed mountains that cities must desperately harness to survive.",
+      "provenance": "Lucretius, 'De Rerum Natura'; Ovid, 'Fasti'; Livy, 'Ab Urbe Condita'."
+    },
+    {
+      "id": "cybele-attis",
+      "kind": "deity",
+      "name": "Attis",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The beautiful Phrygian shepherd and consort of Cybele, driven to ecstatic madness by the goddess. Under a pine tree, he castrates himself in remorse and bleeds to death, only to be resurrected or preserved incorruptible as violets spring from his blood.",
+      "facet": "His death is not a martial defeat or a heroic sacrifice, but a violent, auto-mutilating submission to the overwhelming, castrating power of the Mother. His resurrection is tied inextricably to radical bodily abnegation.",
+      "provenance": "Catullus 63; Ovid, 'Fasti'; Arnobius, 'Adversus Nationes'; Julian, 'Hymn to the Mother of the Gods'."
+    },
+    {
+      "id": "cybele-galli",
+      "kind": "concept",
+      "name": "The Galli",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The wandering, ecstatic eunuch priests of the Magna Mater. Wearing vibrant, feminine attire, heavy makeup, and scented oils, they slashed themselves with knives to the hypnotic rhythm of tambourines, achieving prophetic frenzy through absolute devotion.",
+      "facet": "They embody a radical, living paradox to Roman masculinity: biological males who ritually severed their sex to become permanent, ecstatic vessels for a foreign goddess, simultaneously horrifying and mesmerizing civic authorities.",
+      "provenance": "Catullus 63; Lucretius, 'De Rerum Natura'; Firmicus Maternus; archaeological reliefs from Ostia and Rome."
+    },
+    {
+      "id": "cybele-dies-sanguinis",
+      "kind": "rite",
+      "name": "Dies Sanguinis (Day of Blood)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The climax of the March festival, a day of mourning where the Galli whipped themselves with bone-studded scourges and slashed their arms. Novices achieved initiation by publicly castrating themselves with flint, offering their severed vitality directly to the goddess.",
+      "facet": "It transforms self-mutilation into the highest spiritual currency. Unlike state sacrifices that kill an animal proxy, this rite demands the voluntary, permanent surrender of one's own reproductive future to guarantee the earth's fertility.",
+      "provenance": "Calendar of Philocalus; Prudentius, 'Peristephanon'; Julian."
+    },
+    {
+      "id": "cybele-taurobolium",
+      "kind": "rite",
+      "name": "The Taurobolium",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "A late-antique salvation ritual where an initiate stood in a trench beneath a perforated wooden platform. A bull was slaughtered above, drenching the initiate in hot blood—washing away their old self to be 'renatus in aeternum' (reborn for eternity).",
+      "facet": "It literalizes spiritual rebirth through the visceral shock of a blood-drenching. It fundamentally shifts Cybele's cult from ensuring communal, civic victory to providing profound, individual, and eternal salvation for the soul.",
+      "provenance": "Prudentius, 'Peristephanon'; numerous epigraphic dedications from Rome and Gaul (e.g., CIL VI)."
+    },
+    {
+      "id": "cybele-black-stone",
+      "kind": "place",
+      "name": "The Black Stone of Pessinus",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A dark, jagged, aniconic meteorite originally housed in the Phrygian sanctuary of Pessinus. Worshipped as the literal, physical embodiment of the Magna Mater, it was dramatically imported to Rome during the Second Punic War to save the Republic.",
+      "facet": "The divine is not anthropomorphic, but terrifyingly mineral and celestial. This raw, uncarved stone commands the devotion of empires, proving that true power resides in the alien, unshaped matter of the cosmos.",
+      "provenance": "Livy, 'Ab Urbe Condita'; Ovid, 'Fasti'; Herodian."
+    },
+    {
+      "id": "cybele-agdistis",
+      "kind": "deity",
+      "name": "Agdistis",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "A fierce, primordial, androgynous deity born from the earth via Zeus's spilled seed. Fearing Agdistis's double-sexed power, the gods orchestrated their castration; from the severed genitals grew the almond tree that ultimately fathered Attis.",
+      "facet": "Agdistis represents a terrifying, pre-cosmic totality that is too complete for the world to endure. The foundational act of the mythos is the violent severing of this bisexual wholeness, introducing lack, desire, and mortality.",
+      "provenance": "Pausanias; Arnobius, 'Adversus Nationes' (drawing from Timotheus)."
+    },
+    {
+      "id": "cybele-sacred-pine",
+      "kind": "concept",
+      "name": "The Sacred Pine",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The evergreen tree under which Attis died and into which his spirit passed. During the March festival, a freshly cut pine was wrapped in woolen bands, decorated with violets, and carried into the sanctuary like a corpse.",
+      "facet": "The tree functions simultaneously as the instrument of death, the tomb, and the living body of the resurrected god. It turns the vegetative cycle into a stark ritual of mourning and perpetual preservation.",
+      "provenance": "Firmicus Maternus; Calendar of Philocalus; Julian."
+    }
+  ],
+  "edges": [
+    {
+      "a": "cybele-magna-mater",
+      "b": "cybele-attis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational dyad of the overwhelming, eternal mother and her fragile, doomed consort."
+    },
+    {
+      "a": "cybele-attis",
+      "b": "cybele-sacred-pine",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The god and the botanical vessel of his death and ongoing presence are ritually inseparable."
+    },
+    {
+      "a": "cybele-galli",
+      "b": "cybele-dies-sanguinis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The priesthood is defined entirely by the violent initiatory act of the Day of Blood."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "gaia",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly syncretized in Greco-Roman antiquity, merging the Phrygian mountain sovereign with the foundational Greek earth mother."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "demeter",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Conflated in Hellenistic and Roman worship, bridging the wild mountain-mother with the grieving mother of agriculture."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "artemis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Syncretized extensively in Anatolia (Artemis of Ephesus), where the Greek virgin huntress absorbed the Phrygian mother's polymorphic, beast-mastering aspects."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying, primordial earth mother whose profound vitality is inextricably linked to visceral destruction and blood offering."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fierce, sovereign goddess who commands wild beasts and whose overwhelming love condemns her shepherd consort to doom."
+    },
+    {
+      "a": "cybele-magna-mater",
+      "b": "dravidian-amman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fierce, localized mother-goddess who demands ecstatic, frenzied worship and visceral physical sacrifice from her devotees."
+    },
+    {
+      "a": "cybele-attis",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dying shepherd consort of the great goddess whose tragic death initiates a ritual cycle of communal weeping."
+    },
+    {
+      "a": "cybele-attis",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine male figure whose violent bodily mutilation generates the promise of immortal preservation and vegetative rebirth."
+    },
+    {
+      "a": "cybele-galli",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Spiritual practitioners operating outside traditional gender roles who channel divine possession through ecstatic music and dance."
+    },
+    {
+      "a": "cybele-galli",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deliberate use of rhythmic percussion and physical extremity to shatter ordinary consciousness and commune with the divine."
+    },
+    {
+      "a": "cybele-black-stone",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The veneration of a dark, heaven-sent meteorite as the supreme, aniconic terrestrial anchor for the divine presence."
+    },
+    {
+      "a": "cybele-taurobolium",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The literal or mystical washing in the blood of a blameless victim to secure eternal spiritual rebirth and wash away the old self."
+    },
+    {
+      "a": "cybele-agdistis",
+      "b": "mahungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial, hermaphroditic completeness that precedes separated human genders, representing a state of absolute but unsustainable cosmic wholeness."
+    },
+    {
+      "a": "cybele-agdistis",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The double-sexed primordial entity whose violent dismemberment provides the raw material for the world's generation."
+    },
+    {
+      "a": "cybele-sacred-pine",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmic tree inextricably bound to the physical suffering, bleeding, and ultimate preservation of a divine figure."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-mutilation",
+      "name": "Sacred Mutilation",
+      "subtype": "rite",
+      "gloss": "The deliberate, ritualized wounding, piercing, or severing of one's own flesh to bypass standard symbolic sacrifice, offering raw life-force directly to the divine.",
+      "reason": "Necessary to connect traditions like the Cybelean Dies Sanguinis, the Mesoamerican bloodletting (auto-sacrifice), and various ecstatic ascetic traditions, distinguishing self-mutilation from the external sacrifice of animals."
+    },
+    {
+      "id": "blood-baptism",
+      "name": "Blood Baptism",
+      "subtype": "rite",
+      "gloss": "A ritual purification or initiation achieved through being physically or symbolically drenched in the lifeblood of a sacrificed victim, promising eternal renewal.",
+      "reason": "Needed to map the specific, visceral mechanic of salvation found in the Taurobolium, the Mithraic mysteries, and early Christian atonement theology."
+    }
+  ]
+}

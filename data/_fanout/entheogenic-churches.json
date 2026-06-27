@@ -1,0 +1,249 @@
+{
+  "tradition": {
+    "id": "entheogenic-churches",
+    "name": "Entheogenic churches (Santo Daime / UDV / Bwiti)",
+    "region": "Brazil / Gabon",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "entheogenic-churches-daime",
+      "kind": "rite",
+      "name": "The Daime",
+      "archetypes": [
+        "axis-mundi",
+        "entheogen-sacrament"
+      ],
+      "gloss": "The sacramental ayahuasca brew used in the Santo Daime church, prepared ceremonially from the Jagube vine and Rainha leaf. It is treated not as a symbol of the divine, but as a divine teacher and the literal blood of Christ.",
+      "facet": "The Daime possesses its own agency. It actively directs the ritual, administers spiritual healings, and delivers 'peias' (purgative, somatic disciplines) from the inside out.",
+      "provenance": "Institutionalized by Mestre Irineu in 1930s Brazil, synthesizing Amazonian vegetalismo with folk Catholicism."
+    },
+    {
+      "id": "entheogenic-churches-mestre-irineu",
+      "kind": "hero",
+      "name": "Mestre Irineu (Raimundo Irineu Serra)",
+      "archetypes": [
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "A Brazilian rubber tapper who, under the influence of ayahuasca, received the 'Santo Daime' doctrine from a spiritual apparition he identified as the Virgin Mary, known as the Queen of the Forest.",
+      "facet": "He grounded the chaotic, individualistic shamanic ayahuasca trip into a structured, communal, uniformed, and heavily Christianized religious framework to protect his followers.",
+      "provenance": "Historical founder of Santo Daime (1892-1971)."
+    },
+    {
+      "id": "entheogenic-churches-juramidam",
+      "kind": "deity",
+      "name": "Juramidam",
+      "archetypes": [
+        "dying-rising",
+        "one-through-many"
+      ],
+      "gloss": "The esoteric name for the Christic spirit that dwells within the Daime brew and the spiritual lineage of Mestre Irineu. A portmanteau often translated as 'God and his soldiers'.",
+      "facet": "Christ is decoupled from historical Judea; salvation and revelation are relocated into the Amazonian flora and accessed via direct, visceral ingestion rather than scripture.",
+      "provenance": "Central theological concept in the Santo Daime hinários."
+    },
+    {
+      "id": "entheogenic-churches-hinarios",
+      "kind": "rite",
+      "name": "The Hinários (Hymnals)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Collections of hymns 'received' from the astral plane by elders of the church. Sung continuously during all-night ceremonies while the congregation dances in strict geometric formations.",
+      "facet": "Santo Daime has virtually no written theology or sermons. The doctrine is entirely encoded in rhythm and song, which serves as an auditory navigational map for the collective psychedelic experience.",
+      "provenance": "Core ritual texts of Santo Daime, originating with Mestre Irineu's 'O Cruzeiro'."
+    },
+    {
+      "id": "entheogenic-churches-hoasca",
+      "kind": "rite",
+      "name": "Hoasca",
+      "archetypes": [
+        "complementarity",
+        "entheogen-sacrament"
+      ],
+      "gloss": "The sacrament of the União do Vegetal (UDV), made from the Mariri vine (representing 'Force') and the Chacruna leaf (representing 'Light'). It is used to achieve mental concentration and moral evolution.",
+      "facet": "Unlike the ecstatic, rhythmic ceremonies of Daime, UDV sessions emphasize stillness, intense mental clarity, and verbal inquiry to integrate the visions into everyday moral uprightness.",
+      "provenance": "Central sacrament of the UDV, formalized by Mestre Gabriel in 1961."
+    },
+    {
+      "id": "entheogenic-churches-iboga",
+      "kind": "rite",
+      "name": "The Holy Wood (Tabernanthe iboga)",
+      "archetypes": [
+        "psychopomp",
+        "entheogen-sacrament",
+        "visionary-ordeal"
+      ],
+      "gloss": "The powerful root bark consumed by the Bwiti of Gabon. During initiation, it is taken in massive, physically overwhelming doses to sever the soul from the body and force an encounter with the divine.",
+      "facet": "Iboga is not a gentle teacher but a chemical sledgehammer; the initiation is fundamentally a controlled near-death experience designed to obliterate the ego and expose the architecture of the afterlife.",
+      "provenance": "Pre-colonial Pygmy knowledge, adapted by Fang and Mitsogo peoples in Central Africa."
+    },
+    {
+      "id": "entheogenic-churches-bwiti",
+      "kind": "principle",
+      "name": "Bwiti (Nzam)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme principle or creator god in the Gabonese syncretic tradition. Often viewed as an absolute, formless energy that can only be approached by crossing the threshold of death.",
+      "facet": "Bwiti is profoundly inaccessible in normal waking life. It demands the extreme pharmacological intervention of iboga to bridge the gap left by the creator's withdrawal.",
+      "provenance": "Core theological entity in Bwiti belief systems, syncretized with the Christian God among the Fang."
+    },
+    {
+      "id": "entheogenic-churches-nima",
+      "kind": "hero",
+      "name": "The Nima",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The Bwiti spiritual leader and initiator who has repeatedly crossed over into the realm of the dead and returned. They calibrate the lethal doses of iboga and guide the initiate's disembodied soul.",
+      "facet": "The Nima operates like a cosmic anesthesiologist and psychopomp, playing the harp (ngombi) to send a sonic lifeline to the initiate whose soul is wandering the village of the dead.",
+      "provenance": "The highest rank in Bwiti priesthood."
+    }
+  ],
+  "edges": [
+    {
+      "a": "entheogenic-churches-mestre-irineu",
+      "b": "entheogenic-churches-juramidam",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Mestre Irineu is considered the human vessel or conduit for the Christic spirit of Juramidam."
+    },
+    {
+      "a": "entheogenic-churches-daime",
+      "b": "entheogenic-churches-hinarios",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Daime provides the spiritual force, while the hinarios provide the structural container and map for the visions."
+    },
+    {
+      "a": "entheogenic-churches-iboga",
+      "b": "entheogenic-churches-bwiti",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Iboga is the sole technological key capable of unlocking direct access to the withdrawn creator, Bwiti."
+    },
+    {
+      "a": "entheogenic-churches-juramidam",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Santo Daime doctrine explicitly identifies Juramidam as the return of Jesus Christ, incarnated in the Amazonian brew."
+    },
+    {
+      "a": "entheogenic-churches-bwiti",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In Fang Bwiti, the creator god Nzam/Bwiti is explicitly syncretized with the Abrahamic God."
+    },
+    {
+      "a": "entheogenic-churches-daime",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are consumed physical elements that act as the active, living mediator between the human and divine realms."
+    },
+    {
+      "a": "entheogenic-churches-hoasca",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Hoasca is fundamentally conceptualized as the union of masculine force (the vine) and feminine light/receptivity (the leaf)."
+    },
+    {
+      "a": "entheogenic-churches-hinarios",
+      "b": "songlines",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions encode the geography of the spiritual world and ancestral law entirely within unbroken, transmitted song."
+    },
+    {
+      "a": "entheogenic-churches-iboga",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Iboga serves as the chemical ferryman, demanding a physical toll to transport the initiate's soul across the river of death."
+    },
+    {
+      "a": "entheogenic-churches-nima",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve an ecstatic specialist who uses rhythmic sound and trance to sever the soul from the body and navigate the spirit world."
+    },
+    {
+      "a": "entheogenic-churches-iboga",
+      "b": "persephone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel; both involve consuming a substance of the earth to descend into the realm of the dead and return initiated."
+    },
+    {
+      "a": "entheogenic-churches-mestre-irineu",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are heroic figures who retrieve a potent, divine technology from the spiritual realm and institutionalize it for humanity."
+    },
+    {
+      "a": "entheogenic-churches-bwiti",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an absolute, somewhat distant creator principle in African cosmology whose architecture must be revealed through deep initiation."
+    },
+    {
+      "a": "entheogenic-churches-hinarios",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a rigid, divinely revealed set of operating instructions meant to maintain the cosmic order through exact ritual compliance."
+    },
+    {
+      "a": "entheogenic-churches-juramidam",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the innate, luminous fragment of the divine that is awakened or liberated from within the physical form."
+    },
+    {
+      "a": "entheogenic-churches-hoasca",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The UDV theology of the vine and leaf parallels the Vedic dualism of primal force/nature and pure consciousness/light."
+    },
+    {
+      "a": "entheogenic-churches-daime",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an invisible, transmissible spiritual energy that can be harnessed, gathered, and directed through ritual action."
+    },
+    {
+      "a": "entheogenic-churches-nima",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as the psychopomp guiding souls between the waking world and the underworld of the ancestors."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "entheogen-sacrament",
+      "name": "Entheogenic Sacrament",
+      "subtype": "rite",
+      "gloss": "A physical substance (plant, fungus, or brew) ingested not merely as a symbol, but as the literal, neurochemical vehicle of revelation and divine presence.",
+      "reason": "Crucial for separating symbolic sacraments from pharmacologically active agents that directly force a visionary state in traditions like Santo Daime, UDV, or Bwiti."
+    },
+    {
+      "id": "visionary-ordeal",
+      "name": "Visionary Ordeal",
+      "subtype": "rite",
+      "gloss": "A physically taxing, purgative, or near-death ritual state that systematically shatters the ego to reveal the underlying spiritual plane.",
+      "reason": "Needed to capture the somatic, often agonizing physiological toll required by traditions that use extreme physical disruption to induce transcendence."
+    }
+  ]
+}

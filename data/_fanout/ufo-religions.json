@@ -1,0 +1,263 @@
+{
+  "tradition": {
+    "id": "ufo-religions",
+    "name": "UFO religions (Raëlism / Heaven's Gate / Aetherius)",
+    "region": "France / USA / UK",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "ufo-elohim",
+      "kind": "deity",
+      "name": "The Elohim",
+      "archetypes": [
+        "withdrawn-creator",
+        "culture-hero"
+      ],
+      "gloss": "A technologically supreme extraterrestrial species that synthesized all terrestrial life in laboratories using advanced genetic engineering. Mistaken by primitive humanity for gods, they dispatched prophets throughout history to gently guide our scientific and moral adolescence.",
+      "facet": "Strips creation of all supernaturalism, redefining divine intelligent design as literal extraterrestrial bioengineering. God is not an absolute, omnipresent spirit, but an incredibly advanced interstellar civilization.",
+      "provenance": "Claude Vorilhon, 'The Book Which Tells the Truth'."
+    },
+    {
+      "id": "ufo-embassy",
+      "kind": "place",
+      "name": "The Embassy",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A meticulously planned, diplomatically immune terrestrial compound intended for construction in Israel. It is the designated landing site where the Elohim will officially and publicly return to share their scientific legacy.",
+      "facet": "Replaces the eschatological descent of a holy city or spiritual kingdom with a literal, zoning-approved diplomatic spaceport designed to host extraterrestrial ambassadors.",
+      "provenance": "Claude Vorilhon, 'Intelligent Design: Message from the Designers'."
+    },
+    {
+      "id": "ufo-ti-and-do",
+      "kind": "hero",
+      "name": "Ti and Do (The Two Witnesses)",
+      "archetypes": [
+        "divine-twins",
+        "psychopomp"
+      ],
+      "gloss": "Bonnie Nettles (Ti) and Marshall Applewhite (Do), who identified themselves as the 'Two Witnesses' of Revelation and alien representatives from the Next Level. They assumed human form to offer a final chance for cosmic graduation.",
+      "facet": "Transforms the biblical prophetic dyad into literal extraterrestrial walk-ins who adopted human vehicles to teach a highly specialized, ascetic curriculum of orbital departure.",
+      "provenance": "Marshall Applewhite, 'How and When 'Heaven's Gate' May Be Entered'."
+    },
+    {
+      "id": "ufo-the-vehicle",
+      "kind": "concept",
+      "name": "The Vehicle",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The physical human body, viewed merely as a temporary, disposable biological container. It is considered a mammalian machine heavily infected by reproductive programming that must be strictly controlled, reprogrammed, and ultimately discarded.",
+      "facet": "Pushes Gnostic flesh-rejection into the vocabulary of aerospace mechanics. The body is not a temple but a rented spacesuit, shed intentionally when boarding the craft to the Next Level.",
+      "provenance": "Heaven's Gate foundational videos and website materials."
+    },
+    {
+      "id": "ufo-next-level",
+      "kind": "concept",
+      "name": "TELAH (The Evolutionary Level Above Human)",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The literal kingdom of God located in deep space. It is a physical, evolutionary stratum inhabited by immortal, genderless extraterrestrial beings who exist in pure, continuous service to the Chief of Chiefs.",
+      "facet": "Demystifies the afterlife into a biological and physical zenith in the cosmos. Salvation is not eternal rest or mystical union, but an evolutionary upgrade into a higher interstellar species.",
+      "provenance": "Heaven's Gate 'First Statement of Ti and Do'."
+    },
+    {
+      "id": "ufo-cosmic-masters",
+      "kind": "deity",
+      "name": "The Cosmic Masters",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Advanced, benevolent extraterrestrial intelligences residing on higher vibrational planes of planets like Venus and Mars. They form an interplanetary parliament dedicated to protecting Earth from dark cosmic forces and guiding human spiritual evolution.",
+      "facet": "Merges Theosophical Ascended Masters with Space Age science fiction, turning planetary neighbors into an active, protective spiritual hierarchy radiating karmic energy to Earth.",
+      "provenance": "George King, 'The Nine Freedoms'."
+    },
+    {
+      "id": "ufo-operation-starlight",
+      "kind": "rite",
+      "name": "Operation Starlight",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A multi-year spiritual mission where specific mountains around the globe were charged with cosmic energy by the Cosmic Masters. Members make pilgrimages to these peaks to radiate this energy outward to heal the world.",
+      "facet": "Transforms ancient sacred high places into literal cosmic batteries, charged via extraterrestrial directed-energy technology, which human practitioners then 'discharge' through prayer.",
+      "provenance": "George King, 'The Holy Mountains of the World'."
+    },
+    {
+      "id": "ufo-ashtar-command",
+      "kind": "force",
+      "name": "Ashtar Command",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "A massive etheric fleet of extraterrestrial starships led by Commander Ashtar, operating under the guidance of Jesus (Sananda). They patrol the solar system to prevent nuclear annihilation and facilitate planetary ascension.",
+      "facet": "Casts the apocalyptic host of angels as a literal galactic military fleet. Divine intervention is redefined as orbital monitoring and potential evacuation via flying saucers.",
+      "provenance": "George Van Tassel, 'I Rode a Flying Saucer', and New Age channellers."
+    },
+    {
+      "id": "ufo-cloning",
+      "kind": "concept",
+      "name": "Cloning (Eternal Life)",
+      "archetypes": [
+        "dying-rising",
+        "origin-of-death"
+      ],
+      "gloss": "The ultimate Raëlian promise of immortality, achieved not through an eternal soul, but through the advanced scientific cloning of the individual's physical body and the rapid downloading of their memory and personality.",
+      "facet": "Replaces the resurrection of the dead with a purely materialistic, technological procedure. Immortality requires a DNA sample and an advanced alien hard drive, completely bypassing divine grace.",
+      "provenance": "Claude Vorilhon, 'Yes to Human Cloning'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "ufo-elohim",
+      "b": "ufo-embassy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Embassy is the highly specific, diplomatically immune terrestrial structure engineered solely to host the returning Elohim."
+    },
+    {
+      "a": "ufo-ti-and-do",
+      "b": "ufo-the-vehicle",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Ti and Do taught the absolute necessity of emotionally, physically, and sexually detaching from the biological vehicle."
+    },
+    {
+      "a": "ufo-cosmic-masters",
+      "b": "ufo-operation-starlight",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Cosmic Masters provided the directed extraterrestrial energy that actively charged the holy mountains used in Operation Starlight."
+    },
+    {
+      "a": "ufo-next-level",
+      "b": "ufo-the-vehicle",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The Next Level is the immortal, genderless cosmic reality, entirely antithetical to the mammalian, reproductive constraints of the human vehicle."
+    },
+    {
+      "a": "ufo-elohim",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Raëlism explicitly reinterprets the biblical Yahweh as a plural term for the extraterrestrial scientists, stripping the deity of supernaturalism."
+    },
+    {
+      "a": "ufo-elohim",
+      "b": "anu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: UFO mythologies often explicitly syncretize ancient Mesopotamian sky gods like Anu as historical misidentifications of visiting extraterrestrials."
+    },
+    {
+      "a": "ufo-ashtar-command",
+      "b": "christ",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: The Ashtar Command mythology explicitly incorporates Jesus as 'Sananda', the supreme spiritual commander of the etheric fleet."
+    },
+    {
+      "a": "ufo-ti-and-do",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both view the true identity as an alien seed or spark trapped in a corrupt, lowly biological world, awaiting return to its higher cosmic origin."
+    },
+    {
+      "a": "ufo-the-vehicle",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both treat the physical body not as a sacred creation, but as a gross material trap heavily infected by lower impulses that must be discarded."
+    },
+    {
+      "a": "ufo-the-vehicle",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While both advocate detachment from the physical body, Buddhism denies the eternal self, whereas Heaven's Gate asserts an eternal alien consciousness occupying the vehicle."
+    },
+    {
+      "a": "ufo-embassy",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are structural, architectural models intended to facilitate and receive the descent of cosmic, extraterrestrial ancestors."
+    },
+    {
+      "a": "ufo-cosmic-masters",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both feature a strict hierarchy of radiant, benevolent entities actively assisting the supreme order in a cosmic battle against dark, chaotic forces."
+    },
+    {
+      "a": "ufo-next-level",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both describe the ultimate spiritual destination as a literal, physical zenith in the cosmos where liberated, deathless beings reside."
+    },
+    {
+      "a": "ufo-next-level",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the absolute, divine cosmic realm from which the alien soul originates and to which it frantically seeks to return."
+    },
+    {
+      "a": "ufo-operation-starlight",
+      "b": "pachamama",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Andean traditions view the Earth and mountains as inherently alive and divine; Aetherius views the mountains merely as inert batteries requiring external, alien energy to become holy."
+    },
+    {
+      "a": "ufo-ti-and-do",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both feature a profound dyad who descend into a mortal, perilous realm to conquer death and establish a pathway for human ascension."
+    },
+    {
+      "a": "ufo-cloning",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both offer a system of immortality fundamentally reliant on the rigorous preservation of the physical body or genetic blueprint, refusing a purely ethereal afterlife."
+    },
+    {
+      "a": "ufo-elohim",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both describe extraterrestrial creators who descended to Earth in spacecraft to instruct primitive humanity in civilization, biology, and science."
+    },
+    {
+      "a": "ufo-embassy",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both serve as the ultimate cosmic axis where the higher realm of the gods physically and structurally intersects with the terrestrial plane."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ancient-astronaut",
+      "name": "Ancient Astronaut",
+      "subtype": "concept",
+      "gloss": "A highly advanced, technological extraterrestrial entity misinterpreted by primitive humanity as a supernatural god, angels, or divine creators.",
+      "reason": "Crucial for capturing the distinct syncretic mechanism of UFO religions, which do not deny ancient myths but aggressively retranslate their theology into science fiction."
+    },
+    {
+      "id": "techno-salvation",
+      "name": "Techno-Salvation",
+      "subtype": "principle",
+      "gloss": "The attainment of spiritual liberation, immortality, or cosmic ascension through literal, physical technology (e.g., cloning, spacecraft, directed energy) rather than mystical grace or moral purity.",
+      "reason": "Separates materialistic, sci-fi ascension traditions from purely spiritual or magical systems of salvation."
+    }
+  ]
+}

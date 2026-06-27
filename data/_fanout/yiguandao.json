@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "yiguandao",
+    "name": "Yiguandao / Chinese redemptive societies",
+    "region": "China → Taiwan",
+    "color": "#d05a5a"
+  },
+  "figures": [
+    {
+      "id": "yiguandao-wusheng-laomu",
+      "kind": "deity",
+      "name": "Wusheng Laomu (The Eternal Venerable Mother)",
+      "archetypes": [
+        "great-mother",
+        "one-through-many"
+      ],
+      "gloss": "The uncreated primordial progenitor of the cosmos and all souls. She weeps for her 9.6 billion lost children stranded in the material realm and sends emissaries down across the ages to guide them back to the 'Limitless Void' (Wuji).",
+      "facet": "Transforms classical Daoist and Buddhist metaphysics into a highly emotional, personal maternal eschatology, where the absolute is a grieving mother frantically trying to evacuate her children before cosmic collapse.",
+      "provenance": "16th-century sectarian 'Baojuan' (Precious Scrolls) literature; the supreme deity in modern Yiguandao liturgy."
+    },
+    {
+      "id": "yiguandao-milefo",
+      "kind": "deity",
+      "name": "Milefo (Maitreya Buddha)",
+      "archetypes": [
+        "culture-hero",
+        "cyclic-ages"
+      ],
+      "gloss": "The Buddha of the Future, currently presiding over the final 'White Sun' era. Commissioned by the Eternal Mother, he is the smiling, fat-bellied savior tasked with executing the final, universal salvation of all remaining souls before the apocalypse.",
+      "facet": "Shifts Maitreya from a distant cosmic future into an immediate, urgent present. He is an active commander of the current rescue mission rather than a passive inheritor of a perfected world.",
+      "provenance": "Buddhist eschatology heavily adapted by the White Lotus tradition; central to Yiguandao cosmic charts."
+    },
+    {
+      "id": "yiguandao-jigong",
+      "kind": "hero",
+      "name": "Ji Gong (The Living Buddha)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "trickster"
+      ],
+      "gloss": "The eccentric, meat-eating, wine-drinking 'Living Buddha' of the Song dynasty. In Yiguandao, he acts as the primary spiritual teacher of all initiates, frequently possessing mediums to deliver humorous, profound moral instruction and esoteric secrets.",
+      "facet": "Elevates a folkloric anti-authoritarian trickster-monk into the chief cosmic pedagogue, using his chaotic earthly persona to transmit pristine, urgent heavenly decrees directly to modern congregations.",
+      "provenance": "Song dynasty folklore; ubiquitous in late-Qing and Republic-era spirit-writing (fuji) altars."
+    },
+    {
+      "id": "yiguandao-sanbao",
+      "kind": "rite",
+      "name": "Sanbao (The Three Treasures)",
+      "archetypes": [
+        "axis-mundi",
+        "emergence"
+      ],
+      "gloss": "The secret initiatory rites necessary for salvation: the pointing to the 'Heavenly Portal' (the third eye), a secret mantra, and a hand mudra. Receiving these guarantees the soul bypasses the underworld and returns directly to the Eternal Mother.",
+      "facet": "Condenses lifelong monastic cultivation or complex esoteric rituals into an instantaneous, transmission-based passport to heaven, aggressively democratizing ultimate salvation for laypeople.",
+      "provenance": "Secret society initiation rites from the Ming and Qing dynasties; formalized by Zhang Tianran in the 1930s."
+    },
+    {
+      "id": "yiguandao-fuji",
+      "kind": "rite",
+      "name": "Fuji (Spirit-Writing)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The ritual practice where divinities possess a wooden planchette wielded by mediums to trace characters in sand. It is the primary engine of revelation, allowing the Eternal Mother and sages to dictate new scriptures and direct the sect.",
+      "facet": "Radically rejects the concept of a closed canon. The divine hierarchy remains constantly accessible, offering real-time bureaucratic decrees, moral rebukes, and cosmological updates customized to modern historical crises.",
+      "provenance": "Traditional Chinese divination; systematized as the central theological engine of Yiguandao and related societies."
+    },
+    {
+      "id": "yiguandao-sanjie",
+      "kind": "principle",
+      "name": "Sanjie (The Three Sun Eras)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The eschatological timeline dividing cosmic history into the Green Sun, Red Sun, and White Sun eras. Governed respectively by Dipankara, Gautama, and Maitreya, these represent the Mother's sequential attempts to recall her souls.",
+      "facet": "Replaces India's infinite, cyclical yugas with a finite, urgent three-act rescue operation, imbuing the present historical moment with absolute apocalyptic weight.",
+      "provenance": "Ming dynasty 'Baojuan' texts and modern Yiguandao cosmological diagrams."
+    },
+    {
+      "id": "yiguandao-wujiao-heyi",
+      "kind": "principle",
+      "name": "Wu Jiao He Yi (Unity of the Five Teachings)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The doctrine that Confucianism, Daoism, Buddhism, Christianity, and Islam all emanate from the single truth dispensed by the Eternal Mother. Their founders were her messengers, adapted for different times and regions.",
+      "facet": "Absorbs Western monotheism seamlessly into a Chinese syncretic framework, explicitly reducing Jesus and Muhammad to regional avatars of the Daoist/Buddhist cosmos rather than exclusive, absolute paths.",
+      "provenance": "Republican-era syncretic movements; canonized in Yiguandao tracts under Zhang Tianran."
+    },
+    {
+      "id": "yiguandao-yuanren",
+      "kind": "concept",
+      "name": "Yuanren (Original Spirits)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The 9.6 billion primordial souls originally dwelling in perfect unity with the Eternal Mother. They descended into the physical universe but became intoxicated by material desires, forgetting their divine origins.",
+      "facet": "Directly flips the orthodox Buddhist view of 'no-self'. Salvation is not extinguishing the self, but recovering a highly specific, eternal spark of the Mother that predates the physical cosmos.",
+      "provenance": "Sectarian 'Precious Scrolls' mythology detailing the fall of humanity."
+    }
+  ],
+  "edges": [
+    {
+      "a": "yiguandao-wusheng-laomu",
+      "b": "yiguandao-yuanren",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The grieving creator and her fragmented, amnesiac children trapped in the cycle of rebirth."
+    },
+    {
+      "a": "yiguandao-wusheng-laomu",
+      "b": "yiguandao-milefo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The supreme sovereign and the final savior she commissions to execute the end-times rescue."
+    },
+    {
+      "a": "yiguandao-wujiao-heyi",
+      "b": "yiguandao-sanjie",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The spatial unification of all world religions and the temporal unification of all cosmic history into one divine plan."
+    },
+    {
+      "a": "yiguandao-fuji",
+      "b": "yiguandao-jigong",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The mechanism of continuous revelation and the primary 'Living Buddha' who speaks through it."
+    },
+    {
+      "a": "yiguandao-wusheng-laomu",
+      "b": "shangdi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Yiguandao explicitly identifies the classical Chinese High God as the Eternal Mother, entitling her 'Mingming Shangdi'."
+    },
+    {
+      "a": "yiguandao-wusheng-laomu",
+      "b": "tao",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Reinterprets the impersonal, ineffable Dao of Laozi as the actively loving, personified Eternal Mother."
+    },
+    {
+      "a": "yiguandao-wusheng-laomu",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The weeping feminine divine figure who grieves for the fragmented spiritual light trapped in the material world."
+    },
+    {
+      "a": "yiguandao-yuanren",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Uncreated fragments of the divine absolute that forgot their origin and became enmeshed in matter."
+    },
+    {
+      "a": "yiguandao-yuanren",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Directly contradicts the orthodox Buddhist doctrine of no-self by asserting an eternal, primordial soul that must be saved."
+    },
+    {
+      "a": "yiguandao-yuanren",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Infinite, eternal souls whose pure nature is obscured by the karmic weight of the physical universe."
+    },
+    {
+      "a": "yiguandao-sanjie",
+      "b": "buddhist-kalpas",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Borrows the Buddhist concept of cyclical eons but compresses them into a finite, urgent three-stage countdown."
+    },
+    {
+      "a": "yiguandao-sanjie",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A definitive, linear historical schema culminating in a final cosmic rescue and the purification of the world."
+    },
+    {
+      "a": "yiguandao-milefo",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The final eschatological savior tasked with rescuing the righteous at the closing of the age."
+    },
+    {
+      "a": "yiguandao-wujiao-heyi",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Jesus is literally incorporated into the Yiguandao pantheon as one of the Five Messengers representing the Red Sun era."
+    },
+    {
+      "a": "yiguandao-wujiao-heyi",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conscious, theological integration of Buddhism, Christianity, and local faiths into a single universalist system."
+    },
+    {
+      "a": "yiguandao-fuji",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Revelation not as an ancient book, but as direct, ongoing dictation from the divine to human scribes from the earth/sand."
+    },
+    {
+      "a": "yiguandao-jigong",
+      "b": "trickster",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The holy fool who subverts earthly manners and orthodox rigidity to transmit uncorrupted divine truth."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "continuous-revelation",
+      "name": "Continuous Revelation",
+      "subtype": "rite",
+      "gloss": "A formalized mechanism—such as spirit-writing, channeling, or authorized prophecy—ensuring the canon is never closed, allowing the divine to offer real-time updates and edicts.",
+      "reason": "Needed to map modern redemptive societies, New Age channeling, Spiritism, and movements that rely on an open conduit to heaven."
+    },
+    {
+      "id": "universal-syncretism",
+      "name": "Universal Syncretism",
+      "subtype": "principle",
+      "gloss": "The explicit theological doctrine that all major world religions are partial emanations of a single underlying source, systematically mapped into a new hierarchy.",
+      "reason": "Bridges Yiguandao, the Bahá'í Faith, Manichaeism, and Theosophy, which intentionally absorb foreign founders into their own cosmologies."
+    }
+  ]
+}

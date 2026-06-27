@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "hurrian",
+    "name": "Hurrian",
+    "region": "Upper Mesopotamia / N Syria",
+    "color": "#d8a24a"
+  },
+  "figures": [
+    {
+      "id": "hurrian-teshub",
+      "kind": "deity",
+      "name": "Teshub (King of Heaven)",
+      "archetypes": [
+        "storm-wielder",
+        "dragon-slayer"
+      ],
+      "gloss": "The triumphant storm-god and king of the pantheon who battles sea-serpents and stone giants to secure his reign. Wielding lightning and driving a chariot drawn by sacred bulls, he is the dynamic defender of cosmic order against the older generation.",
+      "facet": "He does not simply inherit the throne; he fights a chaotic, multi-generational war of succession against his own deposed ancestors, embodying an unstable kingship that must be constantly defended by raw martial power.",
+      "provenance": "The 'Song of Kumarbi', the 'Song of Ullikummi', rock sanctuary of Yazilikaya."
+    },
+    {
+      "id": "hurrian-kumarbi",
+      "kind": "deity",
+      "name": "Kumarbi (Father of the Gods)",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "The deposed father of the gods and master of the dark earth. To seize power from the sky-god Anu, he bites off his genitals, becoming pregnant with Teshub, who ultimately overthrows him. In exile, he constantly engineers monstrous offspring to reclaim his throne.",
+      "facet": "He is simultaneously an agricultural grain-deity and a schemer brooding in the chthonic depths. His chaotic, monstrous creations are acts of desperate political rebellion rather than unreasoning, primal evil.",
+      "provenance": "The 'Song of Kumarbi', Hurro-Hittite mythological fragments."
+    },
+    {
+      "id": "hurrian-hebat",
+      "kind": "deity",
+      "name": "Hebat (Queen of Heaven)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The 'Queen of Heaven' and chief consort of Teshub. Originally a Syrian deity, she evolved into the supreme mother of the Hurrian pantheon, commanding deep reverence as the matriarch of the divine family.",
+      "facet": "In the state cult, she stands essentially equal to Teshub. Rather than a fierce warrior, she is a serene, matronly anchor of stability who reacts with profound human terror when her husband's throne is threatened.",
+      "provenance": "Yazilikaya rock reliefs, Hittite-Hurrian state treaties."
+    },
+    {
+      "id": "hurrian-shaushka",
+      "kind": "deity",
+      "name": "Shaushka (Goddess of Love and War)",
+      "archetypes": [
+        "love-war-deity",
+        "great-mother"
+      ],
+      "gloss": "The fiercely dynamic goddess of love, war, and magic. She wanders the mountains, seduces monsters to protect her brother Teshub, and commands a retinue of divine handmaidens who specialize in ecstatic rites and healing.",
+      "facet": "Her gender fluidity and dual spheres of erotic seduction and martial violence make her a potent, unpredictable agent. She wields sexuality explicitly as a weapon of statecraft and cosmic defense.",
+      "provenance": "The 'Song of Hedammu', Nineveh cultic texts, Yazilikaya."
+    },
+    {
+      "id": "hurrian-alalu",
+      "kind": "deity",
+      "name": "Alalu (The First King)",
+      "archetypes": [
+        "cyclic-ages",
+        "underworld-sovereign"
+      ],
+      "gloss": "The first, primordial king of heaven who reigned for nine divine ages before being overthrown by his cupbearer, Anu. Defeated, he flees downward into the 'Dark Earth,' establishing the underworld as the realm of deposed, elder gods.",
+      "facet": "He represents a pre-cosmic order that is neither killed nor entirely erased, but simply submerged. His exile creates a permanent, brooding subterranean tier in the universe composed of obsolete, dangerous divine ancestors.",
+      "provenance": "The 'Song of Kumarbi'."
+    },
+    {
+      "id": "hurrian-ubelluri",
+      "kind": "deity",
+      "name": "Ubelluri (The Dreaming Giant)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An ancient, dreaming giant who dwells in the dark earth, carrying the sea and the sky upon his massive shoulders. He is so immobile and ancient that he barely notices when heaven and earth are built upon him.",
+      "facet": "Unlike Western Atlas figures, his burden is not a punishment but his intrinsic nature. He is entirely disconnected from the political strife of the gods, serving as the passive, literal bedrock of the cosmos.",
+      "provenance": "The 'Song of Ullikummi'."
+    },
+    {
+      "id": "hurrian-ullikummi",
+      "kind": "creature",
+      "name": "Ullikummi (The Diorite Monster)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A blind, deaf diorite rock-monster engineered by Kumarbi to destroy Teshub. Placed on Ubelluri's shoulder, he grows at an exponential rate, eventually towering over heaven and blocking out the sun.",
+      "facet": "He is terrifying precisely because he is insensate. Impervious to Shaushka's seduction and deaf to reason, he represents the blunt, mindless force of the earth mobilized against the dynamic, civilized order of the storm-god.",
+      "provenance": "The 'Song of Ullikummi'."
+    },
+    {
+      "id": "hurrian-hedammu",
+      "kind": "creature",
+      "name": "Hedammu (The Sea Dragon)",
+      "archetypes": [
+        "cosmic-serpent"
+      ],
+      "gloss": "A voracious sea-dragon sired by Kumarbi to devour the cities of humanity and starve the ruling gods. He commands the destructive waves but is ultimately paralyzed and defeated by the sensual seduction of Shaushka.",
+      "facet": "His battle is not won by the storm-god's lightning, but by the intoxicating, narcotic power of sexual desire and magic potions, illustrating that raw elemental violence can be subdued by feminine ecstasy.",
+      "provenance": "The 'Song of Hedammu'."
+    },
+    {
+      "id": "hurrian-kaluti",
+      "kind": "rite",
+      "name": "Kaluti (Offering Circles)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The strictly ordered offering lists and ritual circles of the Hurro-Hittite state cult. These sacred sequences systematically invoke male deities alongside Teshub and female deities alongside Hebat, mapping the entire divine hierarchy.",
+      "facet": "It physically formalizes divine gender dimorphism and diplomatic parity. The ritual structure is itself a theological map, binding a massive, polyglot pantheon into a manageable, symmetrical imperial bureaucracy.",
+      "provenance": "Hittite and Hurrian offering lists from Hattusa (e.g., CTH 698)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "hurrian-teshub",
+      "b": "hurrian-kumarbi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The ruling storm and the brooding earth, son and father locked in endless dynastic war."
+    },
+    {
+      "a": "hurrian-teshub",
+      "b": "hurrian-hebat",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme dyad of the Hurrian state cult, ruling heaven in political parity."
+    },
+    {
+      "a": "hurrian-kumarbi",
+      "b": "hurrian-ullikummi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The deposed father and his insensate, monstrous weapon, forged to break the sky."
+    },
+    {
+      "a": "hurrian-teshub",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "2",
+      "note": "GOLD SEAM: The Hurrian myth of Teshub overthrowing his father Kumarbi is the documented historical source for the Greek succession myth of Zeus and Kronos."
+    },
+    {
+      "a": "hurrian-teshub",
+      "b": "tarhunna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Fully synchronized in the Hittite empire, where Teshub was worshipped as the supreme storm-god of Hatti."
+    },
+    {
+      "a": "hurrian-teshub",
+      "b": "baal",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Both are triumphant Syrian storm-gods who battle sea-dragons and were frequently equated in the Levant."
+    },
+    {
+      "a": "hurrian-teshub",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The boisterous, weapon-wielding storm king who slays the cosmic serpent to establish celestial order."
+    },
+    {
+      "a": "hurrian-kumarbi",
+      "b": "kumarbi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Hurrian father of the gods was adopted wholesale into Hittite state mythology."
+    },
+    {
+      "a": "hurrian-kumarbi",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An agricultural grain deity who is deposed or mutilated, thereby becoming the ruler of the underworld and the dead."
+    },
+    {
+      "a": "hurrian-hebat",
+      "b": "arinna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Hebat was formally equated with the Hittite Sun Goddess of Arinna, blending Syrian mother-goddess and Anatolian solar motifs."
+    },
+    {
+      "a": "hurrian-shaushka",
+      "b": "inanna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Shaushka was explicitly identified with Ishtar/Inanna, mirroring her exact spheres of sexual seduction and martial violence."
+    },
+    {
+      "a": "hurrian-alalu",
+      "b": "anu-hittite",
+      "type": "pairs",
+      "tier": "2",
+      "note": "GOLD SEAM: Alalu is the primal thesis overthrown by Anu's antithesis, initiating the violent cycle of cosmic succession."
+    },
+    {
+      "a": "hurrian-alalu",
+      "b": "lords-of-xibalba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Elder deities residing in the subterranean depths, representing a darker, obsolete cosmic era."
+    },
+    {
+      "a": "hurrian-ubelluri",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The silent, massive, living anchor that passively bears the weight of the cosmic realms."
+    },
+    {
+      "a": "hurrian-ullikummi",
+      "b": "ullikummi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Hurrian stone-giant was incorporated directly into the Hittite mythological canon."
+    },
+    {
+      "a": "hurrian-hedammu",
+      "b": "illuyanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Monstrous sea and storm serpents engineered to threaten the divine order, though Hedammu is seduced rather than struck down."
+    },
+    {
+      "a": "hurrian-kaluti",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Highly systematized, geographically mapped ritual sciences that encode the entire theological worldview into exact procedures."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "love-war-deity",
+      "name": "Love and War Deity",
+      "subtype": "principle",
+      "gloss": "A deity who governs the intense, volatile extremes of human passion: sexual ecstasy and martial bloodlust, often transgressing traditional gender roles.",
+      "reason": "Essential for the widespread Near Eastern and Mediterranean syncretic complex involving Ishtar, Inanna, Shaushka, Astarte, and Aphrodite."
+    }
+  ]
+}

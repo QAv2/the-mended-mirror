@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "guanche",
+    "name": "Guanche (Canary Islands)",
+    "region": "Canary Islands",
+    "color": "#9fb8d8"
+  },
+  "figures": [
+    {
+      "id": "guanche-achaman",
+      "kind": "deity",
+      "name": "Achamán",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme sky-father and creator deity of Tenerife, who sustains the universe. He is benevolent, remote, and invoked on mountain peaks during times of drought. He famously freed the sun from the volcano's depths.",
+      "facet": "He represents an active, responsive sky who intervenes forcefully to save the cosmos from volcanic annihilation, but otherwise remains in the high celestial sphere, requiring mediation by rain-priestesses.",
+      "provenance": "Spanish chroniclers like Fray Alonso de Espinosa (1594); oral traditions recorded after the Castilian conquest."
+    },
+    {
+      "id": "guanche-guayota",
+      "kind": "deity",
+      "name": "Guayota",
+      "archetypes": [
+        "cosmic-adversary",
+        "volcanic-adversary"
+      ],
+      "gloss": "The malevolent volcanic entity who resides within Echeyde (Mount Teide). A destructive force of fire and sulfur, he abducted the sun, Magec, and plunged the world into darkness until defeated by Achamán.",
+      "facet": "Guayota is not a fallen angel or a god of the dead, but the literal, geographical threat of catastrophic volcanism personified—a localized geological terror trapped within the island's central peak.",
+      "provenance": "Espinosa (1594); Torriani; archaeological finds of clay offerings hidden in volcanic tubes to appease him."
+    },
+    {
+      "id": "guanche-magec",
+      "kind": "deity",
+      "name": "Magec",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The supreme solar deity, providing light, warmth, and agricultural fertility. Revered deeply across the islands, their capture by Guayota explains eclipses or volcanic winter, while their liberation restores the cosmic order.",
+      "facet": "Magec's power is supreme but physically vulnerable to being swallowed by the earth. The sun is not an untouchable celestial chariot, but a captive prize in the war between sky and volcano.",
+      "provenance": "Chronicler Abreu Galindo (1632); linguistic traces in Guanche oaths swearing 'by the light of Magec'."
+    },
+    {
+      "id": "guanche-chaxiraxi",
+      "kind": "deity",
+      "name": "Chaxiraxi",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The 'Sun Mother' or 'She who bears the world', a supreme mother goddess of Tenerife. She anchors the agricultural cycle and maternal protection, famously appearing as an icon on the beaches of Güímar before the conquest.",
+      "facet": "Her worship seamlessly integrated a miraculously washed-up wooden statue, allowing her to physically bridge indigenous cosmic mother-worship with the impending arrival of European Marian devotion.",
+      "provenance": "Espinosa (1594); the highly documented syncretic cult of the Virgin of Candelaria in post-conquest Canarian history."
+    },
+    {
+      "id": "guanche-echeyde",
+      "kind": "place",
+      "name": "Echeyde",
+      "archetypes": [
+        "axis-mundi",
+        "infernal-prison"
+      ],
+      "gloss": "Mount Teide, the towering central volcano of Tenerife, revered as the axis of the world and the literal gate to the underworld. It is the earthly prison where Guayota is eternally contained.",
+      "facet": "Unlike celestial mountains of the gods, Echeyde is an axis of terror—a pressurized infernal cage holding back cosmic darkness, requiring constant placation through hidden offerings in its slopes.",
+      "provenance": "Toponymic survival ('Teide' derives from Echeyde); writings of Espinosa and Núñez de la Peña."
+    },
+    {
+      "id": "guanche-tibicenas",
+      "kind": "creature",
+      "name": "Tibicenas",
+      "archetypes": [
+        "spectral-hound"
+      ],
+      "gloss": "Demonic entities or evil spirits taking the form of enormous, shadowy dogs with glowing red eyes. They roam the wild ravines and volcanic badlands at night, attacking travelers and livestock.",
+      "facet": "They materialize the existential dread of the island's deep, unlit 'barrancos' (ravines). They are not underworld guards, but autonomous agents of the dark, physical manifestations of Guayota's malice.",
+      "provenance": "Gran Canarian and Tinerfeñan chronicles (e.g., Marín de Cubas); persistent Canarian folklore regarding giant spectral dogs."
+    },
+    {
+      "id": "guanche-xaxo",
+      "kind": "ancestor",
+      "name": "Xaxo",
+      "archetypes": [
+        "first-ancestor",
+        "preserved-ancestor"
+      ],
+      "gloss": "The meticulously mummified remains of Guanche nobility and ancestors. Prepared with pine resin, pumice, and herbs during the 'mirlado' process, they were wrapped in goat skins and placed in inaccessible volcanic caves.",
+      "facet": "Death was not a departure, but a transition into eternal guardianship. The xaxos physically remained in the island's rocky veins, transforming volcanic caves from barren geology into sacred ancestral catacombs.",
+      "provenance": "Extensive archaeological discoveries of Guanche mummies (e.g., in the Barranco de Herques) and chroniclers' accounts of the mummification process."
+    },
+    {
+      "id": "guanche-harimaguadas",
+      "kind": "rite",
+      "name": "Harimaguadas",
+      "archetypes": [
+        "rain-intercessor"
+      ],
+      "gloss": "Consecrated women who lived in isolated communities, tasked with performing vital rain-making rituals. During droughts, they would lead livestock to the sea or sacred mountains, separating mothers from young to make their cries reach the sky.",
+      "facet": "They commanded the climatic survival of the islands through orchestrated communal weeping—weaponizing the grief of humans and animals alike to compel the distant sky god to send rain.",
+      "provenance": "Accounts of the conquest of Gran Canaria; Pedro Gómez Escudero and Abreu Galindo."
+    }
+  ],
+  "edges": [
+    {
+      "a": "guanche-achaman",
+      "b": "guanche-guayota",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The supreme celestial creator and his absolute volcanic adversary."
+    },
+    {
+      "a": "guanche-guayota",
+      "b": "guanche-echeyde",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The demonic entity and the literal volcanic mountain that serves as his eternal prison."
+    },
+    {
+      "a": "guanche-guayota",
+      "b": "guanche-magec",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The force of darkness that historically captured and eclipsed the sun deity."
+    },
+    {
+      "a": "guanche-achaman",
+      "b": "guanche-harimaguadas",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The remote sky god and the specialized order of consecrated women required to reach him."
+    },
+    {
+      "a": "guanche-guayota",
+      "b": "guanche-tibicenas",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The master of volcanic evil and his roaming spectral hounds of the ravines."
+    },
+    {
+      "a": "guanche-achaman",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the vast, remote, but ultimately benevolent blue sky whose intervention is sought primarily in dire crises."
+    },
+    {
+      "a": "guanche-guayota",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are absolute cosmic adversaries who actively attempt to plunge the created world into darkness by attacking the light."
+    },
+    {
+      "a": "guanche-magec",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme solar deities whose temporary disappearance or capture plunges the world into a state of cosmic terror."
+    },
+    {
+      "a": "guanche-chaxiraxi",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme, life-sustaining mother figures deeply tied to the land who became heavily syncretized with the Virgin Mary."
+    },
+    {
+      "a": "guanche-tibicenas",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both intimately link the imagery of monstrous or shadowy dogs with the dangerous, chthonic forces of the underworld."
+    },
+    {
+      "a": "guanche-xaxo",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the deeply venerated dead who are purposefully anchored to the land to act as eternal guardians of the lineage."
+    },
+    {
+      "a": "guanche-harimaguadas",
+      "b": "nomkhubulwane",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve strictly female-led rituals designed to entreat the heavens for rain during periods of profound agricultural crisis."
+    },
+    {
+      "a": "guanche-echeyde",
+      "b": "buddhist-sumeru",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Where Sumeru is the celestial mountain elevating the cosmos, Echeyde is the infernal pillar threatening to erupt and consume it."
+    },
+    {
+      "a": "guanche-achaman",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are sovereign, high creator gods who established the world but are generally withdrawn, requiring specific ritual intermediaries."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "volcanic-adversary",
+      "name": "Volcanic Adversary",
+      "subtype": "deity",
+      "gloss": "A chaotic, fiery entity trapped within or embodying a volcano, threatening to consume the world in darkness.",
+      "reason": "Captures the highly specific geographic terror of island and tectonic cultures, distinct from general underworld lords."
+    },
+    {
+      "id": "infernal-prison",
+      "name": "Infernal Prison",
+      "subtype": "place",
+      "gloss": "A prominent geographic feature explicitly understood as the physical cage holding a great evil.",
+      "reason": "Differentiates from typical axis mundi or underworlds by functioning primarily as a pressurized container of malevolence."
+    },
+    {
+      "id": "spectral-hound",
+      "name": "Spectral Hound",
+      "subtype": "creature",
+      "gloss": "Demonic or ghostly dogs associated with darkness, wilderness, and the terrifying aspects of the night.",
+      "reason": "A recurring cross-cultural motif of canine night-terrors distinct from psychopomps or standard cosmic adversaries."
+    },
+    {
+      "id": "preserved-ancestor",
+      "name": "Preserved Ancestor",
+      "subtype": "ancestor",
+      "gloss": "The ritually mummified or desiccated dead, physically maintained in caves or tombs to anchor a lineage's presence.",
+      "reason": "Separates the physical, ongoing curation of mummies from the more abstract veneration of ancestral spirits."
+    },
+    {
+      "id": "rain-intercessor",
+      "name": "Rain Intercessor",
+      "subtype": "rite",
+      "gloss": "Ascetic or consecrated figures who use orchestrated ritual, often weeping or animal cries, to compel a distant sky deity.",
+      "reason": "Identifies a specific functional role bridging the gap between a withdrawn creator and a climate-dependent community."
+    }
+  ]
+}

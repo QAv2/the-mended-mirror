@@ -1,0 +1,269 @@
+{
+  "tradition": {
+    "id": "mongol-folk",
+    "name": "Mongolian folk religion (Böö Mörgöl)",
+    "region": "Mongolia",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "mongol-folk-monkh-tengri",
+      "kind": "principle",
+      "name": "Mönkh Khökh Tengri (The Eternal Blue Sky)",
+      "archetypes": [
+        "sky-father",
+        "cosmic-order",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme, formless animating power of the universe. It is not an anthropomorphic deity but the vast, observing firmament that grants the 'Mandate of Heaven' to earthly rulers and governs universal destiny.",
+      "facet": "Unlike personal sky-gods who intervene dynamically, Mönkh Khökh Tengri remains an impassive, omnipotent backdrop—the ultimate guarantor of order whose will is interpreted by shamans but rarely petitioned directly.",
+      "provenance": "'The Secret History of the Mongols'; ancient inscriptions of the Orkhon Valley."
+    },
+    {
+      "id": "mongol-folk-qormusta",
+      "kind": "deity",
+      "name": "Qormusta Tengri (Chief of the 99 Tngri)",
+      "archetypes": [
+        "storm-wielder",
+        "sky-father"
+      ],
+      "gloss": "The active, anthropomorphized king of the celestial pantheon who sits at the center of the sky. He commands the 99 tngri, wields lightning, and protects the world from demonic forces and spiritual imbalance.",
+      "facet": "He represents a staggering historical syncretism: adopting the name of the Zoroastrian Ahura Mazda via Silk Road transmission, while later absorbing the iconography and cosmic role of the Buddhist Indra.",
+      "provenance": "'The Secret History of the Mongols'; Mongolian shamanic invocations (tamlag); 'Erdeni-yin Tobchi'."
+    },
+    {
+      "id": "mongol-folk-etugen",
+      "kind": "deity",
+      "name": "Etügen Eke (Mother Earth)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The nurturing, life-giving goddess of the earth, soil, and pastures. She is invoked alongside the Eternal Blue Sky as the terrestrial counterpart in the fundamental duality of Mongolian cosmology.",
+      "facet": "She is not an agricultural goddess of tilled soil, but the spirit of the wild, unbroken steppe; her vitality is tied intimately to nomadic herds, strictly prohibiting the unnecessary digging of the ground.",
+      "provenance": "'The Secret History of the Mongols'; travel accounts of William of Rubruck."
+    },
+    {
+      "id": "mongol-folk-erlig-khan",
+      "kind": "deity",
+      "name": "Erlig Khan (Lord of the Underworld)",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "The terrifying judge of the dead and sovereign of the subterranean realm. Originally a primordial figure who aided in creation, he was banished to the lower world to rule the spirits of the deceased.",
+      "facet": "He is deeply ambiguous—both the merciless punisher who unleashes diseases upon the surface world and a necessary, respected sovereign who rigorously maintains the cosmic cycle of life and death.",
+      "provenance": "Mongolian oral epics; Dorji Banzarov's 'The Black Faith'; indigenous shamanic chants."
+    },
+    {
+      "id": "mongol-folk-99-tngri",
+      "kind": "force",
+      "name": "The 99 Tngri (The Heavenly Hosts)",
+      "archetypes": [
+        "one-through-many",
+        "dualism"
+      ],
+      "gloss": "The immense pantheon of sky spirits divided into 55 benevolent western tngri and 44 wrathful eastern tngri. They govern specific natural phenomena, tribes, and abstract concepts, constantly battling for cosmic supremacy.",
+      "facet": "Their strict numerical and directional division creates a permanent, dynamic tension in the heavens. Shamans must expertly navigate this fraught celestial politics, placating the wrathful and invoking the benevolent to protect humanity.",
+      "provenance": "Walther Heissig, 'The Religions of Mongolia'; Buryat and Khalkha shamanic ritual texts."
+    },
+    {
+      "id": "mongol-folk-ovoo",
+      "kind": "place",
+      "name": "Ovoo (Sacred Cairn)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A conical heap of stones, wood, and silk khadag scarves built on mountain passes. It serves as the physical residence of local master-spirits (gazariin ezen) and the site for communal offerings of milk and vodka.",
+      "facet": "It functions as a localized, man-made axis mundi. By adding a stone and circling it clockwise three times, a nomad actively repairs the cosmic order and binds themselves to the immediate ecology.",
+      "provenance": "Ethnographic records by C.R. Bawden; widespread continuous contemporary Mongolian practice."
+    },
+    {
+      "id": "mongol-folk-ongon",
+      "kind": "concept",
+      "name": "Ongon (Spirit Receptacle)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "A physical vessel—typically constructed of felt, wood, fur, or metal—inhabited by a tutelary or ancestral spirit. They are regularly fed with fat and blood to secure protection for the household and herds.",
+      "facet": "An ongon is not a mere representation, but the literal, dangerous body of the spirit on earth. If neglected, the spirit within will turn hostile against the household, making it a volatile artifact.",
+      "provenance": "Rashid al-Din's 'Jami' al-Tawarikh'; 19th-century ethnographic collections by D. Klementz."
+    },
+    {
+      "id": "mongol-folk-od-eke",
+      "kind": "deity",
+      "name": "Od Eke (Mother Fire)",
+      "archetypes": [
+        "axis-mundi",
+        "great-mother"
+      ],
+      "gloss": "The deified spirit of the hearth situated at the exact center of the ger (yurt). She is the ultimate purificatory force and the continuous, living link to the patrilineal ancestors.",
+      "facet": "Mother Fire is so sacred that inserting a knife into the flames or spilling water on her was historically a capital offense; she is the fragile life-force of the lineage itself.",
+      "provenance": "'The Secret History of the Mongols'; customary laws in the Yasa of Genghis Khan."
+    }
+  ],
+  "edges": [
+    {
+      "a": "mongol-folk-monkh-tengri",
+      "b": "mongol-folk-etugen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The primordial dyad of Sky Father and Earth Mother, forming the totality of the cosmos."
+    },
+    {
+      "a": "mongol-folk-qormusta",
+      "b": "mongol-folk-99-tngri",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: Qormusta acts as the sovereign commander of the fractured, warring hosts of the 99 tngri."
+    },
+    {
+      "a": "mongol-folk-ongon",
+      "b": "mongol-folk-od-eke",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The fire purifies the household, while the ongon protects it; together they form the ritual core of the ger."
+    },
+    {
+      "a": "mongol-folk-qormusta",
+      "b": "ahura-mazda",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Qormusta is a direct linguistic borrowing of Ohrmazd (Ahura Mazda), transmitted to the steppe via Sogdian merchants."
+    },
+    {
+      "a": "mongol-folk-qormusta",
+      "b": "buddhist-indra-sakra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Later Mongolian Buddhism explicitly identified Qormusta with Indra (Sakra), the lord of the thirty-three heavens."
+    },
+    {
+      "a": "mongol-folk-qormusta",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the active, anthropomorphic, storm-wielding daytime sky father distinct from the abstract firmament."
+    },
+    {
+      "a": "mongol-folk-monkh-tengri",
+      "b": "tengri",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The specific Mongolian articulation of the ancient, pan-Turco-Mongol cult of the Eternal Blue Sky."
+    },
+    {
+      "a": "mongol-folk-monkh-tengri",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme, impersonal celestial sovereigns who grant the mandate to rule to earthly emperors."
+    },
+    {
+      "a": "mongol-folk-monkh-tengri",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as the ultimate, unmanifest cosmic reality standing behind the active, colorful pantheons of lesser gods."
+    },
+    {
+      "a": "mongol-folk-etugen",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both fulfill the role of the nurturing maternal terrestrial force in the steppe nomadic cosmos."
+    },
+    {
+      "a": "mongol-folk-etugen",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial Earth Mother forever paired in a sacred dyad with the encompassing Sky Father."
+    },
+    {
+      "a": "mongol-folk-erlig-khan",
+      "b": "erlik",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Mongolian adoption and continuation of the ancient pan-Turkic lord of the underworld."
+    },
+    {
+      "a": "mongol-folk-erlig-khan",
+      "b": "buddhist-yama",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Heavily syncretized with Yama, the Dharmaraja, becoming the terrifying judge of karmic deeds in Mongolian Buddhism."
+    },
+    {
+      "a": "mongol-folk-erlig-khan",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rule the subterranean realm of the dead and strictly enforce the absolute boundaries of mortality."
+    },
+    {
+      "a": "mongol-folk-99-tngri",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are multitudes of operative, intermediate spirits handling specific cosmic and earthly functions for a remote creator."
+    },
+    {
+      "a": "mongol-folk-99-tngri",
+      "b": "dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute division of the heavens into 55 benevolent and 44 wrathful forces reflects a deeply dualistic cosmic struggle."
+    },
+    {
+      "a": "mongol-folk-ovoo",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both serve as localized axes mundi connecting the underworld, earth, and heavens for ritual interaction."
+    },
+    {
+      "a": "mongol-folk-ovoo",
+      "b": "mount-meru",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In later syncretic practice, the physical ovoo was explicitly mapped onto Buddhist Mount Meru cosmology."
+    },
+    {
+      "a": "mongol-folk-ongon",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are ritually empowered physical vessels housing active, sometimes dangerous spirits that require constant feeding."
+    },
+    {
+      "a": "mongol-folk-ongon",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Revered ancestral spirits who demand continuous propitiation and can aggressively intervene in their descendants' lives."
+    },
+    {
+      "a": "mongol-folk-od-eke",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both treat fire as an intensely sacred, purifying living entity that must never be polluted by filth or water."
+    },
+    {
+      "a": "mongol-folk-od-eke",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are the deified hearth fire acting as the central axis of household ritual and the receiver of offerings."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "spirit-receptacle",
+      "name": "Spirit Receptacle",
+      "subtype": "rite",
+      "gloss": "A ritually constructed physical vessel or bundle intended to house an active spiritual entity, which must be fed, cared for, and appeased to secure its power.",
+      "reason": "Needed to bridge concepts like the Mongolian ongon, Kongo minkisi, and various animistic fetishes that are not merely symbols but literal, inhabitable bodies for spirits."
+    }
+  ]
+}

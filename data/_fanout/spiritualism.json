@@ -1,0 +1,259 @@
+{
+  "tradition": {
+    "id": "spiritualism",
+    "name": "Spiritualism",
+    "region": "USA (Hydesville)",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "spiritualism-fox-sisters",
+      "kind": "hero",
+      "name": "The Fox Sisters",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Margaret, Kate, and Leah Fox, the young sisters from Hydesville, New York, who in 1848 claimed to communicate with a murdered peddler via mysterious 'rappings'. Their highly public demonstrations of this spirit telegraph catalyzed the global Spiritualist movement.",
+      "facet": "They democratized revelation. Instead of a lone, ascetic prophet receiving ancient texts from God on a mountaintop, these young girls turned parlor games and Morse-code knocks into empirical 'proof' of the afterlife for the masses.",
+      "provenance": "The events at Hydesville (1848), extensive contemporary newspaper accounts, and Margaret Fox's later (and subsequently retracted) 1888 public confession."
+    },
+    {
+      "id": "spiritualism-infinite-intelligence",
+      "kind": "principle",
+      "name": "Infinite Intelligence",
+      "archetypes": [
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The non-dogmatic, depersonalized conception of 'God' within Spiritualism. It is the underlying, benevolent, and lawful cosmic mind that structures the universe and the continuous progression of the spirit realms, rather than an intervening, personal deity.",
+      "facet": "It strips the Abrahamic God of wrath, judgment, and anthropomorphic personality, leaving behind a scientifically palatable, diffuse clockmaker who guarantees eternal spiritual progression rather than the threat of eternal damnation.",
+      "provenance": "The clairvoyant writings of Andrew Jackson Davis (1847) and the 'Seven Principles of Spiritualism' channeled through Emma Hardinge Britten (1871)."
+    },
+    {
+      "id": "spiritualism-summerland",
+      "kind": "place",
+      "name": "The Summerland",
+      "archetypes": [
+        "astral-plane"
+      ],
+      "gloss": "The welcoming, sunlit astral realm where human souls travel immediately after physical transition. It is a harmonious, Earth-like dimension of continued learning and social interaction, completely free from orthodox concepts of Heaven's static worship or Hell's punishment.",
+      "facet": "It fundamentally domesticates the afterlife. It is not a terrifying void or an inaccessible, purely spiritual paradise, but a bustling, progressive continuation of earthly life where discarnate people live in houses, read books, and study.",
+      "provenance": "Coined and extensively detailed by Andrew Jackson Davis, directly expanding on the heavenly spheres described by Emanuel Swedenborg."
+    },
+    {
+      "id": "spiritualism-medium",
+      "kind": "concept",
+      "name": "The Medium",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "An individual uniquely sensitive to the vibrations of the spirit world, acting as a human conduit between the living and the 'discarnate'. Mediums facilitate communication through trance speaking, automatic writing, or physical phenomena like table-tipping.",
+      "facet": "Unlike the traditional priest who interprets doctrine, the medium is historically passive—often a woman or child—acting as a biological instrument or scientific apparatus whose only authority lies in the objective phenomena they supposedly produce.",
+      "provenance": "19th-century mesmeric 'sensitives', heavily popularized by figures like Leonora Piper, D.D. Home, and Florence Cook, and investigated by the Society for Psychical Research."
+    },
+    {
+      "id": "spiritualism-spirit-guide",
+      "kind": "ancestor",
+      "name": "The Spirit Guide",
+      "archetypes": [
+        "psychopomp",
+        "first-ancestor"
+      ],
+      "gloss": "A discarnate entity who attaches themselves to a medium or an individual to offer philosophical teaching, protection, and assistance in navigating the spiritual realms during séances or deep trance states.",
+      "facet": "They replace traditional angelic hierarchies with historically marginalized or 'exoticized' human spirits—often Native Americans, ancient sages, or children—reflecting Victorian anxieties and idealized projections of primitive, uncorrupted wisdom.",
+      "provenance": "Extensive séance transcripts and mediumistic autobiographies of the 19th and 20th centuries, featuring popular entities like Silver Birch or Black Hawk."
+    },
+    {
+      "id": "spiritualism-ectoplasm",
+      "kind": "force",
+      "name": "Ectoplasm",
+      "archetypes": [
+        "subtle-matter"
+      ],
+      "gloss": "A mysterious, viscous, and faintly luminous substance said to exude from the orifices of physical mediums during deep trance. It serves as the raw, malleable material manipulated by spirits to materialize faces, limbs, or full bodies.",
+      "facet": "It attempts to biologically manifest the ethereal. It collapses the boundary between spirit and matter, presenting the soul not as an abstract breath, but as a photographable, physical fluid subject to pseudo-scientific laws.",
+      "provenance": "Coined by Nobel laureate Charles Richet (1894), and heavily featured in the controversial séance photographs of mediums like Eva Carriere and Mina Crandon."
+    },
+    {
+      "id": "spiritualism-seance",
+      "kind": "rite",
+      "name": "The Séance",
+      "archetypes": [
+        "ecstatic-shaman",
+        "axis-mundi"
+      ],
+      "gloss": "The central ritual of Spiritualism, typically conducted in a darkened room with sitters gathered around a table. Through a medium, the group attempts to pierce the veil of death to receive messages or witness physical manifestations.",
+      "facet": "It reframes the sacred ritual as an empirical experiment. It combines the aesthetics of a laboratory investigation with the intimacy of a middle-class parlor, shifting religious authority from the altar to the living room.",
+      "provenance": "Mid-19th century American and British parlor culture, codified by figures like Allan Kardec in Spiritism and later psychical researchers."
+    },
+    {
+      "id": "spiritualism-eternal-progression",
+      "kind": "principle",
+      "name": "Eternal Progression",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The foundational doctrine that the soul never experiences a final judgment. Instead, it continuously evolves through ascending spiritual spheres of existence, acquiring infinite knowledge, love, and moral refinement forever.",
+      "facet": "It marries the 19th-century secular optimism of social and scientific progress with the destiny of the soul, radically rejecting any theology of eternal damnation, stasis, or inescapable original sin.",
+      "provenance": "The progressive spheres mapped by Andrew Jackson Davis, and codified in Emma Hardinge Britten's 'Seven Principles of Spiritualism'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "spiritualism-medium",
+      "b": "spiritualism-seance",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The medium serves as the essential human instrument for the phenomena produced during the séance."
+    },
+    {
+      "a": "spiritualism-spirit-guide",
+      "b": "spiritualism-medium",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The spirit guide operates as the medium's counterpart and protector on the other side of the veil."
+    },
+    {
+      "a": "spiritualism-ectoplasm",
+      "b": "spiritualism-medium",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ectoplasm is intrinsically linked to the physical body of the medium, exuding from them to form spiritual manifestations."
+    },
+    {
+      "a": "spiritualism-infinite-intelligence",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent an impersonal, foundational cosmic reality that underpins the universe, distinct from a judging creator."
+    },
+    {
+      "a": "spiritualism-infinite-intelligence",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Spiritualism's Infinite Intelligence shares the unbounded, non-anthropomorphic qualities of the Kabbalistic Infinite."
+    },
+    {
+      "a": "spiritualism-infinite-intelligence",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both conceptualize the divine as a distant, ultimate source of order rather than a personal, intervening deity."
+    },
+    {
+      "a": "spiritualism-medium",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions rely on specifically sensitive individuals, often women, who enter altered states to act as mouthpieces for the deceased."
+    },
+    {
+      "a": "spiritualism-medium",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The medium's trance parallels the shamanic journey, temporarily vacating ordinary consciousness to bridge the material and spirit worlds."
+    },
+    {
+      "a": "spiritualism-medium",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both utilize altered states of consciousness to access a spiritual dimension and bring back healing or knowledge to the community."
+    },
+    {
+      "a": "spiritualism-spirit-guide",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both function as unseen, discarnate ancestors who provide active guidance, protection, and wisdom to the living."
+    },
+    {
+      "a": "spiritualism-spirit-guide",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the continued, highly active involvement of deceased spirits in the daily lives and spiritual practices of the living."
+    },
+    {
+      "a": "spiritualism-spirit-guide",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The spirit guide acts as a psychopomp and messenger, safely navigating the medium's consciousness across the boundary between life and death."
+    },
+    {
+      "a": "spiritualism-ectoplasm",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both conceptualize a raw, invisible spiritual power that can be concentrated to produce tangible, physical effects in the material world."
+    },
+    {
+      "a": "spiritualism-fox-sisters",
+      "b": "wawilak-sisters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both feature a dyad/triad of sisters whose actions fundamentally initiate a new relationship between the human and spiritual domains."
+    },
+    {
+      "a": "spiritualism-summerland",
+      "b": "mictlantecuhtli",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: The Summerland radically rejects the concept of a dark, static underworld ruled by a fearsome lord of the dead, replacing it with a bright realm of continuous life."
+    },
+    {
+      "a": "spiritualism-summerland",
+      "b": "hades",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Where Hades is a gloomy, shadowy terminus for the dead, the Summerland is a vibrant, sunlit environment of endless learning."
+    },
+    {
+      "a": "spiritualism-eternal-progression",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Spiritualism is entirely predicated on a permanent, continuously evolving individual ego, directly opposing the Buddhist doctrine of non-self."
+    },
+    {
+      "a": "spiritualism-eternal-progression",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions center on the eternal, indestructible nature of the soul as it progresses through vast cycles of refinement."
+    },
+    {
+      "a": "spiritualism-summerland",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent a higher, plenteous spiritual realm from which the soul originates and to which it ultimately seeks to return."
+    },
+    {
+      "a": "spiritualism-seance",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "4",
+      "note": "GOLD SEAM: A loose parallel—both are highly structured, enclosed rituals designed to bring participants into direct, transformative contact with the unseen spirit realm."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "astral-plane",
+      "name": "The Astral Plane",
+      "subtype": "place",
+      "gloss": "An intermediate, semi-material dimension of existence inhabited by spirits, accessible through trance, dreams, or after physical death. It resembles the physical world but is shaped directly by thought and spiritual vibration.",
+      "reason": "Necessary to distinguish modern, progressive spiritual realms (like Spiritualism's Summerland or Theosophy's Kama Loka) from ancient, static underworlds or purely divine heavens."
+    },
+    {
+      "id": "subtle-matter",
+      "name": "Subtle Matter",
+      "subtype": "force",
+      "gloss": "A quasi-physical, highly malleable substance that bridges the gap between pure spirit and dense matter, allowing ethereal beings to interact with or manifest in the physical world.",
+      "reason": "Required for traditions that attempt to scientificize or materialize the spiritual, such as Spiritualist ectoplasm, occult astral light, or the vital fluids of Mesmerism."
+    }
+  ]
+}

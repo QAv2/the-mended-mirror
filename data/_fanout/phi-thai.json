@@ -1,0 +1,232 @@
+{
+  "tradition": {
+    "id": "phi-thai",
+    "name": "Tai-Khmer spirit cults (Phi / Neak Ta)",
+    "region": "Thailand / Laos / Cambodia",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "phi-thai-phra-phum",
+      "kind": "place",
+      "name": "Phra Phum (Chao Thi / Lord of the Place)",
+      "archetypes": [
+        "axis-mundi",
+        "cosmic-order"
+      ],
+      "gloss": "The 'Lord of the Place,' an earth-bound guardian spirit inhabiting a micro-temple (the spirit house) built on every property. He must be placated with daily offerings of incense, water, and food to secure his protection over the household.",
+      "facet": "He domesticates the untamed wilderness of the animist earth by granting spirits a bureaucratic jurisdiction, creating a contractual landlord-tenant relationship between humans and the invisible realm.",
+      "provenance": "Ubiquitous in Thai, Lao, and Khmer folklore; localized adaptation of the Hindu Bhumupati."
+    },
+    {
+      "id": "phi-thai-neak-ta",
+      "kind": "ancestor",
+      "name": "Neak Ta",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "Khmer territorial ancestors and tutelary spirits bound to specific natural features like mountains, termite mounds, or ancient trees. They enforce moral pacts, heal illnesses, and grant rain, often communicating through possessed mediums.",
+      "facet": "Unlike transcendent universal gods, the Neak Ta are fiercely hyper-local, often born from the traumatic deaths of historical leaders, blending deep earth-veneration with localized human ancestry.",
+      "provenance": "Central to Cambodian folk religion; documented extensively in French colonial ethnographies."
+    },
+    {
+      "id": "phi-thai-phaya-thaen",
+      "kind": "deity",
+      "name": "Phaya Thaen",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The primordial Tai sky creator and lord of the celestial spirits. Angered by humanity, he once withheld rain until pacified. Today, he is petitioned via massive bamboo rockets during the 'Bun Bang Fai' festival to break the dry season.",
+      "facet": "He is a remote, transactional creator who must be violently reminded of his obligations to the earth through explosive technology and bawdy agricultural fertility rites.",
+      "provenance": "Tai-Lao creation myths (Nithan Khun Borom); central to Isan and Lao rocket festival traditions."
+    },
+    {
+      "id": "phi-thai-khwan",
+      "kind": "concept",
+      "name": "Khwan (The 32 Souls)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The thirty-two vital soul-elements residing within various organs of the human body. Easily startled, they can wander away into the forest, causing illness until ceremonially called back and bound to the wrists with cotton threads in the 'baci' ritual.",
+      "facet": "The soul is not a singular, eternal essence but a precarious, fragile collective that must be continuously coaxed and physically tied into the body to maintain psychological and physical cohesion.",
+      "provenance": "Ancient Tai-Kadai animism, preceding and operating alongside Buddhist influence in Laos and Thailand."
+    },
+    {
+      "id": "phi-thai-mae-nak",
+      "kind": "hero",
+      "name": "Mae Nak Phra Khanong",
+      "archetypes": [
+        "underworld-sovereign",
+        "great-mother"
+      ],
+      "gloss": "A devoted wife who died in childbirth, becoming the most feared 'phi tai hong' (ghost of violent death). She disguised her death to live with her returning husband until he discovered the terrifying truth of his phantom family.",
+      "facet": "She turns ideal domestic devotion into absolute horror. Her unyielding love defies natural law, demonstrating that human attachment—a Buddhist vice—can become a devastating, inescapable supernatural force.",
+      "provenance": "19th-century Thai urban legend (Phra Khanong district); a central pillar of Thai ghost lore."
+    },
+    {
+      "id": "phi-thai-mae-phosop",
+      "kind": "deity",
+      "name": "Mae Phosop (Rice Goddess)",
+      "archetypes": [
+        "great-mother",
+        "dying-rising"
+      ],
+      "gloss": "The gentle, easily frightened goddess of rice who ensures the harvest. She becomes pregnant when the rice flowers, and farmers must perform rituals to call her 'khwan' into the granary after harvest so she will return the next year.",
+      "facet": "Instead of a triumphant agricultural sovereign, she is a deeply vulnerable mother who must be nurtured, sheltered, and comforted by human farmers to coax out the earth's bounty.",
+      "provenance": "Indigenous Mon-Khmer and Tai agrarian rituals, later adopting Hindu iconographic traits."
+    },
+    {
+      "id": "phi-thai-phi-pop",
+      "kind": "force",
+      "name": "Phi Pop",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A ravenous, parasitic spirit born when a practitioner of dark magic loses control of their spells. It possesses living human hosts, forcing them to secretly hunt at night to devour raw meat and the internal organs of others.",
+      "facet": "It weaponizes communal paranoia. A possession serves as a localized scapegoat mechanism, reflecting rural anxieties about antisocial behavior, greed, and the corrupting nature of hidden power.",
+      "provenance": "Isan and Lao rural folklore; frequent subject of modern community exorcism rituals."
+    },
+    {
+      "id": "phi-thai-nang-tani",
+      "kind": "creature",
+      "name": "Nang Tani",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "A beautiful female spirit clad in traditional green who resides within wild banana trees. She appears during the full moon to seduce men, fiercely punishing those who betray her or wrong women.",
+      "facet": "She embodies the alluring but perilous nature of the untamed forest. While Buddhist monks preach detachment, she enforces a brutal, vindictive moral accountability upon male infidelity.",
+      "provenance": "Thai folk belief; common in rural village storytelling and warning tales."
+    }
+  ],
+  "edges": [
+    {
+      "a": "phi-thai-phra-phum",
+      "b": "phi-thai-neak-ta",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition bond: Both represent the localized, earth-bound spirit of a specific place, merging Tai landlord spirits with Khmer ancestral guardians."
+    },
+    {
+      "a": "phi-thai-mae-phosop",
+      "b": "phi-thai-phaya-thaen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The sky father who provides the crucial rain paired with the earth mother who grows the rice."
+    },
+    {
+      "a": "phi-thai-khwan",
+      "b": "phi-thai-phi-pop",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ritual that binds the fragile life essence into the body versus the parasitic spirit that violently consumes the body from within."
+    },
+    {
+      "a": "phi-thai-phra-phum",
+      "b": "dogon-lebe",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The localized earth-guardian whose physical anchoring in the settlement ensures the community's stability and protection."
+    },
+    {
+      "a": "phi-thai-phra-phum",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The spirit house functions as a localized, domestic micro-axis mundi, mimicking the cosmic mountain on a mundane scale."
+    },
+    {
+      "a": "phi-thai-neak-ta",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Hyper-local tutelary spirits bound to natural features (trees, stones) who act as moral enforcers for the community."
+    },
+    {
+      "a": "phi-thai-neak-ta",
+      "b": "bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Territorial nature spirits residing in the landscape who manage the earth's fertility and demand localized appeasement."
+    },
+    {
+      "a": "phi-thai-phaya-thaen",
+      "b": "buddhist-indra-sakra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Phaya Thaen is routinely identified and syncretized with the Buddhist Indra as the sovereign of the heavens."
+    },
+    {
+      "a": "phi-thai-phaya-thaen",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme sky father of animist cosmologies who is geographically distant and must be specifically invoked for vital weather."
+    },
+    {
+      "a": "phi-thai-phaya-thaen",
+      "b": "baal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The celestial storm deity petitioned heavily during the dry season to bring life-giving rains to the crops."
+    },
+    {
+      "a": "phi-thai-khwan",
+      "b": "tarniq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The soul understood not as a monolith, but as a divisible, fragile entity that can leave the body and cause disease."
+    },
+    {
+      "a": "phi-thai-mae-nak",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Dangerous, untamed spirits of the dead, often tragically wronged women whose suffering translates into intense local terror."
+    },
+    {
+      "a": "phi-thai-mae-nak",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A woman betrayed by circumstance whose profound suffering and death transfigures her into a fearsome, unavoidable supernatural force."
+    },
+    {
+      "a": "phi-thai-mae-phosop",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The agricultural mother goddess whose emotional state and presence directly dictate the success or failure of the harvest."
+    },
+    {
+      "a": "phi-thai-mae-phosop",
+      "b": "three-sisters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The personification of vital staple crops that demand deeply respectful, localized cultivation rituals to sustain human life."
+    },
+    {
+      "a": "phi-thai-phi-pop",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While Mara tempts from without, the Phi Pop consumes from within; both represent the corruption of spiritual discipline into destructive craving."
+    },
+    {
+      "a": "phi-thai-nang-tani",
+      "b": "basque-lamiak",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Beautiful, territorial female nature spirits who seduce men and ruthlessly punish transgressors against their localized moral codes."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "genius-loci",
+      "name": "Genius Loci (Spirit of Place)",
+      "subtype": "principle",
+      "gloss": "The tutelary, highly localized spirit of a specific natural feature or human-made boundary, ruling a micro-domain rather than a universal portfolio.",
+      "reason": "Animist traditions universally partition the landscape into sovereign spiritual micro-territories (Khmer Neak Ta, Tai Chao Thi, Andean Huacas, Roman Lares) that demand direct negotiation, distinct from broad elemental gods."
+    }
+  ]
+}

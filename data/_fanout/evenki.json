@@ -1,0 +1,221 @@
+{
+  "tradition": {
+    "id": "evenki",
+    "name": "Evenki / Tungus",
+    "region": "Central/East Siberian taiga",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "evenki-buga",
+      "kind": "deity",
+      "name": "Buga (Enekan Buga)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator, heaven, and the encompassing universe itself. Buga represents the totality of the living world and the taiga, giving humans fire, useful animals, and the eternal soul-substance, but rarely intervenes directly in human affairs.",
+      "facet": "Buga is less a personified ruler and more the spatial and spiritual environment itself—the word translates literally to 'world' or 'sky.' It acts as a passive, overarching providence rather than a petitionable monarch.",
+      "provenance": "Shirokogoroff's 'Psychomental Complex of the Tungus' (1935); Anisimov's 'Cosmological Concepts of the Peoples of the North' (1963)."
+    },
+    {
+      "id": "evenki-khargi",
+      "kind": "deity",
+      "name": "Khargi (Hargi)",
+      "archetypes": [
+        "cosmic-adversary",
+        "underworld-sovereign",
+        "dualism"
+      ],
+      "gloss": "The dark twin or younger brother of Buga, reigning over the lower world of the dead. He created predators, disease, and mosquitoes, constantly attempting to undo or corrupt Buga's perfect creations in the middle world.",
+      "facet": "His malice is an structural necessity of the taiga. Unlike a pure principle of moral evil, Khargi is intimately bound to the earth and the physical dangers of hunting—he provides the struggle that gives the Evenki their resilience.",
+      "provenance": "Evenki creation myths; Vasilevich's 'Evenki' (1969)."
+    },
+    {
+      "id": "evenki-saman",
+      "kind": "hero",
+      "name": "Saman (The First Shaman)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "The primordial spiritual mediator, chosen by the spirits to bridge the three worlds. Capable of ecstatic trance, the saman masters spirit helpers to heal illness, find lost souls, and guide the dead down the cosmic river.",
+      "facet": "This is the etymological genesis of the word 'shaman' itself. Here, the practitioner is not a generic medicine man but a strictly Tungusic specialist wearing an antlered iron crown, physically embodying the cosmic tree during flight.",
+      "provenance": "Tungus etymology ('šamán'); Shirokogoroff (1935); structural foundation of global shamanic studies."
+    },
+    {
+      "id": "evenki-tuuru",
+      "kind": "place",
+      "name": "Tuuru (The Cosmic Larch)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The towering larch tree that pierces the three worlds—its roots in Khargi's underworld, its trunk in the human world, and its branches reaching Buga's heaven. It is the physical ladder the shaman climbs during ecstatic trance.",
+      "facet": "It is replicated in miniature during every shamanic rite. The ritual tent contains a physical larch pole that serves as the literal runway for the shaman's spirit flight, turning the local hearth into the center of the cosmos.",
+      "provenance": "Evenki shamanic tent architecture; Anisimov's 'The Shaman's Tent of the Evenks' (1952)."
+    },
+    {
+      "id": "evenki-omi",
+      "kind": "concept",
+      "name": "Omi",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The primordial soul-substance. Unborn souls exist as little birds perched in the branches of the Tuuru tree in the upper world, waiting to descend and inhabit human bodies in the middle world.",
+      "facet": "Reincarnation here is strictly biological and spatial. When an Evenki dies, their omi returns to the clan's specific branch on the cosmic tree, eventually dropping back down to be reborn exclusively within the same lineage.",
+      "provenance": "Tungus animism and soul-dualism studies (Shirokogoroff, Vasilevich)."
+    },
+    {
+      "id": "evenki-engdekit",
+      "kind": "place",
+      "name": "Engdekit (The Shamanic River)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The great cosmic river that flows horizontally through the taiga universe, originating in the upper world of the ancestors and terminating in the stagnant swamps of the underworld of the dead.",
+      "facet": "In a landscape defined by waterways, the axis of the universe is horizontal as much as vertical. Shamans do not just fly up or down; they build spirit-rafts to navigate the dangerous rapids of this river to retrieve stolen souls.",
+      "provenance": "Anisimov's 'The Shaman's Tent of the Evenks' (1952)."
+    },
+    {
+      "id": "evenki-bayan-anai",
+      "kind": "deity",
+      "name": "Bayan Anai (Amaka, The Bear)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The supreme master of the taiga and the animals, most frequently incarnated as the Bear ('Amaka' or Grandfather). He dictates the success of the hunt and enforces strict taboos regarding respect for harvested animals.",
+      "facet": "The relationship is profoundly reciprocal. The Bear is not just prey but a revered elder relative; when killed, complex apologies and feasts are held to trick the bear's spirit into believing it died of its own accord.",
+      "provenance": "Evenki bear cult rituals; circumpolar bear ceremonialism records."
+    }
+  ],
+  "edges": [
+    {
+      "a": "evenki-buga",
+      "b": "evenki-khargi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The transcendent creator of light and life paired against his earthbound brother who crafts predators and hardship."
+    },
+    {
+      "a": "evenki-tuuru",
+      "b": "evenki-saman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The cosmic tree is the structural prerequisite for the shaman, serving as the vehicle for his ecstatic ascent."
+    },
+    {
+      "a": "evenki-omi",
+      "b": "evenki-tuuru",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The bird-souls of the unborn are physically housed in the canopy of the cosmic larch tree."
+    },
+    {
+      "a": "evenki-buga",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The overarching, somewhat removed sky-god who embodies the physical heavens."
+    },
+    {
+      "a": "evenki-buga",
+      "b": "ukko",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A northern sky and weather deity overseeing the forest cosmos."
+    },
+    {
+      "a": "evenki-khargi",
+      "b": "erlik",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The lord of the underworld and creator of pests in neighboring Siberian and Mongolic cosmologies."
+    },
+    {
+      "a": "evenki-khargi",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A dualistic dark twin who introduces disease and hostile animals into a pristine creation."
+    },
+    {
+      "a": "evenki-saman",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The classic ecstatic mediator who bridges upper, middle, and lower realms."
+    },
+    {
+      "a": "evenki-saman",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A spiritual practitioner who utilizes trance to physically project their soul into other realms to negotiate for the community."
+    },
+    {
+      "a": "evenki-tuuru",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central pillar of the universe connecting the celestial heights with the subterranean depths."
+    },
+    {
+      "a": "evenki-tuuru",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An immense cosmic tree whose roots and branches provide the structural framework for multiple worlds."
+    },
+    {
+      "a": "evenki-tuuru",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A sacred tree anchoring the vertical axis of indigenous cosmologies."
+    },
+    {
+      "a": "evenki-engdekit",
+      "b": "tuonela",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A dark, mythological river dividing the world of the living from the land of the dead."
+    },
+    {
+      "a": "evenki-engdekit",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The navigation of a perilous river to transport souls to the underworld."
+    },
+    {
+      "a": "evenki-bayan-anai",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The personified master of the boreal forest who controls the availability of game."
+    },
+    {
+      "a": "evenki-bayan-anai",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful keeper of the region's primary prey animals, demanding strict hunting taboos."
+    },
+    {
+      "a": "evenki-omi",
+      "b": "tarniq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A distinct, transferable soul-entity that governs vitality and is subject to spiritual theft or retrieval."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "cosmic-river",
+      "name": "Cosmic River",
+      "subtype": "place",
+      "gloss": "A horizontal spiritual waterway that connects the realms of the living, the ancestors, and the dead, serving as a route for soul-transit.",
+      "reason": "While the World Tree serves as a vertical axis, many riverine and taiga cultures navigate the cosmos horizontally, relying on spirit-boats rather than climbing."
+    }
+  ]
+}

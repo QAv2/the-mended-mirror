@@ -1,0 +1,257 @@
+{
+  "tradition": {
+    "id": "micronesian",
+    "name": "Micronesian (Pohnpei / Chamorro / Yap)",
+    "region": "Caroline & Mariana Islands",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "micronesian-puntan",
+      "kind": "deity",
+      "name": "Puntan",
+      "archetypes": [
+        "primordial-sacrifice",
+        "divine-twins"
+      ],
+      "gloss": "The primordial brother in Chamorro cosmology who possessed vast cosmic power but no physical world to house it. Nearing death, he instructed his sister to dismantle his body: his eyes became the sun and moon, his eyebrows rainbows, his breast the sky, and his back the earth.",
+      "facet": "Unlike adversarial or unwilling primordial sacrifices, Puntan willingly initiates his own dismemberment, dictating the terms to his sister out of a cooperative desire to manifest space and time.",
+      "provenance": "Early Spanish chronicles by Fray Juan Pobre de Zamora (1602) and Jesuit Diego Luis de San Vitores (1668)."
+    },
+    {
+      "id": "micronesian-fuuna",
+      "kind": "deity",
+      "name": "Fu'una",
+      "archetypes": [
+        "great-mother",
+        "divine-twins"
+      ],
+      "gloss": "The Chamorro sister-creator who executed Puntan's cosmic will. Once the universe was built from his body, she threw her own body into the earth, transforming into Fouha Rock in Umatac Bay, from which the first human beings emerged.",
+      "facet": "She represents the active, animating female principle that executes static male potential. Her petrification into a literal geographic monolith grounds human emergence in the physical, traversable landscape of Guam.",
+      "provenance": "Fray Juan Pobre de Zamora (1602); Jesuit Diego Luis de San Vitores (1668)."
+    },
+    {
+      "id": "micronesian-nan-madol",
+      "kind": "place",
+      "name": "Nan Madol",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A monumental megalithic city built on a coral reef in Pohnpei, comprising nearly 100 artificial islets. It served as the ritual and political center of the Saudeleur dynasty, who used it to enforce worship of the eel-deity Nahn Samwohl and exact tribute.",
+      "facet": "It is not a mythological heaven but a heavy, oppressive ruin of basalt logs in the shallows. It physically embodies the burden of centralized theocracy, built explicitly to hold regional chiefs hostage.",
+      "provenance": "Oral histories of Pohnpei; archaeological surveys by William Ayres and J. Stephen Athens."
+    },
+    {
+      "id": "micronesian-saudeleur",
+      "kind": "ancestor",
+      "name": "The Saudeleur",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The dynasty of despotic priest-kings who unified Pohnpei. Originally foreign brothers Olisihpa and Olosohpa, they progressively degenerated into cruel tyrants who demanded exorbitant tribute, including the first fruits and human flesh, ultimately alienating the gods.",
+      "facet": "They represent a rare Oceanic archetype of the 'divine right' degenerating into demonic tyranny, remembered not as glorious ancestors but as a traumatic, oppressive epoch that had to be severed by divine intervention.",
+      "provenance": "Pohnpeian oral traditions recorded by Paul Hambruch (1936); Bernart Luelen's 'The Book of Luelen' (1977)."
+    },
+    {
+      "id": "micronesian-isokelekel",
+      "kind": "culture-hero",
+      "name": "Isokelekel",
+      "archetypes": [
+        "culture-hero",
+        "dragon-slayer"
+      ],
+      "gloss": "The legendary warrior and demigod who sailed to Pohnpei to overthrow the oppressive Saudeleur dynasty. He instituted the decentralized Nahnmwarki system of chiefdoms and titles that structures Pohnpeian society to this day.",
+      "facet": "He is both a liberator and a tragic figure of mortality. He defeats human tyranny through divine lineage, but his mandate is maintained through a deeply intricate system of decentralized feasting rather than centralized building.",
+      "provenance": "Bernart Luelen's 'The Book of Luelen' (1977); Gene Ashby's 'Pohnpei, An Island Argosy'."
+    },
+    {
+      "id": "micronesian-nahnisopwu",
+      "kind": "deity",
+      "name": "Nahnisopwu (The Thunder God)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The Pohnpeian deity of thunder who heard the cries of the oppressed people under the Saudeleur. He secretly impregnated an exiled Pohnpeian woman in Kosrae, fathering Isokelekel as a weapon of divine retribution.",
+      "facet": "He intervenes not with apocalyptic storms or floods, but by engineering a specific, cross-island human bloodline, marrying meteorological power to sociopolitical rebellion to dismantle a corrupt theocracy.",
+      "provenance": "Pohnpeian oral histories; 'The Book of Luelen'."
+    },
+    {
+      "id": "micronesian-olifat",
+      "kind": "deity",
+      "name": "Olifat (Yelafath / Olofat)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The supreme trickster of the Caroline Islands, son of the high god Lugeilan and a mortal woman. He frequently journeys between heaven and earth on a column of smoke, stealing fire for humanity and tormenting the heavenly spirits.",
+      "facet": "His trickery is brutally physical and openly subversive of the heavenly hierarchy, yet he is completely immune to punishment because his divine father endlessly resurrects him, embodying the disruptive necessity of chaos.",
+      "provenance": "Carolinian oral traditions collected by William Lessa in 'Tales from Ulithi Atoll' (1961)."
+    },
+    {
+      "id": "micronesian-aniti",
+      "kind": "ancestor",
+      "name": "Aniti / Maka",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The ancestral spirits of the Chamorro people, believed to inhabit the skulls of the deceased which were kept in homes and caves. They demanded fierce respect and mediated all access to fishing grounds, agriculture, and warfare.",
+      "facet": "They were not distant heavenly beings but visceral presences bound to their physical crania. Spanish colonizers deliberately crushed these skulls to break spiritual resistance, directly linking the bones to the island's sovereignty.",
+      "provenance": "Diego Luis de San Vitores (1668); Laura Thompson's 'Guam and Its People' (1947)."
+    },
+    {
+      "id": "micronesian-rai",
+      "kind": "concept",
+      "name": "Rai Stones",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Massive, circular limestone disks with central holes, quarried in Palau and transported by canoe to Yap. They serve as a sacred currency of prestige, exchanged during major social events like marriages, apologies, or alliances.",
+      "facet": "Their value lies entirely in the peril of their acquisition and the unbroken oral history of their ownership. Even stones that sank to the bottom of the sea retain their full value in the social ledger.",
+      "provenance": "William Henry Furness III's 'The Island of Stone Money' (1910); Cora Lee Gillilland."
+    }
+  ],
+  "edges": [
+    {
+      "a": "micronesian-puntan",
+      "b": "micronesian-fuuna",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The primordial brother and sister who cooperatively transform the universe from potentiality into physical, populated geography."
+    },
+    {
+      "a": "micronesian-saudeleur",
+      "b": "micronesian-nan-madol",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The despotic dynasty and the megalithic prison-city they built to enforce their absolute rule."
+    },
+    {
+      "a": "micronesian-saudeleur",
+      "b": "micronesian-isokelekel",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The entrenched tyrants of the old world order versus the divine liberator who shatters them."
+    },
+    {
+      "a": "micronesian-nahnisopwu",
+      "b": "micronesian-isokelekel",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The sky god of thunder and the demigod son he deliberately seeded to carry out terrestrial vengeance."
+    },
+    {
+      "a": "micronesian-puntan",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial cosmic being whose dismemberment generates the literal components of the physical universe."
+    },
+    {
+      "a": "micronesian-puntan",
+      "b": "primordial-sacrifice",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The willing, anatomical sacrifice that builds the architecture of the cosmos."
+    },
+    {
+      "a": "micronesian-fuuna",
+      "b": "changing-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme female creator who physically forms the first human beings directly from her own substance."
+    },
+    {
+      "a": "micronesian-fuuna",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The earth mother whose body becomes the literal terrestrial landscape humanity walks upon."
+    },
+    {
+      "a": "micronesian-olifat",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The subversive figure who crosses the boundary of heaven to steal fire for the benefit of humanity."
+    },
+    {
+      "a": "micronesian-olifat",
+      "b": "pnw-raven",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme trickster who shapes human destiny through deceit, magic, and relentless boundary-crossing."
+    },
+    {
+      "a": "micronesian-olifat",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A chaotic, half-mortal son who disrupts the divine assembly and torments the established gods."
+    },
+    {
+      "a": "micronesian-saudeleur",
+      "b": "lords-of-xibalba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Cruel, entrenched sovereigns who demand impossible, often lethal tribute from their subjugated populations."
+    },
+    {
+      "a": "micronesian-isokelekel",
+      "b": "naayee-neizghani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The warrior son of a sky deity explicitly dispatched to rid the world of monstrous oppressors."
+    },
+    {
+      "a": "micronesian-nahnisopwu",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A tempest god who impregnates a mortal woman to breed a hero capable of executing divine will on earth."
+    },
+    {
+      "a": "micronesian-nan-madol",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A meticulously constructed architectural center that serves as the inescapable pivot of the cosmic and political order."
+    },
+    {
+      "a": "micronesian-nan-madol",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The physical anchoring point of a society, bridging the spiritual authority of the rulers with the geography of the earth."
+    },
+    {
+      "a": "micronesian-aniti",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The immediate, household dead who remain fiercely involved in their descendants' affairs and require constant placation."
+    },
+    {
+      "a": "micronesian-aniti",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancestors functioning as localized guardians who mediate all moral boundaries and ecological access."
+    },
+    {
+      "a": "micronesian-rai",
+      "b": "cosmic-order",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A system where the universe's equilibrium is maintained not by deities, but by a strict, unbreakable ledger of social obligations."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "lithic-ledger",
+      "name": "The Lithic Ledger",
+      "subtype": "principle",
+      "gloss": "The encoding of oral history, social debt, and cosmic authority into monumental, immovable stone that anchors fleeting human memory.",
+      "reason": "Crucial for Oceanic and megalithic cultures where massive stone (Rai, Nan Madol, Moai) is the physical manifestation of abstract spiritual and political economies."
+    }
+  ]
+}

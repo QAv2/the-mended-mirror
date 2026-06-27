@@ -1,0 +1,237 @@
+{
+  "tradition": {
+    "id": "nation-of-islam-esoteric",
+    "name": "Esoteric Black-American Islam",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "nation-of-islam-esoteric-fard-muhammad",
+      "kind": "deity",
+      "name": "W.D. Fard (God in Person)",
+      "archetypes": [
+        "withdrawn-creator",
+        "culture-hero"
+      ],
+      "gloss": "The mysterious itinerant silk peddler who appeared in 1930s Detroit, teaching that he was the Supreme Being and the Great Mahdi. He imparted secret knowledge of humanity's true origins before vanishing entirely in 1934.",
+      "facet": "God is explicitly incarnational and radically humanized; he is not an invisible spirit but a physical Asiatic man who walked among the oppressed to trigger an eschatological awakening.",
+      "provenance": "Elijah Muhammad's 'Message to the Blackman in America' (1965); 'The Supreme Wisdom Lessons'."
+    },
+    {
+      "id": "nation-of-islam-esoteric-yacub",
+      "kind": "hero",
+      "name": "Yacub (The Big Head Scientist)",
+      "archetypes": [
+        "cosmic-adversary",
+        "smith"
+      ],
+      "gloss": "A brilliant but rebellious scientist who, 6,600 years ago on the island of Patmos, instituted a strict eugenics program to graft the white race out of the Original Black Nation, systematically stripping away their melanin and divine nature.",
+      "facet": "Demonology is strictly biological and historical. The 'devil' is not a fallen angel from a spiritual heaven, but a genetically engineered race designed to rule the earth for a fixed apocalyptic cycle of 6,000 years.",
+      "provenance": "Elijah Muhammad's 'Message to the Blackman in America' (1965)."
+    },
+    {
+      "id": "nation-of-islam-esoteric-original-man",
+      "kind": "ancestor",
+      "name": "The Original Man",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The Asiatic Black Man, cosmologically defined as the Maker, the Owner, the Cream of the Planet Earth, and Father of Civilization. He is the beginning and the end of the human narrative.",
+      "facet": "Primordial humanity is inherently racialized and divinized; the Original Man did not fall into sin requiring salvation, but rather fell into historical amnesia requiring esoteric re-education.",
+      "provenance": "'The Supreme Wisdom Lessons' (1930s)."
+    },
+    {
+      "id": "nation-of-islam-esoteric-supreme-mathematics",
+      "kind": "principle",
+      "name": "Supreme Mathematics",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "An esoteric system formalized by Clarence 13X where the digits 0-9 correspond to immutable divine realities (e.g., 1 is Knowledge, 7 is God, 9 is Born). It is the structural code used to read the universe.",
+      "facet": "Numbers are not mere quantitative tools but the literal, active building blocks of consciousness. Mastering them allows the initiate to 'show and prove' their own divinity in everyday street life.",
+      "provenance": "Teachings of Clarence 13X and the Five-Percent Nation (1960s)."
+    },
+    {
+      "id": "nation-of-islam-esoteric-mother-plane",
+      "kind": "place",
+      "name": "The Mother Plane (The Wheel)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A massive, heavily armed, wheel-like spacecraft built by original scientists. It orbits the earth and carries 1,500 smaller planes, waiting to unleash apocalyptic destruction on the wicked world order at the end of time.",
+      "facet": "It merges biblical prophetic visions with mid-century ufology and militarism, transforming the eschatological judgment from a spiritual event into a mechanized, aerial military intervention.",
+      "provenance": "Elijah Muhammad's 'The Fall of America' (1973)."
+    },
+    {
+      "id": "nation-of-islam-esoteric-noble-drew-ali",
+      "kind": "hero",
+      "name": "Noble Drew Ali",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The visionary founder of the Moorish Science Temple who taught that Black Americans are 'Asiatics' and 'Moors' descended from Moroccans, bearing a suppressed Islamic heritage and a sovereign nationality.",
+      "facet": "He subverted the American racial caste system by offering an esoteric civic identity, replacing the socially subjugated label 'Negro' with an ancient, noble Moorish nationality rooted in divine law.",
+      "provenance": "'Holy Koran of the Moorish Science Temple of America' (Circle Seven Koran, 1927)."
+    },
+    {
+      "id": "nation-of-islam-esoteric-five-percent",
+      "kind": "concept",
+      "name": "The Five Percent (Poor Righteous Teachers)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The enlightened 5% of humanity who know the truth of the Original Man and teach it, standing against the 85% who are blind and the 10% who hoard knowledge to exploit the masses.",
+      "facet": "It creates a strict epistemological caste system based entirely on esoteric awakening rather than wealth, race, or birth, placing the burden of cosmic salvation on a highly disciplined, street-level vanguard.",
+      "provenance": "The 120 Lessons; Teachings of the Five-Percent Nation."
+    },
+    {
+      "id": "nation-of-islam-esoteric-allah",
+      "kind": "concept",
+      "name": "A.L.L.A.H. (Arm, Leg, Leg, Arm, Head)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "An acronym interpreting the very anatomy of the Black man as the living manifestation of the Supreme Being. The physical body itself is the sacred geometry of the divine.",
+      "facet": "It completely collapses theology into anthropology. There is no 'mystery God' in the sky; divinity is achieved and localized entirely within the realized human form.",
+      "provenance": "Teachings of Clarence 13X and the Five-Percent Nation (1960s)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "nation-of-islam-esoteric-yacub",
+      "b": "nation-of-islam-esoteric-original-man",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: Yacub utilizes eugenics to literally reverse the genetic and spiritual polarity of the Original Man, breeding a physically oppositional race."
+    },
+    {
+      "a": "nation-of-islam-esoteric-allah",
+      "b": "nation-of-islam-esoteric-fard-muhammad",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: Clarence 13X bridged the NOI concept of God from a specific historical figure (Fard) to the universalized, awakened Black man (A.L.L.A.H.)."
+    },
+    {
+      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "b": "nation-of-islam-esoteric-noble-drew-ali",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: Fard historically absorbed and mutated the esoteric 'Asiatic' identity and Moorish cosmological frameworks established earlier by Noble Drew Ali."
+    },
+    {
+      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Elijah Muhammad explicitly identified W.D. Fard as the incarnate fulfillment of the biblical Jehovah, the Long-Awaited Messiah."
+    },
+    {
+      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Fard is theologically identified as the returning Son of Man from the New Testament, collapsing Christian eschatology into his physical arrival in Detroit."
+    },
+    {
+      "a": "nation-of-islam-esoteric-yacub",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both figures serve as the architect of a corrupted counter-creation; Angra Mainyu creates pests and death, while Yacub grafts the 'devil' race."
+    },
+    {
+      "a": "nation-of-islam-esoteric-yacub",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Like the Gnostic Demiurge, Yacub is a rogue, localized creator whose artificial genesis traps humanity in a cycle of ignorance and material oppression."
+    },
+    {
+      "a": "nation-of-islam-esoteric-yacub",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are highly intelligent but spiritually rebellious actors who isolate themselves to improperly engineer creation, bringing chaos to the original harmony."
+    },
+    {
+      "a": "nation-of-islam-esoteric-original-man",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit an original, uncorrupted divine essence currently trapped or suppressed within a hostile world system, awaiting esoteric realization."
+    },
+    {
+      "a": "nation-of-islam-esoteric-original-man",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Original Man is defined as the 'Maker' and 'Owner', possessing an innate, self-generating creative power functionally analogous to the Memphite demiurge."
+    },
+    {
+      "a": "nation-of-islam-esoteric-supreme-mathematics",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Five-Percent Nation's mathematics mirrors Hermeticism: every single physical number and letter corresponds flawlessly to an active, cosmic spiritual principle."
+    },
+    {
+      "a": "nation-of-islam-esoteric-supreme-mathematics",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a comprehensive, revealed system of interpreting mundane physical data to decode the explicit will and order of the cosmos."
+    },
+    {
+      "a": "nation-of-islam-esoteric-mother-plane",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Mother Plane is a mechanized reinterpretation of Ezekiel's biblical vision, transforming the divine chariot of God into a literal, apocalyptic spacecraft."
+    },
+    {
+      "a": "nation-of-islam-esoteric-mother-plane",
+      "b": "cyclic-ages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The vessel exists to definitively conclude the 6,000-year cycle of Yacub's grafted world, mechanizing the apocalyptic reset of a cosmic age."
+    },
+    {
+      "a": "nation-of-islam-esoteric-noble-drew-ali",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Visionary syncretists who explicitly drew from diverse regional faiths to synthesize an entirely new, culturally specific esoteric identity and scripture."
+    },
+    {
+      "a": "nation-of-islam-esoteric-allah",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both systems completely anthropomorphize cosmic reality, mapping the fundamental shape and potential of the universe directly onto the idealized human anatomy."
+    },
+    {
+      "a": "nation-of-islam-esoteric-allah",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The 'Arm Leg Leg Arm Head' doctrine conceptualizes the Supreme Being structurally as a Cosmic Man, much like the Vedic Purusha whose body comprises the universe."
+    },
+    {
+      "a": "nation-of-islam-esoteric-five-percent",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The enlightened Five Percent operate as the realized fullness of divine truth within an ignorant world, holding the cosmological knowledge required to restore universal balance."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "anthropocentric-divinity",
+      "name": "Anthropocentric Divinity",
+      "subtype": "principle",
+      "gloss": "The doctrine that God is not an invisible, formless spirit, but is literally and exclusively manifest in the perfected physical human form.",
+      "reason": "Captures traditions that radically reject invisible spirits in favor of a materialized, divinized human body (e.g., esoteric NOI, some strands of Mormonism, Moorish Science)."
+    }
+  ]
+}

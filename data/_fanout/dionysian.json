@@ -1,0 +1,214 @@
+{
+  "tradition": {
+    "id": "dionysian",
+    "name": "Dionysian / Bacchic Mysteries",
+    "region": "Greece → Italy",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "dionysian-zagreus",
+      "kind": "deity",
+      "name": "Dionysus Zagreus",
+      "archetypes": [
+        "dying-rising",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The first-born, chthonic incarnation of Dionysus, fathered by Zeus in serpent form. While playing with toys and a mirror, the infant was ambushed, dismembered, and devoured by the Titans. Only his beating heart was saved by Athena to allow his subsequent rebirth.",
+      "facet": "He anchors a deeply trauma-based theogony. Humanity is born from the soot of his incinerated murderers, condemning mortals to a dual nature: a Titanic inheritance of base guilt, redeemed only by the divine Bacchic spark hidden within.",
+      "provenance": "Nonnus, 'Dionysiaca'; Orphic Fragments; Clement of Alexandria, 'Protrepticus'. (Orphic origins heavily reconstructed by modern scholarship)."
+    },
+    {
+      "id": "dionysian-mania",
+      "kind": "force",
+      "name": "Mania (Divine Madness)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The profound, terrifying psychological possession inflicted directly by the god. It strips away civic identity, gender constraints, and rational restraint, replacing them with a primal, collective ecstasy that drives worshippers out of the city and into the wild mountains.",
+      "facet": "It frames insanity not as a medical or moral failing, but as a mandatory, temporary dissolution of the ego required to commune with the divine. To resist the madness is to court utter destruction.",
+      "provenance": "Euripides, 'The Bacchae'; Plato, 'Phaedrus'; Plutarch, 'Life of Alexander'."
+    },
+    {
+      "id": "dionysian-sparagmos",
+      "kind": "rite",
+      "name": "Sparagmos and Omophagia",
+      "archetypes": [
+        "primordial-sacrifice",
+        "one-through-many"
+      ],
+      "gloss": "The culminating, violent ritual of the Bacchic frenzy: the bare-handed rending of a living sacrificial animal, typically a bull, goat, or fawn, and the immediate omophagia (eating) of its raw, bloody flesh.",
+      "facet": "By consuming raw, unbutchered flesh, the initiate bypasses the cooked, highly structured sacrifices of the Olympian polis. It is an intimate, terrifying ingestion of the god's pure, unmediated life-force.",
+      "provenance": "Euripides, 'The Bacchae'; Firmicus Maternus, 'De Errore'; Arnobius, 'Adversus Nationes'."
+    },
+    {
+      "id": "dionysian-liknon",
+      "kind": "concept",
+      "name": "The Liknon (Mystic Winnowing Fan)",
+      "archetypes": [
+        "world-egg",
+        "axis-mundi"
+      ],
+      "gloss": "An agricultural winnowing basket repurposed in the mysteries as a sacred receptacle. Carried in initiation processions, it cradled the symbolic infant Dionysus alongside a phallus concealed beneath a mound of fresh fruit and leaves.",
+      "facet": "It radically conflates agricultural purification, separating wheat from chaff, with spiritual rebirth and sexual potency, making the mundane tool of the harvest a direct vehicle for the cyclical awakening of the immortal soul.",
+      "provenance": "Plutarch, 'Isis and Osiris'; Servius on Virgil's 'Georgics'; Hellenistic terracotta reliefs and sarcophagi."
+    },
+    {
+      "id": "dionysian-gold-tablets",
+      "kind": "rite",
+      "name": "The Orphic-Bacchic Gold Tablets",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "Thin gold foils inscribed with hexameter verses, folded and interred with Bacchic-Orphic initiates. They serve as mnemonic passports for the dead, giving precise geographical directions to navigate Hades and passwords to declare divine lineage to Persephone.",
+      "facet": "They transform the Greek afterlife from a bleak, amnesiac shadow-realm into a solvable geography. Salvation is achieved not primarily through lifelong moral goodness, but by ritual initiation and the secret mastery of underworld cartography.",
+      "provenance": "Thurii, Hipponion, and Petelia tablets; Pelinna ivy-shaped leaves. (Dating from the 5th century BCE onwards)."
+    },
+    {
+      "id": "dionysian-thyrsus",
+      "kind": "concept",
+      "name": "The Thyrsus",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The mandatory badge of the Bacchante: a stalk of giant fennel wound with ivy and tipped with a pine cone. It is carried during ecstatic dances, dripping with honey and said to draw milk or wine directly from the earth.",
+      "facet": "It utterly subverts traditional heroic weaponry. A fragile, hollow plant stem becomes an instrument of spontaneous ecological miracles and, when wielded in divine frenzy, a weapon capable of shattering bronze armor and repelling armies.",
+      "provenance": "Euripides, 'The Bacchae'; Diodorus Siculus; extensive Attic vase painting and statuary."
+    },
+    {
+      "id": "dionysian-ariadne",
+      "kind": "hero",
+      "name": "Ariadne",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The mortal Minoan princess who guided Theseus through the labyrinth, only to be abandoned on Naxos. Discovered there by Dionysus and his wild retinue, she is elevated from a despairing exile into his immortal, divine bride.",
+      "facet": "She serves as the ultimate paradigm for the Bacchic initiate: the abandoned, grieving soul whose deepest earthly suffering and betrayal become the exact prerequisites for divine rescue, ecstatic awakening, and apotheosis.",
+      "provenance": "Hesiod, 'Theogony'; Ovid, 'Metamorphoses'; Catullus 64; Pausanias."
+    }
+  ],
+  "edges": [
+    {
+      "a": "dionysian-zagreus",
+      "b": "dionysus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Intra-cultural syncretism: The mystery cult's dismembered infant directly identified with the mainstream Olympian god of wine."
+    },
+    {
+      "a": "dionysian-zagreus",
+      "b": "osiris",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly syncretized by Hellenistic writers like Plutarch, who recognized the identical pattern of a dismembered, resurrected sovereign."
+    },
+    {
+      "a": "dionysian-zagreus",
+      "b": "shiva",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Historically syncretized by ancient Greek ambassadors like Megasthenes, who explicitly identified the ecstatic, mountain-dwelling Lord of Dance with Dionysus."
+    },
+    {
+      "a": "dionysian-sparagmos",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ritual tearing of living flesh to intimately consume the divine essence, bypassing symbolic abstraction for terrifying, physical communion."
+    },
+    {
+      "a": "dionysian-mania",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deliberate use of rhythmic exhaustion and collective frenzy to shatter ordinary consciousness and enter the spirit realm."
+    },
+    {
+      "a": "dionysian-gold-tablets",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central saving revelation that the initiate's true, secret identity is entirely divine, trapped temporarily within a mortal, bodily tomb."
+    },
+    {
+      "a": "dionysian-ariadne",
+      "b": "persephone",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Ariadne frequently functions as the chthonic bride in Bacchic contexts, mirroring and sometimes fully absorbing Persephone's role."
+    },
+    {
+      "a": "dionysian-gold-tablets",
+      "b": "charon",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The tablets exist specifically to instruct the initiate on how to bypass or properly address the traditional Greek underworld guardians."
+    },
+    {
+      "a": "dionysian-liknon",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An agricultural storage and processing vessel elevated to a profound cosmic diagram, harboring the seeds of both literal and spiritual rebirth."
+    },
+    {
+      "a": "dionysian-zagreus",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The foundational concept of humanity containing fragments of divine light (the devoured god) trapped within inherently evil, Titanic matter."
+    },
+    {
+      "a": "dionysian-mania",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fierce, overwhelming descent of the god into the human vessel, overriding their mundane self to act with unbridled divine authority."
+    },
+    {
+      "a": "dionysian-zagreus",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial divine being whose violent dismemberment provides the raw material and spiritual substrate for humanity's genesis."
+    },
+    {
+      "a": "dionysian-ariadne",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The perilous descent into an underworld or labyrinth that results in a transformative, triumphant re-emergence as an elevated Queen."
+    },
+    {
+      "a": "dionysian-mania",
+      "b": "dionysian-sparagmos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The psychological shattering of the ego perfectly mirrored by the physical tearing of the sacrificial victim."
+    },
+    {
+      "a": "dionysian-zagreus",
+      "b": "dionysian-gold-tablets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The divine murder provides the mythological cause for humanity's guilt; the tablets provide the ritual cure."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "mystery-initiation",
+      "name": "Mystery Initiation",
+      "subtype": "rite",
+      "gloss": "A voluntary, highly secretive ritual process that radically alters the participant's ontological status, promising salvation or privilege in the afterlife independent of civic or state religion.",
+      "reason": "Crucial for mapping the Greco-Roman mystery cults (Bacchic, Eleusinian, Mithraic) and differentiating them from civic cults. It highlights traditions where salvation requires personal transmission rather than public sacrifice."
+    },
+    {
+      "id": "sacred-intoxication",
+      "name": "Sacred Intoxication",
+      "subtype": "concept",
+      "gloss": "The deliberate ritual use of psychoactive substances, wine, or trance-inducing rhythms to bypass the rational mind and achieve unmediated communion with the divine.",
+      "reason": "Necessary to connect the Bacchic use of wine, the Vedic Soma/Haoma, and various indigenous entheogenic traditions, distinguishing chemically or rhythmically induced possession from mere ecstatic shamanic flight."
+    }
+  ]
+}

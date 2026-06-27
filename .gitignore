@@ -5,3 +5,6 @@ _render_*.png
 _scroll_*.png
 .aider*
 session-context/
+
+# LibreOffice lock files
+.~lock.*#

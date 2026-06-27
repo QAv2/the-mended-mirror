@@ -1,0 +1,247 @@
+{
+  "tradition": {
+    "id": "vodou-haitian",
+    "name": "Haitian Vodou",
+    "region": "Haiti",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "vodou-haitian-bondye",
+      "kind": "deity",
+      "name": "Bondyé (The Good God)",
+      "archetypes": [
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The supreme, benevolent creator of the universe. Though acknowledged as the ultimate source of all existence and destiny, he is infinitely distant, having withdrawn from the chaotic, day-to-day affairs of the material world.",
+      "facet": "Because he is too vast and remote to be moved by human suffering, Vodouists do not invoke him directly in ritual or offer him sacrifices; all active spiritual intercession is strictly delegated to the Lwa.",
+      "provenance": "Syncretism of French Catholic theology ('Bon Dieu') with West African high gods (Mawu, Olodumare); ethnographic studies by Leslie Desmangles."
+    },
+    {
+      "id": "vodou-haitian-legba",
+      "kind": "deity",
+      "name": "Papa Legba (Opener of the Gate)",
+      "archetypes": [
+        "psychopomp",
+        "axis-mundi"
+      ],
+      "gloss": "The elder guardian of the cosmic crossroads and the spiritual gates. In every Vodou ceremony, he must be saluted and invoked first, as he holds the singular power to open the barrier between the human realm and Vilokan (the spirit world).",
+      "facet": "Evolving from the phallic, youthful trickster of West Africa, Haiti's Legba became a frail, limping old man leaning on a crutch—bearing the deep historical trauma and physical scars of the Middle Passage and enslavement.",
+      "provenance": "Fon and Yoruba oral traditions; syncretized universally with St. Peter or St. Lazarus; Maya Deren's 'Divine Horsemen'."
+    },
+    {
+      "id": "vodou-haitian-baron-samedi",
+      "kind": "deity",
+      "name": "Baron Samedi (Master of the Cemetery)",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The raucous, obscenity-shouting master of the cemetery, death, and regeneration. Dressed in undertaker's tails, dark glasses, and a top hat, he leads the Gede family of spirits, demanding rum infused with hot peppers and dancing with unbridled sexual energy.",
+      "facet": "He is not a grim, terrifying reaper but an agent of fierce social critique and obscene humor. By mocking the elite and asserting the undeniable truths of sex and death, he acts as the ultimate equalizer in a historically traumatized society.",
+      "provenance": "Endemic to the Haitian experience, merging Central African (Kongo) ancestral practices with European Masonic and mortuary aesthetics."
+    },
+    {
+      "id": "vodou-haitian-damballah",
+      "kind": "deity",
+      "name": "Damballah-Wèdo (The Cosmic Serpent)",
+      "archetypes": [
+        "cosmic-serpent",
+        "first-ancestor"
+      ],
+      "gloss": "The immense, primordial cosmic serpent whose coiled body holds the earth together and who moves through the waters of creation. Associated with blinding whiteness, peace, and ultimate purity, he represents the oldest layers of existence.",
+      "facet": "Damballah is so ancient and fundamentally pure that he possesses no articulate speech. When he mounts a horse (initiate), he does not talk; he only hisses, slithers on the ground, and seeks water or raw eggs, embodying an uncorrupted African antiquity.",
+      "provenance": "Direct descendant of the Dangbé snake cult of Ouidah (Fon); historically syncretized with St. Patrick or Moses."
+    },
+    {
+      "id": "vodou-haitian-erzulie",
+      "kind": "deity",
+      "name": "Erzulie (Spirit of Love and Sorrow)",
+      "archetypes": [
+        "great-mother",
+        "mother-of-waters"
+      ],
+      "gloss": "The profoundly complex spirit of love, beauty, and womanhood. She manifests most famously as Freda, a hyper-feminine, weeping spirit who adores luxury, and as Dantor, a fierce, dark-skinned, knife-wielding single mother who ruthlessly protects her children.",
+      "facet": "Erzulie embodies the fractured femininity of the plantation. Freda weeps because her desire for perfection is permanently thwarted by reality, while Dantor's muteness traces to the trauma of the Revolution. Both are avatars of profound historical grief.",
+      "provenance": "Dahomean water spirits merged with Catholic Mariology; syncretized with Mater Dolorosa (Freda) and the Black Madonna of Częstochowa (Dantor)."
+    },
+    {
+      "id": "vodou-haitian-ogou",
+      "kind": "deity",
+      "name": "Ogou (Lord of Iron and War)",
+      "archetypes": [
+        "smith",
+        "culture-hero"
+      ],
+      "gloss": "The aggressive, machete-wielding Lwa of iron, warfare, political power, and fire. He is the blacksmith who forged the tools of civilization and the general who leads the defense of the nation against tyranny.",
+      "facet": "In the Haitian context, Ogou absorbed the specific iconography and ultimate betrayal of the Revolution. To demonstrate that raw military power inevitably destroys itself, he often turns his violence inward, ritually stabbing or burning himself during possession.",
+      "provenance": "The Yoruba Orisha Ogun and Fon Gu; heavily influenced by the Haitian Revolutionary armies and syncretized with St. James the Greater."
+    },
+    {
+      "id": "vodou-haitian-poto-mitan",
+      "kind": "place",
+      "name": "Poto-mitan (The Center Post)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The physical and spiritual center post of the Vodou peristyle (temple). It serves as the cosmic antenna, the exact vertical pathway along which the Lwa descend from their underwater homeland of Vilokan to enter the bodies of the faithful.",
+      "facet": "It grounds abstract mythology into tangible architecture. Without this specific, consecrated column of wood or concrete planted in the earth, the geometry of possession collapses; the spiritual world cannot intersect with the physical courtyard.",
+      "provenance": "Foundational Haitian temple geometry; informed by the Kongo dikenga cosmogram and West African sacred enclosures; Maya Deren's 'Divine Horsemen'."
+    },
+    {
+      "id": "vodou-haitian-chwal",
+      "kind": "rite",
+      "name": "Riding the Chwal (Possession)",
+      "archetypes": [
+        "divine-embodiment",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The phenomenon of divine possession, literally translating as 'the horse'. In this supreme act of devotion, a human's soul (gwo bon anj) is temporarily displaced so that a Lwa can physically inhabit and pilot their body.",
+      "facet": "This is an act of total ontological surrender. The human vessel retains absolute amnesia of the event; the Lwa does not merely inspire them, it hijacks their flesh, proving that the gods are physically present and willing to sweat with their people.",
+      "provenance": "Core praxis of Haitian Vodou; documented extensively by Alfred Métraux in 'Voodoo in Haiti'."
+    },
+    {
+      "id": "vodou-haitian-rada-petwo",
+      "kind": "concept",
+      "name": "Rada and Petwo Nanchons",
+      "archetypes": [
+        "dualism",
+        "complementarity"
+      ],
+      "gloss": "The foundational categorization of the Lwa into two distinct nations. The Rada spirits are ancient, sweet, and cool, hailing directly from Africa, whereas the Petwo spirits are hot, aggressive, and forged in the fire of the New World.",
+      "facet": "This is not a European dualism of good and evil, but a thermodynamic reality of survival. The gentle Rada spirits could comfort the enslaved, but it required the volatile, explosive power of the Petwo spirits to actually break the chains.",
+      "provenance": "Haitian oral history, specifically the foundational narrative of the 1791 Bois Caïman ceremony."
+    }
+  ],
+  "edges": [
+    {
+      "a": "vodou-haitian-legba",
+      "b": "vodou-haitian-poto-mitan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Legba holds the metaphysical keys to the gates, but the poto-mitan is the physical highway he opens for the spirits to descend."
+    },
+    {
+      "a": "vodou-haitian-rada-petwo",
+      "b": "vodou-haitian-chwal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The thermodynamic 'temperature' of the Lwa—cool Rada or hot Petwo—determines the violence, rhythm, and physical toll exacted upon the human horse during possession."
+    },
+    {
+      "a": "vodou-haitian-legba",
+      "b": "fon-legba",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: A direct historical and theological continuation of the Dahomean crossroad deity, softened into an elder in the Caribbean."
+    },
+    {
+      "a": "vodou-haitian-legba",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Shares the exact West African origin as the Yoruba gatekeeper, retaining the absolute monopoly over cosmic communication."
+    },
+    {
+      "a": "vodou-haitian-ogou",
+      "b": "ogun",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Yoruba lord of iron transplanted intact, though in Haiti he dons a general's uniform to fight the revolution."
+    },
+    {
+      "a": "vodou-haitian-ogou",
+      "b": "fon-gu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Retains the exact Dahomean attributes of war, fire, and the path-clearing machete."
+    },
+    {
+      "a": "vodou-haitian-damballah",
+      "b": "fon-dan-ayida",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The ancient python of Ouidah, preserving an unbroken, amniotic lineage back to the African source."
+    },
+    {
+      "a": "vodou-haitian-damballah",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are primordial, water-associated serpents representing the ancient, continuous flow of life and cosmic architecture."
+    },
+    {
+      "a": "vodou-haitian-bondye",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Catholic God absorbed completely into the Vodou cosmology as the ultimate, albeit withdrawn, creator."
+    },
+    {
+      "a": "vodou-haitian-bondye",
+      "b": "fon-mawu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Dahomean transcendent creator mapped seamlessly onto the French Catholic God."
+    },
+    {
+      "a": "vodou-haitian-baron-samedi",
+      "b": "mictlantecuhtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Skeletal lords of the dead who fuse macabre terror with a profound, leveling cosmic inevitability."
+    },
+    {
+      "a": "vodou-haitian-poto-mitan",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both act as the vital vertical axis structurally connecting the underworld, earth, and heavens."
+    },
+    {
+      "a": "vodou-haitian-poto-mitan",
+      "b": "dikenga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Congolese cosmogram directly informs the spatial and spiritual geometry of the Haitian peristyle and the intersecting planes of existence."
+    },
+    {
+      "a": "vodou-haitian-rada-petwo",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A fundamental, non-moral dualism mapping the universe into complementary forces—cool/ancient versus hot/kinetic."
+    },
+    {
+      "a": "vodou-haitian-chwal",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Religious systems where the supreme ritual act requires human vessels to be physically inhabited and piloted by the gods."
+    },
+    {
+      "a": "vodou-haitian-erzulie",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Complex, tempestuous spirits encompassing the terrifying extremes of both boundless desire and devastating wrath."
+    },
+    {
+      "a": "vodou-haitian-baron-samedi",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereigns of the dead who command immense respect and fear, ruling an inescapable subterranean domain."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-embodiment",
+      "name": "Divine Embodiment",
+      "subtype": "rite",
+      "gloss": "A highly structured ritual technology where a human initiate serves as a living, physical vessel for a deity, permanently or temporarily altering their ontology.",
+      "reason": "Essential for possession-trance religions (Haitian Vodou, Candomblé, Korean Muism) where gods physically mount and 'ride' initiates, going beyond mere ecstatic flight or abstract worship."
+    }
+  ]
+}

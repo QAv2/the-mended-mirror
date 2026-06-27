@@ -1,0 +1,213 @@
+{
+  "tradition": {
+    "id": "goddess-movement",
+    "name": "Goddess Movement / feminist witchcraft",
+    "region": "USA / UK",
+    "color": "#6aa06a"
+  },
+  "figures": [
+    {
+      "id": "goddess-movement-great-goddess",
+      "kind": "deity",
+      "name": "The Great Goddess (The Triple Goddess)",
+      "archetypes": [
+        "great-mother",
+        "lunar"
+      ],
+      "gloss": "The supreme, all-encompassing feminine divine, frequently conceptualized as a triple deity (Maiden, Mother, Crone) reflecting lunar phases and female life cycles. She is the creative matrix of the cosmos and the earth itself.",
+      "facet": "Unlike ancient polytheistic goddesses governing specific domains, she is elevated to a panentheistic supreme being, structurally replacing the Abrahamic God while merging psychological archetype with feminist empowerment.",
+      "provenance": "Robert Graves' 'The White Goddess' (1948); codified by modern thealogians like Carol P. Christ and Starhawk."
+    },
+    {
+      "id": "goddess-movement-horned-god",
+      "kind": "deity",
+      "name": "The Horned God",
+      "archetypes": [
+        "master-of-animals",
+        "dying-rising"
+      ],
+      "gloss": "The masculine polarity to the Great Goddess, associated with the wild, the hunt, virility, and the life-death-rebirth cycle of the sun and vegetation. He willingly dies and is reborn from the Goddess's womb.",
+      "facet": "He subverts traditional patriarchal supremacy by acting as a willing, sacrificial consort rather than a ruling sky-father. His power is instinctual and vulnerable, bound entirely to the seasons.",
+      "provenance": "Margaret Murray's 'The Witch-Cult in Western Europe' (1921); adapted by Gerald Gardner and refined by Dianic and Reclaiming traditions."
+    },
+    {
+      "id": "goddess-movement-drawing-down-moon",
+      "kind": "rite",
+      "name": "Drawing Down the Moon",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "A central ecstatic ritual where a practitioner, typically a High Priestess, invokes the spirit of the Great Goddess directly into her physical body, entering a trance state to speak and act as the incarnate deity.",
+      "facet": "It dramatically democratizes divine revelation. The practitioner does not channel a distant message but temporarily becomes the living, breathing locus of the Goddess's physical presence on earth.",
+      "provenance": "Adapted from ancient Thessalian witchcraft traditions by Gerald Gardner; popularized sociologically by Margot Adler's 1979 book 'Drawing Down the Moon'."
+    },
+    {
+      "id": "goddess-movement-thealogy",
+      "kind": "concept",
+      "name": "Thealogy",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The academic and spiritual reflection upon the feminine divine. It centers women's lived experiences, bodily autonomy, and ecological interconnectedness as the primary sacred texts for understanding divinity.",
+      "facet": "It explicitly rejects traditional theology as a patriarchal, transcendental framework, insisting that divinity must be grounded in female biology and earthly immanence rather than abstract, disembodied otherworldliness.",
+      "provenance": "Coined by Naomi Goldenberg in 1979; heavily developed by feminist scholars like Carol P. Christ ('Why Women Need the Goddess') and Melissa Raphael."
+    },
+    {
+      "id": "goddess-movement-wheel-of-year",
+      "kind": "concept",
+      "name": "The Wheel of the Year",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "An eight-fold cyclical calendar tracking the solstices, equinoxes, and cross-quarter agricultural days. It maps the seasonal cycles to the mythic narrative of the Goddess's fertility and the God's continuous cycle of birth, death, and rebirth.",
+      "facet": "It constructs a unified, pan-European indigenous rhythm out of disparate ancient Celtic and Germanic festivals, functioning as a vital pedagogical tool to reconnect modern urbanites with the physical earth.",
+      "provenance": "Synthesized in the 1950s by Gerald Gardner and Ross Nichols; thoroughly adopted and ecofeminized by modern Neopagan and Goddess practitioners."
+    },
+    {
+      "id": "goddess-movement-immanence",
+      "kind": "principle",
+      "name": "Divine Immanence",
+      "archetypes": [
+        "one-through-many",
+        "divine-immanence"
+      ],
+      "gloss": "The foundational ontological principle that the Goddess is not outside or above the material world, but is the living world itself. The cosmos, the ecosphere, and human bodies are the literal flesh of the divine.",
+      "facet": "It aggressively dismantles the Abrahamic creator-creation binary. Because the world is divine flesh, ecological destruction is viewed as literal desecration, transforming political environmentalism into a strict religious duty.",
+      "provenance": "Starhawk's 'The Spiral Dance' (1979) and ecofeminist thealogians like Charlene Spretnak."
+    },
+    {
+      "id": "goddess-movement-spiral-dance",
+      "kind": "rite",
+      "name": "The Spiral Dance",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "Both a profound symbol of cosmic unfolding and a literal group dance. The spiral represents the labyrinthine journey of life, death, and rebirth, moving inward to the self and outward to the collective cosmos.",
+      "facet": "Contrasting the straight line of patriarchal, teleological progress, the spiral demands a return to the origin, validating cyclic time and embodied, collective movement over solitary, ascetic contemplation.",
+      "provenance": "Inspired by Neolithic petroglyphs; popularized as the central communal rite of feminist witchcraft by Starhawk's foundational 1979 manual."
+    }
+  ],
+  "edges": [
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "goddess-movement-horned-god",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: They form a complementary, non-hierarchical dyad of feminine cosmic matrix and masculine sacrificial consort."
+    },
+    {
+      "a": "goddess-movement-drawing-down-moon",
+      "b": "goddess-movement-great-goddess",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The central rite through which the abstract Goddess is rendered physically immanent and socially accessible."
+    },
+    {
+      "a": "goddess-movement-immanence",
+      "b": "goddess-movement-thealogy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Immanence serves as the foundational ontological axiom upon which all modern thealogy builds its ethical and structural arguments."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "isis",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Modern feminist witchcraft explicitly bridges its practice to antiquity by invoking Isis as a primary, living face of the Great Goddess in ritual chants."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "demeter",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The movement directly reclaims the Eleusinian Demeter-Persephone mythos as a core narrative of mother-daughter empowerment and seasonal rebirth."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "inanna",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Inanna's descent into the underworld is actively utilized by traditions like Reclaiming as the foundational myth of shadow-work and feminine initiation."
+    },
+    {
+      "a": "goddess-movement-horned-god",
+      "b": "dionysus",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Dionysus is frequently syncretized into the modern Horned God archetype, bridging ancient Greek ecstasy with contemporary Neopagan rituals of wild, untamed masculinity."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the earth itself as a deeply immanent, sacred feminine principle that demands ethical stewardship and reciprocity from humans."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both figures embody the dual, terrifyingly fertile nature of the earth, holding the inseparable powers of both creation and destruction within the feminine."
+    },
+    {
+      "a": "goddess-movement-great-goddess",
+      "b": "changing-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a divine feminine matrix inextricably linked to the cyclic aging process of nature, constantly renewing themselves without a male creator."
+    },
+    {
+      "a": "goddess-movement-horned-god",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are classic pastoral dying-and-rising consorts whose vitality and sacrificial descent are bound to the agricultural fertility of the sovereign Goddess."
+    },
+    {
+      "a": "goddess-movement-immanence",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an underlying, non-personified cosmic matrix that flows through and constitutes all natural phenomena, explicitly rejecting external creator-deities."
+    },
+    {
+      "a": "goddess-movement-immanence",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both assert an animating spiritual force or sacredness that permeates all things, placing humans within a living web of ecological agency rather than above it."
+    },
+    {
+      "a": "goddess-movement-wheel-of-year",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both conceptualize time not as a linear progression toward eschatology, but as an endlessly revolving wheel that governs the physical cycles of the cosmos."
+    },
+    {
+      "a": "goddess-movement-drawing-down-moon",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both center on the spiritual authority of women actively entering profound trance states to become the direct, physical vessels for divine presence and speech."
+    },
+    {
+      "a": "goddess-movement-drawing-down-moon",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rely on the understanding that divine feminine power is a visceral, immanent force that can possess, indwell, and physically move through the human body."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-immanence",
+      "name": "Divine Immanence",
+      "subtype": "principle",
+      "gloss": "The foundational claim that divinity is inextricably embedded within the material world, nature, and physical bodies, rather than transcending it.",
+      "reason": "Necessary to distinguish panentheistic, earth-centered ontology from 'world-parents' or 'great-mother' deities, capturing the spiritualization of the ecosphere itself."
+    }
+  ]
+}

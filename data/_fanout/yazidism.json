@@ -1,0 +1,246 @@
+{
+  "tradition": {
+    "id": "yazidism",
+    "name": "Yazidism (Êzidî)",
+    "region": "Kurdistan (Lalish)",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "yazidism-xwede",
+      "kind": "deity",
+      "name": "Xwedê (The Supreme Creator)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The absolute, supreme creator who forged the cosmos and then withdrew, delegating its administration to the Heptad. Xwedê is entirely ineffable, wholly good, and removed from the direct, daily governance of human affairs.",
+      "facet": "Lacks any opposing cosmic adversary. Yazidism fundamentally rejects dualistic evil; because Xwedê is omnipotent and perfectly good, a sovereign entity of evil (like Satan) cannot logically exist in this cosmology.",
+      "provenance": "Oral Qewls (sacred hymns); historically aligned with broader ancient Near Eastern monotheisms."
+    },
+    {
+      "id": "yazidism-tawuse-melek",
+      "kind": "deity",
+      "name": "Tawûsê Melek (The Peacock Angel)",
+      "archetypes": [
+        "culture-hero",
+        "one-through-many"
+      ],
+      "gloss": "The chief of the Seven Holy Beings and the active executor of the cosmos. When Xwedê commanded the angels to bow to newly created Adam, Tawûsê Melek refused, honoring a prior command to bow to none but God.",
+      "facet": "His refusal was a triumphant test of strict monotheistic loyalty, not a rebellion. He is a perfectly devoted servant whose tears of remorse for any perceived friction extinguished the fires of Hell, rendering Abrahamic 'fallen angel' accusations tragic misunderstandings.",
+      "provenance": "Mishefa Reş (Black Book); Kitêba Cilwe (Book of Revelation)."
+    },
+    {
+      "id": "yazidism-sheikh-adi",
+      "kind": "hero",
+      "name": "Şêx Adî ibn Musafir",
+      "archetypes": [
+        "culture-hero",
+        "axis-mundi"
+      ],
+      "gloss": "A 12th-century Sufi mystic who reformed and codified the Yazidi faith, establishing its strict caste system. He is revered by the community not merely as a mortal teacher, but as an earthly manifestation or avatar of Tawûsê Melek.",
+      "facet": "He represents the ultimate survival synthesis: adopting the outward vocabulary and aesthetic of esoteric Sufi Islam to encrypt and preserve a profoundly non-Islamic, indigenous Kurdish cosmology against centuries of persecution.",
+      "provenance": "Yazidi oral tradition; historical Islamic chronicles."
+    },
+    {
+      "id": "yazidism-durra-spi",
+      "kind": "concept",
+      "name": "Durra Spî (The White Pearl)",
+      "archetypes": [
+        "world-egg"
+      ],
+      "gloss": "The primordial vessel of creation formed from God's own pure essence. It rested for forty thousand years upon a cosmic bird before shattering; its fragmented pieces formed the heavens, the earth, and the celestial bodies.",
+      "facet": "It renders the material universe profoundly sacred. Creation is not an ex nihilo spoken command, but the literal, physical shattering and unfolding of God's own concentrated light, making nature intrinsically divine.",
+      "provenance": "The Qewls of Creation (Qewlê Afirandinê); Mishefa Reş."
+    },
+    {
+      "id": "yazidism-heft-sirr",
+      "kind": "principle",
+      "name": "Heft Sirr (The Seven Holy Beings)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The seven divine emanations of God's light, corresponding to the days of the week. Led by Tawûsê Melek, they are the immediate stewards of reality, governing the forces of nature and the destiny of humanity.",
+      "facet": "They dynamically bridge heaven and earth by periodically incarnating as human holy men (such as the historical companions of Sheikh Adi) to actively guide and realign the Yazidi community.",
+      "provenance": "Oral tradition; Kitêba Cilwe."
+    },
+    {
+      "id": "yazidism-lalish",
+      "kind": "place",
+      "name": "Lalish (The Sacred Sanctuary)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The holiest valley in Kurdistan and the spiritual center of the Yazidi world, housing the tomb of Sheikh Adi. It is the geographic and cosmic pivot point where the heavenly and earthly realms intersect.",
+      "facet": "It is cosmologically remembered as the first solid land to descend from heaven, acting as a divine peg to stabilize the chaotic, shifting waters of the newly formed earth.",
+      "provenance": "Yazidi pilgrimage rites (Cema'iya); sacred Qewls."
+    },
+    {
+      "id": "yazidism-kiras-guhartin",
+      "kind": "concept",
+      "name": "Kiras Guhartin (Changing of the Garment)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The transmigration of the soul. At death, the soul discards its worn physical body like an old shirt and immediately dons a new one, embarking on a continuous cycle of purification and rebirth.",
+      "facet": "Unlike expansive karmic systems, this cycle is tightly ethnoreligious. A Yazidi soul reincarnates exclusively as a Yazidi, preserving the spiritual lineage of the community until ultimate purification allows return to the divine light.",
+      "provenance": "Yazidi eschatological hymns (Qewlê Seremergê)."
+    },
+    {
+      "id": "yazidism-shex-shems",
+      "kind": "deity",
+      "name": "Şêx Şems (Sheikh Shems)",
+      "archetypes": [
+        "solar",
+        "psychopomp"
+      ],
+      "gloss": "The solar manifestation among the Seven Holy Beings. Yazidis face the sun during their prayers, venerating it as the visible, purest emanation of God's light and the ultimate witness to all earthly oaths.",
+      "facet": "The sun is worshipped not as an independent creator god, but as an incorruptible 'Qibla' (direction of prayer)—a physical proxy for the divine presence that cannot be polluted by human darkness.",
+      "provenance": "Daily morning prayers (Dua Sibê); Yazidi oral tradition."
+    }
+  ],
+  "edges": [
+    {
+      "a": "yazidism-xwede",
+      "b": "yazidism-tawuse-melek",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Xwedê is the passive, unknowable origin, while Tawûsê Melek is the active, executive force of the cosmos."
+    },
+    {
+      "a": "yazidism-sheikh-adi",
+      "b": "yazidism-tawuse-melek",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sheikh Adi is deeply revered as the physical, earthly incarnation of the Peacock Angel."
+    },
+    {
+      "a": "yazidism-durra-spi",
+      "b": "yazidism-lalish",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Lalish was the first piece of the shattered Pearl to solidify, anchoring the rest of the earth."
+    },
+    {
+      "a": "yazidism-xwede",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Xwedê shares linguistic and regional history with the Islamic Allah, representing absolute, unpartnered monotheism."
+    },
+    {
+      "a": "yazidism-xwede",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent an entirely unknowable, infinite divine reality that only interacts with creation through a series of structured emanations."
+    },
+    {
+      "a": "yazidism-xwede",
+      "b": "ahura-mazda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Connects to the Iranian supreme creator of unalloyed good, devoid of any inherent darkness."
+    },
+    {
+      "a": "yazidism-tawuse-melek",
+      "b": "angra-mainyu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Tawûsê Melek is the ultimate inversion of the Zoroastrian dark spirit—accused of being the adversary by outsiders, but structurally representing pure loyalty and the extinguishing of hell."
+    },
+    {
+      "a": "yazidism-tawuse-melek",
+      "b": "dravidian-murugan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are eternally youthful, martial emanations intrinsically symbolized by the peacock, serving as the active guides of their devotees."
+    },
+    {
+      "a": "yazidism-tawuse-melek",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A divine figure who undertakes an act widely misinterpreted as rebellion, but which ultimately positions him as the active champion and caretaker of the earthly realm."
+    },
+    {
+      "a": "yazidism-sheikh-adi",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Charismatic Near Eastern reformers who codified entirely new faith structures by syncretizing older, indigenous cosmologies with Abrahamic aesthetics."
+    },
+    {
+      "a": "yazidism-durra-spi",
+      "b": "world-egg-kalevala",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The primordial, unbroken vessel from which the heavens, earth, and celestial bodies are forged when it physically shatters."
+    },
+    {
+      "a": "yazidism-durra-spi",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The initial, unmanifested shape that holds the divine blueprint of the cosmos before breaking open to form material reality."
+    },
+    {
+      "a": "yazidism-heft-sirr",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A fundamental heptad of divine beings emanating directly from the supreme God, tasked with maintaining the physical and spiritual order of the universe."
+    },
+    {
+      "a": "yazidism-lalish",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The central cosmic mountain or peak that acts as the geographic and spiritual anchor of the physical world."
+    },
+    {
+      "a": "yazidism-lalish",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The central vertical axis that stabilizes the cosmos and connects the heavenly, earthly, and subterranean realms."
+    },
+    {
+      "a": "yazidism-kiras-guhartin",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A continuous cycle of rebirth that the soul must navigate until it achieves sufficient purification."
+    },
+    {
+      "a": "yazidism-kiras-guhartin",
+      "b": "atiq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A tightly closed loop of reincarnation where souls are immediately reborn directly within their specific kin or ethnoreligious community."
+    },
+    {
+      "a": "yazidism-shex-shems",
+      "b": "mithra-iran",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The central Near Eastern figure of solar light, overseeing oaths, purity, and the visible manifestation of divine truth."
+    },
+    {
+      "a": "yazidism-shex-shems",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The sun as a pure, divine eye and the crucial focal point for daily orienting prayers."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "loyal-refuser",
+      "name": "The Loyal Refuser",
+      "subtype": "deity",
+      "gloss": "A divine being who disobeys a secondary command (usually to bow to humanity) in order to uphold the primary command of absolute devotion to the supreme God, resulting in elevation rather than a fall.",
+      "reason": "Crucial for distinguishing the Yazidi Peacock Angel and certain esoteric Sufi interpretations of Iblis from the standard 'cosmic-adversary' or 'trickster' models. It captures the paradox of devotion disguised as disobedience."
+    }
+  ]
+}

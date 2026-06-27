@@ -1,0 +1,224 @@
+{
+  "tradition": {
+    "id": "new-thought",
+    "name": "New Thought (mind-cure)",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "new-thought-divine-mind",
+      "kind": "concept",
+      "name": "Divine Mind",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "God understood not as an anthropomorphic sovereign, but as the infinite, omnipresent, and entirely benevolent principle of Intelligence. It is the sole animating reality of the cosmos, identical with absolute health, supply, and harmony.",
+      "facet": "Strips the divine of wrath, judgment, and personhood, reducing the Almighty to a purely responsive, mathematically reliable mental substrate that humans can consciously direct.",
+      "provenance": "Phineas Quimby; Mary Baker Eddy's 'Science and Health'; Emma Curtis Hopkins."
+    },
+    {
+      "id": "new-thought-christ-consciousness",
+      "kind": "concept",
+      "name": "The Christ Consciousness",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The realization of humanity's innate divinity. In this system, 'Christ' is not the exclusive surname of Jesus of Nazareth, but a universal, attainable state of mental perfection and total unity with the Divine Mind.",
+      "facet": "Jesus is demoted from unique cosmic savior to master metaphysician—the ultimate demonstrator of mental laws that any human can learn to apply.",
+      "provenance": "Ralph Waldo Emerson's Transcendentalism; Charles and Myrtle Fillmore's Unity School of Christianity."
+    },
+    {
+      "id": "new-thought-law-of-mind",
+      "kind": "principle",
+      "name": "The Law of Mind (Cause and Effect)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The impersonal, infallible mechanism by which thought impresses itself upon formless substance to create physical reality. It acts objectively on all mental states, dutifully materializing both fear and faith.",
+      "facet": "Converts the moral universe into a mechanistic one. Divine judgment is replaced by a neutral photocopier of consciousness that blindly reproduces whatever belief is firmly held.",
+      "provenance": "Thomas Troward's 'Edinburgh Lectures on Mental Science'; Ernest Holmes's 'The Science of Mind'."
+    },
+    {
+      "id": "new-thought-error",
+      "kind": "concept",
+      "name": "Error (False Belief)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The root cause of all physical disease, poverty, and suffering. It is not a positive evil force or demonic entity, but merely an optical illusion of the mortal mind—a mistaken belief in separation from the Good.",
+      "facet": "Eliminates the problem of evil by denying its ontological existence. Suffering has no redemptive value; it is a purely epistemological mistake, curable exclusively through correct thinking.",
+      "provenance": "Phineas Quimby's 'false reasoning'; Mary Baker Eddy's concept of 'Mortal Mind'."
+    },
+    {
+      "id": "new-thought-affirmation",
+      "kind": "rite",
+      "name": "Affirmation (Scientific Prayer)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The practice of making absolute, positive statements of spiritual truth to overwrite the subconscious mind's false beliefs. It operates on the premise that the spoken word directs the formless substance into physical manifestation.",
+      "facet": "Transforms prayer from an act of petitioning a reluctant monarch into an act of scientific decree. The practitioner does not beg for healing; they confidently declare that health already exists.",
+      "provenance": "Émile Coué's autosuggestion; Florence Scovel Shinn's 'The Game of Life and How to Play It'."
+    },
+    {
+      "id": "new-thought-prosperity-consciousness",
+      "kind": "principle",
+      "name": "Prosperity Consciousness",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The doctrine that spiritual opulence inevitably manifests as material wealth. Because the Divine Mind is infinitely abundant, poverty is seen as a manifestation of mental restriction, while wealth demonstrates spiritual alignment.",
+      "facet": "Eradicates the ascetic tradition completely. Poverty is never a virtue, trial, or badge of holiness, but a spiritual failure—effectively sacralizing American wealth as proof of divine mechanics.",
+      "provenance": "Wallace Wattles's 'The Science of Getting Rich'; Napoleon Hill; Norman Vincent Peale."
+    },
+    {
+      "id": "new-thought-practitioner",
+      "kind": "hero",
+      "name": "The Practitioner",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "A trained metaphysician who heals physical and circumstantial ailments by knowing the absolute truth of the patient's spiritual perfection, thereby dissolving the 'error' in the patient's mind without physical medicine.",
+      "facet": "Replaces the priest and the doctor with the metaphysical technician. Efficacy relies entirely on the rigorous, objective application of mental laws, untethered from medical intervention or divine grace.",
+      "provenance": "Ernest Holmes's Religious Science practitioners; early disciples of Phineas Quimby."
+    }
+  ],
+  "edges": [
+    {
+      "a": "new-thought-law-of-mind",
+      "b": "new-thought-affirmation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Affirmation is the primary technological rite used to consciously direct the impersonal Law of Mind."
+    },
+    {
+      "a": "new-thought-divine-mind",
+      "b": "new-thought-error",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Divine Mind is absolute reality; Error is the total illusion of its absence."
+    },
+    {
+      "a": "new-thought-practitioner",
+      "b": "new-thought-error",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sole function of the Practitioner is to act as a clear lens of truth that dissolves the patient's Error."
+    },
+    {
+      "a": "new-thought-divine-mind",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: New Thought directly co-opts the biblical creator God, stripping him of personality, wrath, and judgment to reforge him as a neutral, benevolent principle."
+    },
+    {
+      "a": "new-thought-christ-consciousness",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Syncretically redefines the historical Jesus of Nazareth, separating the man from the 'Christ'—which is reinterpreted as a universal state of divine consciousness."
+    },
+    {
+      "a": "new-thought-divine-mind",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both posit an ultimate, infinite, non-personal reality of which the material world and individual souls are merely expressions or reflections."
+    },
+    {
+      "a": "new-thought-divine-mind",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An ineffable, singular source of all emanations that is fundamentally distinct from the petty, anthropomorphic creator gods."
+    },
+    {
+      "a": "new-thought-divine-mind",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the underlying, flowing substrate of reality, though New Thought attempts to aggressively direct it rather than yield to it."
+    },
+    {
+      "a": "new-thought-christ-consciousness",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both locate the salvific essence entirely within the human vessel, requiring gnosis (or correct realization) rather than external salvation."
+    },
+    {
+      "a": "new-thought-christ-consciousness",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Buddhism liberates by extinguishing the illusion of a permanent self, New Thought liberates by expanding the self until it is utterly equated with the Divine."
+    },
+    {
+      "a": "new-thought-error",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both function as the chief adversary to enlightenment not through brute force, but through the weaponization of illusion and false belief."
+    },
+    {
+      "a": "new-thought-error",
+      "b": "angra-mainyu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Zoroastrianism posits a literal, co-eternal principle of evil that must be fought; New Thought strictly denies that evil has any ontological existence at all."
+    },
+    {
+      "a": "new-thought-error",
+      "b": "manichaean-dualism",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Manichaeism defines the material world as inherently evil and opposed to the light; New Thought defines matter as perfectly malleable to the mind, with evil being a mere phantom."
+    },
+    {
+      "a": "new-thought-law-of-mind",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent an impersonal, mechanical law of the universe that dictates reality and consequences, entirely indifferent to petitionary prayer."
+    },
+    {
+      "a": "new-thought-law-of-mind",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A foundational principle of truth and right-working order that governs the cosmos, which humans must align with to avoid suffering."
+    },
+    {
+      "a": "new-thought-affirmation",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Parallels the Memphite theology where creation occurs precisely through the conceptualizing mind and the spoken word."
+    },
+    {
+      "a": "new-thought-prosperity-consciousness",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both equate spiritual alignment with tangible, harmonious conditions in the physical world (health, beauty, success), rejecting the idea that spirituality requires physical suffering."
+    },
+    {
+      "a": "new-thought-practitioner",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both function as specialists who cure physical ailments by correcting an unseen spiritual or mental misalignment, though the practitioner uses rational deduction rather than ecstatic trance."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "creative-word",
+      "name": "Creative Word",
+      "subtype": "principle",
+      "gloss": "The generative power of speech or thought to instantiate material reality, treating language not merely as descriptive but as ontologically causative.",
+      "reason": "Captures the widespread motif of creation via decree (Logos, Ptah's tongue, Nommo, New Thought affirmation) distinct from physical crafting or biological generation."
+    }
+  ]
+}

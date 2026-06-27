@@ -1,0 +1,228 @@
+{
+  "tradition": {
+    "id": "deism",
+    "name": "Deism",
+    "region": "Britain / France",
+    "color": "#9aa0a8"
+  },
+  "figures": [
+    {
+      "id": "deism-clockmaker",
+      "kind": "deity",
+      "name": "The Clockmaker",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The Supreme Being who designed, assembled, and wound the universe, then permanently stepped away. A God of ultimate intellect, mathematical precision, and unyielding natural laws, utterly devoid of human passions or tribal favoritism.",
+      "facet": "He never intervenes, answers petitions, or performs miracles. To intercede in the universe would be an admission that His original design was flawed. His perfection demands His complete absence from daily affairs.",
+      "provenance": "17th and 18th-century Enlightenment philosophy; Lord Herbert of Cherbury, Voltaire, and Thomas Paine's 'The Age of Reason'."
+    },
+    {
+      "id": "deism-the-watch",
+      "kind": "concept",
+      "name": "The Mechanistic Universe",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The cosmos understood as a flawless, self-sustaining machine. Every star, planet, and biological organism operates strictly according to immutable mathematical and physical laws established at the beginning of time.",
+      "facet": "It explicitly strips the cosmos of animating spirits, demons, and divine whims. The universe is entirely desacralized yet perfectly rational, a cold but beautiful architecture requiring no ongoing maintenance.",
+      "provenance": "William Paley's watchmaker analogy; Deistic interpretations of Isaac Newton's 'Principia Mathematica'."
+    },
+    {
+      "id": "deism-reason",
+      "kind": "force",
+      "name": "The Light of Reason",
+      "archetypes": [
+        "divine-reason"
+      ],
+      "gloss": "The innate human capacity for logic, observation, and deduction, bestowed by the Creator. It is the sole reliable instrument required to comprehend the universe and deduce natural moral law.",
+      "facet": "It replaces faith, revelation, and mystical ecstasy entirely. Reason is not a spiritual trance but a rigorous, deductive engine—the only valid bridge between mortal minds and the divine architecture.",
+      "provenance": "John Locke's 'An Essay Concerning Human Understanding'; Ethan Allen's 'Reason the Only Oracle of Man'."
+    },
+    {
+      "id": "deism-book-of-nature",
+      "kind": "concept",
+      "name": "The Book of Nature",
+      "archetypes": [
+        "universal-revelation"
+      ],
+      "gloss": "The physical universe perceived as the only true, uncorrupted scripture. The laws of physics, the orbits of celestial bodies, and the complexity of biology are the literal and infallible 'word' of God.",
+      "facet": "It completely invalidates written holy texts, viewing them as human inventions plagued by translation errors, forgeries, and political agendas. Only the physical world is beyond human tampering.",
+      "provenance": "Thomas Paine's 'The Age of Reason'; Galileo Galilei's metaphor of the universe written in mathematical language."
+    },
+    {
+      "id": "deism-natural-religion",
+      "kind": "principle",
+      "name": "Natural Religion",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The universal moral and theological code accessible to all humanity through common sense. It centers on recognizing a Supreme Being, living ethically, and repenting for moral transgressions.",
+      "facet": "It claims absolute universality while stripping away all localized ritual, priesthood, and tribal exclusivity. It treats moral truth as being as objectively verifiable and impersonal as geometry.",
+      "provenance": "Lord Herbert of Cherbury's 'De Veritate' (1624), which codified the five common notions of natural religion."
+    },
+    {
+      "id": "deism-superstition",
+      "kind": "concept",
+      "name": "Revealed Religion",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The belief in specific, localized divine intervention, miracles, and exclusive sacred texts. In the Deist paradigm, this dogma is the ultimate source of human strife, tyranny, and intellectual darkness.",
+      "facet": "The 'adversary' is not a supernatural demon, but institutionalized human ignorance and the priesthoods that profit from it. The true evil is the willful suspension of critical thought.",
+      "provenance": "Voltaire's rallying cry 'Ecrasez l'infame' (Crush the loathsome thing); broad Enlightenment anticlericalism."
+    },
+    {
+      "id": "deism-freethinker",
+      "kind": "hero",
+      "name": "The Freethinker",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The philosopher-rebel who casts off the chains of dogma, tradition, and ecclesiastical authority. Armed solely with intellect, they read the Book of Nature and emancipate humanity from ignorance.",
+      "facet": "Their heroism is entirely intellectual and secular. They slay no monsters and wield no magic; their weapon is the printing press, and their triumph is the liberation of the human mind.",
+      "provenance": "The French Philosophes (Diderot, Voltaire) and the radical Enlightenment intellectuals of Britain and America."
+    },
+    {
+      "id": "deism-general-providence",
+      "kind": "principle",
+      "name": "General Providence",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The belief that God's benevolence is expressed entirely through the establishment of general, unchanging laws that govern the macrocosm for the ultimate good of the whole.",
+      "facet": "Emphatically denies 'special providence'. A falling rock will crush a saint and a sinner equally; God's justice is structural and systemic, never personal or localized.",
+      "provenance": "Alexander Pope's 'Essay on Man' ('Whatever is, is right'); Enlightenment debates surrounding the 1755 Lisbon Earthquake."
+    }
+  ],
+  "edges": [
+    {
+      "a": "deism-clockmaker",
+      "b": "deism-the-watch",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Clockmaker is defined entirely by the mechanical perfection of the universe He built and left behind."
+    },
+    {
+      "a": "deism-reason",
+      "b": "deism-freethinker",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Reason is the sole weapon, guiding light, and defining characteristic of the Freethinker."
+    },
+    {
+      "a": "deism-superstition",
+      "b": "deism-book-of-nature",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The infallible Book of Nature stands in direct opposition to the corrupt, human-authored texts of Revealed Religion."
+    },
+    {
+      "a": "deism-clockmaker",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Clockmaker is historically derived directly from Yahweh, but systematically stripped of miracles, wrath, covenants, and intervention."
+    },
+    {
+      "a": "deism-clockmaker",
+      "b": "shangdi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Enlightenment Deists like Voltaire explicitly praised and syncretized Shangdi as the historical model of their rational, non-sectarian Supreme Being."
+    },
+    {
+      "a": "deism-clockmaker",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an absolute creator who, having established the world and its natural laws, withdrew entirely from human affairs."
+    },
+    {
+      "a": "deism-the-watch",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both envision a universe functioning on inexorable, impersonal mechanistic laws without the need for active divine micromanagement."
+    },
+    {
+      "a": "deism-the-watch",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the underlying, harmonious, and unalterable operating principle that silently governs all existence."
+    },
+    {
+      "a": "deism-reason",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both frame the core of human consciousness as an embedded fragment of ultimate cosmic truth, providing an internal compass independent of material dogma."
+    },
+    {
+      "a": "deism-reason",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Reason functions as the stolen fire—the illuminating, liberating force that elevates humanity and challenges tyrannical authority."
+    },
+    {
+      "a": "deism-book-of-nature",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rely on reading the physical, observable universe as a direct code or reflection of the highest divine reality."
+    },
+    {
+      "a": "deism-superstition",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a false, arrogant paradigm (for Deists, the dogma of the Church) that claims absolute authority and obscures the true, higher reality."
+    },
+    {
+      "a": "deism-freethinker",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are venerated as ultimate sages who bypass orthodox religion to access pristine, universal wisdom directly."
+    },
+    {
+      "a": "deism-general-providence",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both assert an impersonal, universal equilibrium that governs all things, prioritizing cosmic order over individual petitions or exceptions."
+    },
+    {
+      "a": "deism-natural-religion",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both seek a state of alignment with the innate, harmonious structure of the world, rather than appeasing a temperamental deity."
+    },
+    {
+      "a": "deism-freethinker",
+      "b": "jain-anekantavada",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Though approaching from different angles, both rigorously reject singular dogmatic revelation in favor of a broader, philosophical apprehension of truth."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-reason",
+      "name": "Divine Reason",
+      "subtype": "principle",
+      "gloss": "The internal human faculty of logic and observation elevated to a sacred or primary instrument, serving as the sole reliable interface with ultimate truth.",
+      "reason": "Necessary for traditions that entirely replace mystical ecstasy, faith, or shamanic trance with cold deduction and intellectual philosophy."
+    },
+    {
+      "id": "universal-revelation",
+      "name": "Universal Revelation",
+      "subtype": "concept",
+      "gloss": "The physical universe or natural order acting as the primary, infallible text of divine truth, explicitly bypassing written scripture or prophetic claims.",
+      "reason": "Captures the profound paradigm shift where the observable laws of physics or nature replace the authority of traditional holy books."
+    }
+  ]
+}

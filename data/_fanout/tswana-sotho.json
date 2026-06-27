@@ -1,0 +1,256 @@
+{
+  "tradition": {
+    "id": "tswana-sotho",
+    "name": "Tswana-Sotho",
+    "region": "Botswana / Lesotho / S Africa",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "tswana-sotho-modimo",
+      "kind": "deity",
+      "name": "Modimo",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme, penetrating force and creator of the universe, deeply associated with the sky. Unreachable by direct human petition, Modimo speaks through thunder and acts as the ultimate guarantor of cosmic morality and meteorological order.",
+      "facet": "Grammatically, Modimo belongs to the inanimate noun class, signifying an elemental, penetrating energy rather than an anthropomorphic ruler. It is the absolute 'other' that permeates all things without being bound to any specific form.",
+      "provenance": "Gabriel Setiloane, 'The Image of God Among the Sotho-Tswana' (1976)."
+    },
+    {
+      "id": "tswana-sotho-badimo",
+      "kind": "ancestor",
+      "name": "Badimo (The Ancestors)",
+      "archetypes": [
+        "one-through-many",
+        "first-ancestor"
+      ],
+      "gloss": "The 'living dead'—the active, pluralized manifestations of divine energy. As the immediate guardians of morality, they mediate between the living and Modimo, ensuring the flow of fertility and rain so long as societal harmony is maintained.",
+      "facet": "They are not merely remembered relatives, but ontological necessities. The living cannot access the supreme being except through this unbroken, hierarchical chain of predecessors, making them the active operators of cosmic law.",
+      "provenance": "Gabriel Setiloane, 'The Image of God Among the Sotho-Tswana' (1976); John S. Mbiti, 'African Religions and Philosophy' (1969)."
+    },
+    {
+      "id": "tswana-sotho-pula",
+      "kind": "principle",
+      "name": "Pula (Rain)",
+      "archetypes": [
+        "cosmic-order",
+        "mother-of-waters"
+      ],
+      "gloss": "Rain, conceptualized not merely as weather, but as the supreme ontological blessing. It is the physical manifestation of peace, cosmic equilibrium, and ancestral favor, equating directly with life, blood, and the continuity of the people.",
+      "facet": "Rain operates as a moral barometer. A drought is never a mere meteorological event; it is a profound societal indictment, a signal that the living have fractured the moral order and alienated the badimo.",
+      "provenance": "Isaac Schapera, 'Rainmaking Rites of Tswana Tribes' (1971)."
+    },
+    {
+      "id": "tswana-sotho-matsieng",
+      "kind": "hero",
+      "name": "Matsieng (Lowe)",
+      "archetypes": [
+        "emergence",
+        "first-ancestor"
+      ],
+      "gloss": "The mythic first human and culture hero who emerged from the earth's womb at Ntlo-ya-Lowe. Described as one-legged or giant in stature, he opened the earth to lead people and animals into the sunlit world.",
+      "facet": "The genesis is strictly subterranean, not celestial. Humanity does not fall from the sky or get molded from clay; it climbs out of a pre-existing dark underworld, birthed directly by the terrestrial depths.",
+      "provenance": "Janet Hodgson, 'The God of the Xhosa' (1982); Sotho oral traditions of Matsieng."
+    },
+    {
+      "id": "tswana-sotho-moroka",
+      "kind": "rite",
+      "name": "Moroka wa Pula (The Rainmaker)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "The master rainmaker, often the paramount chief, who possesses the esoteric medicines necessary to 'churn' the clouds. He operates as the apex spiritual diplomat, petitioning the royal badimo to release the vital waters.",
+      "facet": "His power is highly contingent and politically perilous. If the rains fail, he is held personally responsible for his spiritual impotence, inextricably linking the legitimacy of political rulership to meteorological success.",
+      "provenance": "Isaac Schapera, 'Rainmaking Rites of Tswana Tribes' (1971)."
+    },
+    {
+      "id": "tswana-sotho-kganyapa",
+      "kind": "creature",
+      "name": "Kganyapa (Noha ya Metsi)",
+      "archetypes": [
+        "cosmic-serpent",
+        "master-of-animals"
+      ],
+      "gloss": "The immense water serpent residing in deep river pools and subterranean springs. It generates tornadoes when it travels through the sky and serves as the terrifying initiator for traditional healers called beneath the depths.",
+      "facet": "It is the untamed, raw incarnation of water's destructive power. While rain is a gentle, communal blessing, the Kganyapa embodies the violent, localized, and esoteric aspect of the aquatic realm.",
+      "provenance": "W.D. Hammond-Tooke, 'Boundaries and Belief' (1981); Sotho-Tswana folklore."
+    },
+    {
+      "id": "tswana-sotho-ditaola",
+      "kind": "rite",
+      "name": "Ditaola (Divination Bones)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The divinatory bones—a microcosm of the universe cast by the healer. Consisting of hooves, astragali, and shells representing male, female, elder, and youth, they decode the disruptions in the social and spiritual fabric.",
+      "facet": "The bones do not predict a fixed future; they diagnose present moral and relational decay. They translate the silent displeasure of the badimo into actionable social prescriptions.",
+      "provenance": "Adam Kuper, 'South Africa and the Anthropologist' (1987)."
+    },
+    {
+      "id": "tswana-sotho-thokolosi",
+      "kind": "creature",
+      "name": "Thokolosi",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "A diminutive, destructive familiar summoned or crafted by witches. It operates in the night, sowing discord, sickness, and sexual predation within households, acting as the physical manifestation of envy and antisocial malice.",
+      "facet": "Unlike Western demons, it has no cosmic rebellion against a supreme god. It is purely a weaponized byproduct of human jealousy—an entirely horizontal, socially-generated evil rather than a vertical, theological one.",
+      "provenance": "W.D. Hammond-Tooke, 'Boundaries and Belief' (1981); Jean Comaroff, 'Body of Power, Spirit of Resistance' (1985)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "tswana-sotho-modimo",
+      "b": "tswana-sotho-badimo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The impersonal supreme source and the personalized, active ancestral mediators who channel its power."
+    },
+    {
+      "a": "tswana-sotho-modimo",
+      "b": "tswana-sotho-pula",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Rain as the literal, physical grace of the abstract supreme being."
+    },
+    {
+      "a": "tswana-sotho-badimo",
+      "b": "tswana-sotho-ditaola",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ancestors and the very ritual technology used to hear their voices and decode their will."
+    },
+    {
+      "a": "tswana-sotho-pula",
+      "b": "tswana-sotho-moroka",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The vital cosmic blessing and the human political agent responsible for securing it."
+    },
+    {
+      "a": "tswana-sotho-kganyapa",
+      "b": "tswana-sotho-thokolosi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The majestic, terrifying, but ultimately sacred power of the deep versus the petty, constructed malice of human envy."
+    },
+    {
+      "a": "tswana-sotho-modimo",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A Bantu-rooted supreme being, utterly transcendent and removed from daily petition."
+    },
+    {
+      "a": "tswana-sotho-modimo",
+      "b": "wakan-tanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An omnipresent, non-anthropomorphic sacred energy that permeates everything rather than a personalized ruler in the sky."
+    },
+    {
+      "a": "tswana-sotho-modimo",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An abstract, sky-associated orchestrator who guarantees moral order but is approached only through intermediaries."
+    },
+    {
+      "a": "tswana-sotho-badimo",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancestral spirits who mediate between the living community and the high god."
+    },
+    {
+      "a": "tswana-sotho-badimo",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancestors functioning as the true guardians of communal morality and the immediate recipients of petition."
+    },
+    {
+      "a": "tswana-sotho-badimo",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The exact functional parallel of active, intervening ancestors within Southern African cosmologies."
+    },
+    {
+      "a": "tswana-sotho-pula",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A physical reality that is perfectly synonymous with moral truth, societal health, and cosmic equilibrium."
+    },
+    {
+      "a": "tswana-sotho-pula",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate state of peace, balance, and blessing, maintained through correct action and ritual."
+    },
+    {
+      "a": "tswana-sotho-matsieng",
+      "b": "emergence",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Humanity physically climbing out of a subterranean origin rather than falling from the sky or being formed on the surface."
+    },
+    {
+      "a": "tswana-sotho-kganyapa",
+      "b": "zulu-inkanyamba",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Attested regional cognate of the tornado-generating, terrifying water serpent of the deep pools."
+    },
+    {
+      "a": "tswana-sotho-kganyapa",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A great aquatic snake that governs waterholes, initiates shamans, and travels via storms."
+    },
+    {
+      "a": "tswana-sotho-kganyapa",
+      "b": "unktehi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Great water monsters of the deep that cause catastrophic weather events and act as terrifying initiators."
+    },
+    {
+      "a": "tswana-sotho-ditaola",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A physical divination system that maps the entire cosmology to diagnose moral and spiritual imbalances in the human sphere."
+    },
+    {
+      "a": "tswana-sotho-ditaola",
+      "b": "piacenza-liver",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A microcosm used by specialists to read the disposition of the unseen world regarding the current state of affairs."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "meteorological-sovereignty",
+      "name": "Meteorological Sovereignty",
+      "subtype": "principle",
+      "gloss": "A political theology where a ruler's legitimacy is inextricably bound to their ability to intercede with the divine to secure favorable weather, specifically rain.",
+      "reason": "Crucial for systems like Tswana-Sotho and Mesoamerican cultures where kingship is not just a political or military office, but a functional weather-making mandate."
+    },
+    {
+      "id": "weaponized-envy",
+      "name": "Weaponized Envy",
+      "subtype": "concept",
+      "gloss": "A destructive spiritual entity or force that is entirely manufactured by human jealousy and antisocial malice, rather than existing as an independent cosmic demon.",
+      "reason": "Necessary to distinguish localized, human-crafted familiars (like the Thokolosi) from vertical, dualistic adversaries who oppose the supreme creator."
+    }
+  ]
+}

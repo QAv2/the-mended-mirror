@@ -1,0 +1,269 @@
+{
+  "tradition": {
+    "id": "palo",
+    "name": "Palo (Reglas de Congo / Palo Monte)",
+    "region": "Cuba",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "palo-nzambi",
+      "kind": "deity",
+      "name": "Nzambi (Nzambi Mpungu)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme, omnipotent creator of the universe. He is the ultimate source of all power and life force, but is vastly removed from the daily affairs of humanity, having delegated the administration of the world to the mpungos and the ancestral dead.",
+      "facet": "Unlike Christian omnipotence that demands personal worship, Nzambi is pure, inaccessible cosmological cause. One does not petition him directly for earthly matters, as his sheer magnitude would incinerate petty human concerns.",
+      "provenance": "Todd Ramón Ochoa, 'Society of the Dead' (2010)."
+    },
+    {
+      "id": "palo-lucero-mundo",
+      "kind": "deity",
+      "name": "Lucero Mundo (The Morning Star)",
+      "archetypes": [
+        "trickster",
+        "psychopomp"
+      ],
+      "gloss": "The mpungo of crossroads, thresholds, and balance. He opens and closes all paths, standing at the gate between the living and the dead. Without his permission, no magic or ritual can cross into the spiritual realm or take effect.",
+      "facet": "He embodies the unpredictable, kinetic energy of the cosmos. He is not an evil trickster but the prime mover of fate, requiring constant appeasement so his chaotic potential opens roads rather than blocking them.",
+      "provenance": "Natalia Bolívar Aróstegui, 'Ta Makuende Yaya' (1998)."
+    },
+    {
+      "id": "palo-zarabanda",
+      "kind": "deity",
+      "name": "Zarabanda (Lord of Iron and Blood)",
+      "archetypes": [
+        "smith",
+        "amoral-sorcery"
+      ],
+      "gloss": "The fierce mpungo of iron, war, blood, and technology. He is a tireless worker who cuts through obstacles in both the physical and spiritual jungles. His essence resides in the iron tools, machetes, and railroad spikes housed inside the cauldron.",
+      "facet": "He is raw, unstoppable kinetic force that demands blood sacrifice to remain heated and active. He does not judge the morality of a request; he merely executes it with the brutal efficiency of a swinging machete.",
+      "provenance": "Lydia Cabrera, 'El Monte' (1954)."
+    },
+    {
+      "id": "palo-siete-rayos",
+      "kind": "deity",
+      "name": "Siete Rayos (Seven Lightnings)",
+      "archetypes": [
+        "storm-wielder",
+        "solar"
+      ],
+      "gloss": "The mpungo of lightning, fire, justice, and passionate love. He is a volatile sorcerer-king who strikes from the sky. He is deeply associated with the ceiba tree, which acts as his lightning rod, physical throne, and conduit on earth.",
+      "facet": "He represents swift, explosive justice and immense magical prowess. Unlike purely celestial storm gods, Siete Rayos is deeply rooted in terrestrial witchcraft, using fire to both illuminate pathways and incinerate enemies.",
+      "provenance": "Todd Ramón Ochoa, 'Society of the Dead' (2010)."
+    },
+    {
+      "id": "palo-madre-de-agua",
+      "kind": "deity",
+      "name": "Madre de Agua (Mother of Waters)",
+      "archetypes": [
+        "mother-of-waters",
+        "great-mother"
+      ],
+      "gloss": "The mpungo ruling over the vastness of the ocean and all saltwater. She is a maternal, nurturing force who possesses immense, overwhelming power, capable of swallowing ships and washing away the fiercest curses from a practitioner.",
+      "facet": "She holds the paradox of the ocean: deeply nurturing to her children but ruthlessly destructive when provoked. Her waters are the primordial source of life and the ultimate repository for heavy spiritual cleansing.",
+      "provenance": "Natalia Bolívar Aróstegui, 'Ta Makuende Yaya' (1998)."
+    },
+    {
+      "id": "palo-centella-ndoki",
+      "kind": "deity",
+      "name": "Centella Ndoki (Lady of the Cemetery)",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The mpungo who presides over the gates of the cemetery, whirlwinds, and sudden tempests. She is the fierce sovereign of the dead, managing the passage of souls and unleashing chaotic winds when angered or invoked for war.",
+      "facet": "She rules the physical space where bones reside, the vital currency of Palo. She is an absolute, terrifying matriarch who commands dark 'ndoki' spirits, mediating the hardest, sharpest line between life and death.",
+      "provenance": "Lydia Cabrera, 'El Monte' (1954)."
+    },
+    {
+      "id": "palo-nganga",
+      "kind": "rite",
+      "name": "La Nganga / La Prenda (The Sacred Cauldron)",
+      "archetypes": [
+        "fetish-vessel",
+        "axis-mundi",
+        "world-egg"
+      ],
+      "gloss": "An iron cauldron or clay pot that serves as a self-contained, living microcosm of the universe. Packed with sticks, earths, iron, and the bones of the dead, it is the supreme spiritual engine of Palo sorcery.",
+      "facet": "The Nganga is not merely an altar; it is a fabricated deity and a localized cosmos. The practitioner feeds it blood to drive its spiritual machinery, forcing reality to bend to the sorcerer's will.",
+      "provenance": "Todd Ramón Ochoa, 'Society of the Dead' (2010)."
+    },
+    {
+      "id": "palo-nfumbi",
+      "kind": "ancestor",
+      "name": "El Nfumbi (The Spirit of the Dead)",
+      "archetypes": [
+        "bound-spirit",
+        "amoral-sorcery"
+      ],
+      "gloss": "The human spirit—specifically bound to the physical bones housed within the Nganga—with whom the palero makes a magical pact. The nfumbi is the active, restless agent that executes the magic, bridging human intent and cosmic forces.",
+      "facet": "The nfumbi is not revered in passive ancestor worship; they are an indentured worker or contracted partner. The relationship is strictly transactional, demanding payment in blood and rum for occult labor performed.",
+      "provenance": "Todd Ramón Ochoa, 'Society of the Dead' (2010)."
+    },
+    {
+      "id": "palo-firma",
+      "kind": "rite",
+      "name": "La Firma / Patipemba (The Drawn Signature)",
+      "archetypes": [
+        "cosmic-order",
+        "axis-mundi"
+      ],
+      "gloss": "Complex chalk or ash diagrams drawn on the ground to invoke specific mpungos or direct spiritual energies. They serve as cosmological maps that chart the four winds, the sun's path, and the boundary between the living and the dead.",
+      "facet": "A firma does not just symbolize intent; it mechanically directs it. It acts as an active circuitry of spiritual electricity that commands the nfumbi and roots the ephemeral spirit into the exact physical location of the rite.",
+      "provenance": "Bárbaro Martínez-Ruiz, 'Kongo Graphic Writing and Other Narratives of the Sign' (2013)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "palo-nganga",
+      "b": "palo-nfumbi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The nganga provides the physical universe and engine; the nfumbi provides the animating spirit that does the work."
+    },
+    {
+      "a": "palo-firma",
+      "b": "palo-nganga",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The drawn signature maps the energy that the nganga generates, directing it specifically into the physical world."
+    },
+    {
+      "a": "palo-nzambi",
+      "b": "palo-lucero-mundo",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Nzambi is the unreachable creator, while Lucero is the immediate threshold that must be crossed to access any divine power."
+    },
+    {
+      "a": "palo-nzambi",
+      "b": "nzambi-a-mpungu",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: Direct linguistic and cultural survival of the supreme Kongo creator god in the Cuban diaspora."
+    },
+    {
+      "a": "palo-lucero-mundo",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Highly syncretized in Cuba; Lucero acts as the Palo equivalent of the Yoruba crossroads opener."
+    },
+    {
+      "a": "palo-lucero-mundo",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are tricksters, psychopomps, and masters of the crossroads who alone can open the boundary between realms."
+    },
+    {
+      "a": "palo-zarabanda",
+      "b": "ogun",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Ogun and Zarabanda are explicitly equated in Cuban practice as the uncompromising lords of iron, war, and blood."
+    },
+    {
+      "a": "palo-zarabanda",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Lords of the forge and masters of the transformative, technological power of iron."
+    },
+    {
+      "a": "palo-siete-rayos",
+      "b": "shango",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Deeply conflated in Cuba, both ruling lightning, fire, and a fiery, sorcerous masculine kingship."
+    },
+    {
+      "a": "palo-siete-rayos",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Explosive, weapon-wielding storm deities whose natural domain is thunder and striking, immediate justice."
+    },
+    {
+      "a": "palo-madre-de-agua",
+      "b": "mama-cocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the vast, overwhelming, and deeply maternal matrix of the ocean and deep waters."
+    },
+    {
+      "a": "palo-centella-ndoki",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Fierce, absolute queens of the underworld who preside over the dead and demand strict appeasement."
+    },
+    {
+      "a": "palo-centella-ndoki",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both govern the grim, physical reality of the grave, the cemetery gates, and the ancestral dead."
+    },
+    {
+      "a": "palo-nganga",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Palo nganga is a direct, expanded evolution of the Kongo nkisi—a vessel that physically houses and utilizes spiritual power."
+    },
+    {
+      "a": "palo-nganga",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are structured, physical microcosms containing all the raw materials and cosmic seeds necessary to represent the universe."
+    },
+    {
+      "a": "palo-nganga",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are ultimate, fabricated engines of supernatural power that generate reality-altering force and wealth for their possessor."
+    },
+    {
+      "a": "palo-nfumbi",
+      "b": "bakulu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Draws on Kongo ancestral logic, though Palo focuses specifically on the magical pact with physical bones rather than general bloodline ancestors."
+    },
+    {
+      "a": "palo-firma",
+      "b": "dikenga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Kongo cosmogram physically survived and evolved into the intricate patipembas (drawn magical seals) of Palo."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "bound-spirit",
+      "name": "Bound Spirit",
+      "subtype": "force",
+      "gloss": "A human soul or ghost deliberately captured or contracted through a physical anchor (like bones or grave dirt) to perform magic and physical tasks for the living.",
+      "reason": "Necessary for traditions where the dead are not passively worshipped as ancestors, but actively employed or indentured as spiritual workers."
+    },
+    {
+      "id": "fetish-vessel",
+      "name": "Fetish Vessel",
+      "subtype": "rite",
+      "gloss": "A physical object—often a pot, statue, or bundle—ritually packed with organic and mineral elements to permanently house a spirit, transforming it into a living battery of power.",
+      "reason": "Crucial for traditions like Palo and Kongo where spirits do not just visit momentarily, but physically reside and work from constructed shrines."
+    },
+    {
+      "id": "amoral-sorcery",
+      "name": "Amoral Sorcery",
+      "subtype": "principle",
+      "gloss": "The pragmatic manipulation of spiritual forces for immediate material results—wealth, protection, or hexing—without regard for orthodox moral frameworks or karmic purity.",
+      "reason": "Essential for pragmatic magical systems and left-hand path traditions where spirits are contracted for worldly power rather than spiritual ascension."
+    }
+  ]
+}

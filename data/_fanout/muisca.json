@@ -1,0 +1,234 @@
+{
+  "tradition": {
+    "id": "muisca",
+    "name": "Muisca (Chibcha)",
+    "region": "Colombian Altiplano",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "muisca-bochica",
+      "kind": "hero",
+      "name": "Bochica (Nemqueteba)",
+      "archetypes": [
+        "culture-hero",
+        "storm-wielder"
+      ],
+      "gloss": "The bearded, pale-skinned ascetic who appeared from the east to teach the Muisca agriculture, weaving, and moral codes. When the enraged deity Chibchacum flooded the Bogota savanna, Bochica threw his golden staff, shattering the rocks at Tequendama to drain the waters.",
+      "facet": "He is a civilizer defined by extreme asceticism and hydrologic engineering rather than martial conquest. His primary miracle is the creation of a drainage system, making civilization literally a matter of terraforming.",
+      "provenance": "Juan de Castellanos, 'Elegías de varones ilustres de Indias' (1589); Fray Pedro Simón, 'Noticias Historiales' (1626)."
+    },
+    {
+      "id": "muisca-bachue",
+      "kind": "deity",
+      "name": "Bachué",
+      "archetypes": [
+        "great-mother",
+        "first-ancestor"
+      ],
+      "gloss": "The primordial mother who emerged from the waters of Lake Iguaque holding a three-year-old boy. After the boy matured, they married and populated the earth, birthing multiple children per pregnancy. Their task complete, they transformed into immense serpents and returned to the lake's depths.",
+      "facet": "Creation is strictly aquatic and generational, devoid of divine conflict. Humanity is not crafted from clay or wood, but biologically birthed by a terrestrial mother who ultimately re-merges with the ecology as a sacred snake.",
+      "provenance": "Fray Pedro Simón, 'Noticias Historiales' (1626); Lucas Fernández de Piedrahita, 'Historia general de las conquistas' (1688)."
+    },
+    {
+      "id": "muisca-chiminigagua",
+      "kind": "deity",
+      "name": "Chiminigagua",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The supreme, unfathomable creator who existed before everything as a vast, dark container of light. He initiated creation by opening himself, sending forth large black birds that exhaled shining breath to illuminate the cosmos.",
+      "facet": "He does not actively rule or demand worship; he is a sheer mechanism of photogenesis. Creation is framed not as a vocal command but as the release of trapped light through avian carriers.",
+      "provenance": "Fray Pedro Simón, 'Noticias Historiales' (1626)."
+    },
+    {
+      "id": "muisca-chibchacum",
+      "kind": "deity",
+      "name": "Chibchacum",
+      "archetypes": [
+        "underworld-sovereign",
+        "storm-wielder"
+      ],
+      "gloss": "The patron deity of merchants, farmers, and the working class. Angered by human transgressions, he flooded the Bogota savanna. As punishment from Bochica, he was condemned to carry the world on his shoulders; shifting his burden causes earthquakes.",
+      "facet": "He embodies the localized wrath of the working class and the tectonic instability of the Andes. He is not evil, merely a frustrated patron whose divine punishment becomes the literal geopolitical foundation of the earth.",
+      "provenance": "Lucas Fernández de Piedrahita (1688); José Pérez de Barradas (1950)."
+    },
+    {
+      "id": "muisca-huitaca",
+      "kind": "deity",
+      "name": "Huitaca",
+      "archetypes": [
+        "trickster",
+        "cosmic-adversary"
+      ],
+      "gloss": "A rebellious, wildly beautiful goddess who opposed Bochica's austere teachings, inciting the Muisca to drunkenness, joy, and sexual liberation. As punishment, Bochica transformed her into a white owl or, in some tellings, condemned her to become the moon.",
+      "facet": "She represents an indigenous Dionysian counter-culture directly resisting the ascetic, state-sanctioned morality. Her 'sin' is not cosmological destruction, but bodily pleasure and festive excess.",
+      "provenance": "Juan de Castellanos (1589); Pedro Simón (1626)."
+    },
+    {
+      "id": "muisca-sue",
+      "kind": "deity",
+      "name": "Sué (Sua)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The solar deity, husband to the moon, venerated heavily at the Temple of the Sun in Sogamoso. He required the blood of sacrificed children (moxas) to sustain his fiery journey across the sky and prevent apocalyptic darkness.",
+      "facet": "Unlike the distant creator, the sun is a hungry, immediate sovereign demanding explicit biological fuel. The solar cult anchored the Muisca theocracy, tying astronomical cycles to the political authority of the Iraca.",
+      "provenance": "Pedro Simón (1626); François Correa, 'El sol del poder' (2004)."
+    },
+    {
+      "id": "muisca-guatavita-rite",
+      "kind": "rite",
+      "name": "The El Dorado Offering at Lake Guatavita",
+      "archetypes": [
+        "axis-mundi",
+        "mother-of-waters"
+      ],
+      "gloss": "The supreme inauguration rite where the new Zipa (ruler) of Bacatá was stripped, coated in sticky resin, and blown with gold dust. He sailed on a raft to the center of Lake Guatavita, diving into the waters to offer emeralds and gold to the aquatic serpent goddess.",
+      "facet": "The apex of political power is realized through a deliberate return to the watery womb of creation. Wealth is not hoarded for economic supremacy but utilized as a biodegradable offering to the ecosystem.",
+      "provenance": "Juan Rodríguez Freyle, 'El Carnero' (1636)."
+    },
+    {
+      "id": "muisca-cuca",
+      "kind": "rite",
+      "name": "The Cuca (Ceremonial Enclosure)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The rigorous ceremonial enclosure where future leaders and priests (jeques) underwent up to twelve years of severe fasting, sensory isolation, and nighttime vigils before assuming political or religious office.",
+      "facet": "Leadership was earned not merely by bloodline, but through immense sensory deprivation and bodily mortification. The state was governed by men who had literally been starved into spiritual clarity.",
+      "provenance": "Pedro Simón (1626); Carl Henrik Langebaek Rueda (1995)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "muisca-bochica",
+      "b": "muisca-huitaca",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ascetic law-bringer directly opposed by the goddess of intoxication and bodily pleasure."
+    },
+    {
+      "a": "muisca-bochica",
+      "b": "muisca-chibchacum",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Bochica resolves Chibchacum's catastrophic flood and binds him beneath the earth."
+    },
+    {
+      "a": "muisca-bachue",
+      "b": "muisca-guatavita-rite",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition bond: The primordial emergence of humanity from the lake mirrors the ruler's ritual descent back into the sacred waters."
+    },
+    {
+      "a": "muisca-sue",
+      "b": "muisca-cuca",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The priests are isolated in profound darkness specifically to become worthy conduits of the solar deity."
+    },
+    {
+      "a": "muisca-bochica",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The bearded, pacifistic culture hero who arrives to civilize humanity before mysteriously departing."
+    },
+    {
+      "a": "muisca-bochica",
+      "b": "viracocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The wandering Andean civilizer who shapes the landscape and establishes the moral order of society."
+    },
+    {
+      "a": "muisca-bachue",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial mother who ultimately transforms into a sacred aquatic serpent woven into the landscape."
+    },
+    {
+      "a": "muisca-bachue",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Aquatic, serpentine progenitor figures who bring life and order to humanity from the water."
+    },
+    {
+      "a": "muisca-chiminigagua",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The vast, pre-creation totality conceived as an unfathomable container of pure light."
+    },
+    {
+      "a": "muisca-chiminigagua",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The boundless, ineffable void that emits the initial rays of light to spark the cosmos."
+    },
+    {
+      "a": "muisca-chibchacum",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The tempestuous deity of the commoners who sends cataclysmic floods to punish human transgressions."
+    },
+    {
+      "a": "muisca-chibchacum",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The chaotic divine figure who is physically bound beneath the earth, whose movements manifest as earthquakes."
+    },
+    {
+      "a": "muisca-huitaca",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ecstatic, rebellious deity who champions intoxication, festive excess, and the subversion of austere laws."
+    },
+    {
+      "a": "muisca-sue",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sovereign solar deity whose cosmic journey depends entirely on the continuous sacrifice of human blood."
+    },
+    {
+      "a": "muisca-sue",
+      "b": "inti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme Andean sun god who acts as the celestial anchor for earthly theocratic authority."
+    },
+    {
+      "a": "muisca-guatavita-rite",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ritual offerings made directly to a cosmic aquatic serpent dwelling in the deep waters."
+    },
+    {
+      "a": "muisca-cuca",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Rigorous, prolonged isolation rites that push initiates to physical extremes to solidify sacred authority."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "world-bearer",
+      "name": "World Bearer",
+      "subtype": "deity",
+      "gloss": "A figure condemned or biologically designed to physically carry the earth or cosmos on their shoulders or back, often causing tectonic events when they shift their burden.",
+      "reason": "Crucial for Chibchacum, the Greco-Roman Atlas, the Haudenosaunee Great Turtle, and Hindu world-elephants. Distinct from an underworld sovereign because their primary role is the literal physical scaffolding of the world above."
+    }
+  ]
+}

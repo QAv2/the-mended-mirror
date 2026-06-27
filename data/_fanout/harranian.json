@@ -1,0 +1,231 @@
+{
+  "tradition": {
+    "id": "harranian",
+    "name": "Sabians of Harran (astral cult)",
+    "region": "Harran (Upper Mesopotamia)",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "harranian-first-cause",
+      "kind": "principle",
+      "name": "Ilah al-Alaha (The God of Gods)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The absolutely transcendent, ineffable First Cause of the Harranian system. Far removed from the grime of material creation, it does not interact directly with humanity, necessitating a descending hierarchy of planetary intellects to act as cosmic mediators.",
+      "facet": "Unlike the Abrahamic God who dictates scripture directly, this supreme unity remains fundamentally insulated from the cosmos; it is worshipped only indirectly through the celestial hierarchy, preserving its total transcendence.",
+      "provenance": "Al-Shahrastani, 'Kitab al-Milal wa al-Nihal'; Al-Nadim, 'Fihrist'."
+    },
+    {
+      "id": "harranian-ruhanyyat",
+      "kind": "force",
+      "name": "Ruhaniyyat al-Kawakib (The Planetary Spiritualities)",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The seven conscious spiritual intellects inhabiting the visible planets. They govern the material world, dispensing fate and acting as the operative gods to whom the Harranians addressed complex prayers, crafted talismans, and offered sacrifices.",
+      "facet": "They perfectly synthesize late-Neoplatonic emanations with ancient Mesopotamian star-gods, turning bloodless philosophical abstractions back into cultic, idol-inhabiting deities requiring constant, precise ritual appeasement.",
+      "provenance": "Abu Ma'shar's astrological treatises; Al-Dimashqi, 'Nukhbat al-Dahr'."
+    },
+    {
+      "id": "harranian-sin",
+      "kind": "deity",
+      "name": "Sin (The Moon)",
+      "archetypes": [
+        "lunar"
+      ],
+      "gloss": "The ancient Mesopotamian moon god, whose great temple of Ehulhul stood in Harran. To the Sabians, he remained a paramount planetary force, revered in mystery rites and deeply associated with the fundamental rhythms of earthly time.",
+      "facet": "While Neoplatonism typically elevates the Sun to the supreme position, Harran's deeply conservative bedrock maintained the ancient Mesopotamian primacy of the Moon as the supreme local sovereign of the astral pantheon.",
+      "provenance": "Babylonian inscriptions (Nabonidus); medieval Islamic heresiographies describing the Harranian temples."
+    },
+    {
+      "id": "harranian-zuhal",
+      "kind": "deity",
+      "name": "Zuhal (Saturn)",
+      "archetypes": [
+        "cosmic-adversary",
+        "cyclic-ages"
+      ],
+      "gloss": "The spirit of the seventh sphere, a heavy, cold, and melancholic intellect. Worshipped in a hexagonal black temple with leaden idols, he governs boundaries, agriculture, and the heaviest, most restrictive burdens of human destiny.",
+      "facet": "He is venerated not out of love but out of a desperate need to propitiate his malefic power; his rites demanded wearing black and offering bitter, pungent sacrifices to avert his crushing astrological influence.",
+      "provenance": "Pseudo-Majriti, 'Ghayat al-Hakim' (Picatrix); Al-Dimashqi's accounts of the planetary temples."
+    },
+    {
+      "id": "harranian-zuhara",
+      "kind": "deity",
+      "name": "Zuhara (Venus)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The planetary intellect of Venus, perpetuating the ancient cults of Ishtar. Worshipped in a triangular blue temple with copper idols, she governs love, harmony, and the ecstatic, vegetative generative forces of the physical world.",
+      "facet": "She preserves the sensory fertility rites of ancient Mesopotamia under the guise of an abstract philosophical emanation, receiving offerings of roses, myrtle, and joyful music rather than solemn philosophy.",
+      "provenance": "Al-Nadim, 'Fihrist'; Al-Mas'udi, 'Muruj al-Dhahab'."
+    },
+    {
+      "id": "harranian-hermes",
+      "kind": "culture-hero",
+      "name": "Hermes Trismegistus (Idris)",
+      "archetypes": [
+        "culture-hero",
+        "psychopomp"
+      ],
+      "gloss": "The Hellenistic fusion of Thoth and Hermes, revered by the Sabians as their supreme prophet and lawgiver. He is the ultimate font of all esoteric science, alchemy, and the secret talismanic names of the planetary spirits.",
+      "facet": "By identifying him with the Quranic prophet Idris, the Harranians created a brilliant loophole in Islamic law, successfully framing a pagan theurgic tradition as a revealed book-religion to guarantee their survival.",
+      "provenance": "Arabic Hermetica; Al-Nadim's account of Sabian apologetics to Caliph al-Ma'mun."
+    },
+    {
+      "id": "harranian-agathodaimon",
+      "kind": "culture-hero",
+      "name": "Agathodaimon (Shith)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The 'Good Spirit' of Hellenistic Egypt, transformed in Harran into Hermes's teacher or companion, and explicitly identified with Seth, son of Adam. He represents the primordial transmission of divine wisdom before the great flood.",
+      "facet": "He serves as the ultimate anchor of antiquity, bypassing even Hermes to root the Sabian astral doctrines in the very first generations of humanity, claiming the oldest unbroken pedigree on earth.",
+      "provenance": "Al-Shahrastani; Ibn Wahshiyya's 'Nabataean Agriculture' context."
+    },
+    {
+      "id": "harranian-shamal",
+      "kind": "place",
+      "name": "Shamal (The North Pole)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The North Pole and the constellation of Ursa Major, which the Sabians treated as the unmoving center of the cosmos. It was their qibla, the physical direction of prayer, and the exalted throne from which celestial influences cascade.",
+      "facet": "Rejecting sacred cities like Jerusalem or Mecca, they turned their bodies toward the actual rotational axis of the night sky, anchoring their theology in observable astronomical mechanics rather than earthly geography.",
+      "provenance": "Al-Nadim, 'Fihrist'; D. Chwolsohn, 'Die Ssabier und der Ssabismus'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "harranian-hermes",
+      "b": "harranian-agathodaimon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Master and disciple, the twin prophets who transmitted antediluvian cosmic science to humanity."
+    },
+    {
+      "a": "harranian-first-cause",
+      "b": "harranian-ruhanyyat",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Spiritualities emanate from the First Cause, bridging its absolute silence with the noise of material creation."
+    },
+    {
+      "a": "harranian-ruhanyyat",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the fullness of divine emanations bridging the unapproachable supreme deity and material existence."
+    },
+    {
+      "a": "harranian-first-cause",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, unknowable unity that sits above all lower spheres and demiurgic forces."
+    },
+    {
+      "a": "harranian-zuhara",
+      "b": "inanna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Zuhara represents the unbroken, direct continuation of the Ishtar/Inanna planetary cult into the Islamic era."
+    },
+    {
+      "a": "harranian-hermes",
+      "b": "hermes-trismegistus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Sabians explicitly imported the Hellenistic Hermes as their primary prophet to systematize their native astral cult."
+    },
+    {
+      "a": "harranian-ruhanyyat",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are a sacred septet of divine emanations governing aspects of creation on behalf of a supreme Lord."
+    },
+    {
+      "a": "harranian-shamal",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the absolute cosmic axis around which all celestial bodies logically rotate."
+    },
+    {
+      "a": "harranian-shamal",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both serve as the mandatory physical qibla, anchoring community ritual through orientation to a supreme sacred center."
+    },
+    {
+      "a": "harranian-hermes",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are prophetic bringers of a highly technical, esoteric divinatory science that forms the bedrock of a closed priestly system."
+    },
+    {
+      "a": "harranian-agathodaimon",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are primordial, quasi-divine teachers who imparted the original structuring wisdom to early humanity."
+    },
+    {
+      "a": "harranian-first-cause",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Sabians explicitly equated their transcendent First Cause with Allah to secure protected dhimmi status under Islamic rule."
+    },
+    {
+      "a": "harranian-first-cause",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are the impersonal, ineffable ultimate reality hiding behind a pantheon of colorful, functional deities."
+    },
+    {
+      "a": "harranian-ruhanyyat",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Emanated, operative deities tasked with doing the actual worldly governance for a creator who has entirely withdrawn from the mundane sphere."
+    },
+    {
+      "a": "harranian-zuhal",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both embody the heavy, restricting, and inescapable finality of time and the karmic limits placed on mortals."
+    },
+    {
+      "a": "harranian-zuhal",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are dark, demanding, omnipotent forces requiring rigorous, often severe propitiation to avert their devastating cosmic whims."
+    },
+    {
+      "a": "harranian-sin",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are profound lunar entities intimately tied to the measurement of time, cosmic cycles, and the anchoring of magic."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "astral-mediator",
+      "name": "Astral Mediator",
+      "subtype": "principle",
+      "gloss": "Celestial bodies acting as active, conscious intermediaries between a transcendent, unknowable creator and the physical world, functioning as the operative deities of human cult and magic.",
+      "reason": "Needed to bridge the gap between pure abstract emanations and physical star-gods, crucial for late antique astral cults like the Harranians, Neoplatonists, and Mithraic mysteries."
+    }
+  ]
+}

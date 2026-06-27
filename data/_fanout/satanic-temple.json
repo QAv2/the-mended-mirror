@@ -1,0 +1,229 @@
+{
+  "tradition": {
+    "id": "satanic-temple",
+    "name": "The Satanic Temple",
+    "region": "USA (Salem)",
+    "color": "#8a3550"
+  },
+  "figures": [
+    {
+      "id": "satanic-temple-satan",
+      "kind": "concept",
+      "name": "Satan (The Eternal Rebel)",
+      "archetypes": [
+        "cosmic-adversary",
+        "culture-hero"
+      ],
+      "gloss": "A literary and philosophical symbol of rebellion against arbitrary authority, intellectual freedom, and the pursuit of scientific knowledge. He is not worshipped as a literal supernatural entity, but invoked as the ultimate icon of humanistic defiance against tyranny.",
+      "facet": "Unlike traditional adversaries who embody malice or chaos, this Satan is entirely heroic and rational—a mythological framework used strictly to champion compassion, justice, and secular humanism.",
+      "provenance": "Anatole France, 'Revolt of the Angels' (1914); John Milton, 'Paradise Lost' (1667); The Satanic Temple core literature."
+    },
+    {
+      "id": "satanic-temple-seven-tenets",
+      "kind": "principle",
+      "name": "The Seven Fundamental Tenets",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "A set of deeply held guiding principles emphasizing bodily autonomy, compassion, justice, and adherence to the best available scientific understanding of the world. They serve as the ethical bedrock of the tradition's activism.",
+      "facet": "They are explicitly fallible. The overarching mandate is that beliefs must conform to one's best scientific understanding, ensuring the tenets can never harden into immutable, anti-empirical dogma.",
+      "provenance": "Authored by Lucien Greaves and Malcolm Jarry for The Satanic Temple (2013)."
+    },
+    {
+      "id": "satanic-temple-baphomet",
+      "kind": "concept",
+      "name": "Baphomet (The Monument of Pluralism)",
+      "archetypes": [
+        "complementarity",
+        "axis-mundi"
+      ],
+      "gloss": "A one-ton bronze statue depicting a goat-headed, winged androgyne flanked by two children. It serves as a visual representation of the reconciliation of opposites and a physical battering ram for First Amendment equality.",
+      "facet": "It was engineered not for a private altar, but as a public constitutional test: strategically deployed to stand beside Ten Commandments monuments to legally force the government to either respect true religious pluralism or abandon public religious displays altogether.",
+      "provenance": "Eliphas Levi, 'Dogme et Rituel de la Haute Magie' (1854); commissioned by TST and sculpted by Mark Porter (2014)."
+    },
+    {
+      "id": "satanic-temple-unbaptism",
+      "kind": "rite",
+      "name": "Unbaptism",
+      "archetypes": [
+        "trickster",
+        "rite-of-reversal"
+      ],
+      "gloss": "A cathartic psychodrama in which participants formally renounce their previous religious indoctrinations and any involuntary spiritual claims made upon them during childhood. It usually involves a physical mark or washing, severing perceived psychological bonds.",
+      "facet": "Because TST asserts there is no literal soul to 'save' or 'damn,' the ritual's entire efficacy is psychological—designed to cure the practitioner of ingrained guilt and fear via theatrical self-actualization.",
+      "provenance": "Shiva Honey, 'The Satanic Temple Rituals' (2020)."
+    },
+    {
+      "id": "satanic-temple-abortion-ritual",
+      "kind": "rite",
+      "name": "The Religious Abortion Ritual",
+      "archetypes": [
+        "cosmic-order",
+        "bodily-sovereignty"
+      ],
+      "gloss": "A ceremonial process that frames a medically safe abortion as a protected religious sacrament. It involves reciting the Third and Fifth Tenets before and after the medical procedure to affirm the inviolability of the practitioner's body.",
+      "facet": "It brilliantly weaponizes the Religious Freedom Restoration Act. By sacramentalizing an abortion, it legally transforms a medical procedure into a religious right, using the tools of theocratic overreach to dismantle it.",
+      "provenance": "Formalized by The Satanic Temple legal campaigns (2020)."
+    },
+    {
+      "id": "satanic-temple-pink-mass",
+      "kind": "rite",
+      "name": "The Pink Mass",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "A highly publicized, theatrical ritual performed at the gravesite of the mother of Westboro Baptist Church founder Fred Phelps. It involved same-sex couples kissing over the grave to symbolically declare her spirit 'gay' in the afterlife.",
+      "facet": "The ritual was an exercise in pure satirical warfare. It weaponized the absurdity of posthumous spiritual threats against the very bigots who deploy them, proving that manufactured outrage can be met with engineered blasphemy.",
+      "provenance": "Conducted by TST founder Lucien Greaves in Meridian, Mississippi (2013)."
+    },
+    {
+      "id": "satanic-temple-black-mass",
+      "kind": "rite",
+      "name": "The Black Mass",
+      "archetypes": [
+        "cosmic-adversary",
+        "trickster"
+      ],
+      "gloss": "A modern recontextualization of the historical blasphemous parody of the Catholic Mass. Rather than an invocation of evil, TST utilizes it as a communal celebration of free inquiry, heresy, and liberation from dogmatic oppression.",
+      "facet": "It deliberately strips the terror from an ancient superstition. Instead of hiding in the shadows, TST performs these publicly to demystify religious terror and assert the absolute right of free expression.",
+      "provenance": "Joris-Karl Huysmans, 'La-Bas' (1891); performed by TST at Harvard Extension Cultural Studies Club (2014)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "satanic-temple-satan",
+      "b": "satanic-temple-seven-tenets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Satan represents the mythological and literary inspiration for the rational, ethical framework codified in the Tenets."
+    },
+    {
+      "a": "satanic-temple-baphomet",
+      "b": "satanic-temple-seven-tenets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Baphomet is the physical, monumental manifestation of the radical pluralism and justice demanded by the Tenets."
+    },
+    {
+      "a": "satanic-temple-abortion-ritual",
+      "b": "satanic-temple-seven-tenets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Abortion Ritual is a direct, operational application of the Third Tenet (bodily autonomy)."
+    },
+    {
+      "a": "satanic-temple-black-mass",
+      "b": "satanic-temple-unbaptism",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Intra-tradition: Both are psychodramas engineered to break the practitioner's psychological conditioning from past religious dogma."
+    },
+    {
+      "a": "satanic-temple-satan",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are heroic figures who rebel against arbitrary cosmic tyrants to bring enlightenment, freedom, and forbidden knowledge to humanity."
+    },
+    {
+      "a": "satanic-temple-satan",
+      "b": "yaldabaoth",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: TST's Satan represents the destruction of ignorance, perfectly opposing the blind, ignorant control of the Gnostic Demiurge."
+    },
+    {
+      "a": "satanic-temple-satan",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: TST's literary Satan is fundamentally constructed as the necessary, empathetic opposition to the tyrannical authority of the Abrahamic God."
+    },
+    {
+      "a": "satanic-temple-satan",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are disruptive adversaries who use their chaotic influence to challenge complacency and test the moral fiber of humanity."
+    },
+    {
+      "a": "satanic-temple-seven-tenets",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a comprehensive framework of justice and cosmic order, though TST grounds its order strictly in human empathy and the scientific method."
+    },
+    {
+      "a": "satanic-temple-seven-tenets",
+      "b": "jain-anekantavada",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both enshrine epistemological humility, demanding that one's understanding of truth remain flexible and subject to new perspectives or evidence."
+    },
+    {
+      "a": "satanic-temple-seven-tenets",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit an active principle of truth and order that individuals must continuously choose to align with against falsehood."
+    },
+    {
+      "a": "satanic-temple-baphomet",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are visual syntheses of the universe's binary forces—male/female, light/dark—unified into a single, functional whole."
+    },
+    {
+      "a": "satanic-temple-baphomet",
+      "b": "fon-mawu-lisa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both conceptualize ultimate reality as an inherently androgynous, dual-natured entity containing all cosmic polarities."
+    },
+    {
+      "a": "satanic-temple-pink-mass",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ritual perfectly embodies the trickster's tactic of weaponizing the rules and taboos of the dominant culture against itself to force a chaotic shift."
+    },
+    {
+      "a": "satanic-temple-pink-mass",
+      "b": "inktomi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize extreme social transgression, absurdity, and public embarrassment to reveal the hypocrisies of the self-righteous."
+    },
+    {
+      "a": "satanic-temple-abortion-ritual",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel where a specialized ritual is meticulously constructed as a 'shield' to protect the physical body from hostile external forces."
+    },
+    {
+      "a": "satanic-temple-unbaptism",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both focus on the liberating realization that the permanent, damnable 'soul' imposed by societal conditioning does not actually exist."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "rite-of-reversal",
+      "name": "Rite of Reversal",
+      "subtype": "rite",
+      "gloss": "A deliberate inversion or profanation of a dominant culture's sacred ceremony, performed to break its psychological power and assert the practitioner's independence.",
+      "reason": "Necessary to map rituals that don't just connect to the divine, but actively dismantle previous divine claims—bridging Satanic Unbaptisms, Witchcraft parodies, and certain antinomian Aghori practices."
+    },
+    {
+      "id": "bodily-sovereignty",
+      "name": "Bodily Sovereignty",
+      "subtype": "principle",
+      "gloss": "The absolute, inviolable ownership of one's own physical body, standing above any divine, state, or moral authority.",
+      "reason": "Essential for marking the shift from 'the body as a temple owned by God' to the body as the ultimate, sovereign jurisdiction of the self."
+    }
+  ]
+}

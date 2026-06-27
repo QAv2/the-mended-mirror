@@ -1,0 +1,246 @@
+{
+  "tradition": {
+    "id": "manichaeism",
+    "name": "Manichaeism",
+    "region": "Sasanian Mesopotamia → China",
+    "color": "#e0c060"
+  },
+  "figures": [
+    {
+      "id": "manichaeism-mani",
+      "kind": "hero",
+      "name": "Mani (The Apostle of Light)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The 3rd-century Babylonian prophet who proclaimed himself the Paraclete and the 'Seal of the Prophets.' He synthesized Zoroastrianism, Christianity, and Buddhism into a single, aggressively missionary world religion, composing his own scriptures to prevent doctrinal corruption.",
+      "facet": "Unlike earlier prophets who preached to a single people or left their words to oral transmission, Mani intentionally engineered a global, translatable religion. He painted his own illuminated texts to ensure his vision transcended linguistic barriers.",
+      "provenance": "Cologne Mani Codex; Kephalaia of the Teacher; Al-Nadim's Fihrist."
+    },
+    {
+      "id": "manichaeism-father-of-greatness",
+      "kind": "deity",
+      "name": "The Father of Greatness (Zurvan / Shangdi)",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme deity of the Realm of Light, manifesting in four divine dimensions: God, Light, Power, and Wisdom. He is a purely tranquil being, completely separate from the darkness and radically innocent of creating the corrupted material universe.",
+      "facet": "He is entirely passive and unmingled. The material world is not his majestic design but a desperate, grotesque quarantine zone built from demonic corpses to filter his trapped light back to him.",
+      "provenance": "Theodore bar Konai, Scholia; Kephalaia."
+    },
+    {
+      "id": "manichaeism-prince-of-darkness",
+      "kind": "deity",
+      "name": "The Prince of Darkness (Ahriman)",
+      "archetypes": [
+        "cosmic-adversary",
+        "dualism"
+      ],
+      "gloss": "The eternal, chaotic antithesis to the Father of Greatness, ruling the Realm of Darkness. Driven by blind, devouring lust, he invaded the Realm of Light, sparking the cosmic war and the tragic mingling of the two natures.",
+      "facet": "Evil here is not a privation of good, a fallen angel, or a human illusion—it is a co-eternal, aggressive, material substance. It does not think or rebel; it merely hungers and consumes.",
+      "provenance": "Severus of Antioch, Homily 123; Al-Nadim's Fihrist; Epiphanius, Panarion."
+    },
+    {
+      "id": "manichaeism-primal-man",
+      "kind": "hero",
+      "name": "The Primal Man (Ohrmazd Bay)",
+      "archetypes": [
+        "primordial-sacrifice",
+        "dying-rising"
+      ],
+      "gloss": "The first emanation summoned by the Father of Greatness to defend the Light. Recognizing the aggression of the Darkness, he willingly descended and allowed himself and his five sons (the light elements) to be devoured by demons as toxic bait.",
+      "facet": "His sacrifice is an act of supreme passivity and self-dismemberment. Salvation is not his triumph in battle, but his willing defeat, poisoning the darkness from within with divine light that must slowly be regurgitated.",
+      "provenance": "Theodore bar Konai; Kephalaia; Ephrem the Syrian, Prose Refutations."
+    },
+    {
+      "id": "manichaeism-living-spirit",
+      "kind": "deity",
+      "name": "The Living Spirit (Mihr-Yazd)",
+      "archetypes": [
+        "smith",
+        "dragon-slayer"
+      ],
+      "gloss": "The demiurgic savior summoned to rescue the Primal Man. He defeats the arch-demons, flays them, and constructs the heavens from their skins, the mountains from their bones, and the earth from their flesh.",
+      "facet": "The cosmos is a literal abattoir. It is not spoken into being or lovingly sculpted; it is a mechanical centrifuge built entirely from butchered demonic carcasses, designed solely to extract trapped light.",
+      "provenance": "Theodore bar Konai; Augustine, Contra Epistolam Fundamenti; Kephalaia."
+    },
+    {
+      "id": "manichaeism-jesus-patibilis",
+      "kind": "concept",
+      "name": "Jesus Patibilis (The Suffering Jesus / The Cross of Light)",
+      "archetypes": [
+        "one-through-many",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The 'Suffering Jesus,' representing the divine Light trapped in all living matter. He is continually crucified in every tree, crushed in every fruit eaten, and bound in every human, crying out for release through the ascetic digestion of the Elect.",
+      "facet": "The crucifixion is not a singular historical event but a continuous, universal ecological tragedy. The divine is literally digested and freed by human stomachs, making eating a redemptive, cosmic mechanism for the Elect.",
+      "provenance": "Augustine of Hippo, Contra Faustum; Kephalaia."
+    },
+    {
+      "id": "manichaeism-az",
+      "kind": "force",
+      "name": "Az (The Demon of Greed)",
+      "archetypes": [
+        "cosmic-adversary",
+        "origin-of-death"
+      ],
+      "gloss": "The supreme demon of greed and the dark mother of humanity. Realizing the universe was systematically extracting the swallowed light, she created Adam and Eve as prisons to trap the light in an endless cycle of fleshy desire and reproduction.",
+      "facet": "Procreation is the ultimate demonic trap. Human bodies are not temples but engineered parasitic husks designed by a demon to infinitely divide and imprison the divine spark through endless birth.",
+      "provenance": "Middle Persian text Šābuhragān; Kephalaia."
+    },
+    {
+      "id": "manichaeism-column-of-glory",
+      "kind": "place",
+      "name": "The Column of Glory (The Milky Way)",
+      "archetypes": [
+        "axis-mundi",
+        "psychopomp"
+      ],
+      "gloss": "The Milky Way, envisioned as a colossal, radiant pillar or waterwheel. It functions as a cosmic elevator, continuously carrying purified soul-particles from the moon and sun back up to their home in the Realm of Light.",
+      "facet": "It shifts the axis mundi from a static tree or mountain into a massive, functioning piece of cosmic infrastructure—a literal conveyor belt for salvaged divinity.",
+      "provenance": "Kephalaia; Parthian hymns (e.g., Huyadagman)."
+    },
+    {
+      "id": "manichaeism-bema",
+      "kind": "rite",
+      "name": "The Bema",
+      "archetypes": [
+        "dying-rising",
+        "cyclic-ages"
+      ],
+      "gloss": "The central Manichaean festival commemorating Mani's martyrdom. An empty, five-stepped throne—the Bema—is erected, upon which Mani’s spirit invisibly presides to forgive the sins of the Elect and the Hearers, anticipating the final judgment.",
+      "facet": "It replaces the Christian Eucharist entirely. Instead of consuming the body of a savior, believers celebrate the triumph of the prophetic word, the ascetic life, and the coming liberation of the light.",
+      "provenance": "Bema Psalms; Kephalaia; Augustine's accounts."
+    }
+  ],
+  "edges": [
+    {
+      "a": "manichaeism-prince-of-darkness",
+      "b": "manichaeism-father-of-greatness",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The fundamental dyad of the cosmos: two uncreated, utterly opposed natures that mingle only through war."
+    },
+    {
+      "a": "manichaeism-primal-man",
+      "b": "manichaeism-jesus-patibilis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Jesus Patibilis is the ongoing, material manifestation of the light that the Primal Man initially surrendered to the darkness."
+    },
+    {
+      "a": "manichaeism-living-spirit",
+      "b": "manichaeism-prince-of-darkness",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Living Spirit weaponizes the Darkness against itself, forging the physical universe entirely out of the slaughtered progeny of the Prince of Darkness."
+    },
+    {
+      "a": "manichaeism-mani",
+      "b": "manichaeism-bema",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Bema is the ritual culmination of Mani's legacy, where his spiritual presence takes the throne he vacated in physical martyrdom."
+    },
+    {
+      "a": "manichaeism-mani",
+      "b": "mani",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The historical founder, mirrored as a divine emanation in broader Gnostic cosmologies; the identical figure bridged into related esotericism."
+    },
+    {
+      "a": "manichaeism-prince-of-darkness",
+      "b": "angra-mainyu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In Sasanian translation, Mani explicitly equated his Prince of Darkness with the Zoroastrian Ahriman to evangelize Iran."
+    },
+    {
+      "a": "manichaeism-father-of-greatness",
+      "b": "shangdi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In the Chinese Manichaean text the Compendium of the Teaching of Mani, the Father is syncretized as Shangdi, the Venerable Light."
+    },
+    {
+      "a": "manichaeism-father-of-greatness",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are utterly transcendent, unbegotten sources of spiritual reality, completely insulated from the corrupt act of material creation."
+    },
+    {
+      "a": "manichaeism-mani",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Mani proclaimed himself the Paraclete promised by Christ, positioning his revelation as the final fulfillment of the Christian narrative."
+    },
+    {
+      "a": "manichaeism-primal-man",
+      "b": "ahura-mazda",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In a radical theological inversion, Middle Persian Manichaeism translated the Primal Man as 'Ohrmazd', casting the supreme Zoroastrian deity as the suffering savior rather than the creator."
+    },
+    {
+      "a": "manichaeism-az",
+      "b": "buddhist-mara",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Central Asian Uighur Manichaeans equated Az, the demon of desire, directly with Mara, utilizing Buddhist asceticism to explain the imprisonment of light."
+    },
+    {
+      "a": "manichaeism-living-spirit",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are demiurgic heroes who slay chaotic monstrosities and architect the physical universe from their butchered corpses."
+    },
+    {
+      "a": "manichaeism-jesus-patibilis",
+      "b": "the-divine-spark",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Both represent the fractured fragments of divinity trapped within matter, needing gnosis to ascend, though Manichaeism uniquely extends this to plants and earth."
+    },
+    {
+      "a": "manichaeism-column-of-glory",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both operate as the cosmic spine connecting the realms of suffering to liberation, reinterpreted by Manichaeans as a literal machine for soul-transport."
+    },
+    {
+      "a": "manichaeism-prince-of-darkness",
+      "b": "manichaean-dualism",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The explicit principle of co-eternal good and evil, categorized within broader Gnosticism but originating from Mani's absolute ontology."
+    },
+    {
+      "a": "manichaeism-az",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are ignorant, malevolent powers who intentionally design the human body to trap divine light and prevent its return to the source."
+    },
+    {
+      "a": "manichaeism-primal-man",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions feature a primordial being whose fragmentation seeds the universe, though in Manichaeism this is a wartime casualty, not a harmonious sacrifice."
+    },
+    {
+      "a": "manichaeism-bema",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Bema ritually anticipates the final judgment and the total purification of light, mirroring the Zoroastrian renovation of the universe."
+    }
+  ],
+  "proposedArchetypes": []
+}

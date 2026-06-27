@@ -1,0 +1,205 @@
+{
+  "tradition": {
+    "id": "order-nine-angles",
+    "name": "Order of Nine Angles (O9A)",
+    "region": "UK",
+    "color": "#8a3550"
+  },
+  "figures": [
+    {
+      "id": "order-nine-angles-seven-fold-way",
+      "kind": "rite",
+      "name": "The Seven-Fold Way",
+      "archetypes": [
+        "ecstatic-shaman",
+        "emergence"
+      ],
+      "gloss": "The gruelling, multi-stage initiatory hermetic path designed to violently strip away the initiate's socially conditioned morality. It mandates dangerous physical trials, illegal acts, and the deliberate infiltration of extreme political groups to master temporal forces.",
+      "facet": "Initiation is not spiritual enlightenment but a deliberate traumatization and criminalization of the self to forge an amoral, predatory elite devoid of human empathy.",
+      "provenance": "Anton Long's 'Naos: A Practical Guide to Modern Magick'."
+    },
+    {
+      "id": "order-nine-angles-baphomet",
+      "kind": "deity",
+      "name": "Baphomet",
+      "archetypes": [
+        "great-mother",
+        "cosmic-adversary"
+      ],
+      "gloss": "Reconceptualized not as a hermaphroditic goat, but as a bloodthirsty, acausal Dark Goddess. She is the mother of the Dark Gods, demanding human sacrifice to manifest her horrific, anti-cosmic presence on Earth.",
+      "facet": "She severs the Great Mother archetype from fertility and nurture, recasting the divine feminine as an alien, predatory matriarch who feeds exclusively on human suffering.",
+      "provenance": "The 'Black Book of Satan' and internal O9A mythos."
+    },
+    {
+      "id": "order-nine-angles-vindex",
+      "kind": "hero",
+      "name": "Vindex",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The prophesied, ruthless galactic warlord who will arise to destroy modern egalitarianism, democracy, and the 'Magian' (Judeo-Christian) ethos, establishing a militaristic, neo-tribal empire in their ashes.",
+      "facet": "A dark messiah whose singular function is the violent dismantling of universal human rights, ushering in an era of blood-and-soil elitism and interstellar conquest.",
+      "provenance": "Anton Long's 'Vindex: The Destiny of the West'."
+    },
+    {
+      "id": "order-nine-angles-dark-gods",
+      "kind": "force",
+      "name": "The Dark Gods",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "Lovecraftian, predatory entities dwelling in the acausal realm. They seek to breach the causal universe to consume human energy and dismantle the ordered structures of physical existence.",
+      "facet": "They are not fallen angels seeking redemption or rebels with a cause, but completely alien, entropic parasites that the initiate willingly invites in to accelerate cosmic collapse.",
+      "provenance": "O9A texts like 'Hostia' and 'The Grimoire of Baphomet'."
+    },
+    {
+      "id": "order-nine-angles-culling",
+      "kind": "rite",
+      "name": "Culling (Opfer)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The central O9A doctrine mandating human sacrifice—either through direct ritual murder or psychological manipulation leading to death—targeting individuals deemed 'dross' or enemies of the sinister dialectic.",
+      "facet": "Sacrifice is explicitly literal and sociopathic, stripped of any notion of cosmic renewal or propitiation, framed purely as a mechanism to harden the killer and unleash acausal terror.",
+      "provenance": "'A Gift for the Prince: A Guide to Human Sacrifice'."
+    },
+    {
+      "id": "order-nine-angles-aeonics",
+      "kind": "concept",
+      "name": "Aeonics",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The theory that human civilizations are living organisms with distinct lifespans that can be altered, corrupted, or destroyed by dark magic to disrupt the current status quo.",
+      "facet": "It instrumentalizes historical cycles. History is not observed or submitted to, but actively subverted by a tiny cabal using terrorism and occultism to force an artificial dark age.",
+      "provenance": "Anton Long's political-occult syntheses in 'Hostia'."
+    },
+    {
+      "id": "order-nine-angles-acausal",
+      "kind": "concept",
+      "name": "The Acausal",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The cosmological map dividing existence into the ordered, physical universe (Causal) and an infinite, chaotic dimension of dark energy running backward in time (Acausal).",
+      "facet": "It rejects any synthesis or balance between the two realms, existing solely to teach initiates how to weaponize the chaotic Acausal to systematically destroy the Causal.",
+      "provenance": "'Naos' and the fundamental physics framework of the O9A."
+    }
+  ],
+  "edges": [
+    {
+      "a": "order-nine-angles-culling",
+      "b": "order-nine-angles-dark-gods",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Culling is the required physical mechanism to open the nexion (gate) that allows the Dark Gods to enter the causal realm."
+    },
+    {
+      "a": "order-nine-angles-baphomet",
+      "b": "order-nine-angles-dark-gods",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Baphomet is the literal mother and sovereign commander of the pantheon of Dark Gods."
+    },
+    {
+      "a": "order-nine-angles-vindex",
+      "b": "order-nine-angles-aeonics",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Vindex is the prophesied human catalyst who shatters the current Aeon and inaugurates the next cycle of civilization."
+    },
+    {
+      "a": "order-nine-angles-seven-fold-way",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve harrowing, psychologically shattering journeys across distinct cosmic spheres, though O9A seeks sociopathy rather than community healing."
+    },
+    {
+      "a": "order-nine-angles-baphomet",
+      "b": "dravidian-kotravai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are terrifying, blood-thirsty goddesses of war and destruction demanding absolute, bloody sacrifice."
+    },
+    {
+      "a": "order-nine-angles-culling",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Tezcatlipoca requires the blood of the captive to sustain the cosmos; O9A demands the blood of the 'dross' to feed acausal entities."
+    },
+    {
+      "a": "order-nine-angles-vindex",
+      "b": "saoshyant",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While the Saoshyant arrives to perfect the world and end evil, Vindex arrives to violently destroy universalism and install a ruthless, unequal hierarchy."
+    },
+    {
+      "a": "order-nine-angles-dark-gods",
+      "b": "lords-of-xibalba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Predatory, subterranean or acausal lords who actively scheme to trick, test, and consume human life."
+    },
+    {
+      "a": "order-nine-angles-acausal",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Acausal functions identically to the domain of Angra Mainyu—a realm of pure, destructive, and entropic force fundamentally hostile to the ordered cosmos."
+    },
+    {
+      "a": "order-nine-angles-baphomet",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A terrifying, monstrous mother figure who embodies the absolute, devouring darkness of the cosmos."
+    },
+    {
+      "a": "order-nine-angles-aeonics",
+      "b": "buddhist-kalpas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both measure cosmic time in vast, structured epochs, but Aeonics seeks to forcefully abort the epoch rather than escape it."
+    },
+    {
+      "a": "order-nine-angles-culling",
+      "b": "jain-ahimsa",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute ontological inversion of Jain non-violence; O9A posits that maximum, deliberate harm is the only path to spiritual evolution."
+    },
+    {
+      "a": "order-nine-angles-vindex",
+      "b": "hongik-ingan",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Hongik Ingan is the principle of benefiting all humanity; Vindex represents the absolute destruction of universal benefit in favor of a predator elite."
+    },
+    {
+      "a": "order-nine-angles-seven-fold-way",
+      "b": "disciplina-etrusca",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Etruscan discipline seeks to perfectly align with the will of the gods to maintain order; the Seven-Fold Way seeks to aggressively sever the initiate from all cosmic or social laws."
+    },
+    {
+      "a": "order-nine-angles-acausal",
+      "b": "the-pleroma",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Pleroma is the fullness of divine light beyond the material; the Acausal is the fullness of predatory, entropic dark energy beyond the material."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "antinomian-initiation",
+      "name": "Antinomian Initiation",
+      "subtype": "rite",
+      "gloss": "A spiritual or magical path that demands the deliberate, transgressive breaking of cultural taboos, moral laws, or social norms as the primary engine of enlightenment.",
+      "reason": "Required to classify systems where deliberate criminality and moral inversion are the mechanism of ascension, distinct from traditional ecstatic journeys."
+    }
+  ]
+}

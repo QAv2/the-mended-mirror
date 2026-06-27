@@ -1,0 +1,226 @@
+{
+  "tradition": {
+    "id": "ojibwe",
+    "name": "Anishinaabe / Ojibwe",
+    "region": "Upper Great Lakes",
+    "color": "#5a8fc7"
+  },
+  "figures": [
+    {
+      "id": "ojibwe-gichi-manidoo",
+      "kind": "deity",
+      "name": "Gichi-manidoo (Gitche Manitou / The Great Spirit)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The uncreated, incomprehensible source of all existence. Rather than a personal god, Gichi-manidoo is the ultimate cosmic animating principle—the 'Great Mystery'—that breathed life into the universe, leaving the active management of the world to lesser manidoog (spirits).",
+      "facet": "It is fundamentally non-anthropomorphic and transcends physical form. It does not demand worship or intervene directly, but permeates all things as the underlying, unifying spiritual fabric of reality.",
+      "provenance": "Basil Johnston, 'Ojibway Heritage' (1976); Frances Densmore, 'Chippewa Customs' (1929)."
+    },
+    {
+      "id": "ojibwe-wenabozho",
+      "kind": "hero",
+      "name": "Wenabozho (Nanabozho / The Great Hare)",
+      "archetypes": [
+        "culture-hero",
+        "trickster"
+      ],
+      "gloss": "The shape-shifting, semi-divine son of the West Wind and a human mother. He taught the Anishinaabeg how to hunt, use fire, and survive, while simultaneously acting as a vain, foolish trickster whose comic misadventures physically shaped the Great Lakes landscape.",
+      "facet": "He is neither fully divine nor fully human, embodying the paradoxical nature of existence. His power lies not in supreme wisdom, but in an adaptable, flawed resilience that perfectly mirrors the human struggle.",
+      "provenance": "Basil Johnston, 'Ojibway Heritage' (1976); A. Irving Hallowell, 'The Role of Conjuring in Saulteaux Society' (1942)."
+    },
+    {
+      "id": "ojibwe-mishipeshu",
+      "kind": "creature",
+      "name": "Mishipeshu (The Great Underwater Panther)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A fearsome, dragon-like feline with copper horns and a spiked tail that rules the lakes and underworld. It commands whirlpools and water spirits, guarding the vast copper deposits of the region and demanding appeasement from humans for safe aquatic passage.",
+      "facet": "It represents the terrifying, unpredictable peril of deep water. Uniquely, it is the active custodian of terrestrial wealth, making it an ambivalent figure of both deadly chaos and material power.",
+      "provenance": "Theresa Smith, 'The Island of the Anishnaabeg' (1995); Norval Morrisseau, 'Legends of My People, The Great Ojibway' (1965)."
+    },
+    {
+      "id": "ojibwe-animikii",
+      "kind": "creature",
+      "name": "Animikiiwag (The Thunderbirds)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "Massive, eagle-like sky beings whose beating wings create thunder and whose blinking eyes flash lightning. They migrate north in the spring to bring life-giving rain, engaging in a perpetual, elemental war against the underwater panthers to protect the surface world.",
+      "facet": "They are not distant meteorological phenomena but localized, migratory protectors. Their seasonal arrival signals the renewal of life and acts as an active, conscious defense of humanity against chthonic monsters.",
+      "provenance": "Theresa Smith, 'The Island of the Anishnaabeg' (1995); Basil Johnston, 'Ojibway Heritage' (1976)."
+    },
+    {
+      "id": "ojibwe-midewiwin",
+      "kind": "rite",
+      "name": "Midewiwin (The Grand Medicine Society)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "initiatory-lodge"
+      ],
+      "gloss": "An exclusive, graded initiatory society of spiritual healers and record-keepers. Members utilize sacred birchbark scrolls and complex botanical knowledge to cure ailments, ensuring the continuation of Anishinaabe cosmology, ethics, and physical health through rigorous ceremonial apprenticeship.",
+      "facet": "It systematizes shamanic ecstasy into an organized, academic curriculum. Healing is achieved not solely through solitary vision quests, but through formalized peer transmission and the meticulous archival of knowledge on physical media.",
+      "provenance": "W.J. Hoffman, 'The Midewiwin or Grand Medicine Society of the Ojibwa' (1891); Michael Angel, 'Preserving the Sacred' (2002)."
+    },
+    {
+      "id": "ojibwe-wazhashk",
+      "kind": "hero",
+      "name": "Wazhashk (The Muskrat)",
+      "archetypes": [
+        "earth-diver"
+      ],
+      "gloss": "Following the great flood that destroyed the old world, the humble muskrat dove deeper than the stronger animals. Though he drowned in the attempt, he successfully retrieved a single paw-full of mud that was placed on a turtle's back to grow into the new earth.",
+      "facet": "Creation is achieved through the ultimate sacrifice of the smallest, least capable creature. It embeds a deep ethic of humility, proving that cosmic survival depends on the courage of the seemingly insignificant.",
+      "provenance": "Basil Johnston, 'Ojibway Heritage' (1976); Ignatia Broker, 'Night Flying Woman' (1983)."
+    },
+    {
+      "id": "ojibwe-jiibayaabooz",
+      "kind": "deity",
+      "name": "Jiibayaabooz (The Ghost Rabbit)",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The beloved younger brother of Wenabozho who was drowned by jealous underwater spirits. Resurrected but unable to return to the world of the living, he was appointed the ruler of the afterlife, guiding the souls of the dead to the spirit village in the West.",
+      "facet": "He is not a sinister jailer of the damned, but a tragic, compassionate sibling whose unjust death instituted the necessity of mortality. He ensures the dead have a familiar, loving sovereign.",
+      "provenance": "Basil Johnston, 'Ojibway Heritage' (1976)."
+    },
+    {
+      "id": "ojibwe-nookomis",
+      "kind": "ancestor",
+      "name": "Nookomis (Grandmother Earth)",
+      "archetypes": [
+        "great-mother",
+        "first-ancestor"
+      ],
+      "gloss": "The earth itself, often personified as the patient, ancient grandmother of Wenabozho. She provides the roots, medicines, and flora necessary for survival, patiently attempting to guide her impulsive grandson as he shapes the chaotic young world into a habitable home.",
+      "facet": "She represents an enduring, stabilizing maternal presence that contrasts with the volatile heroics of the younger generation. Her wisdom is grounded, botanical, and infinitely forgiving toward human and divine flaws.",
+      "provenance": "Basil Johnston, 'Ojibway Heritage' (1976)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "ojibwe-wenabozho",
+      "b": "ojibwe-wazhashk",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The demigod creator and the humble animal work as a team; Wenabozho has the magic to expand the earth, but only the Muskrat's sacrifice can retrieve the foundational mud."
+    },
+    {
+      "a": "ojibwe-animikii",
+      "b": "ojibwe-mishipeshu",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The sky-dwelling Thunderbirds and the chthonic Underwater Panther are locked in a perpetual, balancing war of elemental forces across the boundary of the water's surface."
+    },
+    {
+      "a": "ojibwe-wenabozho",
+      "b": "ojibwe-jiibayaabooz",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The two brothers divide the cosmos, with Wenabozho shaping the world of the living and Jiibayaabooz ruling and comforting the realm of the dead."
+    },
+    {
+      "a": "ojibwe-gichi-manidoo",
+      "b": "wakan-tanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are incomprehensible, omnipresent Great Mysteries that animate the universe without being strictly anthropomorphized."
+    },
+    {
+      "a": "ojibwe-gichi-manidoo",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the infinite, unmanifested source of reality that is too vast to be conceptualized or directly interacted with by humanity."
+    },
+    {
+      "a": "ojibwe-gichi-manidoo",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are the ultimate, formless cosmic principles that undergird the multiplicity of the visible world and its lesser, active deities."
+    },
+    {
+      "a": "ojibwe-animikii",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are massive, storm-bringing Thunderbird spirits of the Plains and Woodlands who violently battle horned aquatic serpents."
+    },
+    {
+      "a": "ojibwe-animikii",
+      "b": "pnw-thunderbird",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Shared archetype of giant avian sky-beings whose physical movements directly generate the meteorological phenomena of thunder and lightning."
+    },
+    {
+      "a": "ojibwe-mishipeshu",
+      "b": "unktehi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are formidable, horned underwater monsters that embody the chaotic peril of deep water and serve as the eternal enemies of thunder beings."
+    },
+    {
+      "a": "ojibwe-mishipeshu",
+      "b": "zulu-inkanyamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are deeply feared, destructive serpent-feline monsters associated with the unpredictable violence of storms and deep lakes."
+    },
+    {
+      "a": "ojibwe-wazhashk",
+      "b": "earth-diver-animals",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A shared North American mechanism where an unassuming animal dives into a primordial sea to retrieve the speck of mud that becomes the earth."
+    },
+    {
+      "a": "ojibwe-jiibayaabooz",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the first mortal to die, whose tragic death establishes the path to the afterlife and who subsequently becomes its benevolent, sovereign guide."
+    },
+    {
+      "a": "ojibwe-jiibayaabooz",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are beloved figures murdered by jealous supernatural rivals, who cannot return to the living world and thus become the sympathetic lords of the dead."
+    },
+    {
+      "a": "ojibwe-wenabozho",
+      "b": "inktomi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are cultural trickster heroes whose vanity and selfish schemes paradoxically shape the physical landscape and teach humanity moral boundaries through failure."
+    },
+    {
+      "a": "ojibwe-wenabozho",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are culturally beloved, semi-divine trickster-heroes who rely on cunning rather than raw power to steal boons for humanity and alter the geography."
+    },
+    {
+      "a": "ojibwe-nookomis",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are personifications of the earth as an ancient, sustaining mother-figure who directly provides the agricultural and botanical necessities for human survival."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "initiatory-lodge",
+      "name": "Initiatory Lodge",
+      "subtype": "rite",
+      "gloss": "An exclusive, graded society that systematizes spiritual knowledge, healing, and cosmology, transferring power through strict apprenticeship rather than solitary revelation.",
+      "reason": "Needed to represent formalized, academic-like esoteric orders (like the Midewiwin, Bora, or Sigui) that institutionalize ecstatic experiences into a structured, pedagogical lineage."
+    }
+  ]
+}

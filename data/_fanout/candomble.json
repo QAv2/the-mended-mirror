@@ -1,0 +1,260 @@
+{
+  "tradition": {
+    "id": "candomble",
+    "name": "Candomblé",
+    "region": "Brazil (Bahia)",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "candomble-olorun",
+      "kind": "deity",
+      "name": "Olorun (Olodumare, The Supreme Creator)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator and ultimate source of all existence. He is absolute, transcendent, and formless, generating the vital energy of the universe but demanding no direct offerings, altars, or ritual sacrifices.",
+      "facet": "Because his pure power is too vast and remote for human interaction, all terrestrial affairs are strictly delegated to the Orixas, who act as his active, earthly emissaries.",
+      "provenance": "Yoruba cosmology preserved largely intact in the Ketu nation; Pierre Verger's 'Orixas'."
+    },
+    {
+      "id": "candomble-exu",
+      "kind": "deity",
+      "name": "Exu (Guardian of the Crossroads)",
+      "archetypes": [
+        "trickster",
+        "psychopomp"
+      ],
+      "gloss": "The dynamic guardian of the crossroads and the essential messenger between humans and the Orixas. He is the master of movement, chaos, communication, and the undeniable kinetic friction of life.",
+      "facet": "He must receive the very first offering in every ritual; without his compliance, no axe can flow. Despite historical demonization by the Church, he is fundamentally amoral, not evil.",
+      "provenance": "Yoruba Orisha Esu; heavily rehabilitated from colonial Catholic demonology in modern Candomble praxis."
+    },
+    {
+      "id": "candomble-oxala",
+      "kind": "deity",
+      "name": "Oxala (The White Father)",
+      "archetypes": [
+        "sky-father",
+        "culture-hero"
+      ],
+      "gloss": "The eldest and most venerated Orixa, tasked by Olorun with molding the physical bodies of humanity. Draped in pure white, he embodies profound wisdom, patience, and absolute peace.",
+      "facet": "His pristine purity means he strictly abhors blood, palm oil (dende), and violence. His intense syncretism with Jesus ('Senhor do Bonfim') forms the central, unshakeable pillar of Bahian identity.",
+      "provenance": "Obatala of the Yoruba; deeply syncretized with 'Nosso Senhor do Bonfim' in Bahia."
+    },
+    {
+      "id": "candomble-iemanja",
+      "kind": "deity",
+      "name": "Iemanja (Queen of the Ocean)",
+      "archetypes": [
+        "mother-of-waters",
+        "great-mother"
+      ],
+      "gloss": "The maternal sovereign of the ocean and the ultimate mother to many of the Orixas. She represents fertility, the protection of families, and the vast, nurturing, and terrifying deep.",
+      "facet": "In Brazil, she transformed from a regional river deity into the absolute sovereign of the Atlantic Ocean, profoundly symbolizing the traumatic, watery passage of enslaved Africans.",
+      "provenance": "Yoruba Yemoja (Ogun River); syncretized universally in Brazil with the Virgin Mary ('Nossa Senhora dos Navegantes')."
+    },
+    {
+      "id": "candomble-ogum",
+      "kind": "deity",
+      "name": "Ogum (Lord of Iron and Paths)",
+      "archetypes": [
+        "smith",
+        "culture-hero"
+      ],
+      "gloss": "The fierce Orixa of iron, warfare, and technology. He is the relentless path-opener who forged the first tools for agriculture, hunting, and human survival.",
+      "facet": "While Exu opens the metaphysical crossroads, Ogum physically clears the literal roads. He is the kinetic force of human civilization and survival under harsh diasporic conditions.",
+      "provenance": "Yoruba Ogun; syncretized with Saint Anthony in Bahia and Saint George in Rio de Janeiro."
+    },
+    {
+      "id": "candomble-xango",
+      "kind": "deity",
+      "name": "Xango (Lord of Thunder and Justice)",
+      "archetypes": [
+        "storm-wielder",
+        "cosmic-order"
+      ],
+      "gloss": "The proud, royal Orixa of thunder, lightning, and absolute justice. He wields the oxe (double-headed axe) and rules over the structural laws and equilibrium of human society.",
+      "facet": "He does not mete out blind vengeance but calculated, structural justice. He embodies the lost royalty of African kingdoms, restoring dignity and divine fairness to his initiates.",
+      "provenance": "Deified fourth king of the Oyo Empire (Sango); typically syncretized with Saint Jerome."
+    },
+    {
+      "id": "candomble-axe",
+      "kind": "concept",
+      "name": "Axe (Vital Force)",
+      "archetypes": [
+        "vital-force",
+        "one-through-many"
+      ],
+      "gloss": "The fundamental life force, dynamic energy, and sacred power that animates the universe. It is the blood of the cosmos, residing physically in leaves, stones, animals, and the spoken word.",
+      "facet": "Axe is a thermodynamic spiritual currency. It is not static; it must be actively cultivated, fed, and circulated through ritual sacrifice and rhythmic drumming to prevent depletion.",
+      "provenance": "Central Yoruba philosophical concept ('ase'), foundational across all Candomble nations."
+    },
+    {
+      "id": "candomble-terreiro",
+      "kind": "place",
+      "name": "Terreiro (The Sacred House)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred temple complex where Candomble is practiced. It is a consecrated territory divided into public dance floors (barracao) and secret shrines (pejis) housing the physical manifestations of the Orixas.",
+      "facet": "The terreiro operates as a sovereign micro-cosmos, physically re-creating the lost African homelands on Brazilian soil and providing a profound spatial anchor for diaspora identity.",
+      "provenance": "Developed in 19th-century Bahia; documented extensively by Ruth Landes in 'The City of Women'."
+    },
+    {
+      "id": "candomble-incorporacao",
+      "kind": "rite",
+      "name": "Incorporacao (Trance Possession)",
+      "archetypes": [
+        "divine-embodiment",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The physical possession of an initiate (iao) by their ruling Orixa during ritual ceremonies. Driven by specific drum rhythms, the spirit descends to dance and interact directly with the community.",
+      "facet": "Unlike mere spiritual inspiration, the medium's consciousness is completely suppressed. The Orixa wears specific vestments and performs ancestral choreographies, proving the gods are materially present.",
+      "provenance": "Core praxis of Candomble; analyzed by Roger Bastide in 'The African Religions of Brazil'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "candomble-exu",
+      "b": "candomble-ogum",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Exu holds the metaphysical crossroads, while Ogum physically clears the path; they are a bound dyad always honored sequentially."
+    },
+    {
+      "a": "candomble-axe",
+      "b": "candomble-terreiro",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The terreiro serves as the vital physical battery and containment field where axe is ritually generated, stored, and distributed."
+    },
+    {
+      "a": "candomble-iemanja",
+      "b": "candomble-oxala",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Often paired structurally as the great aquatic mother and the supreme white father, generating the foundation of the Bahian pantheon."
+    },
+    {
+      "a": "candomble-exu",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Yoruba trickster and messenger, retaining his absolute role as the opener of paths, adapted directly into the Brazilian diaspora."
+    },
+    {
+      "a": "candomble-exu",
+      "b": "fon-legba",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Parallel entities of the crossroads forged into structurally identical roles across New World diaspora traditions."
+    },
+    {
+      "a": "candomble-exu",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are divine messengers, masters of boundaries, and trickster guides who move freely between the realms of gods and men."
+    },
+    {
+      "a": "candomble-iemanja",
+      "b": "mama-cocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme maternal sovereigns of the ocean, revered for their vast fertility and their ultimate power over the watery deep."
+    },
+    {
+      "a": "candomble-ogum",
+      "b": "ogun",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Yoruba lord of iron and war transplanted directly, retaining his metallurgy, machete, and path-clearing kinetic energy."
+    },
+    {
+      "a": "candomble-ogum",
+      "b": "fon-gu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Shares the exact attributes of iron, warfare, and technological mastery with the Dahomean Gu."
+    },
+    {
+      "a": "candomble-xango",
+      "b": "shango",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Yoruba king of Oyo, perfectly preserved in Brazil as the royal wielder of lightning and absolute justice."
+    },
+    {
+      "a": "candomble-xango",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Proud, robust storm-wielders who command thunder, wield iconic, culturally foundational axes or hammers, and champion structural order."
+    },
+    {
+      "a": "candomble-oxala",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Through intense historical syncretism, the Yoruba creator of bodies became physically identified with Jesus ('Senhor do Bonfim') in Bahia."
+    },
+    {
+      "a": "candomble-oxala",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Serene craftsman deities fundamentally tasked with sculpting the physical bodies and forms of living beings."
+    },
+    {
+      "a": "candomble-olorun",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The transcendent Yoruba creator mapped directly onto the Abrahamic God under the intense historical pressure of Brazilian Catholicism."
+    },
+    {
+      "a": "candomble-olorun",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme, transcendent African creators who originated the cosmos but withdrew from direct daily interference in human affairs."
+    },
+    {
+      "a": "candomble-axe",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are foundational, non-anthropomorphic conceptions of a pervasive spiritual life-force that animates all phenomena and can be harnessed."
+    },
+    {
+      "a": "candomble-incorporacao",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Traditions where the ultimate, load-bearing ritual act is the physical, kinetic embodiment of a deity through human vessels."
+    },
+    {
+      "a": "candomble-incorporacao",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Community-driven rhythmic technologies designed to fundamentally alter consciousness and draw potent spiritual energy into physical space."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "vital-force",
+      "name": "Vital Force",
+      "subtype": "concept",
+      "gloss": "A dynamic, transmissible energy or life force that animates the physical and spiritual universe, which must be actively cultivated, accumulated, and circulated through human ritual.",
+      "reason": "Captures the thermodynamic, non-anthropomorphic power systems (Axe, Orenda, Mana) that drive religious praxis beyond mere worship of personified deities."
+    },
+    {
+      "id": "divine-embodiment",
+      "name": "Divine Embodiment",
+      "subtype": "rite",
+      "gloss": "A highly structured ritual technology where a human initiate serves as a living, physical vessel for a deity, permanently or temporarily altering their ontology.",
+      "reason": "Essential for possession-trance religions where gods physically mount and ride initiates, going beyond mere ecstatic flight or abstract worship."
+    }
+  ]
+}

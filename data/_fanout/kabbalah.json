@@ -1,0 +1,250 @@
+{
+  "tradition": {
+    "id": "kabbalah",
+    "name": "Kabbalah",
+    "region": "Provence & Spain",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "kabbalah-ein-sof",
+      "kind": "principle",
+      "name": "Ein Sof (The Infinite)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The infinite, unknowable root of all existence. Existing prior to any emanation, it possesses no limit, no graspable attribute, and no will comprehensible to human logic. It is the absolute 'Nothingness' (Ayin) from which the divine attributes flow.",
+      "facet": "Unlike the personal, listening God of standard Jewish liturgy, this ultimate reality cannot be prayed to directly. It is approached only through the lower emanations, standing utterly detached until it clothes itself in the Sefirot.",
+      "provenance": "The Zohar; writings of Azriel of Gerona; Sefer HaBahir."
+    },
+    {
+      "id": "kabbalah-sefirot",
+      "kind": "force",
+      "name": "The Sefirot (The Ten Emanations)",
+      "archetypes": [
+        "one-through-many",
+        "axis-mundi"
+      ],
+      "gloss": "The ten divine emanations forming the 'Tree of Life'. They act as the vessels and channels through which the infinite light becomes structured, generating both the spiritual realms and the physical cosmos.",
+      "facet": "They represent a dynamic, interdependent divine organism. Human moral and ritual actions directly affect the harmony among these channels, effectively making humanity responsible for maintaining the internal balance of God.",
+      "provenance": "Sefer Yetzirah; Sefer HaBahir; The Zohar."
+    },
+    {
+      "id": "kabbalah-shekhinah",
+      "kind": "deity",
+      "name": "Shekhinah (The Divine Presence)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The indwelling Divine Presence and the lowest of the ten Sefirot (Malkhut). Depicted as the feminine aspect of God, she mediates between the divine and material worlds and enters into exile with the Jewish people.",
+      "facet": "Introduces radical gender duality into strict Jewish monotheism. The ultimate goal of Kabbalistic ritual is to achieve 'yichud'—the erotic, spiritual reunification of the Shekhinah with her male counterpart in the Godhead.",
+      "provenance": "Talmudic midrashim adapted and radically expanded in the Zohar."
+    },
+    {
+      "id": "kabbalah-adam-kadmon",
+      "kind": "concept",
+      "name": "Adam Kadmon (Primordial Man)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The 'Primordial Human', representing the first configuration of divine light after the initial cosmic contraction. It serves as the macroscopic blueprint for the entire universe, structured in a spiritual human shape.",
+      "facet": "It anthropomorphizes creation, asserting that the human form is not a terrestrial accident but the very architecture of the cosmos and the shape of divine emanation itself.",
+      "provenance": "Lurianic Kabbalah; writings of Chaim Vital (Etz Chaim)."
+    },
+    {
+      "id": "kabbalah-tzimtzum",
+      "kind": "principle",
+      "name": "Tzimtzum (Divine Contraction)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The Lurianic doctrine of divine contraction. To make space for a finite universe, the omnipresent infinite light 'withdrew' into itself, creating a conceptual void (chalal) where creation could subsequently unfold.",
+      "facet": "It solves the problem of creation from an omnipresent God not through outward emanation, but through divine self-exile. The origin of the universe is a catastrophic withdrawal, an act of severe self-limitation.",
+      "provenance": "Teachings of Isaac Luria (the Ari), recorded by Chaim Vital."
+    },
+    {
+      "id": "kabbalah-tiqqun",
+      "kind": "principle",
+      "name": "Tiqqun Olam (Cosmic Mending)",
+      "archetypes": [
+        "cosmic-mending"
+      ],
+      "gloss": "The cosmic process of restoration. Following the catastrophic 'Shattering of the Vessels', divine sparks fell into the material realm. Human adherence to the commandments actively liberates these trapped sparks.",
+      "facet": "Transforms the observant believer into a cosmic redeemer. The fate of the universe—and God's own structural wholeness—depends literally on human hands gathering the shattered shards of divine light back to their source.",
+      "provenance": "Lurianic Kabbalah."
+    },
+    {
+      "id": "kabbalah-sitra-achra",
+      "kind": "force",
+      "name": "Sitra Achra (The Other Side)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The domain of evil, demons, and spiritual husks (Qlippoth). It lacks its own independent life force, feeding instead on the leftover divine light trapped during the cosmic shattering and sustained by human sin.",
+      "facet": "Evil is not a rival eternal power, nor a mere absence of good, but the parasitic 'dregs' of strict divine judgment (Gevurah) that severed themselves from the balanced organism of the Sefirot.",
+      "provenance": "The Zohar; Lurianic texts; Treatise on the Left Emanation by Isaac ha-Cohen."
+    },
+    {
+      "id": "kabbalah-zohar",
+      "kind": "concept",
+      "name": "The Zohar (The Book of Radiance)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A foundational 13th-century compilation of mystical Torah exegesis. Written in cryptic Aramaic, it decodes the biblical narratives and commandments as a living map of the divine mind.",
+      "facet": "It shifts the Torah from a legal-historical document into an active, vibrating talisman. Every word, letter, and vowel is understood as a dynamic symbol that reflects and manipulates the upper realms.",
+      "provenance": "Moses de Leon (13th-century Spain), pseudonymously attributed to the 2nd-century sage Shimon bar Yochai."
+    }
+  ],
+  "edges": [
+    {
+      "a": "kabbalah-ein-sof",
+      "b": "kabbalah-sefirot",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ein Sof is the unknowable source that endlessly emanates the structured light of the Sefirot to interact with creation."
+    },
+    {
+      "a": "kabbalah-shekhinah",
+      "b": "kabbalah-sitra-achra",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The Shekhinah represents the holy divine presence exiled in the material world, while the Sitra Achra represents the parasitic husks that trap her."
+    },
+    {
+      "a": "kabbalah-tzimtzum",
+      "b": "kabbalah-tiqqun",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Tzimtzum is the initial traumatic withdrawal that led to the shattering; Tiqqun is the final mending that restores the cosmos."
+    },
+    {
+      "a": "kabbalah-sefirot",
+      "b": "kabbalah-adam-kadmon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The ten Sefirot are conceptually mapped onto the spiritual body of Adam Kadmon."
+    },
+    {
+      "a": "kabbalah-ein-sof",
+      "b": "ein-sof",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Kabbalistic conceptualization of the exact same ultimate reality present in the broader Abrahamic tradition."
+    },
+    {
+      "a": "kabbalah-ein-sof",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both systems locate the origin of existence in an utterly transcendent, unknowable, and formless 'Nothingness' preceding all emanation."
+    },
+    {
+      "a": "kabbalah-ein-sof",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The parallel to Nirguna Brahman—the ultimate, non-dual, attribute-less reality underpinning all existence."
+    },
+    {
+      "a": "kabbalah-ein-sof",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The nameless, ineffable root of all things that acts by not acting, prior to the dualities of creation."
+    },
+    {
+      "a": "kabbalah-sefirot",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A complex architecture of divine emanations (Aeons/Sefirot) that bridge the incomprehensible ultimate source and the material cosmos."
+    },
+    {
+      "a": "kabbalah-sefirot",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are a specific set of divine attributes/emanations through which a transcendent creator interacts with and sustains the world."
+    },
+    {
+      "a": "kabbalah-sefirot",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The mapping of the entire cosmos—both physical and spiritual—onto a singular, interconnected 'Tree of Life' structure."
+    },
+    {
+      "a": "kabbalah-shekhinah",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A divine feminine figure who falls or descends into the material realm, experiences exile, and requires a process of spiritual restoration."
+    },
+    {
+      "a": "kabbalah-shekhinah",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The conceptualization of the cosmos as requiring the harmonious balancing of distinct masculine and feminine principles."
+    },
+    {
+      "a": "kabbalah-adam-kadmon",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The vision of a primordial, macrocosmic 'Person' whose spiritual anatomy serves as the structural blueprint for the entire universe."
+    },
+    {
+      "a": "kabbalah-tzimtzum",
+      "b": "withdrawn-creator",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Explains the presence of a flawed world by asserting the ultimate creator deliberately vacated space to allow something 'other' to exist."
+    },
+    {
+      "a": "kabbalah-tzimtzum",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Creation beginning not with a sudden expansion, but with an internal vibration and conceptual contraction within the divine."
+    },
+    {
+      "a": "kabbalah-tiqqun",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions task humanity with an active, ritual role in the ultimate purification and restoration of a fundamentally broken cosmos."
+    },
+    {
+      "a": "kabbalah-sitra-achra",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The realm of darkness and destruction, though Kabbalah strips it of co-eternal independence, rendering it a parasitic byproduct of divine judgment."
+    },
+    {
+      "a": "kabbalah-sitra-achra",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A lower, flawed dimension of severe judgment and material limitation that traps divine light within physical or demonic 'shells'."
+    },
+    {
+      "a": "kabbalah-zohar",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An esoteric, divinely revealed textual corpus that provides the secret codes for interpreting the cosmos and maintaining universal balance."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "cosmic-mending",
+      "name": "Cosmic Mending",
+      "subtype": "principle",
+      "gloss": "The theological imperative that the universe is fundamentally fractured, and it relies upon human ritual or moral action to gather, elevate, and restore the scattered divine elements.",
+      "reason": "Crucial for traditions like Kabbalah (Tiqqun), Manichaeism (gathering the trapped light), and aspects of Zoroastrianism, where human hands literally repair the structure of reality."
+    }
+  ]
+}

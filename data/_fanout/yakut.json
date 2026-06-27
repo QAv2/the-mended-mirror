@@ -1,0 +1,250 @@
+{
+  "tradition": {
+    "id": "yakut",
+    "name": "Yakut / Sakha",
+    "region": "Sakha (Lena basin)",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "yakut-urung-aiyy-toyon",
+      "kind": "deity",
+      "name": "Ürüng Aiyy Toyon",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator deity dwelling in the ninth heaven. He established the cosmic order, created humans and horses, and heads the benevolent Aiyy spirits of the upper world, though he remains fundamentally aloof from daily human struggles.",
+      "facet": "Unlike purely transcendent creators, his whiteness is explicitly linked to kumis (fermented mare's milk) and the summer solstice festival (Yhyakh). He is honored not through blood sacrifice, but through dairy libations.",
+      "provenance": "Sakha epic poetry (Olonkho); Sieroszewski 'Yakuty' (1896); Ksenofontov (1992)."
+    },
+    {
+      "id": "yakut-arsan-duolai",
+      "kind": "deity",
+      "name": "Arsan Duolai",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "The monstrous ruler of the subterranean realm and progenitor of the malevolent abaasy. He resides in a dark, stagnant underworld located beneath the roots of the world tree, constantly demanding blood sacrifices to avert disease.",
+      "facet": "He is not a fallen angel but an endemic landlord of the depths. Sickness in Yakut cosmology is literal cannibalism by Arsan Duolai's children, who must be bribed with cattle to spit the human soul back out.",
+      "provenance": "Olonkho oral traditions; Alekseev 'Traditional Religious Beliefs of the Yakuts' (1975)."
+    },
+    {
+      "id": "yakut-uluu-toyon",
+      "kind": "deity",
+      "name": "Uluu Toyon",
+      "archetypes": [
+        "storm-wielder",
+        "culture-hero"
+      ],
+      "gloss": "The formidable lord of the western sky. Though associated with dark spirits, he is the essential bringer of fire to humanity, the patron of black shamans, and the giver of 'sür' (spiritual vitality and willpower).",
+      "facet": "He shatters a simple good-evil binary. As the source of both dangerous storms and the vital spark of human resilience, he proves that raw power and magic in the harsh taiga require acknowledging the perilous western heavens.",
+      "provenance": "Jochelson (1933); Eleva 'Yakut Mythology' (2006)."
+    },
+    {
+      "id": "yakut-aal-luuk-mas",
+      "kind": "place",
+      "name": "Aal Luuk Mas",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The gargantuan World Tree that anchors the cosmos. Its roots penetrate Arsan Duolai's underworld, its trunk supports the middle world of humans, and its eight-tiered branches reach up to Ürüng Aiyy Toyon's heaven.",
+      "facet": "It is fundamentally a maternal, nurturing entity rather than just a structural pillar. It exudes a life-giving sap that nourishes legendary heroes (Bogatyr) before their battles against the forces of darkness.",
+      "provenance": "Central motif of the Olonkho (e.g., 'Nyurgun Botur the Swift')."
+    },
+    {
+      "id": "yakut-aan-alakhchyn-khotun",
+      "kind": "deity",
+      "name": "Aan Alakhchyn Khotun",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The spirit-mistress of the earth and the Aal Luuk Mas. Emerging half-naked from the trunk of the Great Tree, she blesses the land with fertility and offers sacred milk to bolster the strength of chosen human warriors.",
+      "facet": "Her presence localizes the vast Siberian landscape into a protective, maternal hearth. She is intimately tied to the survival of the Sakha cattle and horses, bridging the sacred tree with the pastoral economy.",
+      "provenance": "Olonkho epics; Kulakovsky 'Materials for the Study of Yakut Beliefs' (1923)."
+    },
+    {
+      "id": "yakut-aiyy-oyuuna",
+      "kind": "hero",
+      "name": "Aiyy Oyuuna (The White Shaman)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The 'White Shaman,' a ritual specialist who serves the upper-world deities (Aiyy). They do not fall into ecstatic trance or deal with disease; instead, they officiate the summer Yhyakh festival and offer peaceful prayers and kumis.",
+      "facet": "Represents a schism in Siberian shamanism. The white shaman is a civic priest of pastoral increase and daylight, entirely forbidden from shedding blood, touching corpses, or contacting the underworld.",
+      "provenance": "Ksenofontov 'Shamanism and Antiquity' (1992); Eliade (1951)."
+    },
+    {
+      "id": "yakut-oyuun",
+      "kind": "hero",
+      "name": "Oyuun (The Black Shaman)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The 'Black Shaman' who engages the dangerous spirits (abaasy). Wearing an iron-studded coat and wielding a drum, they descend to the underworld in ecstatic trance to battle demons, reclaim stolen souls, and cure illnesses.",
+      "facet": "Their 'blackness' denotes operational peril, not evil. They alone possess the spiritual armor and spirit-helpers required to confront sickness at its source, making them the crucial, if feared, healers of the community.",
+      "provenance": "Shirokogoroff; Jochelson's records of Yakut shamanic coats and drums."
+    },
+    {
+      "id": "yakut-kut-sur",
+      "kind": "concept",
+      "name": "Kut and Sür",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The complex spiritual anatomy of the Yakut. A human possesses three 'kut' (physical souls from the earth, air, and mother) and one 'sür' (vital energy and willpower granted by Uluu Toyon from the sky).",
+      "facet": "'Sür' gives the psychological resilience to survive the extreme cold, while the three 'kut' are vulnerable to being abducted by the abaasy. Healing requires the shaman to track and retrieve the specific missing fraction.",
+      "provenance": "Kulakovsky (1923); Alekseev (1975)."
+    },
+    {
+      "id": "yakut-abaasy",
+      "kind": "force",
+      "name": "Abaasy",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A vast class of malevolent spirits populating the lower world and dark corners of the middle world. They bring misfortune, insanity, and disease by hunting, capturing, and devouring human souls.",
+      "facet": "They reflect the relentless hostility of the subarctic environment. The abaasy are not punished sinners but a parallel, carnivorous society with their own grotesque herds and iron dwellings in the deep earth.",
+      "provenance": "Yakut folklore; Ergis 'Historical Legends and Tales of the Yakuts' (1960)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "yakut-aiyy-oyuuna",
+      "b": "yakut-oyuun",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The fundamental split between white priests of daylight and pastoralism versus black shamans of trance and the perilous underworld."
+    },
+    {
+      "a": "yakut-urung-aiyy-toyon",
+      "b": "yakut-arsan-duolai",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The transcendent creator of light opposed by the subterranean lord of decay and disease."
+    },
+    {
+      "a": "yakut-aal-luuk-mas",
+      "b": "yakut-aan-alakhchyn-khotun",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The World Tree and its residing, life-giving earth-mother spirit."
+    },
+    {
+      "a": "yakut-oyuun",
+      "b": "yakut-abaasy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The black shaman's practice is entirely defined by and dependent on his perilous negotiations with the devouring abaasy."
+    },
+    {
+      "a": "yakut-uluu-toyon",
+      "b": "yakut-kut-sur",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Uluu Toyon is the specific source of the 'sür' that gives humans their internal fortitude."
+    },
+    {
+      "a": "yakut-urung-aiyy-toyon",
+      "b": "tengri",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme Turkic/Mongolic sky fathers, historically derived from the same steppe cosmology."
+    },
+    {
+      "a": "yakut-urung-aiyy-toyon",
+      "b": "ulgen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The benevolent white creator of the upper world in Siberian Turkic mythologies."
+    },
+    {
+      "a": "yakut-arsan-duolai",
+      "b": "erlik",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dark sovereign of the underworld and source of sickness in broader Siberian belief."
+    },
+    {
+      "a": "yakut-aal-luuk-mas",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central cosmic pillar linking the three realms of the universe."
+    },
+    {
+      "a": "yakut-aal-luuk-mas",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A massive tree connecting heavens, the human realm, and an underworld of dark forces."
+    },
+    {
+      "a": "yakut-aan-alakhchyn-khotun",
+      "b": "great-mother",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The nurturing female principle intimately tied to the fertility of the earth."
+    },
+    {
+      "a": "yakut-aan-alakhchyn-khotun",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A structural parallel to the Turkic goddess of fertility, children, and the earth."
+    },
+    {
+      "a": "yakut-oyuun",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The classic ecstatic traveler who mediates between cosmic realms to retrieve stolen souls."
+    },
+    {
+      "a": "yakut-oyuun",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A spiritual practitioner who utilizes trance to physically project their soul into perilous dimensions to heal the community."
+    },
+    {
+      "a": "yakut-kut-sur",
+      "b": "kut",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: The Yakut 'kut' is derived from the same linguistic and spiritual concept as the Tengrist 'kut' (vital spirit or heavenly blessing)."
+    },
+    {
+      "a": "yakut-abaasy",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Predatory, parasitic spirits that cause illness and misfortune by directly attacking or possessing humans."
+    },
+    {
+      "a": "yakut-uluu-toyon",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful, somewhat adversarial sky figure who brings the vital civilizational gift of fire to humanity."
+    },
+    {
+      "a": "yakut-uluu-toyon",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A terrifying lord of the western sky wielding storms, thunder, and awe-inspiring, dangerous power."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "priest-of-light",
+      "name": "Priest of Light",
+      "subtype": "rite",
+      "gloss": "A ritual specialist who operates strictly in the daylight or upper realms, utilizing prayer and offering rather than ecstatic trance or underworld descent.",
+      "reason": "Necessary to distinguish the pastoral, daylight ceremonialism of 'white shamans' from the ecstatic, underworld-facing 'black shamans'—a distinct bifurcation found in several Siberian, Central Asian, and broader animistic traditions."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "tradition": {
+    "id": "nenets",
+    "name": "Nenets / Samoyedic",
+    "region": "NW Siberian Arctic",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "nenets-num",
+      "kind": "deity",
+      "name": "Num (The Sky Father)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator and sky father who dwells in the highest heaven. He is the remote observer of the cosmos, controlling the weather, the seasons, and the over-arching fate of humanity, yet he usually delegates direct interaction to lesser spirits.",
+      "facet": "He is profoundly distant. Unlike strictly interventionist sky gods, Num is structurally withdrawn; he frequently loses cosmic wagers to his dark rival Nga, reflecting a harsh Arctic reality where life does not always triumph over death.",
+      "provenance": "M. A. Castren's 19th-century ethnographies; later corroborated by A. V. Golovnev."
+    },
+    {
+      "id": "nenets-nga",
+      "kind": "deity",
+      "name": "Nga (Lord of Death)",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "The lord of the underworld, darkness, and disease. Dwelling beneath the earth, he is an eternal, hungry force that consumes the life essence of humans and demands constant propitiation through reindeer blood.",
+      "facet": "He is not a 'fallen' being or a moral evil, but a necessary, co-eternal metabolic counterpart to Num. Cosmic equilibrium is maintained only through the constant negotiation and sacrificial feeding of Nga's endless hunger.",
+      "provenance": "Detailed in T. Lehtisalo's 'Entwurf einer Mythologie der Jurak-Samojeden'."
+    },
+    {
+      "id": "nenets-ya-nebya",
+      "kind": "deity",
+      "name": "Ya-Nebya (Mother Earth)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "'Mother Earth', the great protector of life, women, and childbirth. She anchors the terrestrial realm, providing the vital lichen for the reindeer and safeguarding the vulnerable spaces of the nomadic camp.",
+      "facet": "Her power is mapped directly onto the architecture of the 'chum' (tent). She governs the strict spatial taboos separating 'clean' male spaces from 'unclean' female spaces, embedding cosmic law into everyday domestic geography.",
+      "provenance": "L. V. Khomich, 'Nenets'; A. V. Golovnev, 'Talking Cultures'."
+    },
+    {
+      "id": "nenets-tadibya",
+      "kind": "concept",
+      "name": "Tadibya (The Shaman)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The ecstatic shamanic practitioners who mediate between the human camp and the spirit realms. They are strictly classified by their spirit alliances: the 'Vy'du'ana' serve Num, while the 'Ya'nyang' negotiate with Nga.",
+      "facet": "The tadibya's power is deeply tied to the drum and the reindeer. They do not merely trance; they orchestrate a literal metabolic exchange, trading the blood and breath of a sacrificial reindeer for the stolen soul of a sick human.",
+      "provenance": "T. Lehtisalo; mirrored in broader Siberian ethnographic records."
+    },
+    {
+      "id": "nenets-khege-malya",
+      "kind": "concept",
+      "name": "Khege-malya (The Sacred Sledge)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The sacred sledge (khege) that carries the clan's spiritual effigies, ancestral figures, and ritual objects. It travels with the nomadic caravan, never ridden by humans, acting as the spiritual anchor of the community.",
+      "facet": "In an obligate nomadic culture, the temple cannot be a stationary building. The axis mundi itself must be mobile, a vehicle dragged across the permafrost by sacred reindeer, moving the center of the world wherever the herd goes.",
+      "provenance": "I. Krupnik, 'Arctic Adaptations'; A. V. Golovnev."
+    },
+    {
+      "id": "nenets-minley",
+      "kind": "creature",
+      "name": "Minley (The Iron-Winged Bird)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "A gigantic, supernatural thunder-bird of the heavens. It creates the fierce Arctic winds and blizzards by beating its massive iron wings, serving as a terrifying meteorological agent of Num.",
+      "facet": "Storms are not magical atmospheric phenomena but mechanical output. The sheer friction and physical violence of this creature's metallic feathers perfectly encapsulate the brutal, physical reality of the Siberian winter.",
+      "provenance": "Nenets epic songs (yarabts); recorded by M. A. Castren."
+    },
+    {
+      "id": "nenets-myad-pukutsya",
+      "kind": "concept",
+      "name": "Myad-Pukutsya (Old Woman of the Tent)",
+      "archetypes": [
+        "great-mother",
+        "one-through-many"
+      ],
+      "gloss": "The 'Old Woman of the Tent', a central hearth-guardian and faceless wooden effigy kept on the sacred sledge. She is brought inside the chum specifically to protect women during childbirth and menstruation.",
+      "facet": "While the male tadibya bargains with the vast, freezing cosmos, she represents a hyper-local, intimate animism. She embodies the sacredness of the enclosed, heated domestic space, defending the biological vulnerability of human reproduction.",
+      "provenance": "L. V. Khomich's studies on Nenets women's rituals."
+    },
+    {
+      "id": "nenets-ilibembertya",
+      "kind": "deity",
+      "name": "Ilibembertya (Master of Reindeer)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The supernatural master and protector of the wild reindeer. He oversees the vast herds of the tundra, dictating the success of the hunt and, by extension, the health of the domesticated reindeer.",
+      "facet": "In a culture entirely defined by reindeer pastoralism, he is the ultimate arbiter of survival. He embodies the fragile threshold between wild prey and domesticated wealth, capable of recalling the herds if disrespected.",
+      "provenance": "Core Nenets folklore; detailed in Soviet-era ethnographies of Siberian peoples."
+    }
+  ],
+  "edges": [
+    {
+      "a": "nenets-num",
+      "b": "nenets-nga",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The eternal structural tension and cosmic wagers between the remote sky father and the hungry lord of death."
+    },
+    {
+      "a": "nenets-ya-nebya",
+      "b": "nenets-myad-pukutsya",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The macrocosmic mother of the earth paired with the microcosmic, effigy-bound mother of the domestic tent."
+    },
+    {
+      "a": "nenets-khege-malya",
+      "b": "nenets-myad-pukutsya",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The sacred vehicle and the most vital feminine protective effigy it transports across the tundra."
+    },
+    {
+      "a": "nenets-num",
+      "b": "ukko",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The high sky and weather god shared broadly across Uralic and Finno-Ugric cosmological frameworks."
+    },
+    {
+      "a": "nenets-num",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The vast, overarching blue sky deity of the Eurasian steppe and tundra."
+    },
+    {
+      "a": "nenets-num",
+      "b": "sila",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A remote, atmospheric supreme power governing the severe weather of the Arctic."
+    },
+    {
+      "a": "nenets-nga",
+      "b": "erlik",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Siberian lord of the underworld who demands sacrifices and stands in constant opposition to the creator god."
+    },
+    {
+      "a": "nenets-nga",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A co-eternal principle of destruction and disease that structurally requires the creator's constant opposition."
+    },
+    {
+      "a": "nenets-tadibya",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The exact shared Siberian cosmological framework of navigating vertical realms to negotiate with spirit lords."
+    },
+    {
+      "a": "nenets-tadibya",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ecstatic Arctic specialists who enter deep trance to locate and retrieve lost human souls."
+    },
+    {
+      "a": "nenets-minley",
+      "b": "pnw-thunderbird",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The colossal avian entity whose physical movements mechanically generate extreme weather."
+    },
+    {
+      "a": "nenets-minley",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying, winged meteorological force that serves as a sky deity's power."
+    },
+    {
+      "a": "nenets-ilibembertya",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme supernatural owner of the primary Arctic herd animal (reindeer/caribou)."
+    },
+    {
+      "a": "nenets-ilibembertya",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Uralic woodland/tundra master who directly controls the hunter's luck and the movement of game."
+    },
+    {
+      "a": "nenets-ya-nebya",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fierce, immanent goddess of the physical earth and womb who balances the remote masculine sky."
+    },
+    {
+      "a": "nenets-khege-malya",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose structural parallel: architectural constructs (a sledge vs. a granary) that physically house the cosmological order."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "mobile-axis",
+      "name": "Mobile Axis",
+      "subtype": "concept",
+      "gloss": "A physical manifestation of the world center that is deliberately non-stationary, engineered to carry sacred weight across a nomadic landscape.",
+      "reason": "Crucial to map the sacred geography of obligate nomads, where the axis mundi is a sledge, tent, or ark (like the Nenets Khege-malya) rather than a fixed mountain or tree."
+    }
+  ]
+}

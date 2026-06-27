@@ -1,0 +1,275 @@
+{
+  "tradition": {
+    "id": "aztec",
+    "name": "Aztec (Mexica)",
+    "region": "Central Mexico",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "aztec-huitzilopochtli",
+      "kind": "deity",
+      "name": "Huitzilopochtli (Hummingbird of the South)",
+      "archetypes": [
+        "solar",
+        "dragon-slayer"
+      ],
+      "gloss": "The militant solar deity and tribal patron of the Mexica, born fully armed from Coatlicue to slay his treasonous sister. He demands continuous nourishment via human blood and hearts to sustain the sun's journey and stave off cosmic collapse.",
+      "facet": "He is a radically hyper-localized patron whose cosmic maintenance is entirely contingent on the political expansion and mechanized ritual slaughter of the Aztec state. He turns imperialism into a cosmological necessity.",
+      "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); Diego Duran, 'The History of the Indies of New Spain' (1581)."
+    },
+    {
+      "id": "aztec-tezcatlipoca",
+      "kind": "deity",
+      "name": "Tezcatlipoca (Smoking Mirror)",
+      "archetypes": [
+        "trickster",
+        "cosmic-adversary",
+        "dualism"
+      ],
+      "gloss": "The omnipotent, invisible, and capricious lord of the night sky, destiny, and sorcery. He observes all human deeds through his obsidian mirror, raising slaves to royalty and casting kings into ruin purely at his whim.",
+      "facet": "Unlike standard cosmic adversaries, he is neither evil nor opposed to the highest order; he *is* the arbitrary nature of fate itself, enforcing absolute humility through the unpredictable reversal of human fortune.",
+      "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); 'Codex Borgia' (pre-Columbian)."
+    },
+    {
+      "id": "aztec-coatlicue",
+      "kind": "deity",
+      "name": "Coatlicue (Serpent Skirt)",
+      "archetypes": [
+        "great-mother",
+        "world-parents"
+      ],
+      "gloss": "The terrifying earth goddess who gives birth to the sun, moon, and stars. Depicted decapitated, her blood forming twin serpents, she wears a skirt of writhing snakes and a necklace of human hearts, hands, and skulls.",
+      "facet": "She refuses the comforting tropes of maternal warmth, embodying the earth as a devouring maw that both continuously births the cosmos and relentlessly consumes the dead in a closed loop of violent vital energy.",
+      "provenance": "'Florentine Codex' (1577); The Coatlicue monolith (discovered 1790)."
+    },
+    {
+      "id": "aztec-tlaloc",
+      "kind": "deity",
+      "name": "Tlaloc (He Who Makes Things Sprout)",
+      "archetypes": [
+        "storm-wielder",
+        "master-of-animals"
+      ],
+      "gloss": "The ancient, goggle-eyed god of rain, lightning, and agricultural fertility. He rules Tlalocan, a verdant watery afterlife for those who die by drowning or lightning strikes, but demands the tears of sacrificed children to release the rains.",
+      "facet": "He enforces a ruthless transactional ecology: human tears are literally converted into rain. The terror of his child sacrifices reflects the raw, existential dread of drought in the Valley of Mexico.",
+      "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); 'Codex Borgia'."
+    },
+    {
+      "id": "aztec-quetzalcoatl",
+      "kind": "deity",
+      "name": "Quetzalcoatl (Feathered Serpent)",
+      "archetypes": [
+        "culture-hero",
+        "dying-rising"
+      ],
+      "gloss": "The benevolent creator deity who descended to the underworld to retrieve the bones of past generations, bleeding upon them to create modern humanity. He brought maize, the calendar, and the arts to mankind before departing into the east.",
+      "facet": "He represents the dual tension of Mesoamerican life: the sky (feather) and the earth (serpent). He uniquely bleeds *himself* for humanity, contrasting with the deities who primarily demand humans bleed for them.",
+      "provenance": "'Annals of Cuauhtitlan' (1570); 'Florentine Codex' (1577)."
+    },
+    {
+      "id": "aztec-tonatiuh",
+      "kind": "deity",
+      "name": "Tonatiuh (The Fifth Sun)",
+      "archetypes": [
+        "solar",
+        "cyclic-ages"
+      ],
+      "gloss": "The current, fierce sun of the Fifth Age, born from the self-immolation of the crippled god Nanahuatzin. He is depicted at the center of the Aztec calendar stone, his tongue shaped as an obsidian sacrificial knife demanding blood.",
+      "facet": "He is a fundamentally fragile celestial body. Because he was born from sacrifice, he requires perpetual, agonizing reciprocity to simply move across the sky, anchoring the Aztec anxiety of impending apocalypse.",
+      "provenance": "'Leyenda de los Soles' (1558); The Aztec Sun Stone (discovered 1790)."
+    },
+    {
+      "id": "aztec-ixiptla",
+      "kind": "concept",
+      "name": "Ixiptla (Deity Impersonator)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "A human captive or slave who is bathed, dressed, and ritually transformed into the living embodiment of a god. For a set period, they are treated with utter reverence before being sacrificed to reenact the deity's mythic death.",
+      "facet": "It breaks the boundary between offering and receiver; the sacrifice *becomes* the god dying to renew the god. The flayed human skin worn by priests afterward makes this ontological merger viscerally literal.",
+      "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); Inga Clendinnen, 'Aztecs: An Interpretation' (1991)."
+    },
+    {
+      "id": "aztec-teotl",
+      "kind": "principle",
+      "name": "Teotl (Sacred Energy)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The singular, dynamic, and pantheistic sacred energy that permeates all existence. Rather than being a static creator god, it is an ever-flowing, dualistic process of becoming that constantly generates, destroys, and regenerates the cosmos.",
+      "facet": "It eliminates the Western distinction between the sacred and the profane, or creator and creation. Deities are merely temporary, concentrated nodes or 'masks' of this single unfolding cosmic electricity.",
+      "provenance": "James Maffie, 'Aztec Philosophy: Understanding a World in Motion' (2014); 'Florentine Codex' (1577)."
+    },
+    {
+      "id": "aztec-mictlantecuhtli",
+      "kind": "deity",
+      "name": "Mictlantecuhtli (Lord of Mictlan)",
+      "archetypes": [
+        "underworld-sovereign"
+      ],
+      "gloss": "The skeletal ruler of Mictlan, the lowest level of the underworld where most souls journey after death. He sits with his wife Mictecacihuatl in a windowless house, receiving the dead regardless of their moral standing in life.",
+      "facet": "He strips morality from the afterlife. The journey to his realm is a physically grueling dissolution of the self, culminating in the soul's complete annihilation rather than eternal reward or punishment.",
+      "provenance": "'Codex Borgia' (pre-Columbian); 'Florentine Codex' (1577)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "aztec-huitzilopochtli",
+      "b": "aztec-tezcatlipoca",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Co-creators and rival martial patrons who dominate the Aztec imperial cult."
+    },
+    {
+      "a": "aztec-quetzalcoatl",
+      "b": "aztec-tezcatlipoca",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The great cosmic rivalry, balancing the civilizing creation of Quetzalcoatl against the destructive caprice of Tezcatlipoca."
+    },
+    {
+      "a": "aztec-teotl",
+      "b": "aztec-ixiptla",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Ixiptla serves as the temporary, highly concentrated physical vessel for the otherwise formless flowing energy of Teotl."
+    },
+    {
+      "a": "aztec-huitzilopochtli",
+      "b": "aztec-tonatiuh",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The tribal war god who is ritually tasked with continuously feeding and sustaining the fragile Fifth Sun."
+    },
+    {
+      "a": "aztec-huitzilopochtli",
+      "b": "huitzilopochtli",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The specific Mexica manifestation of the broader pan-Mesoamerican patron deity."
+    },
+    {
+      "a": "aztec-tezcatlipoca",
+      "b": "tezcatlipoca",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The specific Mexica manifestation of the broader pan-Mesoamerican obsidian mirror deity."
+    },
+    {
+      "a": "aztec-quetzalcoatl",
+      "b": "quetzalcoatl",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The specific Mexica iteration of the ancient pan-Mesoamerican feathered serpent."
+    },
+    {
+      "a": "aztec-huitzilopochtli",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Militant, dynamic patron deities associated with fire, storms, and royal authority."
+    },
+    {
+      "a": "aztec-huitzilopochtli",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Warrior deities who slay a primordial serpent or sibling right after birth to establish cosmic dominance and order."
+    },
+    {
+      "a": "aztec-tezcatlipoca",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Shape-shifting, capricious agents of fate who undermine the established order without being defined by purely moral evil."
+    },
+    {
+      "a": "aztec-coatlicue",
+      "b": "dravidian-kotravai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Terrifying, martial mother-goddesses demanding blood offerings and adorned with severed body parts."
+    },
+    {
+      "a": "aztec-coatlicue",
+      "b": "gaia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fundamental earth mother who births both the celestial gods and the monstrous forces that oppose them."
+    },
+    {
+      "a": "aztec-tlaloc",
+      "b": "baal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancient storm and rain gods whose vital agricultural fertility is secured through the terrifying ritual sacrifice of children."
+    },
+    {
+      "a": "aztec-quetzalcoatl",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Culture heroes who bypass or defy the other gods to bleed for humanity and bring them civilization."
+    },
+    {
+      "a": "aztec-quetzalcoatl",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Civilizing deities who undergo a journey to the underworld and become deeply associated with cyclical resurrection and agriculture."
+    },
+    {
+      "a": "aztec-tonatiuh",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Solar deities whose daily journey across the sky requires the continuous defeat of cosmic darkness, sustained by human ritual."
+    },
+    {
+      "a": "aztec-mictlantecuhtli",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Impassive, skeletal lords of the dead who rule over a morally neutral, dreary underworld."
+    },
+    {
+      "a": "aztec-mictlantecuhtli",
+      "b": "erlik",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Subterranean sovereigns commanding the cold realms where human souls eventually descend and dissolve."
+    },
+    {
+      "a": "aztec-teotl",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The singular, panentheistic cosmic energy from which all individual gods and physical reality are mere transient manifestations."
+    },
+    {
+      "a": "aztec-teotl",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An impersonal, flowing principle of cosmic dualism and constant generation rather than a static creator god."
+    },
+    {
+      "a": "aztec-ixiptla",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The proxy figure who must be ritually slain to ensure agricultural and cosmic renewal."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ritual-proxy",
+      "name": "Ritual Proxy",
+      "subtype": "concept",
+      "gloss": "A human or animal selected to become the literal, physical incarnation of a deity for a set period, treated with absolute reverence before being sacrificed to renew the god.",
+      "reason": "Essential for traditions like the Mesoamerican (Ixiptla) or Andean Capacocha, where the sacrifice is not merely an offering *to* the god, but the temporary ontological embodiment *of* the god."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "tradition": {
+    "id": "zapotec-mixtec",
+    "name": "Zapotec & Mixtec (Oaxacan)",
+    "region": "Oaxaca",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "zapotec-mixtec-cocijo-dzahui",
+      "kind": "deity",
+      "name": "Cocijo / Dzahui",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The supreme lightning and rain deity, known as Cocijo to the Zapotec and Dzahui to the Mixtec. More than a single anthropomorphic god, he is a quadripartite atmospheric force that splits reality into the four cardinal directions, dispensing both life-giving rain and destructive tempests.",
+      "facet": "He is not merely a sky god but the active principle of time itself; the Oaxacan ritual calendar is functionally a mechanism to track, appease, and align human action with his volatile electrical will.",
+      "provenance": "Alfonso Caso, 'El Pueblo del Sol' (1953); Joyce Marcus, 'Mesoamerican Writing Systems' (1992)."
+    },
+    {
+      "id": "zapotec-mixtec-apoala-tree",
+      "kind": "place",
+      "name": "The Apoala Tree of Origin",
+      "archetypes": [
+        "axis-mundi",
+        "emergence"
+      ],
+      "gloss": "The sacred ceiba tree at Apoala, depicted in the Mixtec codices. Following the primordial separation of sky and earth, this cosmic tree was split open, and the first Mixtec kings and queens—the founders of the royal lineages—emerged fully formed from its trunk.",
+      "facet": "It localizes genesis into a strictly political and genealogical event. The tree is not the origin of all humanity, but the specific, aristocratic birth-canal of the Oaxacan nobility.",
+      "provenance": "Codex Vindobonensis Mexicanus I; Maarten Jansen & Gabina Aurora Pérez Jiménez, 'Time and the Ancestors' (2017)."
+    },
+    {
+      "id": "zapotec-mixtec-lord-8-deer",
+      "kind": "hero",
+      "name": "Lord 8 Deer Jaguar Claw",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "An 11th-century Mixtec warlord, usurper, and empire-builder whose conquests, alliances, and eventual assassination are meticulously recorded in the pre-Columbian codices. He traversed the landscape, consulting oracles, founding dynasties, and receiving the sacred nose-piercing of Toltec kingship.",
+      "facet": "He bridges history and myth, demonstrating how Oaxacan religion was fiercely historical. The gods act as secondary players in a human drama of dynastic legitimation and geopolitical strategy.",
+      "provenance": "Codex Zouche-Nuttall; John M. D. Pohl, 'The Politics of Symbolism in the Mixtec Codices' (1994)."
+    },
+    {
+      "id": "zapotec-mixtec-lady-9-grass",
+      "kind": "deity",
+      "name": "Lady 9 Grass",
+      "archetypes": [
+        "underworld-sovereign"
+      ],
+      "gloss": "The skeletal Mixtec goddess of death, earth, and agriculture, acting as the supreme oracle at the cave sanctuary of Chalcatongo. Depicted with a fleshless jaw and wielding an umbilical cord, she mediated between the living nobility and their dead ancestors.",
+      "facet": "She controls both human fertility and the realm of the dead, acting as a violently partisan kingmaker who dictates political successions through her earthly priests rather than impartially judging souls.",
+      "provenance": "Codex Bodley; Bruce Byland & John Pohl, 'In the Realm of 8 Deer' (1994)."
+    },
+    {
+      "id": "zapotec-mixtec-one-deer",
+      "kind": "deity",
+      "name": "1 Deer (Yya Ndzanduy)",
+      "archetypes": [
+        "world-parents",
+        "dualism"
+      ],
+      "gloss": "The primordial Mixtec creator entity, conceptualized as a dual-gendered couple: Lord 1 Deer 'Puma-Snake' and Lady 1 Deer 'Jaguar-Snake'. They existed in the void before the sun, manifesting the first physical site of creation from the misty darkness.",
+      "facet": "They represent absolute primordial unity before division. They do not 'make' the world out of nothing, but rather precipitate as the first solid, dualistic node of reality from a formless, chaotic potential.",
+      "provenance": "Fray Francisco de Burgoa, 'Geográfica Descripción' (1674); Codex Vindobonensis."
+    },
+    {
+      "id": "zapotec-mixtec-pitao-cozobi",
+      "kind": "deity",
+      "name": "Pitao Cozobi",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The Zapotec deity of the abundant harvest and maize. Continually propitiated through bloodletting and the sacrifice of quail, Cozobi embodies the vital, life-sustaining energy of the corn stalk, which requires human reciprocity to thrive in the semi-arid Oaxacan valleys.",
+      "facet": "The deity is the agricultural cycle made dangerously contingent. The corn does not grow by natural law, but through a fragile, continuous blood-debt negotiated between human kings and this vegetative spirit.",
+      "provenance": "Juan de Córdova, 'Vocabulario en lengua çapoteca' (1578); Javier Urcid, 'Zapotec Writing' (2001)."
+    },
+    {
+      "id": "zapotec-mixtec-sacred-bundle",
+      "kind": "rite",
+      "name": "The Sacred Lineage Bundle (Tlaquimilolli)",
+      "archetypes": [
+        "sacred-bundle"
+      ],
+      "gloss": "A wrapped cloth bundle containing the jade, bones, or sacred implements of a lineage's founding ancestor or patron deity. It served as the portable heart of the community, carrying the physical and spiritual authority of the ruling house.",
+      "facet": "It collapses the deity into a physical, manageable object. The divine presence is not omnipresent; it is localized in the tightly bound relics that the living elite carry, guard, and feed.",
+      "provenance": "Kent Reilly & James Garber, 'Sacred Bundles' (2003); Codex Zouche-Nuttall."
+    },
+    {
+      "id": "zapotec-mixtec-coqui-bezelao",
+      "kind": "deity",
+      "name": "Coqui Bezelao",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The Zapotec 'Lord of Devils' or supreme sovereign of the underworld, venerated most intensely at the subterranean cruciform tombs of Mitla. He received the blood of sacrificed war captives and the burials of the Zapotec kings.",
+      "facet": "He is the ultimate anchor of royal continuity. Zapotec kings were not just buried at Mitla; they descended to actively join his court, transforming the underworld into the permanent political capital of the living.",
+      "provenance": "Fray Francisco de Burgoa, 'Geográfica Descripción' (1674); Arthur Joyce, 'Mixtecs, Zapotecs, and Chatinos' (2010)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "zapotec-mixtec-cocijo-dzahui",
+      "b": "zapotec-mixtec-pitao-cozobi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Rain and maize are mutually interdependent entities whose alliance guarantees agricultural survival."
+    },
+    {
+      "a": "zapotec-mixtec-lord-8-deer",
+      "b": "zapotec-mixtec-lady-9-grass",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The underworld oracle serves as the ultimate kingmaker, validating the historical warlord's bloody conquests."
+    },
+    {
+      "a": "zapotec-mixtec-apoala-tree",
+      "b": "zapotec-mixtec-one-deer",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The primordial dual creator facilitates the physical environment that allows the royal ancestors to emerge from the cosmic tree."
+    },
+    {
+      "a": "zapotec-mixtec-coqui-bezelao",
+      "b": "zapotec-mixtec-lady-9-grass",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition bond: Parallel underworld sovereigns governing the respective death-cult centers of the Zapotec (Mitla) and Mixtec (Chalcatongo)."
+    },
+    {
+      "a": "zapotec-mixtec-cocijo-dzahui",
+      "b": "tlaloc",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The shared Mesoamerican storm and rain deity complex, manifesting with identical goggled eyes and lightning-serpent iconography."
+    },
+    {
+      "a": "zapotec-mixtec-cocijo-dzahui",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The tempest deity who commands lightning and serves as the active, martial force of the skies."
+    },
+    {
+      "a": "zapotec-mixtec-apoala-tree",
+      "b": "ceiba-world-tree",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The pan-Mesoamerican cosmic tree motif, here highly localized as the specific birth-site of the Mixtec royalty."
+    },
+    {
+      "a": "zapotec-mixtec-apoala-tree",
+      "b": "zulu-uthlanga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Humanity or lineages emerging directly from the splitting or breaking of a primordial plant source."
+    },
+    {
+      "a": "zapotec-mixtec-lord-8-deer",
+      "b": "quetzalcoatl",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Lord 8 Deer's political legitimation required a literal journey to receive a Toltec nose-piercing, binding Mixtec royalty to the cult of Quetzalcoatl."
+    },
+    {
+      "a": "zapotec-mixtec-lady-9-grass",
+      "b": "mictlantecuhtli",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The skeletal sovereign of the Mesoamerican underworld, though Lady 9 Grass acts more actively as a political oracle."
+    },
+    {
+      "a": "zapotec-mixtec-lady-9-grass",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The formidable, fearsome goddess who commands the realm of the dead and dictates the fate of mortals and elites alike."
+    },
+    {
+      "a": "zapotec-mixtec-one-deer",
+      "b": "ometeotl",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The dualistic, male-female primordial creator principle of Mesoamerica, existing before all other gods."
+    },
+    {
+      "a": "zapotec-mixtec-one-deer",
+      "b": "fon-mawu-lisa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial creator conceptualized as an indivisible, dual-gendered couple."
+    },
+    {
+      "a": "zapotec-mixtec-pitao-cozobi",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The vegetative, agricultural spirit whose cyclical life is bound to the earth's fertility and necessitates continuous propitiation."
+    },
+    {
+      "a": "zapotec-mixtec-pitao-cozobi",
+      "b": "three-sisters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deification of the staple crop, recognizing maize not as a passive resource but as a sacred, reciprocal being."
+    },
+    {
+      "a": "zapotec-mixtec-sacred-bundle",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intense veneration of a physical, localized container that houses the active spiritual presence and authority of the ancestors."
+    },
+    {
+      "a": "zapotec-mixtec-sacred-bundle",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The bundle serves as a literal, physical manifestation or 'impersonator' of the divine force on earth, acting as its proxy."
+    },
+    {
+      "a": "zapotec-mixtec-coqui-bezelao",
+      "b": "lords-of-xibalba",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The elite lords of the subterranean death realm, demanding blood sacrifice and hosting the dead kings."
+    },
+    {
+      "a": "zapotec-mixtec-coqui-bezelao",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The lord of the dead whose subterranean realm becomes the eternal court for deceased royalty."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-bundle",
+      "name": "Sacred Bundle",
+      "subtype": "rite",
+      "gloss": "A wrapped, portable collection of relics, bones, or sacred implements that serves as the literal, localized heart of a community or lineage's spiritual and political authority.",
+      "reason": "Crucial for Mesoamerican, Andean, and North American indigenous traditions where divinity is localized, wrapped, and carried rather than housed in fixed omnipresence."
+    }
+  ]
+}

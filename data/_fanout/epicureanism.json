@@ -1,0 +1,273 @@
+{
+  "tradition": {
+    "id": "epicureanism",
+    "name": "Epicureanism",
+    "region": "Athens (the Garden) to Rome",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "epicureanism-metakosmian-gods",
+      "kind": "deity",
+      "name": "The Gods of the Metakosmia (Intermundia)",
+      "archetypes": [
+        "withdrawn-creator",
+        "blissful-indifferent"
+      ],
+      "gloss": "Perfect, immortal beings dwelling in the 'metakosmia' (intermundia)—the vast, empty spaces between infinite worlds. Composed of the finest atoms, they exist in perpetual, untroubled bliss, eternally engaged in philosophical conversation and entirely unconcerned with human affairs, creation, or cosmic administration.",
+      "facet": "They are deities stripped of divine providence, wrath, and utility. They exist solely as ethical templates of perfect tranquility for humans to emulate, explicitly repudiating the role of makers, judges, or saviors.",
+      "provenance": "Epicurus' 'Letter to Menoeceus'; Lucretius' 'De Rerum Natura' (Books 3 and 5); Cicero's 'De Natura Deorum'."
+    },
+    {
+      "id": "epicureanism-atoms-void",
+      "kind": "principle",
+      "name": "Atoma kai Kenon (Atoms and the Void)",
+      "archetypes": [
+        "cosmic-order",
+        "elemental-substratum"
+      ],
+      "gloss": "The absolute, dual foundation of reality. The cosmos consists solely of infinite, indivisible, uncreated particles moving continuously through infinite empty space. Every object, soul, and god is merely a temporary aggregate of these particles.",
+      "facet": "It violently rejects teleology and divine genesis. The cosmos is governed by blind, material mechanics rather than a divine mind (Nous) or moral order, making reality eternal but entirely purposeless.",
+      "provenance": "Epicurus' 'Letter to Herodotus'; Lucretius' 'De Rerum Natura' (Books 1-2); directly building upon Democritean atomism."
+    },
+    {
+      "id": "epicureanism-clinamen",
+      "kind": "principle",
+      "name": "Clinamen (The Swerve)",
+      "archetypes": [
+        "creative-indeterminacy"
+      ],
+      "gloss": "An unpredictable, infinitesimal deviation in the straight downward fall of atoms through the void. This random swerve causes atomic collisions, bringing worlds into existence and breaking the chains of strict deterministic fate.",
+      "facet": "It anchors human free will in sub-microscopic physics. By injecting spontaneous, uncaused chaos into rigid atomic descent, it saves the conscious mind from the tyranny of absolute determinism.",
+      "provenance": "Lucretius' 'De Rerum Natura' (Book 2); Cicero's 'De Fato' (attributed to Epicurus to solve the determinism of Democritus)."
+    },
+    {
+      "id": "epicureanism-ataraxia",
+      "kind": "concept",
+      "name": "Ataraxia",
+      "archetypes": [
+        "liberated-tranquility"
+      ],
+      "gloss": "The supreme state of robust, untroubled tranquility of the mind. Achieved by stripping away irrational fears of gods and death, and by limiting human desires strictly to those that are natural and necessary.",
+      "facet": "Unlike ascetic mortification or Stoic endurance, it posits that the highest good is simply the absence of pain and mental disturbance, achieved through rational physics and quiet friendship rather than civic duty or suffering.",
+      "provenance": "Epicurus' 'Principal Doctrines' and 'Letter to Menoeceus'; Diogenes Laertius."
+    },
+    {
+      "id": "epicureanism-tetrapharmakos",
+      "kind": "concept",
+      "name": "Tetrapharmakos (The Four-Part Cure)",
+      "archetypes": [
+        "healing-doctrine"
+      ],
+      "gloss": "A compressed, four-line therapeutic mantra serving as the cornerstone of Epicurean practice: 'God presents no fears, death no worries. And while good is readily attainable, what is terrible is readily endurable.'",
+      "facet": "Philosophy is weaponized purely as medicine. It treats religion and ambition not as mere theological errors, but as psychological diseases requiring a highly specific, memorizable prescription to cure.",
+      "provenance": "Philodemus of Gadara (found in the Herculaneum papyri), synthesizing the first four of Epicurus' 'Principal Doctrines'."
+    },
+    {
+      "id": "epicureanism-kepos",
+      "kind": "place",
+      "name": "The Garden (Kepos)",
+      "archetypes": [
+        "philosophical-sanctuary"
+      ],
+      "gloss": "Epicurus' physical school and commune outside the walls of Athens. It functioned as an egalitarian retreat where slaves, women, and citizens lived together in philosophical quietude, bound by deep mutual friendship (philia).",
+      "facet": "It physically manifests the principle of 'lathe biosas' (live in obscurity). It is an anti-agora, deliberately turning its back on the violent, ambition-driven politics of the polis to cultivate private joy.",
+      "provenance": "Diogenes Laertius (Book 10); Seneca's 'Epistles' (documenting the welcoming inscription at the Garden's gate)."
+    },
+    {
+      "id": "epicureanism-epicurus-soter",
+      "kind": "culture-hero",
+      "name": "Epicurus as Soter (The Savior)",
+      "archetypes": [
+        "culture-hero",
+        "dragon-slayer"
+      ],
+      "gloss": "The historical founder of the school, elevated by later adherents to a quasi-divine savior. He is revered as the lone mortal who dared to breach the flaming walls of the cosmos to bring back the truth of nature and crush the monster of superstition.",
+      "facet": "He is a secular savior. He rescues humanity not through divine sacrifice or magic, but by deploying rational, materialist physics to conquer the paralyzing terror of the supernatural.",
+      "provenance": "Lucretius' 'De Rerum Natura' (Book 1, where Epicurus is framed as defeating the monstrous 'Religio'); widespread veneration on rings and cups in the Roman era."
+    },
+    {
+      "id": "epicureanism-death-dissolution",
+      "kind": "concept",
+      "name": "The Symmetry of Death (Dissolution)",
+      "archetypes": [
+        "mortal-finitude"
+      ],
+      "gloss": "The doctrine that death is merely the scattering of the soul's fine atoms back into the void. Because sensation ceases entirely upon this dissolution, death literally 'is nothing to us'.",
+      "facet": "It actively weaponizes mortality for peace. By proving mathematically that consciousness cannot survive the physical dispersal of the body, it structurally annihilates Hades and the anxiety of post-mortem punishment.",
+      "provenance": "Epicurus' 'Letter to Menoeceus'; Lucretius' 'De Rerum Natura' (Book 3, the 'Symmetry Argument')."
+    }
+  ],
+  "edges": [
+    {
+      "a": "epicureanism-atoms-void",
+      "b": "epicureanism-clinamen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The strict determinism of the falling atoms is inextricably paired with the random swerve that allows for cosmic creation."
+    },
+    {
+      "a": "epicureanism-epicurus-soter",
+      "b": "epicureanism-tetrapharmakos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The philosophical savior and the specific four-fold medicine he prescribed to heal humanity."
+    },
+    {
+      "a": "epicureanism-kepos",
+      "b": "epicureanism-ataraxia",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The physical sanctuary was designed exclusively as the environment necessary to cultivate ultimate mental tranquility."
+    },
+    {
+      "a": "epicureanism-metakosmian-gods",
+      "b": "epicureanism-ataraxia",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The remote gods exist primarily as the living, perfect embodiments of the untroubled tranquility humans seek."
+    },
+    {
+      "a": "epicureanism-death-dissolution",
+      "b": "epicureanism-atoms-void",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The absolute cessation of life is simply the inevitable mechanical scattering of the atomic aggregate."
+    },
+    {
+      "a": "epicureanism-metakosmian-gods",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent ultimate divine states utterly removed from the messy administration and creation of the material universe."
+    },
+    {
+      "a": "epicureanism-metakosmian-gods",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme, perfectly removed deities who do not intervene in the daily struggles or mechanics of the earthly realm."
+    },
+    {
+      "a": "epicureanism-atoms-void",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit an eternal, uncreated cosmos governed by strict, impersonal material laws without the need for a supreme creator god."
+    },
+    {
+      "a": "epicureanism-clinamen",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the structural necessity of a spontaneous deviation or 'error' to break a static perfection into active cosmic creation."
+    },
+    {
+      "a": "epicureanism-death-dissolution",
+      "b": "hades",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Epicurean dissolution is explicitly designed to philosophically destroy the terror of Hades and its endless punishments."
+    },
+    {
+      "a": "epicureanism-death-dissolution",
+      "b": "buddhist-yama",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute nothingness of death in Epicureanism invalidates the existence of the moral judge of the dead and the wheel of rebirth."
+    },
+    {
+      "a": "epicureanism-tetrapharmakos",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are highly structured, numbered doctrines designed practically as psychological medicine to cease human suffering."
+    },
+    {
+      "a": "epicureanism-epicurus-soter",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are hailed as heroes who defied the tyrannical heavens to bring the light of survival and truth to humanity."
+    },
+    {
+      "a": "epicureanism-kepos",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are foundational, enclosed gardens representing an ideal state of human innocence and peace, functioning as sanctuaries from the fallen world."
+    },
+    {
+      "a": "epicureanism-epicurus-soter",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are historical founders elevated by later adherents to the status of ultimate, enlightened revealers of cosmic truth."
+    },
+    {
+      "a": "epicureanism-atoms-void",
+      "b": "manichaean-dualism",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Manichaeism posits a moral war of literal light and dark; Epicureanism posits an absolutely amoral, mechanistic dualism of matter and empty space."
+    },
+    {
+      "a": "epicureanism-metakosmian-gods",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both signify a supreme reality of eternal bliss that is entirely devoid of personal, intervening characteristics or desires."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "blissful-indifferent",
+      "name": "Blissful Indifferent",
+      "subtype": "deity",
+      "gloss": "A divine entity defined by absolute, unbothered perfection, existing in a state of eternal joy but entirely devoid of providential action or concern for the lower world.",
+      "reason": "Captures gods whose primary theological function is to exist as perfect ethical role models of peace, rather than as creators or rulers."
+    },
+    {
+      "id": "elemental-substratum",
+      "name": "Elemental Substratum",
+      "subtype": "principle",
+      "gloss": "The eternal, uncreated physical building blocks of the cosmos, operating blindly to form all temporary realities.",
+      "reason": "Differentiates strictly materialist or atomic foundations from spiritual cosmic orders or divine makers."
+    },
+    {
+      "id": "creative-indeterminacy",
+      "name": "Creative Indeterminacy",
+      "subtype": "principle",
+      "gloss": "A fundamental, spontaneous deviation or randomness in nature's laws that breaks determinism and allows for free will or generation.",
+      "reason": "A necessary structural joint for systems that require a built-in 'glitch' or swerve to generate reality from static perfection."
+    },
+    {
+      "id": "liberated-tranquility",
+      "name": "Liberated Tranquility",
+      "subtype": "concept",
+      "gloss": "The ultimate state of spiritual or psychological peace achieved specifically by eradicating false beliefs and unnatural desires.",
+      "reason": "Connects various traditions' ultimate goals of peace (Ataraxia, Nirvana) achieved through subtraction rather than addition."
+    },
+    {
+      "id": "healing-doctrine",
+      "name": "Healing Doctrine",
+      "subtype": "concept",
+      "gloss": "A highly specific, numbered, or easily memorizable formula designed primarily to act as medicine for mental anguish.",
+      "reason": "Highlights philosophy or religion explicitly structured as a medical intervention for the mind rather than abstract theology."
+    },
+    {
+      "id": "philosophical-sanctuary",
+      "name": "Philosophical Sanctuary",
+      "subtype": "place",
+      "gloss": "A physically withdrawn community dedicated to quietude, egalitarianism, and the rejection of mainstream societal ambition.",
+      "reason": "Distinct from standard sacred mountains; represents the enclosed utopia constructed to insulate a specific philosophical way of life."
+    },
+    {
+      "id": "mortal-finitude",
+      "name": "Mortal Finitude",
+      "subtype": "concept",
+      "gloss": "The absolute cessation of consciousness at death, framed ethically as a profound comfort and release from fear rather than a tragedy.",
+      "reason": "Needed to map traditions that explicitly use the finality of death to dismantle the terrors of the underworld and divine punishment."
+    }
+  ]
+}

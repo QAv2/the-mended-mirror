@@ -1,0 +1,264 @@
+{
+  "tradition": {
+    "id": "punic",
+    "name": "Carthaginian / Punic",
+    "region": "Carthage / W Mediterranean",
+    "color": "#d8a24a"
+  },
+  "figures": [
+    {
+      "id": "punic-baal-hammon",
+      "kind": "deity",
+      "name": "Baal Hammon (Lord of the Brazier)",
+      "archetypes": [
+        "sky-father",
+        "solar"
+      ],
+      "gloss": "The supreme sovereign of the Carthaginian pantheon, an aging, bearded agricultural and solar deity who presided over fertility and the ultimate covenants of the state. He is the divine recipient of the city's most solemn vows, appeased through the fiery rites of the tophet.",
+      "facet": "Unlike the dynamic, storm-wielding Levantine Baal, Hammon is a static, brooding patriarch. His power lies not in martial combat, but in the terrifying, absolute enforcement of elite vows and agricultural cycles.",
+      "provenance": "Stele dedications at the Carthage Tophet (precinct of Salammbo); treaty of Hannibal with Philip V of Macedon."
+    },
+    {
+      "id": "punic-tanit",
+      "kind": "deity",
+      "name": "Tanit (Face of Baal)",
+      "archetypes": [
+        "great-mother",
+        "lunar"
+      ],
+      "gloss": "The paramount goddess of Carthage, eclipsing her consort Baal Hammon in late Punic history. Titled 'Pene Baal' (Face of Baal), she is a celestial, lunar, and apotropaic mother deity who guided maritime navigation and fiercely protected the city's domestic sanctuaries.",
+      "facet": "She aggressively absorbs the roles of earlier Levantine goddesses, stripping away their mythic narratives to become a purely abstract, geometric emblem of Carthaginian imperial and maternal protection.",
+      "provenance": "Thousands of votive stelae at the Carthage Tophet; sanctuary at Sarepta; Thinissut terracotta figures."
+    },
+    {
+      "id": "punic-melqart",
+      "kind": "deity",
+      "name": "Melqart (King of the City)",
+      "archetypes": [
+        "dying-rising",
+        "culture-hero"
+      ],
+      "gloss": "The tutelary god of Tyre transplanted to the Carthaginian empire. He is a dying-and-rising deity whose annual awakening ('egersis') renewed the cosmos. As a relentless colonial patron, he safeguarded maritime trade networks and Punic expansion across the Mediterranean.",
+      "facet": "He is a deity of sheer mercantile imperialism. His awakening did not merely secure agricultural fertility; it synchronized with the sailing season, binding divine resurrection directly to Carthaginian naval hegemony.",
+      "provenance": "Bilingual cippi of Malta; treaty of Hannibal; accounts by Polybius and Diodorus Siculus."
+    },
+    {
+      "id": "punic-eshmun",
+      "kind": "deity",
+      "name": "Eshmun (The Healer)",
+      "archetypes": [
+        "dying-rising",
+        "divine-physician"
+      ],
+      "gloss": "The chief god of healing and renewal, headquartered at the Byrsa hill in Carthage. Originally a beautiful youth who castrated himself to escape the goddess Astarte's advances, he was resurrected by her restorative heat and elevated to divine physician.",
+      "facet": "He intertwines physical healing with radical bodily mutilation. The restoration of health requires a primordial trauma; his cult emphasizes the fragile, easily broken boundary between mortal suffering and divine immortality.",
+      "provenance": "Temple of Eshmun at Byrsa (Carthage); the Eshmunazar II sarcophagus inscription; Damascius's 'Life of Isidore'."
+    },
+    {
+      "id": "punic-tophet",
+      "kind": "rite",
+      "name": "The Tophet (Mlk-sacrifice)",
+      "archetypes": [
+        "primordial-sacrifice",
+        "votive-substitution"
+      ],
+      "gloss": "The open-air sanctuary and sacrificial rite where elite Carthaginians offered infants and young animals as 'mlk' (votive) substitutions. These burnt offerings sealed desperate covenants with Baal Hammon and Tanit, their calcined remains placed in urns beneath inscribed stelae.",
+      "facet": "It systematizes the ultimate human cost of divine favor into a bureaucratic civic duty. Unlike mythic sacrifices of the past, the tophet was an ongoing, heavily formalized administrative contract.",
+      "provenance": "Archaeological excavations at Salammbo (Carthage), Motya, and Tharros; Diodorus Siculus (Bibliotheca historica 20.14); Cleitarchus."
+    },
+    {
+      "id": "punic-sign-of-tanit",
+      "kind": "concept",
+      "name": "The Sign of Tanit",
+      "archetypes": [
+        "axis-mundi",
+        "aniconic-seal"
+      ],
+      "gloss": "A ubiquitous, abstract geometric symbol consisting of a triangle, a horizontal crossbar, and a circle at the apex. It functioned as an apotropaic seal marking thresholds, graves, and votive stelae, physically rendering the goddess Tanit's presence without idolatry.",
+      "facet": "It rejects the anthropomorphism of classical antiquity. In a Mediterranean awash in sculpted human gods, Carthaginian devotion crystallizes into an irreducible, aniconic schematic of divine geometry.",
+      "provenance": "Stelae at the Carthage Tophet; Punic domestic mosaics (Kerkouane); Carthaginian coinage."
+    },
+    {
+      "id": "punic-kusor",
+      "kind": "deity",
+      "name": "Kusor (The Divine Smith)",
+      "archetypes": [
+        "smith",
+        "culture-hero"
+      ],
+      "gloss": "The master craftsman and divine smith of the Punic world, an ancient Levantine deity credited with the invention of ironworking, rhetoric, and the first maritime vessels. He arms the gods with magical weapons and teaches humanity to master the sea.",
+      "facet": "He represents the technological pragmatism of the Phoenician-Punic diaspora. His divine magic is not mystical, but explicitly industrial and nautical—engineering the physical tools that made Mediterranean trade networks possible.",
+      "provenance": "Fragments of Sanchuniathon (via Philo of Byblos); Ugaritic Baal Cycle (for his Levantine origins)."
+    },
+    {
+      "id": "punic-baal-sapon",
+      "kind": "deity",
+      "name": "Baal Sapon (Lord of the Heavens)",
+      "archetypes": [
+        "storm-wielder",
+        "cosmic-order"
+      ],
+      "gloss": "The sovereign 'Lord of the Heavens' and master of storms, winds, and navigation. While Baal Hammon governed the soil and vows, Baal Sapon ruled the treacherous sea routes, acting as a crucial witness to international treaties and guarantor of safe passage.",
+      "facet": "He is the theological embodiment of the horizon. As Carthage pushed past the Pillars of Hercules, this sky-god became an active maritime navigator, turning unpredictable weather into a structured domain.",
+      "provenance": "Treaty between Hannibal and Philip V of Macedon (recorded by Polybius 7.9)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "punic-baal-hammon",
+      "b": "punic-tanit",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme dyad of the late Carthaginian empire, jointly receiving the vows of the state."
+    },
+    {
+      "a": "punic-tophet",
+      "b": "punic-baal-hammon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The sacrificial rite and the patriarchal sovereign who demanded and received its terrifying calculus."
+    },
+    {
+      "a": "punic-sign-of-tanit",
+      "b": "punic-tanit",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The goddess and her irreducible, aniconic geometric signature."
+    },
+    {
+      "a": "punic-baal-hammon",
+      "b": "taranis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Implacable, terrifying sovereign deities linked to wheels, fire, and the reception of ultimate human sacrifices in classical historiography."
+    },
+    {
+      "a": "punic-baal-hammon",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ancient, bearded Levantine patriarchs who rule through covenants, demanding absolute obedience and fire-offerings from their chosen people."
+    },
+    {
+      "a": "punic-tanit",
+      "b": "isis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Egyptian and Punic syncretism; Tanit heavily absorbed Isis's iconography, including the solar disc and the knot, to signify universal maternal power."
+    },
+    {
+      "a": "punic-tanit",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme, astral Queens of Heaven who eclipsed their male counterparts to become the fiercely protective patrons of vast urban empires."
+    },
+    {
+      "a": "punic-tanit",
+      "b": "al-lat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Pre-eminent celestial goddesses of Semitic trading networks, often venerated through aniconic stones or abstract symbols rather than human statuary."
+    },
+    {
+      "a": "punic-melqart",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Dying-and-rising gods whose annual awakening ('egersis') ensures the renewal of the earthly and agricultural order."
+    },
+    {
+      "a": "punic-melqart",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Restless, pioneering deities of masculine expansion, who clear the path for civilization, industry, and the violent expansion of empires."
+    },
+    {
+      "a": "punic-eshmun",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Youthful, earth-bound deities associated with the sudden, miraculous revelation of hidden sacred knowledge and physical healing."
+    },
+    {
+      "a": "punic-tophet",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Divine recipients of institutionalized child sacrifice, where the state enforces a brutal, mathematical exchange of elite blood for rain, fertility, and cosmic stability."
+    },
+    {
+      "a": "punic-tophet",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Directly entangled in biblical history; the Punic 'mlk' (votive offering) was demonized by Israelite prophets into the monstrous idol 'Moloch', marking a violent theological schism."
+    },
+    {
+      "a": "punic-baal-sapon",
+      "b": "zeus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Historically syncretized as Zeus Kasios, blending the Levantine lord of the coastal storms with the Hellenic sky-father to protect Mediterranean sailors."
+    },
+    {
+      "a": "punic-baal-sapon",
+      "b": "varuna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign lords of the deep and the heavens who act as the ultimate, inescapable witnesses to treaties and oaths."
+    },
+    {
+      "a": "punic-kusor",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Brilliant, limping divine artisans who forge magical weapons and autonomous technological marvels for the ruling gods."
+    },
+    {
+      "a": "punic-kusor",
+      "b": "ptah",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Carthaginian amulets of the dwarf-craftsman Pataikos explicitly syncretized Levantine smith-god traditions with the Memphite creator Ptah."
+    },
+    {
+      "a": "punic-sign-of-tanit",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both reduce the vastness of the cosmos and the divine presence into a single, highly formalized geometric schema that mirrors a stylized human form."
+    },
+    {
+      "a": "punic-eshmun",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Gods whose bodily mutilation and subsequent resurrection by a grieving goddess form the theological basis for human salvation and healing."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "votive-substitution",
+      "name": "Votive Substitution",
+      "subtype": "rite",
+      "gloss": "A highly formalized rite where elite offerings—often firstborns, captives, or proxy animals—are burned to fulfill a civic or military contract with the divine.",
+      "reason": "Required to capture the transactional, heavily bureaucratic nature of state sacrifice seen in the Carthaginian tophet and Mesoamerican blood debts."
+    },
+    {
+      "id": "aniconic-seal",
+      "name": "Aniconic Seal",
+      "subtype": "concept",
+      "gloss": "A sacred, abstract geometric emblem that holds the full apotropaic power and presence of a deity without resorting to human portraiture.",
+      "reason": "Essential for traditions that reject anthropomorphism, substituting geometry for iconography, as seen in the Sign of Tanit, Jain Loka, and early Islamic/Abrahamic geometry."
+    },
+    {
+      "id": "divine-physician",
+      "name": "Divine Physician",
+      "subtype": "deity",
+      "gloss": "A deity explicitly dedicated to medicine, who has often endured profound physical suffering or death to acquire the power to cure mortal ailments.",
+      "reason": "Captures the specialized healer-god who resurrects or cures, bridging Asclepius, Eshmun, Imhotep, and Dhanvantari."
+    }
+  ]
+}

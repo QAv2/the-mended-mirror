@@ -1,0 +1,232 @@
+{
+  "tradition": {
+    "id": "falun-gong",
+    "name": "Falun Gong (Falun Dafa)",
+    "region": "China -> global",
+    "color": "#d05a5a"
+  },
+  "figures": [
+    {
+      "id": "falun-gong-li-hongzhi",
+      "kind": "deity",
+      "name": "Master Li Hongzhi",
+      "archetypes": [
+        "culture-hero",
+        "salvific-master"
+      ],
+      "gloss": "The founder and spiritual master of Falun Dafa, regarded by practitioners as a supreme cosmic savior who descended to the human realm to rectify the cosmos and rescue sentient beings during the final stage of universal decay.",
+      "facet": "Unlike orthodox Buddhist teachers who merely point the way to liberation, he is seen as personally engineering the structural salvation of the entire degenerating universe, directly altering the energetic bodies of his disciples.",
+      "provenance": "David Ownby (2008) 'Falun Gong and the Future of China'."
+    },
+    {
+      "id": "falun-gong-falun",
+      "kind": "concept",
+      "name": "Falun (The Law Wheel)",
+      "archetypes": [
+        "microcosm"
+      ],
+      "gloss": "A miniature, intelligent, rotating model of the cosmos that is implanted in the lower abdomen (dantian) of practitioners. It rotates continuously, absorbing cosmic energy and purging negative karma even when the practitioner is not actively exercising.",
+      "facet": "It is not a metaphor, a visualized symbol, or an abstract teaching tool. It is treated as a literal, high-energy physical entity made of subtle matter that operates ceaselessly on autopilot inside the human body.",
+      "provenance": "Li Hongzhi (1998) 'Zhuan Falun'; Benjamin Penny (2012) 'The Religion of Falun Gong'."
+    },
+    {
+      "id": "falun-gong-zhen-shan-ren",
+      "kind": "principle",
+      "name": "Zhen-Shan-Ren (Truthfulness, Compassion, Forbearance)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The fundamental nature, highest characteristic, and ultimate standard of the cosmos. Everything in the universe is constructed from this triune principle, and spiritual cultivation requires aligning one's mind entirely with it to generate divine energy.",
+      "facet": "It forcefully rejects the traditional Buddhist concept of 'emptiness' as the ultimate reality. Instead, it posits a solid, morally definitive triad that serves as the concrete, unshakeable blueprint of all matter and existence.",
+      "provenance": "Benjamin Penny (2012) 'The Religion of Falun Gong'."
+    },
+    {
+      "id": "falun-gong-fa-rectification",
+      "kind": "concept",
+      "name": "Fa-Rectification (Fa-Zheng-Fa)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The unprecedented cosmic event wherein the old, corrupt universe—having reached the final phase of the 'formation-stasis-degeneration-destruction' cycle—is forcefully renewed. Practitioners assist by exposing earthly persecution and actively saving sentient beings.",
+      "facet": "Salvation is not an individual escape from samsara, but active, urgent participation in a high-stakes, once-in-eternity structural overhaul of the cosmos while simultaneously enduring profound political persecution on Earth.",
+      "provenance": "Maria Hsia Chang (2004) 'Falun Gong: The End of Days'."
+    },
+    {
+      "id": "falun-gong-old-forces",
+      "kind": "force",
+      "name": "The Old Forces (Jiu Shili)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "Myriad high-level cosmic deities and beings from the old universe who arranged the brutal persecution of practitioners under the guise of 'testing' their faith and assisting in the Fa-rectification process.",
+      "facet": "They are not inherently evil demons, but obsolete gods so rigidly blinded by outmoded cosmic laws that their arrogant attempts to 'help' destructively interfere with the universe's ultimate salvation, marking them for destruction.",
+      "provenance": "David Ownby (2008) 'Falun Gong and the Future of China'."
+    },
+    {
+      "id": "falun-gong-fashen",
+      "kind": "force",
+      "name": "Fashen (Law Bodies)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Countless omnipresent, intelligent emanations born from Master Li's cultivation energy. They constantly monitor, protect, and provide subtle guidance to practitioners, ensuring they are not harmed by malevolent forces or demonic interference.",
+      "facet": "They function as an individualized spiritual protection system, directly linking the supreme Master's conscious power to every single practitioner simultaneously, thereby overriding all spatial and temporal limitations.",
+      "provenance": "Li Hongzhi (1998) 'Zhuan Falun'."
+    },
+    {
+      "id": "falun-gong-gong",
+      "kind": "force",
+      "name": "Gong (Cultivation Energy)",
+      "archetypes": [
+        "divine-substance"
+      ],
+      "gloss": "High-energy matter cultivated through strict adherence to Zhen-Shan-Ren and the five physical exercises. It continuously transforms the practitioner's mortal flesh into immortal, high-energy material, gradually building their divine Buddha-body.",
+      "facet": "It completely replaces traditional 'qi'—which is viewed merely as a low-level, worldly breath—with a permanent, structural energy column that explicitly dictates a practitioner's cosmic rank and spiritual height.",
+      "provenance": "Benjamin Penny (2012) 'The Religion of Falun Gong'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "falun-gong-li-hongzhi",
+      "b": "falun-gong-fashen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The singular, centralized master and his infinite, omnipresent spiritual emanations that actively enact his will."
+    },
+    {
+      "a": "falun-gong-zhen-shan-ren",
+      "b": "falun-gong-falun",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The absolute moral characteristic of the universe and its literal, mechanical physical embodiment in the practitioner."
+    },
+    {
+      "a": "falun-gong-fa-rectification",
+      "b": "falun-gong-old-forces",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The ultimate salvation and renewal of the cosmos directly opposed by the obsolete, rigid deities clinging to old cosmic laws."
+    },
+    {
+      "a": "falun-gong-li-hongzhi",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The prophesied world savior who arrives to permanently end the cosmic cycle of decay and renovate the universe."
+    },
+    {
+      "a": "falun-gong-li-hongzhi",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supremely compassionate being dedicated entirely to the salvation and deliverance of all sentient beings from suffering."
+    },
+    {
+      "a": "falun-gong-falun",
+      "b": "buddhist-wheel",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Falun directly reappropriates the traditional Buddhist Dharma wheel, re-engineering it into an implantable cosmic mechanism."
+    },
+    {
+      "a": "falun-gong-falun",
+      "b": "yin-yang",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Falun emblem physically incorporates the Taiji symbols of Daoism alongside the Buddhist srivatsa to represent the whole cosmos."
+    },
+    {
+      "a": "falun-gong-zhen-shan-ren",
+      "b": "tao",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Draws heavily on the Daoist concept of the supreme, unnamable way, concretizing it into three explicit moral qualities."
+    },
+    {
+      "a": "falun-gong-zhen-shan-ren",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The foundational moral and physical order of the universe, where spiritual truth and the architecture of reality are the exact same principle."
+    },
+    {
+      "a": "falun-gong-zhen-shan-ren",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active, structural principle of cosmic truth and righteousness that inherently opposes degeneration and falsehood."
+    },
+    {
+      "a": "falun-gong-fa-rectification",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A high-stakes, apocalyptic renovation of the universe that destroys accumulated cosmic corruption and permanently institutes a perfected order."
+    },
+    {
+      "a": "falun-gong-fa-rectification",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Addresses the cyclical, mechanical degeneration of the cosmos over vast eons, intervening at the absolute lowest point of spiritual decline."
+    },
+    {
+      "a": "falun-gong-old-forces",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Obsolete, ignorant cosmic deities who enforce a flawed system of laws and brutally test human souls, falsely believing they serve the highest good."
+    },
+    {
+      "a": "falun-gong-old-forces",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial cosmic being whose rigid, arrogant actions disrupt the universe's divine unfolding, requiring ultimate rectification."
+    },
+    {
+      "a": "falun-gong-fashen",
+      "b": "buddhist-trikaya",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A direct, literal adaptation of the Mahayana Dharmakaya/Nirmanakaya concept, operationalized as the Master's ubiquitous protective emanations."
+    },
+    {
+      "a": "falun-gong-gong",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A high-dimensional, luminescent substance within the practitioner that elevates their physical reality toward divine perfection."
+    },
+    {
+      "a": "falun-gong-gong",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An invisible, quantifiable spiritual energy that must be carefully accumulated and directed to achieve higher states of being."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "salvific-master",
+      "name": "Salvific Master",
+      "subtype": "deity",
+      "gloss": "A singular, charismatic teacher or savior who descends from high cosmic realms to offer a direct, exclusive path to salvation during the end-times.",
+      "reason": "Required for living or recently living founders of soteriological movements who are elevated to supreme cosmic importance, beyond traditional culture heroes."
+    },
+    {
+      "id": "microcosm",
+      "name": "Microcosm",
+      "subtype": "concept",
+      "gloss": "A miniature, intelligent model or mechanism that perfectly replicates the laws, structure, and rotational mechanics of the entire macrocosmic universe.",
+      "reason": "Needed for traditions where a physical or energetic artifact inside the body directly mirrors the entire architecture of the cosmos."
+    },
+    {
+      "id": "divine-substance",
+      "name": "Divine Substance",
+      "subtype": "force",
+      "gloss": "A highly refined, luminous, and literal physical energy that transforms a mortal body into an immortal or divine vessel.",
+      "reason": "Bridges energetic concepts like Gong, Orenda, and the Divine Spark which treat spiritual power as an accumulating, high-dimensional material rather than just a concept."
+    }
+  ]
+}

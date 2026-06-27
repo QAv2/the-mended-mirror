@@ -1,0 +1,250 @@
+{
+  "tradition": {
+    "id": "fourth-way",
+    "name": "The Fourth Way (Gurdjieff)",
+    "region": "Russia / France",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "fourth-way-the-absolute",
+      "kind": "deity",
+      "name": "The Absolute (His Endlessness)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The unconditioned primordial source, 'Our Common Father Creator Endlessness', who initiated the universe to prevent His own dissolution by the merciless laws of Time (Heropass). From Him, reality cascades downward through the Ray of Creation.",
+      "facet": "Rather than creating out of overflowing love or moral imperative, this Absolute created the universe out of sheer cosmic necessity—a structural engineering solution to neutralize the destructive, entropic action of Time.",
+      "provenance": "G.I. Gurdjieff, 'Beelzebub's Tales to His Grandson' (1950)."
+    },
+    {
+      "id": "fourth-way-ray-of-creation",
+      "kind": "concept",
+      "name": "The Ray of Creation",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The cosmological ladder of descending octaves, extending from the Absolute down through all galaxies, our Sun, the Earth, and finally terminating at the Moon. Each descending level operates under an increasing number of mechanical laws.",
+      "facet": "It explicitly positions the Earth and the Moon not as inert rocks, but as growing, hungry cosmic entities. Unconscious humanity serves merely as a sensitive biological film transferring planetary energies to feed the growing Moon.",
+      "provenance": "P.D. Ouspensky, 'In Search of the Miraculous' (1949)."
+    },
+    {
+      "id": "fourth-way-law-of-three",
+      "kind": "principle",
+      "name": "The Law of Three (Triamazikamno)",
+      "archetypes": [
+        "cosmic-order",
+        "complementarity"
+      ],
+      "gloss": "The sacred law of three forces: Holy-Affirming (active), Holy-Denying (passive), and Holy-Reconciling (neutralizing). Every phenomenon in the universe, from physical chemistry to human psychology, is the result of these three forces meeting.",
+      "facet": "While most mystical systems recognize dualism (active/passive, light/dark), the Fourth Way insists that a third, neutralizing force is mathematically required for any creation to occur. 'Sleeping' humanity is 'third-force blind', perceiving only binary conflict.",
+      "provenance": "P.D. Ouspensky, 'In Search of the Miraculous' (1949)."
+    },
+    {
+      "id": "fourth-way-enneagram",
+      "kind": "concept",
+      "name": "The Enneagram",
+      "archetypes": [
+        "cosmic-order",
+        "cyclic-ages"
+      ],
+      "gloss": "A nine-pointed geometric symbol that mathematically unifies the Law of Three (the triad of creation) and the Law of Seven (the octave of development). It maps the exact points where a cyclical process requires conscious 'shocks' to prevent it from decaying or reversing direction.",
+      "facet": "Far from the modern psychological personality typing system it later spawned, the original Enneagram was a universal, dynamic blueprint of cosmic mechanics—a moving map of how energy transforms across all scales of reality.",
+      "provenance": "P.D. Ouspensky, 'In Search of the Miraculous' (1949)."
+    },
+    {
+      "id": "fourth-way-kundabuffer",
+      "kind": "force",
+      "name": "Organ Kundabuffer",
+      "archetypes": [
+        "cosmic-adversary",
+        "origin-of-death"
+      ],
+      "gloss": "A metaphysical organ temporarily implanted at the base of the human spine by higher cosmic engineers to prevent early humanity from realizing their terrifying existential purpose: serving as literal, mechanical food for the Moon.",
+      "facet": "Though physically removed millennia ago, its consequences crystallized in human psychology as pride, vanity, and the constant perception of reality 'upside down'. It is not a moral original sin, but an imposed, lingering evolutionary anesthetic.",
+      "provenance": "G.I. Gurdjieff, 'Beelzebub's Tales to His Grandson' (1950)."
+    },
+    {
+      "id": "fourth-way-waking-sleep",
+      "kind": "principle",
+      "name": "Waking Sleep (The Mechanical Man)",
+      "archetypes": [
+        "cosmic-sleep"
+      ],
+      "gloss": "The default condition of humanity, characterized by complete mechanical reaction. 'Man is a machine' who possesses no permanent 'I', but merely a swarm of temporary, contradictory sub-personalities that are entirely driven by external shocks.",
+      "facet": "Gurdjieff strips humanity of its presumed baseline consciousness and immortal soul. An individual is not born with a soul; they exist merely as biological apparatus and must painstakingly crystallize a soul through immense intentional friction.",
+      "provenance": "P.D. Ouspensky, 'In Search of the Miraculous' (1949)."
+    },
+    {
+      "id": "fourth-way-self-remembering",
+      "kind": "rite",
+      "name": "Self-Remembering",
+      "archetypes": [
+        "ecstatic-shaman",
+        "axis-mundi"
+      ],
+      "gloss": "The foundational inner exercise of 'divided attention'. The practitioner simultaneously observes the external object of their attention and the internal sensation of themselves observing it, generating the energetic friction needed to awaken.",
+      "facet": "It vehemently rejects passive meditation, retreat, or monastic isolation. The Fourth Way demands this intense, dual-awareness practice be performed in the chaotic midst of everyday life, using the friction of worldly existence as fuel for spiritual crystallization.",
+      "provenance": "P.D. Ouspensky, 'In Search of the Miraculous' (1949); G.I. Gurdjieff, 'Views from the Real World' (1973)."
+    },
+    {
+      "id": "fourth-way-conscious-labor",
+      "kind": "principle",
+      "name": "Conscious Labor and Intentional Suffering",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "Often called 'Partkdolg duty', it is the deliberate, unyielding effort to struggle against mechanical habits and the inertia of the physical body. It generates the higher subtle substances (hydrogens) necessary for building an immortal 'kesdjan' (astral) body.",
+      "facet": "Suffering here is not redemptive, moral, or penitent in a religious sense—it is purely alchemical. It provides the literal, mechanical heat for psychological digestion, converting base reactive impulses into permanent inner being.",
+      "provenance": "G.I. Gurdjieff, 'Beelzebub's Tales to His Grandson' (1950)."
+    },
+    {
+      "id": "fourth-way-hasnamuss",
+      "kind": "force",
+      "name": "Hasnamuss",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "A being who has actually acquired a crystallized, permanent 'I' and higher bodies, but through wrong means. They have immortalized properties that are diametrically opposed to objective conscience, existing only to feed their vanity and dominate others.",
+      "facet": "A Hasnamuss is far more dangerous than an ordinary sleeping person. Because they have crystallized, they possess real will, presence, and post-mortem continuity, making them the architects of cosmic-scale atrocities or distorted spiritual movements.",
+      "provenance": "G.I. Gurdjieff, 'Beelzebub's Tales to His Grandson' (1950)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "fourth-way-waking-sleep",
+      "b": "fourth-way-self-remembering",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational polarity of the system—the mechanical trance of daily life versus the deliberate, divided-attention effort to awaken from it."
+    },
+    {
+      "a": "fourth-way-law-of-three",
+      "b": "fourth-way-enneagram",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Law of Three mathematically forms the inner triangle of the Enneagram, dictating the creation forces within the larger developmental octave."
+    },
+    {
+      "a": "fourth-way-kundabuffer",
+      "b": "fourth-way-conscious-labor",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Kundabuffer generates comfortable illusion and mechanical inertia; conscious labor deliberately generates the agonizing friction required to destroy that illusion."
+    },
+    {
+      "a": "fourth-way-the-absolute",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the unmanifest, boundless, and incomprehensible source from which reality emanates downward in successively heavier structural stages."
+    },
+    {
+      "a": "fourth-way-the-absolute",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, undifferentiated reality that stands behind the mechanical illusion and multiplicity of the created universe."
+    },
+    {
+      "a": "fourth-way-the-absolute",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The solitary, perfect origin point whose emanations progressively degrade in purity as they cascade into material form."
+    },
+    {
+      "a": "fourth-way-ray-of-creation",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both describe a cascading emanation of divine realms where each descending tier becomes heavier, darker, and subject to vastly more mechanical laws."
+    },
+    {
+      "a": "fourth-way-ray-of-creation",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Hermetic principle perfectly mirrors Gurdjieff's fractal octaves, where the laws of the macrocosm identically repeat in the human microcosm."
+    },
+    {
+      "a": "fourth-way-ray-of-creation",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both view the cosmos as a rigidly structured, multi-tiered architecture that functions as a massive, impersonal machine bound by descending laws."
+    },
+    {
+      "a": "fourth-way-kundabuffer",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve a cosmic engineering error or malevolent implant that deliberately blinds humanity to its true spiritual nature to keep it safely trapped in matter."
+    },
+    {
+      "a": "fourth-way-kundabuffer",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mythic explanation for humanity's blindness, suffering, and mortality, framed as an imposed mechanism or cosmic accident rather than a moral failure."
+    },
+    {
+      "a": "fourth-way-waking-sleep",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the soporific, omnipresent force that keeps humanity entranced in cyclical, reactive illusion and prevents objective awakening."
+    },
+    {
+      "a": "fourth-way-waking-sleep",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both fiercely assert that the default human condition possesses no permanent, unchanging self or 'I', but is merely an aggregate of shifting, temporary reactions."
+    },
+    {
+      "a": "fourth-way-self-remembering",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The latent potential for objective consciousness buried beneath mechanical existence that must be actively remembered and fanned into a permanent soul."
+    },
+    {
+      "a": "fourth-way-enneagram",
+      "b": "dikenga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are complex geometric cosmological maps tracing the dynamic transformation of energy, life, and consciousness through strictly defined developmental points."
+    },
+    {
+      "a": "fourth-way-law-of-three",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Yin-Yang maps the binary engine of reality (active/passive), whereas the Law of Three adds the crucial third 'neutralizing' force to allow manifestation to proceed."
+    },
+    {
+      "a": "fourth-way-conscious-labor",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Conscious labor is positioned as the exact, excruciating effort required to cease turning blindly on the mechanical wheel of existence."
+    },
+    {
+      "a": "fourth-way-hasnamuss",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fully crystallized being or force that possesses true will and immortal presence, but applies it purely in opposition to cosmic harmony and objective conscience."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "cosmic-sleep",
+      "name": "Cosmic Sleep",
+      "subtype": "principle",
+      "gloss": "The default, mechanical trance-state of humanity, functioning merely as a reactive biological apparatus for larger cosmic forces unless broken by immense intentional effort.",
+      "reason": "Crucial for traditions like the Fourth Way, Advaita Vedanta, Gnosticism, and Buddhism where the default human condition is not merely 'sinful', but literally unconscious, illusory, and mechanical."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "neoplatonism",
+    "name": "Neoplatonism",
+    "region": "Alexandria / Rome / Athens",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "neoplatonism-the-one",
+      "kind": "principle",
+      "name": "The One (To Hen)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "The absolutely simple, ineffable, and transcendent source of all reality. It does not act, desire, or create through will; rather, reality overflows from its infinite perfection like light radiating from the sun, undiminished by its continuous giving.",
+      "facet": "It is utterly devoid of attributes—even 'being' or 'mind' are considered too limiting to describe it. It is not a creator god who chooses to make a universe, but the gravitational center of all existence that generates reality by sheer superabundance.",
+      "provenance": "Plotinus, 'Enneads' (VI.9); Porphyry; Proclus."
+    },
+    {
+      "id": "neoplatonism-nous",
+      "kind": "concept",
+      "name": "Nous (The Divine Intellect)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The first emanation of the One, a timeless realm of perfect, intuitive thought. It holds the Platonic Forms—the eternal, living templates of everything that exists. It is the locus where the One first gazes back upon itself, creating the duality of thinker and thought.",
+      "facet": "Unlike human discursive reason, which moves from premise to conclusion, Nous perceives all truth simultaneously in an eternal present. It is not a geographic place, but the unified totality of all true being and living intellect.",
+      "provenance": "Plotinus, 'Enneads' (V.1, V.9)."
+    },
+    {
+      "id": "neoplatonism-psyche",
+      "kind": "force",
+      "name": "Psyche (The World Soul)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The second emanation, proceeding from Nous to animate the material cosmos. Psyche bridges the eternal and the temporal, translating the static, perfect Forms of the Intellect into the unfolding, moving reality of time, space, and living beings.",
+      "facet": "She faces two directions simultaneously: gazing upward to contemplate the perfect Intellect, and looking downward to weave its patterns into the dark, formless expanse of Matter, generating the physical universe without being corrupted by it.",
+      "provenance": "Plotinus, 'Enneads' (IV.8); Proclus, 'Elements of Theology'."
+    },
+    {
+      "id": "neoplatonism-hyle",
+      "kind": "concept",
+      "name": "Hyle (Matter / Privation)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The absolute bottom of the emanative chain, where the light of the One finally fades into nothing. Matter in its pure state is sheer non-being, a formless substrate that receives the reflections of the Soul but possesses no reality of its own.",
+      "facet": "It explains the existence of evil without conceding a dualistic rival to the Good. Evil is not an active, malevolent force, but a mere shadow—the absolute exhaustion of emanation, a sheer privation where the light of being has failed to reach.",
+      "provenance": "Plotinus, 'Enneads' (I.8)."
+    },
+    {
+      "id": "neoplatonism-theourgia",
+      "kind": "rite",
+      "name": "Theourgia (Theurgy)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "Literally 'god-working', a system of late Neoplatonic ritual practice using material objects, incantations, and symbols to align the practitioner's soul with the divine hierarchy. It forces a descent of the divine presence, elevating the soul to mystical union.",
+      "facet": "It marks a violent break from Plotinus's purely intellectual mysticism. Iamblichus argued that human reason is too corrupted to ascend alone; salvation requires the mechanical, ritual use of divine tokens planted in the material world by the gods themselves.",
+      "provenance": "Iamblichus, 'De Mysteriis Aegyptiorum'; Proclus; Julian."
+    },
+    {
+      "id": "neoplatonism-synthemata",
+      "kind": "concept",
+      "name": "Synthemata (Divine Tokens)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The hidden signatures or energetic sympathies embedded within physical matter—specific stones, herbs, animals, and sounds—placed there by the Demiurge. They resonate invisibly with specific planetary or divine forces.",
+      "facet": "Because the divine generated all things, fragments of the divine mind are crystallized even in dirt and stones. Matter is therefore redeemed; these tokens wait to be activated by the theurgist as a physical ladder back to heaven.",
+      "provenance": "The 'Chaldean Oracles'; Iamblichus; Proclus, 'On the Sacred Art'."
+    },
+    {
+      "id": "neoplatonism-epistrophe",
+      "kind": "principle",
+      "name": "Epistrophe (The Reversion)",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The fundamental cosmic motion whereby every emanated being yearns to return to its source. It is the upward, unifying thrust of the universe, compelling souls to shed material attachments and ascend back into the Intellect, and ultimately, the One.",
+      "facet": "Reality is not a static hierarchy, but a breathing circuit of 'proodos' (outpouring) and 'epistrophe' (return). The soul's salvation is simply fulfilling the cosmological law of gravity—falling upward back into its own ultimate origin.",
+      "provenance": "Proclus, 'Elements of Theology' (Props 31-35)."
+    },
+    {
+      "id": "neoplatonism-hekate",
+      "kind": "deity",
+      "name": "Hekate Soteira (The Savior)",
+      "archetypes": [
+        "great-mother",
+        "psychopomp"
+      ],
+      "gloss": "In the Chaldean Oracles, Hekate is elevated from a dark underworld goddess to the cosmic World Soul herself. She stands at the boundary between the purely intellectual Father and the material realm, transmitting divine fire downward and leading human souls upward.",
+      "facet": "She strips away her terrifying, witchcraft-associated Greek guise to become a luminous, strictly metaphysical mediator. As the 'womb' of the cosmos, she actively shoots the 'Ideas' from the Father's mind down into physical generation.",
+      "provenance": "The 'Chaldean Oracles'; Psellus; Damascius."
+    }
+  ],
+  "edges": [
+    {
+      "a": "neoplatonism-the-one",
+      "b": "neoplatonism-nous",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational dyad of the ineffable source and its first, self-aware intellectual reflection."
+    },
+    {
+      "a": "neoplatonism-hyle",
+      "b": "neoplatonism-the-one",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The absolute limit of darkness and non-being set against the infinite superabundance of light."
+    },
+    {
+      "a": "neoplatonism-theourgia",
+      "b": "neoplatonism-synthemata",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ritual 'god-work' depends entirely on the physical manipulation of these embedded divine tokens."
+    },
+    {
+      "a": "neoplatonism-the-one",
+      "b": "ein-sof",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Historical transmission—Neoplatonic emanationism profoundly shaped medieval Kabbalistic conceptions of the infinite, hidden, and attributeless God."
+    },
+    {
+      "a": "neoplatonism-the-one",
+      "b": "the-monad",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Plotinus and the Gnostics shared the same Alexandrian milieu, both envisioning a transcendent, utterly alien singularity preceding all creation."
+    },
+    {
+      "a": "neoplatonism-the-one",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, non-dual source of reality from which all phenomenal existence or illusion springs, fundamentally beyond predication."
+    },
+    {
+      "a": "neoplatonism-the-one",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unnameable, transcendent source that effortlessly generates the manifold world without willful action or depletion."
+    },
+    {
+      "a": "neoplatonism-nous",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Both represent the divine fullness—the collective, eternal realm of spiritual realities and archetypes standing immediately below the absolute source."
+    },
+    {
+      "a": "neoplatonism-nous",
+      "b": "hermes-trismegistus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Hermetic philosophy explicitly conflated the Egyptian god of wisdom with the Divine Intellect (Nous), viewing him as the mind that ordered the cosmos."
+    },
+    {
+      "a": "neoplatonism-psyche",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The feminine divine principle that descends from the fullness to interact with matter; Plotinus directly attacked the Gnostic interpretation of her as 'fallen'."
+    },
+    {
+      "a": "neoplatonism-hyle",
+      "b": "manichaean-dualism",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Neoplatonism vehemently denies Manichaeism's premise. For Plotinus, darkness is completely devoid of agency or being; it is merely the exhausted limit of light, not an opposing rival."
+    },
+    {
+      "a": "neoplatonism-theourgia",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ritual practitioner forcefully bypasses ordinary consciousness, traveling through unseen metaphysical hierarchies to negotiate directly with cosmic forces."
+    },
+    {
+      "a": "neoplatonism-theourgia",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The use of rhythmic, sensory, and intense ritual extremities to shatter ordinary perception and physically channel divine energy."
+    },
+    {
+      "a": "neoplatonism-synthemata",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Specific physical materials—minerals, herbs, animal parts—that are ritually awakened as active vessels for divine or spiritual resonance."
+    },
+    {
+      "a": "neoplatonism-synthemata",
+      "b": "piacenza-liver",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conviction that the material world is encoded with a readable network of divine signatures, sympathies, and cosmic maps."
+    },
+    {
+      "a": "neoplatonism-epistrophe",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The innate, gravitational necessity of the purified soul to travel upward, shedding material weight to rest permanently in the highest echelon of reality."
+    },
+    {
+      "a": "neoplatonism-hekate",
+      "b": "isis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Late antiquity extensively merged these cosmic savior-goddesses as the supreme, luminous mediators between heaven and the material world."
+    },
+    {
+      "a": "neoplatonism-hekate",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial, cosmic mother figure who bridges the unapproachable, absolute creator and the active, generated universe."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "emanation",
+      "name": "Emanation",
+      "subtype": "principle",
+      "gloss": "The generation of the cosmos not by a deliberate act of will or mechanical creation, but by the natural, inevitable overflowing of divine superabundance.",
+      "reason": "Needed to distinguish the continuous, unwilled 'spilling over' of reality found in Neoplatonism, Kabbalah, and certain Gnostic systems from the deliberate craftsmanship of a Demiurge."
+    },
+    {
+      "id": "privation-of-light",
+      "name": "Privation (The Shadow)",
+      "subtype": "concept",
+      "gloss": "The definition of evil or matter not as an opposing dark force, but simply as a lack—the absolute limit where the light of the divine source fails to reach.",
+      "reason": "Crucial for traditions that vehemently reject dualism but still must philosophically account for the existence of suffering, imperfection, and heavy materiality."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+THE MENDED MIRROR — shards still to forge
+==============================================
+22 remaining   (generated 2026-06-26)
+
+Just the <id> tags (one per line):
+
+shaiva
+vaishnava
+shakta
+lingayat
+andean-pre-inca
+unitarian-universalist
+ascended-masters
+parody-religions
+nat-burmese
+phi-thai
+swedenborgian
+divination-systems
+alawite
+orisha-trinidad
+mongol-folk
+harranian
+california-tribes
+order-nine-angles
+transhumanist-religion
+buddhist-vehicles
+modern-hindu-nrm
+nation-of-islam-esoteric
+
+
+With context (wave / family / name):
+
+
+# wave 2 — Dharmic / South Asian
+   shaiva                     Shaivism
+   vaishnava                  Vaishnavism
+   shakta                     Shaktism
+   lingayat                   Lingayatism (Veerashaivism)
+
+# wave 2 — Indigenous Meso & South America
+   andean-pre-inca            Pre-Inca Andean (Chavín / Moche / Tiwanaku)
+
+# wave 2 — Liberal & Secular Life-Stances
+   unitarian-universalist     Unitarian Universalism
+
+# wave 2 — New Age & New Religious Movements
+   ascended-masters           Ascended Master Teachings (I AM / CUT)
+   parody-religions           Invented & parody religions
+
+# wave 2 — SE Asian & Austronesian Indigenous
+   nat-burmese                Burmese Nat worship
+   phi-thai                   Tai-Khmer spirit cults (Phi / Neak Ta)
+
+# wave 2 — Western Esotericism & Occult
+   swedenborgian              Swedenborgianism (New Church)
+   divination-systems         Astrology · Tarot · Numerology
+
+# wave 3 — Abrahamic (the split Joe asked for)
+   alawite                    Alawism (Nusayrism)
+
+# wave 3 — African Diaspora (none yet covered)
+   orisha-trinidad            Trinidad Orisha & Spiritual Baptist
+
+# wave 3 — Central Asian & Siberian
+   mongol-folk                Mongolian folk religion (Böö Mörgöl)
+
+# wave 3 — Greco-Roman Mysteries & Philosophies
+   harranian                  Sabians of Harran (astral cult)
+
+# wave 3 — Indigenous North America
+   california-tribes          California (Chumash & neighbors)
+
+# wave 3 — Left-Hand-Path & Dark Currents
+   order-nine-angles          Order of Nine Angles (O9A)
+
+# wave 3 — New Age & New Religious Movements
+   transhumanist-religion     Transhumanist & techno-religions
+
+# wave ? — Dharmic / South Asian
+   buddhist-vehicles          Buddhist vehicles (Theravada / Mahayana / Vajrayana)
+   modern-hindu-nrm           Modern Hindu-derived NRMs
+
+# wave ? — New Age & New Religious Movements
+   nation-of-islam-esoteric   Esoteric Black-American Islam

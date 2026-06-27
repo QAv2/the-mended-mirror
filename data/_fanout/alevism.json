@@ -1,0 +1,246 @@
+{
+  "tradition": {
+    "id": "alevism",
+    "name": "Alevism (Qizilbash / Bektashi)",
+    "region": "Anatolia",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "alevism-hak-muhammed-ali",
+      "kind": "deity",
+      "name": "Hak-Muhammed-Ali (The Divine Triad)",
+      "archetypes": [
+        "one-through-many",
+        "complementarity"
+      ],
+      "gloss": "The indivisible mystical unity of God (Hak), the Prophet (Muhammed), and the Saint (Ali). They are not separate entities but a singular continuous emanation of divine truth, representing the ultimate source, the exoteric messenger, and the esoteric gate.",
+      "facet": "Unlike orthodox trinities, this is an emanation of esoteric knowledge ('Batin'). Ali is elevated beyond a historical caliph into the eternal, cosmic manifestation of divine secrecy and justice.",
+      "provenance": "Core Alevi nefes (hymns); the Buyruk; poetry of Pir Sultan Abdal."
+    },
+    {
+      "id": "alevism-haci-bektas-veli",
+      "kind": "culture-hero",
+      "name": "Haci Bektas Veli (The Pir of Khorasan)",
+      "archetypes": [
+        "culture-hero",
+        "spiritual-guide"
+      ],
+      "gloss": "The 13th-century Anatolian mystic who formalized the Alevi-Bektashi path. He famously held a lion and a gazelle in one arm to symbolize universal peace, fusing Central Asian nomadic spirituality with esoteric Islamic mysticism.",
+      "facet": "He is not merely a historical teacher but the 'Sercesme' (the fountainhead). His living spiritual authority anchors Anatolian humanism directly to cosmic truth, continually flowing through his successors.",
+      "provenance": "Velayetname (The Book of Saintly Feats)."
+    },
+    {
+      "id": "alevism-cem",
+      "kind": "rite",
+      "name": "Cem (The Assembly of Souls)",
+      "archetypes": [
+        "esoteric-assembly"
+      ],
+      "gloss": "The foundational ritual gathering that replaces the orthodox mosque. Men and women sit together in a circle as equal souls ('Can'). Accompanied by the sacred lute, the community resolves grievances, shares a communal meal, and manifests the divine presence.",
+      "facet": "The Cem is a terrestrial recreation of the Assembly of the Forty (Kirklar Cemi) from the Prophet's Night of Ascension. God is found not in a building, but face-to-face in the human assembly.",
+      "provenance": "The Buyruk; oral transmission of the Dedes."
+    },
+    {
+      "id": "alevism-semah",
+      "kind": "rite",
+      "name": "Semah (The Crane Dance of Truth)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "axis-mundi"
+      ],
+      "gloss": "The ecstatic, turning ritual dance performed during the Cem. Participants mirror the movements of planets orbiting the sun and the flight of the crane, accelerating to the rhythm of the baglama to shed the ego and achieve spiritual flight.",
+      "facet": "Far more than a folk dance, Semah is a mandatory act of worship where the human body itself becomes the moving axis mundi, completely rejecting the static postures of orthodox prayer.",
+      "provenance": "Ritual practice tracing to the Kirklar Cemi; Alevi nefes."
+    },
+    {
+      "id": "alevism-dort-kapi",
+      "kind": "principle",
+      "name": "Dort Kapi Kirk Makam (Four Doors, Forty Stations)",
+      "archetypes": [
+        "cosmic-order",
+        "emergence"
+      ],
+      "gloss": "The developmental architecture of the soul. The seeker progresses from Sharia (law), to Tariqat (the esoteric path), to Marifat (gnosis), and finally achieves Haqiqat (ultimate truth).",
+      "facet": "It systematically demotes orthodox religious law to a mere kindergarten of the soul. True religion only begins once the literal law is transcended for profound esoteric realization.",
+      "provenance": "Makalat of Haci Bektas Veli."
+    },
+    {
+      "id": "alevism-musahiplik",
+      "kind": "concept",
+      "name": "Musahiplik (Spiritual Kinship)",
+      "archetypes": [
+        "spiritual-kinship"
+      ],
+      "gloss": "A sacred, unbreakable bond of spiritual brotherhood sworn between two married couples in the presence of the Dede. They become 'yol kardesi' (siblings of the path), sharing all worldly debts, sins, and spiritual merits.",
+      "facet": "It overrides biological family. A soul cannot even enter the deepest levels of the Cem or approach the Divine without being yoked to another through this radical, communal accountability.",
+      "provenance": "The Buyruk; modeled on Muhammad and Ali's brotherhood at Medina."
+    },
+    {
+      "id": "alevism-dar-i-mansur",
+      "kind": "rite",
+      "name": "Dar-i Mansur (The Gallows of Mansur)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The ritual posture of absolute surrender performed in the Cem. The seeker stands barefoot, right big toe over the left, arms crossed, offering their life and ego to the community's judgment, echoing the martyr Mansur al-Hallaj.",
+      "facet": "It transforms the historical execution of a mystic into an everyday ritual requirement. Before entering the sacred assembly, one must willingly 'die before dying.'",
+      "provenance": "Alevi ritual choreography; Sufi martyrology of al-Hallaj."
+    },
+    {
+      "id": "alevism-dede",
+      "kind": "hero",
+      "name": "Dede (The Spiritual Lineage)",
+      "archetypes": [
+        "spiritual-guide"
+      ],
+      "gloss": "The hereditary spiritual leaders of the Alevi community, tracing their bloodline ('Evlad-i Resul') back to the Prophet Muhammad through the Twelve Imams. They lead the Cem, arbitrate disputes, and transmit esoteric knowledge.",
+      "facet": "They function almost entirely independently of exoteric Islamic structures. They are living vessels of divine authority whose legitimacy flows from blood and mystical initiation, bridging the roles of Islamic saint and Central Asian shaman.",
+      "provenance": "Alevi Shajaras (genealogies); the Buyruk."
+    }
+  ],
+  "edges": [
+    {
+      "a": "alevism-hak-muhammed-ali",
+      "b": "alevism-cem",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The divine triad is invoked and physically manifested in the center of the sacred assembly."
+    },
+    {
+      "a": "alevism-cem",
+      "b": "alevism-semah",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ecstatic rotation of the Semah serves as the kinetic climax and heart of the Cem."
+    },
+    {
+      "a": "alevism-cem",
+      "b": "alevism-dar-i-mansur",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Entering the profound spiritual communion of the Cem requires submitting to the ego-death of the Dar."
+    },
+    {
+      "a": "alevism-haci-bektas-veli",
+      "b": "alevism-dort-kapi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Pir formalized the Four Doors and Forty Stations as the definitive architecture of the Alevi developmental path."
+    },
+    {
+      "a": "alevism-cem",
+      "b": "alevism-musahiplik",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: A soul cannot achieve full integration into the innermost rites of the Cem without being bound to a spiritual sibling."
+    },
+    {
+      "a": "alevism-dede",
+      "b": "kut",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Alevi Dede's hereditary authority represents a documented syncretism, layering Islamic Alid lineage over the Turkic concept of sacred, charismatic bloodlines."
+    },
+    {
+      "a": "alevism-semah",
+      "b": "shaman-three-worlds",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Semah's ecstatic flight represents a historical retention of Central Asian shamanic trance practices, syncretized into Sufi mystical rotation."
+    },
+    {
+      "a": "alevism-cem",
+      "b": "sacred-hoop",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The physical and spiritual circle of the community, unbroken by hierarchy, where the divine presence is made immanent among the people."
+    },
+    {
+      "a": "alevism-dar-i-mansur",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The profound theological realization that the human core is an emanation of divine truth, famously declared by the martyr al-Hallaj."
+    },
+    {
+      "a": "alevism-dort-kapi",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The esoteric principle that the macrocosmic divine truth must be systematically mapped and realized through the microcosmic journey of the human soul."
+    },
+    {
+      "a": "alevism-haci-bektas-veli",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A foundational sage who shapes the spiritual and cultural landscape of an entire people through sacred song and esoteric wisdom."
+    },
+    {
+      "a": "alevism-hak-muhammed-ali",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A threefold manifestation of ultimate reality, expressing the absolute, its energetic transmission, and its physical realization on earth."
+    },
+    {
+      "a": "alevism-hak-muhammed-ali",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme reality that remains entirely ungraspable except through its emanated manifestations and the esoteric gates."
+    },
+    {
+      "a": "alevism-musahiplik",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The profound elevation of a dyad; a spiritual pairing necessary to navigate the severe trials of the cosmos and approach the sacred."
+    },
+    {
+      "a": "alevism-semah",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An ecstatic, communal, rhythm-driven dance designed to collapse the boundary between the material and spiritual planes."
+    },
+    {
+      "a": "alevism-cem",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly structured ritual assembly that collapses time, integrating the community while directly recreating primordial divine events."
+    },
+    {
+      "a": "alevism-dar-i-mansur",
+      "b": "jain-ahimsa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Total vulnerability and the refusal of harm as the absolute prerequisite for spiritual purification, enacted physically before the assembly."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "esoteric-assembly",
+      "name": "The Esoteric Assembly",
+      "subtype": "rite",
+      "gloss": "A closed, highly ritualized circle that deliberately suspends earthly hierarchies to recreate a primordial divine council, allowing initiates to achieve direct communion.",
+      "reason": "Captures the profound structural role of closed spiritual gatherings (like the Cem, the Jam, or the Masonic Lodge) that operate outside exoteric religious law."
+    },
+    {
+      "id": "spiritual-kinship",
+      "name": "Spiritual Kinship",
+      "subtype": "concept",
+      "gloss": "A sacred, unbreakable dyad forged between non-relatives, making them cosmically accountable for one another's souls.",
+      "reason": "Highlights the necessity of paired, mutual salvation in esoteric traditions, distinct from general 'hero-twins' who are merely born together."
+    },
+    {
+      "id": "spiritual-guide",
+      "name": "The Spiritual Guide (Pir)",
+      "subtype": "hero",
+      "gloss": "An archetypal or living master whose direct initiation and intercession is an absolute prerequisite for a seeker to achieve cosmic understanding.",
+      "reason": "Distinguishes the esoteric master/initiator from a general 'culture-hero' or 'first-ancestor', highlighting the necessity of an unbroken chain of spiritual transmission."
+    }
+  ]
+}

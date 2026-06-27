@@ -1,0 +1,231 @@
+{
+  "tradition": {
+    "id": "alawite",
+    "name": "Alawism (Nusayrism)",
+    "region": "coastal Syria",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "alawite-ali-mana",
+      "kind": "deity",
+      "name": "'Ali as the Ma'na (The Meaning / Essence)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The supreme, uncreated divine essence. In Alawite esoteric theology, 'Ali ibn Abi Talib is not merely the Prophet's son-in-law, but the ultimate incarnation of the Ma'na—the absolute, ineffable Godhead that emanates the rest of existence.",
+      "facet": "Unlike orthodox Islam's absolute monotheism, 'Ali is deified as the incomprehensible core of a divine trinity, radically elevating the Shi'ite Imamate to literal, recurring cosmic incarnation.",
+      "provenance": "Yaron Friedman, 'The Nusayri-'Alawis: An Introduction to the Religion, History and Identity'."
+    },
+    {
+      "id": "alawite-muhammad-ism",
+      "kind": "deity",
+      "name": "Muhammad as the Ism (The Name / Veil)",
+      "archetypes": [
+        "culture-hero",
+        "solar"
+      ],
+      "gloss": "Emanated from the Ma'na, Muhammad is the Ism (Name) or Hijab (Veil). He is the outward manifestation of the divine, creating the universe and transmitting the exoteric revelation to humanity while shielding them from the raw brilliance of the Essence.",
+      "facet": "Reverses orthodox Islamic hierarchy; Muhammad is the subordinate emanation—the reflection or veil—of 'Ali, rather than the supreme and final messenger of an unmanifest God.",
+      "provenance": "Matti Moosa, 'Extremist Shiites: The Ghulat Sects'."
+    },
+    {
+      "id": "alawite-salman-bab",
+      "kind": "deity",
+      "name": "Salman al-Farisi as the Bab (The Gate)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The third hypostasis of the divine trinity, emanated by the Ism. Salman the Persian is the 'Gate' through which the believer must pass to access the true, esoteric knowledge of the Name and, ultimately, the Essence.",
+      "facet": "Elevates a historical companion of the Prophet into a cosmic, perpetual threshold—the sole ontological conduit for salvation and initiation into the esoteric mystery.",
+      "provenance": "Meir M. Bar-Asher and Aryeh Kofsky, 'The Nusayri-'Alawi Religion: An Enquiry into Its Theology and Liturgy'."
+    },
+    {
+      "id": "alawite-tanasukh",
+      "kind": "principle",
+      "name": "Tanasukh (Metempsychosis / Reincarnation)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The cycle of reincarnation. Souls were originally luminous stars that fell through disobedience. They must purify themselves through successive incarnations—up to seven cycles—to shed their material shells and return to the astral, divine realm.",
+      "facet": "Wholly rejects the orthodox Islamic resurrection and singular judgment day, replacing it with a Neoplatonic-Gnostic ascent where the body is merely a 'shirt' the soul sheds and replaces.",
+      "provenance": "Yaron Friedman, 'The Nusayri-'Alawis'."
+    },
+    {
+      "id": "alawite-khidr",
+      "kind": "hero",
+      "name": "Al-Khidr (The Green One)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "trickster"
+      ],
+      "gloss": "The immortal, ubiquitous mystic guide who operates beyond conventional law. In Alawism, he is highly venerated, often syncretized with Saint George, and associated with lush greenery, shrines, and direct, esoteric initiation outside the formal trinity.",
+      "facet": "Crosses Muslim-Christian boundaries seamlessly in the Levant; he represents immediate, folk-level divine intervention, bypassing the rigorous initiatory hierarchy of the formal Alawite religious sheikhs.",
+      "provenance": "Patrick Seale, 'Asad: The Struggle for the Middle East'; local shrine ethnographies."
+    },
+    {
+      "id": "alawite-mass",
+      "kind": "rite",
+      "name": "Quddas (The Mass)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "A central secret ritual involving the consecration of wine, representing the divine light and the essence of 'Ali. Shared only among initiated men, it mirrors the Christian Eucharist but is entirely mystical and esoteric in its theology.",
+      "facet": "The sacramental use of wine directly subverts the Islamic prohibition on alcohol, transforming the forbidden substance into the supreme vehicle for internalizing the divine 'Light'.",
+      "provenance": "Matti Moosa, 'Extremist Shiites'."
+    },
+    {
+      "id": "alawite-light-darkness",
+      "kind": "concept",
+      "name": "The Fall of the Luminous Souls",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The cosmogonic event where primordial souls, originally dwelling in divine light, doubted the absolute divinity of 'Ali. This doubt caused their fall into the material realm of darkness, generating the physical universe as a temporary, purgatorial prison.",
+      "facet": "Merges Shi'ite loyalism with Gnostic cosmogony: the material world is not a deliberate, 'good' creation by Allah, but a direct consequence of ontological ignorance and doubt.",
+      "provenance": "Meir M. Bar-Asher and Aryeh Kofsky, 'The Nusayri-'Alawi Religion'."
+    },
+    {
+      "id": "alawite-amsal",
+      "kind": "force",
+      "name": "The Amsal (The Adversaries)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The recurring incarnations of evil and opposition to the divine Trinity throughout history. They are the earthly manifestations of darkness, often identified historically with the Sunni Caliphs who oppressed the Shi'ite Imams.",
+      "facet": "Historicizes the cosmic battle of light and dark; the 'Adversary' is not a singular Satan but a continuously reincarnating lineage of specific political rivals who obscure the esoteric truth.",
+      "provenance": "Yaron Friedman, 'The Nusayri-'Alawis'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "alawite-ali-mana",
+      "b": "alawite-muhammad-ism",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The core dyad of the Trinity—the unmanifest Essence and its first emanation, the Veil."
+    },
+    {
+      "a": "alawite-muhammad-ism",
+      "b": "alawite-salman-bab",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Name and the Gate. Muhammad transmits the revelation, but Salman is the sole threshold to comprehend its inner truth."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "alawite-amsal",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The absolute divine Light versus the perpetually reincarnating figures of darkness and political oppression."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "alawite-mass",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The consecrated wine in the Quddas is the literal, physical vehicle for partaking in the luminous essence of 'Ali."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the infinite, unmanifest, and ultimately incomprehensible Godhead from which all other divine attributes emanate."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute, hidden source of all being in Gnostic frameworks, approachable only through subordinate emanations."
+    },
+    {
+      "a": "alawite-muhammad-ism",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Muhammad functions as the sum of divine emanations and the active creator-demiurge, shielding humanity from the blinding absolute."
+    },
+    {
+      "a": "alawite-salman-bab",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both serve as the primordial, esoteric guide and initiator into the hidden mysteries of the cosmos."
+    },
+    {
+      "a": "alawite-mass",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Alawite Quddas actively incorporated elements of the Christian Eucharist, including the sacramental use of wine, during centuries of shared Levantine geography."
+    },
+    {
+      "a": "alawite-light-darkness",
+      "b": "manichaean-dualism",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Alawite cosmogony absorbs extreme Middle Eastern dualism, where the material world is a dense prison of darkness trapping fragments of divine light."
+    },
+    {
+      "a": "alawite-amsal",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the active, structurally necessary principle of darkness and opposition that eternally battles the light in the material realm."
+    },
+    {
+      "a": "alawite-tanasukh",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both envision the soul as a luminous entity trapped in physical cycles, striving for ascent and liberation by shedding its material bindings."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are the ultimate, attribute-less reality underlying the diverse emanations, avatars, and cycles of the physical universe."
+    },
+    {
+      "a": "alawite-muhammad-ism",
+      "b": "allah-meccan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fascinating inversion: orthodox Islam's supreme deity is structurally analogous to Alawism's secondary emanation, as both are the active source of exoteric revelation."
+    },
+    {
+      "a": "alawite-khidr",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are ubiquitous, compassionate figures who transcend formal hierarchies to constantly rescue and guide the faithful in distress."
+    },
+    {
+      "a": "alawite-ali-mana",
+      "b": "ahura-mazda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Supreme deities of pure light whose original perfect creations are fractured by an ontological conflict with darkness."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-emanation",
+      "name": "Emanated Hypostasis",
+      "subtype": "concept",
+      "gloss": "A supreme, unknowable deity that manifests through a strict sequence of cascading hypostases or emanations, rather than creating ex nihilo.",
+      "reason": "Necessary to capture the Neoplatonic core of esoteric traditions (Ismaili, Alawite, Gnostic) where God is shielded by layers of subordinate divine beings."
+    },
+    {
+      "id": "sacramental-subversion",
+      "name": "Sacred Transgression",
+      "subtype": "rite",
+      "gloss": "A ritual that deliberately violates the exoteric taboos of the surrounding orthodox culture to prove or achieve spiritual liberation.",
+      "reason": "Essential for antinomian sects where breaking the outer, formal religious law is the very mechanism of accessing the inner, esoteric truth."
+    }
+  ]
+}

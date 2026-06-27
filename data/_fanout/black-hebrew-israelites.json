@@ -1,0 +1,232 @@
+{
+  "tradition": {
+    "id": "black-hebrew-israelites",
+    "name": "Black Hebrew Israelites",
+    "region": "USA",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "black-hebrew-israelites-yahawah",
+      "kind": "deity",
+      "name": "Yahawah (The Most High)",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "The sovereign, unapproachable Creator of the universe who established an exclusive, unbreakable covenant with the seed of Jacob. He is not a universalist deity but the fiercely partisan God of the Israelites, governing history solely to test, punish, and ultimately redeem His chosen people.",
+      "facet": "He violently rejects theological universalism, such as the concept that 'God loves everyone.' His divine love is strictly ethnocentric, viewing the nations outside the Israelite bloodline as 'a drop in the bucket' or as active enemies of His cosmic order.",
+      "provenance": "Isaiah 40:15; 2 Esdras 6:54-56; foundational BHI street apologetics."
+    },
+    {
+      "id": "black-hebrew-israelites-yahawashi",
+      "kind": "deity",
+      "name": "Yahawashi (Jesus Christ)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The messiah of Israel, prophesied to return as a conquering king. Depicted explicitly as a Black man with 'hair like wool and feet like burnt brass,' he died exclusively for the salvation and restoration of the twelve tribes of Israel scattered in the diaspora.",
+      "facet": "He is stripped of his passive, turning-the-other-cheek 'white Jesus' iconography (often identified as Cesare Borgia). He is a militaristic, uncompromising liberator who will return to violently dismantle global white supremacy and establish an Israelite theocracy.",
+      "provenance": "Revelation 1:14-15; Daniel 10:5-6; 1 West camp doctrines (ISUPK, ICGJC)."
+    },
+    {
+      "id": "black-hebrew-israelites-edom-esau",
+      "kind": "cosmic-adversary",
+      "name": "Edom (Esau)",
+      "archetypes": [
+        "cosmic-adversary",
+        "first-ancestor"
+      ],
+      "gloss": "The twin brother of Jacob and the progenitor of the Edomites, mapped prophetically to modern-day people of European descent. Edom represents the global architects of systemic oppression, chattel slavery, and false religion.",
+      "facet": "Systemic racism and colonial history are not merely sociological phenomena but the literal, prophetic playing out of an ancient blood-feud between two ancestral wombs, making racial conflict deeply cosmic and inescapable until divine intervention.",
+      "provenance": "Genesis 25; Book of Obadiah; Malachi 1:2-4."
+    },
+    {
+      "id": "black-hebrew-israelites-deut-28",
+      "kind": "principle",
+      "name": "The Curses (Deuteronomy 28)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The central diagnostic text of the faith. It prophesies that if Israel broke God's law, they would suffer uniquely horrific curses—most notably, being shipped into bondage via slave ships, a fate mapped directly onto the Transatlantic Slave Trade.",
+      "facet": "It turns historical trauma into divine proof. The horrors of slavery and modern systemic marginalization are weaponized as empirical, forensic evidence of divine chosenness rather than mere victimhood.",
+      "provenance": "Deuteronomy 28:68; ubiquitous in BHI literature and street-corner exegesis."
+    },
+    {
+      "id": "black-hebrew-israelites-12-tribes-chart",
+      "kind": "concept",
+      "name": "The 12 Tribes Chart",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "A prophetic and genealogical schema that identifies African Americans, West Indians, Native Americans, and Hispanics as the literal, genetic descendants of the Twelve Tribes of Israel, unifying marginalized groups under one biblical patriarch.",
+      "facet": "It actively re-engineers modern racial and ethnic categories imposed by European colonizers, replacing sociological labels like 'Black,' 'Hispanic,' or 'Native' with a unified, divinely ordained bloodline of cosmic royalty.",
+      "provenance": "Formulated by figures like Abba Bivens and the 1 West camp in the late 1960s; visually foundational to BHI practice."
+    },
+    {
+      "id": "black-hebrew-israelites-the-awakening",
+      "kind": "rite",
+      "name": "The Awakening (Coming into the Truth)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The profound, transformative realization of one's true identity as a biblical Israelite. It involves shedding 'slave names,' secular history, and mental colonization in favor of Torah observance, fringes, and covenantal awareness.",
+      "facet": "It reframes salvation as an epistemological break. One is not 'saved' merely by a confession of faith, but by literally remembering who they are, waking from the culturally induced amnesia of the diaspora.",
+      "provenance": "Zechariah 8:8; Romans 13:11; emphasis on 'knowing who you are' in BHI pedagogy."
+    },
+    {
+      "id": "black-hebrew-israelites-the-kingdom",
+      "kind": "place",
+      "name": "The Kingdom of Heaven",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The impending, literal millennial reign on Earth where Yahawashi will rule from Jerusalem. In this era, the current global power structure will be inverted: the Israelites will rule as sovereigns, and the nations will go into servitude.",
+      "facet": "Heaven is not a non-corporeal realm of clouds and harps, but a brutal, physical geopolitical reversal on Earth where the historically enslaved become the masters, enacting divine vengeance and perfect law.",
+      "provenance": "Revelation 13:10; Isaiah 14:1-2; Amos 9:11-12."
+    }
+  ],
+  "edges": [
+    {
+      "a": "black-hebrew-israelites-yahawah",
+      "b": "black-hebrew-israelites-yahawashi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Most High and His explicitly commissioned, militaristic son, bound together to execute judgment on the earth."
+    },
+    {
+      "a": "black-hebrew-israelites-yahawashi",
+      "b": "black-hebrew-israelites-edom-esau",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The divine avenger of Israel stands in direct, cosmic opposition to the progenitor of systemic oppression."
+    },
+    {
+      "a": "black-hebrew-israelites-deut-28",
+      "b": "black-hebrew-israelites-12-tribes-chart",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The scriptural diagnostic of the curses provides the exact proof required to populate the genealogical chart."
+    },
+    {
+      "a": "black-hebrew-israelites-the-awakening",
+      "b": "black-hebrew-israelites-12-tribes-chart",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The act of spiritual awakening is synonymous with finding one's specific place on the tribal chart."
+    },
+    {
+      "a": "black-hebrew-israelites-yahawah",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Both identify as the God of Abraham, but BHI theology explicitly confines his covenant to a specific genetic lineage, rejecting Christian universalism."
+    },
+    {
+      "a": "black-hebrew-israelites-yahawashi",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Syncretic identification, but entirely recontextualized as a militaristic, Black liberator rather than the passive, universal savior of Western orthodoxy."
+    },
+    {
+      "a": "black-hebrew-israelites-yahawashi",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are eschatological saviors who arrive specifically to violently purge the world of falsehood and restore a righteous empire for the chosen."
+    },
+    {
+      "a": "black-hebrew-israelites-edom-esau",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Edom functions as the systemic, geopolitical embodiment of deceit and evil, mirroring the Zoroastrian cosmic architect of chaos."
+    },
+    {
+      "a": "black-hebrew-israelites-edom-esau",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a wicked, illegitimate power structure that falsely claims sovereignty over the earth and keeps the true divine seed in material bondage."
+    },
+    {
+      "a": "black-hebrew-israelites-12-tribes-chart",
+      "b": "dogon-eight-ancestors",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both use a mathematically precise ancestral matrix to map out the entirety of a people's spiritual and social reality."
+    },
+    {
+      "a": "black-hebrew-israelites-the-awakening",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both frame salvation not as acquiring something new, but as waking up to an innate, divine royal nature suppressed by an oppressive material matrix."
+    },
+    {
+      "a": "black-hebrew-israelites-the-awakening",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Buddhist awakening relies on realizing the self does not fundamentally exist; BHI awakening relies on realizing the self is an eternal, genealogical absolute."
+    },
+    {
+      "a": "black-hebrew-israelites-deut-28",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an absolute cosmic law where deviation brings inevitable material and societal ruin, functioning as a historical diagnostic tool."
+    },
+    {
+      "a": "black-hebrew-israelites-yahawashi",
+      "b": "naayee-neizghani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are warrior saviors tasked with returning to the earth to violently slaughter the unnatural monsters (or systemic oppressors) that prey on the people."
+    },
+    {
+      "a": "black-hebrew-israelites-the-kingdom",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a profound, physical renovation of the earth where the wicked are finally subjugated and the righteous inherit a tangible, purified world."
+    },
+    {
+      "a": "black-hebrew-israelites-12-tribes-chart",
+      "b": "pnw-crest-lineage",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions utilize strict genealogical mapping as the ultimate claim to social, spiritual, and territorial inheritance."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "eschatological-reversal",
+      "name": "Eschatological Reversal",
+      "subtype": "concept",
+      "gloss": "The ultimate cosmological event where the current earthly power structure is flipped, allowing the historically oppressed to physically inherit the earth and subjugate their former oppressors.",
+      "reason": "Captures the intensely political and physical nature of millennialism found in colonized or marginalized religions, distinct from ethereal concepts of an afterlife."
+    },
+    {
+      "id": "anamnesis",
+      "name": "Anamnesis (Divine Memory Retrieval)",
+      "subtype": "rite",
+      "gloss": "Spiritual salvation achieved specifically through remembering one's true, divine, or royal identity that was erased by historical, systemic, or material forces.",
+      "reason": "Connects traditions (like Gnosticism and various Black liberation theologies) where the core problem is amnesia rather than sin."
+    },
+    {
+      "id": "sacred-genealogy",
+      "name": "Sacred Genealogy",
+      "subtype": "concept",
+      "gloss": "The use of strict, literal bloodlines and lineage maps as the absolute determiner of spiritual inheritance and cosmic destiny.",
+      "reason": "Needed to map traditions where salvation or divine favor is genetically inherited rather than achieved through universal faith or actions."
+    },
+    {
+      "id": "chosen-suffering",
+      "name": "Chosen Suffering",
+      "subtype": "principle",
+      "gloss": "The theological framework where a people's uniquely horrific historical trauma is utilized as empirical, forensic proof of their divine chosenness and covenant.",
+      "reason": "Highlights the phenomenon of weaponizing historical trauma as a diagnostic tool for divine favor, prevalent in diaspora and marginalized faiths."
+    }
+  ]
+}

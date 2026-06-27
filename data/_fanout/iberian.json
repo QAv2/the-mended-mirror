@@ -1,0 +1,264 @@
+{
+  "tradition": {
+    "id": "iberian",
+    "name": "Iberian (pre-Roman, non-IE)",
+    "region": "E & S Spain",
+    "color": "#9fb8d8"
+  },
+  "figures": [
+    {
+      "id": "iberian-dama",
+      "kind": "deity",
+      "name": "The Iberian Lady (Dama de Elche / Baza)",
+      "archetypes": [
+        "great-mother",
+        "aristocratic-ancestor"
+      ],
+      "gloss": "The supreme aristocratic goddess of the Iberian pantheon, immortalized in the 'Dama de Elche' and 'Dama de Baza'. She is simultaneously a chthonic funerary vessel and a terrestrial matriarch laden with elaborate, heavy jewelry.",
+      "facet": "She erases the boundary between the divine goddess and the venerated human ancestor. She does not merely rule the underworld; her physical statues literally contained the cremated ashes of the elite dead.",
+      "provenance": "The Dama de Elche and Dama de Baza limestone sculptures (4th century BCE); extensive grave goods in Bastetani and Contestani necropolises."
+    },
+    {
+      "id": "iberian-neitin",
+      "kind": "deity",
+      "name": "Neitin (Neton)",
+      "archetypes": [
+        "solar",
+        "solar-warrior"
+      ],
+      "gloss": "A radiant god of war and the sun venerated by southern and eastern Iberian tribes. He was an active, martial protector who oversaw both the scorching heat of the Mediterranean summer and the violence of battle.",
+      "facet": "Unlike purely atmospheric storm gods, Neitin fuses absolute solar brilliance with martial fury, representing the blinding, destructive, and purifying aspect of the sun wielded as a weapon.",
+      "provenance": "Iberian inscriptions on ceramics from Llíria (as 'Neitin'); Macrobius's 'Saturnalia', which identifies the Accitani solar-war god as 'Neton'."
+    },
+    {
+      "id": "iberian-bicha",
+      "kind": "creature",
+      "name": "The Bicha (Androcephalic Bull)",
+      "archetypes": [
+        "psychopomp",
+        "funerary-guardian"
+      ],
+      "gloss": "A monstrous but protective funerary spirit combining the powerful body of a bull with the bearded head of a man. Strongly influenced by Eastern Mediterranean motifs, it sat atop tower-tombs to guard the ashes of the deceased.",
+      "facet": "It serves strictly as a static, eternal sentinel of the grave rather than a roaming monster or flowing river deity. Its terrifying, impassive visage is meant to protect the dead from spiritual scavengers.",
+      "provenance": "The 'Bicha de Balazote' sculpture (6th century BCE), found in Albacete, alongside similar widespread Iberian funerary sphinxes."
+    },
+    {
+      "id": "iberian-habis",
+      "kind": "hero",
+      "name": "Habis",
+      "archetypes": [
+        "culture-hero",
+        "abandoned-child"
+      ],
+      "gloss": "The mythical king and culture hero of the Turdetani in southern Iberia. Abandoned as a child, he survived the sea, was nursed by wild beasts, and returned to teach his people the plow, agriculture, and civic law.",
+      "facet": "His survival is not due to divine celestial intervention, but his inherent, organic harmony with the harsh Iberian landscape—wild deer and the ocean itself refuse to harm him, cementing his legitimacy through nature.",
+      "provenance": "Justin's 'Epitome of the Philippic History of Pompeius Trogus', summarizing much older Turdetanian/Tartessian oral traditions."
+    },
+    {
+      "id": "iberian-gargoris",
+      "kind": "ancestor",
+      "name": "Gargoris",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The primordial, semi-mythical first king of the Tartessians who discovered the gathering and use of honey. He represents the ancient, pre-agricultural hunter-gatherer era of southern Iberia, bound by raw, savage instincts.",
+      "facet": "He embodies the wild, chaotic origins of civilization. His incestuous pursuit of his daughter and brutal attempts to execute his unrecognized grandson reflect an older, untamed order violently resisting the arrival of laws.",
+      "provenance": "Justin's 'Epitome of the Philippic History of Pompeius Trogus'."
+    },
+    {
+      "id": "iberian-exvotos",
+      "kind": "rite",
+      "name": "The Bronze Ex-Votos",
+      "archetypes": [
+        "axis-mundi",
+        "votive-surrogate"
+      ],
+      "gloss": "The widespread practice of dedicating highly stylized, ritually deposited bronze statuettes at remote cave sanctuaries and springs. These figurines depict priests, warriors, and everyday Iberians seeking healing or divine favor.",
+      "facet": "The divine is not typically worshipped in monumental urban temples, but in liminal, wild spaces—caves and crevices—where human petitioners literally leave miniature, eternal substitutes of themselves to maintain unceasing prayer.",
+      "provenance": "Vast archaeological deposits of Iberian bronze ex-votos at Cerro de los Santos, Castellar de Santisteban, and Despeñaperros."
+    },
+    {
+      "id": "iberian-killed-weapons",
+      "kind": "rite",
+      "name": "The 'Killed' Falcata",
+      "archetypes": [
+        "ritual-destruction"
+      ],
+      "gloss": "The widespread Iberian funerary rite of deliberately heating, bending, and destroying a deceased warrior's falcata (curved sword) and shield before burying them in the necropolis.",
+      "facet": "It views inanimate iron and bronze as possessing a vital, animistic soul that must be violently liberated. A warrior's gear is not an inheritance for the living, but a bound, loyal entity that must die with him.",
+      "provenance": "Countless ritually bent weapons found in Iberian necropolises, such as Cabezo Lucero and the Baza necropolis."
+    }
+  ],
+  "edges": [
+    {
+      "a": "iberian-dama",
+      "b": "iberian-bicha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The maternal vessel containing the ashes and the monstrous bull guarding the tomb form the complete, elite Iberian funerary complex."
+    },
+    {
+      "a": "iberian-gargoris",
+      "b": "iberian-habis",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Intra-tradition bond: The chaotic, incestuous discoverer of honey stands as the savage foil to his grandson, the law-giving inventor of the agricultural plow."
+    },
+    {
+      "a": "iberian-exvotos",
+      "b": "iberian-killed-weapons",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition bond: Both are acts of ritual substitution—bronze bodies left eternally in caves to pray, and iron weapons killed in graves to serve the dead."
+    },
+    {
+      "a": "iberian-neitin",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both combine the blinding, localized power of the sky (sun/lightning) with martial, masculine dominance."
+    },
+    {
+      "a": "iberian-neitin",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are fierce, atmospheric warrior deities who commanded the absolute martial devotion of their respective tribes."
+    },
+    {
+      "a": "iberian-dama",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are monumental, highly adorned earth mothers who hold the duality of life-giving fertility and the consuming grave."
+    },
+    {
+      "a": "iberian-dama",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme, heavily adorned maternal figures deeply tied to funerary rites and the protection of the dead."
+    },
+    {
+      "a": "iberian-dama",
+      "b": "uni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the powerful, aristocratic feminine divine in pre-Roman Western Mediterranean cultures, often blurring with civic identity."
+    },
+    {
+      "a": "iberian-bicha",
+      "b": "charun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are monstrous, terrifying funerary sentinels guarding the threshold of the underworld in neighboring pre-Roman cultures."
+    },
+    {
+      "a": "iberian-bicha",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are hybrid, animal-headed sentinels stationed specifically to protect the physical remains and tombs of the dead."
+    },
+    {
+      "a": "iberian-bicha",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are terrifying, animalistic guardians who oversee the dead and protect them from the spiritual hazards of the underworld."
+    },
+    {
+      "a": "iberian-habis",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are foundational, organically rooted culture heroes who teach their people agriculture and survival in a harsh landscape."
+    },
+    {
+      "a": "iberian-habis",
+      "b": "dangun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are foundational, semi-divine kings who emerge from a union with nature to establish the civic and agricultural order."
+    },
+    {
+      "a": "iberian-habis",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are early agricultural kings whose mythos involves water, near-death, and the civilizing of their people through the plow."
+    },
+    {
+      "a": "iberian-gargoris",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the chaotic, primordial, and untamed stage of creation before order, agriculture, and law are established."
+    },
+    {
+      "a": "iberian-exvotos",
+      "b": "piacenza-liver",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve complex bronze metallurgical objects acting as permanent, physical interfaces between human ritual and the divine will."
+    },
+    {
+      "a": "iberian-killed-weapons",
+      "b": "pnw-property-soul",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both operate on the animistic belief that material items possess a spirit that must be released through ritual destruction."
+    },
+    {
+      "a": "iberian-killed-weapons",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel where strict material rites and sacrifices are required to ensure the ancestors are properly severed from the living world."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "aristocratic-ancestor",
+      "name": "Aristocratic Ancestor",
+      "subtype": "ancestor",
+      "gloss": "The deified matriarch or patriarch of an elite lineage, whose physical remains or icon blur the line between human royalty and divine sovereign.",
+      "reason": "Captures the widespread practice of venerating literal elite forebears as functional deities or chthonic anchors."
+    },
+    {
+      "id": "solar-warrior",
+      "name": "Solar Warrior",
+      "subtype": "deity",
+      "gloss": "A martial deity who wields the blinding, scorching heat of the sun as a purifying weapon rather than merely providing agricultural warmth.",
+      "reason": "Needed for aggressive, martial sun gods (like Neitin or Huitzilopochtli) who differ from passive solar charioteers."
+    },
+    {
+      "id": "funerary-guardian",
+      "name": "Funerary Guardian",
+      "subtype": "creature",
+      "gloss": "A monstrous or hybrid sentinel stationed permanently at tombs to protect the physical remains and the departing soul from scavengers.",
+      "reason": "Required for static, protective tomb beasts that do not roam or ferry the dead, unlike active psychopomps."
+    },
+    {
+      "id": "abandoned-child",
+      "name": "Abandoned Child",
+      "subtype": "hero",
+      "gloss": "The infant hero cast out into the wild or water, saved and nursed by nature itself to return and establish a new civic order.",
+      "reason": "A ubiquitous global archetype (Moses, Sargon, Romulus, Habis) distinct from adult culture-bringers."
+    },
+    {
+      "id": "votive-surrogate",
+      "name": "Votive Surrogate",
+      "subtype": "rite",
+      "gloss": "The ritual deposition of a miniature, inanimate representation of the petitioner, left in a liminal space to maintain continuous prayer.",
+      "reason": "Crucial for traditions relying on ex-votos, where the divine interface is through permanent material proxies rather than ephemeral sacrifice."
+    },
+    {
+      "id": "ritual-destruction",
+      "name": "Ritual Destruction",
+      "subtype": "rite",
+      "gloss": "The deliberate breaking, burning, or bending of wealth and weapons to 'kill' them, releasing their essence into the spirit world.",
+      "reason": "Essential for animistic funerary rites where objects possess souls that must be violently liberated to serve the dead."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "tradition": {
+    "id": "baganda",
+    "name": "Baganda (Lubaale)",
+    "region": "Uganda",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "baganda-katonda",
+      "kind": "deity",
+      "name": "Katonda (The Creator)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme deity who molded creation and the first humans. Though universally acknowledged as the 'Master of Life' and ultimate judge, he retreated from earthly administration, delegating the governance of nature and humanity to the Balubaale pantheon.",
+      "facet": "He demands virtually no cultic maintenance. Lacking major temples or complex priesthoods, he is considered too vast and unbothered to require blood sacrifice, approached only via simple morning prayers by household heads.",
+      "provenance": "John Roscoe, 'The Baganda: An Account of Their Native Customs and Beliefs' (1911); Benjamin Ray, 'Myth, Ritual, and Kingship in Buganda' (1991)."
+    },
+    {
+      "id": "baganda-walumbe",
+      "kind": "deity",
+      "name": "Walumbe (Death)",
+      "archetypes": [
+        "origin-of-death",
+        "underworld-sovereign"
+      ],
+      "gloss": "The deity of death and disease. Originally a heavenly being, he followed his sister Nnambi to earth after she foolishly returned to heaven to fetch forgotten millet for her chickens, introducing mortality to humanity.",
+      "facet": "Death here is not a cosmic necessity, punishment for sin, or a metaphysical flaw. It is a domestic accident—the direct result of a mundane chore forgotten and a stubborn brother refusing to be left behind by his sister.",
+      "provenance": "John Roscoe (1911); A. Kaggwa, 'The Customs of the Baganda' (1934)."
+    },
+    {
+      "id": "baganda-mukasa",
+      "kind": "deity",
+      "name": "Mukasa (Chief of the Balubaale)",
+      "archetypes": [
+        "mother-of-waters",
+        "culture-hero"
+      ],
+      "gloss": "The foremost of the national gods (Balubaale) and lord of Lake Victoria. A deeply revered deity of fertility, peace, and safe passage, he commands the waters, distributes the fish, and is the primary bestower of twins.",
+      "facet": "He is an absolute pacifist within a highly martial culture. Unlike other major African deities of his stature, he strictly forbade human sacrifice, and no weapons could be drawn or blood shed near his supreme temple on the Ssese Islands.",
+      "provenance": "John Roscoe (1911); C.C. Wrigley, 'Kingship and State: The Buganda Dynasty' (1996)."
+    },
+    {
+      "id": "baganda-kibuuka",
+      "kind": "hero",
+      "name": "Kibuuka (God of War)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The highly volatile god of war and brother to Mukasa. Tasked with defending the kingdom, he fought the rival Banyoro by levitating within the clouds, raining down spears and arrows upon the enemy formations.",
+      "facet": "He is a god who was demonstrably killed in battle. Betrayed by an enemy captive who spotted his aerial shadow, he was shot down; his divine authority is now entirely anchored in the physical preservation of his jawbone and umbilical cord.",
+      "provenance": "John Roscoe (1911); J.M. Gray, 'Kibuuka' (1956)."
+    },
+    {
+      "id": "baganda-kabaka",
+      "kind": "hero",
+      "name": "Kabaka (The King)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The living monarch of Buganda, acting as the vital, beating heart of the nation. He is not merely a secular ruler but the focal point of cosmic order, binding the clans, the spirit realm, and the earth together.",
+      "facet": "He is the only man in the kingdom without a single clan. Through the complex mechanics of royal polygamy, he belongs simultaneously to all clans through his 'mothers,' making him the literal and structural embodiment of the unified state.",
+      "provenance": "Benjamin Ray (1991); M.S.M. Kiwanuka, 'A History of Buganda' (1971)."
+    },
+    {
+      "id": "baganda-masiro",
+      "kind": "place",
+      "name": "Masiro (Royal Tombs)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The monumental thatched shrines housing the remains of deceased kings. They are active spiritual courts where female mediums channel the voices of dead Kabakas, ensuring the continuity of royal authority across generations.",
+      "facet": "A king's spiritual essence is geographically bifurcated upon death. His body is buried, but his jawbone—the literal seat of his speech and command—and his preserved umbilical cord are enshrined in the Masiro to permanently anchor his immortal presence.",
+      "provenance": "John Roscoe (1911); Benjamin Ray (1991); UNESCO World Heritage designation for the Kasubi Tombs."
+    },
+    {
+      "id": "baganda-musoke",
+      "kind": "force",
+      "name": "Musoke (God of the Rainbow)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The celestial deity of rain, physically manifesting as the rainbow. He governs the meteorological patterns crucial for Buganda's banana and millet agriculture, dispensing life-giving showers across the region.",
+      "facet": "Rather than being viewed as a weapon or a serpent, his rainbow is perceived as a benign architectural arch. His priests maintained localized shrines where water was ritually drawn and blessed to ensure the terrestrial fertility of the surrounding soil.",
+      "provenance": "John Roscoe (1911)."
+    },
+    {
+      "id": "baganda-mizimu",
+      "kind": "ancestor",
+      "name": "Mizimu (Ancestral Spirits)",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The disembodied spirits of ordinary deceased Baganda. They remain intensely involved in family affairs, returning to demand propitiation, enforce morality, or seek reincarnation through the naming ceremonies of their grandchildren.",
+      "facet": "They are inherently chaotic and chilling immediately after death. Until formally pacified and resettled within the clan network through specific rites, a new Muzimu is a source of severe madness and illness, haunting the very relatives who mourn it.",
+      "provenance": "John Roscoe (1911); L. Mair, 'An African People in the Twentieth Century' (1934)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "baganda-katonda",
+      "b": "baganda-mukasa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The withdrawn creator and the active chief deity who governs the earthly realm in his stead."
+    },
+    {
+      "a": "baganda-mukasa",
+      "b": "baganda-kibuuka",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The pacifist god of lakes who forbids bloodshed versus his hyper-violent brother, the god of war."
+    },
+    {
+      "a": "baganda-katonda",
+      "b": "baganda-walumbe",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The transcendent 'Master of Life' versus the invasive, accidental bringer of death."
+    },
+    {
+      "a": "baganda-kabaka",
+      "b": "baganda-masiro",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The living monarch and the physical architecture that permanently houses the immortal kingship of his predecessors."
+    },
+    {
+      "a": "baganda-kabaka",
+      "b": "baganda-mukasa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The supreme political authority of the land and the supreme spiritual authority of the waters, historically balancing each other's power."
+    },
+    {
+      "a": "baganda-katonda",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme high god of immense power who established the world but has since withdrawn to the sky."
+    },
+    {
+      "a": "baganda-katonda",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Historically, Christian and Islamic missionaries directly mapped Katonda onto the Abrahamic God to facilitate conversion."
+    },
+    {
+      "a": "baganda-katonda",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A distant, supreme celestial orchestrator who presides over a vast bureaucracy of lesser entities."
+    },
+    {
+      "a": "baganda-walumbe",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM to joint: Death introduced into the human sphere not as a grand metaphysical punishment, but via a trivial domestic mistake."
+    },
+    {
+      "a": "baganda-walumbe",
+      "b": "erlik",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primal figure who introduces mortality and disease into a previously unblemished creation."
+    },
+    {
+      "a": "baganda-walumbe",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sovereign of the dead, functionally and structurally separate from the sky-dwelling pantheon."
+    },
+    {
+      "a": "baganda-mukasa",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sovereign of the deep waters who directly controls the release of sea-life and fish to human beings."
+    },
+    {
+      "a": "baganda-kibuuka",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A boisterous, violent protector deity who battles national enemies from within the storm clouds."
+    },
+    {
+      "a": "baganda-kibuuka",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A volatile war deity whose martial power is intrinsically linked to the sky and the defense of the state."
+    },
+    {
+      "a": "baganda-masiro",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A specific, monumental architectural structure that contains both the physical remnants and the structural essence of the ancestors."
+    },
+    {
+      "a": "baganda-kabaka",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A living human who serves as the flawless, structural embodiment of divine and cosmic order for the state."
+    },
+    {
+      "a": "baganda-mizimu",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Venerated ancestral spirits who hold punitive and protective power over their living descendants, demanding regular propitiation."
+    },
+    {
+      "a": "baganda-mizimu",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intimately involved spirits of the dead whose ongoing pacification is essential for household survival and sanity."
+    },
+    {
+      "a": "baganda-musoke",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A meteorological deity physically manifesting as the rainbow to govern rainfall and agricultural cycles."
+    },
+    {
+      "a": "baganda-musoke",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The celestial rainbow functioning as a divine entity that bridges the heavens and the earth."
+    },
+    {
+      "a": "baganda-masiro",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM to joint: The geographic and spiritual pivot linking the eternal realm of the dead to the temporal realm of the living."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "deified-human-pantheon",
+      "name": "Deified Human Pantheon",
+      "subtype": "concept",
+      "gloss": "A theological system wherein the major national gods are strictly understood to have once been living human heroes who transcended mortality through extraordinary deeds or deaths.",
+      "reason": "Necessary to distinguish gods like the Balubaale or the Chinese Shen, who are explicitly promoted post-mortem humans, from primordial or elemental deities who were never human."
+    },
+    {
+      "id": "royal-relic-shrine",
+      "name": "Royal Relic Shrine",
+      "subtype": "place",
+      "gloss": "A monumental architectural structure designed to house specific, physically preserved body parts of deceased monarchs in order to permanently anchor their spiritual and political authority.",
+      "reason": "Crucial for capturing sites like the Masiro, where a king's jawbone or umbilical cord acts as the literal seat of ongoing rule, distinct from generic ancestral tombs."
+    },
+    {
+      "id": "active-intercessors",
+      "name": "Active Intercessors",
+      "subtype": "concept",
+      "gloss": "Spiritual beings—often elevated human ancestors—who handle the daily administration of the cosmos and receive direct sacrifice on behalf of a distant supreme creator.",
+      "reason": "Essential for capturing entities like the Mizimu, Amadlozi, and Pangool, which act not merely as generic 'ancestors' but as a highly specialized, localized bureaucratic tier of the divine."
+    }
+  ]
+}

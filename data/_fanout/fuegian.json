@@ -1,0 +1,220 @@
+{
+  "tradition": {
+    "id": "fuegian",
+    "name": "Selk'nam & Yámana (Fuegian)",
+    "region": "Tierra del Fuego",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "fuegian-temaukel",
+      "kind": "deity",
+      "name": "Temáukel",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The formless, eternal supreme being of the Selk'nam who dwells beyond the stars. He created the primordial cosmos but remains entirely aloof from the world's daily operations, never depicted in physical form and approached only in extreme crises.",
+      "facet": "An absolute deus otiosus who requires no worship, sacrifices, or dogma. His supremacy is maintained precisely through his radical distance from human life, delegating all earthly creation to his emissary.",
+      "provenance": "Martin Gusinde, 'Die Selk'nam' (1931); Anne Chapman, 'Drama and Power in a Hunting Society' (1982)."
+    },
+    {
+      "id": "fuegian-kenos",
+      "kind": "first-ancestor",
+      "name": "Kenos",
+      "archetypes": [
+        "culture-hero",
+        "first-ancestor"
+      ],
+      "gloss": "The patriarchal first ancestor sent from the sky by Temáukel to bring order. He shaped the mountains and rivers of Tierra del Fuego, molded the first humans from clay, and established the social and moral codes before departing.",
+      "facet": "He acts as the active, terrestrial proxy for a profoundly absent creator. His terraforming is highly localized, turning the harsh Fuegian geography into a deliberately constructed, moral landscape.",
+      "provenance": "Martin Gusinde, 'Die Selk'nam' (1931); Lucas Bridges, 'Uttermost Part of the Earth' (1948)."
+    },
+    {
+      "id": "fuegian-kwanyip",
+      "kind": "hero",
+      "name": "Kwányip",
+      "archetypes": [
+        "origin-of-death",
+        "trickster"
+      ],
+      "gloss": "A powerful shaman-hero of the mythic 'Hoowin' era. When his older brother died, Kwányip deliberately chose not to resurrect him, thereby cementing death as a permanent, irreversible reality for all humanity.",
+      "facet": "Death is not introduced as a divine punishment for sin or a trick by an evil spirit, but as a deliberate, pragmatic choice by a cultural hero to prevent overpopulation and stagnation.",
+      "provenance": "Martin Gusinde, 'Die Selk'nam' (1931); Anne Chapman (1982)."
+    },
+    {
+      "id": "fuegian-hain-rite",
+      "kind": "rite",
+      "name": "The Hain",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The grueling, months-long Selk'nam male initiation ceremony. It reenacts the mythic overthrow of the ancient matriarchy, where women originally ruled by wearing terrifying masks to simulate spirits. Men now wear the masks to maintain the patriarchal order.",
+      "facet": "The entire ceremonial structure is based on a conscious, admitted theatrical illusion. The sacred is explicitly a political tool, masking human power dynamics under the guise of supernatural terror.",
+      "provenance": "Martin Gusinde (1931); Anne Chapman, 'Drama and Power in a Hunting Society' (1982)."
+    },
+    {
+      "id": "fuegian-xalpen",
+      "kind": "force",
+      "name": "Xalpen",
+      "archetypes": [
+        "underworld-sovereign",
+        "great-mother"
+      ],
+      "gloss": "The paramount spirit of the Hain, a ravenous, subterranean female entity. She never appears visibly to the uninitiated, instead demanding vast quantities of meat and supposedly devouring the initiates before birthing them anew as men.",
+      "facet": "She embodies male terror of female reproductive power and terrestrial consumption. She is a 'dark mother' whose subterranean womb is a violent crucible requiring constant appeasement via the hunt.",
+      "provenance": "Martin Gusinde (1931); Anne Chapman (1982)."
+    },
+    {
+      "id": "fuegian-kra",
+      "kind": "deity",
+      "name": "Kra (The Moon)",
+      "archetypes": [
+        "lunar",
+        "cosmic-adversary"
+      ],
+      "gloss": "The primeval matriarch who orchestrated the subjugation of men through the invention of spirit-masks. When her husband Kran (the Sun) uncovered her deception, he beat her face with burning embers, driving her into the heavens.",
+      "facet": "Lunar cosmology is directly tied to gender warfare and historical trauma. The moon's craters are not passive geography, but the explicit, violent scars of a primordial domestic and political rebellion.",
+      "provenance": "Martin Gusinde (1931); Lucas Bridges (1948)."
+    },
+    {
+      "id": "fuegian-watauinewa",
+      "kind": "deity",
+      "name": "Watauinéwa",
+      "archetypes": [
+        "sky-father",
+        "master-of-animals"
+      ],
+      "gloss": "The 'Ancient One', the omnipotent supreme being of the Yámana. He is intensely present, addressed directly in everyday speech, thanked for the harvest of marine life, and mourned as the active sender of illness and death.",
+      "facet": "Surviving in the harshest climate on Earth, the Yámana developed a profound, conversational intimacy with their god. He is the immediate, personal owner of the world's scant resources, entirely unlike his Selk'nam counterpart.",
+      "provenance": "Martin Gusinde, 'Die Yamana' (1937)."
+    },
+    {
+      "id": "fuegian-yoalox",
+      "kind": "hero",
+      "name": "The Yoalox Brothers",
+      "archetypes": [
+        "divine-twins",
+        "culture-hero"
+      ],
+      "gloss": "Yámana culture heroes responsible for the invention of harpoons, fire, and social customs. The younger brother was the genius inventor, while the older brother often blundered or corrupted the inventions, explaining the imperfections of human tools.",
+      "facet": "Innovation is depicted as a fraternal dialectic between brilliance and incompetence. The flawed nature of human survival tools is blamed on familial bumbling rather than divine withholding.",
+      "provenance": "Martin Gusinde (1937)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "fuegian-temaukel",
+      "b": "fuegian-kenos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The absolute, withdrawn creator and his active, earthly proxy who actually shapes the world."
+    },
+    {
+      "a": "fuegian-kra",
+      "b": "fuegian-hain-rite",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Kra's primordial deception forms the mythic justification for the ongoing political reenactment of the Hain."
+    },
+    {
+      "a": "fuegian-kenos",
+      "b": "fuegian-kwanyip",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: Kenos molds humanity and brings life, while his mythic successor Kwányip cements permanent death."
+    },
+    {
+      "a": "fuegian-temaukel",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unfathomable, formless supreme power existing in absolute isolation from the material realm."
+    },
+    {
+      "a": "fuegian-temaukel",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A remote creator who sets the cosmos in motion but leaves the structuring of the earth to subordinate beings."
+    },
+    {
+      "a": "fuegian-kenos",
+      "b": "viracocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The wandering civilizer who sculpts the landscape, molds humanity, and establishes moral order before departing."
+    },
+    {
+      "a": "fuegian-kenos",
+      "b": "baiame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sky-born first ancestor who descends to physically shape the topography and law of a harsh landscape."
+    },
+    {
+      "a": "fuegian-kwanyip",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A legendary culture hero whose specific actions irrevocably cement mortality for all future generations."
+    },
+    {
+      "a": "fuegian-hain-rite",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Rigorous indigenous initiation rituals designed to terrorize initiates into accepting immutable gender and social laws."
+    },
+    {
+      "a": "fuegian-xalpen",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A terrifying female spirit residing in the depths who controls sustenance and demands appeasement through the hunt."
+    },
+    {
+      "a": "fuegian-kra",
+      "b": "aningaaq-malina",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A myth of celestial domestic violence causing facial markings and an eternal chase, though the genders of the sun and moon are cleanly inverted."
+    },
+    {
+      "a": "fuegian-kra",
+      "b": "hanwi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A lunar female spirit who is scarred or shamed by the sun, condemned to the night sky as the result of a primordial conflict."
+    },
+    {
+      "a": "fuegian-watauinewa",
+      "b": "sila",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An omnipresent supreme power deeply tied to the weather and daily survival in one of the earth's most extreme climates."
+    },
+    {
+      "a": "fuegian-yoalox",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Fraternal culture heroes whose cooperative and competitive dynamic establishes the tools and limits of humanity."
+    },
+    {
+      "a": "fuegian-yoalox",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mythic benefactor who steals or invents fire to ensure human survival against the cold."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "primordial-matriarchy-overthrow",
+      "name": "Overthrow of the Primordial Matriarchy",
+      "subtype": "mythic-event",
+      "gloss": "A foundational narrative asserting that women originally possessed sacred knowledge or power but abused it, forcing men to seize the secrets and institute a patriarchal order.",
+      "reason": "Crucial for interpreting the Fuegian Hain, Aboriginal Australian male initiations, and certain Amazonian mask traditions where male power is explicitly framed as a post-mythic usurpation."
+    }
+  ]
+}

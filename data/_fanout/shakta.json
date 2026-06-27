@@ -1,0 +1,235 @@
+{
+  "tradition": {
+    "id": "shakta",
+    "name": "Shaktism",
+    "region": "Bengal/Assam",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "shakta-shakti",
+      "kind": "deity",
+      "name": "Shakti (Devi)",
+      "archetypes": [
+        "great-mother",
+        "one-through-many"
+      ],
+      "gloss": "The Supreme Absolute conceived as dynamic, feminine energy. She is not merely the consort of a male deity but Brahman itself in its kinetic, creative mode—the ultimate reality that births, sustains, and completely consumes the multiverse.",
+      "facet": "Reverses the patriarchal norm of world religions by placing the feminine not as passive matter or subordinate earth-mother, but as the active, sovereign ontological supreme, rendering male gods effectively inert without her.",
+      "provenance": "Devi Bhagavata Purana; Devi Mahatmya; Tripura Rahasya."
+    },
+    {
+      "id": "shakta-durga",
+      "kind": "deity",
+      "name": "Durga",
+      "archetypes": [
+        "dragon-slayer",
+        "cosmic-order"
+      ],
+      "gloss": "The invincible warrior queen riding a lion. When the buffalo-demon Mahishasura defeated the male pantheon, they pooled their localized radiances to forge her—a supreme cosmic weapon armed with their own confiscated implements.",
+      "facet": "Unlike typical male dragon-slayers who conquer chaos through brute dominance, she restores cosmic order through a dazzling, sovereign display of beauty intertwined with extreme violence, laughing as she drinks the demon's blood.",
+      "provenance": "Devi Mahatmya (Markandeya Purana)."
+    },
+    {
+      "id": "shakta-kali",
+      "kind": "deity",
+      "name": "Kali",
+      "archetypes": [
+        "terrible-mother",
+        "great-mother"
+      ],
+      "gloss": "The ferocious, dark mother of time, death, and ego-destruction. Adorned with a garland of severed heads, blood-soaked, and standing triumphantly upon the chest of her inert husband, Shiva, she devours the universe at the end of time.",
+      "facet": "She demands the ego's literal decapitation. Her terrifying visage proves that absolute love and grace are inextricably bound with annihilation; one cannot merge with the ultimate without being entirely devoured by it.",
+      "provenance": "Devi Mahatmya; Kalika Purana; Tantrasara; poetry of Ramprasad Sen."
+    },
+    {
+      "id": "shakta-shiva",
+      "kind": "deity",
+      "name": "Shiva (Sava)",
+      "archetypes": [
+        "withdrawn-creator",
+        "complementarity"
+      ],
+      "gloss": "The male deity of the supreme dyad, conceived here as the pure, static, unmanifest consciousness ('Prakasha'). Without Shakti's kinetic vibration ('Vimarsha'), he is literally 'Sava'—a lifeless corpse incapable of any cosmic action.",
+      "facet": "Completely subverts his supreme role in Shaivism; here, the male absolute is deliberately reduced to the inert ground upon which the feminine dances, establishing that formless consciousness is impotent without embodied energy.",
+      "provenance": "Saundaryalahari; Kularnava Tantra; Mahanirvana Tantra."
+    },
+    {
+      "id": "shakta-kundalini",
+      "kind": "force",
+      "name": "Kundalini",
+      "archetypes": [
+        "cosmic-serpent",
+        "internalized-cosmos"
+      ],
+      "gloss": "The primordial cosmic energy localized within the human microcosm, visualized as a coiled, sleeping serpent at the base of the spine. When awakened through tantric discipline, it violently ascends the central channel to reunite with Shiva at the crown.",
+      "facet": "The cosmic serpent is internalized not as a monster to be defeated or a world-boundary, but as the exact physiological vehicle of liberation. Salvation is not a descent of grace, but an explosive uncoiling from below.",
+      "provenance": "Satcakranirupana; Kubjika Tantras; Hatha Yoga Pradipika."
+    },
+    {
+      "id": "shakta-mahavidyas",
+      "kind": "deity",
+      "name": "The Ten Mahavidyas",
+      "archetypes": [
+        "one-through-many",
+        "terrible-mother"
+      ],
+      "gloss": "A group of ten 'Great Wisdom' goddesses ranging from the horrific (Chinnamasta, who decapitates herself to feed her attendants) to the ravishing (Kamala). They represent radical, specialized facets of the supreme Devi's cognitive and cosmogenic power.",
+      "facet": "They systematically dismantle human categories of purity, rationality, and aesthetics. By forcing the practitioner to see divinity in menstruation, corpses, poverty, and self-decapitation, they shatter the illusion of a sanitized cosmos.",
+      "provenance": "Todala Tantra; Mundamala Tantra; Guhyatiguhya Tantra."
+    },
+    {
+      "id": "shakta-kamakhya",
+      "kind": "place",
+      "name": "Kamakhya",
+      "archetypes": [
+        "axis-mundi",
+        "great-mother"
+      ],
+      "gloss": "The supreme mother goddess localized at the Nilachal hill in Assam. Her shrine contains no image, only a natural yoni-shaped cleft in the bedrock from which a subterranean spring flows red with iron oxide, marking her annual menstruation.",
+      "facet": "Divinity is profoundly biological. The menstruation of the goddess is not a symbol of impurity but the literal, sacred, regenerative matrix of the cosmos, actively worshipped by breaking orthodox taboos around female biology.",
+      "provenance": "Kalika Purana; Yogini Tantra."
+    },
+    {
+      "id": "shakta-panchamakara",
+      "kind": "rite",
+      "name": "Panchamakara (The Five M's)",
+      "archetypes": [
+        "transgressive-sacrament"
+      ],
+      "gloss": "A transgressive tantric ritual employing meat ('mamsa'), fish ('matsya'), parched grain ('mudra'), wine ('madya'), and sexual intercourse ('maithuna') as direct sacraments to overcome duality and realize oneness with Shakti.",
+      "facet": "Instead of ascetic denial of the flesh, it hyper-weaponizes taboo material indulgences to forcefully collapse the binary of pure and impure, proving that liberation ('moksha') and enjoyment ('bhukti') are ultimately identical.",
+      "provenance": "Kularnava Tantra; Mahanirvana Tantra."
+    }
+  ],
+  "edges": [
+    {
+      "a": "shakta-shakti",
+      "b": "shakta-shiva",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The indivisible dyad of kinetic energy and static consciousness, utterly dependent on one another for manifestation."
+    },
+    {
+      "a": "shakta-durga",
+      "b": "shakta-kali",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Kali erupts directly from Durga's brow during battle as her concentrated, uncontrolled, and ferocious wrath."
+    },
+    {
+      "a": "shakta-shakti",
+      "b": "shakta-kundalini",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The macrocosmic absolute Goddess and her exact, scaled-down microcosmic presence coiled within the human body."
+    },
+    {
+      "a": "shakta-kamakhya",
+      "b": "shakta-shakti",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The universal mother anchored to physical earth through the mythic severing of her biological womb."
+    },
+    {
+      "a": "shakta-shakti",
+      "b": "purusha-prakriti",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Shaktism deliberately absorbs the Samkhya dualism, elevating Prakriti (matter/energy) to be both the active force AND the ultimate consciousness."
+    },
+    {
+      "a": "shakta-shakti",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The historical and theological identification of the active Goddess with the formless, absolute Brahman of the Upanishads."
+    },
+    {
+      "a": "shakta-durga",
+      "b": "athena",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The virgin warrior-goddess born fully armed from the combined power of male deities specifically to protect the cosmic order from chaotic overthrow."
+    },
+    {
+      "a": "shakta-durga",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme champion invested with the combined weapons of the elder gods to slay the chaos-monster and re-establish the world's structure."
+    },
+    {
+      "a": "shakta-kali",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Terrifying, blood-soaked goddesses of war and destruction who laugh amidst carnage and revel in the dissolution of enemies."
+    },
+    {
+      "a": "shakta-kali",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying mother adorned with severed human body parts, embodying the brutal, cyclical necessity of death to sustain cosmic life."
+    },
+    {
+      "a": "shakta-shiva",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The inert, corpse-like god who serves as the structural foundation, while his active, magically potent wife actually drives the cosmic narrative."
+    },
+    {
+      "a": "shakta-kundalini",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The explicit structural doctrine that the macrocosmic universe and the microcosmic human body are exact, navigable maps of one another."
+    },
+    {
+      "a": "shakta-panchamakara",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deliberate use of intoxication, taboo-breaking, and ecstatic sexuality to shatter rigid social structures and experience unmediated divinity."
+    },
+    {
+      "a": "shakta-kamakhya",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deeply localized, living earth-mother whose profoundly biological rhythms and taboos dictate ritual reality."
+    },
+    {
+      "a": "shakta-shakti",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine feminine emanation that animates the material universe and bridges the unmanifest, silent absolute with the noisy, kinetic world."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "terrible-mother",
+      "name": "Terrible Mother",
+      "subtype": "deity",
+      "gloss": "The divine feminine as the fierce, blood-drinking devourer of life and ego. She demonstrates that absolute cosmic love must include the terror of death and total dissolution.",
+      "reason": "Needed for Kali, Coatlicue, and Badb, where the divine feminine is not just nurturing but actively horrifying, weaponizing death and visceral violence as an expression of absolute cosmic necessity and grace."
+    },
+    {
+      "id": "transgressive-sacrament",
+      "name": "Transgressive Sacrament",
+      "subtype": "rite",
+      "gloss": "The deliberate ritual use of taboo substances, extreme violations of purity laws, or societal subversion to forcefully shatter the illusion of dualism and access the divine.",
+      "reason": "Needed to connect the Shakta Panchamakara, Dionysian mysteries, and extreme antinomian rites where taboo violation (meat, wine, sex, madness) is explicitly utilized as the primary vehicle for breaking dualistic consciousness."
+    },
+    {
+      "id": "internalized-cosmos",
+      "name": "Internalized Cosmos",
+      "subtype": "principle",
+      "gloss": "The explicit mapping of macrocosmic forces (gods, worlds, elements) into the exact physiological and energetic structures of the human body.",
+      "reason": "Provides a joint for Tantric Kundalini, Daoist Inner Alchemy, and Hermetic microcosmic mappings, where the entire geography of the universe is literally mapped onto the human nervous system to be navigated for salvation."
+    }
+  ]
+}

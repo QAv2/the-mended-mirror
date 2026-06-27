@@ -1,0 +1,227 @@
+{
+  "tradition": {
+    "id": "nation-of-islam",
+    "name": "Nation of Islam",
+    "region": "USA (Detroit)",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "nation-of-islam-wd-fard",
+      "kind": "deity",
+      "name": "W.D. Fard (Allah in Person)",
+      "archetypes": [
+        "withdrawn-creator",
+        "culture-hero"
+      ],
+      "gloss": "The mysterious peddler who appeared in Detroit in 1930, recognized by the Nation of Islam as the supreme being, Allah, incarnate in human form. He revealed the Supreme Wisdom, sparked the awakening of Black Americans, and vanished without a trace in 1934.",
+      "facet": "Rejects the incorporeal, spirit-God of orthodox Islam and Christianity. God is historically and physically manifested as the supreme Black man, collapsing theology into a radical racial ontology.",
+      "provenance": "Supreme Wisdom Lessons; 'Message to the Blackman in America'."
+    },
+    {
+      "id": "nation-of-islam-elijah-muhammad",
+      "kind": "hero",
+      "name": "Elijah Muhammad (The Messenger)",
+      "archetypes": [
+        "eschatological-messenger",
+        "culture-hero"
+      ],
+      "gloss": "Born Elijah Poole, he was chosen by W.D. Fard as the sole Messenger to the 'Lost-Found Nation.' For over forty years, he systematized the movement's theology, strict dietary laws, and vision of economic independence.",
+      "facet": "Displaces the finality of Prophet Muhammad of Arabia. He is the eschatological bridge specifically designated to resurrect the intellectually dead Black man in the wilderness of North America.",
+      "provenance": "'Message to the Blackman in America'; 'The Fall of America'."
+    },
+    {
+      "id": "nation-of-islam-yakub",
+      "kind": "hero",
+      "name": "Yakub (The Big-Headed Scientist)",
+      "archetypes": [
+        "cosmic-adversary",
+        "smith"
+      ],
+      "gloss": "A rogue, brilliant Black scientist who, 6,000 years ago on the island of Patmos, instituted a ruthless eugenics program to graft the white race out of the original Black nation, creating a race of 'devils' to rule temporarily.",
+      "facet": "Evil is not a fallen angelic spirit but a genetically engineered phenotype. The demonic is stripped of the supernatural and recast as a historical, biological consequence.",
+      "provenance": "'Message to the Blackman in America'."
+    },
+    {
+      "id": "nation-of-islam-mother-plane",
+      "kind": "place",
+      "name": "The Mother Plane (The Wheel)",
+      "archetypes": [
+        "axis-mundi",
+        "apocalyptic-vessel"
+      ],
+      "gloss": "A massive, city-sized spacecraft engineered by original Black scientists, currently orbiting Earth. It contains 1,500 smaller ships armed with powerful explosives, waiting to obliterate the white world system when divine judgment is called.",
+      "facet": "Fuses Ezekiel's biblical visions with mid-century UFOlogy and technological supremacy. Apocalyptic judgment is executed not by angels with swords, but by vastly superior extraterrestrial Black aeronautics.",
+      "provenance": "'The Fall of America'; NOI exegesis of Ezekiel 1:16."
+    },
+    {
+      "id": "nation-of-islam-asiatic-black-man",
+      "kind": "ancestor",
+      "name": "The Original Asiatic Black Man",
+      "archetypes": [
+        "first-ancestor",
+        "one-through-many"
+      ],
+      "gloss": "The uncreated, primordial architects of the universe. In NOI cosmology, the original Black man is 'the Maker, the Owner, the Cream of the Planet Earth, and the God of the Universe,' acting communally through a council of 24 scientists.",
+      "facet": "Completely reverses global white supremacy by positing Blackness as the literal, eternal divine default of the cosmos. The universe was mathematically engineered by Black men, not spoken by a phantom spirit.",
+      "provenance": "Supreme Wisdom Lessons."
+    },
+    {
+      "id": "nation-of-islam-tricknology",
+      "kind": "concept",
+      "name": "Tricknology",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The elaborate system of deception, historical erasure, and social control engineered by Yakub's white descendants to keep the original Black nation asleep and ignorant of its divine cosmic heritage.",
+      "facet": "Reframes systemic racism and chattel slavery from mere economic or political oppression into an explicitly satanic, cosmological technology designed specifically to bind the minds of gods.",
+      "provenance": "Speeches of Malcolm X; NOI sermons."
+    },
+    {
+      "id": "nation-of-islam-tribe-of-shabazz",
+      "kind": "ancestor",
+      "name": "The Tribe of Shabazz",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The specific ancient lineage of the original Black nation that survived a catastrophic cosmic explosion, which tore the Moon from the Earth, later settling in the Nile Valley and Mecca. Black Americans are their 'lost-found' descendants.",
+      "facet": "Anchors African American identity in an unimaginably vast, galactic antiquity. It bypasses the trauma of the transatlantic slave trade to claim a cosmological genealogy older than the Earth's current geology.",
+      "provenance": "Supreme Wisdom Lessons."
+    },
+    {
+      "id": "nation-of-islam-grafting",
+      "kind": "principle",
+      "name": "The Grafting Process",
+      "archetypes": [
+        "cyclic-ages",
+        "origin-of-death"
+      ],
+      "gloss": "The 600-year process of selective breeding mandated by Yakub, where the brown, red, yellow, and finally white races were systematically extracted from the original Black germ, progressively stripping away the divine essence.",
+      "facet": "An absolute inversion of biological evolution. Here, 'evolution' into lighter skin is a carefully engineered devolution into moral bankruptcy, physical weakness, and sociopathy.",
+      "provenance": "'Message to the Blackman in America'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "nation-of-islam-wd-fard",
+      "b": "nation-of-islam-elijah-muhammad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The divine sender and his exclusive, irreplaceable earthly messenger."
+    },
+    {
+      "a": "nation-of-islam-yakub",
+      "b": "nation-of-islam-tricknology",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The cosmic adversary and the structural system of deception he birthed to rule the world."
+    },
+    {
+      "a": "nation-of-islam-yakub",
+      "b": "nation-of-islam-asiatic-black-man",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The rogue scientist actively corrupts and strips away the pure genetic divinity of the original man."
+    },
+    {
+      "a": "nation-of-islam-wd-fard",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: W.D. Fard is explicitly identified in NOI theology as the awaited Messiah expected by Christians."
+    },
+    {
+      "a": "nation-of-islam-wd-fard",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly adopts the Islamic name and ultimate authority of God, but radically reimagines him as a living Black man."
+    },
+    {
+      "a": "nation-of-islam-yakub",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An arrogant, flawed creator figure who brings about a defective, oppressive material order separate from the true divine source."
+    },
+    {
+      "a": "nation-of-islam-yakub",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active, engineered source of cosmic evil and opposition to the original harmonious truth."
+    },
+    {
+      "a": "nation-of-islam-yakub",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The disruptive, rebellious figure who breaks the original cosmic unity through an act of premature, illicit creation."
+    },
+    {
+      "a": "nation-of-islam-mother-plane",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The impending, apocalyptic purification of the world order through a definitive act of fire and destruction."
+    },
+    {
+      "a": "nation-of-islam-elijah-muhammad",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A prophetic figure who synthesizes previous revelations into a highly systematized, dualistic cosmology for a new era."
+    },
+    {
+      "a": "nation-of-islam-tricknology",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A vast, orchestrated illusion designed specifically to keep divine beings trapped in a state of ignorance and slumber."
+    },
+    {
+      "a": "nation-of-islam-asiatic-black-man",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The perfect, uncreated, and primordial source from which all subsequent lesser reality is derived or devolved."
+    },
+    {
+      "a": "nation-of-islam-tribe-of-shabazz",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Primordial, semi-divine ancestors who survive a cosmic transition to seed and populate the earthly realm."
+    },
+    {
+      "a": "nation-of-islam-grafting",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A specific historical rupture that fundamentally altered the nature of reality, introducing corruption, limitation, and mortality."
+    },
+    {
+      "a": "nation-of-islam-mother-plane",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel where mechanical, celestial fury replaces the storm-god's wrath as the instrument of ultimate divine retribution."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "apocalyptic-vessel",
+      "name": "The Apocalyptic Vessel",
+      "subtype": "place",
+      "gloss": "A physical, often technological or vehicular structure destined to execute the final cosmic judgment, bridging mythic chariots with modern mechanical supremacy.",
+      "reason": "Captures the recurring modern religious motif where divine retribution and salvation arrive via advanced technology or extraterrestrial craft rather than spiritual phenomena."
+    },
+    {
+      "id": "eschatological-messenger",
+      "name": "The Eschatological Messenger",
+      "subtype": "hero",
+      "gloss": "A definitive, end-times prophet chosen not just to teach, but to serve as the exclusive, final conduit for salvation before the destruction of the current world order.",
+      "reason": "Distinguishes a final, apocalyptic bridge figure from a general 'culture-hero' or 'spiritual-guide,' emphasizing their role in initiating the end of days."
+    }
+  ]
+}

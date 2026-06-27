@@ -1,0 +1,410 @@
+{
+  "tradition": {
+    "id": "isis-cult",
+    "name": "Cult of Isis & Serapis",
+    "region": "Egypt → Roman world",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "isis-cult-isis-myrionymos",
+      "kind": "deity",
+      "name": "Isis Myrionymos (She of Ten Thousand Names, the Throne-Mother, the All-Goddess)",
+      "archetypes": ["great-mother", "mother-of-waters", "psychopomp"],
+      "gloss": "The supreme goddess of the Hellenistic and Roman world — Isis absorbs the powers of nearly every Mediterranean goddess, becoming the universal mother, the queen of heaven, the mistress of the sea, the inventor of agriculture and law, the one who raises the dead. She is the sister-wife of Osiris, the mother of Horus, the protector of the dead, and the guide of souls in the afterlife. Her cult spread from Egypt to Greece, Rome, and the far reaches of the empire, with temples at Pompeii, Rome, and beyond.",
+      "facet": "The goddess who is all: Isis Myrionymos is not a single goddess but a syncretic sum — she is identified with Hathor, Aphrodite, Demeter, Artemis, Tyche, and dozens of others. Her 'ten thousand names' are not epithets but absorbed identities. She is the great mother who is also the sea-goddess, the throne, the star, the moon, the lawgiver. No other goddess in antiquity claims this totalizing universality — she is the one through whom all others are seen.",
+      "provenance": "Apuleius, Metamorphoses XI (the Isis book); Plutarch, De Iside et Osiride; Diodorus Siculus, Bibliotheca historica I; Sarapis and Isis inscriptions (RICIS); F. Dunand, Le culte d'Isis dans le bassin oriental de la Méditerranée (1973); R. E. Witt, Isis in the Graeco-Roman World (1971)."
+    },
+    {
+      "id": "isis-cult-serapis",
+      "kind": "deity",
+      "name": "Serapis (Osiris-Apis, the Lord of the Universe, the Sun-God of Alexandria)",
+      "archetypes": ["dying-rising", "solar", "underworld-sovereign"],
+      "gloss": "A deliberately created syncretic god — Serapis combines the Egyptian Osiris (god of the dead and resurrection) with the Apis bull (the living incarnation of Ptah) and the Greek Zeus (king of the gods) and Hades (lord of the underworld). He is depicted as a bearded, Zeus-like figure with a modius (a grain-measure) on his head, symbolizing abundance and the underworld. Serapis is the consort of Isis, the lord of the universe, the sun-god, and the healer. His cult was established by Ptolemy I Soter in Alexandria as a unifying deity for Greeks and Egyptians.",
+      "facet": "The made god: Serapis is the only major deity in antiquity whose origin is a deliberate political-theological creation — Ptolemy I commissioned the cult to unify his multicultural kingdom. He is not a native Egyptian god but a hybrid: Osiris + Apis + Zeus + Hades. His iconography is Greek, his essence Egyptian, his function universal. He is the dying-and-rising god who is also the king of the underworld and the sun — a fusion that no single tradition produced.",
+      "provenance": "Plutarch, De Iside et Osiride 28; Tacitus, Histories IV.83-84; Clement of Alexandria, Protrepticus IV; Sarapis inscriptions (RICIS); P. M. Fraser, Ptolemaic Alexandria (1972); J. E. Stambaugh, Sarapis under the Early Ptolemies (1972)."
+    },
+    {
+      "id": "isis-cult-horus-harpocrates",
+      "kind": "deity",
+      "name": "Harpocrates (Horus the Child, the Infant Sun, the God of Silence)",
+      "archetypes": ["dying-rising", "solar"],
+      "gloss": "The child form of Horus, son of Isis and Osiris/Serapis — depicted as a naked infant with a finger to his lips, a gesture misinterpreted by Greeks as a sign of silence (hence Harpocrates becomes the god of secrets and silence). In Egyptian tradition, the finger-to-mouth is a hieroglyph for 'child.' Harpocrates is the newborn sun, the heir of Osiris, the one who avenges his father. In the Isiac mysteries, he represents the reborn initiate, the 'son of God' who has passed through death to new life.",
+      "facet": "The silent child: Harpocrates is the only major deity whose primary attribute is silence — the finger on the lips becomes a symbol of esoteric secrecy. The Greeks transformed a child's gesture into a theological statement: the mysteries of Isis are not to be spoken. He is the dying-and-rising god in miniature — the infant who is also the sun, the heir who is also the initiate. His silence is not absence but fullness: the unspeakable gnosis.",
+      "provenance": "Plutarch, De Iside et Osiride 19; Apuleius, Metamorphoses XI; Clement of Alexandria, Stromata V; Diodorus Siculus I; F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World."
+    },
+    {
+      "id": "isis-cult-anubis-hermanubis",
+      "kind": "deity",
+      "name": "Anubis-Hermanubis (the Jackal-Headed Guide, the Psychopomp of the Mysteries)",
+      "archetypes": ["psychopomp", "trickster"],
+      "gloss": "The syncretic fusion of the Egyptian Anubis (god of embalming, guardian of the dead, weigher of hearts) and the Greek Hermes (messenger, guide of souls, god of boundaries). Hermanubis is depicted as a jackal-headed figure with the caduceus of Hermes, leading souls through the underworld and presiding over the mysteries. In the Isiac cult, he is the guide who initiates the dead into the afterlife and the living into the secret knowledge of the goddess. He is the 'conductor of souls' (psychopompos) par excellence.",
+      "facet": "The jackal with the caduceus: Hermanubis is a rare example of a syncretic god who is not a simple identification but a genuine fusion — Anubis's jackal head and funerary role merge with Hermes's heraldic staff and boundary-crossing. He is the psychopomp who is also a trickster, the guide who is also a guardian. No other tradition has a god who is both the embalmer of the dead and the messenger of the gods — the jackal and the herald are one.",
+      "provenance": "Plutarch, De Iside et Osiride 61; Diodorus Siculus I; Apuleius, Metamorphoses XI; Hermanubis inscriptions (RICIS); F. Dunand, Le culte d'Isis; J. G. Griffiths, The Origins of Osiris (1966)."
+    },
+    {
+      "id": "isis-cult-osiris",
+      "kind": "deity",
+      "name": "Osiris (the Dismembered King, the Lord of the Underworld, the Judge of the Dead)",
+      "archetypes": ["dying-rising", "underworld-sovereign", "psychopomp"],
+      "gloss": "The central dying-and-rising god of Egyptian religion — Osiris is the primordial king who is murdered by his brother Set, dismembered into fourteen pieces, and reassembled by Isis and Nephthys. He becomes the lord of the underworld, the judge of the dead, and the promise of resurrection for all who are initiated into his mysteries. In the Isiac cult, Osiris is identified with Serapis and with the Greek Dionysus and Hades. His death and rebirth are the paradigm of the initiate's journey.",
+      "facet": "The dismembered king: Osiris is the only dying-and-rising god whose death is a dismemberment — his body is scattered across Egypt, and Isis must gather the pieces. This is not a simple death-and-return but a fragmentation and reassembly. The fourteen pieces correspond to the fourteen days of the waning moon, and the phallus (eaten by a fish) is the missing piece that must be ritually restored. The resurrection is not a return to life but a transformation into the lord of the dead.",
+      "provenance": "Plutarch, De Iside et Osiride 12-20; Pyramid Texts (esp. Utterances 532-577); Book of the Dead; Diodorus Siculus I; J. G. Griffiths, The Origins of Osiris (1966); E. A. Wallis Budge, Osiris and the Egyptian Resurrection (1911)."
+    },
+    {
+      "id": "isis-cult-isis-navigation",
+      "kind": "rite",
+      "name": "The Navigium Isidis (the Ship of Isis, the Ploiaphesia, the Opening of the Sailing Season)",
+      "archetypes": ["mother-of-waters", "great-mother"],
+      "gloss": "The great public festival of the Isiac cult, celebrated on March 5 — a procession to the harbor where a ship laden with offerings is launched into the sea, symbolizing the opening of the sailing season and the protection of Isis over mariners. The festival is described in detail by Apuleius: priests in white linen, the sistrum (rattle) of Isis, the golden vessel of the goddess, the crowd throwing flowers and incense. The ship is blessed by the goddess, who is the 'mistress of the sea' (Pelagia).",
+      "facet": "The ship as goddess: the Navigium Isidis is not a generic blessing of boats — the ship itself is a theophany, a vessel that carries the presence of Isis across the waters. The festival is a public spectacle that opens the season of trade and travel, but it is also a mystery: the ship is the barque of the sun, the vessel of the dead, the ark of the goddess. No other cult has a festival that is both a civic calendar event and a cosmic symbol of navigation between worlds.",
+      "provenance": "Apuleius, Metamorphoses XI.8-17; L. Vidman, Isis und Serapis bei den Griechen und Römern (1970); F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World."
+    },
+    {
+      "id": "isis-cult-isis-initiation",
+      "kind": "rite",
+      "name": "The Mysteries of Isis (the Initiation into the Death and Rebirth of the Soul)",
+      "archetypes": ["dying-rising", "psychopomp", "ecstatic-shaman"],
+      "gloss": "The secret initiation into the Isiac cult, described by Apuleius in the Metamorphoses — the initiate (Lucius) undergoes a symbolic death, enters the underworld, approaches the threshold of Proserpina, and is reborn as a 'sun-clad' devotee of Isis. The initiation involves purification, fasting, the revelation of sacred objects (the sistrum, the cista mystica, the serpent), and a ritual journey through the elements. The initiate is 'born again' and becomes a 'son of Isis,' wearing the crown of palm leaves and carrying the torch.",
+      "facet": "The death that is not death: the Isiac initiation is a literal descent into the underworld — the initiate 'dies' and is reborn, but the death is a ritual enactment, not a physical one. The initiate sees the 'sun at midnight' (the sun in the underworld), a paradox that marks the transformation. Unlike the Eleusinian mysteries, which focus on the cycle of grain, the Isiac mysteries are about the individual soul's journey through death to eternal life. The initiate becomes a 'living Osiris.'",
+      "provenance": "Apuleius, Metamorphoses XI.21-30; Plutarch, De Iside et Osiride; Clement of Alexandria, Protrepticus II; F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World; J. G. Griffiths, Apuleius of Madauros: The Isis-Book (1975)."
+    },
+    {
+      "id": "isis-cult-isis-sistrum",
+      "kind": "concept",
+      "name": "The Sistrum (the Rattle of Isis, the Instrument of Awakening)",
+      "archetypes": ["great-mother"],
+      "gloss": "The ritual rattle of the Isiac cult — a metal frame with rods that jingle when shaken, associated with the sound of the Nile, the rattle of the serpent, and the awakening of the dead. The sistrum is the emblem of Isis, carried by her priests and devotees. It is said to drive away evil spirits, to awaken the sleeping god (Osiris), and to mark the rhythm of the mysteries. The sistrum is also a symbol of the goddess's power over the elements: the four rods represent the four winds, the frame the moon.",
+      "facet": "The sound that wakes the dead: the sistrum is not a musical instrument in the ordinary sense — it is a theurgic tool that produces a sound that is both the voice of the goddess and the sound of creation. The rattle is the sound of the sistrum that awakens Osiris from death, that drives away Set, that calls the soul to rebirth. No other tradition has a ritual instrument that is explicitly said to raise the dead and to be the voice of the goddess herself.",
+      "provenance": "Apuleius, Metamorphoses XI; Plutarch, De Iside et Osiride 63; Diodorus Siculus I; F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World."
+    },
+    {
+      "id": "isis-cult-isis-cista-mystica",
+      "kind": "concept",
+      "name": "The Cista Mystica (the Sacred Chest, the Basket of the Mysteries)",
+      "archetypes": ["dying-rising", "great-mother"],
+      "gloss": "The sealed basket or chest that contains the sacred objects of the Isiac mysteries — it is carried in procession and revealed only to initiates. The contents are secret, but ancient sources suggest it contained a golden serpent (the uraeus), the phallus of Osiris, or the sacred implements of the goddess. The cista is the womb of Isis, the tomb of Osiris, the ark of the mysteries. To open it is to see the hidden truth of death and rebirth.",
+      "facet": "The sealed womb: the cista mystica is the container of the unspeakable — it is both the womb that gives birth and the tomb that holds the dead. The serpent inside is the symbol of rebirth (the shedding of skin) and the phallus is the symbol of generation. The cista is not a box but a mystery: it contains the 'thing that cannot be named.' No other cult has a sacred container that is simultaneously the womb, the tomb, and the ark of the goddess.",
+      "provenance": "Apuleius, Metamorphoses XI; Clement of Alexandria, Protrepticus II; Plutarch, De Iside et Osiride; F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World."
+    },
+    {
+      "id": "isis-cult-isis-aretalogy",
+      "kind": "concept",
+      "name": "The Isis Aretalogy (the Praises of Isis, the Self-Revelation of the Goddess)",
+      "archetypes": ["great-mother", "culture-hero"],
+      "gloss": "A genre of hymns and inscriptions in which Isis reveals her own powers and titles in the first person — 'I am Isis, the mistress of every land... I gave laws to mankind... I ordained that women should be loved by men... I made the sea navigable... I revealed the mysteries.' The most famous aretalogy is the one from Cyme (Asia Minor), but versions exist from Memphis, Ios, and elsewhere. The aretalogy is a liturgical text that proclaims the universality of Isis and her gifts to humanity.",
+      "facet": "The goddess who speaks: the aretalogy is unique in that the goddess speaks in her own voice — 'I am Isis...' — a self-revelation that has no parallel in other traditions. Isis does not need a prophet or a priest to speak for her; she declares her own nature. The aretalogy is a list of her achievements (law, agriculture, navigation, marriage, the mysteries) that makes her the culture-heroine of the entire world. She is the only goddess who claims to have given law to all humanity.",
+      "provenance": "Inscription from Cyme (RICIS 302/0204); Diodorus Siculus I; Plutarch, De Iside et Osiride; F. Dunand, Le culte d'Isis; R. E. Witt, Isis in the Graeco-Roman World; V. F. Vanderlip, The Four Greek Hymns of Isidorus (1972)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-serapis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Isis and Serapis are the divine couple of the Isiac cult — she is the queen of heaven, he is the lord of the universe. Their pairing is the central theological axis of the cult."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-horus-harpocrates",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Isis is the mother of Harpocrates (Horus the Child) — the infant sun is born from the union of Isis and Osiris/Serapis. The triad Isis-Serapis-Harpocrates is the holy family of the cult."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-anubis-hermanubis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Anubis-Hermanubis is the guide of souls in the Isiac mysteries — he leads the initiate to Isis, who is the mother of the dead and the queen of the underworld."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-osiris",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Isis is the sister-wife of Osiris — she gathers his dismembered body and resurrects him. Their relationship is the paradigm of love and death in the cult."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-isis-navigation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Navigium Isidis is the great public festival of Isis — she is the mistress of the sea, and the ship is her vessel. The festival honors her protection over mariners."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-isis-initiation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Mysteries of Isis are the secret initiation into her cult — the initiate dies and is reborn through the goddess. Isis is the guide and the goal of the mysteries."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-isis-sistrum",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sistrum is the ritual rattle of Isis — it is her emblem, her voice, and the instrument that awakens the dead. The sistrum is carried by her priests."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-isis-cista-mystica",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The cista mystica is the sacred chest of the Isiac mysteries — it contains the secret objects of the goddess. Isis is the one who reveals and conceals the mysteries."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis-cult-isis-aretalogy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Isis aretalogy is the self-revelation of the goddess — 'I am Isis...' The aretalogy proclaims her universality and her gifts to humanity."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "isis-cult-osiris",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Serapis is the Hellenized form of Osiris-Apis — he is the dying-and-rising god who is also the lord of the underworld. The two are identified in the cult."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "isis-cult-horus-harpocrates",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Serapis is the father of Harpocrates — the infant sun is born from the union of Serapis and Isis. The triad is the holy family of the cult."
+    },
+    {
+      "a": "isis-cult-horus-harpocrates",
+      "b": "isis-cult-osiris",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Harpocrates is the son of Osiris — he is the heir who avenges his father's death. The cycle of death and rebirth is enacted through the father-son relationship."
+    },
+    {
+      "a": "isis-cult-anubis-hermanubis",
+      "b": "isis-cult-osiris",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Anubis is the embalmer of Osiris — he presides over the mummification and the weighing of the heart. Hermanubis is the guide of the dead to Osiris."
+    },
+    {
+      "a": "isis-cult-anubis-hermanubis",
+      "b": "isis-cult-isis-initiation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Anubis-Hermanubis is the guide of the initiate in the mysteries — he leads the soul through the underworld to rebirth. He is the psychopomp of the initiation."
+    },
+    {
+      "a": "isis-cult-osiris",
+      "b": "isis-cult-isis-initiation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The initiate in the Isiac mysteries becomes a 'living Osiris' — the death and rebirth of Osiris is the paradigm of the initiation. The initiate dies with Osiris and is reborn with him."
+    },
+    {
+      "a": "isis-cult-isis-navigation",
+      "b": "isis-cult-isis-sistrum",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sistrum is shaken during the Navigium Isidis — the sound of the rattle accompanies the procession to the harbor and the launching of the ship."
+    },
+    {
+      "a": "isis-cult-isis-navigation",
+      "b": "isis-cult-isis-cista-mystica",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The cista mystica is carried in the procession of the Navigium Isidis — the sacred chest is revealed to the initiates during the festival."
+    },
+    {
+      "a": "isis-cult-isis-initiation",
+      "b": "isis-cult-isis-cista-mystica",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The cista mystica is opened during the initiation — the initiate sees the sacred objects within. The chest is the womb of rebirth."
+    },
+    {
+      "a": "isis-cult-isis-initiation",
+      "b": "isis-cult-isis-aretalogy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The aretalogy is recited during the initiation — the goddess reveals her powers and titles. The initiate hears the voice of Isis."
+    },
+    {
+      "a": "isis-cult-isis-sistrum",
+      "b": "isis-cult-isis-cista-mystica",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sistrum and the cista mystica are the two primary ritual objects of the Isiac cult — the rattle and the chest are carried together in procession."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Isis Myrionymos is the same goddess as the Egyptian Isis — the cult of Isis in the Roman world is a continuation and expansion of the Egyptian cult. The seam is to the Egyptian Isis (not in inventory, but the joint 'great-mother' captures the convergence)."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "great-mother",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Isis Myrionymos is the archetypal great mother — she is the universal mother, the queen of heaven, the mistress of all. The joint is instantiated by her maternity and universality."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "mother-of-waters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Isis is the mistress of the sea (Pelagia) — she protects mariners and opens the sailing season. The joint is instantiated by her power over the waters."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Isis is identified with Demeter in the Hellenistic period — both are mother-goddesses who search for a lost child (Isis for Osiris, Demeter for Persephone). Both are associated with grain and the mysteries."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "artemis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Isis is identified with Artemis in the Hellenistic period — both are virgin goddesses who are also mothers, both are associated with the moon and the hunt. Isis absorbs Artemis's epithets."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Isis and Inanna are both goddesses of love, war, and the underworld — both descend to the underworld to rescue a beloved (Isis for Osiris, Inanna for Dumuzi). Both are queens of heaven."
+    },
+    {
+      "a": "isis-cult-isis-myrionymos",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Isis Myrionymos is the same goddess as the Egyptian Isis — the cult of Isis in the Roman world is a continuation and expansion of the Egyptian cult. The seam is to the Egyptian Isis (not in inventory, but the joint 'great-mother' captures the convergence)."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Serapis is a dying-and-rising god — he is the Hellenized form of Osiris, who dies and is resurrected. The joint is instantiated by his death and rebirth."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Serapis is the Hellenized form of Osiris — both are dying-and-rising gods, lords of the underworld, and judges of the dead. The seam is to the existing Egyptian figure id."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "hades",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Serapis is identified with Hades in the Hellenistic period — both are lords of the underworld, both are depicted with a modius (grain-measure) on their heads. Serapis is the 'Zeus of the underworld.'"
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Serapis is depicted as a bearded Zeus-like figure — he is the king of the gods, the lord of the universe. The iconography is borrowed from Zeus."
+    },
+    {
+      "a": "isis-cult-serapis",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Serapis is identified with Dionysus in some sources — both are dying-and-rising gods, both are associated with the underworld and with ecstatic rites. The identification is attested in Plutarch."
+    },
+    {
+      "a": "isis-cult-horus-harpocrates",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Harpocrates is the infant sun who is born anew each day — he is a dying-and-rising god in the cycle of the sun. The joint is instantiated by his daily rebirth."
+    },
+    {
+      "a": "isis-cult-horus-harpocrates",
+      "b": "solar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Harpocrates is the newborn sun — he is the solar child who rises each morning. The joint is instantiated by his solar nature."
+    },
+    {
+      "a": "isis-cult-horus-harpocrates",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Harpocrates as the divine child born of a virgin mother (Isis) has been compared to the infant Christ — both are the 'son of God' who brings salvation. The parallel is structural, not historical."
+    },
+    {
+      "a": "isis-cult-anubis-hermanubis",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Anubis-Hermanubis is the archetypal psychopomp — he guides souls through the underworld and leads the initiate to rebirth. The joint is instantiated by his role as guide of the dead."
+    },
+    {
+      "a": "isis-cult-anubis-hermanubis",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermanubis is a fusion of Anubis and Hermes — both are psychopomps, messengers, and guides of souls. The seam is to the existing Greek figure id."
+    },
+    {
+      "a": "isis-cult-anubis-hermanubis",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Hermanubis is the Hellenized form of Anubis — both are jackal-headed gods of embalming and the underworld. The seam is to the existing Egyptian figure id."
+    },
+    {
+      "a": "isis-cult-osiris",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Osiris is the paradigmatic dying-and-rising god — he is murdered, dismembered, and resurrected. The joint is instantiated by his death and rebirth."
+    },
+    {
+      "a": "isis-cult-osiris",
+      "b": "underworld-sovereign",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Osiris is the lord of the underworld and the judge of the dead — he presides over the weighing of the heart. The joint is instantiated by his sovereignty over the afterlife."
+    },
+    {
+      "a": "isis-cult-osiris",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Osiris and Dumuzi are both dying-and-rising gods who are mourned by a goddess (Isis for Osiris, Inanna for Dumuzi). Both are associated with vegetation and the cycle of the seasons."
+    },
+    {
+      "a": "isis-cult-osiris",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Osiris is identified with Dionysus by Herodotus and Plutarch — both are dying-and-rising gods, both are dismembered and reassembled, both are associated with the mysteries."
+    },
+    {
+      "a": "isis-cult-isis-initiation",
+      "b": "dying-rising",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Isiac initiation is a dying-and-rising rite — the initiate dies symbolically and is reborn as a 'son of Isis.' The joint is instantiated by the ritual death and rebirth."
+    },
+    {
+      "a": "isis-cult-isis-initiation",
+      "b": "ecstatic-shaman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Isiac initiation involves a soul-journey through the underworld — the initiate descends to the realm of the dead and returns. This is a shamanic ascent/descent."
+    },
+    {
+      "a": "isis-cult-isis-aretalogy

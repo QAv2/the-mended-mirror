@@ -1,0 +1,232 @@
+{
+  "tradition": {
+    "id": "elamite",
+    "name": "Elamite",
+    "region": "SW Iran (Susa)",
+    "color": "#d8a24a"
+  },
+  "figures": [
+    {
+      "id": "elamite-inshushinak",
+      "kind": "deity",
+      "name": "Inshushinak (Lord of Susa)",
+      "archetypes": [
+        "underworld-sovereign",
+        "psychopomp"
+      ],
+      "gloss": "The patron deity of Susa and the supreme judge of the dead. He is the ultimate guarantor of oaths, reigning over the deep earth where he intimately weighs the souls of the deceased in the shadowy afterlife.",
+      "facet": "He seamlessly merges civic and chthonic authority. He is not a distant, exiled lord of the dead, but the living city's active political protector, binding Susa's daily commerce inextricably to underworld justice.",
+      "provenance": "Middle Elamite royal inscriptions, Susa funerary texts."
+    },
+    {
+      "id": "elamite-kiririsha",
+      "kind": "deity",
+      "name": "Kiririsha (The Great Goddess)",
+      "archetypes": [
+        "great-mother",
+        "mother-of-waters"
+      ],
+      "gloss": "The 'Great Goddess' originally from the coastal region of Liyan. She became the supreme mother of the Elamite pantheon, fiercely associated with fertility, the ocean's depths, and the towering Zagros mountains.",
+      "facet": "She ruled alongside, and often functionally eclipsed, male supreme gods as an unassailable, independent sovereign. She embodies a matriarchal persistence that heavily resisted the patriarchal syncretism of neighboring Mesopotamia.",
+      "provenance": "Inscriptions of Untash-Napirisha at Chogha Zanbil, Elamite rock reliefs."
+    },
+    {
+      "id": "elamite-napirisha",
+      "kind": "deity",
+      "name": "Napirisha (The Great God)",
+      "archetypes": [
+        "withdrawn-creator",
+        "master-of-animals"
+      ],
+      "gloss": "Literally 'The Great God', the patron of the Anshan highlands. He is an anthropomorphic deity of raw, terrestrial power, often depicted holding a flowing vase of life-giving water while seated upon a coiled, human-headed serpent.",
+      "facet": "He entirely lacks a personal name—'Napirisha' is merely a title. He embodies the anonymous, untamable majesty of the Zagros mountains, relying on the primordial serpent as his literal throne.",
+      "provenance": "Kurangun rock reliefs, Chogha Zanbil dedicatory bricks."
+    },
+    {
+      "id": "elamite-humban",
+      "kind": "deity",
+      "name": "Humban (The Commander)",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "A supreme sky-god of the Elamite highlands, frequently invoked by royalty to legitimize their rule. He commands the celestial order, breathes life into kingship, and watches over the macrocosmic fate of the empire.",
+      "facet": "He possesses an overwhelming, radiating majesty that he explicitly bestows upon human rulers. His divine presence operates as a highly communicable political weapon, legitimizing Elamite kings against external empires.",
+      "provenance": "Achaemenid Elamite texts, Neo-Elamite royal names."
+    },
+    {
+      "id": "elamite-nahhunte",
+      "kind": "deity",
+      "name": "Nahhunte (Sun God of Justice)",
+      "archetypes": [
+        "solar",
+        "cosmic-order"
+      ],
+      "gloss": "The sun god and the absolute arbiter of justice. He illuminates the day, exposes hidden falsehoods, and ensures that both commerce and royal decrees align flawlessly with cosmic equity.",
+      "facet": "Elamite legal texts describe him actively 'investing' the marketplace and the scales of merchants. The sun is not just a heavenly observer, but the literal, physical presence of commercial fairness on earth.",
+      "provenance": "Susa legal tablets, treaties with Naram-Sin of Akkad."
+    },
+    {
+      "id": "elamite-kidin",
+      "kind": "principle",
+      "name": "Kidin (Divine Protection)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The divine protection or magical charisma emanating directly from the gods. It is an active, supernatural force that sanctuaries physically house and kings aggressively wield to consecrate their reign.",
+      "facet": "It operates almost like a physical, localized force field. To 'touch the kidin' was a literal legal and physical act of taking sanctuary or swearing a binding, life-or-death oath.",
+      "provenance": "Middle Elamite legal texts, administrative records of Susa."
+    },
+    {
+      "id": "elamite-siyan-kukum",
+      "kind": "place",
+      "name": "Siyan-Kukum (The High Temple)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The monumental ziggurat complex at Dur Untash (Chogha Zanbil). It serves as the physical and spiritual junction between the ancient deities of the Zagros mountains and the gods of the Susiana plain.",
+      "facet": "Unlike Mesopotamian ziggurats built by stacking smaller terraces on top of larger ones, its inner core was built entirely first, with outer layers wrapped around it—structurally encasing a hidden, sacred center.",
+      "provenance": "Archaeological excavations at Chogha Zanbil by Roman Ghirshman."
+    },
+    {
+      "id": "elamite-human-headed-serpent",
+      "kind": "creature",
+      "name": "The Human-Headed Serpent",
+      "archetypes": [
+        "cosmic-serpent"
+      ],
+      "gloss": "A profound, recurring motif in Elamite iconography. This immense snake writhes around the thrones of the high gods, serving simultaneously as a water-bearer and an anchor to the chthonic depths.",
+      "facet": "It is never a monster to be slain. It seamlessly fuses the life-giving flow of mountain springs with the terrifying aspect of the underworld, serving as the living foundation of divine authority.",
+      "provenance": "Middle Elamite cylinder seals, Kurangun rock reliefs."
+    }
+  ],
+  "edges": [
+    {
+      "a": "elamite-nahhunte",
+      "b": "elamite-inshushinak",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The dual judges: Nahhunte witnesses oaths in the sun, while Inshushinak enforces them in the underworld."
+    },
+    {
+      "a": "elamite-napirisha",
+      "b": "elamite-kiririsha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The supreme highland dyad of Anshan and Liyan, frequently invoked together."
+    },
+    {
+      "a": "elamite-siyan-kukum",
+      "b": "elamite-inshushinak",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The ziggurat was explicitly dedicated to Inshushinak alongside Napirisha."
+    },
+    {
+      "a": "elamite-kiririsha",
+      "b": "inanna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Kiririsha and Pinikir were explicitly equated with the Mesopotamian Ishtar/Inanna in cross-cultural treaties."
+    },
+    {
+      "a": "elamite-humban",
+      "b": "anu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Humban was formally equated with the Mesopotamian sky-father Anu in ancient god lists."
+    },
+    {
+      "a": "elamite-inshushinak",
+      "b": "ereshkigal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both rule the dark, inescapable underworld beneath the Mesopotamian-Elamite cultural sphere."
+    },
+    {
+      "a": "elamite-inshushinak",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme lords of the afterlife who personally weigh and judge the souls of the dead."
+    },
+    {
+      "a": "elamite-inshushinak",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Absolute lords of death and uncompromising arbiters of final justice."
+    },
+    {
+      "a": "elamite-nahhunte",
+      "b": "mithra-iran",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are solar deities whose all-seeing light makes them the ultimate guarantors of covenants and oaths in greater Iran."
+    },
+    {
+      "a": "elamite-nahhunte",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The solar orb conceived not just as light, but as the physical manifestation of cosmic justice and order."
+    },
+    {
+      "a": "elamite-kidin",
+      "b": "kut",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent a manipulable, quasi-physical substance of divine majesty that legitimizes earthly rule."
+    },
+    {
+      "a": "elamite-kidin",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An invisible, pervasive supernatural force that can be housed in objects or wielded by the spiritually potent."
+    },
+    {
+      "a": "elamite-siyan-kukum",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Architectural and cosmological mountains serving as the supreme axis connecting heaven and earth."
+    },
+    {
+      "a": "elamite-human-headed-serpent",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Primal, water-giving serpents that serve as the fundamental, life-bestowing anchors of the world."
+    },
+    {
+      "a": "elamite-human-headed-serpent",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Cosmic serpents whose coiled bodies structurally support and bind the divine order."
+    },
+    {
+      "a": "elamite-kiririsha",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign earth-mothers inextricably bound to the physical landscape and fertility of their people."
+    },
+    {
+      "a": "elamite-humban",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme, over-arching sky who bestows the mandate of kingship upon earthly rulers."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-charisma",
+      "name": "Divine Charisma / Royal Aura",
+      "subtype": "principle",
+      "gloss": "A tangible, transferable supernatural substance or aura that legitimizes sovereign rule, protects the bearer, and can be physically housed in sanctuaries or objects.",
+      "reason": "Crucial for concepts like Elamite 'kidin', Mesopotamian 'melammu', Iranian 'xvarenah', and Tengrist 'kut', which treat divine right not as a metaphor, but as a manipulable, quasi-physical energy."
+    }
+  ]
+}

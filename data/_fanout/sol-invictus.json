@@ -1,0 +1,237 @@
+{
+  "tradition": {
+    "id": "sol-invictus",
+    "name": "Sol Invictus",
+    "region": "Roman Empire",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "sol-invictus-deus",
+      "kind": "deity",
+      "name": "Sol Invictus (The Unconquered Sun)",
+      "archetypes": [
+        "solar",
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The supreme solar deity of the late Roman Empire, officially instituted as the paramount imperial cult by Emperor Aurelian in 274 CE. He is the ultimate source of light, victory, and imperial authority, typically depicted riding a quadriga across the heavens.",
+      "facet": "Unlike the earlier, minor Roman sun god, Sol Invictus is a highly political, militarized sovereign. He does not just illuminate the world; he enforces imperial unity and grants unconquerable military victory to the ruling emperor.",
+      "provenance": "Coins of Aurelian and Probus; Julian the Apostate, Oration IV (Hymn to King Helios); Zosimus, Historia Nova."
+    },
+    {
+      "id": "sol-invictus-elagabal",
+      "kind": "deity",
+      "name": "Elagabal (Sol Invictus Elagabalus, The Emesene Sun)",
+      "archetypes": [
+        "solar",
+        "axis-mundi"
+      ],
+      "gloss": "A Syrian solar deity from Emesa, introduced to Rome by the teenage emperor Elagabalus in 220 CE. Worshipped in the form of a conical black meteorite, he was briefly elevated above Jupiter before the emperor's assassination led to the cult's suppression.",
+      "facet": "Elagabal is an aniconic eastern baal transplanted awkwardly to Rome. His ecstatic rites and the forced marriage of his black stone to traditional Roman goddesses profoundly shocked conservative sensibilities, contrasting with Aurelian's later, highly Romanized solar cult.",
+      "provenance": "Herodian, History of the Empire; Cassius Dio, Roman History; Aelius Lampridius, Historia Augusta."
+    },
+    {
+      "id": "sol-invictus-dies-natalis",
+      "kind": "rite",
+      "name": "Dies Natalis Solis Invicti (Birthday of the Unconquered Sun)",
+      "archetypes": [
+        "dying-rising",
+        "solar",
+        "cyclic-ages"
+      ],
+      "gloss": "An imperial festival celebrated on December 25th marking the winter solstice. It commemorates the moment the sun ceases its seasonal decline and begins to grow stronger, symbolizing the eternal rebirth and unconquerable nature of the solar god and the Roman state.",
+      "facet": "The rite transforms an astronomical turning point into state theology. It asserts imperial resilience—the empire, like the sun, will always be reborn from darkness. Its date notoriously shares the calendar slot later adapted by Roman Christianity.",
+      "provenance": "The Chronography of 354 (Philocalian Calendar); Julian the Apostate, Oration IV."
+    },
+    {
+      "id": "sol-invictus-mithras",
+      "kind": "deity",
+      "name": "Sol Invictus Mithras (The Sun as Bull-Slayer)",
+      "archetypes": [
+        "solar",
+        "dragon-slayer",
+        "psychopomp"
+      ],
+      "gloss": "In Roman mystery cults, Mithras was frequently invoked as 'Sol Invictus.' While occasionally depicted feasting alongside a separate sun god, Mithras himself embodies the unconquerable light, slaying the cosmic bull to renew the universe and save the souls of his initiates.",
+      "facet": "Where Aurelian's Sol was an open, civic cult designed to unite the masses, Sol Invictus Mithras was the secret patron of soldiers in subterranean caverns. The public sun shines on the empire; the mystery sun guides the individual soul.",
+      "provenance": "Mithraic inscriptions (e.g., 'Deo Soli Invicto Mithrae'); Franz Cumont, The Mysteries of Mithra; Manfred Clauss, The Roman Cult of Mithras."
+    },
+    {
+      "id": "sol-invictus-radiate-crown",
+      "kind": "concept",
+      "name": "The Radiate Crown (Corona Radiata)",
+      "archetypes": [
+        "solar",
+        "axis-mundi"
+      ],
+      "gloss": "A spiked diadem depicting the rays of the sun, worn by Roman emperors on coins and in statuary to assimilate themselves with Sol. Initially used to signify deification after death, it evolved into a symbol of the living emperor's solar mandate.",
+      "facet": "The crown physically merges the ruler with the cosmos. The emperor is no longer merely the 'first among equals' of the early empire; he is the earthly emanation of the Unconquered Sun, ruling by explicit divine right.",
+      "provenance": "Numismatic evidence from Caracalla through Constantine; H.P. L'Orange, Apotheosis in Ancient Portraiture."
+    },
+    {
+      "id": "sol-invictus-pontifices",
+      "kind": "rite",
+      "name": "Pontifices Dei Solis (The Priesthood of the Sun)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "A prestigious college of priests established by Emperor Aurelian in 274 CE to administer the state cult of Sol Invictus. Drawn from the highest ranks of the Roman senatorial elite, they elevated the sun god's administration to equal standing with traditional Roman priesthoods.",
+      "facet": "The creation of this priesthood was a masterstroke of political integration. Aurelian institutionalized Sol into the heart of the ancient patrician establishment, cloaking a new monistic theology in conservative Roman tradition to avoid Elagabalus's earlier mistakes.",
+      "provenance": "Inscriptions from Rome (CIL VI); Zosimus, Historia Nova; S.E. Hijmans, The Sun in the Art and Religions of Rome."
+    },
+    {
+      "id": "sol-invictus-comes",
+      "kind": "concept",
+      "name": "Sol Comes (The Sun as Divine Companion)",
+      "archetypes": [
+        "solar",
+        "culture-hero"
+      ],
+      "gloss": "A theological concept prominently featured on the coinage of Constantine the Great before his sole embrace of Christianity. Sol is depicted standing beside the emperor, acting as his personal 'Comes' (companion, guide, and protector), legitimizing his rule through direct divine association.",
+      "facet": "Sol Comes represents a bridge from polytheism to monotheism. The sun is not just the distant ruler of the heavens, but the intimate patron of the sovereign, paving the structural way for the emperor to rule as God's singular vicegerent.",
+      "provenance": "Constantinian coinage (e.g., SOLI INVICTO COMITI); Panegyrici Latini; Eusebius, Life of Constantine."
+    },
+    {
+      "id": "sol-invictus-aurelian",
+      "kind": "hero",
+      "name": "Aurelian (Restitutor Orbis, Restorer of the World)",
+      "archetypes": [
+        "culture-hero",
+        "solar"
+      ],
+      "gloss": "The Roman Emperor (r. 270–275 CE) who rescued the empire from near-total collapse during the Crisis of the Third Century. After defeating Palmyra in the east, he credited Sol Invictus with his victory, establishing the sun as the supreme unifying deity.",
+      "facet": "Aurelian is the pragmatic architect of solar henotheism. He recognized that a fractured empire needed a single, universally visible unifying principle, weaponizing sun worship as the ideological glue to fuse the 'Restored World' back together.",
+      "provenance": "Historia Augusta (Life of Aurelian); Eutropius, Breviarium; Imperial coinage bearing the legend RESTITUTOR ORBIS."
+    }
+  ],
+  "edges": [
+    {
+      "a": "sol-invictus-deus",
+      "b": "sol-invictus-aurelian",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Aurelian is the earthly champion of Sol Invictus, explicitly crediting the god for his military victories and institutionalizing his supremacy."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "sol-invictus-dies-natalis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Dies Natalis is the central calendrical rite celebrating the eternal rebirth and invincible nature of Sol Invictus."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "sol-invictus-pontifices",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Pontifices Dei Solis are the elite senatorial priesthood created specifically to manage the cult of Sol Invictus in Rome."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "sol-invictus-comes",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sol Comes is the personalized, protective aspect of Sol Invictus, acting as the intimate companion of the Emperor."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "sol-invictus-radiate-crown",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Radiate Crown is the physical manifestation of Sol's authority, worn by emperors to visually fuse their identity with the Sun."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "helios",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Roman Sol and Greek Helios were fully syncretized in the late empire; Julian the Apostate writes his theological hymn to 'King Helios' as the exact equivalent of Sol Invictus."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "jupiter",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Sol Invictus effectively supplanted Jupiter as the head of the Roman state pantheon in the late 3rd century, absorbing the role of the supreme protector of the state."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Constantine fused Sol Invictus and Christ early in his reign, utilizing solar iconography for Jesus as the 'Sun of Righteousness' to ease the empire's transition to monotheism."
+    },
+    {
+      "a": "sol-invictus-dies-natalis",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM (disputed): The shared December 25th date is commonly argued to be the early Church adopting the Dies Natalis Solis Invicti — but this 'History of Religions' borrowing is contested (the rival Calculation hypothesis dates the nativity independently of any solar feast). Held at tier 3 pending the corpus audit."
+    },
+    {
+      "a": "sol-invictus-elagabal",
+      "b": "baal",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Elagabal literally means 'God of the Mountain' in Aramaic; he is a localized Syrian Baal historically syncretized into the Roman pantheon as a solar deity."
+    },
+    {
+      "a": "sol-invictus-elagabal",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the aniconic worship of a sacred black stone (baetyl) with Semitic/Near Eastern origins, embodying the divine presence on earth without human form."
+    },
+    {
+      "a": "sol-invictus-elagabal",
+      "b": "dhu-l-sharra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are Near Eastern deities worshipped in the form of unhewn stone blocks or meteorites, later given Hellenized/Romanized solar or sovereign attributes."
+    },
+    {
+      "a": "sol-invictus-mithras",
+      "b": "mithra-iran",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Roman Mithras takes his name and his fundamental association with solar-contractual authority directly from the Iranian Mithra, despite heavy adaptation in the Roman mystery cult."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme, unyielding solar deities who act as the direct source and sustainer of the ruling monarch's earthly authority."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "inti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme solar deities utilized as ideological engines to enforce imperial expansion, unity, and state survival across diverse conquered peoples."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Solar deities intimately tied to warfare, state survival, and unconquerable military might, requiring specific rites to sustain their victorious power."
+    },
+    {
+      "a": "sol-invictus-radiate-crown",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions visually and conceptually identify the political sovereign directly with the unbroken light, power, and descent of the Sun."
+    },
+    {
+      "a": "sol-invictus-deus",
+      "b": "ahura-mazda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme lords of light and cosmic order who grant a specific, divine radiance or 'right to rule' (farr in Iran, solar comes in Rome) to the sovereign king."
+    }
+  ],
+  "proposedArchetypes": []
+}

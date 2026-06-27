@@ -1,0 +1,227 @@
+{
+  "tradition": {
+    "id": "eckankar",
+    "name": "Eckankar",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "eckankar-sugmad",
+      "kind": "deity",
+      "name": "The Sugmad",
+      "archetypes": [
+        "withdrawn-creator",
+        "the-monad"
+      ],
+      "gloss": "The Supreme Being, the nameless, formless source of all existence. It dwells in the highest unmanifest realms, emitting the ECK (the Light and Sound) to sustain creation.",
+      "facet": "Unlike personal creator gods who demand worship, the Sugmad is utterly abstract and oceanic; souls do not worship it directly but seek to realize their identity as drops of its infinite ocean.",
+      "provenance": "Coined by Paul Twitchell, adapting Radhasoami's 'Anami Purush' (the Nameless Lord)."
+    },
+    {
+      "id": "eckankar-the-eck",
+      "kind": "force",
+      "name": "The ECK",
+      "archetypes": [
+        "cosmic-order",
+        "the-divine-spark"
+      ],
+      "gloss": "The Audible Life Stream or Holy Spirit, manifesting to the spiritual traveler as inner Light and Sound. It is the current that flows out from the Sugmad and eventually returns to it.",
+      "facet": "The ECK is strictly sensory in its inner manifestation; its sound—often described as a flute, rushing water, or buzzing—is the literal, navigable current the soul rides back to God.",
+      "provenance": "Derived directly from the Surat Shabd Yoga (Sound Current) of the Sant Mat and Radhasoami traditions."
+    },
+    {
+      "id": "eckankar-mahanta",
+      "kind": "principle",
+      "name": "The Mahanta (The Living ECK Master)",
+      "archetypes": [
+        "one-through-many",
+        "psychopomp"
+      ],
+      "gloss": "The highest state of God-consciousness on Earth, embodied in only one living teacher at a time. The Master acts as the 'Way-Shower,' guiding the chela outwardly through discourses and inwardly through the Dream Master.",
+      "facet": "The Living ECK Master is explicitly not to be worshipped as a god, but acts as a living compass and inner dream-guide, ensuring the soul is never alone while navigating the perilous lower planes.",
+      "provenance": "Central tenet established by Twitchell, echoing the guru-shishya dynamic of Radhasoami but democratized for a Western, New Age audience."
+    },
+    {
+      "id": "eckankar-vairagi-masters",
+      "kind": "hero",
+      "name": "The Order of the Vairagi",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A brotherhood of ascended spiritual masters—such as Rebazar Tarzs, Fubbi Quantz, and Yaubl Sacabi—who have supposedly guided humanity's spiritual evolution in secret for millennia.",
+      "facet": "They are presented as a hidden, immortal lineage living in the Himalayas or other dimensions, bridging Theosophical 'Ascended Masters' with the lineage of Sant Mat gurus, but entirely unmoored from historical indigenous origins.",
+      "provenance": "Codified by Twitchell; widely analyzed by scholars as fictionalized amalgams of historical Indian gurus and Theosophical figures."
+    },
+    {
+      "id": "eckankar-kal-niranjan",
+      "kind": "deity",
+      "name": "Kal Niranjan",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The ruler of the lower worlds (Physical, Astral, Causal, Mental, and Etheric). Kal is the negative power, responsible for karma, reincarnation, time, and space, designed to temper and test the soul.",
+      "facet": "Kal is not intrinsically 'evil' like a Christian Satan, but a necessary cosmic administrator of illusion (maya) who fiercely guards his domain, trying to prevent souls from escaping into the pure spiritual worlds.",
+      "provenance": "A direct borrowing from the Sant Mat and Radhasoami figure of 'Kal' (Time/Death) or 'Brahm'."
+    },
+    {
+      "id": "eckankar-hu",
+      "kind": "rite",
+      "name": "The HU",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An ancient, sacred mantra sung aloud or internally to attune the practitioner's consciousness to the ECK. It is considered the most primal name of God and a love song to the creator.",
+      "facet": "It functions as a universal spiritual elevator; chanting it does not petition God for favors, but simply vibrates the soul at a higher frequency, lifting it out of the emotional and mental traps of the lower worlds.",
+      "provenance": "Appropriated from Sufi chanting (Dhikr) where 'Hu' means 'He' (God), repurposed by Twitchell as a universal sound current technique."
+    },
+    {
+      "id": "eckankar-soul-travel",
+      "kind": "rite",
+      "name": "Soul Travel",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The core technique of shifting one's awareness—not necessarily via out-of-body astral projection, but through expanding consciousness—to traverse the inner planes of existence and reach the Sugmad.",
+      "facet": "Eckankar explicitly differentiates Soul Travel from Astral Projection; the latter is seen as limited to the 'Lower Worlds' of illusion, while Soul Travel moves the true self beyond mind and matter entirely.",
+      "provenance": "Twitchell's foundational methodology, synthesizing Theosophical plane-travel with Sant Mat inner sound meditation."
+    }
+  ],
+  "edges": [
+    {
+      "a": "eckankar-sugmad",
+      "b": "eckankar-the-eck",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ECK is the active, vibratory emanation of the utterly unmanifest Sugmad, acting as its voice in the lower realms."
+    },
+    {
+      "a": "eckankar-kal-niranjan",
+      "b": "eckankar-sugmad",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: Kal Niranjan rules the worlds of time, duality, and illusion, standing in direct contrast to the eternal, unified truth of the Sugmad."
+    },
+    {
+      "a": "eckankar-mahanta",
+      "b": "eckankar-vairagi-masters",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Living ECK Master is the current physical anchor and highest representative of the ancient Order of the Vairagi."
+    },
+    {
+      "a": "eckankar-soul-travel",
+      "b": "eckankar-hu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Singing the HU is the primary vibrational catalyst used to initiate and sustain the state of Soul Travel."
+    },
+    {
+      "a": "eckankar-sugmad",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an utterly unknowable, formless ultimate source that emanates the universe rather than actively crafting it."
+    },
+    {
+      "a": "eckankar-sugmad",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions posit an infinite, unmanifest absolute that can only be approached through its descending emanations."
+    },
+    {
+      "a": "eckankar-sugmad",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Sugmad strongly parallels the Nirguna Brahman of Advaita Vedanta—an absolute, unqualifiable reality beyond all attributes."
+    },
+    {
+      "a": "eckankar-kal-niranjan",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are lower-world demiurges who believe they are the supreme god, trapping divine souls in material and mental illusion."
+    },
+    {
+      "a": "eckankar-kal-niranjan",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a structural 'negative power' that uses the illusions of mind, desire, and reincarnation to bind souls to the lower realms."
+    },
+    {
+      "a": "eckankar-kal-niranjan",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both serve as the lords of death, karma, and time, administering justice in the lower realms without being inherently 'evil'."
+    },
+    {
+      "a": "eckankar-soul-travel",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rely on the deliberate detachment of the soul from the physical body to traverse unseen dimensions, though Eckankar aims for permanent spiritual liberation rather than immediate community intervention."
+    },
+    {
+      "a": "eckankar-soul-travel",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both envision the spiritual path as the deliberate extraction of divine light/soul from the heavy, imprisoning realms of matter and dark cosmic forces."
+    },
+    {
+      "a": "eckankar-mahanta",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme embodiments of spiritual compassion who vow to remain active in the lower worlds to guide souls to liberation."
+    },
+    {
+      "a": "eckankar-the-eck",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are conceived as the impersonal, ever-flowing current that sustains the cosmos, which the practitioner must learn to align with and ride."
+    },
+    {
+      "a": "eckankar-the-eck",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the fullness of divine light and sound that bridges the unmanifest ultimate and the lower, material realms."
+    },
+    {
+      "a": "eckankar-vairagi-masters",
+      "b": "jain-tirthankara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both feature a lineage of enlightened pathmakers who have crossed the ocean of illusion and left a trail for others to follow."
+    },
+    {
+      "a": "eckankar-vairagi-masters",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are a specialized, immortal hierarchy of beneficent entities who assist the Supreme Being in maintaining cosmic order and guiding humanity."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ascended-masters",
+      "name": "Ascended Masters",
+      "subtype": "hero",
+      "gloss": "A hidden brotherhood of enlightened beings who have transcended physical reincarnation and secretly guide humanity's spiritual evolution from higher planes.",
+      "reason": "Necessary to capture the specific Theosophical/New Age trope of an immortal, occult hierarchy distinct from generic ancestors or indigenous culture heroes."
+    },
+    {
+      "id": "sacred-syllable",
+      "name": "Sacred Syllable",
+      "subtype": "rite",
+      "gloss": "A primal sound or vibration (like Om or Hu) believed to contain or directly connect to the ultimate divine essence, used in chanting to elevate consciousness.",
+      "reason": "Distinguishes purely vibrational, non-lexical sound-current practices from generic prayers or the broader 'axis-mundi' concept."
+    }
+  ]
+}

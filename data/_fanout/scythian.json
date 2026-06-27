@@ -1,0 +1,257 @@
+{
+  "tradition": {
+    "id": "scythian",
+    "name": "Scythian",
+    "region": "Pontic-Caspian steppe",
+    "color": "#9fb8d8"
+  },
+  "figures": [
+    {
+      "id": "scythian-tabiti",
+      "kind": "deity",
+      "name": "Tabiti (The Hearth-Fire, 'Hestia')",
+      "archetypes": [
+        "great-mother",
+        "cosmic-order",
+        "axis-mundi"
+      ],
+      "gloss": "The supreme deity of the Scythian pantheon, elevated above the sky-father and equated by Herodotus with 'Hestia'. She is the sovereign queen, the primordial, blazing essence of the hearth-fire, and the ultimate guarantor of oaths who binds the nomadic tribes together.",
+      "facet": "She represents a fiercely archaic stage where the hearth-fire is not a domesticated servant but the absolute sovereign matrix of the cosmos, dictating terms to kings and outranking the sky.",
+      "provenance": "Herodotus, Histories 4.59; heavily supported by comparative Indo-Iranian mythology."
+    },
+    {
+      "id": "scythian-ares",
+      "kind": "deity",
+      "name": "The Iron Sword ('Ares')",
+      "archetypes": [
+        "aniconic-weapon",
+        "axis-mundi"
+      ],
+      "gloss": "The Scythian god of war, whose indigenous name is lost. He is worshipped exclusively as an antique iron sword planted atop a monumental brushwood platform, receiving continuous, massive blood sacrifices of livestock and prisoners of war.",
+      "facet": "The god is entirely divested of human form. He is the iron blade itself, drinking blood directly in a raw, aniconic expression of the steppe's hyper-militarized reality.",
+      "provenance": "Herodotus, Histories 4.62; physical evidence of akinakes (swords) and altars across the Pontic steppe."
+    },
+    {
+      "id": "scythian-papaios",
+      "kind": "deity",
+      "name": "Papaios ('Zeus')",
+      "archetypes": [
+        "sky-father",
+        "world-parents"
+      ],
+      "gloss": "The Scythian sky-father who, in union with the earth-mother Api, engendered the human race and the cosmos. Though Herodotus explicitly equates him with 'Zeus', he remains a relatively remote, genealogical patriarch.",
+      "facet": "Unlike the supreme, lightning-hurling Zeus of the classical world, Papaios is structurally subordinate to the fiery queen Tabiti, serving as a biological progenitor rather than the active ruler of the pantheon.",
+      "provenance": "Herodotus, Histories 4.59."
+    },
+    {
+      "id": "scythian-api",
+      "kind": "deity",
+      "name": "Api ('Gaia')",
+      "archetypes": [
+        "mother-of-waters",
+        "world-parents",
+        "cosmic-serpent"
+      ],
+      "gloss": "The sovereign earth and water goddess, consort of Papaios. In the rich visual vocabulary of Scythian and Bosporan art, she is frequently depicted as a fearsome, anguipede (snake-legged) deity, bridging the human realm and the chthonic depths.",
+      "facet": "She embodies the untamed, subterranean power of the steppe soil. By taking the form of a serpent from the waist down, she merges political sovereignty with the creeping, generative forces of the earth.",
+      "provenance": "Herodotus, Histories 4.59; pervasive in Scythian metalwork and kurgans."
+    },
+    {
+      "id": "scythian-argimpasa",
+      "kind": "deity",
+      "name": "Argimpasa ('Aphrodite Urania')",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The goddess of sovereignty, fertility, and prophecy, equated with 'Aphrodite Urania'. She is deeply intertwined with the Enarei, the elite caste of androgynous Scythian shamans who practice divination using the inner bark of the linden tree.",
+      "facet": "Her divine power flows specifically through the transgression of gender binaries, granting profound prophetic and political authority to those who ritually cross the boundary between male and female.",
+      "provenance": "Herodotus, Histories 4.59, 4.67."
+    },
+    {
+      "id": "scythian-thagimasidas",
+      "kind": "deity",
+      "name": "Thagimasidas ('Poseidon')",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "A deity explicitly equated with 'Poseidon', but uniquely venerated only by the elite Royal Scythians, rather than the general nomadic populace. He likely functioned as the sovereign protector of the steppe horse herds and waters.",
+      "facet": "His worship serves as a hard, theological boundary of class and bloodline. He is not a universal god, but an exclusive aristocratic right that physically demarcates the royal lineage from the common tribes.",
+      "provenance": "Herodotus, Histories 4.59."
+    },
+    {
+      "id": "scythian-targitaos",
+      "kind": "ancestor",
+      "name": "Targitaos",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "The primordial first man and progenitor of the Scythian people. Born of the sky-father Papaios and a river nymph, he sired the three sons—Leipoxais, Arpoxais, and Kolaxais—who founded the distinct Scythian social classes.",
+      "facet": "He is not a grand creator of the universe, but the literal genetic root of the nomadic federation, permanently anchoring the mythic geography of the Pontic rivers to the physical bloodlines of the tribes.",
+      "provenance": "Herodotus, Histories 4.5."
+    },
+    {
+      "id": "scythian-golden-implements",
+      "kind": "concept",
+      "name": "The Golden Implements",
+      "archetypes": [
+        "heavenly-regalia",
+        "axis-mundi"
+      ],
+      "gloss": "Four sacred, glowing-hot objects—a plow, a yoke, a battle-axe, and a drinking cup—that plummeted from the heavens. Only the youngest brother, Kolaxais, could endure their supernatural heat and claim them.",
+      "facet": "They codify the entire Indo-European tripartite social structure—farmers, warriors, and priests—not through spoken divine law, but through a physical trial by heavenly fire that dictates the legitimate king.",
+      "provenance": "Herodotus, Histories 4.5-7."
+    }
+  ],
+  "edges": [
+    {
+      "a": "scythian-tabiti",
+      "b": "scythian-papaios",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Intra-tradition: The supreme hearth-fire radically inverts the typical Indo-European hierarchy by holding absolute authority over the sky-father."
+    },
+    {
+      "a": "scythian-papaios",
+      "b": "scythian-api",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The foundational sky-earth dyad that physically engenders the Scythian cosmos."
+    },
+    {
+      "a": "scythian-targitaos",
+      "b": "scythian-golden-implements",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The mythic ancestor and the divine regalia that physically structure the lineage and hierarchy of his descendants."
+    },
+    {
+      "a": "scythian-papaios",
+      "b": "zeus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicitly identified and syncretized with Zeus by classical historians in their interpretatio graeca of the steppe pantheon."
+    },
+    {
+      "a": "scythian-api",
+      "b": "gaia",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicitly documented syncretism mapping the classical Greek earth-mother directly onto the Scythian."
+    },
+    {
+      "a": "scythian-tabiti",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Shared archaic Indo-Iranian veneration of the sacred, purifying fire as the highest divine principle."
+    },
+    {
+      "a": "scythian-tabiti",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The primordial, animating sacred fire of the Indo-Iranian sphere that binds oaths and purifies the community."
+    },
+    {
+      "a": "scythian-tabiti",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme female divinities of heat and light who sit at the absolute apex of their pantheons, politically outranking male sky and storm gods."
+    },
+    {
+      "a": "scythian-ares",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Divinities of war and iron where the aniconic metal blade itself is the god and the direct receiver of blood sacrifice."
+    },
+    {
+      "a": "scythian-ares",
+      "b": "fon-gu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The sheer embodiment of martial violence venerated directly through iron implements without an anthropomorphic face."
+    },
+    {
+      "a": "scythian-argimpasa",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign goddesses of heaven and fertility whose cults profoundly center on ecstatic, gender-transgressing priesthoods."
+    },
+    {
+      "a": "scythian-thagimasidas",
+      "b": "varuna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign lords of the waters heavily associated with elite, aristocratic oversight rather than common tribal worship."
+    },
+    {
+      "a": "scythian-api",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Fearsome, chthonic earth mothers visually and theologically bound to generative, serpentine imagery."
+    },
+    {
+      "a": "scythian-api",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The primordial earth-mother forcefully coupled with the sky-father in the structural act of cosmic generation."
+    },
+    {
+      "a": "scythian-targitaos",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The primordial Indo-Iranian first man who establishes the structure and lineage of human society."
+    },
+    {
+      "a": "scythian-targitaos",
+      "b": "yama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ancient Indo-Iranian mythic complex of the first mortal and genealogical progenitor."
+    },
+    {
+      "a": "scythian-targitaos",
+      "b": "dangun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Mythic progenitors of a people born from the union of a heavenly father and a chthonic, water- or earth-based mother."
+    },
+    {
+      "a": "scythian-golden-implements",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Mystical, heaven-sent or master-forged metallic objects that physically guarantee the sovereignty, wealth, and survival of the people."
+    },
+    {
+      "a": "scythian-golden-implements",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "4",
+      "note": "GOLD SEAM: Miraculous earthly eruptions—whether a prophetic child from the soil or blazing gold from the sky—that definitively reveal the structural discipline of the society."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "aniconic-weapon",
+      "name": "Aniconic Weapon",
+      "subtype": "principle",
+      "gloss": "The veneration of a deity not through anthropomorphic idols, but entirely through the physical form of a weapon that embodies their lethal force.",
+      "reason": "Captures the distinct hyper-militarized phenomenon seen in Scythian, Ossetian, and West African traditions where the blade itself receives the blood sacrifice."
+    },
+    {
+      "id": "heavenly-regalia",
+      "name": "Heavenly Regalia",
+      "subtype": "concept",
+      "gloss": "Objects of terrestrial sovereignty—tools, weapons, or crowns—that physically fall from the sky and can only be safely handled by the legitimate ruler.",
+      "reason": "Needed for the widespread nomadic and Eurasian myths where political hierarchy is established by items falling from the heavens, rather than by spoken divine decree."
+    }
+  ]
+}

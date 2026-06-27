@@ -1,0 +1,213 @@
+{
+  "tradition": {
+    "id": "heathenry",
+    "name": "Heathenry / Ásatrú / Odinism",
+    "region": "Iceland / USA",
+    "color": "#6aa06a"
+  },
+  "figures": [
+    {
+      "id": "heathenry-blot",
+      "kind": "rite",
+      "name": "Blót (The Sacrifice)",
+      "archetypes": [
+        "axis-mundi",
+        "gift-cycle"
+      ],
+      "gloss": "The central ritual of modern Heathenry, involving the consecration and offering of mead, ale, or food to the gods, ancestors, or land spirits. It structurally enacts the ancient Germanic concept of 'do ut des'—a gift for a gift.",
+      "facet": "It categorically rejects Christian models of atonement or submission. The offering is a mechanism of hospitality and mutual obligation among equals or kin, building a shared 'luck' economy.",
+      "provenance": "Reconstructed from medieval sagas (e.g., Heimskringla, Hakon the Good) and codified in the 1970s by Sveinbjörn Beinteinsson and the Ásatrúarfélagið."
+    },
+    {
+      "id": "heathenry-wyrd",
+      "kind": "concept",
+      "name": "Wyrd and Örlög (The Web of Fate)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The interconnected web of causality and destiny. Wyrd represents the grand, unfolding tapestry of the cosmos, while Örlög constitutes the specific, accumulated layers of past actions—both ancestral and personal—that shape present conditions.",
+      "facet": "Unlike passive fatalism, it is highly active. A Heathen is not merely bound by the past; their conscious deeds in the present weave new layers into the well, actively reshaping future Örlög.",
+      "provenance": "Old English poetry (Beowulf, The Wanderer) and Old Norse eddas (Völuspá); popularized as a central theological tenet by Paul Bauschatz's 1982 work 'The Well and the Tree'."
+    },
+    {
+      "id": "heathenry-sumbel",
+      "kind": "rite",
+      "name": "Sumbel (The Sacred Toast)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "A formalized ritual drinking round consisting of toasts, boasts, and oaths spoken over a horn of mead. Typically divided into rounds honoring deities, ancestors, and personal achievements.",
+      "facet": "Words spoken over the horn are believed to directly alter reality, dropping into the well of Wyrd. A broken oath at sumbel is viewed not just as a social faux pas, but a metaphysical injury.",
+      "provenance": "Beowulf, Lokasenna, and various sagas; structured into three specific rounds by modern American Heathen groups in the 1970s and 1980s."
+    },
+    {
+      "id": "heathenry-nnv",
+      "kind": "principle",
+      "name": "The Nine Noble Virtues",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "A list of nine ethical maxims—Courage, Truth, Honor, Fidelity, Discipline, Hospitality, Industriousness, Self-Reliance, and Perseverance—intended to summarize a pre-Christian Germanic worldview for modern practitioners.",
+      "facet": "It highlights the modern craving for systematized morality. Highly controversial today, it is defended by some as a necessary framework, while criticized by strict reconstructionists as a Victorian or overly Protestant codification.",
+      "provenance": "Created in the 1970s by John Yeowell of the Odinic Rite and Edred Thorsson (Stephen Flowers) of the Asatru Free Assembly."
+    },
+    {
+      "id": "heathenry-landvaettir",
+      "kind": "force",
+      "name": "Landvættir (Land Wights)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The wights or spirits inherent to the natural landscape, rocks, rivers, and trees. They are the immediate, local guardians of the physical environment, demanding respect from anyone who treads or builds on their land.",
+      "facet": "A modern Heathen might have a distant relationship with the major gods but maintains strict, regular ritual diplomacy with their backyard land-wight to ensure peace and agricultural or domestic success.",
+      "provenance": "Landnámabók (the Book of Settlements) and Egil's Saga; central to Icelandic law prohibiting dragon-prows from frightening local spirits."
+    },
+    {
+      "id": "heathenry-odin",
+      "kind": "deity",
+      "name": "Odin / Woden (The Allfather)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "The Allfather, god of poetry, frenzy, runes, and esoteric wisdom. Modern Heathenry emphasizes his role as a relentless wanderer who sacrifices himself to himself on the World Tree to grasp the secrets of existence.",
+      "facet": "He is venerated less as an omnipotent, benevolent patriarch and more as a model of relentless self-overcoming and dangerous spiritual initiation. His wisdom is deeply tied to ecstasy and boundary-breaking.",
+      "provenance": "The Poetic Edda (Hávamál, Völuspá) and Prose Edda; heavily emphasized by Odinic and runic revivalists of the 20th century."
+    },
+    {
+      "id": "heathenry-thor",
+      "kind": "deity",
+      "name": "Thor / Þórr (The Warder)",
+      "archetypes": [
+        "storm-wielder",
+        "dragon-slayer"
+      ],
+      "gloss": "The red-bearded god of thunder, agriculture, and the protection of humanity. He is the warder of Midgard, actively wielding his hammer Mjölnir against chaotic forces that threaten the cosmic or social order.",
+      "facet": "He is the democratic, accessible counterweight to Odin's aristocratic elitism. Modern practitioners invoke him for everyday physical strength, defense of the marginalized, and the blessing of marriages and homes.",
+      "provenance": "The Poetic Edda (Þrymskviða) and widespread archaeological presence of Mjölnir amulets across the Germanic world, adopted today as the primary symbol of the faith."
+    }
+  ],
+  "edges": [
+    {
+      "a": "heathenry-blot",
+      "b": "heathenry-sumbel",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Blót establishes the relationship with the divine through physical sacrifice, while Sumbel solidifies the social and spiritual bonds of the community through sacred speech."
+    },
+    {
+      "a": "heathenry-sumbel",
+      "b": "heathenry-wyrd",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Words spoken into the horn during Sumbel are explicitly believed to drop into the well of Örlög, permanently weaving the speaker's oaths into the web of Wyrd."
+    },
+    {
+      "a": "heathenry-odin",
+      "b": "heathenry-thor",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: They form a complementary dyad of the aristocratic, esoteric seeker (Odin) and the pragmatic, accessible guardian of the common folk (Thor)."
+    },
+    {
+      "a": "heathenry-odin",
+      "b": "yggdrasil",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Modern Odinism bridges the practitioner to the ancient mythic axis; Odin's ritual sacrifice on Yggdrasil serves as the ultimate template for shamanic initiation."
+    },
+    {
+      "a": "heathenry-thor",
+      "b": "thor",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Modern Heathenry directly revitalizes the historic Norse Thor, shifting him from a mythic relic to a living patron of the working class and community defense."
+    },
+    {
+      "a": "heathenry-wyrd",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a fundamental, underlying cosmic matrix of cause, effect, and truthful action that even deities are subject to."
+    },
+    {
+      "a": "heathenry-wyrd",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an underlying cosmic and moral order that humans must actively maintain through correct speech, ritual, and harmonious living."
+    },
+    {
+      "a": "heathenry-odin",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are wandering, gray-bearded archetypes of esoteric knowledge who wield profound magical power through poetry and song rather than brute force."
+    },
+    {
+      "a": "heathenry-odin",
+      "b": "varuna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A classic Dumézilian parallel where both are sovereign, magically-binding sky gods whose authority rests on occult knowledge and fetters rather than martial combat."
+    },
+    {
+      "a": "heathenry-thor",
+      "b": "taranis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are Indo-European thunderers associated with a specific symbolic weapon (hammer and wheel) and invoked for the protection of the tribe."
+    },
+    {
+      "a": "heathenry-landvaettir",
+      "b": "bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions venerate localized, territorial nature spirits that directly control the fertility and safety of the land, requiring active appeasement by local inhabitants."
+    },
+    {
+      "a": "heathenry-sumbel",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both integrate the veneration of the active, mighty dead directly into living community ritual, relying on spoken lineage and toasts or offerings."
+    },
+    {
+      "a": "heathenry-blot",
+      "b": "dravidian-pongal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both feature outdoor, pragmatic rituals centered on offering a sacred food or drink directly to deities and natural forces to secure agricultural and communal luck."
+    },
+    {
+      "a": "heathenry-blot",
+      "b": "purulli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both revolve around cyclical community feasts where humans and gods share the yield of the earth, reinforcing cosmic order through reciprocal hospitality."
+    },
+    {
+      "a": "heathenry-nnv",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent attempts to codify and systematize an indigenous polytheistic worldview into a concrete framework for correct behavior and ritual procedure."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "gift-cycle",
+      "name": "The Sacred Economy (Do Ut Des)",
+      "subtype": "principle",
+      "gloss": "The reciprocal exchange of gifts, offerings, and hospitality between humans, spirits, and deities, creating an inescapable web of mutual obligation.",
+      "reason": "Essential for traditions where sacrifice is fundamentally transactional and relational, operating as an economy of shared 'luck' rather than a mechanism of atonement."
+    },
+    {
+      "id": "genius-loci",
+      "name": "Genius Loci (Spirits of Place)",
+      "subtype": "force",
+      "gloss": "The deeply localized wights, nymphs, or spirits inherently tied to a specific geographic feature like a rock, grove, or river.",
+      "reason": "Distinct from 'master-of-animals' or broader elemental deities, capturing the hyper-local micro-spirits that demand immediate territorial diplomacy."
+    }
+  ]
+}

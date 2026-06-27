@@ -1,0 +1,236 @@
+{
+  "tradition": {
+    "id": "swedenborgian",
+    "name": "Swedenborgianism (New Church)",
+    "region": "Sweden / England",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "swedenborgian-divine-human",
+      "kind": "deity",
+      "name": "The Lord (Divine Human)",
+      "archetypes": [
+        "one-through-many",
+        "solar"
+      ],
+      "gloss": "The singular God, Jesus Christ, in His glorified Divine Human form. Rejecting the orthodox Trinity of separate persons, Swedenborgianism posits God as a unified essence—Infinite Love and Infinite Wisdom—whose direct emanation sustains the universe like a spiritual sun.",
+      "facet": "Christ is not a sacrificial lamb satisfying divine wrath, but the visible form of the invisible God, making the Infinite comprehensible and approachable to human consciousness without splitting the divine unity.",
+      "provenance": "Emanuel Swedenborg's 'True Christian Religion' (1771); 'Divine Love and Wisdom' (1763)."
+    },
+    {
+      "id": "swedenborgian-correspondences",
+      "kind": "principle",
+      "name": "Doctrine of Correspondences",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The fundamental law that the physical realm is a literal projection of the spiritual realm. Every natural object, historical event, and word in scripture perfectly correlates to a specific spiritual truth or state of divine affection.",
+      "facet": "It transforms the entire material universe and the literal text of the Bible into a divine cryptogram, asserting that nature is not independently real but merely a shadow cast by the spiritual mind.",
+      "provenance": "'Heaven and Hell' (1758); 'Arcana Coelestia' (1749-1756)."
+    },
+    {
+      "id": "swedenborgian-maximus-homo",
+      "kind": "concept",
+      "name": "The Grand Man (Maximus Homo)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The collective form of Heaven. Swedenborg saw that the entire angelic heaven appears before the Lord as a single, gigantic human being. Every angelic society functions as a specific organ or tissue within this living celestial body.",
+      "facet": "Heaven is intensely anthropomorphic and organic; spiritual placement is determined by a soul's spiritual utility, effectively reducing the vastness of the afterlife into a single, perfectly integrated human anatomy.",
+      "provenance": "'Arcana Coelestia' (1749-1756); 'Heaven and Hell' (1758)."
+    },
+    {
+      "id": "swedenborgian-world-of-spirits",
+      "kind": "place",
+      "name": "The World of Spirits",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The intermediate realm where all souls awaken immediately after bodily death. Here, the external facades of worldly life are systematically stripped away until a person's inner character is fully revealed and aligned with their intellect.",
+      "facet": "It replaces purgatorial punishment with psychological unmasking. Souls are not judged by a tribunal but organically sort themselves based on their true desires before voluntarily descending to Hell or ascending to Heaven.",
+      "provenance": "'Heaven and Hell' (1758)."
+    },
+    {
+      "id": "swedenborgian-heaven-hell",
+      "kind": "concept",
+      "name": "Heaven and Hell (as States)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The eternal destinations, which are not physical locations of reward or arbitrary torture, but the outward spatial projections of a soul's internal state. Heaven manifests love to the Lord and others; Hell manifests the love of self and the world.",
+      "facet": "God casts absolutely no one into hell. Damned spirits willingly throw themselves in, finding the divine atmosphere of Heaven agonizing, preferring the illusions, darkness, and madness of their own supreme egotism.",
+      "provenance": "'Heaven and Hell' (1758)."
+    },
+    {
+      "id": "swedenborgian-ruling-love",
+      "kind": "concept",
+      "name": "Ruling Love",
+      "archetypes": [],
+      "gloss": "The core, dominant affection that defines a human's fundamental identity. A person is not defined by their fleeting thoughts or outward pious actions, but by their deepest, innermost desire.",
+      "facet": "Salvation is strictly a matter of character transformation, not intellectual belief or vicarious atonement; in the afterlife, you inevitably become the exact psychological and spiritual geometry of what you love most.",
+      "provenance": "'Divine Love and Wisdom' (1763)."
+    },
+    {
+      "id": "swedenborgian-conjugial-love",
+      "kind": "concept",
+      "name": "Conjugial Love",
+      "archetypes": [
+        "complementarity",
+        "divine-twins"
+      ],
+      "gloss": "The eternal, spiritual marriage between a husband and wife, representing the perfect union of Wisdom (truth) and Love (goodness). True soulmates continue their union in Heaven, eventually appearing from a distance as a single radiant angel.",
+      "facet": "Unlike mainstream Christian theology where marriage dissolves at death, Swedenborg posits that gender and deeply intimate sexual union are eternal, cosmic principles necessary for full angelic existence and divine reflection.",
+      "provenance": "'Conjugial Love' (1768)."
+    },
+    {
+      "id": "swedenborgian-swedenborg",
+      "kind": "hero",
+      "name": "Emanuel Swedenborg",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "The 18th-century polymath and visionary who claimed his spiritual senses were opened by the Lord. For nearly thirty years, he consciously explored the afterlife, speaking with angels, demons, and spirits to document the true nature of reality.",
+      "facet": "He occupies a paradoxical role: a fiercely rational Enlightenment scientist who mapped the spiritual planes and angelic societies with the cool, empirical detachment of an anatomical textbook.",
+      "provenance": "'The Spiritual Diary' (1747-1765); numerous autobiographical notes."
+    }
+  ],
+  "edges": [
+    {
+      "a": "swedenborgian-divine-human",
+      "b": "swedenborgian-maximus-homo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Grand Man of Heaven is the direct reflection and macroscopic embodiment of the Divine Human's infinite form."
+    },
+    {
+      "a": "swedenborgian-heaven-hell",
+      "b": "swedenborgian-ruling-love",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Heaven and Hell are nothing more than the spatialized, environmental projections of an individual's ruling love."
+    },
+    {
+      "a": "swedenborgian-divine-human",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Swedenborg explicitly identifies his Divine Human with the historical Jesus Christ, reinterpreted not as a separate person of the Trinity but as the sole, integrated God."
+    },
+    {
+      "a": "swedenborgian-divine-human",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Swedenborg directly equates Jehovah of the Old Testament with the inner soul of Jesus, asserting absolute identity rather than relational separation."
+    },
+    {
+      "a": "swedenborgian-divine-human",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both conceptualize the supreme divine principle transitioning into a comprehensible human form (Nirmanakaya / Divine Human) without dividing its unified cosmic essence."
+    },
+    {
+      "a": "swedenborgian-correspondences",
+      "b": "as-above-so-below",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The identical Hermetic and Swedenborgian principle that every material phenomenon is a direct reflection of an invisible, higher spiritual reality."
+    },
+    {
+      "a": "swedenborgian-correspondences",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A binary reality model where the visible, material world is viewed as a dependent shadow of underlying, invisible spiritual forces."
+    },
+    {
+      "a": "swedenborgian-maximus-homo",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmic man concept—the Vedic Purusha and the Swedenborgian Grand Man both envision the totality of existence as a single immense divine body."
+    },
+    {
+      "a": "swedenborgian-maximus-homo",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the divine fullness or totality of the spiritual realm, structured as an intricately organized system of emanations or angelic societies."
+    },
+    {
+      "a": "swedenborgian-maximus-homo",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Dogon cosmology and Swedenborgianism both envision the fundamental structure of the universe as taking the form of an idealized, colossal human body."
+    },
+    {
+      "a": "swedenborgian-heaven-hell",
+      "b": "manichaean-dualism",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Unlike Manichaean dualism where darkness is a co-eternal, rival substance, Swedenborg's Hell is entirely self-generated by the conscious withdrawal from Divine Love."
+    },
+    {
+      "a": "swedenborgian-heaven-hell",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both systems feature heavily structured, multi-tiered cosmologies where a soul's placement is perfectly, mechanically dictated by its internal spiritual weight."
+    },
+    {
+      "a": "swedenborgian-ruling-love",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While Buddhism dissolves the core self into non-self, Swedenborgianism crystallizes it, asserting that a singular, eternal 'ruling love' permanently defines personal identity."
+    },
+    {
+      "a": "swedenborgian-ruling-love",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions locate the true essence of the individual not in outward bodily form but in an irreducible, eternal inner substance that shapes its own spiritual destiny."
+    },
+    {
+      "a": "swedenborgian-conjugial-love",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The spiritual necessity of cosmic complementarity, where Love (feminine) and Wisdom (masculine) must inevitably unite to form a complete reality."
+    },
+    {
+      "a": "swedenborgian-swedenborg",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve a visionary practitioner deliberately and consciously traversing the unseen realms to acquire knowledge essential for the living."
+    },
+    {
+      "a": "swedenborgian-swedenborg",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Visionary founders who synthesized complex, systematic cosmologies claiming to be the final, pure revelation correcting previous theological distortions."
+    },
+    {
+      "a": "swedenborgian-swedenborg",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Visionary scribes who map out the hidden architecture of the universe, combining deep esotericism with a highly structured, nearly scientific cosmological framework."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "macrocosm-microcosm",
+      "name": "Macrocosm-Microcosm",
+      "subtype": "principle",
+      "gloss": "The structural reflection between the universe as a whole and the individual human being, where the cosmic architecture directly mirrors human anatomy or consciousness.",
+      "reason": "Necessary to connect traditions that view the universe not merely as created by a deity, but structurally organized as a colossal cosmic human body (Swedenborg's Grand Man, Vedic Purusha, Dogon Amma, Jain Loka)."
+    }
+  ]
+}

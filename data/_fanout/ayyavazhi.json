@@ -1,0 +1,265 @@
+{
+  "tradition": {
+    "id": "ayyavazhi",
+    "name": "Ayyavazhi",
+    "region": "Tamil Nadu",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "ayyavazhi-ekam",
+      "kind": "concept",
+      "name": "Ekam (The Supreme Oneness)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "The unmanifest, formless Supreme Reality. It is the indivisible consciousness that transcends the Hindu Trimurti, acting as the ultimate cosmic source from which all universes, deities, and souls emanate.",
+      "facet": "It radically democratizes the Absolute. The supreme is not mediated by Brahmin priests or locked in inaccessible temple sanctums, but is directly accessible to the marginalized outcast without ritual intercession.",
+      "provenance": "Akilathirattu Ammanai (Akilam), specifically the opening sections detailing cosmic genesis."
+    },
+    {
+      "id": "ayyavazhi-ayya-vaikundar",
+      "kind": "deity",
+      "name": "Ayya Vaikundar",
+      "archetypes": [
+        "dying-rising",
+        "culture-hero"
+      ],
+      "gloss": "The incarnate avatar of Ekam, born from the sea at Thiruchendur to destroy the evils of the Kali Yuga. He unites the powers of Vishnu and Shiva to enact divine justice on earth.",
+      "facet": "He explicitly diagnoses systemic caste oppression and British colonialism as literal demonic manifestations. He is a subaltern liberator who weaponizes divine authority against sociological hierarchy rather than abstract spiritual sin.",
+      "provenance": "Akilam; Arul Nool; documented 19th-century socio-religious history in Kanyakumari."
+    },
+    {
+      "id": "ayyavazhi-kroni",
+      "kind": "cosmic-adversary",
+      "name": "Kroni",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The primordial manifestation of cosmic ignorance and evil, fragmented into six pieces across successive yugas (including Ravana and Duryodhana), culminating in the Kaliyan of the current age.",
+      "facet": "Evil is not merely a spiritual failing but a geopolitical and sociological cancer. Kroni's final form manifests politically as the oppressive king of Travancore and the 'White Neechan' British colonizers.",
+      "provenance": "Akilathirattu Ammanai, outlining the six fragments of primordial evil."
+    },
+    {
+      "id": "ayyavazhi-santror",
+      "kind": "concept",
+      "name": "Santror (The Noble Ones)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The esoteric lineage born of the seven virgins. They represent the chosen marginalized people (historically the Nadar and other oppressed castes) prophesied to rule the coming utopian age.",
+      "facet": "Transforms untouchable status into a cosmic pedigree of divine innocence. The historically oppressed are not merely saved; they are the literal cosmic royalty and sole inheritors of the earth.",
+      "provenance": "Akilam, specifically the mythological genealogies of the subaltern."
+    },
+    {
+      "id": "ayyavazhi-dharma-yukam",
+      "kind": "place",
+      "name": "Dharma Yukam",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The eschatological golden age of absolute equality and perfect justice, ruled directly by Ayya Vaikundar. It follows the fiery destruction of the Kali Yuga and its oppressive hierarchies.",
+      "facet": "Unlike classical cyclical Hindu yugas that inevitably decay, Dharma Yukam is a permanent, earthly socio-political revolution. It breaks the wheel of time permanently to freeze the universe in egalitarian perfection.",
+      "provenance": "Akilam, closing prophetic chapters."
+    },
+    {
+      "id": "ayyavazhi-muthiri-kinaru",
+      "kind": "place",
+      "name": "Muthiri Kinaru",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred well at Swamithope Pathi where Ayya Vaikundar initiated universal communal bathing, defying brutal caste laws that prohibited the lower castes from accessing public water sources.",
+      "facet": "It turns water—the traditional Hindu vector for ritual pollution and untouchability—into a radical weapon of social equalization. To bathe together is to physically dismantle the caste system.",
+      "provenance": "Historical practice at Swamithope Pathi; foundational Ayyavazhi rites."
+    },
+    {
+      "id": "ayyavazhi-nizhal-thangal",
+      "kind": "place",
+      "name": "Nizhal Thangal",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The community worship centers of Ayyavazhi, characterized by their absolute rejection of idols, murtis, and complex ritual architecture, utilizing instead a simple oil lamp and a mirror.",
+      "facet": "Institutionalizes the destruction of priestly mediation. By looking into the mirror to worship, the socially degraded devotee is taught to equate their own inner self with the Supreme Ekam.",
+      "provenance": "Arul Nool; ubiquitous architectural presence in South Indian Ayyavazhi communities."
+    },
+    {
+      "id": "ayyavazhi-thuvayal-thavasu",
+      "kind": "rite",
+      "name": "Thuvayal Thavasu (The Washing Penance)",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "A rigorous, massive communal ascetic washing penance undertaken by early devotees on the seashore at Vakaippathi, involving daily immersion, sparse diet, and collective prayer.",
+      "facet": "Asceticism is ripped from the solitary, elite forest-dweller and turned into a collective, subaltern mass movement, utilizing shared physical endurance to forge an unbreakable egalitarian community.",
+      "provenance": "Akilathirattu Ammanai; historical accounts of the 1836 mass penance."
+    }
+  ],
+  "edges": [
+    {
+      "a": "ayyavazhi-ekam",
+      "b": "ayyavazhi-ayya-vaikundar",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The unmanifest Absolute and its final, perfectly manifest incarnate avatar sent to break the age of ignorance."
+    },
+    {
+      "a": "ayyavazhi-ayya-vaikundar",
+      "b": "ayyavazhi-kroni",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The subaltern liberator and the primordial architect of structural oppression, locked in a final eschatological war."
+    },
+    {
+      "a": "ayyavazhi-dharma-yukam",
+      "b": "ayyavazhi-santror",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The prophesied egalitarian utopia and the socially marginalized heirs explicitly chosen to inherit it."
+    },
+    {
+      "a": "ayyavazhi-muthiri-kinaru",
+      "b": "ayyavazhi-nizhal-thangal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The dual physical spaces of Ayyavazhi anti-caste praxis—one equalizing bodies through shared water, the other equalizing souls through the mirror."
+    },
+    {
+      "a": "ayyavazhi-thuvayal-thavasu",
+      "b": "ayyavazhi-santror",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The grueling communal penance required to physically and karmically forge the marginalized into the rulers of the new age."
+    },
+    {
+      "a": "ayyavazhi-ekam",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Akilam equates Ekam with the ultimate unmanifest Brahman, though reimagined as accessible without Brahminical mediation."
+    },
+    {
+      "a": "ayyavazhi-ekam",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the absolute, indivisible oneness from which all lesser emanations (and conventional deities) are derived and ultimately subsumed."
+    },
+    {
+      "a": "ayyavazhi-ayya-vaikundar",
+      "b": "dravidian-murugan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Vaikundar emerges from the sea at Thiruchendur, Murugan's sacred site, where Akilam explicitly states Murugan surrenders his authority to the new avatar."
+    },
+    {
+      "a": "ayyavazhi-ayya-vaikundar",
+      "b": "shiva",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Akilam claims Vaikundar subordinates and absorbs the powers of the traditional Shaivite pantheon to establish a new universal order."
+    },
+    {
+      "a": "ayyavazhi-ayya-vaikundar",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are prophesied eschatological figures arriving at the darkest age to completely dismantle evil and renovate the earth."
+    },
+    {
+      "a": "ayyavazhi-ayya-vaikundar",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as incarnate liberators whose divine missions are explicitly tied to the elevation of the marginalized and the upending of earthly hierarchies."
+    },
+    {
+      "a": "ayyavazhi-kroni",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Primordial antagonists whose fragmentation or emanations infect the material world with structural deceit and suffering across successive epochs."
+    },
+    {
+      "a": "ayyavazhi-kroni",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a tyrannical, false architectural force of the material world that enslaves humanity through oppressive laws and hierarchies."
+    },
+    {
+      "a": "ayyavazhi-kroni",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Cosmic figures of illusion whose primary function is to block liberation and maintain cyclical bondage."
+    },
+    {
+      "a": "ayyavazhi-santror",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions posit a hidden, divinely noble essence trapped within a socially or materially degraded form, awaiting eschatological liberation."
+    },
+    {
+      "a": "ayyavazhi-dharma-yukam",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A permanent, physical renovation of the earthly realm that completely breaks the cycle of decay, instating eternal equality and justice."
+    },
+    {
+      "a": "ayyavazhi-dharma-yukam",
+      "b": "great-peace",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An earthly utopian system defined by the total cessation of cruelty, warfare, and structural hierarchy."
+    },
+    {
+      "a": "ayyavazhi-nizhal-thangal",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize the mirror as the ultimate aniconic representation of the divine, reflecting the sacred truth back onto the observer rather than relying on carved idols."
+    },
+    {
+      "a": "ayyavazhi-thuvayal-thavasu",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize extreme communal physical endurance to forge egalitarian bonds and generate collective spiritual purification."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "structural-evil",
+      "name": "Structural Evil",
+      "subtype": "principle",
+      "gloss": "Evil manifested not merely as personal spiritual sin, but explicitly as socio-political hierarchy, colonialism, and systemic oppression.",
+      "reason": "Needed for subaltern traditions where the cosmic adversary is historically identified with specific oppressive regimes or colonizing empires."
+    },
+    {
+      "id": "subaltern-utopia",
+      "name": "Subaltern Utopia",
+      "subtype": "place",
+      "gloss": "An eschatological realm specifically defined by the inversion of earthly hierarchies, where the socially marginalized permanently inherit a perfectly egalitarian world.",
+      "reason": "Distinguishes political, earthly eschatologies of the oppressed from ethereal or purely spiritual concepts of heaven."
+    },
+    {
+      "id": "aniconic-mirror",
+      "name": "Aniconic Mirror",
+      "subtype": "concept",
+      "gloss": "The use of a reflective surface instead of an idol, forcing the worshiper to recognize the divine within themselves or as a formless truth.",
+      "reason": "Connects Ayyavazhi, Shinto, and Daoist traditions where mirrors replace anthropomorphic murtis to collapse the distance between the worshiper and the sacred."
+    },
+    {
+      "id": "collective-penance",
+      "name": "Collective Penance",
+      "subtype": "rite",
+      "gloss": "A rigorous ascetic practice undertaken not by solitary elites, but by an entire marginalized community to collectively purify and forge a new social identity.",
+      "reason": "Separates mass subaltern ascetic movements from classical individualistic asceticism like the Hindu sannyasi."
+    }
+  ]
+}

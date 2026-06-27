@@ -1,0 +1,241 @@
+{
+  "tradition": {
+    "id": "minoan",
+    "name": "Minoan",
+    "region": "Crete",
+    "color": "#9fb8d8"
+  },
+  "figures": [
+    {
+      "id": "minoan-snake-goddess",
+      "kind": "deity",
+      "name": "The Snake Goddess (Potnia Asas)",
+      "archetypes": [
+        "great-mother",
+        "underworld-sovereign"
+      ],
+      "gloss": "Famous faience figurines from Knossos depicting a bare-breasted woman wielding writhing serpents in her upraised hands. Her flounced skirt and intense, unblinking stare project an absolute, unmediated authority over the chthonic forces of the earth.",
+      "facet": "Unlike later Greek goddesses who are relegated to Olympus or subsumed under male deities, she commands the earth's raw, venomous power directly. The serpents are not slain adversaries; they are her living, captive currents.",
+      "provenance": "Faience figurines discovered in the Temple Repositories of Knossos by Arthur Evans (1903)."
+    },
+    {
+      "id": "minoan-mountain-mother",
+      "kind": "deity",
+      "name": "The Mountain Mother (Potnia Theron)",
+      "archetypes": [
+        "master-of-animals",
+        "great-mother"
+      ],
+      "gloss": "An imposing female deity depicted standing atop a rocky peak flanked by heraldic lionesses, receiving the adoration of male worshippers and beasts alike. She embodies the untamed, vertical sovereignty of the Cretan landscape.",
+      "facet": "She requires no male consort to validate her rule. Her sanctuary is the open peak, asserting a female divine supremacy that totally eclipses the localized, secondary role of mountains in later patriarchal pantheons.",
+      "provenance": "The Master Impression sealing from Chania; various peak sanctuary terracotta offerings."
+    },
+    {
+      "id": "minoan-young-god",
+      "kind": "deity",
+      "name": "The Young God (Kouros / Velchanos)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "A subordinate, youthful male figure—often depicted descending from the sky or standing before the Mother Goddess. He embodies the vegetative cycle, born in the winter caves and dying with the harvest, representing an annual, dependent consort.",
+      "facet": "He is fundamentally impermanent. Where Indo-European sky-fathers achieve eternal, static supremacy, the Minoan male divine is a transient, ecstatic force, endlessly dying and returning in service to the eternal Goddess.",
+      "provenance": "Minoan gold rings (e.g., the Ring of Minos, Isopata ring); later recorded in Greek myth as the localized, mortal 'Cretan Zeus'."
+    },
+    {
+      "id": "minoan-bull-leaping",
+      "kind": "rite",
+      "name": "Bull-Leaping (Taurokathapsia)",
+      "archetypes": [
+        "ritual-athletics"
+      ],
+      "gloss": "A perilous, highly choreographed ritual where acrobats of both sexes grasp the horns of a charging bull to vault over its back. It served as the central kinetic sacrament of Minoan palatial religion.",
+      "facet": "The bull is not slaughtered in combat like a dragon, but physically engaged in a dance of lethal grace. Mastery is achieved through acrobatic harmony with the beast's momentum, not its destruction.",
+      "provenance": "The Toreador Fresco at Knossos; bronze acrobat figurines; numerous Minoan sealstones."
+    },
+    {
+      "id": "minoan-labrys",
+      "kind": "concept",
+      "name": "The Labrys (Double Axe)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "A symmetrical, dual-bladed axe frequently planted in stalagmites of sacred caves or mounted on altars. Initially a sacrificial tool, it evolved into an abstract, aniconic symbol of divine presence and cyclical cosmic balance.",
+      "facet": "It is wielded exclusively by women or goddesses in Minoan art. The weapon of slaughter is transformed into an emblem of female liturgical authority, completely distinct from the male-wielded thunderbolts of the mainland.",
+      "provenance": "Monumental bronze labryses from the Arkalochori cave; ubiquitous palace iconography."
+    },
+    {
+      "id": "minoan-horns-of-consecration",
+      "kind": "concept",
+      "name": "Horns of Consecration",
+      "archetypes": [
+        "axis-mundi",
+        "aniconic-focal-point"
+      ],
+      "gloss": "Stylized, upward-curving masonry imitating the horns of a sacrificed bull, placed along palace parapets and shrines. They frame the epiphany of the deity, acting as the architectural threshold between the mundane and the sacred.",
+      "facet": "They reduce the massive, muscular power of the bull to a stark, abstract geometry. Instead of worshipping the animal itself, the Minoans used its abstracted form as the permanent, framing lens for divine manifestation.",
+      "provenance": "Architectural elements at Knossos and Archanes; term coined by Arthur Evans."
+    },
+    {
+      "id": "minoan-epiphany-dance",
+      "kind": "rite",
+      "name": "The Epiphany Dance",
+      "archetypes": [
+        "ecstatic-epiphany"
+      ],
+      "gloss": "Ecstatic dances performed by women in open-air sanctuaries, often involving the violent shaking of sacred trees or baetyls (stones) to induce a trance state. This kinetically draws the deity down from the sky.",
+      "facet": "Divinity is not sought in distant heavens or dark underworlds, but actively summoned into the immediate, physical present through female-led kinesthetic exhaustion and landscape interaction.",
+      "provenance": "The Isopata Ring; the gold ring from Archanes showing tree-shaking and mourning."
+    }
+  ],
+  "edges": [
+    {
+      "a": "minoan-mountain-mother",
+      "b": "minoan-young-god",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The eternal, sovereign earth and her transient, dying-and-returning vegetative consort form the core dyadic cycle of Minoan myth."
+    },
+    {
+      "a": "minoan-bull-leaping",
+      "b": "minoan-horns-of-consecration",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The violent, kinetic ritual of the leaping acrobat is distilled into permanent, abstract architectural calm."
+    },
+    {
+      "a": "minoan-snake-goddess",
+      "b": "minoan-labrys",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The chthonic feminine power wielding the twin-bladed instrument of sacrifice and cosmic order."
+    },
+    {
+      "a": "minoan-young-god",
+      "b": "zeus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The dying Minoan vegetation god was absorbed into the Greeks' immortal sky-father as 'Cretan Zeus', creating the localized, scandalous myth of a Zeus who dies and has a tomb."
+    },
+    {
+      "a": "minoan-young-god",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Youthful male consorts intimately bound to the agricultural cycle, destined to die and descend to the underworld while the great goddess remains supreme."
+    },
+    {
+      "a": "minoan-young-god",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ecstatic, youthful deities associated with vegetation, shifting states of being, and the sudden, rapturous epiphany."
+    },
+    {
+      "a": "minoan-mountain-mother",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign female deities flanked by predatory felines, commanding absolute terrestrial and celestial authority without reliance on a male king."
+    },
+    {
+      "a": "minoan-mountain-mother",
+      "b": "dravidian-kotravai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Imposing, fierce maternal deities of the wilderness and rocky peaks, venerated as supreme solitary figures of power."
+    },
+    {
+      "a": "minoan-mountain-mother",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The living, vertical earth personified as an absolute, demanding female sovereign who requires no sky-father to validate her rule."
+    },
+    {
+      "a": "minoan-snake-goddess",
+      "b": "athena",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The chthonic serpent aspect of the Minoan palace goddess survives faintly in Athena's association with the sacred snake of the Acropolis and her aegis."
+    },
+    {
+      "a": "minoan-snake-goddess",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Chthonic earth-mothers whose fearsome, unmediated power is expressed through the literal handling and wearing of venomous serpents."
+    },
+    {
+      "a": "minoan-bull-leaping",
+      "b": "ballgame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Lethal, highly choreographed athletic rituals performed in central courtyards that act as cosmic sacraments rather than mere public sports."
+    },
+    {
+      "a": "minoan-bull-leaping",
+      "b": "dravidian-pongal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Extreme kinetic rituals of grappling with a raging bull to secure agricultural and communal vitality without slaughtering the beast."
+    },
+    {
+      "a": "minoan-labrys",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The double-headed axe wielded as a primary, stylized emblem of divine authority, storm power, and ritual presence."
+    },
+    {
+      "a": "minoan-labrys",
+      "b": "thor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The transformation of a functional, heavy tool into the paramount emblem of divine ordering power, though in Crete it is wielded exclusively by women."
+    },
+    {
+      "a": "minoan-horns-of-consecration",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Universally recognized, rigidly non-anthropomorphic focal points that anchor the shared identity and ritual geography of a civilization."
+    },
+    {
+      "a": "minoan-epiphany-dance",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ecstatic, kinetic community rituals designed to pull the divine into the physical present through somatic exhaustion."
+    },
+    {
+      "a": "minoan-epiphany-dance",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Massive, cyclic choreographies that do not merely depict myth, but are believed to structurally renew the world's life force through precise movement."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ritual-athletics",
+      "name": "Ritual Athletics",
+      "subtype": "rite",
+      "gloss": "A dangerous physical feat—such as acrobatics or ballgames—where athletic mastery serves as a direct communion with or offering to the divine, transcending mere sport.",
+      "reason": "Crucial for traditions like the Minoan and Mesoamerican, where extreme physical risk and kinetic prowess form the central religious sacrament rather than static prayer or animal slaughter."
+    },
+    {
+      "id": "aniconic-focal-point",
+      "name": "Aniconic Focal Point",
+      "subtype": "concept",
+      "gloss": "A stylized object or geometric form that anchors divine presence and organizes ritual space without requiring an anthropomorphic idol.",
+      "reason": "Needed for symbols like the Minoan Horns of Consecration, the Kaaba's Black Stone, or the Harappan Unicorn standard, which act as the ultimate locus of the sacred absent a human face."
+    },
+    {
+      "id": "ecstatic-epiphany",
+      "name": "Ecstatic Epiphany",
+      "subtype": "rite",
+      "gloss": "The active summoning of a deity into immediate physical presence through kinesthetic exhaustion, dance, or the manipulation of sacred landscape elements.",
+      "reason": "Distinguishes the active pulling-down of the divine (as in Minoan tree-shaking or San trance) from the shamanic 'soul-flight' where the human travels to the spirit world."
+    }
+  ]
+}

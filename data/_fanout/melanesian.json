@@ -1,0 +1,251 @@
+{
+  "tradition": {
+    "id": "melanesian",
+    "name": "Melanesian (Mana / Tabu)",
+    "region": "Solomons, Vanuatu, New Caledonia",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "melanesian-mana",
+      "kind": "force",
+      "name": "Mana",
+      "archetypes": [
+        "impersonal-power"
+      ],
+      "gloss": "The foundational concept of Melanesian spirituality, famously introduced to Western anthropology by R.H. Codrington. It is a strictly impersonal, transmissible force of efficacy, success, and spiritual power that resides in objects, spirits, and people. It is not worshipped; it is accumulated, wielded, and feared.",
+      "facet": "Unlike Western concepts of divine grace or moral sanctity, mana is radically pragmatic and morally neutral. A man possesses mana if his gardens yield, his arrows strike true, or his pigs multiply. Failure is simply the empirical loss of mana.",
+      "provenance": "R.H. Codrington, 'The Melanesians: Studies in their Anthropology and Folk-Lore' (1891)."
+    },
+    {
+      "id": "melanesian-tabu",
+      "kind": "principle",
+      "name": "Tabu (Tambu / Tapu)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The principle of sacred restriction and avoidance. It acts as the necessary quarantine protocol for mana, marking things, places, or people that are either too charged with spiritual power to be approached safely, or explicitly restricted by a chief to concentrate his power.",
+      "facet": "Tabu is less a moral prohibition and more a law of spiritual physics. Breaking it is not 'sinning' against a deity, but short-circuiting a live electrical wire—the danger is intrinsic, mechanical, and often fatal.",
+      "provenance": "Ubiquitous across Austronesian languages; heavily documented in Codrington (1891)."
+    },
+    {
+      "id": "melanesian-tindalo",
+      "kind": "ancestor",
+      "name": "Tindalo",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The ghosts of deceased men of power, primarily venerated in the Solomon Islands. While the souls of ordinary people fade into oblivion, the 'tarunga' (soul) of a great warrior retains his earthly mana, becoming a tindalo invoked for success in war, health, and fishing.",
+      "facet": "Immortality is not an inherent human right; it is earned by greatness. Only those who accumulated massive mana in life survive as powerful tindalo in death; the weak simply evaporate into nothingness.",
+      "provenance": "Codrington (1891), drawing from extensive accounts from the Florida Islands (Nggela)."
+    },
+    {
+      "id": "melanesian-vui",
+      "kind": "deity",
+      "name": "Vui",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "Pure spirits of the Banks Islands and northern Vanuatu that have never been human. They possess far greater intrinsic mana than tindalo, ranging from supreme, unapproachable creator-figures to localized, shape-shifting entities residing in stones, streams, and volcanic vents.",
+      "facet": "They are defined by their absolute ontological separation from humanity. Unlike the ancestral tindalo who understand human desires, vui are alien, natural forces that must be bound or coerced through precise magical formulas rather than familial affection.",
+      "provenance": "Banks Islands oral traditions recorded by Codrington."
+    },
+    {
+      "id": "melanesian-qat",
+      "kind": "hero",
+      "name": "Qat",
+      "archetypes": [
+        "culture-hero",
+        "trickster"
+      ],
+      "gloss": "The preeminent culture hero of the Banks Islands. Born from a stone, he carved the first humans from wood, purchased the night from the underworld so mankind could sleep, and constantly outwitted his eleven envious brothers.",
+      "facet": "He is a creator who relies on wit and trickery rather than omnipotence. His creations are often flawed, and his greatest victories come not from divine fiat but from out-negotiating or out-stealing from older, darker spirits.",
+      "provenance": "Banks Islands mythos; Codrington (1891)."
+    },
+    {
+      "id": "melanesian-marawa",
+      "kind": "creature",
+      "name": "Marawa",
+      "archetypes": [
+        "cosmic-adversary",
+        "origin-of-death"
+      ],
+      "gloss": "A powerful, shape-shifting spider-vui and the eternal foil to Qat. When Qat carved humans to give them life, Marawa carved his own but buried them, thereby inventing death. He initially thwarts Qat's labors but occasionally becomes an indispensable ally.",
+      "facet": "He oscillates seamlessly between the roles of fatal antagonist and crucial sidekick. He is the explicit reason humanity is mortal, yet the great culture hero cannot complete his defining labors without Marawa's chaotic intervention.",
+      "provenance": "Banks Islands mythos; Codrington (1891)."
+    },
+    {
+      "id": "melanesian-suqe",
+      "kind": "rite",
+      "name": "Suqe (Sukwe)",
+      "archetypes": [
+        "spiritual-economy"
+      ],
+      "gloss": "The men's graded secret societies of Vanuatu. Members rise through a complex hierarchy by accumulating and publicly sacrificing extreme wealth—specifically tusker pigs with artificially deformed, circular tusks—to acquire immense mana.",
+      "facet": "The afterlife is entirely socially stratified based on earthly economics. A man who fails to sacrifice pigs and rise in the Suqe remains a spiritual peasant after death, while high-grade men become god-like ancestors.",
+      "provenance": "Vanuatu anthropological records; extensively detailed in John Layard's 'Stone Men of Malekula' (1942)."
+    },
+    {
+      "id": "melanesian-tamate",
+      "kind": "rite",
+      "name": "Tamate Societies",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "Secret ghost societies intimately connected to the Suqe, characterized by elaborate, conical masks and the terrifying, roaring sound of the bullroarer. Initiates incarnate the ancestral dead, policing the village and enforcing tabus through intimidation.",
+      "facet": "The ancestors do not merely watch from a distant spirit world; they are physically manufactured and enacted by the living. The masks do not represent ghosts—they become the literal, immediate machinery of ancestral authority on earth.",
+      "provenance": "Banks Islands and Vanuatu secret societies; Codrington (1891)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "melanesian-mana",
+      "b": "melanesian-tabu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Tabu serves as the mechanical quarantine and regulation system for the raw, volatile power of Mana."
+    },
+    {
+      "a": "melanesian-tindalo",
+      "b": "melanesian-vui",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational distinction in Melanesian spirit ontology—ghosts who were once human (tindalo) versus spirits who were never human (vui)."
+    },
+    {
+      "a": "melanesian-qat",
+      "b": "melanesian-marawa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The culture hero and his spider-spirit shadow, locked in a cycle of creation and subversion where death enters as the shadow's work."
+    },
+    {
+      "a": "melanesian-suqe",
+      "b": "melanesian-tamate",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The twin pillars of male power in Vanuatu; the Suqe hoards the mana, and the Tamate enforces its ghostly authority."
+    },
+    {
+      "a": "melanesian-mana",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are strictly impersonal, transmissible forces of spiritual power and efficacy that exist independent of personified deities."
+    },
+    {
+      "a": "melanesian-mana",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fluid, moving sacred energy that charges all things in the cosmos, operating more like electricity than moral grace."
+    },
+    {
+      "a": "melanesian-mana",
+      "b": "kut",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A quantifiable life-force or divine favor that grants earthly success and can be empirically lost."
+    },
+    {
+      "a": "melanesian-mana",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A localized, highly volatile sacred power that must be rigidly managed and contained lest it become dangerous to the community."
+    },
+    {
+      "a": "melanesian-tabu",
+      "b": "cosmic-order",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The overarching law of right placement and avoidance, though Melanesian tabu is explicitly mechanical rather than moral."
+    },
+    {
+      "a": "melanesian-tindalo",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Deeply venerated ancestral spirits whose accrued power directly dictates the earthly fortune and protection of the living."
+    },
+    {
+      "a": "melanesian-tindalo",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Active ghosts of the deceased whose presence must be constantly maintained through sacrifice to ensure communal success."
+    },
+    {
+      "a": "melanesian-vui",
+      "b": "bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Nature spirits intimately bound to specific localized geography (stones, streams) that are entirely distinct from human ancestors."
+    },
+    {
+      "a": "melanesian-qat",
+      "b": "maui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The quintessential Oceanic trickster-hero who battles his brothers and wrests vital elements (like night/day) from ancient powers for humanity's benefit."
+    },
+    {
+      "a": "melanesian-qat",
+      "b": "pnw-raven",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The creator who operates through theft, trickery, and subversion rather than omnipotent fiat."
+    },
+    {
+      "a": "melanesian-qat",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The benefactor of mankind who secures vital civilizational elements through transgression against the older order."
+    },
+    {
+      "a": "melanesian-marawa",
+      "b": "anansi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The shape-shifting spider trickster spirit who simultaneously builds and complicates the world."
+    },
+    {
+      "a": "melanesian-marawa",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The shadow-companion to the creator who prematurely acts on his own, thereby introducing chaos, mortality, and death into the grand design."
+    },
+    {
+      "a": "melanesian-suqe",
+      "b": "pnw-crest-lineage",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Extreme social stratification achieved entirely through the formalized, competitive display and ritual destruction of vast material wealth."
+    },
+    {
+      "a": "melanesian-tamate",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Highly exclusive, masked male secret societies whose elaborate rituals physically enact the terrifying presence of the ancestors to maintain order."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "impersonal-power",
+      "name": "Impersonal Power",
+      "subtype": "force",
+      "gloss": "A quantifiable, morally neutral, transmissible spiritual energy that constitutes the foundational physics and efficacy of the cosmos.",
+      "reason": "Required for traditions like Melanesian, Haudenosaunee, and Mesoamerican where divine power is not a personified deity but a fluid, mechanistic force (Mana, Orenda, Teotl) that charges all things."
+    },
+    {
+      "id": "spiritual-economy",
+      "name": "Spiritual Economy",
+      "subtype": "principle",
+      "gloss": "The formalized accumulation, public display, and ritual destruction of earthly wealth to secure metaphysical rank and post-mortem deification.",
+      "reason": "Necessary for cultures where salvation and ancestral status are explicitly purchased through material sacrifice and prestige hoarding, distinct from moral purity or simple reciprocal offerings."
+    }
+  ]
+}

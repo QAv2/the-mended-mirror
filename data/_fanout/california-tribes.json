@@ -1,0 +1,221 @@
+{
+  "tradition": {
+    "id": "california-tribes",
+    "name": "California (Chumash & neighbors)",
+    "region": "California",
+    "color": "#5a8fc7"
+  },
+  "figures": [
+    {
+      "id": "california-tribes-hutash",
+      "kind": "deity",
+      "name": "Hutash",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The Chumash Earth Mother who grew the first people from seeds planted on the island of Limuw. She embodies the land itself, providing the vital acorn harvests, and is honored centrally in the autumn harvest festivals.",
+      "facet": "She creates humanity through a literal agricultural act—growing them from seeds—rather than shaping them from mud or breathing life into dust, rendering humans a direct crop of the earth.",
+      "provenance": "Chumash oral histories collected by John P. Harrington."
+    },
+    {
+      "id": "california-tribes-wishtoyo",
+      "kind": "concept",
+      "name": "Wishtoyo (The Rainbow Bridge)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A towering bridge made of a rainbow, cast by Hutash to allow the overpopulated Chumash to cross from their island birthplace to the mainland. Those who looked down and fell were transformed into dolphins.",
+      "facet": "It functions simultaneously as a physical migration route and an origin myth for dolphins, positioning the marine mammals as literal kin to humanity who were saved from drowning.",
+      "provenance": "Traditional Chumash narratives; widely attested in modern Chumash cultural revival."
+    },
+    {
+      "id": "california-tribes-snilemun",
+      "kind": "deity",
+      "name": "Snilemun (Sky-Coyote)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The celestial trickster and humanity's advocate. Every winter solstice, he plays a cosmic game of peon (a traditional bone-guessing game) against the Sun to determine the weather and human prosperity for the coming year.",
+      "facet": "He defends humanity not through martial combat or divine fiat, but through high-stakes gambling, relying entirely on wit, deception, and psychological gamesmanship to beat a hostile cosmos.",
+      "provenance": "Thomas Blackburn's 'December's Child', analyzing Harrington's Chumash archives."
+    },
+    {
+      "id": "california-tribes-kakunupmawa",
+      "kind": "deity",
+      "name": "Kakunupmawa (Sun)",
+      "archetypes": [
+        "solar",
+        "cosmic-adversary"
+      ],
+      "gloss": "A deadly, unpredictable cosmic power visualized as an old widower carrying a torch. He feeds on human lives and actively seeks to win the winter solstice peon game to send plagues and drought.",
+      "facet": "Far from a benevolent light-bringer, the Sun is an existential threat and predatory gambler who must be outwitted annually through ritual to prevent him from consuming humanity.",
+      "provenance": "Chumash celestial mythos detailed in 'December's Child'."
+    },
+    {
+      "id": "california-tribes-momoy",
+      "kind": "deity",
+      "name": "Momoy (Datura)",
+      "archetypes": [
+        "great-mother",
+        "psychopomp"
+      ],
+      "gloss": "The anthropomorphized Grandmother Datura. In myth, she washes her hands to create the potent toloache decoction used by initiates to induce soul-flight, acquire spirit helpers, and glimpse the future.",
+      "facet": "The entheogen is not merely a botanical tool but an active, sovereign grandmother entity; drinking the brew is to willingly enter her perilous, visionary womb to be reborn.",
+      "provenance": "Chumash and Gabrielino religious practices; Kroeber and Harrington anthropological records."
+    },
+    {
+      "id": "california-tribes-antap",
+      "kind": "rite",
+      "name": "The 'Antap",
+      "archetypes": [
+        "ecstatic-shaman",
+        "cosmic-order"
+      ],
+      "gloss": "An elite, esoteric society of astronomer-priests who maintained the delicate balance between the human and celestial realms through complex dances, secret languages, and the highly controlled administration of datura.",
+      "facet": "They institutionalize shamanic ecstasy, converting the solitary, chaotic spirit-journey into a state-level bureaucracy where precise astronomical observation and ritual gambling directly dictate political governance.",
+      "provenance": "Extensive documentation in the Harrington archives and contemporary Chumash historiography."
+    },
+    {
+      "id": "california-tribes-elyewun",
+      "kind": "deity",
+      "name": "Elye'wun (Swordfish)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The anthropomorphic 'Lords of the Sea' who reside in a crystalline underwater village. They are venerated as fierce oceanic warriors who hunt whales and intentionally drive them ashore to feed the coastal Chumash.",
+      "facet": "They represent a marine permutation of the game-master—not herding terrestrial prey, but commanding the oceanic food web, turning apex predators into divine, life-sustaining providers for humans.",
+      "provenance": "Chumash marine mythology, coastal rock art, and effigy bowls."
+    }
+  ],
+  "edges": [
+    {
+      "a": "california-tribes-snilemun",
+      "b": "california-tribes-kakunupmawa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Sky-Coyote and the Sun are eternal cosmic opponents, locked in an annual gambling match that decides the fate of the world."
+    },
+    {
+      "a": "california-tribes-hutash",
+      "b": "california-tribes-wishtoyo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Hutash constructs the Rainbow Bridge as the physical mechanism to save her people from island overpopulation."
+    },
+    {
+      "a": "california-tribes-antap",
+      "b": "california-tribes-momoy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The 'antap priests are the exclusive societal administrators of Momoy, mediating her lethal visionary power for the broader community."
+    },
+    {
+      "a": "california-tribes-hutash",
+      "b": "papatuanuku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are foundational Earth Mothers from whose literal body or domain humanity emerges as a living crop."
+    },
+    {
+      "a": "california-tribes-hutash",
+      "b": "changing-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are deeply tied to the cyclic renewal of the earth, agricultural sustenance, and the origin of their respective peoples."
+    },
+    {
+      "a": "california-tribes-snilemun",
+      "b": "maii-coyote",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are manifestations of the Coyote trickster, though Snilemun functions specifically as a celestial advocate rather than a purely disruptive force."
+    },
+    {
+      "a": "california-tribes-kakunupmawa",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are solar entities conceptualized as fierce powers that require human lives to sustain their fiery cosmic trajectory."
+    },
+    {
+      "a": "california-tribes-kakunupmawa",
+      "b": "amaterasu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A stark inversion of the solar archetype; Amaterasu is the radiant ancestor of order, whereas the Chumash Sun is a malevolent, consuming gambler."
+    },
+    {
+      "a": "california-tribes-wishtoyo",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize the rainbow as a supreme physical and mythic architecture, moving beyond weather phenomenon into world-shaping infrastructure."
+    },
+    {
+      "a": "california-tribes-elyewun",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both possess absolute dominion over marine mammals, functioning as deep-ocean masters who decide whether coastal communities eat or starve."
+    },
+    {
+      "a": "california-tribes-antap",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an elite, esoteric priesthood dedicated to observing precise celestial mechanics to divine and manage the volatile will of the cosmos."
+    },
+    {
+      "a": "california-tribes-momoy",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are highly structured mechanisms for achieving ecstatic trance to access the spirit world and secure communal healing."
+    },
+    {
+      "a": "california-tribes-snilemun",
+      "b": "loki",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While both are wily tricksters, Snilemun uses his cunning to gamble for humanity's survival against cosmic forces, whereas Loki drives cosmic destruction."
+    },
+    {
+      "a": "california-tribes-antap",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both institutionalize the shamanic journey to negotiate with spiritual powers, but the 'antap operate as a bureaucratic priesthood rather than solitary actors."
+    },
+    {
+      "a": "california-tribes-momoy",
+      "b": "spider-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as mythic grandmother figures who bestow crucial esoteric knowledge, magical aids, and rites of passage to mortals."
+    },
+    {
+      "a": "california-tribes-snilemun",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both elevate gambling from a human pastime to a cosmic mechanism, where the fate of the world or the individual is decided by the dice or bones."
+    },
+    {
+      "a": "california-tribes-elyewun",
+      "b": "pnw-thunderbird",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are apex mythic predators (one marine, one aerial) deeply associated with the hunting and control of whales for coastal peoples."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "cosmic-gambler",
+      "name": "Cosmic Gambler",
+      "subtype": "principle",
+      "gloss": "The resolution of cosmic destiny, seasons, or human survival not through divine decree or martial combat, but through a high-stakes game of chance or skill played between cosmic entities.",
+      "reason": "Required to classify mythic systems where the universe's fate is decided by gambling (e.g., Chumash peon, Mesoamerican patolli, Navajo shoe game)."
+    }
+  ]
+}

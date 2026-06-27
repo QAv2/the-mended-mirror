@@ -1,0 +1,236 @@
+{
+  "tradition": {
+    "id": "brahmoism",
+    "name": "Brahmoism / Arya Samaj",
+    "region": "Bengal & Northern India",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "brahmoism-nirguna-brahman",
+      "kind": "deity",
+      "name": "Nirguna Brahman (The Formless Creator)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The infinite, formless, and uncreated Supreme Being, purged of all Puranic mythology and avatars. The Brahmo and Arya Samajs worship this singular God as an omnipresent moral creator, explicitly rejecting incarnations and physical depictions.",
+      "facet": "Weaponizes ancient Upanishadic monism as a modern, rational theology capable of standing against British Christian critiques, claiming an indigenous antiquity superior to Western imports.",
+      "provenance": "Ram Mohan Roy's 'Tuhfat-ul-Muwahhidin' (1803) and translations of the Upanishads; Dayananda's 'Satyarth Prakash'."
+    },
+    {
+      "id": "brahmoism-veda-mula",
+      "kind": "principle",
+      "name": "Veda Mula (The Infallible Word)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The eternal, infallible knowledge of the Vedas, championed fiercely by the Arya Samaj. It is considered the ultimate, uncorrupted scientific and spiritual blueprint of the universe, directly revealed by God at the dawn of creation.",
+      "facet": "Rejects the entirety of later Hindu scripture—Puranas, Tantras, and epics—as degenerate interpolations, creating a closed canon of absolute truth akin to Abrahamic revelation.",
+      "provenance": "Dayananda Saraswati's 'Satyarth Prakash' (1875) and 'Rigvedadibhashyabhumika'."
+    },
+    {
+      "id": "brahmoism-murtipuja",
+      "kind": "rite",
+      "name": "Murti-Puja (Idol Worship)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The practice of image worship, identified by these reform movements as the root cause of India's spiritual and social decay. Condemned as an irrational, superstitious deviation from pure Vedic monotheism.",
+      "facet": "Shifts the concept of 'sin' from ritual impurity to the act of idolizing the finite. The destruction or rejection of idols is framed as an act of both spiritual and national liberation.",
+      "provenance": "Ram Mohan Roy's 'A Tract on the Religious System of the Hindus'; Arya Samaj idol-breaking campaigns."
+    },
+    {
+      "id": "brahmoism-havan",
+      "kind": "rite",
+      "name": "Havan / Yajna (Vedic Fire Sacrifice)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The ancient Vedic fire ceremony, aggressively democratized by the Arya Samaj. Once restricted to Brahmin priests, it is reconstituted as a daily duty for all individuals regardless of caste or gender, burning away impurities.",
+      "facet": "Strips the ritual of its complex, elite mediatory priesthood, turning the sacrificial fire into a universal, accessible engine of social equality and personal piety.",
+      "provenance": "Dayananda Saraswati's 'Samskaravidhi' (1877)."
+    },
+    {
+      "id": "brahmoism-shuddhi",
+      "kind": "rite",
+      "name": "Shuddhi (Purification)",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The purification ritual innovated by the Arya Samaj to reconvert individuals who had left Hinduism for Islam or Christianity, as well as to socially elevate marginalized castes into full Vedic participation.",
+      "facet": "Fundamentally alters Hinduism from a non-proselytizing, birth-bound identity into a missionary, creedal faith that actively seeks to reclaim and expand its demographic boundaries.",
+      "provenance": "Late 19th-century Arya Samaj institutional records and Shuddhi Sabha campaigns."
+    },
+    {
+      "id": "brahmoism-traitavada",
+      "kind": "principle",
+      "name": "Traitavada (Three Eternal Entities)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "Dayananda Saraswati's theological doctrine asserting three eternally distinct entities: God (Ishvara), the Soul (Jiva), and Matter (Prakriti). It vehemently opposes the Advaita Vedanta idea that the material world is an illusion (Maya).",
+      "facet": "By insisting matter and the individual soul are real and eternal alongside God, it demands active, ethical engagement in the physical and social world rather than ascetic withdrawal.",
+      "provenance": "'Satyarth Prakash' (Chapter 8)."
+    },
+    {
+      "id": "brahmoism-samaj-sthapak",
+      "kind": "hero",
+      "name": "Samaj Sthapak (The Reformer-Founder)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The enlightened founder-figure—whether Ram Mohan Roy or Dayananda Saraswati—who pierces the darkness of medieval superstition, armed with rationalism and vernacular translations of ancient texts to debate orthodox scholars.",
+      "facet": "The guru is no longer a mystical ascetic possessing esoteric magic, but a public intellectual, publisher, and institutional builder wielding the printing press and logical debate.",
+      "provenance": "Foundation documents of the Brahmo Samaj (1828) and Arya Samaj (1875); historical biographies."
+    },
+    {
+      "id": "brahmoism-dharma-samaj",
+      "kind": "place",
+      "name": "Dharma Samaj (The Congregation)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The formal, institutionalized assembly of believers gathering for congregational worship, sermons, and hymn singing. It explicitly replaces chaotic, localized temple worship with organized, structured community devotion.",
+      "facet": "Structurally mimics Protestant church services to modernize Hindu practice, enforcing a disciplined, rational, and collective religious identity previously absent in the tradition.",
+      "provenance": "The Trust Deed of the Brahmo Samaj (1830)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "brahmoism-nirguna-brahman",
+      "b": "brahmoism-murtipuja",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The infinite, uncontainable formless God and the finite, corrupting idol that attempts to contain it."
+    },
+    {
+      "a": "brahmoism-samaj-sthapak",
+      "b": "brahmoism-veda-mula",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The rational culture hero and the infallible ancient text he recovers and translates for the masses."
+    },
+    {
+      "a": "brahmoism-dharma-samaj",
+      "b": "brahmoism-havan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The congregational space and the democratized fire ritual that acts as its focal point for the Arya Samaj."
+    },
+    {
+      "a": "brahmoism-nirguna-brahman",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The explicit re-appropriation of the classical Advaita absolute, but recast as an active, personal, yet formless moral creator."
+    },
+    {
+      "a": "brahmoism-nirguna-brahman",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the absolute, indivisible oneness that transcends physical form and rejects lesser emanations or idols as false."
+    },
+    {
+      "a": "brahmoism-nirguna-brahman",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The concept of the Infinite Creator without end, strictly devoid of physical attributes or incarnations."
+    },
+    {
+      "a": "brahmoism-veda-mula",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The eternal, foundational blueprint of order that the cosmos operates upon and that society must mirror to avoid decay."
+    },
+    {
+      "a": "brahmoism-veda-mula",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An uncreated truth and cosmic order that stands as the ultimate referent for righteous action and knowledge."
+    },
+    {
+      "a": "brahmoism-murtipuja",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A systemic force of decay and falsehood that historically corrupted the pure original state of humanity."
+    },
+    {
+      "a": "brahmoism-havan",
+      "b": "atar",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: The Vedic Yajna fire and the Avestan Yasna (Atar) fire share a direct, proven Indo-Iranian origin as the purifying ritual center."
+    },
+    {
+      "a": "brahmoism-havan",
+      "b": "agni",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The literal continuation of the Vedic Agni ritual, radically repurposed to bypass Brahmin priests."
+    },
+    {
+      "a": "brahmoism-traitavada",
+      "b": "purusha-prakriti",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Dayananda explicitly anchors his theology in the Vedic concepts of Purusha (God/Soul) and Prakriti (Matter), insisting on their eternal separation."
+    },
+    {
+      "a": "brahmoism-traitavada",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A strict philosophical division maintaining that matter/nature is a separate, co-eternal principle rather than an illusion generated by God."
+    },
+    {
+      "a": "brahmoism-samaj-sthapak",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Ram Mohan Roy explicitly extracted the moral teachings of Jesus in 'The Precepts of Jesus', decoupling them from miracles to construct a universal rationalist ethic."
+    },
+    {
+      "a": "brahmoism-samaj-sthapak",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The founder of a synthetic, universalized faith who draws on multiple older traditions (Vedic, Islamic, Christian) to forge a rational doctrine of light and truth."
+    },
+    {
+      "a": "brahmoism-samaj-sthapak",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intellectual liberator who brings the forbidden fire (the Vedas, translated from Sanskrit into vernaculars) directly to humanity, defying the divine mediators."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "rationalist-reformation",
+      "name": "Rationalist Reformation",
+      "subtype": "principle",
+      "gloss": "The deliberate stripping away of myth, miracle, and mediatory priesthood to construct a logical, modern faith system from an ancient tradition.",
+      "reason": "Needed to map traditions that have undergone explicit Enlightenment-era or modernizing purges of their own mystical pasts."
+    },
+    {
+      "id": "aniconic-congregation",
+      "name": "Aniconic Congregation",
+      "subtype": "rite",
+      "gloss": "The structural shift from individualized, localized idol-worship to collective, disciplined community prayer in an unadorned hall.",
+      "reason": "Captures the architectural and liturgical convergence of reformed traditions adopting Protestant or Islamic congregational models."
+    },
+    {
+      "id": "textual-fundamentalism",
+      "name": "Textual Fundamentalism",
+      "subtype": "principle",
+      "gloss": "Elevating a single, ancient scripture to absolute scientific and spiritual infallibility as a defense against foreign critique and internal corruption.",
+      "reason": "Bridges the gap between modern Hindu reform, Protestant literalism, and Islamic revivalism."
+    }
+  ]
+}

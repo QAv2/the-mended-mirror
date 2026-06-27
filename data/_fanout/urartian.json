@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "urartian",
+    "name": "Urartian (Van / Ararat)",
+    "region": "Armenian highlands",
+    "color": "#d8a24a"
+  },
+  "figures": [
+    {
+      "id": "urartian-haldi",
+      "kind": "deity",
+      "name": "Haldi (Supreme God of War)",
+      "archetypes": [
+        "sky-father",
+        "national-patron"
+      ],
+      "gloss": "The supreme deity of Urartu, a fierce god of war and kingship depicted riding a lion. Originating as a local deity from the city of Musasir, he was elevated by the royal dynasty to unify their mountainous empire, leading their armies and receiving the vast majority of state sacrifices.",
+      "facet": "Unlike indigenous primordial creator gods, Haldi is explicitly an imported, political patron. His divinity is intrinsically bound to military expansion; his temples are armories, and his spears receive sacrifices as minor deities in their own right.",
+      "provenance": "Meher Kapisi ('Gate of Meher') inscription, bronze shields from Karmir Blur, Assyrian annals of Sargon II."
+    },
+    {
+      "id": "urartian-teisheba",
+      "kind": "deity",
+      "name": "Teisheba (God of Storms)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The Urartian storm god, commander of thunder, lightning, and rain. Depicted standing atop a bull and wielding a thunderbolt, he holds the second position in the state triad, governing the violent weather of the Armenian highlands and protecting the vital agricultural centers of the empire.",
+      "facet": "He is a direct, localized continuity of the Hurrian Teshub, but stripped of his absolute supremacy. In Urartu, the ancient storm-king is subordinated to the upstart war-god Haldi, reflecting a shift from elemental kingship to martial, state-driven devotion.",
+      "provenance": "Meher Kapisi rock inscription, bronze statuettes from Adilcevaz and Van."
+    },
+    {
+      "id": "urartian-shivini",
+      "kind": "deity",
+      "name": "Shivini (The Solar Disk)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The radiant sun god completing the supreme triad, envisioned both in human form and as a winged solar disk. He oversees truth, light, and the daily illumination of the empire, syncretized heavily with Assyrian solar motifs but deeply rooted in the Hurrian Shimige.",
+      "facet": "In Urartian iconography, Shivini often appears not as an anthropomorphic sovereign but as a rigid, almost mechanical winged emblem hovering over kings, acting as the stabilizing, impersonal seal of cosmic and political order.",
+      "provenance": "Royal seals, bronze belts, Meher Kapisi inscription, Urartian bronze cauldrons."
+    },
+    {
+      "id": "urartian-arubani",
+      "kind": "deity",
+      "name": "Arubani (Supreme Goddess)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The principal goddess of the Urartian pantheon and the chief consort of Haldi. She presides over fertility, arts, and the earth's yield, receiving the highest number of animal sacrifices among all female deities in the highly codified state cult.",
+      "facet": "Her cult is strictly tethered to Haldi's political supremacy. Rather than an independent earth-mother with a chaotic mythos, she functions as the idealized, pacifying counterpart to Haldi's militarism, securing the domestic prosperity that funds his wars.",
+      "provenance": "Meher Kapisi inscription, Musasir temple reliefs described by the Assyrians."
+    },
+    {
+      "id": "urartian-huba",
+      "kind": "deity",
+      "name": "Huba (Consort of Teisheba)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The divine consort of the storm-god Teisheba, a direct descendant of the Hurrian goddess Hebat. She is a maternal deity whose cult centers on the life-giving rains and the fertile mountain valleys that define the harsh topography of the Urartian heartland.",
+      "facet": "While she retains her ancient maternal roots, her status is rigidly codified in the state lists as structurally subordinate not just to her husband, but to Arubani, reflecting the strict theological hierarchy imposed by imperial scribes.",
+      "provenance": "Meher Kapisi inscription."
+    },
+    {
+      "id": "urartian-mheri-dur",
+      "kind": "place",
+      "name": "Mheri-Dur (The Gate of Gods)",
+      "archetypes": [
+        "axis-mundi",
+        "sacred-portal"
+      ],
+      "gloss": "Massive, rock-cut 'blind doors' carved into sheer cliff faces across the empire, most famously at Van. These monumental niches were not physical entrances but literal portals for the gods—specifically Haldi—to cross from the divine realm into the physical world during state rituals.",
+      "facet": "The Urartian cosmos is impermeable except through human-engineered stone interfaces. Divinity does not dwell freely in the sky or the deep, but is locked inside the living rock of the mountains, requiring ritually opened stone gates to manifest.",
+      "provenance": "The Meher Kapisi ('Gate of Meher') rock inscription at Van, Yeşilaliç steles."
+    },
+    {
+      "id": "urartian-susi",
+      "kind": "place",
+      "name": "Susi (The Tower Temple)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A distinct architectural form: a square, thick-walled, single-room tower temple dedicated exclusively to Haldi. Often situated at the highest point of a fortress, its corners precisely align with the cardinal directions, housing the god's sacred weapons and immense bronze shields.",
+      "facet": "It operates more as a divine fortress and armory than a space of congregational worship. The temple is the literal garrison of the war-god, physically integrating the divine presence into the military defensive line of the state.",
+      "provenance": "Excavations at Altintepe, Erebuni, and Çavuştepe; Sargon II's account of Musasir."
+    },
+    {
+      "id": "urartian-sacred-tree",
+      "kind": "concept",
+      "name": "The Sacred Tree",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A highly stylized, geometric motif of a branching tree, constantly tended by winged genii holding buckets and cones. It represents the fertility of the land and the divine blessing upon the agricultural infrastructure that sustained the heavily fortified empire.",
+      "facet": "It is not a wild, organic plant, but a rigidly structured, artificial grid. It reflects an empire defined by massive irrigation canals and terraced agriculture, where nature is a heavily engineered, state-managed resource rather than a primordial forest.",
+      "provenance": "Ubiquitous on Urartian bronze belts, helmets, and royal seals."
+    }
+  ],
+  "edges": [
+    {
+      "a": "urartian-haldi",
+      "b": "urartian-arubani",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme dyad of the Urartian state cult, pairing military expansion with domestic fertility."
+    },
+    {
+      "a": "urartian-teisheba",
+      "b": "urartian-huba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The storm-god and his consort, mirroring the older Hurrian pairing of Teshub and Hebat."
+    },
+    {
+      "a": "urartian-haldi",
+      "b": "urartian-mheri-dur",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The patron war-god and the literal stone gateway through which he is summoned into the empire."
+    },
+    {
+      "a": "urartian-haldi",
+      "b": "urartian-susi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The martial deity and the garrison-temple designed specifically to house his divine weapons."
+    },
+    {
+      "a": "urartian-haldi",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Regional patron deities elevated to supreme, jealous national gods whose cults centralize state identity and military survival."
+    },
+    {
+      "a": "urartian-haldi",
+      "b": "huitzilopochtli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme state patron gods of war whose worship demands immense, formalized tribute to sustain imperial expansion."
+    },
+    {
+      "a": "urartian-haldi",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A localized city-god elevated to the absolute head of an imperial pantheon through political conquest."
+    },
+    {
+      "a": "urartian-teisheba",
+      "b": "tarhunna",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Teisheba shares direct iconographic and theological roots with the Hittite Tarhunna, both stemming from the broader Anatolian storm-god tradition."
+    },
+    {
+      "a": "urartian-teisheba",
+      "b": "baal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Mighty Near Eastern storm gods wielding the thunderbolt, frequently depicted dominating the heavens from atop a bull."
+    },
+    {
+      "a": "urartian-teisheba",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Dynamic, martial lords of thunder and lightning whose violent power commands deep regional reverence."
+    },
+    {
+      "a": "urartian-shivini",
+      "b": "surya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The radiant solar deity representing cosmic order, truth, and the all-seeing eye of the heavens."
+    },
+    {
+      "a": "urartian-shivini",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme solar figures often represented by the winged sun disk, embodying the unblinking, mechanical stability of the cosmos."
+    },
+    {
+      "a": "urartian-arubani",
+      "b": "frigg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme consort who secures domestic, agricultural, and dynastic stability while the sky-father wages eternal war."
+    },
+    {
+      "a": "urartian-huba",
+      "b": "arinna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both trace their lineage to the Hurrian Hebat, evolving into maternal anchors within heavily militarized Anatolian pantheons."
+    },
+    {
+      "a": "urartian-mheri-dur",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The sacred mountain as the literal, physical dwelling place and structural center of the divine realm."
+    },
+    {
+      "a": "urartian-susi",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A stark, cuboid stone sanctuary serving as the absolute, aniconic focal point of divine presence on earth."
+    },
+    {
+      "a": "urartian-sacred-tree",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The geometric, branching axis of the world around which cosmic stability and fertility are structured."
+    },
+    {
+      "a": "urartian-sacred-tree",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The central world-tree serving as the conduit for divine blessing, structurally uniting the heavens and the earth."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "national-patron",
+      "name": "National Patron",
+      "subtype": "principle",
+      "gloss": "A deity originally local to a specific city or tribe who is elevated to the supreme head of a pantheon strictly due to political conquest and state formation.",
+      "reason": "Essential to capture the phenomenon of the politically elevated state-god seen in Haldi, Yahweh, Marduk, and Huitzilopochtli."
+    },
+    {
+      "id": "sacred-portal",
+      "name": "Sacred Portal",
+      "subtype": "place",
+      "gloss": "A physical, geographical, or architectural gateway—often a blind door, cave, or crevice—believed to be the literal threshold through which divinities cross into the mortal plane.",
+      "reason": "Captures the widespread belief in localized, physical gateways to the divine, required for traditions where gods do not naturally dwell in the open sky."
+    }
+  ]
+}

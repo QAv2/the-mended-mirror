@@ -1,0 +1,284 @@
+{
+  "tradition": {
+    "id": "luba-kuba",
+    "name": "Luba & Kuba (Central Bantu)",
+    "region": "DR Congo",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "luba-kuba-mbombo",
+      "kind": "deity",
+      "name": "Mbombo (Bumba)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The Kuba supreme creator, envisioned as a massive white giant. Moving through the dark, primordial waters, he was struck by an agonizing stomach ache and vomited up the sun, drying the land, followed by the moon, stars, animals, and humanity.",
+      "facet": "Creation is neither spoken, crafted, nor hatched—it is expelled through divine indigestion. The universe begins as an involuntary biological purge from a god who was literally sickened by the void.",
+      "provenance": "Jan Vansina, 'The Children of Woot' (1978); Emil Torday, 'On the Trail of the Bushongo' (1925)."
+    },
+    {
+      "id": "luba-kuba-leza",
+      "kind": "deity",
+      "name": "Leza (Shakapanga)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The Luba supreme deity, addressed as 'Shakapanga' (The Maker). He is the ultimate origin of all existence and the architect of the cosmos, but having established the world, he has permanently withdrawn from the terrestrial sphere.",
+      "facet": "He is absolutely abstracted from human morality and ritual petition. Unlike Abrahamic deities, he does not judge human sin; he simply established the cosmic machinery, delegated earthly governance, and became intentionally inaccessible.",
+      "provenance": "Thomas Q. Reefe, 'The Rainbow and the Kings' (1981); Placide Tempels, 'Bantu Philosophy' (1945)."
+    },
+    {
+      "id": "luba-kuba-woot",
+      "kind": "ancestor",
+      "name": "Woot",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "The Kuba first human and primordial culture hero. He gave names to the animals, instituted the codes of society, and established initiation rites before retreating westward into permanent exile.",
+      "facet": "His civilizing mission is inextricably bound to transgression. He fathers the first royal lineage through incest with his own sister, and the resulting shame forces his eternal departure, embedding a primal sin at the foundation of culture.",
+      "provenance": "Jan Vansina, 'The Children of Woot: A History of the Kuba Peoples' (1978)."
+    },
+    {
+      "id": "luba-kuba-nkongolo",
+      "kind": "hero",
+      "name": "Nkongolo Mwamba (The Red King)",
+      "archetypes": [
+        "cosmic-adversary",
+        "cosmic-serpent"
+      ],
+      "gloss": "The aboriginal, tyrannical ruler of the Luba mythic past. Characterized by his grotesque cruelty, incestuous excesses, and perpetual drunkenness, he embodies raw, unrefined terrestrial power and is symbolically linked to the color red and the rainbow.",
+      "facet": "Rather than a celestial bridge of hope, his rainbow is conceptualized as a sinister, burning serpent of the earth. He represents a necessary but chaotic indigenous force that must be violently overthrown to establish civilization.",
+      "provenance": "Luc de Heusch, 'The Drunken King, or The Origin of the State' (1982)."
+    },
+    {
+      "id": "luba-kuba-kalala",
+      "kind": "hero",
+      "name": "Kalala Ilunga (The Black King)",
+      "archetypes": [
+        "culture-hero",
+        "smith"
+      ],
+      "gloss": "The civilizing Luba hero who defeated Nkongolo Mwamba. Associated with the color black, the cooling night, and celestial order, he introduced sacred kingship, advanced hunting techniques, and the transformative art of ironworking.",
+      "facet": "He conquers not through brute physical dominance, but via stealth, magic, and intellectual superiority. He embodies a 'cool' celestial sovereignty that replaces 'hot' terrestrial violence, making subtlety the highest royal virtue.",
+      "provenance": "Thomas Q. Reefe, 'The Rainbow and the Kings' (1981); Luc de Heusch, 'The Drunken King, or The Origin of the State' (1982)."
+    },
+    {
+      "id": "luba-kuba-bavidye",
+      "kind": "force",
+      "name": "Bavidye (Tutelary Spirits)",
+      "archetypes": [
+        "axis-mundi",
+        "mother-of-waters"
+      ],
+      "gloss": "Powerful, invisible spiritual entities that inhabit prominent natural features like lakes, caves, and waterfalls. They act as the true owners of the Luba landscape, validating royal authority and strictly enforcing ecological taboos.",
+      "facet": "They possess no universal jurisdiction. A Vidye's power is absolutely anchored to its specific geographical coordinates, meaning spiritual authority in the Luba cosmos is fiercely localized and fragmented rather than omnipresent.",
+      "provenance": "Mary Nooter Roberts & Allen F. Roberts, 'Memory: Luba Art and the Making of History' (1996)."
+    },
+    {
+      "id": "luba-kuba-lukasa",
+      "kind": "rite",
+      "name": "Lukasa (The Memory Board)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "A handheld wooden board encrusted with beads, shells, and metal, used by the Mbudye secret society. It serves as a tactile mnemonic device to recount Luba genesis, track royal genealogies, and map the territories of the Bavidye.",
+      "facet": "Myth and history are rendered as topography rather than text. The board is physically stroked, turning narrative into a spatial landscape where only initiated masters can navigate the converging paths of the divine and the political.",
+      "provenance": "Mary Nooter Roberts & Allen F. Roberts, 'Memory: Luba Art and the Making of History' (1996)."
+    },
+    {
+      "id": "luba-kuba-bulopwe",
+      "kind": "principle",
+      "name": "Bulopwe (Sacred Bloodline)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The transmittable essence of Luba sacred kingship, introduced by Kalala Ilunga. It is the vital spiritual force that legally and mystically entitles a ruler to govern, granting them supernatural efficacy over both society and nature.",
+      "facet": "It is conceived almost as a biological substance that resides physically within the blood. Kingship is therefore not merely a political office or an abstract mandate, but a literal physiological inheritance that pulses in the veins.",
+      "provenance": "Thomas Q. Reefe, 'The Rainbow and the Kings' (1981); Thomas Spear, 'Traditions of Origin and Their Interpretation' (1981)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "luba-kuba-nkongolo",
+      "b": "luba-kuba-kalala",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The hot, red, chaotic terrestrial king versus the cool, black, civilizing celestial king."
+    },
+    {
+      "a": "luba-kuba-mbombo",
+      "b": "luba-kuba-leza",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Two regional manifestations of the Central Bantu supreme creator—one violently expulsive, the other profoundly distant."
+    },
+    {
+      "a": "luba-kuba-lukasa",
+      "b": "luba-kuba-bavidye",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The tactile memory board used explicitly to map the geographic locations of the localized guardian spirits."
+    },
+    {
+      "a": "luba-kuba-kalala",
+      "b": "luba-kuba-bulopwe",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The mythical founder and the biological-spiritual essence of kingship he introduced to the ruling class."
+    },
+    {
+      "a": "luba-kuba-woot",
+      "b": "luba-kuba-mbombo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The creator who vomited the cosmos and the first ancestor who categorized and named its contents."
+    },
+    {
+      "a": "luba-kuba-leza",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme high god of Central Bantu cosmology who established the world's machinery but has since withdrawn completely to the sky."
+    },
+    {
+      "a": "luba-kuba-leza",
+      "b": "fon-nana-buluku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial creator deity who establishes the cosmic order and then entirely withdraws, ceding direct governance to active, localized spirits."
+    },
+    {
+      "a": "luba-kuba-leza",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A transcendent celestial orchestrator who operates far removed from direct human petition."
+    },
+    {
+      "a": "luba-kuba-mbombo",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Creation emerges not from a spoken word, but from a profound internal bodily pressure or gestation within the primordial creator."
+    },
+    {
+      "a": "luba-kuba-mbombo",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A creator god who generates the cosmos and all life from his own internal bodily faculties rather than pre-existing external matter."
+    },
+    {
+      "a": "luba-kuba-woot",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial ancestor and civilizing king whose reign ends following a foundational transgression, leading to a permanent change in the human condition."
+    },
+    {
+      "a": "luba-kuba-woot",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A foundational mythic figure whose civilizing actions are inextricably linked to a primal incestuous act that profoundly disrupts cosmic order."
+    },
+    {
+      "a": "luba-kuba-nkongolo",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A chaotic, deeply terrestrial, and destructive sovereign whose era must end to pave the way for a more structured, orderly epoch."
+    },
+    {
+      "a": "luba-kuba-nkongolo",
+      "b": "zulu-inkanyamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A destructive, volatile natural force deeply associated with the rainbow, viewed as a terrestrial serpent rather than a benign celestial bridge."
+    },
+    {
+      "a": "luba-kuba-kalala",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A civilizing hero and divine blacksmith who radically transforms human society through the revelation of ironworking."
+    },
+    {
+      "a": "luba-kuba-kalala",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A magical culture hero who overcomes his brutish adversaries through secret knowledge, cool intellect, and mastery of esoteric arts rather than mere physical force."
+    },
+    {
+      "a": "luba-kuba-bavidye",
+      "b": "bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Deeply structural parallel reflecting Bantu roots: localized territorial spirits inhabiting specific natural features that enforce ecological and moral taboos."
+    },
+    {
+      "a": "luba-kuba-bavidye",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Spirits that anchor divine authority into localized natural topography, requiring strict territorial propitiation."
+    },
+    {
+      "a": "luba-kuba-lukasa",
+      "b": "songlines",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Utilizing a spatial, geographic medium to encode and recount mythological history and the movements of ancestral spirits."
+    },
+    {
+      "a": "luba-kuba-lukasa",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly specialized, tactile system of signs used exclusively by initiates to decode divine history and spiritual mandates."
+    },
+    {
+      "a": "luba-kuba-bulopwe",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A transmissible, deeply localized spiritual power or essence residing in specific individuals, granting them supernatural efficacy."
+    },
+    {
+      "a": "luba-kuba-bulopwe",
+      "b": "kut",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A vital, heaven-mandated spiritual energy inherited by rulers that confers absolute political authority and physical vitality."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "localized-tutelary",
+      "name": "Localized Tutelary Spirit",
+      "subtype": "force",
+      "gloss": "A powerful spiritual entity whose jurisdiction is absolutely bound to specific geographic coordinates, such as a single mountain, lake, or grove, enforcing localized taboos.",
+      "reason": "Necessary to distinguish geographically anchored spirits like the Bavidye or Bisimbi from omnipresent deities or generic ancestors who hold universal or purely blood-based jurisdiction."
+    },
+    {
+      "id": "mnemonic-landscape",
+      "name": "Mnemonic Landscape",
+      "subtype": "concept",
+      "gloss": "A system where history, myth, and divine genealogies are recorded and read not through text, but through a physical or geographic medium—either a tactile artifact or a navigated topography.",
+      "reason": "Essential for capturing physical memory systems like the Luba Lukasa, Aboriginal Songlines, or the Andean Quipu, which translate cosmic narrative into spatial geometry."
+    },
+    {
+      "id": "sacred-bloodline",
+      "name": "Sacred Bloodline",
+      "subtype": "principle",
+      "gloss": "A vital, almost biological spiritual essence transmitted exclusively through a specific dynastic lineage, granting the rulers supernatural efficacy over society and nature.",
+      "reason": "Required to represent the material, transmissible nature of divine kingship like the Luba Bulopwe, distinct from a general 'cosmic order' or a purely political 'divine right'."
+    }
+  ]
+}

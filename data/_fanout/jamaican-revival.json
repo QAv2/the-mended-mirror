@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "jamaican-revival",
+    "name": "Jamaican Revival / Kumina / Myal / Obeah",
+    "region": "Jamaica",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "jamaican-revival-myal",
+      "kind": "rite",
+      "name": "Myal",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "An African-derived communal healing tradition centered on rhythmic dancing, spirit possession, and the detection of witchcraft. Practitioners act as spiritual doctors, diagnosing community illness by exposing hidden charms and pacifying restless spirits.",
+      "facet": "It functions as the public immune system of the community. Unlike solitary magic, Myal is inherently congregational, relying on the collective energetic 'heat' of the group to catch and restore stolen souls.",
+      "provenance": "Frederic G. Cassidy, 'Jamaica Talk' (1961); Erna Brodber, 'Myal' (1988)."
+    },
+    {
+      "id": "jamaican-revival-obeah",
+      "kind": "force",
+      "name": "Obeah",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "A highly individualized, pragmatic spiritual technology utilizing botanicals, grave dirt, and incantations to command unseen forces. Practitioners are hired to heal, protect, bring luck, or inflict harm upon enemies.",
+      "facet": "It is radically mercenary and morally ambiguous, stripped of congregational worship. Obeah operates entirely on the specific, contractual desires of the client rather than the moral decrees of a supreme deity.",
+      "provenance": "Diana Paton, 'The Cultural Politics of Obeah' (2015)."
+    },
+    {
+      "id": "jamaican-revival-duppy",
+      "kind": "creature",
+      "name": "Duppy",
+      "archetypes": [
+        "earthbound-shade",
+        "cosmic-adversary"
+      ],
+      "gloss": "The lingering, restless shade of a deceased person. Unlike revered ancestors, duppies are earthbound energetic remnants that haunt cottonwood trees, throw stones, or cause sudden illness if they cross a living person's path.",
+      "facet": "The duppy is not a wise guide but an exploitable resource or a hazard. It can be captured in a bottle and 'set' on a victim by a sorcerer, turning the dead into involuntary spiritual assassins.",
+      "provenance": "Martha Warren Beckwith, 'Black Roadways: A Study of Jamaican Folk Life' (1929)."
+    },
+    {
+      "id": "jamaican-revival-trumping",
+      "kind": "rite",
+      "name": "Trumping and Laboring",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "A kinesthetic induction technique used in Revival Zion and Pukumina. Congregants bend forward and forcefully inhale and exhale in a guttural rhythm while counter-marching in a tight circle.",
+      "facet": "It treats trance not as a passive reception of the divine, but as a strenuous aerobic labor. Physical exhaustion dismantles the conscious ego, forcibly clearing the bodily vessel for spirit manifestation.",
+      "provenance": "Edward Seaga, 'Revival Cults in Jamaica' (1969)."
+    },
+    {
+      "id": "jamaican-revival-bands",
+      "kind": "force",
+      "name": "The Spirit Bands",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The regimented legions of spirits summoned in Revivalism, divided into heavenly 'Zion' forces (prophets, apostles) and earthly 'Pukumina' forces (fallen angels, ancestors). Each band has specific colors and drumming patterns.",
+      "facet": "The Christian heavenly host is restructured into a localized, summonable workforce. Spirits operate in strict, military-style hierarchies, negotiating with human leaders almost as spiritual trade unions.",
+      "provenance": "Barry Chevannes, 'Rastafari: Roots and Ideology' (1994)."
+    },
+    {
+      "id": "jamaican-revival-king-zombi",
+      "kind": "deity",
+      "name": "King Zombi",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator deity in the Kumina tradition, directly descending from the Central African Nzambi. He is the ultimate author of the cosmos who withdrew after creation.",
+      "facet": "King Zombi is profoundly distant and receives no direct sacrifice or possession rites. All practical religious labor—healing, cursing, advising—is delegated strictly to the ancestral spirits and earthbound entities.",
+      "provenance": "Kenneth Moore, 'Kumina: A Jamaican Religious Cult' (1977)."
+    },
+    {
+      "id": "jamaican-revival-shadow",
+      "kind": "concept",
+      "name": "The Shadow",
+      "archetypes": [
+        "divisible-soul",
+        "dualism"
+      ],
+      "gloss": "One of the two distinct souls housed in a human. While the true 'spirit' ascends to God upon death, the shadow remains near the physical realm, easily displaced during life by shock or sorcery.",
+      "facet": "It renders human consciousness physically divisible. Illness is frequently diagnosed not as biological failure, but as the literal, spatial dislocation of the shadow, which must be tracked and 'caught' by healers.",
+      "provenance": "Maureen Warner-Lewis, 'Central Africa in the Caribbean' (2003)."
+    },
+    {
+      "id": "jamaican-revival-seal",
+      "kind": "place",
+      "name": "The Seal",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The consecrated center pole, altar, or ground-marking in a Revivalist yard. Decorated with water, specific fruits, and colored flags, it acts as the central antenna to attract descending spirit bands.",
+      "facet": "The seal is a dynamic vortex rather than a static shrine. Its power is only activated kinetically when believers circumambulate it, transforming the physical yard into a rotating metaphysical crossroads.",
+      "provenance": "Edward Seaga, 'Revival Cults in Jamaica' (1969)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "jamaican-revival-myal",
+      "b": "jamaican-revival-obeah",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Myal historically functions as the communal, healing antidote designed specifically to detect and neutralize the localized sorcery of Obeah."
+    },
+    {
+      "a": "jamaican-revival-obeah",
+      "b": "jamaican-revival-duppy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Obeah practitioners actively trap, command, and deploy restless duppies as spiritual mercenaries to enact their clients' wishes."
+    },
+    {
+      "a": "jamaican-revival-trumping",
+      "b": "jamaican-revival-seal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Trumping must be performed in a continuous circle around the seal to generate the energetic vortex necessary for possession."
+    },
+    {
+      "a": "jamaican-revival-myal",
+      "b": "jamaican-revival-shadow",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The central diagnostic and healing rite of Myal is tracking, capturing, and reattaching a stolen shadow to its human host."
+    },
+    {
+      "a": "jamaican-revival-king-zombi",
+      "b": "nzambi-a-mpungu",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: Direct linguistic and theological descent from the Kongo supreme creator deity, brought to Jamaica via enslaved Central Africans."
+    },
+    {
+      "a": "jamaican-revival-trumping",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions utilize strenuous, rhythmic hyperventilation and communal circular dancing to physically exhaust the ego and achieve spirit possession."
+    },
+    {
+      "a": "jamaican-revival-duppy",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent confused, earthbound ghosts that cause physical and mental affliction by attaching themselves to the living or lingering near the unburied."
+    },
+    {
+      "a": "jamaican-revival-shadow",
+      "b": "pnw-property-soul",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions conceive of a divisible soul that can detach, wander, or be intentionally stolen by sorcery, necessitating shamanic retrieval."
+    },
+    {
+      "a": "jamaican-revival-obeah",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Jamaican Obeah incorporates the Kongo technology of minkisi—binding spirits into physical botanical or mineral bundles to direct their power."
+    },
+    {
+      "a": "jamaican-revival-myal",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve the healer undertaking a dangerous spiritual pursuit to locate and recapture a patient's missing soul from malevolent forces."
+    },
+    {
+      "a": "jamaican-revival-bands",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both categorize the spiritual realm into highly regimented, color-coded hierarchies of divine emissaries that oversee specific earthly domains."
+    },
+    {
+      "a": "jamaican-revival-seal",
+      "b": "dikenga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The circumambulation around the Revivalist seal mirrors the Kongo Dikenga cosmogram, tracing the sun's journey and the barrier between the living and dead."
+    },
+    {
+      "a": "jamaican-revival-king-zombi",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme cosmic architects who, after instigating creation, withdrew entirely from the immediate, daily spiritual administration of the world."
+    },
+    {
+      "a": "jamaican-revival-bands",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Revival Zion actively syncretizes Christian apostles and angelic hosts into distinct, summonable bands that operate through African-derived possession."
+    },
+    {
+      "a": "jamaican-revival-seal",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central pole of the yard functions as a literal and energetic antenna grounding descending spirits to the physical plane."
+    },
+    {
+      "a": "jamaican-revival-duppy",
+      "b": "velnias",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both embody unruly, underworld or earthbound forces that mortals attempt to outwit, bribe, or weaponize for pragmatic gain."
+    },
+    {
+      "a": "jamaican-revival-obeah",
+      "b": "fon-legba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both govern the morally neutral, deeply pragmatic manipulation of unseen intersections, prioritizing earthly results over high cosmic law."
+    },
+    {
+      "a": "jamaican-revival-shadow",
+      "b": "atiq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both view the human essence not as a monolithic identity, but as an invisible companion or energetic layer vulnerable to spatial separation."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divisible-soul",
+      "name": "Divisible Soul",
+      "subtype": "concept",
+      "gloss": "The belief that human consciousness is not monolithic, but composed of multiple distinct spiritual components, some of which can detach, wander, or be stolen.",
+      "reason": "Crucial for traditions where illness or misfortune is viewed as the literal spatial loss or theft of a soul-part rather than biological decay."
+    },
+    {
+      "id": "earthbound-shade",
+      "name": "Earthbound Shade",
+      "subtype": "force",
+      "gloss": "The energetic remnant or lesser soul of a deceased person that remains tethered to the physical world, often becoming unruly, troublesome, or vulnerable to manipulation.",
+      "reason": "Necessary for distinguishing between fully elevated ancestors who guide the living, and lingering ghosts who haunt, confuse, or are weaponized by sorcery."
+    }
+  ]
+}

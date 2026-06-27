@@ -1,0 +1,256 @@
+{
+  "tradition": {
+    "id": "native-american-church",
+    "name": "Native American Church (Peyotism)",
+    "region": "SW → Plains",
+    "color": "#5a8fc7"
+  },
+  "figures": [
+    {
+      "id": "native-american-church-great-spirit",
+      "kind": "deity",
+      "name": "The Great Spirit (Wakonda / God)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme creator and architect of the universe, universally addressed in prayers but rarely interacting directly with humanity. He relies on a network of intermediary spirits, principally the Peyote sacrament, to transmit his healing power and moral instruction to the earth.",
+      "facet": "This figure represents a seamless, profound syncretism, actively absorbing the Abrahamic God into an indigenous cosmology. He functions as an overarching canopy of divine authority that unites disparate tribes under a single, monotheistic indigenous framework.",
+      "provenance": "Omer C. Stewart, 'Peyote Religion: A History' (1987); Weston La Barre, 'The Peyote Cult' (1938)."
+    },
+    {
+      "id": "native-american-church-peyote-spirit",
+      "kind": "force",
+      "name": "The Peyote Spirit (Chief Peyote / Mescalito)",
+      "archetypes": [
+        "psychopomp",
+        "plant-teacher"
+      ],
+      "gloss": "The localized, conscious spirit residing within the Lophophora williamsii cactus. During the all-night ceremony, a particularly perfect 'Chief Peyote' button is placed on the altar as the literal, physical embodiment of divine compassion, acting as a teacher and healer.",
+      "facet": "It is not an inert symbol nor a mere chemical intoxicant, but a sentient, fleshly mediator. It actively diagnoses illness, teaches moral lessons, and forces direct, visceral encounters with the divine without the need for human clergy.",
+      "provenance": "J.S. Slotkin, 'The Peyote Religion' (1956); Paul Radin, 'The Autobiography of a Winnebago Indian' (1920)."
+    },
+    {
+      "id": "native-american-church-jesus",
+      "kind": "deity",
+      "name": "Jesus Christ (The Peyote Christ)",
+      "archetypes": [
+        "dying-rising",
+        "culture-hero"
+      ],
+      "gloss": "Integrated deeply into the Church's cosmology, Jesus is recognized as a divine messenger sent by the Great Spirit. He is uniquely associated with suffering, humility, and the dispensing of the Peyote sacrament to the marginalized.",
+      "facet": "Here, Jesus is radically indigenized: because he was rejected and killed by white men, he is understood as the natural patron of persecuted Native peoples. He offers Peyote as a sacred comforter specifically for indigenous trauma.",
+      "provenance": "Omer C. Stewart, 'Peyote Religion: A History' (1987); Weston La Barre, 'The Peyote Cult' (1938)."
+    },
+    {
+      "id": "native-american-church-water-woman",
+      "kind": "deity",
+      "name": "Morning Water Woman",
+      "archetypes": [
+        "mother-of-waters",
+        "great-mother"
+      ],
+      "gloss": "The sacred feminine spirit who brings water into the tipi at dawn, signaling the closure of the nocturnal ceremony. She represents life, fertility, and the nurturing aspects of creation, physically hydrating and blessing the exhausted participants.",
+      "facet": "She restores vital gender balance to an otherwise male-dominated ceremonial structure. The arrival of her dawn water is not merely ritual closure but a maternal rebirthing event, enacting the physical and spiritual renewal of the community.",
+      "provenance": "David F. Aberle, 'The Peyote Religion among the Navaho' (1966)."
+    },
+    {
+      "id": "native-american-church-peyote-road",
+      "kind": "principle",
+      "name": "The Peyote Road (The Peyote Way)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The strict, abstemious ethical code revealed through the consumption of the sacrament. It mandates brotherly love, familial responsibility, self-reliance, hard work, and the absolute abstention from alcohol.",
+      "facet": "It functions as a pragmatic survival doctrine born in the crucible of the reservation era. It translates the ecstatic visions of the medicine into a rigid, stabilizing morality designed to counter the generational collapse caused by colonization.",
+      "provenance": "J.S. Slotkin, 'The Peyote Religion' (1956); Omer C. Stewart, 'Peyote Religion: A History' (1987)."
+    },
+    {
+      "id": "native-american-church-half-moon-altar",
+      "kind": "place",
+      "name": "The Half-Moon Altar",
+      "archetypes": [
+        "axis-mundi",
+        "lunar"
+      ],
+      "gloss": "The earthen, crescent-shaped mound constructed inside the tipi, inscribed with a line running from tip to tip. The Chief Peyote rests upon it, and the ceremonial fire burns within its curve, representing the path of human life.",
+      "facet": "It physically reconstructs the universe for a single night. The altar is a transient axis mundi that must be built anew for each ceremony, reflecting a nomadic, deeply localized ritual geography rather than a permanent temple.",
+      "provenance": "Omer C. Stewart, 'Peyote Religion: A History' (1987); Weston La Barre, 'The Peyote Cult' (1938)."
+    },
+    {
+      "id": "native-american-church-quanah-parker",
+      "kind": "hero",
+      "name": "Quanah Parker",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "The historical Comanche chief who, after the end of the Plains Indian Wars, synthesized indigenous practices with Christian elements to systematize the Half-Moon peyote ritual, becoming the paramount evangelist of the modern Peyote religion.",
+      "facet": "He is a purely historical, modern figure elevated to a foundational mythic patriarch. He models the survival of Native peoples not through continued kinetic warfare, but through profound spiritual adaptation and trans-tribal unity.",
+      "provenance": "William T. Hagan, 'Quanah Parker, Comanche Chief' (1993); Paul H. Carlson, 'The Plains Indians' (1998)."
+    },
+    {
+      "id": "native-american-church-sacred-fire",
+      "kind": "force",
+      "name": "The Sacred Fire (The Fire Chief)",
+      "archetypes": [
+        "solar",
+        "axis-mundi"
+      ],
+      "gloss": "The meticulously tended ceremonial fire that burns throughout the all-night service. Tended by a dedicated official, its ashes are continually swept into symbolic shapes—often a crescent or a bird—carrying cedar smoke and prayers upward to the Creator.",
+      "facet": "The fire is not an inert element but a continuously sculpted, living entity that maps the temporal progression of the night. The physical manipulation of its ashes grounds the spiritual intercession in immediate, tactile artistry.",
+      "provenance": "David F. Aberle, 'The Peyote Religion among the Navaho' (1966)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "native-american-church-great-spirit",
+      "b": "native-american-church-jesus",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The remote, supreme architect and his suffering, localized messenger bound together in a syncretic indigenous theology."
+    },
+    {
+      "a": "native-american-church-peyote-spirit",
+      "b": "native-american-church-jesus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Intra-tradition: Frequently identified as dual manifestations of the same divine Comforter, one arriving as the white man's savior, the other as the red man's medicine."
+    },
+    {
+      "a": "native-american-church-half-moon-altar",
+      "b": "native-american-church-sacred-fire",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The earth and the fire operate as a unified geographical engine inside the tipi, structuring the space of communion."
+    },
+    {
+      "a": "native-american-church-quanah-parker",
+      "b": "native-american-church-peyote-road",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational prophet and the strict survival doctrine he helped systematize across the Plains."
+    },
+    {
+      "a": "native-american-church-water-woman",
+      "b": "native-american-church-half-moon-altar",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The maternal bringer of life completes the ritual cycle by bringing dawn water directly to the earthly altar."
+    },
+    {
+      "a": "native-american-church-great-spirit",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicit, documented theological merging of the indigenous supreme creator with the Abrahamic God."
+    },
+    {
+      "a": "native-american-church-jesus",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Direct adoption of Jesus of Nazareth, reinterpreted structurally to serve as a marginalized, indigenous culture hero."
+    },
+    {
+      "a": "native-american-church-great-spirit",
+      "b": "wakan-tanka",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Among Lakota and other Plains members, the traditional 'Great Mystery' is explicitly equated with the Peyotist supreme being."
+    },
+    {
+      "a": "native-american-church-water-woman",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are sacred, maternal figures who enter the ritual space to deliver life-giving ceremonies and physical salvation to the community."
+    },
+    {
+      "a": "native-american-church-sacred-fire",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as conscious, holy fires that must be ritually tended and kept pure to transmit prayers to the supreme creator."
+    },
+    {
+      "a": "native-american-church-sacred-fire",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the transformative, living fire serving as the essential and active intermediary between humanity and the divine."
+    },
+    {
+      "a": "native-american-church-peyote-road",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are comprehensive ethical and cosmic principles demanding balance, right living, and societal responsibility over mere legalism."
+    },
+    {
+      "a": "native-american-church-peyote-road",
+      "b": "hozho",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Among Navajo congregants, the Peyote Road is heavily syncretized with the traditional indigenous pursuit of beauty, balance, and order."
+    },
+    {
+      "a": "native-american-church-peyote-road",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are conceptualized as 'The Way', an all-encompassing path of right action that aligns human behavior with cosmic harmony."
+    },
+    {
+      "a": "native-american-church-quanah-parker",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are historical visionaries who systematically synthesized disparate indigenous and colonizing religious elements into a cohesive, enduring new faith."
+    },
+    {
+      "a": "native-american-church-quanah-parker",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the foundational revealer of a highly structured, localized system of earth-centered ritual practice."
+    },
+    {
+      "a": "native-american-church-half-moon-altar",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: Both are physical structures deliberately built to serve as a microcosm of the universe, mapping the cosmic order onto a local ritual space."
+    },
+    {
+      "a": "native-american-church-half-moon-altar",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both establish a vital, oriented ritual geography around which spiritual communion and identity are structurally organized."
+    },
+    {
+      "a": "native-american-church-peyote-spirit",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are infinitely compassionate, conscious entities that actively manifest in the physical world to guide beings out of ignorance and suffering."
+    },
+    {
+      "a": "native-american-church-jesus",
+      "b": "baldr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an innocent, luminous figure of peace whose unjust death acts as a focal point for cosmological tragedy and eventual spiritual renewal."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "plant-teacher",
+      "name": "Plant Teacher",
+      "subtype": "concept",
+      "gloss": "A conscious, non-human botanical entity ingested to facilitate direct communion with the divine, functioning not merely as medicine or symbol, but as a sentient instructor.",
+      "reason": "Necessary to capture traditions (like Peyotism, Ayahuasca use, or Bwiti) where the sacrament acts with autonomous agency, diagnosing illness and teaching morality directly to the participant."
+    }
+  ]
+}

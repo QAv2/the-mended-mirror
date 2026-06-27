@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "eleusinian",
+    "name": "Eleusinian Mysteries",
+    "region": "Eleusis, Attica",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "eleusinian-demeter",
+      "kind": "deity",
+      "name": "Demeter (Deo, The Mourning Mother)",
+      "archetypes": [
+        "great-mother",
+        "withdrawn-creator"
+      ],
+      "gloss": "The great goddess of grain who, in her devastating grief over her daughter's abduction, deliberately withheld the harvest, plunging the world into famine until Zeus was forced to intervene and broker Persephone's return.",
+      "facet": "Unlike the serene Olympian, the Eleusinian Demeter walked the earth as an old woman in mourning. She is a goddess of active refusal, wielding cosmic starvation to bend the patriarchal heavens to a mother's will.",
+      "provenance": "Homeric Hymn to Demeter; numerous Eleusinian dedicatory reliefs."
+    },
+    {
+      "id": "eleusinian-kore",
+      "kind": "deity",
+      "name": "Kore / Persephone (The Maiden)",
+      "archetypes": [
+        "dying-rising",
+        "underworld-sovereign"
+      ],
+      "gloss": "The divine daughter abducted by Hades into the earth, who consumed the pomegranate seed that bound her to a dual existence: a third of the year ruling the dark below, the rest ascending to the light.",
+      "facet": "At Eleusis, she is no mere victim of seasonal metaphor. She is the terrifying and benevolent Queen of the Dead, holding the absolute keys to personal salvation and a blessed afterlife for the initiates.",
+      "provenance": "Homeric Hymn to Demeter; Pindar, Fragment 137; Sophocles, Fragment 837."
+    },
+    {
+      "id": "eleusinian-triptolemus",
+      "kind": "hero",
+      "name": "Triptolemus",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Eleusinian prince who received the first wheat-ear from Demeter and was sent forth in a chariot drawn by winged dragons to teach the arts of agriculture to the entire world.",
+      "facet": "He translates the intimate, localized secret of the Mysteries into an exoteric, universal civilizing mission, effectively linking the esoteric salvation of the soul with the physical survival of humankind.",
+      "provenance": "Attic vase paintings (e.g., the Triptolemos Painter); Pausanias, Description of Greece 1.38.6."
+    },
+    {
+      "id": "eleusinian-iacchus",
+      "kind": "deity",
+      "name": "Iacchus",
+      "archetypes": [
+        "psychopomp",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The divine personification of the joyful, ecstatic cry shouted by the thousands of initiates as they marched the Sacred Way from Athens to Eleusis, bearing myrtle branches and torches.",
+      "facet": "He is a deity born entirely from the collective, acoustic frenzy of the worshippers. He serves as a fluid liminal guide, leading the initiates physically through the landscape and spiritually into the mystery.",
+      "provenance": "Aristophanes, The Frogs; Herodotus, Histories 8.65."
+    },
+    {
+      "id": "eleusinian-baubo",
+      "kind": "deity",
+      "name": "Baubo (Iambe)",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The old woman who received the grieving, fasting Demeter at Eleusis and finally broke the goddess's depression by lifting her skirt in a sudden gesture of crude, apotropaic obscenity.",
+      "facet": "She introduces radical bodily humor into a narrative of profound divine trauma. Her transgressive, joyful obscenity acts as the necessary shock to restart the frozen life-force of the cosmos.",
+      "provenance": "Clement of Alexandria, Protrepticus 2; Orphic fragments; Homeric Hymn to Demeter."
+    },
+    {
+      "id": "eleusinian-eubouleus",
+      "kind": "hero",
+      "name": "Eubouleus",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The mythical swineherd whose pigs were swallowed by the earth when the chasm opened for Hades' chariot. In his honor, initiates threw live piglets into subterranean chasms known as megara.",
+      "facet": "He grounds the transcendent promise of the Mysteries in visceral, chthonic blood-magic. He represents the stark agricultural law that the putrefaction of flesh within the earth is required to fertilize the seed.",
+      "provenance": "Pausanias 1.14.3; Clement of Alexandria, Protrepticus 2; scholia on Lucian."
+    },
+    {
+      "id": "eleusinian-kykeon",
+      "kind": "rite",
+      "name": "The Kykeon",
+      "archetypes": [
+        "mystic-communion",
+        "one-through-many"
+      ],
+      "gloss": "The sacred drink of barley meal, water, and pennyroyal mint consumed by initiates to break their ritual fast, mirroring Demeter's own refusal of red wine during her mourning.",
+      "facet": "It replaces the standard Greek practice of animal blood-sacrifice with a direct, internalized physical communion. Swallowing the brew shifts the locus of the sacred experience entirely into the initiate's own body.",
+      "provenance": "Homeric Hymn to Demeter; multiple archaeobotanical studies of Eleusinian vessels."
+    },
+    {
+      "id": "eleusinian-telesterion",
+      "kind": "place",
+      "name": "The Telesterion",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The immense, roofed initiation hall at the heart of the sanctuary, capable of holding thousands of tightly packed worshippers in profound darkness before the sudden, blinding flash of the epopteia.",
+      "facet": "Unlike traditional Greek temples designed merely to house a cult statue, this was an inward-facing architectural machine designed specifically to manipulate light, darkness, and collective psychological pressure.",
+      "provenance": "Archaeological excavations at Eleusis; Plutarch, Life of Pericles."
+    }
+  ],
+  "edges": [
+    {
+      "a": "eleusinian-demeter",
+      "b": "eleusinian-kore",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ultimate mother-daughter dyad (the 'Two Goddesses'), whose traumatic separation and joyful reunion dictates both the agricultural year and esoteric salvation."
+    },
+    {
+      "a": "eleusinian-kykeon",
+      "b": "eleusinian-telesterion",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ingested internal catalyst and the external architectural container for the final revelation."
+    },
+    {
+      "a": "eleusinian-demeter",
+      "b": "demeter",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The explicit local manifestation of the pan-Hellenic goddess, anchoring her to the specific site of the Eleusinian revelation."
+    },
+    {
+      "a": "eleusinian-kore",
+      "b": "persephone",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The specific Eleusinian mystery-cult avatar of the Greek Queen of the Underworld."
+    },
+    {
+      "a": "eleusinian-kore",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sovereign goddesses who undergo a traumatic descent into the underworld, confronting death directly to establish a new cosmic balance."
+    },
+    {
+      "a": "eleusinian-kore",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Chthonic deities whose burial in the earth serves as the divine guarantee of both the grain's resurrection and human immortality."
+    },
+    {
+      "a": "eleusinian-demeter",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Grieving mother-figures who wander the earth in despair, seeking to restore the lost divine seed that will ultimately conquer death."
+    },
+    {
+      "a": "eleusinian-triptolemus",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Benevolent, traveling culture-heroes who explicitly gift the staple crop (wheat/maize) to humanity to ensure their civilization and survival."
+    },
+    {
+      "a": "eleusinian-iacchus",
+      "b": "dionysus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Historically syncretized by the Athenians, fusing the Eleusinian cry of joy with the pan-Hellenic god of wine and ecstasy."
+    },
+    {
+      "a": "eleusinian-kore",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Divine figures who descend into the realm of the dead and return, offering a formalized path of personal soteriology and eternal life."
+    },
+    {
+      "a": "eleusinian-telesterion",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Sacred architectures that function simultaneously as physical storage spaces for agriculture and profound cosmological maps."
+    },
+    {
+      "a": "eleusinian-kore",
+      "b": "telipinu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The vanishing agricultural deities whose sudden disappearance beneath the earth paralyzes all fertility until they are pacified and returned."
+    },
+    {
+      "a": "eleusinian-baubo",
+      "b": "trickster",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The necessary transgressive force—using obscenity or radical humor to shatter an unbearable divine stasis and restart the cosmos."
+    },
+    {
+      "a": "eleusinian-kykeon",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Highly ritualized, bodily technologies used to deliberately cross the threshold into ecstatic revelation and the spirit realm."
+    },
+    {
+      "a": "eleusinian-demeter",
+      "b": "hannahanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ancient Mediterranean mother goddess who frantically searches for the missing god of fertility, forcing the restoration of life."
+    },
+    {
+      "a": "eleusinian-triptolemus",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Primordial sowers and culture-heroes who ensure that humanity has both the physical seed and the spiritual knowledge needed to thrive."
+    },
+    {
+      "a": "eleusinian-eubouleus",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Animal-associated chthonic guides or figures structurally tethered to a catastrophic descent into the underworld."
+    },
+    {
+      "a": "eleusinian-iacchus",
+      "b": "psychopomp",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The essential liminal guide required to navigate the perilous threshold between the profane world and the realm of the dead."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "mystic-communion",
+      "name": "Mystic Communion",
+      "subtype": "rite",
+      "gloss": "A sacred, often ingested substance or formalized physical action that directly induces revelation, altering the participant's state to merge with the divine.",
+      "reason": "Captures the widespread phenomenon of ingested psychoactive/symbolic sacraments (Kykeon, Soma, Haoma, Peyote) that act as the physical trigger for esoteric revelation."
+    }
+  ]
+}

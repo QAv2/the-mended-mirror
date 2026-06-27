@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "stoicism",
+    "name": "Stoicism",
+    "region": "Athens → Rome",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "stoicism-logos",
+      "kind": "principle",
+      "name": "Logos (Universal Reason)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The active, rational principle that structures and animates the cosmos. It is not an abstract concept but an immanent, generative force—the 'seminal reason' (logos spermatikos) that unfolds the universe as a living, perfectly ordered organism according to an exact design.",
+      "facet": "Unlike the transcendent Platonic forms, the Stoic Logos is strictly physical—a subtle, fiery breath intertwined with passive matter. It does not dictate order from above; it is the intelligent blueprint woven directly into the physical fabric of reality.",
+      "provenance": "Zeno of Citium; Cleanthes; Diogenes Laertius, 'Lives' (VII)."
+    },
+    {
+      "id": "stoicism-pneuma",
+      "kind": "force",
+      "name": "Pneuma (The Breath of Life)",
+      "archetypes": [
+        "vital-breath"
+      ],
+      "gloss": "A dynamic, tension-holding blend of fire and air that permeates the entire cosmos, giving it cohesion, shape, and consciousness. It is the material vehicle of the Logos, tightening and slackening to create all grades of existence.",
+      "facet": "It defines a continuum of being through physical 'tension' (tonos). A stone, a tree, and a human soul are made of the exact same substance, differing only in its degree of rarefaction and active tension.",
+      "provenance": "Chrysippus; Galen, 'On the Doctrines of Hippocrates and Plato'."
+    },
+    {
+      "id": "stoicism-zeus",
+      "kind": "deity",
+      "name": "Zeus (Nature / The Active Principle)",
+      "archetypes": [
+        "sky-father",
+        "one-through-many"
+      ],
+      "gloss": "The supreme, providential intelligence of the universe, strictly identified with Nature (Physis) and the cosmos itself. He is not a localized anthropomorphic ruler, but the all-pervading, conscious fire that consumes, orders, and resurrects the world.",
+      "facet": "He is the only god who survives the cyclic destruction of the universe. In the great conflagration, he absorbs all reality into his pure fiery essence, retreating into solitary meditation before exhaling the cosmos anew.",
+      "provenance": "Cleanthes, 'Hymn to Zeus'; Seneca; Epictetus."
+    },
+    {
+      "id": "stoicism-eimarmene",
+      "kind": "force",
+      "name": "Heimarmene (Fate)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The unbroken, deterministic chain of cause and effect governed by the Logos. It is the inexorable unfolding of Providence, ensuring that every event perfectly serves the health and harmony of the cosmic whole, however catastrophic it appears locally.",
+      "facet": "It demands radical acceptance ('amor fati'). Because Fate is identical with divine reason, resisting it is both futile and irrational—like a dog tied to a moving cart, dragged along rather than walking willingly.",
+      "provenance": "Chrysippus; Marcus Aurelius, 'Meditations' (IV)."
+    },
+    {
+      "id": "stoicism-ekpyrosis",
+      "kind": "concept",
+      "name": "Ekpyrosis (The Cosmic Conflagration)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The periodic destruction of the cosmos by fire. When the planets align at the exact end of a Great Year, the universe is consumed and reduced to pure, divine fire, only to be reborn in a mathematically identical cycle (palingenesis).",
+      "facet": "This eternal recurrence guarantees that history repeats exactly. Every person will be born again, live the exact same life, and make the exact same choices, underscoring the deterministic, unalterable perfection of the divine plan.",
+      "provenance": "Zeno; Chrysippus; Nemesius, 'On the Nature of Man'."
+    },
+    {
+      "id": "stoicism-hegemonikon",
+      "kind": "concept",
+      "name": "Hegemonikon (The Ruling Faculty)",
+      "archetypes": [
+        "inner-citadel"
+      ],
+      "gloss": "The commanding center of the human soul, located in the heart. It is a literal, physical fragment of the divine Logos—a 'spark of Zeus'—responsible for perception, assent, desire, and reason.",
+      "facet": "It is the ultimate inner citadel, the only thing entirely 'up to us.' While the body and reputation are subject to Fate, the Hegemonikon's ability to grant or withhold assent to impressions remains inviolably free.",
+      "provenance": "Chrysippus; Epictetus, 'Discourses' (I.1); Marcus Aurelius."
+    },
+    {
+      "id": "stoicism-apatheia",
+      "kind": "principle",
+      "name": "Apatheia (Rational Equanimity)",
+      "archetypes": [
+        "inner-citadel"
+      ],
+      "gloss": "The state of being free from 'passions' (pathe)—irrational, excessive impulses like fear, lust, or distress. It is not an unfeeling void, but a clear, unclouded rational joy (chara) born from understanding the true nature of reality.",
+      "facet": "The Stoic sage does not suppress emotion through brute willpower. By recognizing that only virtue is good and external things are indifferent, the false beliefs that generate destructive passions are eradicated at the root.",
+      "provenance": "Zeno; Chrysippus; Seneca, 'On Anger'."
+    },
+    {
+      "id": "stoicism-sympatheia",
+      "kind": "principle",
+      "name": "Sympatheia (Cosmic Sympathy)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The radical interconnectedness of all things, bound together by the continuous tension of the Pneuma. Because the cosmos is a single living organism, what happens to the smallest part instantaneously reverberates through the whole.",
+      "facet": "This organic unity validates divination—treating the cosmos as a vast web of correlated signs—and grounds human fellowship, proving that harming another person is as irrational as the hand attacking the foot.",
+      "provenance": "Posidonius; Marcus Aurelius, 'Meditations' (VI.38)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "stoicism-logos",
+      "b": "stoicism-pneuma",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational dyad of Stoic physics; the active rational principle and its dynamic material vehicle."
+    },
+    {
+      "a": "stoicism-zeus",
+      "b": "stoicism-ekpyrosis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme deity and his ultimate act of cosmic absorption and solitary renewal."
+    },
+    {
+      "a": "stoicism-hegemonikon",
+      "b": "stoicism-apatheia",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Apatheia is the perfected, unimpeded state of a fully rational Hegemonikon."
+    },
+    {
+      "a": "stoicism-logos",
+      "b": "stoicism-eimarmene",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Fate is simply the temporal, deterministic unfolding of the Universal Reason."
+    },
+    {
+      "a": "stoicism-zeus",
+      "b": "zeus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Stoics radically reinterpreted the mythological Greek sky-father into an immanent, philosophical principle of pure reason and fire."
+    },
+    {
+      "a": "stoicism-logos",
+      "b": "christ",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Johannine Christianity explicitly adopted the Hellenistic/Stoic concept of the 'Logos' (the Word) and incarnated it into a historical person."
+    },
+    {
+      "a": "stoicism-zeus",
+      "b": "yahweh",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Apostle Paul at the Areopagus quoted the Stoic poet Aratus ('For we are indeed his offspring') to identify the Stoic immanent Zeus with the Abrahamic God."
+    },
+    {
+      "a": "stoicism-hegemonikon",
+      "b": "the-divine-spark",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Gnostic conception of an entrapped divine spark directly evolved from the earlier Stoic doctrine of the inner soul as a literal fragment of divine fire."
+    },
+    {
+      "a": "stoicism-sympatheia",
+      "b": "as-above-so-below",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Hermetic doctrine of macrocosmic-microcosmic resonance is historically rooted in the Stoic physics of universal, pneumatic interconnectedness."
+    },
+    {
+      "a": "stoicism-ekpyrosis",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both feature a final, purifying cosmic fire, though Stoicism envisions eternal cyclical recurrence rather than a permanent, linear redemption."
+    },
+    {
+      "a": "stoicism-logos",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The immanent, natural law that silently orders the cosmos without anthropomorphic deliberation, to which human beings must align their nature ('kata physin')."
+    },
+    {
+      "a": "stoicism-ekpyrosis",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The universe operates as an unceasing, mathematically precise mechanism of vast cyclical time, eternally destroying and rebuilding itself."
+    },
+    {
+      "a": "stoicism-pneuma",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Zoroastrian holy fire and the Stoic fiery breath both function as the conscious, purifying, and structuring energy of the divine."
+    },
+    {
+      "a": "stoicism-eimarmene",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An inviolable cosmic order and destiny that rigidly governs the movements of the stars, the state, and the moral obligations of the individual alike."
+    },
+    {
+      "a": "stoicism-sympatheia",
+      "b": "sacred-hoop",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The profound realization that all elements of the physical and spiritual universe are deeply bound together in a single, living, responsive fabric."
+    },
+    {
+      "a": "stoicism-logos",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Egyptian creator who spoke the universe into existence through the intellect of his heart and the speech of his tongue, closely mirroring the generative 'Logos'."
+    },
+    {
+      "a": "stoicism-zeus",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, non-dual source of reality that permeates the phenomenal world, identical with the universe itself yet acting as its supreme consciousness."
+    },
+    {
+      "a": "stoicism-eimarmene",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unbending, divine truth and righteous order of the cosmos, to which the virtuous individual must actively and willingly conform their mind."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "vital-breath",
+      "name": "Vital Breath (The Substantive Spirit)",
+      "subtype": "force",
+      "gloss": "The subtle, physical substrate—whether conceived as air, wind, fire, or sheer tension—that binds matter together and transmits consciousness or divine will throughout the universe.",
+      "reason": "Required to group concepts like Stoic Pneuma, Chinese Qi, Vedic Prana, and Haudenosaunee Orenda—forces that are neither purely material nor purely abstract, but the animating 'tension' of the world."
+    },
+    {
+      "id": "inner-citadel",
+      "name": "The Inner Citadel",
+      "subtype": "concept",
+      "gloss": "The inviolable, rational core of the self that remains absolutely free and untouched by external fate, fortune, societal decay, or bodily suffering.",
+      "reason": "Needed for traditions that emphasize radical internal asceticism and emotional detachment as the ultimate locus of human freedom, distinct from the soul's mere existence."
+    }
+  ]
+}

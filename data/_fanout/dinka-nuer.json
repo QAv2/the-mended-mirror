@@ -1,0 +1,267 @@
+{
+  "tradition": {
+    "id": "dinka-nuer",
+    "name": "Dinka & Nuer (Nilotic)",
+    "region": "South Sudan",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "dinka-nuer-nhialic",
+      "kind": "deity",
+      "name": "Nhialic / Kwoth (The Sky Creator)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme, formless Creator and sky spirit. For the Dinka (Nhialic) and Nuer (Kwoth Nhial), this omnipresent breath or wind animates all life. He is ultimately just but often distant, acting as the ultimate arbiter of truth, health, and cosmic order.",
+      "facet": "Unlike heavily personified sky deities, Nhialic/Kwoth is strictly formless breath or spirit. He does not rule from a throne but fills the atmosphere, moving as the wind itself.",
+      "provenance": "E.E. Evans-Pritchard 'Nuer Religion' (1956); Godfrey Lienhardt 'Divinity and Experience: The Religion of the Dinka' (1961)."
+    },
+    {
+      "id": "dinka-nuer-deng",
+      "kind": "deity",
+      "name": "Deng (The Great Rain)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The most prominent free divinity (yeeth) among the Dinka, closely associated with rain, lightning, and fertility. Deng is often considered the son of Nhialic, bridging the distant sky and the parched earth through life-giving storms.",
+      "facet": "The name 'Deng' literally means 'rain'. He is not merely a god of the storm, but the visceral physical phenomenon of the storm itself, bringing both sudden destruction and essential pasture.",
+      "provenance": "Godfrey Lienhardt 'Divinity and Experience' (1961)."
+    },
+    {
+      "id": "dinka-nuer-garang",
+      "kind": "force",
+      "name": "Garang (The Hot Spirit)",
+      "archetypes": [
+        "solar",
+        "affliction-spirit"
+      ],
+      "gloss": "A powerful, free-roaming spirit (jok) associated with the sun, intense heat, and red objects. Often viewed as a counterpart to Deng, Garang is an unpredictable force of affliction who manifests by possessing individuals.",
+      "facet": "Instead of a majestic sun god, Garang embodies the oppressive, malarial heat of the dry season, functioning as an internal somatic affliction that must be ritually cooled through propitiation.",
+      "provenance": "Godfrey Lienhardt 'Divinity and Experience' (1961); Francis Mading Deng 'Dinka Religion' (1980)."
+    },
+    {
+      "id": "dinka-nuer-abuk",
+      "kind": "deity",
+      "name": "Abuk (The First Woman / Mother of Gardens)",
+      "archetypes": [
+        "great-mother",
+        "mother-of-waters"
+      ],
+      "gloss": "The first woman in Dinka mythology, and the only prominent female free divinity. She is the patroness of women, gardens, and the life-giving grain, intimately associated with rivers and the small, vital tasks of brewing and weaving.",
+      "facet": "She stands in stark contrast to the vast, male-coded sky divinities. Her domain is the intimate, terrestrial, and the immediate sustenance of the homestead rather than the sweeping, violent destiny of the herds.",
+      "provenance": "Godfrey Lienhardt 'Divinity and Experience' (1961)."
+    },
+    {
+      "id": "dinka-nuer-colwic",
+      "kind": "ancestor",
+      "name": "Colwic (The Lightning Struck)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "A Nuer category for humans killed by lightning, who are believed to be taken directly by Kwoth into the sky. They are instantly transformed into minor divinities and patron spirits of their living lineages.",
+      "facet": "Sudden death by lightning is not a tragedy but a divine elevation. The victim is not mourned normally; they are celebrated as having been chosen by God for immediate spiritual promotion.",
+      "provenance": "E.E. Evans-Pritchard 'Nuer Religion' (1956)."
+    },
+    {
+      "id": "dinka-nuer-bith",
+      "kind": "concept",
+      "name": "Bith (The Sacred Spear)",
+      "archetypes": [
+        "sacred-implement",
+        "axis-mundi"
+      ],
+      "gloss": "The defining ritual object of the Dinka 'Masters of the Spear' (bany bith). It is not a weapon of war but a conduit of truth, life, and invocation, thrust into the earth to secure oaths, bring rain, and direct prayers to Nhialic.",
+      "facet": "The sacred spear does not shed blood in battle; it is the physical locus of spiritual authority. Its iron tip literally directs the breath of the community's prayers upward to the sky.",
+      "provenance": "Godfrey Lienhardt 'Divinity and Experience' (1961)."
+    },
+    {
+      "id": "dinka-nuer-ox-sacrifice",
+      "kind": "rite",
+      "name": "The Ox-Sacrifice",
+      "archetypes": [
+        "substitutionary-sacrifice"
+      ],
+      "gloss": "The central religious rite of both Dinka and Nuer. A prized ox is identified with a human sponsor, then killed to absolve sin, avert disaster, or seal peace. The ox's life is directly exchanged with the sky spirit for a human life.",
+      "facet": "The ox is not merely an offering; its flesh and breath are metaphysically conflated with the human supplicant. The beast dies precisely so the man may live, resolving the immediate debt of sickness or transgression.",
+      "provenance": "E.E. Evans-Pritchard 'Nuer Religion' (1956)."
+    },
+    {
+      "id": "dinka-nuer-severed-rope",
+      "kind": "concept",
+      "name": "The Severed Rope",
+      "archetypes": [
+        "origin-of-death"
+      ],
+      "gloss": "The foundational myth explaining the current human condition. Originally, a rope connected heaven and earth, allowing easy passage and preventing death. An accidental offense—often by a woman pounding grain with too long a pestle—caused Nhialic to sever the rope.",
+      "facet": "The fall of humanity was not a profound moral failure but a mundane accident of daily labor. The cosmic separation underscores a tragic but highly pragmatic view of human hardship and mortality.",
+      "provenance": "E.E. Evans-Pritchard 'Nuer Religion' (1956); Godfrey Lienhardt 'Divinity and Experience' (1961)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "dinka-nuer-nhialic",
+      "b": "dinka-nuer-deng",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ultimate, distant sky creator and the active, localized phenomenon of the rain bringing his will to earth."
+    },
+    {
+      "a": "dinka-nuer-deng",
+      "b": "dinka-nuer-garang",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The cooling, life-giving power of the storm directly contrasts with the burning, malarial heat of the sun."
+    },
+    {
+      "a": "dinka-nuer-nhialic",
+      "b": "dinka-nuer-severed-rope",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The Creator's deliberate withdrawal establishes the permanent separation of the divine and mortal realms."
+    },
+    {
+      "a": "dinka-nuer-ox-sacrifice",
+      "b": "dinka-nuer-nhialic",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The exclusive physical mechanism by which humanity negotiates life and death directly with the Creator."
+    },
+    {
+      "a": "dinka-nuer-bith",
+      "b": "dinka-nuer-nhialic",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The sacred iron point that serves as the terrestrial anchor for communicating with the formless sky."
+    },
+    {
+      "a": "dinka-nuer-nhialic",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme, non-anthropomorphic sky creator who is virtually indistinguishable from the physical atmosphere and vast heavens."
+    },
+    {
+      "a": "dinka-nuer-nhialic",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A formless, elevated creator who dictates absolute moral order and breathes the animating spirit of life into existence."
+    },
+    {
+      "a": "dinka-nuer-nhialic",
+      "b": "wakan-tanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The overarching, pervasive Great Spirit or 'Breath' that is the ultimate, mysterious animating force of the cosmos."
+    },
+    {
+      "a": "dinka-nuer-deng",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The visceral embodiment of the rain and storm, bringing both life-sustaining water and the lethal threat of lightning."
+    },
+    {
+      "a": "dinka-nuer-deng",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active, thunderous sky-deity who directly manages the rains, fertility, and the seasonal renewal of the earth."
+    },
+    {
+      "a": "dinka-nuer-deng",
+      "b": "baal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active, thunderous son of the high god who manages the vital, life-giving seasonal rains."
+    },
+    {
+      "a": "dinka-nuer-garang",
+      "b": "fon-sakpata",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An earth-wandering spirit of affliction and heat who possesses humans with disease, requiring strict ritual propitiation rather than simple worship."
+    },
+    {
+      "a": "dinka-nuer-garang",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fierce, localized spirit of intense heat and possession that strikes with fever and requires ritual 'cooling'."
+    },
+    {
+      "a": "dinka-nuer-abuk",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The maternal figure strictly associated with the earth, localized cultivation, and the intimate life-giving forces of the ground."
+    },
+    {
+      "a": "dinka-nuer-abuk",
+      "b": "changing-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primary feminine principle defining immediate earthly sustenance and the cyclic, domestic fertility of the people."
+    },
+    {
+      "a": "dinka-nuer-colwic",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Elevation to the divine sphere intimately connected with the lethal, electrifying strike of the sky god's lightning."
+    },
+    {
+      "a": "dinka-nuer-colwic",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The shared belief that those killed by lightning bypass normal death and are instead instantly chosen for a sacred spiritual existence."
+    },
+    {
+      "a": "dinka-nuer-ox-sacrifice",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deliberate substitution of a blameless, sacred victim to fully absorb the spiritual debt and death meant for humanity."
+    },
+    {
+      "a": "dinka-nuer-severed-rope",
+      "b": "zulu-unwabu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The tragic myth where human mortality and separation from the divine are finalized not by profound evil, but by a mundane error or miscarried intent."
+    },
+    {
+      "a": "dinka-nuer-severed-rope",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A disruption in the primordial order that irrevocably severs the perfect conduit between the earth and the sky, permanently establishing human hardship."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-implement",
+      "name": "Sacred Implement",
+      "subtype": "concept",
+      "gloss": "A man-made tool or weapon that serves as the definitive ritual conduit for divine authority, invocation, and truth.",
+      "reason": "Allows for the categorization of specific physical objects (like spears, pipes, or staffs) that act as an axis mundi or direct line to the divine without being localized places or traditional idols."
+    },
+    {
+      "id": "affliction-spirit",
+      "name": "Affliction Spirit",
+      "subtype": "force",
+      "gloss": "A free-roaming, unlocalized entity that manifests primarily through physical illness, intense heat, or sudden disaster, requiring appeasement rather than worship.",
+      "reason": "Captures the widespread cross-cultural phenomenon of pathogenic or heat-associated spirits that possess the living and demand specific ritual 'cooling' to restore order."
+    },
+    {
+      "id": "substitutionary-sacrifice",
+      "name": "Substitutionary Sacrifice",
+      "subtype": "rite",
+      "gloss": "A ritual where a victim (often a prime domesticate) is metaphysically conflated with a human sponsor, dying in their exact place to absorb disease, sin, or divine wrath.",
+      "reason": "Distinct from a general offering of food or cosmic creation, this isolates the specific mechanism of exchanging one life strictly for another to satisfy a cosmic or spiritual debt."
+    }
+  ]
+}

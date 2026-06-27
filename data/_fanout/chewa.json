@@ -1,0 +1,289 @@
+{
+  "tradition": {
+    "id": "chewa",
+    "name": "Chewa (Maravi)",
+    "region": "Malawi / Zambia",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "chewa-chiuta",
+      "kind": "deity",
+      "name": "Chiuta (Chauta, The Great Bow)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The omnipresent supreme creator deity of the Chewa cosmos. Associated with the sky, rain, and specifically the rainbow, Chiuta originally lived in harmony with humans and animals on earth until mankind's destructive discovery of fire forced him to withdraw into the heavens.",
+      "facet": "He is not an anthropomorphic king but a vast atmospheric condition. He speaks directly through thunder and manifests physically as the rainbow, making him simultaneously a transcendent creator and a literal meteorological reality.",
+      "provenance": "J.M. Schoffeleers, 'River of Blood: The Genesis of a Martyr Cult in Southern Malawi' (1992); Chewa oral cosmogony."
+    },
+    {
+      "id": "chewa-kaphirintiwa",
+      "kind": "place",
+      "name": "Kaphirintiwa",
+      "archetypes": [
+        "axis-mundi",
+        "origin-of-death"
+      ],
+      "gloss": "The primordial flat-topped rock mountain where Chiuta, the first humans, and all animals originally descended during a mighty thunderstorm. The earth was soft as clay, leaving the eternal footprints of men and beasts still visible today.",
+      "facet": "It is the exact geographical site of the Fall. It was here that humanity first rubbed sticks together to invent fire, setting the grass ablaze, scattering the animals in terror, and severing the primal unity of creation.",
+      "provenance": "J.M. Schoffeleers (1992); traditional Maravi foundation myths."
+    },
+    {
+      "id": "chewa-nyau",
+      "kind": "concept",
+      "name": "Nyau",
+      "archetypes": [
+        "secret-society",
+        "dualism"
+      ],
+      "gloss": "The highly secretive, all-male brotherhood that acts as the spiritual and social law-enforcement of the Chewa people. Initiates gather in the 'dambo' (sacred thicket) to learn esoteric codes, moral laws, and the construction of elaborate masks.",
+      "facet": "It provides extreme structural counterbalance. In a strictly matrilineal society where men hold very limited domestic and property rights, the Nyau grants men a parallel, terrifying realm of supreme spiritual authority.",
+      "provenance": "W.H.J. Rangeley, 'Nyau in Nkhotakota District' (1949); Gerhard Kubik (1993)."
+    },
+    {
+      "id": "chewa-gule-wamkulu",
+      "kind": "rite",
+      "name": "Gule Wamkulu (The Great Dance)",
+      "archetypes": [
+        "masked-spirit-manifestation"
+      ],
+      "gloss": "The supreme ritual performance of the Nyau society. Elaborately masked dancers perform at initiations, harvest festivals, and funerals, physically embodying the 'zilombo' (wild animals) and the spirits of the dead.",
+      "facet": "It is a profound theater of impunity. Because the masked dancers are genuinely considered to be spirits rather than human beings, they possess absolute license to openly mock chiefs, enact taboo behaviors, and parody colonial authorities.",
+      "provenance": "Recognized by UNESCO as Intangible Cultural Heritage (2005); Gerhard Kubik, 'Makisi Nyau Mapiko' (1993)."
+    },
+    {
+      "id": "chewa-makewana",
+      "kind": "hero",
+      "name": "Makewana (Mother of All People)",
+      "archetypes": [
+        "great-mother",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The historic supreme prophetess and rain-priestess based at the Msinja shrine. Acting as the direct oracle and 'wife' of Chiuta, she entered violent trances to deliver divine edicts regarding planting cycles and social transgressions.",
+      "facet": "Her spiritual power was tied to sacred celibacy and ritual union. She lived isolated from ordinary men until a specific ceremonial period, during which she engaged in ritual intercourse with a designated priest to ensure cosmic fertility.",
+      "provenance": "J.M. Schoffeleers (1992); W.H.J. Rangeley, 'Makewana: The Mother of All People' (1952)."
+    },
+    {
+      "id": "chewa-thunga",
+      "kind": "creature",
+      "name": "Thunga",
+      "archetypes": [
+        "cosmic-serpent",
+        "mother-of-waters"
+      ],
+      "gloss": "A colossal mythic serpent residing in sacred pools and mountains. It serves as the direct earthly emissary of Chiuta, governing the waterways, delivering rain, and ensuring agricultural survival.",
+      "facet": "Unlike benevolent rain-bringers, Thunga is deeply volatile and highly sensitive to moral pollution. If human blood is unlawfully spilled or witchcraft is tolerated, the serpent physically relocates, instantly desiccating the local water source.",
+      "provenance": "J.W.M. van Breugel, 'Chewa Traditional Religion' (2001)."
+    },
+    {
+      "id": "chewa-mzimu",
+      "kind": "ancestor",
+      "name": "Mzimu",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The spirits of the familial dead who continue to exist in the unseen realm, guarding the daily welfare of their living descendants. They require ongoing propitiation with offerings of maize flour and beer.",
+      "facet": "They represent the calm, domesticated aspect of the spirit world, contrasting sharply with the chaotic, wild 'zilombo' invoked by the Nyau. A neglected Mzimu simply withdraws its protective aura, leaving the family vulnerable.",
+      "provenance": "J.W.M. van Breugel (2001); Brian Morris, 'Animals and Ancestors' (2000)."
+    },
+    {
+      "id": "chewa-mfiti",
+      "kind": "force",
+      "name": "Mfiti",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The manifestation of pure human malice: witches and sorcerers who use malicious magic to destroy community cohesion. They are believed to consume human flesh, employ hyenas as familiars, and spread sickness.",
+      "facet": "They are the ontological anti-matter to the Nyau. While the Nyau utilize secrecy and terrifying masks to enforce societal law and cosmic balance, the Mfiti utilize secrecy exclusively to cannibalize and dismantle it.",
+      "provenance": "Brian Morris (2000); J.W.M. van Breugel (2001)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "chewa-chiuta",
+      "b": "chewa-kaphirintiwa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The supreme creator and the terrestrial anvil upon which his creation was forged and subsequently broken."
+    },
+    {
+      "a": "chewa-chiuta",
+      "b": "chewa-makewana",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The withdrawn sky deity and his localized, physically manifesting oracle-wife."
+    },
+    {
+      "a": "chewa-chiuta",
+      "b": "chewa-thunga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ultimate source of rain and the terrestrial serpentine vessel that delivers it."
+    },
+    {
+      "a": "chewa-nyau",
+      "b": "chewa-gule-wamkulu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The esoteric brotherhood and the public, kinetic ritual through which they exert their power."
+    },
+    {
+      "a": "chewa-gule-wamkulu",
+      "b": "chewa-mfiti",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The authorized terrifying spirits that uphold the law versus the unauthorized terrifying sorcerers that seek to destroy it."
+    },
+    {
+      "a": "chewa-nyau",
+      "b": "chewa-mzimu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The secret society is intimately tasked with the burial rites that safely transform a dead member into a venerated ancestor."
+    },
+    {
+      "a": "chewa-chiuta",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme high god of immense power who established the world but has since withdrawn to the sky."
+    },
+    {
+      "a": "chewa-chiuta",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Historically, Christian missionaries in Malawi directly mapped Chiuta onto the Abrahamic God in Bible translations."
+    },
+    {
+      "a": "chewa-chiuta",
+      "b": "unkulunkulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial 'great one' who is the source of all existence but is rarely approached in daily personal prayer."
+    },
+    {
+      "a": "chewa-kaphirintiwa",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel—a highly specific, physicalized epicenter from which the diverse elements of creation burst forth."
+    },
+    {
+      "a": "chewa-kaphirintiwa",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A mythic central mountain functioning as the absolute axis mundi and the bridge between terrestrial and celestial realms."
+    },
+    {
+      "a": "chewa-kaphirintiwa",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM to joint: The precise mythological site where human hubris (the invention of fire) caused a cosmic rupture and introduced mortality."
+    },
+    {
+      "a": "chewa-nyau",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Extremely complex, male-dominated secret society rites that involve intricate masks to commemorate the dead and renew the cosmos."
+    },
+    {
+      "a": "chewa-nyau",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A secluded, terrifying initiation process designed to permanently sever boys from maternal influence and integrate them into men's spiritual law."
+    },
+    {
+      "a": "chewa-gule-wamkulu",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme communal dance event where the barrier between the human community and the spirit world is dynamically dissolved."
+    },
+    {
+      "a": "chewa-makewana",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A deeply venerated female prophetess figure who physically grounds divine law and initiates sacred agricultural cycles."
+    },
+    {
+      "a": "chewa-thunga",
+      "b": "zulu-inkanyamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A volatile, monumental storm serpent inhabiting deep pools that controls the extreme weather patterns of Southern Africa."
+    },
+    {
+      "a": "chewa-thunga",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A divine serpent intrinsically linked to rainbows and water systems, acting as a cosmic bridge."
+    },
+    {
+      "a": "chewa-thunga",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The overarching mythic serpent whose movements shape the rivers and whose anger brings devastating drought."
+    },
+    {
+      "a": "chewa-mzimu",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intimately involved spirits of the family lineage whose ongoing pacification is essential for household survival."
+    },
+    {
+      "a": "chewa-mzimu",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Venerated ancestors who hold punitive and protective power over their direct living descendants."
+    },
+    {
+      "a": "chewa-mzimu",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The stabilized, wise dead who act as a protective barrier around the community, distinct from chaotic natural spirits."
+    },
+    {
+      "a": "chewa-mfiti",
+      "b": "maii-coyote",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An entity synonymous with witchcraft, inverted social norms, and the malicious disruption of communal harmony."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "secret-society",
+      "name": "Secret Society",
+      "subtype": "concept",
+      "gloss": "A formalized, highly secluded brotherhood or sisterhood that maintains esoteric knowledge and enforces social codes through initiatory terror and absolute secrecy.",
+      "reason": "Necessary to distinguish institutionalized, lifelong covert orders like the Nyau or Poro from generic 'rites of passage' or temporary liminal initiation."
+    },
+    {
+      "id": "masked-spirit-manifestation",
+      "name": "Masked Spirit Manifestation",
+      "subtype": "rite",
+      "gloss": "A ritual practice where performers wearing sacred masks do not merely represent, but physically become dangerous ancestral or elemental spirits operating with divine impunity.",
+      "reason": "Captures the profound ontological shift of ceremonies like Gule Wamkulu or Dogon masquerades, distinguishing them from ecstatic shamanism or simple ceremonial theater."
+    },
+    {
+      "id": "active-intercessors",
+      "name": "Active Intercessors",
+      "subtype": "concept",
+      "gloss": "Spiritual beings—often elevated human ancestors—who handle the daily administration of the cosmos and receive direct sacrifice on behalf of a distant supreme creator.",
+      "reason": "Essential for capturing entities like the Mzimu, Amadlozi, and Pangool, which act not merely as generic 'ancestors' but as a highly specialized, localized bureaucratic tier of the divine."
+    }
+  ]
+}

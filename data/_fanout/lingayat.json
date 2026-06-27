@@ -1,0 +1,250 @@
+{
+  "tradition": {
+    "id": "lingayat",
+    "name": "Lingayatism (Veerashaivism)",
+    "region": "Karnataka",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "lingayat-parasiva",
+      "kind": "deity",
+      "name": "Parasiva (The Supreme Absolute)",
+      "archetypes": [
+        "one-through-many",
+        "withdrawn-creator"
+      ],
+      "gloss": "The absolute, formless reality from which the universe emanates. Lingayat theology holds that this Supreme Being modifies itself into both the material world and the individual soul, rendering the universe completely real, not a Maya (illusion).",
+      "facet": "Unlike mainstream Shaivism where Shiva is worshipped in monumental temples through Brahmin priests, Parasiva is utterly formless and uncontainable in static architecture, accessible solely through the microcosm of the personal Ishtalinga.",
+      "provenance": "Siddhanta Shikhamani; Vachana Sahitya."
+    },
+    {
+      "id": "lingayat-ishtalinga",
+      "kind": "rite",
+      "name": "Ishtalinga",
+      "archetypes": [
+        "axis-mundi",
+        "portable-axis"
+      ],
+      "gloss": "An ovoid, slate-colored emblem of Parasiva, given at birth and worn constantly on the body. It serves as a personal, physical anchor for the divine, visualizing the wearer's soul and the cosmos as a single entity.",
+      "facet": "Utterly obliviates the need for temples, pilgrimages, and priestly mediation. Divinity is radically democratized; everyone, regardless of gender or former caste, carries the absolute directly on their chest.",
+      "provenance": "Basava Purana; Vachanas of Basavanna."
+    },
+    {
+      "id": "lingayat-basavanna",
+      "kind": "hero",
+      "name": "Basavanna (Basava)",
+      "archetypes": [
+        "culture-hero",
+        "cosmic-order"
+      ],
+      "gloss": "The 12th-century philosopher, poet, and statesman who ignited the Veerashaiva movement. He envisioned an egalitarian society rooted in radical bhakti (devotion), dismantling the oppressive orthodoxies of temple-worship, caste segregation, and gender discrimination.",
+      "facet": "He didn't just preach theology; he built a radical, parallel society (the Anubhava Mantapa) that actively intermarried untouchables with Brahmins, triggering a violent political revolution that threatened the foundations of the medieval social order.",
+      "provenance": "Basavarajadevara Ragale; Vachana Sahitya."
+    },
+    {
+      "id": "lingayat-akka-mahadevi",
+      "kind": "hero",
+      "name": "Akka Mahadevi",
+      "archetypes": [
+        "ecstatic-shaman",
+        "transgressive-mystic"
+      ],
+      "gloss": "A radical 12th-century female mystic who rejected an earthly marriage to a king, betrothed herself completely to 'Channa Mallikarjuna' (Shiva), and wandered naked, covered only by her long hair, to join the Anubhava Mantapa.",
+      "facet": "Stripping away all societal constructs of female modesty, she demanded intellectual equality in the assembly of saints, viewing all worldly men as illusions and exposing the profound irrelevance of the physical body.",
+      "provenance": "Vachanas of Akka Mahadevi; Sunyasampadane."
+    },
+    {
+      "id": "lingayat-allama-prabhu",
+      "kind": "hero",
+      "name": "Allama Prabhu",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The supreme patron saint of the Veerashaiva movement and president of the Anubhava Mantapa. A master of the 'Bedagina Vachanas' (riddling poems), he served as the ultimate spiritual touchstone for all other mystics.",
+      "facet": "Wields paradox, irony, and negation to ruthlessly shatter the ego. He constantly challenged even Basavanna and Akka Mahadevi, exposing the slightest traces of spiritual pride or lingering attachments to physical devotion.",
+      "provenance": "Sunyasampadane; Mantragopya."
+    },
+    {
+      "id": "lingayat-jangama",
+      "kind": "concept",
+      "name": "Jangama (The Moving God)",
+      "archetypes": [
+        "one-through-many",
+        "axis-mundi"
+      ],
+      "gloss": "The wandering mendicant or realized soul, considered the 'moving Linga'. In Veerashaiva doctrine, feeding or revering a Jangama is not just an act of charity, but identical to worshipping Shiva directly.",
+      "facet": "Elevates the living, breathing human being above any stone idol. Basavanna declared that the static temple ('sthavara') perishes, but the moving, breathing temple ('jangama') stays forever, placing human life at the cosmic center.",
+      "provenance": "Vachana Sahitya."
+    },
+    {
+      "id": "lingayat-vachana",
+      "kind": "concept",
+      "name": "Vachana",
+      "archetypes": [
+        "culture-hero",
+        "cosmic-order"
+      ],
+      "gloss": "'That which is said'—rhythmic, free-verse poetry composed in vernacular Kannada. It bypassed elite Sanskrit to deliver direct, unmediated spiritual experience and fierce social critique directly to the common people.",
+      "facet": "Rejects scriptural authority and elite linguistic gatekeeping. The poetry is anti-clerical, drawing profound metaphysical metaphors from everyday labor—tailoring, washing, smithing—proving that divine truth speaks in the dialect of the streets.",
+      "provenance": "Vachana Sahitya."
+    },
+    {
+      "id": "lingayat-kayaka",
+      "kind": "principle",
+      "name": "Kayaka",
+      "archetypes": [
+        "cosmic-order",
+        "sacred-labor"
+      ],
+      "gloss": "The radical doctrine that 'Work is Heaven' ('Kayakave Kailasa'). It insists that every occupation, no matter how 'polluting' in the traditional caste system, is a direct, fully realized path to spiritual liberation.",
+      "facet": "Directly attacks the Hindu concept of Karma and ritual purity. A cobbler's work is as spiritually potent as a priest's chanting, completely abolishing the spiritual hierarchy of labor and demanding strict economic self-reliance.",
+      "provenance": "Vachanas of Nuliya Chandayya and Aydakki Marayya."
+    }
+  ],
+  "edges": [
+    {
+      "a": "lingayat-parasiva",
+      "b": "lingayat-ishtalinga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The absolute macrocosm anchored directly into the portable microcosm of the devotee."
+    },
+    {
+      "a": "lingayat-basavanna",
+      "b": "lingayat-vachana",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The reformer and his primary weapon—the unmediated, vernacular word."
+    },
+    {
+      "a": "lingayat-ishtalinga",
+      "b": "lingayat-jangama",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The two forms of the Linga—the personal static emblem on the body, and the living, moving embodiment in the mendicant."
+    },
+    {
+      "a": "lingayat-parasiva",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Lingayat theology explicitly identifies the Upanishadic Brahman with Parasiva, the supreme, non-dual absolute."
+    },
+    {
+      "a": "lingayat-parasiva",
+      "b": "shiva",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The direct theological identification with the Vedic/Puranic Shiva, though completely stripped of his traditional mythology and temple-bound iconography."
+    },
+    {
+      "a": "lingayat-ishtalinga",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An aniconic, dark stone serving as the absolute, physical focal point of divine presence, radically centralizing unmediated worship."
+    },
+    {
+      "a": "lingayat-ishtalinga",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fragment of the absolute carried directly upon or within the individual, rendering external churches and mediaries obsolete."
+    },
+    {
+      "a": "lingayat-ishtalinga",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A physical, handheld object that serves as a direct, empowered locus of spiritual force, circumventing distant, unapproachable gods."
+    },
+    {
+      "a": "lingayat-basavanna",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The rebel who bypasses the divine hierarchy and priesthood to bring the fire of liberation directly to the common humans."
+    },
+    {
+      "a": "lingayat-basavanna",
+      "b": "jain-mahavira",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ascetic reformer who explicitly rejects the authority of the Vedas, animal sacrifice, and the rigid stratification of the caste system."
+    },
+    {
+      "a": "lingayat-akka-mahadevi",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The female figure who is stripped of all garments and societal regalia to enter the absolute truth of the divine realm."
+    },
+    {
+      "a": "lingayat-jangama",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The living human being who becomes the literal, moving embodiment and representative of the deity within the community."
+    },
+    {
+      "a": "lingayat-jangama",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The living human vehicle who actively channels and anchors the divine for the community, superseding static idols."
+    },
+    {
+      "a": "lingayat-kayaka",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mundane labor and physical structures of daily agricultural/craft life infused with the exact map of cosmic salvation."
+    },
+    {
+      "a": "lingayat-kayaka",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Finding the absolute and the divine not in ascetic withdrawal, but in the natural flow of daily, unforced physical action."
+    },
+    {
+      "a": "lingayat-vachana",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The power of the spoken, vernacular word acting as a divine force that gives literal shape to the cosmos and society."
+    },
+    {
+      "a": "lingayat-allama-prabhu",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The enigmatic master of esoteric wisdom who initiates true seekers into the absolute, hidden truth of the cosmos."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "portable-axis",
+      "name": "Portable Axis",
+      "subtype": "concept",
+      "gloss": "The macrocosmic absolute miniaturized into a worn or carried physical object, allowing the practitioner to bypass geographic pilgrimage and temple institutions.",
+      "reason": "Needed for the Lingayat Ishtalinga, Kongo Minkisi, and Abrahamic phylacteries/amulets, where the locus of ultimate divine power is radically decentralized and carried on the body."
+    },
+    {
+      "id": "transgressive-mystic",
+      "name": "Transgressive Mystic",
+      "subtype": "hero",
+      "gloss": "The spiritual seeker who deliberately violates extreme societal taboos (such as public nakedness or breaking caste) to prove the irrelevance of earthly constructs before the divine.",
+      "reason": "Provides a joint for Akka Mahadevi, Diogenes, and the Aghori ascetics, who weaponize shock and social degradation as a direct path to absolute liberation."
+    },
+    {
+      "id": "sacred-labor",
+      "name": "Sacred Labor",
+      "subtype": "principle",
+      "gloss": "The doctrine that ordinary, physical, and often menial work is itself the highest form of worship and cosmic participation, erasing the boundary between secular toil and ritual purity.",
+      "reason": "Needed for Lingayat Kayaka, Karma Yoga, and Zen monastic chores, where enlightenment is achieved not through ascetic withdrawal, but through intense, mindful participation in daily labor."
+    }
+  ]
+}

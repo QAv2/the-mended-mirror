@@ -1,0 +1,248 @@
+{
+  "tradition": {
+    "id": "cargo-cult",
+    "name": "Cargo Cults (Melanesian millenarian)",
+    "region": "Vanuatu / PNG",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "cargo-cult-john-frum",
+      "kind": "hero",
+      "name": "John Frum",
+      "archetypes": [
+        "culture-hero",
+        "dying-rising"
+      ],
+      "gloss": "The central messianic figure of Tanna, Vanuatu. Emerging in the late 1930s, he urged the rejection of Christian missionary teachings and colonial labor, promising a utopian era where colonizers would depart and ancestors would return with endless 'kago' (cargo).",
+      "facet": "He is an anti-colonial savior whose utopia relies on reclaiming indigenous custom (kastom) while paradoxically inheriting the industrialized wealth of the oppressor, synthesizing traditional spirit-mediumship with WWII military aesthetics.",
+      "provenance": "Anthropological accounts of Tanna, notably Peter Worsley's 'The Trumpet Shall Sound' (1957) and Joel Bonnemaison's fieldwork."
+    },
+    {
+      "id": "cargo-cult-kago",
+      "kind": "concept",
+      "name": "Kago (Cargo)",
+      "archetypes": [
+        "eschatological-bounty"
+      ],
+      "gloss": "Industrial goods—canned meat, radios, jeeps, and rifles—understood not as manufactured commodities, but as the metaphysical fruit of ancestral labor. It is the ultimate manifestation of spiritual favor, rightful inheritance, and ancestral love.",
+      "facet": "Westerners view these goods as secular products of capitalism; cargo movements recognize them as inherently spiritual objects. The tragedy of colonialism is that white men deceitfully intercepted the cargo intended for the Melanesians.",
+      "provenance": "Peter Lawrence's 'Road Belong Cargo' (1964), focusing on the Madang District of Papua New Guinea."
+    },
+    {
+      "id": "cargo-cult-yasur",
+      "kind": "place",
+      "name": "Mount Yasur",
+      "archetypes": [
+        "axis-mundi",
+        "smith",
+        "underworld-sovereign"
+      ],
+      "gloss": "The highly active stratovolcano on Tanna. In the cosmology of the John Frum movement, its fiery crater is not just a geographic feature but the subterranean spirit-city and cosmic forge where John Frum and his army manufacture the prophesied cargo.",
+      "facet": "It recontextualizes the traditional underworld of the dead into a massive, industrialized ancestral factory. The spirits do not rest; they run assembly lines beneath the magma, preparing the eschatological fleet.",
+      "provenance": "Fieldwork by Jean Guiart (1956) and Joel Bonnemaison (1994) on Tanna's spiritual geography."
+    },
+    {
+      "id": "cargo-cult-airstrip",
+      "kind": "rite",
+      "name": "The Mock Airstrip",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The rigorous clearing of jungle to build replica runways, complete with bamboo control towers, wooden headphones, and flare-lit perimeters. Practitioners mimic the precise bodily movements of WWII signalmen to guide in the ancestral cargo planes.",
+      "facet": "It is the ultimate expression of sympathetic magic applied to modern logistics. By perfectly replicating the ritual infrastructure of American GIs, practitioners believe they can compel the heavens to yield material miracles.",
+      "provenance": "Widespread post-WWII Melanesian accounts; famously documented in David Attenborough's 'The Quest in Paradise' (1960)."
+    },
+    {
+      "id": "cargo-cult-prince-philip",
+      "kind": "deity",
+      "name": "Prince Philip",
+      "archetypes": [
+        "withdrawn-creator",
+        "solar"
+      ],
+      "gloss": "Venerated by the Yaohnanen people of Tanna as the pale-skinned son of the mountain spirit. According to prophecy, he traveled over the sea to marry a powerful queen and would eventually return to his homeland, bringing peace and immense prosperity.",
+      "facet": "He is a living European royal entirely subsumed into an indigenous mythos. The movement reframes the British Crown not as an imperial authority, but as a subordinate appendage to Tanna's spiritual sovereignty.",
+      "provenance": "Anthropological tracking of the Yaohnanen movement since the 1970s; Matthew Baylis's 'Man Belong Mrs Queen' (2013)."
+    },
+    {
+      "id": "cargo-cult-mansren",
+      "kind": "hero",
+      "name": "Mansren Mangundi",
+      "archetypes": [
+        "cyclic-ages",
+        "first-ancestor"
+      ],
+      "gloss": "The mythical Papuan creator-figure of the Koreri movement in Biak. An old man who rejuvenated himself in fire, he departed after humanity failed to heed him, promising to return and initiate 'Koreri'—a utopian era without death, sickness, or colonial subjugation.",
+      "facet": "He bridges deep indigenous mythology with explosive political resistance. His promise of a returning golden age fueled actual violent uprisings against Japanese and Dutch colonizers, transmuting a myth of skin-shedding into anti-colonial warfare.",
+      "provenance": "F.C. Kamma's 'Koreri: Messianic Movements in the Biak-Numfor Culture Area' (1972)."
+    },
+    {
+      "id": "cargo-cult-vailala",
+      "kind": "rite",
+      "name": "The Vailala Madness",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "A mass millenarian movement in the Gulf Province of Papua characterized by 'head-heaving', speaking in tongues, and the destruction of traditional cult objects. Adherents prepared for a great ghost ship carrying deceased relatives and white men's goods.",
+      "facet": "It represents a radical, iconoclastic break with the past. Rather than preserving tradition, practitioners destroyed their own sacred masks, believing total cultural erasure was the necessary price of admission to the industrialized ancestral utopia.",
+      "provenance": "Francis Edgar Williams's 'The Vailala Madness and the Destruction of Native Ceremonies in the Gulf Division' (1923)."
+    },
+    {
+      "id": "cargo-cult-tom-navy",
+      "kind": "ancestor",
+      "name": "Tom Navy",
+      "archetypes": [
+        "psychopomp",
+        "divine-twins"
+      ],
+      "gloss": "A syncretic spirit figure on Tanna, largely inspired by the presence of segregated African American troops during WWII. Viewed as an egalitarian, generous brother-figure who operates in tandem with John Frum to bypass white colonial authorities and deliver wealth.",
+      "facet": "He reflects the profound ontological shock of seeing black men wielding the same industrial wealth and military power as white colonizers, proving that 'kago' was not biologically restricted to white skin.",
+      "provenance": "Anthropological accounts of Tanna's post-war mythos, particularly Lamont Lindstrom's 'Cargo Cult: Strange Stories of Desire from Melanesia and Beyond' (1993)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "cargo-cult-tom-navy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The twin saviors of Tanna; one the architect of custom, the other the black American intercessor of wealth."
+    },
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "cargo-cult-yasur",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The messiah and his fiery, subterranean industrial forge."
+    },
+    {
+      "a": "cargo-cult-kago",
+      "b": "cargo-cult-airstrip",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The spiritual commodity and the physical, sympathetic infrastructure built to coax it from the sky."
+    },
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "cargo-cult-vailala",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Where John Frum demands a strict return to indigenous custom, the Vailala Madness demanded the total destruction of traditional artifacts."
+    },
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are eschatological saviors expected to return at the end of time to banish oppressors and restore a golden age."
+    },
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve the mythic narrative of a culturally foundational figure expected to return from over the sea."
+    },
+    {
+      "a": "cargo-cult-john-frum",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: John Frum's prophecies heavily borrow from, and subvert, Christian missionary teachings of the Second Coming and apocalypse."
+    },
+    {
+      "a": "cargo-cult-kago",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an ultimate, magical source of endless material prosperity and abundance that is fought over and coveted."
+    },
+    {
+      "a": "cargo-cult-yasur",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both center on a blazing volcanic underworld re-imagined as an active, bustling forge where divine items are manufactured."
+    },
+    {
+      "a": "cargo-cult-yasur",
+      "b": "goibniu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mythic smith whose metallurgical mastery equips the divine hosts, dwelling in an otherworldly domain."
+    },
+    {
+      "a": "cargo-cult-airstrip",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve constructing localized architecture that perfectly maps to, and attempts to draw down, the cosmic order."
+    },
+    {
+      "a": "cargo-cult-prince-philip",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine son or king who departs the earthly realm to rule afar, whose eventual return promises cosmic renewal."
+    },
+    {
+      "a": "cargo-cult-mansren",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancient figures associated with a primordial golden age who retreat, promising their utopian realm will eventually encompass the earth again."
+    },
+    {
+      "a": "cargo-cult-mansren",
+      "b": "baldr",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A radiant figure whose return from a state of departure signals the rebirth of the world after a catastrophic age."
+    },
+    {
+      "a": "cargo-cult-vailala",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both induce a localized, ecstatic madness that shatters conventional social order and demands total surrender to the spirit."
+    },
+    {
+      "a": "cargo-cult-tom-navy",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Powerful, iron-wielding, martial figures associated with modern industry, labor, and the fierce protection of the oppressed."
+    },
+    {
+      "a": "cargo-cult-tom-navy",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Operating as a brotherly dyad (with John Frum) that outwits the lords of the current world order to secure survival."
+    },
+    {
+      "a": "cargo-cult-vailala",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Mass ecstatic bodily movements and trembling utilized as the primary technology for contacting the spirit realm."
+    },
+    {
+      "a": "cargo-cult-prince-philip",
+      "b": "pnw-konankada",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A wealthy, distant chief of the horizon who hoards massive resources and must be spiritually negotiated with."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "eschatological-bounty",
+      "name": "Eschatological Bounty",
+      "subtype": "concept",
+      "gloss": "The promised influx of infinite material, spiritual, or agricultural wealth that accompanies the end of the current corrupted age and the return of the ancestors or messiah.",
+      "reason": "Crucial for millenarian movements where salvation is explicitly linked to an overwhelming, magical abundance of resources (Cargo, the Ghost Dance's returning buffalo, the Golden Age)."
+    }
+  ]
+}

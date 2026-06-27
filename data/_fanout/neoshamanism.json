@@ -1,0 +1,198 @@
+{
+  "tradition": {
+    "id": "neoshamanism",
+    "name": "Neoshamanism / Core Shamanism",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "neoshamanism-core-journey",
+      "kind": "rite",
+      "name": "The Core Shamanic Journey",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "A democratized, drum-induced trance state where the practitioner travels into unseen realms to consult with compassionate spirits. Stripped of indigenous cultural specifics, it relies on a standardized method of visualization and vertical transit.",
+      "facet": "Unlike traditional shamanism which often involves hereditary burdens, spontaneous illness, or arduous initiations, the core journey is framed as an accessible, safe technique available to anyone for personal healing and spiritual problem-solving.",
+      "provenance": "Formulated by Michael Harner in 'The Way of the Shaman' (1980)."
+    },
+    {
+      "id": "neoshamanism-power-animal",
+      "kind": "creature",
+      "name": "The Power Animal",
+      "archetypes": [
+        "psychopomp",
+        "tutelary-spirit"
+      ],
+      "gloss": "A compassionate tutelary spirit, typically appearing in animal form within the Lower World, that volunteers to protect, empower, and guide the practitioner in Non-Ordinary Reality.",
+      "facet": "In its neo-shamanic form, the power animal is almost universally benevolent and psychologically integrating, diverging from traditional indigenous spirits that can be dangerous, taboo-bound, or capricious if not properly appeased.",
+      "provenance": "Adapted by Harner from widespread animistic concepts; heavily popularized in Western New Age culture."
+    },
+    {
+      "id": "neoshamanism-lower-world",
+      "kind": "place",
+      "name": "The Lower World",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An idyllic, earthy dimension within Non-Ordinary Reality, typically accessed by visualizing a descent through a tunnel, cave, or tree root. It is the primary habitat of Power Animals and ancestral spirits of nature.",
+      "facet": "It is explicitly stripped of any hellish, punitive, or morbid associations found in Western or traditional underworlds, presented instead as a pristine, unfallen Eden of pure nature and instinctual wisdom.",
+      "provenance": "Harner's synthesis of various indigenous cosmologies (e.g., Jivaro, Conibo), standardized as a core geographic coordinate."
+    },
+    {
+      "id": "neoshamanism-upper-world",
+      "kind": "place",
+      "name": "The Upper World",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An ethereal, abstract realm accessed by ascending via smoke, a tall tree, or a mountain. It is populated by 'teachers in human form', ascended masters, and highly evolved spiritual entities who offer philosophical guidance.",
+      "facet": "Mirrors the modern Western division between earthy instinct and ascended intellect. Unlike traditional sky realms ruled by formidable storm or creator deities, it functions as a personalized celestial university for the practitioner.",
+      "provenance": "Synthesized by Harner; parallels traditional tripartite cosmologies but tailored for modern psychospiritual development."
+    },
+    {
+      "id": "neoshamanism-soul-retrieval",
+      "kind": "rite",
+      "name": "Soul Retrieval",
+      "archetypes": [
+        "ecstatic-shaman",
+        "soul-loss"
+      ],
+      "gloss": "A healing ceremony where the practitioner journeys into Non-Ordinary Reality to locate and return fragmented portions of a client's soul that fled during physical or emotional trauma.",
+      "facet": "It translates ancient soul-loss etiologies into a modern psychological framework, essentially functioning as a shamanic counterpart to trauma therapy, emphasizing wholeness and the integration of the dissociated self.",
+      "provenance": "Popularized and codified as a core neo-shamanic practice by Sandra Ingerman in 'Soul Retrieval' (1991)."
+    },
+    {
+      "id": "neoshamanism-monotonous-drumming",
+      "kind": "force",
+      "name": "Sonic Driving (The Monotonous Drumbeat)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The use of a rapid, steady drumbeat—typically 200 to 220 beats per minute—to induce a theta-wave state in the brain, serving as the literal vehicle for entering and returning from the shamanic trance.",
+      "facet": "It replaces the need for hallucinogenic plant medicines or extreme physical asceticism, transforming the drum from a culturally specific ritual object into a universal, neurophysiological technology for altering consciousness.",
+      "provenance": "Grounded in Harner's later research and popularized through the Foundation for Shamanic Studies to ensure legal, accessible trance induction in the West."
+    },
+    {
+      "id": "neoshamanism-non-ordinary-reality",
+      "kind": "concept",
+      "name": "Non-Ordinary Reality (NOR)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The hidden, energetic dimension of existence parallel to the physical world (Ordinary Reality). It is navigated via altered states of consciousness and is considered equally 'real' and causally active in shaping physical life.",
+      "facet": "By framing it as 'non-ordinary' rather than purely 'spiritual' or 'mythic,' the tradition borrows the epistemological language of anthropology, creating a safe, quasi-scientific boundary for Westerners to engage with spirits.",
+      "provenance": "Coined by Carlos Castaneda in 'The Teachings of Don Juan' (1968), adopted by Harner as a foundational ontological framework."
+    }
+  ],
+  "edges": [
+    {
+      "a": "neoshamanism-core-journey",
+      "b": "neoshamanism-monotonous-drumming",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Sonic driving is the indispensable engine that initiates, sustains, and ultimately recalls the practitioner from the core journey."
+    },
+    {
+      "a": "neoshamanism-lower-world",
+      "b": "neoshamanism-upper-world",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: They form the dual destinations of the core journey, dividing the spiritual ecosystem into instinctual-animal guides and philosophical-human teachers."
+    },
+    {
+      "a": "neoshamanism-soul-retrieval",
+      "b": "neoshamanism-power-animal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The practitioner relies heavily on the tracking abilities and protective force of their Power Animal to locate and escort lost soul fragments back to the client."
+    },
+    {
+      "a": "neoshamanism-core-journey",
+      "b": "shaman-three-worlds",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Harner explicitly extracted the Siberian and Central Asian three-world cosmology to formulate his standardized, universally accessible map for the journey."
+    },
+    {
+      "a": "neoshamanism-core-journey",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rely on the deliberate detachment of the practitioner's consciousness from the physical body to travel, negotiate, and gather information in unseen realms."
+    },
+    {
+      "a": "neoshamanism-monotonous-drumming",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize rhythmic, repetitive acoustic and kinetic driving as the primary technology to induce the ecstatic states necessary for healing and vision."
+    },
+    {
+      "a": "neoshamanism-power-animal",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions posit an inextricable spiritual and energetic link between a human being and a specific animal counterpart that provides vitality and protection."
+    },
+    {
+      "a": "neoshamanism-soul-retrieval",
+      "b": "tarniq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Inuit cosmology features the tarniq, a miniature soul that can be displaced or stolen, directly mirroring the neo-shamanic etiology of illness as soul fragmentation."
+    },
+    {
+      "a": "neoshamanism-non-ordinary-reality",
+      "b": "the-dreaming",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit a parallel, non-linear dimension of spiritual reality that underpins, animates, and continuously generates the physical world."
+    },
+    {
+      "a": "neoshamanism-lower-world",
+      "b": "underworld-sovereign",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Traditional underworlds are ruled by fearsome lords of the dead; the neo-shamanic Lower World intentionally removes death-lords, reimagining the space as an Edenic nature-dimension."
+    },
+    {
+      "a": "neoshamanism-power-animal",
+      "b": "pnw-crest-lineage",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Pacific Northwest crests are strictly inherited corporate property signifying aristocratic lineage, whereas neo-shamanic power animals are radically democratic, individualized psychological allies."
+    },
+    {
+      "a": "neoshamanism-soul-retrieval",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A mythic and ritual parallel: the deliberate seeking out and 're-membering' of a fragmented, scattered essence to restore wholeness and life."
+    },
+    {
+      "a": "neoshamanism-upper-world",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both depict an abstract, ascending realm of pure spiritual light populated by highly evolved emanations or teachers, intentionally detached from earthy, material concerns."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "tutelary-spirit",
+      "name": "Tutelary Spirit",
+      "subtype": "force",
+      "gloss": "A personal guardian, guide, or ally—often in animal form—that attaches itself to an individual to provide protection, specific knowledge, and spiritual vitality.",
+      "reason": "Necessary for distinguishing individualized, personal guardian spirits from the broader, more universal Master of Animals or generic psychopomp archetypes."
+    },
+    {
+      "id": "soul-loss",
+      "name": "Soul Loss / Fragmentation",
+      "subtype": "concept",
+      "gloss": "The belief that trauma, grief, or fright causes a vital fragment of an individual's soul to detach and become trapped in another realm, requiring ritual retrieval.",
+      "reason": "A globally pervasive etiology of illness found across Siberian, Inuit, Mesoamerican, and Neo-shamanic traditions that is not adequately captured by the generic 'ecstatic-shaman' joint."
+    }
+  ]
+}

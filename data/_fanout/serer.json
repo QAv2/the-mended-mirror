@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "serer",
+    "name": "Serer (A ƭat Roog)",
+    "region": "Senegal / Gambia",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "serer-roog",
+      "kind": "deity",
+      "name": "Roog (Roog Sene)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme, incorporeal creator deity of the Serer cosmos. Roog Sene (Roog the Immense) is neither exclusively male nor female, an omnipresent principle who spoke the universe into being from a primordial swamp, maintaining ultimate sovereignty over the architecture of life and death.",
+      "facet": "Roog is entirely unrepresentable and rarely petitioned directly. There are no shrines or images of the creator, who is deemed too vast to intervene in human affairs, delegating all daily cosmic management to the ancestral Pangool.",
+      "provenance": "Henry Gravrand, 'La Civilisation Sereer: Pangool' (1990); traditional cosmogony."
+    },
+    {
+      "id": "serer-pangool",
+      "kind": "ancestor",
+      "name": "Pangool (singular: Fangool)",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The ancient saints, ancestral spirits, and elemental forces that act as the sole intercessors between humanity and Roog. Dwelling in trees, rivers, and stones, they actively manage fortune, rainfall, and healing for the living.",
+      "facet": "They are a hybridized spiritual caste. A Fangool can be a primordial nature spirit or a highly venerated human ancestor who, through exceptional virtue and spiritual power, transcended into an intercessory deity after death.",
+      "provenance": "Marguerite Dupire, 'Sagesse sereer' (1994); Henry Gravrand."
+    },
+    {
+      "id": "serer-mindiss",
+      "kind": "force",
+      "name": "Mindiss",
+      "archetypes": [
+        "mother-of-waters",
+        "cosmic-serpent"
+      ],
+      "gloss": "The supreme female Fangool and protector spirit of the Sine region. She manifests in the physical world as a manatee or a giant serpent residing in the Sine River, receiving offerings to ensure the prosperity of the land.",
+      "facet": "She bridges the elemental and the political. She is not merely a river spirit but the sovereign guardian of the Serer monarchy; kings must make offerings to her to legitimize their rule and secure cosmic balance.",
+      "provenance": "Oral traditions of the Sine kingdom; Henry Gravrand's ethnographic records."
+    },
+    {
+      "id": "serer-saltigue",
+      "kind": "concept",
+      "name": "Saltigue",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The hereditary caste of priests, rainmakers, and diviners. They are the spiritual technicians of the Serer world, trained to interpret the will of the Pangool, predict the weather, and ward off malevolent sorcery from the community.",
+      "facet": "Their authority is fundamentally ecological. A Saltigue's primary metric of spiritual legitimacy is meteorological accuracy; they are held practically and politically responsible for ensuring the rains arrive and the crops do not fail.",
+      "provenance": "Serer oral history; annual Xooy ceremony records."
+    },
+    {
+      "id": "serer-xooy",
+      "kind": "rite",
+      "name": "Xooy",
+      "archetypes": [
+        "communal-divination"
+      ],
+      "gloss": "The supreme annual divination festival held just before the rainy season. The Saltigues gather in a public arena to enter trance states, prophesying the year's rainfall, harvests, political events, and looming catastrophes.",
+      "facet": "It functions as a public, spiritual peer-review. Saltigues from different regions must proclaim their visions before the entire community, testing their esoteric knowledge against one another in a high-stakes arena of predictive accuracy.",
+      "provenance": "Recognized by UNESCO as Intangible Cultural Heritage (2013)."
+    },
+    {
+      "id": "serer-saas",
+      "kind": "place",
+      "name": "The Saas Tree",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A highly venerated tree (Acacia albida) in Serer cosmogony, considered the first tree created by Roog and a primary conduit for the Pangool. It symbolizes life, fertility, and the deep historical roots of the Serer people.",
+      "facet": "It defies normal ecological rhythms, shedding its leaves in the rainy season and growing them in the dry season. This biological inversion is viewed as a divine signature, marking it as a deliberate conduit to the spirit world.",
+      "provenance": "Serer creation myths; Henry Gravrand, 'La Civilisation Sereer: Cosaan' (1983)."
+    },
+    {
+      "id": "serer-ndut",
+      "kind": "rite",
+      "name": "Ndut",
+      "archetypes": [
+        "liminal-initiation"
+      ],
+      "gloss": "The rigorous, transformative rites of passage for Serer youths, held in the sacred grove. It imparts the secret laws of the cosmos, vital survival skills, and the sacred spiritual lineage of the Pangool.",
+      "facet": "It is both a spiritual death and a social birth. The uninitiated child is considered ritually formless; only by passing through the physical hardship of the Ndut do they receive the ancestral 'shape' required to be truly Serer.",
+      "provenance": "Marguerite Dupire; traditional anthropological accounts of the Sine-Saloum region."
+    }
+  ],
+  "edges": [
+    {
+      "a": "serer-roog",
+      "b": "serer-pangool",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The distant, ultimate creator and the active, localized administrators of creation."
+    },
+    {
+      "a": "serer-saltigue",
+      "b": "serer-xooy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The practitioners of foresight and the supreme ritual arena where their visions are tested."
+    },
+    {
+      "a": "serer-pangool",
+      "b": "serer-saas",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The intercessory spirits and the paradoxical sacred tree that acts as their primary conduit."
+    },
+    {
+      "a": "serer-mindiss",
+      "b": "serer-pangool",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The most elevated female entity acting as the sovereign exemplar of the Fangool class."
+    },
+    {
+      "a": "serer-roog",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme high god who establishes the universe but remains deeply withdrawn, leaving daily operations to spirits."
+    },
+    {
+      "a": "serer-roog",
+      "b": "wakan-tanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Conceptualized not as a human-like ruler but as an incorporeal, omnipresent 'immensity' or 'great mystery'."
+    },
+    {
+      "a": "serer-roog",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Historically, Islamic Serer populations have mapped Roog directly onto Allah to harmonize indigenous theology with Islam."
+    },
+    {
+      "a": "serer-roog",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In Catholic Serer liturgy, the name Roog Sene is officially used as the direct translation for the Abrahamic God."
+    },
+    {
+      "a": "serer-pangool",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Spiritual entities that blend ancestral human history with raw natural forces, acting as delegates for a supreme creator."
+    },
+    {
+      "a": "serer-pangool",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Elevated ancestral spirits whose ongoing propitiation is strictly required for the community's fortune and health."
+    },
+    {
+      "a": "serer-pangool",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The continuous spiritual presence of the deceased actively managing the daily affairs of the living."
+    },
+    {
+      "a": "serer-mindiss",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A monumental water serpent whose physical presence guarantees the ecological fertility of the region."
+    },
+    {
+      "a": "serer-mindiss",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A divine serpent associated with water courses, deeply intertwined with the legitimacy of the local pantheon and royalty."
+    },
+    {
+      "a": "serer-saltigue",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A specialized caste of ritual specialists responsible for trance divination, healing, and mediating with complex local spirits."
+    },
+    {
+      "a": "serer-xooy",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel—a highly formalized, institutionalized system of forecasting the future to align state and community survival with divine will."
+    },
+    {
+      "a": "serer-saas",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial tree serving as the central nervous system of the cosmos, connecting the physical earth to spiritual dimensions."
+    },
+    {
+      "a": "serer-saas",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A colossal sacred tree functioning as a localized axis mundi and the primary site for ancestral communication."
+    },
+    {
+      "a": "serer-ndut",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A rigorous, secret initiation rite in a secluded grove that permanently transforms boys into spiritually complete men."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "active-intercessors",
+      "name": "Active Intercessors",
+      "subtype": "concept",
+      "gloss": "Spiritual beings—often a blend of elemental forces and elevated human ancestors—who handle the daily administration of the cosmos and receive direct sacrifice on behalf of a distant supreme creator.",
+      "reason": "Essential for capturing entities like the Pangool, Abosom, and Orishas, which act not merely as generic 'ancestors' but as a highly specialized, localized bureaucratic tier of the divine."
+    },
+    {
+      "id": "communal-divination",
+      "name": "Communal Divination",
+      "subtype": "rite",
+      "gloss": "A high-stakes, public ritual where multiple diviners or shamans gather to forecast the upcoming seasonal and political cycles, testing their visions against one another before the community.",
+      "reason": "Necessary for distinguishing solitary shamanic journeying from institutionalized, competitive public foresight festivals like the Serer Xooy."
+    },
+    {
+      "id": "liminal-initiation",
+      "name": "Liminal Initiation",
+      "subtype": "rite",
+      "gloss": "A formalized period of isolation, physical ordeal, and esoteric instruction that permanently alters the ontological status of a community member.",
+      "reason": "Captures the structured social-death-and-rebirth rites like the Serer Ndut and Aboriginal Bora, distinct from generic 'rites' or standard lifecycle events."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "tradition": {
+    "id": "shaiva",
+    "name": "Shaivism",
+    "region": "South Asia",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "shaiva-paramashiva",
+      "kind": "principle",
+      "name": "Paramashiva (The Supreme Shiva)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The ultimate, non-dual reality that transcends and encompasses all existence. It is pure, undifferentiated consciousness—static, limitless, and luminous. From this silent void, the entire cosmos emanates, rests, and eventually dissolves, yet the absolute itself remains utterly unchanged and unconditioned.",
+      "facet": "Unlike Western monotheistic creators who stand apart from their creation, Paramashiva is the creation; the universe is merely his self-reflection, played out within his own infinite awareness.",
+      "provenance": "Kashmir Shaivism (Trika system); the Shiva Sutras of Vasugupta; Svetasvatara Upanishad."
+    },
+    {
+      "id": "shaiva-shakti",
+      "kind": "force",
+      "name": "Shakti (The Divine Power / Vimarsha)",
+      "archetypes": [
+        "great-mother",
+        "complementarity"
+      ],
+      "gloss": "The dynamic, pulsating energy ('Spanda') of the universe. She is the active, manifesting power of Shiva, bringing the cosmos into being, sustaining it, and absorbing it back. Where Shiva is the silent witness, Shakti is the vibrant dance of reality.",
+      "facet": "Shaivism insists that power and the possessor of power are identical. Shakti is not subordinate to Shiva but is his very essence, making a strictly dualistic universe impossible.",
+      "provenance": "Tantraloka of Abhinavagupta; Saundaryalahari; standard Shakta-Shaiva theological synthesis."
+    },
+    {
+      "id": "shaiva-nataraja",
+      "kind": "deity",
+      "name": "Shiva Nataraja (Lord of the Dance)",
+      "archetypes": [
+        "cyclic-ages",
+        "storm-wielder"
+      ],
+      "gloss": "The four-armed dancer within a ring of fire, perfectly balancing creation and destruction. His upper right hand holds the drum of time and creation; his upper left, the fire of dissolution. He tramples the demon of ignorance, offering liberation through his raised foot.",
+      "facet": "It distills the entirety of cosmology into a single kinetic image, rejecting the linear march of time for a terrifying, beautiful, eternal pulsation where destruction is structurally identical to creation.",
+      "provenance": "Chola bronze sculptures (10th-12th century Tamil Nadu); Chidambaram temple traditions; Tirumantiram."
+    },
+    {
+      "id": "shaiva-lingam",
+      "kind": "concept",
+      "name": "The Shiva Lingam",
+      "archetypes": [
+        "axis-mundi",
+        "complementarity"
+      ],
+      "gloss": "The supreme aniconic symbol of Shiva. A smooth, vertical column resting within a yoni base, representing the formless infinite emerging into form. It marks the pillar of light without beginning or end, and the fundamental union of consciousness and energy.",
+      "facet": "It bypasses anthropomorphic worship entirely, demanding the devotee recognize the divine not as a human sovereign, but as an infinite, ungraspable pillar of generative reality.",
+      "provenance": "Shiva Purana (Lingodbhava myth); widespread epigraphic and archaeological evidence across South Asia."
+    },
+    {
+      "id": "shaiva-bhairava",
+      "kind": "deity",
+      "name": "Bhairava",
+      "archetypes": [
+        "underworld-sovereign",
+        "trickster"
+      ],
+      "gloss": "The terrifying, transgressive manifestation of Shiva, associated with cremation grounds, dogs, and the destruction of ego. Carrying a skull-bowl and wandering as a cosmic beggar, he shatters ritual purity and societal norms, revealing that the absolute encompasses the impure.",
+      "facet": "He annihilates the orthodox obsession with purity, proving that ultimate liberation requires confronting and embracing terror, pollution, and death rather than fleeing from them.",
+      "provenance": "Kapalika and Kalamukha sects; Bhairava Tantras; Rudrayamala Tantra."
+    },
+    {
+      "id": "shaiva-dakshinamurti",
+      "kind": "hero",
+      "name": "Dakshinamurti",
+      "archetypes": [
+        "culture-hero",
+        "axis-mundi"
+      ],
+      "gloss": "Shiva as the supreme, silent guru. Seated facing south under a banyan tree, he teaches the ultimate wisdom of non-duality not through spoken words, but through absolute, eloquent silence, instantly dispelling the doubts of the ancient sages.",
+      "facet": "He subverts the idea of revealed scripture or verbal doctrine; the highest truth is transmitted through a silent resonance that stops the mind, rather than a doctrine that feeds it.",
+      "provenance": "Dakshinamurti Stotra (attributed to Adi Shankara); Agamic temple architecture."
+    },
+    {
+      "id": "shaiva-pashupati",
+      "kind": "deity",
+      "name": "Pashupati (Lord of Beasts)",
+      "archetypes": [
+        "master-of-animals",
+        "sky-father"
+      ],
+      "gloss": "The lord of all creatures and souls ('pashu'). He is the master who both binds the unenlightened soul in the tethers ('pasha') of illusion and karma, and the only sovereign capable of cutting those bonds to grant absolute, immediate liberation.",
+      "facet": "It explicitly frames human beings as herd animals tied to the post of existence, humbling the intellect by declaring that only the grace of the herdsman can break the ropes of ego.",
+      "provenance": "Pashupata Sutras (Lakulisha); Svetasvatara Upanishad; Indus Valley Pashupati seal (contested proto-Shiva)."
+    },
+    {
+      "id": "shaiva-vibhuti",
+      "kind": "rite",
+      "name": "Vibhuti / Bhasma (Sacred Ash)",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "The grey ash smeared across the forehead and body of the ascetic and the devotee. It is the ultimate residue left after the fire of spiritual knowledge has burned away all material attachments, desires, and illusions of the ego.",
+      "facet": "It is an ever-present memento mori worn not in mourning, but in triumph. It declares that once everything superficial is reduced to ash, only the indestructible truth remains.",
+      "provenance": "Bhasma Jabala Upanishad; widespread Shaiva sectarian practice."
+    }
+  ],
+  "edges": [
+    {
+      "a": "shaiva-paramashiva",
+      "b": "shaiva-shakti",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The indivisible dyad of static, luminous consciousness and its dynamic, manifesting energy."
+    },
+    {
+      "a": "shaiva-bhairava",
+      "b": "shaiva-dakshinamurti",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The terrifying, polluting, transgressive destroyer paired against the tranquil, pure, perfectly silent teacher."
+    },
+    {
+      "a": "shaiva-paramashiva",
+      "b": "shaiva-lingam",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The completely unmanifest absolute and its supreme, formless physical manifestation."
+    },
+    {
+      "a": "shaiva-paramashiva",
+      "b": "shiva",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The explicit historical elevation of the Vedic storm-and-wilderness deity into the absolute metaphysical substrate of the universe."
+    },
+    {
+      "a": "shaiva-shakti",
+      "b": "parvati",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The philosophical abstraction of divine energy fully merged with the mythological figure of the mountain goddess."
+    },
+    {
+      "a": "shaiva-paramashiva",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The infinite, boundless, unmanifest absolute that precedes and contains all cosmic emanation without being diminished by it."
+    },
+    {
+      "a": "shaiva-nataraja",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the inexorable, turning cycle of existence and the mechanism of overcoming it, though Shaivism personifies it as a kinetic dancer."
+    },
+    {
+      "a": "shaiva-lingam",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A vertical axis mundi structurally connecting the underworld, the earthly realm, and the heavens."
+    },
+    {
+      "a": "shaiva-lingam",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial, smooth, undifferentiated shape containing the supreme potential from which all diverse creation explodes."
+    },
+    {
+      "a": "shaiva-shakti",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dynamic polarity essential for cosmic manifestation, recognizing that stillness and action require one another to generate reality."
+    },
+    {
+      "a": "shaiva-pashupati",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sovereign master of beasts who controls the fates of the creatures bound to his domain, demanding respect to release his bounty."
+    },
+    {
+      "a": "shaiva-bhairava",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying, canine-associated deity of the margins and the grotesque, pointing to transformative underworld powers that defy the neat order of the sky gods."
+    },
+    {
+      "a": "shaiva-shakti",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dual principles of consciousness and materiality/energy, though Shaivism fundamentally unites them into a single non-dual continuum."
+    },
+    {
+      "a": "shaiva-bhairava",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The transgressive, boundary-dissolving lord of intoxication and madness who violently overturns societal norms to reveal a deeper truth."
+    },
+    {
+      "a": "shaiva-vibhuti",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate reduction of the ego and the physical form to nothingness, revealing the total illusion of permanent personal identity."
+    },
+    {
+      "a": "shaiva-dakshinamurti",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine dispenser of supreme, foundational wisdom to humanity, though Shaivism favors absolute silence over Thoth's written mathematics and magic."
+    },
+    {
+      "a": "shaiva-shakti",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active, emanated wisdom and creative energy of the otherwise unapproachable, static supreme monad."
+    },
+    {
+      "a": "shaiva-bhairava",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dark, unpredictable, norm-shattering lord associated with the night, skulls, and the terrifying destruction of the old order."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "aniconic-absolute",
+      "name": "Aniconic Absolute",
+      "subtype": "concept",
+      "gloss": "A physical object or geometric form that represents the supreme reality without resorting to anthropomorphic imagery, emphasizing infinite scale or unmanifest potential.",
+      "reason": "Needed to structurally link the Shiva Lingam, the Kaaba's Black Stone, and indigenous unhewn stones that embody the divine precisely by lacking a human face."
+    },
+    {
+      "id": "transgressive-destroyer",
+      "name": "Transgressive Destroyer",
+      "subtype": "deity",
+      "gloss": "A terrifying, chaotic manifestation of the divine that deliberately breaks social and ritual taboos to demonstrate that ultimate reality transcends human moral and purity codes.",
+      "reason": "Required to cleanly connect Bhairava, Tezcatlipoca, and esoteric wrathful deities who shatter the illusion of dualistic purity through terror and pollution."
+    }
+  ]
+}

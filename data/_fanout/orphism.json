@@ -1,0 +1,199 @@
+{
+  "tradition": {
+    "id": "orphism",
+    "name": "Orphism",
+    "region": "Greece / Magna Graecia",
+    "color": "#c8a6d0"
+  },
+  "figures": [
+    {
+      "id": "orphism-orpheus",
+      "kind": "hero",
+      "name": "Orpheus",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The legendary Thracian poet whose music enchanted nature and who descended into Hades to retrieve his bride. After failing, he renounced the world and was dismembered by ecstatic Maenads, his head continuing to sing as it floated down the Hebrus river.",
+      "facet": "He is not merely a tragic lover but the founding prophet of an esoteric religion, translating his intimate knowledge of death into the sacred texts and ascetic lifestyle that guarantee the soul's liberation.",
+      "provenance": "Orphic hymns; Pindar; Plato's Republic; Ovid's Metamorphoses."
+    },
+    {
+      "id": "orphism-zagreus",
+      "kind": "deity",
+      "name": "Dionysus Zagreus",
+      "archetypes": [
+        "dying-rising",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The firstborn child of Zeus and Persephone, destined to rule the cosmos. Jealous Hera incited the Titans to distract the infant with toys, then tear him apart, boil, and consume his flesh before Zeus incinerated them with a thunderbolt.",
+      "facet": "Unlike the Olympian Dionysus of wine and frenzy, Zagreus is the innocent, sacrificed divine core whose brutal consumption forms the hidden, indestructible spark of divinity trapped within all human flesh.",
+      "provenance": "Proclus, Commentary on Timaeus; Olympiodorus; Orphic fragments."
+    },
+    {
+      "id": "orphism-titans",
+      "kind": "force",
+      "name": "The Titans (Ancestors of Men)",
+      "archetypes": [
+        "cosmic-adversary",
+        "origin-of-death"
+      ],
+      "gloss": "The ancient, lawless beings who murdered and devoured the infant Zagreus. Struck by Zeus's thunderbolt, they were reduced to soot and ashes, from which the first human beings were generated, inheriting both their malice and the consumed divine flesh.",
+      "facet": "They reframe the Greek enemies of the gods into the literal, material ancestors of humanity. Their crime establishes the doctrine of original guilt, making the human body an inheritance of Titanic violence.",
+      "provenance": "Olympiodorus, Commentary on the Phaedo; Plutarch, On the Eating of Flesh."
+    },
+    {
+      "id": "orphism-phanes",
+      "kind": "deity",
+      "name": "Phanes (Protogonos)",
+      "archetypes": [
+        "world-egg",
+        "first-ancestor"
+      ],
+      "gloss": "The radiant, golden-winged hermaphroditic creator deity who burst forth from the cosmic silver egg spun by Unaging Time. Zeus later swallowed Phanes to absorb all creation into himself and deliberately remake the universe anew.",
+      "facet": "Phanes introduces a startlingly transcendent, light-bearing creator into the Greek mythos, shifting cosmogony from a brutal war of succession to a cycle of emanation, absolute absorption, and deliberate cosmic renewal.",
+      "provenance": "The Derveni Papyrus; Orphic Argonautica; Proclus."
+    },
+    {
+      "id": "orphism-gold-tablets",
+      "kind": "rite",
+      "name": "The Gold Leaves (Totenpasse)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "Tiny, inscribed foil sheets placed in the mouths or hands of the dead. They provide precise cartographic instructions and passwords for navigating the underworld, demanding the soul declare, 'I am a child of Earth and Starry Heaven.'",
+      "facet": "They bypass the gloomy Homeric afterlife entirely. The deceased relies not on the gods' whim, but on memorized esoteric knowledge to claim their inherent divine lineage and drink from the Lake of Memory.",
+      "provenance": "Funerary excavations in Thurii, Hipponion, and Pelinna (4th c. BCE onwards)."
+    },
+    {
+      "id": "orphism-chronos",
+      "kind": "principle",
+      "name": "Chronos (Unaging Time)",
+      "archetypes": [
+        "cosmic-serpent",
+        "cyclic-ages"
+      ],
+      "gloss": "The primordial, serpentine principle of time, often depicted as a multi-headed dragon interwoven with Necessity. He shaped the cosmic ether and primordial chaos into the brilliant silver egg from which all ordered life hatched.",
+      "facet": "Unlike the brutal Titan Cronus, this is a distinct, abstract, eternal force. Time is elevated to the absolute first cause, operating outside the anthropomorphic drama of the Olympian gods.",
+      "provenance": "Hieronyman and Hellenican Theogonies; Damascius."
+    },
+    {
+      "id": "orphism-soma-sema",
+      "kind": "concept",
+      "name": "Soma Sema (The Body is a Tomb)",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The foundational Orphic doctrine that the immortal soul is imprisoned within the physical body as punishment for the ancestral crime of the Titans. Freedom requires ascetic purity and breaking free from the 'Wheel of Birth.'",
+      "facet": "It violently rejects the classical Greek glorification of the physical form. The flesh is a prison, the material world is punishment, and true existence only begins when the soul permanently escapes reincarnation.",
+      "provenance": "Plato, Cratylus; Plato, Gorgias; Orphic fragments."
+    },
+    {
+      "id": "orphism-nyx",
+      "kind": "deity",
+      "name": "Nyx (Night)",
+      "archetypes": [
+        "great-mother",
+        "withdrawn-creator"
+      ],
+      "gloss": "The primordial goddess of darkness who resides in a cave, uttering prophecies. She is the ancient nurse of the gods and the highest counselor, from whom even Zeus must seek advice before remaking the cosmos.",
+      "facet": "In Orphism, she is not merely an elemental backdrop but the ultimate, enduring source of divine wisdom. She bridges the reigns of successive cosmic rulers, guiding Zeus's re-creation from the shadows.",
+      "provenance": "Orphic Rhapsodies; Derveni Papyrus; Proclus."
+    }
+  ],
+  "edges": [
+    {
+      "a": "orphism-zagreus",
+      "b": "orphism-titans",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The pure divine prey and the monstrous consumers, whose violent collision literally generates humanity's dual nature."
+    },
+    {
+      "a": "orphism-soma-sema",
+      "b": "orphism-gold-tablets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The philosophical diagnosis of material entrapment and the esoteric ritual technology required to execute the final escape."
+    },
+    {
+      "a": "orphism-zagreus",
+      "b": "dionysus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The esoteric, sacrificial manifestation of the pan-Hellenic god of wine, reimagined as the foundational victim of cosmic violence."
+    },
+    {
+      "a": "orphism-zagreus",
+      "b": "osiris",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicitly identified with each other by ancient historians; dismembered divine rulers whose scattered flesh guarantees resurrection."
+    },
+    {
+      "a": "orphism-phanes",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The primordial cosmic egg containing the radiant blueprint of all creation before it bursts into materialized duality."
+    },
+    {
+      "a": "orphism-orpheus",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Primordial shamans and master bards whose music bends the natural world and who harrow the underworld for esoteric secrets."
+    },
+    {
+      "a": "orphism-soma-sema",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The profound diagnosis of existence as an agonizing cycle of repeated births that the ascetic must break to achieve true liberation."
+    },
+    {
+      "a": "orphism-soma-sema",
+      "b": "manichaean-dualism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The strict ontological division between an imprisoned divine soul of light and a corrupt, heavy material vessel of darkness."
+    },
+    {
+      "a": "orphism-gold-tablets",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ritualized declarations of purity and cosmic lineage absolutely required to navigate the perilous, structured geography of the afterlife."
+    },
+    {
+      "a": "orphism-zagreus",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The consumed flesh of the dying god that becomes the indestructible, hidden kernel of divinity trapped within all humanity."
+    },
+    {
+      "a": "orphism-soma-sema",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Buddhism denies the eternal soul and Orphism centers it, both radically agree that the material self is a trap generating endless suffering."
+    },
+    {
+      "a": "orphism-titans",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ignorant or wicked progenitors who ensnare pure divine essence within a flawed, physical human vessel."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "esoteric-cartography",
+      "name": "Esoteric Cartography",
+      "subtype": "rite",
+      "gloss": "The precise passwords, geographical maps, or memorized secret formulas required by the deceased to safely navigate the underworld and avoid oblivion or rebirth.",
+      "reason": "Captures the highly specific ritual technology (Orphic tablets, Egyptian Book of the Dead, Mandaean scrolls) meant to bypass divine judgment through sheer knowledge."
+    }
+  ]
+}

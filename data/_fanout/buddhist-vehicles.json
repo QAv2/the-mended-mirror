@@ -1,0 +1,235 @@
+{
+  "tradition": {
+    "id": "buddhist-vehicles",
+    "name": "Buddhist vehicles (Theravada / Mahayana / Vajrayana)",
+    "region": "Asia",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "buddhist-vehicles-arahant",
+      "kind": "hero",
+      "name": "The Arahant (The Worthy One)",
+      "archetypes": [
+        "liberated-sage",
+        "cosmic-order"
+      ],
+      "gloss": "The perfected disciple of the Theravada path. A mortal who has permanently extinguished the 'three poisons' of greed, hatred, and delusion, shattering the chains of dependent origination to attain Nibbana and end the cycle of rebirth.",
+      "facet": "It represents the zenith of individual renunciation. Liberation is won strictly by self-effort and forensic dismantling of personal identity, rejecting any reliance on cosmic saviors or divine grace.",
+      "provenance": "Pali Canon (Tipitaka), particularly the Dhammapada and Sutta Pitaka."
+    },
+    {
+      "id": "buddhist-vehicles-bodhisattva-ideal",
+      "kind": "hero",
+      "name": "The Bodhisattva (The Awakening Being)",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "The supreme paradigm of the Mahayana vehicle. An awakening being who deliberately forestalls their own final dissolution into Nirvana in order to remain in Samsara until every single sentient being is liberated.",
+      "facet": "It radically redefines enlightenment from a personal exit-strategy to infinite, active compassion. The Bodhisattva does not escape the burning house of the world, but returns to it willingly.",
+      "provenance": "Prajnaparamita Sutras, Lotus Sutra, Shantideva's 'Bodhicaryavatara'."
+    },
+    {
+      "id": "buddhist-vehicles-sunyata",
+      "kind": "concept",
+      "name": "Sunyata (Emptiness)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The ultimate metaphysical reality in Mahayana thought. It is the profound realization that all phenomena are radically devoid of inherent, independent essence, existing only as a fleeting web of mutual interdependence.",
+      "facet": "It is not a nihilistic void, but the very condition of possibility. Because things lack rigid, permanent essence, transformation and liberation are possible. It weaponizes non-existence to destroy clinging.",
+      "provenance": "Nagarjuna's 'Mulamadhyamakakarika', Heart Sutra."
+    },
+    {
+      "id": "buddhist-vehicles-tathagatagarbha",
+      "kind": "concept",
+      "name": "Tathagatagarbha (Buddha-Nature)",
+      "archetypes": [
+        "world-egg"
+      ],
+      "gloss": "The luminous, innate potential for Buddhahood residing at the core of every sentient being, completely untouched by the temporary defilements of karma and ignorance.",
+      "facet": "It borders on a positive ontology within a tradition famous for negation. It suggests enlightenment is not built from scratch, but simply uncovered—a controversial shift from early Buddhist deconstruction.",
+      "provenance": "Tathagatagarbha Sutras, Lankavatara Sutra."
+    },
+    {
+      "id": "buddhist-vehicles-yidam",
+      "kind": "deity",
+      "name": "Yidam (Meditational Deity)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "complementarity"
+      ],
+      "gloss": "The personal meditational deity in Vajrayana Tantra. It is not an external creator-god, but a pure, holographic expression of the practitioner's own latent enlightened mind, used as a fierce anchor for cognitive transformation.",
+      "facet": "It bypasses gradual asceticism through 'Deity Yoga.' By fiercely visualizing oneself already possessing the body, speech, and mind of the Buddha, the practitioner short-circuits the eons required for conventional awakening.",
+      "provenance": "Tibetan Buddhist Tantras (e.g., Guhyasamaja, Hevajra Tantra)."
+    },
+    {
+      "id": "buddhist-vehicles-guru-lama",
+      "kind": "hero",
+      "name": "The Guru / Lama (The Root Teacher)",
+      "archetypes": [
+        "axis-mundi",
+        "first-ancestor"
+      ],
+      "gloss": "The indispensable human preceptor of the Vajrayana path. The Lama is viewed not merely as a scholarly guide, but as the literal, living embodiment of the Dharmakaya and all Buddhas across time.",
+      "facet": "Devotion to the Guru effectively supersedes devotion to the historical Buddha. Without the direct, esoteric transmission of 'lung' (authorization) from a living Lama, Tantric texts are considered inert and highly dangerous.",
+      "provenance": "Tibetan Lamrim texts, Asvaghosa's 'Fifty Verses of Guru Devotion'."
+    },
+    {
+      "id": "buddhist-vehicles-bodhicitta",
+      "kind": "principle",
+      "name": "Bodhicitta (The Mind of Awakening)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The spontaneous, unshakeable wish to attain complete enlightenment specifically for the benefit of all beings. It manifests in two forms: relative (the altruistic intention) and absolute (direct insight into emptiness).",
+      "facet": "It is the sole alchemical ingredient that separates a generic good deed from a true cause for Buddhahood. It fuses supreme philosophical insight with agonizing empathy for universal suffering.",
+      "provenance": "Shantideva's 'Bodhicaryavatara'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "buddhist-vehicles-bodhisattva-ideal",
+      "b": "buddhist-vehicles-arahant",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Mahayana tradition explicitly defines its vast, inclusive Bodhisattva vow in direct theological opposition to what it critiques as the 'selfish' personal exit of the Arahant."
+    },
+    {
+      "a": "buddhist-vehicles-yidam",
+      "b": "buddhist-vehicles-sunyata",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Vajrayana Deity Yoga is rendered completely invalid and devolves into mere idolatry unless it is grounded in the absolute realization of Sunyata."
+    },
+    {
+      "a": "buddhist-vehicles-arahant",
+      "b": "buddhist-anatman",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Arahant is the living, breathing culmination of the Anatman principle, having experientially extinguished the illusion of an independent self."
+    },
+    {
+      "a": "buddhist-vehicles-arahant",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the ultimate goal of ancient Indian shramana movements: a human who has completely burned away karmic defilements to achieve irreversible personal liberation."
+    },
+    {
+      "a": "buddhist-vehicles-bodhisattva-ideal",
+      "b": "buddhist-avalokitesvara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Avalokitesvara is the ultimate mythological personification of the abstract Bodhisattva ideal, embodying the active compassion that delays Nirvana."
+    },
+    {
+      "a": "buddhist-vehicles-bodhisattva-ideal",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as cosmic saviors who voluntarily enter the realm of suffering and sacrifice their own immediate bliss to secure the salvation of all beings."
+    },
+    {
+      "a": "buddhist-vehicles-bodhisattva-ideal",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are prophesied saviors destined to intervene in the suffering world to lead humanity toward final restoration, echoing the Maitreya figure."
+    },
+    {
+      "a": "buddhist-vehicles-sunyata",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit a profound, unnamable ultimate reality that is fundamentally empty of fixed form, yet acts as the generative matrix for all conditioned existence."
+    },
+    {
+      "a": "buddhist-vehicles-sunyata",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions conceptualize the ultimate absolute as a paradoxical 'nothingness' (Ayin/Sunyata) from which all relative reality endlessly emanates."
+    },
+    {
+      "a": "buddhist-vehicles-sunyata",
+      "b": "the-pleroma",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: They mirror each other through opposition: the Pleroma is the divine 'fullness' generating all aeons, while Sunyata is the divine 'emptiness' realizing all forms as void."
+    },
+    {
+      "a": "buddhist-vehicles-sunyata",
+      "b": "buddhist-trikaya",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Dharmakaya (Truth Body) of the Trikaya doctrine is explicitly identified with Sunyata—the empty, unconditioned nature of all Buddhas."
+    },
+    {
+      "a": "buddhist-vehicles-tathagatagarbha",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit a luminous, uncorrupted seed of absolute reality trapped within the defiled layers of material or karmic existence, waiting to be awakened."
+    },
+    {
+      "a": "buddhist-vehicles-tathagatagarbha",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Despite Buddhist rejections of a permanent Atman, Tathagatagarbha structurally functions much like Brahman—an eternal, inherent purity underlying the illusion of phenomenal reality."
+    },
+    {
+      "a": "buddhist-vehicles-tathagatagarbha",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both envision an inherently pure, enlightened core obscured by accumulated layers of karmic dirt that must be cleared to reveal its natural omniscience."
+    },
+    {
+      "a": "buddhist-vehicles-yidam",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve the radical identification of a human practitioner with a divine being, though Vajrayana operates via mental visualization while Mesoamerican Ixiptla relied on physical ritual embodiment."
+    },
+    {
+      "a": "buddhist-vehicles-yidam",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both systems feature an intimate, inextricably linked spiritual double or divine counterpart that the practitioner must integrate with to achieve ultimate realization."
+    },
+    {
+      "a": "buddhist-vehicles-yidam",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Tantric 'Yab-Yum' depiction of Yidams in sexual union perfectly mirrors the union of Purusha (consciousness/method) and Prakriti (matter/wisdom) to generate enlightenment."
+    },
+    {
+      "a": "buddhist-vehicles-guru-lama",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as the ultimate archetypal masters of esoteric transmission, holding the secret keys to inner alchemy that cannot be learned from dead texts."
+    },
+    {
+      "a": "buddhist-vehicles-bodhicitta",
+      "b": "spenta-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an active, holy mentality or spiritual force that continuously guides the practitioner toward cosmic order and the absolute good."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "liberated-sage",
+      "name": "Liberated Sage",
+      "subtype": "hero",
+      "gloss": "A mortal who achieves final, irrevocable liberation from the cycle of rebirth through rigorous asceticism, insight, or the permanent severing of karmic bonds.",
+      "reason": "Crucial for traditions emphasizing individual ascetic liberation over cosmic salvation, such as the Buddhist Arahant, Jain Siddha, and early Hindu Sannyasins."
+    }
+  ]
+}

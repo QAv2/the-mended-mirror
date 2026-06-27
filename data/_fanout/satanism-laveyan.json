@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "satanism-laveyan",
+    "name": "LaVeyan Satanism (Church of Satan)",
+    "region": "USA (San Francisco)",
+    "color": "#8a3550"
+  },
+  "figures": [
+    {
+      "id": "satanism-laveyan-satan",
+      "kind": "concept",
+      "name": "Satan (The Dark Force in Nature)",
+      "archetypes": [
+        "cosmic-adversary",
+        "trickster"
+      ],
+      "gloss": "Not a literal deity, but the primary symbol of the Church of Satan representing pride, liberty, carnality, and the vital, balancing dark force in nature. He is the ultimate accuser of hypocritical moralism and herd conformity.",
+      "facet": "Completely strips the Devil of supernatural reality, ontological evil, or apocalyptic destiny, reimagining him as a psychological mascot for atheistic rationalism, biological realism, and unabashed egoism.",
+      "provenance": "'The Satanic Bible' (1969), specifically the Book of Lucifer, heavily influenced by Ayn Rand, Friedrich Nietzsche, and Ragnar Redbeard."
+    },
+    {
+      "id": "satanism-laveyan-lavey",
+      "kind": "hero",
+      "name": "Anton Szandor LaVey",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The charismatic, theatrical founder of the Church of Satan who shaved his head, wore a cape, and synthesized Social Darwinism, carnival showmanship, and occult aesthetics into a codified religion of the flesh in 1966.",
+      "facet": "Unlike ascetic prophets who bring laws of submission from on high, he operated as a carny-as-hierophant, weaponizing pop-culture aesthetics and psychological manipulation to codify self-interest.",
+      "provenance": "The founding of the Church of Satan on Walpurgisnacht 1966, 'The Satanic Bible', and numerous biographical accounts."
+    },
+    {
+      "id": "satanism-laveyan-self",
+      "kind": "principle",
+      "name": "I-theism (Self-Deification)",
+      "archetypes": [
+        "one-through-many",
+        "self-deification"
+      ],
+      "gloss": "The foundational axiom that since all gods are human inventions, the individual is the sole supreme being of their own universe. The Satanist functions as their own redeemer, highest authority, and god.",
+      "facet": "Rejects both theistic submission and nihilistic atheism, replacing the worship of an external deity with ritualized, unapologetic narcissism and radical self-sovereignty.",
+      "provenance": "'The Satanic Bible' (The Book of Satan)."
+    },
+    {
+      "id": "satanism-laveyan-greater-magic",
+      "kind": "rite",
+      "name": "Greater Magic (The Ritual)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "ritual-psychodrama"
+      ],
+      "gloss": "Formal, highly theatrical ceremonies conducted in an 'intellectual decompression chamber' to purge emotional desires—such as lust, compassion, or destruction. It employs props, costumes, and the Sigil of Baphomet to bypass the conscious mind.",
+      "facet": "Explicitly denies any supernatural efficacy. Magic here is purely applied psychology and emotional catharsis, manipulating the practitioner's own adrenal system rather than invisible spiritual forces.",
+      "provenance": "'The Satanic Bible' (The Book of Belial)."
+    },
+    {
+      "id": "satanism-laveyan-lesser-magic",
+      "kind": "concept",
+      "name": "Lesser Magic (Applied Psychology)",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The conscious manipulation of outward appearances, body language, and social dynamics to bend others to one's will in everyday life. It relies heavily on utilizing aesthetics of sex, sentiment, and wonder.",
+      "facet": "Shifts magic entirely out of the ritual circle and into the mundane sphere of social engineering, framing charm, deceit, and aesthetic presentation as the true, functional sorcery of the real world.",
+      "provenance": "'The Satanic Witch' (1971), detailing techniques of mundane manipulation."
+    },
+    {
+      "id": "satanism-laveyan-baphomet",
+      "kind": "concept",
+      "name": "The Sigil of Baphomet",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The official insignia of the Church of Satan, consisting of a downward-pointing pentagram containing a goat's head, encircled by Hebrew letters spelling Leviathan. It represents carnality, materiality, and earthly principles.",
+      "facet": "Strips older occult symbols of their esoteric or transcendent metaphysical baggage, repurposing them as a copyrighted, legally trademarked logo representing a purely materialist philosophy.",
+      "provenance": "Adapted from Stanislas de Guaita's 1897 illustration in 'La Clef de la Magie Noire', adopted as the Church's logo in 1966."
+    },
+    {
+      "id": "satanism-laveyan-lex-talionis",
+      "kind": "principle",
+      "name": "Lex Talionis (Satanic Justice)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The ethical mandate of 'an eye for an eye.' It demands that love and kindness be reserved exclusively for those who deserve it, and that enemies be destroyed or ruthlessly punished rather than forgiven.",
+      "facet": "Radically inverts the Christian ideal of turning the other cheek, classifying unconditional love and forgiveness as psychologically damaging forms of self-deceit and biological weakness.",
+      "provenance": "'The Satanic Bible' (The Book of Satan), drawing explicitly on Ragnar Redbeard's 'Might is Right'."
+    },
+    {
+      "id": "satanism-laveyan-indulgence",
+      "kind": "principle",
+      "name": "Indulgence (Vital Existence)",
+      "archetypes": [
+        "complementarity",
+        "vital-materialism"
+      ],
+      "gloss": "The foundational principle that Satan represents indulgence instead of abstinence. It advocates for the full realization and satisfaction of physical, mental, and emotional desires, provided they do not harm those who do not wish to be harmed.",
+      "facet": "It frames human beings simply as animals, sanctifying the traditional 'seven deadly sins' as healthy, natural instincts that lead to physical and mental gratification rather than spiritual ruin.",
+      "provenance": "'The Satanic Bible' (The Nine Satanic Statements)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "satanism-laveyan-satan",
+      "b": "satanism-laveyan-lavey",
+      "type": "pairs",
+      "tier": "2",
+      "note": "LaVey embodies the earthly, carnal avatar of the philosophical principles that the symbol of Satan represents."
+    },
+    {
+      "a": "satanism-laveyan-greater-magic",
+      "b": "satanism-laveyan-lesser-magic",
+      "type": "pairs",
+      "tier": "2",
+      "note": "They form a complementary dyad of manipulation: Greater Magic for subjective emotional catharsis, Lesser Magic for objective social maneuvering."
+    },
+    {
+      "a": "satanism-laveyan-satan",
+      "b": "christ",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: LaVey specifically codified his symbolic Satan as the direct, earthly inversion of Christ's spiritual pacifism and self-denial."
+    },
+    {
+      "a": "satanism-laveyan-satan",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: Satanism actively repudiates the Abrahamic God, replacing subservience to an external creator with absolute self-sovereignty."
+    },
+    {
+      "a": "satanism-laveyan-satan",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both function as symbols of rebellion against tyrannical authority and the bringing of vital knowledge to humanity."
+    },
+    {
+      "a": "satanism-laveyan-indulgence",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the unabashed embrace of physical pleasure, carnality, and the casting off of rigid ascetic morality."
+    },
+    {
+      "a": "satanism-laveyan-lex-talionis",
+      "b": "jain-ahimsa",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Satanic justice demands absolute, ruthless retaliation, directly inverting the Jain doctrine of universal non-violence and harmlessness."
+    },
+    {
+      "a": "satanism-laveyan-self",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: LaVeyan I-theism centers entirely on the supreme reality of the individual ego, completely opposing the Buddhist dissolution of the self."
+    },
+    {
+      "a": "satanism-laveyan-self",
+      "b": "ein-sof",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Where the Kabbalistic infinite is unknowable and boundless, the Satanic god is localized entirely within the finite, carnal human ego."
+    },
+    {
+      "a": "satanism-laveyan-greater-magic",
+      "b": "angakkuq-soul-flight",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While the Inuit shaman literally travels to the spirit world, the Satanic magician uses ritual purely as an inward psychological tool to manipulate their own mind."
+    },
+    {
+      "a": "satanism-laveyan-lesser-magic",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both embody the mastery of cunning, aesthetic manipulation, and navigating the social and material world through deceit and charm."
+    },
+    {
+      "a": "satanism-laveyan-lesser-magic",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both utilize shape-shifting—whether mythological or social—and psychological manipulation to outwit opponents and achieve personal aims."
+    },
+    {
+      "a": "satanism-laveyan-indulgence",
+      "b": "buddhist-mara",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Mara represents the illusions of earthly desire that must be defeated; Satanism embraces these exact desires as the only true, vital reality."
+    },
+    {
+      "a": "satanism-laveyan-baphomet",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are supreme symbols containing the union of opposites, though Baphomet anchors this balance entirely within the material, carnal sphere."
+    },
+    {
+      "a": "satanism-laveyan-satan",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are dark, adversarial forces intricately tied to earthly matters, strife, and the exposing of human hypocrisy."
+    },
+    {
+      "a": "satanism-laveyan-self",
+      "b": "the-divine-spark",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Gnosticism posits a divine fragment trapped in matter seeking escape, while Satanism treats the self as a god whose sole purpose is to master and enjoy the material world."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "self-deification",
+      "name": "Self-Deification",
+      "subtype": "principle",
+      "gloss": "The elevation of the individual human ego or consciousness to the status of a god, functioning as the ultimate moral and existential authority.",
+      "reason": "Needed for Left-Hand Path traditions where the self replaces external divine figures entirely, distinguishing it from general concepts of an inner soul."
+    },
+    {
+      "id": "ritual-psychodrama",
+      "name": "Ritual Psychodrama",
+      "subtype": "rite",
+      "gloss": "A highly formalized ceremony explicitly stripped of supernatural efficacy, designed instead to bypass the conscious mind and manipulate the practitioner's own emotional state for catharsis.",
+      "reason": "Differentiates purely psychological magic in modern occultism from traditional shamanic or theurgic rites that petition external spirits."
+    },
+    {
+      "id": "vital-materialism",
+      "name": "Vital Materialism",
+      "subtype": "principle",
+      "gloss": "The philosophical elevation of the physical, carnal world as the only true reality, sanctifying biological drives, earthly pleasure, and survival over asceticism or spiritual transcendence.",
+      "reason": "Necessary to capture the core axiom of carnal, anti-spiritual belief systems that invert traditional religious asceticism."
+    }
+  ]
+}

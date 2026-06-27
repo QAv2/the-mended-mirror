@@ -1,0 +1,262 @@
+{
+  "tradition": {
+    "id": "abakua",
+    "name": "Abakuá (Ñañiguismo)",
+    "region": "Cuba (Havana/Matanzas)",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "abakua-abasi",
+      "kind": "deity",
+      "name": "Abasí",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme creator deity of the Abakuá pantheon. Distant and unapproachable, his power is not communicated through direct moral intervention, but through a terrifying, roaring voice originally captured from an African river.",
+      "facet": "The divine presence is strictly auditory and impersonal—a pure acoustic vibration divested from human form that must be rigidly contained and mediated by the all-male society.",
+      "provenance": "Lydia Cabrera, 'La Sociedad Secreta Abakuá' (1959); Ivor L. Miller, 'Voice of the Leopard' (2009)."
+    },
+    {
+      "id": "abakua-sikan",
+      "kind": "hero",
+      "name": "Sikán",
+      "archetypes": [
+        "first-ancestor",
+        "primordial-sacrifice",
+        "origin-of-death"
+      ],
+      "gloss": "The mythic Efor princess who accidentally trapped the sacred fish Tanze in her gourd, becoming the first mortal to discover the divine voice. Because a woman could not hold this ultimate secret, she was sacrificed.",
+      "facet": "The foundational paradox of this fiercely patriarchal, all-male secret society is that its ultimate power and sacred secret were originally discovered by, and violently extracted from, a woman.",
+      "provenance": "Lydia Cabrera, 'La Sociedad Secreta Abakuá' (1959); Stephan Palmié, 'Wizards and Scientists' (2002)."
+    },
+    {
+      "id": "abakua-tanze",
+      "kind": "creature",
+      "name": "Tanze",
+      "archetypes": [
+        "dying-rising",
+        "mother-of-waters"
+      ],
+      "gloss": "The sacred fish who physically embodied the divine voice of Abasí in the river. Upon his death, the founding tribes had to invent a way to artificially reproduce his cosmic roar to maintain their pact.",
+      "facet": "The divine is not a lawgiver or a sovereign but an ephemeral aquatic creature whose singular value is its acoustic resonance, requiring continuous ritual translation to survive its own biological death.",
+      "provenance": "Ivor L. Miller, 'Voice of the Leopard' (2009)."
+    },
+    {
+      "id": "abakua-ekue",
+      "kind": "rite",
+      "name": "Ekue",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The secret friction drum hidden within the sacred temple. It is never seen by the uninitiated, only heard. Originally covered with Sikán's skin, it mechanically reproduces the roar of Abasí to consecrate initiations.",
+      "facet": "It represents a technological conquest of the divine; the founders engineered a mechanical housing to trap, preserve, and sound out the god's voice after its living vessel perished.",
+      "provenance": "Fernando Ortiz, 'Los Instrumentos de la Música Afrocubana' (1952); Lydia Cabrera, 'La Sociedad Secreta Abakuá' (1959)."
+    },
+    {
+      "id": "abakua-ireme",
+      "kind": "ancestor",
+      "name": "Íreme (Diablito)",
+      "archetypes": [
+        "psychopomp",
+        "one-through-many"
+      ],
+      "gloss": "The masked, elaborate masqueraders who dance in public ceremonies. They are the physical materializations of ancestors, cleansing the community and enforcing society laws through choreographic pantomime.",
+      "facet": "They are entirely mute—a stark contrast to the roaring voice of the hidden Ekue drum—embodying a strict division between the seen but silent spirit, and the heard but unseen divine.",
+      "provenance": "David H. Brown, 'The Light Inside' (2003); Ivor L. Miller, 'Voice of the Leopard' (2009)."
+    },
+    {
+      "id": "abakua-nasako",
+      "kind": "hero",
+      "name": "Nasakó",
+      "archetypes": [
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The foundational priest and sorcerer of the Efor who recognized the divine nature of the captured fish. He authored the ritual of Sikán's sacrifice and engineered the consecration of the Ekue drum.",
+      "facet": "He is the architect of the society's violence and its survival, proving that sacred truth cannot be safely held without blood sacrifice and rigorous occult engineering.",
+      "provenance": "Lydia Cabrera, 'La Sociedad Secreta Abakuá' (1959)."
+    },
+    {
+      "id": "abakua-anaforuana",
+      "kind": "concept",
+      "name": "Anaforuana (Firmas)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The complex system of sacred ideograms drawn in yellow, white, and red chalk. They map cosmological pacts, summon specific ancestral energies, and consecrate the ritual space of the temple.",
+      "facet": "They are not mere representations but active spiritual circuitry; drawing them literally opens a threshold to the Cross River ancestors, embedding geographic African memory directly into Cuban soil.",
+      "provenance": "Robert Farris Thompson, 'Flash of the Spirit' (1983); Lydia Cabrera, 'Anaforuana' (1975)."
+    },
+    {
+      "id": "abakua-famba",
+      "kind": "place",
+      "name": "Famba",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The innermost sanctum and sacred temple room of an Abakuá lodge, sealed off from the uninitiated and women. It houses the Ekue drum and is the exclusive site of initiation and consecration.",
+      "facet": "It functions as an autonomous, sovereign spatial enclave where secular law is suspended and the ancient Efik/Efor pact is eternally relived, enforced, and protected.",
+      "provenance": "Ivor L. Miller, 'Voice of the Leopard' (2009)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "abakua-abasi",
+      "b": "abakua-tanze",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The withdrawn supreme creator and the ephemeral aquatic vessel that carried his earthly voice."
+    },
+    {
+      "a": "abakua-sikan",
+      "b": "abakua-ekue",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The sacrificed woman and the sacred friction drum her skin was originally used to cover."
+    },
+    {
+      "a": "abakua-tanze",
+      "b": "abakua-ekue",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The biological vessel of the divine voice and its mechanical, engineered successor."
+    },
+    {
+      "a": "abakua-ekue",
+      "b": "abakua-ireme",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Intra-tradition bond: The invisible, roaring voice of the supreme (Ekue) contrasted against the highly visible, completely mute ancestral masquerader (Íreme)."
+    },
+    {
+      "a": "abakua-nasako",
+      "b": "abakua-sikan",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The patriarchal sorcerer who demands the blood sacrifice, and the female discoverer who suffers it to found the society."
+    },
+    {
+      "a": "abakua-anaforuana",
+      "b": "abakua-famba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The sacred cosmological chalk scripts used to physically map and consecrate the restricted temple space."
+    },
+    {
+      "a": "abakua-abasi",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The highly withdrawn, unapproachable supreme creator deity of Afro-diasporic cosmologies."
+    },
+    {
+      "a": "abakua-abasi",
+      "b": "allah-meccan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A transcendent, singular absolute whose primary interaction with humanity is through a captured, dictated word or voice."
+    },
+    {
+      "a": "abakua-sikan",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A foundational female figure whose tragic death in or near water generates the spiritual ecology that men must subsequently propitiate."
+    },
+    {
+      "a": "abakua-sikan",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The catastrophic early error or transgression that introduces mortality and necessitates the current strict ritual order."
+    },
+    {
+      "a": "abakua-tanze",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An aquatic, non-human entity that acts as the primal vessel or messenger for the creator's intelligence."
+    },
+    {
+      "a": "abakua-ekue",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An engineered, strictly guarded mechanical object that guarantees the power, survival, and prosperity of the community."
+    },
+    {
+      "a": "abakua-ekue",
+      "b": "pnw-thunderbird",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The manifestation of supreme divine power as a terrifying, earth-shaking acoustic phenomenon."
+    },
+    {
+      "a": "abakua-ireme",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Activated ancestral forces that materialise to govern the community and cleanse malevolence."
+    },
+    {
+      "a": "abakua-ireme",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Reincarnated ancestral presences who actively return to the living to enforce lineage law and morality."
+    },
+    {
+      "a": "abakua-anaforuana",
+      "b": "dikenga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Sacred geometric sign-systems that literally map the cosmos and govern the circulation of spiritual power."
+    },
+    {
+      "a": "abakua-anaforuana",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A rigorously guarded, highly codified graphic and ritual system for mapping divine pacts and unseen forces."
+    },
+    {
+      "a": "abakua-famba",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute, sealed physical center of the faith, strictly restricted to the ritually pure and initiated."
+    },
+    {
+      "a": "abakua-nasako",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The foundational priest, sorcerer, and architect of secret magical knowledge who encodes the rituals of the gods."
+    },
+    {
+      "a": "abakua-anaforuana",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Encoded, highly structural graphic symbols that translate the unseen world into actionable ritual reality."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-voice",
+      "name": "Divine Voice",
+      "subtype": "principle",
+      "gloss": "The auditory manifestation of the supreme being or cosmic truth, where sound itself—rather than visual or physical form—is the primary vector of sacred power.",
+      "reason": "Captures entities like the Abakuá Tanze or the voice of the Ekue drum, where God is specifically a sound that must be heard, captured, or contained, distinct from a standard physical avatar."
+    },
+    {
+      "id": "sacred-technology",
+      "name": "Sacred Technology",
+      "subtype": "concept",
+      "gloss": "A manufactured, engineered ritual object or machine designed specifically to permanently house, generate, or bind divine power within the human realm.",
+      "reason": "Needed for objects like the Ekue drum or the Sampo, which are not just sacred relics but active, manufactured engines of cosmic maintenance."
+    }
+  ]
+}

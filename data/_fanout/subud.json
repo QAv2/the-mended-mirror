@@ -1,0 +1,258 @@
+{
+  "tradition": {
+    "id": "subud",
+    "name": "Subud",
+    "region": "Indonesia",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "subud-bapak",
+      "kind": "hero",
+      "name": "Muhammad Subuh Sumohadiwidjojo (Bapak)",
+      "archetypes": [
+        "culture-hero",
+        "pure-conduit"
+      ],
+      "gloss": "An Indonesian civil servant who in 1925 began experiencing a spontaneous, overwhelming influx of spiritual energy. Rejecting the titles of prophet or guru, he presented himself merely as the first 'receiver' of a universal force that he could transmit to others.",
+      "facet": "He adamantly decentralized his own spiritual authority, framing his role as a mere conduit or tuning fork whose only function was to pass the contact on, explicitly rendering the traditional guru-disciple hierarchy obsolete.",
+      "provenance": "Bapak's autobiographical talks; J.G. Bennett's 'Concerning Subud' (1958)."
+    },
+    {
+      "id": "subud-latihan",
+      "kind": "rite",
+      "name": "Latihan Kejiwaan",
+      "archetypes": [
+        "ecstatic-shaman",
+        "radical-surrender"
+      ],
+      "gloss": "The defining spiritual exercise of Subud. It is a completely spontaneous, unguided state of surrender where practitioners deliberately bypass their own thinking minds and desires to allow the Great Life Force to move their bodies and emotions directly.",
+      "facet": "It lacks any dogma, fixed postures, or mantras. It functions as an experiential spiritual technology—a literal somatic surrender where the divine is the active agent and the human is the completely passive instrument.",
+      "provenance": "Subud literature and established practice guidelines."
+    },
+    {
+      "id": "subud-power-of-god",
+      "kind": "force",
+      "name": "Daya Jiwa (The Great Life Force)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The active, living power of God that surrounds and penetrates everything. In Subud, it is not an abstract theology but a palpable, vibrating energy that one literally feels purifying the soul and body during the Latihan.",
+      "facet": "It is fundamentally experiential and non-sectarian. It does not require belief to operate, functioning instead like a natural law of spiritual physics that activates automatically once the human will steps aside.",
+      "provenance": "Bapak's extensive talks on the mechanics of the 'Latihan'."
+    },
+    {
+      "id": "subud-susila-budhi-dharma",
+      "kind": "principle",
+      "name": "Susila Budhi Dharma",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The threefold acronym 'Subud'. Susila means right living according to the divine will; Budhi is the dormant inner spark within humanity; Dharma is the total submission and surrender to the Great Life Force.",
+      "facet": "It elegantly syncretizes Hindu-Javanese philosophical vocabulary with an essentially Islamic concept of absolute submission, stripping away all cultural trappings to present a universal, operational methodology.",
+      "provenance": "Bapak's book 'Susila Budhi Dharma' (1956)."
+    },
+    {
+      "id": "subud-seven-forces",
+      "kind": "concept",
+      "name": "The Seven Nafs (Life Forces)",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "A cosmological and psychological mapping of existence into seven specific forces: Material, Plant, Animal, Human, and three higher spiritual strata. The Latihan is understood to progressively purify the practitioner upward through these levels.",
+      "facet": "It adapts Sufi psychology and Javanese mysticism into an evolutionary ladder of purification where lower primal forces are not destroyed, but rightfully subordinated to the awakened human soul.",
+      "provenance": "Bapak's book 'Susila Budhi Dharma' (1956)."
+    },
+    {
+      "id": "subud-testing",
+      "kind": "rite",
+      "name": "Testing (Terima)",
+      "archetypes": [
+        "somatic-divination"
+      ],
+      "gloss": "A highly focused application of the Latihan where members hold a specific mundane or spiritual question in mind, then surrender to the spontaneous movements or feelings to 'receive' an objective indication from the divine force.",
+      "facet": "It operationalizes mystical surrender into a startlingly practical compass for everyday life, turning the ineffable divine presence into an active consultant for marriages, jobs, and business decisions.",
+      "provenance": "Subud practice guidelines; Bapak's talks on 'Testing'."
+    },
+    {
+      "id": "subud-helpers",
+      "kind": "concept",
+      "name": "The Helpers (Pembantu)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "Experienced Subud members whose role is to hold the spiritual space during Latihan and facilitate the 'Opening' of new members. They are explicitly defined as peers serving the community, not priests.",
+      "facet": "A deliberately anti-hierarchical role designed to prevent the emergence of a clergy. Their only authority is their capacity to surrender alongside the new member, acting as resonant catalysts rather than mediators.",
+      "provenance": "Subud organizational bylaws; Bapak's rules for Helpers."
+    },
+    {
+      "id": "subud-opening",
+      "kind": "rite",
+      "name": "The Opening (Pembukaan)",
+      "archetypes": [
+        "sacred-kinship"
+      ],
+      "gloss": "The initiatory transmission where a new member stands with Helpers and first receives the contact of the Latihan, awakening their own inner feeling and capacity to receive.",
+      "facet": "It relies entirely on direct vibrational 'contact' rather than esoteric instruction. It is framed as an initiation that requires no vows, no secret knowledge, and actively encourages members to keep their existing religious affiliations.",
+      "provenance": "Core Subud initiation practices."
+    }
+  ],
+  "edges": [
+    {
+      "a": "subud-bapak",
+      "b": "subud-latihan",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: The founder whose personal experience of spontaneous surrender became the replicable practice of the movement."
+    },
+    {
+      "a": "subud-power-of-god",
+      "b": "subud-latihan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The omnipresent cosmic force and the specific human ritual designed to passively receive it."
+    },
+    {
+      "a": "subud-helpers",
+      "b": "subud-opening",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The experienced practitioners and the specific threshold ritual they facilitate for newcomers."
+    },
+    {
+      "a": "subud-power-of-god",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a pervasive, unnameable cosmic current that flows most powerfully when the human will and intellect get out of the way."
+    },
+    {
+      "a": "subud-power-of-god",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Conceptualizing the divine not as a static entity, but as a dynamic, vibrating energy that composes and moves all of existence."
+    },
+    {
+      "a": "subud-power-of-god",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A pervasive spiritual energy that can be tapped into or channeled, operating as a natural law of the universe."
+    },
+    {
+      "a": "subud-latihan",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Spontaneous, unchoreographed bodily movement induced by an animating spiritual force, leading to profound purification."
+    },
+    {
+      "a": "subud-latihan",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The visceral, somatic surrender to spiritual forces that temporarily override conscious human agency."
+    },
+    {
+      "a": "subud-susila-budhi-dharma",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A threefold ethical and spiritual baseline that aligns human behavior with the objective harmony of the cosmos."
+    },
+    {
+      "a": "subud-susila-budhi-dharma",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Right living and absolute balance recognized as both a prerequisite for and a result of spiritual alignment."
+    },
+    {
+      "a": "subud-seven-forces",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A complex cosmological mapping of spiritual emanations that the soul must navigate to achieve original purity."
+    },
+    {
+      "a": "subud-seven-forces",
+      "b": "jain-loka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An intricate, layered cosmology where different strata correspond directly to different material and spiritual densities of existence."
+    },
+    {
+      "a": "subud-testing",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A formalized method of seeking direct, practical answers from the divine regarding specific, mundane human choices."
+    },
+    {
+      "a": "subud-testing",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Consulting a divine or cosmic mechanism to divine the correct course of action for daily decisions."
+    },
+    {
+      "a": "subud-opening",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An initiatory event that does not install something new, but merely awakens a dormant, inherent divine component within the individual."
+    },
+    {
+      "a": "subud-opening",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A definitive ritual threshold where the individual is introduced to the direct, raw power of the sacred."
+    },
+    {
+      "a": "subud-bapak",
+      "b": "jain-tirthankara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A discoverer who points the way across the spiritual divide, but rigorously rejects being worshipped as a deity."
+    },
+    {
+      "a": "subud-bapak",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A figure who arrives to transmit a specific, functional spiritual technology to humanity, rather than demanding personal devotion."
+    },
+    {
+      "a": "subud-helpers",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Figures who have advanced spiritually but deliberately remain accessible on the same plane to assist others in their own spiritual awakening."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "radical-surrender",
+      "name": "Radical Surrender",
+      "subtype": "principle",
+      "gloss": "A practice or principle centered entirely on the complete bypassing of the human ego, will, and intellect to allow direct, unmediated divine action.",
+      "reason": "Required for traditions where the core mechanism is utter human passivity, distinguishing it from ecstatic shamanism which often involves active spirit-journeying or mastery."
+    },
+    {
+      "id": "pure-conduit",
+      "name": "Pure Conduit",
+      "subtype": "concept",
+      "gloss": "A founder or prophet figure who explicitly denies personal divinity or mastery, framing themselves strictly as a neutral channel or tuning fork for a universal force.",
+      "reason": "Needed for figures who reject the 'culture-hero' or 'guru' mantle, insisting their only importance was being the first accidental radio receiver to catch a specific frequency."
+    },
+    {
+      "id": "somatic-divination",
+      "name": "Somatic Divination",
+      "subtype": "rite",
+      "gloss": "The use of spontaneous bodily sensations or involuntary movements as a literal compass for making mundane and spiritual decisions.",
+      "reason": "Bridges pure mysticism with practical divination, categorizing practices where the divine answer arrives not as an external omen, but as an internal physical compulsion."
+    }
+  ]
+}

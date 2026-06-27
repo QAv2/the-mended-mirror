@@ -1,0 +1,255 @@
+{
+  "tradition": {
+    "id": "tenrikyo",
+    "name": "Tenrikyo",
+    "region": "Japan",
+    "color": "#d05a5a"
+  },
+  "figures": [
+    {
+      "id": "tenrikyo-oyagami",
+      "kind": "deity",
+      "name": "Oyagami (God the Parent / Tenri-O-no-Mikoto)",
+      "archetypes": [
+        "parental-creator",
+        "world-parents"
+      ],
+      "gloss": "The singular, original creator of humanity. Initially presenting through the familiar vocabulary of ten Shinto kami to ease human understanding, Oyagami ultimately revealed themselves as the single, underlying cosmic parent whose only desire is to see humans live in joy.",
+      "facet": "Unlike Abrahamic monotheism’s transcendent judge or Shinto’s localized animistic spirits, Oyagami is an intimately immanent, fiercely nurturing parent whose own divine happiness strictly depends on humanity achieving the Joyous Life.",
+      "provenance": "Nakayama Miki (1869-1882) 'Ofudesaki'; Tenrikyo Church Headquarters (1993) 'The Doctrine of Tenrikyo'."
+    },
+    {
+      "id": "tenrikyo-oyasama",
+      "kind": "hero",
+      "name": "Oyasama (Nakayama Miki)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "A 19th-century peasant woman who became the 'Shrine of Tsukihi' after God the Parent entered her body. For fifty years, she channeled divine will through ecstatic poetry, dispensed miraculous healings, and endured intense state persecution.",
+      "facet": "She does not merely deliver a message; her physical body is considered eternally living at the Jiba. She remains the active, mediating maternal presence guiding world salvation long after her physical withdrawal.",
+      "provenance": "Nakayama Miki (1869-1882) 'Ofudesaki'; Helen Hardacre (1986) 'Kurozumikyo and the New Religions of Japan'."
+    },
+    {
+      "id": "tenrikyo-jiba",
+      "kind": "place",
+      "name": "The Jiba",
+      "archetypes": [
+        "axis-mundi",
+        "first-ancestor"
+      ],
+      "gloss": "The exact geospatial spot in Tenri City where God the Parent first conceived humanity. It is marked by the Kanrodai, a hexagonal wooden pillar representing the cosmic center and the divine umbilical cord connecting heaven and earth.",
+      "facet": "It is not a mythological or abstracted center, but a hyper-specific coordinate in Japan around which the entire religion's liturgy, architecture, and eschatological world-renewal must physically rotate.",
+      "provenance": "Tenrikyo Church Headquarters (1993) 'The Doctrine of Tenrikyo'; Henry van Straelen (1957) 'The Religion of Divine Wisdom'."
+    },
+    {
+      "id": "tenrikyo-yokigurashi",
+      "kind": "principle",
+      "name": "Yokigurashi (The Joyous Life)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The ultimate purpose of human existence and the cosmos itself. It is a state of perfect, joyful harmony among humans and between humanity and God, realized through mutual help, gratitude, and the sweeping away of selfish minds.",
+      "facet": "Salvation is not an afterlife escape from suffering or a transcendent awakening, but a collective, embodied, and highly social joy realized on this physical earth, fulfilling God's original motive for creation.",
+      "provenance": "Nakayama Miki (1869-1882) 'Ofudesaki'; Barbara Ambros (2015) 'Women in Japanese Religions'."
+    },
+    {
+      "id": "tenrikyo-hokori",
+      "kind": "concept",
+      "name": "Hokori (Mental Dust)",
+      "archetypes": [
+        "spiritual-dust"
+      ],
+      "gloss": "The Tenrikyo concept of spiritual impurity, comprising eight self-centered emotions like greed, anger, and arrogance. It is not inherent sin, but a naturally accumulating 'dust' on the soul that clouds the mind and manifests physically as illness or disaster.",
+      "facet": "Completely rejects the concept of original sin or inherent evil. Suffering is framed purely as a hygienic issue—dust naturally falls, but it can be easily swept away with the broom of divine teachings and joyful service.",
+      "provenance": "Tenrikyo Church Headquarters (1993) 'The Doctrine of Tenrikyo'."
+    },
+    {
+      "id": "tenrikyo-kagura-zutome",
+      "kind": "rite",
+      "name": "Kagura Zutome (The Salvation Service)",
+      "archetypes": [
+        "creation-reenactment"
+      ],
+      "gloss": "The central salvation liturgy performed exclusively around the Kanrodai. Dancers wearing specific animal masks mimic the ten providences of God during human conception, energetically recreating the origin of the world to sweep away global spiritual dust.",
+      "facet": "It does not merely commemorate creation; it is a literal, mechanical cranking of the cosmic engine. Re-enacting the precise sequence of human conception physically generates the divine energy needed for world renewal.",
+      "provenance": "Nakayama Miki (1866-1887) 'Mikagura-uta'; Robert Kisala (2001) 'Japanese New Religions'."
+    },
+    {
+      "id": "tenrikyo-kashimono-karimono",
+      "kind": "principle",
+      "name": "Kashimono, Karimono (A Thing Lent, A Thing Borrowed)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The foundational metaphysical truth that the human body is not personal property, but something exclusively lent by God the Parent. Only the mind belongs to the individual; how one uses that mind determines the state of the borrowed body.",
+      "facet": "Dramatically undercuts human ego by redefining physical illness not as punishment, but as 'divine guidance'—a gentle warning from the Lender that the borrower's mental use of the loaned property has fallen out of harmony.",
+      "provenance": "Tenrikyo Church Headquarters (1993) 'The Doctrine of Tenrikyo'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "tenrikyo-oyasama",
+      "b": "tenrikyo-oyagami",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The physical shrine and human mediator inextricably bound to the transcendent-immanent divine parent she channels."
+    },
+    {
+      "a": "tenrikyo-kagura-zutome",
+      "b": "tenrikyo-jiba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ultimate salvation dance and the specific geospatial axis where it must be performed to function."
+    },
+    {
+      "a": "tenrikyo-hokori",
+      "b": "tenrikyo-yokigurashi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The selfish accumulation of mental dust directly prevents the realization of the Joyous Life."
+    },
+    {
+      "a": "tenrikyo-kashimono-karimono",
+      "b": "tenrikyo-hokori",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The arrogant misuse of the borrowed body generates the spiritual dust that clouds the mind."
+    },
+    {
+      "a": "tenrikyo-oyagami",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A singular, supreme creator deity who intervenes directly in human history and demands ultimate devotion."
+    },
+    {
+      "a": "tenrikyo-oyagami",
+      "b": "amaterasu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Tenrikyo initially adopted the vocabulary of Shinto kami, including the sun goddess, to explain its cosmology before revealing its monotheistic nature."
+    },
+    {
+      "a": "tenrikyo-oyagami",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The singular, nurturing cosmic parent whose generative power creates and sustains all life without acting as a wrathful judge."
+    },
+    {
+      "a": "tenrikyo-oyagami",
+      "b": "fon-mawu-lisa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dual-natured divine parent encompassing both the solar/paternal and lunar/maternal aspects of creation within a single supreme entity."
+    },
+    {
+      "a": "tenrikyo-oyasama",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supremely compassionate maternal figure dedicated entirely to the ongoing salvation, healing, and deliverance of all human beings."
+    },
+    {
+      "a": "tenrikyo-oyasama",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An ecstatic female shaman who acts as a physical vessel for divine spirits to heal illness and restore communal harmony."
+    },
+    {
+      "a": "tenrikyo-jiba",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central pillar and precise geospatial center of the physical and spiritual universe around which reality revolves."
+    },
+    {
+      "a": "tenrikyo-jiba",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The exact, localized geographical origin point of humanity that holds the key to mankind's ultimate spiritual restoration."
+    },
+    {
+      "a": "tenrikyo-jiba",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central vertical pillar linking the cosmic realms, marking the energetic heart and origin of the world."
+    },
+    {
+      "a": "tenrikyo-yokigurashi",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, perfected state of the world where suffering ceases and human existence aligns entirely with the divine will."
+    },
+    {
+      "a": "tenrikyo-yokigurashi",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A state of profound, active harmony, beauty, and health that must be vigilantly maintained through collective ritual and right living."
+    },
+    {
+      "a": "tenrikyo-hokori",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions view spiritual impediment as a literal, material 'dust' that accumulates on and obscures the inherent purity of the soul."
+    },
+    {
+      "a": "tenrikyo-hokori",
+      "b": "angra-mainyu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Radically rejects the concept of an independent evil cosmic force; suffering is merely the mundane accumulation of human selfishness."
+    },
+    {
+      "a": "tenrikyo-kagura-zutome",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A rhythmic, ecstatic communal dance that summons divine power to heal the sick and restore spiritual balance to the community."
+    },
+    {
+      "a": "tenrikyo-kashimono-karimono",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The radical deconstruction of the individual self, insisting that the physical body is not one's own permanent possession."
+    },
+    {
+      "a": "tenrikyo-oyasama",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A sacred female figure who arrives to bring the foundational rituals and teachings strictly necessary for the people to live in harmony with the divine."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "parental-creator",
+      "name": "Parental Creator",
+      "subtype": "deity",
+      "gloss": "A supreme creator deity conceived explicitly as an intimately nurturing parent, whose primary relationship with humanity is one of familial love and mutual joy rather than stern judgment.",
+      "reason": "Bridges Oyagami, Dogon Amma, and Fon Mawu-Lisa, separating them from the transcendent, often wrathful creator archetype of the sky-father."
+    },
+    {
+      "id": "spiritual-dust",
+      "name": "Spiritual Dust",
+      "subtype": "concept",
+      "gloss": "The concept of sin or spiritual degradation as a naturally accumulating substance or 'dust' that physically obscures the soul and must be regularly swept away through right action.",
+      "reason": "Crucial for traditions like Tenrikyo and Jainism where spiritual impediment is treated as a subtle material accumulation rather than an inherent moral failing or demonic force."
+    },
+    {
+      "id": "creation-reenactment",
+      "name": "Creation Reenactment",
+      "subtype": "rite",
+      "gloss": "A highly formalized liturgy or ritual that mechanically repeats the precise sequence of cosmic creation in order to generate spiritual power, heal the world, or reset the cosmic cycle.",
+      "reason": "Needed for central world-maintenance rituals that go beyond symbolic commemoration to become active, necessary cranking of the cosmic engine."
+    }
+  ]
+}

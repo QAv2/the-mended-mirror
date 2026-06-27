@@ -1,0 +1,245 @@
+{
+  "tradition": {
+    "id": "golden-dawn",
+    "name": "Hermetic Order of the Golden Dawn",
+    "region": "London",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "golden-dawn-tree-of-life",
+      "kind": "concept",
+      "name": "The Kabbalistic Tree of Life (OtZ ChIIM)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many",
+        "esoteric-synthesis"
+      ],
+      "gloss": "The foundational map of the cosmos and the soul, comprising ten Sephiroth and twenty-two connecting paths. It serves as the ultimate filing system for all correspondences—astrological, elemental, and divine—allowing the magician to navigate the emanations of God.",
+      "facet": "It aggressively syncretizes non-Jewish occultism (Tarot, Hermeticism, Greek/Egyptian gods) onto a structurally Jewish mystical framework, transforming it from a purely contemplative map into a practical, operational engine for operative magic.",
+      "provenance": "Adapted primarily by MacGregor Mathers and William Wynn Westcott from Kircher's 'Oedipus Aegyptiacus', Eliphas Levi, and the 'Sefer Yetzirah'."
+    },
+    {
+      "id": "golden-dawn-lbrp",
+      "kind": "rite",
+      "name": "The Lesser Banishing Ritual of the Pentagram (LBRP)",
+      "archetypes": [
+        "cosmic-order",
+        "axis-mundi"
+      ],
+      "gloss": "The foundational daily practice of the Outer Order. The initiate draws pentagrams in the four quarters, vibrating divine names (YHVH, ADNI, AHIH, AGLA) and invoking the archangels (Raphael, Gabriel, Michael, Uriel) to purify the astral environment and center the self.",
+      "facet": "It shifts prayer from passive supplication to active architectural construction; the practitioner is not begging for protection but authoritatively forging a personalized, ritually secure microcosm at the intersection of the elements.",
+      "provenance": "Composed by the founders synthesizing Jewish morning prayers, Eliphas Levi's formulas, and traditional Solomonic grimoire components."
+    },
+    {
+      "id": "golden-dawn-hga",
+      "kind": "force",
+      "name": "The Holy Guardian Angel (HGA)",
+      "archetypes": [
+        "psychopomp",
+        "divine-twins"
+      ],
+      "gloss": "The 'Higher Genius' or 'Holy Guardian Angel' represents the ultimate, perfected spiritual nature of the individual initiate. The culmination of the Adeptus Minor grade is establishing conscious, conversational contact with this divine spark.",
+      "facet": "Unlike external angels that command or deliver messages from a distant God, the HGA is an intimate, ontological projection of the magician's own truest, highest self—the specific spiritual blueprint they must realize.",
+      "provenance": "Adopted from the 15th-century 'Book of Abramelin' (translated by Mathers in 1897) and integrated into the overarching Rosicrucian grade structure."
+    },
+    {
+      "id": "golden-dawn-secret-chiefs",
+      "kind": "ancestor",
+      "name": "The Secret Chiefs",
+      "archetypes": [
+        "withdrawn-creator",
+        "first-ancestor"
+      ],
+      "gloss": "Hidden, discarnate masters who purportedly transmitted the authority and esoteric knowledge of the Order to its founders. They exist on the astral plane, acting as the ultimate, invisible hierarchical directors of the magical current.",
+      "facet": "They solve the crisis of magical authority in the modern era: instead of needing an unbroken physical lineage of human masters, legitimacy is directly derived from psychic contact with superhuman entities.",
+      "provenance": "A concept borrowed directly from Theosophy's 'Mahatmas' (Blavatsky) but adapted by Mathers and Westcott to justify the GD's foundational 'Cipher Manuscripts'."
+    },
+    {
+      "id": "golden-dawn-vault-of-adepti",
+      "kind": "place",
+      "name": "The Vault of the Adepti",
+      "archetypes": [
+        "world-egg",
+        "axis-mundi"
+      ],
+      "gloss": "The highly guarded, heptagonal inner sanctum of the Second Order (Rosae Rubeae et Aureae Crucis). Its vibrantly painted walls correspond to astrological and elemental forces, housing the 'pastos' (tomb) of Christian Rosenkreutz.",
+      "facet": "It functions as an immersive, psychodramatic sensory deprivation chamber and color-coded encyclopedia. The initiate does not just read about cosmic forces; they step physically into the center of the magical universe to undergo symbolic death.",
+      "provenance": "Based strictly on the descriptions in the 1614 Rosicrucian manifesto, 'Fama Fraternitatis', physically constructed in London by MacGregor Mathers."
+    },
+    {
+      "id": "golden-dawn-christian-rosenkreutz",
+      "kind": "hero",
+      "name": "Christian Rosenkreutz (C.R.C.)",
+      "archetypes": [
+        "culture-hero",
+        "dying-rising"
+      ],
+      "gloss": "The legendary 14th-century founder of the Rosicrucian order. In the pivotal Adeptus Minor ritual, the Chief Adept takes on the persona of C.R.C., lying in state within the Vault before being 'resurrected' to impart the ultimate synthesis of magic.",
+      "facet": "C.R.C. acts not as a historical savior for humanity, but as an esoteric template for the Adept. His resurrection is a private, initiatory metaphor for the awakening of the Adept's own magical potency.",
+      "provenance": "Drawn from the early 17th-century Rosicrucian manifestos ('Fama', 'Confessio', 'Chymical Wedding'); elevated by the GD as the central mythological figure of the Inner Order."
+    },
+    {
+      "id": "golden-dawn-tarot",
+      "kind": "concept",
+      "name": "The Tarot (Book of Thoth)",
+      "archetypes": [
+        "one-through-many",
+        "cyclic-ages",
+        "esoteric-synthesis"
+      ],
+      "gloss": "Referred to as the 'Book of Thoth', the Order maps the 78 cards of the Tarot directly onto the Kabbalistic Tree of Life, astrology, and elemental forces, treating the deck as the ultimate pictorial key to Western esotericism.",
+      "facet": "The Golden Dawn famously swapped the attributes of Justice and Strength, and concealed their esoteric deck from the uninitiated. The Tarot is wielded not for mere fortune-telling, but as an engine for pathworking and astral projection.",
+      "provenance": "An immense synthesis by Mathers building on Eliphas Levi, Papus, and Court de Gebelin, later popularized globally by GD initiates Waite and Crowley."
+    },
+    {
+      "id": "golden-dawn-enochian",
+      "kind": "concept",
+      "name": "Enochian Magic",
+      "archetypes": [
+        "cosmic-order",
+        "complementarity"
+      ],
+      "gloss": "A complex system of angelic magic featuring its own language, alphabet, and intersecting grid of 'Watchtowers'. It provides the advanced architecture for invoking powerful macrocosmic forces from the four directional quarters.",
+      "facet": "While originally obtained through chaotic, apocalyptic scrying, the Golden Dawn mathematically sterilized and ordered the system, mapping it neatly onto their elemental and Kabbalistic framework to make it safely operational.",
+      "provenance": "Derived from the late 16th-century diaries of John Dee and Edward Kelley; integrated, decoded, and heavily regularized by MacGregor Mathers."
+    }
+  ],
+  "edges": [
+    {
+      "a": "golden-dawn-tree-of-life",
+      "b": "golden-dawn-tarot",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Tarot cards are the pictorial keys expressly designed to navigate the paths of the Tree of Life."
+    },
+    {
+      "a": "golden-dawn-vault-of-adepti",
+      "b": "golden-dawn-christian-rosenkreutz",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The vault is physically constructed specifically to house the tomb and the ritual resurrection of the Rosicrucian founder."
+    },
+    {
+      "a": "golden-dawn-lbrp",
+      "b": "golden-dawn-tree-of-life",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The banishing ritual actively constructs the foundational cross of the Tree of Life within the aura of the practitioner."
+    },
+    {
+      "a": "golden-dawn-hga",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions conceive of the ultimate spiritual objective as reuniting the conscious self with a pure, uncorrupted fragment of divine essence."
+    },
+    {
+      "a": "golden-dawn-tree-of-life",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Macrocosmic trees that map the interconnected realms of existence and divine forces, ascended or descended by initiates in trance."
+    },
+    {
+      "a": "golden-dawn-christian-rosenkreutz",
+      "b": "osiris",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Golden Dawn actively syncretized C.R.C. with Osiris in their rituals, mapping the Egyptian god of resurrection onto the Rosicrucian master."
+    },
+    {
+      "a": "golden-dawn-tree-of-life",
+      "b": "ein-sof",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The GD entirely adopted the Jewish Kabbalistic framework of emanations descending from the infinite Ein Sof, though heavily repurposing it for operative magic."
+    },
+    {
+      "a": "golden-dawn-lbrp",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Ritually establishing an inviolable, sacred center by energetically anchoring the four cardinal directions."
+    },
+    {
+      "a": "golden-dawn-hga",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A vital spirit double or co-essence that is intimately tied to the practitioner's fate, power, and spiritual maturation."
+    },
+    {
+      "a": "golden-dawn-enochian",
+      "b": "piacenza-liver",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Complex, geometric grid-maps used to codify and invoke specific divine intelligences mapped strictly to spatial and directional zones."
+    },
+    {
+      "a": "golden-dawn-vault-of-adepti",
+      "b": "world-egg-kalevala",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A self-contained macrocosmic shell from which the initiated consciousness undergoes transformation and is ultimately reborn."
+    },
+    {
+      "a": "golden-dawn-lbrp",
+      "b": "dikenga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A cross-shaped cosmic diagram dynamically traced to orient the human soul amidst elemental and spiritual forces."
+    },
+    {
+      "a": "golden-dawn-enochian",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A hyper-technical, mathematically rigid system of determining the will and location of divine forces based on intense spatial orientation."
+    },
+    {
+      "a": "golden-dawn-tarot",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Elaborate pictorial wheels of cyclic ages, states of being, and cosmic law turned by the initiate through meditation."
+    },
+    {
+      "a": "golden-dawn-secret-chiefs",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Liberated, discarnate masters existing at the apex of the spiritual hierarchy, providing an ultimate ideal and psychic authority rather than bodily presence."
+    },
+    {
+      "a": "golden-dawn-tree-of-life",
+      "b": "eden-four-rivers",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Order explicitly mapped the paths and Sephiroth onto the fall of man and the four rivers of Eden in their initiation texts."
+    },
+    {
+      "a": "golden-dawn-secret-chiefs",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A hidden, inaccessible echelon of ultimate divine intelligences from which all spiritual authority and esoteric emanations originate."
+    },
+    {
+      "a": "golden-dawn-tarot",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Systems originally bearing elements of chance that function as rigorous maps of cosmic destiny, calendrical cycles, and divine forces."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "esoteric-synthesis",
+      "name": "Esoteric Synthesis",
+      "subtype": "principle",
+      "gloss": "The deliberate, systematic fusion of disparate esoteric maps (astrology, kabbalah, alchemy, tarot) into a single, operational master-grid.",
+      "reason": "Needed for occult and magical traditions where syncretism isn't historical accident, but the intentional, core methodology of the tradition itself."
+    }
+  ]
+}

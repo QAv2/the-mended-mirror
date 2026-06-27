@@ -518,6 +518,1302 @@
       "living": true,
       "certainty": "attested",
       "note": "Hermes Trismegistus & the Corpus Hermeticum; 'as above, so below'; the nous-ascent (auto-dated; refine later)"
+    },
+    "isis-cult": {
+      "from": -300,
+      "to": 200,
+      "peak": -100,
+      "living": false,
+      "certainty": "attested",
+      "note": "Isis Myrionymos 'of ten-thousand names'; Serapis (auto-dated; refine later)"
+    },
+    "sol-invictus": {
+      "from": 200,
+      "to": 700,
+      "peak": 400,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Unconquered Sun; Aurelian's 274 CE state cult; Dec-25 Dies Natalis (auto-dated; refine later)"
+    },
+    "manichaeism": {
+      "from": 240,
+      "to": 740,
+      "peak": 440,
+      "living": false,
+      "certainty": "attested",
+      "note": "Mani; radical Light/Darkness dualism — a universal world religion (auto-dated; refine later)"
+    },
+    "christianity": {
+      "from": 30,
+      "to": 2026,
+      "peak": 828,
+      "living": true,
+      "certainty": "attested",
+      "note": "Christ, Trinity, the Cross & Resurrection (auto-dated; refine later)"
+    },
+    "islam": {
+      "from": 610,
+      "to": 2026,
+      "peak": 1176,
+      "living": true,
+      "certainty": "attested",
+      "note": "Allah, the Qur'an, the Prophet; Sunni/Shia/Sufi streams (auto-dated; refine later)"
+    },
+    "kabbalah": {
+      "from": 1180,
+      "to": 2026,
+      "peak": 1518,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ein Sof & the ten Sefirot; the Zohar (auto-dated; refine later)"
+    },
+    "bahai": {
+      "from": 1863,
+      "to": 2026,
+      "peak": 1928,
+      "living": true,
+      "certainty": "attested",
+      "note": "Baháʼu'lláh; progressive revelation; unity of all religions (auto-dated; refine later)"
+    },
+    "druze": {
+      "from": 1017,
+      "to": 2026,
+      "peak": 1420,
+      "living": true,
+      "certainty": "attested",
+      "note": "al-Hakim as divine manifestation; taqammus (reincarnation); closed initiation (auto-dated; refine later)"
+    },
+    "yazidism": {
+      "from": 1160,
+      "to": 2026,
+      "peak": 1506,
+      "living": true,
+      "certainty": "attested",
+      "note": "Melek Taûs the Peacock Angel; the seven holy beings (auto-dated; refine later)"
+    },
+    "mandaeism": {
+      "from": 100,
+      "to": 2026,
+      "peak": 870,
+      "living": true,
+      "certainty": "attested",
+      "note": "John the Baptist as great prophet; World of Light vs Darkness; masbuta baptism (auto-dated; refine later)"
+    },
+    "rastafari": {
+      "from": 1930,
+      "to": 2026,
+      "peak": 1968,
+      "living": true,
+      "certainty": "attested",
+      "note": "Haile Selassie I as Jah; Babylon vs Zion; Ethiopianism; the ganja sacrament (auto-dated; refine later)"
+    },
+    "sikh": {
+      "from": 1469,
+      "to": 2026,
+      "peak": 1691,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ik Onkar — one formless creator; the Guru Granth Sahib as living Guru (auto-dated; refine later)"
+    },
+    "confucian": {
+      "from": -500,
+      "to": 2026,
+      "peak": 510,
+      "living": true,
+      "certainty": "attested",
+      "note": "Confucius; Tian (Heaven); ren & li; sage & ancestor veneration (auto-dated; refine later)"
+    },
+    "taoism-religious": {
+      "from": 142,
+      "to": 2026,
+      "peak": 895,
+      "living": true,
+      "certainty": "attested",
+      "note": "Zhang Daoling & the Celestial Masters; the Jade Emperor; talismanic liturgy; neidan alchemy (auto-dated; refine later)"
+    },
+    "chinese-folk": {
+      "from": -1500,
+      "to": 2026,
+      "peak": -90,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Jade Emperor's bureaucratic pantheon; ancestor worship; temple cults (auto-dated; refine later)"
+    },
+    "santeria": {
+      "from": 1500,
+      "to": 2026,
+      "peak": 1710,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Orichas (Elegguá, Changó, Yemayá) under the Catholic saints; Ifá divination; the asiento (auto-dated; refine later)"
+    },
+    "vodou-haitian": {
+      "from": 1500,
+      "to": 2026,
+      "peak": 1710,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Lwa (Legba, Erzulie, Baron Samedi) in Rada & Petwo nanchon; the poto-mitan (auto-dated; refine later)"
+    },
+    "candomble": {
+      "from": 1549,
+      "to": 2026,
+      "peak": 1739,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Orixás in nação houses (Ketu/Jeje/Angola); axé; the terreiro (auto-dated; refine later)"
+    },
+    "alchemy": {
+      "from": -300,
+      "to": 2026,
+      "peak": 630,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Magnum Opus; the Philosopher's Stone; nigredo→albedo→rubedo (auto-dated; refine later)"
+    },
+    "rosicrucianism": {
+      "from": 1614,
+      "to": 2026,
+      "peak": 1778,
+      "living": true,
+      "certainty": "attested",
+      "note": "Christian Rosenkreuz & the Fama Fraternitatis; the invisible college (auto-dated; refine later)"
+    },
+    "freemasonry": {
+      "from": 1717,
+      "to": 2026,
+      "peak": 1840,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Craft degrees; Hiram Abiff; the Royal Art as moral allegory (auto-dated; refine later)"
+    },
+    "golden-dawn": {
+      "from": 1888,
+      "to": 2026,
+      "peak": 1943,
+      "living": true,
+      "certainty": "attested",
+      "note": "Mathers/Westcott/Woodman; the master-synthesis of Western ceremonial magic (auto-dated; refine later)"
+    },
+    "thelema": {
+      "from": 1904,
+      "to": 2026,
+      "peak": 1952,
+      "living": true,
+      "certainty": "attested",
+      "note": "Aleister Crowley & the Book of the Law; 'Do what thou wilt'; True Will; the Aeon of Horus (auto-dated; refine later)"
+    },
+    "theosophy": {
+      "from": 1875,
+      "to": 2026,
+      "peak": 1935,
+      "living": true,
+      "certainty": "attested",
+      "note": "H.P. Blavatsky & the Secret Doctrine; the Masters; root-races; akasha — ★ the root of the New Age (auto-dated; refine later)"
+    },
+    "spiritualism": {
+      "from": 1848,
+      "to": 2026,
+      "peak": 1919,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Fox sisters; mediumship; 'no death, only transition' — the 19th-c root of channeling (auto-dated; refine later)"
+    },
+    "satanism-laveyan": {
+      "from": 1966,
+      "to": 2026,
+      "peak": 1990,
+      "living": true,
+      "certainty": "attested",
+      "note": "Anton LaVey & the Satanic Bible; self-as-one's-own-god; indulgence over abstinence (auto-dated; refine later)"
+    },
+    "wicca": {
+      "from": 1939,
+      "to": 2026,
+      "peak": 1973,
+      "living": true,
+      "certainty": "attested",
+      "note": "Gerald Gardner & the Wiccan Rede; the Goddess & Horned God; the coven; the Wheel of the Year (auto-dated; refine later)"
+    },
+    "new-age": {
+      "from": 1971,
+      "to": 2026,
+      "peak": 1993,
+      "living": true,
+      "certainty": "attested",
+      "note": "the coming Age of Aquarius; channeling, crystals, holism, self-as-divine (auto-dated; refine later)"
+    },
+    "new-thought": {
+      "from": 1860,
+      "to": 2026,
+      "peak": 1926,
+      "living": true,
+      "certainty": "attested",
+      "note": "Quimby; 'thoughts create reality'; divine Mind; the root of the Law of Attraction (auto-dated; refine later)"
+    },
+    "scientology": {
+      "from": 1954,
+      "to": 2026,
+      "peak": 1982,
+      "living": true,
+      "certainty": "attested",
+      "note": "L. Ron Hubbard; the thetan; the reactive mind; auditing toward 'Clear' (auto-dated; refine later)"
+    },
+    "ufo-religions": {
+      "from": 1947,
+      "to": 2026,
+      "peak": 1978,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Elohim cloned us (Raël); shed the vehicle to board the craft (Heaven's Gate); the Cosmic Masters (Aetheriu (auto-dated; refine later)"
+    },
+    "elamite": {
+      "from": -2700,
+      "to": -2200,
+      "peak": -2500,
+      "living": false,
+      "certainty": "attested",
+      "note": "Inshushinak + the highland triad Napirisha/Kiririsha (auto-dated; refine later)"
+    },
+    "hurrian": {
+      "from": -2300,
+      "to": -1800,
+      "peak": -2100,
+      "living": false,
+      "certainty": "attested",
+      "note": "Teshub vs Kumarbi succession-myth — the SOURCE of the Greek Kronos-Zeus pattern (auto-dated; refine later)"
+    },
+    "urartian": {
+      "from": -860,
+      "to": -360,
+      "peak": -660,
+      "living": false,
+      "certainty": "attested",
+      "note": "Haldi the war-god atop a lion (auto-dated; refine later)"
+    },
+    "nubian": {
+      "from": -2500,
+      "to": -2000,
+      "peak": -2300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Apedemak the lion-headed war-god (indigenous, vs imported Amun) (auto-dated; refine later)"
+    },
+    "punic": {
+      "from": -814,
+      "to": -314,
+      "peak": -614,
+      "living": false,
+      "certainty": "attested",
+      "note": "Tanit & Baal Hammon; the tophet rite (auto-dated; refine later)"
+    },
+    "berber": {
+      "from": -3000,
+      "to": 2026,
+      "peak": -990,
+      "living": true,
+      "certainty": "attested",
+      "note": "Gurzil the bull-god; Tanit/Ifri; the Siwa oracle of Ammon (auto-dated; refine later)"
+    },
+    "harappan": {
+      "from": -2600,
+      "to": -2100,
+      "peak": -2400,
+      "living": false,
+      "certainty": "attested",
+      "note": "the 'Pashupati' proto-Shiva seal; terracotta Mother-Goddess; pipal & water cult (auto-dated; refine later)"
+    },
+    "minoan": {
+      "from": -3000,
+      "to": -2500,
+      "peak": -2800,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Snake-Goddess / Mountain-Mother; labrys & bull-leaping (auto-dated; refine later)"
+    },
+    "mycenaean": {
+      "from": -1600,
+      "to": -1100,
+      "peak": -1400,
+      "living": false,
+      "certainty": "attested",
+      "note": "Potnia 'the Lady'; earliest attested Zeus/Poseidon (auto-dated; refine later)"
+    },
+    "scythian": {
+      "from": -800,
+      "to": -300,
+      "peak": -600,
+      "living": false,
+      "certainty": "attested",
+      "note": "Tabiti the fire/hearth goddess; Ares as a planted iron sword (auto-dated; refine later)"
+    },
+    "thracian": {
+      "from": -1500,
+      "to": -1000,
+      "peak": -1300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Zalmoxis the immortality-god; the Thracian Horseman (auto-dated; refine later)"
+    },
+    "eleusinian": {
+      "from": -1500,
+      "to": -1000,
+      "peak": -1300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Demeter & Persephone; the secret kykeon initiation (auto-dated; refine later)"
+    },
+    "orphism": {
+      "from": -550,
+      "to": -50,
+      "peak": -350,
+      "living": false,
+      "certainty": "attested",
+      "note": "Orpheus & dismembered Zagreus; the gold soul-tablets (auto-dated; refine later)"
+    },
+    "pythagorean": {
+      "from": -530,
+      "to": -30,
+      "peak": -330,
+      "living": false,
+      "certainty": "attested",
+      "note": "number as cosmos; metempsychosis; the akousmata brotherhood (auto-dated; refine later)"
+    },
+    "dionysian": {
+      "from": -700,
+      "to": -200,
+      "peak": -500,
+      "living": false,
+      "certainty": "attested",
+      "note": "ecstatic mania, maenads, the liknon (auto-dated; refine later)"
+    },
+    "cybele": {
+      "from": -700,
+      "to": -200,
+      "peak": -500,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Great Mother & Attis; the Galli; the taurobolium blood-baptism (auto-dated; refine later)"
+    },
+    "neoplatonism": {
+      "from": 200,
+      "to": 700,
+      "peak": 400,
+      "living": false,
+      "certainty": "attested",
+      "note": "Plotinus' emanation from the One; theurgy (Iamblichus) (auto-dated; refine later)"
+    },
+    "stoicism": {
+      "from": -300,
+      "to": 200,
+      "peak": -100,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Logos/pneuma pervading a providential cosmos; kata physin (auto-dated; refine later)"
+    },
+    "samaritanism": {
+      "from": -400,
+      "to": 2026,
+      "peak": 570,
+      "living": true,
+      "certainty": "attested",
+      "note": "Mt Gerizim (not Jerusalem); the Samaritan Pentateuch (auto-dated; refine later)"
+    },
+    "yarsanism": {
+      "from": 1380,
+      "to": 2026,
+      "peak": 1638,
+      "living": true,
+      "certainty": "attested",
+      "note": "Sultan Sahak; the Divine in seven avatars; the jam (auto-dated; refine later)"
+    },
+    "alevism": {
+      "from": 1250,
+      "to": 2026,
+      "peak": 1560,
+      "living": true,
+      "certainty": "attested",
+      "note": "the cem ritual, semah dance; the Twelve Imams; no mosque (auto-dated; refine later)"
+    },
+    "nation-of-islam": {
+      "from": 1930,
+      "to": 2026,
+      "peak": 1968,
+      "living": true,
+      "certainty": "attested",
+      "note": "W.D. Fard as God-in-person; Elijah Muhammad; Yakub myth; the Mother Plane (auto-dated; refine later)"
+    },
+    "kalash": {
+      "from": -1500,
+      "to": 2026,
+      "peak": -90,
+      "living": true,
+      "certainty": "attested",
+      "note": "Dezau the creator; Balumain — the LAST living Indo-Aryan pagan tradition (auto-dated; refine later)"
+    },
+    "sarnaism": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "the sacred grove (sarna sthal); village & ancestral spirits (auto-dated; refine later)"
+    },
+    "falun-gong": {
+      "from": 1992,
+      "to": 2026,
+      "peak": 2005,
+      "living": true,
+      "certainty": "attested",
+      "note": "Li Hongzhi; the rotating falun; Zhen-Shan-Ren (truth-compassion-forbearance) (auto-dated; refine later)"
+    },
+    "tenrikyo": {
+      "from": 1838,
+      "to": 2026,
+      "peak": 1913,
+      "living": true,
+      "certainty": "attested",
+      "note": "Nakayama Miki; Oyagami 'God the Parent'; the Joyous Life (auto-dated; refine later)"
+    },
+    "cheondoism": {
+      "from": 1860,
+      "to": 2026,
+      "peak": 1926,
+      "living": true,
+      "certainty": "attested",
+      "note": "Choe Je-u; 'In-nae-cheon' — humanity IS Heaven (auto-dated; refine later)"
+    },
+    "rapanui": {
+      "from": 1200,
+      "to": 2026,
+      "peak": 1530,
+      "living": true,
+      "certainty": "attested",
+      "note": "Makemake the creator; the Tangata Manu (Birdman) cult at Orongo; the moai (auto-dated; refine later)"
+    },
+    "caodai": {
+      "from": 1926,
+      "to": 2026,
+      "peak": 1966,
+      "living": true,
+      "certainty": "attested",
+      "note": "the supreme Cao Đài via séance; the Divine Eye; saints Victor Hugo & Sun Yat-sen (auto-dated; refine later)"
+    },
+    "balinese-hindu": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1410,
+      "living": true,
+      "certainty": "attested",
+      "note": "Acintya/Sang Hyang Widhi; Tri Hita Karana; offering-ritualism (auto-dated; refine later)"
+    },
+    "melanesian": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "mana — the impersonal sacred power (Codrington's source-concept); ancestral tindalo (auto-dated; refine later)"
+    },
+    "cargo-cult": {
+      "from": 1885,
+      "to": 2026,
+      "peak": 1941,
+      "living": true,
+      "certainty": "attested",
+      "note": "John Frum; the Prince Philip Movement; Western goods as returning-ancestor cargo (auto-dated; refine later)"
+    },
+    "papuan": {
+      "from": -3000,
+      "to": 2026,
+      "peak": -990,
+      "living": true,
+      "certainty": "attested",
+      "note": "ancestral ghosts & the pig-exchange (Te/Moka); the Asmat bisj poles; the Marind Dema (auto-dated; refine later)"
+    },
+    "micronesian": {
+      "from": -1500,
+      "to": 2026,
+      "peak": -90,
+      "living": true,
+      "certainty": "attested",
+      "note": "Nan Madol's priest-kings & Isokelekel; Puntan & Fu'una the Chamorro sibling-creators (auto-dated; refine later)"
+    },
+    "anito": {
+      "from": -1500,
+      "to": 2026,
+      "peak": -90,
+      "living": true,
+      "certainty": "attested",
+      "note": "anito & diwata spirits; Bathala; the babaylan shaman-priestess (auto-dated; refine later)"
+    },
+    "kejawen": {
+      "from": -500,
+      "to": 2026,
+      "peak": 510,
+      "living": true,
+      "certainty": "attested",
+      "note": "Javanese inner-essence mysticism (rasa) (auto-dated; refine later)"
+    },
+    "evenki": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Buga the cosmos-spirit; the three-world taiga — ★ the etymological HOME of the word 'shaman' (auto-dated; refine later)"
+    },
+    "yakut": {
+      "from": -800,
+      "to": 2026,
+      "peak": 330,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ürüng Aiyy Toyon the white-creator vs the abaasy; the white-vs-black shaman split (auto-dated; refine later)"
+    },
+    "chukchi": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Raven (Kutkh) the trickster-creator; Amanita shamanism (auto-dated; refine later)"
+    },
+    "shona": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Mwari/Musikavanhu at the Matonjeni oracle-caves; the mhondoro lion-spirits (auto-dated; refine later)"
+    },
+    "maasai": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Enkai/Engai, the black-and-red sky-god of Ol Doinyo Lengai; cattle from God (auto-dated; refine later)"
+    },
+    "dinka-nuer": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Nhialic / Kwoth the sky-creator; the ox-sacrifice & spear-master (auto-dated; refine later)"
+    },
+    "bambara": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Maa Ngala the creator; the six initiation societies (Komo, Chiwara…) (auto-dated; refine later)"
+    },
+    "waaqeffanna": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Waaqa the sky supreme-being; the Gadaa system; the Irreecha thanksgiving (auto-dated; refine later)"
+    },
+    "umbanda": {
+      "from": 1908,
+      "to": 2026,
+      "peak": 1955,
+      "living": true,
+      "certainty": "attested",
+      "note": "Kardecist spiritism + Orixás + the Pretos Velhos, Caboclos & Exu spirit-lines (auto-dated; refine later)"
+    },
+    "quimbanda": {
+      "from": 1900,
+      "to": 2026,
+      "peak": 1950,
+      "living": true,
+      "certainty": "attested",
+      "note": "Exu & Pomba Gira worked for direct results; the reinos of Exu (auto-dated; refine later)"
+    },
+    "palo": {
+      "from": 1500,
+      "to": 2026,
+      "peak": 1710,
+      "living": true,
+      "certainty": "attested",
+      "note": "Nzambi + the nganga/prenda cauldron housing an nfumbi spirit; the mpungos (auto-dated; refine later)"
+    },
+    "espiritismo": {
+      "from": 1856,
+      "to": 2026,
+      "peak": 1924,
+      "living": true,
+      "certainty": "attested",
+      "note": "Kardecan spiritism creolized; the mesa blanca; spirit guides; the 'cruzado' fusion with Santería (auto-dated; refine later)"
+    },
+    "jamaican-revival": {
+      "from": 1700,
+      "to": 2026,
+      "peak": 1830,
+      "living": true,
+      "certainty": "attested",
+      "note": "Kongo ancestral possession (Kumina); the obeah-man's spirit-work; Revival Zion bands of angels (auto-dated; refine later)"
+    },
+    "hoodoo": {
+      "from": 1700,
+      "to": 2026,
+      "peak": 1830,
+      "living": true,
+      "certainty": "attested",
+      "note": "mojo bags, goofer dust, crossroads work, High John the Conqueror; psalms as spells (auto-dated; refine later)"
+    },
+    "cherokee": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1410,
+      "living": true,
+      "certainty": "attested",
+      "note": "Unetlanvhi the Great Spirit; the three-world cosmos; the Uktena horned serpent (auto-dated; refine later)"
+    },
+    "ojibwe": {
+      "from": 1000,
+      "to": 2026,
+      "peak": 1410,
+      "living": true,
+      "certainty": "attested",
+      "note": "Gitche Manitou the Great Mystery; Nanabozho the trickster-transformer; the Midewiwin lodge (auto-dated; refine later)"
+    },
+    "muscogee": {
+      "from": 800,
+      "to": 2026,
+      "peak": 1290,
+      "living": true,
+      "certainty": "attested",
+      "note": "the sacred fire & the Green Corn (Busk) renewal; the Master of Breath; the Cahokia Birdman (auto-dated; refine later)"
+    },
+    "native-american-church": {
+      "from": 1880,
+      "to": 2026,
+      "peak": 1938,
+      "living": true,
+      "certainty": "attested",
+      "note": "the peyote sacrament ('Mescalito'); the Half-Moon altar; the Peyote Road (auto-dated; refine later)"
+    },
+    "aztec": {
+      "from": 1325,
+      "to": 1825,
+      "peak": 1525,
+      "living": false,
+      "certainty": "attested",
+      "note": "Huitzilopochtli demanding blood to forestall the Fifth Sun's collapse (auto-dated; refine later)"
+    },
+    "maya": {
+      "from": -2000,
+      "to": 2026,
+      "peak": -390,
+      "living": true,
+      "certainty": "attested",
+      "note": "Itzamna & the Popol Vuh Hero Twins; the Lords of Xibalba; K'inich Ajaw (auto-dated; refine later)"
+    },
+    "amazonian": {
+      "from": -2000,
+      "to": 2026,
+      "peak": -390,
+      "living": true,
+      "certainty": "attested",
+      "note": "Omama & the xapiri; the ayahuasca icaros & kené patterns; the Sun-Father's Yuruparí order (auto-dated; refine later)"
+    },
+    "hermetic-qabalah": {
+      "from": 1486,
+      "to": 2026,
+      "peak": 1702,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Tree of Life & 32 Paths as the occult skeleton of the West (auto-dated; refine later)"
+    },
+    "anthroposophy": {
+      "from": 1912,
+      "to": 2026,
+      "peak": 1957,
+      "living": true,
+      "certainty": "attested",
+      "note": "Rudolf Steiner; spiritual science; the etheric Christ; Waldorf & biodynamics (auto-dated; refine later)"
+    },
+    "fourth-way": {
+      "from": 1915,
+      "to": 2026,
+      "peak": 1959,
+      "living": true,
+      "certainty": "attested",
+      "note": "G.I. Gurdjieff; 'man is asleep'; self-remembering; the Enneagram; conscious labor (auto-dated; refine later)"
+    },
+    "chaos-magic": {
+      "from": 1976,
+      "to": 2026,
+      "peak": 1996,
+      "living": true,
+      "certainty": "attested",
+      "note": "Carroll & Spare's sigils; 'nothing is true, everything is permitted'; belief as a tool (auto-dated; refine later)"
+    },
+    "satanic-temple": {
+      "from": 2013,
+      "to": 2026,
+      "peak": 2018,
+      "living": true,
+      "certainty": "attested",
+      "note": "Baphomet-as-civil-liberties; the Seven Tenets; non-theistic activism (auto-dated; refine later)"
+    },
+    "theistic-satanism": {
+      "from": 1970,
+      "to": 2026,
+      "peak": 1992,
+      "living": true,
+      "certainty": "attested",
+      "note": "worship of Satan as a real entity (vs LaVey's symbol) (auto-dated; refine later)"
+    },
+    "temple-of-set": {
+      "from": 1975,
+      "to": 2026,
+      "peak": 1995,
+      "living": true,
+      "certainty": "attested",
+      "note": "Michael Aquino; Set as the principle of isolate intelligence (Xeper) (auto-dated; refine later)"
+    },
+    "luciferianism": {
+      "from": 1880,
+      "to": 2026,
+      "peak": 1938,
+      "living": true,
+      "certainty": "attested",
+      "note": "Lucifer as light-bringer/liberator (not Satan); gnostic-adjacent self-divinization (auto-dated; refine later)"
+    },
+    "modern-druidry": {
+      "from": 1717,
+      "to": 2026,
+      "peak": 1840,
+      "living": true,
+      "certainty": "attested",
+      "note": "Iolo Morganwg's bardic revival; the awen; the bard-ovate-druid path (auto-dated; refine later)"
+    },
+    "heathenry": {
+      "from": 1972,
+      "to": 2026,
+      "peak": 1993,
+      "living": true,
+      "certainty": "attested",
+      "note": "Sveinbjörn Beinteinsson; the blót; the Nine Noble Virtues; the Æsir reborn (auto-dated; refine later)"
+    },
+    "goddess-movement": {
+      "from": 1971,
+      "to": 2026,
+      "peak": 1993,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Great Goddess reclaimed; thealogy; 'the Goddess is alive' (auto-dated; refine later)"
+    },
+    "channeling": {
+      "from": 1963,
+      "to": 2026,
+      "peak": 1988,
+      "living": true,
+      "certainty": "attested",
+      "note": "Seth (Jane Roberts), Ramtha (JZ Knight), A Course in Miracles (Schucman); 'you create your own reality' (auto-dated; refine later)"
+    },
+    "neoshamanism": {
+      "from": 1980,
+      "to": 2026,
+      "peak": 1998,
+      "living": true,
+      "certainty": "attested",
+      "note": "Michael Harner's 'core' shamanic journey to non-ordinary reality via the drum (auto-dated; refine later)"
+    },
+    "eckankar": {
+      "from": 1965,
+      "to": 2026,
+      "peak": 1989,
+      "living": true,
+      "certainty": "attested",
+      "note": "Paul Twitchell; Soul Travel via the Light & Sound of God (ECK); the living Mahanta (auto-dated; refine later)"
+    },
+    "transcendental-meditation": {
+      "from": 1955,
+      "to": 2026,
+      "peak": 1983,
+      "living": true,
+      "certainty": "attested",
+      "note": "Maharishi Mahesh Yogi; the mantra technique; the Maharishi Effect (auto-dated; refine later)"
+    },
+    "entheogenic-churches": {
+      "from": 1900,
+      "to": 2026,
+      "peak": 1950,
+      "living": true,
+      "certainty": "attested",
+      "note": "the ayahuasca sacrament 'Daime' & the hymns; the UDV's hoasca; Gabonese iboga & the initiatory death-rebirth (auto-dated; refine later)"
+    },
+    "goetia": {
+      "from": 1500,
+      "to": 2026,
+      "peak": 1710,
+      "living": true,
+      "certainty": "attested",
+      "note": "the 72 demons of the Lesser Key of Solomon; conjure-and-command magic (auto-dated; refine later)"
+    },
+    "deism": {
+      "from": 1624,
+      "to": 2026,
+      "peak": 1784,
+      "living": true,
+      "certainty": "attested",
+      "note": "a Creator known by reason who does not intervene; the clockmaker God (auto-dated; refine later)"
+    },
+    "pantheism": {
+      "from": 1677,
+      "to": 2026,
+      "peak": 1816,
+      "living": true,
+      "certainty": "attested",
+      "note": "God and Nature are identical (Deus sive Natura); the living Earth revered (Gaia) (auto-dated; refine later)"
+    },
+    "illyrian": {
+      "from": -1000,
+      "to": -500,
+      "peak": -800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Dei-pátrous / Redon; serpent-veneration → Albanian folklore (auto-dated; refine later)"
+    },
+    "iberian": {
+      "from": -600,
+      "to": -100,
+      "peak": -400,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Lady-goddess (Dama de Elche); sphinx/underworld cult (auto-dated; refine later)"
+    },
+    "lusitanian": {
+      "from": -700,
+      "to": -200,
+      "peak": -500,
+      "living": false,
+      "certainty": "attested",
+      "note": "Endovelicus the oracular healer; Ataecina (auto-dated; refine later)"
+    },
+    "guanche": {
+      "from": -500,
+      "to": 0,
+      "peak": -300,
+      "living": false,
+      "certainty": "attested",
+      "note": "Achamán the sky-father; Guayota the volcano-demon of Teide (auto-dated; refine later)"
+    },
+    "epicureanism": {
+      "from": -307,
+      "to": 193,
+      "peak": -107,
+      "living": false,
+      "certainty": "attested",
+      "note": "gods in the metakosmia, indifferent; atomism; ataraxia (auto-dated; refine later)"
+    },
+    "black-hebrew-israelites": {
+      "from": 1886,
+      "to": 2026,
+      "peak": 1942,
+      "living": true,
+      "certainty": "attested",
+      "note": "African Americans as the literal lost tribes of Israel (auto-dated; refine later)"
+    },
+    "ayyavazhi": {
+      "from": 1833,
+      "to": 2026,
+      "peak": 1910,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ayya Vaikundar; the Akilam scripture; anti-caste (auto-dated; refine later)"
+    },
+    "brahmoism": {
+      "from": 1828,
+      "to": 2026,
+      "peak": 1907,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ram Mohan Roy / Dayananda; formless monotheism; 'back to the Vedas' (auto-dated; refine later)"
+    },
+    "yiguandao": {
+      "from": 1930,
+      "to": 2026,
+      "peak": 1968,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Eternal Venerable Mother (Wusheng Laomu); five-teachings syncretism; spirit-writing (auto-dated; refine later)"
+    },
+    "fijian": {
+      "from": -900,
+      "to": 2026,
+      "peak": 270,
+      "living": true,
+      "certainty": "attested",
+      "note": "Degei the great serpent-god; ancestral vū spirits (auto-dated; refine later)"
+    },
+    "hmong": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "the txiv neeb shaman; soul-calling (hu plig); three-world journeys (auto-dated; refine later)"
+    },
+    "buryat": {
+      "from": -500,
+      "to": 2026,
+      "peak": 510,
+      "living": true,
+      "certainty": "attested",
+      "note": "the 99 tengri; Father-Heaven/Mother-Earth; the böö shamans of Olkhon (auto-dated; refine later)"
+    },
+    "nenets": {
+      "from": -800,
+      "to": 2026,
+      "peak": 330,
+      "living": true,
+      "certainty": "attested",
+      "note": "Num the sky-god & Nga the death-god; Ya-Nebya 'Mother Earth'; the sacred sledge (auto-dated; refine later)"
+    },
+    "khanty-mansi": {
+      "from": -800,
+      "to": 2026,
+      "peak": 330,
+      "living": true,
+      "certainty": "attested",
+      "note": "Numi-Torum the sky-father; the World-Surveyor-Man; the bear-feast (auto-dated; refine later)"
+    },
+    "kikuyu": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ngai/Mwene-Nyaga on Mt Kenya; the Gĩkũyũ & Mũmbi ancestral couple (auto-dated; refine later)"
+    },
+    "serer": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Roog Sene the supreme immensity; the pangool ancestral intercessors (auto-dated; refine later)"
+    },
+    "chewa": {
+      "from": -500,
+      "to": 2026,
+      "peak": 510,
+      "living": true,
+      "certainty": "attested",
+      "note": "Chiuta the rainbow sky-creator; the Nyau secret society & Gule Wamkulu masked dance (auto-dated; refine later)"
+    },
+    "baganda": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Katonda the distant creator; the Balubaale pantheon (Mukasa, Kibuka); royal shrines (auto-dated; refine later)"
+    },
+    "luba-kuba": {
+      "from": -500,
+      "to": 2026,
+      "peak": 510,
+      "living": true,
+      "certainty": "attested",
+      "note": "Shakapanga/Leza; Mbombo/Bumba who vomited the sun & moon into being (auto-dated; refine later)"
+    },
+    "tswana-sotho": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Modimo the source-of-all via the badimo ancestors; rain-making (auto-dated; refine later)"
+    },
+    "ewe-ga": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Ewe Mawu-Lisa & Afa divination; Ga Ataa-Naa Nyongmo & the Homowo festival (auto-dated; refine later)"
+    },
+    "abakua": {
+      "from": 1836,
+      "to": 2026,
+      "peak": 1912,
+      "living": true,
+      "certainty": "attested",
+      "note": "all-male Cross-River Ékpè leopard society; the Sikán myth; the Ekue drum; the Íreme masquerade (auto-dated; refine later)"
+    },
+    "winti": {
+      "from": 1700,
+      "to": 2026,
+      "peak": 1830,
+      "living": true,
+      "certainty": "attested",
+      "note": "Anana the creator + pantheons of winti spirits (Aisa, Papa Winti, the Kromanti) (auto-dated; refine later)"
+    },
+    "ghost-dance": {
+      "from": 1869,
+      "to": 2369,
+      "peak": 2069,
+      "living": false,
+      "certainty": "attested",
+      "note": "Wovoka's circle-dance prophecy of the returning dead; the Ghost Shirt (auto-dated; refine later)"
+    },
+    "olmec": {
+      "from": -1500,
+      "to": -1000,
+      "peak": -1300,
+      "living": false,
+      "certainty": "attested",
+      "note": "the were-jaguar / proto-Feathered-Serpent — the 'mother culture' the later gods descend from (auto-dated; refine later)"
+    },
+    "zapotec-mixtec": {
+      "from": -700,
+      "to": 2026,
+      "peak": 390,
+      "living": true,
+      "certainty": "attested",
+      "note": "Cocijo the lightning-rain god; Dzahui; the codex lineage-cosmology (auto-dated; refine later)"
+    },
+    "muisca": {
+      "from": 600,
+      "to": 1100,
+      "peak": 800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Bochica the bearded culture-hero; the El Dorado gold-offering at Guatavita (auto-dated; refine later)"
+    },
+    "fuegian": {
+      "from": -3000,
+      "to": -2500,
+      "peak": -2800,
+      "living": false,
+      "certainty": "attested",
+      "note": "Temáukel & the Hain initiation with its masked spirits; Watauinéwa — the southernmost human religion (auto-dated; refine later)"
+    },
+    "stregheria": {
+      "from": 1899,
+      "to": 2026,
+      "peak": 1949,
+      "living": true,
+      "certainty": "attested",
+      "note": "Leland's Aradia; Diana, Lucifer & Aradia as witch-deities (auto-dated; refine later)"
+    },
+    "church-of-all-worlds": {
+      "from": 1962,
+      "to": 2026,
+      "peak": 1987,
+      "living": true,
+      "certainty": "attested",
+      "note": "Heinlein-derived 'Thou art God/Goddess'; water-sharing; Gaia the living Earth (auto-dated; refine later)"
+    },
+    "subud": {
+      "from": 1925,
+      "to": 2026,
+      "peak": 1965,
+      "living": true,
+      "certainty": "attested",
+      "note": "Muhammad Subuh (Bapak); the latihan kejiwaan — spontaneous surrender to the divine force (auto-dated; refine later)"
+    },
+    "urantia": {
+      "from": 1882,
+      "to": 2026,
+      "peak": 1939,
+      "living": true,
+      "certainty": "attested",
+      "note": "the celestial-authored Urantia Book cosmology; the Thought Adjuster; an expanded Jesus (Michael) (auto-dated; refine later)"
+    },
+    "secular-humanism": {
+      "from": 1876,
+      "to": 2026,
+      "peak": 1936,
+      "living": true,
+      "certainty": "attested",
+      "note": "human reason, ethics & dignity without the supernatural; Ethical Culture's 'deed before creed' (auto-dated; refine later)"
+    },
+    "shaiva": {
+      "from": -400,
+      "to": 2026,
+      "peak": 570,
+      "living": true,
+      "certainty": "attested",
+      "note": "Shiva as supreme reality; lingam, Nataraja, the third eye (auto-dated; refine later)"
+    },
+    "vaishnava": {
+      "from": -400,
+      "to": 2026,
+      "peak": 570,
+      "living": true,
+      "certainty": "attested",
+      "note": "Vishnu/Krishna; the avatara doctrine; bhakti (auto-dated; refine later)"
+    },
+    "shakta": {
+      "from": -400,
+      "to": 2026,
+      "peak": 570,
+      "living": true,
+      "certainty": "attested",
+      "note": "Devi/Shakti supreme; Durga, Kali, the ten Mahavidyas (auto-dated; refine later)"
+    },
+    "lingayat": {
+      "from": 1150,
+      "to": 2026,
+      "peak": 1500,
+      "living": true,
+      "certainty": "attested",
+      "note": "Basava; the ishtalinga; rejection of caste & rebirth (auto-dated; refine later)"
+    },
+    "andean-pre-inca": {
+      "from": -1200,
+      "to": -700,
+      "peak": -1000,
+      "living": false,
+      "certainty": "attested",
+      "note": "the Chavín Lanzón Staff-God; the Moche 'Decapitator' Ai-Apaec; the Tiwanaku Gateway-of-the-Sun (Viracocha prot (auto-dated; refine later)"
+    },
+    "unitarian-universalist": {
+      "from": 1565,
+      "to": 2026,
+      "peak": 1749,
+      "living": true,
+      "certainty": "attested",
+      "note": "a creedless covenantal faith drawing from all traditions; the inherent worth of every person (auto-dated; refine later)"
+    },
+    "ascended-masters": {
+      "from": 1934,
+      "to": 2026,
+      "peak": 1970,
+      "living": true,
+      "certainty": "attested",
+      "note": "Saint Germain & the Great White Brotherhood; the Violet Flame; decrees (auto-dated; refine later)"
+    },
+    "parody-religions": {
+      "from": 1957,
+      "to": 2026,
+      "peak": 1984,
+      "living": true,
+      "certainty": "attested",
+      "note": "Eris/Discordianism, the Flying Spaghetti Monster, Jediism, the Church of the SubGenius's 'Slack', Kopimism, Du (auto-dated; refine later)"
+    },
+    "nat-burmese": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Thirty-Seven Nats (spirits of violent death); Mahagiri; nat-pwe possession (auto-dated; refine later)"
+    },
+    "phi-thai": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "the phi spirits & the spirit-house; Khmer neak ta territorial guardians; the baci soul-calling (auto-dated; refine later)"
+    },
+    "swedenborgian": {
+      "from": 1745,
+      "to": 2026,
+      "peak": 1857,
+      "living": true,
+      "certainty": "attested",
+      "note": "Emanuel Swedenborg; the doctrine of correspondences; heaven & hell as inner states (auto-dated; refine later)"
+    },
+    "nation-of-islam-esoteric": {
+      "from": 1913,
+      "to": 2026,
+      "peak": 1958,
+      "living": true,
+      "certainty": "attested",
+      "note": "Moorish Science (Noble Drew Ali); the Five-Percent Nation's Supreme Mathematics (auto-dated; refine later)"
+    },
+    "modern-hindu-nrm": {
+      "from": 1875,
+      "to": 2026,
+      "peak": 1935,
+      "living": true,
+      "certainty": "attested",
+      "note": "TM, Brahma Kumaris, Self-Realization Fellowship, Ananda Marga, Osho, Sahaja Yoga, ISKCON (auto-dated; refine later)"
+    },
+    "buddhist-vehicles": {
+      "from": -250,
+      "to": 2026,
+      "peak": 660,
+      "living": true,
+      "certainty": "attested",
+      "note": "the arahant / the bodhisattva / the tantric deity-yoga (auto-dated; refine later)"
+    },
+    "transhumanist-religion": {
+      "from": 1881,
+      "to": 2026,
+      "peak": 1939,
+      "living": true,
+      "certainty": "attested",
+      "note": "Fyodorov's Cosmist 'Common Task' (resurrect all the dead); Terasem (mindfiles); the Turing Church; Way of the  (auto-dated; refine later)"
+    },
+    "order-nine-angles": {
+      "from": 1970,
+      "to": 2026,
+      "peak": 1992,
+      "living": true,
+      "certainty": "attested",
+      "note": "'Anton Long' (David Myatt); the sinister Seven-Fold Way (auto-dated; refine later)"
+    },
+    "california-tribes": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Hutash the Earth-Mother & the Rainbow Bridge; the 'antap astronomer-priesthood; Sky-Coyote (auto-dated; refine later)"
+    },
+    "harranian": {
+      "from": -300,
+      "to": 200,
+      "peak": -100,
+      "living": false,
+      "certainty": "attested",
+      "note": "seven planetary temple-spirits; Hermes as prophet — last living pagan astral cult (auto-dated; refine later)"
+    },
+    "mongol-folk": {
+      "from": -1000,
+      "to": 2026,
+      "peak": 210,
+      "living": true,
+      "certainty": "attested",
+      "note": "Qormusta Tengri, chief of the 99 tngri; ovoo cairn-offerings (auto-dated; refine later)"
+    },
+    "orisha-trinidad": {
+      "from": 1800,
+      "to": 2026,
+      "peak": 1890,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Orishas (Shango central) feasted with saints; the 'mourning' rite, bell & chalk veves (auto-dated; refine later)"
+    },
+    "alawite": {
+      "from": 859,
+      "to": 2026,
+      "peak": 1325,
+      "living": true,
+      "certainty": "attested",
+      "note": "the Ali-Muhammad-Salman trinity; metempsychosis; secret rites (auto-dated; refine later)"
+    },
+    "divination-systems": {
+      "from": -2000,
+      "to": 2026,
+      "peak": -390,
+      "living": true,
+      "certainty": "attested",
+      "note": "the zodiac as fate-map; the 78 Tarot keys; Pythagorean sacred number (auto-dated; refine later)"
     }
   },
   "figures": {

@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "amazonian",
+    "name": "Amazonian visionary (Yanomami / Shipibo / Tukano / Gê)",
+    "region": "Amazon basin",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "amazonian-omama",
+      "kind": "hero",
+      "name": "Omama (Creator Hero)",
+      "archetypes": [
+        "culture-hero",
+        "first-ancestor"
+      ],
+      "gloss": "The supreme creator and civilizing hero of the Yanomami. He forged the rules of human society, established kinship lines, and crucially, bound the luminous forest spirits (xapiri) to the control of shamans, establishing the fragile, ongoing order of the living.",
+      "facet": "Unlike aloof creators, Omama's world is fundamentally unstable. He did not grant a permanent paradise, but provided the hallucinogenic tools (yakoana) required for shamans to manually hold the falling sky aloft every single day.",
+      "provenance": "Davi Kopenawa & Bruce Albert, 'The Falling Sky' (2013)."
+    },
+    {
+      "id": "amazonian-yoasi",
+      "kind": "hero",
+      "name": "Yoasi (The Bungling Brother)",
+      "archetypes": [
+        "trickster",
+        "origin-of-death"
+      ],
+      "gloss": "The destructive, careless, and envious brother of Omama. Through his blunders, malice, and sheer incompetence, he introduced death, disease, and the malevolent, smoke-like entities that constantly plague humanity into an otherwise deathless world.",
+      "facet": "Evil enters the Amazonian cosmos not through cosmic rebellion or epic temptation, but through pathetic, avoidable stupidity. Yoasi represents fatal incompetence, the bungling shadow that inevitably degrades creation.",
+      "provenance": "Davi Kopenawa & Bruce Albert, 'The Falling Sky' (2013)."
+    },
+    {
+      "id": "amazonian-xapiri",
+      "kind": "force",
+      "name": "Xapiri / Hekura (Luminous Spirits)",
+      "archetypes": [
+        "one-through-many",
+        "ecstatic-shaman"
+      ],
+      "gloss": "Brilliant, humanoid spirits of animals, trees, and ancestors that descend along luminous cosmic mirrors. Yanomami shamans inhale yakoana snuff to attract them, turning their own chests into houses where these entities dance, sing, and violently battle epidemic fumes.",
+      "facet": "They are never worshipped; they are seduced. A shaman must become immaculately painted and perfumed to attract them, because these pristine entities are utterly repulsed by the stench, meat, and decay of ordinary human existence.",
+      "provenance": "Davi Kopenawa & Bruce Albert, 'The Falling Sky' (2013)."
+    },
+    {
+      "id": "amazonian-kene-icaros",
+      "kind": "concept",
+      "name": "Kené & Icaros (Geometric Song)",
+      "archetypes": [
+        "cosmic-order",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The luminous, geometric patterns (kené) and their corresponding sung melodies (icaros) that weave the fabric of reality for the Shipibo-Conibo. Plant teachers like ayahuasca reveal these synesthetic designs to healers during deep visionary states.",
+      "facet": "Song and geometry are mathematically identical. An icaro is not a prayer or a plea, but a sonic projection of a physical pattern woven directly into a patient's energetic body to forcibly correct the chaotic geometries of illness.",
+      "provenance": "Angelika Gebhart-Sayer, 'The Inka-Shipibo' (1987); Luis Eduardo Luna on indigenous vegetalismo."
+    },
+    {
+      "id": "amazonian-ronin",
+      "kind": "creature",
+      "name": "Ronin / Yacumama (The Cosmic Anaconda)",
+      "archetypes": [
+        "cosmic-serpent",
+        "mother-of-waters"
+      ],
+      "gloss": "The colossal, primordial Anaconda mother of the waters who encircles the earth. Her skin bears the original geometric designs of the cosmos, and her massive, slithering movements carved the meandering rivers of the Amazon basin.",
+      "facet": "She is the literal, physical source of the psychedelic experience. The patterned lines of her skin are the very songs and visions that shamans navigate when under the influence of the vine, making her the mother of both water and perception.",
+      "provenance": "Jeremy Narby, 'The Cosmic Serpent' (1998); Shipibo oral traditions."
+    },
+    {
+      "id": "amazonian-yurupari",
+      "kind": "rite",
+      "name": "Yuruparí / Kuwai (The Flute Hero)",
+      "archetypes": [
+        "culture-hero",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The powerful hero-deity of the Tukano and Arawak, and the center of a secret men's initiation cult. Born of a virgin, his singing formed the world, but he was ultimately burned; his ashes grew the sacred palmwood flutes.",
+      "facet": "His power is violently gendered and strictly acoustic. The sheer, terrifying sound of the Yuruparí flutes—which uninitiated women are traditionally forbidden to see—vibrates boys into adult men, channeling raw, world-ordering cosmic fertility.",
+      "provenance": "Stephen Hugh-Jones, 'The Palm and the Pleiades' (1979); Robin Wright, 'Mysteries of the Jaguar Shamans' (2013)."
+    },
+    {
+      "id": "amazonian-sun-father",
+      "kind": "deity",
+      "name": "The Sun-Father",
+      "archetypes": [
+        "sky-father",
+        "solar"
+      ],
+      "gloss": "The distant creator deity of the Tukano and Gê peoples who conceptualized the universe in his mind. He fertilized the earth using his 'lightning-phallus' and dispatched the Anaconda-Canoe to carry the first ancestors up the rivers to their territories.",
+      "facet": "The Sun is less a personal god and more a principle of rigid, scorching perfection and patrilineal descent. His light and heat govern the strict seasonal rhythms and the flow of vital energy through a closed cosmic circuit.",
+      "provenance": "Gerardo Reichel-Dolmatoff, 'Amazonian Cosmos' (1971)."
+    },
+    {
+      "id": "amazonian-master-of-animals",
+      "kind": "force",
+      "name": "Master of Animals (Curupira / Vai-mahse)",
+      "archetypes": [
+        "master-of-animals",
+        "animist-perspectivism"
+      ],
+      "gloss": "The fierce, often physically bizarre guardian of the forest's game. He oversees the reproduction of animals, herds the wild pigs, and violently enforces hunting quotas to prevent human over-exploitation.",
+      "facet": "Hunting in the Amazon is not a human right, but a precarious diplomatic exchange. The Master requires shamans to negotiate and offer spiritual payment, viewing animals as 'people' who live in their own parallel, mirrored societies.",
+      "provenance": "Eduardo Viveiros de Castro, 'Cannibal Metaphysics' (2009); Pan-Amazonian folklore."
+    }
+  ],
+  "edges": [
+    {
+      "a": "amazonian-omama",
+      "b": "amazonian-yoasi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational sibling dyad where one constructs the cosmos and the other degrades it through stupidity."
+    },
+    {
+      "a": "amazonian-kene-icaros",
+      "b": "amazonian-ronin",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The geometric songs (kené) are physically derived from the patterns on the skin of the cosmic anaconda."
+    },
+    {
+      "a": "amazonian-omama",
+      "b": "amazonian-xapiri",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Omama captured and bound the xapiri, leaving them as the essential tools for shamans to defend humanity."
+    },
+    {
+      "a": "amazonian-omama",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Creators who bestow the specific technical and spiritual tools necessary for humanity to survive a hostile cosmos."
+    },
+    {
+      "a": "amazonian-yoasi",
+      "b": "pnw-raven",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Greedy, bungling figures whose selfish actions accidentally reshape the human condition, often introducing hardship."
+    },
+    {
+      "a": "amazonian-yoasi",
+      "b": "origin-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The bumbling figure whose specific, avoidable error permanently introduces mortality to the world."
+    },
+    {
+      "a": "amazonian-kene-icaros",
+      "b": "songlines",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The world is literally sung into being and maintained through specific, geographically and physically resonant melodies."
+    },
+    {
+      "a": "amazonian-ronin",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A colossal, water-associated serpent whose physical movements shape the terrain and who embodies the vibrant energies of the cosmos."
+    },
+    {
+      "a": "amazonian-yurupari",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A deity of dangerous, ecstatic energy, closely associated with plant life, music, and a cult of transformative initiation."
+    },
+    {
+      "a": "amazonian-yurupari",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A civilizing hero whose body is destroyed, with his physical remnants becoming the locus of enduring ritual power."
+    },
+    {
+      "a": "amazonian-sun-father",
+      "b": "inti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Solar fathers who dictate the strict calendrical and agricultural order of the cosmos."
+    },
+    {
+      "a": "amazonian-sun-father",
+      "b": "viracocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Distant creator deities who establish the initial cosmic architecture but remain aloof from daily human affairs."
+    },
+    {
+      "a": "amazonian-master-of-animals",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Sovereigns of the forest who control the release of game to hunters and must be ritually propitiated."
+    },
+    {
+      "a": "amazonian-master-of-animals",
+      "b": "basque-basajaun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Wild, physically distinct lords of the forest who protect nature from human overreach."
+    },
+    {
+      "a": "amazonian-kene-icaros",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The principle of aesthetic, geometric, and harmonic balance that must be constantly restored through sung ritual to cure illness."
+    },
+    {
+      "a": "amazonian-ronin",
+      "b": "fon-dan-ayida",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmic serpent that surrounds reality and serves as the conduit for divine, structural energy."
+    },
+    {
+      "a": "amazonian-xapiri",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Shamanic modalities relying on intense aesthetic and physical exertion to summon entities and energy that battle sickness."
+    },
+    {
+      "a": "amazonian-omama",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial shaman-hero who uses esoteric knowledge to stabilize the world and protect his people."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "animist-perspectivism",
+      "name": "Animist Perspectivism",
+      "subtype": "principle",
+      "gloss": "The ontological premise that all beings (animals, plants, spirits) see themselves as human and live in parallel societies with their own culture, treating humans as prey or predators.",
+      "reason": "Crucial for understanding New World and circumpolar hunting cosmologies, where interactions with animals are diplomatic relations between different kinds of 'people' rather than domination over beasts."
+    }
+  ]
+}

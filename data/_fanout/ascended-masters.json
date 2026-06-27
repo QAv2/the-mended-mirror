@@ -1,0 +1,233 @@
+{
+  "tradition": {
+    "id": "ascended-masters",
+    "name": "Ascended Master Teachings",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "ascended-masters-saint-germain",
+      "kind": "deity",
+      "name": "Saint Germain",
+      "archetypes": [
+        "culture-hero",
+        "cyclic-ages"
+      ],
+      "gloss": "The Hierarch of the Aquarian Age and Chohan of the Seventh Ray. Having allegedly embodied as Francis Bacon and Christopher Columbus, he is now an immortal cosmic sponsor of freedom, dispensing alchemical wisdom to lift humanity into spiritual liberation.",
+      "facet": "He aggressively democratises esoteric alchemy. Rather than withholding occult secrets for hidden initiates, he broadcasts the mechanics of self-transformation to the American middle class as a civic, patriotic, and cosmic imperative.",
+      "provenance": "Guy Ballard's 'Unveiled Mysteries' (1934); Summit Lighthouse texts by Mark and Elizabeth Clare Prophet."
+    },
+    {
+      "id": "ascended-masters-i-am-presence",
+      "kind": "concept",
+      "name": "The I AM Presence",
+      "archetypes": [
+        "axis-mundi",
+        "withdrawn-creator"
+      ],
+      "gloss": "The 'Magic Presence', an individualized electronic body of God hovering twelve to fifty feet above every human. It is the pure, uncorrupted divine blueprint, anchored directly to the physical heart via a shimmering 'silver cord' of energy.",
+      "facet": "It intensely localises the Abrahamic God. 'I AM THAT I AM' is no longer a burning bush's distant voice, but an intimately possessed, personal battery pack of divine authority hovering directly over one's own head.",
+      "provenance": "Godfre Ray King (Guy Ballard) in 'The Magic Presence' (1935); derived from New Thought and Theosophical monads."
+    },
+    {
+      "id": "ascended-masters-violet-flame",
+      "kind": "force",
+      "name": "The Violet Flame",
+      "archetypes": [
+        "transmuting-fire"
+      ],
+      "gloss": "A high-frequency spiritual energy of mercy, forgiveness, and transmutation. Practitioners invoke it to burn away negative karma, permanently erasing the cause, effect, record, and memory of past misdeeds across all lifetimes.",
+      "facet": "It mechanicalises grace. Karma is no longer an inescapable wheel of suffering or subject to a deity's whim; it is a physical, crust-like substance that can be literally incinerated through applied spiritual technology.",
+      "provenance": "Teachings of Saint Germain via Guy Ballard (1930s); extensively systematised by Elizabeth Clare Prophet."
+    },
+    {
+      "id": "ascended-masters-decreeing",
+      "kind": "rite",
+      "name": "Decreeing (The Science of the Spoken Word)",
+      "archetypes": [
+        "vocal-theurgy",
+        "cosmic-order"
+      ],
+      "gloss": "A rhythmic, rapid-fire recitation of rhyming invocations. It is deployed not as a petition to God, but as the authoritative direction of cosmic energy into the physical and astral planes.",
+      "facet": "It pivots prayer into pure command. The practitioner acts as a spiritual general, weaponising vocal cadence to shatter astral blockages and enforce the divine will without waiting for heavenly permission.",
+      "provenance": "Introduced by the I AM Activity (1930s); formalised with extreme speed and repetition by the Summit Lighthouse."
+    },
+    {
+      "id": "ascended-masters-great-white-brotherhood",
+      "kind": "concept",
+      "name": "The Great White Brotherhood",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "An order of enlightened, immortal beings—Ascended Masters, Archangels, and Elohim—who have transcended the cycles of rebirth. They work collectively from the etheric octave to manage Earth's spiritual evolution.",
+      "facet": "It operates as a cosmic corporate hierarchy. God delegates the universe's management to a highly structured bureaucracy of 'Rays' and 'Chohans' that heavily mirrors twentieth-century American institutional optimism and efficiency.",
+      "provenance": "Theosophical writings of H.P. Blavatsky (1870s), heavily adapted by Alice Bailey and Guy Ballard."
+    },
+    {
+      "id": "ascended-masters-el-morya",
+      "kind": "deity",
+      "name": "El Morya",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The uncompromising Chohan of the First Ray, embodying the blue flame of God's Will. Often depicted as a Rajput prince, he sponsors statesmen and demands absolute, diamond-hearted obedience to the divine plan.",
+      "facet": "He embodies the martial polarity of the teachings. While other masters offer comfort, El Morya functions as a spiritual drill sergeant, excoriating human ego and demanding flawless execution of cosmic duty.",
+      "provenance": "Theosophical Mahatma letters (1880s); foundational guru to Mark Prophet in founding the Summit Lighthouse (1958)."
+    },
+    {
+      "id": "ascended-masters-sanat-kumara",
+      "kind": "deity",
+      "name": "Sanat Kumara",
+      "archetypes": [
+        "axis-mundi",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The 'Ancient of Days' and Lord of the World. According to lore, he voluntarily exiled himself from the planet Venus to keep the threefold flame of life burning on Earth when cosmic councils intended to dissolve the darkened planet.",
+      "facet": "A saviour of pure stasis. He did not die for human sins; rather, he anchored a cosmic lifeline of sheer evolutionary energy, holding a planetary life-support system in place until humanity could generate its own light.",
+      "provenance": "C.W. Leadbeater's Theosophical texts (1910s); detailed heavily in Bridge to Freedom and CUT theology."
+    },
+    {
+      "id": "ascended-masters-tube-of-light",
+      "kind": "force",
+      "name": "The Tube of Light",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An invulnerable cylinder of brilliant white energy drawn down from the I AM Presence. Practitioners invoke it daily to seal their auras against malevolent psychic projections, discarnate entities, and the negative mass consciousness.",
+      "facet": "It physicalizes spiritual hygiene as a militarised bio-shield. It presumes the modern world is a dangerously polluted psychic environment requiring literal, daily armour-plating to survive spiritually intact.",
+      "provenance": "Guy Ballard's I AM Activity (1930s); a mandatory core daily ritual of Church Universal and Triumphant."
+    }
+  ],
+  "edges": [
+    {
+      "a": "ascended-masters-i-am-presence",
+      "b": "ascended-masters-tube-of-light",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Tube of Light is the physical-etheric perimeter strictly generated and sustained by the overarching I AM Presence."
+    },
+    {
+      "a": "ascended-masters-saint-germain",
+      "b": "ascended-masters-el-morya",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The balancing dyad of the teachings, where Saint Germain's alchemical freedom is rigorously checked by El Morya's demand for flawless obedience."
+    },
+    {
+      "a": "ascended-masters-violet-flame",
+      "b": "ascended-masters-decreeing",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The raw spiritual fire of transmutation remains latent until mechanistically activated by the spoken decree."
+    },
+    {
+      "a": "ascended-masters-i-am-presence",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The esoteric literalization of Exodus 3:14, where 'I AM' is reinterpreted from God's distant name to the practitioner's own higher self."
+    },
+    {
+      "a": "ascended-masters-saint-germain",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly framed in the teachings as the successor to Jesus's planetary office, stepping in to sponsor the Aquarian Age just as Christ sponsored the Piscean Age."
+    },
+    {
+      "a": "ascended-masters-i-am-presence",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The uncorrupted, unfallen fragment of the divine blueprint residing just above or within the individual, serving as the only true vector of salvation."
+    },
+    {
+      "a": "ascended-masters-violet-flame",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A purifying, non-destructive spiritual fire conceived as a literal substance that transmutes cosmic decay into divine order."
+    },
+    {
+      "a": "ascended-masters-violet-flame",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The invocation of divine fire as the supreme active agent that consumes the dross of human karma and mediates between the physical and etheric realms."
+    },
+    {
+      "a": "ascended-masters-decreeing",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The reduction of divine communion to an exact, unvarying rhythmic science, where precise spoken formulas compel spiritual mechanics without room for ad-hoc petition."
+    },
+    {
+      "a": "ascended-masters-great-white-brotherhood",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A class of completely perfected beings who have exhausted all their karma and permanently exited the cycle of reincarnation, though here they actively manage Earth."
+    },
+    {
+      "a": "ascended-masters-sanat-kumara",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme vow of sacrifice: a cosmic sovereign who refuses to move onward in his own immense spiritual evolution in order to rescue a failing, darkened world."
+    },
+    {
+      "a": "ascended-masters-el-morya",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Fierce, martial deities of raw will who cut away human weakness and clear the unyielding path for divine law to manifest."
+    },
+    {
+      "a": "ascended-masters-i-am-presence",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute, undifferentiated divine reality that serves as the ultimate source of the individual self, completely devoid of anthropomorphic judgment."
+    },
+    {
+      "a": "ascended-masters-great-white-brotherhood",
+      "b": "abosom",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly structured hierarchy of divine delegates who manage the specific departments of creation on behalf of a withdrawn, supreme creator."
+    },
+    {
+      "a": "ascended-masters-great-white-brotherhood",
+      "b": "amesha-spentas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An emanationist council of divine attributes or 'Rays', acting collectively as the supreme executive branch of God."
+    },
+    {
+      "a": "ascended-masters-saint-germain",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The rebel-hero who disobeys orthodox restriction to deliver the fire of liberation—here, the Violet Flame—directly to humanity."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "vocal-theurgy",
+      "name": "Vocal Theurgy",
+      "subtype": "rite",
+      "gloss": "The belief that precise, rhythmic, or mathematically structured human speech does not merely request divine aid, but mechanistically compels or generates divine power.",
+      "reason": "Needed for traditions where prayer is a physics rather than a petition, spanning Ascended Master decreeing, Vedic mantra, Egyptian Heka, and strict Roman phonetic rituals."
+    },
+    {
+      "id": "transmuting-fire",
+      "name": "Transmuting Fire",
+      "subtype": "force",
+      "gloss": "A manifestation of divine fire not as a weapon of wrath or simple hearth-warmth, but as a cosmic solvent that burns away sin, karma, or impurity to restore perfection.",
+      "reason": "Bridges the Violet Flame, Zoroastrian Atar, Vedic Agni, and the Stoic concept of ekpyrosis."
+    }
+  ]
+}

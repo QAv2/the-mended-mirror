@@ -1,0 +1,245 @@
+{
+  "tradition": {
+    "id": "buryat",
+    "name": "Buryat",
+    "region": "Lake Baikal",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "buryat-khormasta-tengeri",
+      "kind": "deity",
+      "name": "Khormasta Tengeri (Chief of the Western Heavens)",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "The supreme chief of the 55 benevolent 'white' tengeri (sky gods). He is the giver of life force and the protector of cosmic order, leading the celestial war against the 44 hostile 'black' eastern deities.",
+      "facet": "Though a supreme sky father, his power is politically fractured. Heaven is not a unified realm but a warring tribal confederacy of 99 gods, mirroring the turbulent alliances of the terrestrial steppes.",
+      "provenance": "Prominent in the Buryat epic 'Abai Geser', extensively documented by Walther Heissig and Caroline Humphrey."
+    },
+    {
+      "id": "buryat-etugen-ekhe",
+      "kind": "deity",
+      "name": "Etugen Ekhe (Mother Earth)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The vast, horizontal complement to the vertical Father Heaven. She is the recipient of the dead, the source of pastoral fertility, and the deep reservoir of terrestrial power that balances the sky's dynamic interventions.",
+      "facet": "She is strictly immanent and stubbornly un-anthropomorphized. She is the literal physical soil, steppe, and taiga, felt underfoot rather than depicted as a human-like goddess with a personal narrative.",
+      "provenance": "Core to pan-Mongolic and Buryat cosmology; studied by Roberte Hamayon and recorded in early ethnographic fieldnotes of the Baikal region."
+    },
+    {
+      "id": "buryat-erlen-khan",
+      "kind": "deity",
+      "name": "Erlen Khan (Lord of the Underworld)",
+      "archetypes": [
+        "underworld-sovereign",
+        "cosmic-adversary"
+      ],
+      "gloss": "The sovereign of the subterranean realm and the strict judge of the dead. He tallies the allotted lifespans of human beings and dispatches spirits to drag souls into the shadows when their time is expired.",
+      "facet": "His mythos reflects a profound historical collision: he evolved from a primal shadow-shaman into a karmic, ledger-keeping bureaucrat due to the heavy syncretic influence of Tibetan Buddhism entering the Baikal region.",
+      "provenance": "Documented in post-17th century syncretic texts and shamanic invocations; analyzed deeply by Roberte Hamayon in 'La Chasse a l'ame' (1990)."
+    },
+    {
+      "id": "buryat-boo",
+      "kind": "concept",
+      "name": "Boo and Udagan (Male and Female Shamans)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The chosen intermediaries who bridge the human and spirit worlds. They are strictly divided into 'white' shamans, who petition the benevolent celestial deities, and 'black' shamans, who negotiate with fierce, chthonic, and martial spirits.",
+      "facet": "The vocation is not a learned priesthood but an inherited, dangerous biological burden. It begins with the 'shamanic illness'—a violent psychological and physical breakdown that forces the individual to serve the spirits to survive.",
+      "provenance": "Foundational to Baikal ethnography; detailed by Mircea Eliade and Roberte Hamayon."
+    },
+    {
+      "id": "buryat-ongon",
+      "kind": "concept",
+      "name": "Ongon (The Spirit Receptacle)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Ancestral spirits, or the physical effigies made of wood, fur, felt, and metal into which these spirits are ritually coaxed to reside. They serve as fierce protectors of the household and clan.",
+      "facet": "The spirit is inextricably fused with the material object. It is not an abstract presence; it must be physically fed with smeared fat, butter, or blood. If starved or neglected, it becomes hostile and consumes the family's vitality.",
+      "provenance": "Extensively cataloged by D. K. Zelenin in his 1936 monograph on Siberian ongons, and further analyzed by Caroline Humphrey."
+    },
+    {
+      "id": "buryat-olkhon",
+      "kind": "place",
+      "name": "Olkhon (The Sacred Island)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The largest island in Lake Baikal, recognized as the undisputed geographic and spiritual center of the Buryat cosmos. It is the earthly domain of the fiercest local spirits and the supreme site for shamanic initiation.",
+      "facet": "It acts as a paradoxical, inverted mountain. Instead of a peak towering into the heavens, this axis mundi sits surrounded by the world's deepest, most ancient freshwater abyss, anchoring the cosmos in depth rather than height.",
+      "provenance": "Central to Baikal Buryat geography and myth; extensively documented by local ethnographer Taras Makhalov."
+    },
+    {
+      "id": "buryat-burged",
+      "kind": "creature",
+      "name": "Burged (The Great Eagle)",
+      "archetypes": [
+        "culture-hero",
+        "psychopomp"
+      ],
+      "gloss": "The divine eagle sent by the Tengeri to bring healing to humanity. Seeing early humans ravaged by disease and death, the heavens dispatched Burged to bestow the gift of shamanism upon the earth.",
+      "facet": "Because human language was an insurmountable barrier, the eagle could not simply teach the humans. Instead, the bird mated with a sleeping human woman, physically siring the first shaman to bridge the species gap.",
+      "provenance": "A core Buryat origin myth recorded by Jeremiah Curtin in 'A Journey in Southern Siberia' (1909)."
+    },
+    {
+      "id": "buryat-bukh-noyon-baabay",
+      "kind": "ancestor",
+      "name": "Bukh Noyon Baabay (Lord Bull Father)",
+      "archetypes": [
+        "first-ancestor",
+        "master-of-animals"
+      ],
+      "gloss": "A mighty, divine grey bull who descended from the heavens. After roaming the shores of Lake Baikal, he transformed into a man and fathered the Bulagad tribe, one of the primary Buryat lineages.",
+      "facet": "Divinity expresses itself directly as pastoral capital. The supreme ancestor is not a conquering human king, but the literal herd animal that guarantees the clan's metabolic survival and integrates them into the steppe ecology.",
+      "provenance": "Bulagad tribal genealogies and oral traditions; analyzed in Buryat ethnographic collections of the late 19th and early 20th centuries."
+    }
+  ],
+  "edges": [
+    {
+      "a": "buryat-khormasta-tengeri",
+      "b": "buryat-erlen-khan",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The eternal structural tension between the celestial giver of life force and the subterranean ledger-keeper of death."
+    },
+    {
+      "a": "buryat-boo",
+      "b": "buryat-ongon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The ecstatic practitioner and the localized, material spirit-vessel they must ritually feed and command."
+    },
+    {
+      "a": "buryat-olkhon",
+      "b": "buryat-boo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The paramount sacred geography and the human initiates who must travel there to validate their spiritual power."
+    },
+    {
+      "a": "buryat-khormasta-tengeri",
+      "b": "ahura-mazda",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A documented historical and linguistic syncretism where the Iranian supreme deity was adapted into the Mongol-Buryat sky pantheon via Sogdian trade networks."
+    },
+    {
+      "a": "buryat-khormasta-tengeri",
+      "b": "tengri",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: Direct linguistic and conceptual descent from the ancient Turco-Mongolic supreme sky deity."
+    },
+    {
+      "a": "buryat-khormasta-tengeri",
+      "b": "buddhist-indra-sakra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In the syncretism of Tibetan Buddhism and Buryat shamanism, the chief of the 33 Buddhist heavens was mapped directly onto the chief of the 55 western Tengeri."
+    },
+    {
+      "a": "buryat-etugen-ekhe",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fierce, immanent goddess of the physical earth and womb who balances the remote masculine sky."
+    },
+    {
+      "a": "buryat-etugen-ekhe",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The un-anthropomorphized, literal earth-as-mother who receives the dead and dictates agricultural and pastoral fertility."
+    },
+    {
+      "a": "buryat-erlen-khan",
+      "b": "erlik",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: Direct descent from the ancient Siberian and Turco-Mongolic lord of the underworld."
+    },
+    {
+      "a": "buryat-erlen-khan",
+      "b": "buddhist-yama",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The historical merging of the indigenous shadow-lord with the karmic judge of the dead imported by Tibetan lamas."
+    },
+    {
+      "a": "buryat-boo",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The inherited, often traumatic vocation of ecstatic spirit-mediation, strictly categorized by the types of spirits served."
+    },
+    {
+      "a": "buryat-boo",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The exact shared Siberian cosmological framework of navigating vertical realms to negotiate with spirit lords."
+    },
+    {
+      "a": "buryat-ongon",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Power not as abstract prayer, but as a spirit bound into a constructed material effigy that must be physically fed and maintained."
+    },
+    {
+      "a": "buryat-ongon",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A physical receptacle—whether wood, fur, or human—that serves as the literal, localized housing for a divine force requiring biological sustenance."
+    },
+    {
+      "a": "buryat-olkhon",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Specific, inviolable physical geography that serves as the anchoring axis for the entire cosmological and spiritual world."
+    },
+    {
+      "a": "buryat-burged",
+      "b": "pnw-raven",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine, winged emissary who crosses the celestial boundary to bring critical survival technology to a suffering early humanity."
+    },
+    {
+      "a": "buryat-bukh-noyon-baabay",
+      "b": "san-eland",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate reverence for the central herd or prey animal, viewing it not just as food, but as a divine progenitor and cosmic mediator."
+    },
+    {
+      "a": "buryat-bukh-noyon-baabay",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A sacred bovine-associated emissary who establishes the physical and spiritual lineage of a nomadic people."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "fed-effigy",
+      "name": "Fed Effigy",
+      "subtype": "concept",
+      "gloss": "A physical vessel or construct that must be ritually and continuously fed with biological material (fat, blood, food) to maintain the loyalty and presence of its indwelling spirit.",
+      "reason": "Crucial to map the specific material animism of Kongo minkisi, Buryat ongons, and Mesoamerican ixiptla, which goes beyond general 'one-through-many' representation into metabolic maintenance."
+    },
+    {
+      "id": "shamanic-illness",
+      "name": "Shamanic Illness",
+      "subtype": "concept",
+      "gloss": "A violent, involuntary physical and psychological breakdown that acts as a mandatory initiation, forcing the afflicted to accept spiritual power to survive.",
+      "reason": "Captures the traumatic, non-consensual nature of the spiritual calling present in Siberian, Korean, and Inuit traditions, distinguishing it from learned priesthoods or voluntary mysticism."
+    }
+  ]
+}

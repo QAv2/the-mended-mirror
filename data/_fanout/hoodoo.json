@@ -1,0 +1,245 @@
+{
+  "tradition": {
+    "id": "hoodoo",
+    "name": "Hoodoo (Conjure / Rootwork)",
+    "region": "US South",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "hoodoo-high-john",
+      "kind": "hero",
+      "name": "High John the Conqueror",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "An African American folk hero who outwitted enslavers, embodied in the twisted, spicy root of the Ipomoea jalapa. He represents resilience, luck, and the subversion of oppression, serving as both an invoked spiritual ally and a tangible botanical power.",
+      "facet": "The spiritual and the botanical are completely fused. High John is not just a mythological trickster in stories; he literally physically resides in a plant root carried in one's pocket to bend the law.",
+      "provenance": "Zora Neale Hurston, 'High John de Conquer' (1943); Harry Middleton Hyatt, 'Hoodoo - Conjuration - Witchcraft - Rootwork' (1970)."
+    },
+    {
+      "id": "hoodoo-crossroads",
+      "kind": "place",
+      "name": "The Crossroads",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An intersecting dirt path serving as a liminal altar where the physical and spiritual worlds meet. It is the site for disposing of ritual remnants, breaking curses, and most famously, performing a solitary multi-day vigil to acquire supernatural skills.",
+      "facet": "It functions not as a temple for communal worship, but as a site of illicit, private exchange. The seeker brings an object to be enchanted, trading isolated endurance for unearthly proficiency from the presiding spirit.",
+      "provenance": "Harry Middleton Hyatt, 'Hoodoo - Conjuration - Witchcraft - Rootwork' (1970)."
+    },
+    {
+      "id": "hoodoo-black-man",
+      "kind": "force",
+      "name": "The Black Man of the Crossroads",
+      "archetypes": [
+        "trickster",
+        "psychopomp"
+      ],
+      "gloss": "The enigmatic spirit who arrives at the crossroads at midnight to tune a seeker's instrument or teach them conjure. Though often syncretized by white observers as the Christian Devil, he is deeply rooted in African trickster deities who govern boundaries.",
+      "facet": "He is a morally neutral distributor of mastery rather than a tempter of souls. Unlike the European Faustian devil who seeks eternal damnation, the Black Man exchanges practical, earthly skills for discipline and daring.",
+      "provenance": "Katrina Hazzard-Donald, 'Mojo Workin': The Old African American Hoodoo System' (2012)."
+    },
+    {
+      "id": "hoodoo-mojo-bag",
+      "kind": "force",
+      "name": "The Mojo Bag (Toby)",
+      "archetypes": [
+        "animated-vessel"
+      ],
+      "gloss": "A flannel bag containing botanical, mineral, and zoological curios bound together and 'fed' with whiskey or bodily fluids. It operates as a localized, constructed spiritual entity worn on the body for protection, love, or commanding power.",
+      "facet": "It is not a passive amulet but a living, breathing creature constructed by the rootworker. If it is not regularly 'fed' and talked to, its spirit dies; if touched by an outsider, its power is permanently killed.",
+      "provenance": "Yvonne P. Chireau, 'Black Magic: Religion and the African American Conjuring Tradition' (2003)."
+    },
+    {
+      "id": "hoodoo-graveyard-dirt",
+      "kind": "force",
+      "name": "Graveyard Dirt (Goofer Dust)",
+      "archetypes": [
+        "contracted-shade"
+      ],
+      "gloss": "Soil harvested from a grave—bought with coins or whiskey—that contains the spiritual essence and skills of the deceased. Dirt from a soldier yields aggressive protection, while dirt from a sinner is weaponized as 'goofer dust' to curse or kill.",
+      "facet": "The dead are treated as mercenaries rather than revered ancestors. The practitioner must literally 'buy' the spirit's cooperation with silver dimes left at the grave, turning the deceased into a contracted worker bound to the soil.",
+      "provenance": "Harry Middleton Hyatt, 'Hoodoo - Conjuration - Witchcraft - Rootwork' (1970); Jeffrey E. Anderson, 'Conjure in African American Society' (2005)."
+    },
+    {
+      "id": "hoodoo-psalm-magic",
+      "kind": "rite",
+      "name": "Psalm Magic",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The appropriation of the biblical Psalms as a grimoire of spoken spells. Rather than mere prayers of submission, specific Psalms are recited alongside candle burning and rootwork to command justice, destroy enemies, or attract wealth.",
+      "facet": "It violently divorces the text of the Bible from orthodox Christian theology. Scripture is weaponized as pure, mechanical sonic power; treating the holy word as a neutral technology rather than a decree of a sovereign God.",
+      "provenance": "Theophus H. Smith, 'Conjuring Culture: Biblical Formations of Black America' (1994)."
+    },
+    {
+      "id": "hoodoo-foot-track",
+      "kind": "rite",
+      "name": "Foot Track Magic",
+      "archetypes": [
+        "contagious-essence"
+      ],
+      "gloss": "The practice of capturing a target's footprint in the dirt to gain control over them. By mixing this dirt with roots or powders, a conjurer can force a lover to return, cause an enemy to wander endlessly, or induce poisoning.",
+      "facet": "It establishes the footprint as a literal extension of the nervous system and soul. The boundary of the human body is permeable and geographically extended; touching the track is indistinguishable from touching the flesh.",
+      "provenance": "Newbell Niles Puckett, 'Folk Beliefs of the Southern Negro' (1926)."
+    },
+    {
+      "id": "hoodoo-haints",
+      "kind": "creature",
+      "name": "Haints",
+      "archetypes": [
+        "earthbound-shade",
+        "cosmic-adversary"
+      ],
+      "gloss": "Restless, hostile spirits of the dead who lack peace and wander the physical plane to harass the living. They are repelled by painting porch ceilings 'haint blue', placing salt at thresholds, or using specialized apotropaic charms.",
+      "facet": "Haints are entirely mechanistic and obsessive in their haunting. They suffer from an inescapable compulsion to count small objects, allowing practitioners to easily trap them by scattering mustard seeds or hanging a sieve by the door.",
+      "provenance": "Jeffrey E. Anderson, 'Hoodoo, Voodoo, and Conjure: A Handbook' (2008)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "hoodoo-high-john",
+      "b": "hoodoo-mojo-bag",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The High John root is frequently the animating biological heart placed inside a constructed mojo bag to grant it commanding power."
+    },
+    {
+      "a": "hoodoo-crossroads",
+      "b": "hoodoo-black-man",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Black Man is the localized guardian and granter of power who only manifests at the physical crossroads after a multi-day ritual vigil."
+    },
+    {
+      "a": "hoodoo-graveyard-dirt",
+      "b": "hoodoo-foot-track",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Goofer dust, a weaponized form of graveyard dirt, is often deployed by dusting it directly into an enemy's footprint to poison them from the ground up."
+    },
+    {
+      "a": "hoodoo-mojo-bag",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Direct historical descent. Both traditions construct physical bundles of roots, minerals, and bones that serve as localized vessels for bound spirits."
+    },
+    {
+      "a": "hoodoo-graveyard-dirt",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Hoodoo's use of grave dirt to command the dead derives directly from the Kongo use of mpemba (white clay or grave dirt) to connect with ancestors in minkisi creation."
+    },
+    {
+      "a": "hoodoo-black-man",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Black Man at the crossroads is a North American syncretism deeply informed by the Yoruba trickster Eshu, who governs thresholds, intersections, and the delivery of esoteric knowledge."
+    },
+    {
+      "a": "hoodoo-black-man",
+      "b": "fon-legba",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Retains the exact functional geometry of the Fon Legba, presiding over the crossroads as a morally neutral gatekeeper who must be appeased to access spiritual power."
+    },
+    {
+      "a": "hoodoo-high-john",
+      "b": "anansi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the marginalized utilizing guile, humor, and trickery to outwit a physically superior oppressor, becoming folk heroes of survival."
+    },
+    {
+      "a": "hoodoo-psalm-magic",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Hoodoo appropriates the scriptural texts of Yahweh, forcibly stripping them of orthodox Christian theology and wielding them as mechanical incantations for earthly dominance."
+    },
+    {
+      "a": "hoodoo-haints",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions feature restless, localized spirits of the dead who obsessively harass the living and must be repelled by threshold wards or apotropaic charms."
+    },
+    {
+      "a": "hoodoo-graveyard-dirt",
+      "b": "charon",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both require literal, physical currency (silver dimes in Hoodoo, obols in Greek myth) to successfully transact with the spirits of the underworld."
+    },
+    {
+      "a": "hoodoo-crossroads",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dirt crossroads serves as the definitive central pillar for the rootworker, the exact spatial coordinates where the mortal plane and the spirit realm intersect."
+    },
+    {
+      "a": "hoodoo-foot-track",
+      "b": "pnw-property-soul",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both view the human essence as geographically extended and vulnerable; capturing a footprint or a cast-off item allows a sorcerer remote access to the victim's nervous system."
+    },
+    {
+      "a": "hoodoo-mojo-bag",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Neither is a mere symbol; both the Mojo and the Ixiptla are constructed physical vessels transubstantiated to literally house and radiate a living spiritual force."
+    },
+    {
+      "a": "hoodoo-black-man",
+      "b": "tezcatlipoca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are nocturnal, morally ambiguous lords of the crossroads who test wanderers in the dark, granting tremendous worldly power to those who show no fear."
+    },
+    {
+      "a": "hoodoo-black-man",
+      "b": "velnias",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent an earthbound, trickster-like adversary deeply associated with magic, music, and the dead, often syncretized later with the Christian Devil."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "animated-vessel",
+      "name": "Animated Vessel",
+      "subtype": "concept",
+      "gloss": "A physical object or bundle constructed by human hands that literally houses a living, breathing spiritual entity requiring regular sustenance to survive.",
+      "reason": "Necessary for traditions where amulets are not passive symbols, but literal constructed bodies for spirits that can 'die' if not fed."
+    },
+    {
+      "id": "contracted-shade",
+      "name": "Contracted Shade",
+      "subtype": "force",
+      "gloss": "The spirit of a deceased human who is not worshipped as an ancestor, but hired as a spiritual mercenary through a literal transaction of coins or offerings at their grave.",
+      "reason": "Needed to distinguish reverent ancestor worship from the pragmatic, transactional employment of the dead for specific, often aggressive tasks."
+    },
+    {
+      "id": "contagious-essence",
+      "name": "Contagious Essence",
+      "subtype": "principle",
+      "gloss": "The metaphysical law that the human soul or nervous system extends geographically into footprints, cast-off hair, or clothing, rendering the boundary of the body permeable.",
+      "reason": "Explains remote sympathetic magic where altering the dirt a person walked on is physically indistinguishable from altering their actual flesh."
+    },
+    {
+      "id": "earthbound-shade",
+      "name": "Earthbound Shade",
+      "subtype": "creature",
+      "gloss": "The energetic remnant or lesser soul of a deceased person that remains tethered to the physical world, often becoming unruly, troublesome, or vulnerable to manipulation.",
+      "reason": "Necessary for distinguishing between fully elevated ancestors who guide the living, and lingering ghosts who haunt or are weaponized by sorcery."
+    }
+  ]
+}

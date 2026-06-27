@@ -1,0 +1,248 @@
+{
+  "tradition": {
+    "id": "church-of-all-worlds",
+    "name": "Church of All Worlds",
+    "region": "USA",
+    "color": "#6aa06a"
+  },
+  "figures": [
+    {
+      "id": "church-of-all-worlds-gaia",
+      "kind": "deity",
+      "name": "Gaia",
+      "archetypes": [
+        "great-mother",
+        "one-through-many"
+      ],
+      "gloss": "The entire living biosphere of Earth conceptualized as a single, vast, self-regulating conscious organism. Synthesizing early 1970s environmental science with neo-Pagan theology, she is worshipped not as a distant anthropomorphic queen, but as the literal, biological mother of all terrestrial life.",
+      "facet": "She bridges hard scientific systems-theory with mystical devotion, demanding ecological activism—termed 'ecosophy'—as a literal religious duty rather than a mere moral option.",
+      "provenance": "Oberon Zell's 'Theagenesis: The Birth of the Goddess' (1971); directly interacting with James Lovelock's 'Gaia Hypothesis'."
+    },
+    {
+      "id": "church-of-all-worlds-thou-art-god",
+      "kind": "principle",
+      "name": "Thou art God / Goddess",
+      "archetypes": [
+        "radical-immanence",
+        "one-through-many"
+      ],
+      "gloss": "The supreme theological declaration borrowed directly from Robert A. Heinlein. It asserts that every sentient being is a self-aware fragment of the divine, erasing the boundary between the worshipper and the worshipped.",
+      "facet": "It strips away all need for intercessory priesthoods or distant creators; divinity is recognized as an inescapable biological and psychological fact of self-awareness.",
+      "provenance": "Robert A. Heinlein, 'Stranger in a Strange Land' (1961); CAW official doctrine."
+    },
+    {
+      "id": "church-of-all-worlds-water-sharing",
+      "kind": "rite",
+      "name": "Water-Sharing",
+      "archetypes": [
+        "sacred-kinship"
+      ],
+      "gloss": "The foundational sacrament where members drink from a shared chalice, reciting 'May you never thirst.' It creates a literal and spiritual 'water-brotherhood,' binding participants into a chosen family rooted in mutual survival.",
+      "facet": "Originating as a sci-fi literary device for desert-dwelling Martians, it was manifested into a real-world neo-Pagan rite that prioritizes horizontal human bonding over vertical divine appeasement.",
+      "provenance": "Robert A. Heinlein, 'Stranger in a Strange Land' (1961); CAW ritual texts."
+    },
+    {
+      "id": "church-of-all-worlds-grok",
+      "kind": "concept",
+      "name": "Grokking",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "A state of profound, empathetic comprehension where the observer and the observed completely merge. To 'grok' something is to understand it so fully that it becomes an indivisible part of one's own identity.",
+      "facet": "It modernizes mystical union, framing spiritual enlightenment through the lens of linguistic determinism and alien psychology rather than traditional ascetic practice.",
+      "provenance": "Robert A. Heinlein, 'Stranger in a Strange Land' (1961)."
+    },
+    {
+      "id": "church-of-all-worlds-michael-valentine-smith",
+      "kind": "hero",
+      "name": "Michael Valentine Smith",
+      "archetypes": [
+        "culture-hero",
+        "fictional-synthesis",
+        "dying-rising"
+      ],
+      "gloss": "The fictional Martian-human messiah of Heinlein's novel, venerated as the conceptual founder of the Church. He brought the practices of water-sharing, the concept of grokking, and the immanence of 'Thou art God' to a sleeping Earth.",
+      "facet": "He is a literal fictional character whose mythos was consciously enacted to found a real religion, proving the CAW thesis that myths need not be historically factual to be spiritually functional.",
+      "provenance": "Robert A. Heinlein, 'Stranger in a Strange Land' (1961)."
+    },
+    {
+      "id": "church-of-all-worlds-nest",
+      "kind": "concept",
+      "name": "The Nest",
+      "archetypes": [
+        "sacred-kinship"
+      ],
+      "gloss": "The core social and structural unit of the Church, consisting of an intimate, often polyamorous chosen family. Nests prioritize deep emotional and physical interconnectedness, living out the philosophy of water-brotherhood in daily life.",
+      "facet": "It explicitly dismantles the nuclear family in favor of a tribal, intentional structure modeled on both utopian sci-fi and speculative anthropology.",
+      "provenance": "CAW community guidelines; writings of Oberon and Morning Glory Zell-Ravenheart."
+    },
+    {
+      "id": "church-of-all-worlds-horned-god",
+      "kind": "deity",
+      "name": "The Horned God",
+      "archetypes": [
+        "master-of-animals",
+        "complementarity"
+      ],
+      "gloss": "The masculine divine principle, often envisioned as Pan or the Green Man. He represents the wild, untamed forces of nature, virility, and the evolutionary drive of the biosphere alongside Gaia.",
+      "facet": "He is explicitly paired with the Earth Mother not as a dominant sky-father, but as an immanent, earthy consort representing the localized flora and fauna of the planet.",
+      "provenance": "Oberon Zell-Ravenheart's neo-Pagan formulations; traditional Wiccan syncretism."
+    },
+    {
+      "id": "church-of-all-worlds-nine-circles",
+      "kind": "rite",
+      "name": "The Nine Circles",
+      "archetypes": [
+        "emergence",
+        "cyclic-ages"
+      ],
+      "gloss": "The initiatory degree system of the Church, named after the concentric rings of a growing tree. Members advance through these circles via study, psychological integration, and dedicated service to the Earth.",
+      "facet": "Unlike occult lodges seeking esoteric supremacy, its degrees map outward into deeper ecological awareness and community service, mirroring organic biological growth rather than hierarchical ascension.",
+      "provenance": "CAW official bylaws and initiatory texts."
+    }
+  ],
+  "edges": [
+    {
+      "a": "church-of-all-worlds-gaia",
+      "b": "church-of-all-worlds-horned-god",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The dualistic engine of the biosphere, pairing the massive consciousness of the planet with the localized, active spark of biological evolution."
+    },
+    {
+      "a": "church-of-all-worlds-michael-valentine-smith",
+      "b": "church-of-all-worlds-water-sharing",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: The fictional messiah whose specific literary actions provided the exact blueprint for the Church's central real-world sacrament."
+    },
+    {
+      "a": "church-of-all-worlds-gaia",
+      "b": "gaia",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: CAW explicitly adopts the Greek name and mythic resonance, fusing it with 20th-century ecological systems theory."
+    },
+    {
+      "a": "church-of-all-worlds-gaia",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both envision the Earth as a living, conscious mother requiring active reciprocity and ecological reverence from humanity."
+    },
+    {
+      "a": "church-of-all-worlds-gaia",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Earth revered not merely as a resource, but as a sacred, living entity that dictates ethical human behavior."
+    },
+    {
+      "a": "church-of-all-worlds-thou-art-god",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both assert that the core of human consciousness is literally composed of the divine essence, sidestepping external intermediaries."
+    },
+    {
+      "a": "church-of-all-worlds-thou-art-god",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Parallel assertions of ultimate non-dualism; the realization that the individual self is inherently indistinguishable from the cosmic all."
+    },
+    {
+      "a": "church-of-all-worlds-thou-art-god",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Viewing the universe not as a container for deities, but as being composed entirely of a unified, self-generating sacred energy."
+    },
+    {
+      "a": "church-of-all-worlds-grok",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A state of ultimate, intuitive alignment where the rigid division between the observer and the observed reality completely dissolves."
+    },
+    {
+      "a": "church-of-all-worlds-grok",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both concepts require the complete dissolution of the isolated ego to achieve true comprehension of reality."
+    },
+    {
+      "a": "church-of-all-worlds-water-sharing",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both feature a central sacrament of drinking a shared fluid to forge a profound, unbreakable bond of spiritual kinship."
+    },
+    {
+      "a": "church-of-all-worlds-michael-valentine-smith",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The alien culture-hero who brings forbidden, radically transformative knowledge to humanity at great personal cost."
+    },
+    {
+      "a": "church-of-all-worlds-michael-valentine-smith",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An otherworldly being who arrives suddenly to teach a complex system of spiritual and practical wisdom to humanity."
+    },
+    {
+      "a": "church-of-all-worlds-horned-god",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A masculine divine figure representing ecstatic natural forces, wilderness, and the subversion of rigid social structures."
+    },
+    {
+      "a": "church-of-all-worlds-horned-god",
+      "b": "basque-basajaun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as wild, hairy lords of the forest who protect the wilderness and represent raw natural vitality."
+    },
+    {
+      "a": "church-of-all-worlds-nine-circles",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: CAW uses the expanding rings of a growing tree as its structural metaphor for initiation, mirroring the World Tree's layered, organic cosmos."
+    },
+    {
+      "a": "church-of-all-worlds-gaia",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The pairing of CAW's Gaia and Horned God loosely mirrors the ancient division of cosmic reality into a vast foundational matrix and an activating biological principle."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "radical-immanence",
+      "name": "Radical Immanence",
+      "subtype": "principle",
+      "gloss": "A theological assertion that divinity is not a separate, transcendent category, but the innate, inescapable property of consciousness itself.",
+      "reason": "Required for concepts like 'Thou art God' where the distinction between worshipper and worshipped is entirely eradicated in favor of divine self-awareness."
+    },
+    {
+      "id": "fictional-synthesis",
+      "name": "Fictional Synthesis",
+      "subtype": "concept",
+      "gloss": "The deliberate, self-aware adoption of explicitly fictional or speculative literary constructs to form functional, real-world religious structures.",
+      "reason": "Crucial for traditions like the Church of All Worlds or Jediism, which intentionally mine science fiction and fantasy to create living mythologies."
+    },
+    {
+      "id": "sacred-kinship",
+      "name": "Sacred Kinship",
+      "subtype": "rite",
+      "gloss": "A binding social and spiritual structure prioritizing intentional, chosen family over genetic lineage or orthodox hierarchical ties.",
+      "reason": "Needed for structures like the Water-Brotherhood and Nests, which elevate communal, lateral bonding to the level of highest religious sacrament."
+    }
+  ]
+}

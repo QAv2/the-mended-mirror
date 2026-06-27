@@ -1,0 +1,222 @@
+{
+  "tradition": {
+    "id": "freemasonry",
+    "name": "Esoteric Freemasonry",
+    "region": "British Isles",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "freemasonry-hiram-abiff",
+      "kind": "hero",
+      "name": "Hiram Abiff (The Widow's Son)",
+      "archetypes": [
+        "smith",
+        "dying-rising",
+        "culture-hero"
+      ],
+      "gloss": "The legendary master builder of King Solomon's Temple, murdered by three ruffians for refusing to divulge the secret Master Mason word. He represents absolute fidelity to duty, the idealized craftsman, and the individual soul facing its own mortality.",
+      "facet": "His death does not redeem the world from sin; rather, it serves as a moral and initiatory drama where the candidate personally rehearses his murder and raising to learn the necessity of integrity over life.",
+      "provenance": "Central to the Master Mason degree (first exposed in Samuel Prichard's 'Masonry Dissected', 1730); an extreme elaboration of brief biblical mentions in 1 Kings 7 and 2 Chronicles 2."
+    },
+    {
+      "id": "freemasonry-gaotu",
+      "kind": "concept",
+      "name": "The Great Architect of the Universe (GAOTU)",
+      "archetypes": [
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The supreme being invoked as the ultimate geometer, builder, and grand master of the cosmos. It functions as a deistic unifier that requires belief in a creator but leaves specific theological dogma entirely to the individual.",
+      "facet": "It depersonalizes the divine into a structural principle, shifting the spiritual focus from appeasing a jealous deity to harmonizing oneself with universal, legible mathematical and moral laws.",
+      "provenance": "Formalized in James Anderson's 'Constitutions of the Free-Masons' (1723); rooted in Enlightenment deism and Renaissance Hermetic-Pythagorean philosophy."
+    },
+    {
+      "id": "freemasonry-solomons-temple",
+      "kind": "place",
+      "name": "King Solomon's Temple (The Spiritual Edifice)",
+      "archetypes": [
+        "axis-mundi",
+        "world-egg"
+      ],
+      "gloss": "The physical temple in Jerusalem, allegorized as the ultimate symbol of human perfection and the ordered universe. The Masonic lodge itself is geometrically laid out as a symbolic representation of this sacred space.",
+      "facet": "Within the tradition, the Temple is never actually finished in the material realm; it functions purely as an interior, spiritual architecture built 'without the sound of axe or iron tool' inside the initiate's mind.",
+      "provenance": "Biblical accounts allegorized via 17th-century speculative masonry, referencing antiquarian and Rosicrucian fascination with the Temple's geometric proportions."
+    },
+    {
+      "id": "freemasonry-working-tools",
+      "kind": "concept",
+      "name": "The Square and Compasses",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "Operative stonemason tools repurposed as speculative moral allegories. The square regulates conduct with humanity (the earthly dimension), while the compasses circumscribe desires and relate to the divine (the celestial dimension).",
+      "facet": "Spirituality is framed not as mystical rapture but as a craft—a measured, rational discipline of continually squaring one's actions and circumscribing one's passions within definitive, geometric bounds.",
+      "provenance": "Standardized in the Craft rituals of the 18th century, drawing on Renaissance emblems and the practical working tools of medieval operative guilds."
+    },
+    {
+      "id": "freemasonry-the-ashlar",
+      "kind": "concept",
+      "name": "The Rough and Perfect Ashlar",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The central metaphor of human development. The Rough Ashlar is the unhewn stone, representing humanity in an ignorant, natural state; the Perfect Ashlar is the educated, morally disciplined mind, fit for the spiritual temple.",
+      "facet": "Perfection is not granted by divine grace, but is laboriously chipped away by the individual's own will and education, using the gavel of conscience to remove material superfluities.",
+      "provenance": "Derived directly from operative stonemasonry terminology, cemented into explicit moral allegory by ritualists like William Preston and Thomas Smith Webb."
+    },
+    {
+      "id": "freemasonry-lost-word",
+      "kind": "concept",
+      "name": "The Lost Word",
+      "archetypes": [
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The ineffable secret of a Master Mason, irrevocably lost with the death of Hiram Abiff. Substitutes are given in its place, representing the ultimate, ungraspable truth of the divine name.",
+      "facet": "The tradition boldly admits its own incompletion—the highest secret it offers is the revelation that the true secret has been lost, compelling the initiate to become a lifelong seeker rather than a fully enlightened master.",
+      "provenance": "Central motif of the Master Mason and Royal Arch degrees; heavily influenced by Jewish mysticism and Kabbalistic notions of the Tetragrammaton."
+    },
+    {
+      "id": "freemasonry-third-degree",
+      "kind": "rite",
+      "name": "The Raising (Third Degree)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The pinnacle Craft ritual where the candidate is symbolically murdered as Hiram Abiff, laid in a figurative grave, and physically raised on the 'five points of fellowship' to a new life of light.",
+      "facet": "It uniquely bridges the gap between ancient mystery religions and Enlightenment fraternalism, transforming a brutal murder into a civic lesson on geometric rationality and brotherly love.",
+      "provenance": "Emerged in the 1720s, marking the transition from a two-degree to a three-degree system; widely publicized in early 18th-century ritual exposures."
+    }
+  ],
+  "edges": [
+    {
+      "a": "freemasonry-hiram-abiff",
+      "b": "freemasonry-lost-word",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The murder of the master builder is the direct cause of the loss of the ultimate truth, permanently binding the hero's tragedy to the tradition's central mystery."
+    },
+    {
+      "a": "freemasonry-the-ashlar",
+      "b": "freemasonry-solomons-temple",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The perfection of the individual stone is meaningless unless it is fitted precisely into the collective, ordered structure of the spiritual Temple."
+    },
+    {
+      "a": "freemasonry-working-tools",
+      "b": "freemasonry-the-ashlar",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The moral instruments exist solely to chip away the rough edges of the ashlar; the tool and the stone are a single initiatory circuit."
+    },
+    {
+      "a": "freemasonry-hiram-abiff",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are betrayed, murdered figures whose bodies are hidden, sought, and raised to impart the secret of immortality to initiates."
+    },
+    {
+      "a": "freemasonry-gaotu",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Supreme creator deities envisioned specifically as master craftsmen and architects of the cosmic order."
+    },
+    {
+      "a": "freemasonry-working-tools",
+      "b": "qian-kun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The compass circumscribing the heavens and the square measuring the earth perfectly mirror the Chinese cosmological pairing of circular Qian and square Kun."
+    },
+    {
+      "a": "freemasonry-solomons-temple",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Architectural structures that serve as rigorous, mathematically precise microcosms of the entire universe."
+    },
+    {
+      "a": "freemasonry-lost-word",
+      "b": "ein-sof",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Esoteric Freemasonry, especially in the Royal Arch and Scottish Rite, explicitly syncretized the Lost Word with Kabbalistic concepts of the Tetragrammaton and the infinite."
+    },
+    {
+      "a": "freemasonry-the-ashlar",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The belief that a perfect, divine essence is trapped within a rough material exterior and must be liberated through esoteric work."
+    },
+    {
+      "a": "freemasonry-hiram-abiff",
+      "b": "wayland",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Master smiths and craftsmen whose unparalleled skill subjects them to betrayal and violence by those seeking to extract their secrets."
+    },
+    {
+      "a": "freemasonry-third-degree",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A strictly guarded male initiation rite involving a symbolic death, the revelation of sacred knowledge, and rebirth as a fully integrated member of the community."
+    },
+    {
+      "a": "freemasonry-gaotu",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ultimate, impersonal ground of reality that unifies existence and transcends all sectarian dogma."
+    },
+    {
+      "a": "freemasonry-lost-word",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ultimate truth or cosmic name which, by definition, cannot be spoken or transmitted directly, only approximated through symbols."
+    },
+    {
+      "a": "freemasonry-solomons-temple",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The central, unshakeable axis around which the practitioner constructs their interior spiritual geography."
+    },
+    {
+      "a": "freemasonry-working-tools",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Instruments of precise, physical measurement repurposed as the ultimate standards of moral rectitude and cosmic justice."
+    },
+    {
+      "a": "freemasonry-the-ashlar",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Perfection is achieved not through divine grace, but by the laborious, self-directed chipping away of accumulated karmic or material superfluities."
+    },
+    {
+      "a": "freemasonry-hiram-abiff",
+      "b": "dumuzi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The foundational dying figure whose tragic descent into death becomes the focal point of a recurring initiatory or seasonal drama."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "spiritual-craft",
+      "name": "Spiritual Craft",
+      "subtype": "principle",
+      "gloss": "The use of operative labor, tools, and construction as a geometric and ethical map for perfecting the human soul.",
+      "reason": "Crucial for traditions that frame enlightenment not as sudden mystical rapture or divine grace, but as a slow, deliberate, rational discipline of 'building' the self according to cosmic blueprints."
+    }
+  ]
+}

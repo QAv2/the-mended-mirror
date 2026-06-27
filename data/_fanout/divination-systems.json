@@ -1,0 +1,256 @@
+{
+  "tradition": {
+    "id": "divination-systems",
+    "name": "Astrology · Tarot · Numerology",
+    "region": "Mesopotamia → global",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "divination-systems-zodiac",
+      "kind": "concept",
+      "name": "The Zodiac (The Ecliptic Wheel)",
+      "archetypes": [
+        "cosmic-order",
+        "cyclic-ages"
+      ],
+      "gloss": "The twelvefold division of the celestial equator mapping the sun's apparent path. Originating in Babylonian astronomy, it acts as a celestial clock and fate-map, framing human psychology and historical eras through distinct astrological signs.",
+      "facet": "Spatializes time, turning the abstract passing of months into a fixed geometric wheel where specific celestial degrees govern earthly typologies and cyclic destinies.",
+      "provenance": "Ptolemy, 'Tetrabiblos'; Babylonian 'Enuma Anu Enlil'."
+    },
+    {
+      "id": "divination-systems-planets",
+      "kind": "force",
+      "name": "The Seven Traditional Planets (The Wanderers)",
+      "archetypes": [
+        "one-through-many",
+        "solar"
+      ],
+      "gloss": "The seven visible wandering stars—Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn. They are active psychological and cosmic archetypes, transmitting stellar influences downward to dictate earthly events and personal temperaments.",
+      "facet": "Radically democratizes ancient pantheons into universal psychological drives, reducing complex mythological deities to core mechanical forces operating constantly within the human psyche and nature.",
+      "provenance": "Vettius Valens, 'Anthologies'; Marsilio Ficino, 'De vita libri tres'."
+    },
+    {
+      "id": "divination-systems-macro-micro",
+      "kind": "principle",
+      "name": "As Above, So Below (Macrocosm & Microcosm)",
+      "archetypes": [
+        "complementarity",
+        "cosmic-order"
+      ],
+      "gloss": "The foundational Hermetic doctrine that the structure of the cosmos is perfectly mirrored in the human being. The stars and cards do not compel, but reflect earthly realities through synchronous correspondence.",
+      "facet": "Shifts divination from a mechanistic cause-and-effect determinism into a framework of symbolic resonance, where reading a chart or spread is reading the present fabric of reality itself.",
+      "provenance": "'The Emerald Tablet' of Hermes Trismegistus; Paracelsus, 'Astronomia Magna'."
+    },
+    {
+      "id": "divination-systems-the-fool",
+      "kind": "hero",
+      "name": "The Fool (Arcanum 0)",
+      "archetypes": [
+        "trickster",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The unnumbered wanderer of the Tarot, depicting raw, infinite potential and innocence before the fall into structured experience. He is the spirit embarking on the material journey into the Major Arcana.",
+      "facet": "Exists outside the rigid numerical hierarchy of the deck, acting as the chaotic catalyst who can interrupt, invert, or begin any sequence, bypassing formal initiation.",
+      "provenance": "Antoine Court de Gébelin, 'Le Monde primitif'; Arthur Edward Waite, 'The Pictorial Key to the Tarot'."
+    },
+    {
+      "id": "divination-systems-major-arcana",
+      "kind": "concept",
+      "name": "The Major Arcana (The Fool's Journey)",
+      "archetypes": [
+        "emergence",
+        "cyclic-ages"
+      ],
+      "gloss": "The twenty-two trump cards of the Tarot deck, allegorizing the soul's emanation from divine unity, its descent into earthly trials, and its ultimate reintegration. Frequently mapped to the twenty-two letters of the Hebrew alphabet.",
+      "facet": "Creates a visual, interactive book of spiritual initiation where fate is drawn at random, merging high Kabbalistic esotericism with the mechanics of a parlor game.",
+      "provenance": "Eliphas Lévi, 'Dogme et Rituel de la Haute Magie'."
+    },
+    {
+      "id": "divination-systems-tetractys",
+      "kind": "principle",
+      "name": "The Tetractys (Pythagorean Monad)",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The Pythagorean triangular figure of ten points arranged in four rows (1+2+3+4=10). It represents the generation of dimensions, the macrocosm, and the divine harmony underlying all numerology.",
+      "facet": "Reduces the divine absolute to pure quantitative ratios, positing that the universe is not made of matter or mythic personalities, but of structural mathematics and musical resonance.",
+      "provenance": "Iamblichus, 'Life of Pythagoras'."
+    },
+    {
+      "id": "divination-systems-wheel-of-fortune",
+      "kind": "force",
+      "name": "The Wheel of Fortune (Arcanum X)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "Arcanum X of the Tarot, representing the eternal turning of fate, karma, and worldly cycles. It depicts figures rising in triumph and falling in ruin on a mechanical wheel driven by blind forces.",
+      "facet": "Confronts the diviner with the amoral, impersonal nature of destiny, stripping away the illusion of linear progress or moral reward in favor of inevitable, cyclic reversals.",
+      "provenance": "Boethius, 'The Consolation of Philosophy' (conceptually); 15th-century Visconti-Sforza Tarot."
+    },
+    {
+      "id": "divination-systems-lunar-nodes",
+      "kind": "creature",
+      "name": "The Lunar Nodes (Dragon's Head and Tail)",
+      "archetypes": [
+        "cosmic-serpent",
+        "dualism"
+      ],
+      "gloss": "The mathematical points where the Moon's orbit intersects the ecliptic. Known in Western and Eastern astrology as the Dragon's Head and Tail, they dictate eclipses and karmic destiny.",
+      "facet": "They are not physical celestial bodies but invisible geometric intersections, yet they are granted immense interpretative weight as devourers of light and keepers of past-life and future karma.",
+      "provenance": "Medieval Arabic astrological texts; firmly paralleled in Vedic 'Brihat Parashara Hora Shastra'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "divination-systems-zodiac",
+      "b": "divination-systems-planets",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The static, twelvefold stage of the ecliptic and the dynamic, wandering actors who transit across it."
+    },
+    {
+      "a": "divination-systems-the-fool",
+      "b": "divination-systems-major-arcana",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The unnumbered traveler and the twenty-two step archetypal path he is forced to walk."
+    },
+    {
+      "a": "divination-systems-wheel-of-fortune",
+      "b": "divination-systems-lunar-nodes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition bond: Both represent the inescapable, karmic spinning of destiny that disregards individual human will."
+    },
+    {
+      "a": "divination-systems-macro-micro",
+      "b": "divination-systems-tetractys",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Hermetic philosophy of reflection pairs perfectly with the Pythagorean belief that mathematical ratios structure both mind and cosmos."
+    },
+    {
+      "a": "divination-systems-macro-micro",
+      "b": "as-above-so-below",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Direct Hermetic continuity; the foundational operating logic of astrology and tarot is identical to Gnostic-Hermetic cosmogony."
+    },
+    {
+      "a": "divination-systems-planets",
+      "b": "jupiter",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The astrological planets are historically named for, and imbued with the exact temperaments of, the Roman pantheon."
+    },
+    {
+      "a": "divination-systems-planets",
+      "b": "thoth",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Thoth, as Hermes Trismegistus, is the syncretic Hellenistic patron of all planetary magic and astrological wisdom."
+    },
+    {
+      "a": "divination-systems-zodiac",
+      "b": "marduk",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In the Babylonian Enuma Elish, it is Marduk who explicitly creates the zodiacal constellations to map the year."
+    },
+    {
+      "a": "divination-systems-wheel-of-fortune",
+      "b": "buddhist-wheel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both feature a mechanically turning wheel of existence, often gripped by a demonic or blind force, dragging souls through cyclic states."
+    },
+    {
+      "a": "divination-systems-zodiac",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both systems mathematically divide time to map birth horoscopes, determining an individual's fate and psychological composition based on calendrical geometry."
+    },
+    {
+      "a": "divination-systems-major-arcana",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent a formalized, visually cataloged system of reading divine will through omens and drawn lots."
+    },
+    {
+      "a": "divination-systems-the-fool",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are unnumbered, boundary-crossing trickster figures who sit at the crossroads of divination, permitting or confusing the reading."
+    },
+    {
+      "a": "divination-systems-tetractys",
+      "b": "ein-sof",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Pythagorean numerology historically syncretized with Kabbalistic emanation, mapping the ten points of the tetractys directly to the ten Sephirot emanating from the infinite."
+    },
+    {
+      "a": "divination-systems-lunar-nodes",
+      "b": "rainbow-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mapping of a massive, invisible cosmic serpent that crosses the sky, acting as a foundational architect of spatial and karmic reality."
+    },
+    {
+      "a": "divination-systems-tetractys",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both philosophies posit that the complex material universe is generated mathematically from a primary duality extending into multiplicity."
+    },
+    {
+      "a": "divination-systems-macro-micro",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The structural mirroring of the universe; just as the cosmos is the body of Purusha, the astrological map treats the sky as a projected human macrocosm."
+    },
+    {
+      "a": "divination-systems-zodiac",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conceptualization of cosmic time as a massive, rotating wheel divided into distinct, determining spokes or eras."
+    },
+    {
+      "a": "divination-systems-major-arcana",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both depict a structured hierarchy of divine emanations and archetypes that the soul must navigate to return to unity."
+    },
+    {
+      "a": "divination-systems-wheel-of-fortune",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The intersection of games of chance and cosmic destiny, where throwing dice or drawing lots acts as a microcosm of the gods' gambling with human fate."
+    },
+    {
+      "a": "divination-systems-the-fool",
+      "b": "pnw-raven",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The naive but powerful initiator who, by stepping into the void or breaking the rules, sets the entire structured cycle of creation into motion."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "fate-map",
+      "name": "Fate Map",
+      "subtype": "concept",
+      "gloss": "A geometric or numeric matrix (a wheel, a board, a deck) used to plot the synchronous intersection of cosmic time and individual destiny.",
+      "reason": "Divinatory traditions require a joint for formalized systems that spatialize time and fate, moving beyond simple prophesy into strict mathematical and symbolic correspondence."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "tradition": {
+    "id": "channeling",
+    "name": "Channeling current (Seth / Ramtha / ACIM)",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "channeling-seth",
+      "kind": "force",
+      "name": "Seth",
+      "archetypes": [
+        "one-through-many",
+        "culture-hero"
+      ],
+      "gloss": "An 'energy personality essence no longer focused in physical matter,' channeled by Jane Roberts. Seth provided a comprehensive metaphysical system detailing multidimensional reality, simultaneous time, and the mechanics of soul evolution.",
+      "facet": "Unlike spirit guides that offer moralizing comfort, Seth acts as a rigorous metaphysical professor, dismantling linear time and objective reality in favor of a purely psychological cosmos where belief precedes physical manifestation.",
+      "provenance": "The 'Seth Material' (1970) and 'The Nature of Personal Reality' (1974) by Jane Roberts and Robert Butts."
+    },
+    {
+      "id": "channeling-ramtha",
+      "kind": "ancestor",
+      "name": "Ramtha the Enlightened One",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A 35,000-year-old Lemurian warrior-conqueror who ascended into spirit, channeled by J.Z. Knight. He teaches quantum mysticism, self-empowerment, and the realization of one's own innate divinity, often through intense, physically demanding disciplines.",
+      "facet": "Ramtha blends prehistoric pulp-fantasy lore with aggressive self-deification. He eschews the gentle tones of typical New Age guides, appearing as a hyper-masculine warrior commanding followers to master reality through force of will.",
+      "provenance": "Channeled by J.Z. Knight since 1977; established the Ramtha's School of Enlightenment in 1988."
+    },
+    {
+      "id": "channeling-acim-voice",
+      "kind": "force",
+      "name": "The Voice (A Course in Miracles)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The inner dictation received by Helen Schucman, universally identified by its practitioners as Jesus Christ. It delivers a rigorous, non-dualistic curriculum aimed at dismantling the ego and recognizing the physical world as a complete illusion.",
+      "facet": "It actively subverts traditional Christian theology using Christian vocabulary, recasting sin as a mere 'mistake' and the crucifixion as a pedagogical demonstration of the body's unreality, entirely removing divine punishment.",
+      "provenance": "'A Course in Miracles' (1976), dictated by Helen Schucman and co-scribed by William Thetford."
+    },
+    {
+      "id": "channeling-create-reality",
+      "kind": "principle",
+      "name": "Conscious Creation (You Create Your Own Reality)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The central axiom of the channeling current: physical experience is the direct, unavoidable manifestation of conscious and subconscious beliefs. The universe is a mirror reflecting internal psychological states, with no independent material existence.",
+      "facet": "It completely eliminates victimization, chance, and external divine judgment. Every illness, tragedy, and triumph is seen as a self-authored event chosen by the soul for its own expansion and learning.",
+      "provenance": "First popularized by Jane Roberts in 'The Nature of Personal Reality' (1974); foundational to the broader New Age movement."
+    },
+    {
+      "id": "channeling-trance",
+      "kind": "rite",
+      "name": "The Channeling Trance",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The act of deliberately yielding one's vocal cords and physical body to a non-physical entity. This ranges from light intuitive dictation to full-body, deep-trance overshadowing with dramatically altered voices and mannerisms.",
+      "facet": "Unlike traditional shamanism, the channeler rarely undertakes soul-flight to other realms; instead, the physical body becomes an instrument, a localized broadcasting tower for disembodied intelligence to lecture the modern world.",
+      "provenance": "Descended from 19th-century Spiritualist mediumship, transitioning from physical phenomena (ectoplasm, rapping) to pure psychological and philosophical discourse."
+    },
+    {
+      "id": "channeling-oversoul",
+      "kind": "concept",
+      "name": "The Oversoul (The Multidimensional Entity)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The greater 'Entity' from which individual human personalities are projected into physical time and space. It simultaneously experiences multiple lifetimes across past, present, future, and alternate probabilities, serving as the true, immortal self.",
+      "facet": "It fragments the concept of a single, linear soul. The human ego is merely one probe among many sent into physical reality by the Oversoul, fundamentally altering traditional concepts of reincarnation.",
+      "provenance": "Articulated deeply in the Seth Material; draws on Transcendentalist terminology but adds simultaneous time mechanics."
+    },
+    {
+      "id": "channeling-illusion",
+      "kind": "principle",
+      "name": "The Illusion of Matter",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "The teaching that the physical universe is a hallucinatory construct or a dream of separation from the Source. In ACIM, matter is an error of the ego; in Seth, it is a creative camouflage.",
+      "facet": "It renders the material world theoretically infinitely malleable. Because matter is seen as solidified thought or a projection of guilt, salvation and manifestation rely entirely on changing the mind, never the world.",
+      "provenance": "Central to 'A Course in Miracles' and widespread in New Age channeling; parallels Hindu Advaita Vedanta and Gnostic thought."
+    }
+  ],
+  "edges": [
+    {
+      "a": "channeling-trance",
+      "b": "channeling-seth",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The trance is the literal biological mechanism by which the Seth personality was transmitted into physical reality."
+    },
+    {
+      "a": "channeling-create-reality",
+      "b": "channeling-oversoul",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Oversoul utilizes the mechanism of conscious creation to experience itself across multidimensional realities and timelines."
+    },
+    {
+      "a": "channeling-acim-voice",
+      "b": "channeling-illusion",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Voice systematically deconstructs the physical world as a dream of separation, making illusion its core pedagogical focus."
+    },
+    {
+      "a": "channeling-acim-voice",
+      "b": "christ",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Helen Schucman explicitly bridged her channeled text to traditional Christianity by identifying the voice as the historical Jesus Christ."
+    },
+    {
+      "a": "channeling-trance",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both rely on an individual voluntarily entering a trance to allow spirits or deities to physically speak through their vocal cords."
+    },
+    {
+      "a": "channeling-trance",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions operate on the premise that disembodied forces can temporarily indwell, possess, and animate a human vessel."
+    },
+    {
+      "a": "channeling-seth",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both serve as disembodied, transcendent pedagogues transmitting an intricate metaphysical cosmology to human scribes."
+    },
+    {
+      "a": "channeling-create-reality",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both conceptualize an invisible, animating mental or spiritual force that directly shapes and manipulates physical circumstances."
+    },
+    {
+      "a": "channeling-illusion",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ACIM concept of the ego functions similarly to the Gnostic demiurge, acting as the false creator of a flawed, illusory physical universe."
+    },
+    {
+      "a": "channeling-illusion",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the psychological force of illusion that uses fear and physical distraction to keep the mind trapped in the dream of matter."
+    },
+    {
+      "a": "channeling-oversoul",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both teach that the human personality contains an uncorrupted, transcendent fragment of a much larger, divine source."
+    },
+    {
+      "a": "channeling-oversoul",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The multidimensional entity mirrors the Kabbalistic Infinite, projecting localized fragments of itself into the lower physical spheres to experience manifestation."
+    },
+    {
+      "a": "channeling-create-reality",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both philosophies assert that consciousness is the fundamental bedrock of existence, and that matter is merely its localized projection."
+    },
+    {
+      "a": "channeling-ramtha",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are primordial, ancient kings associated with a lost golden age who established metaphysical paths to immortality."
+    },
+    {
+      "a": "channeling-seth",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as cosmic scribes and teachers of hidden wisdom, dictating the underlying laws of the universe to humanity."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "world-as-projection",
+      "name": "World as Projection",
+      "subtype": "principle",
+      "gloss": "The teaching that the physical universe is not an objective, independent reality, but a localized holographic projection of individual and collective consciousness.",
+      "reason": "Necessary to capture New Age, yogic, and hermetic philosophies where matter is infinitely malleable because it is merely solidified thought, distinct from simple dualism."
+    }
+  ]
+}

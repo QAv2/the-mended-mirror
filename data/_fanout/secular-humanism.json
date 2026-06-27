@@ -1,0 +1,226 @@
+{
+  "tradition": {
+    "id": "secular-humanism",
+    "name": "Secular Humanism / organized Atheism",
+    "region": "USA / Britain",
+    "color": "#9aa0a8"
+  },
+  "figures": [
+    {
+      "id": "secular-humanism-reason",
+      "kind": "principle",
+      "name": "Reason and Freethought",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The highest epistemic authority and the primary tool for human flourishing. Unburdened by revelation or dogma, rational inquiry allows humanity to pierce superstition, apprehend reality as it actually is, and continuously self-correct through evidence.",
+      "facet": "It completely rejects faith as a virtue, demanding that all claims be subjected to skepticism, evidence, and logical rigor rather than deferred to ancient authority or mystical intuition.",
+      "provenance": "The Enlightenment; Thomas Paine's 'The Age of Reason' (1794); Humanist Manifestos (1933, 1973, 2003)."
+    },
+    {
+      "id": "secular-humanism-scientific-method",
+      "kind": "rite",
+      "name": "The Scientific Method",
+      "archetypes": [
+        "cosmic-order",
+        "smith"
+      ],
+      "gloss": "A systematic, collective rite of observation, hypothesis, and relentless falsification. It is the communal mechanism by which humanity builds a cumulative, objective model of reality, steadily replacing mythic cosmology with empirical truth.",
+      "facet": "Unlike religious rites designed to align the practitioner with a pre-existing divine will, this process is intentionally destructive to false certainty, celebrating the disproving of its own cherished theories.",
+      "provenance": "Karl Popper's 'The Logic of Scientific Discovery' (1959); the Royal Society's motto 'Nullius in verba' (Take nobody's word for it)."
+    },
+    {
+      "id": "secular-humanism-deed-before-creed",
+      "kind": "principle",
+      "name": "Deed Before Creed",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The foundational ethical stance that moral action and the elevation of human relationships supersede any theological belief. Doing good is inherently valuable for the well-being of conscious creatures, requiring no cosmic judge or eternal reward.",
+      "facet": "Morality is entirely decoupled from theology; a good act is justified strictly by its positive impact on human flourishing in the present world, not by obedience to divine command or the threat of damnation.",
+      "provenance": "Felix Adler and the founding of the New York Society for Ethical Culture (1876)."
+    },
+    {
+      "id": "secular-humanism-evolution",
+      "kind": "force",
+      "name": "Natural Selection (The Blind Watchmaker)",
+      "archetypes": [
+        "withdrawn-creator",
+        "cyclic-ages"
+      ],
+      "gloss": "The unguided, algorithmic force of differential survival and reproduction that generated the staggering complexity of biological life. It is the creator of the human mind, operating without foresight, purpose, or mercy.",
+      "facet": "It replaces the teleological 'Designer' with a purely mechanistic, blind process, proving that apparent design in nature emerges naturally from vast spans of time and incremental mutation.",
+      "provenance": "Charles Darwin's 'On the Origin of Species' (1859); Richard Dawkins' 'The Blind Watchmaker' (1986)."
+    },
+    {
+      "id": "secular-humanism-human-rights",
+      "kind": "concept",
+      "name": "Universal Human Dignity",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The principle that every human being possesses inherent worth and agency simply by virtue of existing as a conscious, sentient creature. This forms the bedrock of modern secular ethics, demanding universal justice, equality, and compassion.",
+      "facet": "It derives human rights not from a divine endowment or a Creator's decree, but from mutual recognition, empathy, and the shared vulnerability of the human condition.",
+      "provenance": "The UN Universal Declaration of Human Rights (1948); the Amsterdam Declaration (2002)."
+    },
+    {
+      "id": "secular-humanism-the-cosmos",
+      "kind": "place",
+      "name": "The Natural Universe (The Cosmos)",
+      "archetypes": [
+        "axis-mundi",
+        "world-egg"
+      ],
+      "gloss": "The totality of all space, time, matter, and energy—all that is, or ever was, or ever will be. It is vast, indifferent, and governed strictly by physical laws, yet capable of inspiring profound awe and transcendent connection.",
+      "facet": "It contains no spiritual realm, no afterlife, and no inherent teleology; humanity is merely a fleeting, conscious way for the cosmos to know itself.",
+      "provenance": "Carl Sagan's 'Cosmos' (1980); standard philosophical naturalism and secular cosmology."
+    },
+    {
+      "id": "secular-humanism-finality-of-death",
+      "kind": "concept",
+      "name": "The Finality of Death",
+      "archetypes": [
+        "origin-of-death",
+        "underworld-sovereign"
+      ],
+      "gloss": "The complete and irrevocable cessation of consciousness at the end of biological life. Rather than a gateway to eternal judgment or reincarnation, it is a definitive return to the non-existence that preceded birth.",
+      "facet": "By eliminating the safety net of an afterlife, this absolute finitude gives unparalleled urgency, meaning, and preciousness to the single life one actually has.",
+      "provenance": "Epicurean philosophy; Martin Hagglund's 'This Life' (2019); contemporary secular materialist consensus."
+    },
+    {
+      "id": "secular-humanism-promethean-rebel",
+      "kind": "hero",
+      "name": "The Freethinker / Promethean Rebel",
+      "archetypes": [
+        "dragon-slayer",
+        "trickster"
+      ],
+      "gloss": "The archetypal individual who defies religious orthodoxy, blasphemy laws, and tyrannical dogma to bring the light of truth and liberation to humanity. They are the heretic who suffers for speaking reality against entrenched superstition.",
+      "facet": "Unlike religious martyrs who die to reach the next world, the freethinker rebels specifically to dismantle the illusion of the next world, emancipating human minds in the here and now.",
+      "provenance": "The romanticized figures of Socrates, Galileo, and Spinoza; Percy Bysshe Shelley's 'Prometheus Unbound' (1820)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "secular-humanism-reason",
+      "b": "secular-humanism-scientific-method",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The philosophical principle of rational inquiry and the formalized methodology that executes it."
+    },
+    {
+      "a": "secular-humanism-evolution",
+      "b": "secular-humanism-the-cosmos",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The specific biological engine of life contextualized within the grand, indifferent theatre of the universe."
+    },
+    {
+      "a": "secular-humanism-deed-before-creed",
+      "b": "secular-humanism-human-rights",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The imperative for ethical action inextricably tied to the fundamental dignity of the human subject."
+    },
+    {
+      "a": "secular-humanism-promethean-rebel",
+      "b": "prometheus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly adopted as a mascot and namesake by Enlightenment freethinkers, symbolizing human defiance against divine tyranny."
+    },
+    {
+      "a": "secular-humanism-reason",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The inner light of truth and liberation, stripped of its mystical origins and relocated entirely to human cognitive capacity."
+    },
+    {
+      "a": "secular-humanism-evolution",
+      "b": "withdrawn-creator",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A force that sets the staggering diversity of existence into motion but remains utterly blind, indifferent, and non-interventionist."
+    },
+    {
+      "a": "secular-humanism-the-cosmos",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The infinite, boundless reality that precedes and encompasses all things, possessing no human-like personality."
+    },
+    {
+      "a": "secular-humanism-the-cosmos",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, all-encompassing substance of reality from which all temporary forms arise and eventually return."
+    },
+    {
+      "a": "secular-humanism-deed-before-creed",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A bedrock principle of justice, balance, and right action, localized entirely to human sociology rather than divine geometry."
+    },
+    {
+      "a": "secular-humanism-finality-of-death",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fundamental realization that there is no eternal, unchanging self or soul that survives the dissolution of the body."
+    },
+    {
+      "a": "secular-humanism-human-rights",
+      "b": "hongik-ingan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The philosophical imperative focused entirely on maximizing the broad benefit and welfare of all humanity in the material world."
+    },
+    {
+      "a": "secular-humanism-scientific-method",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A highly codified, institutionalized method for reading the patterns of reality to determine the truth, swapping divination for empiricism."
+    },
+    {
+      "a": "secular-humanism-deed-before-creed",
+      "b": "jain-ahimsa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A relentless, practical focus on non-harm and ethical action in the immediate world, superseding theological speculation."
+    },
+    {
+      "a": "secular-humanism-scientific-method",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The arbiter of knowledge, mathematics, and record-keeping, represented here by the collective apparatus of peer-reviewed science."
+    },
+    {
+      "a": "secular-humanism-reason",
+      "b": "athena",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The archetypal embodiment of strategic wisdom, intellect, and clarity, championed as a guiding force devoid of martial or divine baggage."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "inherent-worth",
+      "name": "Inherent Worth",
+      "subtype": "concept",
+      "gloss": "The axiomatic belief that the individual possesses irreducible value and dignity without needing justification from a creator or a state.",
+      "reason": "Needed to seamlessly connect modern human rights frameworks, humanist ethics, and older traditions that elevate the individual soul's dignity above systemic utility."
+    },
+    {
+      "id": "epistemic-engine",
+      "name": "Epistemic Engine",
+      "subtype": "rite",
+      "gloss": "A formalized, often communal process for determining truth by aggressively filtering out human bias, illusion, and falsehood.",
+      "reason": "Required to bridge the Scientific Method, Buddhist dialectics/debate, and formal systems of logic that seek objective reality through rigorous, repeatable processes rather than revelation."
+    }
+  ]
+}

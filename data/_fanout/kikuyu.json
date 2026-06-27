@@ -1,0 +1,219 @@
+{
+  "tradition": {
+    "id": "kikuyu",
+    "name": "Kikuyu (Gĩkũyũ)",
+    "region": "Central Kenya",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "kikuyu-ngai",
+      "kind": "deity",
+      "name": "Ngai (Mwene-Nyaga)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme, omnipotent creator who dwells in the luminous heights of Mount Kenya. He commands the rain, sun, and lightning, overseeing the moral and physical order of the world from his snowy throne.",
+      "facet": "He is strictly an emergency god. Because he is 'Mwene-Nyaga' (Possessor of Brightness), mortals do not bother him with trivialities, approaching him communally only in times of severe drought, epidemic, or existential crisis.",
+      "provenance": "Traditional prayers; ethnographies by Jomo Kenyatta ('Facing Mount Kenya') and L.S.B. Leakey."
+    },
+    {
+      "id": "kikuyu-kirinyaga",
+      "kind": "place",
+      "name": "Kĩrĩnyaga (Mount Kenya)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The towering, snow-capped peak that serves as the physical resting place of Ngai during his earthly inspections. It is the geographic and spiritual center of the Kikuyu cosmos.",
+      "facet": "It dictates a literal, physical geometry of worship. Every Kikuyu household door, sacrificial altar, and prayer must be geographically oriented toward this specific peak, pinning the infinite divine to a localized mountain.",
+      "provenance": "Traditional folklore and ritual protocol; Jomo Kenyatta."
+    },
+    {
+      "id": "kikuyu-gikuyu",
+      "kind": "ancestor",
+      "name": "Gĩkũyũ",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The first patriarch, directly created by Ngai and endowed with the lush lands stretching from Mount Kenya to the Aberdare ranges. He is the foundational anchor of the patrilineal society.",
+      "facet": "His covenant with Ngai is fundamentally terrestrial. He is not a fallen soul or a sky-exile, but a divinely ordained landholder whose inheritance establishes the absolute, sacred right to the physical earth of central Kenya.",
+      "provenance": "Creation myth of the Kikuyu; documented by oral historians and Jomo Kenyatta."
+    },
+    {
+      "id": "kikuyu-mumbi",
+      "kind": "ancestor",
+      "name": "Mũmbi",
+      "archetypes": [
+        "first-ancestor",
+        "great-mother"
+      ],
+      "gloss": "The primordial mother, whose name translates to 'The Potter' or 'The Creator'. Gifted to Gĩkũyũ by Ngai, she is the active matriarch from whose womb the entire Kikuyu nation descends.",
+      "facet": "She embeds a powerful matrilineal core inside a fiercely patrilineal society. The nation's identity is traced entirely through her daughters, making the 'blood' of the people irrevocably female even as property passes through men.",
+      "provenance": "Foundational oral mythology."
+    },
+    {
+      "id": "kikuyu-kenda-muiyuru",
+      "kind": "concept",
+      "name": "Kenda Mũiyũru (The Nine Full Clans)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The nine daughters of Gĩkũyũ and Mũmbi, who became the matriarchs of the distinct Kikuyu clans. They represent the complete social and genetic totality of the people.",
+      "facet": "Their number is a mathematical ward against hubris. They are actually ten, but counting humans or livestock to the exact number invites the evil eye and divine jealousy, so the number ten is culturally encrypted as 'nine full.'",
+      "provenance": "L.S.B. Leakey, 'The Southern Kikuyu before 1903'."
+    },
+    {
+      "id": "kikuyu-mugumo",
+      "kind": "rite",
+      "name": "Mũgũmo (The Sacred Fig Tree)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The massive, evergreen parasitic fig tree that serves as the living altar. It is the only recognized earthly conduit for transmitting prayers and communal sacrifices upward to Ngai.",
+      "facet": "It is inherently uncultivated. Because it germinates high in the canopy of a host tree and slowly strangles it, it represents an invasive, purely wild divine force that bypasses human agriculture, making it the perfect untamed bridge to God.",
+      "provenance": "Ethnographic accounts of Kikuyu sacrifice and religion."
+    },
+    {
+      "id": "kikuyu-ngoma",
+      "kind": "ancestor",
+      "name": "Ngoma",
+      "archetypes": [],
+      "gloss": "The ancestral spirits, divided into immediate family shades and broader tribal elders. They exist parallel to the living, deeply invested in the moral and ritual conduct of their descendants.",
+      "facet": "They are the daily bureaucrats of the cosmos. While Ngai handles macro-crises, the Ngoma receive the daily sips of beer and morsels of fat, managing localized fortune, fertility, and punishment without disturbing the supreme creator.",
+      "provenance": "Jomo Kenyatta, 'Facing Mount Kenya'."
+    },
+    {
+      "id": "kikuyu-ituika",
+      "kind": "rite",
+      "name": "Itũĩka (The Generational Succession)",
+      "archetypes": [],
+      "gloss": "The vast, secretive ceremony held approximately every thirty to forty years, marking the total transfer of political and spiritual power from the ruling generation set to the next.",
+      "facet": "It is institutionalized, bloodless revolution. It dictates that power cannot pool infinitely in individual elders; instead, the entire demographic stratum must collectively step down, resetting the societal and cosmic clock in a grand ritual turnover.",
+      "provenance": "Historical ethnographies; notably analyzed by Jomo Kenyatta."
+    }
+  ],
+  "edges": [
+    {
+      "a": "kikuyu-ngai",
+      "b": "kikuyu-kirinyaga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The sky-father and his localized, earthly mountain throne."
+    },
+    {
+      "a": "kikuyu-ngai",
+      "b": "kikuyu-ngoma",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The division of divine labor between the distant creator of cosmic order and the active, immanent ancestral administrators."
+    },
+    {
+      "a": "kikuyu-gikuyu",
+      "b": "kikuyu-mumbi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The founding dyad, balancing the patriarchal landholder with the matriarchal source of lineage."
+    },
+    {
+      "a": "kikuyu-ngai",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: During colonial missionization, Ngai was explicitly adopted as the translation for the Abrahamic God, leading to profound historical and theological syncretism."
+    },
+    {
+      "a": "kikuyu-ngai",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The transcendent, blue-sky creator who is intimately linked to high mountain peaks."
+    },
+    {
+      "a": "kikuyu-ngai",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme high god who establishes the world but recedes, leaving daily operations to spirits and ancestors."
+    },
+    {
+      "a": "kikuyu-kirinyaga",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A towering peak conceptualized not just as a mountain, but as the literal axis and anchor of the cosmos."
+    },
+    {
+      "a": "kikuyu-kirinyaga",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Sacred topography that enforces strict geographical orientation in daily life and ritual."
+    },
+    {
+      "a": "kikuyu-mumbi",
+      "b": "changing-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme maternal figure who directly births the founding clans of the nation."
+    },
+    {
+      "a": "kikuyu-kenda-muiyuru",
+      "b": "dogon-eight-ancestors",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A specific, foundational numerology of primal offspring that structures the entire subsequent society."
+    },
+    {
+      "a": "kikuyu-mugumo",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A colossal, sacred tree serving as the vertical conduit between the terrestrial and divine realms."
+    },
+    {
+      "a": "kikuyu-ngoma",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Active ancestral spirits who demand regular libations and fiercely regulate the morality of the living."
+    },
+    {
+      "a": "kikuyu-ngoma",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The continuous spiritual presence of deceased elders managing the daily well-being of their descendants."
+    },
+    {
+      "a": "kikuyu-ituika",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A multi-decade ritual cycle designed to execute a total generational transfer of cosmic and social authority."
+    },
+    {
+      "a": "kikuyu-gikuyu",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel—a primordial patriarch given dominion over a specific expanse of earth to establish a golden age of pastoral prosperity."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "active-ancestors",
+      "name": "Active Ancestors",
+      "subtype": "concept",
+      "gloss": "The spirits of the departed who do not passively rest in an underworld, but actively co-administrate the living world, requiring regular propitiation to secure daily fortune.",
+      "reason": "Essential for African, Asian, and Pacific traditions (Ngoma, Nsamanfo, Amadlozi) where ancestors function as daily regulators of morality, distinct from remote creator gods."
+    },
+    {
+      "id": "cyclic-handover",
+      "name": "Cyclic Handover",
+      "subtype": "rite",
+      "gloss": "A ritualized, cyclical transfer of cosmic and political authority from one generation to the next, legally and spiritually resetting the social clock.",
+      "reason": "Captures the institutionalized generational revolutions like the Kikuyu Itũĩka and Dogon Sigui, which are distinct from cosmic 'cyclic-ages' that deal with universal destruction and rebirth."
+    }
+  ]
+}

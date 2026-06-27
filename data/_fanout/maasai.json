@@ -1,0 +1,233 @@
+{
+  "tradition": {
+    "id": "maasai",
+    "name": "Maasai",
+    "region": "Kenya / Tanzania",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "maasai-enkai",
+      "kind": "deity",
+      "name": "Enkai (Engai)",
+      "archetypes": [
+        "sky-father",
+        "dualism"
+      ],
+      "gloss": "The supreme, gender-ambiguous sky deity who encompasses all phenomena. Enkai possesses a profound dual nature: Enkai Narok (the Black God) brings benevolent, fertilizing rains, while Enkai Nanyokie (the Red God) unleashes lethal lightning, drought, and starvation.",
+      "facet": "Enkai is not a personified human figure but an atmospheric omnipresence. The deity's mood is visibly read in the sky's color, tying divine will directly to weather and pastoral survival.",
+      "provenance": "Paul Spencer 'The Maasai of Matapato' (1988); Naomi Kipury 'Oral Literature of the Maasai' (1983)."
+    },
+    {
+      "id": "maasai-ol-doinyo-lengai",
+      "kind": "place",
+      "name": "Ol Doinyo Lengai (Mountain of God)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An active, highly alkaline volcano in the East African Rift Valley. It is recognized as the localized, physical seat of Enkai's power, where the deity retreats and from which divine rumblings and ash are dispensed.",
+      "facet": "The divine axis is an actively erupting stratovolcano. Its dangerous, unpredictable expulsions of unique natrocarbonatite lava are interpreted as the literal, immediate voice and action of God in the physical landscape.",
+      "provenance": "Thomas Spear 'Kenya's Past' (1981); Cynthia Salvadori 'Through Open Doors' (1989)."
+    },
+    {
+      "id": "maasai-inkishu",
+      "kind": "concept",
+      "name": "Inkishu (The Divine Cattle)",
+      "archetypes": [
+        "divine-mandate"
+      ],
+      "gloss": "The sacred cattle, originally sent down from the sky by Enkai via a leather rope. They are the ontological center of Maasai existence, providing milk, blood, and meat, and dictating all social and ritual structures.",
+      "facet": "The Maasai believe Enkai gifted all the world's cattle exclusively to them. Thus, raiding cattle from neighboring tribes is not theft, but a righteous, religiously sanctioned reclamation of their divine inheritance.",
+      "provenance": "Kipury 'Oral Literature of the Maasai' (1983); John Galaty 'Being Maasai' (1993)."
+    },
+    {
+      "id": "maasai-naiteru-kop",
+      "kind": "first-ancestor",
+      "name": "Naiteru-kop (The Beginner of the Earth)",
+      "archetypes": [
+        "first-ancestor",
+        "origin-of-death"
+      ],
+      "gloss": "The primordial figure or lesser deity who mediated the early world. In myth, Naiteru-kop is the one who originally received the first cattle from Enkai, but whose actions ultimately led to the severing of the cosmic rope between sky and earth.",
+      "facet": "He marks the definitive rupture between the divine and the mortal. Through his actions, death and separation became permanent conditions of human life, transforming an eternal communion into a flawed, isolated reality.",
+      "provenance": "A.C. Hollis 'The Masai: Their Language and Folklore' (1905); Spencer (1988)."
+    },
+    {
+      "id": "maasai-oloibon",
+      "kind": "hero",
+      "name": "Oloibon (The Chief Ritual Diviner)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The hereditary spiritual leader and visionary of the community. Tracing lineage back to the mythic founder Kidongoi, the oloibon uses prophetic dreams and the casting of stones from a cow horn to interpret Enkai's will.",
+      "facet": "He holds no formal political or military command, yet dictates the exact timing of raids and rituals. His power is entirely charismatic, steering the militarized youth purely through prophecy and ritual medicine.",
+      "provenance": "Peter Rigby 'Cattle, Capitalism, and Class' (1992); Spencer (1988)."
+    },
+    {
+      "id": "maasai-oreteti",
+      "kind": "place",
+      "name": "Oreteti (The Sacred Fig Tree)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The monumental parasitic fig tree revered as a living sanctuary. Women tie grass to its roots to pray for fertility, while elders convene under its vast canopy to seek consensus and Enkai's blessing.",
+      "facet": "It physically embodies the pastoral ideal of endurance and sheltering grace. As a tree that drops aerial roots from above, it mimics the divine descent of life from the sky.",
+      "provenance": "Aud Talle 'Women at a Loss' (1988)."
+    },
+    {
+      "id": "maasai-eunoto",
+      "kind": "rite",
+      "name": "Eunoto (The Warrior Graduation)",
+      "archetypes": [
+        "initiatory-rite"
+      ],
+      "gloss": "The climactic, deeply emotional ceremony that transitions the ilmurran (warriors) into the status of senior warriors or junior elders. It involves the shaving of their long, ochred hair by their mothers, symbolizing the relinquishment of martial freedom.",
+      "facet": "The rite purposefully induces intense, trembling seizures (oshusho) in the warriors as they confront the agonizing 'social death' of their fierce youth before assuming the heavy, sober responsibilities of elderhood.",
+      "provenance": "Paul Spencer 'The Maasai of Matapato' (1988)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "maasai-enkai",
+      "b": "maasai-ol-doinyo-lengai",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The atmospheric sky-god and the localized, erupting mountain serving as the deity's terrestrial throne."
+    },
+    {
+      "a": "maasai-enkai",
+      "b": "maasai-inkishu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The giver and the divine gift, inextricably linking God's favor to the biological prosperity of the herds."
+    },
+    {
+      "a": "maasai-naiteru-kop",
+      "b": "maasai-enkai",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The primordial ancestor who bridged the sky and earth before inadvertently causing the severing of the cosmic rope."
+    },
+    {
+      "a": "maasai-oloibon",
+      "b": "maasai-enkai",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The human diviner acting as the sole authorized earthly mouthpiece for interpreting the sky-god's intentions."
+    },
+    {
+      "a": "maasai-enkai",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A vast, overarching sky deity whose divine will is synonymous with the physical atmosphere and vast horizons."
+    },
+    {
+      "a": "maasai-enkai",
+      "b": "ometeotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A singular supreme deity composed of a dualistic, perfectly balanced nature of opposing forces."
+    },
+    {
+      "a": "maasai-enkai",
+      "b": "yahweh",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme, non-iconic deity of the heights who delivers both covenantal favor and terrible, fiery wrath."
+    },
+    {
+      "a": "maasai-enkai",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A singular, elevated Creator God associated with the sky, weather, and the ultimate ordering of reality."
+    },
+    {
+      "a": "maasai-ol-doinyo-lengai",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Specific, awe-inspiring geological formations that serve not as mere symbols, but as the active, literal presence of the divine."
+    },
+    {
+      "a": "maasai-ol-doinyo-lengai",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central, immense cosmic mountain around which the spiritual and geographical world is organized."
+    },
+    {
+      "a": "maasai-inkishu",
+      "b": "san-eland",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A profoundly sacred animal that sits at the very center of the culture's economic, spiritual, and ritual universe."
+    },
+    {
+      "a": "maasai-inkishu",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine gift or messenger that permanently defines the spiritual relationship between the people, the Creator, and a sacred ungulate."
+    },
+    {
+      "a": "maasai-naiteru-kop",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A primordial figure whose disruptive, world-altering actions irrevocably separate the perfect divine realm from the flawed mortal earth."
+    },
+    {
+      "a": "maasai-oloibon",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The specialized divinatory practice that accesses divine will through a mathematically precise system of object manipulation, such as casting stones or nuts."
+    },
+    {
+      "a": "maasai-oreteti",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A colossal, sheltering sacred tree acting as an axis mundi that physically connects the terrestrial realm with the sky above."
+    },
+    {
+      "a": "maasai-oreteti",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The great sheltering world tree that serves as the central anchor of the cosmos and a focal point for gathering."
+    },
+    {
+      "a": "maasai-eunoto",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An intense, highly formalized male rite of passage that inflicts 'social death' to elevate youths into the realm of sacred adult responsibility."
+    },
+    {
+      "a": "maasai-eunoto",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A monumental, cyclical ritual strictly governing the transition of generations and the redistribution of social power."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-mandate",
+      "name": "Divine Mandate",
+      "subtype": "concept",
+      "gloss": "The absolute cosmological belief that a specific physical resource, animal, or territory was uniquely gifted to one people by the Creator, rendering their monopoly over it a matter of holy law.",
+      "reason": "Captures the profound ideological justification where economic dominance (like owning all cattle) is framed not as human conquest, but as obedience to a divine, exclusionary covenant."
+    },
+    {
+      "id": "initiatory-rite",
+      "name": "Initiatory Rite",
+      "subtype": "rite",
+      "gloss": "A mandatory, highly formalized passage of intense physical and psychological trial that permanently transforms a community member's social class and spiritual status.",
+      "reason": "Needed to define the specific, agonizing thresholds of 'social death' and rebirth that distinctively demarcate the transition of age sets and societal responsibilities."
+    }
+  ]
+}

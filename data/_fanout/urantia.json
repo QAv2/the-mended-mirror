@@ -1,0 +1,233 @@
+{
+  "tradition": {
+    "id": "urantia",
+    "name": "Urantia / channeled-scripture religions",
+    "region": "USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "urantia-thought-adjuster",
+      "kind": "force",
+      "name": "Thought Adjuster (Mystery Monitor)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "A prepersonal fragment of the Universal Father that literally indwells the mortal mind. Typically arriving when a child makes their first moral decision, this divine spark labors ceaselessly to spiritualize the human mind and pilot the soul toward eternal survival.",
+      "facet": "It is not the human conscience or the soul itself, but a distinct, uncreated divine entity 'loaned' to mortals, aiming for a permanent, literal fusion with the surviving human identity.",
+      "provenance": "'The Urantia Book', Paper 107 (Origin and Nature of Thought Adjusters)."
+    },
+    {
+      "id": "urantia-universal-father",
+      "kind": "deity",
+      "name": "The Universal Father",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The First Source and Center of all things, an infinite, existential personality who rules the cosmos primarily through love and vast hierarchical delegation. He resides at the exact geographic center of infinity but is simultaneously present everywhere.",
+      "facet": "He delegates almost all administrative, judicial, and creative functions to trillions of subordinate celestial beings, maintaining his supremacy purely through the gravitational pull of divine love and the indwelling Adjusters.",
+      "provenance": "'The Urantia Book', Papers 1-5 (The Universal Father)."
+    },
+    {
+      "id": "urantia-michael-of-nebadon",
+      "kind": "deity",
+      "name": "Michael of Nebadon (Christ Michael)",
+      "archetypes": [
+        "culture-hero",
+        "dying-rising"
+      ],
+      "gloss": "A Creator Son who engineered and rules the local universe of Nebadon. To finalize his absolute sovereignty, he completed seven 'bestowal' incarnations among his creatures, the final one occurring on Urantia (Earth) as Jesus of Nazareth.",
+      "facet": "Recontextualizes the historical Jesus not as the second person of the absolute Trinity, but as a local-universe creator undergoing an administrative requirement to experientially master the domain he built.",
+      "provenance": "'The Urantia Book', Paper 119 (The Bestowals of Christ Michael) and Part IV."
+    },
+    {
+      "id": "urantia-paradise",
+      "kind": "place",
+      "name": "The Isle of Paradise",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The absolute, stationary, and eternal center of the master universe. It is a material, non-spatial gravity-center from which all energy, matter, and personality ultimately emanate, surrounded by the perfect, unfallen billion worlds of the central universe.",
+      "facet": "Paradise is utterly devoid of time and space as mortals understand them; it is an absolute reality—the geographic, literal location of God—rather than a metaphorical state of spiritual bliss.",
+      "provenance": "'The Urantia Book', Paper 11 (The Eternal Isle of Paradise)."
+    },
+    {
+      "id": "urantia-caligastia",
+      "kind": "deity",
+      "name": "Caligastia (The Planetary Prince)",
+      "archetypes": [
+        "cosmic-adversary",
+        "trickster"
+      ],
+      "gloss": "The former Planetary Prince of Urantia who, seduced by Lucifer's manifesto of false liberty, aligned Earth with a systemic cosmic rebellion. His betrayal plunged the planet into spiritual quarantine and profound evolutionary confusion.",
+      "facet": "He is not a fundamental cosmic principle of evil or a dualistic rival to God, but simply a mid-level celestial administrator who committed political treason, leading to a bureaucratic isolation of the planet.",
+      "provenance": "'The Urantia Book', Paper 66 (The Planetary Prince of Urantia) and Paper 67."
+    },
+    {
+      "id": "urantia-machiventa-melchizedek",
+      "kind": "hero",
+      "name": "Machiventa Melchizedek",
+      "archetypes": [
+        "culture-hero",
+        "first-ancestor"
+      ],
+      "gloss": "A high celestial administrator who temporarily materialized in physical form roughly two thousand years before Jesus. Operating from Salem, he served as an emergency missionary to keep the truth of one God alive, famously teaching Abraham.",
+      "facet": "Replaces the biblical enigma of Melchizedek with a literal alien intervention—an emergency celestial deployment designed to salvage monotheism on a spiritually quarantined, rebel-torn planet.",
+      "provenance": "'The Urantia Book', Paper 93 (Machiventa Melchizedek)."
+    },
+    {
+      "id": "urantia-supreme-being",
+      "kind": "deity",
+      "name": "The Supreme Being",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The evolving, experiential God of time and space. While the Universal Father is absolute and unchanging, the Supreme Being is currently actualizing, growing through the collective evolutionary experiences, choices, and triumphs of all finite creatures.",
+      "facet": "God's absolute nature prevents him from experiencing the cosmos from the bottom up; the Supreme Being solves this paradox by acting as the very mechanism through which the infinite safely experiences the finite.",
+      "provenance": "'The Urantia Book', Paper 115 (The Supreme Being) and Paper 117."
+    },
+    {
+      "id": "urantia-ascending-mortal",
+      "kind": "principle",
+      "name": "Mortal Ascension Scheme",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The vast evolutionary framework whereby human beings, upon surviving physical death, embark on a multi-billion-year journey inward through successive architectural spheres (the Mansion Worlds) to eventually reach Paradise.",
+      "facet": "Rejects a static heaven in favor of a cosmic university system of endless effort, education, and bureaucratic advancement, wherein humans are trained to eventually serve as administrators in uncreated future universes.",
+      "provenance": "'The Urantia Book', Paper 47 (The Seven Mansion Worlds)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "urantia-universal-father",
+      "b": "urantia-supreme-being",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The absolute, existential creator paired with the evolving, experiential synthesis of his creation."
+    },
+    {
+      "a": "urantia-thought-adjuster",
+      "b": "urantia-ascending-mortal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The divine spark and the evolutionary human soul whose ultimate goal is to permanently fuse into a single entity."
+    },
+    {
+      "a": "urantia-michael-of-nebadon",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly identifies the historical figure of Jesus with the universe-creator Michael, drastically expanding his cosmic resume."
+    },
+    {
+      "a": "urantia-universal-father",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The text explicitly attempts to course-correct the Abrahamic conception of Yahweh, stripping away tribal wrath to reveal the Universal Father."
+    },
+    {
+      "a": "urantia-thought-adjuster",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An uncreated fragment of the highest God trapped or housed within the material human form, driving its return to the source."
+    },
+    {
+      "a": "urantia-thought-adjuster",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An indestructible, pure inner core of being that must labor to overcome material entanglements to achieve ultimate cosmic liberation."
+    },
+    {
+      "a": "urantia-paradise",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The literal, stationary geographic axis around which all physical and spiritual realms revolve."
+    },
+    {
+      "a": "urantia-paradise",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute center point of all reality that anchors the physical structure of the cosmos."
+    },
+    {
+      "a": "urantia-caligastia",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A subordinate, localized ruler of the physical realm whose flaws and rebellion alienate the earth from the true high God."
+    },
+    {
+      "a": "urantia-caligastia",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful adversarial figure whose choices introduced chaos, quarantine, and spiritual decay into an otherwise ordered creation."
+    },
+    {
+      "a": "urantia-machiventa-melchizedek",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An ancient, primordial sage who walks among humans solely to seed foundational cosmological and monotheistic truths."
+    },
+    {
+      "a": "urantia-supreme-being",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The totality of all existence viewed as an active, evolving current of universal becoming."
+    },
+    {
+      "a": "urantia-supreme-being",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine fullness that is realized only when all emanations and finite experiences are successfully integrated."
+    },
+    {
+      "a": "urantia-ascending-mortal",
+      "b": "buddhist-kalpas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The utilization of unimaginably vast scales of time to account for the slow, required evolution of human spiritual perfection."
+    },
+    {
+      "a": "urantia-ascending-mortal",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A grand, future-facing cosmic trajectory where the universe and its inhabitants are actively working toward a finalized state of perfection."
+    },
+    {
+      "a": "urantia-michael-of-nebadon",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The concept of a supreme cosmic entity manifesting a specific, localized physical emanation body to physically interface with finite creatures."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "evolutionary-deity",
+      "name": "Evolutionary Deity",
+      "subtype": "concept",
+      "gloss": "A facet of the divine that is explicitly not eternal or absolute, but actualizes over time by absorbing and synthesizing the experiences of finite creation.",
+      "reason": "Needed for traditions where the totality of the universe forms a growing, experiential God, fundamentally distinct from the static, unapproachable absolute."
+    },
+    {
+      "id": "cosmic-bureaucracy",
+      "name": "Cosmic Bureaucracy",
+      "subtype": "principle",
+      "gloss": "A highly structured, administrative hierarchy of spiritual progression and celestial management that governs the afterlife and the cosmos.",
+      "reason": "Captures systems that reject a binary heaven/hell in favor of endless education, delegation of divine duties, and structural advancement through layered spiritual realms."
+    }
+  ]
+}

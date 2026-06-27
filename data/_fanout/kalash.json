@@ -1,0 +1,246 @@
+{
+  "tradition": {
+    "id": "kalash",
+    "name": "Kalash religion",
+    "region": "Chitral, Pakistan",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "kalash-dezau",
+      "kind": "deity",
+      "name": "Dezau (Khodai)",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme creator god of the Kalash. He forged the world, established the laws of purity, and then stepped back from direct intervention, delegating the active management of worldly affairs to lesser deities and mountain spirits.",
+      "facet": "Unlike typical sky-fathers, he is profoundly distant; no blood sacrifices are made to him directly, only to his intermediaries. Yet, as the last living Indo-Aryan pagan creator, he remains the ultimate, unquestioned arbiter of fate.",
+      "provenance": "M. Witzel (2004) 'Kalash Religion'; P. Parkes (1987)."
+    },
+    {
+      "id": "kalash-mahandeo",
+      "kind": "deity",
+      "name": "Mahandeo",
+      "archetypes": [
+        "storm-wielder",
+        "divine-mediator"
+      ],
+      "gloss": "The chief active deity and warrior god, whose open-air altars feature four carved wooden horse heads. He hears prayers, witnesses oaths, accepts sacrifices, and relays human petitions to the distant creator, Dezau.",
+      "facet": "He is an Indo-Aryan 'Maha-deva' frozen in an archaic, pre-Vedic polytheistic mold—a god of treaties and war, completely lacking the ascetic, yogic attributes of later Hindu iterations of Shiva.",
+      "provenance": "A. Cacopardo & A. Cacopardo (2001) 'Gates of Peristan'."
+    },
+    {
+      "id": "kalash-balumain",
+      "kind": "hero",
+      "name": "Balumain",
+      "archetypes": [
+        "visiting-deity",
+        "culture-hero"
+      ],
+      "gloss": "The legendary hero from Tsiam, the mythic Kalash homeland. He rides an invisible horse and visits the valleys only once a year during the great winter festival to collect prayers and renew the vitality of the people.",
+      "facet": "His power is strictly temporal and cyclic. He is not a permanent resident of the pantheon but a transient guest who must be wooed, hosted, and bid farewell to ensure the turning of the year.",
+      "provenance": "J-Y. Loude (1980) 'Kalash Solstice'."
+    },
+    {
+      "id": "kalash-jeshtak",
+      "kind": "deity",
+      "name": "Jeshṭak",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "Goddess of the hearth, domestic life, and family continuity. She protects pregnant women, young children, and marriages. Her temple, the Jeshṭak-han, is the central gathering place for clan rituals and dances.",
+      "facet": "She anchors the 'pure' domestic sphere but is kept strictly separate from the 'impure' aspects of female biology, representing the structural, patriarchal lineage over the raw bodily experience of womanhood.",
+      "provenance": "W. Maggi (2001) 'Our Women are Free'."
+    },
+    {
+      "id": "kalash-dezalik",
+      "kind": "deity",
+      "name": "Dezalik",
+      "archetypes": [
+        "liminal-protector"
+      ],
+      "gloss": "Sister to the creator Dezau. She oversees the 'bashali', the communal building where women go during menstruation and childbirth—spaces considered highly polluting to men and the male gods.",
+      "facet": "She turns 'impurity' into a sacred, autonomous sanctuary. Where male gods flee from female blood, Dezalik reigns directly, managing the perilous, powerful forces of birth and life independently of patriarchal authority.",
+      "provenance": "W. Maggi (2001); P. Parkes (1987)."
+    },
+    {
+      "id": "kalash-suchi",
+      "kind": "creature",
+      "name": "Suchi (Mountain Fairies)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "Fierce, golden-haired mountain spirits who reside on the icy peaks of the Hindu Kush. They herd the wild markhor and ibex as their personal flocks, directly controlling the luck of mortal hunters.",
+      "facet": "The Suchi represent pure, untamed, alpine nature. They are fundamentally 'onjeshta' (pure) and demand absolute ritual cleanliness from any man who dares enter their high-altitude domain, violently punishing pollution.",
+      "provenance": "J-Y. Loude & V. Lièvre (1990) 'Kalash Religion'."
+    },
+    {
+      "id": "kalash-onjeshta-pragata",
+      "kind": "principle",
+      "name": "Onjeshta and Pragata",
+      "archetypes": [
+        "dualism",
+        "cosmic-order"
+      ],
+      "gloss": "The spatial and moral axis of Kalash reality. 'Onjeshta' (pure) belongs to the high mountains, wild goats, altars, and men. 'Pragata' (impure) belongs to the valleys, death, and female bodily fluids.",
+      "facet": "It is not a battle of 'good vs. evil', but a delicate ecology of separation. Life requires both domains, but mixing them without strict purification rituals triggers immediate cosmic and social disaster.",
+      "provenance": "M. Witzel (2004); G. Robertson (1896)."
+    },
+    {
+      "id": "kalash-chaumos",
+      "kind": "rite",
+      "name": "Chaumos (Winter Solstice)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The supreme winter festival of the Kalash. It involves intense purification, the baking of animal-shaped bread, massive bonfires, gender-role reversals, and the ritual welcoming of the hero Balumain.",
+      "facet": "It is the mechanism by which the universe is actively saved from winter death. The community's joy, transgressive rituals, and purity literally fuel the turning of the solar year.",
+      "provenance": "J-Y. Loude (1980) 'Kalash Solstice'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "kalash-dezau",
+      "b": "kalash-dezalik",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The ultimate male creator of the pure cosmos and his sister, the sovereign of the impure female sanctuary."
+    },
+    {
+      "a": "kalash-mahandeo",
+      "b": "kalash-dezau",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme, withdrawn sky-god and the active, listening mediator who acts as his worldly proxy."
+    },
+    {
+      "a": "kalash-jeshtak",
+      "b": "kalash-dezalik",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The pure, structural hearth goddess versus the goddess of the isolated, 'impure' menstruation house."
+    },
+    {
+      "a": "kalash-mahandeo",
+      "b": "shiva",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Cross-tradition GOLD SEAM: The name 'Mahandeo' is a direct linguistic cognate of Sanskrit 'Maha-deva' (Shiva), preserving an archaic, pre-ascetic warrior-chief function."
+    },
+    {
+      "a": "kalash-dezau",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: In modern Chitral, the Kalash often explicitly identify their supreme creator Dezau with Allah (Khodai) to maintain coexistence."
+    },
+    {
+      "a": "kalash-balumain",
+      "b": "indra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A heroic, horse-riding figure arriving from afar to break stagnation, distribute vitality, and defeat the forces of winter."
+    },
+    {
+      "a": "kalash-dezalik",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful female deity presiding over a domain considered taboo, managing the 'impurity' that male gods cannot touch."
+    },
+    {
+      "a": "kalash-suchi",
+      "b": "artemis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ferocious, pure female spirits of the wild who fiercely guard the high mountain game from disrespectful hunters."
+    },
+    {
+      "a": "kalash-suchi",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ethereal wardens of the wilderness and wild game whose favor must be won before any hunt."
+    },
+    {
+      "a": "kalash-onjeshta-pragata",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fundamental cosmological principle mapping spatial purity against forces of decay and pollution."
+    },
+    {
+      "a": "kalash-onjeshta-pragata",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A system of maintaining cosmic and spatial balance through strict ritual actions and taboos."
+    },
+    {
+      "a": "kalash-chaumos",
+      "b": "purulli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A massive winter festival designed to forcefully renew the cosmos and defeat the stagnation of the dark half of the year."
+    },
+    {
+      "a": "kalash-balumain",
+      "b": "dogon-lebe",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A mythic ancestral visitor whose cyclical return is required to renew the agricultural and spiritual vitality of the people."
+    },
+    {
+      "a": "kalash-jeshtak",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine presence anchored directly within the domestic hearth fire, acting as the spiritual center of the family."
+    },
+    {
+      "a": "kalash-mahandeo",
+      "b": "perun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A warrior deity who oversees oaths, protects treaties, and mediates between humanity and the cosmic order."
+    },
+    {
+      "a": "kalash-suchi",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A localized, raw spiritual energy of the landscape that demands careful propitiation and strict boundaries."
+    },
+    {
+      "a": "kalash-dezau",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme, distant source that delegates the actual active maintenance of the world to lesser, proximate powers."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-mediator",
+      "name": "The Divine Mediator",
+      "subtype": "deity",
+      "gloss": "A god whose primary function is to listen to human prayers and accept sacrifices, acting as an active proxy for a higher, unreachable creator.",
+      "reason": "Kalash Mahandeo exemplifies the active intercessor necessary when the supreme deity is too distant to be worshipped directly."
+    },
+    {
+      "id": "visiting-deity",
+      "name": "The Visiting Deity",
+      "subtype": "hero",
+      "gloss": "A mythic figure who does not reside in the local pantheon but travels from afar at specific cosmic junctures to bring seasonal blessings.",
+      "reason": "Captures seasonal heroes like Balumain whose power lies precisely in their temporary, cyclical arrival rather than permanent presence."
+    },
+    {
+      "id": "liminal-protector",
+      "name": "The Liminal Protector",
+      "subtype": "deity",
+      "gloss": "A sovereign figure who rules over domains or bodily states deemed 'impure' or highly taboo by the broader, often patriarchal society.",
+      "reason": "Distinguishes goddesses like Dezalik, who are not underworld figures, but powerful protectors of isolated, taboo human states like childbirth."
+    }
+  ]
+}

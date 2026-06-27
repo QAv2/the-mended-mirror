@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "andean-pre-inca",
+    "name": "Pre-Inca Andean (Chavín / Moche / Tiwanaku)",
+    "region": "Peru / Bolivia",
+    "color": "#5ab87a"
+  },
+  "figures": [
+    {
+      "id": "andean-pre-inca-lanzon",
+      "kind": "deity",
+      "name": "The Lanzón (Smiling God)",
+      "archetypes": [
+        "axis-mundi",
+        "underworld-sovereign"
+      ],
+      "gloss": "A massive, lance-shaped granite monolith hidden deep within the lightless, labyrinthine galleries of Chavín de Huántar. Carved with a fanged, anthropomorphic deity, it functioned as a subterranean oracle where liquid offerings were poured over its crest via hidden channels.",
+      "facet": "It is an axis mundi plunged downward into claustrophobic darkness rather than reaching for the sky. Worshippers approached in sensory-deprived, hallucinogen-induced terror to hear the stone 'speak' through an engineered acoustic network.",
+      "provenance": "Chavín de Huántar archaeological site; Julio C. Tello; Richard Burger."
+    },
+    {
+      "id": "andean-pre-inca-staff-god",
+      "kind": "deity",
+      "name": "The Staff God",
+      "archetypes": [
+        "sky-father",
+        "storm-wielder",
+        "complementarity"
+      ],
+      "gloss": "A persistent, frontally posed Andean deity gripping a vertical staff in each hand, crowned with a radiate, feline-fanged headdress. Spanning from Chavín to Paracas and reaching monumental apex on the Tiwanaku Gateway of the Sun, he commands weather and celestial cycles.",
+      "facet": "He enforces cosmic symmetry physically; the twin staffs represent absolute, static dualistic balance. He is less a narrative creator-god and more an architectural lynchpin of the agricultural calendar, freezing time into bilateral symmetry.",
+      "provenance": "Tiwanaku Gateway of the Sun; Karwa textiles; Raimondi Stele."
+    },
+    {
+      "id": "andean-pre-inca-ai-apaec",
+      "kind": "deity",
+      "name": "Ai-Apaec (The Decapitator)",
+      "archetypes": [
+        "dragon-slayer",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The chief deity of the Moche, depicted with a feline fanged mouth, wielding a crescent-shaped tumi knife and a severed human head. He shape-shifts into spiders and crabs, traversing the sea, land, and underworld to secure the agricultural cycle.",
+      "facet": "He merges visceral, monstrous violence with absolute agricultural fertility. Decapitation here is not punitive justice but hydraulic necessity; human blood physically feeds the earth and mountains to guarantee irrigation waters.",
+      "provenance": "Moche fine-line ceramics; Huaca de la Luna murals; Christopher Donnan."
+    },
+    {
+      "id": "andean-pre-inca-wachuma",
+      "kind": "rite",
+      "name": "Wachuma (San Pedro Cactus)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The highly psychoactive, mescaline-bearing columnar cactus central to the Chavín cult. Priests consumed it to undergo violent physiological and psychic transformation, initiating a soul-flight where they shape-shifted into apex predators like jaguars or harpy eagles.",
+      "facet": "Hallucinogens were not utilized for gentle communal bonding, but as tools of spiritual terror and elite political control, engineering a permanent psychological shock that bound the initiate irreversibly to the subterranean oracle.",
+      "provenance": "Tenon heads at Chavín showing nasal mucus discharge; early colonial chronicles describing 'achuma'."
+    },
+    {
+      "id": "andean-pre-inca-tinku",
+      "kind": "principle",
+      "name": "Tinku (Ritual Encounter)",
+      "archetypes": [
+        "complementarity",
+        "dualism"
+      ],
+      "gloss": "The foundational Andean principle of two opposing but complementary forces converging. It manifests geographically where two rivers meet, socially in the division of communities into upper and lower moieties, and ritually in highly orchestrated combat.",
+      "facet": "Harmony is achieved not by blending or neutralizing opposites, but through their violent, highly charged collision. The kinetic energy of this clash—and the literal spilling of blood—sparks the generative force sustaining the cosmos.",
+      "provenance": "Widespread Pre-Columbian ideology; continued in modern Andean Tinkuy ritual battles; Tristan Platt."
+    },
+    {
+      "id": "andean-pre-inca-mullu",
+      "kind": "concept",
+      "name": "Mullu (Spondylus and Strombus)",
+      "archetypes": [
+        "mother-of-waters",
+        "complementarity"
+      ],
+      "gloss": "The sacred bivalve (Spondylus, representing female, red, warm equatorial waters) and the conch (Strombus, representing male, sound, the pututu trumpet). Brought thousands of miles to the cold high Andes, they were more precious than gold.",
+      "facet": "They represent a continent-spanning, life-or-death ritual economy. These shells were not mere symbols of water; they were the literal, physical food of the gods. Without feeding Mullu to the huacas, the rains would fail.",
+      "provenance": "Moche royal tombs; Chavín Pututus; Paul Goldstein."
+    },
+    {
+      "id": "andean-pre-inca-moche-priestess",
+      "kind": "hero",
+      "name": "The Moche Priestess (Lady of Cao)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "High-ranking female ritual specialists, entombed with massive wealth, ceremonial war clubs, and sacrificed retainers. Adorned with spider and snake tattoos, they presided over the Sacrifice Ceremony, receiving goblets of blood from defeated warriors.",
+      "facet": "Entirely upends the traditional binary of male-warrior and female-domestic. These priestesses were apex political and religious authorities, wielding the power of life and death, serving as literal conduits between warfare and divine fertility.",
+      "provenance": "Excavations at San José de Moro; El Brujo (Lady of Cao); Moche Sacrifice Ceremony iconography."
+    },
+    {
+      "id": "andean-pre-inca-tenon-heads",
+      "kind": "concept",
+      "name": "The Tenon Heads (Cabezas Clavas)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "one-through-many"
+      ],
+      "gloss": "Massive stone heads originally pegged into the high exterior walls of the Chavín temple, displaying a gruesome progression of human faces mutating into feline and avian forms, with thick ropes of mucus streaming from their noses.",
+      "facet": "They serve as a petrified, sequential storyboard of the shamanic drug trance. Rather than hiding the grotesque physical side effects of hallucinogens, they monumentalize the physiological agony of crossing into the divine realm.",
+      "provenance": "Chavín de Huántar exterior walls; Richard Burger."
+    }
+  ],
+  "edges": [
+    {
+      "a": "andean-pre-inca-wachuma",
+      "b": "andean-pre-inca-tenon-heads",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The entheogenic plant technology and its petrified, sequential architectural documentation."
+    },
+    {
+      "a": "andean-pre-inca-lanzon",
+      "b": "andean-pre-inca-wachuma",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The subterranean oracle and the psychoactive vehicle required to commune with it."
+    },
+    {
+      "a": "andean-pre-inca-ai-apaec",
+      "b": "andean-pre-inca-moche-priestess",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The insatiable decapitator god and his earthly, aristocratic female executors who physically served him the blood."
+    },
+    {
+      "a": "andean-pre-inca-tinku",
+      "b": "andean-pre-inca-mullu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The concept of complementary convergence made physical in the pairing of the warm, red, female Spondylus and cold, white, male Strombus."
+    },
+    {
+      "a": "andean-pre-inca-staff-god",
+      "b": "viracocha",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The direct, attested predecessor to the Inca creator deity, establishing the exact iconographic posture and celestial authority millennia earlier."
+    },
+    {
+      "a": "andean-pre-inca-staff-god",
+      "b": "taranis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The rigid, frontal sky-father wielding absolute atmospheric power through symbolic implements of symmetry and rotation."
+    },
+    {
+      "a": "andean-pre-inca-tinku",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmos defined by the necessary convergence of opposed forces, though Tinku emphasizes violent, kinetic friction over fluid harmony."
+    },
+    {
+      "a": "andean-pre-inca-tinku",
+      "b": "ballgame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The generation of life and cosmic continuation through highly orchestrated, high-stakes ritual collision that demands a blood price."
+    },
+    {
+      "a": "andean-pre-inca-ai-apaec",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The monstrous, fanged chthonic creator whose absolute fertility is entirely dependent on continuous decapitation and human blood."
+    },
+    {
+      "a": "andean-pre-inca-lanzon",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An iconic, non-human stone monolith serving as the absolute geographic and spiritual focal point of a massive pilgrimage network."
+    },
+    {
+      "a": "andean-pre-inca-lanzon",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmic axis, but anchored deeply in the chthonic underground rather than reaching strictly upward into the heavens."
+    },
+    {
+      "a": "andean-pre-inca-wachuma",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The visceral, often terrifying soul journey undertaken by the ritual specialist to negotiate directly with the unseen powers."
+    },
+    {
+      "a": "andean-pre-inca-tenon-heads",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The explicit documentation—in stone or rock art—of the intense physical agony and physiological breakdown required to cross into the spirit realm."
+    },
+    {
+      "a": "andean-pre-inca-moche-priestess",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Fearsome female ritual authorities steeped in the imagery of death, warfare, and the collection of the slain."
+    },
+    {
+      "a": "andean-pre-inca-mullu",
+      "b": "mama-cocha",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The continued Andean reverence for the sea's bounty, manifesting later as the Inca mother of the ocean."
+    },
+    {
+      "a": "andean-pre-inca-mullu",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The perilous, deep-ocean riches that are the ultimate, non-negotiable source of sustenance for human life."
+    },
+    {
+      "a": "andean-pre-inca-moche-priestess",
+      "b": "spider-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Supreme female figures deeply associated with spider iconography, spinning the literal threads of fate and divine intercession."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "violent-complementarity",
+      "name": "Violent Complementarity",
+      "subtype": "principle",
+      "gloss": "The generation of cosmic order and fertility not through peaceful blending, but through the highly orchestrated, often blood-drawing collision of opposed forces.",
+      "reason": "Needed for the Andean Tinku and the Mesoamerican Ballgame, where harmony requires kinetic, aggressive friction and bodily sacrifice to spark generative power."
+    },
+    {
+      "id": "entheogenic-ordeal",
+      "name": "Entheogenic Ordeal",
+      "subtype": "rite",
+      "gloss": "The intentional use of toxic or highly psychoactive substances to induce terrifying physical and psychological breakdown, deliberately breaking the ego to access the divine.",
+      "reason": "Needed for Chavín Wachuma rituals and San trance states, where hallucinogens or physiological extremes are weapons of profound ontological shock rather than tools for gentle healing."
+    }
+  ]
+}

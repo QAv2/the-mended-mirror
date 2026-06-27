@@ -1,0 +1,251 @@
+{
+  "tradition": {
+    "id": "yarsanism",
+    "name": "Yarsanism / Ahl-e Haqq",
+    "region": "W Iran (Kermanshah)",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "yarsanism-khavandagar",
+      "kind": "deity",
+      "name": "Khavandagar (The Supreme Essence)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The pre-eternal, absolute Divine Essence. Before the cosmos existed, Khavandagar dwelled silently within a primordial pearl. From this hidden state, the Essence brought forth creation by manifesting its light through successive emanations and avatars across the epochs.",
+      "facet": "Khavandagar is rarely approached directly. The Supreme Essence remains entirely unmanifest and unknowable except through its physical incarnations (the 'libas' or garments) and the primordial heptad of angels it emanated to govern the material world.",
+      "provenance": "Kalam-e Saranjam; 'Shahnameh-ye Haqiqat' of Hajj Ne'matollah."
+    },
+    {
+      "id": "yarsanism-sultan-sahak",
+      "kind": "culture-hero",
+      "name": "Sultan Sahak (The Lord of the Universe)",
+      "archetypes": [
+        "culture-hero",
+        "theophanic-avatar"
+      ],
+      "gloss": "The great 14th-century reformer and the fourth absolute incarnation of the Divine Essence. He reorganized the Yarsani faith, revealed the ultimate esoteric truth (Haqiqa), and established the sacred rituals and lineages that govern the community today.",
+      "facet": "Unlike an Abrahamic prophet who merely receives words from God, Sultan Sahak is understood as the literal, bodily manifestation of God on earth for his epoch. He does not point to the Divine; he is the Divine wrapped in a human garment.",
+      "provenance": "Core Yarsani Kalams; oral traditions of the Hawraman region; Tadhkira-i A'la."
+    },
+    {
+      "id": "yarsanism-haft-tan",
+      "kind": "deity",
+      "name": "The Haft Tan (The Seven Persons)",
+      "archetypes": [
+        "seven-emanations"
+      ],
+      "gloss": "The seven primordial archangels created from Khavandagar's pure light. They are the eternal architects and guardians of the cosmos, accompanying the Divine Avatar in every historical epoch by taking on human forms to guide the faithful.",
+      "facet": "They are not subordinate created beings with free will, but consubstantial rays of the Divine. Their roles in the community (such as the Pir and the Dalil) are absolute, mapping eternal cosmic functions directly onto living spiritual lineages.",
+      "provenance": "Kalam-e Saranjam; the Covenant of Perdiwar."
+    },
+    {
+      "id": "yarsanism-dunadun",
+      "kind": "concept",
+      "name": "Dunadun (The Changing of Garments)",
+      "archetypes": [
+        "soul-transmigration"
+      ],
+      "gloss": "The doctrine of the soul's transmigration. A soul must travel through a strict sequence of 1,001 'garments' (dun), or physical incarnations. Each life is a crucible dictating the soul's ascent toward purity or descent into base matter.",
+      "facet": "Unlike Eastern models of endless, infinite rebirth, Dunadun is a strictly closed system. The 1,001-incarnation limit provides a definitive terminus, merging the mechanics of reincarnation with a distinct eschatological timeline of final judgment and salvation.",
+      "provenance": "Yarsani poetic Kalams; 'Shahnameh-ye Haqiqat'."
+    },
+    {
+      "id": "yarsanism-jam",
+      "kind": "rite",
+      "name": "The Jam (The Sacred Assembly)",
+      "archetypes": [
+        "esoteric-assembly"
+      ],
+      "gloss": "The central ritual gathering of Yarsanism. Initiated members sit in an unbroken circle, erasing all worldly hierarchies, to chant sacred Kalams, play the tanbur, and share consecrated offerings (nazr or niyaz) of food.",
+      "facet": "The Jam is not merely symbolic; it is a literal collapsing of space and time. A properly convened Jam recreates the primordial divine council of Perdiwar on earth, achieving direct, unmediated communion (Haqiqa) with the Divine Essence.",
+      "provenance": "Ritual prescriptions established by Sultan Sahak at Perdiwar."
+    },
+    {
+      "id": "yarsanism-pir-benjamin",
+      "kind": "hero",
+      "name": "Pir Benjamin (The Eternal Master)",
+      "archetypes": [
+        "spiritual-guide"
+      ],
+      "gloss": "The first and greatest of the Haft Tan, representing the eternal condition of the Pir (spiritual master). He is the indispensable guide and intercessor for all 'Ahl-e Haqq' (People of Truth), tasked with initiating souls into the divine mystery.",
+      "facet": "Salvation is impossible without pledging oneself to a Pir. Pir Benjamin is the cosmic archetype of this absolute necessity, demonstrating that spiritual liberation requires strict initiation and submission to a living, incarnate hierarchy.",
+      "provenance": "The Covenant of Perdiwar; Shart-o-Iqrar (The Pact)."
+    },
+    {
+      "id": "yarsanism-kalam-e-saranjam",
+      "kind": "principle",
+      "name": "Kalam-e Saranjam (The Discourse of Conclusion)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The supreme holy text of Yarsanism, comprising the divine utterances revealed to Sultan Sahak and his companions. It contains the ultimate spiritual laws, cosmological secrets, and historical trajectory of the faith.",
+      "facet": "It is a fiercely protected, esoteric corpus. Unlike universalist scriptures meant for global conversion, the Kalams are intentionally hidden, transmitted largely orally among the initiated, prioritizing lived spiritual descent over public textualism.",
+      "provenance": "Manuscripts preserved by the Guran sayyids; oral recitation traditions."
+    },
+    {
+      "id": "yarsanism-perdiwar",
+      "kind": "place",
+      "name": "Perdiwar (The Sacred Bridge)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred village and bridge over the Sirwan River where Sultan Sahak established the ultimate covenant of Yarsanism. It is the spiritual epicenter of the tradition, the site where the era of esoteric Truth (Haqiqa) formally began.",
+      "facet": "Perdiwar anchors the divine entirely in local geography. The metaphysical bridge of judgment is brought down to the physical mountains of Kurdistan, permanently sealing the cosmic pact between Khavandagar and humanity in a specific, tangible place.",
+      "provenance": "Hagiography of Sultan Sahak; geography of the Hawraman region."
+    }
+  ],
+  "edges": [
+    {
+      "a": "yarsanism-sultan-sahak",
+      "b": "yarsanism-haft-tan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Divine Avatar and his court of seven eternal archangels, who always manifest together."
+    },
+    {
+      "a": "yarsanism-sultan-sahak",
+      "b": "yarsanism-perdiwar",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The founder and the sacred axis where he revealed the Truth and sealed the covenant."
+    },
+    {
+      "a": "yarsanism-dunadun",
+      "b": "yarsanism-jam",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The cycle of incarnation is navigated and purified through participation in the sacred assembly."
+    },
+    {
+      "a": "yarsanism-haft-tan",
+      "b": "amesha-spentas",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Both feature a primordial heptad of divine emanations governing creation, reflecting a deeply documented historical continuum in Iranian religious thought."
+    },
+    {
+      "a": "yarsanism-khavandagar",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme creator pre-existing in a sealed enclosure (the pearl/egg) before expanding outward to generate the cosmos."
+    },
+    {
+      "a": "yarsanism-khavandagar",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The utterly hidden, indivisible source of all existence from which all lower spiritual orders and emanations flow."
+    },
+    {
+      "a": "yarsanism-khavandagar",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The infinite, unmanifest Godhead that cannot be known in itself, only through its successive emanations."
+    },
+    {
+      "a": "yarsanism-sultan-sahak",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The direct bodily incarnation of the Divine Word, descending to act as the ultimate bridge between humanity and the absolute."
+    },
+    {
+      "a": "yarsanism-haft-tan",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A complete, structured divine realm of emanated beings that mediate between the unknowable God and the material universe."
+    },
+    {
+      "a": "yarsanism-dunadun",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The eternal soul traveling through material forms to shed impurities and accrue consequences, though Yarsanism limits this process strictly to 1,001 lifetimes."
+    },
+    {
+      "a": "yarsanism-dunadun",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While Buddhism denies a persistent self across rebirths, Dunadun insists on a singular, accountable essence moving through different physical garments."
+    },
+    {
+      "a": "yarsanism-jam",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly structured ritual assembly that literally collapses time, allowing participants to recreate and participate in the primordial divine council."
+    },
+    {
+      "a": "yarsanism-perdiwar",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unshakeable cosmic center where the divine intersects with the earthly, though Perdiwar is anchored to a literal river bridge rather than a mythological peak."
+    },
+    {
+      "a": "yarsanism-perdiwar",
+      "b": "mount-meru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The geographical and metaphysical anchor of the universe, serving as the throne of the highest spiritual authority."
+    },
+    {
+      "a": "yarsanism-kalam-e-saranjam",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A strictly bounded, divinely revealed corpus that dictates the exact spiritual and ritual order, kept esoteric and closed to outsiders."
+    },
+    {
+      "a": "yarsanism-pir-benjamin",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial archetype of the spiritual guide and revealer of esoteric knowledge, to whom all seekers must trace their initiation."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "theophanic-avatar",
+      "name": "The Theophanic Avatar",
+      "subtype": "deity",
+      "gloss": "A historical human figure who is not merely a prophet receiving a message, but the literal, physical garment worn by the Supreme Divine Essence for a specific cosmic epoch.",
+      "reason": "Necessary to distinguish direct bodily incarnations of the Godhead (like Sultan Sahak or Druze Al-Hakim) from 'culture-heroes' or 'prophets' who only channel divine will."
+    },
+    {
+      "id": "seven-emanations",
+      "name": "The Seven Emanations",
+      "subtype": "concept",
+      "gloss": "A primordial heptad of divine beings or archangels who emanate from the supreme Godhead, structure the cosmos, and continuously guide humanity.",
+      "reason": "A recurring structural motif across Middle Eastern and Central Asian esoteric traditions (Amesha Spentas, Haft Tan, Seven Archangels), distinct from a generic pantheon."
+    },
+    {
+      "id": "soul-transmigration",
+      "name": "Transmigration of the Soul",
+      "subtype": "concept",
+      "gloss": "The doctrine that a singular, persistent spiritual essence migrates through a sequence of physical bodies or 'garments' to achieve cosmic justice, purification, or fulfillment.",
+      "reason": "Needed to capture systems of reincarnation, metempsychosis, and donadoni, distinct from the 'cyclic-ages' of the universe itself."
+    },
+    {
+      "id": "esoteric-assembly",
+      "name": "The Esoteric Assembly",
+      "subtype": "rite",
+      "gloss": "A closed, highly ritualized circle that deliberately suspends earthly hierarchies to recreate a primordial divine council, allowing initiates to achieve direct communion.",
+      "reason": "Captures the profound structural role of closed spiritual gatherings (the Jam, the Masonic Lodge, Sufi Tariqas) that operate outside exoteric religious law."
+    },
+    {
+      "id": "spiritual-guide",
+      "name": "The Spiritual Guide (Pir)",
+      "subtype": "hero",
+      "gloss": "An archetypal or living master whose direct initiation and intercession is an absolute prerequisite for a seeker to achieve salvation or cosmic understanding.",
+      "reason": "Distinguishes the esoteric master/initiator from a general 'culture-hero' or 'first-ancestor', highlighting the necessity of an unbroken chain of spiritual transmission."
+    }
+  ]
+}

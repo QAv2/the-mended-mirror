@@ -1,0 +1,213 @@
+{
+  "tradition": {
+    "id": "anthroposophy",
+    "name": "Anthroposophy",
+    "region": "Germany / Switzerland",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "anthroposophy-etheric-christ",
+      "kind": "deity",
+      "name": "The Etheric Christ (The Sun Spirit)",
+      "archetypes": [
+        "solar",
+        "dying-rising"
+      ],
+      "gloss": "The central macrocosmic being of spiritual science. Originally the supreme Solar Spirit, he descended through the planetary spheres to incarnate in Jesus. At the crucifixion, his spirit infused the Earth's etheric aura, becoming the living planetary savior and the turning point of human evolution.",
+      "facet": "Unlike orthodox Christianity's historical, physical resurrection, this Christ is an ongoing etheric phenomenon—a cosmic being who chemically altered the Earth's spiritual atmosphere and is directly accessible to modern humanity via 'exact clairvoyance'.",
+      "provenance": "Rudolf Steiner, 'Christianity as Mystical Fact' (1902); 'The Fifth Gospel' (1913)."
+    },
+    {
+      "id": "anthroposophy-lucifer",
+      "kind": "force",
+      "name": "Lucifer (The Light Bearer)",
+      "archetypes": [
+        "cosmic-adversary",
+        "trickster"
+      ],
+      "gloss": "One of the two primary opposing spiritual forces. Lucifer represents hyper-spiritualization, pride, intellectualism, and ecstatic detachment from the physical world. He seeks to draw humanity out of earthly evolution into a realm of formless, ungrounded illusion.",
+      "facet": "In Anthroposophy, Lucifer is not absolute evil, but one pole of a necessary triad. He gifted humanity with freedom, art, and independence, but his flighty influence must be strictly balanced by the Christ.",
+      "provenance": "Rudolf Steiner, 'The Influences of Lucifer and Ahriman' (1919)."
+    },
+    {
+      "id": "anthroposophy-ahriman",
+      "kind": "force",
+      "name": "Ahriman (The Spirit of Materialism)",
+      "archetypes": [
+        "cosmic-adversary",
+        "underworld-sovereign"
+      ],
+      "gloss": "The cold, hardening spirit of materialism, mechanization, and reductionist intellect. Ahriman seeks to bind human consciousness entirely to the physical realm, convincing humanity that the material world is the only reality and mechanizing all organic life.",
+      "facet": "Explicitly adopting the Zoroastrian name, Steiner repositions Ahriman not as God's primordial twin, but as Lucifer's polar opposite. Christ acts as the central fulcrum, balancing Ahriman's mechanized gravity against Lucifer's ungrounded light.",
+      "provenance": "Rudolf Steiner, 'The Influences of Lucifer and Ahriman' (1919)."
+    },
+    {
+      "id": "anthroposophy-akashic-record",
+      "kind": "concept",
+      "name": "The Akashic Record",
+      "archetypes": [
+        "cyclic-ages",
+        "axis-mundi"
+      ],
+      "gloss": "An objective, imperishable spiritual archive composed of 'akasha' (a subtle, formative ether) that records every thought, action, and event in cosmic history. Initiates can 'read' this spiritual script to retrieve exact knowledge of lost epochs like Atlantis and Lemuria.",
+      "facet": "Steiner claimed to read this record directly through rigorous 'spiritual science', entirely bypassing physical archaeology or historical texts to reconstruct human evolution with what he presented as absolute, empirical precision.",
+      "provenance": "Rudolf Steiner, 'Cosmic Memory: Prehistory of Earth and Man' (1904)."
+    },
+    {
+      "id": "anthroposophy-michael",
+      "kind": "deity",
+      "name": "The Archangel Michael (The Spirit of the Age)",
+      "archetypes": [
+        "dragon-slayer",
+        "psychopomp"
+      ],
+      "gloss": "The archangelic cosmic intelligence and current 'Time Spirit' (Zeitgeist) overseeing human evolution since 1879. Michael wields a cosmic iron sword to slay the dragon of Ahrimanic materialism, guiding humanity toward free, conscious, and cosmopolitan spiritual cognition.",
+      "facet": "Michael is elevated from a biblical warrior to a solar intelligence who mediates the Etheric Christ to modern humanity. Anthroposophists view themselves as the 'Michael School', actively collaborating with him to spiritualize earthly culture.",
+      "provenance": "Rudolf Steiner, 'The Michael Mystery' (1924)."
+    },
+    {
+      "id": "anthroposophy-sorat",
+      "kind": "force",
+      "name": "Sorat (The Sun Demon)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The ultimate, irredeemable adversary—the anti-Christ. While Lucifer and Ahriman are necessary poles of evolution that will eventually be redeemed, Sorat is a force of pure annihilation fundamentally opposed to the human 'I' and the Earth's spiritualization.",
+      "facet": "Sorat operates entirely outside the Lucifer-Ahriman polarity, surging into human history in 666-year rhythmic cycles to inject catastrophic black magic, fascism, and the complete destruction of human individuality.",
+      "provenance": "Rudolf Steiner, 'The Apocalypse of St. John' (1908)."
+    },
+    {
+      "id": "anthroposophy-anthroposophia",
+      "kind": "deity",
+      "name": "Anthroposophia (Divine Wisdom)",
+      "archetypes": [
+        "great-mother",
+        "psychopomp"
+      ],
+      "gloss": "The spiritual being or goddess of Anthroposophy itself, representing a modern, active manifestation of cosmic Sophia. She is the living, objective wisdom that descends into human consciousness to bridge the physical and spiritual worlds.",
+      "facet": "Steiner treats Anthroposophia not as a static philosophical abstraction or mere allegory, but as a real, living entity—a new spiritual mother who actively partners with human cognition in the modern esoteric age.",
+      "provenance": "Rudolf Steiner, 'The Goddess Natur / Anthroposophia' (various lectures, esp. 1913)."
+    },
+    {
+      "id": "anthroposophy-fourfold-human",
+      "kind": "concept",
+      "name": "The Fourfold Human",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The anatomical structure of the human being in spiritual science, consisting of a physical body (shared with minerals), an etheric body of life forces (plants), an astral body of consciousness (animals), and the 'I' or Ego (unique to humanity).",
+      "facet": "This esoteric model serves as the strictly applied, pragmatic foundation for Steiner's real-world initiatives: Waldorf education, biodynamic agriculture, and anthroposophical medicine map exactly to the developmental stages of these four sheaths.",
+      "provenance": "Rudolf Steiner, 'Theosophy' (1904); 'An Outline of Esoteric Science' (1910)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "anthroposophy-lucifer",
+      "b": "anthroposophy-ahriman",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The two opposing poles of cosmic extremism—Lucifer's ungrounded hyper-spirituality versus Ahriman's hardening materialism."
+    },
+    {
+      "a": "anthroposophy-etheric-christ",
+      "b": "anthroposophy-michael",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Michael acts as the countenance and active cosmic messenger of the Etheric Christ in the current evolutionary epoch."
+    },
+    {
+      "a": "anthroposophy-etheric-christ",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A direct esoteric reconceptualization of the biblical Jesus Christ into a macrocosmic, ongoing Solar entity."
+    },
+    {
+      "a": "anthroposophy-ahriman",
+      "b": "angra-mainyu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Steiner explicitly borrowed the Zoroastrian adversary of light, repurposing him as the spirit of earthly mechanization and materialism."
+    },
+    {
+      "a": "anthroposophy-anthroposophia",
+      "b": "sophia",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Consciously identified by Steiner as the modern, evolutionary continuation of the Gnostic divine feminine wisdom."
+    },
+    {
+      "a": "anthroposophy-lucifer",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are brilliant light-bringers who gifted humanity with independence and fire/art, yet separated them from divine wholeness."
+    },
+    {
+      "a": "anthroposophy-ahriman",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as the ignorant, heavy architects of the material world who seek to trap human consciousness in a purely physical prison."
+    },
+    {
+      "a": "anthroposophy-fourfold-human",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Where Buddhism systematically dismantles the self into transient aggregates (anatman), Anthroposophy positions the eternal 'I' as the indestructible spiritual crown of the lower sheaths."
+    },
+    {
+      "a": "anthroposophy-sorat",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the ultimate, absolute adversary not just to moral goodness, but to the very core of individual spiritual awakening and the human 'I'."
+    },
+    {
+      "a": "anthroposophy-etheric-christ",
+      "b": "ra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are supreme Solar Logos figures who must descend into darkness (the underworld or material incarnation) to bring life-giving cosmic order."
+    },
+    {
+      "a": "anthroposophy-michael",
+      "b": "marduk",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Dragon-slaying solar champions who reorganize cosmic and cultural intelligence for a new epoch of human civilization."
+    },
+    {
+      "a": "anthroposophy-fourfold-human",
+      "b": "tonal-nagual",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both systems partition the human entity into distinct, operating spiritual and animal components that interact across different planes of reality."
+    },
+    {
+      "a": "anthroposophy-akashic-record",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Thoth, as the scribe of the gods, acts as the active mythic personification of the cosmic memory that the Akashic record passively stores."
+    },
+    {
+      "a": "anthroposophy-lucifer",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both function as brilliant, fire-associated trickster spirits whose disruptive influence is necessary to catalyze human and divine evolution."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "cosmic-memory",
+      "name": "Cosmic Memory",
+      "subtype": "concept",
+      "gloss": "An imperishable, objective recording of all cosmic and human history, inscribed in a subtle substance or astral plane, accessible to shamans, mystics, or the divine.",
+      "reason": "Traditions like Anthroposophy (Akashic Records), certain shamanic trance states, and Vedic cosmic mind require a structural joint for an interactive, readable history of the universe."
+    }
+  ]
+}

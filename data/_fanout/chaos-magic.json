@@ -1,0 +1,230 @@
+{
+  "tradition": {
+    "id": "chaos-magic",
+    "name": "Chaos Magic",
+    "region": "UK",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "chaos-magic-kia",
+      "kind": "force",
+      "name": "Kia (The Atmospheric 'I')",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The absolute, undefinable life force and universal consciousness from which all things manifest. Borrowed from Austin Osman Spare, it represents the raw, unconditioned void of potential that magicians tap into when the conscious mind is silenced.",
+      "facet": "Unlike mystical absolutes requiring devotion or moral purity, Kia is an amoral, mechanistic power-source accessed strictly through psychological exhaustion, sexual climax, or sensory overload.",
+      "provenance": "Austin Osman Spare, 'The Book of Pleasure' (1913); Peter J. Carroll, 'Liber Null' (1978)."
+    },
+    {
+      "id": "chaos-magic-gnosis",
+      "kind": "rite",
+      "name": "Gnosis (The Magical Trance)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "An extreme altered state of consciousness achieved through either inhibitory methods like profound meditation, or excitatory methods like frenzy and hyperventilation. It single-pointedly focuses the will and temporarily collapses the ego to operate magic.",
+      "facet": "Divorced entirely from divine revelation, chaos magic's gnosis is purely functional—a psychological hack designed to sneak a coded desire past the conscious mind into the subconscious.",
+      "provenance": "Peter J. Carroll, 'Liber Null' (1978)."
+    },
+    {
+      "id": "chaos-magic-psychic-censor",
+      "kind": "force",
+      "name": "The Psychic Censor",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The psychological mechanism that filters out magical perception and synchronicity to maintain a stable, consensus reality. It acts as a cognitive firewall between the conscious mind and the universe's raw, malleable probability.",
+      "facet": "It frames disbelief not as a spiritual failure or sin, but as an evolutionary biological defense mechanism preventing madness. The magician's entire art is bypassing it unnoticed.",
+      "provenance": "Peter J. Carroll, 'Liber Null' (1978)."
+    },
+    {
+      "id": "chaos-magic-sigilization",
+      "kind": "rite",
+      "name": "Sigilization",
+      "archetypes": [
+        "world-egg"
+      ],
+      "gloss": "The core technology of the tradition. A conscious desire is written out, its letters scrambled into an abstract monogram, concentrated upon during intense gnosis, and then deliberately forgotten to germinate in the subconscious.",
+      "facet": "It treats human desire as self-defeating. A spell only works if the conscious mind genuinely forgets what the symbol means, preventing the 'lust for result' from aborting the magical operation.",
+      "provenance": "Austin Osman Spare, 'The Book of Pleasure' (1913); Ray Sherwin, 'The Book of Results' (1978)."
+    },
+    {
+      "id": "chaos-magic-baphomet",
+      "kind": "deity",
+      "name": "Baphomet (The Earth Current)",
+      "archetypes": [
+        "complementarity",
+        "great-mother"
+      ],
+      "gloss": "The macrocosmic life-force and collective morphic field of the planet, typically depicted as a horned androgyne combining animal, human, and divine traits. In the chaos current, Baphomet represents the blind, churning, evolutionary urge of the Earth itself.",
+      "facet": "Stripped of its medieval Satanic baggage, Baphomet is invoked as a purely ecological and psychological force—the ecstatic, amoral drive of biology and physics intertwining without human morality.",
+      "provenance": "Peter J. Carroll, 'Liber Null' (1978); 'Liber Kaos' (1992)."
+    },
+    {
+      "id": "chaos-magic-paradigm-shift",
+      "kind": "principle",
+      "name": "Paradigm Shifting",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The supreme operational principle: 'Nothing is true, everything is permitted.' Belief is recognized as an active psychic state rather than a reflection of objective reality, to be adopted or discarded as operationally necessary.",
+      "facet": "It completely detaches magic from theology. A practitioner might genuinely worship Odin on Tuesday, invoke UFO aliens on Wednesday, and become an atheistic materialist on Thursday, using belief entirely as psychological software.",
+      "provenance": "Phil Hine, 'Condensed Chaos' (1995); Peter J. Carroll, 'Liber Kaos' (1992)."
+    },
+    {
+      "id": "chaos-magic-servitor",
+      "kind": "creature",
+      "name": "Servitors and Egregores",
+      "archetypes": [
+        "thought-form"
+      ],
+      "gloss": "Autonomous thought-forms engineered by the magician to perform specific tasks. A servitor is a splinter of the creator's psyche bound to a physical vessel or symbol; an egregore is a larger form sustained by group belief.",
+      "facet": "Gods, demons, and angels are reclassified not as independent spiritual beings, but as massive, ancient egregores built by centuries of human belief, which can be hijacked, starved, or artificially replicated.",
+      "provenance": "Phil Hine, 'Prime Chaos' (1993); Peter J. Carroll, 'Liber Null' (1978)."
+    },
+    {
+      "id": "chaos-magic-chaosphere",
+      "kind": "concept",
+      "name": "The Chaosphere",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The eight-pointed star radiating from a central point, adopted as the universal symbol of the chaos current. It represents the omnidirectional outward explosion of raw probability and untamed creative force.",
+      "facet": "It consciously inverts traditional arrows of stasis which point inward toward order. It visually insists that maximum divergence and multi-directional potentiality, not unification, is the true ultimate state of the cosmos.",
+      "provenance": "Michael Moorcock, 'The Eternal Champion' series (1970s); adopted by the Illuminates of Thanateros (1978)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "chaos-magic-kia",
+      "b": "chaos-magic-chaosphere",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Chaosphere is the geometric manifestation of the infinite, unconditioned potential of Kia expanding outward into reality."
+    },
+    {
+      "a": "chaos-magic-gnosis",
+      "b": "chaos-magic-psychic-censor",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Gnosis is the deliberate technique deployed to overload or exhaust the Psychic Censor so magic can occur."
+    },
+    {
+      "a": "chaos-magic-sigilization",
+      "b": "chaos-magic-psychic-censor",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The abstract monogram of a sigil is specifically designed to be incomprehensible to the Psychic Censor, allowing it to bypass the filter."
+    },
+    {
+      "a": "chaos-magic-kia",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both describe the infinite, unknowable zero-point of existence that cannot be directly apprehended by the conscious mind."
+    },
+    {
+      "a": "chaos-magic-kia",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, undifferentiated reality that stands behind the multiplicity of the created universe."
+    },
+    {
+      "a": "chaos-magic-kia",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both posit an ultimate, unnamable source from which all probability and reality emanates, preceding human conceptualization."
+    },
+    {
+      "a": "chaos-magic-gnosis",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both utilize extreme physical exhaustion and sensory saturation to bypass the ego and access the raw power of the universe."
+    },
+    {
+      "a": "chaos-magic-gnosis",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The induction of an ecstatic, ego-less state to forcefully alter reality or gather hidden information."
+    },
+    {
+      "a": "chaos-magic-gnosis",
+      "b": "buddhist-anatman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Chaos magic temporarily weaponizes the state of no-self (anatman) through intense trance, dissolving the ego to allow raw intent to pass unobstructed."
+    },
+    {
+      "a": "chaos-magic-paradigm-shift",
+      "b": "jain-anekantavada",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both treat single belief systems as fundamentally incomplete, asserting that truth is contextual and multiple perspectives must be actively utilized."
+    },
+    {
+      "a": "chaos-magic-paradigm-shift",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both embody the trickster's weaponization of rules and boundaries, adopting whatever shape or belief is operationally necessary to break consensus reality."
+    },
+    {
+      "a": "chaos-magic-baphomet",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the fundamental, amoral engine of reality created by the perfect, spinning union of dualistic opposites."
+    },
+    {
+      "a": "chaos-magic-baphomet",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conceptual union of pure consciousness and raw, active material nature churning the universe into existence."
+    },
+    {
+      "a": "chaos-magic-servitor",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve the binding of an invisible force or spirit fragment into a physical vessel to execute the operator's specific, pragmatic commands."
+    },
+    {
+      "a": "chaos-magic-psychic-censor",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the psychological forces of illusion and distraction that actively fight to keep the practitioner trapped in consensus reality."
+    },
+    {
+      "a": "chaos-magic-psychic-censor",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The Censor functions as an internalized Demiurge—a psychological mechanism designed to blind the operator to their own ability to alter reality."
+    },
+    {
+      "a": "chaos-magic-sigilization",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose structural parallel where a complex cosmic intention is compressed into a microscopic, abstract seed-form that gestates in darkness before manifesting."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "thought-form",
+      "name": "Thought-Form",
+      "subtype": "concept",
+      "gloss": "An autonomous metaphysical entity generated entirely by human belief or sheer will, possessing no objective existence outside the minds that feed it.",
+      "reason": "Crucial for mapping entities that traditions explicitly recognize as human-created constructs, bridging Chaos Servitors, Tibetan Tulpas, and Occult Egregores."
+    }
+  ]
+}

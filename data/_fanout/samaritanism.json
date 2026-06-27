@@ -1,0 +1,254 @@
+{
+  "tradition": {
+    "id": "samaritanism",
+    "name": "Samaritanism",
+    "region": "Mt Gerizim, Palestine",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "samaritanism-shema",
+      "kind": "deity",
+      "name": "Shema (The Name)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The strictly unified, incorporeal Creator of the universe. Samaritans emphasize radical monotheism, referring to God as 'Shema' (The Name) to avoid pronouncing the Tetragrammaton, preserving the absolute sanctity and unapproachable nature of the divine presence.",
+      "facet": "Fiercely rejects any later Jewish mystical emanations, angelic intercessors, or hypostases (like the Rabbinic Shekhinah). God is utterly singular, accessible only through the unchanging Law and the ancient priesthood, requiring no prophetic mediation after Moses.",
+      "provenance": "Samaritan Pentateuch (Deuteronomy 6:4); Memar Marqah; Samaritan liturgy."
+    },
+    {
+      "id": "samaritanism-moses",
+      "kind": "culture-hero",
+      "name": "Moses (The Sole Prophet)",
+      "archetypes": [
+        "culture-hero",
+        "seal-of-the-prophets"
+      ],
+      "gloss": "The ultimate, unrepeatable conduit of divine revelation. To Samaritans, Moses is not merely the greatest of prophets, but the only true prophet ever sent by God to humanity, a being whose light pre-existed the world.",
+      "facet": "Unlike Rabbinic Judaism, Christianity, or Islam, which accept lines of subsequent prophets, Samaritanism dogmatically asserts that prophecy ended forever with Moses. Anyone claiming prophetic authority after him is inherently false.",
+      "provenance": "Samaritan Pentateuch (Deuteronomy 34:10); Memar Marqah (Book 1)."
+    },
+    {
+      "id": "samaritanism-gerizim",
+      "kind": "place",
+      "name": "Mount Gerizim (The True Sanctuary)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred mountain rising above Shechem, ordained by God as the true, eternal dwelling place of the divine presence. In Samaritan tradition, it is the highest mountain on earth, the sole peak to survive the great flood, and the actual site of Eden.",
+      "facet": "The definitive theological rupture with Judaism. Samaritans claim the Jewish sanctuary at Jerusalem is a corrupted shrine established by Eli, a schismatic priest, while Gerizim remains the original, uncompromised geographic center of the covenant.",
+      "provenance": "Samaritan Pentateuch (Tenth Commandment in Exodus 20 and Deuteronomy 5); Book of Joshua (Samaritan version)."
+    },
+    {
+      "id": "samaritanism-taheb",
+      "kind": "hero",
+      "name": "The Taheb (The Restorer)",
+      "archetypes": [
+        "messianic-restorer"
+      ],
+      "gloss": "The eschatological 'Restorer' or 'Returner' expected at the end of days. A human descendant of Joseph or Moses who will reunite the Israelites, recover the hidden tabernacle vessels on Mount Gerizim, and live a mortal life before dying.",
+      "facet": "The Taheb is strictly a restorer of the ancient order, not a divine savior or world-ending cosmic judge. He does not resurrect the dead universally or alter the Law; he simply ends the epoch of divine disfavor and restores proper Gerizim worship.",
+      "provenance": "Samaritan eschatology; Memar Marqah (Book 4); Abu l-Hasan al-Suri."
+    },
+    {
+      "id": "samaritanism-fanuta-rahuta",
+      "kind": "concept",
+      "name": "Fanuta and Rahuta (Ages of Displeasure and Grace)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The bipartite division of historical time. 'Rahuta' was the era of divine favor spanning from the conquest of Canaan to the schism of Eli. 'Fanuta' is the current dark age of divine hiding and displeasure, waiting to be broken by the Taheb.",
+      "facet": "Time is not merely fallen; the loss of grace is tied to a specific geographic and priestly schism. Redemption is not cosmic recreation, but a literal return to the pre-schism operational status of the Gerizim cult.",
+      "provenance": "The Samaritan Chronicles (Tolidah, Asatir)."
+    },
+    {
+      "id": "samaritanism-torah",
+      "kind": "principle",
+      "name": "The Samaritan Pentateuch",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The strict, unaltered Five Books of Moses, preserved in the Paleo-Hebrew script. It is the absolute, exhaustive blueprint of reality, containing all laws, history, and theology required for human life.",
+      "facet": "Radically exclusive. It explicitly commands the building of the altar on Mount Gerizim and entirely rejects the Prophets (Nevi'im), the Writings (Ketuvim), and the Rabbinic Oral Law (Talmud) as later Judahite fabrications.",
+      "provenance": "The Abisha Scroll; extant Samaritan Pentateuch manuscripts."
+    },
+    {
+      "id": "samaritanism-tabernacle-vessels",
+      "kind": "concept",
+      "name": "The Hidden Vessels (Mishkan)",
+      "archetypes": [
+        "hidden-sacra"
+      ],
+      "gloss": "The original holy implements of the wilderness Tabernacle, concealed in a cave on Mount Gerizim by the high priest Uzzi when the era of divine displeasure (Fanuta) began.",
+      "facet": "Unlike Jewish lore which places the hidden Ark under the Temple Mount in Jerusalem, Samaritan theology anchors the cosmos' missing operational core securely inside Mount Gerizim, physically awaiting the Taheb's arrival.",
+      "provenance": "Book of Asatir; Samaritan Chronicle II; Josephus ('Antiquities' 18.4.1)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "samaritanism-gerizim",
+      "b": "samaritanism-tabernacle-vessels",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The sacred mountain and the hidden ritual core buried within it."
+    },
+    {
+      "a": "samaritanism-taheb",
+      "b": "samaritanism-fanuta-rahuta",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The prophesied restorer who arrives specifically to end the age of Fanuta and return the world to Rahuta."
+    },
+    {
+      "a": "samaritanism-moses",
+      "b": "samaritanism-torah",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The sole legitimate prophet and the exhaustive, perfect text he transmitted."
+    },
+    {
+      "a": "samaritanism-shema",
+      "b": "yahweh",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The identical God of Israel, derived from the same ancient root, though Samaritanism preserves a strictly non-emanational theology compared to later Rabbinic Judaism."
+    },
+    {
+      "a": "samaritanism-shema",
+      "b": "allah-meccan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both enforce a radical, indivisible monotheism that strictly rejects any partners, emanations, or divine incarnations."
+    },
+    {
+      "a": "samaritanism-shema",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the ultimate unknowable God, though Samaritanism fiercely rejects the Jewish Kabbalistic idea that God generates subsequent sephirotic emanations."
+    },
+    {
+      "a": "samaritanism-moses",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A singular, foundational prophet who dictates an exhaustive, unalterable system of law to a specific people before permanently departing."
+    },
+    {
+      "a": "samaritanism-moses",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both claim the absolute status of the final, ultimate conduit of divine truth, foreclosing any future legitimate prophets."
+    },
+    {
+      "a": "samaritanism-gerizim",
+      "b": "eden-four-rivers",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Samaritan theology explicitly identifies Mount Gerizim as the unflooded summit of the Garden of Eden from the shared Genesis account."
+    },
+    {
+      "a": "samaritanism-gerizim",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The central cosmic mountain that serves as the unshakeable geographic and spiritual axis of the world."
+    },
+    {
+      "a": "samaritanism-gerizim",
+      "b": "dogon-granary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A specific, physical architectural space that serves as the uncorrupted structural blueprint for cosmic order."
+    },
+    {
+      "a": "samaritanism-taheb",
+      "b": "saoshyant",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A future restorer who arrives to end a dark age, though the Taheb is strictly mortal and restores a specific cult rather than permanently recreating the universe."
+    },
+    {
+      "a": "samaritanism-taheb",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are eschatological figures tied to salvation, though the Taheb is a purely human restorer of the Law, explicitly lacking divine sonship."
+    },
+    {
+      "a": "samaritanism-fanuta-rahuta",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Time divided into epochs of descending grace and eventual restoration, progressing inexorably based on cosmic law rather than divine whim."
+    },
+    {
+      "a": "samaritanism-torah",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An absolute, pre-existing divine blueprint that dictates both the structure of the cosmos and the precise ritual duties of humanity."
+    },
+    {
+      "a": "samaritanism-torah",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A rigidly observed, closed corpus of revealed texts that governs all acceptable interactions with the divine."
+    },
+    {
+      "a": "samaritanism-tabernacle-vessels",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A profoundly potent artifact whose concealment or loss plunges the world into a state of lack, waiting to be recovered."
+    },
+    {
+      "a": "samaritanism-tabernacle-vessels",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve sealing away the seeds of a perfect order inside a hidden subterranean enclosure, to be opened when the age of darkness ends."
+    },
+    {
+      "a": "samaritanism-moses",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel: the primordial, ancient sage who alone possesses the definitive words and instructions for his people."
+    },
+    {
+      "a": "samaritanism-shema",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The utterly singular, incorporeal source of all existence that cannot be divided or approached without strict mediation."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "seal-of-the-prophets",
+      "name": "Seal of the Prophets",
+      "subtype": "hero",
+      "gloss": "A singular, final conduit of divine revelation who delivers a complete and perfect message, after whom no other prophets are legitimate.",
+      "reason": "Necessary to distinguish traditions that cap revelation at one specific historical figure (like Samaritanism's Moses or Islam's Muhammad) from those that allow ongoing prophetic mediation."
+    },
+    {
+      "id": "hidden-sacra",
+      "name": "The Concealed Power",
+      "subtype": "concept",
+      "gloss": "Holy objects or texts of immense cosmological power concealed from the world during an age of impurity, waiting to be recovered to restore proper order.",
+      "reason": "Captures the widespread motif of lost but surviving operational cores of the cosmos (the Mishkan vessels, the Ark of the Covenant, the Holy Grail, the Sampo)."
+    },
+    {
+      "id": "messianic-restorer",
+      "name": "The Human Restorer",
+      "subtype": "hero",
+      "gloss": "A mortal, eschatological figure who arrives not to unmake the world or act as a god, but to restore a lost golden age of law, unity, and proper worship before dying a natural death.",
+      "reason": "Needed for traditions where the end-times savior is strictly human and restorative, contrasting with the world-ending or divine judges of the 'saoshyant' or 'dying-rising' joints."
+    }
+  ]
+}

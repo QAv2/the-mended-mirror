@@ -1,0 +1,260 @@
+{
+  "tradition": {
+    "id": "bambara",
+    "name": "Bamana / Bambara",
+    "region": "Mali",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "bambara-maa-ngala",
+      "kind": "deity",
+      "name": "Maa Ngala / Bemba (The Supreme Creator)",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme, unmanifest creator of the universe. Existing as a void of absolute potential, he initiated creation by speaking twenty-two sacred words, vibrating the cosmos into existence before withdrawing to let lesser spirits shape the earth.",
+      "facet": "He is not a ruler to be prayed to, but an impersonal architect of frequency and vibration. He embodies the cosmic truth that speech and sound are the literal building blocks of matter.",
+      "provenance": "Germaine Dieterlen 'Essai sur la religion Bambara' (1951)."
+    },
+    {
+      "id": "bambara-faro",
+      "kind": "deity",
+      "name": "Faro (The Water Spirit of Equilibrium)",
+      "archetypes": [
+        "mother-of-waters",
+        "divine-twins"
+      ],
+      "gloss": "The androgynous water spirit and restorer of cosmic equilibrium. Following the chaos of his twin, Pemba, Faro reorganized the world, establishing the Niger River, the seasons, and the moral order of human society.",
+      "facet": "Faro represents pure dynamic balance rather than mere fertility. He constantly purifies the universe by absorbing and neutralizing the dangerous, volatile energies released by human transgression and bloodshed.",
+      "provenance": "Germaine Dieterlen 'Essai sur la religion Bambara' (1951)."
+    },
+    {
+      "id": "bambara-pemba",
+      "kind": "deity",
+      "name": "Pemba (The Earth Spirit)",
+      "archetypes": [
+        "cosmic-adversary",
+        "first-ancestor"
+      ],
+      "gloss": "The ambitious earth spirit and twin of Faro. Descending as a spinning balanza tree, he sought to dominate creation, generating the first human beings but introducing discord, theft, and the corruption of the original cosmic plan.",
+      "facet": "Pemba is not a pure devil but a tragic demiurge. He represents the unchecked principle of expansion, earthly rootedness, and the selfish ego that breaks cosmic harmony in pursuit of power.",
+      "provenance": "Germaine Dieterlen 'Essai sur la religion Bambara' (1951); Patrick McNaughton."
+    },
+    {
+      "id": "bambara-chiwara",
+      "kind": "hero",
+      "name": "Chiwara (The Antelope of Agriculture)",
+      "archetypes": [
+        "culture-hero",
+        "master-of-animals"
+      ],
+      "gloss": "A mythical half-human, half-roan antelope who taught the Bamana the sacred art of agriculture. He scratched the soil with his claws to introduce farming, intimately linking human survival to the rhythms of the earth and sun.",
+      "facet": "He physically embodies the punishing, noble communion of labor, sun, and soil. When humanity grew lazy, he buried himself in the earth, leaving only his wooden headdress as a strict reminder of hard work.",
+      "provenance": "Dominique Zahan 'Antilopes du soleil' (1980)."
+    },
+    {
+      "id": "bambara-nyama",
+      "kind": "force",
+      "name": "Nyama (The Vital Energy)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The universal, invisible energy of action, life, and consequence. It animates the cosmos and resides in all things, but becomes dangerously concentrated through spoken words, spilled blood, iron-smelting, and the breaking of oaths.",
+      "facet": "It is strictly amoral. Like electricity, it empowers or pollutes depending entirely on the ritual armor, caste, and esoteric knowledge of the one who attempts to wield it.",
+      "provenance": "Patrick McNaughton 'The Mande Blacksmiths' (1988)."
+    },
+    {
+      "id": "bambara-komo",
+      "kind": "rite",
+      "name": "Komo (The Senior Secret Society)",
+      "archetypes": [
+        "secret-society"
+      ],
+      "gloss": "The most powerful and secretive of the Bamana initiation societies (jow), exclusively governed by blacksmiths. It polices the community and combats sorcery using terrifying masks encrusted with dense sacrificial matter.",
+      "facet": "Komo does not rely on prayer or spirit intercession; it operates through the aggressive, instrumental mastery of nyama. Its mask is not a representation of a god, but a living battery of concentrated power.",
+      "provenance": "Patrick McNaughton 'The Mande Blacksmiths' (1988)."
+    },
+    {
+      "id": "bambara-boli",
+      "kind": "concept",
+      "name": "Boli (The Power Altar)",
+      "archetypes": [
+        "power-object"
+      ],
+      "gloss": "A dense, amorphous or zoomorphic power object built around a secret core, such as bone or bark. It is heavily crusted with sacrificial blood, chewed kola nut, and earth to create a massive reservoir of nyama.",
+      "facet": "The boli intentionally blurs the line between object and organism. It is a man-made god, engineered specifically to trap raw spiritual energy and deploy it for its owner's defensive or aggressive ends.",
+      "provenance": "Sarah Brett-Smith 'The Making of Bamana Sculpture' (1994)."
+    },
+    {
+      "id": "bambara-numu",
+      "kind": "concept",
+      "name": "Numu (The Blacksmith Caste)",
+      "archetypes": [
+        "smith"
+      ],
+      "gloss": "The endogamous blacksmith caste of the Bamana. They are the carvers of masks, operators of the Komo society, and masters of fire, uniquely equipped by bloodline to handle the extreme nyama released by smelting and circumcision.",
+      "facet": "The smith stands outside normal social hierarchy. He wields an occult, transformative power that protects the village precisely because his mastery over fire and iron renders him socially transgressive and deeply feared.",
+      "provenance": "Patrick McNaughton 'The Mande Blacksmiths' (1988)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "bambara-maa-ngala",
+      "b": "bambara-faro",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The silent, distant creator and the active, androgynous organizer who realizes the creator's spoken will on earth."
+    },
+    {
+      "a": "bambara-faro",
+      "b": "bambara-pemba",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The perfect, cooling equilibrium of water directly opposes the arrogant, chaotic ambition of the dry earth."
+    },
+    {
+      "a": "bambara-numu",
+      "b": "bambara-komo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The endogamous blacksmith caste and the terrifying secret society they exclusively operate."
+    },
+    {
+      "a": "bambara-komo",
+      "b": "bambara-boli",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The secret society relies directly on the dense, blood-encrusted altars as their primary engines of spiritual power."
+    },
+    {
+      "a": "bambara-numu",
+      "b": "bambara-nyama",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The specialist caste whose inherited bloodline allows them to survive the dangerous manipulation of universal energy."
+    },
+    {
+      "a": "bambara-maa-ngala",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme, remote creator who shapes the initial universe through signs and vibration before withdrawing."
+    },
+    {
+      "a": "bambara-maa-ngala",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unmanifest, infinite creator who speaks reality into existence through alphabetic or linguistic vibration."
+    },
+    {
+      "a": "bambara-faro",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Deep structural parallel in West African cosmologies regarding the androgynous, water-based twin who restores cosmic order."
+    },
+    {
+      "a": "bambara-faro",
+      "b": "fon-mawu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cooling, balancing, and predominantly feminine/androgynous principle of creation that neutralizes volatile energy."
+    },
+    {
+      "a": "bambara-pemba",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ambitious, disruptive twin who descends prematurely to dominate the earth, permanently introducing chaos."
+    },
+    {
+      "a": "bambara-pemba",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The arrogant demiurge responsible for the flawed material world, acting against the supreme harmony of the cosmos."
+    },
+    {
+      "a": "bambara-chiwara",
+      "b": "dogon-lebe",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The localized earth/animal figure whose intimate connection with the soil and eventual burial yields the secret of agriculture."
+    },
+    {
+      "a": "bambara-chiwara",
+      "b": "osiris",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine civilizer who introduces agriculture to humanity before physically retreating into the earth."
+    },
+    {
+      "a": "bambara-nyama",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The invisible, potent, and strictly amoral energy of the universe that must be safely managed by specialized individuals."
+    },
+    {
+      "a": "bambara-nyama",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dynamic, impersonal cosmic energy that underlies all existence and demands heavy ritual management to prevent disaster."
+    },
+    {
+      "a": "bambara-boli",
+      "b": "minkisi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Man-made power objects intentionally packed with organic, sacrificial, and symbolic matter to house and direct raw spiritual force."
+    },
+    {
+      "a": "bambara-numu",
+      "b": "fon-gu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The master of iron, fire, and occult energy who possesses the unique, highly dangerous capacity to shape human society."
+    },
+    {
+      "a": "bambara-numu",
+      "b": "wayland",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The liminal, supernaturally powerful smith figure whose mastery over metal renders him dangerous and distinct from normal society."
+    },
+    {
+      "a": "bambara-komo",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An esoteric societal structure that transforms individuals and polices the community through profound secrecy, terror, and the revelation of cosmic law."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "vital-force",
+      "name": "Vital Force",
+      "subtype": "force",
+      "gloss": "A raw, invisible, amoral energy animating the universe, distinct from a conscious spirit, which can be harvested, manipulated, or polluted by human actions.",
+      "reason": "Required to classify indigenous concepts of raw, mechanistic spiritual energy (like Nyama, Orenda, or Mana) that are manipulated via ritual mechanics rather than prayed to."
+    },
+    {
+      "id": "secret-society",
+      "name": "Secret Society",
+      "subtype": "rite",
+      "gloss": "An exclusive, initiated esoteric order that wields hidden knowledge to enforce cosmic law, combat witchcraft, and police the community.",
+      "reason": "Highlights the specific institutional mechanism of utilizing masked terror, absolute secrecy, and graded initiation to maintain social and spiritual equilibrium."
+    },
+    {
+      "id": "power-object",
+      "name": "Power Object",
+      "subtype": "concept",
+      "gloss": "A ritually constructed vessel, packed with symbolic and sacrificial matter, engineered specifically to trap and direct raw spiritual power.",
+      "reason": "Allows classification of man-made batteries of force (like Boli or Minkisi) that are not mere representations of gods, but highly engineered, literal engines of occult power."
+    }
+  ]
+}

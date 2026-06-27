@@ -1,0 +1,237 @@
+{
+  "tradition": {
+    "id": "waaqeffanna",
+    "name": "Waaqeffanna (Oromo)",
+    "region": "Ethiopia / N Kenya",
+    "color": "#c75f9a"
+  },
+  "figures": [
+    {
+      "id": "waaqeffanna-waaqa",
+      "kind": "deity",
+      "name": "Waaqa (The Supreme Black Sky)",
+      "archetypes": [
+        "sky-father",
+        "cosmic-order"
+      ],
+      "gloss": "The supreme, monotheistic creator deity of the Oromo, literally translating to 'Sky' or 'God.' Known as Waaqa Gurraacha (the Black Sky), he is the omniscient, omnipotent source of all life, truth, and the moral order of the universe.",
+      "facet": "Unlike many sky-fathers who withdraw into the heavens, Waaqa is intensely present in daily life. His 'blackness' is not evil or void, but represents the sacred, unfathomable infinite and the pure, rain-bearing clouds essential for life.",
+      "provenance": "Lambert Bartels 'Oromo Religion' (1983); Gemetchu Megerssa."
+    },
+    {
+      "id": "waaqeffanna-ayyaana",
+      "kind": "principle",
+      "name": "Ayyaana (Spiritual Emanation)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The divine spirit or essential character that Waaqa bestows upon every created thing, granting it unique existence. It is the medium through which the transcendent God interacts with the physical world, manifesting in natural phenomena, days, and individual destinies.",
+      "facet": "Ayyaana bridges the gap between radical monotheism and animism. It does not constitute a pantheon of independent lesser gods to be worshipped, but acts as the localized, dynamic refractions of the one Waaqa acting in the material world.",
+      "provenance": "Lambert Bartels 'Oromo Religion' (1983); Asmarom Legesse."
+    },
+    {
+      "id": "waaqeffanna-safuu",
+      "kind": "principle",
+      "name": "Safuu (The Moral and Cosmic Order)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The fundamental ethical framework established by Waaqa, dictating the reciprocal rights, duties, and appropriate distances between all entities: God and humanity, elders and youth, humanity and nature. Breaking Safuu ruptures the harmony of creation.",
+      "facet": "Safuu is an ecological and ontological boundary as much as a moral one. It demands strict respect for the distinct Ayyaana of animals, plants, and rivers, forming a profound indigenous philosophy that directly opposes anthropocentric exploitation.",
+      "provenance": "Gemetchu Megerssa 'Oromumma' (1993); Asmarom Legesse 'Oromo Democracy' (2000)."
+    },
+    {
+      "id": "waaqeffanna-gadaa",
+      "kind": "rite",
+      "name": "Gadaa (The Generational System)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The highly complex, democratic generation-set system governing the spiritual, political, and social life of the Oromo. Men are organized into cohorts that rotate through specific roles, culminating in political leadership for exactly eight years.",
+      "facet": "It weaves cosmic time directly into political administration. The cyclical transfer of power is not merely a human constitutional invention but a sacred, inviolable duty ordained by Waaqa to prevent tyranny and maintain Safuu.",
+      "provenance": "Asmarom Legesse 'Gada: Three Approaches to the Study of African Society' (1973)."
+    },
+    {
+      "id": "waaqeffanna-qaalluu",
+      "kind": "hero",
+      "name": "Qaalluu (The High Priest)",
+      "archetypes": [
+        "ritual-intermediary",
+        "first-ancestor"
+      ],
+      "gloss": "The hereditary high priest and spiritual leader of Waaqeffanna, tracing descent from the primordial Qaalluu who fell from heaven. He serves as the primary intermediary between Waaqa and humanity, anointing the Gadaa leaders and overseeing major rituals.",
+      "facet": "The Qaalluu holds absolute spiritual authority but is strictly forbidden from holding political power, shedding blood, or carrying weapons. His compound operates as an inviolable sanctuary of peace, embodying the uncorrupted purity of Waaqa.",
+      "provenance": "Karl Eric Knutsson 'Authority and Change: A Study of the Kallu Institution' (1967)."
+    },
+    {
+      "id": "waaqeffanna-irreecha",
+      "kind": "rite",
+      "name": "Irreecha (The Thanksgiving Festival)",
+      "archetypes": [
+        "seasonal-renewal"
+      ],
+      "gloss": "The grand annual thanksgiving festival celebrated at bodies of water (Malkaa) and mountains (Tulluu) following the rainy season. Millions gather carrying fresh green grass to praise Waaqa for the transition from the dark, rainy winter to the bright harvest.",
+      "facet": "It fundamentally celebrates survival and ecological transition without idol worship. Water and green grass are not deified, but are venerated specifically as the purest, most direct conduits of Waaqa's life-giving Ayyaana.",
+      "provenance": "Tesema Ta'a 'The Political Economy of an African Society in Transformation' (2006)."
+    },
+    {
+      "id": "waaqeffanna-ateetee",
+      "kind": "deity",
+      "name": "Ateetee (The Divine Feminine)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The divine feminine principle of fertility, motherhood, and women's spiritual agency, conceptualized as a specialized Ayyaana. Women invoke her through the Siinqee (a sacred ritual stick) to pray for children, resolve conflicts, and demand justice.",
+      "facet": "Ateetee rituals grant women untouchable, divinely sanctioned authority. When women invoke Ateetee and march collectively with their Siinqee, even the highest male Gadaa officials must immediately halt, listen, and submit to their demands to restore Safuu.",
+      "provenance": "Kuwee Kumsa 'The Siinqee Institution' (1997)."
+    },
+    {
+      "id": "waaqeffanna-odaa",
+      "kind": "place",
+      "name": "Odaa (The Sacred Sycamore)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred sycamore fig tree serving as the traditional center for Gadaa assemblies, judicial councils, and spiritual ceremonies. Its massive, spreading canopy symbolizes the protective, all-encompassing nature of Waaqa's firmament.",
+      "facet": "The tree acts as the literal and political center of gravity for the Oromo. Justice dispensed and laws passed under the shade of the Odaa are considered sacrosanct, grounding divine truth physically in the earthly landscape.",
+      "provenance": "Asmarom Legesse 'Oromo Democracy' (2000)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "waaqeffanna-waaqa",
+      "b": "waaqeffanna-ayyaana",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Waaqa is the absolute, transcendent source; Ayyaana is the mechanism of his immanent presence in all living things."
+    },
+    {
+      "a": "waaqeffanna-waaqa",
+      "b": "waaqeffanna-safuu",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme creator and the inescapable moral law he established to govern the balance of his creation."
+    },
+    {
+      "a": "waaqeffanna-qaalluu",
+      "b": "waaqeffanna-gadaa",
+      "type": "complementarity",
+      "tier": "2",
+      "note": "Intra-tradition: The strict separation of powers—the Qaalluu holds pure spiritual authority, while the Gadaa holds temporal, political power."
+    },
+    {
+      "a": "waaqeffanna-gadaa",
+      "b": "waaqeffanna-odaa",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The sacred sycamore tree is the mandatory physical site where the Gadaa system transitions power and enacts laws."
+    },
+    {
+      "a": "waaqeffanna-ateetee",
+      "b": "waaqeffanna-safuu",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Women invoke Ateetee as the ultimate corrective mechanism when patriarchal actions violently breach Safuu."
+    },
+    {
+      "a": "waaqeffanna-waaqa",
+      "b": "nyame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme, omnipotent sky creator who establishes the moral order and is universally acknowledged as the absolute source of life."
+    },
+    {
+      "a": "waaqeffanna-waaqa",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The monotheistic, vast sky deity whose eternal, unchangeable nature is linked conceptually to the sheer expanse of the heavens above."
+    },
+    {
+      "a": "waaqeffanna-waaqa",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The high god whose singular authority governs the cosmos without the need for physical idols or pantheonic competitors."
+    },
+    {
+      "a": "waaqeffanna-ayyaana",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine, animating principle that flows from the supreme source, differentiating itself into all temporal and natural phenomena."
+    },
+    {
+      "a": "waaqeffanna-ayyaana",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The literal fragment of the supreme creator's essence residing within individual beings, granting life and character."
+    },
+    {
+      "a": "waaqeffanna-safuu",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The fundamental cosmic and moral order that dictates the proper balance, distances, and reciprocal duties of all elements in the universe."
+    },
+    {
+      "a": "waaqeffanna-safuu",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The dynamic, encompassing state of harmony, beauty, and right relationship between humanity, nature, and the divine."
+    },
+    {
+      "a": "waaqeffanna-gadaa",
+      "b": "dogon-sigui",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly complex, mathematically structured generational cycle governing the transfer of spiritual and social responsibilities across time."
+    },
+    {
+      "a": "waaqeffanna-ateetee",
+      "b": "nomkhubulwane",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine feminine principle explicitly invoked by women to ensure agricultural fertility and restore societal harmony."
+    },
+    {
+      "a": "waaqeffanna-odaa",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The massive, sacred central tree acting as the physical and spiritual anchor for cosmic order and community assembly."
+    },
+    {
+      "a": "waaqeffanna-odaa",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The great cosmic tree whose branches represent the protective structure of the universe, serving as the site of ultimate judicial assembly."
+    },
+    {
+      "a": "waaqeffanna-irreecha",
+      "b": "dravidian-pongal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A massive, joyous communal thanksgiving marking the end of difficult weather, celebrating agricultural abundance and the life-giving forces of nature."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ritual-intermediary",
+      "name": "Ritual Intermediary",
+      "subtype": "concept",
+      "gloss": "A specialized spiritual office, heavily restricted by taboos and distinctly separate from political rulership or ecstatic shamanism, tasked exclusively with maintaining the reciprocal flow of blessings between the divine and the community.",
+      "reason": "Allows classification of formal, hereditary priesthoods (like the Qaalluu) whose authority is strictly moral and ritualistic, serving as the static pivot point for a rotating or temporal political system."
+    },
+    {
+      "id": "seasonal-renewal",
+      "name": "Seasonal Renewal",
+      "subtype": "rite",
+      "gloss": "A massive, calendrical communal rite that aligns human society with the ecological transition of the seasons, offering thanks and ensuring continued agricultural or pastoral survival.",
+      "reason": "Captures major indigenous thanksgiving and ecological transition festivals (like Irreecha) that do not fit into the dying-rising god archetype but are essential communal anchors of survival."
+    }
+  ]
+}

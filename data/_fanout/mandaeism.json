@@ -1,0 +1,245 @@
+{
+  "tradition": {
+    "id": "mandaeism",
+    "name": "Mandaeism (Sabians)",
+    "region": "Lower Mesopotamia",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "mandaeism-hayyi-rabbi",
+      "kind": "deity",
+      "name": "Hayyi Rabbi (The Great Life)",
+      "archetypes": [
+        "withdrawn-creator",
+        "dualism"
+      ],
+      "gloss": "The absolute, eternal, and ineffable source of all light and goodness, dwelling in the World of Light. It is completely removed from the creation of the flawed material universe, existing as a boundless, impersonal, and living spiritual force.",
+      "facet": "It is strictly an 'alien' God that did not will the physical universe into being. By entirely divorcing the supreme God from creation, Mandaeism absolves the Great Life of any responsibility for material suffering or cosmic evil.",
+      "provenance": "The Ginza Rabba (The Great Treasure); Mandaean canonical prayers (Qolasta)."
+    },
+    {
+      "id": "mandaeism-manda-d-hayyi",
+      "kind": "deity",
+      "name": "Manda d-Hayyi (Knowledge of Life)",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "The principal savior-spirit (uthra) sent from the World of Light. He descends into the dark, material realm to instruct Adam and humanity, bind the forces of the underworld, and impart the saving gnosis necessary for the soul's ascent.",
+      "facet": "He provides salvation purely through liberating knowledge and ritual practice, not through vicarious suffering or blood atonement. He is a conqueror of dark archons, wielding divine light as a weapon against ignorance.",
+      "provenance": "The Ginza Rabba; Mandaean Book of John (Drasia d-Iahia)."
+    },
+    {
+      "id": "mandaeism-ptahil",
+      "kind": "deity",
+      "name": "Ptahil-Uthra",
+      "archetypes": [
+        "smith"
+      ],
+      "gloss": "The flawed architect of the material universe (Tibil). Through a mixture of divine decree and hubris, Ptahil fashions the earth and the physical human body, but he is completely powerless to animate the flesh with a living soul.",
+      "facet": "He demotes the orthodox Abrahamic 'Creator God' to a bungling, lower-tier artisan. He weaves a fleshly prison for the divine spark, proving that the material world is a botched, inherently corrupted project rather than a 'good' creation.",
+      "provenance": "The Right Ginza; Qolasta."
+    },
+    {
+      "id": "mandaeism-ruha",
+      "kind": "deity",
+      "name": "Ruha d-Qudsha (The Spirit of Darkness)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The queen of the World of Darkness and mother of demons. She rules the planetary spheres and zodiac signs, which she uses as mechanisms of fate to trap human souls in the material realm and prevent their ascension.",
+      "facet": "She is a radical, deliberate inversion of the Abrahamic 'Holy Spirit' (bearing the exact same name in Aramaic). She transforms the orthodox life-giving breath into a malevolent, seductive arch-demon of lust and material entanglement.",
+      "provenance": "The Right Ginza; esoteric scrolls (diwans)."
+    },
+    {
+      "id": "mandaeism-ur",
+      "kind": "creature",
+      "name": "Ur (The Cosmic Leviathan)",
+      "archetypes": [
+        "cosmic-serpent",
+        "cosmic-adversary"
+      ],
+      "gloss": "The terrifying, giant dragon of the World of Darkness. As the son and consort of Ruha, he encircles the material world, threatening to consume the souls of the dead as they attempt their perilous ascent to the World of Light.",
+      "facet": "He represents the crushing, inescapable weight of the material abyss. Rather than a beast to be slain at the end of time, he is a structural component of the universe, forming the very barrier souls must navigate past.",
+      "provenance": "The Right Ginza; Diwan Abatur."
+    },
+    {
+      "id": "mandaeism-yuhana",
+      "kind": "hero",
+      "name": "Yuhana (John the Baptist)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The greatest and final earthly prophet of Mandaeism. He did not found the religion, but restored and perfected its ancient rites, preaching a gospel of ongoing purification through immersion in the flowing waters of the Jordan.",
+      "facet": "He is elevated far above Jesus, whom Mandaeans view as a former disciple of Yuhana who betrayed the mysteries. Yuhana champions continuous, repeated baptism for lifelong spiritual healing, rejecting the idea of a single, unrepeatable initiation.",
+      "provenance": "The Mandaean Book of John (Drasia d-Iahia); Haran Gawaita."
+    },
+    {
+      "id": "mandaeism-masbuta",
+      "kind": "rite",
+      "name": "Masbuta (The Great Baptism)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The central sacrament of full bodily immersion in 'yardena' (flowing, living water). It is performed repeatedly on Sundays and special occasions to wash away sins, heal the body, and re-establish the soul's link to the World of Light.",
+      "facet": "The flowing river is not merely a symbolic cleanser, but a literal, physical extension of the World of Light flowing into the World of Darkness. Entering the water is a direct, somatic step into the divine realm.",
+      "provenance": "Qolasta (canonical prayer book); unbroken oral and ritual tradition."
+    },
+    {
+      "id": "mandaeism-abatur",
+      "kind": "deity",
+      "name": "Abatur Muzania (Abatur of the Scales)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The ancient, massive uthra who sits at the outermost boundary of the World of Light. He guards the final threshold, weighing the ascending souls (the mana) on his great scales to determine their purity and readiness to enter.",
+      "facet": "Unlike traditional judges who reside in the subterranean realm of the dead, Abatur holds his court at the absolute zenith of the cosmos. His scales measure a soul's gnosis and detachment from matter, rather than strictly its moral deeds.",
+      "provenance": "Diwan Abatur (The Scroll of Abatur); Ginza Rabba."
+    }
+  ],
+  "edges": [
+    {
+      "a": "mandaeism-manda-d-hayyi",
+      "b": "mandaeism-ruha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Manda d-Hayyi actively descends into the material and underworld realms to bind and subjugate Ruha and her demonic offspring."
+    },
+    {
+      "a": "mandaeism-ptahil",
+      "b": "mandaeism-hayyi-rabbi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "A necessary cosmological dyad: Ptahil can only build the lifeless physical shell, but only Hayyi Rabbi can breathe the living soul into it."
+    },
+    {
+      "a": "mandaeism-ruha",
+      "b": "mandaeism-ur",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ruha and Ur are the incestuous mother and son who together govern the structural forces of the World of Darkness."
+    },
+    {
+      "a": "mandaeism-hayyi-rabbi",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent an entirely alien, ineffable supreme source completely detached from the flawed material creation."
+    },
+    {
+      "a": "mandaeism-hayyi-rabbi",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The boundless, infinite source of light that emanates lesser divine beings but remains incomprehensible in itself."
+    },
+    {
+      "a": "mandaeism-hayyi-rabbi",
+      "b": "ahura-mazda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A supreme creator of unalloyed light and goodness, standing in absolute metaphysical opposition to the forces of darkness."
+    },
+    {
+      "a": "mandaeism-manda-d-hayyi",
+      "b": "christ",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: Mandaean texts explicitly polemicize against Jesus, depicting him as a false messiah who subverted the true, saving baptismal teachings of Manda d-Hayyi."
+    },
+    {
+      "a": "mandaeism-manda-d-hayyi",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ultimate divine messenger who brings liberating esoteric knowledge (gnosis) down to a spiritually ignorant humanity."
+    },
+    {
+      "a": "mandaeism-ptahil",
+      "b": "yaldabaoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The arrogant, blind, or ignorant demiurgic architect who botches the creation of the material world and traps divine sparks within it."
+    },
+    {
+      "a": "mandaeism-ptahil",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: Historically, Mandaeism consciously demotes the orthodox Abrahamic creator to the status of a bungling, lower-tier demiurge, explicitly reversing Genesis."
+    },
+    {
+      "a": "mandaeism-ruha",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A feminine divine principle whose descent or fall into the lower realms is directly responsible for the snare of material existence."
+    },
+    {
+      "a": "mandaeism-ruha",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme sovereign of the dark, chaotic realm whose sole purpose is to ruin and entrap the creations of Light."
+    },
+    {
+      "a": "mandaeism-ur",
+      "b": "cosmic-serpent",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The massive, world-encircling leviathan that physically borders the cosmos and embodies the chaotic abyss."
+    },
+    {
+      "a": "mandaeism-ur",
+      "b": "illuyanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A primal, draconic representation of chaos that must be subdued by divine champions to allow the proper order to function."
+    },
+    {
+      "a": "mandaeism-yuhana",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Late Antique Near Eastern prophets of Light who codified complex systems of gnosis, purification, and dualism into distinct, surviving traditions."
+    },
+    {
+      "a": "mandaeism-masbuta",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The flowing river acts as the direct physical conduit connecting the lower material plane to the heavenly World of Light."
+    },
+    {
+      "a": "mandaeism-masbuta",
+      "b": "eden-four-rivers",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The concept of sacred, living waters originating from a divine, supernal realm that sustain life and spiritual purity on earth."
+    },
+    {
+      "a": "mandaeism-abatur",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The precise cosmic mechanism of weighing the souls of the dead against a standard of divine truth to determine their eternal destiny."
+    },
+    {
+      "a": "mandaeism-abatur",
+      "b": "anubis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The ancient, specialized divine guardian tasked specifically with operating the scales of judgment at the threshold of the afterlife."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "demiurge",
+      "name": "The Demiurge",
+      "subtype": "deity",
+      "gloss": "A lesser, often ignorant or flawed artisan-deity who fashions the material universe, fundamentally distinguished from the true, supreme God of Light.",
+      "reason": "Crucial for accurately mapping Gnostic and Mandaean cosmologies (like Ptahil and Yaldabaoth) where the creator of the physical world is explicitly demoted to explain the inherent corruption and suffering found in matter."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "tradition": {
+    "id": "cheondoism",
+    "name": "Cheondoism (Donghak) + Korean NRMs",
+    "region": "Korea",
+    "color": "#d05a5a"
+  },
+  "figures": [
+    {
+      "id": "cheondoism-hanullim",
+      "kind": "deity",
+      "name": "Hanullim (Cheonju / Sangje)",
+      "archetypes": [
+        "sky-father",
+        "one-through-many"
+      ],
+      "gloss": "The traditional Korean Lord of Heaven, radically reconceptualized by Donghak and subsequent New Religious Movements. Rather than a transcendent sovereign ruling from above, Hanullim is the ultimate unified life-force of the cosmos, dwelling completely within the human heart.",
+      "facet": "Dismantles the hierarchical, externalized God of Western monotheism. To interact with Hanullim, one does not look up to the sky, but inward into one's own mind, and outward to the reverent treatment of other humans.",
+      "provenance": "Choe Je-u (1880) 'Donggyeong Daejeon'; Son Byeong-hi's early 20th-century sermons."
+    },
+    {
+      "id": "cheondoism-choe-je-u",
+      "kind": "hero",
+      "name": "Su-un (Choe Je-u)",
+      "archetypes": [
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "An impoverished nineteenth-century aristocrat who received a shattering divine mandate from Hanullim in 1860. He was given a spiritual talisman and a cosmic incantation to cure humanity's 'mysterious disease' and found Donghak (Eastern Learning) before being executed for subversion.",
+      "facet": "He embodies the collision of the meticulous Confucian scholar and the ecstatic, trembling Korean mudang. His revelation was explicitly political—a divine shield forged to protect the local spiritual ecology from Western imperialism.",
+      "provenance": "Choe Je-u (1881) 'Yongdam Yusa'; Don Baker (2008) 'Korean Spirituality'."
+    },
+    {
+      "id": "cheondoism-in-nae-cheon",
+      "kind": "principle",
+      "name": "In-nae-cheon (Humanity is Heaven)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The supreme philosophical distillation of Cheondoism, declaring absolute ontological equality: because every person literally bears God within them, humanity and Heaven are one and the same entity.",
+      "facet": "It weaponizes mysticism for radical social equality. If a peasant is literally Heaven, then the neo-Confucian caste system is not just unjust, but an active blasphemy against the cosmic order.",
+      "provenance": "Son Byeong-hi's doctrinal declarations (1905); Carl Young (2014) 'Eastern Learning and the Heavenly Way'."
+    },
+    {
+      "id": "cheondoism-sicheonju",
+      "kind": "concept",
+      "name": "Sicheonju (Bearing the Heavenly Lord)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The active state of 'serving Heaven within oneself,' achieved through the rhythmic chanting of a twenty-one-character incantation. It physically aligns the practitioner's vital energy (gi) with the life-force of the universe.",
+      "facet": "Salvation is not mere belief, but a biological and energetic tuning. By reciting the incantation, the physical body becomes the localized temple where the cosmic Lord wakes up.",
+      "provenance": "Choe Je-u (1880) 'Donggyeong Daejeon'."
+    },
+    {
+      "id": "cheondoism-gaebyeok",
+      "kind": "concept",
+      "name": "Gaebyeok (The Great Opening)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The imminent, radical paradigm shift from the oppressive 'Early Heaven' of hierarchy and conflict to the 'Later Heaven' of mutual beneficence. It is a cosmic springtime, ending the winter of human history.",
+      "facet": "Unlike apocalyptic destruction myths, Gaebyeok is an evolutionary turning point driven by the collective awakening of humanity. The new heaven and earth are built continuously in this physical world.",
+      "provenance": "Prominent in both Donghak writings and Kang Il-sun's Daesoon Jillihoe theology."
+    },
+    {
+      "id": "cheondoism-jeung-san",
+      "kind": "hero",
+      "name": "Jeung San (Kang Il-sun)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "culture-hero"
+      ],
+      "gloss": "The founder of Jeungsanism, who declared himself the Supreme Ruler of the Ninth Heaven incarnated on earth. Between 1901 and 1909, he performed 'Cheonji Gongsa' (Work of Renewing Heaven and Earth) through elaborate shamanic rituals to rewrite the world's destiny.",
+      "facet": "A deity who walks the earth not merely to preach, but to literally 'rewrite the code' of the universe through sympathetic magic, resolving the accumulated grudges of the dead to avert global annihilation.",
+      "provenance": "Jeungsando (1992) 'Jeungsan Dojeon'."
+    },
+    {
+      "id": "cheondoism-haewon-sangsaeng",
+      "kind": "principle",
+      "name": "Haewon Sangsaeng (Resolution of Grievances)",
+      "archetypes": [
+        "cosmic-order",
+        "cosmic-grievance"
+      ],
+      "gloss": "The core tenet of Jeungsanism. The belief that human suffering stems from 'won'—the accumulated grudges and bitterness of historically oppressed humans and spirits. The cosmos cannot evolve until these are pacified.",
+      "facet": "Frames cosmic salvation as a fundamentally historical and psychological healing process. The divine cannot simply decree peace; it must actively unknot the angry ghosts of history before paradise can emerge.",
+      "provenance": "Kang Il-sun's teachings; Daesoon Jillihoe texts."
+    },
+    {
+      "id": "cheondoism-yeongbu",
+      "kind": "concept",
+      "name": "Yeongbu (The Spiritual Talisman)",
+      "archetypes": [
+        "spiritual-medicine"
+      ],
+      "gloss": "A talisman received by Su-un in his initial revelation. Drawn on paper, burned, mixed with water, and consumed, it acts as a divine medicine to cure physical illness and align the human body with cosmic energy.",
+      "facet": "Materializes spiritual salvation as a literal, ingestible medicine. It merges Daoist talismanic healing with the radical egalitarian promise of peasant liberation from disease and political oppression.",
+      "provenance": "Choe Je-u (1881) 'Yongdam Yusa'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "cheondoism-hanullim",
+      "b": "cheondoism-in-nae-cheon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The Supreme Lord directly gives rise to the philosophical realization that all humans are identical to Him."
+    },
+    {
+      "a": "cheondoism-choe-je-u",
+      "b": "cheondoism-yeongbu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The visionary prophet and the literal, physical medicine of salvation he was divinely tasked to distribute."
+    },
+    {
+      "a": "cheondoism-gaebyeok",
+      "b": "cheondoism-haewon-sangsaeng",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The cosmic dawn of the Later Heaven cannot occur until historical grievances are ritually resolved."
+    },
+    {
+      "a": "cheondoism-jeung-san",
+      "b": "cheondoism-haewon-sangsaeng",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The incarnated ruler whose central earthly work was performing the rituals to unknot the world's accumulated bitterness."
+    },
+    {
+      "a": "cheondoism-sicheonju",
+      "b": "cheondoism-hanullim",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The rhythmic incantatory practice that physically localizes the cosmic Lord inside the human practitioner's body."
+    },
+    {
+      "a": "cheondoism-hanullim",
+      "b": "shangdi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Donghak deliberately used the traditional East Asian name for the Supreme Ruler (Sangje) to localize its distinctly immanent theology."
+    },
+    {
+      "a": "cheondoism-hanullim",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Cheondoism formed explicitly in opposition to Western Catholicism, rejecting a distant, judging Creator in favor of an intimately internal divine."
+    },
+    {
+      "a": "cheondoism-hanullim",
+      "b": "teotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme cosmic force that is not a localized deity but the pervasive, immanent energy moving through all things."
+    },
+    {
+      "a": "cheondoism-in-nae-cheon",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conviction that the core of the human being is entirely and radically composed of the highest divine substance."
+    },
+    {
+      "a": "cheondoism-in-nae-cheon",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Instead of dissolving the self into emptiness, Cheondoism elevates the human self to the absolute ontological status of Heaven."
+    },
+    {
+      "a": "cheondoism-in-nae-cheon",
+      "b": "hongik-ingan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The modern Cheondoist codification of the ancient Korean mythic ideal: living in a way that broadly benefits all of humanity."
+    },
+    {
+      "a": "cheondoism-gaebyeok",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The definitive, final transformation of the cosmos from an era of conflict and suffering into a perfected epoch of harmony."
+    },
+    {
+      "a": "cheondoism-gaebyeok",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A mechanistic, inevitable turning of the cosmic epochs that reshapes the fundamental nature of the physical and moral universe."
+    },
+    {
+      "a": "cheondoism-haewon-sangsaeng",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A theological system where the unresolved grievances of the ancestors actively block the prosperity and spiritual progress of the living."
+    },
+    {
+      "a": "cheondoism-haewon-sangsaeng",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Recognizes that cosmic and communal health requires actively pacifying the spirits of the dead who suffered injustice."
+    },
+    {
+      "a": "cheondoism-choe-je-u",
+      "b": "mudang",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The aristocratic founder experienced his revelation through the trembling, ecstatic trance traditionally associated with female Korean shamans."
+    },
+    {
+      "a": "cheondoism-jeung-san",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme deity incarnated in a specific historical moment as a human to perform a cosmic intervention that permanently alters reality."
+    },
+    {
+      "a": "cheondoism-jeung-san",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Beings who physically walk the earth performing precise, structural work to reorganize and repair a flawed cosmic order."
+    },
+    {
+      "a": "cheondoism-sicheonju",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Using rhythmic, communal somatic practice to awaken a dormant, boiling spiritual energy directly inside the body."
+    },
+    {
+      "a": "cheondoism-yeongbu",
+      "b": "sampo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A tangible, created artifact that serves as an engine of healing, abundance, and cosmic realignment for the people."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "spiritual-medicine",
+      "name": "Spiritual Medicine",
+      "subtype": "concept",
+      "gloss": "A physical substance, talisman, or ingested item that transmits divine order directly into the biological body, curing disease and imparting spiritual alignment simultaneously.",
+      "reason": "Needed for the Yeongbu, bridging it with things like the Taoist elixir or Vedic Soma, where salvation is biologically ingested rather than merely believed."
+    },
+    {
+      "id": "cosmic-grievance",
+      "name": "Cosmic Grievance",
+      "subtype": "concept",
+      "gloss": "The belief that historical injustices, anger, and the suffering of the dead accumulate as a literal metaphysical blockage that actively prevents the universe from progressing to its next cycle.",
+      "reason": "Required for Haewon Sangsaeng, capturing how human trauma becomes a structural barrier to cosmic renewal that must be ritually dissolved."
+    }
+  ]
+}

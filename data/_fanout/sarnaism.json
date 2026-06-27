@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "sarnaism",
+    "name": "Sarnaism",
+    "region": "Chota Nagpur, India",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "sarnaism-singbonga",
+      "kind": "deity",
+      "name": "Singbonga (Dharmesh)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator",
+        "solar"
+      ],
+      "gloss": "The supreme creator and sun deity of the Munda, Santhal, and Oraon tribes. He governs the universe from the highest realm but rarely interferes in daily affairs unless cosmic order is threatened. He is propitiated only with pure white offerings.",
+      "facet": "Unlike standard solar deities, Singbonga is radically aniconic; he has no physical shrine or image. He operates as a distant, invisible guarantor of tribal morality whose worship strictly requires white animals.",
+      "provenance": "S.C. Roy (1912) 'The Mundas and Their Country'; K.S. Singh (1993)."
+    },
+    {
+      "id": "sarnaism-sarna-burhi",
+      "kind": "deity",
+      "name": "Sarna Burhi (Jaher Era)",
+      "archetypes": [
+        "great-mother",
+        "local-tutelary"
+      ],
+      "gloss": "The 'Old Woman of the Grove' or 'Jaher Era', she is the primary tutelary goddess of the Adivasi village. Residing within the ancient, un-cut Sal trees of the sacred grove, she actively protects the community from diseases and ensures agricultural fertility.",
+      "facet": "She anchors Adivasi identity to a localized ecosystem. Her power is not abstractly cosmic; it is literally rooted in the physical, biological survival of the village's original patch of primeval forest.",
+      "provenance": "P.C. Hembram (1988) 'Sari-Sarna Santhal Religion'."
+    },
+    {
+      "id": "sarnaism-marang-buru",
+      "kind": "deity",
+      "name": "Marang Buru",
+      "archetypes": [
+        "culture-hero",
+        "mountain-sovereign"
+      ],
+      "gloss": "The 'Great Mountain', an immensely powerful deity deeply involved in daily human affairs. Invoked for rain, successful harvests, and tribal protection, he is the active, territorial force in the pantheon, invariably associated with the highest local geological peak.",
+      "facet": "He is both a majestic territorial god and the intimate cultural teacher who introduced brewing rice beer ('handia') and sexual intimacy to the first humans, bridging the sacred and the earthly joys.",
+      "provenance": "J. Troisi (1978) 'Tribal Religion: Religious Beliefs and Practices among the Santals'."
+    },
+    {
+      "id": "sarnaism-bonga",
+      "kind": "force",
+      "name": "Bonga",
+      "archetypes": [
+        "one-through-many",
+        "animistic-force"
+      ],
+      "gloss": "The pervasive, impersonal spiritual energy and the innumerable specific spirits inhabiting rivers, forests, rocks, and households. Bongas can be benevolent or highly dangerous, demanding continuous propitiation and blood sacrifice from the community to maintain ecological and social equilibrium.",
+      "facet": "'Bonga' blurs the line between distinct animistic personalities and a raw, electric-like force field of the landscape. They are not worshipped out of adoration, but negotiated with to maintain boundaries.",
+      "provenance": "A. Campbell (1915) 'Superstitions of the Santals'; W.G. Archer (1974)."
+    },
+    {
+      "id": "sarnaism-sarna-sthal",
+      "kind": "place",
+      "name": "Sarna Sthal (Jaher Than)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The sacred grove itself, consisting of a preserved patch of primeval Sal forest where the village was first founded. It serves as the open-air temple and the indisputable spiritual epicenter of the community, where absolutely no trees may be felled.",
+      "facet": "It represents a deeply conservationist theology where the temple is not constructed by human hands but intentionally left untouched. The living, breathing trees are the literal architecture of the divine.",
+      "provenance": "Karma Oraon (1989) 'The Spectrum of Tribal Religion in Bihar'."
+    },
+    {
+      "id": "sarnaism-hapramko",
+      "kind": "ancestor",
+      "name": "Hapramko",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The revered ancestral spirits who dwell in the 'ading', the inner sacred tabernacle of the tribal household. They act as the vigilant guardians of the lineage, participating in family meals and rigorously enforcing customary laws and taboos from beyond the grave.",
+      "facet": "Ancestors are never truly gone; they are literal co-residents of the physical house. A strict spatial boundary separates these tamed, domestic spirits from the unpredictable, 'wild' bongas of the forest.",
+      "provenance": "J. Troisi (1978) 'Tribal Religion'."
+    },
+    {
+      "id": "sarnaism-sarhul",
+      "kind": "rite",
+      "name": "Sarhul",
+      "archetypes": [
+        "cyclic-ages",
+        "complementarity"
+      ],
+      "gloss": "The paramount spring festival celebrating the blossoming of the Sal trees. It ritually enacts the cosmic marriage between the Sun God and the Earth Mother, physically and spiritually renewing the earth's fertility before any agricultural sowing can begin.",
+      "facet": "It physically intertwines human agriculture with forest ecology. The village cannot sow seeds until the wild Sal tree blooms, tying the tribal agricultural calendar entirely to the biological clock of the forest.",
+      "provenance": "K.S. Singh (1993) 'Tribal Ethnography, Customary Law and Change'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "sarnaism-singbonga",
+      "b": "sarnaism-marang-buru",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The supreme, withdrawn sky creator and the highly active, terrestrial mountain deity who manages daily affairs."
+    },
+    {
+      "a": "sarnaism-sarna-sthal",
+      "b": "sarnaism-sarna-burhi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The physical primeval grove and the localized mother goddess who inhabits its trees."
+    },
+    {
+      "a": "sarnaism-bonga",
+      "b": "sarnaism-hapramko",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The dangerous, untamed spirits of the outside wilderness contrasted against the protective, tamed ancestral spirits of the interior hearth."
+    },
+    {
+      "a": "sarnaism-singbonga",
+      "b": "dyeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A supreme, radiant sky father who observes the world from on high but rarely intervenes directly in the mundane affairs of humans."
+    },
+    {
+      "a": "sarnaism-singbonga",
+      "b": "nzambi-a-mpungu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate creator deity who established the cosmos and then withdrew, leaving the active governance of nature to localized spirits."
+    },
+    {
+      "a": "sarnaism-sarna-burhi",
+      "b": "dravidian-amman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful, localized tutelary goddess who fiercely protects village boundaries and is intrinsically linked to disease and agricultural fertility."
+    },
+    {
+      "a": "sarnaism-sarna-burhi",
+      "b": "asase-yaa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An earth-bound female divinity deeply tied to strict agricultural taboos and the sanctity of the un-tilled soil."
+    },
+    {
+      "a": "sarnaism-marang-buru",
+      "b": "tlaloc",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A commanding mountain deity who directly controls the rains, storms, and the agricultural lifelines of the people."
+    },
+    {
+      "a": "sarnaism-marang-buru",
+      "b": "four-sacred-mountains",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The literal geological features of the landscape venerated as the anchoring spiritual and territorial guardians of the indigenous nation."
+    },
+    {
+      "a": "sarnaism-bonga",
+      "b": "bisimbi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Innumerable localized territorial spirits that inhabit specific rocks, pools, and forests, demanding constant propitiation from those who use the land."
+    },
+    {
+      "a": "sarnaism-bonga",
+      "b": "dravidian-anangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A raw, dangerous spiritual energy inherent in the physical landscape that must be carefully managed through boundary rituals."
+    },
+    {
+      "a": "sarnaism-sarna-sthal",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Specific living trees treated as the untouchable, sacred center of the world that connect the earthly and divine planes."
+    },
+    {
+      "a": "sarnaism-sarna-sthal",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The cosmos understood as being structurally supported and physically manifested through a massive, sacred living tree."
+    },
+    {
+      "a": "sarnaism-hapramko",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Venerated family ancestors who act as the ultimate moral arbiters and unseen co-residents within the earthly community."
+    },
+    {
+      "a": "sarnaism-hapramko",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The active dead who constantly oversee the living, ensuring that strict customary laws and tribal traditions are upheld."
+    },
+    {
+      "a": "sarnaism-hapramko",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ancestral spirits that remain fiercely protective of their descendants but demand frequent feeding and ritual acknowledgment to prevent misfortune."
+    },
+    {
+      "a": "sarnaism-sarhul",
+      "b": "purulli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A massive seasonal festival designed to forcefully renew the fertility of the earth after the stagnation of the barren months."
+    },
+    {
+      "a": "sarnaism-sarhul",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The necessary cosmic union of a male spiritual principle (the sun) and a female material principle (the earth) to generate life."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "local-tutelary",
+      "name": "The Local Tutelary",
+      "subtype": "deity",
+      "gloss": "A guardian deity whose jurisdiction and very existence are strictly bound to a specific village, grove, or settlement boundary.",
+      "reason": "Distinct from generic earth mothers, these deities anchor the micro-geography and immediate physical survival of indigenous communities."
+    },
+    {
+      "id": "mountain-sovereign",
+      "name": "The Mountain Sovereign",
+      "subtype": "deity",
+      "gloss": "A powerful localized deity physically identified with the highest peak in a region, functioning as the active guardian of territory and weather.",
+      "reason": "Captures the widespread indigenous phenomenon where the primary active deity is literally the landscape's dominant geological feature."
+    },
+    {
+      "id": "animistic-force",
+      "name": "Animistic Force",
+      "subtype": "force",
+      "gloss": "An impersonal spiritual energy that saturates the natural world, capable of condensing into specific entities but essentially functioning as a ubiquitous field of power.",
+      "reason": "Necessary for traditions where spirit is both a distinct personality (a spirit) and a raw, electric-like energy requiring ecological balance."
+    }
+  ]
+}

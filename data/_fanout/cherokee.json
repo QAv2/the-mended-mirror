@@ -1,0 +1,210 @@
+{
+  "tradition": {
+    "id": "cherokee",
+    "name": "Cherokee",
+    "region": "S Appalachia",
+    "color": "#5a8fc7"
+  },
+  "figures": [
+    {
+      "id": "cherokee-unetlanvhi",
+      "kind": "deity",
+      "name": "Unetlanvhi (The Great Spirit / Creator)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The invisible, all-encompassing spirit that organized the cosmos. Utterly formless, Unetlanvhi oversees the delicate balance of the Upper, Middle, and Lower Worlds without directly interfering in daily mortal affairs, demanding respect and gratitude rather than appeasement.",
+      "facet": "Unlike anthropomorphic sky-fathers, Unetlanvhi is an active but diffuse organizing principle. It is never depicted in art or given human flaws, existing instead as an unblemished, omnipresent web of spiritual physics.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900); Raymond D. Fogelson, 'The Cherokee Religion' (1977)."
+    },
+    {
+      "id": "cherokee-uktena",
+      "kind": "creature",
+      "name": "Uktena (The Great Horned Serpent)",
+      "archetypes": [
+        "cosmic-adversary",
+        "cosmic-serpent"
+      ],
+      "gloss": "A massive, malevolent serpent of the Lower World boasting stag-like horns and a blinding, divinatory crystal called the Ulun'suti embedded in its forehead. It poisons the water it inhabits and can kill merely through the stench of its breath.",
+      "facet": "It is not a primordial world-encircling snake but an anomalous terror born of human anger—specifically, the rage meant to kill the sun. It embodies the chaotic, destructive polarity that threatens the Middle World's equilibrium.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    },
+    {
+      "id": "cherokee-selu",
+      "kind": "first-ancestor",
+      "name": "Selu (Corn Mother)",
+      "archetypes": [
+        "great-mother",
+        "primordial-sacrifice"
+      ],
+      "gloss": "The First Woman, who secretly produced corn and beans by rubbing her stomach and armpits. When her twin sons discovered her secret, they believed she was a witch and killed her, but her spilled blood and dying instructions brought forth the first harvest.",
+      "facet": "Her death is not a cosmic mistake but a necessary, instructive sacrifice. She establishes the agricultural cycle and maternal lineage through her own premeditated murder, directly tying earthly fertility to violence and strict ritual adherence.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    },
+    {
+      "id": "cherokee-kanati",
+      "kind": "first-ancestor",
+      "name": "Kanati (The Lucky Hunter)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The First Man and husband to Selu, who kept all the world's game animals locked in a subterranean cave. When his unruly sons accidentally released the beasts, the animals scattered across the earth, forcing humans to hunt for survival forever after.",
+      "facet": "He does not create the animals; he hoards them. His sons' transgression breaks his monopoly, transforming humans from passive recipients of infinite food into active, laboring participants in a dangerous predator-prey ecology.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    },
+    {
+      "id": "cherokee-dayunisi",
+      "kind": "creature",
+      "name": "Dayuni'si (The Water Beetle)",
+      "archetypes": [
+        "earth-diver"
+      ],
+      "gloss": "The tiny, humble water beetle who darted across the surface of the primordial ocean. When curious about what lay beneath the water, it dove to the bottom and brought up a single piece of soft mud, which expanded to form the earth.",
+      "facet": "The earth is not forged by a triumphant creator god but by a minor, unassuming insect operating on mere curiosity. The grandest cosmological structure is built from the smallest, most pragmatic action.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    },
+    {
+      "id": "cherokee-nunnehi",
+      "kind": "creature",
+      "name": "Nunnehi (The Immortals)",
+      "archetypes": [
+        "parallel-race"
+      ],
+      "gloss": "A race of invisible spirit people who live in townhouses inside mountains and beneath rivers. They are fierce protectors of the Cherokee, often appearing as human warriors to turn the tide of doomed battles or to guide lost wanderers back home.",
+      "facet": "They are not ethereal angels or distant ancestors, but a parallel, localized society sharing the exact geography of the Middle World. They throw feasts, dance, and fight, differing from humans only in their immateriality.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900); Frans Olbrechts, 'Swimmer Manuscript' (1932)."
+    },
+    {
+      "id": "cherokee-anihyuntikwalaski",
+      "kind": "force",
+      "name": "Ani-Hyuntikwalaski (The Thunderers)",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "Powerful storm spirits residing in the Upper World above the solid sky vault. They wield lightning and rain, command the respect of the monstrous creatures below, and are invoked by healers to wash away spiritual and physical ailments.",
+      "facet": "They are simultaneously terrifying elemental forces and intimate 'grandfathers' to the Cherokee. Their lightning operates as both a destructive weapon against chthonic monsters and a deeply purifying medicine for human disease.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    },
+    {
+      "id": "cherokee-jistu",
+      "kind": "hero",
+      "name": "Jistu (The Rabbit)",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The cunning, boastful trickster of the animal council. He constantly orchestrates schemes to steal food, fire, or glory from stronger animals, but frequently overreaches and suffers humiliating, physically altering consequences.",
+      "facet": "Unlike divine tricksters who steal fire solely for humanity's salvation, Jistu's motives are entirely self-serving and petty. His failures serve as etiological myths, explaining the physical traits of animals through a lens of social embarrassment.",
+      "provenance": "James Mooney, 'Myths of the Cherokee' (1900)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "cherokee-selu",
+      "b": "cherokee-kanati",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The First Woman and First Man form a bound dyad representing the complementary halves of Cherokee survival—agriculture and hunting."
+    },
+    {
+      "a": "cherokee-uktena",
+      "b": "cherokee-anihyuntikwalaski",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The monstrous Lower World serpent and the Upper World Thunderers are locked in perpetual, balancing cosmic warfare."
+    },
+    {
+      "a": "cherokee-unetlanvhi",
+      "b": "wakan-tanka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are incomprehensible, omnipresent Great Spirits that organize the cosmos without being anthropomorphized into human-like creator deities."
+    },
+    {
+      "a": "cherokee-uktena",
+      "b": "unktehi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent massive, malevolent horned water serpents that embody chaotic forces requiring subjugation by thunder beings."
+    },
+    {
+      "a": "cherokee-uktena",
+      "b": "zulu-inkanyamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are formidable, highly destructive serpent-like monsters associated with violent storms and dangerous deep waters."
+    },
+    {
+      "a": "cherokee-selu",
+      "b": "three-sisters",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Direct Iroquoian cultural and linguistic descent linking the foundational maternal figures whose bodies produce the foundational crops of corn and beans."
+    },
+    {
+      "a": "cherokee-kanati",
+      "b": "tekkeitsertok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as localized masters and literal hoarders of game animals who must be appeased or outwitted to release sustenance to human hunters."
+    },
+    {
+      "a": "cherokee-dayunisi",
+      "b": "earth-diver-animals",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A shared Iroquoian creation mechanism where an unassuming animal dives into a primordial sea to retrieve the speck of mud that becomes the earth."
+    },
+    {
+      "a": "cherokee-anihyuntikwalaski",
+      "b": "wakinyan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are powerful Thunderbird-like entities residing in the Upper World who constantly battle the monstrous horned water-serpents below."
+    },
+    {
+      "a": "cherokee-anihyuntikwalaski",
+      "b": "illapa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are thunder and storm spirits invoked not just for bringing rain, but specifically to wash away sickness and spiritually purify the community."
+    },
+    {
+      "a": "cherokee-jistu",
+      "b": "inktomi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are animal tricksters whose selfish schemes and bodily failures serve as etiological explanations for the traits of other animals and the flaws of the world."
+    },
+    {
+      "a": "cherokee-jistu",
+      "b": "anansi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are physically weak animal tricksters who rely on deceit and cleverness to humiliate larger, stronger adversaries, often overreaching in the process."
+    },
+    {
+      "a": "cherokee-nunnehi",
+      "b": "basque-basajaun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent secretive, parallel human-like races living in the wilderness who occasionally aid, guide, or protect humans who respect their territory."
+    },
+    {
+      "a": "cherokee-nunnehi",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent unseen but profoundly localized spirit societies that seamlessly co-occupy the physical geography alongside the living."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "parallel-race",
+      "name": "Parallel Race",
+      "subtype": "creature",
+      "gloss": "A complete, hidden society of immortal beings who co-occupy the physical world, living inside mountains, forests, or rivers, acting as occasional allies or fierce protectors.",
+      "reason": "Needed to represent entire societies of localized spirits (like the Nunnehi or Huldufolk) that are neither supreme gods nor deceased ancestors, but a geographically overlapping hidden ecology."
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "tradition": {
+    "id": "hermetic-qabalah",
+    "name": "Hermetic Qabalah",
+    "region": "Renaissance Europe",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "hermetic-qabalah-ain-soph-aur",
+      "kind": "principle",
+      "name": "Ain Soph Aur (The Limitless Light)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The ultimate, unmanifest state of the Divine before creation, consisting of Ain (Nothingness), Ain Soph (Limitlessness), and Ain Soph Aur (Limitless Light). It is the negative veil of existence from which the ten Sephiroth of the Tree of Life sequentially emanate.",
+      "facet": "Unlike the Jewish Ein Sof which remains strictly monotheistic and abstract, Hermeticism treats this as a Neoplatonic source-code that can be mathematically mapped, meditated upon, and magically accessed.",
+      "provenance": "Isaac Luria (via Knorr von Rosenroth's 'Kabbala Denudata', 1677); MacGregor Mathers."
+    },
+    {
+      "id": "hermetic-qabalah-tree-of-life",
+      "kind": "concept",
+      "name": "The Tree of Life (Etz Chaim)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The central glyph of Western occultism, comprising ten Sephiroth (divine emanations) and twenty-two connecting paths. It serves as a universal map of macrocosmic creation and the microcosmic human soul, organizing all planetary, elemental, and divine forces into a single geometric diagram.",
+      "facet": "In Hermeticism, it is divorced from strict Jewish theology and transformed into a universal filing system where Egyptian gods, Tarot cards, and alchemical metals are assigned to each node.",
+      "provenance": "Athanasius Kircher, 'Oedipus Aegyptiacus' (1652); Hermetic Order of the Golden Dawn."
+    },
+    {
+      "id": "hermetic-qabalah-adam-kadmon",
+      "kind": "principle",
+      "name": "Adam Kadmon (The Primordial Man)",
+      "archetypes": [
+        "one-through-many",
+        "first-ancestor"
+      ],
+      "gloss": "The primordial, macrocosmic human being whose metaphysical 'body' is composed of the ten Sephiroth. He is the first emanation of the Divine, the perfect blueprint of the universe, and the ultimate spiritual state that the adept seeks to reconstruct.",
+      "facet": "Hermeticists literalize Adam Kadmon as the 'Grand Man' of the cosmos, making him the ultimate target of spiritual alchemy: the magician's goal is to become this perfected, god-like anthropos.",
+      "provenance": "Heinrich Cornelius Agrippa, 'Three Books of Occult Philosophy' (1531)."
+    },
+    {
+      "id": "hermetic-qabalah-pentagrammaton",
+      "kind": "force",
+      "name": "The Pentagrammaton (Yeheshuah)",
+      "archetypes": [
+        "cosmic-order",
+        "complementarity"
+      ],
+      "gloss": "The four-letter name of God (YHVH), representing the four classical elements. Renaissance occultists transformed it by inserting the Hebrew letter Shin (Spirit) to form YHSVH (Yeheshuah), unifying the blind elemental forces under the conscious direction of divine spirit.",
+      "facet": "A specific Renaissance invention designed to map Christian theology onto Jewish mysticism, effectively turning the name of Jesus into the supreme magical formula for elemental mastery and psychic integration.",
+      "provenance": "Johann Reuchlin, 'De Arte Cabalistica' (1517); Athanasius Kircher."
+    },
+    {
+      "id": "hermetic-qabalah-thoth-hermes",
+      "kind": "deity",
+      "name": "Thoth-Hermes",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "The syncretic god of wisdom, magic, and writing, typically assigned to the Sephirah Hod (Glory) and the eighth path of the Tree. He is the revealer of the Qabalistic mysteries, the master of the Tarot, and the archetypal patron of the magus.",
+      "facet": "This figure fully merges the Egyptian scribe of the gods with Hellenistic mysticism and Qabalistic planetary correspondences, serving as the active, initiating intelligence of Western ceremonial magic.",
+      "provenance": "'Corpus Hermeticum' (trans. Marsilio Ficino, 1471); Aleister Crowley, 'The Book of Thoth' (1944)."
+    },
+    {
+      "id": "hermetic-qabalah-tarot",
+      "kind": "rite",
+      "name": "The Tarot (The 32 Paths of Wisdom)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "axis-mundi"
+      ],
+      "gloss": "The twenty-two Major Arcana cards, paired with the twenty-two Hebrew letters to constitute the paths between the Sephiroth. Magicians use these archetypal images for 'pathworking', projecting their consciousness into the cards to ascend the Tree of Life experientially.",
+      "facet": "Hermetic Qabalah explicitly retrofitted the medieval Italian playing-card deck into the supreme mystical key of the universe, turning a parlor game into a profound engine of astral initiation.",
+      "provenance": "Eliphas Levi, 'Dogme et Rituel de la Haute Magie' (1854); Arthur Edward Waite."
+    },
+    {
+      "id": "hermetic-qabalah-binah",
+      "kind": "force",
+      "name": "Binah (The Great Sea)",
+      "archetypes": [
+        "great-mother",
+        "mother-of-waters"
+      ],
+      "gloss": "The third Sephirah, Understanding. She is the Supernal Mother, the dark, restrictive womb of form, associated with the planet Saturn, time, and the great primordial ocean (Marah) from which all structural life and limitation emerge into the lower universe.",
+      "facet": "Hermeticism highly syncretizes this abstract Sephirah with pagan goddesses like Hekate, Isis, and Babalon, blending Jewish mystical architecture with the pagan Divine Feminine and the sorrow of material incarnation.",
+      "provenance": "'Sefer Yetzirah'; Dion Fortune, 'The Mystical Qabalah' (1935)."
+    },
+    {
+      "id": "hermetic-qabalah-qliphoth",
+      "kind": "force",
+      "name": "The Qliphoth (The Shells)",
+      "archetypes": [
+        "cosmic-adversary",
+        "dualism"
+      ],
+      "gloss": "The unbalanced, destructive shells or husks left over from a previous, failed creation. They form an inverted, demonic Tree of Death beneath the Tree of Life, populated by archdemons, chaotic forces, and the fragmented remnants of unbalanced severity.",
+      "facet": "While traditional Kabbalah views them merely as husks of impurity to be avoided, Hermeticism often treats them as an active, dark mirror-universe—the 'Nightside'—that the adept must eventually conquer or integrate.",
+      "provenance": "Isaac Luria; Kenneth Grant, 'Nightside of Eden' (1977)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "hermetic-qabalah-ain-soph-aur",
+      "b": "hermetic-qabalah-tree-of-life",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The unmanifest limitless light and the structured cosmic geometric vessel into which it pours."
+    },
+    {
+      "a": "hermetic-qabalah-tree-of-life",
+      "b": "hermetic-qabalah-qliphoth",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The Tree of Death acts as the shadow-reflection and dark, unbalanced inversion of the Tree of Life."
+    },
+    {
+      "a": "hermetic-qabalah-tarot",
+      "b": "hermetic-qabalah-tree-of-life",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The foundational 19th-century synthesis mapping the 22 Tarot trumps onto the 22 pathways of the Tree."
+    },
+    {
+      "a": "hermetic-qabalah-ain-soph-aur",
+      "b": "ein-sof",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Directly borrowed and adapted from Jewish mysticism, though Hermeticism strips it of its strict monotheistic boundaries."
+    },
+    {
+      "a": "hermetic-qabalah-ain-soph-aur",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, indivisible, and unmanifest source of all existence before the emanation of dualistic reality."
+    },
+    {
+      "a": "hermetic-qabalah-ain-soph-aur",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An impersonal, absolute, and limitless divine reality that transcends all attributes and forms."
+    },
+    {
+      "a": "hermetic-qabalah-tree-of-life",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Cosmic trees that serve as the structural framework of the universe, connecting divine, human, and underworld realms."
+    },
+    {
+      "a": "hermetic-qabalah-tree-of-life",
+      "b": "ceiba-world-tree",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A central axis mundi that maps the flow of divine forces down into the material world."
+    },
+    {
+      "a": "hermetic-qabalah-tree-of-life",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A structured map of divine emanations (Sephiroth or Aeons) that bridge the gap between the infinite and the material."
+    },
+    {
+      "a": "hermetic-qabalah-tree-of-life",
+      "b": "dikenga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A geometric cosmogram charting the flow of spiritual energy, human incarnation, and the soul's initiatory journey."
+    },
+    {
+      "a": "hermetic-qabalah-thoth-hermes",
+      "b": "hermes-trismegistus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The central figure of Hermeticism, explicitly identified with the Qabalistic pathways of magic and intellect."
+    },
+    {
+      "a": "hermetic-qabalah-thoth-hermes",
+      "b": "thoth",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Egyptian god of magic and writing, explicitly invoked by Hermeticists as the archetypal master of the Tarot and Qabalah."
+    },
+    {
+      "a": "hermetic-qabalah-adam-kadmon",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The primordial, macrocosmic anthropomorphic blueprint from whose metaphysical body the universe is constructed."
+    },
+    {
+      "a": "hermetic-qabalah-pentagrammaton",
+      "b": "yahweh",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: A Renaissance Christian Kabbalistic adaptation of the Tetragrammaton, intended to embed Christ into the ultimate Jewish name of God."
+    },
+    {
+      "a": "hermetic-qabalah-qliphoth",
+      "b": "angra-mainyu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The structural embodiment of cosmic imbalance, destruction, and the dark opposition to divine order."
+    },
+    {
+      "a": "hermetic-qabalah-binah",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The divine feminine emanation of wisdom and understanding who gives birth to the structural forms of the lower universe."
+    },
+    {
+      "a": "hermetic-qabalah-binah",
+      "b": "isis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Hermeticists actively syncretized the Qabalistic Sephirah of the Supernal Mother with the Egyptian goddess of magic and motherhood."
+    },
+    {
+      "a": "hermetic-qabalah-tarot",
+      "b": "patolli",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A recreational game format structurally transformed into a profound cosmological and divinatory map of the universe's mechanics."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "divine-emanation",
+      "name": "Divine Emanation",
+      "subtype": "principle",
+      "gloss": "The progressive unfolding or stepping-down of divine light from an infinite, unknowable source into distinct spheres, aeons, or attributes that structure the cosmos.",
+      "reason": "Captures the structural similarity between Kabbalistic Sephiroth, Gnostic Aeons, and Neoplatonic emanations, distinguishing them from a creator god who builds the world from the outside."
+    }
+  ]
+}

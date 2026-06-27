@@ -1,0 +1,258 @@
+{
+  "tradition": {
+    "id": "transcendental-meditation",
+    "name": "Transcendental Meditation (TM)",
+    "region": "India / USA",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "transcendental-meditation-maharishi",
+      "kind": "hero",
+      "name": "Maharishi Mahesh Yogi",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The charismatic physicist-turned-monk who translated ancient Advaita Vedanta into a standardized, secularized mental technique. He envisioned an 'Age of Enlightenment' achieved not through asceticism, but through mass integration of deep rest and dynamic action.",
+      "facet": "Unlike traditional gurus who demanded lifelong devotion and renunciation, Maharishi franchised enlightenment, packaging it as a scientifically measurable, twice-daily hygienic practice available to anyone.",
+      "provenance": "Historical founder (1918-2008), direct disciple of Swami Brahmananda Saraswati."
+    },
+    {
+      "id": "transcendental-meditation-guru-dev",
+      "kind": "ancestor",
+      "name": "Guru Dev (Swami Brahmananda Saraswati)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The Shankaracharya of Jyotir Math and Maharishi's master. He is the venerated spiritual anchor of the TM movement, embodying the pure, unadulterated Vedic tradition from which the technique is said to flow.",
+      "facet": "Guru Dev is positioned not as a personal savior, but as the flawless, impersonal conduit of the 'Holy Tradition', a lineage of masters preserving the mechanical knowledge of transcending.",
+      "provenance": "Historical figure (1871-1953); central to the TM initiation puja."
+    },
+    {
+      "id": "transcendental-meditation-bija-mantra",
+      "kind": "rite",
+      "name": "The Mantra",
+      "archetypes": [
+        "sacred-syllable",
+        "axis-mundi"
+      ],
+      "gloss": "A meaningless Sanskrit sound—a 'bija' or seed syllable—bestowed privately by a trained teacher. Used silently in meditation, its specific vibratory quality acts as a vehicle, drawing the mind naturally inward toward increasingly subtler states of thought.",
+      "facet": "The TM mantra is explicitly stripped of religious meaning or semantic content; its efficacy lies entirely in its sonic value and the effortless, mechanical way it is used to pull the mind to its source.",
+      "provenance": "Drawn from traditional Tantric and Vedic bija mantras, adapted for universal, secular use by Maharishi."
+    },
+    {
+      "id": "transcendental-meditation-pure-consciousness",
+      "kind": "principle",
+      "name": "Pure Consciousness (The Unified Field)",
+      "archetypes": [
+        "the-monad",
+        "one-through-many"
+      ],
+      "gloss": "The ultimate reality and the source of all thought, explicitly mapped by Maharishi onto quantum physics' Unified Field. It is a boundless reservoir of energy, creativity, and intelligence underlying all physical and mental phenomena.",
+      "facet": "This field is not abstract theology but is treated as a localized, physical substrate that can be directly, neurologically experienced and technologically harnessed by the human nervous system.",
+      "provenance": "Advaita Vedanta's concept of Nirguna Brahman, heavily synthesized with 20th-century quantum field theory by Maharishi and physicist John Hagelin."
+    },
+    {
+      "id": "transcendental-meditation-transcending",
+      "kind": "rite",
+      "name": "Transcending",
+      "archetypes": [
+        "effortless-action"
+      ],
+      "gloss": "The core mechanism of TM: the mind's spontaneous settling down to experience pure consciousness. It relies on the mind's natural tendency to seek greater charm and happiness, requiring absolutely no concentration, control, or contemplation.",
+      "facet": "Transcending outright rejects the classical yogic emphasis on effort and mental discipline. It posits that trying to quiet the mind actively prevents it from settling, making effortlessness the sole key.",
+      "provenance": "A radical reinterpretation of Patanjali's 'dhyana', contrasting sharply with standard Buddhist or Hindu concentrative meditations."
+    },
+    {
+      "id": "transcendental-meditation-maharishi-effect",
+      "kind": "principle",
+      "name": "The Maharishi Effect",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The sociological and physical phenomenon where a small fraction of a population practicing TM creates a measurable drop in societal stress, crime, and conflict by radiating coherence into the collective consciousness.",
+      "facet": "Enlightenment here is not merely a private, subjective attainment but a quantifiable, broadcastable field effect; world peace is treated as an engineering problem solvable by a critical mass of synchronized human nervous systems.",
+      "provenance": "Theorized by Maharishi in the 1960s, backed by movement-sponsored statistical studies published in sociological journals."
+    },
+    {
+      "id": "transcendental-meditation-yogic-flying",
+      "kind": "rite",
+      "name": "Yogic Flying",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The hallmark practice of the advanced TM-Sidhi program. Meditators learn to project a specific sutra into pure consciousness, resulting in the body spontaneously hopping or lifting off the ground as the first stage of levitation.",
+      "facet": "The physical hopping is almost secondary; it is the immense surge of inner bliss, brainwave coherence, and the forceful stirring of the Unified Field to generate global peace that is the true aim.",
+      "provenance": "Derived from Maharishi's specific, operationalized reading of the Vibhuti Pada in Patanjali's Yoga Sutras."
+    },
+    {
+      "id": "transcendental-meditation-puja",
+      "kind": "rite",
+      "name": "The Puja",
+      "archetypes": [
+        "primordial-sacrifice"
+      ],
+      "gloss": "A mandatory, 15-minute Sanskrit thanksgiving ceremony performed by the TM teacher prior to imparting the mantra. It offers flowers, fruit, and camphor to the lineage of Vedic masters, particularly Guru Dev and the sage Vyasa.",
+      "facet": "While the movement insists TM is entirely secular and scientific, this gatekeeping rite remains strictly orthodox, ensuring the mechanical purity of the teaching is passed down with reverential precision.",
+      "provenance": "A traditional Hindu Guru Gita-style puja, slightly modified by Maharishi for Western instructional settings."
+    }
+  ],
+  "edges": [
+    {
+      "a": "transcendental-meditation-maharishi",
+      "b": "transcendental-meditation-guru-dev",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The modern founder and the traditional master who form the anchor of the Holy Tradition."
+    },
+    {
+      "a": "transcendental-meditation-bija-mantra",
+      "b": "transcendental-meditation-transcending",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The mantra is the specific sonic vehicle used to achieve the mechanical process of transcending."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "transcendental-meditation-maharishi-effect",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The Maharishi Effect is the macrocosmic radiation of the pure consciousness accessed microcosmically."
+    },
+    {
+      "a": "transcendental-meditation-yogic-flying",
+      "b": "transcendental-meditation-transcending",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition bond: Yogic flying is transcending put into dynamic action, projecting thought from the deepest level of rest."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Maharishi explicitly identified pure consciousness with the Vedantic absolute, Brahman."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both describe an infinite, unmanifest absolute from which all manifest reality emanates."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent the singular, indivisible source of all existence that underlies all multiplicity."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are conceived as the underlying, ineffable current that naturally orders the universe."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "dogon-amma-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both act as the unmanifest cosmic seed containing the potential structure for all material creation."
+    },
+    {
+      "a": "transcendental-meditation-pure-consciousness",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both conceptualize the irreducible, pure consciousness as the fundamental, immortal nature of existence."
+    },
+    {
+      "a": "transcendental-meditation-maharishi",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A loose parallel; both are seen as figures who democratized and distributed divine 'fire' or knowledge to humanity."
+    },
+    {
+      "a": "transcendental-meditation-maharishi",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are seen as compassionate figures working to alleviate global suffering by distributing a path to higher consciousness."
+    },
+    {
+      "a": "transcendental-meditation-transcending",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both emphasize 'wu wei' or non-doing, positing effortless alignment as the supreme method."
+    },
+    {
+      "a": "transcendental-meditation-transcending",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Transcending aims to align the individual nervous system with the supreme cosmic order, allowing nature to act flawlessly through the person."
+    },
+    {
+      "a": "transcendental-meditation-maharishi-effect",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both point to a shared, underlying metaphysical field where individual attainments affect the wholeness of the system."
+    },
+    {
+      "a": "transcendental-meditation-maharishi-effect",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both treat spiritual energy as a localized, transmissible force that can enact tangible change on the physical and social environment."
+    },
+    {
+      "a": "transcendental-meditation-guru-dev",
+      "b": "first-ancestor",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: He serves as the revered origin point and spiritual anchor from which the modern lineage draws its power."
+    },
+    {
+      "a": "transcendental-meditation-yogic-flying",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both use highly specific, physical rhythmic movement to generate immense internal spiritual heat and communal coherence."
+    },
+    {
+      "a": "transcendental-meditation-yogic-flying",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both involve a specific yogic or shamanic technique to breach gravity and physical laws to access and affect the deeper spiritual realms."
+    },
+    {
+      "a": "transcendental-meditation-bija-mantra",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The mantra acts as the central pillar or vehicle that the mind rides down to its unmanifest source."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-syllable",
+      "name": "Sacred Syllable",
+      "subtype": "rite",
+      "gloss": "A primal sound or vibration used not for its semantic meaning, but as a direct vehicular or resonant tool to alter consciousness and connect to the ultimate.",
+      "reason": "Captures the mechanical, non-lexical use of sound currents in meditation, distinct from generic prayer or broad axis-mundi concepts."
+    },
+    {
+      "id": "effortless-action",
+      "name": "Effortless Action",
+      "subtype": "principle",
+      "gloss": "The attainment of profound spiritual states or cosmic alignment not through rigorous exertion or concentration, but through yielding, non-doing, or the natural tendency of the mind.",
+      "reason": "Crucial for traditions like TM and Daoism that explicitly reject 'effort' and 'control' as counterproductive to enlightenment."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "tradition": {
+    "id": "sikh",
+    "name": "Sikhism",
+    "region": "Punjab",
+    "color": "#e08a3c"
+  },
+  "figures": [
+    {
+      "id": "sikh-ik-onkar",
+      "kind": "deity",
+      "name": "Ik Onkar (Waheguru, the Supreme Reality)",
+      "archetypes": [
+        "one-through-many",
+        "sky-father"
+      ],
+      "gloss": "The singular, formless, and genderless creator of the universe. Waheguru is the wondrous enlightener, completely immanent within all creation yet transcending it, devoid of incarnations, and eternal.",
+      "facet": "Waheguru vehemently rejects avatars or anthropomorphism. God does not descend as a human ('avatarvad'); rather, humans must ascend spiritually to merge with the divine, which is already within them.",
+      "provenance": "Japji Sahib (Mool Mantar); Guru Granth Sahib."
+    },
+    {
+      "id": "sikh-guru-nanak",
+      "kind": "hero",
+      "name": "Guru Nanak",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The first Guru and founder of the Sikh path. He rejected caste, asceticism, and empty ritualism, traveling extensively to preach devotion to the One Creator and the absolute equality of all humanity.",
+      "facet": "He is not God incarnate, but a perfected human vessel for the divine light ('Jot'). His revelation was not about founding an exclusive tribe, but dismantling the oppressive orthodoxies of his time.",
+      "provenance": "Janamsakhis; Guru Granth Sahib."
+    },
+    {
+      "id": "sikh-guru-granth-sahib",
+      "kind": "force",
+      "name": "Guru Granth Sahib",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The central religious scripture of Sikhism, regarded by Sikhs as the final, sovereign, and eternal living Guru. It contains the poetic hymns of the Sikh Gurus and various Hindu and Muslim saints.",
+      "facet": "It is treated not merely as a book, but as a living sovereign—given a royal canopy, resting quarters, and a fan ('chaur'). The text itself is the Guru, severing the need for any living human successor.",
+      "provenance": "Compiled by Guru Arjan Dev (Adi Granth, 1604); elevated by Guru Gobind Singh (1708)."
+    },
+    {
+      "id": "sikh-haumai",
+      "kind": "concept",
+      "name": "Haumai (Ego)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The false sense of self or ego-centeredness. It is the core spiritual disease that separates the human soul from the divine, manifesting as lust, wrath, greed, attachment, and pride (the 'Five Thieves').",
+      "facet": "Haumai is not a demonic entity or external devil; it is an internal psychological veil. It is both the primary cause of human suffering and the friction necessary for spiritual evolution.",
+      "provenance": "Guru Granth Sahib (passim, particularly Asa Di Var)."
+    },
+    {
+      "id": "sikh-miri-piri",
+      "kind": "principle",
+      "name": "Miri-Piri",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The doctrine of intertwined temporal ('Miri') and spiritual ('Piri') authority, established by the sixth Guru, Hargobind. It mandates that a Sikh must be both a spiritually devoted saint and a politically engaged soldier.",
+      "facet": "It fundamentally rejects ascetic withdrawal from the world. Spiritual liberation and political liberation are inseparable; defending the oppressed is framed not as a secular necessity, but as a direct act of spiritual devotion.",
+      "provenance": "Akal Takht foundation (1606); early Sikh historical chronicles."
+    },
+    {
+      "id": "sikh-hukam",
+      "kind": "principle",
+      "name": "Hukam (Divine Command)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The divine will or cosmic order that governs the universe. Recognizing, submitting to, and living in harmony with Hukam is the primary path to spiritual liberation and the cessation of the rebirth cycle.",
+      "facet": "Unlike arbitrary divine whim, Hukam is both the natural law governing physics and the moral law governing karma. Liberation is not changing God's mind via petitionary prayer, but aligning one's own will with the inevitable Hukam.",
+      "provenance": "Japji Sahib (Stanza 2)."
+    },
+    {
+      "id": "sikh-langar",
+      "kind": "rite",
+      "name": "Langar (The Free Kitchen)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The community kitchen in a Gurdwara where a free vegetarian meal is served to all visitors, without distinction of religion, caste, gender, economic status, or ethnicity.",
+      "facet": "It was specifically designed as a weapon against the caste system. High-caste and low-caste, king and peasant must sit on the exact same level ('pangat') and eat the same food, destroying ritual purity laws.",
+      "provenance": "Instituted by Guru Nanak; institutionalized by Guru Amar Das."
+    },
+    {
+      "id": "sikh-khalsa",
+      "kind": "hero",
+      "name": "The Khalsa",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The collective body of initiated Sikhs, forged by Guru Gobind Singh. Initiates wear the 'Five Ks', carry a sword, and pledge their lives to defend dharma, reject caste, and uphold justice.",
+      "facet": "It decentralized and transferred sovereignty to the collective laity. The Khalsa is the 'Guru-Panth' (the Guru manifest in the community), abolishing priestly classes and creating an egalitarian, armed citizenry of 'Saint-Soldiers'.",
+      "provenance": "Vaisakhi of 1699; Dasam Granth; Rehat Maryadas."
+    }
+  ],
+  "edges": [
+    {
+      "a": "sikh-ik-onkar",
+      "b": "sikh-haumai",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Ik Onkar represents the absolute unity of all creation, whereas Haumai is the false illusion of separation and individual sovereignty."
+    },
+    {
+      "a": "sikh-guru-granth-sahib",
+      "b": "sikh-khalsa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The twin pillars of Sikh sovereignty after 1708: the eternal text ('Guru Granth') guiding the collective initiated community ('Guru Panth')."
+    },
+    {
+      "a": "sikh-ik-onkar",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Sikh Gurus actively utilized the Vedantic vocabulary of a supreme, unmanifest reality ('Nirguna Brahman'), while radically reorienting it toward active, loving devotion rather than ascetic withdrawal."
+    },
+    {
+      "a": "sikh-ik-onkar",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Gurus frequently used Islamic names for God ('Allah', 'Khuda') interchangeably with Hindu names, asserting the absolute identity of the one formless creator worshipped by both."
+    },
+    {
+      "a": "sikh-ik-onkar",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The infinite, formless, and genderless source of all reality that emanates into the universe without compromising its indivisible unity."
+    },
+    {
+      "a": "sikh-ik-onkar",
+      "b": "dogon-amma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The singular, supreme creator deity who is completely abstract, yet from whose formless will all the manifold universe vibrated into existence."
+    },
+    {
+      "a": "sikh-hukam",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A cosmic order that is simultaneously natural law and moral imperative, which the human soul must align with to achieve balance."
+    },
+    {
+      "a": "sikh-hukam",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The underlying flow of the universe; spiritual liberation is found not in fighting it or forcing it, but in effortless alignment with its current."
+    },
+    {
+      "a": "sikh-haumai",
+      "b": "buddhist-mara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme adversary is not a literal demon, but the internal illusion of a separate self that keeps the soul trapped in the cycle of transmigration."
+    },
+    {
+      "a": "sikh-haumai",
+      "b": "angra-mainyu",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Zoroastrianism posits an external, co-eternal principle of evil, Sikhism rejects dualism entirely; evil is merely the internal sickness of the ego separating itself from the One."
+    },
+    {
+      "a": "sikh-miri-piri",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The inextricable unity and necessary balance of the spiritual/internal and the temporal/political realms."
+    },
+    {
+      "a": "sikh-miri-piri",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The philosophical pairing of the eternal, observing spirit with the active, material world, demanding mastery of both rather than the abandonment of the temporal."
+    },
+    {
+      "a": "sikh-khalsa",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The sacralization of iron and the martial arts; the belief that righteous violence is a divine duty when all peaceful means of preserving justice have failed."
+    },
+    {
+      "a": "sikh-guru-granth-sahib",
+      "b": "kaaba-black-stone",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A singular, physical object at the center of the faith that serves as the ultimate earthly focal point, vehemently distinguished from an idol, yet treated with supreme physical reverence."
+    },
+    {
+      "a": "sikh-langar",
+      "b": "dravidian-pongal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A radical, communal boiling of food that serves as both spiritual offering and social equalizer, erasing hierarchical boundaries in the act of sharing sustenance."
+    },
+    {
+      "a": "sikh-guru-nanak",
+      "b": "mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The traveling prophet who actively crosses heavily guarded religious boundaries to synthesize a new, unifying revelation, rejecting the strictures of the competing orthodoxies."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "sacred-hospitality",
+      "name": "Sacred Hospitality / The Open Table",
+      "subtype": "rite",
+      "gloss": "The radical equalization of humanity through the mandatory sharing of food. It weaponizes communal eating to dissolve caste, class, and tribal boundaries.",
+      "reason": "Crucial for mapping traditions where communal feeding is not merely an act of charity, but a core theological sledgehammer against social hierarchy (e.g., the Sikh Langar, early Christian Agape, Sufi hospices)."
+    }
+  ]
+}

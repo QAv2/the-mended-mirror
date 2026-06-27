@@ -1,0 +1,236 @@
+{
+  "tradition": {
+    "id": "umbanda",
+    "name": "Umbanda",
+    "region": "Brazil (Rio)",
+    "color": "#b8447a"
+  },
+  "figures": [
+    {
+      "id": "umbanda-olorum",
+      "kind": "deity",
+      "name": "Olorum / Zambi (The Supreme Creator)",
+      "archetypes": [
+        "withdrawn-creator",
+        "sky-father"
+      ],
+      "gloss": "The supreme, distant creator god. Known interchangeably as Olorum (Yoruba origins) or Zambi (Bantu origins), he is the ultimate, undivided source of cosmic energy from which all Orixás and spirit lines emanate.",
+      "facet": "Maintained as the absolute monotheistic apex to satisfy both Catholic and Kardecist sensibilities, he is completely inaccessible to direct human petition, delegating all earthly interaction to the Orixás and the working spirits.",
+      "provenance": "Diana Brown 'Umbanda: Religion and Politics in Urban Brazil' (1994)."
+    },
+    {
+      "id": "umbanda-oxala",
+      "kind": "deity",
+      "name": "Oxalá (The Orixá of Peace)",
+      "archetypes": [
+        "solar",
+        "cosmic-order"
+      ],
+      "gloss": "The highest Orixá, embodying pure peace, cosmic balance, and unconditional love. He rules the 'White Line' of Umbanda, commanding the highest, most refined vibratory frequency of creation.",
+      "facet": "Explicitly syncretized with Jesus Christ, Umbanda's Oxalá sheds the traditional Yoruba myths of earthly blunders or drunkenness, becoming a flawless, Kardecist avatar of moral perfection and spiritual evolution.",
+      "provenance": "Roger Bastide 'The African Religions of Brazil' (1978)."
+    },
+    {
+      "id": "umbanda-pretos-velhos",
+      "kind": "ancestor",
+      "name": "Pretos Velhos (The Old Blacks)",
+      "archetypes": [
+        "psychopomp",
+        "marginalized-ancestor"
+      ],
+      "gloss": "The spirits of enslaved elderly Africans who endured the brutalities of the plantations. They manifest in mediums as hunched, pipe-smoking elders offering profound wisdom, herbal remedies, and endless patience.",
+      "facet": "A radical inversion of worldly power. Those crushed at the absolute bottom of Brazil's historical hierarchy are elevated to the tradition's most revered, spiritually evolved masters of charity and psychological healing.",
+      "provenance": "Arthur Ramos 'O Negro Brasileiro' (1934); Diana Brown (1994)."
+    },
+    {
+      "id": "umbanda-caboclos",
+      "kind": "hero",
+      "name": "Caboclos (The Indigenous Spirits)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "master-of-animals"
+      ],
+      "gloss": "Spirits of indigenous Brazilian warriors and hunters who act as fierce spiritual guides. Working primarily under the line of Oxóssi, they utilize herbs, tobacco smoke, and vigorous dances to aggressively cleanse negative energy.",
+      "facet": "They represent the vital, untamed force of the Brazilian land. Unlike traditional ancestor worship, these original owners of the soil return specifically to spiritually heal the descendants of a mixed, colonizing society.",
+      "provenance": "Renato Ortiz 'A Morte Branca do Feiticeiro Negro' (1978)."
+    },
+    {
+      "id": "umbanda-exu",
+      "kind": "force",
+      "name": "Exu de Umbanda (The Astral Police)",
+      "archetypes": [
+        "trickster",
+        "psychopomp"
+      ],
+      "gloss": "Spirits of the streets, rogues, and outcasts operating in the astral shadows. Distinct from the pure Yoruba Orixá, these are human spirits ('eguns') serving as karmic enforcers, boundary keepers, and messengers of the crossroads.",
+      "facet": "Exu absorbs the syncretic stigma of the Christian Devil but redeems it: he does the dirty work of spiritual cleansing in the mud of human vice, acting as a pragmatic protector rather than a principle of pure evil.",
+      "provenance": "Stefania Capone 'Searching for Africa in Brazil' (2010)."
+    },
+    {
+      "id": "umbanda-pomba-gira",
+      "kind": "force",
+      "name": "Pomba Gira (The Street Queen)",
+      "archetypes": [
+        "trickster",
+        "subversive-feminine"
+      ],
+      "gloss": "The female counterpart to Exu, encompassing the spirits of courtesans, witches, and fiercely independent women. She is the mistress of the crossroads, female sexuality, romantic disputes, and subversive power.",
+      "facet": "She actively dismantles patriarchal expectations of the submissive, chaste woman. Her boisterous laughter and unabashed sensuality offer marginalized women a divine mandate for bodily autonomy, agency, and vengeance.",
+      "provenance": "Kelly Hayes 'Holy Harlots: Femininity, Sexuality, and Black Magic in Brazil' (2011)."
+    },
+    {
+      "id": "umbanda-gira",
+      "kind": "rite",
+      "name": "A Gira (The Spinning Circle)",
+      "archetypes": [
+        "axis-mundi",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The central ritual working of an Umbanda terreiro. Mediums dressed in white form a circle, singing specific rhythmic hymns ('pontos') to the beat of drums to summon the descent of the Orixás and spirit guides.",
+      "facet": "It functions as an open, egalitarian spiritual hospital. The absolute core tenet is 'caridade' (charity): profound magical and psychological counseling dispensed entirely for free to anyone seeking help.",
+      "provenance": "David Hess 'Spirits and Scientists' (1991)."
+    },
+    {
+      "id": "umbanda-aruanda",
+      "kind": "place",
+      "name": "Aruanda (The Spiritual Citadel)",
+      "archetypes": [
+        "axis-mundi",
+        "astral-citadel"
+      ],
+      "gloss": "The celestial citadel or spiritual homeland where the elevated spirits—especially the Orixás, Caboclos, and Pretos Velhos—reside. It is the astral realm of light, harmony, and intense spiritual preparation.",
+      "facet": "Aruanda fuses the Afro-Brazilian memory of a lost African homeland (Luanda) with Kardecist concepts of evolved astral colonies, creating a utopian afterlife defined by continuous spiritual labor rather than static rest.",
+      "provenance": "Roger Bastide 'The African Religions of Brazil' (1978)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "umbanda-olorum",
+      "b": "umbanda-oxala",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Olorum is the absolute but distant source; Oxalá is his highest, most direct manifestation in the vibratory lines of Umbanda."
+    },
+    {
+      "a": "umbanda-exu",
+      "b": "umbanda-pomba-gira",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The male and female principles of the 'Left Path' (street spirits), ruling the crossroads and matters of mundane human desire together."
+    },
+    {
+      "a": "umbanda-caboclos",
+      "b": "umbanda-pretos-velhos",
+      "type": "complementarity",
+      "tier": "2",
+      "note": "Intra-tradition: The two pillars of Umbanda charity. The Caboclos offer vigorous, active, martial cleansing; the Pretos Velhos offer passive, patient, deeply psychological endurance."
+    },
+    {
+      "a": "umbanda-gira",
+      "b": "umbanda-aruanda",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: The Gira acts as the temporary terrestrial anchor, pulling the luminous energies of Aruanda down onto the physical plane to heal."
+    },
+    {
+      "a": "umbanda-oxala",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly and formally identified with Jesus Christ in Umbanda, reinterpreting the Yoruba deity as a Kardecist avatar of moral perfection."
+    },
+    {
+      "a": "umbanda-exu",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Derives its name and trickster/messenger function from the Yoruba Eshu, but is heavily recontextualized as a collective of human spirits policing karma."
+    },
+    {
+      "a": "umbanda-olorum",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The ultimate, infinite, and inherently unknowable divine source from which all differentiated spiritual forces emanate."
+    },
+    {
+      "a": "umbanda-oxala",
+      "b": "fon-lisa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme white-clothed deity associated with the sun, creation, peace, and ultimate cosmic order."
+    },
+    {
+      "a": "umbanda-exu",
+      "b": "hermes",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The liminal, occasionally deceitful messenger who rules the crossroads, guides souls, and freely traverses the boundaries of the upper and lower worlds."
+    },
+    {
+      "a": "umbanda-exu",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A shadowed, often feared entity associated with the margins, tasked with guiding human souls through the dangerous spiritual underworld."
+    },
+    {
+      "a": "umbanda-pomba-gira",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fiercely independent queen of both divine desire and underworld power, weaponizing sexuality and refusing patriarchal subordination."
+    },
+    {
+      "a": "umbanda-pomba-gira",
+      "b": "dravidian-mariyamman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A fierce, hot-tempered feminine force intimately tied to the margins of society, disease, and the explosive power of women's vengeance and healing."
+    },
+    {
+      "a": "umbanda-pretos-velhos",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The embodiment of absolute compassion—highly evolved spiritual beings who defer their own ultimate rest to endlessly counsel and heal suffering humanity."
+    },
+    {
+      "a": "umbanda-caboclos",
+      "b": "basque-basajaun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The powerful, untamed master of the deep forest who possesses intimate knowledge of the land, protecting it while sharing ancient survival wisdom."
+    },
+    {
+      "a": "umbanda-gira",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A rhythmic, communal, circular dance utilizing music and physical exhaustion to trigger spirit incorporation for the explicit purpose of healing the community."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "marginalized-ancestor",
+      "name": "Marginalized Ancestor",
+      "subtype": "ancestor",
+      "gloss": "Spirits of those who were violently subjugated in life, whose immense worldly suffering has alchemized into supreme spiritual authority, radical compassion, and profound healing power.",
+      "reason": "Necessary for traditions where the socially lowest or enslaved (like the Pretos Velhos) become the highest moral and spiritual guides, distinct from generic or biologically venerated 'first ancestors'."
+    },
+    {
+      "id": "subversive-feminine",
+      "name": "Subversive Feminine",
+      "subtype": "concept",
+      "gloss": "A fierce female spiritual force that reclaims marginalized sexuality, witchcraft, and street power, acting as a protector of women and a deliberate subverter of patriarchal chastity norms.",
+      "reason": "Captures figures like Pomba Gira or Lilith who weaponize desire and social marginalization as potent, liberating spiritual power."
+    },
+    {
+      "id": "astral-citadel",
+      "name": "Astral Citadel",
+      "subtype": "place",
+      "gloss": "A structured, utopian city in the spirit realm where evolved souls reside, study, and prepare for further charitable intervention in the material world.",
+      "reason": "Distinct from a paradisiacal 'heaven' of static rest; this denotes an active, Kardecist or Theosophical center of ongoing spiritual labor and cosmic administration."
+    }
+  ]
+}

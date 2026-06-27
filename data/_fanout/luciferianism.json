@@ -1,0 +1,213 @@
+{
+  "tradition": {
+    "id": "luciferianism",
+    "name": "Luciferianism",
+    "region": "diffuse Western",
+    "color": "#8a3550"
+  },
+  "figures": [
+    {
+      "id": "luciferianism-lucifer",
+      "kind": "deity",
+      "name": "Lucifer (The Light-Bringer)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The archetypal light-bringer and ultimate promethean liberator. He represents the awakening of human consciousness, reason, and individual will, actively defying tyrannical cosmic authority to grant humanity the gift of self-awareness.",
+      "facet": "He is entirely stripped of the Christian valence of pure evil; instead, he embodies intellect, beauty, and the principled rebellion necessary for evolution away from blind obedience.",
+      "provenance": "19th-century Romanticism (Shelley, Blake); formalized in modern occultism by Michael W. Ford ('Luciferian Witchcraft') and the Church of Lucifer."
+    },
+    {
+      "id": "luciferianism-black-flame",
+      "kind": "concept",
+      "name": "The Black Flame",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The internal, isolated spark of divine consciousness within the individual. It acts as the locus of the magical will and spiritual intellect, distinguishing humanity from the deterministic mechanics of the natural world.",
+      "facet": "Unlike the 'light' of traditional mysticism which seeks merging with the divine, the Black Flame is an isolating fire that hardens the ego into absolute, eternal sovereignty.",
+      "provenance": "Modern Left-Hand Path traditions; elaborated extensively in the works of Michael W. Ford and Thomas Karlsson."
+    },
+    {
+      "id": "luciferianism-apotheosis",
+      "kind": "principle",
+      "name": "Apotheosis",
+      "archetypes": [
+        "emergence"
+      ],
+      "gloss": "The ultimate spiritual goal of the Luciferian path: the realization and continuous expansion of one's own godhood through relentless self-knowledge, worldly mastery, and the explicit rejection of external saviors.",
+      "facet": "Salvation is viewed as entirely self-wrought. There is no original sin to be forgiven, only ignorance to be conquered through rigorous intellectual and magical labor.",
+      "provenance": "A core tenet of philosophical and occult Luciferianism, echoing early Gnostic themes but fiercely ego-centric and materialistic."
+    },
+    {
+      "id": "luciferianism-lilith",
+      "kind": "force",
+      "name": "Lilith",
+      "archetypes": [
+        "great-mother",
+        "cosmic-adversary"
+      ],
+      "gloss": "The primordial dark mother and equal consort to Lucifer in many traditions. She represents untamed nature, absolute bodily autonomy, and the fierce, emancipatory aspects of the divine feminine.",
+      "facet": "Elevated from a mere night-demon into a supreme symbol of liberation, she completely refuses submission to patriarchal creator-gods or rigid cosmic structures.",
+      "provenance": "Rabbinic myth (Alphabet of Sirach) reclaimed and elevated by modern feminist esotericists and formal Luciferian covens."
+    },
+    {
+      "id": "luciferianism-demiurge",
+      "kind": "force",
+      "name": "The Demiurge (The Blind God)",
+      "archetypes": [
+        "withdrawn-creator",
+        "cosmic-order"
+      ],
+      "gloss": "The ignorant, tyrannical architect of the material universe and religious dogma. He demands blind obedience, enforces spiritual stasis, and seeks to keep humanity in a state of eternal infancy.",
+      "facet": "Reversing orthodox theology, the creator of the world is recognized as the true oppressor, while the rebel who breaks his laws is the true savior.",
+      "provenance": "Adapted directly from Sethian and Valentinian Gnosticism into the modern Luciferian philosophical framework."
+    },
+    {
+      "id": "luciferianism-antinomianism",
+      "kind": "principle",
+      "name": "Antinomianism",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The spiritual and psychological practice of deliberately breaking societal and religious taboos. It is utilized to shatter ingrained conditioning, liberating the mind to discover its authentic will.",
+      "facet": "Sin is rendered functionally obsolete; taboo-breaking is not an act of malice, but an initiatory necessity to sever the psyche from the Demiurge's control matrix.",
+      "provenance": "Adapted from Left-Hand Path Tantric practices (Vamachara) into Western occultism by figures like Aleister Crowley, later refined in Luciferian praxis."
+    },
+    {
+      "id": "luciferianism-azazel",
+      "kind": "deity",
+      "name": "Azazel",
+      "archetypes": [
+        "smith",
+        "culture-hero"
+      ],
+      "gloss": "The chief of the fallen Watchers who descended to earth to teach early humanity metallurgy, weaponry, and cosmetics—the foundational arts of civilization and self-determination.",
+      "facet": "The 'corruption' of mankind described in orthodox apocalyptic texts is celebrated here as a heroic transmission of survival technology and aesthetic empowerment.",
+      "provenance": "The Book of Enoch, explicitly integrated into Luciferian cosmology as a critical aspect or ally of the Light-Bringer."
+    }
+  ],
+  "edges": [
+    {
+      "a": "luciferianism-lucifer",
+      "b": "luciferianism-black-flame",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Lucifer is the external mythic initiator who awakens the practitioner's internal Black Flame."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "luciferianism-lilith",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Lucifer and Lilith frequently form the central dyad of Left-Hand Path witchcraft, balancing masculine illumination with feminine primal power."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "luciferianism-demiurge",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: Lucifer is the dynamic, rebellious antidote to the Demiurge's oppressive, static cosmic order."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "luciferianism-apotheosis",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Lucifer's rebellion and sovereignty provide the operational blueprint for the practitioner's own Apotheosis."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "prometheus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both defy supreme cosmic authority to gift humanity with the forbidden fire of intellect, civilization, and self-awareness."
+    },
+    {
+      "a": "luciferianism-demiurge",
+      "b": "yahweh",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Luciferianism explicitly and historically constructs its Demiurge as the direct inversion of the Abrahamic Yahweh, viewing him as an ignorant tyrant rather than a loving father."
+    },
+    {
+      "a": "luciferianism-demiurge",
+      "b": "yaldabaoth",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Modern Luciferianism directly adapted the Gnostic Yaldabaoth to serve the exact same function as the blind, oppressive architect of physical reality."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "christ",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A structural and moral inversion; Christ offers salvation through submission and vicarious atonement, while Lucifer demands self-liberation and absolute intellectual sovereignty."
+    },
+    {
+      "a": "luciferianism-black-flame",
+      "b": "the-divine-spark",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Modern Luciferianism directly adapted the Gnostic concept of the divine spark, reinterpreting it as the 'Black Flame' of isolate intelligence and magical will."
+    },
+    {
+      "a": "luciferianism-black-flame",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A radical philosophical inversion; where Buddhism seeks the realization of no-self (Anatman), Luciferianism demands the hardening and eternalization of the individual ego."
+    },
+    {
+      "a": "luciferianism-lilith",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both represent fierce, autonomous expressions of the divine feminine who traverse the underworld and refuse subjugation."
+    },
+    {
+      "a": "luciferianism-azazel",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are outcast divine figures who provide humanity with the foundational technologies of metallurgy and the forge."
+    },
+    {
+      "a": "luciferianism-apotheosis",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions reject merging with a universal godhead, identifying ultimate spiritual perfection as an eternal, fully isolated state of sovereign consciousness."
+    },
+    {
+      "a": "luciferianism-antinomianism",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both embody the necessary, chaotic breaking of cosmic order and static rules, which serves as the catalyst for individuation and dynamic change."
+    },
+    {
+      "a": "luciferianism-lucifer",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both are symbolically linked to the morning star (Venus) and serve as cultural heroes who brought knowledge to mankind."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "self-deification",
+      "name": "Self-Deification",
+      "subtype": "principle",
+      "gloss": "The deliberate cultivation of the individual consciousness to achieve an independent, eternal, god-like state, definitively refusing union with a higher source.",
+      "reason": "Crucial for mapping Left-Hand Path traditions where the ultimate goal is ego-preservation and sovereignty rather than the dissolution or union found in classical mysticism."
+    },
+    {
+      "id": "antinomian-rebellion",
+      "name": "Antinomian Rebellion",
+      "subtype": "concept",
+      "gloss": "The deliberate violation of cosmic laws, religious dogmas, or societal taboos as a sacred method of achieving spiritual liberation and individualization.",
+      "reason": "Provides a crucial joint for traditions that view structured order as oppressive, requiring a rebellious, taboo-breaking force to catalyze true spiritual evolution."
+    }
+  ]
+}

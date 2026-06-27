@@ -1,0 +1,239 @@
+{
+  "tradition": {
+    "id": "rapanui",
+    "name": "Rapa Nui (Easter Island)",
+    "region": "Easter Island",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "rapanui-makemake",
+      "kind": "deity",
+      "name": "Makemake",
+      "archetypes": [
+        "sky-father",
+        "master-of-animals"
+      ],
+      "gloss": "The supreme creator of the Rapa Nui, born from a floating skull in the ocean. He fashioned humans from earth and his own semen, gradually usurping older Polynesian pantheons to become the sole patron and supreme deity of the fierce Birdman cult.",
+      "facet": "He represents a theological bottleneck. As ecological collapse forced a harsh new religious synthesis, Makemake ascended to absolute supremacy, absorbing the functions of the traditional Polynesian creator gods into a single, intense focus.",
+      "provenance": "Katherine Routledge (1919) 'The Mystery of Easter Island'; Alfred Métraux (1940) 'Ethnology of Easter Island'."
+    },
+    {
+      "id": "rapanui-tangata-manu",
+      "kind": "rite",
+      "name": "Tangata Manu (The Birdman)",
+      "archetypes": [
+        "living-avatar"
+      ],
+      "gloss": "A sacred earthly avatar chosen annually through a perilous, lethal race down the Rano Kau cliff and a swim through shark-infested waters to retrieve the first Manutara egg of the spring.",
+      "facet": "Transforms divine right from hereditary bloodlines to brutal, meritocratic physical competition. The victor did not just rule; he became the terrifying, taboo-shrouded vessel of Makemake, isolated in a ceremonial house for an entire year.",
+      "provenance": "Routledge (1919); Patrick McCoy (1979) 'The Place of Origins'."
+    },
+    {
+      "id": "rapanui-moai",
+      "kind": "ancestor",
+      "name": "Moai",
+      "archetypes": [
+        "first-ancestor",
+        "axis-mundi"
+      ],
+      "gloss": "Colossal megalithic tuff statues representing deified paramount chiefs. Placed upon coastal ahu (ceremonial platforms), they channeled concentrated ancestral 'mana' to ensure agricultural fertility, fresh water, and tribal protection for their descendants.",
+      "facet": "Unlike most world monuments looking outward or upward to gods, the moai stand with their backs to the sea, projecting their gaze intensely inward upon human settlements—psychic batteries sustaining a closed, fragile ecology.",
+      "provenance": "Jo Anne Van Tilburg (1994) 'Easter Island: Archaeology, Ecology and Culture'."
+    },
+    {
+      "id": "rapanui-hotu-matua",
+      "kind": "hero",
+      "name": "Hotu Matu'a",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "The legendary first paramount chief who arrived at Anakena beach in two double-hulled canoes after a cataclysm sank his homeland of Hiva. He brought the original crops, animals, and the foundational social order.",
+      "facet": "Not a mythical being but a venerated historical colonizer whose calculated, desperate arrival establishes the baseline of survival. He embodies the sheer will required to transplant an entire civilization onto a tiny speck of land.",
+      "provenance": "Manuscript of E. Te Rito (Barthel translations); Métraux (1940)."
+    },
+    {
+      "id": "rapanui-aku-aku",
+      "kind": "spirit",
+      "name": "Aku-aku",
+      "archetypes": [
+        "psychopomp",
+        "trickster"
+      ],
+      "gloss": "Ethereal guardian spirits and ghosts of the deceased, famously depicted in wood carvings as emaciated, skeletal figures (moai kavakava). They possess intimate knowledge of the island's hidden resources and fiercely enforce social taboos.",
+      "facet": "Rather than dwelling in a distant underworld, they hyper-localize. Every cave, quarry, and family plot has its specific guardian, reflecting an island where space was intensely scarce and property boundaries were fiercely defended.",
+      "provenance": "Thor Heyerdahl (1958) 'Aku-Aku'; Métraux (1940)."
+    },
+    {
+      "id": "rapanui-haua",
+      "kind": "deity",
+      "name": "Haua",
+      "archetypes": [
+        "divine-twins"
+      ],
+      "gloss": "A major deity of the Orongo ceremonial center, the constant companion and divine twin to Makemake. Fishermen and egg-hunters traditionally offered their sacrifices to 'Makemake and Haua' as an inseparable divine pair.",
+      "facet": "He functions as the essential dualistic anchor. While Makemake is the supreme creator, he requires Haua's active participation to receive ritual offerings, preventing the Rapa Nui theology from collapsing into absolute monotheism.",
+      "provenance": "Routledge (1919) 'The Mystery of Easter Island'."
+    },
+    {
+      "id": "rapanui-manutara",
+      "kind": "creature",
+      "name": "Manutara",
+      "archetypes": [
+        "world-egg"
+      ],
+      "gloss": "The sacred sooty tern, a migratory seabird whose spring arrival signaled the return of life and triggered the intense Birdman competition. Securing its first uncracked egg was the ultimate prize of Orongo.",
+      "facet": "Embodies a theology of extreme scarcity. Salvation, cosmic renewal, and political stability are not guaranteed by celestial cycles, but hinge entirely on the precarious biological arrival of a single migrant bird.",
+      "provenance": "Routledge (1919); Van Tilburg (1994)."
+    },
+    {
+      "id": "rapanui-rongorongo",
+      "kind": "concept",
+      "name": "Rongorongo",
+      "archetypes": [
+        "sacred-script"
+      ],
+      "gloss": "The 'speaking wood', an undeciphered system of glyphs carved into toromiro wood using shark teeth. Known only to the ruling elite, it was used by priests to chant genealogies, creation myths, and lunar calendars.",
+      "facet": "An incredibly rare independent invention of script born in total isolation. It sought to trap the volatile, oral mana of Polynesian chant into permanent, physical objects to withstand the chaotic breakdown of island society.",
+      "provenance": "Steven Roger Fischer (1997) 'Rongorongo: The Easter Island Script'."
+    }
+  ],
+  "edges": [
+    {
+      "a": "rapanui-makemake",
+      "b": "rapanui-haua",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The inseparable divine dyad receiving offerings at Orongo; the supreme creator requires a twin to interact with the ritual economy."
+    },
+    {
+      "a": "rapanui-makemake",
+      "b": "rapanui-tangata-manu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The distant creator and his violent, immediate, flesh-and-blood avatar on the island."
+    },
+    {
+      "a": "rapanui-tangata-manu",
+      "b": "rapanui-manutara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The sacred king whose entire divinity and authority derives from successfully capturing the bird's egg."
+    },
+    {
+      "a": "rapanui-moai",
+      "b": "rapanui-aku-aku",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Intra-tradition: The monumental, collective manifestation of ancestral mana versus its intimate, skeletal, and mischievous counterpart."
+    },
+    {
+      "a": "rapanui-makemake",
+      "b": "tangaroa",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Rapa Nui theology merged the ancient Polynesian sea god Tangaroa into the new, localized supreme figure of Makemake."
+    },
+    {
+      "a": "rapanui-makemake",
+      "b": "tane",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The creation of humanity from earth by Makemake directly adopts the pan-Polynesian myth of Tane."
+    },
+    {
+      "a": "rapanui-tangata-manu",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Both traditions select a human to become the terrifying, living embodiment of a deity for a strictly delimited period of time."
+    },
+    {
+      "a": "rapanui-tangata-manu",
+      "b": "ballgame",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Extreme, potentially lethal physical athletic competition employed to resolve intense political and cosmic tensions among rival factions."
+    },
+    {
+      "a": "rapanui-tangata-manu",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Pushing the human physical body to extreme exhaustion to cross the boundary into the spiritual realm and renew the community."
+    },
+    {
+      "a": "rapanui-moai",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Venerated, highly formalized representations of ancestors who anchor the living community and guarantee its fertility."
+    },
+    {
+      "a": "rapanui-moai",
+      "b": "axis-mundi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Colossal stone pillars linking the earth to the divine ancestral realm, charging the ceremonial platforms with localized mana."
+    },
+    {
+      "a": "rapanui-hotu-matua",
+      "b": "yima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A legendary sovereign who organizes a desperate migration to save the seeds of civilization from a catastrophic destruction in the homeland."
+    },
+    {
+      "a": "rapanui-aku-aku",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Emaciated, fierce, and highly localized spirits that fiercely guard specific territorial boundaries and require constant propitiation."
+    },
+    {
+      "a": "rapanui-aku-aku",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Ethereal ancestors who maintain acute interest in the moral and property-related affairs of their living descendants."
+    },
+    {
+      "a": "rapanui-manutara",
+      "b": "world-egg",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The retrieval of an uncracked egg serves as the literal mechanism for renewing the fractured world."
+    },
+    {
+      "a": "rapanui-rongorongo",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A highly esoteric system of elite priestly knowledge that anchored the cosmic state, entirely lost when the priestly class collapsed."
+    },
+    {
+      "a": "rapanui-rongorongo",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conceptualization of carved script as an inherently magical force that binds and commands the universe."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "living-avatar",
+      "name": "Living Avatar",
+      "subtype": "concept",
+      "gloss": "A mortal human physically transformed into the temporary, earthly vessel of a supreme deity, often through ritual or perilous trial.",
+      "reason": "Needed for the Tangata Manu, bridging it with things like the Mesoamerican Ixiptla or the Kumari of Nepal, where divinity is temporarily installed in human flesh."
+    },
+    {
+      "id": "sacred-script",
+      "name": "Sacred Script",
+      "subtype": "concept",
+      "gloss": "A system of writing or mnemonic inscription conceived not merely as a tool for communication, but as a direct vessel of divine mana or cosmic order.",
+      "reason": "Required for Rongorongo, highlighting the phenomenon where the written word itself is treated as a magical technology, akin to Thoth's hieroglyphs or Norse runes."
+    }
+  ]
+}

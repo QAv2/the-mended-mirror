@@ -1,0 +1,240 @@
+{
+  "tradition": {
+    "id": "theosophy",
+    "name": "Theosophy",
+    "region": "USA / India",
+    "color": "#9a7fd0"
+  },
+  "figures": [
+    {
+      "id": "theosophy-mahatmas",
+      "kind": "hero",
+      "name": "The Mahatmas (Masters of the Ancient Wisdom)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Enlightened human beings who have transcended physical reincarnation to form the Great White Brotherhood. Residing in hidden sanctuaries like Shambhala, they telepathically guide humanity's spiritual evolution and safeguard the primordial esoteric wisdom.",
+      "facet": "They democratize and secularize the 'prophet' or 'savior.' They are not gods but advanced elder siblings on an evolutionary ladder that every human will eventually climb.",
+      "provenance": "Blavatsky's 'The Secret Doctrine' (1888) and the 'Mahatma Letters' to A.P. Sinnett, drawing heavily on Tibetan Buddhist Mahasiddhas and Rosicrucian hidden chiefs."
+    },
+    {
+      "id": "theosophy-akashic-records",
+      "kind": "concept",
+      "name": "Akasha (The Akashic Records)",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The subtle, super-sensuous spiritual essence that pervades all space. Within its highest octave reside the 'Akashic Records'—an imperishable, cosmic ledger that records every thought, word, and action that has ever occurred in the universe.",
+      "facet": "It transforms divine omniscience from the mind of a personal God into a quasi-scientific, universally accessible database of energetic imprints.",
+      "provenance": "Blavatsky's 'Isis Unveiled' (1877), syncretizing the Vedic concept of Akasha (aether) with Eliphas Levi's 'Astral Light' and 19th-century physics."
+    },
+    {
+      "id": "theosophy-fohat",
+      "kind": "force",
+      "name": "Fohat (Cosmic Electricity)",
+      "archetypes": [
+        "cosmic-serpent",
+        "smith"
+      ],
+      "gloss": "The dynamic, animating energy of the universe, often described as 'cosmic electricity' or the 'fiery whirlwind.' It is the bridge by which the Divine Thought manifests into the material architecture of the cosmos.",
+      "facet": "It aggressively bridges mysticism and 19th-century electromagnetism, framing divine creation not as a spoken fiat but as a literal, quantifiable electrical current binding spirit to matter.",
+      "provenance": "'The Secret Doctrine' (Stanzas of Dzyan), synthesizing the Vedic Agni, the Buddhist concept of kinetic energy (Samskara), and Victorian ether theories."
+    },
+    {
+      "id": "theosophy-root-races",
+      "kind": "principle",
+      "name": "The Seven Root Races",
+      "archetypes": [
+        "cyclic-ages",
+        "emergence"
+      ],
+      "gloss": "Vast, sequential epochs of human evolution, moving from ethereal, ghost-like beings to dense physical bodies like the Atlanteans, and currently progressing back toward spiritualization. Each race develops a specific cosmic sense and faculty.",
+      "facet": "It explicitly hybridizes Darwinian biological evolution with spiritual emanation, proposing that consciousness evolves before and through physical form across millions of years.",
+      "provenance": "'The Secret Doctrine', Vol II, blending Hindu Yugas, Hesiod's Ages of Man, and 19th-century race theories and paleontology."
+    },
+    {
+      "id": "theosophy-sanat-kumara",
+      "kind": "deity",
+      "name": "Sanat Kumara (Lord of the World)",
+      "archetypes": [
+        "axis-mundi",
+        "sky-father"
+      ],
+      "gloss": "The 'Youth of Sixteen Summers' who descended from Venus millions of years ago to act as the spiritual king and initiator of Earth. He anchors the planetary Logos and resides in the etheric plane of Shambhala.",
+      "facet": "He divorces planetary rulership from creator-gods. He did not make the Earth; he is simply the highest-ranking spiritual official assigned to manage its cosmic curriculum.",
+      "provenance": "Charles Webster Leadbeater and Annie Besant's later writings, repurposing the Hindu mind-born sons of Brahma (Kumaras) into an interplanetary hierarchy."
+    },
+    {
+      "id": "theosophy-lucifer",
+      "kind": "principle",
+      "name": "Lucifer (The Light-Bringer)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The personification of intellectual enlightenment and self-consciousness. Rather than a fallen adversary, Lucifer represents the solar energy that awakened dormant human minds during the Third Root Race, gifting humanity the fire of independent thought.",
+      "facet": "Theosophy systematically rehabilitates the 'Adversary,' defining the Fall not as a sin of disobedience but as the necessary, heroic descent of divine mind into animal matter.",
+      "provenance": "'The Secret Doctrine', explicitly identifying the Christian Lucifer with Prometheus and the morning star, completely rejecting his association with Satan."
+    },
+    {
+      "id": "theosophy-parabrahm",
+      "kind": "principle",
+      "name": "Parabrahm (The Absolute)",
+      "archetypes": [
+        "withdrawn-creator",
+        "dualism"
+      ],
+      "gloss": "The omnipresent, eternal, boundless, and immutable principle that precedes all manifested existence. It is the Unconscious All, completely devoid of attributes, personality, or will.",
+      "facet": "It radically rejects the Abrahamic personal God. The ultimate reality is emphatically unconscious and impersonal; consciousness only arises as a limitation during cosmic manifestation.",
+      "provenance": "'The Secret Doctrine', directly adopting Advaita Vedanta's Nirguna Brahman, mediated through 19th-century Western pantheism."
+    },
+    {
+      "id": "theosophy-monad",
+      "kind": "concept",
+      "name": "The Monad (Atma-Buddhi)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The immortal, indivisible core of the human being—the divine spark that journeys through mineral, plant, animal, and human kingdoms to gather experience before returning, fully self-conscious, to the Absolute.",
+      "facet": "It eliminates the concept of 'created souls.' The human essence is co-eternal with the universe, undergoing an infinitely vast, cyclic pilgrimage of self-becoming.",
+      "provenance": "Blavatsky's writings, drawing directly on Leibniz's 'Monadology' and the Hindu concepts of Atman and Jiva."
+    }
+  ],
+  "edges": [
+    {
+      "a": "theosophy-parabrahm",
+      "b": "theosophy-fohat",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Parabrahm is the passive absolute source; Fohat is the active, kinetic energy that manifests its cosmic will."
+    },
+    {
+      "a": "theosophy-mahatmas",
+      "b": "theosophy-sanat-kumara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Mahatmas operate under the direct spiritual authority of Sanat Kumara within the planetary hierarchy."
+    },
+    {
+      "a": "theosophy-lucifer",
+      "b": "theosophy-monad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Lucifer represents the spark of mind that actually ignited the dormant human Monad into self-awareness."
+    },
+    {
+      "a": "theosophy-parabrahm",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Blavatsky explicitly adopted the Vedantic concept of Brahman as the foundation for her impersonal Absolute."
+    },
+    {
+      "a": "theosophy-parabrahm",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the ultimate, unknowable, and limitless divine reality that precedes all cosmic emanation."
+    },
+    {
+      "a": "theosophy-fohat",
+      "b": "agni",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Blavatsky specifically identified Fohat with Agni, viewing the Vedic fire god as an allegory for cosmic electricity."
+    },
+    {
+      "a": "theosophy-akashic-records",
+      "b": "the-pleroma",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are conceptualized as a divine, ethereal matrix containing the fullness of all cosmic blueprints and memories."
+    },
+    {
+      "a": "theosophy-monad",
+      "b": "the-divine-spark",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Theosophy consciously absorbed the Gnostic framework of an uncreated, divine fragment journeying through matter."
+    },
+    {
+      "a": "theosophy-monad",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions posit an eternal, indestructible unit of consciousness navigating an immense cycle of physical incarnations."
+    },
+    {
+      "a": "theosophy-lucifer",
+      "b": "prometheus",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Blavatsky explicitly conflated Lucifer and Prometheus as identical archetypes of the heroic intellect bringing fire and mind to humanity."
+    },
+    {
+      "a": "theosophy-lucifer",
+      "b": "quetzalcoatl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are symbolized by the Morning Star (Venus) and function as culture heroes who bring awakening and civilization to mankind."
+    },
+    {
+      "a": "theosophy-root-races",
+      "b": "buddhist-kalpas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both map existence onto unimaginably vast, cyclic timeframes where universes and humanities sequentially emerge and dissolve."
+    },
+    {
+      "a": "theosophy-root-races",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The gradual descent into dense matter followed by an ascent toward spiritualization mirrors the Jain cosmic wheel of time."
+    },
+    {
+      "a": "theosophy-mahatmas",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Mahatmas echo the Bodhisattva ideal, delaying their own ultimate liberation to assist the spiritual evolution of humanity."
+    },
+    {
+      "a": "theosophy-mahatmas",
+      "b": "hermes-trismegistus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent the supreme custodians of a primordial, secret wisdom tradition handed down to initiates throughout history."
+    },
+    {
+      "a": "theosophy-fohat",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A cosmic, fiery principle that acts as the active, animating bridge maintaining the vital order of the universe."
+    },
+    {
+      "a": "theosophy-sanat-kumara",
+      "b": "buddhist-sumeru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Shambhala, the etheric seat of Sanat Kumara, functions as the cosmic center and spiritual axis of the world, echoing Mount Meru."
+    },
+    {
+      "a": "theosophy-sanat-kumara",
+      "b": "shangdi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both operate as the supreme, overseeing heavenly administrator of the earthly realm, distinct from a monotheistic creator."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "ascended-masters",
+      "name": "Ascended Masters",
+      "subtype": "figure",
+      "gloss": "Highly evolved human beings who have broken the cycle of reincarnation and now secretly guide the spiritual evolution of humanity from hidden planes or etheric sanctuaries.",
+      "reason": "Necessary for esoteric traditions like Theosophy, Rosicrucianism, and New Age belief systems where enlightened, discarnate humans replace angels or deities as active planetary guides."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "tradition": {
+    "id": "new-age",
+    "name": "New Age",
+    "region": "USA & UK",
+    "color": "#d8b84a"
+  },
+  "figures": [
+    {
+      "id": "new-age-age-of-aquarius",
+      "kind": "concept",
+      "name": "The Age of Aquarius",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The dawning astrological epoch, superseding the Piscean Age of dogma, hierarchy, and suffering. It heralds a global paradigm shift toward intuition, holism, and universal spiritual brotherhood.",
+      "facet": "Replaces apocalyptic eschatology with a utopian evolutionary transition. The 'end of the world' is merely a graduation of planetary frequency achieved through collective awakening.",
+      "provenance": "Theosophical astrology (Helena Blavatsky, Alice Bailey); popularized globally by Carl Jung and the 1960s counterculture."
+    },
+    {
+      "id": "new-age-higher-self",
+      "kind": "concept",
+      "name": "The Higher Self",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The uncorrupted, omniscient fractal of the individual soul that resides permanently in the higher dimensions, untouched by earthly trauma, acting as the ultimate inner guru.",
+      "facet": "Radically flattens the spiritual hierarchy by locating the supreme divine authority entirely within human consciousness, bypassing priesthoods, scriptures, and external saviors.",
+      "provenance": "Jungian psychology; New Thought; channeled texts like Helen Schucman's 'A Course in Miracles'."
+    },
+    {
+      "id": "new-age-ascended-masters",
+      "kind": "deity",
+      "name": "Ascended Masters",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "Spiritually enlightened human beings—such as Saint Germain, El Morya, and Jesus—who have conquered the cycle of karma and rebirth to actively guide humanity's evolution from the etheric planes.",
+      "facet": "Democratizes the pantheon. They are not intrinsically superior creator gods, but older evolutionary siblings proving that ascension to divine status is an inevitability for all humans.",
+      "provenance": "Helena Blavatsky's 'Mahatmas'; Guy Ballard's 'I AM' Activity; Alice Bailey's esoteric writings."
+    },
+    {
+      "id": "new-age-gaia",
+      "kind": "deity",
+      "name": "Gaia",
+      "archetypes": [
+        "great-mother",
+        "world-egg"
+      ],
+      "gloss": "The Earth apprehended as a conscious, synergistic super-organism. She possesses a vital auric field, energetic meridians, and an evolutionary destiny intricately bound to human consciousness.",
+      "facet": "Synthesizes ancient earth-veneration with systems theory and quantum physics. She is not a demanding chthonic mother requiring blood sacrifice, but a vulnerable, self-regulating biological matrix.",
+      "provenance": "James Lovelock's 1970s Gaia hypothesis; Findhorn Foundation teachings; deep ecology cross-pollination."
+    },
+    {
+      "id": "new-age-law-of-attraction",
+      "kind": "principle",
+      "name": "The Law of Attraction",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The metaphysical axiom that consciousness directly sculpts material reality. Through vibrational resonance, positive thoughts magnetically draw abundance, while unhealed trauma or fear attracts suffering.",
+      "facet": "Replaces moral judgment with vibrational mechanics. Suffering is completely stripped of redemptive value or divine providence, reframed instead as a mere symptom of misaligned mental focus.",
+      "provenance": "Phineas Quimby's New Thought movement; popularized globally by Rhonda Byrne's 'The Secret' and Esther Hicks's Abraham channeling."
+    },
+    {
+      "id": "new-age-channeling",
+      "kind": "rite",
+      "name": "Channeling",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The practice of entering an altered state of consciousness to serve as a biological vessel for discarnate entities, Ascended Masters, or extraterrestrials to transmit spiritual teachings.",
+      "facet": "Evolves 19th-century mediumship: instead of communicating with dead relatives for grief relief, the channel acts as an antenna for downloading cosmic philosophy and quantum-mystical life advice.",
+      "provenance": "Spiritualist mediumship; evolved significantly through Jane Roberts' 'Seth Material' and J.Z. Knight."
+    },
+    {
+      "id": "new-age-vibrational-energy",
+      "kind": "force",
+      "name": "Vibrational Energy",
+      "archetypes": [
+        "subtle-energy"
+      ],
+      "gloss": "The invisible, ubiquitous fabric of reality, conceptualized as frequencies. Holistic healing is achieved by applying crystals, sound baths, or intention to raise a person's frequency into alignment with higher dimensions.",
+      "facet": "Merges esoteric mysticism with the vocabulary of quantum mechanics, attempting to scientifically quantify the soul and validate sympathetic magic through the rhetoric of physics.",
+      "provenance": "Mesmerism; Theosophy; Fritjof Capra's 'The Tao of Physics'; 20th-century alternative medicine."
+    },
+    {
+      "id": "new-age-starseeds",
+      "kind": "hero",
+      "name": "Starseeds",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Advanced souls originating from other star systems—such as the Pleiades or Arcturus—who voluntarily incarnate on Earth. They suffer planetary amnesia but carry dormant light-codes to trigger global ascension.",
+      "facet": "Metaphysically reframes modern alienation. Experiencing severe societal detachment is no longer a psychological malady, but definitive proof of an elite extraterrestrial origin and a messianic cosmic mission.",
+      "provenance": "Brad Steiger's 'Gods of Aquarius' (1976); channeled works of Barbara Marciniak."
+    }
+  ],
+  "edges": [
+    {
+      "a": "new-age-age-of-aquarius",
+      "b": "new-age-starseeds",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Starseeds are the incarnated vanguard sent specifically to catalyze the planetary frequency needed for the Aquarian shift."
+    },
+    {
+      "a": "new-age-law-of-attraction",
+      "b": "new-age-vibrational-energy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Vibrational energy is the mechanical substrate through which the Law of Attraction executes its manifestations."
+    },
+    {
+      "a": "new-age-channeling",
+      "b": "new-age-ascended-masters",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Channeling is the primary technological rite used to receive ongoing instruction from the Ascended Masters."
+    },
+    {
+      "a": "new-age-gaia",
+      "b": "gaia",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicitly adopts the Greek earth goddess's name and identity, retrofitting her with modern ecological systems theory."
+    },
+    {
+      "a": "new-age-higher-self",
+      "b": "the-divine-spark",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Through Theosophy's incorporation of Gnostic texts, both traditions locate the salvific fraction of the ultimate divine directly within the human vessel."
+    },
+    {
+      "a": "new-age-higher-self",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Matches the Upanishadic equation of Atman and Brahman: the innermost self is completely identical to the ultimate reality."
+    },
+    {
+      "a": "new-age-higher-self",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Buddhism liberates by extinguishing the illusion of self, the New Age liberates by infinitely expanding the self until it encompasses the divine."
+    },
+    {
+      "a": "new-age-ascended-masters",
+      "b": "jain-siddha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both represent formerly bound humans who achieved total liberation from karma and now exist at the apex of the cosmos as evolutionary templates."
+    },
+    {
+      "a": "new-age-ascended-masters",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Functions identically to the bodhisattva vow: delaying total cosmic merger in order to continuously intercede for suffering humanity."
+    },
+    {
+      "a": "new-age-ascended-masters",
+      "b": "nsamanfo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both serve as venerated, spiritually elevated ancestors who actively intercede in the material world to guide their descendants."
+    },
+    {
+      "a": "new-age-law-of-attraction",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An impersonal, mechanical law of the universe that dictates reality and consequences, indifferent to petitionary prayer."
+    },
+    {
+      "a": "new-age-channeling",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both require a human vessel to temporarily step aside and become the literal, speaking embodiment of an otherworldly entity."
+    },
+    {
+      "a": "new-age-channeling",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Parallels the ecstatic possession of the Korean shaman, but trades village-level problem-solving for cosmic philosophical dictation."
+    },
+    {
+      "a": "new-age-vibrational-energy",
+      "b": "orenda",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both conceptualize a manipulable, ubiquitous spiritual power that animates the world and can be directed by human intent."
+    },
+    {
+      "a": "new-age-vibrational-energy",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A fundamental, flowing substrate of reality, though the New Age attempts to harness it for personal manifestation rather than yielding to it."
+    },
+    {
+      "a": "new-age-starseeds",
+      "b": "dogon-nommo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both involve advanced, non-human entities originating from specific star systems (often Sirius) who descend to impart civilizational leaps."
+    },
+    {
+      "a": "new-age-age-of-aquarius",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both envision a definitive, linear end-state of cosmic renewal and the banishment of darkness, though the New Age achieves it through frequency shifts, not divine battle."
+    },
+    {
+      "a": "new-age-age-of-aquarius",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Shares the mechanism of inevitable, cyclical ages of cosmic time, though Aquarian thought focuses entirely on the ascending arc."
+    },
+    {
+      "a": "new-age-gaia",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both view the Earth as a living, reciprocating entity that must be energetically balanced with humanity."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "subtle-energy",
+      "name": "Subtle Energy",
+      "subtype": "principle",
+      "gloss": "A non-anthropomorphic, ubiquitous vital force or vibrational substrate that flows through the cosmos and can be manipulated by intent or ritual for healing and manifestation.",
+      "reason": "Captures the quantified vitalism found in Qi, Prana, Orenda, and New Age vibration—a mechanical spiritual fluid distinct from creator deities or moral cosmic orders."
+    }
+  ]
+}

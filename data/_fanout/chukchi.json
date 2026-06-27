@@ -1,0 +1,241 @@
+{
+  "tradition": {
+    "id": "chukchi",
+    "name": "Chukchi & Koryak (Paleo-Siberian)",
+    "region": "Chukotka / Kamchatka",
+    "color": "#7fae9a"
+  },
+  "figures": [
+    {
+      "id": "chukchi-kutkh",
+      "kind": "deity",
+      "name": "Kutkh (Big Raven)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The primordial Big Raven who shaped the earth, brought light, and taught humanity how to hunt and herd. He is simultaneously a mighty creator and a vulgar, greedy trickster who frequently falls victim to his own bodily appetites and foolish schemes.",
+      "facet": "He does not merely step down from heaven; he is inextricably muddy and grotesque. His creative acts often stem from scatological accidents or petty thefts, binding the sacred directly to the profane realities of survival.",
+      "provenance": "Waldemar Bogoras 'The Chukchee' (1904); Waldemar Jochelson 'The Koryak' (1905)."
+    },
+    {
+      "id": "chukchi-kele",
+      "kind": "force",
+      "name": "Kele (Kala)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "Predatory, cannibalistic spirits that roam the tundra and the underworld. They hunt human souls just as humans hunt reindeer. They are the root cause of all illness, death, and winter starvation, constantly probing the borders of human encampments.",
+      "facet": "The Kele are not morally evil, but ecologically hungry. They view humans exactly as humans view game animals. Shamanic healing is literal warfare or desperate negotiation, offering animal blood to buy back a devoured human soul.",
+      "provenance": "Bogoras (1904); Igor Krupnik 'Arctic Adaptations' (1993)."
+    },
+    {
+      "id": "chukchi-wapaq",
+      "kind": "concept",
+      "name": "Wapaq (Fly Agaric Spirit)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The animating spirit of the Amanita muscaria mushroom. Consumed by shamans, Wapaq manifests as tiny, swift humanoid guides who forcefully lead the practitioner's soul through multiple worlds to locate lost spirits, divine the future, or negotiate with deities.",
+      "facet": "The intoxication is highly reciprocal and physically demanding. The Wapaq spirits do not gently guide; they forcefully pull the shaman through perilous realms, and the shaman must accurately mimic the spirits' frantic movements to safely return.",
+      "provenance": "Bogoras (1904); Mircea Eliade 'Shamanism' (1951)."
+    },
+    {
+      "id": "chukchi-keretkun",
+      "kind": "deity",
+      "name": "Keretkun (Lord of the Sea)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The formidable ruler of the ocean and master of marine mammals. Residing in a net-covered tent at the bottom of the sea, he controls the migration of walruses and whales, ultimately dictating the success or failure of maritime hunters.",
+      "facet": "He requires intense, specific ritual hospitality. During the autumn thanksgiving festival, his presence is woven into a physical net over the hearth, literally intertwining the wild bounty of the ocean with the domestic fire of the Chukchi tent.",
+      "provenance": "Bogoras 'Chukchee Mythology' (1910)."
+    },
+    {
+      "id": "chukchi-va-irgin",
+      "kind": "force",
+      "name": "Va'irgin (The Benevolent Beings)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "An abstract, pluralized concept of 'Existence' or benevolent deities inhabiting the upper worlds and the cardinal directions, primarily the Zenith and the Dawn. They act as the overarching, passive source of life and cosmic order.",
+      "facet": "Unlike active creator gods, Va'irgin are distant and diffuse. They rarely intervene in human affairs directly, requiring the intermediary actions of Kutkh or ecstatic shamans, reflecting the vast, indifferent expanse of the Arctic sky.",
+      "provenance": "Bogoras (1904); Jochelson (1905)."
+    },
+    {
+      "id": "chukchi-miti",
+      "kind": "hero",
+      "name": "Miti",
+      "archetypes": [
+        "complementarity",
+        "trickster"
+      ],
+      "gloss": "The resourceful wife of Kutkh. She is an equal participant in his creation myths, frequently outsmarting her husband, repairing the damage caused by his foolishness, or engaging in shape-shifting contests of sexual and magical prowess.",
+      "facet": "She dismantles male supremacy in the creation narrative. Miti's magic is distinctly domestic and bodily, often utilizing her own anatomy to outwit Kutkh's grand but flawed cosmic designs, anchoring creation firmly in female biology.",
+      "provenance": "Jochelson 'The Koryak' (1905); Bogoras (1910)."
+    },
+    {
+      "id": "chukchi-girg-in",
+      "kind": "rite",
+      "name": "Girg'in (The Sacred Fire-Board)",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "An anthropomorphic wooden tool used for friction fire-making. Shaped like a human figure, it is considered a literal ancestor and the sacred protector of the family hearth, ceremonially fed with marrow and fat during community gatherings.",
+      "facet": "It dissolves the boundary between tool, element, and ancestor. Fire is not a stolen elemental gift but an ancestral body birthed through physical friction; the tool itself possesses a living voice and active agency.",
+      "provenance": "Bogoras (1904); Levin & Potapov 'The Peoples of Siberia' (1964)."
+    },
+    {
+      "id": "chukchi-yirka-la-ul",
+      "kind": "concept",
+      "name": "Yirka-la'ul (The Transformed Shaman)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "dualism"
+      ],
+      "gloss": "Shamans commanded by the Kele to undergo a 'soft man' transformation, adopting the dress, speech, and social roles of women. This profound gender fluidity grants them immense spiritual power and vital protection from malevolent forces.",
+      "facet": "Gender transition here is a mandatory spiritual imperative, not merely a social preference. Operating in the liminal space between male and female forms the ultimate shamanic armor, confusing predatory spirits and bridging cosmic binaries.",
+      "provenance": "Bogoras 'The Chukchee' (1904); M.A. Czaplicka 'Aboriginal Siberia' (1914)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "chukchi-kutkh",
+      "b": "chukchi-miti",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The primordial couple, bound in constant cycles of mutual trickery and collaborative creation."
+    },
+    {
+      "a": "chukchi-kutkh",
+      "b": "chukchi-va-irgin",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Kutkh acts as the active, earthy proxy for the distant, passive Va'irgin."
+    },
+    {
+      "a": "chukchi-kele",
+      "b": "chukchi-yirka-la-ul",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The transformed shaman explicitly adopts a liminal gender identity to confuse and repel the predatory Kele."
+    },
+    {
+      "a": "chukchi-kele",
+      "b": "chukchi-wapaq",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The shaman consumes Wapaq to gain the speed and spirit-sight necessary to battle or evade the Kele."
+    },
+    {
+      "a": "chukchi-kutkh",
+      "b": "pnw-raven",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Extensive folkloric and ethnographic evidence links the Paleo-Siberian and Pacific Northwest Raven cycles as a shared Beringian cultural inheritance."
+    },
+    {
+      "a": "chukchi-kutkh",
+      "b": "pnw-nascakiyetl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The overarching Raven figure who brings light and structure to a dark, fluid world."
+    },
+    {
+      "a": "chukchi-kutkh",
+      "b": "maii-coyote",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The quintessential trickster-creator who is both a sacred shaper of reality and a base, foolish animal driven by bodily urges."
+    },
+    {
+      "a": "chukchi-kele",
+      "b": "dravidian-pey",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Invisible, predatory spirits that cause disease and misfortune, hovering hungrily at the edges of human settlements."
+    },
+    {
+      "a": "chukchi-wapaq",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Techniques of profound spiritual ecstasy and physical exhaustion used to travel to the spirit realm for community healing."
+    },
+    {
+      "a": "chukchi-keretkun",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The supreme sovereign of marine mammals dwelling at the bottom of the ocean, controlling the success of coastal hunters."
+    },
+    {
+      "a": "chukchi-va-irgin",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The distant, overarching sky-deity or principle of the upper world who oversees existence but rarely interferes."
+    },
+    {
+      "a": "chukchi-va-irgin",
+      "b": "sila",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An abstract, animating life-force and weather-principle pervading the harsh Arctic atmosphere."
+    },
+    {
+      "a": "chukchi-miti",
+      "b": "pnw-fog-woman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The powerful female counterpart to the male creator/trickster, wielding magic intimately tied to sustenance and nature."
+    },
+    {
+      "a": "chukchi-girg-in",
+      "b": "agni",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The sacred fire personified as a divine guest and active ancestral presence within the domestic hearth."
+    },
+    {
+      "a": "chukchi-yirka-la-ul",
+      "b": "yin-yang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The deliberate unification of male and female principles within a single entity to achieve cosmic balance and spiritual power."
+    },
+    {
+      "a": "chukchi-kutkh",
+      "b": "loki",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A shape-shifting, rule-breaking trickster whose subversion of societal norms is a catalyst for world-altering cosmic events."
+    },
+    {
+      "a": "chukchi-yirka-la-ul",
+      "b": "angakkuq-soul-flight",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: High-stakes Arctic shamanic practice involving intense physical and psychological transformation to mediate safely with hostile spirits."
+    },
+    {
+      "a": "chukchi-girg-in",
+      "b": "dogon-eight-ancestors",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The literal embodiment of original ancestors within the vital physical tools of a culture's daily survival."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "entheogen-guide",
+      "name": "Entheogen Guide",
+      "subtype": "force",
+      "gloss": "A specific class of plant or fungal spirit ingested by a ritual specialist, serving not merely as a passive tool for altered states, but as an animate, demanding guide through the spirit realms.",
+      "reason": "Captures the distinct, aggressive agency attributed to hallucinogenic allies (like Amanita muscaria or Ayahuasca) that forcefully pull the shaman into ecstasy, distinct from the human 'ecstatic-shaman' archetype itself."
+    }
+  ]
+}

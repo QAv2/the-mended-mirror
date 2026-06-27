@@ -1,0 +1,261 @@
+{
+  "tradition": {
+    "id": "kejawen",
+    "name": "Kejawèn & Indonesian indigenous",
+    "region": "Java / Sumatra / Sulawesi / Sumba",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "kejawen-sang-hyang-tunggal",
+      "kind": "deity",
+      "name": "Sang Hyang Tunggal (Sang Hyang Widhi Wasa)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The ineffable, absolute supreme being in Javanese cosmology. Encompassing all existence, this cosmic unity transcends religious dogma and manifests through the varied gods, spirits, and human consciousness of the archipelago.",
+      "facet": "Highly syncretic, this concept seamlessly bridged indigenous animism, Hindu-Buddhist cosmic monism (Brahman), and Islamic Tawhid, allowing Javanese mystics to absorb incoming absolute religions without discarding their ancestral worldview.",
+      "provenance": "Serat Centhini (1814); Javanese oral Wayang Kulit theology."
+    },
+    {
+      "id": "kejawen-rasa",
+      "kind": "principle",
+      "name": "Rasa",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The profound, intuitive 'feeling' or 'taste' that serves as the ultimate epistemology in Kejawèn mysticism. It is the silent, inward dimension (batin) where the human soul merges directly with the divine fabric of the universe.",
+      "facet": "It rejects scriptural or dogmatic intellect (akal) as superficial. God is not found in texts or temples, but accessed solely through the cultivation of deep, non-conceptual internal resonance.",
+      "provenance": "Serat Wedhatama by Mangkunegara IV (19th century); Javanese Sufi manuscripts."
+    },
+    {
+      "id": "kejawen-nyai-roro-kidul",
+      "kind": "deity",
+      "name": "Nyai Roro Kidul",
+      "archetypes": [
+        "mother-of-waters",
+        "underworld-sovereign"
+      ],
+      "gloss": "The powerful, tempestuous goddess of the Indian Ocean. She claims the souls of those swept into the turbulent southern sea, especially those wearing green, and serves as the mystical spouse to the Sultans of Mataram.",
+      "facet": "She institutionalizes a continuous ritual marriage between terrestrial Islamic kingship and ancient, chaotic maritime animism. The Sultan's political legitimacy explicitly relies on his sexual and spiritual covenant with this oceanic goddess.",
+      "provenance": "Babad Tanah Jawi (Chronicle of Java, 18th century)."
+    },
+    {
+      "id": "kejawen-semar",
+      "kind": "deity",
+      "name": "Semar (Ismaya)",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "A grotesque, farting clown servant in Javanese Wayang who is secretly Sang Hyang Ismaya, the older brother of the high god. He descends to earth to guide and serve the noble heroes of the Mahabharata.",
+      "facet": "He subverts the imported Hindu caste hierarchy. The lowest, ugliest peasant-servant is actually the oldest, most powerful indigenous Javanese god, proving that true divinity hides in the humble, coarse, and earthly.",
+      "provenance": "Kakawin Ghatotkacasraya (12th century); traditional Wayang Kulit repertoires."
+    },
+    {
+      "id": "kejawen-gunungan",
+      "kind": "concept",
+      "name": "Gunungan (Kayon)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The leaf-shaped leather puppet used to open, transition, and close Javanese shadow puppet performances. It depicts the cosmic mountain, the tree of life, and the heavily guarded gates to the divine realm.",
+      "facet": "It physically manifests the philosophical concept of Manunggaling Kawula Gusti (the union of servant and lord). When planted in the banana trunk, it establishes the localized center of a temporary cosmos.",
+      "provenance": "Material culture of Javanese and Balinese Wayang Kulit."
+    },
+    {
+      "id": "kejawen-marapu",
+      "kind": "ancestor",
+      "name": "Marapu",
+      "archetypes": [
+        "first-ancestor",
+        "one-through-many"
+      ],
+      "gloss": "The deified ancestors and spiritual forces in the indigenous religion of Sumba. They are the unseen intermediaries who reside in the high peaked roofs of traditional clan houses, demanding blood sacrifices to maintain cosmic balance.",
+      "facet": "They are fiercely localized and material. Spiritual transaction is not about moral salvation but strict contractual reciprocity: livestock is slaughtered so the Marapu consume the spiritual essence while humans consume the meat.",
+      "provenance": "Anthropological records of Sumbanese megalithic culture; Hoskins' 'The Play of Time' (1993)."
+    },
+    {
+      "id": "kejawen-puang-matua",
+      "kind": "deity",
+      "name": "Puang Matua",
+      "archetypes": [
+        "sky-father",
+        "smith"
+      ],
+      "gloss": "The 'Old Lord' and supreme creator deity of the Toraja people in Sulawesi (Aluk To Dolo). He forged the first human, animals, and plants from a divine bellows in the center of the upper world.",
+      "facet": "Unlike creators who speak the world into being, Puang Matua acts as a divine smith. He physically smelts and hammers the ancestors of existence out of pure gold in his celestial forge.",
+      "provenance": "Torajan oral epic chants (passomba tedong); Tangdilintin's 'Toraja dan Kebudayaannya' (1975)."
+    },
+    {
+      "id": "kejawen-tondi",
+      "kind": "concept",
+      "name": "Tondi (Tendi)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The vital life-force or soul-substance in Batak animism (Sumatra). It is an independent entity residing within the body, determining a person's fate, character, and health, but capable of wandering away or being stolen by hostile spirits.",
+      "facet": "The soul is not subservient to the ego. It has its own will and desires; if a person's life contradicts their Tondi's wishes, the Tondi will abandon the body, causing illness and requiring shamanic retrieval.",
+      "provenance": "Warneck's 'Die Religion der Batak' (1909); rituals of the Batak datu (shamans)."
+    }
+  ],
+  "edges": [
+    {
+      "a": "kejawen-sang-hyang-tunggal",
+      "b": "kejawen-nyai-roro-kidul",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition: The transcendent, abstract, and celestial absolute unity contrasted against the chaotic, devouring, specific feminine power of the ocean."
+    },
+    {
+      "a": "kejawen-semar",
+      "b": "kejawen-sang-hyang-tunggal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: The hidden earthly god (Semar/Ismaya) is the older, humbler brother of the transcendent high god, acting as his earthly shadow."
+    },
+    {
+      "a": "kejawen-rasa",
+      "b": "kejawen-gunungan",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: The Gunungan visually maps the inner, silent spiritual ascent of Rasa toward the ultimate union with the divine."
+    },
+    {
+      "a": "kejawen-sang-hyang-tunggal",
+      "b": "shiva",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The supreme deity was heavily identified with Shiva (Batara Guru) during the Hindu-Buddhist period of Java."
+    },
+    {
+      "a": "kejawen-sang-hyang-tunggal",
+      "b": "brahman",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Syncretized with the ultimate Hindu cosmic principle through Majapahit court theology."
+    },
+    {
+      "a": "kejawen-sang-hyang-tunggal",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Explicitly merged with the Islamic concept of Tawhid by the Wali Songo (Nine Saints) to Islamize the Javanese interior."
+    },
+    {
+      "a": "kejawen-nyai-roro-kidul",
+      "b": "sedna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A powerful, tempestuous goddess of the deep ocean who commands souls and controls maritime bounty."
+    },
+    {
+      "a": "kejawen-nyai-roro-kidul",
+      "b": "mama-cocha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The personification of the sea as a maternal but dangerous power requiring constant appeasement."
+    },
+    {
+      "a": "kejawen-semar",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A trickster figure who mediates between the human and divine, possessing supreme spiritual authority despite a deceptive exterior."
+    },
+    {
+      "a": "kejawen-semar",
+      "b": "xolotl",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The grotesque, dog-like or clownish twin of the high god who descends to aid humanity and navigate the lower realms."
+    },
+    {
+      "a": "kejawen-semar",
+      "b": "dogon-ogo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The 'failed' or demoted primal being whose disruption forms the necessary foundation for human culture."
+    },
+    {
+      "a": "kejawen-gunungan",
+      "b": "yggdrasil",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A cosmic tree that centers the universe and acts as the gate between the earthly and divine realms."
+    },
+    {
+      "a": "kejawen-gunungan",
+      "b": "mount-meru",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The Javanese shadow puppet physically represents and descends directly from Hindu-Buddhist cosmology of Mount Meru."
+    },
+    {
+      "a": "kejawen-puang-matua",
+      "b": "ptah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A creator deity who operates not as a speaker of words, but as a master craftsman forging life."
+    },
+    {
+      "a": "kejawen-puang-matua",
+      "b": "goibniu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A divine smith whose forge is the center of mythical creation and sustenance."
+    },
+    {
+      "a": "kejawen-tondi",
+      "b": "tarniq",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A semi-autonomous soul entity whose detachment or wandering from the physical body is the primary cause of illness."
+    },
+    {
+      "a": "kejawen-rasa",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unnameable, intuitive inner current that serves as both the fabric of the universe and the method to understand it."
+    },
+    {
+      "a": "kejawen-rasa",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Inner, intuitive, mystical wisdom that bypasses the written law and intellect of the orthodox creator."
+    },
+    {
+      "a": "kejawen-marapu",
+      "b": "amadlozi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Deified ancestors demanding strict ritual and blood appeasement to maintain social order and protect the living."
+    },
+    {
+      "a": "kejawen-marapu",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The powerful dead who remain active agents in their descendants' affairs, anchoring the community's spiritual architecture."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "inner-essence",
+      "name": "Inner Essence",
+      "subtype": "principle",
+      "gloss": "An epistemology of mystical intuition, where ultimate truth is accessed not through scripture or intellect, but through cultivating a profound, silent internal resonance.",
+      "reason": "Captures a widespread mystical motif (like Javanese Rasa, Sufi Kashf, or Gnostic Gnosis) where the deepest subjective feeling bridges directly to the objective absolute."
+    },
+    {
+      "id": "autonomous-soul",
+      "name": "Autonomous Soul-Substance",
+      "subtype": "concept",
+      "gloss": "A vital life-force or soul that operates semi-autonomously from the human ego, possessing its own desires and capable of abandoning the body if displeased.",
+      "reason": "Essential for animistic systems across Southeast Asia, Siberia, and the Americas where illness is treated as soul-loss, distinct from the Western monolithic soul."
+    }
+  ]
+}

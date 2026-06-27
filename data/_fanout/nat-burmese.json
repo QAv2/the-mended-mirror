@@ -1,0 +1,229 @@
+{
+  "tradition": {
+    "id": "nat-burmese",
+    "name": "Burmese Nat worship",
+    "region": "Myanmar",
+    "color": "#3aa6a0"
+  },
+  "figures": [
+    {
+      "id": "nat-burmese-thagyamin",
+      "kind": "deity",
+      "name": "Thagyamin",
+      "archetypes": [
+        "storm-wielder",
+        "cosmic-order"
+      ],
+      "gloss": "The King of the Thirty-Seven Nats, derived from the Buddhist Sakra. He wields a conch shell and thunderbolt, descending to the human realm during the Thingyan new year festival to record the deeds of mortals in a dog-skin book for sinners or gold book for the righteous.",
+      "facet": "He acts as the ultimate moral tether, placing an imported, orderly Buddhist sovereign atop an indigenous pantheon of violent, traumatized spirits, forcing raw animist power into a karmic hierarchy.",
+      "provenance": "Standardized in the royal cult by King Anawrahta (11th century CE)."
+    },
+    {
+      "id": "nat-burmese-min-mahagiri",
+      "kind": "deity",
+      "name": "Min Mahagiri (Lord of the Great Mountain)",
+      "archetypes": [
+        "smith",
+        "axis-mundi"
+      ],
+      "gloss": "Once a preternaturally strong blacksmith named Maung Tint De, he was burned alive at a sagaing tree by a paranoid king. Now a supreme nat, he resides on Mount Popa and is venerated in every traditional Burmese home via a suspended coconut.",
+      "facet": "The protector of the domestic hearth is born entirely from unjust state violence; home security is paradoxically guarded by the raw trauma of a murdered laborer.",
+      "provenance": "'Glass Palace Chronicle' (1829); central to the Mount Popa animist cult."
+    },
+    {
+      "id": "nat-burmese-hnamadawgyi",
+      "kind": "deity",
+      "name": "Hnamadawgyi (Lady Golden Face)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The sister of Min Mahagiri and queen to the king who murdered him. Upon seeing her brother burning, she leaped into the pyre, saving only her face before dying. She co-rules Mount Popa with her brother.",
+      "facet": "She embodies the 'green death'—the uniquely Burmese belief that violent, tragic death traps the life force, transmuting profound grief and victimization into immense territorial power.",
+      "provenance": "Oral traditions of Mount Popa; 'Glass Palace Chronicle'."
+    },
+    {
+      "id": "nat-burmese-taungbyon-brothers",
+      "kind": "hero",
+      "name": "The Taungbyon Brothers (Shwe Hpyin Naungdaw and Nyidaw)",
+      "archetypes": [
+        "divine-twins",
+        "culture-hero"
+      ],
+      "gloss": "Two fiercely loyal Muslim brothers who served King Anawrahta. They were executed for negligence—leaving a single brick missing from a royal pagoda while they were busy drinking and playing.",
+      "facet": "They embody the unresolved tension between the strict piety of state Buddhism and the rowdy, visceral joy of the common people. Their annual festival is a massive, ecstatic subversion of Buddhist sobriety.",
+      "provenance": "Taungbyon Nat Pwe oral traditions; historical chronicles of the Pagan Empire."
+    },
+    {
+      "id": "nat-burmese-popa-medaw",
+      "kind": "deity",
+      "name": "Popa Medaw (Mother of Popa)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "A flower-eating ogress of Mount Popa who married a human royal emissary and bore the Taungbyon brothers. She died of a broken heart when her husband abandoned her and the king executed her sons.",
+      "facet": "She is the indigenous, wild animist spirit broken by the expanding, civilizing royal state. Her grief is propitiated as a fierce, protective maternal force that precedes Buddhist orthodoxy.",
+      "provenance": "Mount Popa regional folklore; integrated into the pantheon of the 37 Nats."
+    },
+    {
+      "id": "nat-burmese-ko-gyi-kyaw",
+      "kind": "deity",
+      "name": "Ko Gyi Kyaw (Lord of the White Horse)",
+      "archetypes": [
+        "trickster",
+        "ecstatic-shaman"
+      ],
+      "gloss": "A flamboyant, hard-drinking patron nat of gamblers, alcoholics, and cockfighters. Often depicted riding a white horse, he died violently after a life of debauchery and is summoned through wild, trance-inducing music and copious alcohol.",
+      "facet": "He provides a socially sanctioned, ecstatic release valve for vices strictly forbidden by Theravada Buddhism, proving that a complete spiritual ecosystem requires a patron of absolute indulgence.",
+      "provenance": "Popular Burmese nat festivals (nat-pwe) and spirit medium (nat-kadaw) songs."
+    },
+    {
+      "id": "nat-burmese-ma-phae-wah",
+      "kind": "deity",
+      "name": "Ma Phae Wah (The Yellow Ribbon Lady)",
+      "archetypes": [
+        "psychopomp",
+        "underworld-sovereign"
+      ],
+      "gloss": "A terrifying guardian of graveyards who appears at midnight in the form of a weeping woman with a yellow ribbon in her hair, carrying a coffin on her shoulder. If she rests the coffin before a house, a child there will die.",
+      "facet": "She represents the unvarnished dread of child mortality. Unlike the moral universe of karma, she operates as a localized engine of arbitrary fate and raw superstition that cannot be reasoned with.",
+      "provenance": "Late 1990s and 2000s Burmese urban legends; roots in older rural cemetery guardian lore."
+    }
+  ],
+  "edges": [
+    {
+      "a": "nat-burmese-min-mahagiri",
+      "b": "nat-burmese-hnamadawgyi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: Brother and sister, burned alive and bound together as the dual Lords of the Great Mountain."
+    },
+    {
+      "a": "nat-burmese-taungbyon-brothers",
+      "b": "nat-burmese-popa-medaw",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The tragic ogress mother and her two executed sons, representing the destruction of native animist families by royal expansion."
+    },
+    {
+      "a": "nat-burmese-thagyamin",
+      "b": "nat-burmese-taungbyon-brothers",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: The king of the nats enforces Buddhist moral order, while the brothers represent the ecstatic, rebellious rejection of that order."
+    },
+    {
+      "a": "nat-burmese-thagyamin",
+      "b": "buddhist-indra-sakra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Thagyamin is a direct localized adoption of the Buddhist Sakra, serving as the moral governor of lower spirits."
+    },
+    {
+      "a": "nat-burmese-thagyamin",
+      "b": "indra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: Shares the Vedic Indra's thunderbolt weapon and status as a storm deity, though thoroughly pacified by Buddhist cosmology."
+    },
+    {
+      "a": "nat-burmese-thagyamin",
+      "b": "zeus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The thunder-wielding sovereign who rules over a chaotic, emotionally volatile pantheon of lesser deities."
+    },
+    {
+      "a": "nat-burmese-min-mahagiri",
+      "b": "hephaestus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The preternaturally skilled blacksmith who suffers severe physical trauma (burning vs. lameness) but becomes a central fixture of power."
+    },
+    {
+      "a": "nat-burmese-min-mahagiri",
+      "b": "wayland",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The legendary smith whose immense skill leads to his capture and mutilation/murder by a greedy, paranoid king."
+    },
+    {
+      "a": "nat-burmese-min-mahagiri",
+      "b": "ogun",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The patron of iron and smithing whose identity is inextricably linked to extreme violence and the foundation of state authority."
+    },
+    {
+      "a": "nat-burmese-hnamadawgyi",
+      "b": "isis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The devoted sister-wife figure who rushes into the site of her brother's violent death to reclaim his physical form."
+    },
+    {
+      "a": "nat-burmese-taungbyon-brothers",
+      "b": "hero-twins",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A dyad of fiercely bonded, unruly brothers who navigate and ultimately disrupt the established order of their civilization."
+    },
+    {
+      "a": "nat-burmese-taungbyon-brothers",
+      "b": "dionysus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Figures whose worship requires massive, ecstatic communal drinking and trance, actively subverting the sober state religion."
+    },
+    {
+      "a": "nat-burmese-popa-medaw",
+      "b": "coatlicue",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying, monstrous mother figure who births major cultural forces but is marked by profound tragic alienation."
+    },
+    {
+      "a": "nat-burmese-popa-medaw",
+      "b": "demeter",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The devastated mother whose grief over the loss of her children transfigures her into a fearsome, untamed force of nature."
+    },
+    {
+      "a": "nat-burmese-ko-gyi-kyaw",
+      "b": "eshu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The unpredictable, vice-loving trickster who acts as an indispensable, chaotic intermediary during ritual possession."
+    },
+    {
+      "a": "nat-burmese-ko-gyi-kyaw",
+      "b": "buddhist-mara",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Where Mara is the Buddhist demon of temptation to be defeated, Ko Gyi Kyaw is the spirit of temptation to be eagerly embraced and propitiated."
+    },
+    {
+      "a": "nat-burmese-ma-phae-wah",
+      "b": "badb",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The terrifying, weeping female specter who appears as a direct, unalterable omen of impending death."
+    },
+    {
+      "a": "nat-burmese-ma-phae-wah",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The uncompromising female sovereign of the graveyard and the dead, operating outside the jurisdiction of the celestial pantheon."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "green-death",
+      "name": "Green Death (Violent Deification)",
+      "subtype": "principle",
+      "gloss": "The belief that an individual who suffers a sudden, violent, or intensely tragic death becomes a powerful spirit, their unlived life-force transmuting into volatile supernatural power.",
+      "reason": "Crucial for animist and folk traditions where gods are not primordial creators, but the lingering ghosts of historical injustice, weaponizing trauma into localized spiritual authority."
+    }
+  ]
+}

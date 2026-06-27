@@ -1,0 +1,246 @@
+{
+  "tradition": {
+    "id": "bahai",
+    "name": "Bahá'í Faith",
+    "region": "Persia → global",
+    "color": "#cf6b52"
+  },
+  "figures": [
+    {
+      "id": "bahai-essence-of-god",
+      "kind": "principle",
+      "name": "The Essence of God (Haqa'iq-i-Ghayb)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The ultimate, inaccessible, and utterly transcendent Creator. God's essence is entirely beyond human comprehension, exalted above all attributes, definitions, names, and earthly dualities.",
+      "facet": "God does not 'withdraw' due to cosmic accident or fracture, but is intrinsically unapproachable. Human contact with the Divine is explicitly impossible; there is no direct mystical union with the Essence, only with its reflection.",
+      "provenance": "The Kitáb-i-Íqán (The Book of Certitude) by Bahá'u'lláh."
+    },
+    {
+      "id": "bahai-manifestation",
+      "kind": "concept",
+      "name": "Manifestations of God (Mazahir-i-Ilahi)",
+      "archetypes": [
+        "axis-mundi",
+        "culture-hero"
+      ],
+      "gloss": "The succession of divine messengers (including Abraham, Krishna, Buddha, Christ, Muhammad, and Bahá'u'lláh) who reflect God's attributes like flawless mirrors reflecting the sun. They act as the sole bridge between the unknowable Essence and humanity.",
+      "facet": "Rejects both incarnation (God becoming flesh) and ordinary prophethood. They are a distinct ontological order—neither God Himself nor mere humans, but perfect conduits tailored to the spiritual capacity of their specific epoch.",
+      "provenance": "The Kitáb-i-Íqán; Some Answered Questions by 'Abdu'l-Bahá."
+    },
+    {
+      "id": "bahai-progressive-revelation",
+      "kind": "principle",
+      "name": "Progressive Revelation",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The engine of spiritual evolution. Religious truth is not absolute but relative, unfolding in endless cycles where each Manifestation brings a new 'chapter' of one continuous divine religion suited to humanity's evolving maturity.",
+      "facet": "Eradicates religious exclusivity. Competing worldviews are not viewed as false or corrupted, but as chronologically accurate curriculum for earlier stages of a single, ongoing spiritual schooling of the human race.",
+      "provenance": "The Kitáb-i-Íqán; Gleanings from the Writings of Bahá'u'lláh."
+    },
+    {
+      "id": "bahai-bahaullah",
+      "kind": "hero",
+      "name": "Bahá'u'lláh (The Glory of God)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Born Mírzá Husayn-'Alí, the latest Manifestation of God. He brings the revelation for the modern age, enduring decades of imprisonment and exile to proclaim the spiritual and administrative unity of the entire human race.",
+      "facet": "He is not the 'final' prophet, but the unifier of the present cycle. He claims to be the simultaneous return of the promised figures of all past religions, gathering all historical lineages into one dispensation.",
+      "provenance": "The Kitáb-i-Aqdas (The Most Holy Book); Letters to the Kings and Rulers."
+    },
+    {
+      "id": "bahai-bab",
+      "kind": "hero",
+      "name": "The Báb (The Gate)",
+      "archetypes": [
+        "psychopomp",
+        "divine-twins"
+      ],
+      "gloss": "Siyyid 'Alí-Muhammad, the Herald who shattered the finality of the Islamic dispensation. He founded Bábism and acted as an independent messenger, violently martyred while preparing the way for 'Him Whom God shall make manifest'.",
+      "facet": "Uniquely, the Báb is both an independent Manifestation of God with His own complete revelation (the Bayán) AND a herald for an immediately successive Manifestation (Bahá'u'lláh), compressing two immense religious cycles into a single generation.",
+      "provenance": "The Persian Bayán; The Dawn-Breakers (Nabíl's Narrative)."
+    },
+    {
+      "id": "bahai-covenant",
+      "kind": "principle",
+      "name": "The Covenant ('Ahd)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The binding agreement ensuring the unity and continuous guidance of the Faith. It guarantees the succession of unerring authority from Bahá'u'lláh to 'Abdu'l-Bahá, the Guardian, and ultimately the Universal House of Justice.",
+      "facet": "Unlike earlier religions plagued by schism, the Bahá'í Faith uses written, legally binding wills to establish an unbreakable institutional order, rendering sectarianism and theological splintering fundamentally incompatible with the religion itself.",
+      "provenance": "The Kitáb-i-Aqdas; Will and Testament of 'Abdu'l-Bahá."
+    },
+    {
+      "id": "bahai-unity",
+      "kind": "principle",
+      "name": "The Most Great Peace (Unity of Humanity)",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The ultimate teleological goal of current human existence. It necessitates the eradication of all prejudices, the equality of men and women, the harmony of science and religion, and the establishment of a global commonwealth.",
+      "facet": "It shifts salvation from a personal, otherworldly rescue to a collective, sociopolitical, and spiritual maturation of the human species in this world—the actualization of a unified planetary civilization.",
+      "provenance": "Proclamation of Bahá'u'lláh; The World Order of Bahá'u'lláh by Shoghi Effendi."
+    },
+    {
+      "id": "bahai-huququllah",
+      "kind": "rite",
+      "name": "Huqúqu'lláh (The Right of God)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A voluntary spiritual wealth tax of 19 percent on accumulated discretionary wealth, paid directly to the Universal House of Justice to fund global administrative, philanthropic, and spiritual endeavors.",
+      "facet": "It explicitly bridges the material and the divine; paying it is considered a deeply personal act of purification that spiritually cleanses one's material wealth and directly binds the individual's labor to the supreme governing body.",
+      "provenance": "The Kitáb-i-Aqdas."
+    }
+  ],
+  "edges": [
+    {
+      "a": "bahai-essence-of-god",
+      "b": "bahai-manifestation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Manifestations are the flawless mirrors reflecting the otherwise inaccessible Essence of God into the human realm."
+    },
+    {
+      "a": "bahai-bahaullah",
+      "b": "bahai-bab",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Twin Manifestations who inextricably share the inauguration of the Bahá'í era."
+    },
+    {
+      "a": "bahai-progressive-revelation",
+      "b": "bahai-manifestation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Manifestations are the chronological delivery mechanisms by which Progressive Revelation drives human evolution."
+    },
+    {
+      "a": "bahai-covenant",
+      "b": "bahai-unity",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The Covenant provides the incorruptible administrative and spiritual scaffolding required to achieve the Most Great Peace."
+    },
+    {
+      "a": "bahai-essence-of-god",
+      "b": "allah-meccan",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Arising from an Islamic context, the Bahá'í Faith explicitly identifies the Essence of God with Allah, maintaining strict Abrahamic monotheism."
+    },
+    {
+      "a": "bahai-essence-of-god",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both denote the ultimate, infinite, and entirely unknowable Reality that precedes all emanation and definition."
+    },
+    {
+      "a": "bahai-essence-of-god",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Deeply parallels Nirguna Brahman—the unmanifest, attribute-less absolute reality behind all cosmic illusion."
+    },
+    {
+      "a": "bahai-essence-of-god",
+      "b": "the-monad",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both systems locate the origin of existence in an utterly transcendent, formless 'Nothingness' preceding all emanation."
+    },
+    {
+      "a": "bahai-manifestation",
+      "b": "buddhist-trikaya",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Manifestation functions similarly to the Nirmanakaya, bridging the absolute truth (Dharmakaya) to the temporal world."
+    },
+    {
+      "a": "bahai-manifestation",
+      "b": "jain-tirthankara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A succession of perfectly enlightened 'ford-makers' who renew the eternal religion in each cosmic cycle."
+    },
+    {
+      "a": "bahai-manifestation",
+      "b": "ixiptla",
+      "type": "analogous",
+      "tier": "4",
+      "note": "GOLD SEAM: A speculative but striking structural parallel: a human vessel who becomes the flawless physical manifestation of the divine, though utterly detached from the mesoamerican sacrificial context."
+    },
+    {
+      "a": "bahai-progressive-revelation",
+      "b": "jain-kalacakra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both view time as moving in vast, cyclical ages of spiritual renewal, though the Bahá'í model emphasizes an upward evolutionary spiral rather than strict endless repetition."
+    },
+    {
+      "a": "bahai-progressive-revelation",
+      "b": "cyclic-ages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Connects to the universal archetype of spiritual eras driven by the appearance of cosmic teachers."
+    },
+    {
+      "a": "bahai-bahaullah",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Bahá'u'lláh explicitly claims to be the 'Return of Christ in the glory of the Father', an intentional theological bridging of Christian eschatology."
+    },
+    {
+      "a": "bahai-bahaullah",
+      "b": "saoshyant",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Bahá'u'lláh is explicitly identified as the fulfillment of the Zoroastrian prophecy of the Saoshyant who brings the final renovation of the world."
+    },
+    {
+      "a": "bahai-unity",
+      "b": "great-peace",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Like the Haudenosaunee Great Peace, a highly structured, legally binding constitutional framework meant to end war forever and unite scattered peoples into one body."
+    },
+    {
+      "a": "bahai-unity",
+      "b": "frashokereti",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The realization of the Most Great Peace is the social and spiritual equivalent of the Zoroastrian 'making wonderful' of the world—the final victory of light."
+    },
+    {
+      "a": "bahai-unity",
+      "b": "hongik-ingan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both share the supreme mandate to work for the broad benefit and unification of all humanity."
+    },
+    {
+      "a": "bahai-covenant",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A foundational concept of maintaining cosmic and social order through divine law, preventing the collapse into spiritual chaos."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "progressive-revelation",
+      "name": "Progressive Revelation",
+      "subtype": "principle",
+      "gloss": "The doctrine that religious truth is not absolute and final, but relative and evolutionary, delivered by an ongoing succession of divine teachers tailored to the capacity of their respective ages.",
+      "reason": "Crucial to bridge the Bahá'í Faith, Manichaeism (the succession of prophets from Adam to Mani), and elements of Islamic prophetology, offering an evolutionary alternative to static cyclical time."
+    }
+  ]
+}

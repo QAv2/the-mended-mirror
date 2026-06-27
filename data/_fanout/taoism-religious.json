@@ -1,0 +1,235 @@
+{
+  "tradition": {
+    "id": "taoism-religious",
+    "name": "Religious Taoism (Daojiao)",
+    "region": "China",
+    "color": "#d05a5a"
+  },
+  "figures": [
+    {
+      "id": "taoism-religious-yuhuang-dadi",
+      "kind": "deity",
+      "name": "Yuhuang Dadi (The Jade Emperor)",
+      "archetypes": [
+        "sky-father",
+        "cosmic-order"
+      ],
+      "gloss": "The supreme administrative deity of the popular Taoist pantheon. He rules the cosmos through a massive celestial bureaucracy, overseeing heaven, earth, and the underworld, and directing gods, spirits, and mortals much like an earthly emperor directs his imperial officials.",
+      "facet": "Heaven is not a monarchy but a civil service. He is the ultimate executive of a cosmic bureaucracy where subordinate deities can be promoted, demoted, or fired based on their performance.",
+      "provenance": "Song dynasty imperial edicts; the Daozang (Taoist Canon)."
+    },
+    {
+      "id": "taoism-religious-zhang-daoling",
+      "kind": "hero",
+      "name": "Zhang Daoling (The First Celestial Master)",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero"
+      ],
+      "gloss": "The historical founder of the Way of the Celestial Masters in 142 CE. Following a revelation from the deified Laozi, he established the first organized Taoist religious community, replacing blood sacrifices with formal written petitions to celestial bureaus.",
+      "facet": "He bureaucratized revelation and spirit communication. Instead of relying on shamanic spirit-possession, he introduced an ecclesiastical hierarchy of priests who command spirits legally via written contracts and registers.",
+      "provenance": "The Xiang'er Commentary to the Laozi; early Zhengyi canonical texts."
+    },
+    {
+      "id": "taoism-religious-taishang-laojun",
+      "kind": "deity",
+      "name": "Taishang Laojun (The Grand Supreme Elderly Lord)",
+      "archetypes": [
+        "withdrawn-creator",
+        "culture-hero"
+      ],
+      "gloss": "The anthropomorphic embodiment of the Dao and the supreme revelator of sacred texts. Rather than merely the philosopher who authored the Daodejing, he is a cosmic deity who periodically descends to earth across eons to guide humanity and bestow salvation.",
+      "facet": "He bridges the impersonal generative void of philosophical Taoism with the personal devotion of organized religion, acting as both the eternal cosmic principle and an active, intervening savior figure.",
+      "provenance": "The Scripture of Great Peace (Taiping Jing); Celestial Master decrees."
+    },
+    {
+      "id": "taoism-religious-sanqing",
+      "kind": "deity",
+      "name": "Sanqing (The Three Pure Ones)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The highest trinity of the Taoist pantheon, comprising the Celestial Worthies of Primordial Beginning, Numinous Treasure, and the Way and its Power. They represent the three primordial breaths that generated the cosmos from the void.",
+      "facet": "They are entirely abstract, unmanifest deities devoid of human personality or terrestrial myths. They serve as the ultimate, pristine sources of revelation and the anchors of the highest liturgical rites.",
+      "provenance": "Shangqing and Lingbao scriptures; The Book of Salvation (Duren jing)."
+    },
+    {
+      "id": "taoism-religious-xiwangmu",
+      "kind": "deity",
+      "name": "Xiwangmu (The Queen Mother of the West)",
+      "archetypes": [
+        "great-mother",
+        "master-of-animals"
+      ],
+      "gloss": "A formidable ancient goddess ruling the mythological Mount Kunlun. In religious Taoism, she controls the peaches of immortality and governs the registry of all female transcendents, holding absolute authority over life spans and spiritual attainment.",
+      "facet": "Originating in antiquity as a feral, tiger-toothed weaver of plagues, she was gradually domesticated by Taoism into a regal matriarch. Her realm became the ultimate paradise for adepts seeking immortality.",
+      "provenance": "The Classic of Mountains and Seas (Shanhaijing); Han dynasty tomb art; Shangqing revelations."
+    },
+    {
+      "id": "taoism-religious-neidan",
+      "kind": "rite",
+      "name": "Neidan (Internal Alchemy)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "An esoteric meditative discipline aiming to forge an 'immortal embryo' within the practitioner. It uses the language of laboratory alchemy—cauldrons, lead, mercury—as metaphors for refining the body's internal vital essences, breath, and spirit.",
+      "facet": "The human body is treated as a complete cosmos. Salvation is not granted by a deity's grace, but is biologically and spiritually engineered by the adept by reversing the natural flow of cosmic generation.",
+      "provenance": "Awakening to Reality (Wuzhen pian); The Seal of the Unity of the Three (Cantong qi)."
+    },
+    {
+      "id": "taoism-religious-fulu",
+      "kind": "rite",
+      "name": "Fulu (Talismans and Registers)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Sacred mandates, diagrams, and written petitions used by Taoist priests to command spirits, heal the sick, and restore cosmic balance. They are materialized fragments of primordial celestial vapor, drawn in script intelligible only to the gods.",
+      "facet": "Magic is framed explicitly as administrative paperwork. The priest functions as a cosmic lawyer or bureaucrat, filing written injunctions to exact celestial bureaus rather than performing raw miracle-working.",
+      "provenance": "Lingbao (Numinous Treasure) scriptures; Zhengyi liturgical manuals."
+    }
+  ],
+  "edges": [
+    {
+      "a": "taoism-religious-zhang-daoling",
+      "b": "taoism-religious-taishang-laojun",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Taishang Laojun is the divine revealer; Zhang Daoling is the earthly recipient who established the terrestrial church."
+    },
+    {
+      "a": "taoism-religious-sanqing",
+      "b": "taoism-religious-yuhuang-dadi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Three Pure Ones represent the esoteric, unmanifest Dao, while the Jade Emperor serves as the exoteric, administrative ruler of the cosmos."
+    },
+    {
+      "a": "taoism-religious-neidan",
+      "b": "taoism-religious-fulu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Complementary paths to transcendence: Neidan internalizes the cosmos through bodily alchemy, while Fulu externalizes cosmic power through written talismans."
+    },
+    {
+      "a": "taoism-religious-taishang-laojun",
+      "b": "tao",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In religious Taoism, the philosophical concept of the Tao is explicitly personified and deified as Taishang Laojun."
+    },
+    {
+      "a": "taoism-religious-yuhuang-dadi",
+      "b": "buddhist-indra-sakra",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In Chinese popular religion and medieval syncretism, the Jade Emperor was frequently equated with Indra as the ruler of the thirty-three heavens."
+    },
+    {
+      "a": "taoism-religious-yuhuang-dadi",
+      "b": "shangdi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Jade Emperor absorbed the ancient attributes of Shangdi, becoming the ultimate celestial sovereign in later imperial dynasties."
+    },
+    {
+      "a": "taoism-religious-sanqing",
+      "b": "buddhist-trikaya",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Taoist triad of the Three Pure Ones structurally adapted elements of the Buddhist Trikaya (Three Bodies of Buddha) during medieval sectarian competition."
+    },
+    {
+      "a": "taoism-religious-fulu",
+      "b": "disciplina-etrusca",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions treat cosmic interaction as a highly technical, bureaucratic science of sacred writing and legalistic boundaries rather than ecstatic devotion."
+    },
+    {
+      "a": "taoism-religious-fulu",
+      "b": "thoth",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The weaponization of sacred script, where writing itself is a primordial cosmic force that commands gods and alters reality."
+    },
+    {
+      "a": "taoism-religious-fulu",
+      "b": "fon-fa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A sophisticated system of written cosmic signs that allows practitioners to decode the universe and intervene in destiny."
+    },
+    {
+      "a": "taoism-religious-neidan",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The belief that humanity contains a hidden, primordial essence that must be cultivated to escape the cycles of the material world."
+    },
+    {
+      "a": "taoism-religious-xiwangmu",
+      "b": "inanna",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: An ancient, formidable goddess of life and death whose cult was eventually systematized into a patriarchal pantheon, yet who retained independent sovereign power."
+    },
+    {
+      "a": "taoism-religious-taishang-laojun",
+      "b": "christ",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The incarnation of the ultimate cosmic principle (the Dao / the Logos) descending into human history to provide revelation and salvation."
+    },
+    {
+      "a": "taoism-religious-xiwangmu",
+      "b": "hel",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: A goddess presiding over a designated, sovereign realm of spirits and the dead, though Xiwangmu evolved to govern transcendent immortality rather than mere shade existence."
+    },
+    {
+      "a": "taoism-religious-zhang-daoling",
+      "b": "tages",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The prophetic figure who appears to reveal a comprehensive, codified system of rituals, cosmic laws, and divinatory practices to humanity."
+    },
+    {
+      "a": "taoism-religious-neidan",
+      "b": "manichaean-dualism",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: While Manichaeanism seeks to liberate light by rejecting the evil prison of matter, Neidan views the material body as a necessary, sacred cauldron essential for forging the immortal self."
+    },
+    {
+      "a": "taoism-religious-neidan",
+      "b": "buddhist-anatman",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Where Buddhism seeks liberation through the realization of no-self (anatman), Neidan seeks to condense and forge an indestructible, eternal self."
+    },
+    {
+      "a": "taoism-religious-yuhuang-dadi",
+      "b": "anu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The distant, ultimate sky father who presides over the divine assembly and delegates the actual running of the cosmos to a hierarchy of lesser deities."
+    },
+    {
+      "a": "taoism-religious-xiwangmu",
+      "b": "ptesan-win",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The holy female figure who introduces essential sacred rites and life-sustaining gifts to human practitioners from a supernatural realm."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "bureaucratic-pantheon",
+      "name": "Bureaucratic Pantheon",
+      "subtype": "concept",
+      "gloss": "The conceptualization of the divine realm as a mirror of human civil administration, complete with ministries, official posts, written decrees, and the ability to promote or demote gods.",
+      "reason": "Crucial for Religious Taoism, Chinese folk religion, and aspects of Roman and Mesopotamian religion, where the cosmos is governed by paperwork, meritocracy, and protocol rather than arbitrary divine will."
+    }
+  ]
+}

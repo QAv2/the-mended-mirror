@@ -1,0 +1,236 @@
+{
+  "tradition": {
+    "id": "unitarian-universalist",
+    "name": "Unitarian Universalism",
+    "region": "USA",
+    "color": "#9aa0a8"
+  },
+  "figures": [
+    {
+      "id": "unitarian-universalist-flaming-chalice",
+      "kind": "concept",
+      "name": "The Flaming Chalice",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The official symbol of the tradition, an off-center flame blazing within a chalice. Originally designed in 1941 for the Unitarian Service Committee to identify refugees escaping persecution, it is now lit at the beginning of nearly every gathering to demarcate sacred space and signal the warmth of community.",
+      "facet": "It is an axis mundi forged from mid-twentieth-century humanitarian crisis rather than ancient myth, explicitly left empty so it can hold the diverse, ever-changing theological contents of those who gather around it.",
+      "provenance": "Hans Deutsch (1941); Unitarian Service Committee; officially adopted by the UUA in 1961."
+    },
+    {
+      "id": "unitarian-universalist-inherent-worth",
+      "kind": "principle",
+      "name": "Inherent Worth and Dignity",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The foundational anthropological premise of the faith, affirming the unconditional value of every human being. Arising from liberal religion's rejection of total depravity, it positions human nature as fundamentally sound, possessing an innate moral compass and deserving deep respect regardless of belief.",
+      "facet": "It flattens all spiritual hierarchies. There is no elect, no unsaved mass, and no mediator required; human dignity is treated as an a priori theological absolute from which all ethical and social action must spring.",
+      "provenance": "1984 UUA General Assembly; rooted in William Ellery Channing's 'Unitarian Christianity' (1819)."
+    },
+    {
+      "id": "unitarian-universalist-universal-salvation",
+      "kind": "principle",
+      "name": "Universal Salvation",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The core theological claim of historical Universalism: that a loving, infinite God could not subject any soul to eternal conscious torment. It insists that all souls, without exception, will eventually be reconciled to the divine and to one another.",
+      "facet": "By extinguishing hell entirely, it dismantles the theology of existential terror and cosmic dualism. Religion's focal point shifts radically from post-mortem rescue to present-world healing and ethical obligation.",
+      "provenance": "John Murray (1770); Hosea Ballou's 'Treatise on Atonement' (1805)."
+    },
+    {
+      "id": "unitarian-universalist-interdependent-web",
+      "kind": "concept",
+      "name": "The Interdependent Web",
+      "archetypes": [
+        "cosmic-order",
+        "one-through-many"
+      ],
+      "gloss": "The tradition's ecological and metaphysical framework, honoring 'the interdependent web of all existence.' Emerging from process theology and ecofeminism, it recognizes humanity as deeply embedded within, rather than dominant over, the natural and cosmic order.",
+      "facet": "It radically de-centers the human individual—previously the core of Unitarian thought—re-situating humanity as merely one fragile node in a vastly larger, sacred ecological network where harm to one thread unravels the whole.",
+      "provenance": "Adopted at the 1985 UUA General Assembly."
+    },
+    {
+      "id": "unitarian-universalist-free-search",
+      "kind": "principle",
+      "name": "The Free Search for Truth",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The institutional validation of a 'free and responsible search for truth and meaning.' It formalizes the covenantal rejection of static creeds, elevating personal conscience, empirical science, and continuous revelation as the ultimate arbiters of spiritual reality.",
+      "facet": "It effectively institutionalizes structural heresy. Truth is codified as an endless, open-ended horizon rather than a closed, inherited deposit, ensuring the faith is explicitly designed to eventually outgrow its own founders and current dogmas.",
+      "provenance": "The 1961 UUA consolidation; heavily influenced by the Transcendentalist movement."
+    },
+    {
+      "id": "unitarian-universalist-water-communion",
+      "kind": "rite",
+      "name": "Water Communion",
+      "archetypes": [
+        "mother-of-waters",
+        "one-through-many"
+      ],
+      "gloss": "An annual autumn ritual where congregants pour water brought from their travels, daily lives, or local environments into a single communal vessel. It physically enacts the in-gathering of scattered individuals back into a unified, shared community after time apart.",
+      "facet": "It completely secularizes and democratizes holy water. Sacredness is not imparted downwards by a priest's blessing, but aggregates upwards through the diverse, lived geographic experiences of the laity.",
+      "provenance": "Carolyn McDade and Lucile Schuck Longview (1980)."
+    },
+    {
+      "id": "unitarian-universalist-flower-communion",
+      "kind": "rite",
+      "name": "Flower Communion",
+      "archetypes": [
+        "complementarity",
+        "one-through-many"
+      ],
+      "gloss": "A spring ritual wherein each participant brings a unique flower to the service. They are collected into a vast central bouquet, and at the conclusion, every person takes home a different flower than the one they brought, symbolizing mutual enrichment.",
+      "facet": "It is a communion of pure aesthetics and mutual exchange rather than flesh and blood. The shared body of the community is visualized as an irreducible diversity where no two elements are identical.",
+      "provenance": "Norbert Capek, founder of the Unitarian Church in Czechoslovakia (1923)."
+    },
+    {
+      "id": "unitarian-universalist-oversoul",
+      "kind": "concept",
+      "name": "The Oversoul",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "A foundational Transcendentalist concept defining a supreme, animating, universal spirit that seamlessly unites all human beings and nature. It posits that the divine is accessed directly through unmediated intuition rather than channeled through scripture or church authority.",
+      "facet": "It violently collapses the distinction between the secular and the sacred. By locating the divine perfectly within the self and the soil, it bypasses the altar, making the forest and the individual conscience the ultimate sanctuaries.",
+      "provenance": "Ralph Waldo Emerson's essay 'The Over-Soul' (1841)."
+    },
+    {
+      "id": "unitarian-universalist-deeds-not-creeds",
+      "kind": "principle",
+      "name": "Deeds Not Creeds",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The defining pragmatic ethos of the tradition, demanding that religious truth be validated through ethical action and social justice. It emphasizes marching, voting, and collective organizing as forms of applied, incarnational worship rather than secondary side-effects.",
+      "facet": "It aggressively exteriorizes faith. Internal theological belief is relegated to a private, almost irrelevant matter unless it visibly and measurably bends the arc of the moral universe toward justice in the material world.",
+      "provenance": "19th-century liberal religious slogan; embodied heavily in the Civil Rights work of James Reeb and modern UUA social action."
+    }
+  ],
+  "edges": [
+    {
+      "a": "unitarian-universalist-water-communion",
+      "b": "unitarian-universalist-flower-communion",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: The twin elemental rituals of the gathered community, balancing the mingling of waters and the exchange of flora to demarcate shared space."
+    },
+    {
+      "a": "unitarian-universalist-universal-salvation",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: The literal, scriptural root of Universalism, originally argued by founders as the inescapable conclusion of Christ's total victory over death."
+    },
+    {
+      "a": "unitarian-universalist-inherent-worth",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The assertion of an a priori, uncorrupted, and sacred core within the human being that predates and overrides any institutional doctrine of sin."
+    },
+    {
+      "a": "unitarian-universalist-universal-salvation",
+      "b": "buddhist-avalokitesvara",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The absolute refusal to accept a final cosmic resolution while any being remains in a state of suffering, damnation, or exile."
+    },
+    {
+      "a": "unitarian-universalist-interdependent-web",
+      "b": "tao",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: An impersonal, organic cosmology where nothing exists in isolation and the whole functions as a constantly fluctuating, self-balancing system."
+    },
+    {
+      "a": "unitarian-universalist-interdependent-web",
+      "b": "hozho",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The conceptualization of the universe as a delicate web of relations, where moral action is defined strictly by restoring balance and harmony to the whole."
+    },
+    {
+      "a": "unitarian-universalist-free-search",
+      "b": "jain-anekantavada",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The structural codification of epistemic humility, acknowledging that infinite truth cannot possibly be captured by a single dogma or perspective."
+    },
+    {
+      "a": "unitarian-universalist-oversoul",
+      "b": "brahman",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The monistic reality underlying all forms; the universal spirit into which the individual soul is entirely integrated without a mediator."
+    },
+    {
+      "a": "unitarian-universalist-deeds-not-creeds",
+      "b": "maat",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The validation of the soul not by correct theological belief, but by the visible enactment of justice and cosmic balance in the social sphere."
+    },
+    {
+      "a": "unitarian-universalist-deeds-not-creeds",
+      "b": "asa",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The requirement that spiritual truth must be tangibly operationalized through right action, overriding any internal passive faith."
+    },
+    {
+      "a": "unitarian-universalist-water-communion",
+      "b": "eden-four-rivers",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: While Eden's rivers flow outward from a single divine source to the world, the Water Communion draws scattered worldly waters inward to construct the sacred center."
+    },
+    {
+      "a": "unitarian-universalist-flower-communion",
+      "b": "purusha-prakriti",
+      "type": "analogous",
+      "tier": "4",
+      "note": "Cross-tradition GOLD SEAM: A loose aesthetic parallel to the union of pluralities, generating the communal body through wildly diverse, individuated contributions."
+    },
+    {
+      "a": "unitarian-universalist-flaming-chalice",
+      "b": "atar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The use of an unquenchable flame not to consume sacrifices, but to serve as the radiant, physical anchor of truth, purity, and communal presence."
+    },
+    {
+      "a": "unitarian-universalist-inherent-worth",
+      "b": "hongik-ingan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: A foundational social-theological principle dedicated fundamentally to the maximum benefit, dignity, and flourishing of the human collective."
+    },
+    {
+      "a": "unitarian-universalist-oversoul",
+      "b": "ein-sof",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: The boundless, un-differentiated divine reality that precedes, animates, and ultimately saturates all individual religious expression."
+    }
+  ],
+  "proposedArchetypes": [
+    {
+      "id": "universal-reconciliation",
+      "name": "Universal Reconciliation",
+      "subtype": "principle",
+      "gloss": "The cosmic guarantee that no entity is permanently lost, damned, or exiled; all fragments ultimately return to harmony or unity with the divine.",
+      "reason": "Needed for traditions that structurally reject eternal damnation or permanent cosmic exile, spanning Universalism, Mahayana Bodhisattva vows, and Zoroastrian Frashokereti."
+    },
+    {
+      "id": "open-revelation",
+      "name": "Open Revelation",
+      "subtype": "principle",
+      "gloss": "The assertion that truth is never finalized or enclosed in a single past epoch or text, but is continuously unfolding and discoverable by subsequent generations.",
+      "reason": "Needed for systems like Unitarian Universalism, the Baha'i Faith, and Transcendentalism where scripture is open-ended and personal intuition or empirical discovery supersedes ancient dogma."
+    }
+  ]
+}

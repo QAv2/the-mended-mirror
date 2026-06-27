@@ -105,7 +105,11 @@ html,body{ margin:0; height:100%; overflow:hidden; background:var(--obsidian-2);
   color:var(--gold-deep); list-style:none; }
 #trad-details summary::-webkit-details-marker{ display:none; }
 #trad-details summary::before{ content:'◇ '; }
-#legend-trads{ display:flex; flex-wrap:wrap; gap:5px 10px; margin-top:10px; }
+#legend-trads{ display:flex; flex-wrap:wrap; gap:5px 10px; margin-top:10px;
+  max-height:42vh; overflow-y:auto; padding-right:6px; }
+#legend-trads::-webkit-scrollbar{ width:7px; }
+#legend-trads::-webkit-scrollbar-thumb{ background:rgba(240,196,90,0.2); border-radius:4px; }
+#legend-trads::-webkit-scrollbar-track{ background:transparent; }
 .trad-swatch{ display:inline-flex; align-items:center; gap:5px; background:none; border:none;
   color:var(--silver-dim); font-family:'Spectral',serif; font-size:11px; cursor:pointer;
   padding:1px 3px; border-radius:2px; transition:.15s; }

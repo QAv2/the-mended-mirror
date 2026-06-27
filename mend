@@ -100,6 +100,34 @@ make)
   python3 gen-shard.py "$ID" "${3:-}"
   ;;
 
+date)
+  # seed a tradition's timeline entry (gen-shard.py does this inline, so this is
+  # only needed when the shard JSON was written by hand / an agent / online Gemini)
+  ID="${2:?usage: ./mend date <id>}"
+  python3 seed-temporal.py "$ID"
+  ;;
+
+primer)
+  # online-Gemini path: build the full prompt for <id> and copy it to the clipboard
+  ID="${2:?usage: ./mend primer <id>}"
+  if python3 primer-shard.py "$ID" | xclip -selection clipboard; then
+    echo "✓ prompt for '$ID' copied to your clipboard."
+    echo "  1. open gemini.google.com, paste it, send."
+    echo "  2. copy Gemini's JSON reply."
+    echo "  3. run:  ./mend save $ID"
+  fi
+  ;;
+
+save)
+  # online-Gemini path: read Gemini's pasted JSON (clipboard or stdin), write the
+  # shard, then date + build it automatically.
+  ID="${2:?usage: ./mend save <id>}"
+  python3 save-shard.py "$ID"
+  python3 seed-temporal.py "$ID"
+  echo
+  "$0" build
+  ;;
+
 gui)
   exec python3 forge-server.py
   ;;
@@ -126,7 +154,7 @@ build|view)
   ;;
 
 *)
-  echo "usage: ./mend {status|queue [wave]|brief <id>|build|view}"
+  echo "usage: ./mend {status|queue [wave]|brief <id>|make <id>|primer <id>|save <id>|date <id>|build|view|gui}"
   exit 1
   ;;
 esac
