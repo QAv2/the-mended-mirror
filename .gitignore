@@ -1,0 +1,47 @@
+node_modules/
+*.bak
+/tmp/
+_render_*.png
+_scroll_*.png
+.aider*
+session-context/
+
+# LibreOffice lock files
+.~lock.*#
+
+# generated agent-context extracts (rebuild: see build-dossiers.js header)
+data/_ctx/
+
+# ── internal working data & forge machinery — never public ──────────────
+# raw enrichment intermediates (the site loads the compiled data/mirror-dossiers.js,
+# never these); regenerate the sidecar with build-dossiers.js
+data/_dossier/
+data/_audit/
+data/_fanout/
+data/_verify/
+data/_candidates.json
+data/_reconcile.json
+data/_temporal.json
+data/mirror-data.seed.js
+# forge / audit scripts and scratch surfaces (kept local, not part of the site)
+forge-server.py
+gen-shard.py
+save-shard.py
+primer-shard.py
+seed-temporal.py
+temporal-engine.js
+merge.js
+sanity-check.js
+render-candidates.js
+mend
+GEMINI.md
+AIDER-LOOP.html
+MISSING-SHARDS.txt
+candidates.html
+concepts/
+museum/
+scroll.html
+scroll.css
+scroll.js
+# workflow / job scratch
+*.mjs.tmp

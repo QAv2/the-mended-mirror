@@ -108,6 +108,16 @@
         const eraNames = ring.eras.map(i => M.ERAS[i].name).join(" · ");
         h += `<p class="rel-mini-line">ring of ${esc(eraNames)} — the age it entered the mirror</p>`;
       }
+      // the dossier — what this belief system IS (sidecar: data/mirror-dossiers.js)
+      const dos = (root.MIRROR_DOSSIERS && root.MIRROR_DOSSIERS[k]) || t.dossier;
+      if (dos) {
+        if (dos.essence) h += `<p class="rel-gloss rel-essence">${esc(dos.essence)}</p>`;
+        if (dos.cosmos) h += `<h3>The cosmos it holds</h3><p class="rel-gloss">${esc(dos.cosmos)}</p>`;
+        if (dos.practice) h += `<h3>The practice</h3><p class="rel-gloss">${esc(dos.practice)}</p>`;
+        if (dos.canon) h += `<h3>The canon</h3><p class="rel-gloss">${esc(dos.canon)}</p>`;
+        if (dos.reflects) h += `<h3>Where it stands alone</h3><p class="rel-facet">${esc(dos.reflects)}</p>`;
+        if (dos.sources && dos.sources.length) h += `<h3>Sources</h3><p class="rel-prov">${dos.sources.map(esc).join(" · ")}</p>`;
+      }
       // partners: top convergent traditions
       const partners = [];
       for (const key in M.pairAgg) {

@@ -24,7 +24,23 @@ html,body{ margin:0; height:100%; overflow:hidden; background:var(--obsidian-2);
   -webkit-font-smoothing:antialiased; }
 
 #app{ position:fixed; inset:0; }
-canvas{ display:block; }
+canvas{ display:block; touch-action:none; }
+
+/* ---------- the passage veil (hall <-> rotunda) ---------- */
+#passage-veil{ position:fixed; inset:0; z-index:24; background:#000;
+  opacity:0; pointer-events:none; transition:opacity .6s ease; }
+#passage-veil.dark{ opacity:1; pointer-events:auto; }
+
+/* ---------- the motion button (rotunda, touch devices) ---------- */
+#motion-btn{ position:fixed; bottom:64px; left:50%; transform:translateX(-50%);
+  z-index:8; display:none;
+  font-family:'Spectral',serif; font-size:12px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--silver-dim);
+  background:rgba(12,14,20,0.72); border:1px solid rgba(240,196,90,0.25);
+  border-radius:20px; padding:9px 20px; cursor:pointer; transition:.25s; }
+#motion-btn.here{ display:block; }
+#motion-btn.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.6);
+  background:rgba(240,196,90,0.10); box-shadow:0 0 18px rgba(240,196,90,0.18); }
 
 /* ---------- the gate (threshold overlay) ---------- */
 #gate{
@@ -62,6 +78,7 @@ canvas{ display:block; }
 }
 #gate .controls-note{ margin-top:2.3em; font-size:11.5px; letter-spacing:.05em;
   color:rgba(130,139,156,0.6); line-height:1.8; }
+#gate .controls-note.touch{ display:none; }
 #gate .controls-note b{ color:rgba(205,210,220,0.75); font-weight:400; }
 
 /* ---------- header ---------- */
@@ -190,8 +207,41 @@ canvas{ display:block; }
 #foot a{ color:rgba(130,139,156,0.6); text-decoration:none; transition:.2s; }
 #foot a:hover{ color:var(--gold); }
 
+/* ============================================================
+   MOBILE — the hall in the hand.
+   The reliquary becomes a bottom sheet; the chrome tightens;
+   nothing of the register is lost, only re-set for the palm.
+   ============================================================ */
 @media (max-width:760px){
   #legend{ display:none; }
-  #hall-header h1{ font-size:20px; }
-  #nav .stations button{ padding:6px 8px; font-size:10px; }
+  #hall-header{ top:14px; left:16px; }
+  #hall-header h1{ font-size:17px; }
+  #hall-header .sub{ font-size:11px; margin-top:.25em; }
+
+  #nav{ top:12px; right:12px; left:auto; }
+  #nav .stations{ flex-wrap:wrap; justify-content:flex-end; gap:4px; max-width:62vw; }
+  #nav .stations button{ padding:6px 8px; font-size:9.5px; letter-spacing:.1em; }
+  #nav #btn-mend{ padding:5px 8px; font-size:9.5px; }
+  #year-readout b{ font-size:16px; }
+  #year-readout span{ font-size:11px; }
+
+  #hint{ bottom:14px; font-size:11px; width:92vw; line-height:1.6; }
+  #ceremony-line{ font-size:clamp(17px,5.4vw,26px); white-space:normal; width:92vw; text-align:center; }
+  #hover-label b{ font-size:14px; }
+  #hover-label i{ font-size:10.5px; }
+
+  /* the reliquary rises from below instead of sliding from the side */
+  #reliquary{ top:auto; bottom:0; right:0; left:0; width:100%; max-width:none;
+    height:62vh; padding:44px 22px 32px;
+    border-left:none; border-top:1px solid var(--hair);
+    border-radius:14px 14px 0 0;
+    transform:translateY(110%); box-shadow:0 -24px 60px rgba(0,0,0,0.55); }
+  #reliquary.open{ transform:translateY(0); }
+  #reliquary h2{ font-size:21px; }
+
+  #foot{ bottom:14px; right:14px; font-size:10px; }
+  #motion-btn{ bottom:52px; }
+  #gate .controls-note{ display:none; }
+  #gate .controls-note.touch{ display:block; }
+  #gate h1{ font-size:clamp(30px,9vw,44px); }
 }

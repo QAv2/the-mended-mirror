@@ -1,7 +1,9 @@
 /* ============================================================================
-   THE HALL OF AGES — the threshold: a small obsidian island in the void.
-   One plinth, two relics. The scroll and the astrolabe are the keys; the
-   exhibits across the dark are what the keys open.
+   THE HALL OF AGES — the threshold: one plinth, two relics, center of the room.
+   The plinth stands directly over the pool — the relics rest on the mirror's
+   unbroken heart without knowing it. Choose a relic and the room executes:
+   the astrolabe reveals the instrument in the floor; the scroll wraps the
+   ages around the wall. (The holodeck dissolve itself lives in hall-room.)
    The astrolabe here is procedural UNTIL a real model is dropped at
    assets/astrolabe.glb — then it is swapped in automatically (needs http://
    or a browser that permits file:// XHR; the fallback always works).
@@ -12,39 +14,8 @@
 
   HALL.buildThreshold = function (H) {
     const group = new THREE.Group();
-    group.position.set(0, 0, 46);
+    group.position.set(0, H.room ? H.room.LID_Y : 0.46, 0);
     H.scene.add(group);
-
-    /* ---------- the island ---------- */
-    const island = new THREE.Mesh(
-      new THREE.CylinderGeometry(3.8, 2.8, 0.9, 48),
-      new THREE.MeshStandardMaterial({ color: 0x05070b, roughness: 0.96, metalness: 0.06 })
-    );
-    island.position.y = -0.45;
-    island.name = "island";
-    group.add(island);
-    const inlay = new THREE.Mesh(
-      new THREE.TorusGeometry(3.42, 0.018, 8, 96),
-      new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.4 })
-    );
-    inlay.rotation.x = Math.PI / 2;
-    inlay.position.y = 0.005;
-    group.add(inlay);
-
-    // a hairline gold crack across the island — the seam motif underfoot
-    (function () {
-      const pts = [];
-      for (let i = 0; i <= 10; i++) {
-        const t = i / 10;
-        pts.push(new THREE.Vector3(-3.6 + t * 6.4, 0.012, Math.sin(t * 5.2) * 0.55 - 0.4));
-      }
-      const geo = new THREE.BufferGeometry().setFromPoints(pts);
-      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
-        color: 0xf0c45a, transparent: true, opacity: 0.5,
-        blending: THREE.AdditiveBlending, depthWrite: false, fog: false,
-      }));
-      group.add(line);
-    })();
 
     /* ---------- the plinth (the museum's altar, kept) ---------- */
     const plinthMat = new THREE.MeshStandardMaterial({ color: 0x0e1118, roughness: 0.5, metalness: 0.5 });
@@ -68,7 +39,7 @@
     /* ---------- relic 1 · the scroll ---------- */
     const scroll = new THREE.Group();
     scroll.position.set(-0.42, TOP_Y, 0);
-    scroll.userData = { kind: "relic", which: "scroll", label: "The Scroll of Ages", cap: "walk the strata of time" };
+    scroll.userData = { kind: "relic", which: "scroll", label: "The Scroll of Ages", cap: "stand inside the ages" };
     group.add(scroll);
     const parchMat = new THREE.MeshStandardMaterial({ color: 0xd9c6a2, roughness: 0.9 });
     const parchDeep = new THREE.MeshStandardMaterial({ color: 0xc9b78f, roughness: 0.9 });
@@ -209,30 +180,12 @@
           });
           proc.visible = false;
           astro.add(model);
-          const b2 = new THREE.Box3().setFromObject(model);
-          console.info("[hall] astrolabe.glb mounted. size=" + JSON.stringify(size) +
-            " box2min=" + JSON.stringify(b2.min) + " box2max=" + JSON.stringify(b2.max));
         }, undefined, () => { /* keep the procedural relic */ });
       } catch (e) { /* file:// XHR refusal — the procedural relic stands in */ }
     }
 
-    /* ---------- the seam-road: a gold thread toward the instrument ---------- */
-    (function () {
-      const pts = [];
-      for (let i = 0; i <= 24; i++) {
-        const t = i / 24;
-        pts.push(new THREE.Vector3(Math.sin(t * 2.6) * 0.5, 0.02, 41.5 - t * 11.5));
-      }
-      const geo = new THREE.BufferGeometry().setFromPoints(pts);
-      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
-        color: 0xf0c45a, transparent: true, opacity: 0.30,
-        blending: THREE.AdditiveBlending, depthWrite: false, fog: false,
-      }));
-      H.scene.add(line);
-    })();
-
     H.threshold = {
-      group, astro, scroll, rete,
+      group, astro, scroll, rete, caseLight,
       pickables: [astroGrab, scrollGrab],
       tick(dt) { rete.rotation.y += dt * 0.25; },
     };

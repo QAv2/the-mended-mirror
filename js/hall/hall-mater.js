@@ -290,7 +290,7 @@
        Angle IS time: one turn from the deep past to now.
        ========================================================================= */
     const RIM_IN = M.R + 0.55, RIM_OUT = M.R + 3.2;
-    function angleOfT(t) { return -Math.PI / 2 + t * TAU; }   // 12 o'clock = the deep past
+    const angleOfT = t => M.timeAngle.angleOfT(t);   // the shared hand — one mapping for rule, calendar, wall
 
     const rimCanvas = document.createElement("canvas");
     rimCanvas.width = rimCanvas.height = 2048;
@@ -351,6 +351,27 @@
       g.beginPath();
       g.arc(Math.cos(aN) * RIM_IN * S, Math.sin(aN) * RIM_IN * S, 7, 0, TAU);
       g.fill();
+      // the door — the prophesied interval, sealed across the calendar's wrap.
+      // The same arc the wall leaves open as its doorway.
+      const DOOR = M.timeAngle.DOOR_A;
+      g.strokeStyle = "rgba(240,196,90,0.30)"; g.lineWidth = 2.2;
+      [aN, aN + DOOR].forEach(a => {
+        g.beginPath();
+        g.moveTo(Math.cos(a) * RIM_IN * S, Math.sin(a) * RIM_IN * S);
+        g.lineTo(Math.cos(a) * RIM_OUT * S, Math.sin(a) * RIM_OUT * S);
+        g.stroke();
+      });
+      g.strokeStyle = "rgba(240,196,90,0.15)"; g.lineWidth = 11;
+      g.beginPath(); g.arc(0, 0, ((RIM_IN + RIM_OUT) / 2) * S, aN, aN + DOOR); g.stroke();
+      const aDm = aN + DOOR / 2;
+      g.save();
+      g.translate(Math.cos(aDm) * (RIM_IN - 0.95) * S, Math.sin(aDm) * (RIM_IN - 0.95) * S);
+      g.rotate(aDm + (Math.sin(aDm) > 0 ? -Math.PI / 2 : Math.PI / 2));
+      g.fillStyle = "rgba(200,180,130,0.58)";
+      g.font = "italic 300 19px Spectral, Georgia, serif";
+      g.textAlign = "center";
+      g.fillText("the prophesied", 0, 0);
+      g.restore();
     }
     drawRim();
     const rimTex = new THREE.CanvasTexture(rimCanvas);

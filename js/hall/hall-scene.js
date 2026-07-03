@@ -20,7 +20,9 @@
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
     renderer.setSize(innerWidth, innerHeight);
-    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    // phones render plenty at 1.5 dpr — the wall texture carries the detail
+    const IS_TOUCH = matchMedia("(pointer:coarse)").matches;
+    renderer.setPixelRatio(Math.min(devicePixelRatio, IS_TOUCH ? 1.5 : 2));
     renderer.outputEncoding = THREE.sRGBEncoding;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.02;
@@ -44,9 +46,9 @@
     const hemi = new THREE.HemisphereLight(0x2c3550, 0x05060a, 0.20);
     scene.add(hemi);
 
-    // the shaft — warm gold, from very high, onto the mirror
-    const shaft = new THREE.SpotLight(0xffe9bf, 1.55, 260, 0.355, 0.55, 1.05);
-    shaft.position.set(14, 120, 10);
+    // the shaft — warm gold, falling through the oculus onto the plinth/mirror
+    const shaft = new THREE.SpotLight(0xffe9bf, 1.55, 260, 0.30, 0.55, 1.05);
+    shaft.position.set(5, 95, 4);
     shaft.target.position.set(0, 0, 0);
     scene.add(shaft, shaft.target);
 
@@ -55,16 +57,16 @@
     fill.position.set(-60, 40, -80);
     scene.add(fill);
 
-    // a dim warmth for the threshold island
+    // a dim warmth for the plinth at the room's center
     const thresholdGlow = new THREE.PointLight(0xffd98a, 1.05, 13, 2.0);
-    thresholdGlow.position.set(0, 3.1, 44.8);
+    thresholdGlow.position.set(0, 3.1, 1.6);
     scene.add(thresholdGlow);
 
     /* ---------- the dust (motes drifting in the shaft) ---------- */
     const dust = (function () {
       const N = 900, pos = new Float32Array(N * 3), seed = new Float32Array(N);
       for (let i = 0; i < N; i++) {
-        const r = 6 + Math.pow(Math.random(), 0.6) * 46;
+        const r = 4 + Math.pow(Math.random(), 0.6) * 24;   // motes stay inside the room
         const a = Math.random() * Math.PI * 2;
         pos[i * 3] = Math.cos(a) * r;
         pos[i * 3 + 1] = 0.5 + Math.random() * 26;
@@ -153,8 +155,9 @@
       });
       const cone = new THREE.Mesh(geo, mat);
       cone.name = "shaftcone";
-      cone.position.set(7, 59, 5);
-      cone.rotation.z = 0.06; cone.rotation.x = -0.04;
+      cone.scale.set(0.32, 0.36, 0.32);       // sized to fall through the oculus
+      cone.position.set(1.2, 21.5, 0.9);
+      cone.rotation.z = 0.05; cone.rotation.x = -0.03;
       scene.add(cone);
       H.shaftMat = mat;
     })();
@@ -180,19 +183,28 @@
 
     /* ---------- orbit rig ---------- */
     const rig = {
-      target: new THREE.Vector3(0, 1.2, 46),
+      target: new THREE.Vector3(0, 1.2, 0),
       sph: new THREE.Spherical(9, 1.25, 0.0),      // radius, phi(from +Y), theta
-      dTarget: new THREE.Vector3(0, 1.2, 46),      // damped goals
+      dTarget: new THREE.Vector3(0, 1.2, 0),       // damped goals
       dSph: new THREE.Spherical(9, 1.25, 0.0),
       min: 2.5, max: 120, minPhi: 0.14, maxPhi: 1.52,
       locked: false,                                // during flights
       panMode: "orbit",                             // station-specific behavior
       panClamp: null,                               // {x0,x1,y0,y1,z} for the wall
+      pano: null,                                   // {eye} — stand inside a room and look
       update(dt) {
         const k = 1 - Math.pow(0.0001, dt);         // damping toward goals
         this.sph.radius += (this.dSph.radius - this.sph.radius) * k;
         this.sph.phi += (this.dSph.phi - this.sph.phi) * k;
         this.sph.theta += (this.dSph.theta - this.sph.theta) * k;
+        if (this.pano) {
+          // first-person: the camera stands at the eye and the sphericals are gaze
+          camera.position.copy(this.pano.eye);
+          const dir = new THREE.Vector3().setFromSpherical(
+            new THREE.Spherical(1, this.sph.phi, this.sph.theta));
+          camera.lookAt(this.pano.eye.clone().add(dir));
+          return;
+        }
         this.target.lerp(this.dTarget, k);
         const off = new THREE.Vector3().setFromSpherical(this.sph);
         camera.position.copy(this.target).add(off);
@@ -242,6 +254,15 @@
         pointer.moved += Math.abs(dx) + Math.abs(dy);
         if (pointer.dragging && H.onDrag) {
           H.onDrag(e);
+        } else if (rig.pano) {
+          // grab the room: drag right, the wall slides right
+          if (H.rotunda && H.rotunda.gyro.active) {
+            H.rotunda.gyro.yawOffset += dx * 0.0026;
+          } else {
+            rig.dSph.theta += dx * 0.0026;
+            rig.dSph.phi -= dy * 0.0024;
+            rig.clampGoals();
+          }
         } else if (pointer.button === 2 || e.shiftKey || rig.panMode === "pan") {
           // pan in the view plane
           const scale = rig.sph.radius * 0.0011;

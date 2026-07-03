@@ -571,9 +571,36 @@
     const jointById = {};
     joints.forEach((j, i) => jointById[j.a.id] = i);
 
+    /* ---------- the shared time-angle: one hand for rule, calendar, wall ----
+       The room is a cylinder; angle IS time everywhere in it. The historical
+       arc spans TAU minus the door — "the prophesied", the one interval
+       history hasn't written — centered exactly where NOW meets the deep past
+       (the old calendar's wrap point, widened into a doorway). The rule on
+       the floor, the rim calendar, the meridian on the wall and the strata
+       all derive from THIS mapping, so the rule always points at the meridian.
+       Angles are paint-frame angles; world bearing conversions live with the
+       geometry that needs them. */
+    const DOOR_FRAC = 5.5 / 117.5;                 // the scroll's prophesied fraction
+    const DOOR_A = DOOR_FRAC * TAU;
+    const TA_START = -Math.PI / 2 + DOOR_A / 2;    // deep-past jamb
+    const TA_SPAN = TAU - DOOR_A;                  // the written ages
+    const timeAngle = {
+      DOOR_A: DOOR_A, START: TA_START, SPAN: TA_SPAN,
+      DOOR_CENTER: -Math.PI / 2,
+      angleOfT: function (t) { return TA_START + t * TA_SPAN; },
+      tOfAngle: function (a) {
+        let d = ((a - TA_START) % TAU + TAU) % TAU;
+        if (d > TA_SPAN) return (d - TA_SPAN) < DOOR_A / 2 ? 1 : 0;   // inside the door: snap to the nearer jamb
+        return d / TA_SPAN;
+      },
+      angleOfYear: function (y) { return TA_START + time.yearToT(Math.min(NOW, y)) * TA_SPAN; },
+      yearOfAngle: function (a) { return time.tToYear(this.tOfAngle(a)); },
+    };
+
     /* ---------- expose ---------- */
     return {
       DATA: DATA, time: time, ERAS: ERAS, NOW: NOW, FUTURE_TO: FUTURE_TO,
+      timeAngle: timeAngle,
       rings: ringDef, ringR: ringR, R: R_OUT, POOL_R: POOL_R, CRACK_W: CRACK_W,
       shards: shards, shardOfTrad: shardOfTrad, borders: borders,
       pairAgg: pairAgg, figAnchor: figAnchor, figById: figById,

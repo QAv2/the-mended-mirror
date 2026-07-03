@@ -8,19 +8,25 @@
 <!-- ============================================================================
      THE MENDED MIRROR · THE HALL OF AGES
      ----------------------------------------------------------------------------
-     The 3D home of the corpus. One void, two exhibits, one clock:
+     One room, two simulations, one clock. You are dropped into an almost-empty
+     planetarium: a plinth under an oculus, two relics. Choose one and the
+     holodeck executes — the room dissolves into the dark it was veiling:
 
-       · THE INSTRUMENT — a colossal astrolabe whose mater is the shattered
-         mirror itself: 219 shards of dark glass in a radial fracture whose
-         rings are ages (oldest at the center — the mirror grew outward).
-         Gold ribbons fill the cracks where traditions truly converge, tiered
-         by evidence. 1,736 figures float above their shards; their seams arc
-         through the air; the 42 archetype-joints ride the rete above.
+       · THE INSTRUMENT — the floor: a colossal astrolabe whose mater is the
+         shattered mirror itself: 219 shards of dark glass in a radial
+         fracture whose rings are ages (oldest at the center — the mirror
+         grew outward). Gold ribbons fill the cracks where traditions truly
+         converge, tiered by evidence. 1,736 figures float above; the 42
+         archetype-joints ride the rete. Seen from top/center, looking down.
          Drag the rule to travel time. The pool at the center replays the mend.
 
-       · THE SCROLL — a strata wall: every tradition a life-line in its own
-         glass color, oldest at the bottom, with the twelve dated syncretism
-         moments hanging between their lanes as gold seals.
+       · THE SCROLL — the wall: the strata of time bent until the ends meet,
+         wrapping the room at the instrument's exterior diameter. Every
+         tradition a life-line, oldest at the floor; the twelve dated
+         syncretism moments hang off the wall as gold seals. You stand at the
+         center. The one unwritten interval — the prophesied — is the door.
+
+     The rule on the floor and the meridian on the wall are the same hand.
 
      Everything is vendored (Three.js r147 UMD + fonts) — runs from file://
      offline, no build step. Drop a Meshy model at assets/astrolabe.glb and
@@ -40,7 +46,10 @@
   <div id="gate-enter">laying the mirror&hellip;</div>
   <p class="controls-note">
     <b>drag</b> to turn &middot; <b>scroll</b> to draw close &middot; <b>click</b> what gleams<br>
-    <b>1 · 2 · 3</b> move between the threshold, the instrument, the scroll
+    <b>1 · 2 · 3</b> — the room, the instrument, the scroll
+  </p>
+  <p class="controls-note touch">
+    <b>drag</b> to turn &middot; <b>pinch</b> to draw close &middot; <b>tap</b> what gleams
   </p>
 </div>
 
@@ -52,7 +61,7 @@
 
 <nav id="nav">
   <div class="stations">
-    <button data-station="threshold">threshold</button>
+    <button data-station="room">the room</button>
     <button data-station="instrument">the instrument</button>
     <button data-station="scroll">the scroll</button>
   </div>
@@ -80,11 +89,14 @@
 <script src="vendor/three.min.js"></script>
 <script src="vendor/GLTFLoader.js"></script>
 <script src="data/mirror-data.js"></script>
+<script src="data/mirror-dossiers.js"></script>
 <script src="js/hall/hall-data.js"></script>
 <script src="js/hall/hall-scene.js"></script>
 <script src="js/hall/hall-mater.js"></script>
 <script src="js/hall/hall-figures.js"></script>
 <script src="js/hall/hall-scroll.js"></script>
+<script src="js/hall/hall-rotunda.js"></script>
+<script src="js/hall/hall-room.js"></script>
 <script src="js/hall/hall-threshold.js"></script>
 <script src="js/hall/hall-ui.js"></script>
 <script src="js/hall/hall-main.js"></script>

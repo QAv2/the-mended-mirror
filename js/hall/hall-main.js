@@ -1,6 +1,13 @@
 /* ============================================================================
    THE HALL OF AGES — the conductor.
-   Stations, picking, selection, time, and the mend ceremony.
+   Stations, the holodeck, picking, selection, time, and the mend ceremony.
+   ----------------------------------------------------------------------------
+   Three stations, one room:
+     room       — the lobby: plinth + two relics under the oculus
+     instrument — the holodeck executed, seen from top/center, looking down
+                  at the mirror in the floor (the ceremony's vantage)
+     scroll     — the holodeck executed, standing at the center, the ages
+                  wrapped around you on the wall
    ============================================================================ */
 (function (root) {
   "use strict";
@@ -17,62 +24,112 @@
       if (gateStatus) gateStatus.textContent = t;
       return new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
     };
-    await stage("laying the mirror\u2026");
+    await stage("laying the mirror…");
     H.model = HALL.buildModel(root.MIRROR_DATA);
-    await stage("opening the void\u2026");
+    await stage("opening the void…");
     HALL.buildScene(H);
-    await stage("cutting the shards\u2026");
+    await stage("cutting the shards…");
     HALL.buildMater(H);
-    await stage("raising the seams\u2026");
+    await stage("raising the seams…");
     HALL.buildFigures(H);
-    await stage("unrolling the scroll\u2026");
+    await stage("unrolling the scroll…");
     HALL.buildScroll(H);
-    await stage("setting the plinth\u2026");
+    await stage("bending the scroll into the wall…");
+    HALL.buildRotunda(H);
+    await stage("building the room…");
+    HALL.buildRoom(H);
+    await stage("setting the plinth…");
     HALL.buildThreshold(H);
     HALL.buildUI(H);
 
-    const M = H.model, D = M.DATA;
+    const M = H.model, D = M.DATA, TA = M.timeAngle;
+
+    /* the lobby veils the exhibits until a relic is chosen */
+    H.room.setInstant("lobby");
 
     /* ---------- stations ---------- */
     const POSES = {
-      threshold: { target: new THREE.Vector3(0, 1.15, 46), radius: 6.4, phi: 1.38, theta: 0 },
-      instrument: { target: new THREE.Vector3(0, 1.2, 0), radius: 47, phi: 0.76, theta: Math.PI + 0.45 },
-      scroll: { target: new THREE.Vector3(24, 14.5, H.scroll.WALL_Z), radius: 50, phi: 1.45, theta: 0 },
+      room: { target: new THREE.Vector3(0, 1.1, 0), radius: 8.5, phi: 1.28, theta: 0.35 },
+      instrument: { target: new THREE.Vector3(0, 0.4, 0), radius: 27.5, phi: 0.16, theta: Math.PI + 0.45 },
     };
     const HINTS = {
-      threshold: "drag to look &middot; <b>click a relic</b> to open its exhibit",
-      instrument: "drag to turn &middot; scroll to draw close &middot; <b>click what gleams</b> &middot; drag the <b>rule</b> to travel time",
-      scroll: "drag to pan the ages &middot; <b>click a life-line</b> &middot; drag the <b>gold cursor</b> to travel time",
+      room: "drag to look &middot; <b>arrow keys</b> to walk &middot; <b>click a relic</b> to run its simulation",
+      instrument: "drag to turn &middot; scroll to draw close &middot; <b>arrows</b> to walk &middot; <b>click what gleams</b> &middot; drag the <b>rule</b> to travel time",
+      scroll: "you stand inside the ages &middot; <b>arrow keys</b> to walk &middot; drag to turn &middot; drag the <b>gold meridian</b> to travel time &middot; <b>the door</b> leads back",
     };
-    let station = "threshold";
+    let station = "room";
     let visitedInstrument = false;
 
+    function clampsFor(name) {
+      const rig = H.rig;
+      rig.panMode = "orbit"; rig.panClamp = null;
+      if (name === "room") {
+        rig.min = 2.5; rig.max = 26;
+        rig.minPhi = 0.35; rig.maxPhi = 1.50;
+      } else if (name === "instrument") {
+        rig.min = 5; rig.max = 30;
+        rig.minPhi = 0.06; rig.maxPhi = 1.32;
+      }
+    }
+
+    function leavePano() {
+      if (!H.rig.pano) return;
+      H.rig.pano = null;
+      H.rotunda.setStanding(false);
+    }
+
     function goStation(name, dur) {
-      if (!POSES[name]) return;
-      station = name;
-      H.ui.setStation(name);
+      if (name === "threshold") name = "room";        // legacy alias
+      if (name === "rotunda") name = "scroll";        // legacy alias
+      if (name === station && name !== "room") return;
+      const rig = H.rig;
       H.ui.close();
       clearSelection();
-      const rig = H.rig;
-      if (name === "scroll") {
-        rig.panMode = "pan";
-        rig.panClamp = { x0: H.scroll.X0 + 2, x1: H.scroll.XF + 2, y0: 5, y1: H.scroll.H_TOP + 2 };
-        rig.min = 7; rig.max = 60;
-        rig.minPhi = 1.1; rig.maxPhi = 1.62;
-      } else {
-        rig.panMode = "orbit";
-        rig.panClamp = null;
-        rig.min = name === "threshold" ? 2.5 : 5;
-        rig.max = name === "threshold" ? 60 : 110;
-        rig.minPhi = 0.14; rig.maxPhi = 1.52;
+
+      if (name === "room") {
+        station = "room";
+        H.ui.setStation("room");
+        leavePano();
+        clampsFor("room");
+        H.room.powerDown();
+        rig.flyTo(POSES.room, dur || 2.8, () => H.ui.hint(HINTS.room));
+        return;
       }
-      rig.flyTo(POSES[name], dur || 3.0, () => {
-        H.ui.hint(HINTS[name]);
-        if (name === "instrument" && !visitedInstrument) {
-          visitedInstrument = true;
-          setTimeout(() => startCeremony(), 450);
-        }
-      });
+
+      if (name === "instrument") {
+        station = "instrument";
+        H.ui.setStation("instrument");
+        leavePano();
+        clampsFor("instrument");
+        H.room.showInstrument(true);
+        H.room.execute();
+        rig.flyTo(POSES.instrument, dur || 3.6, () => {
+          H.ui.hint(HINTS.instrument);
+          if (!visitedInstrument) {
+            visitedInstrument = true;
+            setTimeout(() => startCeremony(), 450);
+          }
+        });
+        return;
+      }
+
+      if (name === "scroll") {
+        station = "scroll";
+        H.ui.setStation("scroll");
+        H.room.showInstrument(false);     // stand in the ages; the floor astrolabe would occlude the perimeter
+        H.room.execute();
+        const eye = H.rotunda.EYE.clone();
+        rig.flyTo({ target: eye, radius: 3.4, phi: 1.22, theta: rig.dSph.theta }, dur || 2.8, () => {
+          rig.pano = { eye };
+          rig.minPhi = 0.30; rig.maxPhi = 1.72;
+          // orbit looked inward; pano gazes outward — flip to keep the view
+          rig.dSph.theta += Math.PI; rig.sph.theta += Math.PI;
+          rig.dSph.phi = 1.18; rig.sph.phi = 1.18;
+          H.rotunda.setStanding(true);
+          H.ui.hint(HINTS.scroll);
+        });
+        return;
+      }
     }
     H.goStation = goStation;
 
@@ -85,7 +142,7 @@
       H.mater.applyYear(H.year, opts);
       H.figures.applyYear(H.year);
       H.mater.setRuleYear(H.year);
-      H.scroll.setCursorYear(H.year);
+      if (H.rotunda) H.rotunda.setYear(H.year, opts);
       H.ui.setYear(H.year);
     }
     applyYear(true);
@@ -94,6 +151,7 @@
     const cer = { active: false, p: 0, dur: 26, speed: 1 };
     function startCeremony() {
       if (cer.active) return;
+      if (!H.room.holo || !H.room.instrumentShown) { goStation("instrument"); return; }   // the ceremony needs the mirror bare
       clearSelection(); H.ui.close();
       cer.active = true; cer.p = 0; cer.speed = 1; cer.mid = false;
       H.ui.ceremonyLine("It was one mirror.", 4200);
@@ -138,7 +196,6 @@
 
     /* ---------- selection ---------- */
     const sel = { type: null, id: null };
-    function baseArcOpacity() { return sel.type ? 0.22 : 1.0; }
 
     function clearSelection() {
       sel.type = null; sel.id = null;
@@ -146,7 +203,7 @@
       H.mater.selV.fill(0); H.mater.hoverV.fill(0); H.mater.dimV.value = 0;
       lastHoverShard = -1; lastHoverFig = -1;
       H.figures.overlay.clear(); H.figures.threads.clear();
-      H.figures.arcMat.uniforms.uOpacity.value = 1.0;
+      H.figures.arcMat.uniforms.uOpacity.value = H.room.holo ? 1.0 : 0.0;
       applyYear(true);
     }
     H.onPanelClose = clearSelection;
@@ -226,10 +283,10 @@
       if (station === "instrument") return;
       station = "instrument";
       H.ui.setStation("instrument");
-      const rig = H.rig;
-      rig.panMode = "orbit"; rig.panClamp = null;
-      rig.min = 5; rig.max = 110;
-      rig.minPhi = 0.14; rig.maxPhi = 1.52;
+      leavePano();
+      clampsFor("instrument");
+      H.room.showInstrument(true);
+      H.room.execute();
     }
     H.jump = {
       figure(fi) {
@@ -287,45 +344,74 @@
 
     function pick() {
       raycaster.setFromCamera(ndc, H.camera);
-      // 1. object raycast (cheap sets only)
+
+      /* the lobby: only the relics live */
+      if (!H.room.holo) {
+        const hits = raycaster.intersectObjects(H.threshold.pickables, false);
+        for (const h of hits) {
+          if (h.object.userData.kind === "relic") return { kind: "relic", which: h.object.userData.which, obj: h.object };
+        }
+        return null;
+      }
+
+      /* standing in the scroll: the floor astrolabe is hidden — only the wall is live */
+      if (H.rig.pano) {
+        const hits = raycaster.intersectObjects(H.rotunda.pickables.filter(Boolean), false);
+        let mer = null, seal = null, door = null, wall = null;
+        for (const h of hits) {
+          const kind = h.object.userData.kind;
+          if (kind === "rmeridian" && !mer) mer = h;
+          else if (kind === "rmoment" && !seal) seal = h;
+          else if (kind === "rdoor" && !door) door = h;
+          else if (kind === "rwall" && !wall) wall = h;
+        }
+        if (mer) return { kind: "rmeridian" };
+        if (seal) return { kind: "rmoment", edge: seal.object.userData.edge, obj: seal.object };
+        if (door) return { kind: "rdoor" };
+        if (wall) {
+          const lane = H.rotunda.laneAt(wall.point);
+          if (lane) return { kind: "rlane", trad: lane.trad, pos: lane.pos };
+          return { kind: "rwallvoid" };
+        }
+        return null;
+      }
+
+      /* the executed room: floor exhibit + wall exhibit together */
       const objs = [H.mater.grab];
-      if (station === "scroll") objs.push(H.scroll.cursor.children[2], H.scroll.group.children.find(o => o.userData.kind === "wall"));
       H.figures.joints.forEach(j => objs.push(j.mesh));
       objs.push(H.figures.points);
-      H.threshold.pickables.forEach(o => objs.push(o));
+      H.rotunda.pickables.forEach(o => objs.push(o));
       const hits = raycaster.intersectObjects(objs.filter(Boolean), false);
-      let grabHit = null, jointHit = null, figHit = null, wallHit = null, relicHit = null, cursorHit = null;
+      let grabHit = null, jointHit = null, figHit = null;
+      let mer = null, seal = null, door = null, wall = null;
       for (const h of hits) {
         const kind = h.object.userData.kind;
         if (kind === "rule" && !grabHit) grabHit = h;
-        else if (kind === "cursor" && !cursorHit) cursorHit = h;
         else if (kind === "joint" && !jointHit) jointHit = h;
         else if (h.object === H.figures.points && !figHit) figHit = h;
-        else if (kind === "wall" && !wallHit) wallHit = h;
-        else if (kind === "relic" && !relicHit) relicHit = h;
+        else if (kind === "rmeridian" && !mer) mer = h;
+        else if (kind === "rmoment" && !seal) seal = h;
+        else if (kind === "rdoor" && !door) door = h;
+        else if (kind === "rwall" && !wall) wall = h;
       }
       if (grabHit) return { kind: "rule" };
-      if (cursorHit) return { kind: "cursor" };
-      if (relicHit) return { kind: "relic", which: relicHit.object.userData.which, obj: relicHit.object };
+      if (mer) return { kind: "rmeridian" };
       if (jointHit) return { kind: "joint", idx: jointHit.object.userData.joint, obj: jointHit.object };
       if (figHit && figHit.index !== undefined && H.figures.isLit(figHit.index)) {
         return { kind: "figure", idx: figHit.index };
       }
-      if (wallHit) {
-        const local = H.scroll.group.worldToLocal(wallHit.point.clone());
-        const mom = H.scroll.momentAt(local.x, local.y);
-        if (mom) return { kind: "moment", moment: mom };
-        const lane = H.scroll.tradAt(local.x, local.y);
-        if (lane) return { kind: "lane", trad: lane.trad, y: lane.y, x: local.x };
-        return { kind: "wallvoid", x: local.x };
+      if (seal) return { kind: "rmoment", edge: seal.object.userData.edge, obj: seal.object };
+      // the floor: analytic mater pick (shards, pool, rim calendar)
+      const t = raycaster.ray.intersectPlane(planeY0, v3);
+      if (t) {
+        const res = shardAtPlane(v3.x, v3.z);
+        if (res) return res;
       }
-      // 2. analytic mater pick
-      if (station !== "scroll") {
-        const t = raycaster.ray.intersectPlane(planeY0, v3);
-        if (t) {
-          const res = shardAtPlane(v3.x, v3.z);
-          if (res) return res;
-        }
+      if (door) return { kind: "rdoor" };
+      if (wall) {
+        const lane = H.rotunda.laneAt(wall.point);
+        if (lane) return { kind: "rlane", trad: lane.trad, pos: lane.pos };
+        return { kind: "rwallvoid" };
       }
       return null;
     }
@@ -376,32 +462,34 @@
         H.ui.setHover(p, h.obj.userData.label, h.obj.userData.cap);
       } else if (h.kind === "pool") {
         H.ui.setHover(new THREE.Vector3(0, 0.6, 0), "the one face", "click to mend the mirror again");
-      } else if (h.kind === "rule") {
+      } else if (h.kind === "rule" || h.kind === "rmeridian") {
         H.ui.setHover(null);
-      } else if (h.kind === "lane") {
+      } else if (h.kind === "rlane") {
         const t = D.traditions[h.trad];
-        const wp = H.scroll.group.localToWorld(new THREE.Vector3(h.x, h.y + 0.5, 0.4));
         const p = t.period || {};
         const years = (p.from < 0 ? Math.abs(p.from).toLocaleString() + " BCE" : p.from + " CE") + " — " + (p.living ? "living" : (p.to < 0 ? Math.abs(p.to) + " BCE" : p.to + " CE"));
-        H.ui.setHover(wp, t.name, years, t.color);
-      } else if (h.kind === "moment") {
-        const e = h.moment.edge;
-        const wp = H.scroll.group.localToWorld(new THREE.Vector3(h.moment.x, h.moment.y + 0.8, 0.4));
-        const y = e.when.when;
-        H.ui.setHover(wp, "a sealing", (y < 0 ? Math.abs(y) + " BCE" : y + " CE") + " · click to read");
+        H.ui.setHover(h.pos, t.name, years, t.color);
+      } else if (h.kind === "rmoment") {
+        const p = new THREE.Vector3(); h.obj.getWorldPosition(p); p.y += 0.8;
+        const y = h.edge.when.when;
+        H.ui.setHover(p, "a sealing", (y < 0 ? Math.abs(y) + " BCE" : y + " CE") + " · click to read");
+      } else if (h.kind === "rdoor") {
+        const p = new THREE.Vector3(Math.cos(TA.DOOR_CENTER), 0, Math.sin(TA.DOOR_CENTER)).multiplyScalar(H.rotunda.RAD - 2.5);
+        p.y = 3.2;
+        H.ui.setHover(p, "the prophesied", "the way back to the room");
       } else {
         H.ui.setHover(null);
       }
     }
 
-    /* ---------- drags (rule & cursor) ---------- */
+    /* ---------- drags (rule & meridian are the same hand) ---------- */
     H.onPointerDown = () => {
       if (cer.active) { cer.speed = 6; return; }
       if (H.rig.locked) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
       if (h && h.kind === "rule") H.pointer.dragging = "rule";
-      else if (h && h.kind === "cursor") H.pointer.dragging = "cursor";
+      else if (h && h.kind === "rmeridian") H.pointer.dragging = "rmeridian";
       if (H.pointer.dragging) H.ui.setHover(null);
     };
     H.onDrag = () => {
@@ -409,17 +497,13 @@
       raycaster.setFromCamera(ndc, H.camera);
       if (H.pointer.dragging === "rule") {
         if (raycaster.ray.intersectPlane(planeY0, v3)) {
-          const th = Math.atan2(v3.z, v3.x);
-          let t = (th + Math.PI / 2) / TAU;
-          t = ((t % 1) + 1) % 1;
-          H.year = M.time.tToYear(t);
+          H.year = TA.yearOfAngle(Math.atan2(v3.z, v3.x));
           applyYear(false, {});
         }
-      } else if (H.pointer.dragging === "cursor") {
-        const wall = new THREE.Plane(new THREE.Vector3(0, 0, 1), -H.scroll.WALL_Z);
-        if (raycaster.ray.intersectPlane(wall, v3)) {
-          const local = H.scroll.group.worldToLocal(v3.clone());
-          H.year = Math.min(M.NOW, H.scroll.yearOfX(local.x));
+      } else if (H.pointer.dragging === "rmeridian") {
+        const hits = raycaster.intersectObjects(H.rotunda.pickables.filter(o => o.userData.kind === "rwall"), false);
+        if (hits.length) {
+          H.year = Math.min(M.NOW, H.rotunda.yearAt(hits[0].point));
           applyYear(false, {});
         }
       }
@@ -440,7 +524,7 @@
       } else if (h.kind === "figure") {
         selectFigure(h.idx);
         const a = M.figAnchor[h.idx];
-        flyToPoint(a, Math.max(6, H.rig.dSph.radius * 0.45), 1.4);
+        if (!H.rig.pano) flyToPoint(a, Math.max(6, H.rig.dSph.radius * 0.45), 1.4);
       } else if (h.kind === "shard") {
         selectShard(h.idx);
       } else if (h.kind === "joint") {
@@ -448,15 +532,15 @@
       } else if (h.kind === "pool") {
         startCeremony();
       } else if (h.kind === "rim") {
-        let t = (h.theta + Math.PI / 2) / TAU;
-        t = ((t % 1) + 1) % 1;
-        H.year = M.time.tToYear(t);
+        H.year = TA.yearOfAngle(h.theta);
         applyYear(true);
-      } else if (h.kind === "lane") {
+      } else if (h.kind === "rlane") {
         H.ui.openTradition(h.trad);
-      } else if (h.kind === "moment") {
-        H.ui.openSeam(h.moment.edge);
-      } else if (h.kind === "wallvoid") {
+      } else if (h.kind === "rmoment") {
+        H.ui.openSeam(h.edge);
+      } else if (h.kind === "rdoor") {
+        goStation("room");
+      } else if (h.kind === "rwallvoid") {
         if (sel.type) { clearSelection(); H.ui.close(); }
       }
     };
@@ -464,55 +548,114 @@
 
     /* ---------- keys ---------- */
     addEventListener("keydown", e => {
-      if (e.code === "Digit1") goStation("threshold");
+      if (e.code === "Digit1") goStation("room");
       else if (e.code === "Digit2") goStation("instrument");
-      else if (e.code === "Digit3") goStation("scroll");
+      else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
       else if (e.code === "Space") { e.preventDefault(); if (!cer.active) startCeremony(); else cer.speed = 6; }
       else if (e.code === "Escape") { clearSelection(); H.ui.close(); }
     });
 
+    /* ---------- walking (arrow keys / WASD) ----------
+       In the scroll you stand and actually walk the floor; in the orbit
+       stations the same keys glide the pivot across the room. */
+    const walk = { f: 0, b: 0, l: 0, r: 0 };
+    function walkAxis(code) {
+      if (code === "ArrowUp" || code === "KeyW") return "f";
+      if (code === "ArrowDown" || code === "KeyS") return "b";
+      if (code === "ArrowLeft" || code === "KeyA") return "l";
+      if (code === "ArrowRight" || code === "KeyD") return "r";
+      return null;
+    }
+    addEventListener("keydown", e => { const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
+    addEventListener("keyup",   e => { const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
+    const _wf = new THREE.Vector3(), _wr = new THREE.Vector3(), _wm = new THREE.Vector3();
+    function walkStep(dt) {
+      if (!entered || H.rig.locked) return;
+      const f = walk.f - walk.b, s = walk.r - walk.l;
+      if (!f && !s) return;
+      const rig = H.rig;
+      // camera's forward & right, flattened to the floor
+      _wf.setFromMatrixColumn(H.camera.matrixWorld, 2).multiplyScalar(-1); _wf.y = 0;
+      _wr.setFromMatrixColumn(H.camera.matrixWorld, 0); _wr.y = 0;
+      if (_wf.lengthSq() < 1e-6) _wf.set(0, 0, -1);
+      _wf.normalize(); _wr.normalize();
+      _wm.set(0, 0, 0).addScaledVector(_wf, f).addScaledVector(_wr, s);
+      if (_wm.lengthSq() > 1) _wm.normalize();          // no diagonal speed-up
+      _wm.multiplyScalar((rig.pano ? 7.5 : 12) * dt);   // units / second
+      if (rig.pano) {
+        const e = rig.pano.eye;
+        e.x += _wm.x; e.z += _wm.z; e.y = H.rotunda.EYE.y;
+        const maxR = H.rotunda.RAD - 1.3, r = Math.hypot(e.x, e.z);
+        if (r > maxR) { const q = maxR / r; e.x *= q; e.z *= q; }   // stay inside the wall
+      } else {
+        rig.dTarget.x += _wm.x; rig.dTarget.z += _wm.z;
+        const lim = (H.rotunda ? H.rotunda.RAD : 30) - 3, r = Math.hypot(rig.dTarget.x, rig.dTarget.z);
+        if (r > lim) { const q = lim / r; rig.dTarget.x *= q; rig.dTarget.z *= q; }
+        rig.clampGoals();
+      }
+    }
+
     /* ---------- the gate ---------- */
     const gate = document.getElementById("gate");
     const enterBtn = document.getElementById("gate-enter");
-    enterBtn.textContent = "enter the hall";
+    enterBtn.textContent = "enter the room";
     enterBtn.classList.add("ready");
     let entered = false;
     gate.addEventListener("click", () => {
       if (entered) return;
       entered = true;
       gate.classList.add("hidden");
-      // arrival: a long slow settle onto the threshold
-      H.rig.dSph.radius = 26; H.rig.dSph.phi = 1.05; H.rig.dSph.theta = -0.55;
+      // arrival: a long slow settle down toward the plinth
+      H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
       H.rig.sph.copy(H.rig.dSph);
-      H.rig.target.set(0, 1.3, 46); H.rig.dTarget.copy(H.rig.target);
-      H.rig.flyTo(POSES.threshold, 4.6, () => H.ui.hint(HINTS.threshold));
-      H.ui.setStation("threshold");
+      H.rig.target.set(0, 1.3, 0); H.rig.dTarget.copy(H.rig.target);
+      clampsFor("room");
+      H.rig.flyTo(POSES.room, 4.6, () => H.ui.hint(HINTS.room));
+      H.ui.setStation("room");
     });
 
-    /* ---------- shot mode (headless review): hall.html?shot=<station>&year=&r=&phi=&th= ---------- */
+    /* ---------- shot mode (headless review) ----------
+       hall.html?shot=room|instrument|scroll[&year=][&r=&phi=&th=][&selShard=…] */
     (function () {
       const q = new URLSearchParams(location.search);
-      const shot = q.get("shot");
+      let shot = q.get("shot");
       if (!shot) return;
+      if (shot === "threshold") shot = "room";
+      if (shot === "rotunda") shot = "scroll";
       entered = true;
       visitedInstrument = true;
       gate.classList.add("hidden");
-      const pose = POSES[shot] || POSES.instrument;
       const rig = H.rig;
-      rig.dTarget.copy(pose.target); rig.target.copy(pose.target);
-      rig.dSph.radius = +q.get("r") || pose.radius;
-      rig.dSph.phi = +q.get("phi") || pose.phi;
-      rig.dSph.theta = q.get("th") !== null ? +q.get("th") : pose.theta;
-      rig.sph.copy(rig.dSph);
-      if (shot === "scroll") { rig.panMode = "pan"; }
-      if (q.get("year")) { H.year = +q.get("year"); applyYear(true); }
+      if (shot === "scroll") {
+        H.room.setInstant("holo");
+        H.room.showInstrument(false);
+        station = "scroll";
+        rig.pano = { eye: H.rotunda.EYE.clone() };
+        rig.minPhi = 0.30; rig.maxPhi = 1.72;
+        rig.dSph.theta = q.get("th") !== null ? +q.get("th") : Math.PI;
+        rig.dSph.phi = +q.get("phi") || 1.18;
+        rig.sph.copy(rig.dSph);
+        if (q.get("year")) { H.year = +q.get("year"); applyYear(true); }
+        H.ui.setStation("scroll");
+      } else {
+        H.room.setInstant(shot === "room" ? "lobby" : "holo");
+        station = shot;
+        const pose = POSES[shot] || POSES.instrument;
+        clampsFor(station);
+        rig.dTarget.copy(pose.target); rig.target.copy(pose.target);
+        rig.dSph.radius = +q.get("r") || pose.radius;
+        rig.dSph.phi = +q.get("phi") || pose.phi;
+        rig.dSph.theta = q.get("th") !== null ? +q.get("th") : pose.theta;
+        rig.sph.copy(rig.dSph);
+        if (q.get("year")) { H.year = +q.get("year"); applyYear(true); }
+        H.ui.setStation(station);
+      }
       (q.get("hide") || "").split(",").filter(Boolean).forEach(n => {
         const o = H.scene.getObjectByName(n); if (o) o.visible = false;
       });
       if (q.get("selShard")) selectShard(+q.get("selShard"));
       if (q.get("selFig")) selectFigure(+q.get("selFig"));
       if (q.get("selJoint")) selectJoint(+q.get("selJoint"));
-      H.ui.setStation(POSES[shot] ? shot : "instrument");
     })();
 
     /* ---------- loop ---------- */
@@ -522,11 +665,13 @@
       const dt = Math.min(0.05, clock.getDelta());
       elapsed += dt;
       H.stepTweens(dt);
+      walkStep(dt);
       H.rig.update(dt);
       stepCeremony(dt);
       H.mater.tick(elapsed);
       H.figures.tick(elapsed, dt);
       H.threshold.tick(dt);
+      H.rotunda.tick(dt, elapsed);
       if (H.dustMat) H.dustMat.uniforms.uTime.value = elapsed;
       if (H.shaftMat) H.shaftMat.uniforms.uTime.value = elapsed;
       applyHover();
