@@ -1,0 +1,197 @@
+/* ============================================================================
+   THE HALL OF AGES — the skin. Same voice as the flat map: obsidian, silver,
+   gold. A reliquary, not a console. Fonts are vendored — the hall works from
+   file:// with no network at all.
+   ============================================================================ */
+@import url('fonts/fonts.css');
+
+:root{
+  --obsidian:   #0b0d12;
+  --obsidian-2: #06070b;
+  --gold:       #f0c45a;
+  --gold-bright:#ffe49a;
+  --gold-deep:  #b8893a;
+  --silver:     #cdd2dc;
+  --silver-dim: #828b9c;
+  --parchment:  #e9dcc0;
+  --hair:       rgba(240,196,90,0.22);
+  --panel-bg:   rgba(10,12,17,0.88);
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; height:100%; overflow:hidden; background:var(--obsidian-2);
+  font-family:'Spectral', Georgia, serif; color:var(--silver);
+  -webkit-font-smoothing:antialiased; }
+
+#app{ position:fixed; inset:0; }
+canvas{ display:block; }
+
+/* ---------- the gate (threshold overlay) ---------- */
+#gate{
+  position:fixed; inset:0; z-index:30; cursor:pointer;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  text-align:center;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(240,196,90,0.09), rgba(6,7,11,0) 46%),
+    radial-gradient(circle at 50% 50%, #0b0d12 0%, #06070b 72%);
+  transition:opacity 1.4s ease;
+}
+#gate.hidden{ opacity:0; pointer-events:none; }
+#gate .kicker{ font-size:12px; letter-spacing:.34em; text-transform:uppercase;
+  color:var(--gold-deep); margin-bottom:1.7em; }
+#gate h1{
+  font-family:'Marcellus', serif; font-weight:400; margin:0;
+  font-size:clamp(36px, 6vw, 62px); letter-spacing:.05em; line-height:1.05;
+  background:linear-gradient(180deg,#fff1c8,#e7b24a 68%,#a9772f);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+}
+#gate .sub{ margin:.9em 0 0; font-style:italic; font-weight:300;
+  font-size:clamp(14px,2.2vw,18px); color:var(--silver-dim); letter-spacing:.03em; }
+#gate-enter{
+  margin-top:3.1em; font-size:13px; letter-spacing:.24em; text-transform:uppercase;
+  color:var(--silver-dim); border:1px solid rgba(240,196,90,0.22);
+  border-radius:2px; padding:13px 30px; background:rgba(240,196,90,0.03);
+}
+#gate-enter.ready{
+  color:var(--gold-bright); border-color:rgba(240,196,90,0.4);
+  animation:breathe 3.4s ease-in-out infinite;
+}
+@keyframes breathe{
+  0%,100%{ opacity:.6; box-shadow:0 0 0 rgba(240,196,90,0); }
+  50%    { opacity:1;  box-shadow:0 0 26px rgba(240,196,90,0.16); }
+}
+#gate .controls-note{ margin-top:2.3em; font-size:11.5px; letter-spacing:.05em;
+  color:rgba(130,139,156,0.6); line-height:1.8; }
+#gate .controls-note b{ color:rgba(205,210,220,0.75); font-weight:400; }
+
+/* ---------- header ---------- */
+#hall-header{ position:fixed; top:26px; left:32px; z-index:6; pointer-events:none;
+  text-shadow:0 2px 20px rgba(0,0,0,0.75); }
+#hall-header h1{ font-family:'Marcellus', serif; font-weight:400; margin:0;
+  font-size:26px; letter-spacing:.06em; line-height:1.1;
+  background:linear-gradient(180deg,#fff1c8,#e7b24a 70%,#a9772f);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+#hall-header .sub{ margin:.4em 0 0; font-style:italic; font-weight:300;
+  font-size:13.5px; letter-spacing:.04em; color:var(--silver-dim); }
+
+/* ---------- nav (stations) + year ---------- */
+#nav{ position:fixed; top:26px; right:30px; z-index:7; text-align:right; }
+#nav .stations{ display:flex; gap:6px; justify-content:flex-end; }
+#nav button{
+  font-family:'Spectral',serif; font-size:11.5px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--silver-dim); background:rgba(12,14,20,0.66);
+  border:1px solid rgba(240,196,90,0.16); border-radius:2px; padding:7px 12px;
+  cursor:pointer; transition:.2s;
+}
+#nav button:hover{ color:var(--gold); border-color:rgba(240,196,90,0.4); }
+#nav button.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.55);
+  background:rgba(240,196,90,0.08); }
+#nav #btn-mend{ margin-top:6px; }
+#year-readout{ margin-top:10px; font-family:'Marcellus',serif; pointer-events:none;
+  text-shadow:0 2px 14px rgba(0,0,0,0.8); }
+#year-readout b{ display:block; font-weight:400; font-size:20px; color:var(--gold-bright);
+  letter-spacing:.05em; }
+#year-readout span{ display:block; font-family:'Spectral',serif; font-style:italic;
+  font-weight:300; font-size:12.5px; color:var(--silver-dim); margin-top:2px; }
+
+/* ---------- legend ---------- */
+#legend{ position:fixed; bottom:22px; left:30px; z-index:6; width:330px; max-width:46vw; }
+#legend summary{ cursor:pointer; font-size:11px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--gold-deep); list-style:none; }
+#legend summary::-webkit-details-marker{ display:none; }
+#legend summary::before{ content:'◇ '; }
+#legend .mandate{ margin:10px 0 12px; line-height:1.5; color:var(--silver-dim);
+  font-weight:300; font-size:12px; }
+#legend .mandate b{ color:var(--gold); font-weight:400; }
+#legend-tiers{ display:flex; flex-direction:column; gap:6px; }
+.tier-row{ display:flex; align-items:center; gap:9px; }
+.tier-desc{ font-size:11px; color:var(--silver-dim); font-weight:300; line-height:1.3; }
+.tier-chip{ display:inline-block; font-size:10px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--c); border:1px solid var(--c); border-radius:10px; padding:1px 8px;
+  vertical-align:middle; opacity:.92; white-space:nowrap; }
+
+/* ---------- hint ---------- */
+#hint{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:6;
+  font-size:12.5px; letter-spacing:.06em; color:rgba(150,158,175,0.85); pointer-events:none;
+  text-align:center; transition:opacity 1s ease; text-shadow:0 2px 12px rgba(0,0,0,0.9); }
+#hint b{ color:var(--gold); font-weight:400; }
+
+/* ---------- hover label (anchored to 3D) ---------- */
+#hover-label{
+  position:fixed; z-index:9; pointer-events:none; transform:translate(-50%,-130%);
+  text-align:center; opacity:0; transition:opacity .22s ease; white-space:nowrap;
+}
+#hover-label b{ display:block; font-family:'Marcellus',serif; font-weight:400;
+  font-size:16.5px; letter-spacing:.05em; color:var(--gold-bright);
+  text-shadow:0 2px 16px rgba(0,0,0,0.95), 0 0 20px rgba(240,196,90,0.2); }
+#hover-label i{ display:block; font-style:italic; font-weight:300; font-size:11.5px;
+  letter-spacing:.1em; color:var(--silver-dim); margin-top:.3em;
+  text-shadow:0 2px 10px rgba(0,0,0,0.95); }
+
+/* ---------- ceremony line ---------- */
+#ceremony-line{
+  position:fixed; top:16vh; left:50%; transform:translateX(-50%); z-index:8;
+  font-family:'Marcellus',serif; font-weight:400; font-size:clamp(22px,3.4vw,34px);
+  letter-spacing:.08em; color:var(--gold-bright); pointer-events:none;
+  opacity:0; transition:opacity 1.6s ease;
+  text-shadow:0 2px 30px rgba(0,0,0,0.9), 0 0 40px rgba(240,196,90,0.18);
+  white-space:nowrap;
+}
+#ceremony-line.on{ opacity:1; }
+
+/* ---------- reliquary ---------- */
+#reliquary{ position:fixed; top:0; right:0; z-index:12; width:400px; max-width:92vw;
+  height:100vh; overflow-y:auto; padding:60px 30px 40px;
+  background:var(--panel-bg); backdrop-filter:blur(14px);
+  border-left:1px solid var(--hair);
+  transform:translateX(110%); transition:transform .45s cubic-bezier(.2,.7,.2,1);
+  box-shadow:-30px 0 60px rgba(0,0,0,0.5); }
+#reliquary.open{ transform:translateX(0); }
+#reliquary::-webkit-scrollbar{ width:7px; }
+#reliquary::-webkit-scrollbar-thumb{ background:rgba(240,196,90,0.2); border-radius:4px; }
+#rel-close{ position:absolute; top:16px; right:20px; background:none; border:none;
+  color:var(--silver-dim); font-size:26px; line-height:1; cursor:pointer; transition:.2s; }
+#rel-close:hover{ color:var(--gold-bright); }
+#reliquary .rel-kicker{ font-size:11px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--gold-deep); margin-bottom:.4em; }
+#reliquary h2{ font-family:'Marcellus',serif; font-weight:400; font-size:26px;
+  margin:0 0 .5em; color:var(--gold-bright); letter-spacing:.02em; }
+#reliquary h3{ font-family:'Marcellus',serif; font-weight:400; font-size:12.5px;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--silver-dim);
+  margin:1.8em 0 .7em; border-bottom:1px solid rgba(240,196,90,0.12); padding-bottom:.5em; }
+#reliquary p{ font-size:14.5px; line-height:1.62; color:#d4d9e2; font-weight:300; }
+#reliquary .rel-gloss{ font-size:15.5px; color:#e2e6ee; }
+#reliquary .rel-facet{ color:var(--gold-bright); font-style:italic; }
+#reliquary .rel-prov{ font-size:13px; color:var(--silver-dim); }
+#reliquary .rel-years{ font-size:13px; letter-spacing:.05em; color:var(--gold); }
+#reliquary .rel-arch{ font-size:13px; color:var(--silver-dim); }
+#reliquary .rel-arch b{ color:#f4d78a; font-weight:400; cursor:pointer;
+  border-bottom:1px dotted rgba(244,215,138,0.35); }
+#reliquary .rel-arch b:hover{ color:var(--gold-bright); }
+#reliquary .rel-mini{ font-size:11px; color:var(--silver-dim); font-style:italic; }
+#reliquary .rel-mini-line{ font-size:12px; color:var(--silver-dim); font-style:italic; }
+#reliquary .rel-jump{ cursor:pointer; border-bottom:1px dotted rgba(205,210,220,0.3); }
+#reliquary .rel-jump:hover{ color:#fff; }
+.rel-edges,.rel-figs{ list-style:none; margin:0; padding:0; }
+.rel-edges li{ margin:0 0 1.05em; }
+.rel-figs li{ margin:0 0 .5em; font-size:13.5px; }
+.rel-rel{ font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--silver-dim); }
+.rel-edges b,.rel-figs b{ color:#e9edf4; font-weight:500; cursor:pointer;
+  border-bottom:1px dotted rgba(205,210,220,0.3); }
+.rel-edges b:hover,.rel-figs b:hover{ color:var(--gold-bright); border-color:var(--gold); }
+.rel-note{ font-size:12.5px; line-height:1.5; color:var(--silver-dim); margin-top:.25em; font-weight:300; }
+.forgery-banner{ display:inline-block; font-size:11px; letter-spacing:.18em;
+  text-transform:uppercase; color:#c4c49a; background:rgba(111,124,76,0.16);
+  border:1px solid rgba(111,124,76,0.5); border-radius:2px; padding:5px 10px; margin-bottom:1em; }
+
+/* ---------- footer links ---------- */
+#foot{ position:fixed; bottom:22px; right:26px; z-index:6; font-size:11px;
+  letter-spacing:.12em; text-transform:uppercase; }
+#foot a{ color:rgba(130,139,156,0.6); text-decoration:none; transition:.2s; }
+#foot a:hover{ color:var(--gold); }
+
+@media (max-width:760px){
+  #legend{ display:none; }
+  #hall-header h1{ font-size:20px; }
+  #nav .stations button{ padding:6px 8px; font-size:10px; }
+}

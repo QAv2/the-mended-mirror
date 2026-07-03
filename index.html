@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mended Mirror — The Hall of Ages</title>
+
+<!-- ============================================================================
+     THE MENDED MIRROR · THE HALL OF AGES
+     ----------------------------------------------------------------------------
+     The 3D home of the corpus. One void, two exhibits, one clock:
+
+       · THE INSTRUMENT — a colossal astrolabe whose mater is the shattered
+         mirror itself: 219 shards of dark glass in a radial fracture whose
+         rings are ages (oldest at the center — the mirror grew outward).
+         Gold ribbons fill the cracks where traditions truly converge, tiered
+         by evidence. 1,736 figures float above their shards; their seams arc
+         through the air; the 42 archetype-joints ride the rete above.
+         Drag the rule to travel time. The pool at the center replays the mend.
+
+       · THE SCROLL — a strata wall: every tradition a life-line in its own
+         glass color, oldest at the bottom, with the twelve dated syncretism
+         moments hanging between their lanes as gold seals.
+
+     Everything is vendored (Three.js r147 UMD + fonts) — runs from file://
+     offline, no build step. Drop a Meshy model at assets/astrolabe.glb and
+     the threshold relic swaps itself in (needs http:// or file-XHR allowed).
+     ============================================================================ -->
+
+<link rel="stylesheet" href="hall.css">
+</head>
+<body>
+<div id="app"></div>
+
+<!-- threshold overlay -->
+<div id="gate">
+  <div class="kicker">The Mended Mirror</div>
+  <h1>The Hall of Ages</h1>
+  <p class="sub">a kintsugi of the world&rsquo;s pantheons</p>
+  <div id="gate-enter">laying the mirror&hellip;</div>
+  <p class="controls-note">
+    <b>drag</b> to turn &middot; <b>scroll</b> to draw close &middot; <b>click</b> what gleams<br>
+    <b>1 · 2 · 3</b> move between the threshold, the instrument, the scroll
+  </p>
+</div>
+
+<!-- persistent chrome -->
+<header id="hall-header">
+  <h1>The Mended Mirror</h1>
+  <p class="sub">the hall of ages</p>
+</header>
+
+<nav id="nav">
+  <div class="stations">
+    <button data-station="threshold">threshold</button>
+    <button data-station="instrument">the instrument</button>
+    <button data-station="scroll">the scroll</button>
+  </div>
+  <button id="btn-mend" title="replay the mending of the mirror">⟲ mend again</button>
+  <div id="year-readout"></div>
+</nav>
+
+<details id="legend" open>
+  <summary>the gold is earned</summary>
+  <p class="mandate">Every seam bears its <b>evidence tier</b> — the mirror&rsquo;s immune system.
+  The rings of the fracture are <b>ages</b>: the mirror shattered outward from the deep past.
+  Dark cracks are honest absences.</p>
+  <div id="legend-tiers"></div>
+</details>
+
+<div id="hint"></div>
+<div id="hover-label"></div>
+<div id="ceremony-line"></div>
+
+<aside id="reliquary"></aside>
+
+<div id="foot"><a href="flat.html" title="the 2D map">the flat mirror</a></div>
+
+<!-- vendored: works from file://, offline -->
+<script src="vendor/three.min.js"></script>
+<script src="vendor/GLTFLoader.js"></script>
+<script src="data/mirror-data.js"></script>
+<script src="js/hall/hall-data.js"></script>
+<script src="js/hall/hall-scene.js"></script>
+<script src="js/hall/hall-mater.js"></script>
+<script src="js/hall/hall-figures.js"></script>
+<script src="js/hall/hall-scroll.js"></script>
+<script src="js/hall/hall-threshold.js"></script>
+<script src="js/hall/hall-ui.js"></script>
+<script src="js/hall/hall-main.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(marcellus-400.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(spectral-300i.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(spectral-400i.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(spectral-300.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(spectral-400.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(spectral-500.woff2) format('woff2');
+  
+}
