@@ -17,9 +17,19 @@
     group.position.set(0, H.room ? H.room.LID_Y : 0.46, 0);
     H.scene.add(group);
 
-    /* ---------- the plinth (the museum's altar, kept) ---------- */
-    const plinthMat = new THREE.MeshStandardMaterial({ color: 0x0e1118, roughness: 0.5, metalness: 0.5 });
-    const plinthTopMat = new THREE.MeshStandardMaterial({ color: 0x0e1116, roughness: 0.6, metalness: 0.35 });
+    /* ---------- the plinth (the museum's altar, kept) — dark dressed granite ---------- */
+    const stone = HALL.surface({ base: "#3b3e44", dark: "#26282d", lite: "#4f535a", grain: 1.2, size: 512 });
+    [stone.map, stone.bumpMap, stone.roughnessMap].forEach(t => t.repeat.set(2, 2));
+    const plinthMat = new THREE.MeshStandardMaterial({
+      map: stone.map, bumpMap: stone.bumpMap, bumpScale: 0.016,
+      roughnessMap: stone.roughnessMap, roughness: 0.62, metalness: 0.0,
+    });
+    const stoneTop = HALL.surface({ base: "#43474e", dark: "#2e3136", lite: "#585d65", grain: 0.9, size: 512 });
+    [stoneTop.map, stoneTop.bumpMap, stoneTop.roughnessMap].forEach(t => t.repeat.set(2, 2));
+    const plinthTopMat = new THREE.MeshStandardMaterial({
+      map: stoneTop.map, bumpMap: stoneTop.bumpMap, bumpScale: 0.013,
+      roughnessMap: stoneTop.roughnessMap, roughness: 0.55, metalness: 0.0,
+    });
     const PL_H = 0.95;
     const base = new THREE.Mesh(new THREE.BoxGeometry(1.9, 0.18, 1.9), plinthMat);
     base.position.y = 0.09;

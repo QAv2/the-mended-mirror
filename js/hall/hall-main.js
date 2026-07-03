@@ -53,9 +53,9 @@
       instrument: { target: new THREE.Vector3(0, 0.4, 0), radius: 27.5, phi: 0.16, theta: Math.PI + 0.45 },
     };
     const HINTS = {
-      room: "drag to look &middot; <b>arrow keys</b> to walk &middot; <b>click a relic</b> to run its simulation",
-      instrument: "drag to turn &middot; scroll to draw close &middot; <b>arrows</b> to walk &middot; <b>click what gleams</b> &middot; drag the <b>rule</b> to travel time",
-      scroll: "you stand inside the ages &middot; <b>arrow keys</b> to walk &middot; drag to turn &middot; drag the <b>gold meridian</b> to travel time &middot; <b>the door</b> leads back",
+      room: "drag to look &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &amp; sink &middot; <b>click a relic</b> to run its simulation",
+      instrument: "drag to turn &middot; scroll to draw close &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &middot; <b>click what gleams</b> &middot; drag the <b>rule</b> to travel time",
+      scroll: "you stand inside the ages &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise to the newest ages &middot; drag to turn &middot; drag the <b>gold meridian</b> to travel time &middot; <b>the door</b> leads back",
     };
     let station = "room";
     let visitedInstrument = false;
@@ -155,9 +155,21 @@
       clearSelection(); H.ui.close();
       cer.active = true; cer.p = 0; cer.speed = 1; cer.mid = false;
       H.ui.ceremonyLine("It was one mirror.", 4200);
-      H.ui.hint("watching the mend &middot; click to hasten", true);
+      H.ui.hint("watching the mend &middot; <b>S</b> to skip &middot; click to hasten", true);
     }
     H.startCeremony = startCeremony;
+    function skipCeremony() {
+      if (!cer.active) return;
+      cer.active = false;
+      H.year = M.NOW;
+      applyYear(true);
+      H.figures.arcMat.uniforms.uOpacity.value = 1.0;
+      setReteFade(1);
+      H.ui.ceremonyLine("", 1);               // clear the current line
+      H.ui.hint(HINTS[station]);
+      walk.f = walk.b = walk.l = walk.r = walk.u = walk.d = 0;
+    }
+    H.skipCeremony = skipCeremony;
     function stepCeremony(dt) {
       if (!cer.active) return;
       cer.p += (dt / cer.dur) * cer.speed;
@@ -174,7 +186,6 @@
         setReteFade(1);
         H.mater.pulsePool();
         H.ui.ceremonyLine("Now reassembled into a single object.", 4400);
-        setTimeout(() => H.ui.ceremonyLine("May we see ourselves Whole.", 6000), 4900);
         H.ui.hint(HINTS[station]);
       }
     }
@@ -552,45 +563,52 @@
       else if (e.code === "Digit2") goStation("instrument");
       else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
       else if (e.code === "Space") { e.preventDefault(); if (!cer.active) startCeremony(); else cer.speed = 6; }
+      else if (e.code === "KeyS" && cer.active) { skipCeremony(); }   // skip the mend
       else if (e.code === "Escape") { clearSelection(); H.ui.close(); }
     });
 
     /* ---------- walking (arrow keys / WASD) ----------
        In the scroll you stand and actually walk the floor; in the orbit
        stations the same keys glide the pivot across the room. */
-    const walk = { f: 0, b: 0, l: 0, r: 0 };
+    const walk = { f: 0, b: 0, l: 0, r: 0, u: 0, d: 0 };
     function walkAxis(code) {
       if (code === "ArrowUp" || code === "KeyW") return "f";
       if (code === "ArrowDown" || code === "KeyS") return "b";
       if (code === "ArrowLeft" || code === "KeyA") return "l";
       if (code === "ArrowRight" || code === "KeyD") return "r";
+      if (code === "KeyE" || code === "PageUp") return "u";     // rise
+      if (code === "KeyQ" || code === "PageDown") return "d";   // descend
       return null;
     }
     addEventListener("keydown", e => { const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
     addEventListener("keyup",   e => { const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
     const _wf = new THREE.Vector3(), _wr = new THREE.Vector3(), _wm = new THREE.Vector3();
     function walkStep(dt) {
-      if (!entered || H.rig.locked) return;
-      const f = walk.f - walk.b, s = walk.r - walk.l;
-      if (!f && !s) return;
+      if (!entered || H.rig.locked || cer.active) return;   // no walking during the mend cutscene
+      const f = walk.f - walk.b, s = walk.r - walk.l, v = walk.u - walk.d;
+      if (!f && !s && !v) return;
       const rig = H.rig;
-      // camera's forward & right, flattened to the floor
+      const spd = (rig.pano ? 7.5 : 12) * dt;                  // units / second
+      // horizontal move along the camera's forward & right, flattened to the floor
       _wf.setFromMatrixColumn(H.camera.matrixWorld, 2).multiplyScalar(-1); _wf.y = 0;
       _wr.setFromMatrixColumn(H.camera.matrixWorld, 0); _wr.y = 0;
       if (_wf.lengthSq() < 1e-6) _wf.set(0, 0, -1);
       _wf.normalize(); _wr.normalize();
       _wm.set(0, 0, 0).addScaledVector(_wf, f).addScaledVector(_wr, s);
-      if (_wm.lengthSq() > 1) _wm.normalize();          // no diagonal speed-up
-      _wm.multiplyScalar((rig.pano ? 7.5 : 12) * dt);   // units / second
+      if (_wm.lengthSq() > 1) _wm.normalize();                 // no diagonal speed-up (horizontal only)
+      _wm.multiplyScalar(spd);
+      const vstep = v * spd;                                   // vertical is its own axis (Q/E · PageUp/Dn)
       if (rig.pano) {
         const e = rig.pano.eye;
-        e.x += _wm.x; e.z += _wm.z; e.y = H.rotunda.EYE.y;
+        e.x += _wm.x; e.z += _wm.z; e.y += vstep;
         const maxR = H.rotunda.RAD - 1.3, r = Math.hypot(e.x, e.z);
-        if (r > maxR) { const q = maxR / r; e.x *= q; e.z *= q; }   // stay inside the wall
+        if (r > maxR) { const q = maxR / r; e.x *= q; e.z *= q; }              // stay inside the wall
+        e.y = Math.max(1.0, Math.min(H.rotunda.WALL_H - 1.5, e.y));            // rise to the newest shards up top
       } else {
-        rig.dTarget.x += _wm.x; rig.dTarget.z += _wm.z;
+        rig.dTarget.x += _wm.x; rig.dTarget.z += _wm.z; rig.dTarget.y += vstep;
         const lim = (H.rotunda ? H.rotunda.RAD : 30) - 3, r = Math.hypot(rig.dTarget.x, rig.dTarget.z);
         if (r > lim) { const q = lim / r; rig.dTarget.x *= q; rig.dTarget.z *= q; }
+        rig.dTarget.y = Math.max(0.2, Math.min((H.rotunda ? H.rotunda.WALL_H : 30) - 1, rig.dTarget.y));
         rig.clampGoals();
       }
     }

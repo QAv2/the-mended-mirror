@@ -15,6 +15,64 @@
     parchment: 0xe9dcc0, fools: 0x6f7c4c,
   };
 
+  /* ---------- procedural stone / sealed-concrete surfaces ----------
+     Canvas-built (self-contained, zero asset weight): cloudy mottling from
+     blurred value-noise octaves + aggregate speckle, paired with matching bump
+     and roughness maps so a point light plays across the surface like a real
+     sealed floor — not a flat-shaded plane. Returns THREE textures set to
+     RepeatWrapping; the caller sets .repeat for the surface's scale. */
+  HALL.surface = function (opts) {
+    opts = opts || {};
+    const S = opts.size || 1024;
+    const base = opts.base || "#63666b";
+    const dark = opts.dark || "#484b50";
+    const lite = opts.lite || "#7d8086";
+    const grain = opts.grain === undefined ? 1 : opts.grain;   // aggregate speckle density
+
+    function pad(fill) {
+      const c = document.createElement("canvas"); c.width = c.height = S;
+      const g = c.getContext("2d"); g.fillStyle = fill; g.fillRect(0, 0, S, S);
+      return { c, g };
+    }
+    // layered blurred value-noise — cheap organic mottling, no per-pixel loop
+    function octaves(g, lo, hi) {
+      [[5, 30], [11, 15], [23, 7], [47, 3]].forEach(([cells, blur], oi) => {
+        g.save(); g.filter = "blur(" + blur + "px)";
+        const cell = S / cells, amp = [0.55, 0.4, 0.3, 0.22][oi];
+        for (let y = -1; y <= cells; y++) for (let x = -1; x <= cells; x++) {
+          const v = Math.random();
+          g.globalAlpha = amp * Math.abs(v - 0.5);
+          g.fillStyle = v < 0.5 ? lo : hi;
+          g.fillRect(x * cell, y * cell, cell * 1.5, cell * 1.5);
+        }
+        g.restore();
+      });
+      g.globalAlpha = 1;
+    }
+    function speckle(g, n, a, b) {
+      for (let i = 0; i < n; i++) {
+        const x = Math.random() * S, y = Math.random() * S, r = Math.random() * 1.5 + 0.3;
+        g.fillStyle = Math.random() < 0.5 ? a : b;
+        g.beginPath(); g.arc(x, y, r, 0, 6.283); g.fill();
+      }
+    }
+
+    const A = pad(base); octaves(A.g, dark, lite);
+    if (grain) speckle(A.g, (S * S / 320) * grain,
+      "rgba(24,26,30,0.20)", "rgba(206,210,218,0.13)");
+    const B = pad("#7c7c7c"); octaves(B.g, "#5a5a5a", "#9a9a9a");
+    if (grain) speckle(B.g, (S * S / 300) * grain, "rgba(18,18,18,0.5)", "rgba(240,240,240,0.42)");
+    const R = pad("#9a9a9a"); octaves(R.g, "#6f6f6f", "#c6c6c6");
+
+    const mk = (c, srgb) => {
+      const t = new THREE.CanvasTexture(c);
+      t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8;
+      if (srgb) t.encoding = THREE.sRGBEncoding;
+      return t;
+    };
+    return { map: mk(A.c, true), bumpMap: mk(B.c, false), roughnessMap: mk(R.c, false) };
+  };
+
   HALL.buildScene = function (H) {
     const app = document.getElementById("app");
 

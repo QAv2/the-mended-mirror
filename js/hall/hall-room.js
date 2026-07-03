@@ -32,9 +32,16 @@
     /* ---------- the lid: the lobby floor over the sleeping mirror ---------- */
     const lidGroup = new THREE.Group();
     group.add(lidGroup);
+    // sealed / polished concrete — a real floor for the few moments it is seen
+    const floorSurf = HALL.surface({ base: "#484c52", dark: "#31353b", lite: "#5a5f66", grain: 1, size: 1024 });
+    [floorSurf.map, floorSurf.bumpMap, floorSurf.roughnessMap].forEach(t => t.repeat.set(6, 6));
     const lid = new THREE.Mesh(
       new THREE.CircleGeometry(WALL_R + 0.6, 96),
-      new THREE.MeshStandardMaterial({ color: 0x07090d, roughness: 0.95, metalness: 0.05, transparent: true })
+      new THREE.MeshStandardMaterial({
+        map: floorSurf.map, bumpMap: floorSurf.bumpMap, bumpScale: 0.022,
+        roughnessMap: floorSurf.roughnessMap, roughness: 0.52, metalness: 0.0,
+        transparent: true,
+      })
     );
     lid.rotation.x = -Math.PI / 2;
     lid.position.y = LID_Y;
