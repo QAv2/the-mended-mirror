@@ -34,6 +34,68 @@
      ============================================================================ -->
 
 <link rel="stylesheet" href="hall.css">
+
+<!-- ?diag=1 — boot diagnostics overlay (inert without the param). Catches errors
+     earlier scripts throw, resource-load failures, WebGL context loss, and shows
+     boot breadcrumbs + device caps. For debugging devices with no console. -->
+<script>
+(function () {
+  var on = /[?&]diag=1/.test(location.search);
+  var t0 = Date.now(), lines = [], el = null;
+  function stamp() { return ((Date.now() - t0) / 1000).toFixed(1) + "s"; }
+  function show() {
+    if (!on) return;
+    if (!el) {
+      el = document.createElement("pre");
+      el.id = "diag";
+      el.style.cssText = "position:fixed;top:0;left:0;right:0;max-height:55vh;overflow:auto;margin:0;padding:8px 10px;background:rgba(0,0,0,.85);color:#8f8;font:11px/1.5 monospace;z-index:99999;white-space:pre-wrap;pointer-events:auto";
+      (document.body || document.documentElement).appendChild(el);
+    }
+    el.textContent = lines.join("\n");
+  }
+  function log(msg, isErr) {
+    lines.push((isErr ? "✗ " : "· ") + stamp() + "  " + msg);
+    if (document.body) show(); else document.addEventListener("DOMContentLoaded", show);
+  }
+  window.DIAG = { mark: function (m) { log(m); } };
+  if (!on) { window.DIAG.mark = function () {}; return; }
+
+  log("diag on — " + navigator.userAgent);
+  log("screen " + screen.width + "x" + screen.height + " dpr " + devicePixelRatio +
+      (navigator.deviceMemory ? "  mem " + navigator.deviceMemory + "GB" : "") +
+      "  cores " + (navigator.hardwareConcurrency || "?"));
+  try {
+    var c = document.createElement("canvas");
+    var gl = c.getContext("webgl2") || c.getContext("webgl") || c.getContext("experimental-webgl");
+    if (gl) {
+      var dbg = gl.getExtension("WEBGL_debug_renderer_info");
+      log("webgl probe OK — maxTex " + gl.getParameter(gl.MAX_TEXTURE_SIZE) +
+          (dbg ? "  gpu: " + gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : ""));
+      var lose = gl.getExtension("WEBGL_lose_context"); if (lose) lose.loseContext();
+    } else log("webgl probe FAILED — no context", true);
+  } catch (e) { log("webgl probe threw: " + e.message, true); }
+
+  window.addEventListener("error", function (e) {
+    if (e.target && e.target !== window && e.target.tagName)
+      log("RESOURCE FAILED: <" + e.target.tagName.toLowerCase() + "> " + (e.target.src || e.target.href || ""), true);
+    else
+      log("ERROR: " + e.message + " @ " + (e.filename || "").split("/").pop() + ":" + e.lineno, true);
+  }, true);
+  window.addEventListener("unhandledrejection", function (e) {
+    log("REJECTION: " + (e.reason && (e.reason.message || e.reason)), true);
+  });
+  document.addEventListener("webglcontextlost", function () { log("WEBGL CONTEXT LOST", true); }, true);
+
+  var frames = 0, sawCanvas = false;
+  (function poll() {
+    var cv = document.querySelector("#app canvas");
+    if (cv && !sawCanvas) { sawCanvas = true; log("renderer canvas attached"); }
+    if (frames < 3 && sawCanvas) { frames++; if (frames === 3) log("rendering frames ✓"); }
+    if (window.H && window.H.room && !poll.room) { poll.room = true; log("H.room built — state " + window.H.room.state); }
+    if (!poll.done) { poll.done = frames >= 3 && poll.room; requestAnimationFrame(poll); }
+  })();
+})();
+</script>
 </head>
 <body>
 <div id="app"></div>
@@ -87,9 +149,12 @@
 
 <!-- vendored: works from file://, offline -->
 <script src="vendor/three.min.js"></script>
+<script>DIAG.mark("three.js loaded r" + (window.THREE ? THREE.REVISION : "?!"))</script>
 <script src="vendor/GLTFLoader.js"></script>
 <script src="data/mirror-data.js"></script>
+<script>DIAG.mark("corpus parsed — " + (window.MIRROR_DATA ? Object.keys(MIRROR_DATA.traditions).length + " traditions, " + MIRROR_DATA.figures.length + " figures" : "MISSING"))</script>
 <script src="data/mirror-dossiers.js"></script>
+<script>DIAG.mark("dossiers parsed — " + (window.MIRROR_DOSSIERS ? Object.keys(MIRROR_DOSSIERS).length : "MISSING"))</script>
 <script src="js/hall/hall-data.js"></script>
 <script src="js/hall/hall-scene.js"></script>
 <script src="js/hall/hall-mater.js"></script>
@@ -101,6 +166,8 @@
 <script src="js/hall/hall-exterior.js"></script>
 <script src="js/hall/hall-approach.js"></script>
 <script src="js/hall/hall-ui.js"></script>
+<script>DIAG.mark("all hall modules loaded")</script>
 <script src="js/hall/hall-main.js"></script>
+<script>DIAG.mark("hall-main executed — scene building")</script>
 </body>
 </html>
