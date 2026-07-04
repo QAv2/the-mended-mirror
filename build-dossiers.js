@@ -10,7 +10,9 @@ const path = require("path");
 
 const DIR = path.join(__dirname, "data", "_dossier");
 const OUT = path.join(__dirname, "data", "mirror-dossiers.js");
-const KEEP = ["essence", "cosmos", "practice", "canon", "reflects", "sources", "flagged"];
+// public sidecar carries CONTENT only; `flagged` (internal <90%-sure QA hedges)
+// stays in data/_dossier/*.json for the audit pass — never shipped to the site
+const KEEP = ["essence", "cosmos", "practice", "canon", "reflects", "sources"];
 
 const out = {};
 let n = 0, flagged = 0;
@@ -21,8 +23,7 @@ for (const f of fs.readdirSync(DIR).sort()) {
     const id = d.id || f.replace(/\.json$/, "");
     const slim = {};
     for (const k of KEEP) if (d[k] !== undefined && d[k] !== null && String(d[k]).length) slim[k] = d[k];
-    if (Array.isArray(slim.flagged) && !slim.flagged.length) delete slim.flagged;
-    if (slim.flagged) flagged++;
+    if (Array.isArray(d.flagged) && d.flagged.length) flagged++;   // counted for the audit pass, not emitted
     out[id] = slim;
     n++;
   } catch (e) {

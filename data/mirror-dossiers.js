@@ -23,9 +23,6 @@ window.MIRROR_DOSSIERS = {
    "T. G. H. Strehlow, 'Songs of Central Australia' (1971)",
    "W. Lloyd Warner, 'A Black Civilization' (1937)",
    "Tony Swain, 'A Place for Strangers' (1993)"
-  ],
-  "flagged": [
-   "The ~50,000-year figure is archaeological (human presence in Australia), used here as a proxy for cultural continuity — religious continuity per se cannot be directly dated."
   ]
  },
  "abrahamic": {
@@ -75,9 +72,6 @@ window.MIRROR_DOSSIERS = {
    "Yaron Friedman, 'The Nusayri-Alawis: An Introduction to the Religion, History and Identity' (2010)",
    "Meir M. Bar-Asher & Aryeh Kofsky, 'The Nusayri-Alawi Religion' (2002)",
    "Matti Moosa, 'Extremist Shiites: The Ghulat Sects' (1988)"
-  ],
-  "flagged": [
-   "Inner doctrine is known largely through hostile heresiography and defector texts (e.g. the 1863 Kitab al-Majmu' publication); details such as the fate of wicked souls in lower rebirths rest on that filtered evidence."
   ]
  },
  "alchemy": {
@@ -90,9 +84,6 @@ window.MIRROR_DOSSIERS = {
    "Lawrence M. Principe, 'The Secrets of Alchemy' (2013)",
    "Mircea Eliade, 'The Forge and the Crucible' (1956)",
    "C. G. Jung, 'Psychology and Alchemy' (1944)"
-  ],
-  "flagged": [
-   "The 'spiritual alchemy' reading is contested: Principe and Newman argue most historical Western alchemy was straightforwardly chemical in intent, with the psycho-spiritual frame amplified by 19th–20th-century occultism and Jung."
   ]
  },
  "alevism": {
@@ -105,9 +96,6 @@ window.MIRROR_DOSSIERS = {
    "David Shankland, 'The Alevis in Turkey' (2003)",
    "John Kingsley Birge, 'The Bektashi Order of Dervishes' (1937)",
    "Krisztina Kehl-Bodrogi, 'Die Kizilbaş/Aleviten' (1988)"
-  ],
-  "flagged": [
-   "Population-share estimates for Alevis in Turkey (commonly 10–20%) are politically contested and unverifiable; no figure is asserted in the dossier body."
   ]
  },
  "amazonian": {
@@ -121,9 +109,6 @@ window.MIRROR_DOSSIERS = {
    "Gerardo Reichel-Dolmatoff, 'Amazonian Cosmos' (1971)",
    "Eduardo Viveiros de Castro, 'Cannibal Metaphysics' (2009)",
    "Stephen Hugh-Jones, 'The Palm and the Pleiades' (1979)"
-  ],
-  "flagged": [
-   "This is an analytic grouping across unrelated language families, not a single religion; generalizations (layered cosmos, soul-components) vary in detail by people."
   ]
  },
  "andean-pre-inca": {
@@ -136,10 +121,6 @@ window.MIRROR_DOSSIERS = {
    "Richard L. Burger, 'Chavín and the Origins of Andean Civilization' (1992)",
    "Christopher B. Donnan, 'Moche Art and Iconography' (1976)",
    "John Wayne Janusek, 'Ancient Tiwanaku' (2008)"
-  ],
-  "flagged": [
-   "All doctrine here is inference from material remains — intentionally minimal claims.",
-   "The tradition record's auto-dated period (-1200 to -700) covers only Chavín's florescence; Moche and Tiwanaku extend the shard to c. 1000 CE."
   ]
  },
  "andean": {
@@ -165,9 +146,6 @@ window.MIRROR_DOSSIERS = {
    "William Henry Scott, 'Barangay: Sixteenth-Century Philippine Culture and Society' (1994)",
    "Francisco Ignacio Alcina, 'Historia de las islas e indios de Bisayas' (1668)",
    "F. Landa Jocano, 'Outline of Philippine Mythology' (1969)"
-  ],
-  "flagged": [
-   "Neat pan-Philippine pantheon lists in secondary literature over-systematize scattered colonial sources; deity rosters and afterlife names vary sharply by ethnolinguistic group."
   ]
  },
  "anthroposophy": {
@@ -193,9 +171,6 @@ window.MIRROR_DOSSIERS = {
    "G. R. Hawting, 'The Idea of Idolatry and the Emergence of Islam' (1999)",
    "Ahmad Al-Jallad, 'The Religion and Rituals of the Nomads of Pre-Islamic Arabia' (2022)",
    "Ibn al-Kalbi, 'Kitab al-Asnam (Book of Idols)' (early 9th c.)"
-  ],
-  "flagged": [
-   "The Meccan picture rests heavily on Islamic-era sources written after the fact (Ibn al-Kalbi, the Sira); recent epigraphic work (Al-Jallad) revises older generalizations such as a uniform South Arabian 'astral triad.'"
   ]
  },
  "ascended-masters": {
@@ -220,11 +195,6 @@ window.MIRROR_DOSSIERS = {
    "G. Patrick, 'Religion and Subaltern Agency: A Case-study of Ayya Vali' (2003)",
    "R. Ponnu, 'Sri Vaikunda Swamigal and the Struggle for Social Equality in South India' (2000)",
    "Samuel Mateer, 'The Land of Charity: A Descriptive Account of Travancore and Its People' (1871)"
-  ],
-  "flagged": [
-   "Akilam authorship/date (Hari Gopalan Citar, 1841) is the tradition's own account, stated as such",
-   "Census classification of Ayyavazhi adherents as Hindus is widely reported but not verified against census documents here",
-   "Individual (interim) afterlife doctrine is not summarized because I could not confirm a standardized teaching; the Akilam's emphasis is collective eschatology"
   ]
  },
  "aztec": {
@@ -238,9 +208,6 @@ window.MIRROR_DOSSIERS = {
    "Inga Clendinnen, 'Aztecs: An Interpretation' (1991)",
    "James Maffie, 'Aztec Philosophy: Understanding a World in Motion' (2014)",
    "David Carrasco, 'City of Sacrifice: The Aztec Empire and the Role of Violence in Civilization' (1999)"
-  ],
-  "flagged": [
-   "The thirteen-heavens/nine-underworlds count is the conventional schema; colonial sources vary on exact numbering"
   ]
  },
  "baganda": {
@@ -265,9 +232,6 @@ window.MIRROR_DOSSIERS = {
    "Peter Smith, 'An Introduction to the Baha'i Faith' (2008)",
    "Shoghi Effendi, 'God Passes By' (1944)",
    "Moojan Momen, 'The Babi and Baha'i Religions, 1844-1944: Some Contemporary Western Accounts' (1981)"
-  ],
-  "flagged": [
-   "Adherent figure stated loosely as 'several million'; published estimates commonly range about 5-8 million"
   ]
  },
  "balinese-hindu": {
@@ -280,9 +244,6 @@ window.MIRROR_DOSSIERS = {
    "Clifford Geertz, 'Negara: The Theatre State in Nineteenth-Century Bali' (1980)",
    "J. Stephen Lansing, 'Priests and Programmers: Technologies of Power in the Engineered Landscape of Bali' (1991)",
    "Michel Picard, 'Bali: Cultural Tourism and Touristic Culture' (1996)"
-  ],
-  "flagged": [
-   "Codification chronology (state recognition and Parisada formation, late 1950s) stated from secondary literature, not primary Indonesian documents"
   ]
  },
  "baltic": {
@@ -295,9 +256,6 @@ window.MIRROR_DOSSIERS = {
    "Marija Gimbutas, 'The Balts' (1963)",
    "Algirdas Julien Greimas, 'Of Gods and Men: Studies in Lithuanian Mythology' (1992, English translation)",
    "Endre Bojtar, 'Foreword to the Past: A Cultural History of the Baltic People' (1999)"
-  ],
-  "flagged": [
-   "Medieval reports of institutional sanctuaries and priesthoods (e.g., the 'Romuva' sanctuary in Peter of Dusburg's 1326 chronicle) are treated by scholars as unverifiable or embellished — presented here as contested"
   ]
  },
  "bambara": {
@@ -311,10 +269,6 @@ window.MIRROR_DOSSIERS = {
    "Dominique Zahan, 'Societes d'initiation bambara: le N'domo, le Kore' (1960)",
    "Patrick R. McNaughton, 'The Mande Blacksmiths: Knowledge, Power, and Art in West Africa' (1988)",
    "Sarah C. Brett-Smith, 'The Making of Bamana Sculpture: Creativity and Gender' (1994)"
-  ],
-  "flagged": [
-   "Dieterlen's highly systematized cosmogony (the creative words, the Faro/Pemba cycle) belongs to the Griaule school, whose reconstructions later ethnographers have criticized as over-schematic; presented as her account, not as uncontested Bamana consensus",
-   "The canonical list of six jow follows Zahan; the count and membership vary regionally"
   ]
  },
  "basque": {
@@ -327,11 +281,6 @@ window.MIRROR_DOSSIERS = {
    "Jose Miguel de Barandiaran, 'Mitologia vasca' (1960)",
    "Julio Caro Baroja, 'The World of the Witches' (1964, English translation)",
    "'Selected Writings of Jose Miguel de Barandiaran: Basque Prehistory and Ethnography' (2007)"
-  ],
-  "flagged": [
-   "Sun and moon as daughters of Amalur is standard in modern syntheses of Barandiaran's material but not verified here against his primary texts (~85% confidence)",
-   "Argizaiola tomb-boards are attested as Christian-era funerary practice; their continuity with pre-Christian dead-cult is inference",
-   "The whole picture is reconstruction from late folklore — the project's own tradition record marks certainty as 'inferred', and the akelarre material is heavily distorted by Inquisition sources"
   ]
  },
  "berber": {
@@ -345,10 +294,6 @@ window.MIRROR_DOSSIERS = {
    "Emile Laoust, 'Mots et choses berberes' (1920)",
    "Henri Basset, 'Le culte des grottes au Maroc' (1920)",
    "Corippus, 'Iohannis' (6th c.)"
-  ],
-  "flagged": [
-   "Continuity between pre-Islamic ancestor/tomb cult and Islamic saint veneration is a widely argued scholarly reading (Basset, Camps), not a demonstrable lineage — stated as continuity 'in form'",
-   "Ifri's identification as a cave goddess (and any 'Africa' etymology) rests on thin epigraphic and onomastic evidence and is deliberately omitted from the main text"
   ]
  },
  "black-hebrew-israelites": {
@@ -361,10 +306,6 @@ window.MIRROR_DOSSIERS = {
    "Jacob S. Dorman, 'Chosen People: The Rise of American Black Israelite Religions' (2013)",
    "James E. Landing, 'Black Judaism: Story of an American Movement' (2002)",
    "John L. Jackson Jr., 'Thin Description: Ethnography and the African Hebrew Israelites of Jerusalem' (2013)"
-  ],
-  "flagged": [
-   "Frank Cherry's 1886 founding date is conventional but weakly documented (Dorman questions the early chronology)",
-   "The Edom doctrine and Kingdom-inversion eschatology describe the militant 1-West lineage specifically, not all Black Israelite congregations"
   ]
  },
  "bon": {
@@ -378,10 +319,6 @@ window.MIRROR_DOSSIERS = {
    "Per Kvaerne, 'The Bon Religion of Tibet: The Iconography of a Living Tradition' (1995)",
    "David L. Snellgrove, 'The Nine Ways of Bon' (1967)",
    "Namkhai Norbu, 'Drung, Deu and Bon: Narrations, Symbolic Languages and the Bon Tradition in Ancient Tibet' (1995)"
-  ],
-  "flagged": [
-   "Menri's founding year (1405) and the gZi-brjid's medieval dating are stated from standard references, not primary verification",
-   "The exile recognition of Bon as a fifth Tibetan school is real but its exact date (variously cited late 1970s) is deliberately omitted"
   ]
  },
  "brahmoism": {
@@ -394,9 +331,6 @@ window.MIRROR_DOSSIERS = {
    "David Kopf, 'The Brahmo Samaj and the Shaping of the Modern Indian Mind' (1979)",
    "Kenneth W. Jones, 'Arya Dharm: Hindu Consciousness in 19th-Century Punjab' (1976)",
    "J.T.F. Jordens, 'Dayananda Sarasvati: His Life and Ideas' (1978)"
-  ],
-  "flagged": [
-   "'Around 1850' for the Brahmo abandonment of Vedic infallibility is approximate — the shift followed Debendranath's Benares inquiry of the late 1840s"
   ]
  },
  "buddhist-vehicles": {
@@ -433,9 +367,6 @@ window.MIRROR_DOSSIERS = {
    "Roberte Hamayon, 'La chasse a l'ame: esquisse d'une theorie du chamanisme siberien' (1990)",
    "Caroline Humphrey, 'Karl Marx Collective: Economy, Society and Religion in a Siberian Collective Farm' (1983)",
    "Jeremiah Curtin, 'A Journey in Southern Siberia: The Mongols, Their Religion and Their Myths' (1909)"
-  ],
-  "flagged": [
-   "'One of the largest indigenous peoples of Siberia' phrased deliberately — recent censuses put Sakha (Yakut) numbers slightly above Buryat, so 'largest' would over-claim"
   ]
  },
  "california-tribes": {
@@ -448,10 +379,6 @@ window.MIRROR_DOSSIERS = {
    "Thomas C. Blackburn, 'December's Child: A Book of Chumash Oral Narratives' (1975)",
    "Travis Hudson & Ernest Underhay, 'Crystals in the Sky: An Intellectual Odyssey Involving Chumash Astronomy, Cosmology and Rock Art' (1978)",
    "A. L. Kroeber, 'Handbook of the Indians of California' (1925)"
-  ],
-  "flagged": [
-   "The Rainbow Bridge (Wishtoyo) narrative is prominent in the modern Chumash revival; how fully it is attested in the early ethnographic record is less clear to me than the Harrington-derived material, so it is omitted from the dossier body.",
-   "Details of 'antap organization and recruitment follow Hudson & Underhay's reconstruction, which is partly inferential."
   ]
  },
  "canaanite": {
@@ -491,10 +418,6 @@ window.MIRROR_DOSSIERS = {
    "Janet Hoskins, 'The Divine Eye and the Diaspora: Vietnamese Syncretism Becomes Transpacific Caodaism' (2015)",
    "Jérémy Jammes, 'Les Oracles du Cao Đài' (2014)",
    "R. B. Smith, 'An Introduction to Caodaism' (1970)"
-  ],
-  "flagged": [
-   "Post-1975 suspension of official séances is well reported (Hoskins, Jammes), but limited spirit-writing continues in some dissident and diaspora branches — the cutoff is not absolute.",
-   "Adherent counts vary widely by source (roughly 1–5 million); I give only an order of magnitude."
   ]
  },
  "cargo-cult": {
@@ -508,9 +431,6 @@ window.MIRROR_DOSSIERS = {
    "Peter Lawrence, 'Road Belong Cargo' (1964)",
    "Lamont Lindstrom, 'Cargo Cult: Strange Stories of Desire from Melanesia and Beyond' (1993)",
    "F. C. Kamma, 'Koreri: Messianic Movements in the Biak-Numfor Culture Area' (1972)"
-  ],
-  "flagged": [
-   "The 1945 first-print date for the term follows Lindstrom's history of the word; I am confident of the decade, slightly less of the exact year."
   ]
  },
  "castaneda": {
@@ -524,9 +444,6 @@ window.MIRROR_DOSSIERS = {
    "Richard de Mille (ed.), 'The Don Juan Papers: Further Castaneda Controversies' (1980)",
    "Jay Courtney Fikes, 'Carlos Castaneda, Academic Opportunism and the Psychedelic Sixties' (1993)",
    "Amy Wallace, 'Sorcerer's Apprentice: My Life with Carlos Castaneda' (2003)"
-  ],
-  "flagged": [
-   "The post-1998 disappearances and the identification of Patricia Partin's remains rest on investigative journalism (Robert Marshall, Salon, 2007), not academic scholarship."
   ]
  },
  "celtic": {
@@ -540,9 +457,6 @@ window.MIRROR_DOSSIERS = {
    "Ronald Hutton, 'Blood and Mistletoe: The History of the Druids in Britain' (2009)",
    "Barry Cunliffe, 'The Ancient Celts' (1997)",
    "Proinsias Mac Cana, 'Celtic Mythology' (1970)"
-  ],
-  "flagged": [
-   "The four Irish quarter-day festivals are attested only in medieval Irish sources; their observance by continental Celts is unevidenced and stated here as Irish-specific."
   ]
  },
  "channeling": {
@@ -567,9 +481,6 @@ window.MIRROR_DOSSIERS = {
    "Colin Duggan, 'Perennialism and Iconoclasm: Chaos Magick and the Legitimacy of Innovation', in Egil Asprem & Kennet Granholm (eds.), 'Contemporary Esotericism' (2013)",
    "Hugh B. Urban, 'Magia Sexualis: Sex, Magic, and Liberation in Modern Western Esotericism' (2006)",
    "Dave Evans, 'The History of British Magick After Crowley' (2007)"
-  ],
-  "flagged": [
-   "Founding details (exact dates and places in Yorkshire, the IOT's earliest form) are thinly documented outside practitioner accounts; I give the conventional 1976–78 window."
   ]
  },
  "cheondoism": {
@@ -583,9 +494,6 @@ window.MIRROR_DOSSIERS = {
    "Carl F. Young, 'Eastern Learning and the Heavenly Way: The Tonghak and Ch'ondogyo Movements and the Twilight of Korean Independence' (2014)",
    "George L. Kallander, 'Salvation through Dissent: Tonghak Heterodoxy and Early Modern Korea' (2013)",
    "Benjamin B. Weems, 'Reform, Rebellion, and the Heavenly Way' (1964)"
-  ],
-  "flagged": [
-   "Cheondoists as leaders of the March First movement: the standard count is 15 of the 33 declaration signers, headed by Son Byeong-hui; I state the role generally rather than committing to the exact figure."
   ]
  },
  "cherokee": {
@@ -612,9 +520,6 @@ window.MIRROR_DOSSIERS = {
    "J. M. Schoffeleers (ed.), 'Guardians of the Land: Essays on Central African Territorial Cults' (1979)",
    "J. W. M. van Breugel, 'Chewa Traditional Religion' (2001)",
    "Brian Morris, 'Animals and Ancestors: An Ethnography' (2000)"
-  ],
-  "flagged": [
-   "Kaphirintiwa is usually localized in the Dzalanyama range on the Malawi–Mozambique border; accounts vary, so precise geography is omitted."
   ]
  },
  "chinese-folk": {
@@ -652,6 +557,2162 @@ window.MIRROR_DOSSIERS = {
    "Henry Chadwick, 'The Early Church' (1967)",
    "Jaroslav Pelikan, 'The Christian Tradition: A History of the Development of Doctrine', 5 vols. (1971–1989)",
    "Diarmaid MacCulloch, 'Christianity: The First Three Thousand Years' (2009)"
+  ]
+ },
+ "chukchi": {
+  "essence": "The traditional religions of the Chukchi of Chukotka and the closely related Koryak of Kamchatka, reindeer-herding and sea-mammal-hunting peoples of the Russian Far East. They are animist and shamanic: the world teems with spirit-persons, and a trickster-creator, Big Raven (Kutkh), shaped the land and taught humans to survive.",
+  "cosmos": "The cosmos is layered — benevolent 'beings' (Va'irgin) of the zenith and dawn above, the human earth, and predatory realms below — traversed by the shaman's soul. Everything that acts is animated; cannibalistic spirits, the kelet, hunt human souls exactly as humans hunt reindeer, and are held to cause illness, death, and starvation. The dead pass to an other-world, with those who die by violence or by the sanctioned 'voluntary death' of the aged thought to fare best, and a newborn may be identified with a returning ancestor through naming-divination.",
+  "practice": "Religious life turns on shamanism: practitioners drum, sing, and consume the fly-agaric mushroom (Amanita muscaria) to enter trance and battle or bargain with the kelet for a captured soul. Some shamans, the 'soft men' (yirka-la'ul), change gender under spirit command as a source of power and protection. Households keep guardian objects such as the anthropomorphic fire-board, coastal hunters hold autumn thanksgiving festivals for the sea-lord Keretkun, and reindeer people sacrifice from the herd.",
+  "canon": "No writing; the theology lives in an oral corpus of Raven-cycle myths, incantations, and shamanic songs, recorded above all by the Jesup North Pacific Expedition — Waldemar Bogoras's 'The Chukchee' and Waldemar Jochelson's 'The Koryak'.",
+  "reflects": "Shamanism as reciprocal predation — the sacred imagined as an ecological food-web in which spirits and humans hunt one another, and the shaman is the community's negotiator across that hungry boundary.",
+  "sources": [
+   "Waldemar Bogoras, 'The Chukchee' (1904-1909)",
+   "Waldemar Jochelson, 'The Koryak' (1905-1908)",
+   "Mircea Eliade, 'Shamanism: Archaic Techniques of Ecstasy' (1964)",
+   "M.A. Czaplicka, 'Aboriginal Siberia: A Study in Social Anthropology' (1914)"
+  ]
+ },
+ "church-of-all-worlds": {
+  "essence": "An American Neopagan new religious movement founded in 1962 by Tim (later Oberon) Zell and Lance Christie, and incorporated as a church in 1968 — the first religion to draw its name, vocabulary, and central rite from a work of science fiction, Robert A. Heinlein's 'Stranger in a Strange Land' (1961). Its core affirmation, 'Thou art God/Goddess,' holds every self-aware being to be a fragment of the divine.",
+  "cosmos": "Divinity is immanent rather than transcendent — not above the world but identical with its own distributed self-awareness. Central is the veneration of Gaia, the Earth conceived (in Zell's 1971 'TheaGenesis,' parallel to James Lovelock's Gaia hypothesis) as a single living, self-regulating organism of which humans are a nascent nervous system, making ecological activism a religious duty. The movement is non-creedal and this-worldly, with no fixed doctrine of the afterlife.",
+  "practice": "Members organize into 'Nests,' local groups often built as intimate, sometimes polyamorous chosen families, and practice the founding sacrament of water-sharing ('May you never thirst'), which creates kinship among 'water-brothers.' An initiatory system of concentric 'circles,' modeled on the rings of a growing tree, structures advancement, and ritual is drawn from the wider Wiccan and Goddess milieu (the Earth Mother and the Horned God, the Wheel of the Year). The church has long published the magazine 'Green Egg.'",
+  "canon": "No revealed scripture; Heinlein's 'Stranger in a Strange Land' (1961) supplies the vocabulary (grok, water-brother, 'Thou art God') and the water-sharing rite, while Oberon Zell's essays and 'Green Egg' articulate the doctrine.",
+  "reflects": "Religion knowingly self-authored from fiction — the demonstration that a myth acknowledged as invented can still function religiously, foregrounding mythopoesis and an immanent, ecological divinity.",
+  "sources": [
+   "Margot Adler, 'Drawing Down the Moon' (1979)",
+   "Carole M. Cusack, 'Invented Religions: Imagination, Fiction and Faith' (2010)",
+   "Chas S. Clifton, 'Her Hidden Children: The Rise of Wicca and Paganism in America' (2006)"
+  ]
+ },
+ "confucian": {
+  "essence": "The ethical, ritual, and political tradition (Chinese Rujia, 'the school of the scholars') stemming from Confucius (Kongzi, 551-479 BCE) and developed by Mencius, Xunzi, and later Neo-Confucians. It is centered not on a god or personal salvation but on the moral cultivation of the person within family and society and the alignment of human conduct with Tian (Heaven). For two millennia it shaped statecraft, education, and family ethics across China, Korea, Japan, and Vietnam.",
+  "cosmos": "Heaven (Tian) is the highest power — for most of the tradition an impersonal but morally charged cosmic order that generates and sanctions right conduct rather than a personal creator, and that confers or withdraws the Mandate (Tianming) to rule. Reality is a continuous, self-generating order — systematized in Neo-Confucianism through qi (vital stuff) and li (principle) — in which Heaven, Earth, and the fully cultivated human form a triad. Confucius declined to discuss gods, spirits, or the afterlife; continuity beyond death is sought through the family lineage and honored ancestry rather than a paradise.",
+  "practice": "The tradition asks lifelong self-cultivation of virtue — above all ren (humaneness) — through study, self-examination, and li (ritual propriety), which spans state sacrifices, ancestor rites, and everyday etiquette. Filial piety (xiao) anchors the family, while the junzi (exemplary person) and the sage are ideals attainable, in principle, by effort rather than birth. Institutionally it worked through the scholar-official class, the classics-based civil examinations, ancestral halls, and temples to Confucius.",
+  "canon": "The Five Classics (Odes, Documents, Changes, Rites, and the Spring and Autumn Annals) and the Four Books (Analects, Mencius, Great Learning, Doctrine of the Mean), the latter set canonized by Zhu Xi in the Song dynasty.",
+  "reflects": "The sacralization of ordinary human relationship — locating ultimate meaning not in gods or an afterlife but in the ethical perfection of family and civic life, with ritual as the technology of social and cosmic harmony.",
+  "sources": [
+   "Benjamin I. Schwartz, 'The World of Thought in Ancient China' (1985)",
+   "Tu Weiming, 'Centrality and Commonality: An Essay on Confucian Religiousness' (1989)",
+   "Rodney L. Taylor, 'The Religious Dimensions of Confucianism' (1990)"
+  ]
+ },
+ "cybele": {
+  "essence": "The cult of the Great Mother — Phrygian Matar, Greek Kybele, Roman Magna Mater — an Anatolian mountain mother-goddess whose sacred black stone was formally brought from Pessinus to Rome in 204 BCE during the Second Punic War. She reigns over wild nature, cities, and beasts, and her central myth is her love for the youth Attis, whose self-castration and death beneath a pine she mourns.",
+  "cosmos": "The tradition is less a systematic cosmology than a myth of sovereignty, death, and vegetal renewal: the Mother is the untamed generative power of earth and mountain, and Attis's castration, death, and preservation mark a seasonal rhythm of dying and return. In the imperial-era mysteries the cult acquired a language of personal rebirth, the initiate of the taurobolium reckoned 'reborn for eternity' (renatus in aeternum).",
+  "practice": "At Rome the goddess had a public state cult (the Palatine temple, the ludi Megalenses) alongside the ecstatic devotion of the Galli — self-castrated priests in feminine dress who processed with tambourines, cymbals, and self-flagellation. The March festival cycle ran from the entry of the sacred reed and pine through the Dies Sanguinis ('Day of Blood') to the rejoicing of the Hilaria and the goddess's ritual bathing (Lavatio). The taurobolium, a blood baptism beneath a slaughtered bull, became a distinctive rite of the later cult.",
+  "canon": "No scripture; the cult is reconstructed from Greek and Latin literature — Catullus 63, Lucretius, Ovid's 'Fasti,' the emperor Julian's 'Hymn to the Mother of the Gods,' and the Christian polemicists Arnobius and Prudentius — together with inscriptions and archaeology.",
+  "reflects": "The terror and cost of the Great Mother — the sacred as an overwhelming maternal power that claims the body itself, through castration and blood, as the price of fertility and rebirth.",
+  "sources": [
+   "Maarten J. Vermaseren, 'Cybele and Attis: The Myth and the Cult' (1977)",
+   "Lynn E. Roller, 'In Search of God the Mother: The Cult of Anatolian Cybele' (1999)",
+   "Philippe Borgeaud, 'Mother of the Gods: From Cybele to the Virgin Mary' (2004)"
+  ]
+ },
+ "dayak": {
+  "essence": "The indigenous religion of the Ngaju, a Dayak people of the great rivers of South Borneo (Central Kalimantan, Indonesia); its organized modern form, recognized by the Indonesian state since 1980, is called Kaharingan. Its distinctive claim is a single godhead that is intrinsically two-in-one — the hornbill sky-god Mahatala above and the watersnake goddess Jata below — whose union is the whole of divinity.",
+  "cosmos": "The cosmos is tiered: an Upperworld (Mahatala; hornbill, sun, mountain) and an Underworld and underwater realm (Jata; watersnake, moon, river), joined by the middle earth of humans and by the Tree of Life (Batang Garing). The world arises from the meeting and combat of the two primal hornbills upon the tree and its shattering. Death is completed in two stages — after primary burial the soul lingers dangerously until the great secondary mortuary feast (Tiwah) ferries it up a golden ship, guided by the Sangiang spirit-mediators, to the prosperous village of the Upperworld.",
+  "practice": "Priests — the balian and basir — conduct the rites, chanting in an esoteric sacred language, basa Sangiang. The pivotal ceremony is the Tiwah, the secondary funeral at which the bones are gathered, buffalo and pigs sacrificed, and the bone-house (sandung) raised; the same upper/lower dual symbolism orders village layout, social groups, and the carved hornbill-and-watersnake imagery of Ngaju art.",
+  "canon": "An oral corpus of cosmogonic and mortuary chants in basa Sangiang, with no indigenous scripture; the classic record is Hans Schärer's 'Ngaju Religion' (Dutch 1946; English 1963), and organized Kaharingan has since compiled a modern holy book, the Panaturan.",
+  "reflects": "The godhead as an eternal marriage — the sacred conceived not as a One that later divides but as an original complementary dyad (sky-hornbill-male and water-snake-female), so that cosmos, society, and every rite re-enact the union of two halves.",
+  "sources": [
+   "Hans Schärer, 'Ngaju Religion: The Conception of God among a South Borneo People' (1963)",
+   "Anne Schiller, 'Small Sacrifices: Religious Change and Cultural Identity among the Ngaju of Indonesia' (1997)",
+   "Robert Hertz, 'Death and the Right Hand' (1907; trans. 1960)"
+  ]
+ },
+ "deism": {
+  "essence": "A rationalist theological stance that crystallized in 17th- and 18th-century Britain and France, holding that a Supreme Being can be known through reason and the observation of nature alone — without revelation, scripture, miracles, or priesthood. Its emblem is the divine 'clockmaker' who designed and set the universe running and thereafter does not intervene.",
+  "cosmos": "The universe is a rational, law-governed mechanism — the 'Book of Nature' — created and ordered by God but afterward self-sustaining, its divine benevolence expressed through general, unchanging laws (general providence) rather than particular miracles or answered prayers. On the afterlife deists differed: many argued from reason for a future state of rewards and punishments befitting a just Creator, while others remained closer to agnostic. Because deism is a stance rather than a church, this is a shared minimal frame, not a fixed dogma.",
+  "practice": "Deism has no liturgy, sacraments, clergy, or congregations of its own; its 'practice' is critical inquiry, ethical conduct, and the polemic of writers against revealed or 'positive' religion. Its 'natural religion' reduces to recognizing God, living morally, and repenting wrongdoing, argued to be as universally accessible as geometry. Historically it was an intellectual current among Enlightenment authors and several American founders rather than an organized body.",
+  "canon": "No scripture; foundational texts include Lord Herbert of Cherbury's 'De Veritate' (1624), Matthew Tindal's 'Christianity as Old as the Creation' (1730), Voltaire's writings, and Thomas Paine's 'The Age of Reason' (1794-1807).",
+  "reflects": "The claim that the divine is reached by reason rather than revelation — religion pared down to what nature and the rational mind can establish, foregrounding a desacralized, law-governed cosmos.",
+  "sources": [
+   "Peter Byrne, 'Natural Religion and the Nature of Religion: The Legacy of Deism' (1989)",
+   "Peter Gay, 'Deism: An Anthology' (1968)",
+   "Wayne Hudson, 'The English Deists: Studies in Early Enlightenment' (2009)"
+  ]
+ },
+ "dinka-nuer": {
+  "essence": "The traditional religions of the Dinka and Nuer, two closely related Nilotic cattle-herding peoples of the South Sudanese floodplains. Both center on a single supreme sky-divinity — Nhialic for the Dinka, Kwoth (Kwoth Nhial, 'Spirit of the Above') for the Nuer — a formless creator-spirit, together with lesser 'free divinities' and clan spirits, and with the sacrificial ox at the heart of religious life.",
+  "cosmos": "The supreme being is formless breath or spirit filling the sky and air, ultimately just but somewhat remote; beneath him are free divinities (Dinka Deng the rain, Garang the hot spirit) and clan-divinities that can seize, afflict, or possess people. Sky and earth were once joined by a rope, severed after a trivial human error, which let in death and the present separation. There is no elaborate paradise: the dead persist as shades and ancestors, though some — such as the Nuer colwic, those killed by lightning — are taken up by God and become minor divinities.",
+  "practice": "Religion is enacted above all through sacrifice, supremely the ox-sacrifice, in which a beast identified with a human sponsor is killed to expiate sin, avert affliction, heal, or seal peace — its life given in exchange for the person's. Among the Dinka the hereditary 'masters of the fishing-spear' (bany bith) invoke, bless, and bind oaths; among the Nuer the 'leopard-skin' earth-priests mediate feud and homicide. Prophets, spirit-possession, hymns, and an all-pervading cattle symbolism fill everyday practice.",
+  "canon": "No writing; an oral tradition of hymns, invocations, and myth, recorded classically in E.E. Evans-Pritchard's 'Nuer Religion' (1956) and Godfrey Lienhardt's 'Divinity and Experience: The Religion of the Dinka' (1961).",
+  "reflects": "Sacrifice as the exchange of life for life — a religion in which the substitutable ox carries a human's guilt and death, making the bond with the formless sky-God concrete in the killed beast.",
+  "sources": [
+   "E.E. Evans-Pritchard, 'Nuer Religion' (1956)",
+   "Godfrey Lienhardt, 'Divinity and Experience: The Religion of the Dinka' (1961)",
+   "Francis Mading Deng, 'The Dinka and Their Songs' (1973)"
+  ]
+ },
+ "dionysian": {
+  "essence": "The ecstatic mystery-strand within the worship of Dionysus (Bacchus) in the Greek and later Roman world, distinct from though overlapping his civic cult. It offered initiates communion with the god through wine, dance, and mania (divine madness), and, in its Orphic-Bacchic form, a blessed lot after death rather than the grey anonymity of common Hades.",
+  "cosmos": "Dionysus is the twice-born god of wine, vegetation, and dissolution. The Orphic-Bacchic strand adds an anthropogony: the child Dionysus (Zagreus) is dismembered and devoured by the Titans, whom Zeus destroys, and humankind, arising from their remains, carries a double nature — Titanic (earthly, guilty) and Dionysiac (divine). Salvation is the release of that divine element, and the inscribed gold tablets guide the initiate's soul through the underworld to the company of the blessed.",
+  "practice": "Worship was carried by thiasoi, bands of devotees — especially women (maenads or bacchae) — who processed to the mountains in ecstasy bearing the ivy-wound thyrsus; myth and some rite include sparagmos (rending a live animal) and omophagia (eating its raw flesh). Initiation (teletē) admitted worshippers to the mysteries, celebrated in biennial (trieteric) festivals, and Orphic-Bacchic dead were buried with inscribed gold leaves. At Rome the Senate sharply restricted the Bacchanalia in 186 BCE.",
+  "canon": "No scripture; the cult is reconstructed from Euripides' 'Bacchae,' the Orphic theogonies and hymns, the Derveni papyrus, the gold tablets (Hipponion, Thurii, Pelinna, Petelia), and later authors such as Diodorus, Plutarch, and Nonnus.",
+  "reflects": "Ecstasy and dissolution as sacred — the deliberate, temporary shattering of the civic, rational, and gendered self as the path to the god, joined to the promise that the soul's true nature is divine.",
+  "sources": [
+   "Walter Burkert, 'Ancient Mystery Cults' (1987)",
+   "E.R. Dodds, 'The Greeks and the Irrational' (1951)",
+   "Fritz Graf & Sarah Iles Johnston, 'Ritual Texts for the Afterlife: Orpheus and the Bacchic Gold Tablets' (2007)"
+  ]
+ },
+ "divination-systems": {
+  "essence": "A modern grouping of three interwoven Western esoteric systems — astrology, tarot, and numerology — united less by a single origin than by a shared premise: that patterns in the heavens, in a deck of images, or in numbers correspond to and disclose the order of a human life. Astrology descends from Babylonian celestial omen-reading; numerology from Pythagorean and Neoplatonic number-mysticism; divinatory tarot is an 18th-century esoteric reinterpretation of a 15th-century Italian card game.",
+  "cosmos": "The unifying doctrine is the Hermetic correspondence 'as above, so below' — the macrocosm mirrored in the microcosm — so that the disposition of the planets, the fall of the cards, or the values of names and numbers reflect one underlying order. Reality is read as a web of symbolic resonance (reframed by many moderns, after Jung, as 'synchronicity') rather than strict physical cause. There is no shared doctrine of creation or afterlife; these are techniques of reading, though each has absorbed Neoplatonic emanationist and Kabbalistic schemes.",
+  "practice": "The practitioner casts and interprets — the natal horoscope from birth date, time, and place; the tarot spread drawn from the 78-card deck (22 Major Arcana and 56 Minor); the numerological reduction of names and dates. Use ranges from professional consultation and private introspection to the initiatory ritual magic of the Western occult revival (the Hermetic Order of the Golden Dawn and after), which cross-maps tarot, planets, and number onto the Kabbalistic Tree of Life.",
+  "canon": "No revealed scripture; key texts include Ptolemy's 'Tetrabiblos' and the Babylonian 'Enūma Anu Enlil' for astrology, the Pythagorean-Neoplatonic number lore of Iamblichus and Nicomachus, and, for esoteric tarot, Court de Gébelin's 'Le Monde primitif' (1781), Éliphas Lévi's 'Dogme et rituel de la haute magie' (1854-56), and A.E. Waite's 'The Pictorial Key to the Tarot' (1910).",
+  "reflects": "The reading of the cosmos as a legible sign-system — the impulse to find the pattern of an individual life encoded in an impersonal order of stars, cards, or numbers, divination as the decipherment of correspondence.",
+  "sources": [
+   "Tamsyn Barton, 'Ancient Astrology' (1994)",
+   "Wouter J. Hanegraaff, 'Esotericism and the Academy: Rejected Knowledge in Western Culture' (2012)",
+   "Ronald Decker, Thierry Depaulis & Michael Dummett, 'A Wicked Pack of Cards: The Origins of the Occult Tarot' (1996)"
+  ]
+ },
+ "dogon": {
+  "essence": "The traditional religion of the Dogon, a farming people of the Bandiagara escarpment in east-central Mali. It centers on a withdrawn supreme creator, Amma, who makes the world from a cosmic egg or seed; primordial amphibious ancestor-spirits, the Nommo; and the disorder loosed by the rebellious 'pale fox,' Ogo/Yurugu. It is renowned — and academically contested — for the elaborate symbolic cosmology recorded by Marcel Griaule.",
+  "cosmos": "Amma conceives the world within an egg whose vibrating, spiralling germination unfolds into the ordered categories of creation — grains, directions, and signs. The first creatures, the androgynous water-dwelling Nommo, embody perfect order; one is sacrificed, dismembered, and resurrected to purify and water the world, while the impatient twin Ogo breaks from his egg prematurely, bringing dryness, disorder, and death, and becomes the Pale Fox. Humanity descends from eight Nommo ancestors who bring the eight seed-grains and speech to earth in a celestial granary, and death enters as a gift through the first ancestor, Lébé.",
+  "practice": "Religion is organized around the Lébé earth-cult tended by the Hogon priest; masked funerary and renewal rites, above all the great Sigui festival held roughly every sixty years and processing village to village; and fox divination, in which questions traced in sand overnight are read from the tracks the pale fox leaves. Cosmology is materialized in village plan, granary architecture, and the geometry of ordinary building.",
+  "canon": "An oral and ritual corpus with no scripture; the principal published sources are Griaule's 'Conversations with Ogotemmêli' (1948) and Griaule and Germaine Dieterlen's 'Le Renard pâle' (1965).",
+  "reflects": "Cosmos as text — the rendering of the whole made world as a single readable geometric figure (egg, spiral, granary, signs), so that to build a house or trace the fox's tracks is to read the plan of creation.",
+  "sources": [
+   "Marcel Griaule, 'Conversations with Ogotemmêli' (1965; French 1948)",
+   "Marcel Griaule & Germaine Dieterlen, 'Le Renard pâle' (1965)",
+   "Walter E.A. van Beek, 'Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule' (1991)"
+  ]
+ },
+ "dravidian": {
+  "essence": "The indigenous religious layer of the Tamil and broader Dravidian-speaking south of India — attested in the Sangam-era Tamil literature (c. 300 BCE-300 CE) and continuous in living Tamil village religion and Shaivism — partly older than, and later fused with, the northern Vedic-Brahmanical tradition. Its signatures are the red hill-and-war god Murugan, fierce village mother-goddesses (the Amman), and an impersonal, dangerous sacred power, aṉaṅku.",
+  "cosmos": "Rather than one systematic cosmogony, early Tamil religion maps the sacred onto landscape — the five tiṇai eco-regions, each with its own mood — and onto aṉaṅku, an ambivalent numinous potency inhering in women, kings, mountains, and the battlefield, to be contained and 'cooled' rather than obeyed. The divine is intensely local: each village has its own guardian mother and boundary-god. The unquiet dead (pēy) haunt the wasteland and cremation ground where the war-goddess reigns, and proper rites settle them.",
+  "practice": "Worship is largely village-scale and often outside the Brahmanical temple — goddess (Amman) shrines at the village edge, guardian gods like Aiyaṉār with their ranks of terracotta horses, ecstatic possession and mediumship, animal sacrifice, cooling rites of turmeric and neem, and calendar festivals such as Poṅkal at the sun's northward turn. Over centuries many indigenous figures were assimilated to Sanskritic ones — Murugan to Skanda-Kārttikeya, Koṟṟavai to Durgā — a documented historical layering.",
+  "canon": "No single scripture; the earliest evidence is the Sangam corpus (the Eṭṭuttokai and Pattuppāṭṭu anthologies, including the 'Tirumurukāṟṟuppaṭai' hymn to Murukaṉ) and the epic 'Cilappatikāram,' while living folk religion is transmitted orally, largely outside written canon.",
+  "reflects": "The holy as impersonal, ambient charge (aṉaṅku) and as radically localized mother — divinity conceived as a dangerous potency in persons and places, prior to and beneath the named personal gods.",
+  "sources": [
+   "George L. Hart, 'The Poems of Ancient Tamil: Their Milieu and Their Sanskrit Counterparts' (1975)",
+   "Fred W. Clothey, 'The Many Faces of Murukaṉ: The History and Meaning of a South Indian God' (1978)",
+   "David Dean Shulman, 'Tamil Temple Myths' (1980)"
+  ]
+ },
+ "druze": {
+  "essence": "A closed, esoteric monotheistic religion (self-designation al-Muwaḥḥidūn, 'those who affirm God's oneness') that emerged from Ismaili Shia Islam in Fatimid Egypt between 1017 and 1043, its roughly one million adherents living mainly in the mountains of Syria, Lebanon, and Israel. Its defining tenets are the Fatimid caliph al-Ḥākim as the culminating manifestation of the divine, a Neoplatonic hierarchy of cosmic 'luminaries,' the transmigration of souls (taqammuṣ), and a faith permanently sealed to new members.",
+  "cosmos": "God is the utterly transcendent, indefinable One, disclosed not by incarnation but through successive human 'stations' or mirrors — supremely al-Ḥākim — and through five primordial cosmic ranks (al-ḥudūd al-khamsa: Intellect, Soul, Word, Precedent, Follower). al-Ḥākim entered occultation in 1021 and is awaited to return and inaugurate a golden age. Souls do not pass to paradise or hell but transmigrate at death immediately into another human body — a Druze always into a Druze — the sum of lives working out divine justice until the final reckoning.",
+  "practice": "The community is divided between the initiated ʿuqqāl ('the knowers'), who alone access the scriptures and keep an ascetic discipline, and the majority juhhāl ('the uninitiated'); worship centers on private houses of assembly (khalwa) rather than mosques, and taqiyya (protective dissimulation) is permitted under threat. There is no ordinary Islamic clergy, fixed daily prayer, or pilgrimage to Mecca; the chief shrine is the tomb of the prophet Shuʿayb (Jethro) at Ḥiṭṭīn, focus of the annual Nabī Shuʿayb pilgrimage.",
+  "canon": "The scriptures are the 'Rasāʾil al-Ḥikma' ('Epistles of Wisdom'), a corpus assembled c. 1017-1043 chiefly by Ḥamza ibn ʿAlī and Bahāʾ al-Dīn al-Muqtanā and restricted to the ʿuqqāl; the Qurʾān is retained but read esoterically.",
+  "reflects": "Religion as sealed gnosis — a monotheism locating truth in a guarded esoteric reading behind the letter of the law, with survival under persecution built in through secrecy, dissimulation, and a closed, reincarnating community.",
+  "sources": [
+   "Nejla M. Abu-Izzeddin, 'The Druzes: A New Study of Their History, Faith and Society' (1984)",
+   "Kais M. Firro, 'A History of the Druzes' (1992)",
+   "David R.W. Bryer, 'The Origins of the Druze Religion' (BSOAS, 1975-76)"
+  ]
+ },
+ "eckankar": {
+  "essence": "A new religious movement founded in 1965 by the American writer Paul Twitchell, teaching 'Soul Travel' — the movement of awareness through inner planes carried by the 'Light and Sound of God' (the ECK). It is led by a single 'Living ECK Master' (the Mahanta) at a time — Harold Klemp since 1981 — and administered from the Temple of ECK in Chanhassen, Minnesota, with members mainly in North America and a scattered international following.",
+  "cosmos": "Reality is a ladder of planes: the lower worlds of matter, emotion, and mind — governed by Kal Niranjan, the 'negative power' who administers karma, time, and reincarnation — rise through a pure spiritual region to the Sugmad, the formless, oceanic Supreme Being. Each soul is an eternal, individual spark of the Sugmad, wandering the lower worlds through many lifetimes until, guided by the Living ECK Master and the inner Light and Sound, it attains Self- and God-Realization and freedom from the wheel of rebirth. The teaching descends, in substance, from the Sant Mat / Radhasoami tradition of Surat Shabd Yoga (the 'yoga of the sound current').",
+  "practice": "Members ('chelas') perform daily 'spiritual exercises,' above all singing HU — treated as an ancient sacred name of God — and inner contemplation to open the Light and Sound; they study monthly discourses, keep dream journals, and pass through a graded series of initiations. The ethic centers on personal spiritual unfoldment, detachment (vairag), loving service, and taking responsibility for one's own karma rather than petitioning the divine for favors.",
+  "canon": "Paul Twitchell's writings — 'ECKANKAR: The Key to Secret Worlds' (1969) and 'The Tiger's Fang' among many — together with the movement's scripture, the 'Shariyat-Ki-Sugmad,' and the ongoing discourses of later Masters, chiefly Harold Klemp.",
+  "reflects": "The impulse to convert mystical ascent into a teachable, repeatable technique — inner experience of the divine offered as a step-by-step method with a living guide, rather than a grace reserved for the rare saint.",
+  "sources": [
+   "David C. Lane, 'The Making of a Spiritual Movement: The Untold Story of Paul Twitchell and Eckankar' (1983)",
+   "J. Gordon Melton, 'Encyclopedic Handbook of Cults in America' (rev. ed. 1992)",
+   "James R. Lewis, 'The Encyclopedia of Cults, Sects, and New Religions' (1998)"
+  ]
+ },
+ "egyptian": {
+  "essence": "The polytheistic religion of ancient Egypt, practiced along the Nile for over three millennia from the Early Dynastic period (c. 3100 BCE) to the closing of the last temples under Christian Rome (Philae, 6th century CE). It bound a vast pantheon to two central concerns: the maintenance of maʿat — cosmic order, truth, and justice — against the ever-threatening chaos (isfet), with the pharaoh as its divine-human guarantor; and the promise of eternal life through a highly elaborated cult of the dead.",
+  "cosmos": "The ordered world arose from the primeval waters (Nun) by a creator god — Atum or Ra at Heliopolis, Ptah at Memphis (who thinks creation in his heart and speaks it with his tongue), Amun at Thebes. The sun crosses the sky by day and sails the underworld (Duat) by night, slaying the chaos-serpent Apophis to be reborn each dawn — order re-won, never won once. At death the heart is weighed against the feather of Maʿat before Osiris in the Hall of the Two Truths; the justified dead join Osiris and the imperishable stars, sustained by mummification, tomb, and offering.",
+  "practice": "Temples were the houses of the gods, served by professional priesthoods performing daily rites of clothing, feeding, and censing the cult image; ordinary people met the gods chiefly through festivals, processional oracles, votive offerings, and household piety (amulets, ancestor busts, and near-domestic gods like Bes and Taweret). Mortuary religion was a vast enterprise — mummification, funerary texts, tomb-building, and mortuary priests maintaining offerings for the dead. Kingship was itself sacramental: the pharaoh as Horus in life and Osiris in death.",
+  "canon": "No single scripture but a vast liturgical and funerary corpus: the Pyramid Texts (Old Kingdom), the Coffin Texts (Middle Kingdom), and the Book of the Dead / 'Book of Coming Forth by Day' (New Kingdom onward), plus the netherworld guides (Amduat, Book of Gates), temple inscriptions, and hymns.",
+  "reflects": "The most sustained human campaign against death by ritual technology — a civilization that marshaled enormous resources on the conviction that right order and exact rites could carry the person, and the cosmos itself, through death into renewal.",
+  "sources": [
+   "Jan Assmann, 'The Search for God in Ancient Egypt' (2001)",
+   "Erik Hornung, 'Conceptions of God in Ancient Egypt: The One and the Many' (1982)",
+   "Richard H. Wilkinson, 'The Complete Gods and Goddesses of Ancient Egypt' (2003)",
+   "Byron E. Shafer (ed.), 'Religion in Ancient Egypt: Gods, Myths, and Personal Practice' (1991)"
+  ]
+ },
+ "elamite": {
+  "essence": "The religion of ancient Elam, the civilization of southwestern Iran centered on Susa in the lowlands and Anshan in the highlands, attested from the third millennium BCE until Elam's absorption into the Achaemenid Persian empire in the mid-first millennium BCE. It was polytheistic, notable for the enduring prominence of great goddesses and for Inshushinak, patron of Susa and judge of the dead.",
+  "cosmos": "No Elamite cosmogony or systematic afterlife doctrine survives; the pantheon is reconstructed from names, dedications, and images. At its height it was headed by the highland 'Great God' Napirisha and 'Great Goddess' Kiririsha of Liyan, the sky-god Humban (source of the protective royal radiance, kiten, that legitimized kings), the sun-god and oath-guarantor Nahhunte, and Inshushinak, lord of Susa and of the underworld where the dead were judged. A recurring human-headed serpent bearing life-giving water anchors much of the surviving iconography.",
+  "practice": "City temple-cults with royal patronage, oath-taking under divine witness, votive dedication, and monumental building — above all the great ziggurat complex at Chogha Zanbil (Dur-Untash), raised by Untash-Napirisha c. 1250 BCE. Kings advertised their piety and their divine mandate in inscriptions; the material record shows processions, offerings, and seal-borne devotion, though the inner life of the cult is largely lost.",
+  "canon": "No sacred literature survives in Elamite; the religion is known only from royal inscriptions (Elamite and Akkadian), theophoric names, god-lists, the god-invoking treaty of Naram-Sin of Akkad (c. 2250 BCE), rock reliefs (Kurangun, Naqsh-e Rostam), cylinder seals, and excavation (Susa, Chogha Zanbil).",
+  "reflects": "The persistence of a goddess-weighted, underworld-anchored pantheon on Mesopotamia's eastern flank — a religion recoverable almost entirely from its material and administrative traces rather than from any story it told about itself.",
+  "sources": [
+   "Daniel T. Potts, 'The Archaeology of Elam: Formation and Transformation of an Ancient Iranian State' (2nd ed. 2016)",
+   "Wouter F. M. Henkelman, 'The Other Gods Who Are: Studies in Elamite-Iranian Acculturation' (2008)",
+   "Javier Álvarez-Mon, Gian Pietro Basello & Yasmina Wicks (eds.), 'The Elamite World' (2018)"
+  ]
+ },
+ "eleusinian": {
+  "essence": "The most famous of the ancient Greek mystery cults: a secret annual initiation into the worship of Demeter and her daughter Kore (Persephone), held at Eleusis some 20 km northwest of Athens from at least the Archaic period until its suppression under the Christian emperors and the sack of the sanctuary in 396 CE. It was open to almost anyone who spoke Greek and was free of blood-guilt — women and men, free and enslaved — and promised its initiates (mystai) a happier lot among the dead. Its culminating secret, revealed in the great hall (Telesterion), was never written down and remains genuinely unknown.",
+  "cosmos": "The cult rests on the myth of the 'Homeric Hymn to Demeter': Hades seizes Kore, Demeter's grief blights the earth into famine, and a brokered compromise returns the maiden for part of each year, mapping the grain cycle onto death and return. Eleusis turned this seasonal story into a claim about the human dead — initiates would enjoy a blessed existence in the underworld while the uninitiated lay in darkness and mud. Death is thus not annihilation but a state that ritual experience can improve.",
+  "practice": "The rites ran on a two-tier calendar — the Lesser Mysteries near Athens in spring and the Greater Mysteries in autumn (month of Boedromion) — a multi-day sequence of purification in the sea, a procession along the Sacred Way, a fast broken by the barley drink kykeon, and a climactic night in the Telesterion where the hierophant displayed the secret sacred objects (hiera) amid darkness and sudden fire. The hereditary priestly families of the Eumolpidae and Kerykes administered it, and disclosure of the secret was a capital offense.",
+  "canon": "There is no scripture; the founding narrative is the anonymous 'Homeric Hymn to Demeter' (c. 7th century BCE), supplemented by scattered testimonia in Pausanias, Clement of Alexandria, and inscriptions — the initiatory secret itself was oral and is lost.",
+  "reflects": "It foregrounds initiation as the purchase of a better death — religion offering not moral reform but a change in one's posthumous fate through a single overwhelming ritual experience.",
+  "sources": [
+   "Walter Burkert, 'Ancient Mystery Cults' (1987)",
+   "George E. Mylonas, 'Eleusis and the Eleusinian Mysteries' (1961)",
+   "Kevin Clinton, 'Myth and Cult: The Iconography of the Eleusinian Mysteries' (1992)"
+  ]
+ },
+ "entheogenic-churches": {
+  "essence": "A modern comparative grouping of religions built around a psychoactive sacrament taken as the literal vehicle of the divine. It joins two Brazilian ayahuasca churches — Santo Daime (founded by Raimundo Irineu Serra, 'Mestre Irineu', in 1930s Acre) and the Uniao do Vegetal (UDV, founded by Jose Gabriel da Costa, 'Mestre Gabriel', in 1961) — with the Bwiti of Gabon, whose Fang and Mitsogo practitioners consume the root bark iboga. Each treats its plant not as a symbol but as an agent that teaches, heals, and reveals directly.",
+  "cosmos": "The Brazilian churches fuse Amazonian plant-shamanism (vegetalismo) with folk Catholicism and, in Santo Daime, Kardecist spiritism: Christ and the divine are met within the brew, and the world is a moral order navigated through the vision (miracao). Bwiti frames the cosmos around ancestral realms reached by crossing a threshold of death, and its iboga initiation is a deliberately overwhelming near-death journey to meet the ancestors and the creator. Across all three the spirit world is not merely believed in but directly visited in life through the sacrament.",
+  "practice": "Santo Daime holds all-night 'works' of hymn-singing (hinos) and synchronized dancing in uniformed ranks; the UDV holds seated, quieter sessions of mental concentration and ethical teaching led by a Mestre; Bwiti stages a days-long initiation in which a novice takes massive doses of iboga under an initiator's supervision, guided by harp and drum. All three demand discipline, community, and a tightly bounded ritual container for an intense pharmacological experience.",
+  "canon": "Largely oral and musical rather than scriptural: Santo Daime's authority lives in its received hymnals (hinarios, beginning with Irineu's 'O Cruzeiro'), the UDV transmits Mestre Gabriel's oral teachings, and Bwiti is carried entirely through oral myth, song, and initiatory practice.",
+  "reflects": "It foregrounds the chemically induced encounter as the ground of religious authority — revelation sought not in text or inherited tradition but in a repeatable, bodily ingested experience of the sacred.",
+  "sources": [
+   "Andrew Dawson, 'Santo Daime: A New World Religion' (2013)",
+   "Beatriz Caiuby Labate and Henrik Jungaberle (eds.), 'The Internationalization of Ayahuasca' (2011)",
+   "James W. Fernandez, 'Bwiti: An Ethnography of the Religious Imagination in Africa' (1982)"
+  ]
+ },
+ "epicureanism": {
+  "essence": "A Hellenistic philosophy — and, in practice, a communal way of life — founded by Epicurus of Samos in Athens around 307/306 BCE, when he established his school in the property known as the Garden (Kepos). It held that the aim of life is ataraxia (freedom from mental disturbance) and the absence of bodily pain, reached through a thoroughgoing materialist physics that removes the fear of gods and of death. It spread widely across the Greek and Roman worlds and endured into the imperial period.",
+  "cosmos": "Reality is exhaustively atoms and void: infinite indivisible particles moving through infinite empty space, from which worlds form and dissolve by mechanical necessity, with an uncaused atomic 'swerve' (clinamen) introducing the indeterminacy that grounds free will. The gods exist but are blissful, deathless beings in the spaces between worlds (metakosmia) who neither create, govern, nor judge. The soul is itself atomic and disperses at death, so death 'is nothing to us' — there is no afterlife, punishment, or reward.",
+  "practice": "Epicureanism was lived in friendship-communities modeled on the Garden, which admitted women and enslaved people; it prized living unnoticed (lathe biosas), withdrawal from political ambition, and the limiting of desire to what is 'natural and necessary'. Its ethics were frankly therapeutic — philosophy as medicine for the soul, distilled in the memorized four-part cure (tetrapharmakos) — and Epicurus himself was venerated, his sayings recited on set days.",
+  "canon": "Most of Epicurus' vast output is lost; the core survives as three letters (to Herodotus, Pythocles, and Menoeceus) and the 'Principal Doctrines' preserved by Diogenes Laertius, the 'Vatican Sayings', the charred Herculaneum papyri of Philodemus, and above all Lucretius' Latin poem 'De Rerum Natura' (1st century BCE).",
+  "reflects": "It foregrounds religion's therapeutic inverse — a disciplined argument that the gods are irrelevant and death is nothing, deploying physics itself to abolish supernatural fear.",
+  "sources": [
+   "A.A. Long and D.N. Sedley, 'The Hellenistic Philosophers' (1987)",
+   "Tim O'Keefe, 'Epicureanism' (2010)",
+   "Lucretius, 'De Rerum Natura' (1st century BCE)"
+  ]
+ },
+ "espiritismo": {
+  "essence": "A family of Caribbean spiritist practices descending from the Spiritism codified by the Frenchman Allan Kardec (Hippolyte Leon Denizard Rivail) in the 1850s, creolized above all in Cuba and Puerto Rico from the later 19th century and carried into their diasporas. Practitioners hold that the personality survives death as a spirit, that spirits progress morally across successive lives, and that mediums can communicate with them to heal, guide, and resolve affliction.",
+  "cosmos": "Kardec's doctrine posits a moral universe of reincarnating spirits ascending through many embodiments toward perfection, with life's suffering understood partly as the working-out of past debts. Caribbean Espiritismo populates this frame with a personal 'spiritual court' (cuadro espiritual) of guides and with the 'commissions' — collective spirit-types (Indios, Congos, Madamas, Gitanas) drawn from the region's colonial strata. The dead are near, active, and often in need of 'light'; an earthbound or ignorant spirit (causa) can attach to the living and must be elevated, not destroyed.",
+  "practice": "Its central rite is the seance at the white-clothed table (mesa blanca), with the water-glass altar (boveda espiritual) serving as the medium's antenna; participants pray from Kardec's texts, read spiritual 'currents', give cleansings (despojos) with herbs, Florida water, tobacco, and rum, and may be mounted in possession. In its widespread 'crossed' form (espiritismo cruzado) it interlocks with Afro-Cuban Regla de Ocha (Santeria) and Palo Monte, serving as a preliminary 'work of the dead'.",
+  "canon": "Kardec's foundational books — 'Le Livre des Esprits' (The Spirits' Book, 1857) and 'Le Livre des Mediums' (1861) — remain authoritative, but Caribbean practice is transmitted chiefly through oral apprenticeship, prayer, and song rather than any fixed local scripture.",
+  "reflects": "It foregrounds the moral rehabilitation of the dead — a religion in which caring for, teaching, and elevating suffering spirits is the central spiritual labor of the living.",
+  "sources": [
+   "Margarite Fernandez Olmos and Lizabeth Paravisini-Gebert, 'Creole Religions of the Caribbean' (2003)",
+   "Reinaldo L. Roman, 'Governing Spirits: Religion, Miracles, and Spectacles in Cuba and Puerto Rico, 1898-1956' (2007)",
+   "Diana Espirito Santo, 'Developing the Dead: Mediumship and Selfhood in Cuban Espiritismo' (2015)",
+   "Allan Kardec, 'Le Livre des Esprits' (1857)"
+  ]
+ },
+ "etruscan": {
+  "essence": "The religion of the Etruscans (Rasenna), the non-Indo-European-speaking people of Etruria in west-central Italy, flourishing from roughly the 8th to the 1st century BCE before their absorption into Rome. It centered on a 'revealed' science of reading the will of the gods and on scrupulous ritual exactitude; the Romans thought the Etruscans the most religious of peoples and inherited their arts of divination wholesale.",
+  "cosmos": "The Etruscans held to a rigidly ordered cosmos whose divine will was legible everywhere to a trained reader: the sky was partitioned into sixteen regions apportioned to named gods, as modeled on the bronze Piacenza Liver, and history ran through a fixed number of world-ages (saecula) with a divinely allotted span for the Etruscan nation itself. Painted tombs show a developed underworld ruled by Aita and Phersipnai and attended by the native death-daemons Charun and Vanth. The elaborate funerary culture implies a deep concern with the passage and fate of the dead.",
+  "practice": "Religious life was governed by the disciplina etrusca — the codified arts of the haruspex (reading entrails, above all the liver of sacrifices), the fulgural priest (interpreting lightning), and the reading of prodigies — administered by a trained priesthood and demanding exact procedure. Public, civic, and funerary ritual, sacrifice, and the very orientation of temples and cities followed these revealed rules.",
+  "canon": "The sacred books of the disciplina (the libri haruspicini, fulgurales, and rituales), attributed to the revealer-child Tages and the nymph Vegoia, survive only in fragments and Roman paraphrase; the physical Piacenza Liver, the bilingual Pyrgi Tablets, and tomb inscriptions are the primary witnesses to a corpus otherwise lost.",
+  "reflects": "It foregrounds divination as exact science — the conviction that the gods' intentions are continuously inscribed in the world (in liver, lightning, and thunder) and are to be decoded by rule rather than merely petitioned.",
+  "sources": [
+   "Nancy Thomson de Grummond, 'Etruscan Myth, Sacred History, and Legend' (2006)",
+   "Jean MacIntosh Turfa, 'Divining the Etruscan World: The Brontoscopic Calendar and Religious Practice' (2012)",
+   "Larissa Bonfante and Judith Swaddling, 'Etruscan Myths' (2006)"
+  ]
+ },
+ "evenki": {
+  "essence": "The traditional religion of the Evenki (Tungus), a reindeer-herding and hunting people spread thinly across the central and eastern Siberian taiga and into northern China and Mongolia. It is an animist-shamanic system organized around clan spirits, the masters of animals and the land, and the shaman who mediates among the worlds — and it is the tradition from whose language the word 'shaman' (Evenki saman) entered global usage.",
+  "cosmos": "The universe is layered into upper, middle, and lower worlds, threaded by a cosmic larch and, in Anisimov's account, by a mythic clan-river running from the upper world of unborn souls down to the land of the dead. An encompassing sky/world-spirit, Buga (also the word for 'world' and 'sky'), is the diffuse supreme principle, while a darker counter-power bound to the lower world governs predators and the hazards of the hunt. Souls (omi) begin as bird-souls perched in the world-tree and return to the clan's own branch to be reborn within the lineage.",
+  "practice": "The shaman, in an antlered iron-hung costume and using the drum as mount and the tent-pole as world-tree, enters ecstatic trance to heal the sick, retrieve stolen souls, escort the dead, and secure the hunt. Ordinary religious life turns on reciprocity with the master-spirits of game — above all the bear, honored with an apology-feast (the widespread circumpolar bear ceremonialism) so that the animal is understood to consent to being taken.",
+  "canon": "An oral tradition with no scripture, known through myth, song, and ritual recorded by ethnographers — pre-eminently S.M. Shirokogoroff and A.F. Anisimov.",
+  "reflects": "It foregrounds the shaman as cosmic traveler — the specialist who leaves the body to negotiate in person with the spirits on the community's behalf — the very practice that gave the world its word for the role.",
+  "sources": [
+   "S.M. Shirokogoroff, 'Psychomental Complex of the Tungus' (1935)",
+   "A.F. Anisimov, 'The Shaman's Tent of the Evenks and the Origin of the Shamanistic Rite' (1963)",
+   "Ronald Hutton, 'Shamans: Siberian Spirituality and the Western Imagination' (2001)"
+  ]
+ },
+ "ewe-ga": {
+  "essence": "The traditional religions of two neighboring West African peoples: the Ewe of southeastern Ghana and Togo (Gbe-speaking, and closely cognate with the Fon Vodun of Benin) and the Ga of the Accra plains in Ghana (Kwa-speaking). Both recognize a remote supreme creator above a populous world of active deities and ancestral spirits, and both remain living traditions alongside Christianity and Islam.",
+  "cosmos": "The Ewe name the creator as the dual Mawu-Lisa (or Mawu alone) and the Ga as Ataa-Naa Nyongmo ('Father-Mother God'), both fusing male and female in the highest being; beneath the creator stand the Ewe trowo (deities of river, sea, thunder, and place) and the Ga dzemawoji (gods of sea and lagoon), tied to particular lineages and locales. A person carries a destiny (Ewe Se/Dzogbese) allotted before birth, and the moral order is made legible through divination. The dead become ancestors who remain involved in the affairs of their descendants.",
+  "practice": "Worship runs through lineage- and shrine-based priesthoods (the Ga wulomei), through spirit-possession in which deities 'mount' and speak through devotees to judge and heal, through sacrifice and propitiation, and through the geomantic system Afa, read by casting palm nuts or a divining chain; the trickster-linguist Legba must be fed first at every rite. The Ga mark the year with Homowo ('hooting at hunger'), the great festival commemorating survival of a founding famine.",
+  "canon": "Oral in transmission — myth, the divination verse of the Afa corpus, praise-song, and festival liturgy — documented in the ethnographies of Margaret Field, Marion Kilson, and Judy Rosenthal rather than in any indigenous scripture.",
+  "reflects": "It foregrounds the localization of the divine — a remote, androgynous creator made accessible through place-bound deities, lineage ancestors, and a divination code that renders personal destiny both legible and negotiable.",
+  "sources": [
+   "Judy Rosenthal, 'Possession, Ecstasy, and Law in Ewe Voodoo' (1998)",
+   "Margaret J. Field, 'Religion and Medicine of the Ga People' (1937)",
+   "Marion Kilson, 'Kpele Lala: Ga Religious Songs and Symbols' (1971)"
+  ]
+ },
+ "falun-gong": {
+  "essence": "A Chinese new religious movement in the qigong lineage, introduced publicly by Li Hongzhi in 1992 and also called Falun Dafa. It teaches a practice of 'cultivation' that combines five sets of slow exercises with strict moral self-transformation according to the cosmic principle Zhen-Shan-Ren (Truthfulness, Compassion, Forbearance). Having drawn millions of adherents, it has been banned and severely persecuted by the People's Republic of China since 1999 and now operates largely in the global diaspora.",
+  "cosmos": "Li teaches that the cosmos is built from and governed by Zhen-Shan-Ren, that it has degenerated across the Buddhist-derived cycle of formation-stasis-degeneration-destruction, and that a cosmic 'Fa-rectification' is now renewing it. The practitioner accumulates gong (a high-energy substance) and hosts a rotating falun ('law wheel') implanted in the abdomen that refines the body toward a divine state, while karma is treated as a real, dark substance to be worked off. Moral cultivation, not ritual observance, determines one's spiritual level and post-mortem fate.",
+  "practice": "Adherents perform the five exercises (four standing, one seated meditation), study Li's teachings, and above all cultivate xinxing (moral character) in the friction of daily life; there is no clergy, temple, membership roll, or fee. Since the 1999 ban, 'clarifying the truth' about the persecution — through media such as the Epoch Times, the Shen Yun performances, and public protest — has become a central activity for diaspora practitioners.",
+  "canon": "Li Hongzhi's writings, above all 'Zhuan Falun' (Turning the Law Wheel, 1995), together with the earlier 'Falun Gong' (1993) and his many later lectures, which practitioners treat as the authoritative body of the 'Fa'.",
+  "reflects": "It foregrounds moral cultivation as literal physics — the claim that ethical self-purification is not metaphor but the concrete mechanism that transmutes the body and fixes one's rank within a decaying cosmos.",
+  "sources": [
+   "David Ownby, 'Falun Gong and the Future of China' (2008)",
+   "Benjamin Penny, 'The Religion of Falun Gong' (2012)",
+   "Li Hongzhi, 'Zhuan Falun' (1995)"
+  ]
+ },
+ "fijian": {
+  "essence": "The pre-Christian and still-influential ancestral religion of the iTaukei (indigenous Fijians), a society at the Melanesian-Polynesian crossroads. It centers on deified lineage ancestors (kalou-vu, 'root gods') bound to particular clans, animals, and places, beneath greater gods such as the creator-serpent Degei, and on chiefly authority sanctified by sacred power (mana). Though Fiji is now overwhelmingly Christian, the concepts of mana, tabu, and the ceremonial whale-tooth (tabua) remain socially central.",
+  "cosmos": "The cosmos is ordered by mana, a sacred efficacy that descends from the ancestor-gods through chiefs into land and people and must be guarded by tabu (prohibition). The great serpent Degei, coiled in a cave in the Nakauvadra range, is both creator and judge of the dead; the soul after death faces a perilous journey — menaced by the club-wielding Ravuyalo — toward the afterworld, and a mythic red paradise-island, Burotu, drifts over the sea. Chiefly and ancestral order is thus a religious rather than merely political fact.",
+  "practice": "Religious life ran through hereditary priests (bete) possessed by and speaking for the ancestor-gods, through sacrifice and the presentation of the polished sperm-whale tooth (tabua) to bind agreements and petition gods and chiefs, through the kava (yaqona) ceremony, and through strict observance of tabu. Descent-group identity, land, and totemic animal or plant (waqawaqa) are tied to a particular kalou-vu.",
+  "canon": "Oral — cosmogonic and migration narratives (notably the Kaunitoni canoe migration of Lutunasobasoba), chants (meke), and genealogies — first recorded by 19th-century missionaries such as Thomas Williams and later documented by anthropologists including A.M. Hocart.",
+  "reflects": "It foregrounds sacred power as social structure — mana and tabu binding chiefly rank, lineage, and land into a single religious order in which ancestors remain the living root of authority.",
+  "sources": [
+   "Thomas Williams, 'Fiji and the Fijians' (1858)",
+   "A.M. Hocart, 'Lau Islands, Fiji' (1929)",
+   "Asesela Ravuvu, 'Vaka i Taukei: The Fijian Way of Life' (1983)"
+  ]
+ },
+ "finnish": {
+  "essence": "The pre-Christian religion and mythology of the Finns and Karelians (Baltic-Finnic, Uralic-speaking peoples of Fennoscandia), overlaid by Christianity from roughly the 12th-13th centuries but preserved in an immense body of oral 'runo' song. It is known above all through the 'Kalevala', the national epic that Elias Lonnrot compiled and shaped from that oral poetry in 1835 (expanded 1849).",
+  "cosmos": "In the runo cosmogony the world is formed not by a commanding sky-god but from a waterbird's egg shattered on the knee of the air-and-water mother Ilmatar, its shell becoming earth and sky and its yolk the sun — a maternal, oceanic genesis. The sky-god Ukko rules thunder and the harvest, the smith Ilmarinen forged the very dome of heaven, and the land of the dead, Tuonela (Manala), lies across a dark river and is escaped only by cunning, with no scheme of judgment or reward. Louhi, mistress of the cold North (Pohjola), is the great rival power.",
+  "practice": "Religious efficacy lay above all in the potent sung word — incantations (loitsut) whose power depended on knowing a thing's mythic origin — wielded by the tietaja ('knower', sage-magician), archetype of Vainamoinen, who makes and unmakes the world by song. Historical practice also included cult of the dead, bear ceremonialism (the karhunpeijaiset feast), and the propitiation of the forest-lord Tapio and other nature-guardians before the hunt.",
+  "canon": "A vast oral corpus of runo-songs in kalevalaic meter, incantations, and laments, collected in the 19th century and synthesized by Lonnrot into the 'Kalevala' (1835; expanded 1849) and, for the lyric material, the 'Kanteletar' — the epic being a scholarly compilation, not an ancient scripture.",
+  "reflects": "It foregrounds the magic of the named word — a worldview in which knowing the true origin-story of a thing grants verbal power over it, and the poet-magician is the effective religious specialist.",
+  "sources": [
+   "Elias Lonnrot (comp.), 'Kalevala' (1835; expanded 1849)",
+   "Juha Pentikainen, 'Kalevala Mythology' (1989)",
+   "Anna-Leena Siikala, 'Mythic Images and Shamanism: A Perspective on Kalevala Poetry' (2002)"
+  ]
+ },
+ "fon": {
+  "essence": "The religion of the Fon people of the former Kingdom of Dahomey (now southern Benin) — the West African Vodun tradition from which Haitian Vodou and related New World religions descend. It venerates the vodun, a large body of gods and spirits headed by the dual creator Mawu-Lisa (offspring of the withdrawn primordial Nana Buluku), through cult-houses, initiation, spirit-possession, and the Fa divination system. It remains a living tradition with a wide Atlantic diaspora.",
+  "cosmos": "Creation issues from the withdrawn androgyne Nana Buluku through the twin Mawu-Lisa — moon-and-sun, female-and-male — whose complementarity orders the world, while the rainbow-serpent Dan (Ayido Hwedo) girdles and moves the cosmos and keeps it from collapse. The pantheon is organized into families of vodun governing sky (the thunderer Xevioso), earth (Sakpata, lord of the ground and of smallpox), iron (Gu), and water. Each person holds a destiny (Fa) inscribed in one of 256 signs, and the ancestors and the deified anomalous dead (tohosu) remain powers among the living.",
+  "practice": "Vodun is served in initiatory cult-houses where devotees are consecrated to a particular deity and may be possessed by it in drumming-and-dance ceremonies; worship centers on sacrifice, offering, and the mediation of priests (vodunon) and diviners (bokonon) who read Fa with palm-nuts or the divining chain. Legba, the trickster-linguist of the crossroads, must be propitiated first so that communication with the gods can open.",
+  "canon": "Oral — cosmogonic myth, the divinatory verse-corpus of Fa (the Fon reception of Yoruba Ifa, sharing the 256 signs), praise-poetry, and cult-song — documented ethnographically, above all by Melville J. Herskovits.",
+  "reflects": "It foregrounds ordered multiplicity — a single withdrawn source unfolding into a governed pantheon of specialized powers and a legible 256-sign map of destiny, the sacred distributed as a working division of cosmic labor.",
+  "sources": [
+   "Melville J. Herskovits, 'Dahomey: An Ancient West African Kingdom' (1938)",
+   "Suzanne Preston Blier, 'African Vodun: Art, Psychology, and Power' (1995)"
+  ]
+ },
+ "fourth-way": {
+  "essence": "An esoteric teaching brought to Russia and then the West by George Ivanovich Gurdjieff (c. 1866-1949) from around 1912-1915 and systematized by his pupil P.D. Ouspensky. Its premise is that ordinary humanity lives in 'waking sleep' — mechanical, without a unified self or a guaranteed soul — and that one can awaken and crystallize a real 'I' only through specific, effortful inner work carried on in the midst of ordinary life, a 'fourth way' distinct from the paths of the fakir (body), monk (emotion), and yogi (mind).",
+  "cosmos": "Gurdjieff taught a lawful, mechanical cosmos in which everything descends from the Absolute along the 'Ray of Creation' through octaves, each lower level bound by more laws; two fundamental laws — the Law of Three (three forces in every event) and the Law of Seven (the octave) — govern all processes and are mapped together on the Enneagram. Humanity occupies a low rung and unknowingly serves cosmic purposes (in the myth of 'Beelzebub's Tales', transmitting energies to the Moon), and consciousness and even a surviving soul are not givens but must be built.",
+  "practice": "The work is practical and psychological: self-observation and 'self-remembering' (dividing attention so as to be present to oneself), the struggle against mechanical habit through 'conscious labor and intentional suffering', study in a school under a teacher, and Gurdjieff's 'sacred dances' or Movements. It pointedly rejects withdrawal, demanding that the friction of everyday life be used as the fuel for awakening.",
+  "canon": "Gurdjieff's own writings — the allegorical 'Beelzebub's Tales to His Grandson' (1950), 'Meetings with Remarkable Men', and 'Life Is Real Only Then, When I Am' (the trilogy 'All and Everything') — together with P.D. Ouspensky's exposition 'In Search of the Miraculous' (1949), which most systematically records the teaching.",
+  "reflects": "It foregrounds the soul as an achievement rather than a birthright — the claim that inner unity and immortality are not given but must be manufactured through deliberate, disciplined effort against one's own mechanicalness.",
+  "sources": [
+   "P.D. Ouspensky, 'In Search of the Miraculous' (1949)",
+   "G.I. Gurdjieff, 'Beelzebub's Tales to His Grandson' (1950)",
+   "James Webb, 'The Harmonious Circle' (1980)"
+  ]
+ },
+ "freemasonry": {
+  "essence": "A fraternal initiatic order that took organized 'speculative' form in the British Isles in the early 18th century (the premier Grand Lodge was founded in London in 1717), developing out of the lodges and legends of medieval operative stonemasonry. It is not a religion and professes no single theology, but it is a system of moral and, in its esoteric reading, spiritual instruction 'veiled in allegory and illustrated by symbols', requiring initiates to profess belief in a supreme being, the Great Architect of the Universe.",
+  "cosmos": "Its worldview is deistic and architectural rather than dogmatic: the cosmos is the work of the Great Architect, a divine geometer, its order expressed in number, proportion, and moral law rather than sectarian doctrine. The central drama concerns not creation or the afterlife as such but the building — and completion within the initiate — of a spiritual 'Temple', and the loss of and search for an ineffable truth (the Lost Word). Specific claims about God and the hereafter are left deliberately to each member's own faith.",
+  "practice": "Organized in lodges and worked through a graded series of initiation rituals — the three Craft degrees (Entered Apprentice, Fellow Craft, Master Mason), with further degrees in the Royal Arch, Scottish Rite, and elsewhere — it teaches through allegory, treating the ordinary tools of the mason (square, compasses, gavel, ashlar) as moral instruments. Its ethic stresses brotherly love, relief (charity), and truth, and the Master Mason degree stages the candidate's symbolic death as Hiram Abiff and his 'raising'.",
+  "canon": "Not a scripture but a body of ritual and constitutional texts: James Anderson's 'The Constitutions of the Free-Masons' (1723), the medieval 'Old Charges', and the ritual 'workings' (known publicly through exposures such as Samuel Prichard's 'Masonry Dissected', 1730), with a Volume of the Sacred Law (usually the Bible) lying open in the lodge.",
+  "reflects": "It foregrounds ethical self-construction under a non-sectarian deity — the religious impulse abstracted into a craft of moral geometry, where salvation-language becomes the patient shaping of the self into a 'perfect ashlar'.",
+  "sources": [
+   "James Anderson, 'The Constitutions of the Free-Masons' (1723)",
+   "David Stevenson, 'The Origins of Freemasonry: Scotland's Century, 1590-1710' (1988)",
+   "Margaret C. Jacob, 'Living the Enlightenment: Freemasonry and Politics in Eighteenth-Century Europe' (1991)"
+  ]
+ },
+ "fuegian": {
+  "essence": "The religions of the indigenous hunter-gatherer and canoe peoples of Tierra del Fuego at the southern tip of South America — chiefly the Selk'nam (Ona) of the main island's interior and the Yamana (Yahgan) of the southern channels — among the southernmost human societies on earth. Documented intensively in the early 20th century, just before their catastrophic collapse from introduced disease and settler violence, both recognized a supreme being and organized social life around a demanding male initiation.",
+  "cosmos": "The Selk'nam supreme being Temaukel is a formless, withdrawn creator who leaves the shaping of the world to the first ancestor Kenos; death was made permanent by the culture-hero Kwanyip's deliberate choice, and the sky preserves the myth of a primordial gender war (the moon-woman Kra, scarred by the sun-man Kran). The Yamana center on Watauinewa, 'the Ancient One', an intensely present supreme owner of life and food. Both peoples' cosmology is tightly bound to the harsh subantarctic landscape and its scant marine and land resources.",
+  "practice": "The pivotal Selk'nam institution was the Hain, a months-long male initiation in which masked men impersonated spirits — above all the devouring underground Xalpen — to instruct youths and, in the tradition's own telling, to uphold a patriarchal order said to have overthrown an earlier rule by women. Shamans (xon) mediated with spirits and weather, and the Yamana held their own initiation ceremonies while maintaining a direct, conversational piety toward Watauinewa.",
+  "canon": "Oral, and preserved almost entirely through outside ethnography: the myths, songs, and Hain lore recorded by the missionary-raised Lucas Bridges and, definitively, by the ethnologist-priest Martin Gusinde and later by Anne Chapman — there is no indigenous text.",
+  "reflects": "It foregrounds the admitted stagecraft of the sacred — an initiation whose masked 'spirits' are openly known by the initiated to be men, making religion the deliberate maintenance of social order through consciously wielded awe.",
+  "sources": [
+   "Martin Gusinde, 'Die Feuerland-Indianer' (vol. 1 'Die Selk'nam', 1931; vol. 2 'Die Yamana', 1937)",
+   "Anne Chapman, 'Drama and Power in a Hunting Society: The Selk'nam of Tierra del Fuego' (1982)",
+   "E. Lucas Bridges, 'Uttermost Part of the Earth' (1948)"
+  ]
+ },
+ "ghost-dance": {
+  "essence": "A cluster of Native American prophetic revitalization movements of the late 19th-century American West, centered on a circle dance believed to hasten world-renewal and the return of the dead. Two waves are distinguished: the 1870 Ghost Dance of the Northern Paiute prophet Wodziwob, and the far larger 1890 movement of the Northern Paiute prophet Wovoka (Jack Wilson), which spread across the Great Basin and Plains and became entangled, among the Lakota, with the Wounded Knee Massacre of December 29, 1890.",
+  "cosmos": "Wovoka's revelation, received in a trance during an 1889 solar eclipse, promised an imminent renewal of the earth in which the Indigenous dead would return, the game (above all the buffalo) would be restored, and a purified world would replace the present one, while adherents lived peaceably and danced. It fused Great Basin shamanic tradition with Christian eschatology — Wovoka was identified by some followers with a returned Christ, and the creator with the Christian 'Father'. The renewal was imagined as a physical, this-worldly transformation of the American land rather than an ascent to heaven.",
+  "practice": "The core rite was the round dance — participants joining hands in a circle and shuffling and singing revealed songs for days at a time to induce visionary trance and contact with the dead. Wovoka's original teaching was explicitly pacifist; as it spread to the Plains, some Lakota adopted the 'Ghost Shirt', believed to stop bullets, giving the movement a militant cast that alarmed U.S. authorities and helped precipitate the killing at Wounded Knee.",
+  "canon": "Oral — Wovoka's teachings, carried by delegations and by letters (the so-called Messiah Letter), and the large corpus of Ghost Dance songs; the indispensable early record is the ethnographer James Mooney's firsthand study for the Bureau of American Ethnology.",
+  "reflects": "It foregrounds religion as the response to catastrophe — a prophetic movement that met colonial dispossession and demographic collapse with a danced demand for the renewal of the world and the return of the dead.",
+  "sources": [
+   "James Mooney, 'The Ghost-Dance Religion and the Sioux Outbreak of 1890' (1896)",
+   "Michael Hittman, 'Wovoka and the Ghost Dance' (1990)",
+   "Gregory E. Smoak, 'Ghost Dances and Identity: Prophetic Religion and American Indian Ethnogenesis in the Nineteenth Century' (2006)"
+  ]
+ },
+ "gnostic": {
+  "essence": "A cluster of late-antique salvation-through-knowledge movements of the Mediterranean and Near East (c. 1st–4th centuries CE, with Manichaeism surviving in Central Asia and China into the 14th). The label gathers the varied Christian and Jewish 'Gnostic' schools (Sethian, Valentinian, Basilidean), the philosophical-religious Hermetica of Greco-Roman Egypt, and Mani's dualist world-religion — united by the conviction that the material cosmos is fallen or flawed and that salvation comes through gnosis, a saving knowledge of the soul's divine origin and its way home.",
+  "cosmos": "Characteristically: a wholly transcendent Source (the Monad, the One) overflows into a 'fullness' (Pleroma) of paired divine Aeons; through a primal fault — often the fall of Sophia (Wisdom) — the material world is fashioned by a lower, ignorant craftsman, the Demiurge (Yaldabaoth), who mistakes himself for the highest god. Fragments of the divine lie trapped and asleep in human bodies; awakening them and guiding their ascent past the planetary rulers is the whole drama. Manichaeism sharpens this into two co-eternal kingdoms of Light and Darkness whose violent mixture must be un-mixed until they are sundered forever.",
+  "practice": "Varied: Gnostic circles practiced baptism, anointing, and instruction in myths reserved for initiates; the Hermetica taught contemplative ascent and a 'rebirth' of the mind (nous); Manichaeism ran a two-tier community of celibate, vegetarian 'Elect' (who freed light through diet and prayer) and lay 'Hearers,' with hymns, fasts, and the Bema festival. The dominant ethic was ascetic renunciation of body and world, though opponents charged some groups with libertinism.",
+  "canon": "The Coptic Nag Hammadi library (discovered 1945) — the Apocryphon of John, the Gospel of Thomas, the Gospel of Truth; the Greek Corpus Hermeticum and Asclepius; and the Manichaean scriptures (Coptic Kephalaia, the Cologne Mani-Codex, Central Asian and Chinese fragments) — with much also preserved by hostile heresiologists (Irenaeus, Hippolytus) and Augustine.",
+  "reflects": "The turn of the religious impulse against the world itself — salvation reconceived not as reconciliation with the creator but as escape from a botched creation through secret knowledge of one's own hidden divinity.",
+  "sources": [
+   "Kurt Rudolph, 'Gnosis: The Nature and History of Gnosticism' (1983)",
+   "Bentley Layton, 'The Gnostic Scriptures' (1987)",
+   "Garth Fowden, 'The Egyptian Hermes: A Historical Approach to the Late Pagan Mind' (1986)",
+   "Samuel N. C. Lieu, 'Manichaeism in the Later Roman Empire and Medieval China' (1985)"
+  ]
+ },
+ "goddess-movement": {
+  "essence": "A cluster of contemporary spiritual movements, emerging in the United States and Britain from the early 1970s, that centers worship on a female divine — the Goddess. Overlapping with Wicca, feminist 'thealogy,' Dianic and Reclaiming witchcraft, and ecofeminism, it holds divinity to be immanent in nature, the body, and the female life-cycle, and consciously reclaims ancient goddesses and a (contested) prehistoric matristic past as spiritual resources.",
+  "cosmos": "Broadly immanentist or panentheist: the Goddess is not a transcendent creator above the world but the living world itself — earth, cosmos, and body as divine flesh, so that ecological harm is read as desecration. Many honor a Triple Goddess (Maiden–Mother–Crone) keyed to the moon's phases, often paired with a seasonal, dying-and-rising Horned God. Time is cyclic, marked by the eightfold Wheel of the Year; beliefs about the afterlife (reincarnation, a restful 'Summerland') are held loosely, with the emphasis on sacralizing this life and this earth.",
+  "practice": "Small covens and circles, plus many solitaries, mark the sabbats and full-moon esbats with ritual, chant, and dance — Drawing Down the Moon (invoking the Goddess into a priestess), the Spiral Dance, seasonal rites — often in women-only or feminist-separatist settings (the Dianic tradition). There is no creed, central authority, or ordained hierarchy; practice is decentralized, experiential, and improvisational, and ethics stress ecological responsibility, healing, and female empowerment.",
+  "canon": "No scripture; foundational modern books serve instead — Starhawk's 'The Spiral Dance' (1979), Margot Adler's 'Drawing Down the Moon' (1979), and Carol P. Christ's essay 'Why Women Need the Goddess' (1978) — with earlier, now historiographically criticized inspirations in Robert Graves's 'The White Goddess' (1948) and Marija Gimbutas's writings on 'Old Europe.'",
+  "reflects": "The deliberate construction of a religion around the sacred feminine — the late-twentieth-century impulse to redress a perceived patriarchal imbalance in the divine by re-imagining God as Goddess and locating heaven in the earth.",
+  "sources": [
+   "Cynthia Eller, 'Living in the Lap of the Goddess: The Feminist Spirituality Movement in America' (1993)",
+   "Ronald Hutton, 'The Triumph of the Moon: A History of Modern Pagan Witchcraft' (1999)",
+   "Jone Salomonsen, 'Enchanted Feminism: The Reclaiming Witches of San Francisco' (2002)",
+   "Sarah M. Pike, 'New Age and Neopagan Religions in America' (2004)"
+  ]
+ },
+ "goetia": {
+  "essence": "The Western tradition of 'conjure-and-command' ritual magic — evoking spirits or demons and compelling them by the authority of divine names. It is best known from the early-modern grimoires, above all the 'Ars Goetia,' first book of the 17th-century 'Lemegeton' (Lesser Key of Solomon), which catalogues seventy-two spirits a magician can summon and constrain. Pseudonymously credited to King Solomon, it descends from late-antique and medieval Solomonic magic and continues in living practice among modern occultists.",
+  "cosmos": "It presupposes a broadly Christian cosmos — God above, ranks of angels, fallen and demonic spirits below — in which each of the seventy-two spirits holds a rank (king, duke, president, marquis), commands legions, and answers to planetary and directional correspondences and particular powers (knowledge, favor, the finding of treasure). Many are demoted older deities: Bael from the Canaanite Baal, Astaroth from the goddess Astarte. Goetia offers no rival doctrine of salvation or afterlife; it is an operative technology working within the surrounding religion, not against it.",
+  "practice": "The operator stands within a protective circle inscribed with divine names and forces the spirit to manifest in a triangle outside it, using the spirit's seal or sigil, the brazen vessel, incense, and escalating conjurations (with 'curses' if it resists). The tradition is intensely textual and procedural — exact timings, purifications, and materials — transmitted through manuscript grimoires copied and elaborated across centuries; the magician's stance is command, not supplication.",
+  "canon": "The 'Lemegeton' or 'Lesser Key of Solomon' (compiled 17th c.), especially its first part the 'Ars Goetia'; Johann Weyer's 'Pseudomonarchia Daemonum' (1577), an earlier list of the spirits; the late-antique 'Testament of Solomon' as ancestor; and cognate grimoires such as the 'Heptameron' and the 'Key of Solomon' (Clavicula Salomonis).",
+  "reflects": "The coercive, instrumental pole of the religious impulse — the human being not as worshipper but as commander, bending unseen powers to will through exact technique and the borrowed authority of God's own names.",
+  "sources": [
+   "Owen Davies, 'Grimoires: A History of Magic Books' (2009)",
+   "Richard Kieckhefer, 'Magic in the Middle Ages' (1989)",
+   "Joseph H. Peterson (ed.), 'The Lesser Key of Solomon: Lemegeton Clavicula Salomonis' (2001)",
+   "Pablo A. Torijano, 'Solomon the Esoteric King: From King to Magus, Development of a Tradition' (2002)"
+  ]
+ },
+ "golden-dawn": {
+  "essence": "An influential English magical order founded in London in 1888 by William Wynn Westcott, Samuel Liddell 'MacGregor' Mathers, and William Robert Woodman. It fused Kabbalah, Hermeticism, astrology, Tarot, alchemy, Egyptian and Greco-Roman deity-forms, and Enochian and Solomonic magic into a single graded system of Western ceremonial magic. The original order splintered in the early 1900s, but its curriculum became the template for nearly all later Western occultism.",
+  "cosmos": "It is built on the Kabbalistic Tree of Life — ten Sephiroth and twenty-two paths descending from the unmanifest — used as a master filing-system that assigns every symbol, god-form, planet, and Tarot card a place on the map. The magician's aim is theurgic self-transformation: to purify the 'sphere of sensation,' attain the 'Knowledge and Conversation of the Holy Guardian Angel' (conscious union with one's own higher self), and rise through the grades toward adepthood — the whole hierarchy underwritten by hidden 'Secret Chiefs' held to direct the order from the astral plane.",
+  "practice": "A ladder of initiatory grades (the outer Golden Dawn and the inner Rosae Rubeae et Aureae Crucis) framed by elaborate temple ritual, examinations, and daily disciplines — the Lesser Banishing Ritual of the Pentagram, the Middle Pillar, scrying, invocation, and 'pathworking' through the Tarot. It was a fee-paying, oath-bound society of middle-class men and women — notably admitting women as full equals — meeting in temples in London, Edinburgh, Paris, and beyond.",
+  "canon": "No scripture; the order's own instructional papers — beginning with the founding 'Cipher Manuscripts' and gathered in the corpus Israel Regardie published as 'The Golden Dawn' (1937–40) — drawing on Éliphas Lévi, the Kabbalah (Sefer Yetzirah, Kircher's Tree), the 'Book of Abramelin' (Mathers's translation, 1897), and the Enochian diaries of John Dee and Edward Kelley.",
+  "reflects": "The modern systematizing impulse in religion — the gathering of many traditions' scattered symbol-systems into one self-consistent, operative 'science' of initiation and self-deification.",
+  "sources": [
+   "Ellic Howe, 'The Magicians of the Golden Dawn: A Documentary History of a Magical Order 1887–1923' (1972)",
+   "Alison Butler, 'Victorian Occultism and the Making of Modern Magic' (2011)",
+   "R. A. Gilbert, 'The Golden Dawn: Twilight of the Magicians' (1983)",
+   "Israel Regardie, 'The Golden Dawn' (1937–40)"
+  ]
+ },
+ "greek": {
+  "essence": "The polytheistic religion of the ancient Greek world, from the Mycenaean Bronze Age (Linear B already names Zeus, Poseidon, and Dionysus) through the Archaic and Classical periods to its displacement by Christianity in late antiquity. It centered on a family of anthropomorphic Olympian gods under Zeus, worshipped through sacrifice and festival across hundreds of independent city-states — with no scripture, no creed, no church, and no professional clergy in the later Western sense.",
+  "cosmos": "Genealogical rather than doctrinal: from primordial Chaos and Gaia (Earth) came Sky, the Titans, and the Olympians who overthrew them (Hesiod's Theogony); the three brothers divided the cosmos by lot — Zeus the sky, Poseidon the sea, Hades the dead. The gods are deathless and mighty but morally much like humans. Most of the dead go to a dim, shadowy Hades, ferried across the Styx by Charon; the bleak Homeric afterlife was answered, for some, by the mystery cults (Eleusinian, Orphic, Dionysiac) and by philosophers who promised a blessed or reincarnating soul.",
+  "practice": "Public religion was civic and communal — animal sacrifice at open-air altars, processions, votive dedication, and great festivals (the Panathenaia, the Olympic and other games, the City Dionysia). Divination (the oracles at Delphi and Dodona, augury, entrail-reading), household cult at Hestia's hearth, personal vows, and the healing shrines of Asclepius filled ordinary life; the Eleusinian Mysteries offered a more personal hope. Piety was defined by participation in the rites, not by belief.",
+  "canon": "No sacred book; the authoritative texts are the poets — Homer's 'Iliad' and 'Odyssey,' Hesiod's 'Theogony' and 'Works and Days,' the Homeric Hymns, and the tragedians — alongside the vast record of cult in inscriptions, sanctuaries, and vase-painting. Herodotus held that Homer and Hesiod had 'given the Greeks their gods.'",
+  "reflects": "Divinity imagined in the fullest human image — gods who are the world's forces wearing human faces and passions, so that the sacred is approached through story, beauty, and civic festival rather than through doctrine or personal salvation.",
+  "sources": [
+   "Walter Burkert, 'Greek Religion' (1985)",
+   "Robert Parker, 'On Greek Religion' (2011)",
+   "Jon D. Mikalson, 'Ancient Greek Religion' (2nd ed. 2010)",
+   "Jan N. Bremmer, 'Greek Religion' (1994)"
+  ]
+ },
+ "guanche": {
+  "essence": "The indigenous religion of the Guanches, the Berber-descended aboriginal people of the Canary Islands, as it stood before and during the Castilian conquest (1402–1496). Reconstructed almost entirely from post-conquest Spanish chronicles and from archaeology, it centered — on Tenerife — on a remote sky-creator (Achamán), a malevolent volcanic power in Mount Teide (Guayota), a solar deity (Magec), a mother-goddess (Chaxiraxi), and an elaborate cult of the mummified ancestral dead.",
+  "cosmos": "A high creator sky-god (Achamán on Tenerife; Acorán and other names on the other islands) made and sustains the world and is invoked from mountaintops, above all in drought. Against him stands Guayota, the evil genius of the volcano Echeyde (Teide); in the tradition's central myth he seizes the sun and plunges the world into darkness until Achamán defeats and imprisons him within the peak. The dead did not simply depart — the nobility were mummified and laid in caves, remaining present in the land as venerated ancestors.",
+  "practice": "Rites were led at open-air sanctuaries and sacred mountains by priests and by consecrated women, the harimaguadas; during droughts, livestock were driven to sacred places and their young separated from them so that the animals' cries would carry human need up to the sky. Offerings of milk, butter, and pottery were made — some hidden in volcanic tubes to placate Guayota — and the dead of high rank were embalmed with resin, herbs, and hide wrappings (the mirlado process) and interred in inaccessible caves.",
+  "canon": "Purely oral in origin and lost as a living tradition; the religion is known only through conquest-era and later chroniclers — Fray Alonso de Espinosa's 'Historia de Nuestra Señora de Candelaria' (1594), Leonardo Torriani, Abreu Galindo, and Marín de Cubas — supplemented by archaeology (mummies, cave sanctuaries, rock engravings).",
+  "reflects": "A religion shaped by a volcanic homeland — a cosmos whose central sacred drama is the sky-god's restraint of a literal mountain of fire, and whose dead are kept, preserved, within the island's own stone.",
+  "sources": [
+   "Alonso de Espinosa, 'Historia de Nuestra Señora de Candelaria' (1594)",
+   "John Mercer, 'The Canary Islanders: Their Prehistory, Conquest and Survival' (1980)",
+   "David Abulafia, 'The Discovery of Mankind: Atlantic Encounters in the Age of Columbus' (2008)"
+  ]
+ },
+ "harappan": {
+  "essence": "The (undeciphered) religion of the Indus Valley or Harappan Civilization, the Bronze-Age urban culture of the Indus and Ghaggar-Hakra basins, whose mature phase runs c. 2600–1900 BCE. Because its script cannot be read, its religious life is inferred entirely from material remains — seals, figurines, architecture, and burials — pointing to fertility and mother-goddess cults, sacred animals and trees, water and ritual purity, and a possibly proto-ascetic horned figure.",
+  "cosmos": "Unknown. With no readable text, no myth, cosmogony, or doctrine of the afterlife can be recovered. Scholars infer, cautiously, a concern with fertility (thousands of female figurines), with sacred trees (the pipal) and animals (the humped bull, the composite one-horned 'unicorn'), with water and purity (the Great Bath, the pervasive wells and drains), and possibly with a horned deity seated among beasts on the famous 'Pashupati' seal — but every such reading is a contested projection backward from much later Indian religion.",
+  "practice": "Inferred from archaeology: likely domestic cult using terracotta figurines and personal seals; communal water-ritual at the Great Bath of Mohenjo-daro; and a conspicuous absence of monumental temples, royal-divine images, or lavish elite tombs, suggesting a religion without the grand priest-kingship of contemporary Mesopotamia or Egypt. Burials — such as those of Harappa's cemetery R-37 — were generally simple inhumations with pottery, implying some provisioning of the dead.",
+  "canon": "None. The Indus script, found on seals and tablets, remains undeciphered, and no literature survives; the entire subject is read from material culture. Some scholars argue for continuities into later South Asian religion (mother-goddesses, Shiva-Pashupati, yoga, tree- and water-cult), but such claims are debated and unprovable without a readable text.",
+  "reflects": "The limit-case of comparative religion — a great civilization whose gods, if it named them, are permanently silent, leaving only the archaeology of what its people evidently did and revered.",
+  "sources": [
+   "Gregory L. Possehl, 'The Indus Civilization: A Contemporary Perspective' (2002)",
+   "Jonathan Mark Kenoyer, 'Ancient Cities of the Indus Valley Civilization' (1998)",
+   "Asko Parpola, 'The Roots of Hinduism: The Early Aryans and the Indus Civilization' (2015)"
+  ]
+ },
+ "harranian": {
+  "essence": "The pagan astral religion of Harran in Upper Mesopotamia — worshippers of the Moon-god Sîn and the seven planets — which outlived the region's Christianization by claiming the protected Qurʾanic identity of the 'Sabians' (Ṣābiʾūn) and persisted into the Islamic period, roughly to the 11th century CE. Known mainly through medieval Arabic authors, it fused the ancient Mesopotamian star-gods with late-antique Neoplatonism and Hermeticism.",
+  "cosmos": "A wholly transcendent First Cause — the 'God of gods,' too exalted to touch matter — governs the world through a descending hierarchy of celestial intelligences, above all the seven 'spiritualities' (rūḥāniyyāt) inhabiting the planets, who dispense fate and receive cult. The visible heavens order all things; the north celestial pole and Ursa Major were treated as the cosmic axis and the direction of prayer. The soul's good lies in ascent through the planetary spheres toward the source.",
+  "practice": "Temple cult of the planets — each with its color, metal, and idol — addressed through elaborate prayers, talismans, incenses, and (as hostile sources report) sacrifices, served by a priestly class expert in astronomy; the great temple of Sîn (Ehulhul) anchored the city. Ritual was oriented to the celestial pole rather than to any earthly holy city, grounding worship in the observable mechanics of the night sky.",
+  "canon": "No scripture of their own survives; the tradition is reconstructed from Arabic authors — Ibn al-Nadim's 'Fihrist' (10th c.), al-Shahrastani's 'Kitab al-Milal wa-l-Nihal,' al-Masʿudi, and al-Biruni — and from the Arabic Hermetica and the magical compendium 'Ghayat al-Hakim' (Picatrix); Daniil Chwolson's 19th-century collation remains a foundational modern study.",
+  "reflects": "The survival of paganism by translation — an ancient star-cult that outlived its world by re-describing itself in the vocabulary of Greek philosophy and, under Islam, sheltering beneath a scriptural name.",
+  "sources": [
+   "Tamara M. Green, 'The City of the Moon God: Religious Traditions of Harran' (1992)",
+   "Kevin van Bladel, 'The Arabic Hermes: From Pagan Sage to Prophet of Science' (2009)",
+   "David Pingree, 'The Ṣābians of Ḥarrān and the Classical Tradition' (2002)",
+   "Daniil A. Chwolson, 'Die Ssabier und der Ssabismus' (1856)"
+  ]
+ },
+ "haudenosaunee": {
+  "essence": "The living religion of the Haudenosaunee — the 'People of the Longhouse,' the Iroquois Confederacy of Mohawk, Oneida, Onondaga, Cayuga, Seneca, and (from c. 1722) Tuscarora — of the northeastern North American woodlands. It centers on a creation begun when Sky Woman fell to a water-world and the earth was raised on the Great Turtle's back, on her twin grandsons who together make and mar the world, on a pervasive spiritual potency (orenda), and on structured gratitude to the beings that sustain life.",
+  "cosmos": "The cosmos begins above: Sky Woman falls through the hole left by an uprooted celestial tree, is caught by waterfowl, and set on the Great Turtle's back, where a diving muskrat's pinch of mud — won at the cost of its life — grows into the earth, Turtle Island. Her daughter bears twins: Teharonhiawako (Sapling, the Good Mind) shapes a world fitted for life, and Tawiskaron (Flint) roughens it, the lived world their standing balance. All things carry orenda, spiritual power; from 1799 the prophet Handsome Lake added a moral teaching of heaven, judgment, and renewal.",
+  "practice": "Longhouse religion runs a calendar of thanksgiving ceremonies — Midwinter (with the stirring of ashes and dream rites), Maple, Planting, Strawberry, Green Corn, and Harvest — each framed by the Ohén:ton Karihwatéhkwen, the 'words that come before all else,' which greets and thanks every part of creation. Medicine societies (notably the False Face Society, with its carved masks) heal; tobacco is burned to carry prayer; and communal life is ordered by matrilineal clans and by the Great Law of Peace.",
+  "canon": "Oral: the Creation story; the Ohén:ton Karihwatéhkwen (Thanksgiving Address); the Kaianere'kó:wa (Great Law of Peace, the Confederacy's constitution, recited from wampum); and the Gaiwiio ('Good Message') of Handsome Lake, recited annually. Early external records come through the Jesuit Relations (17th c.) and the ethnographies of Lewis Henry Morgan and the Tuscarora scholar J. N. B. Hewitt.",
+  "reflects": "Cosmic order as covenant and gratitude — a religion whose founding act is not a command but a falling caught by helpful animals, and whose central rite is the systematic thanking of every being that keeps the people alive.",
+  "sources": [
+   "Lewis Henry Morgan, 'League of the Ho-dé-no-sau-nee, or Iroquois' (1851)",
+   "J. N. B. Hewitt, 'Iroquoian Cosmology' (1903–1928)",
+   "Anthony F. C. Wallace, 'The Death and Rebirth of the Seneca' (1970)",
+   "William N. Fenton, 'The Great Law and the Longhouse: A Political History of the Iroquois Confederacy' (1998)"
+  ]
+ },
+ "hawaiian": {
+  "essence": "The Polynesian religion of the Hawaiian Islands, carried by voyagers who settled the archipelago roughly 1000–1200 CE and elaborated in isolation into the classic system that the deliberate breaking of the eating-tabu in 1819 ended as a state cult — now the ground of a living cultural and religious revival. It worships a great company of gods led by four — Kāne, Kanaloa, Kū, and Lono — reveres the volcano-goddess Pele, and orders all of life by mana (sacred power) and kapu (sacred prohibition).",
+  "cosmos": "The world is not made but begotten: the Kumulipo, a chant of some 2,000 lines, unfolds the cosmos out of Pō, the deep primordial Night, beginning with the coral polyp and climbing through paired sea- and land-life to the gods and finally the chiefs — so coral, pig, commoner, and king are ranked kin in one descent. Kāne (light, fresh water, the living) and Kanaloa (the ocean deep) form a bound creative pair; Kū (war and the upright) and Lono (rain, agriculture, peace) split the year between them. The dead return into Pō and to the ancestral guardians ('aumākua).",
+  "practice": "A ranked society of chiefs (aliʻi), commoners (makaʻāinana), and priests (kahuna) maintained the gods at temples (heiau) — the luakini war-temples of Kū requiring human sacrifice, the firstfruits and awa-offerings of Kāne and Lono asking none. The kapu system governed daily life by sacred separation (men's and women's eating, the seasons, the chief's very shadow), and the four-month Makahiki festival of Lono suspended war for tribute, sport, and renewal; family religion honored the 'aumākua through chant, healing, and hula.",
+  "canon": "Oral and chanted: the Kumulipo (set down and translated by Queen Liliʻuokalani in 1897 and annotated by Martha Beckwith in 1951); the Pele-and-Hiʻiaka epic; and the 19th-century Hawaiian-language works of native scholars David Malo ('Hawaiian Antiquities'), Samuel Kamakau, and Kepelino, who preserved the old religion after its official fall.",
+  "reflects": "Rank as a sacred physics — a cosmos where genealogy is destiny, holiness (mana) is a real and graded power proportional to one's nearness in descent to the gods, and taboo (kapu) is the engineering that keeps that power safe.",
+  "sources": [
+   "Martha Warren Beckwith, 'Hawaiian Mythology' (1940)",
+   "Valerio Valeri, 'Kingship and Sacrifice: Ritual and Society in Ancient Hawaii' (1985)",
+   "David Malo, 'Hawaiian Antiquities (Moolelo Hawaii)' (1903)",
+   "Marshall Sahlins, 'Islands of History' (1985)"
+  ]
+ },
+ "heathenry": {
+  "essence": "The modern revival and reconstruction of the pre-Christian Germanic and Norse religion, emerging in the early 1970s — organized in Iceland as the Ásatrúarfélagið (founded 1972, its first allsherjargoði the poet Sveinbjörn Beinteinsson) and in Britain and North America under names such as Ásatrú, Odinism, and Heathenry. Practitioners worship the Norse gods — the Æsir and Vanir, including Odin, Thor, and Freyja — honor ancestors and land-spirits, and rebuild their religion from medieval texts and archaeology.",
+  "cosmos": "Drawn from Norse myth as preserved in the Eddas: nine worlds arrayed on the world-tree Yggdrasil, from Asgard of the gods through Midgard of humans to Hel of the dead, framed between the shaping of the world from the giant Ymir and its destruction and renewal at Ragnarök. Fate is central — the web of wyrd and örlög laid down at the well of the Norns, which even the gods must meet, and which many modern Heathens hold is actively re-woven by present deeds. Afterlife beliefs (Valhalla, Hel, rebirth in the family line) are various and loosely held.",
+  "practice": "The two core rites are the blót — an offering of mead, ale, or food to gods, ancestors, and land-wights on the reciprocal principle of 'a gift for a gift' — and the sumbel, a ritual round of toasts, boasts, and oaths over the horn whose spoken words are held to drop into the well of wyrd. Practice is decentralized among households, kindreds, and larger fellowships, led by elected or informal goðar rather than a priesthood; widely cited values include hospitality, kin-peace (frith), and the modern, contested 'Nine Noble Virtues.'",
+  "canon": "No scripture; the sources are the medieval Icelandic texts — the 'Poetic Edda' (especially Völuspá and Hávamál), Snorri Sturluson's 'Prose Edda' (c. 1220) and 'Heimskringla,' the Icelandic sagas, and Old English poetry such as 'Beowulf' — read alongside archaeology and place-name evidence.",
+  "reflects": "The reconstructionist impulse — a religion deliberately rebuilt, and honest that its own scriptures were written down by Christians centuries after conversion — foregrounding reciprocity and kin-bound honor over salvation or submission.",
+  "sources": [
+   "Jennifer Snook, 'American Heathens: The Politics of Identity in a Pagan Religious Movement' (2015)",
+   "Stefanie von Schnurbein, 'Norse Revival: Transformations of Germanic Neopaganism' (2016)",
+   "Michael F. Strmiska (ed.), 'Modern Paganism in World Cultures' (2005)",
+   "Jeffrey Kaplan, 'Radical Religion in America: Millenarian Movements from the Far Right to the Children of Noah' (1997)"
+  ]
+ },
+ "hermetic-qabalah": {
+  "essence": "The Western esoteric adaptation of Jewish Kabbalah, developed from the Renaissance 'Christian Cabala' (Pico della Mirandola, Reuchlin, Agrippa, from c. 1486) into the occult system codified by 19th- and 20th-century magicians — Éliphas Lévi, the Golden Dawn, Aleister Crowley, Dion Fortune. It reworks the Kabbalistic Tree of Life into a universal map of cosmos and psyche onto which Tarot, astrology, alchemy, and the gods of many pantheons are correlated, and it remains the working framework of much Western occultism (conventionally spelled 'Qabalah' to mark this stream).",
+  "cosmos": "All existence emanates from the unmanifest — the 'negative veils' of Ain, Ain Soph, and Ain Soph Aur (Nothingness, the Limitless, the Limitless Light) — down the ten Sephiroth and twenty-two paths of the Tree of Life, from Kether (Crown) to Malkuth (the material Kingdom). The Tree is at once the structure of the macrocosm and of the human soul, mirrored in the 'primordial man' Adam Kadmon; its shadow-side is the Qliphoth, the unbalanced 'shells,' a Tree of Death. The adept's work is to ascend the Tree, integrating each sphere, toward union with the divine.",
+  "practice": "Chiefly a contemplative-magical discipline: meditation on the Tree and its tables of correspondence, 'pathworking' (guided visionary ascent of the paths, using the Tarot trumps as gates), ritual invocation keyed to the Sephiroth and the divine names, and the cultivation of the 'Holy Guardian Angel.' It has no congregation or ordained clergy; it is transmitted through initiatory orders (the Golden Dawn and its successors), through books, and through solitary study.",
+  "canon": "No single scripture: it takes the Tree and the '32 Paths' from the Jewish 'Sefer Yetzirah' and the 'Zohar' (via Christian intermediaries such as Knorr von Rosenroth's 'Kabbala Denudata,' 1677) and is defined by later synthesizing works — Agrippa's 'Three Books of Occult Philosophy' (1533), Lévi's 'Dogme et rituel de la haute magie' (1856), and Dion Fortune's 'The Mystical Qabalah' (1935).",
+  "reflects": "The syncretic, systematizing genius of Western esotericism — a borrowed mystical architecture turned into a universal filing-cabinet in which every symbol of every tradition can be assigned a drawer and worked as magic.",
+  "sources": [
+   "Gershom Scholem, 'Major Trends in Jewish Mysticism' (1941)",
+   "Wouter J. Hanegraaff, 'Esotericism and the Academy: Rejected Knowledge in Western Culture' (2012)",
+   "Joseph Dan, 'Kabbalah: A Very Short Introduction' (2006)",
+   "Nicholas Goodrick-Clarke, 'The Western Esoteric Traditions: A Historical Introduction' (2008)"
+  ]
+ },
+ "hermeticism": {
+  "essence": "A body of Greco-Egyptian revelatory and philosophical writings — the Hermetica — attributed to the legendary sage Hermes Trismegistus, a syncretic fusion of the Greek Hermes and the Egyptian Thoth, produced in Roman Egypt roughly in the 1st–3rd centuries CE. Not a church with congregations but a textual tradition of gnosis: it claims the human mind (nous) is divine in origin and can ascend through the cosmic spheres to reunite with the One. It was revived in the Latin West after Ficino's translation of the Corpus Hermeticum and shaped Renaissance magic, astrology, and alchemy.",
+  "cosmos": "Reality emanates from an ultimate One (the Monad); the divine Nous (Mind), revealed in the first treatise as Poimandres, generates the Logos and the seven planetary spheres (the Hebdomad) that govern fate. The human being is a microcosm mirroring the macrocosm — 'as above, so below' — and the soul descended through the planetary spheres, taking on the passions of each. Through initiation or at death the soul reascends, shedding each sphere's influence, to reach the Ogdoad (the eighth sphere), become Nous, and rejoin God.",
+  "practice": "Hermeticism was transmitted as teacher-to-disciple dialogues (Hermes instructing his sons Tat and Asclepius) rather than through a priesthood or temple cult; its practice is contemplative and revelatory — the pursuit of gnosis, a ritual rebirth (palingenesis), and, in the 'technical' Hermetica, astrology, alchemy, and theurgy. Salvation comes through knowledge rather than faith or sacrifice: the initiate saves himself by understanding that his inner self is identical with the divine. In its Renaissance revival it became a wellspring for learned magic and natural philosophy.",
+  "canon": "The Corpus Hermeticum (seventeen Greek treatises, above all the Poimandres), the Latin Asclepius, the Stobaeus fragments (including the Kore Kosmou), and the later Emerald Tablet (Tabula Smaragdina), first attested in Arabic alchemical sources.",
+  "reflects": "The religious impulse as intellectual self-divinization — salvation not by grace, covenant, or ritual purity but by the mind's knowledge that it is already, in essence, divine.",
+  "sources": [
+   "Garth Fowden, 'The Egyptian Hermes: A Historical Approach to the Late Pagan Mind' (1986)",
+   "Brian P. Copenhaver, 'Hermetica' (1992)",
+   "Christian H. Bull, 'The Tradition of Hermes Trismegistus' (2018)",
+   "Frances A. Yates, 'Giordano Bruno and the Hermetic Tradition' (1964)"
+  ]
+ },
+ "hittite": {
+  "essence": "The state religion of the Hittite empire of Bronze Age Anatolia (c. 1650–1180 BCE), centered on the capital Hattusa. It famously embraced 'the thousand gods of Hatti' — a deliberately inclusive pantheon absorbing Hattian, Hurrian, Mesopotamian, and Luwian deities — headed by the Storm-God (Tarhunna, equated with Hurrian Teshub) and the Sun-Goddess of Arinna. It ended with the Bronze Age collapse around 1180 BCE.",
+  "cosmos": "The cosmos is ruled by a divine kingship won and defended by violence: the 'Kingship in Heaven' cycle recounts successive sky-rulers — Alalu, Anu, Kumarbi, and finally the Storm-God — each overthrowing the last. Order is fragile and seasonal: gods can vanish in anger (Telipinu) so that fertility fails, and the serpent Illuyanka can defeat the Storm-God, who must recover his stolen heart and eyes. The dead descended to a shadowy underworld, but deceased kings were said to 'become gods' and received cult.",
+  "practice": "A state cult led by the king (himself high priest), the queen, and a professional priesthood, organized around a dense festival calendar (notably the spring purulli and the AN.TAH.SUM festivals). Ritual centered on purification, substitution and scapegoat rites, oracular inquiry, and the appeasement of angry or vanished gods; many surviving texts are ritual 'recipes' attributed to named practitioners, often women (the 'Old Women'). Royal prayers and international treaties invoked the gods as witnesses and enforcers.",
+  "canon": "No scripture — a cuneiform clay-tablet archive from Hattusa, catalogued by modern scholars as the Catalogue des Textes Hittites (CTH): the myths (Illuyanka, Telipinu, and the Kumarbi/Ullikummi cycle), festival and ritual texts, royal prayers, and treaties.",
+  "reflects": "Religion as the maintenance of a contractually ordered but perpetually threatened cosmos — divine sovereignty as something earned, lost, and ritually recovered rather than eternally given.",
+  "sources": [
+   "Volkert Haas, 'Geschichte der hethitischen Religion' (1994)",
+   "Harry A. Hoffner Jr., 'Hittite Myths' (2nd ed., 1998)",
+   "Billie Jean Collins, 'The Hittites and Their World' (2007)",
+   "Piotr Taracha, 'Religions of Second Millennium Anatolia' (2009)"
+  ]
+ },
+ "hmong": {
+  "essence": "The traditional animist and ancestor-centered religion of the Hmong, an ethnic group of the mountains of southwest China and mainland Southeast Asia, with a large post-1970s diaspora in the US, France, and elsewhere. Often called Ua Dab ('serving the spirits'), it is a living shamanic system with no scripture, centered on the txiv neeb (shaman) who negotiates with spirits to heal. Its central claim is that illness and misfortune arise from the loss, capture, or offense of a person's souls, which the shaman must recover.",
+  "cosmos": "The world has three tiers — a sky realm of gods (notably Saub, the benevolent creator-advisor, and Ntxwj Nyug, lord of the otherworld who allots each lifespan), the earthly middle world, and the realm of spirits and the dead. A person has multiple souls (plig) that can wander, be startled loose, or be seized by malevolent spirits, causing sickness. At death the soul must be guided back along the reverse path of life — to the buried placenta and on to the ancestors — after which it may be reborn.",
+  "practice": "The txiv neeb, 'called' to the vocation by illness and initiated under a master, enters ecstatic trance riding a spirit-horse (a wooden bench) into the otherworld to retrieve lost souls, doing battle with spirit-familiars, gong, and finger-bells (ua neeb). Household religion centers on ancestor offerings, soul-calling rites (hu plig) at birth and after fright, and multi-day funerals whose 'Opening the Way' (qhua ke) chant and reed-pipe (qeej) music navigate the dead. The system is kin- and clan-based, without temples or a priestly hierarchy.",
+  "canon": "A wholly oral corpus — no written scripture; the funeral 'Showing the Way' chants, soul-calling formulas, origin and flood myths, and shamanic invocations are transmitted orally and performed.",
+  "reflects": "The self as plural and porous — health as the ongoing labor of keeping one's several souls gathered and tethered, and the shaman as an active spiritual combatant rather than a passive medium.",
+  "sources": [
+   "Nicholas Tapp, 'The Hmong of China: Context, Agency, and the Imaginary' (2001)",
+   "Jacques Lemoine, 'L'Initiation du mort chez les Hmong' (1972)",
+   "Patricia V. Symonds, 'Calling in the Soul: Gender and the Cycle of Life in a Hmong Village' (2004)",
+   "Anne Fadiman, 'The Spirit Catches You and You Fall Down' (1997)"
+  ]
+ },
+ "hoodoo": {
+  "essence": "An African American folk-magical tradition (also called conjure or rootwork) that developed among enslaved and free Black communities in the US South from the 18th century, blending Central and West African spiritual practice with Native American herbalism, European folk magic, and the Bible. It is not a religion with its own gods and congregations but a practical magical system — most practitioners are Protestant Christians — aimed at healing, protection, luck, love, and harm through roots, minerals, curios, and spoken word.",
+  "cosmos": "Hoodoo has no distinct cosmology or pantheon of its own; it operates within a Christian frame in which God's power, the spirits of the dead, and the latent power in natural materials can all be marshaled by a skilled worker. The dead are treated as contractable agents — graveyard dirt bought with coins carries the deceased's disposition — and the crossroads is a liminal site where a spirit (the 'Black Man,' rooted in West African trickster-gatekeepers) grants skill. Scripture, especially the Psalms, is wielded as mechanical incantation rather than prayer.",
+  "practice": "Rootworkers (conjure doctors, two-headed doctors) work for paying clients: dressing candles, laying tricks, mixing goofer dust, and constructing 'fed' mojo bags — flannel bundles of roots and curios treated as living things. Foot-track magic, honey jars, and floor washes are typical operations. There is no initiation lineage, priesthood, or communal worship: the tradition is transmitted informally and commercially, historically through practitioners and the spiritual-supply trade, and is pragmatic and morally neutral, serving the client's aim.",
+  "canon": "An oral, folk-practical tradition with no scripture of its own; the Bible (especially the Psalms) serves as its grimoire, alongside 20th-century commercial manuals and the vast field record of Harry Middleton Hyatt's 'Hoodoo — Conjuration — Witchcraft — Rootwork' (1970–1978).",
+  "reflects": "The religious impulse as practical technology — sacred power, whether biblical, ancestral, or botanical, treated as a neutral instrument to be operated for concrete earthly ends rather than worshiped.",
+  "sources": [
+   "Zora Neale Hurston, 'Mules and Men' (1935)",
+   "Harry Middleton Hyatt, 'Hoodoo — Conjuration — Witchcraft — Rootwork' (1970–1978)",
+   "Yvonne P. Chireau, 'Black Magic: Religion and the African American Conjuring Tradition' (2003)",
+   "Katrina Hazzard-Donald, 'Mojo Workin': The Old African American Hoodoo System' (2012)"
+  ]
+ },
+ "hurrian": {
+  "essence": "The religion of the Hurrians, a people of upper Mesopotamia and northern Syria who spoke a language neither Semitic nor Indo-European and were prominent in the late third and second millennia BCE, notably in the kingdom of Mitanni (c. 1500–1300 BCE). Its chief deities were the storm-god Teshub, king of the gods, and his consort Hebat. Much of what survives is known indirectly, through Hittite adaptations preserved at Hattusa, since Hurrian myth and ritual were absorbed into the Hittite state cult.",
+  "cosmos": "The cosmos is governed by a violently contested divine kingship: the 'Song of Kumarbi' (the Kingship in Heaven) tells of successive rulers — Alalu, Anu, then Kumarbi, who bites off Anu's genitals and is thereby impregnated with Teshub, who finally seizes the throne. The deposed Kumarbi, master of the 'Dark Earth,' breeds monstrous champions (the stone giant Ullikummi, the sea-dragon Hedammu) to reclaim it. The world rests on the shoulders of the ancient dreaming giant Ubelluri, and a subterranean tier holds the obsolete elder gods.",
+  "practice": "Hurrian cult is known mainly from Hittite-Hurrian ritual archives: highly systematized offering circles (kaluti) invoking the male gods in Teshub's retinue and the female gods in Hebat's, along with purification rites, incantations, and festivals. The rock sanctuary of Yazılıkaya near Hattusa depicts the pantheon in procession. Rites were performed by priests and, for purification and magic, by specialists; the Hurrians transmitted much ritual technique — and myth — to the Hittites.",
+  "canon": "No native scripture survives intact; the corpus is the Hurro-Hittite mythological cycle recorded on cuneiform tablets at Hattusa — the Song of Kumarbi, the Song of Ullikummi, and the Song of Hedammu (the 'Kumarbi cycle') — plus bilingual ritual and wisdom texts such as the 'Song of Release.'",
+  "reflects": "The cosmos as dynastic struggle — divine sovereignty as an unstable throne seized by castration and monstrous proxy war, the succession myth told with unusual sympathy for the deposed elder god.",
+  "sources": [
+   "Harry A. Hoffner Jr., 'Hittite Myths' (2nd ed., 1998)",
+   "Volkert Haas, 'Geschichte der hethitischen Religion' (1994)",
+   "Piotr Taracha, 'Religions of Second Millennium Anatolia' (2009)",
+   "Mary R. Bachvarova, 'From Hittite to Homer: The Anatolian Background of Ancient Greek Epic' (2016)"
+  ]
+ },
+ "iberian": {
+  "essence": "The pre-Roman religion of the Iberians, a cluster of non-Indo-European peoples of the eastern and southern coasts of the Iberian Peninsula (roughly the 6th–1st centuries BCE), known largely through archaeology because their language is only partly deciphered. It centered on a powerful aristocratic goddess (embodied in sculptures such as the Dama de Elche), funerary cult, and cave and spring sanctuaries. It was gradually absorbed under Roman rule.",
+  "cosmos": "No connected cosmology or mythology survives; belief must be inferred from funerary and votive archaeology. The evidence points to a strongly chthonic, funerary orientation — an aristocratic mother/ancestor goddess linked to the grave (some sculptures doubled as ash-urns), hybrid guardian creatures (the man-headed bull, sphinxes) set over tombs, and a belief that objects held a spirit. Cremation was the dominant elite rite, the dead honored in monumental necropolises.",
+  "practice": "Cult concentrated at liminal natural sites — cave sanctuaries, springs, and hilltop shrines such as Cerro de los Santos and Despeñaperros — where worshippers deposited thousands of stylized bronze ex-voto figurines as enduring substitutes of themselves. Warriors' curved swords (falcatas) and gear were ritually 'killed' — heated, bent, and broken — before burial with the dead. What little myth is preserved (the Tartessian kings Gargoris and Habis, culture-heroes of honey and the plow) survives only through later Greco-Roman authors.",
+  "canon": "No sacred texts; the 'canon' is archaeological — the Dama de Elche and Dama de Baza sculptures, the Bicha de Balazote, votive deposits, and partly-read Iberian inscriptions — supplemented by outside classical notices (Justin's epitome of Pompeius Trogus for the Tartessian legends; Macrobius for the god Neton).",
+  "reflects": "The religious impulse as ritual substitution — the bronze figure left praying forever in the cave, the sword slain to accompany its owner — standing in for the human and the vital in a world where objects have souls.",
+  "sources": [
+   "Antonio Ruiz and Manuel Molinos, 'The Archaeology of the Iberians' (1998)",
+   "María Cruz Fernández Castro, 'Iberia in Prehistory' (1995)",
+   "Antonio Arribas, 'The Iberians' (1964)"
+  ]
+ },
+ "igbo": {
+  "essence": "The indigenous religion (Odinani/Odinala) of the Igbo people of southeastern Nigeria, attested archaeologically from at least the 9th–10th centuries CE (Igbo-Ukwu). It holds a supreme creator, Chukwu, who withdrew from direct cult, above a tier of nature-and-function deities (alusi), the earth-goddess Ala, the ancestors, and a personal destiny-spirit (chi) portioned to each individual. It remains practiced alongside Christianity, now the majority faith among the Igbo.",
+  "cosmos": "Reality is layered into the sky-realm of Chukwu and the alusi, the human world, and the underworld of Ala and the dead. Chukwu (Chi-ukwu, 'the Great Chi') is the source from whom every person's chi — a spirit-double and destiny — is drawn, so the high god and the inner self are one word at two scales. Morality is grounded literally in the earth: a grave crime is nsọ Ala, an abomination against the earth-goddess who is both womb of crops and grave of the dead. Those who die well become ancestors (ndichie) and may return to the lineage through reincarnation (ịlọ ụwa).",
+  "practice": "Religion is decentralized and kin-based, without a single priesthood or scripture: household heads pour libations to ancestors, diviner-healers (dibịa) — called through the affliction of the spirit Agwụ — read the unseen and treat the sick, and communities maintain shrines to Ala, to Amadioha (thunder-justice), and to local alusi. Personal achievement is consecrated in the horned ikenga of one's 'right hand'; oaths and law rest on the ọfọ staff and the principle ọfọ na ọgụ, whereby only the innocent may invoke vindication. Masquerades (mmanwụ) embody ancestral and spirit forces.",
+  "canon": "A wholly oral tradition — no scripture; its 'texts' are proverbs, the ọgba afa (afa divination) corpus, myths, invocations, and ritual practice, transmitted through elders, diviners, and titled societies.",
+  "reflects": "Destiny as a companion one can argue with — the chi renders fate not as an imposed decree but as a negotiable second self, each person's own splinter of the divine.",
+  "sources": [
+   "Chinua Achebe, 'Chi in Igbo Cosmology' (in 'Morning Yet on Creation Day', 1975)",
+   "Elizabeth Isichei, 'A History of the Igbo People' (1976)",
+   "Francis A. Arinze, 'Sacrifice in Ibo Religion' (1970)",
+   "C. K. Meek, 'Law and Authority in a Nigerian Tribe' (1937)"
+  ]
+ },
+ "illyrian": {
+  "essence": "The pre-Roman religion of the Illyrians, a group of Indo-European-speaking tribes of the western Balkans through the first millennium BCE until Roman conquest. It is very poorly documented, reconstructed from a handful of theonyms in Greek and Roman inscriptions, coin iconography, place-names, and survivals in later Albanian folklore. There was no unified pantheon; worship was largely local and tribal.",
+  "cosmos": "No Illyrian cosmology or mythology survives directly; what can be inferred is a religion of local nature-powers and a strong serpent cult. Deities are tied to springs (Bindus), to forests and the hunt (Vidasus and Thana), to sea-routes and travelers (Redon), and to the sky (Deipaturos, a cognate of the Indo-European sky-father). The serpent was venerated as a chthonic, ancestral, household guardian rather than a monster to be slain — a motif surviving in the Albanian house-snake.",
+  "practice": "Cult was local and open-air, centered on springs, mountaintops, and natural sanctuaries, attested by altars (often bearing Roman-interpretatio names, e.g. 'Bindus Neptunus,' or Silvanus and Diana for Vidasus and Thana) and by serpent-form jewelry and amulets. Under Rome most Illyrian gods were syncretized with Roman equivalents. Continuity into medieval and modern Albanian folklore — the mountain nymphs (zana, from Thana), the weekday names preserving En and Prende — is a major line of evidence.",
+  "canon": "No texts; the record is epigraphic and numismatic (dedications from sites such as the Privilica springs and Topusko; coins of Lissos and Scodra), the lexicographer Hesychius, and reconstructed survivals in the Albanian language and folklore.",
+  "reflects": "Religious continuity through rupture — a tradition preserved not in scripture or temple but in weekday names, mountain nymphs, and the guardian snake of the hearth, surviving conquest and conversion as folklore.",
+  "sources": [
+   "John Wilkes, 'The Illyrians' (1992)",
+   "Aleksandar Stipčević, 'The Illyrians: History and Culture' (1977)",
+   "Robert Elsie, 'A Dictionary of Albanian Religion, Mythology, and Folk Culture' (2001)"
+  ]
+ },
+ "inuit": {
+  "essence": "The traditional religion of the Inuit and Yupik peoples of the Arctic — Greenland, Arctic Canada, Alaska, and Chukotka — rooted in the Thule culture (c. 1000 CE) and older Paleo-Eskimo traditions. It is an animist, shamanic hunting religion without a creator god: the cosmos is full of persons (animals, weather, the dead) with whom humans must keep right relations, mediated by the angakkuq (shaman). Its central concern is the ethics of the hunt — that animals are owned by master-spirits and give themselves only if taboos are honored.",
+  "cosmos": "The world is pervaded by Sila — breath, air, weather, and an encompassing moral awareness at once — so that a broken taboo troubles the very weather. The sea and its game belong to the Sea-Woman (Sedna / Nuliajuk / Takannaaluk), maimed into her role, who withholds the seals when human wrongdoing fouls her hair. Persons carry multiple souls, including a name-soul (atiq) by which a dead relative returns in the child who takes the name; the dead pass to realms beneath the sea or in the sky (e.g. Adlivun).",
+  "practice": "The angakkuq, drumming into trance, sends the soul beneath the sea to comb Sedna's hair and release the game, retrieves stolen souls, and diagnoses the taboo-breaches behind sickness and dearth. Everyday religion is a web of hunting taboos and observances that keep animals willing to return, alongside amulets, songs, and the careful treatment of killed game. There is no priesthood, temple, or scripture — the specialist is the shaman, and observance is domestic and communal.",
+  "canon": "A wholly oral tradition of myths, songs, and taboos; the principal (though mediated) written record is the early-20th-century ethnography of Knud Rasmussen's Fifth Thule Expedition, alongside later Yupik and Iñupiaq oral collections.",
+  "reflects": "Morality written into the body of the prey — a cosmos with no surplus and no waste, where every kill is a transaction inside a web of consent and the order of the world is the ethics of eating.",
+  "sources": [
+   "Knud Rasmussen, 'Intellectual Culture of the Iglulik Eskimos' (Report of the Fifth Thule Expedition, 1929)",
+   "Daniel Merkur, 'Becoming Half Hidden: Shamanism and Initiation among the Inuit' (1985)",
+   "Bernard Saladin d'Anglure, 'Être et renaître inuit, homme, femme ou chamane' (2006)",
+   "Ann Fienup-Riordan, 'Boundaries and Passages: Rule and Ritual in Yup'ik Eskimo Oral Tradition' (1994)"
+  ]
+ },
+ "isis-cult": {
+  "essence": "The Greco-Roman 'mystery' cult of the Egyptian goddess Isis, with her consort Serapis — a deliberately Hellenized Osiris-Apis created under Ptolemy I — which spread from Ptolemaic Egypt across the Hellenistic and Roman world from roughly the 3rd century BCE into late antiquity. Isis was worshiped as a universal, 'ten-thousand-named' savior goddess of magic, healing, seafaring, and the afterlife. Unlike the Egyptian temple cult from which it derived, it offered voluntary personal initiation and a promise of salvation to individuals across the empire.",
+  "cosmos": "The worldview centers on the Osiris myth: Osiris, murdered and dismembered by Set, is reassembled and revived by Isis, becoming lord and judge of the dead, while their son Horus (as the infant Harpocrates) avenges him and renews the world. In her aretalogies Isis proclaims herself the ordering power over fate, nature, and the heavens — the goddess who conquers Fate. Salvation is figured as a ritual death and rebirth patterned on Osiris: the initiate dies symbolically and returns 'reborn,' with hope of a blessed afterlife.",
+  "practice": "The cult maintained temples (above all the Serapeum of Alexandria), a professional priesthood (shaven-headed, linen-robed), and a daily and annual liturgy including the spring Navigium Isidis that opened the sailing season and the Osirian mysteries. Initiation, famously described by Apuleius, involved purification, a nocturnal rite of symbolic death and a vision of the gods, and rebirth as a devotee of Isis. Public processions featured the sistrum, lamps, and the jackal-masked Anubis; the cult drew a socially broad, largely voluntary following.",
+  "canon": "No single scripture; the sources are the Isis aretalogies (self-praises inscribed on stone, e.g. the texts of Kyme and Maroneia), Plutarch's 'On Isis and Osiris,' and Book XI of Apuleius' 'Metamorphoses' (The Golden Ass), together with the Egyptian ritual texts underlying the Osiris myth.",
+  "reflects": "The universalizing of a national goddess into a personal savior — the offer of individual initiation, symbolic death, and rebirth to anyone in the cosmopolitan Roman world, prefiguring the 'mystery' pattern of later salvation religions.",
+  "sources": [
+   "R. E. Witt, 'Isis in the Graeco-Roman World' (1971)",
+   "Sarolta A. Takács, 'Isis and Sarapis in the Roman World' (1995)",
+   "Françoise Dunand, 'Le Culte d'Isis dans le bassin oriental de la Méditerranée' (1973)",
+   "Jan Assmann, 'The Search for God in Ancient Egypt' (2001)"
+  ]
+ },
+ "islam": {
+  "essence": "The monotheistic religion founded on the prophethood of Muhammad (c. 570–632 CE) in Arabia, whose roughly two billion adherents (Muslims) hold that God (Allah) revealed the Qur'an to him through the angel Jibril, completing the line of Abrahamic prophecy. Its central claim is tawhid — the absolute oneness of God — and submission (islam) to God's will. It is divided principally into Sunni and Shia branches, with Sufism as its mystical dimension.",
+  "cosmos": "God is the sole, indivisible creator, transcendent yet 'closer than the jugular vein,' who made the world and will judge it. History runs from creation to a final Day of Judgment when the dead are resurrected bodily and assigned to Paradise (janna) or Hell (jahannam) according to faith and deeds. Alongside humans, God created angels (lacking free will) and jinn (possessing it, made from fire); Iblis, a jinn who refused to bow to Adam out of prideful self-regard, is the permitted tempter until the end of time.",
+  "practice": "Sunni Islam rests on the Five Pillars — the confession of faith (shahada), five daily prayers (salat) toward the Kaaba in Mecca, almsgiving (zakat), the Ramadan fast, and the Hajj pilgrimage — within a comprehensive law (sharia) derived by jurists from Qur'an and prophetic example. Community life is shaped by the mosque, the scholars (ulama), and emulation of Muhammad's sunnah in even mundane conduct; Shia Islam adds the authority of the Imams (Ahl al-Bayt), and Sufi orders pursue annihilation of the ego in God (fana) through remembrance (dhikr). There is no priesthood or sacrament in the Christian sense.",
+  "canon": "The Qur'an, held to be the uncreated speech of God, is primary; it is supplemented by the Hadith (reports of Muhammad's words and deeds, in canonical collections such as Sahih al-Bukhari and Sahih Muslim) and the Sira (prophetic biography), which together ground Islamic law and theology.",
+  "reflects": "Uncompromising monotheism — divine oneness pressed so far that associating any partner with God (shirk) is the cardinal sin, and revelation enters the world as recited text rather than incarnate flesh.",
+  "sources": [
+   "Fazlur Rahman, 'Islam' (1966)",
+   "Marshall G. S. Hodgson, 'The Venture of Islam' (1974)",
+   "Annemarie Schimmel, 'Mystical Dimensions of Islam' (1975)",
+   "W. Montgomery Watt, 'Muhammad: Prophet and Statesman' (1961)"
+  ]
+ },
+ "jain": {
+  "essence": "An ancient Indian religion of radical non-violence and asceticism, traced through a lineage of twenty-four Tīrthaṅkaras ('ford-makers'), of whom the last two — Pārśvanātha (traditionally c. 8th c. BCE) and Mahāvīra (traditionally c. 599–527 BCE, a contemporary of the Buddha) — are historically attested. Held today by several million adherents, mainly in India, it teaches that every living thing houses an eternal soul (jīva) bound by karmic matter, and that liberation comes through non-harm and the shedding of karma. Distinctively, it is a religion with no creator god.",
+  "cosmos": "The universe (loka), shaped like a vast cosmic man, is eternal, uncreated, and self-existent — there is no maker at its center, only infinite souls, matter, and impersonal law. Time turns as a great wheel (kāla-cakra) of descending and ascending ages, worsening and mending by its own motion without any divine judgment. Souls transmigrate through countless rebirths driven by karma conceived as a subtle physical substance; the liberated soul (siddha) rises to a crescent at the summit of the cosmos and abides forever — omniscient, bodiless, and eternally distinct, never merged into any absolute.",
+  "practice": "The governing vow is ahiṃsā, non-injury to any being down to the one-sensed lives of earth, water, fire, and air — upheld by restraint rather than sacrifice. Mendicant monks and nuns take the five great vows (mahāvratas), sweep their path, filter their water, and may undertake fasting unto death (sallekhanā); the laity keep lesser vows and avoid the harming trades. The two main orders are the Digambara ('sky-clad') and Śvetāmbara ('white-clad'); epistemic humility is itself doctrine, in anekāntavāda, the many-sidedness of truth.",
+  "canon": "The Śvetāmbara Āgamas (including the Ācārāṅga and Kalpa Sūtras) and, across both sects, Umāsvāti's 'Tattvārtha Sūtra' (c. 2nd–5th c. CE); the Digambaras hold the ancient canon lost and rely on later authoritative works (e.g. those of Kundakunda). The Tīrthaṅkaras are enumerated in the Kalpa Sūtra.",
+  "reflects": "A cosmos that needs no god — decline and renewal, bondage and liberation all run by impersonal law, and salvation is an attainment repeated by countless equal souls rather than a gift of grace or a merger into the One.",
+  "sources": [
+   "Padmanabh S. Jaini, 'The Jaina Path of Purification' (1979)",
+   "Paul Dundas, 'The Jains' (2nd ed., 2002)",
+   "Kristi L. Wiley, 'Historical Dictionary of Jainism' (2004)",
+   "Nathmal Tatia (trans.), 'That Which Is: Tattvārtha Sūtra' (1994)"
+  ]
+ },
+ "jamaican-revival": {
+  "essence": "A complex of Afro-Jamaican religious traditions born under slavery and after, blending Central and West African religion with Protestant Christianity: Myal and its 19th-century successor Revival (Revival Zion and the more Africa-leaning Pukumina/Pocomania), the Kongo-derived ancestral religion Kumina, and the individualized magico-spiritual craft Obeah. Living traditions in Jamaica, they center on spirit possession, healing, and the management of the dead. Their shared claim is that the visible world is continuously acted upon by spirits, ancestors, and the souls of the dead, which trained practitioners can summon, heal with, or deploy.",
+  "cosmos": "A supreme creator (in Kumina, King Zombi, from the Kongo Nzambi) made the world and withdrew, delegating all practical spiritual work to ancestors and lesser spirits. The human being has more than one soul — a 'spirit' that returns to God and a 'shadow' that lingers and can be displaced or stolen — so illness may be the literal dislocation of the shadow rather than a bodily failure. The restless dead (duppies) haunt the living and can be trapped and 'set' upon victims; Revival organizes the spirit-world into regimented, color-coded 'bands' of heavenly (Zion) and earthbound (Pukumina) forces.",
+  "practice": "Worship is congregational and kinetic: in Revival, believers 'trump and labor' — bending and hyperventilating in a counter-marching circle around a consecrated center-pole or ground-altar (the 'seal') — to exhaust the ego and invite possession. Myal historically served as a communal antidote to Obeah, its practitioners diagnosing bewitchment, exposing hidden charms, and retrieving stolen souls; Obeah, by contrast, is a private, contractual craft using botanicals, grave dirt, and incantations to heal, protect, or harm for a client. Drumming, dancing, colors, and the tending of the dead are central; Obeah was long legally suppressed.",
+  "canon": "Oral and performative traditions with no scripture of their own (the Bible is drawn on selectively in Revival); the record is ethnographic — notably Martha Warren Beckwith's fieldwork, Joseph Moore's Kumina studies, and later scholarship.",
+  "reflects": "The dead as labor-force and hazard rather than serene ancestors — a spirituality in which the human essence is physically divisible and spirits form a summonable, negotiable workforce for concrete ends.",
+  "sources": [
+   "Martha Warren Beckwith, 'Black Roadways: A Study of Jamaican Folk Life' (1929)",
+   "Barry Chevannes, 'Rastafari: Roots and Ideology' (1994)",
+   "Diana Paton, 'The Cultural Politics of Obeah' (2015)",
+   "Maureen Warner-Lewis, 'Central Africa in the Caribbean' (2003)"
+  ]
+ },
+ "judaism": {
+  "essence": "The monotheistic religion of the Jewish people, understood in its rabbinic form as it developed after the destruction of the Second Temple (70 CE) out of the biblical religion of ancient Israel. It centers on the covenant between the one God (YHWH) and Israel, mediated through the Torah — both the written Hebrew Bible and the Oral Law elaborated by the Rabbis. Its foundational claim is the unity and sole sovereignty of God, who created the world, gave the Torah at Sinai, and holds Israel to its commandments.",
+  "cosmos": "One transcendent God, whose ineffable name (the Tetragrammaton) is never pronounced, created and governs the world and is immanently present as the Shekhinah, said to share Israel's exile. Evil is not a rival power: Ha-Satan is a servant-prosecutor in the divine court, and the human 'evil inclination' (yetzer hara) is a God-given drive to be channeled, not a demon. History moves toward redemption — a human, Davidic Messiah heralded by Elijah, followed by the resurrection of the dead and the World to Come (Olam Ha-Ba); humans possess genuine free will and can transform their past through repentance (teshuvah).",
+  "practice": "A religion of law (halakhah) and study, lived through daily prayer, the Sabbath and a festival calendar, dietary law (kashrut), circumcision and life-cycle rites, and the ethical and ritual commandments (mitzvot). Authority rests not on a priesthood (defunct since the Temple) but on rabbis, scholars, and the interpretive tradition; the synagogue and house of study replaced the sacrificial cult. Torah study is itself held to be among the highest acts of worship.",
+  "canon": "The Hebrew Bible (Tanakh — Torah, Prophets, Writings) as the Written Torah, and the Oral Torah codified in the Mishnah (c. 200 CE) and the Talmud (Babylonian, c. 500–600 CE), with the later Midrash, legal codes (Maimonides' Mishneh Torah, the Shulchan Arukh), and responsa.",
+  "reflects": "Revelation as unfinished conversation — a fixed written word whose meaning is perpetually reopened through authoritative human interpretation, so that the Oral Law given at Sinai is understood to be still spoken.",
+  "sources": [
+   "George Foot Moore, 'Judaism in the First Centuries of the Christian Era' (1927)",
+   "Solomon Schechter, 'Aspects of Rabbinic Theology' (1909)",
+   "E. P. Sanders, 'Judaism: Practice and Belief, 63 BCE–66 CE' (1992)",
+   "Jacob Neusner, 'The Way of Torah: An Introduction to Judaism' (1970)"
+  ]
+ },
+ "kabbalah": {
+  "essence": "The principal tradition of Jewish mysticism and esoteric theosophy, which crystallized in Provence and Spain in the late 12th–13th centuries CE (the Bahir, then the Zohar) and was transformed by Isaac Luria's school at Safed in the 16th century. It reinterprets the biblical God and Torah as a map of the inner life of the divine, teaching that the hidden Infinite (Ein Sof) unfolds into ten emanations (Sefirot) through which the world is created and sustained. It remains living, both within traditional Judaism (especially Hasidism) and in modern popularized forms.",
+  "cosmos": "Beyond all attributes stands Ein Sof, the unknowable Infinite, which cannot be prayed to directly; from it flow the ten Sefirot, the 'Tree of Life,' structured in the shape of a primordial human (Adam Kadmon). In the Lurianic account, creation begins with tzimtzum — God's self-contraction to make room for a world — followed by a cosmic catastrophe, the 'Shattering of the Vessels,' which scattered divine sparks into matter and gave rise to the parasitic realm of evil (the Sitra Achra, the 'Other Side'). The lowest Sefirah, the feminine Shekhinah, is exiled in the material world and longs for reunion with the divine.",
+  "practice": "Kabbalah is less a separate cult than an esoteric layer of Jewish observance: the commandments and prayers are performed with mystical intentions (kavvanot) understood to affect the divine realms and to advance tiqqun — the gathering of the scattered sparks and the mending of the cosmos. Study of the Zohar and Lurianic texts, contemplative and letter-mystical techniques, and the aim of yichud (reunifying the Shekhinah with her divine counterpart) are central. Traditionally it was restricted to learned, mature initiates.",
+  "canon": "The 'Sefer Yetzirah' (early, of contested date), the 'Sefer ha-Bahir' (12th c.), and above all the 'Zohar' (13th-c. Aramaic, composed largely by Moses de León and attributed to the 2nd-c. sage Shimon bar Yochai); the Lurianic system is preserved in Chaim Vital's 'Etz Chaim.'",
+  "reflects": "Human action as cosmic repair — a theology in which ritual and moral life do not merely obey God but mend God, the wholeness of the divine placed literally in human hands.",
+  "sources": [
+   "Gershom Scholem, 'Major Trends in Jewish Mysticism' (1941)",
+   "Gershom Scholem, 'Kabbalah' (1974)",
+   "Moshe Idel, 'Kabbalah: New Perspectives' (1988)",
+   "Isaiah Tishby, 'The Wisdom of the Zohar' (English ed., 1989)"
+  ]
+ },
+ "kalash": {
+  "essence": "The polytheistic religion of the Kalasha, a people of a few thousand in the Bumburet, Rumbur, and Birir valleys of Chitral District in northwestern Pakistan. It is the last surviving pre-Islamic religion of the Hindu Kush, widely read as an archaic form of Indo-Aryan (broadly 'para-Vedic') polytheism, held by a small enclave surrounded by Muslim populations.",
+  "cosmos": "A pantheon stands beneath a remote creator, Dezau (Khodai), who withdrew and receives no direct cult; active gods (Mahandeo, Sajigor, Ingaw) and the golden mountain-fairies (suchi) manage the living world, with hearth and lineage under the goddess Jeshtak. The whole cosmos is organized by a purity axis — onjeshta (pure: high pastures, altars, goats, men) against pragata (impure: the valley floor, death, and female blood) — so holiness is mapped onto altitude. The dead are commemorated at large festivals rather than through an elaborated doctrine of the afterlife.",
+  "practice": "Kalasha are goat-herders and farmers whose priests and elders offer goat sacrifice at open-air altars to the intermediary gods; menstruating women and mothers withdraw to the communal bashali house, kept strictly apart from the pure sphere. The ritual year peaks in three great festivals — Joshi (spring), Uchau (harvest), and above all Chaumos, the winter-solstice rite of purification, bonfires, and the welcoming of the visitor-hero Balumain. Wine-making, dance, and clan gatherings at the Jeshtak temple bind the community.",
+  "canon": "No scripture: the tradition is wholly oral — myth, prayer, and festival song — documented ethnographically since G.S. Robertson and the 20th-century fieldwork of the Cacopardos, Loude and Lievre, Parkes, and Maggi.",
+  "reflects": "It foregrounds purity as geography — a cosmos ordered not by good against evil but by an ecology of separation between the pure heights and the impure valley, mixed only at ritual peril.",
+  "sources": [
+   "Alberto M. Cacopardo & Augusto S. Cacopardo, 'Gates of Peristan: History, Religion and Society in the Hindu Kush' (2001)",
+   "Wynne Maggi, 'Our Women Are Free: Gender and Ethnicity in the Hindukush' (2001)",
+   "Jean-Yves Loude & Viviane Lievre, 'Solstice paien' (1984)",
+   "Michael Witzel, 'The Rgvedic Religious System and its Central Asian and Hindukush Antecedents' (2004)"
+  ]
+ },
+ "kejawen": {
+  "essence": "Kejawen (also kebatinan or Javanism) is the mystical-ethical worldview of many Javanese of Indonesia — a syncretic 'inner' spirituality fusing indigenous animism, Hindu-Buddhist metaphysics, and Islamic (especially Sufi) elements, associated with the nominally Muslim abangan Javanese. In this atlas the record also gathers other Indonesian indigenous religions as neighboring shards: Marapu of Sumba, Aluk To Dolo of the Toraja in Sulawesi, and Batak belief in Sumatra.",
+  "cosmos": "Kejawen tends toward monism — one ineffable source (Sang Hyang Widhi Wasa / Tunggal) manifest through all gods, spirits, and selves — the mystic's goal being manunggaling kawula Gusti, the union of servant and Lord. Reality is doubled into a visible outer (lair) and a felt inner (batin), the latter the true seat of the sacred; potent local powers such as the ocean-goddess Nyai Roro Kidul remain woven into Javanese kingship. The bundled indigenous systems are more concretely ancestral: the Toraja route the dead to Puya, the land of souls, through elaborate funerals, and the Sumbanese feed the marapu ancestors with sacrificed buffalo and pigs.",
+  "practice": "Kejawen is cultivated through meditation and asceticism (semadi, tapa, ritual fasting), the slametan communal ritual meal, deference to a guru, and wayang kulit shadow-theatre received as moral and cosmological teaching rather than mere entertainment. The gathered indigenous traditions center on ancestor-feasting, megalithic tomb-building, and — among the Toraja — monumental multi-day funerary rites with buffalo sacrifice.",
+  "canon": "No single scripture: Kejawen draws on Javanese court literature — the Serat Centhini (1814) and the Serat Wedhatama of Mangkunegara IV — and the oral wayang repertoire, while Marapu, Aluk To Dolo, and Batak belief are transmitted orally.",
+  "reflects": "It foregrounds interiority — the conviction that the divine is reached through cultivated inner feeling (rasa) rather than through doctrine, scripture, or law.",
+  "sources": [
+   "Clifford Geertz, 'The Religion of Java' (1960)",
+   "Niels Mulder, 'Mysticism in Java: Ideology in Indonesia' (1998)",
+   "Andrew Beatty, 'Varieties of Javanese Religion: An Anthropological Account' (1999)",
+   "Janet Hoskins, 'The Play of Time: Kodi Perspectives on Calendars, History, and Exchange' (1993)"
+  ]
+ },
+ "khanty-mansi": {
+  "essence": "The indigenous religion of the Khanty (Ostyak) and Mansi (Vogul), two closely related Ob-Ugric (Finno-Ugric) peoples of the Ob and Irtysh river basins in western Siberia. Traditionally hunters, fishers, and reindeer-herders, they hold a shamanic-animist worldview centered on the remote sky-father Numi-Torum, which persists alongside Russian Orthodoxy and Soviet-era pressures.",
+  "cosmos": "The cosmos is tiered: a luminous upper world of Numi-Torum, the middle earth, and a cold lower world of Kul'-Otyr reached by traveling downstream to the north, toward the mouth of the Ob. The sky-father's active son, Mir-susne-khum (the World-Surveyor-Man), patrols the world on a winged horse and mediates for humanity. A person carries a plural soul — a shadow-soul that goes down to the dead and a breath/hair-soul reborn within the same lineage — and society is split into two intermarrying phratries, Por and Mos, aligned respectively with earth/bear and sky.",
+  "practice": "Ritual life turns on shamanism, sacrifice (horse and reindeer) at sacred groves and to carved idols, and above all animal ceremonialism — the multi-day Bear Feast, in which the slain bear is honored as a divine, exiled guest with hundreds of songs and masked plays so that its soul returns favorably to the sky. Offerings, divination, and the keeping of household and clan spirit-images structure daily observance.",
+  "canon": "Wholly oral — epic songs, prayers, bear-feast cycles, and myths — recorded by scholars such as Bernat Munkacsi and Artturi Kannisto, and analyzed by K.F. Karjalainen and V.N. Chernetsov.",
+  "reflects": "It foregrounds the ethics of the hunt — a reverent reciprocity with the killed animal, the bear treated as an honored guest to be appeased so that the social and cosmic order is not breached.",
+  "sources": [
+   "K.F. Karjalainen, 'Die Religion der Jugra-Voelker' (1921-1927)",
+   "Bernat Munkacsi, 'Vogul Nepkoltesi Gyujtemeny' (1892-1921)",
+   "V.N. Chernetsov, 'Concepts of the Soul among the Ob-Ugrians' (1963)",
+   "Marjorie Mandelstam Balzer, 'The Tenacity of Ethnicity: A Siberian Saga in Global Perspective' (1999)"
+  ]
+ },
+ "khoekhoe": {
+  "essence": "The traditional religion of the Khoekhoe (Khoikhoi) — the Khoe-speaking pastoralist peoples of southwestern Africa, of whom the Nama of Namaqualand and Namibia are the principal surviving group. Its center is the dawn-and-rain sky-god Tsui-//Goab; the tradition was largely displaced by Christianity by about 1900 but survives in Nama oral memory and cultural revival.",
+  "cosmos": "The cosmos turns on a two-power opposition: the benevolent Tsui-//Goab of the red dawn and the rain against the malevolent //Gaunab of the black sky and the grave, locked in an endless war in which //Gaunab wounds the god's knee. Death became final through a garbled message — the Moon sent word of rebirth by the Hare, who told it wrong, and was struck on the lip for it. The dying-and-rising ancestor-hero Heitsi-Eibib, virgin-born and repeatedly killed and risen, lies buried under stone cairns scattered across the whole veld.",
+  "practice": "Prayer was offered to Tsui-//Goab at the red dawn, chiefly for rain and health on which a herding people depended; travelers heaped a stone (with a twig or muttered word) on Heitsi-Eibib's wayside cairns for luck on the road. New-moon observances, rain-rites, and rites of passage rounded out a cult without temples or a professional priesthood, among cattle- and sheep-keeping communities.",
+  "canon": "Wholly oral, preserved through 19th- and early-20th-century recorders: Theophilus Hahn's 'Tsuni-//Goam' (1881), Wilhelm Bleek's collections, and Isaac Schapera's synthesis.",
+  "reflects": "It foregrounds divinity earned through death — a supreme being who is also a limping ancestor, killed and risen again until he overcame death itself, godhead as return from the grave rather than untouched transcendence.",
+  "sources": [
+   "Theophilus Hahn, 'Tsuni-//Goam: The Supreme Being of the Khoi-Khoi' (1881)",
+   "Isaac Schapera, 'The Khoisan Peoples of South Africa: Bushmen and Hottentots' (1930)",
+   "W.H.I. Bleek, 'Reynard the Fox in South Africa; or, Hottentot Fables and Tales' (1864)"
+  ]
+ },
+ "kikuyu": {
+  "essence": "The traditional religion of the Kikuyu (Agikuyu), the largest Bantu-speaking people of Kenya's central highlands around Mount Kenya. It centers on a single high god, Ngai (Mwene-Nyaga), who dwells on the mountain; on the founding couple Gikuyu and Mumbi from whom the nine clans descend; and on the ever-present ancestral dead. Christianity is now dominant, but ancestral practice and the mythic charter persist.",
+  "cosmos": "Ngai is the omnipotent creator and controller of rain, sun, and lightning, seated on the snow-capped peak Kirinyaga (Mount Kenya) — remote, approached communally only in existential crises such as drought or epidemic. He gave the first man Gikuyu the land from the mountain to the Aberdares and the wife Mumbi; their nine (reckoned as 'full nine') daughters founded the matriclans of a patrilineal society. The ancestral spirits (ngoma) live parallel to the living, handling everyday fortune, fertility, and punishment.",
+  "practice": "Sacrifice and prayer are made under the great mugumo (strangler fig), the sole earthly conduit to Ngai, with worshippers and homestead doors oriented toward Mount Kenya; libations of beer and fat are given to the ngoma. Society is ordered by initiation age-sets and a generational governing system whose power passes at the Itwika ceremony roughly every generation, an institutionalized handover of authority.",
+  "canon": "Oral — myth, prayer, and proverb — first systematically set down by the Kikuyu leader Jomo Kenyatta and the archaeologist-ethnographer L.S.B. Leakey.",
+  "reflects": "It foregrounds the emergency high-god — a creator too great for daily petition, addressed only at the edge of catastrophe, with the ordinary sacred devolved to the nearer ancestral dead.",
+  "sources": [
+   "Jomo Kenyatta, 'Facing Mount Kenya: The Tribal Life of the Gikuyu' (1938)",
+   "L.S.B. Leakey, 'The Southern Kikuyu Before 1903' (1977)",
+   "Godfrey Muriuki, 'A History of the Kikuyu, 1500-1900' (1974)"
+  ]
+ },
+ "kongo": {
+  "essence": "The religion of the BaKongo, a Bantu people of west-central Africa (the Democratic Republic of Congo, Republic of Congo, Angola, and Cabinda), heirs of the Kingdom of Kongo that arose by the 14th century. Living and hugely influential across the Atlantic diaspora, it centers on a withdrawn creator, Nzambi a Mpungu; the ancestors (bakulu); local water- and nature-spirits; and ritual power-objects (minkisi) directed by the nganga expert.",
+  "cosmos": "Reality is diagrammed by the dikenga (the Kongo cosmogram, or yowa cross): a circle quartered by the sun's four moments, with the land of the living above and the inverted land of the dead below, divided by Kalunga — the water-line that mirrors and reverses. Death is not a fall but a crossing and inversion; the dead cross Kalunga, dwell white-skinned in the world below, and return as newborns, so the cosmos is one revolving wheel of souls. Nzambi a Mpungu, too vast to be approached, leaves no cult, while the spring- and river-spirits (bisimbi) fill the nearer distance.",
+  "practice": "The nganga constructs and directs minkisi — containers packed with medicines and grave-earth and animated by a captured spirit of the dead (the nail-driven nkondi its famous form) — to heal, judge, or strike; ancestors are consulted and fed, and local bisimbi propitiated. Historic Kongo also absorbed Catholicism from 1491, producing enduring syncretisms carried into Cuba, Haiti, Brazil, and the American South.",
+  "canon": "Oral tradition, preserved above all in the early-20th-century Kikongo texts written by Kongo catechists for Karl Laman, and in Wyatt MacGaffey's translations of nganga testimony.",
+  "reflects": "It foregrounds death as inversion and return — the dead not a terminus but the supply of souls turning back into the living, and the sacred engineered into a graspable object rather than petitioned from a far heaven.",
+  "sources": [
+   "Wyatt MacGaffey, 'Religion and Society in Central Africa: The BaKongo of Lower Zaire' (1986)",
+   "Karl Laman, 'The Kongo' (4 vols, 1953-1968)",
+   "Robert Farris Thompson, 'Flash of the Spirit: African and Afro-American Art and Philosophy' (1983)",
+   "John M. Janzen & Wyatt MacGaffey, 'An Anthology of Kongo Religion' (1974)"
+  ]
+ },
+ "korean": {
+  "essence": "This shard covers Korea's indigenous religious substratum — the Dangun foundation myth and living Korean shamanism (musok, or Muism) — that underlies and coexists with Buddhism, Confucianism, and Christianity. Musok centers on the mudang, usually a woman, who mediates between the community and a crowded world of gods, mountain-spirits, and the dead.",
+  "cosmos": "The founding myth descends from heaven: the Lord of Heaven Hwanin sends his son Hwanung down to a sandalwood tree atop Mount Taebaek to 'benefit humankind widely' (hongik ingan); Hwanung and the bear-woman Ungnyeo, who earned human form by fasting in a dark cave, beget Dangun, founder of the first kingdom Gojoseon, who at his reign's end becomes a mountain-god. Beyond the myth the lived cosmos teems with spirits — heavenly gods, the mountain-gods (sansin), household and nature powers, ancestral and restless wandering dead — reached by descent into the shaman's body rather than by ascent.",
+  "practice": "The central rite is the gut, a ritual of drum, gong, dance, and possession in which the mudang seats and voices gods and the dead to heal, divine, and guide spirits across; the vocation typically arrives as sinbyeong, an initiatory 'spirit-sickness' only the spirits can cure. Household observance petitions Samsin Halmeoni, the birth-grandmother, with rice and seaweed soup, and honors mountain-gods at small shrines (sansin-gak) kept even at the rear of Buddhist temples.",
+  "canon": "The Dangun myth's earliest text is the 13th-century Samguk Yusa of the monk Iryeon; musok itself is a living oral and ritual tradition with regional shaman song-cycles (muga).",
+  "reflects": "It foregrounds possession as the mode of the sacred — the god descending into and speaking through the (usually female) body, the sacred road crossed by indwelling rather than by ecstatic upward flight.",
+  "sources": [
+   "Iryeon, 'Samguk Yusa' (Memorabilia of the Three Kingdoms, c. 1281)",
+   "Laurel Kendall, 'Shamans, Housewives, and Other Restless Spirits: Women in Korean Ritual Life' (1985)",
+   "Hyun-key Kim Hogarth, 'Korean Shamanism and Cultural Nationalism' (1999)"
+  ]
+ },
+ "lakota": {
+  "essence": "The religion of the Lakota (Teton Sioux), the westernmost division of the Oceti Sakowin (Seven Council Fires), a Plains people of the northern Dakotas region whose culture flowered after the horse. It centers on Wakan Tanka, the Great Mystery or sacred totality, and on the seven sacred rites given with the pipe (channunpa) by the White Buffalo Calf Woman.",
+  "cosmos": "Wakan Tanka is not a person at the summit but the pervasive holy power (wakan) in and through all things — best called panentheist — which James Walker's Oglala interlocutors schematized as sixteen aspects that are nonetheless one. The cosmos is a quartered sacred hoop of the four directions, each with its color and power; sky-powers, the Thunderbeings (Wakinyan) of the west, wage an ordering war against the horned water-monster Unktehi of the deep. The Sun (Wi) is chief of the visible holy powers and patron of the four virtues.",
+  "practice": "Observance turns on the seven rites — above all the Sun Dance (Wiwanyang Wachipi), in which dancers offer their own pierced flesh for the people, along with the sweat lodge (inipi), the vision quest (hanbleceya), and the keeping of the pipe bundle — bound by an ethic of kinship ('mitakuye oyasin,' all my relatives). The Sun Dance was banned by the U.S. government from the 1880s until 1934 and survived underground.",
+  "canon": "Oral, recorded with a colonial-mediation caveat in James R. Walker's Oglala texts, Frances Densmore's Teton Sioux Music, and Black Elk's accounts; the pipe bundle is still kept.",
+  "reflects": "It foregrounds the sacred as relatedness rather than a throne — a refusal of a supreme Person in favor of a diffused holy Mystery, with sacrifice turned inward as the sun is repaid with the dancer's own flesh, not another's.",
+  "sources": [
+   "James R. Walker, 'Lakota Belief and Ritual', ed. Raymond J. DeMallie & Elaine A. Jahner (1980)",
+   "Frances Densmore, 'Teton Sioux Music' (1918)",
+   "Joseph Epes Brown, 'The Sacred Pipe: Black Elk's Account of the Seven Rites of the Oglala Sioux' (1953)",
+   "Raymond J. DeMallie, 'The Sixth Grandfather: Black Elk's Teachings Given to John G. Neihardt' (1984)"
+  ]
+ },
+ "lingayat": {
+  "essence": "Lingayatism (Virashaivism) is a Shaiva devotional tradition and community that took form in 12th-century Karnataka around the poet-statesman Basava (Basavanna) and the assembly of sharanas at the Anubhava Mantapa. Lingayats worship Shiva as the formless absolute (Parashiva) through a personal ishtalinga worn on the body, and historically reject caste, temple and priestly mediation, ritual pollution, and rebirth.",
+  "cosmos": "Parashiva is the formless absolute that genuinely modifies itself into world and soul, so the universe is real rather than illusion (maya) — a qualified nondualism (shakti-vishishtadvaita). The liberated soul unites with Shiva (aikya) at the end of a graded six-stage ascent (shatsthala) rather than transmigrating through further lives, which cuts against the mainstream karma-and-rebirth scheme. The divine is not housed in monumental temples but carried on each devotee's chest.",
+  "practice": "The devotee constantly wears and worships the ishtalinga given at initiation; ethics turn on kayaka (one's labor as worship, 'work is heaven') and dasoha (sharing the fruits of that labor), and on reverence for the wandering ascetic (jangama) as the 'moving Shiva.' Lingayats are typically vegetarian and bury rather than cremate their dead, and the movement historically enacted radical social mixing across former castes.",
+  "canon": "The vachanas — free-verse sayings in vernacular Kannada by Basava, Akka Mahadevi, Allama Prabhu, and other sharanas — with later systematizing texts such as the Shunyasampadane and the Siddhanta Shikhamani.",
+  "reflects": "It foregrounds portable, unmediated divinity — the absolute carried on the individual body, dissolving temple, priest, and caste, with ordinary work itself made the path to liberation.",
+  "sources": [
+   "A.K. Ramanujan, 'Speaking of Siva' (1973)",
+   "R. Blake Michael, 'The Origins of Virasaiva Sects' (1992)",
+   "J.P. Schouten, 'Revolution of the Mystics: On the Social Aspects of Virasaivism' (1995)"
+  ]
+ },
+ "luba-kuba": {
+  "essence": "The traditions of the Luba and Kuba, two Central Bantu peoples and kingdoms of the south-central Democratic Republic of Congo (the Luba Empire and the Kuba Kingdom, at their height roughly the 16th-19th centuries). Each centers on a withdrawn creator — the Kuba Mbombo/Bumba, the Luba Leza (Shakapanga) — a founding culture-hero, and a charter-myth of sacred kingship.",
+  "cosmos": "In the Kuba cosmogony the giant Mbombo, alone in the primordial waters, is seized by pain and vomits up the sun, then the moon, stars, animals, and humanity — creation as an involuntary expulsion. The Luba world was established by the distant Leza, who withdrew, leaving the landscape to localized tutelary spirits (bavidye) anchored to specific lakes, caves, and waterfalls. The founding political myth opposes the cruel, drunken 'red king' Nkongolo to the cool, black, iron-bringing 'black king' Kalala Ilunga, whose victory installs sacred kingship and its transmissible blood-essence, bulopwe.",
+  "practice": "Rule rests on sacred kingship and its regalia; the Mbudye association guards history through the lukasa, a beaded wooden memory-board read by touch to recite genealogies, myth, and the map of the bavidye. Propitiation of the localized spirits enforces ecological and moral taboos, and ancestral veneration and masking traditions (notably among the Kuba) structure communal life.",
+  "canon": "Oral — king-lists, genealogies, and myth encoded in lukasa boards and Mbudye recitation — documented by Jan Vansina, Luc de Heusch, Thomas Reefe, and Mary and Allen Roberts.",
+  "reflects": "It foregrounds myth as political charter and as topography — origin-narrative doubling as the constitution of the state, and history stored as a tactile landscape to be navigated rather than a text to be read.",
+  "sources": [
+   "Jan Vansina, 'The Children of Woot: A History of the Kuba Peoples' (1978)",
+   "Luc de Heusch, 'The Drunken King, or The Origin of the State' (1982)",
+   "Thomas Q. Reefe, 'The Rainbow and the Kings: A History of the Luba Empire to 1891' (1981)",
+   "Mary Nooter Roberts & Allen F. Roberts, 'Memory: Luba Art and the Making of History' (1996)"
+  ]
+ },
+ "luciferianism": {
+  "essence": "Luciferianism is a diffuse family of modern Western esoteric and Left-Hand Path belief systems that venerate Lucifer not as the Christian Satan but as a symbolic (sometimes theistic) light-bringer and liberator — an emblem of reason, will, and self-liberation. It ranges from purely philosophical or atheistic stances to theistic occult forms, and is largely a phenomenon of the late 19th century to the present with roots in Romantic reappraisals of the rebel-figure.",
+  "cosmos": "There is no single orthodox cosmology, but a common frame borrows from Gnostic dualism: the material world and its dogmatic Creator (the Demiurge, a 'blind god') are cast as a prison of ignorance, while a divine spark — the 'Black Flame' of isolate self-awareness — burns within the individual. Salvation is self-deification (apotheosis) attained through knowledge and disciplined will rather than grace, with no original sin to be forgiven, only ignorance to be overcome. Lilith and Azazel figure in many currents as consort and culture-hero of the light-bringer.",
+  "practice": "Practice is largely individual self-development — study, magical or ritual work, and antinomian taboo-breaking used to shed inherited conditioning and cultivate sovereign will; ethics center on self-responsibility rather than a code handed down from above. Much is solitary, though organized bodies exist, such as Michael W. Ford's Assembly of Light Bearers and the short-lived Greater Church of Lucifer (founded in the 2010s).",
+  "canon": "No single scripture: a modern literature (notably the works of Michael W. Ford and Thomas Karlsson) draws on reappropriated older sources — Gnostic texts, the Watchers of the Book of Enoch, the Romantic Satan of Milton, Blake, and Shelley, and the Lilith of the Alphabet of Ben Sira.",
+  "reflects": "It foregrounds the sanctified rebel — the inversion that makes the defier of the creator the true liberator and self-deification the goal, exalting autonomy of will over submission.",
+  "sources": [
+   "Ruben van Luijk, 'Children of Lucifer: The Origins of Modern Religious Satanism' (2016)",
+   "Per Faxneld & Jesper Aa. Petersen (eds.), 'The Devil's Party: Satanism in Modernity' (2013)",
+   "Michael W. Ford, 'Luciferian Witchcraft' (2005)"
+  ]
+ },
+ "lusitanian": {
+  "essence": "The polytheism of the Iron-Age Indo-European peoples of western Iberia — the Lusitanians and Gallaecians of roughly modern Portugal and Galicia — before and during Roman rule, an extinct tradition known chiefly through Roman-era inscriptions and Greco-Roman notices. It venerated a large, mostly localized pantheon including the healer-oracle Endovelicus, the chthonic goddess Ataecina, the sky-and-mountain god Reve, the oath-and-warband god Bandua, and the river-goddess Nabia.",
+  "cosmos": "No native cosmology survives in the peoples' own words, so worldview is inferred from dedications and epithets. Prominent is a strong chthonic dimension — Endovelicus and Ataecina make the earth-below a source of healing, prophecy, and binding justice rather than mere death — alongside sky and mountain sovereignty in Reve (a western reflex of the Indo-European daylight sky-father) and the sacralization of particular rivers, springs, and peaks. Many deities are radically plural and place-bound, tied by geographic epithets to specific communities and terrain.",
+  "practice": "Attested rites include animal sacrifice (the Lusitanian-language inscription of Cabeco das Fraguas lists a sheep, a pig, and a bull offered to named gods), dream-incubation at Endovelicus' sanctuary of Sao Miguel da Mota (where dedications thank the god for healing 'ex visu,' from a vision), and the devotio — a grave oath pledging one's life to a deity, whether a warrior for his leader's survival or a curse-tablet trading a wrongdoer's life to Ataecina. Cult was conducted at open-air and mountain sanctuaries, largely without the monumental temples of the Mediterranean world.",
+  "canon": "No scripture and no native literature: the tradition is known almost entirely from votive inscriptions (Latin, plus a few in the Lusitanian language, such as those of Cabeco das Fraguas and Lamas de Moledo), archaeology, and brief remarks in Greco-Roman authors like Strabo.",
+  "reflects": "It foregrounds the healing underworld and the binding oath — an infernal realm entered through sleep for regeneration and truth, and human life pledged as fungible collateral to hold the gods to a contract.",
+  "sources": [
+   "Jose Leite de Vasconcelos, 'Religioes da Lusitania' (3 vols, 1897-1913)",
+   "Jose Maria Blazquez, 'Religiones primitivas de Hispania' (1962)",
+   "Francisco Marco Simon, 'Die Religion im keltischen Hispanien' (1998)"
+  ]
+ },
+ "maasai": {
+  "essence": "The traditional religion of the Maasai, a Nilotic (Maa-speaking) pastoralist people of southern Kenya and northern Tanzania. It centers on a single sky-god, Enkai (Engai), giver of cattle and rain, whose favor is read in the sky and mediated by the prophet-diviner (oloiboni) and by the age-set ritual system.",
+  "cosmos": "Enkai is a non-anthropomorphic, gender-ambiguous atmospheric deity with a dual aspect — Enkai Narok, the Black God of benevolent rain, and Enkai Nanyokie, the Red God of lightning, drought, and wrath — the divine mood legible in the color of the sky. Cattle were lowered from the sky and given to the Maasai, a gift that makes raiding others' herds a reclamation of a divine inheritance; a primordial rupture associated with Naiteru-kop severed the sky-earth link and made death permanent. The active volcano Ol Doinyo Lengai ('Mountain of God') is Enkai's terrestrial seat.",
+  "practice": "A cattle economy is sacralized in milk, blood, and meat; the age-set system carries men through initiation (circumcision) and warriorhood (ilmurran) to the Eunoto ceremony that graduates them toward elderhood, their long ochred hair shaved by their mothers. Prayer and sacrifice are offered at the sacred oreteti fig tree, and the oloiboni divines Enkai's will by casting stones from a cow-horn. There are no temples or images.",
+  "canon": "Wholly oral — prayer, myth, and song — recorded ethnographically by A.C. Hollis, Naomi Kipury, and Paul Spencer.",
+  "reflects": "It foregrounds the divine read in weather and herds — a faceless god whose will is legible in the sky's color and whose covenant is a gift of cattle, binding theology directly to pastoral survival.",
+  "sources": [
+   "A.C. Hollis, 'The Masai: Their Language and Folklore' (1905)",
+   "Paul Spencer, 'The Maasai of Matapato: A Study of Rituals of Rebellion' (1988)",
+   "Naomi Kipury, 'Oral Literature of the Maasai' (1983)"
+  ]
+ },
+ "mandaeism": {
+  "essence": "The living religion of the Mandaeans, an ethno-religious community of Eastern-Aramaic speakers rooted in the marshlands of southern Iraq and Khuzestan in Iran, now dispersed largely into a global diaspora. A Gnostic, baptismal faith, it venerates John the Baptist (Yahia Yuhana) as its greatest prophet, rejects Abraham, Moses, and Jesus as false, and centers on repeated immersion in flowing 'living water' (yardna) to keep the soul in contact with the World of Light. Adherents call themselves Mandaiia ('knowers,' from manda, gnosis) and are often identified with the Qur'anic Sabians.",
+  "cosmos": "Reality is split between a transcendent World of Light, ruled by the ineffable Great Life (Hayyi Rabbi) and populated by luminous beings called uthras, and a lower World of Darkness. The material world (Tibil) was fashioned by the demiurge Ptahil and is entangled with the dark powers and the planetary and zodiacal rulers led by Ruha; the human being carries a trapped light-soul (nishimta). At death the soul ascends through perilous toll-stations (mattarta) toward the Light, weighed by Abatur, its passage secured by the baptisms and death-mass performed on its behalf.",
+  "practice": "A hereditary priesthood of tarmidia (priests) and ganzibria (senior priests) presides; there is no monasticism, and marriage and fertility are religious duties. The defining rite is the masbuta, full immersion baptism in flowing water repeated on Sundays and at festivals, alongside the masiqta (the mass for the soul's ascent), sacramental meals, strict purity rules, and an elaborate liturgical calendar. Ritual purification, not belief alone, is the working mechanism of salvation.",
+  "canon": "A large Mandaic corpus: the Ginza Rabba ('Great Treasure'), the Mandaean Book of John (Drasha d-Yahia), the Qulasta (canonical prayerbook), and esoteric scrolls such as the Diwan Abatur and Haran Gawaita, transmitted alongside a continuous living ritual tradition.",
+  "reflects": "It foregrounds purification as an unending process rather than a one-time conversion — salvation enacted through the repeatable, bodily sacrament of flowing water rather than through creed, atonement, or a single initiation.",
+  "sources": [
+   "E.S. Drower, 'The Mandaeans of Iraq and Iran' (1937)",
+   "Kurt Rudolph, 'Mandaeism' (1978)",
+   "Jorunn Jacobsen Buckley, 'The Mandaeans: Ancient Texts and Modern People' (2002)",
+   "Şinasi Gündüz, 'The Knowledge of Life: The Origins and Early History of the Mandaeans' (1994)"
+  ]
+ },
+ "manichaeism": {
+  "essence": "A dualistic 'religion of Light' founded by the prophet Mani (216–c. 274 CE) in Sasanian Mesopotamia, which for a time became a genuinely transcontinental world religion, spreading from Roman North Africa to Tang China. Its central claim is a radical dualism: two eternal, unmixed principles — Light (good, spirit) and Darkness (evil, matter) — that have become tragically entangled, and whose separation is the goal of cosmic and personal salvation. Mani cast himself as the 'Seal of the Prophets,' completing and correcting the revelations of Zoroaster, Buddha, and Jesus.",
+  "cosmos": "History runs in three 'times': an initial separation of Light and Darkness, the present age of their violent mixture, and a final restoration when the Light is extracted and the two are sundered forever. In the intervening war the powers of Darkness devour particles of Light, and the visible cosmos is built by Light-emanations as a vast machine — with the sun, moon, and Milky Way as conveyors — to distill the trapped Light back to its source. Human souls are sparks of Light imprisoned in bodies engineered by the dark powers; liberation comes through saving knowledge and the ascetic release of Light.",
+  "practice": "The community was tiered into the Elect (electi), who upheld extreme asceticism — vegetarianism, celibacy, poverty, and non-violence, believing their bodies liberated Light — and the Hearers (auditores), lay supporters who fed and sustained the Elect and hoped for a better rebirth. Rites included daily prayers, fasting, confession, hymn-singing, and the annual Bema festival commemorating Mani's death. Augustine of Hippo was a Hearer for roughly nine years before his conversion to Christianity.",
+  "canon": "Mani's own (largely lost) canonical scriptures, reconstructed from the Coptic Kephalaia, the Cologne Mani Codex, the Middle Persian Šābuhragān, Parthian, Sogdian, and Uyghur hymns from Turfan, Chinese Manichaean texts, and hostile notices (Augustine, Ephrem the Syrian, al-Nadim's Fihrist, Theodore bar Konai).",
+  "reflects": "It foregrounds evil as a substance rather than a privation or a moral choice — a fully systematized cosmic dualism in which matter itself is the enemy and salvation is the mechanical un-mixing of light from darkness.",
+  "sources": [
+   "Samuel N.C. Lieu, 'Manichaeism in the Later Roman Empire and Medieval China' (2nd ed., 1992)",
+   "Iain Gardner & Samuel N.C. Lieu (eds.), 'Manichaean Texts from the Roman Empire' (2004)",
+   "Jason David BeDuhn, 'The Manichaean Body: In Discipline and Ritual' (2000)",
+   "Nicholas J. Baker-Brian, 'Manichaeism: An Ancient Faith Rediscovered' (2011)"
+  ]
+ },
+ "mapuche": {
+  "essence": "The indigenous religion of the Mapuche, the largest Native people of south-central Chile and southwestern Argentina (the historic Araucanía), still practiced today. It is centered less on a fixed pantheon than on right relationship — among the living community, the ancestral dead, the owner-spirits of places, and a supreme power addressed as Ngenechen, 'ruler of the people.' There is no founder, scripture, or church; authority runs through the community, the lonko (chief), and above all the machi, the usually female shaman.",
+  "cosmos": "The cosmos is layered and quartered: the Wenu Mapu ('land above') of Ngenechen and the ancestors, the Nag Mapu of the living, and lower realms, all aligned to the four cardinal directions (Meli Witran Mapu), with the east of sunrise the direction of good and of prayer. Ngenechen is invoked as a fourfold unity of old man, old woman, young man, and young woman; the thunder-and-volcano ancestors (Pillán) and the married sun and moon (Antü and Küyen) fill the upper world. The people's origin turns on the flood-myth of the warring serpents Kai-Kai (of the sea) and Treng-Treng (of the mountain), whose survivors, carried up the rising hill, repopulated the land.",
+  "practice": "Central is the ngillatun, a multi-day collective ceremony for fertility, rain, and renewed right-relation with Ngenechen and the ancestors, held around the rewe (a carved, step-notched altar-pole) with music, dance, animal sacrifice, and shared muday. The machi heals, divines, and battles harm-bringing forces (wëküfü) by drumming the kultrún and ascending the rewe in ecstatic (küymin) trance to the upper world. Practice is communal and land-bound, sustaining the social and cosmic order together.",
+  "canon": "An oral tradition — the machi's invocations, the flood and origin narratives, and the body of custom (admapu) — supplemented by colonial chronicles and modern ethnography rather than any scripture of its own.",
+  "reflects": "It foregrounds the maintenance of cosmic order as collective ceremonial labor — the world kept in right relation by the assembled lineages acting together, not by a priesthood or a written law.",
+  "sources": [
+   "Louis C. Faron, 'Hawks of the Sun: Mapuche Morality and Its Ritual Attributes' (1964)",
+   "Ana Mariella Bacigalupo, 'Shamans of the Foye Tree: Gender, Power, and Healing among Chilean Mapuche' (2007)",
+   "Magnus Course, 'Becoming Mapuche: Person and Ritual in Indigenous Chile' (2011)"
+  ]
+ },
+ "maya": {
+  "essence": "The religious tradition of the Maya peoples of the Yucatán, Guatemala, Belize, and adjacent Chiapas and Honduras — a civilization whose Classic-period city-states (c. 250–900 CE) produced the most sophisticated writing and calendrics of the pre-Columbian Americas, and whose descendants, some six million Maya across roughly thirty languages, remain a living people. It bound divine kingship, a vast calendar, and a pantheon (Itzamna, K'inich Ajaw, Chaac, the Hero Twins, the Lords of Xibalba) to the conviction that the gods must be sustained by human offering, above all blood.",
+  "cosmos": "The cosmos is layered — conventionally thirteen heavens above and a nine-level underworld (Xibalba) below — organized around a central world-tree (the ceiba, Wacah Chan) and four directional quarters with their colors. Time is immense and cyclical, tracked by the interlocking 260-day (Tzolk'in) and 365-day (Haab') counts and the Long Count; the present world is a repaired creation after earlier failed attempts, humanity finally shaped from maize (Popol Vuh). The sacred is a communicable essence, k'uh, concentrated in blood, sap, and smoke, which the gods require to keep the cosmos in motion.",
+  "practice": "Divine kings (k'uhul ajaw) and calendar priests (ah k'in) mediated with the gods through autosacrificial bloodletting, the sacrifice of captives, incense (copal) offering, the ballgame, and precise calendrical ritual and divination. Among living Maya, daykeepers (ajq'ij) still keep the 260-day count, and 'costumbre' blends older practice with Catholicism in the highland cofradía and cargo systems.",
+  "canon": "No single scripture: hieroglyphic inscriptions and the surviving bark-paper codices (Dresden, Madrid, Paris), plus colonial-era texts — the K'iche' Popol Vuh, the Yucatec Books of Chilam Balam, and Diego de Landa's Relación de las cosas de Yucatán (1566).",
+  "reflects": "It foregrounds sacred time itself — divinity apprehended through an exact, cyclical calendar in which the day is a living force, and the maintenance of the cosmos is the work of precise reckoning and blood-debt.",
+  "sources": [
+   "Dennis Tedlock (trans.), 'Popol Vuh: The Mayan Book of the Dawn of Life' (rev. ed., 1996)",
+   "Linda Schele & David Freidel, 'A Forest of Kings: The Untold Story of the Ancient Maya' (1990)",
+   "Michael D. Coe & Stephen Houston, 'The Maya' (9th ed., 2015)",
+   "Karl Taube, 'Aztec and Maya Myths' (1993)"
+  ]
+ },
+ "melanesian": {
+  "essence": "Not a single religion but the family of indigenous religions of island Melanesia — the Solomon Islands, Vanuatu, and New Caledonia — as framed since R.H. Codrington's foundational nineteenth-century ethnography. Its unifying analytic threads are two concepts: mana, an impersonal, transmissible power of efficacy and success, and tabu, the sacred restriction that regulates it. Ancestral and non-human spirits, not high gods, dominate; power is something to be accumulated and wielded rather than a deity to be worshipped.",
+  "cosmos": "There is no single cosmology; the landscape is dense with spirits — the ghosts of powerful dead (tindalo in the Solomons) and spirits that were never human (vui in the Banks Islands) — through whom mana flows. Immortality as an active spirit is not automatic but earned: only those who amassed great mana in life persist as potent ancestors, while ordinary souls fade. Origin and death are explained in local myth-cycles, such as that of the culture-hero Qat and his spider-rival Marawa, who introduces death.",
+  "practice": "Religion is largely the pragmatic management of mana through sacrifice (especially pigs), magical formulae, and observance of tabu. In Vanuatu, graded men's societies (the Suqe) confer rank and spiritual standing through the ritual killing of tusked pigs, while masked secret societies (Tamate) embody and enforce ancestral authority. Success — in gardens, war, or fishing — is read as the presence of mana, and failure as its loss.",
+  "canon": "Wholly oral — myth-cycles, magical spells, and genealogies — preserved and known through the ethnographic record rather than any scripture.",
+  "reflects": "It foregrounds sacred power as impersonal and morally neutral — mana as a quasi-physical efficacy measured by results, the concept that decisively shaped the comparative anthropology of religion.",
+  "sources": [
+   "R.H. Codrington, 'The Melanesians: Studies in their Anthropology and Folk-Lore' (1891)",
+   "John Layard, 'Stone Men of Malekula' (1942)",
+   "Roger M. Keesing, 'Rethinking Mana' (Journal of Anthropological Research, 1984)"
+  ]
+ },
+ "mesoamerican": {
+  "essence": "The shared religious civilization of Mesoamerica — the cultural sphere running from the Olmec (from c. 1200 BCE) through the Maya and the Aztec to the Spanish Conquest of 1521 — treated here as the common substrate underlying its many local cults. Across two and a half millennia and unrelated languages, its peoples shared a distinctive complex: interlocking sacred calendars, a maize-based creation, the feathered serpent, the storm-and-rain god, the ballgame, the quartered cosmos, and the conviction that the gods must be fed with human offering.",
+  "cosmos": "Reality is a quartered plane — four directions, each with its color and patron, around a central world-tree (the ceiba) — stacked with layered heavens above and an underworld below (Mictlan, Xibalba). Time is cyclical and world-destroying: successive world-ages or 'suns' rise and fall, and the day itself, tracked by the meshed 260-day and 365-day counts (the 52-year Calendar Round), is a living force that shapes fate. A single dynamic sacred energy — teotl in Nahuatl — pervades all things and is manifested through the gods and their human vessels (ixiptla).",
+  "practice": "A trained priesthood kept the calendars and divined by them; ritual centered on human sacrifice and autosacrificial bloodletting, deity-impersonation, the ballgame, pilgrimage, and monumental ceremonial architecture. Ordinary life was governed by the day-count through naming, divination, and the festival cycle. Public cults ended with the Conquest, but calendrical and devotional practice persists in folk-Catholic form.",
+  "canon": "No alphabetic scripture: pre-Columbian screenfold codices (the Borgia group, the Dresden Codex), monumental inscriptions, and colonial transcriptions of oral tradition — above all the K'iche' Popol Vuh and Sahagún's Florentine Codex.",
+  "reflects": "It foregrounds the 'one through many' — a single sacred energy (teotl) diffused through countless masked gods and human embodiments — coupled to sacred time as the machinery of destiny.",
+  "sources": [
+   "Miguel León-Portilla, 'Aztec Thought and Culture: A Study of the Ancient Nahuatl Mind' (1963)",
+   "Alfredo López Austin, 'The Human Body and Ideology: Concepts of the Ancient Nahuas' (1988)",
+   "Mary Miller & Karl Taube, 'An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya' (1993)",
+   "David Carrasco, 'Religions of Mesoamerica' (2nd ed., 2013)"
+  ]
+ },
+ "mesopotamian": {
+  "essence": "The polytheistic religion of ancient Mesopotamia — Sumer, Akkad, Babylonia, and Assyria — in the Fertile Crescent, from the rise of the first cities and cuneiform writing (c. 3500 BCE) to the last datable cuneiform tablets around 80 CE. It was a civic, temple-centered religion of many gods, each the patron of a city, in which humanity was created to labor on the gods' behalf. Its literature — Gilgamesh, the Enuma Elish, the Descent of Inanna — is among the oldest recorded religious thought.",
+  "cosmos": "The cosmos arose when the gods separated heaven and earth from a primeval watery chaos; in Babylon's Enuma Elish, Marduk slays the salt-sea dragon Tiamat and builds the world from her corpse, then makes humankind from clay and the blood of a slain god to relieve the gods of toil. The great powers include An/Anu (sky), Enlil (air and kingship), Enki/Ea (wisdom and fresh water), the sun-judge Utu/Shamash, and Inanna/Ishtar of love and war. The dead descend to a gloomy 'land of no return' (Irkalla) ruled by Ereshkigal, a dusty realm without reward or punishment, where they depend on offerings from the living.",
+  "practice": "Worship centered on the temple, often crowned by a ziggurat, where the god dwelt in a cult statue that was daily fed, washed, and clothed by a professional priesthood, with the king as the god's earthly steward. The ritual year climaxed in festivals such as Babylon's Akitu (New Year), when the Enuma Elish was recited and kingship renewed. Divination — extispicy (liver-reading) and celestial omens — and incantation against demons were pervasive.",
+  "canon": "No single scripture: a vast cuneiform literature on clay, including the Epic of Gilgamesh, the Enuma Elish, the Descent of Inanna/Ishtar, Atrahasis, temple hymns, and the great omen and incantation series (e.g., Enuma Anu Enlil, Maqlû).",
+  "reflects": "It foregrounds humanity as the gods' servant-labor — religion as the upkeep of a divine household through offering and service, under a bleak, morally undifferentiated afterlife that placed all hope in this-worldly favor.",
+  "sources": [
+   "Thorkild Jacobsen, 'The Treasures of Darkness: A History of Mesopotamian Religion' (1976)",
+   "Jean Bottéro, 'Religion in Ancient Mesopotamia' (2001)",
+   "Stephanie Dalley, 'Myths from Mesopotamia' (rev. ed., 2000)",
+   "Benjamin R. Foster, 'Before the Muses: An Anthology of Akkadian Literature' (3rd ed., 2005)"
+  ]
+ },
+ "micronesian": {
+  "essence": "A regional grouping, not a single religion — the indigenous belief systems of the Micronesian islands (the Caroline and Mariana chains, including Pohnpei, Chuuk, Yap, Palau, and Chamorro Guam). Across these small, sea-bound societies, religion turned on ancestral and place-spirits, sacred chiefly authority, navigation as sacred knowledge, and elaborate systems of reciprocal exchange. There is no shared pantheon; local traditions range from the Chamorro sibling-creators Puntan and Fu'una to the Pohnpeian dynastic saga of Nan Madol.",
+  "cosmos": "Cosmologies are local. In the Chamorro account the primordial Puntan has his sister dismember his body into sun, moon, sky, and earth, and she then becomes Fouha Rock, from which humanity springs; elsewhere sky, sea, and land are filled with spirits and the ancestral dead, who remain intimately involved with the living. On Pohnpei, oral history recalls the theocratic Saudeleur dynasty at the megalithic city of Nan Madol and its overthrow by the demigod Isokelekel, who founded the decentralized title system that still orders society.",
+  "practice": "Practice emphasized ancestor veneration — among the Chamorro, keeping and honoring the skulls of the dead — the sacred expertise of the deep-sea navigator, chiefly title and feasting systems, and spirit mediumship. Reciprocity was itself ritualized, most strikingly in Yap's rai, great stone disks whose value rests on the peril of their acquisition and an unbroken oral record of ownership.",
+  "canon": "Entirely oral — chants, genealogies, navigational lore, and dynastic sagas — recorded in early Spanish accounts and twentieth-century ethnography such as 'The Book of Luelen' (Pohnpei) and William Lessa's Ulithi tales.",
+  "reflects": "It foregrounds the social ledger as a cosmic order — a world held in balance by unbroken chains of obligation, exchange, and remembered ownership rather than by a ruling god.",
+  "sources": [
+   "William A. Lessa, 'Tales from Ulithi Atoll: A Comparative Study in Oceanic Folklore' (1961)",
+   "Glenn Petersen, 'Traditional Micronesian Societies: Adaptation, Integration, and Political Organization' (2009)",
+   "Ward H. Goodenough, 'Under Heaven's Brow: Pre-Christian Religious Tradition in Chuuk' (2002)"
+  ]
+ },
+ "minoan": {
+  "essence": "The Bronze Age religion of Minoan Crete, the palatial civilization centered on Knossos, Phaistos, and Malia. It is a dead tradition known almost entirely from archaeology and iconography, since its script (Linear A) is undeciphered and no myths or doctrines survive in its own words. What can be seen points to a religion dominated by one or more powerful goddesses, a subordinate young male god, bull symbolism, and ecstatic ritual.",
+  "cosmos": "Minoan cosmology is essentially unknown and can only be inferred from images. Recurring motifs — the serpent-handling 'Snake Goddess,' the 'Mistress of Animals' standing on a peak flanked by lions, a young male consort who appears to die and return with the seasons, sacred trees and pillars — suggest a nature- and fertility-centered religion of seasonal renewal and divine epiphany. Beliefs about death are equally opaque: communal tholos and house tombs and depictions of offerings to the dead (as on the later Hagia Triada sarcophagus) attest to a mortuary cult whose doctrine is lost.",
+  "practice": "Attested rites include bull-leaping (acrobatic vaulting over a charging bull), libation and offering, and ecstatic dances in peak sanctuaries and cave shrines in which worshippers appear to summon the deity's epiphany, sometimes by shaking sacred trees or baetyls. The double axe (labrys) and 'horns of consecration' mark sacred space; possible human sacrifice is suggested at a few disputed sites.",
+  "canon": "None readable — the tradition left no legible scripture; Linear A remains undeciphered, and the 'sources' are material: frescoes, seals, figurines, sanctuaries, and ritual objects.",
+  "reflects": "It foregrounds the summoned epiphany — divinity drawn into the immediate present through kinetic, ecstatic ritual and a female-centered sacred order — a religion reconstructed almost wholly from its images.",
+  "sources": [
+   "Nanno Marinatos, 'Minoan Religion: Ritual, Image, and Symbol' (1993)",
+   "Martin P. Nilsson, 'The Minoan-Mycenaean Religion and Its Survival in Greek Religion' (2nd ed., 1950)",
+   "Arthur Evans, 'The Palace of Minos at Knossos' (1921–1935)"
+  ]
+ },
+ "mithraism": {
+  "essence": "The Roman cult of Mithras (the 'Mithraic mysteries'), a men-only mystery religion that spread across the Roman Empire from the late first century CE to the late fourth, especially among soldiers, merchants, and imperial functionaries along the frontiers and in Rome and Ostia. Its central image is the tauroctony — the god Mithras slaying a cosmic bull in a cave — and its worship took place in small, cave-like underground temples (mithraea) organized through a seven-grade initiation. Though it took a Persian name and Eastern coloring, it is now generally understood as a religion created within the Roman world.",
+  "cosmos": "Doctrine is poorly preserved, but the imagery is densely astronomical: the mithraeum was understood as 'an image of the cosmos' (Porphyry), and the tauroctony, with its accompanying dog, snake, scorpion, and raven, maps onto constellations. The seven grades corresponded to the seven planetary spheres, and initiation appears to have modeled the soul's descent into and ascent out of the material world. Mithras, born from rock and identified with the Unconquered Sun (Sol Invictus), is a savior-mediator whose bull-slaying releases life — grain, wine, and living creatures springing from the dying bull.",
+  "practice": "Initiates advanced through seven ranked grades — Raven, Bridegroom, Soldier, Lion, Persian, Sun-Runner, and Father — each under a planet, undergoing ordeals and instruction. Communities were small cells presided over by a Pater (Father); the central communal rite was a sacred meal of bread and wine (or water) reenacting the feast of Mithras and Sol. There were no public temples and no wider priesthood beyond each mithraeum's own leaders.",
+  "canon": "No sacred texts survive; the cult is reconstructed from its monuments and inscriptions (catalogued in Vermaseren's CIMRM), the tauroctony reliefs and painted mithraea, and a handful of hostile or outside literary notices (Porphyry, Justin Martyr, Tertullian).",
+  "reflects": "It foregrounds the graded mystery — salvation as a structured, secret ascent through ranked initiations and a cosmos read in the stars — sustained by imagery and rite rather than by any revealed scripture.",
+  "sources": [
+   "Roger Beck, 'The Religion of the Mithras Cult in the Roman Empire' (2006)",
+   "Manfred Clauss, 'The Roman Cult of Mithras: The God and His Mysteries' (2000)",
+   "Franz Cumont, 'The Mysteries of Mithra' (1903)",
+   "David Ulansey, 'The Origins of the Mithraic Mysteries' (1989)"
+  ]
+ },
+ "modern-druidry": {
+  "essence": "A family of modern nature-based spiritual movements descended from the eighteenth-century Druid Revival, principally today the Order of Bards, Ovates and Druids (OBOD, founded 1964) and Ár nDraíocht Féin (ADF, founded 1983). It is a deliberate reconstruction and reimagining, not a survival of the ancient Iron-Age druids, about whom little is reliably known. Non-dogmatic and this-worldly, it centers on reverence for nature, the land, and the ancestors, and on the cultivation of inspiration (awen).",
+  "cosmos": "There is no required creed, but a broadly immanent, ecological worldview prevails: the divine is found within nature rather than above it, the year turns through a cycle of eight seasonal festivals (the Wheel of the Year), and reality is often mapped as three realms — land, sea, and sky, or an upper, middle, and lower world with an Otherworld alongside. Many practitioners hold some form of reincarnation, an idea prominent in the Iolo-derived bardic material. The cosmos is a living, reciprocal community of gods, dead, and land-spirits (ADF's 'Three Kindreds').",
+  "practice": "Practice is chiefly seasonal ritual in open-air 'groves,' meditation, the bardic arts of poetry and music, divination (such as ogham), and ecological engagement, often pursued through a graded path of Bard, Ovate, and Druid. It is individualistic and largely congregational-optional, spread through orders, correspondence courses, and gatherings rather than a central church.",
+  "canon": "No scripture; a modern literature built on reinterpreted and partly invented sources — Iolo Morganwg's 'Barddas,' the writings of Ross Nichols and Isaac Bonewits — drawing selectively on medieval Welsh and Irish material (Taliesin, the Mabinogion) and on classical accounts of the Celts.",
+  "reflects": "It foregrounds the conscious re-invention of tradition — religion as chosen, ecological heritage, openly reconstructed (and in part deliberately fabricated) from fragmentary and forged pasts.",
+  "sources": [
+   "Ronald Hutton, 'Blood and Mistletoe: The History of the Druids in Britain' (2009)",
+   "Ronald Hutton, 'The Druids' (2007)",
+   "Graham Harvey, 'Contemporary Paganism: Religions of the Earth from Druids and Witches to Heathens and Ecofeminists' (2nd ed., 2007)",
+   "Michael T. Cooper, 'Contemporary Druidry: A Historical and Ethnographic Study' (2009)"
+  ]
+ },
+ "modern-hindu-nrm": {
+  "essence": "A cluster of modern new religious movements that grew from Hindu, yogic, Vedantic, and tantric roots (from the later nineteenth century onward) and globalized, especially into the West — among them Transcendental Meditation, the Brahma Kumaris, Self-Realization Fellowship, Ananda Marga, Osho/Rajneesh, Sahaja Yoga, and ISKCON (the Hare Krishnas). They typically pair a charismatic living guru or founder-vessel of the divine with a portable spiritual technique — meditation, mantra, kriya, or kundalini awakening — offered across cultures. They are not one doctrine but a family sharing this reformist, exportable shape.",
+  "cosmos": "Cosmologies differ sharply. ISKCON teaches a personalist Vaishnava theism in which Krishna is the supreme source and eternal souls transmigrate until liberated by devotion; the Brahma Kumaris hold a soul–matter dualism and a fatalistic 5,000-year world-cycle with God as an incorporeal point of light; Transcendental Meditation reframes pure consciousness as a scientized 'unified field'; Osho's vision is non-dual and anti-ascetic. What recurs is the reinterpretation of classical Hindu concepts (Brahman, kundalini, kalpa, avatar) for a modern, often universalist and 'scientific' audience.",
+  "practice": "Each centers on an initiatory technique and guru-devotion: mantra meditation (TM), Raja Yoga with celibacy and vegetarianism (Brahma Kumaris), Kriya Yoga (Self-Realization Fellowship), dynamic meditation and sannyas (Osho), kundalini 'self-realization' (Sahaja Yoga), and deity worship with chanting of the Hare Krishna mantra and temple life (ISKCON). Several have been globally influential and, in several cases, publicly controversial.",
+  "canon": "Founder-authored texts rather than a shared scripture — Prabhupada's 'Bhagavad-gita As It Is' (1968), the Brahma Kumaris' channeled 'Murlis,' Maharishi Mahesh Yogi's 'Science of Being and Art of Living' (1963), and Paramahansa Yogananda's 'Autobiography of a Yogi' (1946) — layered over classical sources such as the Bhagavad Gita, Upanishads, and Yoga Sutras.",
+  "reflects": "It foregrounds the portable technique and the living guru — liberation repackaged as a transmissible, marketable method that crosses cultures, detaching yogic practice from its inherited social and ritual context.",
+  "sources": [
+   "Lola Williamson, 'Transcendent in America: Hindu-Inspired Meditation Movements as New Religion' (2010)",
+   "Hugh B. Urban, 'Zorba the Buddha: Sex, Spirituality, and the New Global Capitalism in the Rajneesh Movement' (2015)",
+   "Elizabeth De Michelis, 'A History of Modern Yoga: Patanjali and Western Esotericism' (2004)",
+   "Kim Knott, 'Hinduism: A Very Short Introduction' (2nd ed., 2016)"
+  ]
+ },
+ "mongol-folk": {
+  "essence": "The indigenous religion of the Mongols — a shamanic, sky-centered folk tradition often called Tengrism or Böö Mörgöl — still practiced and revived today alongside Tibetan Buddhism, with which it has deeply intertwined. At its head is the Eternal Blue Sky (Mönkh Khökh Tengri), an impersonal supreme power that grants the 'mandate of Heaven' to rulers, paired with Mother Earth (Etügen). Between sky and earth move a host of spirits, mediated by the shaman (böö, or the female udgan).",
+  "cosmos": "The cosmos is triple-layered: an upper sky-world of Tengri and the ninety-nine tngri (fifty-five benevolent of the west, forty-four wrathful of the east), the middle earth of the living and the place-spirits, and a lower world ruled by Erlik Khan, judge and lord of the dead. The Eternal Blue Sky is the remote guarantor of destiny and order, its will read by shamans; ancestral and master-spirits inhabit mountains, rivers, and the household hearth. Genghis Khan's authority was itself grounded in the mandate of Tengri.",
+  "practice": "The shaman mediates through drum, trance, and spirit-possession — healing, divining, retrieving souls, and negotiating with spirits. Lay devotion centers on the ovoo (sacred stone cairns on passes, where one adds a stone, circles clockwise three times, and offers milk or airag), on feeding household spirit-vessels (ongon), on the sacred hearth-fire, and on libations flicked to sky and earth. Much of this survives within, and blended into, Mongolian Buddhism.",
+  "canon": "An oral tradition of shamanic invocations and epics, with the thirteenth-century 'Secret History of the Mongols' and Rashid al-Din's chronicle as key early witnesses, supplemented by modern ethnography rather than any scripture.",
+  "reflects": "It foregrounds the impersonal sky as sovereign order and mandate — a supreme Heaven that legitimates earthly rule and destiny while remaining beyond petition, its will brokered by the shaman.",
+  "sources": [
+   "Walther Heissig, 'The Religions of Mongolia' (1980)",
+   "Caroline Humphrey with Urgunge Onon, 'Shamans and Elders: Experience, Knowledge, and Power among the Daur Mongols' (1996)",
+   "Dorji Banzarov, 'The Black Faith, or Shamanism among the Mongols' (1846)"
+  ]
+ },
+ "muisca": {
+  "essence": "The pre-Columbian religion of the Muisca (Chibcha), a Chibchan-speaking people whose chiefdoms occupied the high plateau of the Colombian Andes around present-day Bogotá and Tunja, flourishing from roughly 800 CE until the Spanish conquest of the 1530s. Organized under great chiefs (the Zipa of Bacatá and the Zaque of Hunza) and the priest-ruler of Sogamoso, it centered on sun and moon worship, sacred lakes, and offerings of gold and emeralds. Its most famous rite, the gilded chief's offering at Lake Guatavita, gave rise to the legend of El Dorado.",
+  "cosmos": "Creation issued from a primordial container of light, the supreme Chiminigagua, who released light-bearing birds to illuminate the world, and from the waters: the mother Bachué emerged from Lake Iguaque to populate the earth and returned to it as a serpent. The sun (Sué) and moon (Chía) were the great cult deities; the civilizing hero Bochica taught the arts and drained the flood sent by Chibchacum, who thereafter bears the world and shifts it as earthquakes. Lakes were sacred wombs and portals, the destination of offerings.",
+  "practice": "Worship was led by a hereditary priesthood (jeques) trained through long seclusion, fasting, and vigil in enclosures (cucas) — up to twelve years before assuming office. Rites included pilgrimage and the sinking of gold votive figures (tunjos) and emeralds into lakes, offerings at the temples of Sogamoso, reported human sacrifice (the moxa) to the sun, and the investiture of a new ruler at Guatavita. Public religion was suppressed after the conquest.",
+  "canon": "No indigenous writing survives; the tradition is known only through post-conquest Spanish chronicles — Juan de Castellanos (1589), Fray Pedro Simón (1626), Juan Rodríguez Freyle's 'El Carnero' (1636), and Lucas Fernández de Piedrahita (1688) — and through archaeology.",
+  "reflects": "It foregrounds the sacred lake — wealth returned to the water as offering rather than hoarded, the ruler's power sealed by ritual immersion in the source of creation.",
+  "sources": [
+   "Fray Pedro Simón, 'Noticias historiales de las conquistas de Tierra Firme' (1626)",
+   "Sylvia M. Broadbent, 'Los Chibchas: organización socio-política' (1964)",
+   "José Pérez de Barradas, 'Los Muiscas antes de la Conquista' (1950–51)",
+   "Carl Henrik Langebaek, 'Mercados, poblamiento e integración étnica entre los muiscas' (1987)"
+  ]
+ },
+ "muscogee": {
+  "essence": "The religion of the Muscogee (Creek) people of the Southeastern Woodlands — today the Muscogee (Creek) Nation, Seminole, and related communities — together with its archaeological deep-background in the Mississippian mound-building cultures (c. 800–1600 CE) and the Southeastern Ceremonial Complex. It is a living tradition centered on the Master of Breath (Hisagita-imisi), the Sacred Fire, and the annual Green Corn ceremony (Poskita/Busk) of world renewal. Its distinctive frame divides the world into complementary Red (war) and White (peace) principles.",
+  "cosmos": "The cosmos is tripartite: an orderly Upper World of sun, sky, and the falcon-warrior; a chaotic, fertile Under World of water and the horned serpent; and This World between them, where humans must keep the two apart and in balance. The Master of Breath, a remote sun-linked creator, animates all things with breath but leaves daily governance to his earthly proxy, the Sacred Fire, which watches human conduct. Time is cyclical, accumulating pollution that must be ritually annihilated and renewed each year.",
+  "practice": "Religious life is organized around the tribal town (talwa) and its square ground, where the Sacred Fire is kindled at the center. The paramount rite is the Poskita (Busk): fasting, the purgative Black Drink (asi), amnesty for offenses short of murder, and the extinguishing and rekindling of all fires to reset the year. Stomp dances, the ballgame ('little brother of war'), matrilineal clans, and the Red/White town division structure ceremonial and civic order; ceremonial grounds remain active today.",
+  "canon": "An oral tradition — migration legends (such as the Kasihta/Cussita legend recorded in 1735), sacred formulas, and ceremonial knowledge — read alongside the material iconographic record of Mississippian art (engraved copper plates and shell gorgets from Etowah, Spiro, and elsewhere).",
+  "reflects": "It foregrounds annual world-renewal — a cosmos that accumulates disorder and must be ritually reset to zero — bound to a purity logic in which the categories of order and chaos must be kept scrupulously apart.",
+  "sources": [
+   "Charles Hudson, 'The Southeastern Indians' (1976)",
+   "John R. Swanton, 'Religious Beliefs and Medical Practices of the Creek Indians' (1928)",
+   "George E. Lankford, 'Reachable Stars: Patterns in the Ethnoastronomy of Eastern North America' (2007)",
+   "F. Kent Reilly III & James F. Garber (eds.), 'Ancient Objects and Sacred Realms: Interpretations of Mississippian Iconography' (2007)"
+  ]
+ },
+ "mycenaean": {
+  "essence": "The religion of the palace-centered societies of Bronze-Age Greece (c. 1600–1100 BCE), reconstructed almost entirely from Linear B administrative tablets rather than any myth or theology. It shows a crowded divine world, worshipped through a redistributive palace economy, whose membership overlaps with but does not match the later Olympians — the earliest documented layer of Greek religion.",
+  "cosmos": "The Linear B corpus is bureaucratic and records who received offerings, not what was believed, so Mycenaean cosmology, myth, and eschatology are largely unknown. What the tablets reveal is a pantheon in which a sovereign goddess (or goddesses) called Potnia, 'the Lady', looms very large alongside Poseidon (foremost at Pylos), di-we (Zeus), Hera, and figures including Dionysus, Hermes, Ares, and a paired Diwia. Beliefs about death must be inferred from archaeology — tholos and chamber tombs and rich grave goods such as the Shaft Graves at Mycenae — rather than from any surviving text.",
+  "practice": "Cult was administered through the palace: scribes logged allocations of perfumed oil, grain, wine, honey, spices, and sacrificial animals to sanctuaries and named deities, as in the great Pylos offering-tablet PY Tn 316. A wanax (king) stood at the apex with cultic as well as political functions, served by priests and priestesses (i-je-re-u, i-je-re-ja) who held land and office. Worship centered on shrines, sanctuary buildings, and communal sacrificial feasting attached to the redistributive economy.",
+  "canon": "No scripture, myth, or narrative survives; the sources are the Linear B tablets themselves (from Pylos, Knossos, Thebes, Mycenae, and Tiryns), read alongside the archaeology of shrines, frescoes, and tombs.",
+  "reflects": "Religion visible only as accountancy — a cult recoverable strictly through the audited flow of commodities to the gods, sacred bookkeeping standing in for any surviving belief.",
+  "sources": [
+   "John Chadwick, 'The Mycenaean World' (1976)",
+   "Martin P. Nilsson, 'The Minoan-Mycenaean Religion and Its Survival in Greek Religion' (1950)",
+   "Michael Ventris & John Chadwick, 'Documents in Mycenaean Greek' (1956)"
+  ]
+ },
+ "nat-burmese": {
+  "essence": "The propitiation of nats — spirits, above all the canonical Thirty-Seven Lords (thoun-zè-khun-hnac min) — practiced across Myanmar (Burma) alongside and beneath Theravada Buddhism. Most of the great nats are human beings who died violent or unjust deaths, their thwarted power now requiring appeasement for protection and worldly favor.",
+  "cosmos": "Nat belief nests inside the Buddhist cosmos rather than rivaling it: nats are powerful, often dangerous beings still bound to the wheel of rebirth, not liberated ones, and the whole pantheon is crowned by Thagyamin (the Buddhist Sakka/Indra), who descends each year at the Thingyan new year. The Thirty-Seven are largely historical or legendary figures — courtiers, a blacksmith, queens — killed by kings, whose spirits linger at places, households, and the national cult site of Mount Popa. There is no separate nat eschatology; a person's ultimate fate remains governed by Buddhist karma and rebirth.",
+  "practice": "Households may keep a nat (such as a hung coconut for Min Mahagiri), while villages and regions have guardian nats; the major collective rites are nat pwe, festival possession-dances — notably at Taungbyon near Mandalay — in which spirit-mediums, the nat kadaw (many of them women or gay and transgender men), are possessed amid music, dance, alcohol, and offerings. Devotees petition nats for luck, health, and protection, needs that fall outside Buddhism's soteriological concern. The cult is generally regarded as lower than, and in tension with, monastic Buddhism.",
+  "canon": "An oral and performative corpus of nat songs, invocations, and possession ritual, with the legends of the Thirty-Seven partly fixed in the royal chronicle tradition, above all the 'Hmannan Yazawin' (Glass Palace Chronicle, 1829–1832).",
+  "reflects": "The management of the violently dead — a cult that domesticates unjust death and worldly craving into ritual, occupying the space a salvation-religion deliberately leaves empty.",
+  "sources": [
+   "Melford E. Spiro, 'Burmese Supernaturalism' (1967)",
+   "Bénédicte Brac de la Perrière, 'Les rituels de possession en Birmanie' (1989)",
+   "Maung Htin Aung, 'Folk Elements in Burmese Buddhism' (1962)"
+  ]
+ },
+ "nation-of-islam-esoteric": {
+  "essence": "An umbrella for the esoteric currents of Black-American Islam that run alongside and out of the Nation of Islam — principally Noble Drew Ali's Moorish Science Temple (founded 1913) and the Five-Percent Nation, or Nation of Gods and Earths, founded in Harlem in 1964 by Clarence 13X ('Allah the Father') after he left the NOI. Their shared claim is that the Black ('Asiatic') man is the original and divine being, and that liberation comes through recovering suppressed esoteric knowledge of that identity.",
+  "cosmos": "These currents share the NOI's mytho-history — the Original Man as maker and owner of the planet, Yakub's engineering of the white race, the coming end of the wicked world aboard the Mother Plane — but push its logic toward an internalized, decoded divinity. In Five-Percent teaching God is not a mystery in the sky but the Black man himself (A.L.L.A.H. = 'Arm, Leg, Leg, Arm, Head'), and reality is made legible through Supreme Mathematics and the Supreme Alphabet, systems mapping the digits 0–9 and the letters onto fixed cosmic principles. Humanity divides into the deceived 85%, the exploiting 10%, and the enlightened 5% ('poor righteous teachers') who know and must teach the truth.",
+  "practice": "Moorish Science gave adherents a reclaimed 'nationality' (Moorish/Asiatic), names ending in -El or -Bey, the fez, and Friday temple meetings. The Five-Percent Nation is largely non-institutional and street-based: members ('Gods' and 'Earths') memorize and 'build' on the 120 Lessons, Supreme Mathematics, and the Supreme Alphabet, teaching through cyphers rather than clergy, and the movement deeply shaped hip-hop culture and vocabulary. Neither runs a centralized priesthood in the NOI's disciplined mold.",
+  "canon": "Noble Drew Ali's 'Holy Koran of the Moorish Science Temple of America' (the 'Circle Seven Koran', 1927); for the Five Percent, the memorized '120 Lessons' (the NOI's Supreme Wisdom material), Supreme Mathematics, and the Supreme Alphabet, transmitted orally.",
+  "reflects": "Divinity relocated into the self and the street — a gnosis in which cosmic truth is carried as memorized cipher and the initiate's own body and name become the proof of godhood.",
+  "sources": [
+   "Michael Muhammad Knight, 'The Five Percenters: Islam, Hip-Hop and the Gods of New York' (2007)",
+   "Michael A. Gomez, 'Black Crescent: The Experience and Legacy of African Muslims in the Americas' (2005)",
+   "Peter Lamborn Wilson, 'Sacred Drift: Essays on the Margins of Islam' (1993)"
+  ]
+ },
+ "nation-of-islam": {
+  "essence": "A Black nationalist religious movement founded in Detroit in 1930 by the enigmatic W. D. Fard (Wallace Fard Muhammad) and built into a national institution by Elijah Muhammad (born Elijah Poole, leader 1934–1975). It teaches that the Black man is the original and divine human, that Fard was Allah in person, and that Elijah was his Messenger — doctrines sharply divergent from Sunni Islam.",
+  "cosmos": "NOI cosmology inverts American racial hierarchy into sacred history: the Original Asiatic Black Man, self-created and eternal (the Tribe of Shabazz), is the maker of civilization, while the white race is a biological product bred some six millennia ago by the rebel scientist Yakub and allotted a fixed span of rule now ending. It classically denies a conventional spirit-afterlife, teaching that heaven and hell are earthly conditions and that 'resurrection' is the mental awakening of Black people from ignorance. Judgment falls instead on the white world-order, to be destroyed from the Mother Plane, a wheel-like craft read out of the vision of Ezekiel.",
+  "practice": "The Nation is congregational and disciplined: temples and mosques, the paramilitary Fruit of Islam, strict dietary and dress codes (drawn together in Elijah Muhammad's 'How to Eat to Live'), prohibition of alcohol, tobacco, and sex outside marriage, and a program of Black economic self-reliance and separatism. Members study the catechetical 'Supreme Wisdom' lessons; the movement is famous for prison and street proselytizing and for figures such as Malcolm X and Muhammad Ali. After Elijah's death in 1975 his son Warith Deen Mohammed moved most followers toward Sunni Islam, while Louis Farrakhan rebuilt the original NOI from 1977–78.",
+  "canon": "Elijah Muhammad's 'Message to the Blackman in America' (1965) and 'The Fall of America' (1973); the catechetical 'Supreme Wisdom Lessons' attributed to Fard; and the movement newspapers 'Muhammad Speaks' and later 'The Final Call'.",
+  "reflects": "Theodicy as racial reversal — the transmutation of slavery and white supremacy into a cosmology in which the oppressed are the original gods and history is a scheduled vindication.",
+  "sources": [
+   "C. Eric Lincoln, 'The Black Muslims in America' (1961)",
+   "Edward E. Curtis IV, 'Black Muslim Religion in the Nation of Islam, 1960–1975' (2006)",
+   "Karl Evanzz, 'The Messenger: The Rise and Fall of Elijah Muhammad' (1999)",
+   "Martha F. Lee, 'The Nation of Islam: An American Millenarian Movement' (1996)"
+  ]
+ },
+ "native-american-church": {
+  "essence": "A pan-tribal sacramental religion centered on the ritual ingestion of peyote (Lophophora williamsii), practiced across many Native nations of the United States and Canada and incorporated as the Native American Church in Oklahoma in 1918. It fuses indigenous ritual with Christian elements and a strict ethical code, the 'Peyote Road', holding peyote to be a God-given sacrament, medicine, and teacher.",
+  "cosmos": "The tradition is more sacramental and ethical than systematically cosmological, generally affirming a supreme Creator (the Great Spirit or God, often identified with the Christian God) who placed his power and compassion in the peyote plant to reach and heal Native peoples. Jesus figures in many congregations as messenger and intercessor — pronounced in the 'Cross Fire' way, lighter in the older 'Half Moon' way — while the sacrament itself, sometimes personified, is met directly in vision. Afterlife belief follows older tribal or Christian expectations rather than any distinctive Peyotist eschatology.",
+  "practice": "The core rite is an all-night ceremony, usually in a tipi around a crescent earthen altar and a tended fire, led by a 'roadman' with drummer, cedarman, and fireman; participants eat peyote, sing peyote songs to water-drum and gourd rattle, and pray, closing at dawn with the water brought in by a woman and a communal breakfast. The Peyote Road demands sobriety (notably abstention from alcohol), family responsibility, honesty, and hard work. Two main 'fireplaces' — the Half Moon (associated with Quanah Parker) and the Cross Fire (John Wilson) — organize most practice, and members' peyote use has been federally protected since 1994.",
+  "canon": "An oral tradition of songs, prayers, and ritual procedure — there is no written scripture; the practice is transmitted through apprenticeship to roadmen and documented ethnographically.",
+  "reflects": "The sacrament as the entire religion — a direct, ingested encounter with the divine that binds diverse peoples and disciplines visionary experience into an ethic of survival.",
+  "sources": [
+   "Omer C. Stewart, 'Peyote Religion: A History' (1987)",
+   "Weston La Barre, 'The Peyote Cult' (1938)",
+   "J. S. Slotkin, 'The Peyote Religion' (1956)",
+   "David F. Aberle, 'The Peyote Religion among the Navaho' (1966)"
+  ]
+ },
+ "navajo": {
+  "essence": "The traditional religion of the Diné (Navajo), the largest Native nation in the United States, centered on their homeland (Dinétah) in the Four Corners region of the Southwest. Its governing aim is hózhó — a state of beauty, balance, order, and health — continually lost and ceremonially restored, and its central figures are the Holy People (Diyin Dineʼé), above all Changing Woman and her sons the Hero Twins.",
+  "cosmos": "The Diné cosmos is a stack of prior worlds up through which First Man, First Woman, and the ancestral beings emerged into this, the Glittering World, whose bounds were fixed as four sacred mountains (Blanca Peak, Mount Taylor, the San Francisco Peaks, Hesperus Peak). Changing Woman, found on a mountaintop and endlessly renewing herself, made the first clans and gave the Blessingway; her sons, born to the Sun, cleared the world of the monsters (Naayééʼ) born of disorder, yet the very act of killing left them sick and needing ceremonial cure. The stress falls not on afterlife — the dead and their ghosts (chʼį́įdii) are treated with caution and avoidance — but on maintaining hózhó among the living.",
+  "practice": "Religion is enacted through 'chantway' ceremonies conducted by trained singers (hataałii) who must recite long song-prayer sequences and lay drypaintings ('sandpaintings') with exact accuracy to restore a patient to hózhó — the Blessingway (Hózhóójí) for good fortune and life-passage, the Enemyway for the sickness of contact with death and outsiders, and curing chants such as Nightway. Knowledge is specialized, orally transmitted, and partly restricted; certain stories, notably the Coyote tales, are told only in winter. Much ceremonial detail is deliberately withheld from publication at Diné direction.",
+  "canon": "An oral corpus — the Diné Bahaneʼ (emergence and creation story), the Blessingway, and the chantway myths and songs — with no scripture; the standard printed versions (Washington Matthews, Gladys Reichard, Leland Wyman, Paul Zolbrod) are partial recordings of living, restricted tradition.",
+  "reflects": "Order as ongoing repair — the sacred not as a law once handed down but as a harmony forever lost to disorder and re-made, thread by thread, through precise ceremony.",
+  "sources": [
+   "Gladys A. Reichard, 'Navaho Religion: A Study of Symbolism' (1950)",
+   "Leland C. Wyman, 'Blessingway' (1970)",
+   "Paul G. Zolbrod, 'Diné bahaneʼ: The Navajo Creation Story' (1984)",
+   "Washington Matthews, 'Navaho Legends' (1897)"
+  ]
+ },
+ "nenets": {
+  "essence": "The indigenous religion of the Nenets, a Samoyedic-speaking reindeer-herding people of the northwest Siberian Arctic (the Yamal, Gydan, and Taimyr tundra and adjacent forest). Animist and shamanic, it organizes a nomadic pastoral life around a remote sky-god, Num, a hungry underworld-god, Nga, an earth-mother, and a dense population of local and household spirits.",
+  "cosmos": "The cosmos is vertically tiered — an upper sky ruled by the withdrawn creator Num, the middle earth personified as Ya-Nebya ('Mother Earth'), and an underworld of darkness and disease ruled by Nga, to whom sickness and death are owed and reindeer are sacrificed. The world is not a moral battlefield of good against evil but a balance kept by constant exchange: Num and Nga are complementary, and human life is sustained by feeding the spirits their due. Souls, illness, and fate are handled through negotiation with these powers rather than by any doctrine of reward and punishment after death.",
+  "practice": "Worship is enacted through the blood sacrifice of reindeer at sacred sites (hills, islands, and groves marked with idols and antlers), household and clan idols carried on a dedicated sacred sledge that is never ridden by people, offerings of food and cloth, and strict spatial taboos inside the chum (tent) separating clean from unclean and male from female zones. Specialists, the tadʼebʼa (shamans), classed by which spirit-world they serve, drum into trance to retrieve stolen souls, escort the dead, and treat sickness. Everyday life — herding, the tent, childbirth guarded by the effigy Myad-pukhutsya — is saturated with ritual observance.",
+  "canon": "An oral tradition of epic songs (syudbabts and yarabts), myths, and shamanic practice — no writing; it is preserved in ethnographies beginning with M. A. Castrén's 19th-century fieldwork and continuing through Lehtisalo, Khomich, and Golovnev.",
+  "reflects": "Religion as survival economics in an extreme environment — the sacred grasped as a ledger of debts to be paid, where cosmic balance is literally fed rather than merely believed.",
+  "sources": [
+   "Toivo Lehtisalo, 'Entwurf einer Mythologie der Jurak-Samojeden' (1924)",
+   "Andrei V. Golovnev & Gail Osherenko, 'Siberian Survival: The Nenets and Their Story' (1999)",
+   "L. V. Khomich, 'Nentsy' (1966)"
+  ]
+ },
+ "neoplatonism": {
+  "essence": "The dominant philosophical-religious system of late antiquity, founded by Plotinus (c. 204–270 CE) and elaborated by Porphyry, Iamblichus, and Proclus, taught in Alexandria, Rome, and Athens until Justinian's measures against the Athenian school in 529 CE. It reworks Plato into a graded metaphysics in which all reality emanates from a single ineffable source, the One, and the soul's purpose is to ascend back to union with it.",
+  "cosmos": "Reality unfolds as a descending series of 'hypostases': from the utterly simple One overflows Nous (Divine Intellect, holding the Platonic Forms), from Nous the World-Soul (Psyche), and from Soul the sensible cosmos, fading finally into Matter — near-nothingness, and the mere privation, not the rival, of the Good. This outflow (proodos) is answered by an upward yearning of all things to return (epistrophe) to their source; the individual soul, fallen into body, is to purify itself and reascend, ultimately achieving henosis, wordless union with the One. Evil is therefore not a power but a deficiency at the far, dim edge of emanation.",
+  "practice": "For Plotinus the path was contemplative — ethical purification and the intellectual ascent of the soul. Later Neoplatonists, above all Iamblichus, added theurgy ('god-working'): ritual using consecrated objects, symbols, and divine tokens (synthemata) held to be seeded in matter, on the argument that the embodied soul cannot rise by thought alone and needs the gods' own sacramental means. The tradition passed through philosophical schools with a fixed canon of texts, master-to-student commentary, and — in the Chaldean strand — revered oracles.",
+  "canon": "Plotinus's 'Enneads' (arranged and published by Porphyry c. 301 CE); Iamblichus's 'On the Mysteries' (De Mysteriis); Proclus's 'Elements of Theology' and 'Platonic Theology'; and the revered 'Chaldean Oracles'.",
+  "reflects": "The metaphysics of return — the religious impulse rendered as cosmology, salvation reconceived as the soul obeying a law of spiritual gravity back into its own origin.",
+  "sources": [
+   "Pierre Hadot, 'Plotinus, or the Simplicity of Vision' (1963)",
+   "E. R. Dodds, 'Proclus: The Elements of Theology' (1933)",
+   "Gregory Shaw, 'Theurgy and the Soul: The Neoplatonism of Iamblichus' (1995)",
+   "Lloyd P. Gerson (ed.), 'The Cambridge History of Philosophy in Late Antiquity' (2010)"
+  ]
+ },
+ "neoshamanism": {
+  "essence": "A modern Western spiritual movement, centered in the United States and Europe from about 1980, that extracts a generalized 'core' of techniques from indigenous shamanisms for use by anyone. Its foundational form is the 'core shamanism' of anthropologist Michael Harner ('The Way of the Shaman', 1980) and his Foundation for Shamanic Studies, which teaches a standardized, drum-induced journey to consult helping spirits for healing and guidance.",
+  "cosmos": "Neoshamanism posits a 'non-ordinary reality' — a spirit-world held to be as real and causally active as the physical one — mapped as a three-tiered cosmos of Lower, Middle, and Upper Worlds reached by visualized descent or ascent. It is populated by benevolent power animals and teachers who protect and instruct the practitioner; notably, the dangers, taboos, hereditary burdens, and fearsome death-lords of the source cultures are largely edited out, leaving an optimistic, therapeutic landscape. Illness is often understood psychologically — as soul-loss or power-loss to be repaired — and the framework is generally this-worldly and self-developmental rather than eschatological.",
+  "practice": "The signature technique is the shamanic journey driven by rapid, monotonous drumming ('sonic driving') rather than hallucinogens or ordeal, undertaken to meet a power animal, retrieve lost soul-fragments (soul retrieval, codified by Sandra Ingerman in 1991), or seek answers. It is transmitted through weekend workshops, trainings, and a large self-help literature rather than lineage or initiation, and is practiced individually or in small groups. Its decontextualized borrowing from Native and other traditions has drawn sustained criticism as cultural appropriation.",
+  "canon": "A body of modern authored books rather than scripture — Michael Harner's 'The Way of the Shaman' (1980), Sandra Ingerman's 'Soul Retrieval' (1991), and the earlier, disputed works of Carlos Castaneda (from 'The Teachings of Don Juan', 1968), which supplied the phrase 'non-ordinary reality'.",
+  "reflects": "The universalizing of ecstatic technique — spirit-journeying stripped of culture, danger, and cost and repackaged as a safe, democratic tool for personal healing.",
+  "sources": [
+   "Robert J. Wallis, 'Shamans/Neo-Shamans: Ecstasy, Alternative Archaeologies and Contemporary Paganism' (2003)",
+   "Alice B. Kehoe, 'Shamans and Religion: An Anthropological Exploration in Critical Thinking' (2000)",
+   "Andrei A. Znamenski, 'The Beauty of the Primitive: Shamanism and the Western Imagination' (2007)",
+   "Daniel C. Noel, 'The Soul of Shamanism: Western Fantasies, Imaginal Realities' (1997)"
+  ]
+ },
+ "new-age": {
+  "essence": "A diffuse Western spiritual milieu, flourishing in the United States and Britain from around 1970, without creed, church, or founder — a market of practices and beliefs (channeling, crystals, astrology, energy healing, meditation, reincarnation) unified less by doctrine than by two convictions: that the self is ultimately divine, and that humanity is entering a new age of higher consciousness, the 'Age of Aquarius'.",
+  "cosmos": "The characteristic cosmology is monistic and holistic: one divine energy or consciousness underlies all things, the individual's 'Higher Self' is a fragment of it, and reality is shaped by consciousness (the 'Law of Attraction'). The soul evolves across many lives under karma toward reunion with the divine, aided by Ascended Masters, spirit guides, angels, and extraterrestrials; the Earth herself (Gaia) is often held to be a living, conscious organism. History is read optimistically as an evolutionary ascent — a coming planetary 'shift' rather than a judgment or apocalypse.",
+  "practice": "Practice is individual and eclectic — meditation, channeling and mediumship, crystal and energy work, astrology, tarot, yoga and bodywork, alternative and 'holistic' healing — pursued through workshops, retreats (Findhorn, Esalen), bookshops, festivals, and a vast self-help publishing and media market rather than through congregations. Authority rests on personal experience and results rather than scripture or clergy, and commitments are typically fluid and self-assembled, with 'seekers' moving freely among modalities.",
+  "canon": "No scripture, but a shelf of influential channeled and programmatic books — the Theosophy of Helena Blavatsky and Alice Bailey, Jane Roberts's 'Seth Speaks' (1972), Helen Schucman's 'A Course in Miracles' (1976), Marilyn Ferguson's 'The Aquarian Conspiracy' (1980), and later best-sellers such as 'The Secret' (2006).",
+  "reflects": "The sacralized self — religion reorganized around personal growth and inner divinity, dispensing with sin, external authority, and a God who judges.",
+  "sources": [
+   "Wouter J. Hanegraaff, 'New Age Religion and Western Culture' (1996)",
+   "Paul Heelas, 'The New Age Movement' (1996)",
+   "Olav Hammer, 'Claiming Knowledge: Strategies of Epistemology from Theosophy to the New Age' (2001)",
+   "Steven J. Sutcliffe, 'Children of the New Age: A History of Spiritual Practices' (2003)"
+  ]
+ },
+ "new-thought": {
+  "essence": "An American metaphysical religious movement arising after about 1860 from the mental-healing practice of Phineas P. Quimby (1802–1866), teaching that mind is the fundamental reality and that right thinking produces health, happiness, and prosperity. It is an institutional family rather than one church — Unity, Religious Science, and Divine Science are its main denominations — loosely federated in the International New Thought Alliance (1914).",
+  "cosmos": "Its metaphysics is idealist and optimistic: God is an impersonal, wholly good 'Divine Mind' or Infinite Intelligence in which all things exist, and the human mind, sharing that nature, shapes material conditions through its beliefs (the 'Law of Mind'). Evil, sickness, and poverty have no ultimate reality; they are 'error' — false belief — dissolved by aligning thought with the truth of God's goodness. The 'Christ' is reinterpreted as a universal divine consciousness available to all rather than the unique property of Jesus, and the accent falls overwhelmingly on transformation in this life rather than on afterlife or judgment.",
+  "practice": "The central practices are mental and verbal: affirmation and 'scientific prayer' (declaring the desired good as already true), denial of error, visualization, and treatment by trained 'practitioners' who heal by holding the truth of a client's spiritual perfection. Worship is congregational in the denominations (Sunday services, classes, study of metaphysical textbooks), but the movement's reach is far larger through popular self-improvement and prosperity literature. Its stress on wealth as spiritual alignment fed directly into positive-thinking and prosperity-gospel currents.",
+  "canon": "No single scripture — the Bible read metaphysically plus a canon of movement textbooks: Ernest Holmes's 'The Science of Mind' (1926), the Unity writings of Charles and Myrtle Fillmore, Thomas Troward's 'Edinburgh Lectures on Mental Science' (1904), and popular works such as Wallace Wattles's 'The Science of Getting Rich' (1910).",
+  "reflects": "Salvation as mental technology — suffering redefined as a correctable error of thought, and the divine reduced to a reliable law the believer operates rather than a person who judges.",
+  "sources": [
+   "Charles S. Braden, 'Spirits in Rebellion: The Rise and Development of New Thought' (1963)",
+   "Beryl Satter, 'Each Mind a Kingdom' (1999)",
+   "Catherine L. Albanese, 'A Republic of Mind and Spirit: A Cultural History of American Metaphysical Religion' (2007)",
+   "Donald Meyer, 'The Positive Thinkers' (1965)"
+  ]
+ },
+ "norse": {
+  "essence": "The pre-Christian religion of the Norse and broader Germanic peoples of northern Europe, best attested for the Scandinavian Viking Age (c. 793–1100 CE) before Christianization. Polytheistic and non-doctrinal, it worshipped two divine families — the Æsir (Odin, Thor, Týr, Frigg) and the Vanir (Njord, Freyr, Freyja) — within a fatalistic cosmos moving toward its own destruction and rebirth at Ragnarök.",
+  "cosmos": "The cosmos is organized around the world-ash Yggdrasil, which binds nine worlds including Asgard of the gods, Midgard of humans, Jotunheim of the giants, and Hel below; it was fashioned from the body of the primal giant Ymir, slain by Odin and his brothers. Fate — governed by the Norns and the concept of wyrd/urðr — overrides even the gods, who know they are doomed: at Ragnarök the world burns and the gods fall fighting the giants and monsters, after which a renewed earth rises and the innocent Baldr returns. The dead go variously to Odin's Valhalla (chosen slain warriors), Freyja's Folkvangr, or Hel (those dead of sickness and old age), among other destinations.",
+  "practice": "Worship was decentralized and led by chieftains and kings rather than a separate priesthood: sacrifice (blót) of animals and feasting at seasonal festivals, offerings at halls, groves, and open-air sites, and rites at cult centers such as Uppsala (described by Adam of Bremen). Practices included sacral kingship, oath-taking on rings, seiðr (a sorcery-divination associated with Freyja and practiced largely by women), and burial with grave goods, including ship and mound burials. Belief expressed itself in poetry, honor, and fate more than in creed or congregation.",
+  "canon": "An oral poetic tradition written down only after conversion, in Christian Iceland: the 'Poetic Edda' (Codex Regius, c. 1270), Snorri Sturluson's 'Prose Edda' (c. 1220), and skaldic verse and sagas — supplemented by earlier outside notices (Tacitus's 'Germania', 98 CE) and by archaeology.",
+  "reflects": "Courage under doom — a religion that faces a cosmos fated to end, locating meaning in honor, kinship, and fate rather than in rescue from death or the final triumph of the gods.",
+  "sources": [
+   "H. R. Ellis Davidson, 'Gods and Myths of Northern Europe' (1964)",
+   "Rudolf Simek, 'Dictionary of Northern Mythology' (1993)",
+   "John Lindow, 'Norse Mythology: A Guide to the Gods, Heroes, Rituals, and Beliefs' (2001)",
+   "Neil Price, 'The Viking Way: Religion and War in Late Iron Age Scandinavia' (2002)"
+  ]
+ },
+ "nubian": {
+  "essence": "The state and popular religion of the ancient Kingdom of Kush in what is now Sudan, through its Napatan (c. 750–300 BCE) and Meroitic (c. 300 BCE–350 CE) phases, centered first at Napata below the holy mountain Jebel Barkal and later at Meroe. Deeply Egyptianized yet distinct, it married the imported cult of Amun (as Amani) to indigenous gods — above all the lion-headed war-god Apedemak — and made sacred kingship, including the powerful queen-mother (the Kandake), its organizing institution.",
+  "cosmos": "Kushite religion drew its cosmology largely from Egypt — a sun-cult, an Osirian afterlife with mummification and pyramid burial, and a divine order upheld by the king — while asserting a Nubian center of the world at Jebel Barkal, understood as the primeval mound and residence of Amun/Amani. Amani, dwelling in the mountain, was held to choose and legitimate kings through oracle; alongside him the indigenous Apedemak embodied martial power and royal victory, and gods such as Sebiumeker, Arensnuphis, Dedwen, and Mandulis filled out a pantheon blending Egyptian and local forms. Royalty at least were buried under steep pyramids (at El-Kurru, Nuri, and Meroe) with Egyptian-style funerary equipment.",
+  "practice": "Cult centered on temples — the Amun temple at Jebel Barkal, the Lion Temples of Apedemak at Musawwarat es-Sufra and Naqa — served by priesthoods, with royal offering, procession, and oracular consultation; the enthronement stelae describe Amun's oracle selecting the king. Sacred kingship was paramount: kings were crowned at Napata, and the Kandakes (queen mothers) held independent sovereign and ritual power, at times ruling and leading armies. Religion legitimated the state, from the 'Black Pharaohs' of Egypt's 25th Dynasty to the later Meroitic monarchy.",
+  "canon": "Chiefly monumental and inscriptional — temple reliefs, royal stelae (the Victory Stele of Piye, the Napatan enthronement stelae), and pyramid iconography, first in Egyptian hieroglyphs and later in the indigenous Meroitic script (from c. 2nd century BCE), which remains only partly deciphered; no scriptural corpus survives.",
+  "reflects": "The indigenizing of a borrowed cosmos — a people who adopted Egypt's gods and forms yet anchored ultimate sacred authority in their own mountain, their own lion-god, and a uniquely sovereign royal motherhood.",
+  "sources": [
+   "László Török, 'The Kingdom of Kush: Handbook of the Napatan-Meroitic Civilization' (1997)",
+   "Derek A. Welsby, 'The Kingdom of Kush: The Napatan and Meroitic Empires' (1996)",
+   "Robert G. Morkot, 'The Black Pharaohs: Egypt's Nubian Rulers' (2000)"
+  ]
+ },
+ "ojibwe": {
+  "essence": "The traditional religion of the Anishinaabe (Ojibwe/Chippewa, with their Odawa and Potawatomi kin), an Algonquian-speaking people of the Upper Great Lakes in the United States and Canada. It centers on Gichi-manidoo, the Great Mystery, and a world thick with manidoog — other-than-human 'persons' inhabiting animals, weather, water, and place — and remains a living tradition, often interwoven with Christianity.",
+  "cosmos": "Reality is a layered, animate cosmos: a sky world, the earth resting on a great turtle's back, and a watery underworld, with the Thunderbirds above and the horned underwater panther (Mishipeshu) below locked in balancing enmity. The present earth was remade after a flood when the humble muskrat dove for a speck of mud — the widespread North American earth-diver motif — and the trickster-transformer Nanabozho (Wenabozho) shaped its features. At death the soul is said to travel a westward road of the dead (the 'ghost road,' often identified with the Milky Way) to a spirit village; the living remain enmeshed in reciprocal obligation with the manidoog, sought through dreams and the vision fast.",
+  "practice": "Religious life turns on individual vision-seeking (fasting for a guardian manidoo), dreams, tobacco (asemaa) offerings, the sweat lodge, and the drum, organized by a system of clans (doodemag). Its most distinctive institution is the Midewiwin, the graded 'Grand Medicine Society' of initiated healers who transmit botanical medicine, songs, and cosmology and record mnemonics on incised birchbark scrolls. Ritual specialists also include the jaasakiid, the 'shaking-tent' conjurer who consults the spirits.",
+  "canon": "An oral corpus — the aadizookaanag (sacred myths, told in winter) and dibaajimowinan (accounts) — supplemented by the Midewiwin's birchbark scrolls (wiigwaasabakoon), which are mnemonic records of songs and rites rather than scripture.",
+  "reflects": "It foregrounds the organization of shamanic healing into a graded, knowledge-keeping institution — vision and cure systematized as a lodge with a curriculum and its own archival medium.",
+  "sources": [
+   "Basil Johnston, 'Ojibway Heritage' (1976)",
+   "Frances Densmore, 'Chippewa Customs' (1929)",
+   "Michael Angel, 'Preserving the Sacred: Historical Perspectives on the Ojibwa Midewiwin' (2002)",
+   "A. Irving Hallowell, 'Ojibwa Ontology, Behavior, and World View' (1960)"
+  ]
+ },
+ "olmec": {
+  "essence": "The religion of the Olmec, the earliest complex society of Mesoamerica, on the Gulf Coast lowlands of Veracruz and Tabasco (Mexico), flourishing c. 1500–400 BCE at centers such as San Lorenzo and La Venta. Often called Mesoamerica's 'mother culture,' it is known only archaeologically — reconstructed from monumental basalt sculpture and jade iconography, with no surviving texts and no living heirs of the cult.",
+  "cosmos": "Cosmology is inferred from a recurring cast of supernaturals identified through iconography — a were-jaguar rain spirit, an earth 'dragon' (a caiman-eagle-jaguar composite), a plumed serpent, a maize god sprouting from a cleft head, a raptorial sky-being, and a shark or fish monster of the watery depths. A layered world of sky, earth, and underworld is joined by caves and the V-shaped 'cleft,' at once a portal of emergence and the furrow from which maize is born. Rulership was fused with the sacred, kings depicted cradling the were-jaguar, though no afterlife doctrine survives.",
+  "practice": "Reconstructed practice includes colossal-scale monument building and the carving of individualized ruler-portraits (the colossal heads); the deposit of enormous caches of jade and serpentine celts and of buried mosaic 'pavements' as offerings at La Venta; and votive deposits of carved wooden busts and rubber balls at the waterlogged shrine of El Manatí. The rubber ballgame, ritual bloodletting, and shamanic were-animal transformation are all indicated in the imagery.",
+  "canon": "None legible as texts: the possibly proto-glyphic Cascajal Block is undeciphered, so the 'canon' is the corpus of monuments, thrones, stelae, and portable jades that carry the iconography.",
+  "reflects": "It foregrounds the birth of a religious iconography — the first fixing in stone of a symbolic vocabulary of the sacred (were-jaguar, plumed serpent, cleft-emergence) that later Mesoamerican civilizations would inherit.",
+  "sources": [
+   "Peter David Joralemon, 'A Study of Olmec Iconography' (1971)",
+   "Karl A. Taube, 'Olmec Art at Dumbarton Oaks' (2004)",
+   "Richard A. Diehl, 'The Olmecs: America's First Civilization' (2004)",
+   "Michael D. Coe & Rex Koontz, 'Mexico: From the Olmecs to the Aztecs' (2013)"
+  ]
+ },
+ "order-nine-angles": {
+  "essence": "A decentralized, self-described 'sinister' occult and Satanic movement that emerged in England in the 1970s–80s, its foundational corpus attributed to the pseudonymous 'Anton Long' (widely identified by scholars with David Myatt, an identification Myatt denies). It has no central authority — only a network of autonomous cells ('nexions') and a large body of texts — and it advocates an extreme, transgressive, elitist and neo-Nazi-adjacent path it calls the sinister tradition.",
+  "cosmos": "Its framework divides existence into the 'causal' (ordinary space-time) and the 'acausal' (a timeless realm) and posits 'Dark Gods' as acausal entities to be channeled through 'nexions' (gates). History is read through 'Aeonics,' in which civilizations are organism-like 'aeons' the adept seeks to disrupt and drive toward a coming imperium. There is no conventional afterlife; the stated goal is the cultivation of enduring 'acausal' being.",
+  "practice": "The core discipline is the solitary, graded 'Seven-Fold Way' (Neophyte to Immortal), involving magical workings, physical ordeals, and 'insight roles' that include deliberately infiltrating political extremes; the texts notoriously sanction 'culling' (human sacrifice) and antinomian criminality as tests of hardness. Practice is largely textual, secretive, and online, with rites such as the Star Game and the Ceremony of Recalling.",
+  "canon": "A self-published corpus attributed to 'Anton Long' — 'Naos: A Practical Guide to Modern Magick,' the 'Black Book of Satan,' 'A Gift for the Prince,' the fictional 'Deofel Quartet,' and voluminous essays — circulated as samizdat and digital files rather than as any single authorized scripture.",
+  "reflects": "It foregrounds religion as deliberate transgression — the sacred defined purely by the systematic violation of moral and social limits, and the initiatory ordeal inverted from healing toward the manufacture of a predatory self.",
+  "sources": [
+   "Jacob C. Senholt, 'Secret Identities in the Sinister Tradition' (2013)",
+   "George Sieg, 'Angular Momentum: From Traditional to Progressive Satanism in the Order of Nine Angles' (2013)",
+   "Connell R. Monette, 'Mysticism in the 21st Century' (2013)",
+   "Massimo Introvigne, 'Satanism: A Social History' (2016)"
+  ]
+ },
+ "orisha-trinidad": {
+  "essence": "An Afro-Caribbean religion of Trinidad — historically called 'Shango' — derived chiefly from Yoruba orisha worship carried by 19th-century liberated Africans and syncretized with Catholicism, the Spiritual (Shouter) Baptist faith, and, in Trinidad's plural society, some Hindu elements. It is a living tradition in which the orishas (called 'powers') are served through drumming, sacrifice, and spirit possession, and in which many practitioners move fluidly between the Orisha yard and the Baptist church.",
+  "cosmos": "A supreme God presides over the orishas, each characteristically paired with a Catholic saint — Shango with St. John the Baptist, Ogun with St. Michael, the water-mother Yemoja/Emanjah with St. Anne or the Virgin. The powers are active presences who 'manifest' by mounting their devotees in trance; ancestors and a range of spirits also populate the world. The Spiritual Baptist overlay adds the Holy Spirit and a Christian frame, so a single event may host African deity, saint, and Holy Ghost without felt contradiction.",
+  "practice": "The central rite is the annual multi-day feast (ebo) held at a family 'palais' (an open courtyard around a center-pole) and 'chapelle,' with drumming, praise-songs in a Yoruba-derived liturgical language, animal sacrifice, and possession. The linked Spiritual Baptist practice adds baptism and the 'mourning' rite — days of fasting, isolation, and blindfolded ('banded') visionary travel that confers spiritual ranks. Leadership runs through elders (Iya, Mongba; Baptist Mothers and Leaders) rather than a central church.",
+  "canon": "No scripture: an oral liturgy of songs, drum rhythms, and ritual protocol transmitted within yards, with the Spiritual Baptists additionally using the Christian Bible; the tradition is documented ethnographically rather than in sacred texts.",
+  "reflects": "It foregrounds the permeability of religious boundaries — a single devotee holding orisha, Catholic saint, Baptist Holy Spirit, and sometimes Hindu deity together as one working world rather than as rival creeds.",
+  "sources": [
+   "George Eaton Simpson, 'Religious Cults of the Caribbean' (1970)",
+   "Stephen D. Glazier, 'Marchin' the Pilgrims Home' (1983)",
+   "James T. Houk, 'Spirits, Blood, and Drums: The Orisha Religion in Trinidad' (1995)",
+   "Frances Henry, 'Reclaiming African Religions in Trinidad' (2003)"
+  ]
+ },
+ "orphism": {
+  "essence": "An ancient Greek religious current (from roughly the 6th century BCE, in mainland Greece and the Greek colonies of southern Italy and Sicily) organized around poems and rites ascribed to the mythic singer Orpheus. It taught that the human soul is divine, immortal, and imprisoned in the body, and that purity, initiation, and secret knowledge free it from the cycle of rebirth — a body of texts, initiations, and an ascetic 'Orphic life' rather than an organized church.",
+  "cosmos": "Orphic theogonies begin from Time (Chronos), Night (Nyx), and a cosmic egg from which the radiant first-born Phanes emerges, running through the divine succession to Zeus, who swallows Phanes and re-creates all things. Its signature myth is the dismemberment of the infant Dionysus (Zagreus) by the Titans, whom Zeus blasts to ash — ash from which humankind arises, bearing both a Titanic (bodily) taint and a divine (Dionysian) spark. On the doctrine 'the body is a tomb,' the soul transmigrates until purified; gold tablets buried with initiates coach the dead to bypass the gloomy common afterlife and reach the Lake of Memory.",
+  "practice": "The 'Orphic life' meant ritual purity and abstentions (notably from meat), pursued by initiates who bought purifications and rites from itinerant specialists (Orpheotelestai). Inscribed gold leaves ('Totenpass') were interred with the dead as afterlife passwords; the movement overlapped with Bacchic mystery cult and with Pythagorean asceticism.",
+  "canon": "A pseudepigraphic body of hexameter poems attributed to Orpheus (theogonies and hymns), preserved in fragments and in the allegorizing commentary of the Derveni Papyrus, together with the gold funerary tablets (Hipponion, Thurii, Pelinna, Petelia) and testimonia in Plato, Pindar, and the Neoplatonists.",
+  "reflects": "It foregrounds the salvation of the individual soul through purity and secret knowledge — an early Western articulation of body-soul dualism and a personal eschatology won by initiation rather than granted by the gods.",
+  "sources": [
+   "W.K.C. Guthrie, 'Orpheus and Greek Religion' (1935)",
+   "M.L. West, 'The Orphic Poems' (1983)",
+   "Fritz Graf & Sarah Iles Johnston, 'Ritual Texts for the Afterlife: Orpheus and the Bacchic Gold Tablets' (2007)",
+   "Radcliffe G. Edmonds III, 'Redefining Ancient Orphism: A Study in Greek Religion' (2013)"
+  ]
+ },
+ "pacificnw": {
+  "essence": "The traditional religions of the Haida (Haida Gwaii) and Tlingit (the southeast Alaska panhandle and adjacent coast), matrilineal, rank-conscious peoples of the North Pacific Coast whose societies divide into reciprocal moieties (Raven and Eagle among the Haida; Raven and Wolf among the Tlingit). These are living traditions of an animate world in which humans, animals, and spirit-beings are all 'people,' and in which the trickster-transformer Raven (Yéil) set the present order.",
+  "cosmos": "The world is thick with non-human persons — salmon, bear, and killer-whale peoples with their own villages beneath sea and forest, and a sea-chief (Haida Konankada, Tlingit Gonaqadét) whose house sends up wealth. Raven did not fabricate the cosmos but ordered it by theft and trickery, releasing the sun, moon, and stars from the nested boxes of a hoarding elder. Souls are widely held to be reborn within their own matriline, so the dead return among their descendants.",
+  "practice": "The pivotal institution is the potlatch — a host lineage's feast of oratory, dance, and the giving away or destruction of wealth to validate names, crests, and rank and, above all, to complete the obligations of a death (the memorial potlatch). Crest art (poles, house-fronts, regalia), initiation into dancing societies, and the work of shamans (Tlingit íxt') who healed and controlled spirits and weather round out ritual life; moiety exogamy governs marriage and mutual obligation.",
+  "canon": "Oral — clan histories, crest narratives, and the Raven cycle, transmitted by trained narrators and recorded in the early 20th century by John R. Swanton and others, but remaining a living, owned oral literature rather than a scripture.",
+  "reflects": "It foregrounds a cosmos governed by the law of the gift — rank, wealth, and cosmic balance made real only by giving away, so that religion and economy are one ledger of reciprocal obligation.",
+  "sources": [
+   "John R. Swanton, 'Tlingit Myths and Texts' (1909)",
+   "Frederica de Laguna, 'Under Mount Saint Elias: The History and Culture of the Yakutat Tlingit' (1972)",
+   "Sergei Kan, 'Symbolic Immortality: The Tlingit Potlatch of the Nineteenth Century' (1989)",
+   "Robert Bringhurst, 'A Story as Sharp as a Knife: The Classical Haida Mythtellers' (1999)"
+  ]
+ },
+ "palo": {
+  "essence": "An Afro-Cuban religion (Las Reglas de Congo, or Palo Monte) rooted in the Kongo and wider Central-African traditions of enslaved people and developed in Cuba from the colonial period onward. Its heart is the nganga (or prenda) — a consecrated iron cauldron packed with earth, sticks (palos), iron, and human bone that houses a spirit of the dead (nfumbi) with whom the initiate, a palero or tata nganga, contracts to work in the world. It is a living tradition, in Cuba and its diaspora.",
+  "cosmos": "A remote creator, Nzambi (Nzambi a Mpungu), stands aloof, having left the world's daily governance to nature-powers called mpungu — Lucero at the crossroads, Zarabanda of iron, Siete Rayos of lightning, Madre de Agua of the sea, Centella of the cemetery — and, above all, to the dead. The Kongo cosmogram, a cross within a circle mapping the daily and lifelong crossing between the world of the living and the watery land of the dead (kalunga), underlies its sense of reality, and power is drawn from the pact struck with the dead inside the nganga.",
+  "practice": "One enters through 'rayamiento,' an initiation of ritual scarification into a temple-house (munanso); the nganga is built, consecrated, and fed with blood, and spirits are summoned and directed by drawing 'firmas' (patipembas), chalk cosmograms specific to each mpungu and task. The work is pragmatic — healing, protection, divination, and sorcery — and lineages divide into 'baptized' (cristiana) and 'unbaptized' (judía) houses under a tata or yaya nganga.",
+  "canon": "No scripture: an oral and practical tradition of ritual songs (mambos), the graphic firmas, and initiated know-how, classically documented in Lydia Cabrera's fieldwork rather than in sacred books.",
+  "reflects": "It foregrounds the instrumental pact with the dead — religion as a working, contractual partnership with a bound spirit inside a fabricated microcosm, harnessing the power of the dead to act directly on reality.",
+  "sources": [
+   "Lydia Cabrera, 'El Monte' (1954)",
+   "Stephan Palmié, 'Wizards and Scientists: Explorations in Afro-Cuban Modernity and Tradition' (2002)",
+   "Todd Ramón Ochoa, 'Society of the Dead: Quita Manaquita and Palo Praise in Cuba' (2010)",
+   "Bárbaro Martínez-Ruiz, 'Kongo Graphic Writing and Other Narratives of the Sign' (2013)"
+  ]
+ },
+ "pantheism": {
+  "essence": "A modern Western philosophical-religious stance, and a loose family of naturalistic spiritualities, that identifies God with the totality of nature or the cosmos rather than with a transcendent person. Its touchstone is Baruch Spinoza's 'Ethics' (1677) and its formula 'Deus sive Natura' (God, or Nature); the word 'pantheism' derives from John Toland early in the 18th century, and the stance now extends to Romantic nature-religion and to contemporary eco-spiritual forms (Gaianism, the World Pantheist Movement). It is a living self-identification rather than a single church.",
+  "cosmos": "On the Spinozan model there is one infinite substance, Nature, of which mind and matter are two attributes and all finite things are transient 'modes'; it acts by strict necessity, without will, purpose, providence, or creation from nothing. Personal immortality in the ordinary sense falls away (Spinoza's 'eternity of the mind' is intellectual, not survival). Gaian and deep-ecological versions recast this immanent whole as a self-regulating living Earth or an interdependent web of life.",
+  "practice": "Practice is primarily intellectual and ethical rather than cultic: for Spinoza, freedom and blessedness come through the 'intellectual love of God' (amor Dei intellectualis) — understanding nature's necessity and so achieving equanimity. Modern pantheist and naturalist bodies (such as the World Pantheist Movement, founded 1999) cultivate reverence for nature, contemplative appreciation, and an environmental ethic, largely without clergy or sacraments.",
+  "canon": "Spinoza's 'Ethics' (1677) is the foundational text; the wider stance draws on Romantic and modern nature-writing and, for its Gaian wing, on the scientific literature of the Gaia hypothesis rather than on any scripture.",
+  "reflects": "It foregrounds reverence without a personal God — the religious impulse redirected from a transcendent deity to the immanent totality of nature, so that worship gives way to understanding.",
+  "sources": [
+   "Baruch Spinoza, 'Ethics' (1677)",
+   "Michael P. Levine, 'Pantheism: A Non-Theistic Concept of Deity' (1994)",
+   "Paul Harrison, 'Elements of Pantheism' (1999)",
+   "Jonathan I. Israel, 'Radical Enlightenment: Philosophy and the Making of Modernity' (2001)"
+  ]
+ },
+ "papuan": {
+  "essence": "Not a single religion but the many indigenous religions of New Guinea — highland and lowland, Papuan- and Austronesian-speaking — one of the most linguistically and ritually diverse regions on earth. Across that diversity certain family features recur: intimate ancestral ghosts, the explanation of death by sorcery or witchcraft, secret male initiation cults, and, in the highlands, competitive pig-and-shell exchange. These remain living traditions, though much reshaped by a century of Christian missions.",
+  "cosmos": "Typically there is no remote high god; the cosmos is filled instead with ancestral ghosts and place-spirits enmeshed in daily life. Among the Marind-anim the primordial 'dema' beings, killed and dismembered in the mythic time, became the crops, totems, and human groups; the land of the dead often lies across water or toward the setting sun (as in the Asmat Safan). Death is seldom deemed 'natural' — it is charged to sorcery (sanguma/suangi), demanding divination and redress.",
+  "practice": "Ritual life centers on propitiating ancestral ghosts with pork; on secret male initiation using bullroarers and sacred flutes, seclusion, and (in societies such as the Sambia and Marind) ritualized transfers of male substance held to 'grow' boys; on mortuary rites; and, among the Asmat, on headhunting and bisj-pole feasts. In the highlands the great ceremonial exchange cycles (the Enga Tee, the Melpa Moka) let 'big-men' win prestige by giving away pigs and pearl-shells, while sorcery and counter-sorcery pervade everything.",
+  "canon": "Oral — myth cycles, initiation lore, spells, and ritual oratory — with no scripture; the tradition is known through a large 20th-century ethnographic record rather than from sacred texts.",
+  "reflects": "It foregrounds the fusion of religion with exchange and reciprocity — a single economy of life-force in which ancestral debt, competitive gift-giving, and the ever-present threat of sorcery are the ritual regulation of life itself.",
+  "sources": [
+   "Jan van Baal, 'Dema: Description and Analysis of Marind-anim Culture' (1966)",
+   "Roy A. Rappaport, 'Pigs for the Ancestors: Ritual in the Ecology of a New Guinea People' (1968)",
+   "Andrew Strathern, 'The Rope of Moka' (1971)",
+   "Gilbert H. Herdt, 'Guardians of the Flutes: Idioms of Masculinity' (1981)"
+  ]
+ },
+ "parody-religions": {
+  "essence": "A modern, largely Anglophone and internet-native family of self-consciously invented, satirical, or fiction-derived religions — Discordianism (1960s), the Church of the SubGenius (1979), Jediism, Dudeism, Pastafarianism / the Church of the Flying Spaghetti Monster (2005), and Kopimism (2010) among them. They range from pure literary joke to sincerely practiced community, and are often deployed to satirize religion, test church-state boundaries, or build ironic belonging.",
+  "cosmos": "There is no shared cosmology; each borrows or parodies one. Discordianism sacralizes Chaos, personified as the goddess Eris, as the creative ground of being; Pastafarianism answers intelligent-design creationism with a noodly drunken creator; Jediism adopts the Force as an impersonal energy field; Dudeism preaches a Taoist-flavored ease. The shared move is meta-cosmological: that the forms of religion can be occupied playfully, and that deliberately unfalsifiable deities (the Flying Spaghetti Monster, the Invisible Pink Unicorn) expose the logical structure of belief itself.",
+  "practice": "Activity spans the joke-to-sincere spectrum — Discordian pranks ('Operation Mindfuck'), SubGenius 'devivals' and the pursuit of 'Slack,' Pastafarian pirate regalia and colander-in-the-license-photo legal claims, Dudeist online ordinations, and census campaigns (the 2001 'Jedi' census phenomenon). Much of it lives online and functions as what scholars call 'hyper-real' or fiction-based religion.",
+  "canon": "Founding satirical texts and their pop-culture sources: the 'Principia Discordia' (1963/1965), 'The Book of the SubGenius' (1983), Bobby Henderson's open letter and 'The Gospel of the Flying Spaghetti Monster' (2006), plus films and franchises (Star Wars, 'The Big Lebowski') repurposed as scripture.",
+  "reflects": "It foregrounds religion turned on itself — the full apparatus of myth, ritual, and creed wielded as satire and boundary-test, showing that the form of the sacred can be inhabited without, or against, belief.",
+  "sources": [
+   "Adam Possamai, 'Religion and Popular Culture: A Hyper-Real Testament' (2005)",
+   "Carole M. Cusack, 'Invented Religions: Imagination, Fiction and Faith' (2010)",
+   "Markus Altena Davidsen, 'Fiction-based Religion: Conceptualising a New Category against History-based Religion and Fandom' (2013)"
+  ]
+ },
+ "phi-thai": {
+  "essence": "The indigenous spirit-religion of the Tai (Thai, Lao) and Khmer peoples of mainland Southeast Asia — the cults of phi (Thai/Lao spirits) and neak ta (Khmer territorial ancestor-guardians) — that underlies and coexists with Theravada Buddhism across Thailand, Laos, and Cambodia. It is a living, near-universal layer of village and household life, expressed in spirit houses, guardian shrines, soul-calling rites, and mediumship, held without contradiction alongside Buddhist merit-making.",
+  "cosmos": "The landscape is saturated with spirits: guardians of place (the Thai Phra Phum / Chao Thi in his spirit house), Khmer territorial ancestor-lords (neak ta) bound to trees, stones, and mounds, nature and tree spirits, the dangerous ghosts of violent death (phi tai hong), and a distant Tai sky-lord (Phaya Thaen). A person is animated by multiple soul-elements (khwan, commonly reckoned as thirty-two) that can be startled away, causing illness. All of this is layered beneath, not against, the Buddhist cosmology of karma and rebirth.",
+  "practice": "Daily offerings are made at the spirit house and at neak ta shrines; the baci / su khwan rite calls the wandering khwan home and binds them with cotton wrist-threads; spirit mediums are possessed to diagnose and negotiate; and specialists exorcise malevolent spirits such as the organ-eating phi pop. Seasonal rites include the Lao-Isan Bun Bang Fai rocket festival, which fires bamboo rockets skyward to prod Phaya Thaen for rain.",
+  "canon": "Oral and customary — local legends, myths, and ritual formulae rather than scripture, with the Lao origin epic Nithan Khun Borom in the background; the tradition is documented ethnographically and coexists with the written Buddhist canon it operates alongside.",
+  "reflects": "It foregrounds the tenacity of the local and the animate beneath a world religion — the sacred as ongoing negotiation with the spirits of specific places and with a fragile, plural soul, persisting under and within Buddhism.",
+  "sources": [
+   "Stanley J. Tambiah, 'Buddhism and the Spirit Cults in North-east Thailand' (1970)",
+   "B.J. Terwiel, 'Monks and Magic: An Analysis of Religious Ceremonies in Central Thailand' (1975)",
+   "Ang Chouléan, 'Les êtres surnaturels dans la religion populaire khmère' (1986)",
+   "Erik W. Davis, 'Deathpower: Buddhism's Ritual Imagination in Cambodia' (2016)"
+  ]
+ },
+ "pie": {
+  "essence": "Not a practiced religion but the scholarly reconstruction of the religion of the Proto-Indo-Europeans — the prehistoric, unattested people (most likely of the Pontic-Caspian steppe, c. 4500–2500 BCE) whose language is the common ancestor of the Indo-European family. Because nothing was written, this 'tradition' exists only as an inference: features shared across the daughter traditions (Vedic, Iranian, Greek, Roman, Celtic, Germanic, Baltic, Slavic, Anatolian) are back-projected by the comparative method onto their lost source.",
+  "cosmos": "Reconstructed elements include a luminous 'Sky Father,' *Dyēus ph₂tēr (ancestor of Zeus, Jupiter, Vedic Dyaus, and Norse Tyr), an Earth Mother (*Dʰéǵʰōm), a Dawn goddess (*H₂éusōs), Divine Twins, and a thunder-hero. A widely reconstructed cosmogony has a primal pair — 'Man' (*Manu) and his twin (*Yemo) — from whose sacrifice the ordered world and human society are made, and a recurring myth in which a hero slays a serpent. The dead were thought to reach a pastoral otherworld across water, sometimes guarded by dogs.",
+  "practice": "Also reconstructed from comparanda: an oral poetics of praise built on inherited formulae (famously 'imperishable fame,' *ḱléwos n̥dʰgʷʰitom); animal sacrifice and libation to the gods; and, arguably, a tripartite social-religious ideology of priest, warrior, and producer (Dumézil's 'three functions'). Horse sacrifice is inferred from convergent rites in India, Rome, and Ireland. No institutions are attested, only inferred.",
+  "canon": "None — there is no Proto-Indo-European text. The 'sources' are the reconstructions themselves, assembled from the oldest daughter literatures (the Rigveda, Homer, the Avesta, and early Roman, Norse, and Celtic material) by linguistic and comparative analysis.",
+  "reflects": "It foregrounds comparison itself — the demonstration, from language alone, that scattered religions descend from one lost ancestor, recovering a prehistoric faith that left no monument but its echoes in its heirs.",
+  "sources": [
+   "Georges Dumézil, 'L'idéologie tripartie des Indo-Européens' (1958)",
+   "Bruce Lincoln, 'Death, War, and Sacrifice: Studies in Ideology and Practice' (1991)",
+   "J.P. Mallory & D.Q. Adams, 'The Oxford Introduction to Proto-Indo-European and the Proto-Indo-European World' (2006)",
+   "M.L. West, 'Indo-European Poetry and Myth' (2007)"
+  ]
+ },
+ "polynesian": {
+  "essence": "The traditional religions of the Polynesian peoples of the central and eastern Pacific — Māori, Hawaiian, Tahitian, Samoan, Tongan, and others — descended from a common Ancestral Polynesian religion that formed in the Tonga-Samoa homeland (c. 1000–500 BCE) and diversified across the islands. They share a pantheon of atua (Tāne, Tū, Tangaroa/Kanaloa, Rongo/Lono), the world-parents of Sky and Earth, the trickster-demigod Māui, and the twin concepts of mana and tapu. Māori tradition remains vividly living.",
+  "cosmos": "In the Māori account cosmogony is genealogy: from Te Kore (the void) through the many nights of Te Pō to Te Ao Mārama (the world of light), the primal parents Ranginui (Sky) and Papatūānuku (Earth) lie locked in embrace until their children force them apart to admit the light. The atua then govern the domains — forest, sea, cultivation, war, storm. Humans descend from the gods; the first woman is shaped from earth, and death enters the world through the goddess Hine-nui-te-pō, to whose underworld (or to the ancestral homeland Hawaiki) the dead return.",
+  "practice": "Life is regulated by tapu (sacred restriction) and by the winning and guarding of mana (efficacious sacred power); rites are conducted by tohunga (expert-priests) through karakia (chanted incantations), offerings, and first-fruits. Carved meeting-houses and marae among the Māori, and stone heiau temples in Hawaii, frame communal ritual, while houses of learning (whare wānanga) transmit the esoteric cosmological chants.",
+  "canon": "Oral — genealogies (whakapapa) and cosmogonic and mythic chants recited by trained experts — first written down in the 19th century (notably Sir George Grey's collection and the whare-wānanga teachings recorded from figures such as Te Matorohanga).",
+  "reflects": "It foregrounds the cosmos as genealogy — reality reckoned as descent from void to light to gods to people, so that to know the world is to be able to recite its lineage, and life is ordered by mana and tapu.",
+  "sources": [
+   "Sir George Grey, 'Polynesian Mythology' (1855)",
+   "Elsdon Best, 'Maori Religion and Mythology' (1924)",
+   "Margaret Orbell, 'The Illustrated Encyclopedia of Māori Myth and Legend' (1995)",
+   "Patrick V. Kirch & Roger C. Green, 'Hawaiki, Ancestral Polynesia: An Essay in Historical Anthropology' (2001)"
+  ]
+ },
+ "pueblo": {
+  "essence": "The traditional religions of the Pueblo peoples of the U.S. Southwest — here the Hopi of Arizona and the Zuni of New Mexico — maize-farming societies with continuous religious life descending from the Ancestral Puebloan world (its Chaco and Mesa Verde florescence peaking around 1100 CE). Living and famously guarded, Pueblo religion turns on an emergence cosmology, the katsina (kachina) cult of the ancestral rain-spirits, and an exacting ceremonial calendar aimed at rain and corn.",
+  "cosmos": "Humankind climbed upward through a series of lower worlds (three or four, by community) into this present world through the sípapu, the navel-hole of emergence, through which the dead also return below. This world is owned and cared for by Maasaw, the Hopi god of death and the earth's surface; a creative principle stands behind it (the Zuni Awonawilona, the 'He-She'), with Sun Father, Earth and Corn Mothers, Spider Grandmother/Thought Woman, and the little War Twins. The katsinam are ancestral cloud-and-rain spirits, and the dead are held to become katsinam who return as the rain.",
+  "practice": "An intricate calendar is run by clan-based priesthoods and religious societies (Hopi Katsina, Powamuy/Bean Dance, Wuwtsim, Snake-Antelope, and Flute societies; the Zuni priesthoods and kachina organization). Masked katsina dances fill the plazas from the winter solstice to Niman in July, the masked dancer held to become the spirit; kiva chambers with a sípapu in the floor house much of the ritual, worked with prayer-feathers (paho), corn-meal, and dawn prayer to the sun — all directed above all at rain, fertility, and balance in an arid land.",
+  "canon": "Oral and esoteric — emergence narratives, ritual songs and prayers, and ceremonial knowledge held by initiated societies; much is deliberately guarded, and the published record rests on outside ethnographers (Cushing, Stevenson, Fewkes, Parsons, Stephen, Bunzel).",
+  "reflects": "It foregrounds emergence and the return of the ancestral dead as rain — origin as ascent-and-birth from below rather than fabrication from above, and religion as the community's ceaseless ceremonial labor to keep an arid world in balance.",
+  "sources": [
+   "Frank Hamilton Cushing, 'Outlines of Zuñi Creation Myths' (1896)",
+   "Ruth L. Bunzel, 'Introduction to Zuñi Ceremonialism' (1932)",
+   "Elsie Clews Parsons, 'Pueblo Indian Religion' (1939)",
+   "Hamilton A. Tyler, 'Pueblo Gods and Myths' (1964)"
+  ]
+ },
+ "punic": {
+  "essence": "The religion of Carthage and the wider Punic (western Phoenician) world of the western Mediterranean — North Africa, Sardinia, western Sicily, Ibiza, and southern Spain — from Carthage's traditional founding (814 BCE) to its destruction by Rome in 146 BCE. A Levantine-derived polytheism, it centered on the divine couple Baal Hammon and the goddess Tanit and is notorious, in ancient and modern accounts alike, for the tophet child-sacrifice rite. It is a dead tradition, known chiefly from inscriptions and archaeology.",
+  "cosmos": "The pantheon adapts a Phoenician inheritance to the west: Baal Hammon, the aging solar-and-agricultural sovereign, and Tanit ('Pene Baal,' Face of Baal), the celestial mother-goddess who eclipsed him in later Carthage; alongside Melqart, the patron of Tyre whose annual 'awakening' (egersis) renewed the world and shadowed Punic colonization, and the healer Eshmun, with Astarte and a storm-and-heaven Baal. Punic religion is recovered far more through cult than through myth, its narratives largely lost.",
+  "practice": "It was a religion of vow and offering — votive stelae record vows paid to the gods — culminating in the tophet, an open-air precinct where the cremated remains of infants (and young-animal substitutes) were buried in urns beneath dedicatory stelae to Baal Hammon and Tanit, understood by ancient authors and much modern scholarship as child sacrifice. Temple priesthoods regulated offerings (as in the surviving sacrificial 'tariffs'), devotion crystallized in the aniconic 'Sign of Tanit,' and Melqart's egersis marked the ritual year.",
+  "canon": "No scripture or literature survives — Carthage's books were dispersed at its fall, only Mago's agricultural treatise passing on in translation — so the sources are epigraphic (votive inscriptions and sacrificial tariffs) and archaeological, supplemented by hostile Greco-Roman writers and the Hebrew Bible's 'Moloch' polemic.",
+  "reflects": "It foregrounds covenant sealed by sacrifice — a religion of vow and payment in which the community's ultimate offering was formalized at the tophet into a civic institution — and an aniconic devotion striking amid a Mediterranean of sculpted gods.",
+  "sources": [
+   "Shelby Brown, 'Late Carthaginian Child Sacrifice and Sacrificial Monuments in their Mediterranean Context' (1991)",
+   "Serge Lancel, 'Carthage: A History' (1995)",
+   "Dexter Hoyos, 'The Carthaginians' (2010)",
+   "Josephine Crawley Quinn, 'In Search of the Phoenicians' (2018)"
+  ]
+ },
+ "pythagorean": {
+  "essence": "A philosophical-religious movement founded by Pythagoras of Samos (c. 570–495 BCE) at Croton in Magna Graecia around 530 BCE, combining a mathematical account of the cosmos with a way of life aimed at purifying the immortal, transmigrating soul. Its adherents formed a secretive, ascetic brotherhood bound by ritual rules, later remembered as split between the rule-keeping akousmatikoi and the demonstrating mathematikoi. Its central claim is that number and ratio are the principle and structure of all things.",
+  "cosmos": "All things are number or are ordered by number: the same ratios that produce concordant musical intervals are held to govern the heavens (the 'harmony of the spheres'). The soul is immortal and divine, fallen into a cycle of reincarnation (metempsychosis) that migrates it across human, animal, and even plant bodies according to conduct, so that philosophy and purity aim at eventual release. Philolaus of Croton (5th c. BCE) taught a cosmos of ten bodies revolving around a central fire, displacing the Earth from the center for reasons of numerical perfection. Good and evil are mapped onto a table of opposites — limit against the unlimited, odd against even.",
+  "practice": "An ascetic communal life governed by the akousmata — cryptic oral precepts and taboos (famously the prohibition on beans, and rules of silence, diet, and ritual conduct). Purification was pursued through mathematics, music, self-examination, and, in much of the tradition, vegetarianism, since a killed animal might house a human soul. The Crotonian brotherhood also held political power until a violent backlash burned its meeting-houses in the mid-5th century BCE.",
+  "canon": "No scripture — the early teaching was oral and secret, reconstructed from fragments of Philolaus and Archytas and from Aristotle's reports (including his lost 'On the Pythagoreans'). The detailed biographies are much later and unreliable: Diogenes Laertius, Porphyry's 'Life of Pythagoras', and Iamblichus's 'On the Pythagorean Life' (3rd–4th c. CE).",
+  "reflects": "The sacralization of number — the impulse to locate the divine order and the soul's salvation in mathematics, ratio, and demonstrable structure rather than in myth or sacrifice.",
+  "sources": [
+   "Walter Burkert, 'Lore and Science in Ancient Pythagoreanism' (1972)",
+   "Carl A. Huffman, 'Philolaus of Croton: Pythagorean and Presocratic' (1993)",
+   "Christoph Riedweg, 'Pythagoras: His Life, Teaching, and Influence' (2005)"
+  ]
+ },
+ "quimbanda": {
+  "essence": "Quimbanda is an Afro-Brazilian magico-religious tradition that crystallized in early-to-mid 20th-century urban Brazil (especially Rio de Janeiro), working directly with the spirits Exu and Pomba Gira for concrete, this-worldly ends — love, money, protection, and revenge. It fuses Kongo-Angolan ('Bantu') ritual technology, Yoruba-derived Exu figures, popular Catholicism, and Kardecist Spiritism, and grew up entangled with — and often defined against — Umbanda. It is initiatory and practitioner-centered rather than congregational, and is frequently self-described as a 'left-hand' path of sorcery.",
+  "cosmos": "Quimbanda is oriented to operative work rather than to a systematic cosmogony or doctrine of the afterlife; its cosmology is a working geography of spirits. The spirit-world is divided into the 'kingdoms' (reinos) of Exu — crossroads, cemetery, forest, souls, and others — each with legions governing a domain of the urban and natural landscape, beneath a supreme figure (Exu Maioral, esoterically identified with Lucifer) and a sovereign Exu-king. The Exus and Pomba Giras are widely understood as spirits of the transgressive dead — rogues, streetwalkers, gamblers — now working magic for the living, though some lineages treat them as primordial intelligences instead.",
+  "practice": "Work centers on the assentamento, a consecrated iron or clay vessel that 'seats' a spirit in the ritual space; the ponto riscado, a chalk sigil that summons a specific Exu; and sung invocations (pontos cantados), with offerings of cachaça and tobacco and animal sacrifice at crossroads and cemeteries. Initiated mediums incorporate the Exus and Pomba Giras through spirit-possession in the terreiro (house). The ethic is frankly pragmatic and transactional — pact, tribute, and feeding rather than moral purification.",
+  "canon": "No scripture — an oral, initiatory tradition transmitted within houses, now supplemented by a substantial modern practitioner literature and documented ethnographically.",
+  "reflects": "Religion organized frankly around pragmatic, morally unbounded power — the sacred approached as a company of spirits to be paid and put to work for concrete results in this world.",
+  "sources": [
+   "Kelly E. Hayes, 'Holy Harlots: Femininity, Sexuality, and Black Magic in Brazil' (2011)",
+   "Stefania Capone, 'Searching for Africa in Brazil: Power and Tradition in Candomblé' (2010)",
+   "Diana DeG. Brown, 'Umbanda: Religion and Politics in Urban Brazil' (1986)"
+  ]
+ },
+ "rapanui": {
+  "essence": "The traditional religion of the Rapa Nui, the Polynesian people of Easter Island in the southeastern Pacific, settled by roughly 1200 CE and devastated in the 19th century by slave raids, epidemics, and missionization. Scholars distinguish an earlier ancestor cult that raised the monumental moai on coastal platforms (ahu) from a later Birdman (Tangata Manu) cult centered at Orongo on the creator god Makemake. Both were charged with mana (ancestral potency) and regulated by tapu (sacred prohibition).",
+  "cosmos": "Reality was permeated by mana and tapu; deified chiefly ancestors, embodied in the moai, watched over their descendants' lands and secured fertility. The creator Makemake, with his companion Haua, presided over the later cult, while guardian spirits and ghosts of the dead (aku-aku) attached to specific caves, families, and places. The annual return of the migratory sooty tern (manutara) signaled seasonal and cosmic renewal. The dead persisted as ancestral powers, their potency concentrated for chiefs in their carved stone images.",
+  "practice": "The great collective labor was carving the moai at the Rano Raraku quarry, moving them, and erecting them on ahu with their gaze turned inland over the settlements. The later Birdman rite was an annual contest in which champions (hopu) representing rival chiefs descended the Rano Kau cliff, swam to the islet Motu Nui, and returned with the season's first tern egg; the winner's sponsor became the sacred, tapu-bound Tangata Manu for the year. Priests maintained tapu, and a literate elite used the undeciphered rongorongo glyphs to record chant and genealogy.",
+  "canon": "No native scripture — an oral tradition of chant, genealogy, and myth, plus the undeciphered rongorongo inscriptions carved in wood. The record leans heavily on early-20th-century ethnography (Katherine Routledge, 1919; Alfred Métraux, 1940) and on the archaeological and monumental record.",
+  "reflects": "Religion reorganized under absolute ecological limit — the sacred shifting from monumental ancestral permanence to an annual, competitive renewal riding on the arrival of a single migratory bird.",
+  "sources": [
+   "Alfred Métraux, 'Ethnology of Easter Island' (1940)",
+   "Katherine Routledge, 'The Mystery of Easter Island' (1919)",
+   "Jo Anne Van Tilburg, 'Easter Island: Archaeology, Ecology and Culture' (1994)",
+   "Steven Roger Fischer, 'Rongorongo: The Easter Island Script' (1997)"
+  ]
+ },
+ "rastafari": {
+  "essence": "Rastafari is a religious and Pan-African movement that arose among Afro-Jamaicans in the early 1930s after the 1930 coronation of Ras Tafari Makonnen as Emperor Haile Selassie I of Ethiopia. Its adherents hold that Selassie is the divine — Jah incarnate, the returned Christ in his kingly character — and that Black people are true Israelites exiled in 'Babylon,' the corrupt Western order, and destined for redemption and repatriation to 'Zion' (Ethiopia/Africa). It is decentralized, with no single authority, and spread worldwide largely through reggae.",
+  "cosmos": "God (Jah) is one and immanent, present within each person — the doctrine of 'I and I' collapsing the distance between the human and the divine. Divinity is historical and embodied, revealed in a living Black African monarch rather than a distant heaven, and history is read through the Hebrew Bible as Israel's exile and coming redemption. Salvation is this-worldly — liberation from Babylon and return to Africa within this life — and many Rastafari affirm an 'everliving' continuity that downplays death and a conventional afterlife.",
+  "practice": "Worship centers on communal 'reasoning' sessions and 'groundations' built around the sacramental smoking of ganja (cannabis) as an aid to meditation, and on Nyabinghi drumming and chanting. Distinctive observances include the wearing of dreadlocks (linked to the Nazirite vow), an Ital natural diet, and the Iyaric ('Dread Talk') reworking of language. The movement is organized into several 'Mansions' — notably Nyahbinghi, Bobo Ashanti, and the Twelve Tribes of Israel — differing in emphasis and practice.",
+  "canon": "No closed scripture: the Hebrew Bible read 'with African eyes,' the Ethiopian 'Kebra Nagast,' and foundational texts such as Robert Athlyi Rogers's 'The Holy Piby' and Leonard Howell's 'The Promised Key,' alongside an oral tradition of reasoning and the lyrics of reggae.",
+  "reflects": "The refusal of a deferred, otherworldly salvation — the insistence that God is Black, living, and historical, and that redemption is concrete liberation and return within this life.",
+  "sources": [
+   "Barry Chevannes, 'Rastafari: Roots and Ideology' (1994)",
+   "Ennis B. Edmonds, 'Rastafari: A Very Short Introduction' (2012)",
+   "Leonard E. Barrett, 'The Rastafarians' (1997)"
+  ]
+ },
+ "roman": {
+  "essence": "The polytheistic state and civic religion of ancient Rome and its empire, from the archaic city (traditionally founded 753 BCE) through the Imperial period until public pagan cult was legally suppressed under Theodosius I (measures of 380–392 CE). It centered on maintaining the pax deorum — right relations between the community and its gods — through correct ritual, vow, and sacrifice. Religion was bound tightly to the political order, and correct performance mattered more than private belief.",
+  "cosmos": "A vast, open pantheon headed by the Capitoline triad of Jupiter, Juno, and Minerva, with gods of state, place, and function and a divine power (numen) immanent in hearth, boundary, spring, and household (the Lares and Penates). Rome freely absorbed and identified foreign gods (interpretatio Romana), taking in Greek myth, Etruscan divinatory science, and later Eastern mystery cults (Cybele, Isis, Mithras) and the imperial cult of deified emperors. It was little concerned with systematic cosmology or a doctrinal afterlife: ideas of the dead (the Manes, the underworld) coexisted with philosophical and mystery-cult alternatives.",
+  "practice": "Public religion was largely non-congregational — animal sacrifice, prayer, and vow performed for the community by magistrate-priests and colleges: the pontifices under the pontifex maximus, the augurs who read the auspices, the Vestal Virgins guarding the sacred fire, and the haruspices reading entrails in the Etruscan discipline. The Sibylline Books were consulted in crisis. Orthopraxy — exact performance — outweighed belief, and domestic cult honored the household gods and ancestors.",
+  "canon": "No revealed scripture: religion rested on ritual tradition (the mos maiorum), priestly calendars and records (the fasti), and consulted collections such as the Sibylline Books. It is known largely through literary sources — Ovid's 'Fasti,' Livy, Cicero's 'On the Nature of the Gods' and 'On Divination,' and Varro's largely lost 'Antiquitates.'",
+  "reflects": "Religion as the contractual upkeep of civic order — correct ritual reciprocity with the gods, fused to the state, where orthopraxy and the pax deorum outweigh belief or personal salvation.",
+  "sources": [
+   "Mary Beard, John North, and Simon Price, 'Religions of Rome' (1998)",
+   "Jörg Rüpke, 'Religion of the Romans' (2007)",
+   "Robert Turcan, 'The Gods of Ancient Rome' (2000)"
+  ]
+ },
+ "rosicrucianism": {
+  "essence": "An esoteric Christian current that appeared in Protestant Germany with three anonymous manifestos of the 1610s, announcing a hidden Brotherhood of the Rose Cross founded by the legendary sage Christian Rosenkreutz. It fused Hermeticism, alchemy, Paracelsian medicine, and Kabbalah with Lutheran reform in a call for a general reformation of knowledge and society. Probably a literary myth at the outset — no original order can be documented — it nonetheless inspired real fraternities and lent its name to many later initiatic orders.",
+  "cosmos": "The universe is a legible book written by God, its harmonies readable by the illuminated, with macrocosm and microcosm corresponding as in Hermetic and alchemical thought — so that perfecting nature and perfecting the soul are one work. The Rosy Cross emblem joins the cross of matter and suffering to the blooming rose of spiritual regeneration. The manifestos await an imminent, providential reformation, a dawning age of restored knowledge and healed humanity in the millenarian key of Joachim of Fiore.",
+  "practice": "Initially the 'practice' was textual and ideal — a summons to form invisible fraternities of learned adepts who would heal the sick without payment, advance natural philosophy and alchemy, and work anonymously for humanity. There was no church and no documented rite behind the early manifestos. Later Rosicrucian bodies developed graded initiations, ritual, and meditative study, often overlapping with Freemasonry and modern occultism.",
+  "canon": "The three founding manifestos — the 'Fama Fraternitatis' (1614), the 'Confessio Fraternitatis' (1615), and the allegorical 'Chymical Wedding of Christian Rosenkreutz' (1616, written by the Lutheran theologian Johann Valentin Andreae) — set within the wider Hermetic-alchemical literature they draw upon.",
+  "reflects": "The dream of a hidden, benevolent elite reforming the world through secret wisdom — esotericism fused with Christian renewal and utopian hope.",
+  "sources": [
+   "Frances A. Yates, 'The Rosicrucian Enlightenment' (1972)",
+   "Christopher McIntosh, 'The Rosicrucians: The History, Mythology, and Rituals of an Esoteric Order' (1997)",
+   "Susanna Åkerman, 'Rose Cross over the Baltic: The Spread of Rosicrucianism in Northern Europe' (1998)"
+  ]
+ },
+ "samaritanism": {
+  "essence": "Samaritanism is the ancient Israelite religion of the Samaritans (who call themselves Shomrim, 'Keepers' of the Torah), today a community of only around 800 living at Kiryat Luza on Mount Gerizim and at Holon in Israel. They worship the one God of Israel, hold Moses to be the sole and final prophet and the Torah the only scripture, and insist that Mount Gerizim, not Jerusalem, is God's chosen sanctuary. They understand themselves as descendants of the northern Israelite tribes who kept the true cult, and regard Judaism as a later deviation.",
+  "cosmos": "A radical, imageless monotheism: God is one, incorporeal, and creator, revealed through Moses and the Torah alone, with no later prophets, emanations, or mediators. History is split into the age of divine favor (Rahuta) and the present age of disfavor or 'turning away' (Fanuta), which began when the priest Eli illegitimately moved the cult away from Gerizim. Redemption will come with the Taheb, 'the Restorer' — a mortal figure of the line of Moses or Joseph who will restore Gerizim worship and recover the hidden Tabernacle vessels — followed by a day of judgment. Mount Gerizim is held to be the highest point on earth, the one peak unflooded, and the site of Eden.",
+  "practice": "Religious life is governed strictly by the written Torah under a hereditary priesthood (the Cohen line, after the Aaronic high-priestly line ended in 1624): Sabbath, circumcision, purity laws, and the biblical festivals kept by the Samaritans' own reckoning. Its most striking surviving rite is the annual Passover sacrifice of lambs, still performed publicly on Mount Gerizim, the focus of pilgrimage. The community preserves its Torah in the Samaritan (Paleo-Hebrew–derived) script and its own liturgical tradition.",
+  "canon": "The Samaritan Pentateuch, diverging from the Masoretic text in thousands of places (notably the Gerizim commandment) and preserved in manuscripts including the revered Abisha Scroll. Its own literature includes the Aramaic Targum, the theological 'Memar Marqah,' the 'Defter' liturgy, and chronicles such as the 'Tulida' and the 'Asatir.'",
+  "reflects": "The survival of a rival Israelite orthodoxy — the ancient religion of Israel defined by the Torah alone, Moses alone, and one sacred mountain, set against the whole later development of Judaism.",
+  "sources": [
+   "Reinhard Pummer, 'The Samaritans: A Profile' (2016)",
+   "Robert T. Anderson and Terry Giles, 'The Samaritan Pentateuch: An Introduction to Its Origin, History, and Significance for Biblical Studies' (2012)",
+   "Alan D. Crown (ed.), 'The Samaritans' (1989)"
+  ]
+ },
+ "sami": {
+  "essence": "The pre-Christian and folk religion of the Sámi, the indigenous people of Sápmi (northern Norway, Sweden, Finland, and Russia's Kola Peninsula) — a hunting, fishing, and reindeer-herding religion of the European Arctic. It centered on a tiered spirit-world, a set of deities of sun, thunder, birth, and death, sacred natural sites (sieidi), the bear cult, and the drum-using shaman (noaidi). Heavily suppressed by Lutheran missions in the 17th–18th centuries, it is the subject of a contemporary cultural and spiritual revival.",
+  "cosmos": "The world has tiers — sky-deities above, the living in the middle, and an underworld of the dead (Jábmeaimo) ruled by the death-mother Jábmeáhkká. Its powers include Beaivi the Sun and Mánnu the Moon, the thunder-god (Tiermes/Dierpmis, southern Horagalles), the game-lord Leib-olmai, and the birth-goddess Máttaráhkká with her daughters, who govern conception and delivery beneath the tent floor. The soul, drawn from the sun-realm and given a body by the birth-mothers, passes at death into the underworld's shadowed second life, from which the noaidi may bargain an endangered soul back.",
+  "practice": "Offerings of reindeer fat, blood, and antlers were made at sieidi — sacred stones and natural features tied to a family's hunting or fishing luck. The bear-feast honored the slain bear with apology and buried its bones in order so that it might return. The noaidi beat the goavddis (runebomme), a reindeer-hide drum painted with a map of the worlds, into trance and read a brass ring's movements across it for divination, while the household birth-rites of the Áhkká goddesses were largely the women's domain.",
+  "canon": "No scripture — an oral religion. The record is the surviving painted drums (some seventy in museums), the archaeology of sieidi offering-sites, and the 17th–18th-century accounts of Lutheran missionaries (behind Knud Leem and Lars Levi Læstadius's 'Fragments of Lappish Mythology'), synthesized in modern scholarship.",
+  "reflects": "Cosmology drawn and struck rather than written — a shamanic, female-centered Arctic religion in which the sacred is mapped on a drumhead and lodged in specific stones of the land.",
+  "sources": [
+   "Louise Bäckman and Åke Hultkrantz, 'Studies in Lapp Shamanism' (1978)",
+   "Håkan Rydving, 'The End of Drum-Time: Religious Change among the Lule Saami, 1670s–1740s' (1993)",
+   "Ernst Manker, 'Die lappische Zaubertrommel' (1938–1950)"
+  ]
+ },
+ "san": {
+  "essence": "The religion of the San ('Bushmen'), the indigenous hunter-gatherer peoples of southern Africa — among them the |Xam of the Cape and the Ju|'hoansi of the Kalahari — whose ancestors are among the oldest continuous human populations and whose rock art spans tens of millennia. It is less a doctrine than a body of myth and a living ritual centered on the all-night trance dance, a creator-trickster (|Kaggen the Mantis, or Kaang), and the sacred eland. Its 'figures' survive as fragments, chiefly through a single great 1870s salvage of |Xam testimony and through 20th-century Kalahari ethnography.",
+  "cosmos": "A creator who made and ordered the world and then withdrew into it — the Mantis |Kaggen among the |Xam, /Kaang or //Gao!na in the Kalahari — often paired with a lesser, ambivalent god (//Gauwa) and with the dead, who bring sickness. The world is charged with a boiling supernatural potency (n|om) concentrated in the eland and raised in the dance. Death entered the world through a botched message, when the Hare denied the Moon's promise that people, like the moon, would die and return. There is no elaborate afterlife doctrine; the dead join an ambivalent spirit-world that the healer must contend with.",
+  "practice": "The central rite is the all-night trance (healing) dance: women clap and sing the medicine songs while men circle the fire until n|om boils up the spine and healers enter trance, leaving the body to draw sickness from the people and to travel to god. Related practices include first-kill and puberty observances and |Xam rain-making, in which a shaman leads and 'kills' a rain-animal so that rain falls. There is no priesthood or temple, and the healer's role is widely shared; much of the eland-centered rock art is now read as a record of these trance experiences.",
+  "canon": "No writing — an oral corpus. The classic source is the Bleek–Lloyd archive of |Xam texts collected in the 1870s (from informants such as ||Kabbo and Diä!kwain), with Joseph Orpen's 1874 Maluti-San account, 20th-century Ju|'hoansi ethnography, and the rock-art record itself.",
+  "reflects": "Religion as an act of the body rather than a creed — the sacred reached directly through trance, song, and sweat, and located inside an animal rather than personified above the world.",
+  "sources": [
+   "David Lewis-Williams, 'Believing and Seeing: Symbolic Meanings in Southern San Rock Paintings' (1981)",
+   "Mathias Guenther, 'Tricksters and Trancers: Bushman Religion and Society' (1999)",
+   "Richard Katz, 'Boiling Energy: Community Healing among the Kalahari !Kung' (1982)",
+   "Wilhelm Bleek and Lucy Lloyd, 'Specimens of Bushman Folklore' (1911)"
+  ]
+ },
+ "santeria": {
+  "essence": "Santería — more properly Regla de Ocha or Lucumí — is an Afro-Cuban religion formed among enslaved Yoruba ('Lucumí') people in colonial Cuba, fusing Yoruba orisha worship with Spanish Catholicism and some Kardecist Spiritism. Its practitioners venerate the orichas (personified divine forces such as Elegguá, Changó, Yemayá, Obatalá, and Oggún) as intermediaries of the remote creator Olodumare, and are initiated into the service of a tutelary oricha. It is now practiced across Cuba and its diaspora, especially the United States.",
+  "cosmos": "A single transcendent creator, Olodumare, is the source of aché — the vital force that animates the world and makes things happen — but is withdrawn from direct human affairs, which are run by the orichas. Many orichas are matched with Catholic saints (Changó with Santa Bárbara, Yemayá with the Virgin of Regla, Elegguá with the Holy Child of Atocha), a pairing read variously as genuine fusion or as protective mask. Each person has a chosen destiny and a personal oricha who 'owns their head'; the ancestral dead (egun) remain present and honored, and existence is often understood through reincarnation within the lineage.",
+  "practice": "Devotion means feeding and honoring the orichas through offerings, batá drumming and dance that invite possession, herbalism (omiero), and animal sacrifice that releases aché. Destiny and remedy are read by divination, from coconut and the diloggún cowrie shells to the elaborate Ifá corpus administered by babalawos. The defining rite is initiation — the asiento or 'making ocha,' a week-long 'crowning' that seats the oricha in the initiate's head, followed by a year in white (iyawó); community is organized around houses (ilé) and godparent lineages.",
+  "canon": "No scripture — an oral, initiatory corpus, above all the patakíes (sacred stories) and the verses of the Odu of Ifá and the diloggún, memorized and partly written down in practitioners' libretas. It was documented ethnographically by Lydia Cabrera ('El Monte,' 1954) and Fernando Ortiz.",
+  "reflects": "The re-encoding of an African pantheon behind the masks of Catholic saints — the sacred as circulating, transactional power (aché) that must be fed, embodied, and divined.",
+  "sources": [
+   "David H. Brown, 'Santería Enthroned: Art, Ritual, and Innovation in an Afro-Cuban Religion' (2003)",
+   "George Brandon, 'Santería from Africa to the New World: The Dead Sell Memories' (1993)",
+   "Lydia Cabrera, 'El Monte' (1954)",
+   "Miguel A. De La Torre, 'Santería: The Beliefs and Rituals of a Growing Religion in America' (2004)"
+  ]
+ },
+ "sarnaism": {
+  "essence": "Sarnaism (Sarna Dharma) is the indigenous nature religion of several Adivasi peoples of the Chota Nagpur plateau and eastern India — chiefly the Munda, Santal, Oraon, and Ho of Jharkhand and neighboring states. Its defining institution is the sarna, the sacred grove of preserved old-growth Sal forest that serves as the village's open-air temple, and its worship joins a high creator-sun god, a grove-goddess, territorial deities, an ecology of spirits (bonga), and the ancestral dead. It has become a marker of Adivasi identity, with a live campaign for recognition as a distinct religion in India's census.",
+  "cosmos": "A supreme creator and sun-god — Singbonga (Dharmesh) — rules from above but rarely intervenes and is offered only pure, white things; beneath him stand the grove-mother (Sarna Burhi / Jaher Era) and the 'Great Mountain' territorial god (Marang Buru). The landscape teems with bonga — spirits and impersonal spiritual force in hills, rivers, rocks, and homes — that can help or harm and must be continually negotiated with by sacrifice. The ancestral dead remain co-resident guardians of the household. The order sought is ecological and social balance rather than personal salvation or a systematized afterlife.",
+  "practice": "Village priests (the Pahan or Naike) lead worship at the sacred grove, where no tree may be felled, through offerings and blood sacrifice of fowl and goats to the deities and bongas. The ritual year turns on forest-keyed agricultural festivals — above all Sarhul in spring, at the blossoming of the Sal, which enacts the marriage of sun and earth and must precede any sowing — with Karam, Sohrai, and others. Ancestors are fed in the home's inner shrine, and rice-beer (handia) features in feast and offering.",
+  "canon": "No scripture — an oral tradition of myth, invocation, and song carried by priests and elders, documented in colonial and modern ethnography (notably Sarat Chandra Roy on the Mundas and Oraons) rather than in a sacred book.",
+  "reflects": "A conservationist theology of the sacred grove — divinity rooted in a surviving patch of primeval forest, binding a people's ritual calendar to the biological life of the trees.",
+  "sources": [
+   "Sarat Chandra Roy, 'The Mundas and Their Country' (1912)",
+   "J. Troisi, 'Tribal Religion: Religious Beliefs and Practices among the Santals' (1978)",
+   "K. S. Singh, 'Tribal Ethnography, Customary Law and Change' (1993)"
+  ]
+ },
+ "satanic-temple": {
+  "essence": "The Satanic Temple (TST) is a nontheistic religious and activist organization founded in the United States in 2013 (by Lucien Greaves and Malcolm Jarry) and based in Salem, Massachusetts. It believes in no literal Satan or supernatural being, using Satan instead as a literary symbol of rebellion against tyranny and of reason against superstition, and organizing around Seven Fundamental Tenets of compassion, bodily autonomy, justice, and science. It was recognized as a tax-exempt church by the U.S. IRS in 2019, and much of its work is church–state-separation activism.",
+  "cosmos": "Explicitly naturalistic: there is no God, Devil, soul, afterlife, or metaphysical order to affirm, and beliefs are meant to conform to the best available scientific understanding of the world. Even the Seven Tenets are held as revisable principles rather than dogma. 'Satan' is a mythic and literary figure — drawn from Milton, Anatole France, and Romantic tradition — standing for defiance of arbitrary authority and for human, this-worldly meaning.",
+  "practice": "TST's rites are deliberately psychological and symbolic rather than magical — an 'Unbaptism' renouncing religious claims imposed in childhood, and a 'Religious Abortion Ritual' framing abortion access as a protected act of bodily autonomy. Its signature praxis is legal and civic: commissioning the Baphomet statue to demand equal footing beside government Ten Commandments monuments, running After School Satan clubs, and staging satirical actions such as the 2013 'Pink Mass.' Ethics live in the Seven Tenets rather than in the worship of any being.",
+  "canon": "No revealed scripture: its foundational texts are the Seven Fundamental Tenets and mission statements authored by its founders, with a small body of essays and ritual descriptions (e.g., Shiva Honey's 'The Satanic Temple Rituals,' 2020). Its symbolism draws on literary works such as Milton's 'Paradise Lost' (1667) and Anatole France's 'Revolt of the Angels' (1914).",
+  "reflects": "Religion turned into constitutional activism — a deliberately nontheistic 'faith' that wields legal recognition and Satanic symbolism to defend secularism, bodily autonomy, and church–state separation.",
+  "sources": [
+   "Joseph P. Laycock, 'Speak of the Devil: How The Satanic Temple Is Changing the Way We Talk about Religion' (2020)",
+   "Per Faxneld and Jesper Aa. Petersen (eds.), 'The Devil's Party: Satanism in Modernity' (2013)",
+   "Ruben van Luijk, 'Children of Lucifer: The Origins of Modern Religious Satanism' (2016)"
+  ]
+ },
+ "satanism-laveyan": {
+  "essence": "LaVeyan Satanism is the atheistic, self-centered religion founded by Anton Szandor LaVey with the Church of Satan in San Francisco on Walpurgisnacht (30 April) 1966 and codified in 'The Satanic Bible' (1969). It worships no literal Satan; 'Satan' is a symbol of pride, carnality, and the 'dark force in nature,' and the true object of reverence is the self. It preaches indulgence over abstinence, self-deification, and a Darwinian, elitist ethic, and remains a small but influential strand of modern Western esotericism.",
+  "cosmos": "Materialist and non-supernatural: no gods, no afterlife, no soul to be saved — human beings are animals, and 'Satan' names the vital, carnal, adversarial force in nature and in the human ego. Each individual is the god of their own subjective universe, an 'I-theism' that replaces submission to an external deity with radical self-sovereignty. There is no redemption or damnation; value lies in gratifying and empowering the living self.",
+  "practice": "The codified ethic is 'indulgence instead of abstinence,' self-interest, and lex talionis — kindness to friends and retaliation against enemies — rejecting Christian humility as self-defeating. 'Magic' is redefined as psychology: Greater Magic is theatrical ritual used for emotional catharsis (with no claim of supernatural effect), and Lesser Magic is the manipulation of others through charisma, appearance, and applied social psychology. The Church of Satan is a membership body stressing individual sovereignty rather than congregational worship, under the emblem of the Sigil of Baphomet.",
+  "canon": "Anton LaVey's writings — above all 'The Satanic Bible' (1969), with its Nine Satanic Statements — together with 'The Satanic Rituals' (1972), 'The Satanic Witch' (1971), and 'The Devil's Notebook' (1992); 'The Satanic Bible' openly adapts Nietzsche, Ayn Rand's egoism, and Ragnar Redbeard's 'Might Is Right.'",
+  "reflects": "The frank deification of the self — a religion that keeps ritual and 'Satan' as psychological theater while denying the supernatural, turning worship inward onto the carnal ego.",
+  "sources": [
+   "Ruben van Luijk, 'Children of Lucifer: The Origins of Modern Religious Satanism' (2016)",
+   "Per Faxneld and Jesper Aa. Petersen (eds.), 'The Devil's Party: Satanism in Modernity' (2013)",
+   "James R. Lewis, 'Satanism Today: An Encyclopedia of Religion, Folklore, and Popular Culture' (2001)"
+  ]
+ },
+ "scientology": {
+  "essence": "Scientology is a new religious movement founded by the American writer L. Ron Hubbard, growing out of his 1950 self-help system Dianetics and incorporated as the Church of Scientology in 1953–54. It teaches that a person is essentially an immortal spirit (a thetan) that has forgotten its true nature and become trapped in the material world, and that a proprietary counseling technology, 'auditing,' can free it and restore its native powers. It is a highly centralized, wealthy, and much-litigated global organization.",
+  "cosmos": "The true self is the thetan — an uncreated, originally omnipotent spirit that 'mocked up' the physical universe of MEST (Matter, Energy, Space, Time) and then became trapped in it through its own agreements. Suffering stems not from sin but from engrams, recordings of pain and unconsciousness lodged in the 'reactive mind.' Thetans are immortal and reincarnate across many lifetimes; in confidential upper-level teaching, present spiritual damage is traced to a catastrophe wrought 75 million years ago by the galactic ruler Xenu. Liberation is the recovery of the thetan's original mastery over MEST.",
+  "practice": "The core practice is auditing — sessions in which an auditor asks fixed questions while the subject holds the electrodes of an E-meter, to locate and discharge engrams. Erasing the reactive mind yields the milestone state of 'Clear,' beyond which lie the graded, confidential Operating Thetan (OT) levels of the 'Bridge to Total Freedom.' Services are delivered through a hierarchy of orgs and the elite Sea Organization and paid for by fixed 'donations,' with heavy emphasis on study, ethics, and organizational discipline.",
+  "canon": "The writings and recorded lectures of L. Ron Hubbard, held as scripture — above all 'Dianetics: The Modern Science of Mental Health' (1950), together with works such as 'Scientology: The Fundamentals of Thought,' the confidential OT materials, and thousands of technical and policy bulletins.",
+  "reflects": "Salvation recast in the idiom of technology and self-improvement — an engineered, quantified procedure to recover an immortal individual self, rather than grace, union, or dissolution.",
+  "sources": [
+   "Hugh B. Urban, 'The Church of Scientology: A History of a New Religion' (2011)",
+   "Roy Wallis, 'The Road to Total Freedom: A Sociological Analysis of Scientology' (1976)",
+   "Donald A. Westbrook, 'Among the Scientologists: History, Theology, and Praxis' (2019)"
+  ]
+ },
+ "scythian": {
+  "essence": "The religion of the Scythians, the Iranian-speaking nomadic horse-peoples of the Pontic-Caspian steppe (roughly the 8th–3rd centuries BCE), reconstructed almost entirely from outside sources — chiefly Herodotus's fourth book and the archaeology of their burial mounds (kurgans) and gold. They worshipped a mostly aniconic pantheon headed by the fire-and-hearth goddess Tabiti, and venerated their war-god as a planted iron sword fed with blood. Their elite were buried with lavish grave-goods, sacrificed horses, and, per Herodotus, human retainers.",
+  "cosmos": "Herodotus reports a pantheon of seven or eight deities under Greek names: supreme is Tabiti the hearth-fire ('Hestia'), then the parental sky-father Papaios ('Zeus') and earth-and-water goddess Api ('Gaia'), with Argimpasa ('Aphrodite Urania'), Oitosyros, Herakles, and Ares among the rest. Fire and the oath were central, and the war-god had no image but an iron sword. The people's origin myth traced them to a first man, Targitaos, and to three brothers among whom sky-fallen golden implements — plough, yoke, axe, and cup — apportioned the social order. The rich kurgan burials imply an afterlife of continued rank and a strong cult of the honored dead.",
+  "practice": "Blood sacrifice of livestock was offered to the gods, but the war-cult was paramount: annual offerings, including a share of war-captives, were made to the iron sword set atop great brushwood altars. Divination was performed by rod-diviners and, among the androgynous Enarei, with strips of linden bark; oaths were sworn over blood mixed with wine. Herodotus also describes hemp-smoke 'vapor baths,' the taking of scalps and trophy-skulls in war, and elaborate royal funerals with sacrificed horses and attendants; there were essentially no temples or images except for the war-god.",
+  "canon": "None — the Scythians left no texts of their own. The tradition is known from external Greek ethnography, above all Herodotus's 'Histories' Book 4, with scattered later classical notices and the archaeological record of kurgans and Scytho-Siberian animal-style gold.",
+  "reflects": "A nomadic warrior religion known only from outside — the sacred concentrated in fire, the oath, and a blood-fed iron blade, with social order fused to a myth of heaven-sent regalia.",
+  "sources": [
+   "Herodotus, 'The Histories', Book 4 (c. 430 BCE)",
+   "Renate Rolle, 'The World of the Scythians' (1989)",
+   "Barry Cunliffe, 'The Scythians: Nomad Warriors of the Steppe' (2019)"
+  ]
+ },
+ "secular-humanism": {
+  "essence": "A non-theistic ethical and philosophical stance holding that human beings can lead meaningful, moral lives without belief in the supernatural, grounding value in reason, evidence, and human welfare. Its adherents — self-described humanists, freethinkers, and organized atheists, concentrated in the English-speaking West — are gathered in bodies such as the Ethical Culture movement (Felix Adler, New York, 1876), Britain's National Secular Society (1866), and the American Humanist Association (1941).",
+  "cosmos": "It rests on philosophical naturalism: the universe is a self-contained physical system governed by natural law, neither created nor superintended by any deity, and known through science rather than revelation. Life arose and diversified by unguided evolution, and mind is a product of the brain. Death is the permanent end of the individual — no soul, afterlife, or cosmic judgment — which humanists typically frame as reason to value all the more the single finite life one has.",
+  "practice": "Not a worship tradition but an ethical and civic one, it asks adherents to reason from evidence, to act morally toward others out of shared human dignity rather than divine command, and often to work for secular causes such as church-state separation, science education, and human rights. Ethical Culture societies and humanist chapters provide community and celebrant-led ceremonies for naming, marriage, and death, and issue consensus statements rather than dogmas. The animating motto of the founding Ethical Culture movement is 'deed before creed.'",
+  "canon": "No scripture; its touchstone documents are the successive Humanist Manifestos (1933, 1973, 2003) and the Amsterdam Declaration (1952, 2002), alongside a lineage of influential authors from Thomas Paine and Robert Ingersoll to Bertrand Russell.",
+  "reflects": "Meaning and morality without transcendence — the wager that ethics, awe, and community can be sustained on human and natural grounds alone.",
+  "sources": [
+   "Susan Jacoby, 'Freethinkers: A History of American Secularism' (2004)",
+   "Tom Flynn (ed.), 'The New Encyclopedia of Unbelief' (2007)",
+   "Stephen LeDrew, 'The Evolution of Atheism: The Politics of a Modern Movement' (2015)"
+  ]
+ },
+ "serer": {
+  "essence": "The indigenous religion of the Serer people of Senegal and the Gambia, known in Serer as A ƭat Roog and centered on Roog (Roog Sene), a supreme creator, and the Pangool, a class of ancestral and nature spirits who intercede between humanity and the divine. Still practiced by a minority, it coexists with — and has often been absorbed into — the Islam and Catholicism that most Serer now profess.",
+  "cosmos": "Roog Sene is the supreme, formless creator who spoke the cosmos into being from a primordial swamp and then withdrew, held too immense to be petitioned directly; the Pangool — ancestral saints and elemental spirits dwelling in trees, waters, and stones — administer the world and carry human needs upward. Fortune, healing, and above all rainfall are managed at this intercessory level, and the virtuous dead may themselves become Pangool. The tradition is strongly oriented to the ancestors and to the continuity of the lineage.",
+  "practice": "Religious life runs through the Pangool by way of offerings at family and territorial shrines and through the hereditary caste of priest-diviner-rainmakers, the Saltigue, who forecast the season. Its supreme public rite is the annual Xooy divination ceremony before the rains, at which Saltigues enter trance and prophesy openly, their standing measured by predictive accuracy. Initiation — the Ndut retreat in the sacred grove — and the propitiation of ancestors structure the life course.",
+  "canon": "Oral — cosmogonic narrative, praise-poetry, and Saltigue divinatory lore — documented ethnographically above all by Henry Gravrand.",
+  "reflects": "The withdrawn creator delegated downward — a high god held too vast to approach, with all live religious traffic routed to ancestral intercessors bound to the land and its rains.",
+  "sources": [
+   "Henry Gravrand, 'La civilisation sereer: Pangool' (1990)",
+   "Henry Gravrand, 'La civilisation sereer: Cosaan' (1983)",
+   "Marguerite Dupire, 'Sagesse sereer' (1994)"
+  ]
+ },
+ "shaiva": {
+  "essence": "One of the principal streams of Hinduism: the traditions that hold Shiva to be the supreme reality rather than one deity among many. Shaivas number in the hundreds of millions across South Asia and its diaspora, spanning folk devotion, temple worship, ascetic orders, and sophisticated philosophies from the dualist Shaiva Siddhanta to the non-dual Trika of Kashmir.",
+  "cosmos": "Ultimate reality is Shiva. In the non-dual schools he is a single infinite consciousness (Paramashiva) whose inseparable power, Shakti, manifests, sustains, and reabsorbs the cosmos as its own vibration (spanda); in dualist Shaiva Siddhanta the Lord (pati) remains distinct from bound souls (pashu) and the material fetters (pasha). The soul, bound by karma and illusion, transmigrates until Shiva's grace, ritual, and knowledge cut the bonds and grant liberation (moksha).",
+  "practice": "Worship centers on Shiva in the aniconic linga, served in temples by Agamic ritual, with domestic devotion, mantra ('Om Namah Shivaya'), the festival of Mahashivaratri, and pilgrimage. Ascetic and yogic paths are prominent — the ancient Pashupatas and antinomian Kapalikas, and later the ash-smeared sadhus, the Nath yogis, and the Lingayat community of Karnataka. Practice ranges from orthodox temple ritualism to the transgressive rites of Shaiva Tantra.",
+  "canon": "The Vedic Rudra hymns and the Shvetashvatara Upanishad; the twenty-eight Shaiva Agamas and the Shiva Purana; the Tamil devotional Tevaram gathered in the Tirumurai; and philosophical works such as Vasugupta's Shiva Sutras and Abhinavagupta's Tantraloka.",
+  "reflects": "The absolute as ascetic and erotic, destroyer and liberator at once — a divinity that takes up the terrifying, the impure, and the annihilating rather than excluding them.",
+  "sources": [
+   "Gavin Flood, 'An Introduction to Hinduism' (1996)",
+   "Alexis Sanderson, 'Śaivism and the Tantric Traditions' (1988)",
+   "Wendy Doniger O'Flaherty, 'Śiva: The Erotic Ascetic' (1973)"
+  ]
+ },
+ "shakta": {
+  "essence": "The branch of Hinduism that worships the Goddess — Shakti or Devi — as the supreme reality, the dynamic feminine power that creates, sustains, and dissolves the universe. Strongest in Bengal, Assam, and eastern India and among Tantric practitioners broadly, it ranges from village goddess cults to the refined Srividya tradition, and holds that the Goddess is not the consort of a male god but Brahman itself in its active mode.",
+  "cosmos": "Reality is the Goddess: consciousness's own power manifesting as the world, with the male principle (Shiva) as her inert ground — 'without Shakti, Shiva is a corpse (shava).' She is worshipped in forms benign and terrible — Durga, Kali, the ten Mahavidyas, Tripurasundari — and the macrocosm is mirrored in the body, where her energy sleeps as coiled kundalini at the base of the spine to be raised to union at the crown. The soul transmigrates by karma until it realizes its identity with her.",
+  "practice": "Worship (puja) of the Goddess in image and geometric yantra, with mantra, animal sacrifice at temples such as Kamakhya and Kalighat, and the great festivals of Durga Puja, Kali Puja, and Navaratri. Tantric streams divide into a 'right-hand' path and a 'left-hand' path, the latter using the transgressive Panchamakara — the 'five Ms,' including wine, meat, and ritual intercourse — to dissolve distinctions of purity. Pilgrimage to the Shakta Pithas, where the Goddess's dismembered body is said to have fallen, and kundalini yoga are also central.",
+  "canon": "The Devi Mahatmya (Durgasaptashati), embedded in the Markandeya Purana, is the foundational scripture; also central are the Devi Bhagavata and Kalika Puranas, the Shakta Tantras (Kularnava, Mahanirvana), and the Bengali devotional poetry of Ramprasad Sen.",
+  "reflects": "The supreme conceived as female and dynamic — power placed ahead of the static absolute, and the sacred extended to the biological, the fierce, and the impure.",
+  "sources": [
+   "David Kinsley, 'Hindu Goddesses' (1986)",
+   "David Kinsley, 'Tantric Visions of the Divine Feminine: The Ten Mahāvidyās' (1997)",
+   "June McDaniel, 'Offering Flowers, Feeding Skulls: Popular Goddess Worship in West Bengal' (2004)"
+  ]
+ },
+ "shinto": {
+  "essence": "The indigenous religion of Japan, the 'way of the kami' — a diffuse, decentralized web of deities and spirits (kami) immanent in nature, ancestors, and place, with no founder, no creed, and no single scripture. Practiced by a large share of the Japanese population, usually alongside Buddhism, it centers on ritual purity and communal well-being rather than doctrine, and is organized around tens of thousands of shrines (jinja).",
+  "cosmos": "The world is filled with innumerable kami — conventionally 'eight million' — who dwell in mountains, rivers, trees, stones, and remarkable persons. The classical myths of the Kojiki and Nihon Shoki tell of the generative pair Izanagi and Izanami, the birth of the islands, the sun-goddess Amaterasu from whom the imperial line claims descent, and her unruly storm-brother Susanoo. There is no fall and no final judgment; death brings pollution, and the dead may in time become ancestral spirits or kami, so the governing axis is purity against defilement (kegare) rather than sin against righteousness.",
+  "practice": "Worship centers on the shrine and the seasonal festival (matsuri): purification (harae, misogi), offerings, and formal prayer (norito) to secure the kami's blessing, fertility, and protection. Priests tend the enshrined kami, households keep kamidana altars, and rites of passage — Shichi-Go-San, weddings, the new-year hatsumode — mark the calendar. Emphasis falls on ritual correctness, gratitude, and the cleansing of impurity rather than on ethical creed or belief.",
+  "canon": "No revealed scripture; the principal early sources are the eighth-century imperial chronicles Kojiki (712) and Nihon Shoki (720), together with the Engishiki ritual codes and the Man'yōshū.",
+  "reflects": "The holiness of place and purity — the sacred met as immanent presence in the given world and maintained by cleansing, not as rescue from it.",
+  "sources": [
+   "Helen Hardacre, 'Shinto: A History' (2017)",
+   "Sōkyō Ono, 'Shinto: The Kami Way' (1962)",
+   "Thomas P. Kasulis, 'Shinto: The Way Home' (2004)"
+  ]
+ },
+ "shona": {
+  "essence": "The traditional religion of the Shona peoples of Zimbabwe and neighboring Mozambique, built around a withdrawn high god, Mwari (also Musikavanhu, 'creator of people'), and an active hierarchy of ancestral spirits — the family dead (vadzimu) and the royal territorial lion-spirits (mhondoro). It remains widely practiced, frequently within or alongside Christianity.",
+  "cosmos": "Mwari is the supreme creator and source of rain and fertility, historically approached at the oracular cave-shrines of Matonjeni in the Matopo Hills, where a voice is heard on matters of land and statecraft. Beneath the high god the ancestors govern daily life: the vadzimu protect and discipline their descendants, while the mhondoro, spirits of dead chiefs and dynastic founders, hold territorial authority and call the rains through possessed mediums (svikiro). The dead remain present and demanding, and further forces — the avenging ngozi and the wandering, talent-bringing mashave — enforce justice and account for misfortune and skill.",
+  "practice": "Religion turns on maintaining right relations with the ancestors through libations of beer, offerings, and remembrance, and on resolving affliction with diviner-healers (n'anga) who trace it to ancestral displeasure, witchcraft, or an ngozi. The central communal rite is the all-night bira, in which interlocking mbira music and dance draw the ancestors down to possess their mediums and speak. Moral conduct and restitution are religiously enforced, an ngozi being satisfied only by heavy public compensation.",
+  "canon": "Oral — praise poetry, ancestral invocation, and mbira song — documented ethnographically by Gelfand, Bourdillon, Daneel, and Lan.",
+  "reflects": "The living governed by their dead — political and ecological authority leased from the ancestors, while the high god remains audible but remote.",
+  "sources": [
+   "Michael Gelfand, 'Shona Religion' (1962)",
+   "M. F. C. Bourdillon, 'The Shona Peoples' (1976)",
+   "David Lan, 'Guns and Rain: Guerrillas and Spirit Mediums in Zimbabwe' (1985)",
+   "M. L. Daneel, 'The God of the Matopo Hills' (1970)"
+  ]
+ },
+ "sikh": {
+  "essence": "A monotheistic religion founded by Guru Nanak (1469–1539) in the Punjab and developed through a line of ten Gurus, holding that there is one formless, genderless creator (Ik Onkar, Waheguru) immanent in all things. With some 25–30 million adherents worldwide, it teaches liberation through devotion to the divine Name, honest labor, and service, and rejects caste, idolatry, empty ritual, and priestly hierarchy.",
+  "cosmos": "One eternal, self-existent God creates and pervades a cosmos ordered by the divine will (hukam), and takes no incarnations — the aim is not that God descend but that the human ascend to merge with the divine already within. The soul passes through many births under karma; bound by egoism (haumai) and the 'five thieves,' it wins liberation by grace and by remembrance of the Name (nam simran), not by asceticism or withdrawal from the world.",
+  "practice": "Worship centers on the gurdwara and the scripture itself — congregational singing of its hymns (kirtan), meditation on the Name, and the ethic of honest work and sharing. The free communal kitchen (langar), where all sit and eat together as equals, enacts the rejection of caste. Initiated members of the Khalsa, instituted by Guru Gobind Singh in 1699, keep the code of the Five Ks and the ideal of the 'saint-soldier,' binding spiritual devotion to the defense of justice (miri-piri).",
+  "canon": "The Guru Granth Sahib — compiled by Guru Arjan as the Adi Granth (1604) and installed by Guru Gobind Singh in 1708 as the eternal Guru — gathering the hymns of the Sikh Gurus and of Hindu and Muslim saints; supplemented by the Dasam Granth and the Rahit codes of conduct.",
+  "reflects": "The formless One approached through the Word — devotion fused with social equality, and liberation sought inside worldly and political life rather than in flight from it.",
+  "sources": [
+   "W. H. McLeod, 'Sikhism' (1997)",
+   "Pashaura Singh & Louis E. Fenech (eds.), 'The Oxford Handbook of Sikh Studies' (2014)",
+   "Eleanor Nesbitt, 'Sikhism: A Very Short Introduction' (2005)"
+  ]
+ },
+ "slavic": {
+  "essence": "The pre-Christian religion of the Slavic peoples of eastern and southeastern Europe, from the first millennium CE until Christianization — the baptism of Kievan Rus in 988 and the gradual conversion of the rest. No native account survives, so it must be reconstructed from Byzantine, Arab, and Latin chronicles, later East-Slavic sermons against paganism, place-names, folklore, and comparative Indo-European evidence.",
+  "cosmos": "The evidence is fragmentary and no unified system is securely attested. At its head stands a thunder-god, Perun — heir to the Indo-European storm-deity *Perkʷūnos — whose reconstructed adversary is the serpentine, cattle-and-underworld god Veles; the Rus' Primary Chronicle records Prince Vladimir erecting a pantheon at Kiev in 980 (Perun, Khors, Dazhbog, Stribog, Simargl, and the goddess Mokosh). Scholars posit an opposition of sky and underworld and a strong ancestor cult, but a coherent doctrine of the afterlife is not reliably preserved.",
+  "practice": "Worship centered on open-air sanctuaries, carved idols, and sacred groves, springs, and hilltops, with sacrifice and seasonal feasts tied to the farming year. The best-described institution is the western, Baltic-Slavic temple cult — the sanctuary of Sventovit at Arkona on Rügen, with its great idol and oracle, destroyed by the Danes in 1168. Ancestor veneration and household spirits persisted for centuries beneath official Christianity as folk custom.",
+  "canon": "None native; the sources are external and later — the Rus' Primary Chronicle, Procopius, Ibn Fadlan, Thietmar of Merseburg, and Saxo Grammaticus and Helmold on the Baltic Slavs — supplemented by anti-pagan sermons and by ethnographic folklore.",
+  "reflects": "A faith known almost only from the outside — the storm-god at the summit and the long afterlife of ancestral and seasonal custom beneath an imposed Christianity.",
+  "sources": [
+   "Judith Kalik & Alexander Uchitel, 'Slavic Gods and Heroes' (2019)",
+   "Aleksander Gieysztor, 'Mitologia Słowian' (1982)",
+   "Marija Gimbutas, 'The Slavs' (1971)"
+  ]
+ },
+ "sol-invictus": {
+  "essence": "The late Roman state cult of the 'Unconquered Sun,' raised to supreme imperial deity by the emperor Aurelian in 274 CE. A form of solar henotheism — one paramount sun-god presiding over the older pantheon — it drew together earlier Roman sun-worship, Greek Helios, and Syrian solar cults, and served the emperors of the third and fourth centuries as an ideology of unity and divinely granted victory.",
+  "cosmos": "Sol Invictus is the supreme celestial sovereign — source of light, order, and imperial power — driving his four-horse chariot across the sky. Late-antique solar theology, as in the emperor Julian's Hymn to King Helios and in Macrobius, treated the Sun as the visible center into which the many gods could be resolved, a monotheizing tendency inside polytheism. The cult was public and political rather than a developed doctrine of the soul, though its solstice imagery of the sun reborn carried an implicit promise of renewal.",
+  "practice": "An official cult run by a new college of senatorial priests (pontifices Dei Solis) founded by Aurelian, with a great temple at Rome, public games, and the festival Dies Natalis Solis Invicti on 25 December — recorded in the Chronograph of 354 — marking the sun's rebirth after the winter solstice. Emperors wore the radiate solar crown and struck coinage naming Sol their divine companion (SOLI INVICTO COMITI, prominent under Constantine). The soldiers' mystery cult of Mithras, worshipped as Sol Invictus, ran alongside as a separate, initiatory current.",
+  "canon": "No scripture; the cult is reconstructed from coinage and inscriptions, the Chronograph of 354, Julian's Oration to King Helios, the Historia Augusta, and the historians Zosimus and Herodian.",
+  "reflects": "A monotheizing pull inside polytheism — the one supreme light identified with the sovereign, a solar unity that helped ease the empire toward a single god.",
+  "sources": [
+   "Steven E. Hijmans, 'Sol: The Sun in the Art and Religions of Rome' (2009)",
+   "Gaston H. Halsberghe, 'The Cult of Sol Invictus' (1972)",
+   "Robert Turcan, 'The Cults of the Roman Empire' (1996)"
+  ]
+ },
+ "spiritualism": {
+  "essence": "A modern religious movement, dated from the 'spirit rappings' reported by the Fox sisters at Hydesville, New York, in 1848, holding that the human personality survives bodily death and that the living can communicate with the dead through gifted mediums. It swept the nineteenth-century United States and Britain, fusing a purported empirical 'proof' of survival with a liberal, anti-Calvinist theology of endless progress.",
+  "cosmos": "There is no final judgment, no heaven of static worship, and no hell of punishment; at death the personality passes to the bright, Earth-like 'Summerland' and continues to evolve morally and intellectually forever through ascending spheres — the doctrine of 'eternal progression.' God is recast as an impersonal, benevolent 'Infinite Intelligence' or lawful cosmic mind rather than a wrathful, intervening deity. The dead remain near and reachable.",
+  "practice": "The characteristic rite is the séance — sitters gathered, often in dim light, around a medium who produces messages by raps, trance-speech, automatic writing, or, in 'physical mediumship,' materializations and ectoplasm. Organized Spiritualist churches hold services of hymns, lectures, and platform demonstrations of mediumship, together with spirit healing and guidance. Authority rests on phenomena rather than creed, and the movement was tightly bound to nineteenth-century reform, especially abolition and women's rights.",
+  "canon": "No single scripture; foundational are the writings of Andrew Jackson Davis (from 'The Principles of Nature,' 1847), Emma Hardinge Britten's 'Seven Principles' and 'Modern American Spiritualism' (1870), and, for the allied French Spiritism, Allan Kardec's 'The Spirits' Book' (1857).",
+  "reflects": "Death domesticated and revelation democratized — survival turned into a do-it-yourself demonstration, and the afterlife remade as endless self-improvement.",
+  "sources": [
+   "Ann Braude, 'Radical Spirits: Spiritualism and Women's Rights in Nineteenth-Century America' (1989)",
+   "Janet Oppenheim, 'The Other World: Spiritualism and Psychical Research in England, 1850–1914' (1985)",
+   "Molly McGarry, 'Ghosts of Futures Past: Spiritualism and the Cultural Politics of Nineteenth-Century America' (2008)"
+  ]
+ },
+ "stoicism": {
+  "essence": "A Hellenistic philosophical school founded by Zeno of Citium in Athens around 300 BCE and later hugely influential at Rome, teaching that the good life is life 'according to nature' — that is, according to reason — so that virtue is the only true good and the destructive passions are to be uprooted. As much a way of life and a religion of reason as a philosophy, it held that a rational, providential divine principle pervades and orders the entire cosmos.",
+  "cosmos": "The universe is a single living, rational, thoroughly material organism, pervaded by an active fiery breath (pneuma) that is the immanent divine reason (Logos), identified with Zeus and with Nature itself; passive matter is its complement. All things unfold by an unbroken chain of fate (heimarmene) identical with providence, and the cosmos periodically dissolves into divine fire (ekpyrosis) to be reborn in an exactly identical cycle. The human soul is a fragment of this cosmic fire and, at death, survives at most until the next conflagration before dispersing back into the whole.",
+  "practice": "Its discipline is ethical self-training: schooling the ruling faculty (hegemonikon) to judge rightly, sharply distinguishing what is 'up to us' — our judgments and choices — from what is not — body, wealth, reputation, fortune — and so reaching freedom from the passions (apatheia) and willing acceptance of fate. It prescribed daily self-examination and the exercises later called 'spiritual exercises,' and grounded a cosmopolitan ethic in which all rational beings are fellow-citizens of a single world-city.",
+  "canon": "The early Stoa (Zeno, Cleanthes, Chrysippus) survives only in fragments and reports — Diogenes Laertius Book VII, Stobaeus, Cicero — while the extant primary works are Roman: Seneca's letters and essays, Epictetus's Discourses and Handbook, and Marcus Aurelius's Meditations, alongside Cleanthes' Hymn to Zeus.",
+  "reflects": "Providence identified with natural law — the sacred as the rational order of the whole, and salvation as aligning one's own reason and will with it.",
+  "sources": [
+   "A. A. Long & D. N. Sedley, 'The Hellenistic Philosophers' (1987)",
+   "A. A. Long, 'Hellenistic Philosophy: Stoics, Epicureans, Sceptics' (1974)",
+   "John Sellars, 'Stoicism' (2006)"
+  ]
+ },
+ "stregheria": {
+  "essence": "A modern form of 'Italian witchcraft' whose textual root is Charles G. Leland's 'Aradia, or the Gospel of the Witches' (1899), which claimed to record a surviving pagan witch-religion of the Tuscan peasantry centered on the goddess Diana, her brother-consort Lucifer, and their daughter, the witch-messiah Aradia. Revived and reworked in late-twentieth-century America — notably by Raven Grimassi — it presents itself as 'la Vecchia Religione,' the Old Religion of Italy, though its claim to unbroken pagan descent is disputed by scholars.",
+  "cosmos": "In Leland's gospel Diana is the primal goddess of night from whom all creation springs; dividing herself into darkness and light, she seduces the light-bearer Lucifer and bears Aradia, who is sent to earth to teach the oppressed the arts of witchcraft against their lords and priests. Modern Stregheria elaborates this into a broadly animistic, immanent nature-religion with ancestral spirits (the Lasa, or Fatae) and lunar and seasonal powers. Belief in the malocchio, the evil eye, and its remedies is continuous with genuine Italian folk practice.",
+  "practice": "Contemporary practitioners keep seasonal Sabbats (the treguenda), honor the goddess and the ancestral Old Ones, and work folk-magical and protective rites — much of it continuous with real Italian and Italian-American custom, from charms against the evil eye and the cornicello horn to herb- and saint-lore. Groups are typically small and initiatory, in the manner of modern Pagan witchcraft.",
+  "canon": "Charles G. Leland's 'Aradia, or the Gospel of the Witches' (1899) and his 'Etruscan Roman Remains in Popular Tradition' (1892); in the revival, the books of Raven Grimassi, such as 'Italian Witchcraft' (2000).",
+  "reflects": "A modern religion assembled from a contested folklore text — pagan survival asserted as continuous lineage, and witchcraft reimagined as the sacred resistance of the oppressed.",
+  "sources": [
+   "Sabina Magliocco, 'Witching Culture: Folklore and Neo-Paganism in America' (2004)",
+   "Ronald Hutton, 'The Triumph of the Moon: A History of Modern Pagan Witchcraft' (1999)",
+   "Sabina Magliocco, 'Who Was Aradia? The History and Development of a Legend' (2002)"
+  ]
+ },
+ "subud": {
+  "essence": "An international spiritual movement founded on the experience of the Javanese Muhammad Subuh Sumohadiwidjojo ('Bapak,' 1901–1987), who from 1925 reported receiving a spontaneous inner spiritual force that he could transmit to others. Named 'Subud' (from Susila Budhi Dharma) and spread worldwide from the late 1950s, it is less a religion demanding conversion than a practice — the latihan kejiwaan — that members undertake while keeping their existing faiths.",
+  "cosmos": "Subud offers experience rather than dogma: a living power of God, or Great Life Force, felt as a kind of vibration, surrounds and penetrates all things and, once the thinking mind and desires are set aside, purifies the person directly. Bapak's talks map existence into seven ascending 'life forces' — from the material, vegetable, and animal up through the human and higher spiritual levels — drawn from Sufi and Javanese psychology. The aim is the progressive purification of the soul and its right ordering under the awakened human spirit.",
+  "practice": "The core exercise is the latihan, done in group sessions (men and women separately), usually twice a week: members stand, relax, and surrender, letting spontaneous movement, sound, and feeling arise with no direction, technique, mantra, or teacher. Entry is by the 'Opening,' facilitated by experienced 'Helpers' who are explicitly peers rather than clergy; a focused form called 'Testing' applies the same surrender to receive guidance on practical decisions. There is no scripture-based liturgy and no fixed creed beyond right living, and members are encouraged to retain their prior religion.",
+  "canon": "Bapak's book 'Susila Budhi Dharma' (1956) and his many transcribed talks; J. G. Bennett's 'Concerning Subud' (1958) introduced the movement to the West.",
+  "reflects": "Surrender as method — the divine treated as an active force met by the emptying of the will, transmitted person-to-person and deliberately detached from any single creed.",
+  "sources": [
+   "Antoon Geels, 'Subud and the Javanese Mystical Tradition' (1997)",
+   "J. Gordon Melton, 'Encyclopedic Handbook of Cults in America' (1992)",
+   "J. G. Bennett, 'Concerning Subud' (1958)"
+  ]
+ },
+ "swedenborgian": {
+  "essence": "The Christian tradition based on the theological writings of the Swedish scientist and visionary Emanuel Swedenborg (1688–1772), who from 1745 claimed his spiritual senses were opened to see heaven, hell, and the spiritual world directly. Organized after his death as the 'New Church' (the Church of the New Jerusalem, from the late 1780s in England), it is a small body teaching a non-Trinitarian Christianity in which God is one divine person, Jesus Christ in his glorified Divine Human.",
+  "cosmos": "God is one — infinite Divine Love and Divine Wisdom — radiating like a spiritual sun; the natural world is a system of 'correspondences,' an outward projection of spiritual realities, so that scripture and nature alike carry an inner meaning. At death everyone passes through an intermediate 'World of Spirits' where the outer self is stripped away to reveal the innermost 'ruling love,' and souls then freely enter heaven or hell — no one is cast down by God — according to what they most love. Heaven appears before the Lord as one vast human form, the Maximus Homo, and true marriage love may continue eternally.",
+  "practice": "The New Church is a worshipping Christian body, with baptism, the Holy Supper, preaching, and an ordained ministry, but its distinctive discipline is inward and doctrinal: reading Swedenborg's works as authoritative revelation, interpreting the Bible by its 'internal sense' through the doctrine of correspondences, and pursuing regeneration — the lifelong reshaping of one's ruling love toward love of God and neighbor, expressed as useful work (charity). Its cultural influence, from William Blake to the American frontier missionary John Chapman ('Johnny Appleseed'), has far outrun its formal membership.",
+  "canon": "Swedenborg's Latin theological works — above all 'Arcana Coelestia' (1749–56), 'Heaven and Hell' (1758), 'Divine Love and Wisdom' (1763), 'Conjugial Love' (1768), and 'True Christian Religion' (1771) — read together with the Bible.",
+  "reflects": "Revelation as system and cipher — the visible world read as a code of the spiritual, and heaven and hell relocated from external verdict to the soul's own ruling love.",
+  "sources": [
+   "Ernst Benz, 'Emanuel Swedenborg: Visionary Savant in the Age of Reason' (2002)",
+   "Lars Bergquist, 'Swedenborg's Secret' (2005)",
+   "Marguerite Beck Block, 'The New Church in the New World' (1932)"
+  ]
+ },
+ "taino": {
+  "essence": "The religion of the Taíno, the Arawak-speaking peoples of the Greater Antilles — Hispaniola, Cuba, Puerto Rico, Jamaica, and the Bahamas — as it stood when Columbus arrived in 1492. It centered on zemís (cemís): both ancestral and nature spirit-powers and the carved idols that housed them. Shattered by conquest and disease within decades, it is known chiefly from a single early account and is claimed today by Taíno revival movements.",
+  "cosmos": "A supreme sky-dwelling zemí, Yúcahu — invisible, immortal, and said to have 'a mother but no father' — gives cassava (yuca) and the sea; his mother is Atabey, goddess of fresh water, the moon, and childbirth. The female zemí Guabancex looses the hurricane (from whose Antillean name the word descends) with her thunder- and flood-heralds. Humankind emerged from a cave, Cacibajagua, and the dead — the opía, known by their missing navel — dwell in Coaybay under the lord Maquetaurie Guayaba, hiding by day and roaming by night to eat guava and mingle with the living.",
+  "practice": "Sacred power ran through the zemís, owned and inherited by chiefs (caciques) and kept as figures of wood, stone, cotton, or shell that were fed, consulted, and said to speak. Its central rite was cohoba: the behique (shaman) or cacique purged and then inhaled a hallucinogenic snuff (from Anadenanthera seeds) through a forked tube from a zemí-held platform, entering trance to diagnose illness and consult the spirits. The ball-game (batey) and the areíto — communal song-dances recounting myth and genealogy — were also central acts.",
+  "canon": "Oral, and almost entirely filtered through one text — the 'Relación acerca de las antigüedades de los indios' of Fray Ramón Pané (c. 1498), the first ethnography written in the Americas — supplemented by Peter Martyr, Las Casas, and Oviedo, and by surviving carved cemís and cohoba paraphernalia.",
+  "reflects": "Divinity localized in matter — the idol that is not a symbol of a god but the god's own dwelling, a power that must be fed and that answers aloud.",
+  "sources": [
+   "Fray Ramón Pané (José Juan Arrom, ed.), 'Relación acerca de las antigüedades de los indios' (c. 1498; crit. ed. 1974)",
+   "Antonio M. Stevens-Arroyo, 'Cave of the Jagua: The Mythological World of the Taínos' (1988)",
+   "Irving Rouse, 'The Tainos: Rise and Decline of the People Who Greeted Columbus' (1992)"
+  ]
+ },
+ "taoism-religious": {
+  "essence": "The organized, liturgical religion of the Dao (Daojiao), as distinct from the philosophical 'school of the Dao' (Daojia), traditionally founded when Zhang Daoling established the Way of the Celestial Masters in 142 CE in Sichuan after a revelation from the deified Laozi. Practiced across China, Taiwan, and the Chinese diaspora, it survives chiefly in two ordination lineages — the householder-priest Zhengyi (Celestial Masters) and the monastic Quanzhen. Its central claim is that the cosmos is a vast administrative order of the Dao that trained ritualists can petition, command, and align with to heal, exorcise, and win immortality.",
+  "cosmos": "All things emanate from the Dao through three primordial breaths personified as the Three Pure Ones, and the manifest cosmos is run as a celestial bureaucracy under the Jade Emperor, spanning heavens, earth, and underworld. The human being houses multiple souls and is itself a microcosm; at death the registers of the dead claim the ordinary person, but the adept aims to escape them and become a xian (transcendent), whether by earning celestial office or by refining an 'immortal embryo' through internal alchemy (neidan). Morality is audited by cosmic bureaus that lengthen or shorten the lifespan according to merit and transgression.",
+  "practice": "Ordained priests (daoshi) perform communal liturgies — the jiao offering of cosmic renewal, zhai retreats, exorcisms, and funerals — deploying talismans (fu), spirit-registers (lu), and written memorials filed to the celestial administration. Alongside these run temple cults, festival processions, and individual cultivation: meditation, breath and dietary regimens, and internal alchemy. Zhengyi priests are hereditary married householders, while Quanzhen clergy are celibate monastics.",
+  "canon": "The Daozang (Taoist Canon), the great collection assembled across dynasties (the surviving Ming Zhengtong Daozang of 1445, with over 1,400 texts); its core includes the Daodejing, the Taiping jing, the Shangqing and Lingbao revelations, and the internal-alchemy classics Zhouyi cantong qi and Wuzhen pian.",
+  "reflects": "The bureaucratization of the sacred — heaven imagined as a civil service and salvation pursued through correct ritual paperwork, cosmic rank, and the engineering of one's own immortality.",
+  "sources": [
+   "Isabelle Robinet, 'Taoism: Growth of a Religion' (1997)",
+   "Livia Kohn (ed.), 'Daoism Handbook' (2000)",
+   "Kristofer Schipper, 'The Taoist Body' (1993)"
+  ]
+ },
+ "temple-of-set": {
+  "essence": "A Left-Hand Path initiatory order founded in the United States in 1975 by Michael Aquino and colleagues who broke from Anton LaVey's Church of Satan, rejecting LaVey's atheistic 'Satan as symbol' for the recognition of Set — the ancient Egyptian god reinterpreted as the timeless 'principle of isolate intelligence' — as a real, distinct entity. Its members pursue Xeper (Egyptian 'to come into being'), the deliberate, self-directed evolution of the individual psyche toward self-deification. It is a small, deliberately selective international order.",
+  "cosmos": "Reality is split between the Objective Universe — the natural, deterministic, mechanical cosmos — and the Subjective Universe of individual consciousness. Set is the non-natural intelligence who gave humanity self-awareness, severing it from mindless nature (the 'Gift of Set'), while the entropic drift back toward stasis is figured as Apep. The goal is not dissolution into cosmic unity but the eternal crystallization and expansion of the sovereign self, whose psyche initiation seeks to render capable of surviving death; there is no imposed collective salvation or afterlife dogma.",
+  "practice": "Members advance through a six-degree initiatory system organized in regional 'Pylons,' emphasizing rigorous reading, philosophy, and individual 'Work' rather than congregational worship. Ritual divides into Greater Black Magic (formal working upon the subjective universe to reshape probability) and Lesser Black Magic (psychological and rhetorical influence). Admission and advancement depend on demonstrated intellectual initiative, not mere membership.",
+  "canon": "Aquino's revealed 'The Book of Coming Forth by Night' (1975) and his documentary institutional histories, supported by Don Webb's guides to the Left-Hand Path and Stephen E. Flowers' 'Lords of the Left-Hand Path' (1997).",
+  "reflects": "The sacralization of the sovereign individual — a path that inverts mystical union, making the hardening and apotheosis of the isolate self, not its dissolution, the object of ultimate concern.",
+  "sources": [
+   "Gareth Medway, 'Lure of the Sinister: The Unnatural History of Satanism' (2001)",
+   "Per Faxneld & Jesper Aa. Petersen (eds.), 'The Devil's Party: Satanism in Modernity' (2013)",
+   "Asbjorn Dyrendal, James R. Lewis & Jesper Aa. Petersen, 'The Invention of Satanism' (2016)"
+  ]
+ },
+ "tengrist": {
+  "essence": "The indigenous sky-centered religion of the Turkic and Mongolic peoples of the Central Asian steppe and Siberia, focused on Tengri, the 'Eternal Blue Sky,' attested among the Xiongnu and named explicitly in the 8th-century Old Turkic Orkhon inscriptions. It is less a single creed than a family of related sky-and-ancestor cults spanning two millennia and many peoples; since the 1990s it has been consciously revived as a national 'Tengrism' in parts of Central Asia and Mongolia. Its central claim is that the sky confers fortune and the mandate to rule (kut), mediated between a tiered cosmos by shamans.",
+  "cosmos": "The universe is tiered — an upper sky-world, the middle earth, and a lower underworld — joined by a world-tree or pillar about which the heavens turn on the Pole Star. Tengri presides above; the womb-mother Umai guards birth, and Erlik rules the dead below. Fortune, legitimacy, and the soul itself are all 'kut,' lent by the sky and recallable, so that losing the throne and losing one's life are named by one word; at death the soul may pass to the underworld, escorted or retrieved by the shaman.",
+  "practice": "In the historic period there was no scripture or standing priesthood: cult centered on the ruler's veneration of the sky, sacrifices of horses and libations of mare's milk, and the honoring of ancestors and sacred mountains (Otuken). The specialist is the shaman (Turkic kam, Mongolic boo), who drums into ecstatic trance to travel the three worlds, heal, and divine. An ethic of oath, hospitality, and cosmic order (toru) governs conduct, and modern revivals have added codified festivals and rites.",
+  "canon": "No native scripture; the record is the 8th-century Orkhon and Yenisei runiform inscriptions (Kul Tegin, Bilge Khagan, Tonyukuk), Chinese and Islamic chronicles, the Mongol 'Secret History' (13th century), and 19th-20th-century ethnography of surviving Altai and Siberian practice (Radloff, Anokhin).",
+  "reflects": "The sky as sovereign — the reading of political legitimacy and personal fate alike as a single fortune lent from heaven and withdrawable at its will.",
+  "sources": [
+   "Jean-Paul Roux, 'La religion des Turcs et des Mongols' (1984)",
+   "Uno Harva, 'Die religiosen Vorstellungen der altaischen Volker' (1938)",
+   "Marlene Laruelle, 'Religious Revival, Nationalism and the Invention of Tradition: Political Tengrism in Central Asia and Tatarstan' (2007)"
+  ]
+ },
+ "tenrikyo": {
+  "essence": "A Japanese new religion founded on the revelations of Nakayama Miki (1798-1887), a farming-village woman of Yamato (now Tenri City, Nara Prefecture), who from 1838 became the 'Shrine of Tsukihi,' God's living mouthpiece. One of the largest of Japan's new religions, it is headquartered at the Jiba in Tenri and teaches that a single creator, Oyagami ('God the Parent,' Tenri-O-no-Mikoto), made humanity solely so that all people might attain the 'Joyous Life' (yokigurashi).",
+  "cosmos": "God the Parent created humankind at one exact spot, the Jiba, now marked by the Kanrodai pillar, and lends each person their body while only the mind is their own ('a thing lent, a thing borrowed'). Suffering is not sin but 'dust' (hokori) — eight self-centered states of mind — that clouds the borrowed body and can be swept away by right use of mind and joyful service; illness is read as God's gentle guidance rather than punishment. Death is 'passing away for rebirth,' a laying-down of the borrowed body and return toward the Joyous Life, with no eternal hell.",
+  "practice": "Adherents perform the Service (Otsutome) — above all the masked Kagura Service danced around the Kanrodai, re-enacting creation to sweep away the world's dust — and administer the bestowed healing gesture (sazuke). Devotion centers on pilgrimage 'home to the Jiba,' on hinokishin (voluntary, joyful labor as thanksgiving), and on missionary outreach, organized through a hierarchy of grand, branch, and mission churches.",
+  "canon": "The three scriptures — Nakayama Miki's 'Ofudesaki' (poems, 1869-1882), the 'Mikagura-uta' (the Songs for the Service), and the 'Osashizu' (recorded Divine Directions) — with 'The Doctrine of Tenrikyo' as the official doctrinal statement.",
+  "reflects": "Salvation relocated to this world and this body — the religious goal recast as a collective, embodied joyousness owed to a parent-God whose own happiness depends on that of its children.",
+  "sources": [
+   "Tenrikyo Church Headquarters, 'The Doctrine of Tenrikyo' (1993 ed.)",
+   "Henry van Straelen, 'The Religion of Divine Wisdom' (1957)",
+   "Helen Hardacre, 'Kurozumikyo and the New Religions of Japan' (1986)"
+  ]
+ },
+ "theistic-satanism": {
+  "essence": "A diffuse family of modern Western currents — coalescing from the 1970s and gaining definition in the 1990s-2000s — that venerate Satan/Lucifer and other demonic figures as real, sentient beings, in explicit contrast to Anton LaVey's atheistic, symbolic Satanism. It has no central church, spanning devotional Luciferianism, 'traditional' Demonolatry, and the misanthropic Anti-Cosmic or 'Current 218' schools. Its shared claim is that Satan is a genuine adversary-liberator who grants humanity forbidden knowledge, autonomy, and the potential for self-deification.",
+  "cosmos": "Cosmologies vary widely. Devotional and Luciferian currents cast Satan as a benevolent bringer of the 'Black Flame' — the divine spark of individual consciousness — against a tyrannical creator, and aim at apotheosis, the eternal elevation of the self. Anti-cosmic currents invert Gnostic dualism, treating the ordered material universe as a prison and revering the primordial Chaos (Azerate) that will dissolve it; here the mandate is the world's undoing rather than harmony with it.",
+  "practice": "Practice is largely solitary or in small covens and is autodidactic and text-driven: personal devotion, the evocation of Goetic demons approached as respected allies rather than bound servants, formal pacts of self-dedication, and shadow-work. There is no shared clergy, liturgy, or ethic, and stances range from reverent devotion to transgressive antinomianism.",
+  "canon": "No shared canon; influential modern texts include Michael W. Ford's Luciferian works, S. Connolly's 'The Complete Book of Demonolatry' (2006), and the Temple of the Black Light's 'Liber Azerate' (2002), alongside the reappropriated grimoire the 'Ars Goetia' (part of the 17th-century 'Lesser Key of Solomon').",
+  "reflects": "The moral inversion of the adversary — the impulse to redeem the cosmic rebel, reading the tempter of orthodoxy as the true liberator of the human self.",
+  "sources": [
+   "Ruben van Luijk, 'Children of Lucifer: The Origins of Modern Religious Satanism' (2016)",
+   "Asbjorn Dyrendal, James R. Lewis & Jesper Aa. Petersen, 'The Invention of Satanism' (2016)",
+   "Per Faxneld & Jesper Aa. Petersen (eds.), 'The Devil's Party: Satanism in Modernity' (2013)"
+  ]
+ },
+ "thelema": {
+  "essence": "The religious-magical philosophy proclaimed by the English occultist Aleister Crowley (1875-1947) after he received 'The Book of the Law' (Liber AL vel Legis) in Cairo in April 1904, allegedly dictated by a discarnate intelligence called Aiwass. Its law is 'Do what thou wilt shall be the whole of the Law. Love is the law, love under will,' and its central claim is that each individual has a unique 'True Will' whose discovery and enactment is the sole duty of life. It is carried by the initiatory orders A.'.A.'. and Ordo Templi Orientis (OTO), which Crowley reorganized around it, and remains active worldwide.",
+  "cosmos": "A new 'Aeon of Horus' has succeeded the Aeons of Isis and Osiris, ending the era of self-sacrifice and inaugurating an age of self-realization. The cosmology of Liber AL turns on three deities: Nuit, the infinite star-goddess of all possibility; Hadit, the infinitesimal animating point 'in every heart'; and their child Ra-Hoor-Khuit, martial lord of the Aeon. The Great Work is the union of the magician with the 'Holy Guardian Angel' and the crossing of the Abyss — guarded by the demon of dispersion, Choronzon — to attain the divine.",
+  "practice": "Thelemic practice is 'Magick' — 'the Science and Art of causing Change to occur in conformity with Will' — combined with yoga and rigorous record-keeping; disciplines include the solar adorations of Liber Resh and the solitary Mass of the Phoenix, while OTO's central public rite is the Gnostic Mass (Liber XV). Initiation proceeds through graded degrees, and ethics are individual: sin is defined solely as restriction of, or deviation from, one's True Will.",
+  "canon": "The revealed 'Liber AL vel Legis' (1904) is central; the wider corpus comprises Crowley's 'Holy Books of Thelema,' 'Magick (Liber ABA / Book 4),' 'The Vision and the Voice' (Liber 418), the numbered libri of the A.'.A.'., and the Thoth Tarot.",
+  "reflects": "The absolutizing of individual will — a religion that dissolves universal moral law into each person's unique inner trajectory and sanctifies self-determination itself.",
+  "sources": [
+   "Hugh B. Urban, 'Magia Sexualis: Sex, Magic, and Liberation in Modern Western Esotericism' (2006)",
+   "Marco Pasi, 'Aleister Crowley and the Temptation of Politics' (2014)",
+   "Henrik Bogdan & Martin P. Starr (eds.), 'Aleister Crowley and Western Esotericism' (2012)"
+  ]
+ },
+ "theosophy": {
+  "essence": "The modern esoteric movement founded in New York City in 1875 by Helena Petrovna Blavatsky (1831-1891), Henry Steel Olcott, and William Quan Judge with the establishment of the Theosophical Society, later headquartered at Adyar, India (from 1882). It claims a single 'ancient wisdom-religion' underlying all faiths, preserved and transmitted by hidden adepts, the Mahatmas or 'Masters.' It is the principal taproot of the modern New Age, and its central claim is an evolutionary spiritual science of cosmos and soul held to reconcile religion with science.",
+  "cosmos": "An impersonal, attributeless Absolute (Parabrahm) periodically emanates a cosmos that evolves through immense cycles, consciousness descending into matter and reascending across seven 'Root Races' and planetary 'rounds.' Every being is an immortal Monad — a divine spark — making a vast pilgrimage through the mineral, plant, animal, and human kingdoms under the law of karma and reincarnation, guided by a hierarchy of Masters under Sanat Kumara. There is no eternal heaven or hell, only cyclic rebirth toward eventual reunion with the source.",
+  "practice": "Theosophy is a matter of study and self-cultivation rather than congregational worship, pursued through lodges and the Society's three stated objects: universal brotherhood without distinction, the comparative study of religion, philosophy, and science, and the investigation of unexplained natural laws and latent human powers. It encourages ethical self-refinement, meditation, and often vegetarianism, with no priesthood or sacrament.",
+  "canon": "Blavatsky's 'Isis Unveiled' (1877) and 'The Secret Doctrine' (1888, built on the 'Stanzas of Dzyan'), her 'The Key to Theosophy' and 'The Voice of the Silence' (1889), and the 'Mahatma Letters to A. P. Sinnett,' later systematized by Annie Besant and C. W. Leadbeater.",
+  "reflects": "The fusion of religion and science under an evolutionary law — spiritual authority moved from revelation and church to a claimed comparative science of hidden cosmic history.",
+  "sources": [
+   "Olav Hammer, 'Claiming Knowledge: Strategies of Epistemology from Theosophy to the New Age' (2001)",
+   "Bruce F. Campbell, 'Ancient Wisdom Revived: A History of the Theosophical Movement' (1980)",
+   "Joscelyn Godwin, 'The Theosophical Enlightenment' (1994)"
+  ]
+ },
+ "thracian": {
+  "essence": "The pre-Christian religion of the Thracian peoples of the eastern Balkans (roughly modern Bulgaria, northeastern Greece, and European Turkey) and their northern Getic and Dacian kin — a non-literate Indo-European culture known almost entirely through Greek and Roman testimony and archaeology, from the mid-first-millennium BCE into the Roman imperial era. Its best-known figures are the Getic immortality-god Zalmoxis and the near-ubiquitous votive 'Thracian Rider' hero. Its recurring claim, as reported by outsiders, is a promise of blessed personal immortality secured through initiation.",
+  "cosmos": "No systematic cosmology survives, and reconstruction is fragmentary. Herodotus reports that the Getae 'believe themselves immortal,' expecting after death to join the god Zalmoxis — who withdrew into a subterranean chamber and returned — in a blissful realm; some conflated Zalmoxis with the sky-god Gebeleizis. A widespread cult of a chthonic, heroic Rider fused ancestor-veneration, the hunt, and protection of the dead, while ecstatic and mystery cults (Sabazios, Bendis, Kotys, and the Orphic-Dionysian complex) promised initiates a better lot beyond death.",
+  "practice": "What the sources record is rite rather than doctrine: blood sacrifice (including, per Herodotus, the quadrennial hurling of a Getic messenger onto spears and human offerings to a war-god), ecstatic nocturnal rites with music and torches, mountain oracles of Dionysus, and the dedication of thousands of Rider reliefs. The Orphic tradition, rooted in the myth of the Thracian singer Orpheus, produced initiatory poems and inscribed gold 'passport' tablets buried with the dead.",
+  "canon": "No native texts survive; the evidence is external — Herodotus (Histories 4.93-96), Strabo, Plato, and later authors — together with the vast archaeological corpus of Rider reliefs and rich tomb-finds, and the Greek Orphic poems and gold tablets linked to the Thracian Orpheus.",
+  "reflects": "The lure of personal immortality — the frontier where, in Zalmoxis and Orpheus, antiquity produced some of its clearest promises that the initiated soul defeats death.",
+  "sources": [
+   "Mircea Eliade, 'Zalmoxis, the Vanishing God' (1972)",
+   "R. F. Hoddinott, 'The Thracians' (1981)",
+   "Alexander Fol & Ivan Marazov, 'Thrace and the Thracians' (1977)"
+  ]
+ },
+ "transcendental-meditation": {
+  "essence": "A global meditation movement founded by Maharishi Mahesh Yogi (1918-2008), a disciple of the Shankaracharya Swami Brahmananda Saraswati ('Guru Dev'), who began his teaching mission in the mid-1950s and brought a simplified, standardized mantra technique to a mass Western audience — famously amplified by the Beatles' 1968 visit to his Rishikesh ashram. TM presents itself as a secular, scientifically validated technique for accessing 'pure consciousness' rather than a religion, though U.S. courts (Malnak v. Yogi, 1979) found its teaching religious for constitutional purposes.",
+  "cosmos": "TM's metaphysics is drawn from Advaita Vedanta but restated in the idiom of physics: the ground of all being is 'pure consciousness,' which Maharishi and physicist John Hagelin identify with the 'Unified Field' of quantum field theory. In meditation individual awareness settles ('transcends') to this field, and the path leads through higher states of consciousness toward 'unity consciousness.' The framework assumes a Vedic order of reality while marketing its claims as science rather than theology.",
+  "practice": "Initiates receive a private bija (seed) mantra from a certified teacher in a ceremony (puja) honoring the tradition's lineage, then practice silently for twenty minutes twice daily; advanced students take the TM-Sidhi program, including 'Yogic Flying.' The organization runs a worldwide network of centers, Maharishi International University in Fairfield, Iowa, and large 'coherence' assemblies premised on the 'Maharishi Effect' — the claim that group meditation lowers societal stress and conflict. The core discipline is individual and hygienic rather than congregational.",
+  "canon": "TM issues no new scripture; its authority rests on the Vedic tradition, especially the Bhagavad Gita (Maharishi's 1967 commentary on chapters 1-6) and Patanjali's Yoga Sutras (source of the Sidhis), together with Maharishi's 'Science of Being and Art of Living' (1963).",
+  "reflects": "Enlightenment standardized and secularized — a contemplative technique packaged as a replicable, measurable technology, with inner stillness scaled up into a claimed instrument of social order.",
+  "sources": [
+   "Lola Williamson, 'Transcendent in America: Hindu-Inspired Meditation Movements as New Religion' (2010)",
+   "Cynthia Ann Humes, 'Maharishi Mahesh Yogi: Beyond the TM Technique' (2005)",
+   "George D. Chryssides, 'Exploring New Religions' (1999)"
+  ]
+ },
+ "transhumanist-religion": {
+  "essence": "A loose, modern family of movements that give explicitly religious form to the conviction that technology can abolish death and transfigure the human — from Nikolai Fyodorov's 19th-century Russian Cosmism, through cryonics, life-extension, and mind-uploading milieus, to organized bodies such as Terasem, the Turing Church, the Mormon Transhumanist Association, and Anthony Levandowski's short-lived 'Way of the Future' church (2015-2020). There is no single creed; the shared premise is that engineered, expanding intelligence is the rightful heir of the sacred and that mortality is a solvable problem rather than a metaphysical destiny.",
+  "cosmos": "The universe is held to be wholly intelligible and manipulable without appeal to the supernatural, and death is reframed as an engineering failure — a 'Dragon-Tyrant' to be defeated. Branches diverge: Cosmists teach that the living owe a duty to physically resurrect every ancestor; uploaders hold that mind is substrate-independent information (a 'mindfile') that can migrate to durable media; Singularitarians expect an exponential 'Singularity' to birth a post-biological, even godlike, superintelligence; and the Simulation Hypothesis recasts the cosmos as a computation run by advanced engineers. Salvation is technological and this-worldly or post-biological, not otherworldly.",
+  "practice": "Institutions and rites are nascent and heterogeneous: the cryonic suspension of the legally dead (Alcor, the Cryonics Institute) as a 'technological bardo'; the recording of 'mindfiles' and Terasem's meditative affirmations; life-extension research and advocacy (SENS); rationalist and Singularitarian communities; and, in religious hybrids, the folding of these aims into existing faiths. The central ethic is the imperative to extend life and expand cognition.",
+  "canon": "No scripture; foundational texts include Nikolai Fyodorov's posthumous 'The Philosophy of the Common Task' (1906-1913), Robert Ettinger's 'The Prospect of Immortality' (1964), Hans Moravec's 'Mind Children' (1988), Ray Kurzweil's 'The Singularity Is Near' (2005), and Nick Bostrom's paper 'Are You Living in a Computer Simulation?' (2003).",
+  "reflects": "The engineering of transcendence — the hope of resurrection and immortality reclaimed from God and reassigned to human technology as its own eschatological project.",
+  "sources": [
+   "Robert M. Geraci, 'Apocalyptic AI: Visions of Heaven in Robotics, Artificial Intelligence, and Virtual Reality' (2010)",
+   "George M. Young, 'The Russian Cosmists: The Esoteric Futurism of Nikolai Fedorov and His Followers' (2012)",
+   "David F. Noble, 'The Religion of Technology' (1997)"
+  ]
+ },
+ "tswana-sotho": {
+  "essence": "The indigenous religion of the Sotho-Tswana peoples of southern Africa — the Tswana of Botswana and South Africa's North West, the Southern Sotho (Basotho) of Lesotho, and the Northern Sotho (Pedi) — a Bantu-speaking cluster. It centers on a remote supreme being, Modimo, reached only through the badimo (ancestors), and on rain (pula) as the supreme blessing that binds moral order, chiefship, and fertility together. It remains living, though now deeply interwoven with Christianity.",
+  "cosmos": "Modimo is the transcendent, sky-associated source and moral guarantor of the world, described by some scholars less as a personal ruler than as an impersonal, penetrating power (grammatically outside the class of animate beings) that is not directly petitioned. The badimo — the 'living dead,' ancestors in an unbroken hierarchical chain — are the active mediators who release fertility, health, and rain when the community keeps moral harmony and withdraw them (drought, sickness) when it does not. In one tradition humanity emerged from the earth, led out by the culture-hero Matsieng; the dead become ancestors, and misfortune is read as ruptured relationship, diagnosed by divination.",
+  "practice": "Religion is enacted through ancestral offerings, feasts, and beer libations; through divination by the ditaola bones cast by the ngaka (diviner-healer) to diagnose moral and social disorder; and, above all, through rainmaking (go roka pula) by a chief-rainmaker (moroka) whose success was tied to political legitimacy. Male and female initiation schools (bogwera and bojale) transmitted law and adulthood, and the cardinal ethic is communal and relational, with witchcraft (boloi) as its antisocial inversion.",
+  "canon": "An oral tradition of clan praise-poetry (diboko), myth, proverb, and ritual speech, with no scripture; the scholarly record rests on 19th-20th-century missionary and anthropological documentation.",
+  "reflects": "The ancestors as the working joints of the sacred — a cosmos where a distant high god is met only through the moral chain of the dead, and rain is the visible ledger of the community's righteousness.",
+  "sources": [
+   "Gabriel M. Setiloane, 'The Image of God Among the Sotho-Tswana' (1976)",
+   "Isaac Schapera, 'Rainmaking Rites of Tswana Tribes' (1971)",
+   "John S. Mbiti, 'African Religions and Philosophy' (1969)"
+  ]
+ },
+ "tupi": {
+  "essence": "The religious traditions of the Tupi-Guarani-speaking peoples of lowland South America — the coastal Tupinamba of Brazil met at European contact and the Guarani of Paraguay, southern Brazil, and northeastern Argentina, many of whose communities survive. Reconstructed from 16th-century missionary and traveler accounts and 19th-20th-century ethnography, it centers on a creator who makes by speech (Namandu / Nhanderuvusu, 'Our First Father'), on powerful shaman-prophets (karai, paje), and on the search for the deathless 'Land-Without-Evil.' Its distinctive Guarani claim is that each person's 'word-soul' is a share of the divine and that the perfected can reach paradise in the living body.",
+  "cosmos": "In the recorded Mbya-Guarani high cosmogony, the First Father unfolds himself out of primeval darkness and creates by first inventing sacred language, before raising the earth; every child receives a divine 'word-soul' (ne'e) that is their true name and portion of god. The world is layered and menaced by a coming destruction of fire and flood, whose remedy is the yvy mara e'y, a real earthly paradise without death reached by migration. Lesser powers include Tupa the thunder and forest-guardians (Kurupira, Anhanga) who punish excess in the hunt; the dead may wander as anga.",
+  "practice": "Shamanism is central: the karai and paje sing, dream, cure, and prophesy, and prophetic leaders periodically summoned whole communities to abandon their fields and walk toward the Land-Without-Evil, in historic eastward migrations that sometimes ended at the sea. Worship is above all sung and danced (the sacred hymn; the modern Guarani prayer-house, opy), while the Tupinamba also practiced ritual anthropophagy of war-captives as a religious act of vengeance and honor.",
+  "canon": "Oral: the salvaged Mbya esoteric hymns of Leon Cadogan's 'Ayvu Rapyta' (1959), Curt Nimuendaju's Apapocuva-Guarani texts (1914), early colonial testimony (Jose de Anchieta, Jean de Lery, Andre Thevet), and the Jurupari epic set down by Stradelli (1890).",
+  "reflects": "Creation and salvation as speech and journey — a religion in which the world is sung into being and paradise is walked toward on the earth rather than awaited after death.",
+  "sources": [
+   "Alfred Metraux, 'La religion des Tupinamba et ses rapports avec celle des autres tribus tupi-guarani' (1928)",
+   "Helene Clastres, 'La Terre sans Mal: le prophetisme tupi-guarani' (1975)",
+   "Leon Cadogan, 'Ayvu Rapyta: textos miticos de los Mbya-Guarani del Guaira' (1959)"
+  ]
+ },
+ "ufo-religions": {
+  "essence": "A modern family of new religious movements, emerging after the 1947 'flying saucer' era, that recast gods, angels, and salvation in the idiom of extraterrestrials and spaceflight. The grouping spans several distinct organizations: the Aetherius Society (George King, London, 1955); Heaven's Gate (Marshall Applewhite and Bonnie Nettles, USA, from 1972, which ended in the 1997 suicide of 39 members near San Diego); and the International Raelian Movement (Claude Vorilhon, 'Rael,' France, 1974). They share no creed; the common move is to demythologize religion into advanced technology and interstellar contact.",
+  "cosmos": "Each group's worldview differs. Raelism holds that all terrestrial life was created in laboratories by an extraterrestrial species, the Elohim, whom the ancients mistook for God, and offers immortality through future cloning rather than a soul. Heaven's Gate taught that the human body is a disposable 'vehicle' and Earth a garden tended by 'the Next Level' (TELAH), which its members could reach by shedding the body to board a craft. The Aetherius Society places benevolent 'Cosmic Masters' on the higher planes of nearby planets, guiding Earth's karmic evolution; across the family, salvation is a physical or evolutionary ascent off-world rather than a spiritual heaven.",
+  "practice": "Practices are group-specific: Aetherius members conduct 'spiritual energy' operations, charging and discharging holy mountains and 'prayer batteries'; Raelians hold sensual meditation, campaign to build an 'Embassy' to receive the Elohim, and undergo a 'transmission of the cellular plan'; Heaven's Gate lived as a celibate, ascetic communal 'crew.' Ethical stances range from active world-service to radical world-renunciation.",
+  "canon": "Group-specific writings: Rael's 'The Book Which Tells the Truth' (1974) and the collected 'Intelligent Design: Message from the Designers'; George King's channeled teachings (e.g. 'The Nine Freedoms'); and Heaven's Gate's website, videotapes, and posted statements.",
+  "reflects": "The re-enchantment of the machine age — the impulse to relocate creators, angels, and the afterlife into outer space and technology, and to read scripture as a garbled record of alien contact.",
+  "sources": [
+   "Christopher Partridge (ed.), 'UFO Religions' (2003)",
+   "Benjamin E. Zeller, 'Heaven's Gate: America's UFO Religion' (2014)",
+   "Susan J. Palmer, 'Aliens Adored: Rael's UFO Religion' (2004)"
+  ]
+ },
+ "umbanda": {
+  "essence": "A Brazilian mediumistic religion that took shape in the early 20th century — its own tradition dating the founding to a 1908 event near Rio de Janeiro involving the medium Zelio Fernandino de Moraes — by synthesizing Kardecist Spiritism, Roman Catholicism, and Afro-Brazilian (Yoruba Orixa and Bantu) traditions with Indigenous elements. Widespread across Brazil and the Southern Cone, its defining act is spirit incorporation performed as free charity (caridade).",
+  "cosmos": "A remote creator (Olorum, also called Zambi) presides over a hierarchy of Orixas — here largely aligned with Catholic saints and with Kardecist 'vibrational lines' — beneath whom work ranks of disembodied human spirits at differing stages of moral evolution: the wise Pretos Velhos (spirits of old enslaved Africans), the Caboclos (Indigenous warrior-spirits), child-spirits, and the liminal crossroads-spirits Exu and Pomba Gira. From Spiritism, souls reincarnate and evolve across many lives; the elevated spirits dwell in the luminous Aruanda, and suffering is karmic and remediable through charitable spirit-work.",
+  "practice": "Worship centers on the gira, a session in a terreiro where white-clad, drummed mediums sing invocations (pontos) to incorporate the guiding spirits, who then give free consultations, healings, and 'passes.' Offerings, herbal baths, and the ritual use of tobacco and cachaca for certain spirits, together with the training of mediumship, structure the community; the cardinal ethic is caridade, selfless charity. Houses range along a spectrum from 'whiter' (more Kardecist and Catholic) to more Africanized practice.",
+  "canon": "No single scripture: an oral and musical corpus of sung pontos and ritual practice, framed by Allan Kardec's Spiritist works (e.g. 'The Spirits' Book,' 1857) and codified in various 20th-century Umbandist manuals, with authority resting in the terreiro and its spirit-guides.",
+  "reflects": "The inversion of social hierarchy in the sacred — a religion whose most venerated authorities are the spirits of the enslaved, the colonized, and the outcast, and whose worship is dispensed as free healing.",
+  "sources": [
+   "Diana DeG. Brown, 'Umbanda: Religion and Politics in Urban Brazil' (1986)",
+   "Roger Bastide, 'The African Religions of Brazil' (1978)",
+   "Lindsay Hale, 'Hearing the Mermaid's Song: The Umbanda Religion in Rio de Janeiro' (2009)"
+  ]
+ },
+ "unitarian-universalist": {
+  "essence": "A liberal, creedless, congregational religion formed in the United States in 1961 by the merger of the American Unitarian Association and the Universalist Church of America into the Unitarian Universalist Association (UUA), headquartered in Boston. It descends from two Reformation-era 'heresies' about God — Unitarianism (rejecting the Trinity) and Universalism (rejecting eternal hell) — whose roots reach back to the 16th-century Polish Brethren and Transylvanian Unitarians. Congregations are bound not by shared belief but by covenant: a set of shared values and a 'free and responsible search for truth and meaning.'",
+  "cosmos": "There is no required cosmology; members range from theists and Christians to humanists, pagans, and atheists. The shared inheritance is anti-Calvinist: human nature is deemed fundamentally worthy rather than depraved ('inherent worth and dignity'), and, from Universalism, a benevolent order reconciles all souls, dissolving hell. Transcendentalism added the 'Over-Soul,' a divine immanence in nature and conscience; beliefs about death are left to the individual, and the tradition's weight falls on this-worldly ethics rather than the afterlife.",
+  "practice": "Worship is congregational and covenantal: Sunday services with sermon and music, opened by the lighting of the flaming chalice, plus signature rituals such as the autumn Water Communion and the spring Flower Communion. Governance is democratic and congregational, ministers hold no sacerdotal power, and a strong ethos of social-justice action ('deeds not creeds') treats organizing and advocacy as applied worship.",
+  "canon": "No scripture and no creed; the touchstone documents are the UUA's 'Principles and Purposes' (the Seven Principles and Six Sources, adopted 1985) and a heritage of texts drawn on as sources — William Ellery Channing's 'Unitarian Christianity' (1819), Hosea Ballou's 'A Treatise on Atonement' (1805), and Emerson's essays.",
+  "reflects": "Covenant without creed — the impulse to sustain a worshipping community bound by shared practice and ethics rather than shared doctrine, treating truth as an open horizon rather than an inherited deposit.",
+  "sources": [
+   "David Robinson, 'The Unitarians and the Universalists' (1985)",
+   "Mark W. Harris, 'Historical Dictionary of Unitarian Universalism' (2004)",
+   "Charles A. Howe, 'The Larger Faith: A Short History of American Universalism' (1993)"
+  ]
+ },
+ "urantia": {
+  "essence": "A modern channeled-scripture movement built around The Urantia Book, a roughly 2,000-page volume first published in 1955 that presents itself as authored by celestial beings and revealed to a study circle (the 'Forum') gathered in Chicago around the psychiatrist William S. Sadler in the 1920s and 1930s. It teaches an immense hierarchical cosmology headed by the Universal Father, places Earth ('Urantia') as one inhabited planet among a trillion, and recasts Jesus of Nazareth as Michael of Nebadon, a 'Creator Son.' Its adherents form a dispersed reading-and-study movement rather than a congregational church.",
+  "cosmos": "Reality centers on the eternal, stationary Isle of Paradise, the literal gravitational and geographic center of a 'master universe' of concentric, graded domains inhabited by trillions of celestial beings. Every normal human mind is indwelt by a Thought Adjuster, an uncreated fragment of God; at death, survivors ascend across billions of years through successive 'mansion worlds' toward Paradise. History is shaped by a past celestial rebellion (Lucifer, Caligastia) that placed Earth under spiritual quarantine, while the evolving 'Supreme Being' grows through the summed experience of all finite creatures.",
+  "practice": "There is no priesthood, sacrament, or obligatory ritual; the movement centers on private and small-group study of the text, historically spread through reading groups and the institutions founded in 1950 (the Urantia Foundation and the affiliated Urantia Brotherhood). It asks an ethic of progressive spiritual growth, doing 'the will of God,' and inner communion with the indwelling Adjuster. Organizationally it is decentralized and has been marked by disputes over copyright and authority.",
+  "canon": "The Urantia Book (first published 1955 by the Urantia Foundation), a single revealed volume of 196 'papers' in four parts; the tradition treats it as its complete scripture.",
+  "reflects": "It foregrounds the modern impulse to fuse science and scripture into one encompassing system, rescaling revelation to an astronomical, evolutionary cosmos.",
+  "sources": [
+   "Martin Gardner, 'Urantia: The Great Cult Mystery' (1995)",
+   "James R. Lewis, 'The Encyclopedia of Cults, Sects, and New Religions' (2001)"
+  ]
+ },
+ "urartian": {
+  "essence": "The state religion of Urartu (native Biainili), an Iron Age kingdom centered on Lake Van in the Armenian highlands that flourished c. 860-590 BCE as Assyria's northern rival. It was organized around a ranked state pantheon headed by the war-god Haldi, whose cult the ruling dynasty used to bind a mountainous, multi-ethnic realm; the tradition did not survive the kingdom's collapse.",
+  "cosmos": "Known chiefly from royal inscriptions and iconography rather than any preserved mythology, so its cosmology is only partly recoverable. Dozens of ranked deities were led by a triad: Haldi (supreme, war), Teisheba (storm, from Hurrian Teshub), and Shivini (sun, from Hurrian Shimige), each receiving fixed allotments of sacrifice. Gods were held to dwell within the living rock and to enter the world through monumental 'gates,' niches cut into cliff faces.",
+  "practice": "Cult was a royal enterprise: kings built square tower-temples ('susi') to Haldi within fortresses, stored the god's weapons and great bronze shields there, and recorded prescribed animal offerings for each deity. Worship centered on state sacrifice, temple-armories, and rock-cut god-gates; Haldi led the army into battle, and his spears themselves received offerings as minor deities. Prescribed sacrificial allotments are codified in the Meher Kapisi (Mheri-Dur) inscription at Van.",
+  "canon": "No scripture: the tradition is known from royal cuneiform inscriptions in the Urartian language (above all the Meher Kapisi inscription), from temple and fortress archaeology (Musasir, Erebuni, Karmir Blur, Cavustepe), and from Assyrian records such as Sargon II's account of the 714 BCE sack of Musasir.",
+  "reflects": "It foregrounds religion as an instrument of state consolidation, a pantheon regimented into a bureaucratic sacrificial ledger in the service of an expanding kingship.",
+  "sources": [
+   "Boris B. Piotrovsky, 'The Ancient Civilization of Urartu' (1969)",
+   "Paul E. Zimansky, 'Ecology and Empire: The Structure of the Urartian State' (1985)",
+   "Mirjo Salvini, 'Geschichte und Kultur der Urartaer' (1995)"
+  ]
+ },
+ "vaishnava": {
+  "essence": "One of the principal streams of Hinduism, comprising the traditions that hold Vishnu, together with his descents (avatars) such as Krishna and Rama, to be the supreme personal God. It counts hundreds of millions of adherents, overwhelmingly in South Asia and its diaspora, and spans philosophical schools (Ramanuja's Vishishtadvaita, Madhva's Dvaita) and devotional lineages (sampradayas), from the Tamil Alvars and the Sri Vaishnavas to the Krishna-centered Gaudiya tradition of Chaitanya.",
+  "cosmos": "Vishnu is the all-pervading sustainer who periodically descends as an avatar to restore dharma whenever cosmic and moral order decay. Time runs in vast recurring cycles (yugas, kalpas) through which this drama of decline and intervention repeats. The soul (jiva) is real and, though bound in rebirth (samsara) by karma, is destined through grace and devotion for liberation (moksha), most often conceived as loving nearness to God in his heaven (Vaikuntha) rather than impersonal absorption.",
+  "practice": "The heart of practice is bhakti, loving devotion, expressed through temple worship and darshan of the enshrined image, pilgrimage, festival, name-chanting (japa, kirtan), and the hearing of sacred story; the Sri Vaishnava path culminates in prapatti, total self-surrender. Life is organized through temples, monastic teacher-lineages (acharyas, gurus), and initiation into a sampradaya; ethics stress devotion, humility, and, in many lineages, vegetarianism and nonviolence.",
+  "canon": "It draws on the Vedas and Upanishads but centers on the Bhagavad Gita, the Vishnu and especially the Bhagavata Purana, the Ramayana, the Pancharatra Agamas, and the Tamil hymns of the Alvars (the Nalayira Divya Prabandham).",
+  "reflects": "It foregrounds the conviction that the absolute is personal and loving, salvation reached less by knowledge or works than by devotion and grace, with God willing to take flesh to reach the devotee.",
+  "sources": [
+   "Gavin Flood, 'An Introduction to Hinduism' (1996)",
+   "Friedhelm Hardy, 'Viraha-Bhakti: The Early History of Krsna Devotion in South India' (1983)",
+   "John B. Carman, 'The Theology of Ramanuja: An Essay in Interreligious Understanding' (1974)"
+  ]
+ },
+ "vedic": {
+  "essence": "The religion of the Vedas, the sacrificial cult of the Indo-Aryan peoples of the northwestern Indian subcontinent from roughly the mid-second millennium BCE, together with the vast Brahmanical and Hindu tradition that grew continuously out of it. Early Vedic religion centered on hymns and fire-sacrifice to a pantheon of mostly male sky and nature gods (Indra, Agni, Varuna, Surya); over the following millennia it transformed into the temple-, devotion-, and philosophy-based traditions now called Hinduism, without a single founder or creed.",
+  "cosmos": "Vedic thought is governed by rta, the cosmic order upheld by the gods and by correct sacrifice. The Upanishads (from c. 800 BCE) reframe the goal as knowledge of Brahman, the one reality, identical with the inmost self (atman): tat tvam asi, 'thou art that.' The soul is bound to rebirth (samsara) by karma until it attains liberation (moksha), and the universe turns through immense cycles of creation and dissolution oriented around the world-mountain Meru.",
+  "practice": "The earliest layer centers on shrauta fire-sacrifice performed by Brahmin priests reciting Vedic hymns, alongside domestic (grihya) rites and life-cycle sacraments (samskaras) that persist to the present. Later Hindu practice adds temple image-worship (puja), pilgrimage, festival, devotion (bhakti), and the disciplines of yoga and renunciation. Ritual authority traditionally rests with the Brahmin priesthood and the framework of varna (class) and ashrama (life-stage) duty (dharma).",
+  "canon": "The four Vedas (Rig, Yajur, Sama, Atharva) with their Brahmanas, Aranyakas, and Upanishads, regarded as shruti ('that which is heard,' revealed) and transmitted with extraordinary oral precision; later supplemented by smriti literature, the epics (Mahabharata, including the Bhagavad Gita; Ramayana), the Puranas, and the Dharmashastras.",
+  "reflects": "It foregrounds the sacrificial and then the metaphysical impulse pushed to its furthest, from a cosmos sustained by exact ritual to the claim that the many are ultimately one and the self is that one.",
+  "sources": [
+   "Stephanie W. Jamison & Joel P. Brereton, 'The Rigveda: The Earliest Religious Poetry of India' (2014)",
+   "Jan Gonda, 'Vedic Literature: Samhitas and Brahmanas' (1975)",
+   "Gavin Flood, 'An Introduction to Hinduism' (1996)"
+  ]
+ },
+ "vodou-haitian": {
+  "essence": "An Afro-Haitian religion that crystallized among enslaved West and Central Africans on the plantations of French Saint-Domingue (colonial Haiti) and their descendants, blending Fon, Yoruba, and Kongo traditions with folk Catholicism. It serves a remote high creator, Bondye, through a large pantheon of spirits, the Lwa, who are actively engaged in daily life through offering and possession. It remains widely practiced in Haiti and its diaspora, frequently alongside Catholicism.",
+  "cosmos": "Bondye ('Good God') created and sustains the universe but is too vast and distant to petition directly, so all practical dealing is with the Lwa, grouped into 'nanchon' (nations), chiefly the cool, ancient Rada and the hot, fiery Petwo forged in the New World. The ancestors and the dead matter greatly; spirits and the dead are said to dwell in Ginen (mythic Africa) beneath the waters, and a person's souls (notably the gwo bon anj and ti bon anj) are ritually managed at and after death.",
+  "practice": "Worship happens in a temple (ounfo) around its central post (poto-mitan) under priests and priestesses (oungan and manbo), through drumming, dance, song, veve ground-drawings, animal offering, and above all possession, in which a Lwa 'mounts' a devotee like a horse (chwal) to speak and act among the living. Lwa are identified with Catholic saints, and service is reciprocal: the Lwa are fed and served, and in return give protection, healing, and counsel. The 1791 Bwa Kayiman (Bois Caiman) ceremony is remembered as igniting the Haitian Revolution.",
+  "canon": "An oral tradition with no scripture, carried in songs, prayers, ritual language (langaj), and initiatory knowledge; documented ethnographically by Alfred Metraux, Maya Deren, and later scholars.",
+  "reflects": "It foregrounds the god present in the flesh, divinity that descends to inhabit and speak through the worshipper's own body, within a moral universe reworked out of the trauma of slavery.",
+  "sources": [
+   "Alfred Metraux, 'Voodoo in Haiti' (1959)",
+   "Maya Deren, 'Divine Horsemen: The Living Gods of Haiti' (1953)",
+   "Leslie G. Desmangles, 'The Faces of the Gods: Vodou and Roman Catholicism in Haiti' (1992)",
+   "Karen McCarthy Brown, 'Mama Lola: A Vodou Priestess in Brooklyn' (1991)"
+  ]
+ },
+ "waaqeffanna": {
+  "essence": "The indigenous religion of the Oromo people of Ethiopia and northern Kenya, centered on a single supreme sky-God, Waaqa (also Waaqa Gurraacha, 'the Black God'), creator and guarantor of the moral order. Long marginalized under Christian and Muslim expansion, it survives in practice and has seen a modern revival tied to Oromo cultural identity; its adherents are called Waaqeffataa.",
+  "cosmos": "Waaqa is one, omnipresent, and the source of all life, truth, and order, acting in the world through ayyaana, spiritual emanations or refractions that give each thing its distinct nature and mediate the divine within creation. The cosmos is bound by safuu, an ethical and ecological order of proper distances and reciprocal duties among God, humanity, and nature, whose breach brings disorder. Emphasis falls on blessing and right relationship in this life and on Waaqa's justice rather than on a systematized afterlife.",
+  "practice": "Social and religious life is structured by the Gadaa system, an age- and generation-grade order in which men rotate through graded roles, with political leadership held for fixed eight-year terms, understood as a divinely ordained, tyranny-limiting constitution. Spiritual authority rests with the hereditary Qaalluu, kept strictly separate from political power; women hold sanctioned religious and juridical authority through the Ateetee and Siinqee institution. The great communal rite is Irreecha, a thanksgiving gathering at sacred waters and hills where celebrants offer fresh green grass to Waaqa; assemblies traditionally convene under the sacred odaa (sycamore fig).",
+  "canon": "An oral tradition with no written scripture, carried in myth, prayer, blessing (eebba), and the memorized law of the Gadaa; recorded and studied by ethnographers such as Lambert Bartels and Asmarom Legesse.",
+  "reflects": "It foregrounds one transcendent God held together with a richly immanent, ecological ethic, divinity refracted into every creature and binding humanity to nature by a law of right distance.",
+  "sources": [
+   "Lambert Bartels, 'Oromo Religion: Myth and Rites of the Western Oromo of Ethiopia' (1983)",
+   "Asmarom Legesse, 'Gada: Three Approaches to the Study of African Society' (1973)",
+   "Asmarom Legesse, 'Oromo Democracy: An Indigenous African Political System' (2000)"
+  ]
+ },
+ "wicca": {
+  "essence": "A modern Pagan new religious movement, the best-known form of contemporary witchcraft, publicly launched in England in the 1950s by the retired civil servant Gerald Gardner, who claimed initiation into a surviving witch-cult. Its initiatory lineages (Gardnerian, Alexandrian, and their offshoots) and the wider eclectic movement worship a Goddess and a Horned God and practice ritual magic; adherents number in the hundreds of thousands, chiefly in Britain, North America, and Australia.",
+  "cosmos": "Wicca is duotheistic and immanentist: divinity pervades nature and is polarized as a Great Goddess (often triple, Maiden-Mother-Crone, linked to the moon) and a Horned God of wild nature, the hunt, and death-and-rebirth, sometimes understood as faces of one divine source. Time is cyclical, turning through the eight-festival Wheel of the Year that narrates the God's birth, death, and rebirth beside the eternal Goddess. Many Wiccans accept reincarnation and a resting 'Summerland' between lives, though belief is not dogmatically fixed.",
+  "practice": "Worship is in small initiatory covens (traditionally led by a High Priestess) or by solitaries, within a ritually cast circle 'between the worlds,' marking the eight Sabbats and the lunar Esbats. Core rites include Drawing Down the Moon (invoking the Goddess into the priestess) and the raising of magical power; ethics rest on the Wiccan Rede ('An it harm none, do what ye will') and, for many, the Threefold Law of return. There is no central authority; lineage passes by initiation and the personal handwritten Book of Shadows.",
+  "canon": "No revealed scripture: practice is carried in the Book of Shadows, a working ritual text much of it composed by Gardner and Doreen Valiente in the 1950s, alongside influential books such as Gardner's 'Witchcraft Today' (1954) and 'The Meaning of Witchcraft' (1959).",
+  "reflects": "It foregrounds the deliberate, modern re-enchantment of the world, a consciously constructed nature-religion that recenters the sacred on an immanent Goddess and the turning seasons.",
+  "sources": [
+   "Ronald Hutton, 'The Triumph of the Moon: A History of Modern Pagan Witchcraft' (1999)",
+   "Gerald B. Gardner, 'Witchcraft Today' (1954)",
+   "Chas S. Clifton, 'Her Hidden Children: The Rise of Wicca and Paganism in America' (2006)"
+  ]
+ },
+ "winti": {
+  "essence": "An Afro-Surinamese religion developed by enslaved West and Central Africans, especially Akan, Fon, and Kongo peoples, and their Maroon and Creole descendants in Suriname. It centers on a withdrawn creator, Anana, and a large hierarchy of nature- and ancestor-spirits (winti, literally 'winds') who engage the living through possession. Long suppressed and criminalized under colonial rule, it remains widely practiced in Suriname and the Surinamese-Dutch diaspora.",
+  "cosmos": "Anana Keduaman Keduampon is the transcendent, genderless creator who withdrew and delegated the world to the winti, organized by domain: earth (Aisa and the Grong-winti), water (Watramama and the Watra-winti), forest (Apuku and the Busi-winti), and the fierce Akan-derived sky-warriors (Kromanti). The human person is not unitary: an immortal soul (kra), tied to the day of one's birth, must be kept in balance through cleansing; the dead join the ancestral collective (kabra), whose specific suffering under slavery is ritually honored.",
+  "practice": "Practice centers on the winti-prei ('spirit-play'), where drumming, song, and dance call particular winti to possess devotees for healing, divination, and guidance, mediated by ritual specialists (bonuman, obiaman) and by herbal-magical knowledge (obia). Ritual purity, offerings, ancestor veneration (as at Kabra-neti), and spiritual bathing (wasi) to keep the soul aligned are central, and Leba, the ragged opener of the crossroads, is saluted first.",
+  "canon": "An oral tradition with no scripture, carried in songs, ritual languages (such as Kromanti/Kumanti), proverbs, and initiatory practice; documented in the ethnography of C. J. Wooding, H. J. M. Stephen, and others.",
+  "reflects": "It foregrounds religion as the reconstitution of a shattered people, a spirituality that re-roots the uprooted in new soil while ritually carrying the specific historical wound of enslavement.",
+  "sources": [
+   "C. J. Wooding, 'Winti: Een Afroamerikaanse godsdienst in Suriname' (1972)",
+   "H. J. M. Stephen, 'Winti: Afro-Surinaamse religie en magische rituelen' (1983)",
+   "H. U. E. Thoden van Velzen & W. van Wetering, 'In the Shadow of the Oracle: Religion as Politics in a Suriname Maroon Society' (1988)"
+  ]
+ },
+ "yakut": {
+  "essence": "The indigenous religion of the Sakha (Yakut), a Turkic-speaking people of the Lena river basin in northeastern Siberia. It combines a three-tiered sky-earth-underworld cosmology, a pantheon split between the benevolent Aiyy of the upper world and the malevolent abaasy of the lower, and a shamanic healing complex; it persists alongside Russian Orthodoxy and has undergone a post-Soviet revival tied to Sakha identity.",
+  "cosmos": "The universe has three tiers joined by the great world-tree Aal Luuk Mas: an upper world of the Aiyy under the aloof creator Urung Aiyy Toyon; the middle world of humans and earth-spirits; and a dark lower world of the abaasy under Arsan Duolai, who cause sickness by devouring human souls. The person is composite, made of three 'kut' (soul-elements from earth, air, and the mother) plus a vital 'sur'; illness is the theft or loss of a soul-part, requiring shamanic retrieval.",
+  "practice": "Ritual life splits between the 'white shaman' (aiyy oyuuna), a bloodless priest who officiates the great summer festival Yhyakh with libations of fermented mare's-milk (kumis) to the Aiyy, and the 'black shaman' (oyuun), who in an iron-hung coat and with the drum falls into ecstatic trance, descends to the abaasy, battles them, and reclaims stolen souls to cure the sick. Blood sacrifice, spirit-feeding, and the rites of a horse- and cattle-pastoralist economy structure the year.",
+  "canon": "An oral tradition with no scripture; its central repository is the Olonkho, the vast Sakha heroic epic (recognized by UNESCO in 2005), together with prayers, myths, and shamanic invocations recorded by ethnographers such as Sieroszewski, Ksenofontov, and Alekseev.",
+  "reflects": "It foregrounds the shaman as the community's soul-doctor, religion as the perilous retrieval of lost vitality across a three-tiered cosmos in one of the harshest inhabited climates on earth.",
+  "sources": [
+   "Waclaw Sieroszewski, 'Yakuty' (1896)",
+   "N. A. Alekseev, 'Traditional Religious Beliefs of the Yakuts' (1975)",
+   "Marjorie Mandelstam Balzer, 'The Tenacity of Ethnicity: A Siberian Saga in Global Perspective' (1999)"
+  ]
+ },
+ "yarsanism": {
+  "essence": "An esoteric religion of the western Iranian, largely Kurdish, world, concentrated in Kermanshah province and the Guran and Hawraman regions, whose adherents call themselves Ahl-e Haqq, 'People of Truth.' Reorganized in the 14th-15th centuries by Sultan Sahak at Perdiwar, it teaches that the one divine Essence manifests in a series of human incarnations and that salvation comes through initiation, the sacred assembly, and the soul's long journey through rebirth. Its teachings are transmitted esoterically, largely within hereditary sacred lineages.",
+  "cosmos": "The absolute Essence, Khavandagar, dwelt hidden within a primordial pearl and unfolds creation through successive theophanies across the ages, accompanied each time by the Haft Tan, seven angelic beings of pure light who take human form to guide humanity; Sultan Sahak is understood as the definitive manifestation of the present epoch. Souls transmigrate through a bounded sequence of 'garments' (dunadun), up to 1,001 incarnations, as a graded purification ending in judgment and return to the divine light.",
+  "practice": "The central rite is the Jam, a seated assembly of initiates in an unbroken circle that dissolves worldly rank, featuring recitation of sacred poems (kalam) to the sacred lute (tanbur) and the sharing of consecrated food-offerings (niyaz), understood to recreate the primordial covenant of Perdiwar. Every believer must be bound to a spiritual master (Pir); ethics stress purity, truth, and the sacred vow, and the community guards its teachings closely against outsiders.",
+  "canon": "A largely oral and guarded corpus of sacred poems, much of it in Gorani, above all the Kalam-e Saranjam ('Discourse of Conclusion'); the later verse 'Shahnameh-ye Haqiqat' of Hajj Ne'matollah Jayhunabadi is an important account.",
+  "reflects": "It foregrounds religion as guarded, initiatory truth, the divine known through a chain of human incarnations and reached in a ritual circle that abolishes hierarchy and collapses sacred time.",
+  "sources": [
+   "Vladimir Minorsky, 'Notes sur la secte des Ahle-Haqq' (1920)",
+   "Ziba Mir-Hosseini, 'Inner Truth and Outer History: The Two Worlds of the Ahl-i Haqq of Kurdistan' (1994)",
+   "Philip G. Kreyenbroek & Yiannis Kanakis, 'God First and Last: Religious Traditions and Music of the Yaresan of Guran' (2020)"
+  ]
+ },
+ "yazidism": {
+  "essence": "A monotheistic, endogamous religion of the Kurdish-speaking Yazidis (Ezidi), historically centered on the shrine valley of Lalish in northern Iraq, with communities in Syria, Turkey, the Caucasus, and a large recent diaspora. It venerates a withdrawn supreme God (Xwede) who entrusted the world to seven Holy Beings led by Tawuse Melek, the Peacock Angel. The faith was reformed in the 12th century around the Sufi Sheikh Adi ibn Musafir, and the community has suffered repeated persecution, culminating in the 2014 genocide by the Islamic State.",
+  "cosmos": "God created the cosmos and delegated its governance to the Heptad (Heft Sirr), seven angelic emanations of his own light headed by Tawuse Melek, who, in the Yazidi telling, refused God's command to bow to Adam out of devotion to God alone and is a wholly good figure, not a fallen or evil one. Creation began when the primordial White Pearl (Durra Spi) shattered to form the world, with Lalish the first land to solidify. Souls transmigrate, 'changing the garment' (kiras guhartin), reborn within the community until purified and returned to the divine light.",
+  "practice": "Society is strictly organized into endogamous castes, Sheikhs, Pirs, and Murids (laity), with religious knowledge held by initiated priestly lineages; marriage outside the community and conversion into it are traditionally impossible, and each layperson has an assigned sheikh, pir, and 'brother/sister of the hereafter.' Devotion includes daily prayer facing the sun (venerated as Sheikh Shems, a proxy for divine light), pilgrimage to Lalish and the autumn Feast of the Assembly (Cejna Cemaiya), seasonal fasts, the spring New Year (Carsema Sor, 'Red Wednesday'), and dietary and purity taboos.",
+  "canon": "An oral tradition with no single authoritative book, carried in sacred hymns (qewls) and prayers recited by trained qewwals; the two texts sometimes cited as scriptures, the Mishefa Res ('Black Book') and Kiteba Cilwe ('Book of Revelation'), are of contested authenticity and likely late or outsider compilations.",
+  "reflects": "It foregrounds fidelity guarded by boundary, a self-enclosed community that preserves an ancient theology by refusing conversion and intermarriage, and that reads the 'rebel angel' of its neighbors as the supreme servant of God.",
+  "sources": [
+   "Philip G. Kreyenbroek, 'Yezidism: Its Background, Observances and Textual Tradition' (1995)",
+   "Christine Allison, 'The Yezidi Oral Tradition in Iraqi Kurdistan' (2001)",
+   "Eszter Spat, 'The Yezidis' (2005)"
+  ]
+ },
+ "yiguandao": {
+  "essence": "A Chinese redemptive society (a lay 'salvationist' new religion) that took its modern form under the patriarch Zhang Tianran in the 1930s and, after suppression on the mainland, became a major lay religion in Taiwan and among overseas Chinese. It worships the Eternal Venerable Mother (Wusheng Laomu) as the source of all souls and teaches that the present end-time requires their urgent salvation, offered through a secret initiation. It descends from the earlier Xiantiandao ('Way of Former Heaven') and the broader White Lotus sectarian tradition.",
+  "cosmos": "The uncreated Eternal Mother is the origin of the cosmos and of the primordial souls (yuanren) who fell into the material world and forgot their divine home; she grieves and sends savior-figures across three cosmic 'sun' eras (Green under Dipankara, Red under Gautama, White under the coming Maitreya) to recall them before the age closes. History is thus a finite, urgent rescue rather than endless cycles, and salvation is return to the 'Limitless Void' (Wuji). All the world's great teachings are held to spring from this one source, the doctrine of the Unity of the Five Teachings (Confucianism, Daoism, Buddhism, Christianity, Islam).",
+  "practice": "The pivotal act is initiation, in which a master transmits the 'Three Treasures' (a pointing to the 'heavenly portal,' a secret mantra, and a hand-sign) held to guarantee the soul's direct return; members then pursue vegetarianism, moral cultivation, scripture study, and the accumulation of merit. Revelation continues through spirit-writing (fuji), by which deities such as Ji Gong dictate teaching through a planchette. Worship centers on Buddha-halls (fotang), often in members' homes, under a lay hierarchy of transmitting masters, and the movement is divided into many competing branches.",
+  "canon": "No single closed scripture: it draws on the Confucian, Daoist, and Buddhist classics and on the earlier 'precious scrolls' (baojuan) of the sectarian tradition, and continually generates revealed texts through spirit-writing, with the Eternal Mother mythology as its doctrinal core.",
+  "reflects": "It foregrounds religion as urgent, universal rescue, a maternal absolute weeping for her lost children and a syncretism that folds all faiths into one salvational plan for the end of the age.",
+  "sources": [
+   "David K. Jordan & Daniel L. Overmyer, 'The Flying Phoenix: Aspects of Chinese Sectarianism in Taiwan' (1986)",
+   "Daniel L. Overmyer, 'Folk Buddhist Religion: Dissenting Sects in Late Traditional China' (1976)",
+   "Sebastien Billioud, 'Reclaiming the Wilderness: Contemporary Dynamics of the Yiguandao' (2020)"
+  ]
+ },
+ "yoruba": {
+  "essence": "The indigenous religion of the Yoruba people of southwestern Nigeria, Benin, and Togo, and, through the Atlantic slave trade, the root of major New World religions (Cuban Santeria/Lucumi, Brazilian Candomble, Trinidadian Orisha). It venerates a remote supreme God, Olodumare (Olorun), through hundreds of orisha, deified powers and ancestors such as Shango, Ogun, and Eshu, and reads destiny through the Ifa divination system. It remains living in West Africa and across a vast diaspora.",
+  "cosmos": "Olodumare is the transcendent creator and owner of all destinies, while the orisha are the active divine powers who govern nature, craft, and human affairs, many of them former kings or heroes elevated to divinity. Creation descends from the sacred city of Ile-Ife, where the orisha Obatala (or, in variant accounts, Oduduwa) formed dry land upon the primeval waters. Each person is born with an ori, an inner head or personal destiny chosen before birth; after death the good join the ancestors, and reincarnation within the lineage is widely expected.",
+  "practice": "Worship proceeds through offering, drumming, dance, praise-poetry (oriki), and spirit-possession, in which an orisha 'mounts' a devoted priest or priestess; specialized priesthoods serve particular orisha and initiate their devotees. Above all, the babalawo ('father of secrets') consults Ifa, a corpus of 256 odu (signs) and their memorized verses, to diagnose problems and prescribe sacrifice (ebo). Eshu, keeper of the crossroads, is honored first so that offerings and messages reach their destination; ethics emphasize good character (iwa pele) and right relationship with ancestors and destiny.",
+  "canon": "An oral tradition with no scripture; its principal 'text' is the immense memorized corpus of Ifa, the odu and their verses, together with praise-poems, myths, and proverbs, now also recorded by scholars such as Wande Abimbola and William Bascom.",
+  "reflects": "It foregrounds destiny and divination, a cosmos in which each life is a chosen fate to be read, negotiated, and set right through sacrifice, with the divine reached only through a required trickster-gatekeeper.",
+  "sources": [
+   "E. Bolaji Idowu, 'Olodumare: God in Yoruba Belief' (1962)",
+   "William Bascom, 'Ifa Divination: Communication Between Gods and Men in West Africa' (1969)",
+   "Wande Abimbola, 'Ifa: An Exposition of Ifa Literary Corpus' (1976)"
+  ]
+ },
+ "zapotec-mixtec": {
+  "essence": "The religions of the Zapotec and Mixtec peoples of the Oaxaca highlands of southern Mexico, two distinct but closely interacting Mesoamerican traditions attested from the first millennium BCE (the Zapotec urban center of Monte Alban) through the Postclassic Mixtec dynasties to the Spanish conquest, and surviving today in altered, Christianized forms. They centered on a rain-and-lightning deity (Cocijo to the Zapotec, Dzahui to the Mixtec), on ancestral and royal lineage-cults, and on the 260-day ritual calendar.",
+  "cosmos": "The world is animated by a vital sacred force and ordered by the interlocking 260-day divinatory calendar (Zapotec piye) and 365-day year, personified in a quadripartite rain-lightning god who splits into the four directions. Mixtec codices trace creation from a primordial dual-gender couple (Lord and Lady 1 Deer) and the emergence of the royal lineages from the sacred tree at Apoala; the dead, above all kings, descended to an underworld (the Zapotec Lyobaa at Mitla, ruled by Coqui Bezelao) that served as the enduring seat of ancestral and dynastic power.",
+  "practice": "Religion was inseparable from rulership and lineage: kings and a hereditary priesthood performed calendrical divination, autosacrificial bloodletting, and animal (especially quail) and human sacrifice, fed the maize-god and rain-god, and venerated wrapped sacred bundles (tlaquimilolli) holding the relics and power of founding ancestors. Oracles such as Lady 9 Grass at the Mixtec cave-sanctuary of Chalcatongo legitimated succession and war, while the day-count governed ordinary naming, marriage, planting, and burial.",
+  "canon": "No alphabetic scripture; the primary sources are the pre-Columbian Mixtec pictorial-genealogical codices (Vindobonensis, Zouche-Nuttall, Bodley, Selden), Zapotec carved-stone and tomb iconography, and colonial-era accounts, notably Fray Francisco de Burgoa's 'Geografica Descripcion' (1674) and Juan de Cordova's Zapotec grammar and dictionary (1578).",
+  "reflects": "It foregrounds the fusion of religion with dynasty, a sacred order in which cosmology, the calendar, and the underworld exist to anchor the legitimacy and continuity of noble lineages.",
+  "sources": [
+   "Alfonso Caso, 'Reyes y reinos de la Mixteca' (1977-1979)",
+   "Joyce Marcus & Kent V. Flannery, 'Zapotec Civilization: How Urban Society Evolved in Mexico's Oaxaca Valley' (1996)",
+   "Maarten Jansen & Gabina Aurora Perez Jimenez, 'The Mixtec Pictorial Manuscripts: Time, Agency, and Memory in Ancient Mexico' (2011)"
+  ]
+ },
+ "zoroastrian": {
+  "essence": "One of the oldest continuously practiced revealed religions, founded by the Iranian prophet Zarathushtra (Zoroaster), dated by most linguists to roughly 1200-1000 BCE, and long the dominant faith of the pre-Islamic Iranian empires until the Muslim conquest of the 7th century CE. It centers on Ahura Mazda, the one wholly good creator-God, and on the cosmic and moral struggle between Truth (asha) and the Lie (druj). It survives among the Parsis of India and the Zoroastrians (Iranis) of Iran and the diaspora.",
+  "cosmos": "Ahura Mazda, the uncreated Wise Lord, is opposed by a hostile spirit, Angra Mainyu (Ahriman), who freely chose evil; the good creation is invaded, and cosmic history is a bounded, forward-moving battle, arguably the first true linear eschatology, that the good is guaranteed to win. Ahura Mazda works through the Amesha Spentas, six 'Bounteous Immortals' (Good Mind, Truth, Dominion, Devotion, Wholeness, Immortality). Each soul is judged after death at the Chinvat Bridge; at the end of time comes the Frashokereti, the 'making wonderful,' when the savior Saoshyant leads the resurrection of the dead, a river of molten metal refines all souls, and the world is restored to deathless perfection.",
+  "practice": "The ethical core is 'good thoughts, good words, good deeds' and the active choice of asha over druj, with ritual purity paramount. Worship, led by a hereditary priesthood (mobeds), centers on the sacred fire, tended in fire-temples as the visible emblem of Truth and never worshipped as an idol, and on recitation of the Avesta, especially the Yasna liturgy. Distinctive rites include investiture with the sacred shirt and cord (sudreh and kusti) and the traditional exposure of the dead in 'towers of silence' (dakhma) to avoid polluting earth and fire; membership is by birth.",
+  "canon": "The Avesta, in the Avestan language, whose oldest stratum is the Gathas attributed to Zarathushtra himself (embedded in the Yasna), with the Yashts (hymns to individual divinities) and the Vendidad; later Middle Persian (Pahlavi) works such as the Bundahishn and Denkard preserve much of the cosmology and commentary.",
+  "reflects": "It foregrounds evil as a moral choice and history as a moral arrow, the clearest statement that good and evil are principled adversaries and that time is going somewhere, ending in judgment and renewal.",
+  "sources": [
+   "Mary Boyce, 'Zoroastrians: Their Religious Beliefs and Practices' (1979)",
+   "Jenny Rose, 'Zoroastrianism: An Introduction' (2011)",
+   "Michael Stausberg & Yuhan Sohrab-Dinshaw Vevaina (eds.), 'The Wiley Blackwell Companion to Zoroastrianism' (2015)"
+  ]
+ },
+ "zulu": {
+  "essence": "The traditional religion of the Zulu and related Nguni-speaking Bantu peoples of the eastern seaboard of South Africa, centred on the modern province of KwaZulu-Natal — the peoples welded into a kingdom under Shaka in the early nineteenth century. Its living core is the veneration of the ancestral shades (amadlozi) who guard the lineage, above a withdrawn first-ancestor and creator, Unkulunkulu, also named uMvelinqangi. It remains a living tradition, now deeply interwoven with Christianity.",
+  "cosmos": "The world and humankind broke off from uHlanga, a bed of reeds, in the person of Unkulunkulu, who was at once the first man, the first ancestor, and the source of the world's institutions and names; a sky-associated 'first to appear,' uMvelinqangi, is in some testimonies his elder and in others the same being. Death entered not through sin but through a miscarried message — the chameleon Unwabu, sent by the creator with word that people would not die, was overtaken by the swift lizard Intulo bearing word that they would. There is no elaborated heaven or hell: the dead descend to become abaphansi, 'those below,' who stay near their descendants, appearing in dreams and as certain harmless house-snakes, active in the affairs of the living rather than removed to another world.",
+  "practice": "The working religion is addressed downward to one's own dead: the homestead head slaughters a beast and pours sorghum beer to the amadlozi to mark birth, marriage, and death and to appease their displeasure, which is read in illness and misfortune. Diviners (izangoma), predominantly women, are 'called' to the vocation through an ancestral sickness (ukuthwasa) and thereafter voice the shades' will, while herbalists (izinyanga) treat with medicines (imithi). Calendrical and agricultural rites persist alongside the household cult — first-fruits observance (ukweshwama) and the maiden-garden processions for the sky-princess Nomkhubulwane to bring the rains — and the Nguni ethic of ubuntu ('umuntu ngumuntu ngabantu,' a person is a person through other persons) grounds the good life in right relation to kin, living and dead.",
+  "canon": "An oral corpus of praise-poetry (izibongo), myth, and testimony; the foundational written record is Henry Callaway's bilingual collection 'The Religious System of the Amazulu' (1868–1870), supplemented by later twentieth-century ethnography.",
+  "reflects": "It foregrounds the identity of creator and ancestor — divinity not descended from a heaven above but ascended from the reed-bed of the lineage's own dead, so that the sacred is the family extended past the grave rather than a power set over it.",
+  "sources": [
+   "Henry Callaway, 'The Religious System of the Amazulu' (1868–1870)",
+   "Axel-Ivar Berglund, 'Zulu Thought-Patterns and Symbolism' (1976)",
+   "Eileen Jensen Krige, 'The Social System of the Zulus' (1936)",
+   "Harriet Ngubane, 'Body and Mind in Zulu Medicine' (1977)"
   ]
  }
 };
