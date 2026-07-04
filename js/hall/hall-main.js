@@ -68,6 +68,9 @@
     const POSES = {
       room: { target: new THREE.Vector3(0, 1.1, 0), radius: 8.5, phi: 1.28, theta: 0.35 },
       instrument: { target: new THREE.Vector3(0, 0.4, 0), radius: 27.5, phi: 0.16, theta: Math.PI + 0.45 },
+      // the world before entry — an aerial three-quarter seat on the door
+      // side, the raking sun modelling the colonnade
+      exterior: { target: new THREE.Vector3(0, 8, 0), radius: 78, phi: 1.15, theta: Math.PI - 0.45 },
     };
     const HINTS = {
       room: "drag to look &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &amp; sink &middot; <b>click a relic</b> to run its simulation",
@@ -92,7 +95,23 @@
       } else if (name === "instrument") {
         rig.min = 5; rig.max = 30;
         rig.minPhi = 0.06; rig.maxPhi = 1.32;
+      } else if (name === "exterior") {
+        // outside, before entry: orbit the whole build — never through the
+        // colonnade, and phi stops a breath above horizontal so the camera
+        // cannot dive under the crag
+        rig.min = 44; rig.max = 150;
+        rig.minPhi = 0.25; rig.maxPhi = 1.50;
       }
+    }
+
+    /* seat the rig at a pose instantly, hands free — the pre-entry states
+       (title, ?inspect) give the visitor the camera without a flight */
+    function seatRig(pose) {
+      const rig = H.rig;
+      rig.dTarget.copy(pose.target); rig.target.copy(pose.target);
+      rig.dSph.radius = pose.radius; rig.dSph.phi = pose.phi; rig.dSph.theta = pose.theta;
+      rig.sph.copy(rig.dSph);
+      rig.locked = false;
     }
 
     function leavePano() {
@@ -454,7 +473,7 @@
     let hover = null, hoverDirty = false, lastHoverShard = -1, lastHoverFig = -1;
     H.onPointerMove = () => { hoverDirty = true; };
     function applyHover() {
-      if (!hoverDirty || H.rig.locked || H.pointer.down) return;
+      if (!hoverDirty || !entered || H.rig.locked || H.pointer.down) return;
       hoverDirty = false;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
@@ -518,6 +537,7 @@
 
     /* ---------- drags (rule & meridian are the same hand) ---------- */
     H.onPointerDown = () => {
+      if (!entered) return;                 // outside, the pointer only orbits
       if (cer.active) { cer.speed = 6; return; }
       if (H.rig.locked) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
@@ -545,7 +565,7 @@
 
     /* ---------- clicks ---------- */
     H.onPointerUp = (e, isClick) => {
-      if (!isClick || H.rig.locked) return;
+      if (!entered || !isClick || H.rig.locked) return;
       if (cer.active) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
@@ -582,6 +602,7 @@
 
     /* ---------- keys ---------- */
     addEventListener("keydown", e => {
+      if (!entered) return;                 // the world outside has no stations
       if (e.code === "Digit1") goStation("room");
       else if (e.code === "Digit2") goStation("instrument");
       else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
@@ -643,7 +664,10 @@
     const gate = document.getElementById("gate");
     const enterBtn = document.getElementById("gate-enter");
     let entered = false;
-    const INTRO = !!(H.exterior && H.approach) && !shot0 && q0.get("intro") !== "0";
+    /* ?inspect=exterior — the reviewer's seat: straight onto the daylit
+       temple, free camera, no gate (snap.py's way to circle the build) */
+    const INSPECT = !shot0 && !!H.exterior && q0.get("inspect") === "exterior";
+    const INTRO = !!(H.exterior && H.approach) && !shot0 && !INSPECT && q0.get("intro") !== "0";
 
     /* the one arrival — the approach's ending, its skip, and ?intro=0 all
        leave the visitor here, and the interior cannot tell which road it was */
@@ -655,11 +679,24 @@
       try { localStorage.setItem("mm-approached", "1"); } catch (e) { /* private mode */ }
     }
 
-    if (INTRO) {
+    if (INSPECT) {
+      gate.classList.add("hidden");
       H.env.setDay();
       H.exterior.setPorthole(false);
       H.threshold.setSunk();
-      H.approach.title();
+      clampsFor("exterior");
+      seatRig(POSES.exterior);
+      H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
+    } else if (INTRO) {
+      H.env.setDay();
+      H.exterior.setPorthole(false);
+      H.threshold.setSunk();
+      /* the title floats over the living world: the gate thins to a vignette
+         (pointer events fall through it) and the visitor holds the orbit from
+         the first frame — *begin* departs from wherever they carried it */
+      gate.classList.add("over-world");
+      clampsFor("exterior");
+      seatRig(POSES.exterior);
       enterBtn.textContent = "begin the approach";
       let seen = false;
       try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}

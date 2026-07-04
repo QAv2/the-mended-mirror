@@ -32,49 +32,46 @@
     /* ---------- the lid: the lobby floor over the sleeping mirror ---------- */
     const lidGroup = new THREE.Group();
     group.add(lidGroup);
-    // sealed / polished concrete — a real floor for the few moments it is seen
+    // sealed / polished concrete — the pre-revision surface, restored (the
+    // texture was never the culprit). The radial disco-ball was GEOMETRY:
+    // CircleGeometry is a triangle FAN, 96 wedges meeting at the center, and
+    // UV derivatives (mip choice, anisotropy footprint, bump frame) are
+    // constant per triangle — so each wedge filtered and lit a little
+    // differently, and every sub-pixel camera move re-rolled it per wedge.
+    // A fine ring-grid keeps the derivatives near-continuous.
+    // Opaque at rest; transparency is rented only while the dissolve runs
+    // (see lobbySolid below).
     const floorSurf = HALL.surface({ base: "#484c52", dark: "#31353b", lite: "#5a5f66", grain: 1, size: 1024 });
     [floorSurf.map, floorSurf.bumpMap, floorSurf.roughnessMap].forEach(t => t.repeat.set(6, 6));
     const lid = new THREE.Mesh(
-      new THREE.CircleGeometry(WALL_R + 0.6, 96),
+      new THREE.RingGeometry(0.02, WALL_R + 0.6, 96, 24),
       new THREE.MeshStandardMaterial({
         map: floorSurf.map, bumpMap: floorSurf.bumpMap, bumpScale: 0.022,
         roughnessMap: floorSurf.roughnessMap, roughness: 0.52, metalness: 0.0,
-        transparent: true,
       })
     );
     lid.rotation.x = -Math.PI / 2;
     lid.position.y = LID_Y;
     lid.name = "roomlid";
     lidGroup.add(lid);
-    // gold ring inlays — the floor faintly remembers the instrument beneath
+    // gold ring inlays — the floor faintly remembers the instrument beneath;
+    // they hug the opaque, depth-written stone (raised inlays read as stray
+    // floating lines from the room pose — floor1.png). The old hairline gold
+    // crack motif is gone — Joe's call: the lobby floor stays as clean as
+    // the mirror that replaces it.
     [0.30, 0.62, 0.945].forEach(f => {
       const ring = new THREE.Mesh(
         new THREE.TorusGeometry(WALL_R * f, 0.016, 6, 128),
-        new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.35, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.22, transparent: true })
+        new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.35, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.22 })
       );
       ring.rotation.x = Math.PI / 2;
       ring.position.y = LID_Y + 0.012;
       lidGroup.add(ring);
     });
-    // the hairline gold crack — the seam motif underfoot (the island's, kept)
-    (function () {
-      const pts = [];
-      for (let i = 0; i <= 14; i++) {
-        const t = i / 14;
-        pts.push(new THREE.Vector3(-7.2 + t * 13.1, LID_Y + 0.012, Math.sin(t * 5.2) * 1.1 - 0.8));
-      }
-      const geo = new THREE.BufferGeometry().setFromPoints(pts);
-      const line = new THREE.Line(geo, new THREE.LineBasicMaterial({
-        color: 0xf0c45a, transparent: true, opacity: 0.4,
-        blending: THREE.AdditiveBlending, depthWrite: false, fog: false,
-      }));
-      lidGroup.add(line);
-    })();
     // small inlay circle around the plinth
     const plinthRing = new THREE.Mesh(
       new THREE.TorusGeometry(2.1, 0.014, 8, 96),
-      new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.35, transparent: true })
+      new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.35 })
     );
     plinthRing.rotation.x = Math.PI / 2;
     plinthRing.position.y = LID_Y + 0.013;
@@ -123,7 +120,7 @@
     const LINTEL_Y = 9.55;                            // the wall resumes above this
     const lobbyWall = new THREE.Mesh(
       new THREE.CylinderGeometry(WALL_R, WALL_R, WALL_H, 96, 1, true, DOOR_T0, DOOR_TL),
-      new THREE.MeshStandardMaterial({ map: wallTex, roughness: 0.92, metalness: 0.05, side: THREE.BackSide, transparent: true })
+      new THREE.MeshStandardMaterial({ map: wallTex, roughness: 0.92, metalness: 0.05, side: THREE.BackSide })
     );
     lobbyWall.position.y = WALL_H / 2;
     lobbyWall.name = "roomwall";
@@ -176,7 +173,7 @@
     const domeCenterY = WALL_H - DOME_R * Math.cos(PHI_EDGE);
     const dome = new THREE.Mesh(
       new THREE.SphereGeometry(DOME_R, 96, 24, 0, TAU, PHI_MIN, PHI_EDGE - PHI_MIN),
-      new THREE.MeshStandardMaterial({ color: 0x232838, roughness: 0.94, metalness: 0.05, side: THREE.BackSide, transparent: true })
+      new THREE.MeshStandardMaterial({ color: 0x232838, roughness: 0.94, metalness: 0.05, side: THREE.BackSide })
     );
     dome.position.y = domeCenterY;
     dome.name = "roomdome";
@@ -184,7 +181,7 @@
     // gold oculus rim
     const ocRim = new THREE.Mesh(
       new THREE.TorusGeometry(OC_R, 0.07, 8, 96),
-      new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.4, transparent: true })
+      new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.4 })
     );
     ocRim.rotation.x = Math.PI / 2;
     ocRim.position.y = domeCenterY + DOME_R * Math.cos(PHI_MIN);
@@ -243,22 +240,45 @@
       H.rotunda.group.visible = on;
       H.mater.group.visible = on && instrumentShown;
       H.figures.group.visible = on && instrumentShown;
+      // standing in the scroll keeps the stone floor underfoot — dim, lit
+      // only by the heart and the shaft, the roof still open to the stars —
+      // so the ages wrap a room, not a visitor floating in space (Joe).
+      // With the instrument up, the mirror IS the floor and the lid must go;
+      // during an execute the dissolve tween manages the lid's own fade.
+      if (on) {
+        if (!instrumentShown) { lidGroup.visible = true; solidify(lidGroup); }
+        else if (state === "holo") lidGroup.visible = false;
+      }
     }
     function showInstrument(on) {
       instrumentShown = on;
       applyInstrumentVis();
     }
 
-    function lobbyVisible(k) {           // k: fade factor for the whole lobby shell
-      fadeGroup(lidGroup, k);
-      lobbyWall.material.opacity = k;
-      fadeGroup(doorTrim, k);
-      dome.material.opacity = k;
-      ocRim.material.opacity = Math.min(1, k * 1.15);
+    /* transparency is rented, not owned: the shell fades only while the
+       holodeck dissolve runs, and returns to honest opaque stone at rest —
+       coplanar transparent layers seen at a graze shimmer (hall4.png) */
+    function solidify(g2) {
+      eachFadable(g2, (o, m) => {
+        m.opacity = m.userData._baseOp;
+        m.transparent = m.userData._baseOp < 0.999;
+      });
+    }
+    function lobbySolid() { [lidGroup, lobbyWall, dome, ocRim].forEach(solidify); }
+    function lobbyVisible(k, keepLid) {  // k: fade factor for the whole lobby shell;
+                                         // keepLid: the standing view already holds the floor
+      if (!keepLid) {
+        fadeGroup(lidGroup, k);
+        lidGroup.visible = k > 0.004;
+      }
+      fadeGroup(lobbyWall, k);           // its children ride along: transom, door trim
+      fadeGroup(dome, k);
+      fadeGroup(ocRim, Math.min(1, k * 1.15));
       air.intensity = 0.55 * k;
       skirt.intensity = 0.30 * k;
       const on = k > 0.004;
-      lidGroup.visible = on; lobbyWall.visible = on; dome.visible = on; ocRim.visible = on;
+      lobbyWall.visible = on; dome.visible = on; ocRim.visible = on;
+      if (k >= 0.999) lobbySolid();
     }
     function exhibitFade(k) {            // k: materialization of instrument+figures+wall
       H.rotunda.wallMat.uniforms.uFade.value = k;
@@ -282,21 +302,27 @@
       // (the instrument obeys instrumentShown; the wall always comes up)
       applyInstrumentVis();
       exhibitFade(0);
+      // standing in the scroll, the stone floor never melts — only the
+      // walls and the sky give way around it
+      const keepFloor = !instrumentShown;
       // the plinth bows out first
       H.tween(1.1, k => thresholdFade(1 - k), null, () => {});
       // the shell melts — floor, then wall, then sky
       H.tween(3.0, k => {
-        const kLid = 1 - smooth(0.13, 0.66, k);
+        const kLid = keepFloor ? 1 : 1 - smooth(0.13, 0.66, k);
         const kWall = 1 - smooth(0.23, 0.83, k);
         const kDome = 1 - smooth(0.33, 1.0, k);
-        fadeGroup(lidGroup, kLid);
-        lidGroup.visible = kLid > 0.004;
-        lobbyWall.material.opacity = kWall; lobbyWall.visible = kWall > 0.004;
-        fadeGroup(doorTrim, kWall);
-        dome.material.opacity = kDome; dome.visible = kDome > 0.004;
-        ocRim.material.opacity = kDome; ocRim.visible = kDome > 0.004;
+        if (!keepFloor) {
+          fadeGroup(lidGroup, kLid);
+          lidGroup.visible = kLid > 0.004;
+        }
+        fadeGroup(lobbyWall, kWall); lobbyWall.visible = kWall > 0.004;
+        fadeGroup(dome, kDome); dome.visible = kDome > 0.004;
+        fadeGroup(ocRim, kDome); ocRim.visible = kDome > 0.004;
         air.intensity = 0.55 * kWall;
-        skirt.intensity = 0.30 * kLid;
+        // the lobby's warm wash dies with the wall when the floor is kept —
+        // in the scroll the stone lies dim under the heart and the shaft
+        skirt.intensity = 0.30 * (keepFloor ? kWall : kLid);
         // the world beyond the door dissolves with the wall that held it
         if (H.exterior) H.exterior.fade(kWall);
         // the exhibits materialize inside the melt
@@ -311,12 +337,13 @@
     function powerDown(cb) {
       if (state !== "holo") { if (cb) cb(); return; }
       state = "powering";
+      const floorHeld = lidGroup.visible;   // the scroll kept the stone underfoot — don't re-fade it
       lidGroup.visible = lobbyWall.visible = dome.visible = ocRim.visible = true;
       if (H.exterior) { H.exterior.group.visible = true; H.exterior.setPorthole(true); H.exterior.fade(0); }
       H.tween(2.2, k => {
         exhibitFade(1 - smooth(0.0, 0.62, k));
         const kIn = smooth(0.25, 1.0, k);
-        lobbyVisible(kIn);
+        lobbyVisible(kIn, floorHeld);
         if (H.exterior) H.exterior.fade(kIn);
         thresholdFade(smooth(0.45, 1.0, k));
       }, null, () => {

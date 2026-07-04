@@ -121,8 +121,10 @@
       }
       const tex = new THREE.CanvasTexture(c);
       tex.encoding = THREE.sRGBEncoding; tex.anisotropy = 8;
+      // ring-grid, not a fan (CircleGeometry) — fans sparkle radially in
+      // motion; see the lobby lid
       const esp = new THREE.Mesh(
-        new THREE.CircleGeometry(TOP_R - 0.4, 96),
+        new THREE.RingGeometry(0.02, TOP_R - 0.4, 96, 12),
         reg(new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9, metalness: 0 }))
       );
       esp.rotation.x = -Math.PI / 2;
@@ -131,19 +133,29 @@
       group.userData.esplanade = esp;
     })();
 
-    /* ---------- the krepis: three great steps ---------- */
+    /* ---------- the krepis: three great steps ----------
+       risers are open cylinders and treads ring-grids — a cylinder CAP is a
+       triangle fan, and a fan's per-wedge UV derivatives disco-ball at a
+       graze under a moving camera (see the lobby lid) */
     const steps = new THREE.Group();
     for (let i = 0; i < 3; i++) {
       const r = STYLO_R + i * STEP_W;
       const topY = LID_Y - i * STEP_H;
-      const s = new THREE.Mesh(new THREE.CylinderGeometry(r, r, STEP_H, 128, 1, false), marble);
-      s.position.y = topY - STEP_H / 2;
-      steps.add(s);
+      const riser = new THREE.Mesh(new THREE.CylinderGeometry(r, r, STEP_H, 128, 1, true), marble);
+      riser.position.y = topY - STEP_H / 2;
+      steps.add(riser);
+      // the exposed annulus only: tucked under the ring above (or, for the
+      // top step, starting just past the lid's edge inside the drum cavity)
+      const rIn = i === 0 ? WALL_R + 0.62 : STYLO_R + (i - 1) * STEP_W - 0.02;
+      const tread = new THREE.Mesh(new THREE.RingGeometry(rIn, r, 128, 3), marble);
+      tread.rotation.x = -Math.PI / 2;
+      tread.position.y = topY;
+      steps.add(tread);
     }
     group.add(steps);
 
     /* the ambulatory floor between the drum and the colonnade edge */
-    const ambu = new THREE.Mesh(new THREE.RingGeometry(WALL_R + 0.6, STYLO_R - 0.02, 128, 1), marble);
+    const ambu = new THREE.Mesh(new THREE.RingGeometry(WALL_R + 0.6, STYLO_R - 0.02, 128, 3), marble);
     ambu.rotation.x = -Math.PI / 2;
     ambu.position.y = LID_Y + 0.012;
     group.add(ambu);
@@ -564,10 +576,15 @@
       ocean.material.transparent = k < 0.999;
     }
 
-    /* in the lobby the world survives only through the doorway — keep the slice
-       the door can show, shed the rest (the sky always stays) */
+    /* the crossing seals behind the visitor (Joe: the door should disappear
+       once we're through — Route B, no leaves, the world simply ends): inside,
+       NOTHING of the temple or the sea survives, and the −Z doorway is a dark
+       gap onto the night. Only the sky stays — at night it IS the void the
+       interior already trusts, so the gap reads as darkness, not a hole. */
     function setPorthole(on) {
-      [drumGroup, entab, ringRoof, domeGroup, group.userData.crag].forEach(o => { if (o) o.visible = !on; });
+      [drumGroup, entab, ringRoof, domeGroup, group.userData.crag,
+       portal, ocean, steps, ambu, group.userData.esplanade, ...colParts]
+        .forEach(o => { if (o) o.visible = !on; });
     }
 
     function tick(dt, elapsed) {

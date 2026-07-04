@@ -33,7 +33,7 @@ chrome = subprocess.Popen([
     "--disable-gpu-sandbox", "--hide-scrollbars",
     f"--user-data-dir={PROFILE}", "--no-first-run", "--disable-extensions",
     f"--remote-debugging-port={PORT}", "--remote-allow-origins=*",
-    f"--window-size=1600,900", "about:blank",
+    f"--window-size={os.environ.get('SNAP_WIN', '1600,900')}", "about:blank",
 ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 def cdp_http(path):
@@ -86,7 +86,8 @@ try:
         print("TIMEOUT waiting for ready; screenshotting anyway", file=sys.stderr)
     state = evaluate("window.H && H.room ? H.room.state : '?'")
     time.sleep(SETTLE)   # let a few real frames render
-    shot = send("Page.captureScreenshot", format="png", deadline=300)
+    shot = send("Page.captureScreenshot", format="png",
+                deadline=float(os.environ.get("SNAP_SHOT_DEADLINE", "300")))
     with open(OUT, "wb") as f:
         import base64
         f.write(base64.b64decode(shot["data"]))

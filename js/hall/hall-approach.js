@@ -18,7 +18,10 @@
 
   /* HALL.buildApproach(H, endPose) — endPose is POSES.room, the contract. */
   HALL.buildApproach = function (H, endPose) {
-    const DUR = 11.6;
+    /* one dial: move DUR and the whole flight dilates — every absolute-time
+       anchor below rides K, so the C1-smooth warp keeps its exact shape
+       (11.6 was the original choreography; Joe asked for a longer breath) */
+    const DUR = 14.3, K = DUR / 11.6;
 
     /* the settle must land exactly where the rig will stand next frame */
     const endPos = new THREE.Vector3()
@@ -56,7 +59,7 @@
     const gazeCurve = new THREE.CatmullRomCurve3(G, false, "centripetal");
 
     /* ---------- the timewarp: seconds → knot parameter, C1-smooth ---------- */
-    const ROWS_T = [0, 3.2, 4.6, 5.5, 6.6, 7.8, 9.2, 10.4, DUR];
+    const ROWS_T = [0, 3.2 * K, 4.6 * K, 5.5 * K, 6.6 * K, 7.8 * K, 9.2 * K, 10.4 * K, DUR];
     const ROWS_U = [0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0];
     function warp(t) {
       t = Math.max(0, Math.min(DUR, t));
@@ -73,7 +76,7 @@
       return (2 * s3 - 3 * s2 + 1) * u0 + (s3 - 2 * s2 + s) * m0 + (-2 * s3 + 3 * s2) * u1 + (s3 - s2) * m1;
     }
     /* the whole flight starts and ends at rest */
-    const W_IN = 2.2, W_OUT = 2.8;
+    const W_IN = 2.2 * K, W_OUT = 2.8 * K;
     function tEase(t) {
       if (t < W_IN) { const x = t / W_IN; return W_IN * x * x * (2 - x); }
       if (t > DUR - W_OUT) { const x = (DUR - t) / W_OUT; return DUR - W_OUT * x * x * (2 - x); }
@@ -81,30 +84,32 @@
     }
 
     function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
-    const envK = t => smooth(4.4, 6.8, t);
-    const fovAt = t => 58 + 5.5 * (smooth(4.0, 5.4, t) - smooth(5.6, 7.8, t));
-    const PLINTH_T = 7.6, PORTHOLE_T = 8.4;
+    const envK = t => smooth(4.4 * K, 6.8 * K, t);
+    const fovAt = t => 58 + 5.5 * (smooth(4.0 * K, 5.4 * K, t) - smooth(5.6 * K, 7.8 * K, t));
+    const PLINTH_T = 7.6 * K, PORTHOLE_T = 8.4 * K;
 
     /* ---------- state ---------- */
-    let mode = "idle";            // idle | title | play | done
+    let mode = "idle";            // idle | play | seek | done
     let tau = 0;
     let onDone = null;
     let plinthFired = false, portholeDone = false;
     let tw = null;
-    const drift = { off: new THREE.Vector3(), t0: 0 };
+    const drift = { off: new THREE.Vector3(), gz: new THREE.Vector3() };
     const _pos = new THREE.Vector3(), _gz = new THREE.Vector3();
     let skipBtn = null;
 
     function applyAt(t, live) {
       const te = tEase(t);
       const u = Math.max(0, Math.min(1, warp(te)));
-      const ug = Math.max(0, Math.min(1, warp(tEase(Math.min(DUR, t + 0.10)))));
+      const ug = Math.max(0, Math.min(1, warp(tEase(Math.min(DUR, t + 0.10 * K)))));
       posCurve.getPoint(u, _pos);
       gazeCurve.getPoint(ug, _gz);
       if (live && mode === "play") {
-        // the title drift dissolves into the flight's first breath
-        const d = 1 - smooth(0, 1.9, t);
+        // the visitor's own vantage — they held the orbit until *begin* —
+        // dissolves into the flight's first breath, position and gaze both
+        const d = 1 - smooth(0, 1.9 * K, t);
         _pos.addScaledVector(drift.off, d);
+        _gz.lerp(drift.gz, d);
       }
       H.camera.position.copy(_pos);
       H.camera.lookAt(_gz);
@@ -112,7 +117,7 @@
       if (Math.abs(H.camera.fov - f) > 0.01) { H.camera.fov = f; H.camera.updateProjectionMatrix(); }
       H.env.toInterior(envK(t));
       if (live && mode === "play") {
-        if (!plinthFired && t >= PLINTH_T) { plinthFired = true; H.threshold.rise(2.3); }
+        if (!plinthFired && t >= PLINTH_T) { plinthFired = true; H.threshold.rise(2.3 * K); }
         if (!portholeDone && t >= PORTHOLE_T) { portholeDone = true; H.exterior.setPorthole(true); }
       } else if (!live) {
         // static seek (shot mode): settle the imperative states to match t
@@ -147,22 +152,18 @@
       get playing() { return mode === "play"; },
       get mode() { return mode; },
 
-      /* park at the establishing view behind the title card */
-      title() {
-        mode = "title";
-        H.rig.locked = true;
-        tau = 0;
-        applyAt(0, true);
-      },
-
-      /* fly. instant=true jumps to the arrived state (one code path). */
+      /* fly. instant=true jumps to the arrived state (one code path).
+         Before this, the rig is the visitor's — the title state is simply the
+         orbit rig seated outside (hall-main), so the flight departs from
+         wherever they carried the camera. */
       play(cb, instant) {
         onDone = cb || null;
         if (instant) { H.rig.locked = true; applyAt(DUR, false); finish(); return; }
         mode = "play";
         H.rig.locked = true;
         plinthFired = false; portholeDone = false;
-        drift.off.copy(H.camera.position).sub(P[0]);   // wherever the idle drift left us
+        drift.off.copy(H.camera.position).sub(P[0]);   // wherever their orbit left us…
+        drift.gz.copy(H.rig.target);                   // …and whatever it was studying
         tau = 0;
         skipBtn = document.createElement("div");
         skipBtn.id = "skip-intro";
@@ -185,16 +186,11 @@
         tau = Math.max(0, Math.min(1, k)) * DUR;
       },
 
-      /* runs AFTER rig.update — whoever holds the camera last, holds it */
+      /* runs AFTER rig.update — whoever holds the camera last, holds it.
+         In the title state nothing runs here: the rig itself holds the
+         camera, and the visitor holds the rig. */
       tick(dt, elapsed) {
-        if (mode === "title") {
-          _pos.copy(P[0]);
-          _pos.x += Math.sin(elapsed * 0.055) * 2.2;
-          _pos.y += Math.sin(elapsed * 0.041 + 1.7) * 1.1;
-          _pos.z += Math.cos(elapsed * 0.05) * 1.6;
-          H.camera.position.copy(_pos);
-          H.camera.lookAt(G[0]);
-        } else if (mode === "play") {
+        if (mode === "play") {
           applyAt(tau, true);
         } else if (mode === "seek") {
           applyAt(tau, false);
