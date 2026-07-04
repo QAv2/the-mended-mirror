@@ -96,6 +96,17 @@
       group.add(m);
       group.userData.crag = m;
 
+      // the crown's noise wanders the rim in and out while the esplanade
+      // edge is a clean circle — where the rim strayed outward, a sliver of
+      // open sea showed between pavement and rock (Joe's catch). A footing
+      // collar tucked under the pavement and flared past the rim's widest
+      // wander closes the seam from every angle. Child of the crag, so the
+      // porthole and holodeck rules carry it for free.
+      const collar = new THREE.Mesh(new THREE.CylinderGeometry(45.6, 48.8, 4.3, 96, 1, true), rock);
+      collar.position.y = (ESPL_Y - 0.05 - 4.3 / 2) - (ESPL_Y - DEPTH / 2 + 0.05);
+      collar.name = "cragcollar";
+      m.add(collar);
+
       // the esplanade — worn paving, rings and radial joints
       const c = document.createElement("canvas");
       c.width = c.height = 1024;
