@@ -40,6 +40,23 @@
     HALL.buildRoom(H);
     await stage("setting the plinth…");
     HALL.buildThreshold(H);
+    /* the world outside — skipped for bare-interior shots; if it fails to
+       build, the gate stands alone and the hall opens exactly as before */
+    const q0 = new URLSearchParams(location.search);
+    const shot0 = q0.get("shot");
+    if (!shot0 || shot0 === "exterior" || shot0 === "approach") {
+      try {
+        await stage("raising the temple…");
+        HALL.buildExterior(H);
+      } catch (e) {
+        console.error("the exterior failed to build — falling back to the gate", e);
+        ["exterior", "sky"].forEach(n => {
+          const o = H.scene.getObjectByName(n);
+          if (o) H.scene.remove(o);
+        });
+        H.exterior = null;
+      }
+    }
     HALL.buildUI(H);
 
     const M = H.model, D = M.DATA, TA = M.timeAngle;
@@ -59,6 +76,12 @@
     };
     let station = "room";
     let visitedInstrument = false;
+
+    /* the approach needs the lobby pose as its landing contract */
+    if (H.exterior) {
+      try { HALL.buildApproach(H, POSES.room); }
+      catch (e) { console.error("the approach failed to build", e); H.approach = null; }
+    }
 
     function clampsFor(name) {
       const rig = H.rig;
@@ -564,7 +587,10 @@
       else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
       else if (e.code === "Space") { e.preventDefault(); if (!cer.active) startCeremony(); else cer.speed = 6; }
       else if (e.code === "KeyS" && cer.active) { skipCeremony(); }   // skip the mend
-      else if (e.code === "Escape") { clearSelection(); H.ui.close(); }
+      else if (e.code === "Escape") {
+        if (H.approach && H.approach.playing) { H.approach.skip(); return; }
+        clearSelection(); H.ui.close();
+      }
     });
 
     /* ---------- walking (arrow keys / WASD) ----------
@@ -616,13 +642,50 @@
     /* ---------- the gate ---------- */
     const gate = document.getElementById("gate");
     const enterBtn = document.getElementById("gate-enter");
-    enterBtn.textContent = "enter the room";
-    enterBtn.classList.add("ready");
     let entered = false;
+    const INTRO = !!(H.exterior && H.approach) && !shot0 && q0.get("intro") !== "0";
+
+    /* the one arrival — the approach's ending, its skip, and ?intro=0 all
+       leave the visitor here, and the interior cannot tell which road it was */
+    function arrive() {
+      station = "room";
+      clampsFor("room");
+      H.ui.setStation("room");
+      H.ui.hint(HINTS.room);
+      try { localStorage.setItem("mm-approached", "1"); } catch (e) { /* private mode */ }
+    }
+
+    if (INTRO) {
+      H.env.setDay();
+      H.exterior.setPorthole(false);
+      H.threshold.setSunk();
+      H.approach.title();
+      enterBtn.textContent = "begin the approach";
+      let seen = false;
+      try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
+      if (seen) {
+        const sk = document.createElement("div");
+        sk.id = "gate-skip";
+        sk.textContent = "pass directly within";
+        sk.addEventListener("click", ev => {
+          ev.stopPropagation();
+          if (entered) return;
+          entered = true;
+          gate.classList.add("hidden");
+          H.approach.play(arrive, true);
+        });
+        gate.appendChild(sk);
+      }
+    } else {
+      if (H.exterior) H.env.toInterior(1);   // ?intro=0: night already fallen
+      enterBtn.textContent = "enter the room";
+    }
+    enterBtn.classList.add("ready");
     gate.addEventListener("click", () => {
       if (entered) return;
       entered = true;
       gate.classList.add("hidden");
+      if (INTRO) { H.approach.play(arrive); return; }
       // arrival: a long slow settle down toward the plinth
       H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
       H.rig.sph.copy(H.rig.dSph);
@@ -644,7 +707,16 @@
       visitedInstrument = true;
       gate.classList.add("hidden");
       const rig = H.rig;
-      if (shot === "scroll") {
+      if ((shot === "exterior" || shot === "approach") && H.approach) {
+        // the temple in daylight (?shot=exterior), or the flight scrubbed to
+        // any moment (?shot=approach&k=0..1) — for the screenshot harness
+        H.room.setInstant("lobby");
+        station = "room";
+        H.env.setDay();
+        H.exterior.setPorthole(false);
+        H.approach.seek(shot === "approach" ? (+q.get("k") || 0) : 0);
+        H.ui.setStation("room");
+      } else if (shot === "scroll") {
         H.room.setInstant("holo");
         H.room.showInstrument(false);
         station = "scroll";
@@ -685,11 +757,13 @@
       H.stepTweens(dt);
       walkStep(dt);
       H.rig.update(dt);
+      if (H.approach) H.approach.tick(dt, elapsed);   // after the rig: last hand on the camera wins
       stepCeremony(dt);
       H.mater.tick(elapsed);
       H.figures.tick(elapsed, dt);
       H.threshold.tick(dt);
       H.rotunda.tick(dt, elapsed);
+      if (H.exterior) H.exterior.tick(dt, elapsed);
       if (H.dustMat) H.dustMat.uniforms.uTime.value = elapsed;
       if (H.shaftMat) H.shaftMat.uniforms.uTime.value = elapsed;
       applyHover();

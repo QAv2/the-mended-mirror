@@ -194,9 +194,46 @@
       } catch (e) { /* file:// XHR refusal — the procedural relic stands in */ }
     }
 
+    /* ---------- the intro: the plinth waits beneath the floor, then rises ----------
+       Used only by the approach (hall-approach). Untouched, the plinth stands
+       risen exactly as built — shot mode and the plain gate never see these. */
+    const SUNK = 1.5;
+    const lidY = () => (H.room ? H.room.LID_Y : 0.46);
+    function eachFade(fn) {
+      group.traverse(o => {
+        const m = o.material;
+        if (!m || typeof m.opacity !== "number") return;
+        if (m.userData._baseOp === undefined) m.userData._baseOp = m.opacity;
+        fn(m);
+      });
+    }
+    function setSunk() {
+      eachFade(m => { m.transparent = true; m.opacity = 0; });
+      group.position.y = lidY() - SUNK;
+      caseLight.intensity = 0;
+      group.visible = false;
+    }
+    function setRisen() {
+      eachFade(m => { m.opacity = m.userData._baseOp; });
+      group.position.y = lidY();
+      caseLight.intensity = 1.0;
+      group.visible = true;
+    }
+    function rise(dur, done) {
+      group.visible = true;
+      H.tween(dur || 2.2, k => {
+        const e = 1 - Math.pow(1 - k, 3);            // stone settles; it does not bounce
+        group.position.y = lidY() - SUNK * (1 - e);
+        const op = Math.min(1, k * 2.6);
+        eachFade(m => { m.opacity = m.userData._baseOp * op; });
+        caseLight.intensity = 1.0 * k;
+      }, x => x, () => { setRisen(); if (done) done(); });
+    }
+
     H.threshold = {
       group, astro, scroll, rete, caseLight,
       pickables: [astroGrab, scrollGrab],
+      setSunk, setRisen, rise,
       tick(dt) { rete.rotation.y += dt * 0.25; },
     };
   };

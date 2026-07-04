@@ -189,6 +189,7 @@
       const pts = new THREE.Points(g, m);
       pts.frustumCulled = false;
       scene.add(pts);
+      H.starsMat = m;           // daylight puts the stars away; night returns them
     })();
 
     /* ---------- the visible shaft (a vast, faint god-ray cone) ---------- */
@@ -367,12 +368,35 @@
       return Math.hypot(dx, dy) || 1;
     }
 
+    /* ---------- the environment: one dial from the daylit world to the void ----------
+       k = 0 is golden hour outside; k = 1 is EXACTLY the interior as it ships today
+       (obsidian fog and background, the shaft at full). Untouched unless the
+       exterior exists, so the interior contract cannot drift. */
+    const ENV = {
+      day: { fog: 0.00045, fogCol: new THREE.Color(0xc9b493), bg: new THREE.Color(0x87a2b8) },
+      night: { fog: 0.0052, fogCol: new THREE.Color(COL.obsidian2), bg: new THREE.Color(COL.obsidian2) },
+    };
+    const env = {
+      k: 1,
+      toInterior(k) {
+        env.k = k;
+        scene.fog.density = ENV.day.fog + (ENV.night.fog - ENV.day.fog) * k;
+        scene.fog.color.copy(ENV.day.fogCol).lerp(ENV.night.fogCol, k);
+        scene.background.copy(ENV.day.bg).lerp(ENV.night.bg, k);
+        shaft.intensity = 1.55 * k;
+        if (H.starsMat) H.starsMat.opacity = 0.75 * k;
+        if (H.exterior) H.exterior.setNight(k);
+      },
+      setDay() { env.toInterior(0); },
+    };
+
     /* ---------- expose ---------- */
     H.renderer = renderer; H.scene = scene; H.camera = camera;
     H.rig = rig; H.pointer = pointer;
     H.tween = tween; H.easeOut = easeOut; H.easeInOut = easeInOut;
     H.stepTweens = stepTweens;
     H.lights = { shaft, hemi, thresholdGlow };
+    H.env = env;
     H.dustMat = dust.mat;
   };
 })(typeof window !== "undefined" ? window : globalThis);

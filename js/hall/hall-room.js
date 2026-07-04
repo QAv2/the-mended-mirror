@@ -114,13 +114,59 @@
     const wallTex = new THREE.CanvasTexture(wallCanvas);
     wallTex.encoding = THREE.sRGBEncoding;
     wallTex.wrapS = THREE.RepeatWrapping;
+    /* the doorway — cut on the prophesied bearing (−Z), the same interval the
+       strata wall keeps unwritten. You came in through the door history hasn't
+       closed. The temple outside (hall-exterior) frames the other side. */
+    const DOOR_HALF_A = 2.7 / WALL_R;                 // structural half-angle
+    const DOOR_T0 = Math.PI + DOOR_HALF_A;
+    const DOOR_TL = TAU - 2 * DOOR_HALF_A;
+    const LINTEL_Y = 9.55;                            // the wall resumes above this
     const lobbyWall = new THREE.Mesh(
-      new THREE.CylinderGeometry(WALL_R, WALL_R, WALL_H, 96, 1, true),
+      new THREE.CylinderGeometry(WALL_R, WALL_R, WALL_H, 96, 1, true, DOOR_T0, DOOR_TL),
       new THREE.MeshStandardMaterial({ map: wallTex, roughness: 0.92, metalness: 0.05, side: THREE.BackSide, transparent: true })
     );
     lobbyWall.position.y = WALL_H / 2;
     lobbyWall.name = "roomwall";
     group.add(lobbyWall);
+    // the transom: the wall continues above the door (uv remapped so the
+    // pilaster paint runs unbroken through it)
+    (function () {
+      const h = WALL_H - LINTEL_Y;
+      const trans = new THREE.Mesh(
+        new THREE.CylinderGeometry(WALL_R, WALL_R, h, 10, 1, true, Math.PI - DOOR_HALF_A, 2 * DOOR_HALF_A),
+        lobbyWall.material
+      );
+      trans.position.y = LINTEL_Y + h / 2 - WALL_H / 2;   // child of the wall
+      const p = trans.geometry.attributes.position, u = trans.geometry.attributes.uv;
+      for (let i = 0; i < p.count; i++) {
+        const th = Math.atan2(p.getX(i), p.getZ(i));
+        let d = th - DOOR_T0; d = ((d % TAU) + TAU) % TAU;
+        u.setXY(i, d / DOOR_TL, (p.getY(i) + LINTEL_Y + h / 2) / WALL_H);
+      }
+      u.needsUpdate = true;
+      lobbyWall.add(trans);
+    })();
+    // door trim: dark stone jambs and lintel framing the way you came
+    const doorTrim = new THREE.Group();
+    (function () {
+      const stoneMat = new THREE.MeshStandardMaterial({ color: 0x272c3a, roughness: 0.9, metalness: 0.06 });
+      const zJ = -(WALL_R - 0.22);
+      [-1, 1].forEach(s => {
+        const jamb = new THREE.Mesh(new THREE.BoxGeometry(0.52, LINTEL_Y, 0.55), stoneMat);
+        jamb.position.set(s * 2.42, LINTEL_Y / 2 - WALL_H / 2, zJ);
+        doorTrim.add(jamb);
+      });
+      const lintel = new THREE.Mesh(new THREE.BoxGeometry(5.5, 0.6, 0.55), stoneMat);
+      lintel.position.set(0, LINTEL_Y - 0.3 - WALL_H / 2, zJ);
+      doorTrim.add(lintel);
+      const fillet = new THREE.Mesh(
+        new THREE.BoxGeometry(5.5, 0.05, 0.06),
+        new THREE.MeshStandardMaterial({ color: HALL.COL.gold, metalness: 1, roughness: 0.3, emissive: HALL.COL.goldDeep, emissiveIntensity: 0.3 })
+      );
+      fillet.position.set(0, LINTEL_Y + 0.06 - WALL_H / 2, zJ + 0.02);
+      doorTrim.add(fillet);
+      lobbyWall.add(doorTrim);
+    })();
 
     /* ---------- the dome + the oculus (the sky through the stone) ---------- */
     const OC_R = 6.5;
@@ -206,6 +252,7 @@
     function lobbyVisible(k) {           // k: fade factor for the whole lobby shell
       fadeGroup(lidGroup, k);
       lobbyWall.material.opacity = k;
+      fadeGroup(doorTrim, k);
       dome.material.opacity = k;
       ocRim.material.opacity = Math.min(1, k * 1.15);
       air.intensity = 0.55 * k;
@@ -245,14 +292,18 @@
         fadeGroup(lidGroup, kLid);
         lidGroup.visible = kLid > 0.004;
         lobbyWall.material.opacity = kWall; lobbyWall.visible = kWall > 0.004;
+        fadeGroup(doorTrim, kWall);
         dome.material.opacity = kDome; dome.visible = kDome > 0.004;
         ocRim.material.opacity = kDome; ocRim.visible = kDome > 0.004;
         air.intensity = 0.55 * kWall;
         skirt.intensity = 0.30 * kLid;
+        // the world beyond the door dissolves with the wall that held it
+        if (H.exterior) H.exterior.fade(kWall);
         // the exhibits materialize inside the melt
         exhibitFade(smooth(0.30, 0.96, k));
       }, null, () => {
         state = "holo";
+        if (H.exterior) H.exterior.group.visible = false;
         if (cb) cb();
       });
     }
@@ -261,14 +312,17 @@
       if (state !== "holo") { if (cb) cb(); return; }
       state = "powering";
       lidGroup.visible = lobbyWall.visible = dome.visible = ocRim.visible = true;
+      if (H.exterior) { H.exterior.group.visible = true; H.exterior.setPorthole(true); H.exterior.fade(0); }
       H.tween(2.2, k => {
         exhibitFade(1 - smooth(0.0, 0.62, k));
         const kIn = smooth(0.25, 1.0, k);
         lobbyVisible(kIn);
+        if (H.exterior) H.exterior.fade(kIn);
         thresholdFade(smooth(0.45, 1.0, k));
       }, null, () => {
         exhibits().forEach(g2 => g2.visible = false);
         lobbyVisible(1);
+        if (H.exterior) H.exterior.fade(1);
         thresholdFade(1);
         state = "lobby";
         if (cb) cb();
@@ -282,12 +336,14 @@
         exhibitFade(1);
         lobbyVisible(0);
         thresholdFade(0);
+        if (H.exterior) H.exterior.group.visible = false;
       } else {
         state = "lobby";
         exhibits().forEach(g2 => g2.visible = false);
         exhibitFade(0);
         lobbyVisible(1);
         thresholdFade(1);
+        if (H.exterior) { H.exterior.group.visible = true; H.exterior.setPorthole(true); H.exterior.fade(1); }
       }
     }
 

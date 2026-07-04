@@ -45,3 +45,6 @@ scroll.css
 scroll.js
 # workflow / job scratch
 *.mjs.tmp
+
+# design specs / briefs (internal)
+design/
