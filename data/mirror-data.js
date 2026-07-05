@@ -14,10 +14,10 @@ window.MIRROR_DATA = {
     "workingTitle": "The Mended Mirror",
     "subtitle": "a kintsugi of the world's pantheons",
     "purpose": "mending the mirror — so the one face can be seen again",
-    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 219 traditions, 1731 figures, 42 archetype-joints.",
+    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 288 traditions, 2091 figures, 42 archetype-joints.",
     "span": {
       "from": -50000,
-      "to": 2369
+      "to": 2026
     }
   },
   "tiers": {
@@ -2994,6 +2994,860 @@ window.MIRROR_DATA = {
         "living": true,
         "certainty": "attested",
         "note": "Nguni/Bantu roots; Shaka's peak ~1820; living."
+      }
+    },
+    "catholicism": {
+      "name": "Roman Catholicism",
+      "region": "Global (Rome-centered)",
+      "color": "#a63d2f",
+      "period": {
+        "from": 110,
+        "to": 2026,
+        "peak": 1215,
+        "living": true,
+        "certainty": "attested",
+        "note": "Ignatius of Antioch's 'katholike ekklesia' (Letter to the Smyrnaeans, c. 110) marks the formative stage; Leo I's Petrine primacy claims (440-461) and the 1054 schism define the Roman communion; peak 1215 = Innocent III's Fourth Lateran Council, apex of the medieval papacy."
+      }
+    },
+    "eastern-orthodoxy": {
+      "name": "Eastern Orthodoxy",
+      "region": "Eastern Europe, Balkans, Russia, Near East",
+      "color": "#b08c3e",
+      "period": {
+        "from": 330,
+        "to": 2026,
+        "peak": 537,
+        "living": true,
+        "certainty": "attested",
+        "note": "Foundation of Constantinople (330) anchors the formative stage; peak 537 = consecration of Justinian's Hagia Sophia, apex of the Byzantine liturgical world; 1054 schism, Nicaea II (787) on icons, Palamite councils (1341-1351) are the other load-bearing dates."
+      }
+    },
+    "oriental-orthodoxy": {
+      "name": "Oriental Orthodoxy",
+      "region": "Egypt, Ethiopia, Armenia, Syria, India (Coptic, Ethiopian Tewahedo, Armenian, Syriac, Malankara)",
+      "color": "#4a7d5a",
+      "period": {
+        "from": 451,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Council of Chalcedon (451) — whose rejection is the family's founding boundary — anchors the dates; Armenia's conversion (trad. 301, Gregory the Illuminator) and Aksum's under Ezana (c. 330s) antedate it; Kebra Nagast compiled c. 1314-1322. peak: n/a — a communion of five-plus autonomous churches with separate national histories has no single shared apex."
+      }
+    },
+    "protestantism": {
+      "name": "Protestantism",
+      "region": "Europe → global (magisterial Reformation → evangelicalism)",
+      "color": "#5b7fa6",
+      "period": {
+        "from": 1517,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Luther's Ninety-Five Theses (31 Oct 1517) and the legal settlement of the Peace of Augsburg (1555); peak: n/a — the family crests repeatedly (confessional age, Pietist and evangelical awakenings, 19th-c. missions, 20th-c. global evangelicalism) and no single apex is defensible."
+      }
+    },
+    "pentecostalism": {
+      "name": "Pentecostalism / the charismatic wave",
+      "region": "Global South center of gravity (b. Azusa Street, Los Angeles)",
+      "color": "#e0663c",
+      "period": {
+        "from": 1901,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Parham's Topeka Bible school (initial-evidence doctrine, Jan 1901) and Seymour's Azusa Street revival (from April 1906), both precisely documented; peak: n/a — the movement is still expanding (World Christian Database counts Pentecostal/charismatic Christians in the hundreds of millions) and the curve has not crested."
+      }
+    },
+    "keylontic-science": {
+      "name": "Keylontic Science / Emerald Covenant",
+      "region": "USA / online diaspora (Ashayana Deane, Voyagers material)",
+      "color": "#3aa981",
+      "period": {
+        "from": 1999,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored to the Voyagers volumes (first editions c. 1999-2000, expanded 2001-02, first under the pen name Anna Hayes) and the Azurite Press / MCEO workshop cycle that followed; peak: n/a - a small living online movement with no defensible demographic apex; its own 2000-2017 'Stellar Activation Cycle' was an eschatological window, not a peak."
+      }
+    },
+    "law-of-one": {
+      "name": "The Law of One / Ra Material",
+      "region": "USA (L/L Research, Louisville, 1981-84)",
+      "color": "#e09a40",
+      "period": {
+        "from": 1981,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored to the 106 recorded sessions, 15 January 1981 - March 1984 (ended by Don Elkins' death, Nov 1984), published as The Ra Material (Donning, 1984) and The Law of One Books I-V (L/L Research); peak: n/a - the contact itself was 1981-84 but the material's reach has only widened through the lawofone.info era, so no defensible apex."
+      }
+    },
+    "course-in-miracles": {
+      "name": "A Course in Miracles",
+      "region": "USA → global study groups (Helen Schucman)",
+      "color": "#5b7fc7",
+      "period": {
+        "from": 1965,
+        "to": 2026,
+        "peak": 1992,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchors: the inner dictation Oct 1965 - Sep 1972 (Schucman/Thetford, Columbia University); first complete Foundation for Inner Peace edition 1976; peak anchored to the 1992 mass-market moment (Marianne Williamson's 'A Return to Love' and its Oprah run)."
+      }
+    },
+    "mazdakism": {
+      "name": "Mazdakism",
+      "region": "Sasanian Persia (extinct)",
+      "color": "#c25555",
+      "period": {
+        "from": 488,
+        "to": 900,
+        "peak": 500,
+        "living": false,
+        "certainty": "contested",
+        "note": "Anchors: Kavad I's reigns (488-531; contemporary witnesses Procopius, Wars 1.5, and Joshua the Stylite) and the massacre of the movement with Mazdak's execution c. 524-528 under crown prince Khosrow; formative doctrine attributed to Zardusht of Fasa (later 5th c.). ALL substantive sources are hostile (Shahnameh, al-Tabari, Shahrastani); residual Mazdakite-Khurrami communities are reported by heresiographers into the 9th-10th c."
+      }
+    },
+    "latter-day-saints": {
+      "name": "Latter-day Saints / Mormonism",
+      "region": "USA (Utah) → global",
+      "color": "#c8892f",
+      "period": {
+        "from": 1820,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Smith's First Vision (1820 by his account; earliest written version 1832), the Book of Mormon's publication and the church's organization (both 1830), the martyrdom at Carthage (27 June 1844), and the Utah exodus (1847); peak: n/a — membership (~17 million) and temple-building are still expanding in 2026, no apex is defensible."
+      }
+    },
+    "jehovahs-witnesses": {
+      "name": "Jehovah's Witnesses",
+      "region": "USA (Watch Tower) → global",
+      "color": "#5e9b94",
+      "period": {
+        "from": 1870,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Charles Taze Russell's Pittsburgh Bible study circle (c. 1870), the first issue of Zion's Watch Tower (July 1879), and the adoption of the name 'Jehovah's Witnesses' under Rutherford (Columbus convention, 1931); peak: n/a — publisher counts (~8.8 million) remain roughly stable-to-growing in 2026, no apex is defensible."
+      }
+    },
+    "adventism": {
+      "name": "Seventh-day Adventism",
+      "region": "USA → global",
+      "color": "#7d9c4f",
+      "period": {
+        "from": 1831,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on William Miller's first public lecture (August 1831), the Great Disappointment (22 October 1844), and the formal organization of the Seventh-day Adventist Church at Battle Creek (21 May 1863); peak: n/a — global membership (~22 million) is still growing in 2026, so no apex is defensible."
+      }
+    },
+    "christian-science": {
+      "name": "Christian Science",
+      "region": "USA (Boston, Mary Baker Eddy)",
+      "color": "#a4789e",
+      "period": {
+        "from": 1866,
+        "to": 2026,
+        "peak": 1936,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Eddy's healing after the Lynn fall (February 1866, her dated 'discovery'), Science and Health (1875), and the chartering of the Church of Christ, Scientist (1879); peak 1936 = the last US Census of Religious Bodies to count the church (~269,000 US members), the conventional apex before its long documented decline."
+      }
+    },
+    "quakers": {
+      "name": "Religious Society of Friends",
+      "region": "England → Anglosphere, Kenya, Bolivia",
+      "color": "#7fa98c",
+      "period": {
+        "from": 1647,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on George Fox's first public ministry (1647) and the movement's launch from Pendle Hill and Firbank Fell (1652); peak: n/a — the Society crests twice (tens of thousands in England by 1680; the 21st-century numerical center in Kenya's yearly meetings) and no single apex is defensible."
+      }
+    },
+    "shakers": {
+      "name": "Shakers (United Society of Believers)",
+      "region": "England → USA (functionally extinct)",
+      "color": "#c2a878",
+      "period": {
+        "from": 1747,
+        "to": 2026,
+        "peak": 1840,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the Wardleys' 'Shaking Quaker' society in Manchester (c.1747), Ann Lee's landing in New York (1774), and the c.1840 peak of roughly 4,000–5,000 Believers in 18 villages (Stein 1992); living by a thread — a last small community persists at Sabbathday Lake, Maine."
+      }
+    },
+    "unification-church": {
+      "name": "Unification Church",
+      "region": "Korea → global (Sun Myung Moon)",
+      "color": "#c96f8e",
+      "period": {
+        "from": 1954,
+        "to": 2026,
+        "peak": 1992,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the founding of the Holy Spirit Association for the Unification of World Christianity (Seoul, 1 May 1954) and the movement's public apex in 1992 — the 30,000-couple Blessing in Seoul's Olympic Stadium and Moon's open declaration of himself and Hak Ja Han as the Messiah/True Parents; Moon's claimed commissioning vision (Easter 1935) is self-reported, attested only retrospectively."
+      }
+    },
+    "kimbanguism": {
+      "name": "Kimbanguism",
+      "region": "DR Congo",
+      "color": "#4c9a63",
+      "period": {
+        "from": 1921,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on 6 April 1921, Kimbangu's first public healing at Nkamba; his court-martial at Thysville (October 1921) and death in Elisabethville prison (12 October 1951) are colonial-archive dated; Belgian legal recognition of the EJCSK December 1959; admitted to the World Council of Churches 1969. peak: n/a — the church is still growing across Central Africa and the diaspora; the curve has not crested."
+      }
+    },
+    "aladura": {
+      "name": "Aladura / praying churches",
+      "region": "West Africa (Nigeria; Celestial Church of Christ, Cherubim & Seraphim)",
+      "color": "#dfae4a",
+      "period": {
+        "from": 1918,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the 1918 influenza-epidemic prayer band at Ijebu-Ode (the Precious Stone / Diamond Society, later Faith Tabernacle-affiliated); Abiodun Akinsowon's trance and the founding of the Cherubim & Seraphim (1925); Babalola's Great Revival at Ilesa (July 1930); Oshoffa's Celestial Church of Christ (1947). peak: n/a — the praying churches are still expanding through Nigeria and its global diaspora; no crest is documentable."
+      }
+    },
+    "zion-christian-church": {
+      "name": "Zionist churches (ZCC and kin)",
+      "region": "Southern Africa",
+      "color": "#97a03c",
+      "period": {
+        "from": 1904,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the first Zionist baptisms at Wakkerstroom (May 1904, under Daniel Bryant of Dowie's Christian Catholic Apostolic Church in Zion), the Apostolic Faith Mission's Pentecostal arrival (1908), and Engenas Lekganyane's founding of the ZCC (1924, per Lukhaimane). peak: n/a — the amaZioni remain the largest church family in southern Africa and are still growing; no crest is documentable."
+      }
+    },
+    "iglesia-ni-cristo": {
+      "name": "Iglesia ni Cristo",
+      "region": "Philippines",
+      "color": "#4a7fc1",
+      "period": {
+        "from": 1914,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the church's registration with the Philippine government on 27 July 1914 — a date the INC itself makes doctrinally load-bearing (the outbreak of the First World War as the prophetic 'ends of the earth') — and Felix Manalo's death in 1963. peak: n/a — the church is still expanding (roughly 2.6–2.8 million in Philippine censuses, plus a global diaspora); the curve has not crested."
+      }
+    },
+    "rizalista": {
+      "name": "Rizalista movements",
+      "region": "Philippines (Mt. Banahaw)",
+      "color": "#8a5fb0",
+      "period": {
+        "from": 1896,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Rizal's execution at Bagumbayan, 30 December 1896 — veneration is attested within years, and the Philippine Independent Church formally canonized him in 1903; the Banahaw sacred lineage reaches back to Hermano Pule's Cofradía de San José (1832-41). peak: n/a — a family of small, dispersed churches whose memberships are poorly enumerated; no crest is documentable."
+      }
+    },
+    "obeah": {
+      "name": "Obeah",
+      "region": "Anglo-Caribbean",
+      "color": "#963f6e",
+      "period": {
+        "from": 1700,
+        "to": 2026,
+        "peak": 1760,
+        "living": true,
+        "certainty": "attested",
+        "note": "Practice attested across the 18th-c. Anglo-Caribbean; peak 1760 = Tacky's Revolt and Jamaica's first Obeah Act, the apex of obeah's documented political force (Handler & Bilby 2012; Vincent Brown 2020); still living and still criminalized in some jurisdictions (Paton 2015)."
+      }
+    },
+    "santa-muerte": {
+      "name": "Santa Muerte + the Mexican folk-saint complex",
+      "region": "Mexico -> diaspora",
+      "color": "#8a56b0",
+      "period": {
+        "from": 1793,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "1793 Inquisition complaint (Querétaro) against a skeletal 'Just Judge' idol and a 1797 Inquisition file from San Luis de la Paz naming 'Santa Muerte' outright are the earliest records (Chesnut 2012); the public cult dates from Enriqueta Romero's Tepito street shrine (2001). peak: n/a — the devotion is still expanding hemisphere-wide; its apex is not yet historical."
+      }
+    },
+    "maria-lionza": {
+      "name": "María Lionza cult",
+      "region": "Venezuela (Sorte mountain)",
+      "color": "#3d9e8c",
+      "period": {
+        "from": 1900,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "The organized cult is documented from the early 20th c. in Yaracuy, with colonial-era legend roots that remain inferred; anchors = Alejandro Colina's monumental Caracas statue (1951) and Angelina Pollak-Eltz's fieldwork ('María Lionza: mito y culto venezolano', 1972). peak: n/a — Sorte pilgrimage remains mass-scale (Canals 2017); no defensible historical apex."
+      }
+    },
+    "hausa-bori": {
+      "name": "Hausa Bori",
+      "region": "Hausaland (Nigeria/Niger)",
+      "color": "#a85643",
+      "period": {
+        "from": 1000,
+        "to": 2026,
+        "living": true,
+        "certainty": "reconstructed",
+        "note": "The iskoki cult is the pre-Islamic Hausa (Maguzawa) stratum — reconstructed, not directly attested; 'from' is anchored loosely to the rise of the Hausa city-states (c. 1000). Islam reaches Hausaland under Sarki Yaji of Kano (Kano Chronicle, 1349-85); bori is documented ethnographically from Tremearne (1913-14) onward. peak: n/a — a cult persisting under successive Islamizations has no recoverable apex."
+      }
+    },
+    "zar-cult": {
+      "name": "Zar possession complex",
+      "region": "Ethiopia, Sudan, Egypt, Gulf",
+      "color": "#96566e",
+      "period": {
+        "from": 1830,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "First written attestations mid-19th c. in Ethiopia (Natvig's source review); the cult spread with Red Sea trade and slavery to Sudan, Egypt, and Arabia by 1900. Hypotheses of older Cushitic roots remain unproven. peak: n/a — a domestic, uninstitutionalized cult of household ceremonies has no defensible apex."
+      }
+    },
+    "bwiti": {
+      "name": "Bwiti",
+      "region": "Gabon (Fang, Mitsogo)",
+      "color": "#8aa03f",
+      "period": {
+        "from": 1850,
+        "to": 2026,
+        "living": true,
+        "certainty": "reconstructed",
+        "note": "Mitsogo/Apindji Bwiti predates the European record (hence 'reconstructed'); Tabernanthe iboga was botanically described by Baillon in 1889; Fang Bwiti crystallizes c. 1890-1920 and is documented in Fernandez's 1958-60 fieldwork. peak: n/a — still expanding from an ethnic cult toward a Gabonese national institution."
+      }
+    },
+    "mbuti": {
+      "name": "Mbuti / Central-African forest peoples",
+      "region": "Ituri forest, DR Congo",
+      "color": "#55917f",
+      "period": {
+        "from": -2280,
+        "to": 2026,
+        "living": true,
+        "certainty": "deep",
+        "note": "Harkhuf's tomb inscription (Egypt, Sixth Dynasty, c. 2280 BCE) records a dancing 'pygmy' brought from the southern forests — the conventional earliest external reference to Central-African forest peoples; the living religion is attested only from 20th-c. ethnography (Schebesta 1920s-30s; Turnbull 1950s). peak: n/a — continuous forager tradition, no apex."
+      }
+    },
+    "sant-mat": {
+      "name": "Sant Mat / Radha Soami",
+      "region": "Punjab / North India -> global",
+      "color": "#d98f5e",
+      "period": {
+        "from": 1861,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Shiv Dayal Singh opened public satsang in Agra on Basant Panchami 1861; Beas line established by Jaimal Singh in the 1890s; peak: n/a — the Beas line is still expanding worldwide, no defensible apex."
+      }
+    },
+    "kabir-panth": {
+      "name": "Kabir Panth / the sant tradition",
+      "region": "North India",
+      "color": "#b9825a",
+      "period": {
+        "from": 1440,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Kabir fl. 15th c. Banaras (trad. 1398–1518; scholarly c. 1440–1518, Vaudeville); his verses entered the Adi Granth in 1604 and the panth organized around the Bijak in the following century; peak: n/a — Kabir's stature and the panth's reach have no single datable apex."
+      }
+    },
+    "ajivika": {
+      "name": "Ajivika",
+      "region": "Ancient India (extinct)",
+      "color": "#a89066",
+      "period": {
+        "from": -500,
+        "to": 1400,
+        "peak": -260,
+        "living": false,
+        "certainty": "attested",
+        "note": "Makkhali Gosala fl. 5th c. BCE, contemporary of Mahavira and the Buddha (Sāmaññaphala Sutta; Bhagavatī Sūtra 15); peak = Mauryan patronage, Aśoka's Barabar cave dedications c. -260; Tamil epigraphy traces the school to the 13th–14th c. CE (Basham 1951). Doctrine survives only in hostile Jain and Buddhist reports."
+      }
+    },
+    "charvaka": {
+      "name": "Carvaka / Lokayata",
+      "region": "Ancient India (extinct as school)",
+      "color": "#9f8ea6",
+      "period": {
+        "from": -500,
+        "to": 1400,
+        "living": false,
+        "certainty": "reconstructed",
+        "note": "Materialist teaching attested from Ajita Kesakambali in the Sāmaññaphala Sutta (5th c. BCE); the Bārhaspatya-sūtras are lost and known only by quotation; Mādhava's Sarvadarśanasaṃgraha (c. 1340) still catalogues Cārvāka first among the darśanas, by which time the school itself is effectively gone. Peak: n/a — no institutional apex is datable for a school preserved almost wholly in its opponents' citations."
+      }
+    },
+    "ahmadiyya": {
+      "name": "Ahmadiyya",
+      "region": "Punjab → global",
+      "color": "#b65c3e",
+      "period": {
+        "from": 1889,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the first bai'at at Ludhiana (23 March 1889), prepared by Barahin-e-Ahmadiyya (1880–84); khilafat continuous since 1908. peak: n/a — a living, still-expanding missionary body with no defensible historical apex."
+      }
+    },
+    "babism": {
+      "name": "Bábism",
+      "region": "Qajar Persia",
+      "color": "#e08a64",
+      "period": {
+        "from": 1844,
+        "to": 2026,
+        "peak": 1849,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the Báb's declaration to Mullá Husayn (22–23 May 1844, Shiraz) and his execution at Tabriz (9 July 1850); peak = the 1848–50 upheavals (Fort Tabarsí, Nayríz, Zanján). Survives only as a small Azalí remnant; the main body followed Bahá'u'lláh by the 1860s."
+      }
+    },
+    "dao-mau": {
+      "name": "Đạo Mẫu (Mother Goddess Religion)",
+      "region": "Vietnam",
+      "color": "#c85570",
+      "period": {
+        "from": 1600,
+        "to": 2026,
+        "peak": 2016,
+        "living": true,
+        "certainty": "attested",
+        "note": "Formative anchor = the rise of the Liễu Hạnh cult at Phủ Dầy (legend sets her lives in the 16th century; earliest literary record is Đoàn Thị Điểm's 'Story of the Vân Cát Goddess', 1730s) on an older Vietnamese goddess substrate; suppressed after 1954, revived after Đổi Mới (1986); peak = the post-revival crest sealed by UNESCO inscription (2016)."
+      }
+    },
+    "hoa-hao": {
+      "name": "Hòa Hảo Buddhism (Phật Giáo Hòa Hảo)",
+      "region": "Mekong Delta, Vietnam",
+      "color": "#a8743e",
+      "period": {
+        "from": 1849,
+        "to": 2026,
+        "peak": 1954,
+        "living": true,
+        "certainty": "attested",
+        "note": "Formative anchor = Đoàn Minh Huyên's Bửu Sơn Kỳ Hương preaching amid the 1849 cholera epidemic; Huỳnh Phú Sổ declared his mission in 1939 and was killed 16 April 1947; peak = early-1950s mass following and armed autonomy in the western Delta, broken by Diệm in 1955–56; state recognition 1999."
+      }
+    },
+    "donyi-polo": {
+      "name": "Donyi-Polo",
+      "region": "Arunachal Pradesh, India (Tani peoples)",
+      "color": "#d4a832",
+      "period": {
+        "from": 1872,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Oral Tani substrate centuries older but undatable; written record from colonial ethnography (E.T. Dalton 1872, Verrier Elwin 1958); codified as Donyi-Polo by the Donyi-Polo Yelam Kebang, Pasighat, 31 Dec 1986. peak: n/a — the revival is still expanding (~400 gangging prayer-centres by the mid-2010s), no defensible apex yet."
+      }
+    },
+    "sanamahism": {
+      "name": "Sanamahism",
+      "region": "Manipur, India (Meitei)",
+      "color": "#c25b4e",
+      "period": {
+        "from": 33,
+        "to": 2026,
+        "living": true,
+        "certainty": "contested",
+        "note": "The Cheitharol Kumbaba court chronicle opens with Pakhangba's accession in 33 CE — a retrospective royal chronology; continuous contemporary record only from c. the 15th c. Forced Vaishnavization under Pamheiba (Garib Niwaz, r. 1709-48); revival from Apokpa Marup, 13 Apr 1930. peak: n/a — the tradition's arc is rupture and revival, not apex."
+      }
+    },
+    "kirat-mundhum": {
+      "name": "Kirat Mundhum",
+      "region": "Eastern Nepal (Limbu, Rai)",
+      "color": "#6fae8f",
+      "period": {
+        "from": -500,
+        "to": 2026,
+        "living": true,
+        "certainty": "contested",
+        "note": "'Kirata' named in late-Vedic and epic Sanskrit sources (mid-1st millennium BCE), but the equation with the modern Kirati peoples is contested; the Mundhum oral substrate is undatable. Documented from B.H. Hodgson's Kiranti studies (1850s) and I.S. Chemjong's compilations (1961/1966); 'Kirat' a recognized census religion of Nepal since 1991. peak: n/a — a continuous oral tradition with no documentable apex."
+      }
+    },
+    "shugendo": {
+      "name": "Shugendo",
+      "region": "Japan (sacred mountains)",
+      "color": "#a86a35",
+      "period": {
+        "from": 699,
+        "to": 2026,
+        "peak": 1700,
+        "living": true,
+        "certainty": "attested",
+        "note": "En no Ozunu's exile dated 699 in the Shoku Nihongi (the founder-figure's first attestation); organized shugen orders from the Heian era; Edo-period apex (Honzan-ha/Tozan-ha parish networks); banned by Meiji edict 1872, legally revived after 1945."
+      }
+    },
+    "ryukyuan": {
+      "name": "Ryukyuan religion",
+      "region": "Okinawa / Ryukyu islands",
+      "color": "#d4728c",
+      "period": {
+        "from": 1200,
+        "to": 2026,
+        "peak": 1550,
+        "living": true,
+        "certainty": "attested",
+        "note": "Gusuku-period roots (from c. 1200, inferred from utaki-gusuku archaeology); firm anchors = Sho Shin's state priestess hierarchy (r. 1477-1526) and the Omoro Soshi (compiled from 1531); peak = the mature kikoe-ogimi state cult before the 1609 Satsuma invasion; living (utaki worship, yuta practice)."
+      }
+    },
+    "soka-gakkai": {
+      "name": "Soka Gakkai",
+      "region": "Japan -> global (SGI)",
+      "color": "#e0b14e",
+      "period": {
+        "from": 1930,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Founded 18 Nov 1930 as Soka Kyoiku Gakkai (Makiguchi & Toda); SGI established 1975; living. peak: n/a — the movement is at or near its maximum global extent now; the 1950s shakubuku surge was a growth-rate apex, not a high-water mark since receded from."
+      }
+    },
+    "oomoto": {
+      "name": "Oomoto",
+      "region": "Japan (Ayabe/Kameoka)",
+      "color": "#9c4468",
+      "period": {
+        "from": 1892,
+        "to": 2026,
+        "peak": 1935,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Deguchi Nao's initial possession by Ushitora no Konjin (lunar New Year 1892, Ayabe); peak 1935 = the movement's maximum public scale (Showa Shinseikai mass campaigns, founded 1934) on the eve of the Second Oomoto Incident (8 Dec 1935), when the state dynamited the Ayabe and Kameoka headquarters."
+      }
+    },
+    "konkokyo": {
+      "name": "Konkokyo",
+      "region": "Japan (Okayama)",
+      "color": "#cc8f3a",
+      "period": {
+        "from": 1859,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on the Rikkyō Shinden (21st day, 10th month, Ansei 6 = 1859), when the farmer Kawate Bunjirō received Tenchi Kane no Kami's request to give up farming and devote himself wholly to mediation; sanctioned as an independent Kyōha Shintō sect in 1900. peak: n/a — a steadily mid-sized denomination without a defensible apex event; inventing one would be fake bright gold."
+      }
+    },
+    "mahikari": {
+      "name": "Sukyo Mahikari",
+      "region": "Japan → global",
+      "color": "#ead45f",
+      "period": {
+        "from": 1959,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Okada Kōtama's founding revelation (27 Feb 1959) and his first Mahikari organization (registered as Sekai Mahikari Bunmei Kyōdan, 1963); Sukyo Mahikari proper incorporated 1978 under Okada Keishu after the succession dispute following the founder's death (1974). peak: n/a — a living, still-expanding movement with contested membership figures; no scholarly-consensus apex."
+      }
+    },
+    "aum-shinrikyo": {
+      "name": "Aum Shinrikyo",
+      "region": "Japan (dark shard)",
+      "color": "#5e4a72",
+      "period": {
+        "from": 1984,
+        "to": 2026,
+        "peak": 1995,
+        "living": true,
+        "certainty": "attested",
+        "note": "Founded 1984 as the yoga circle Aum Shinsen no Kai, renamed Aum Shinrikyo 1987; peak at the March 1995 Tokyo subway sarin attack, when membership stood near its height in Japan and Russia; Asahara and twelve followers executed July 2018; successor bodies Aleph and Hikari no Wa remain under Public Security Intelligence Agency surveillance."
+      }
+    },
+    "jeungsanism": {
+      "name": "Jeungsanism / Daesoon Jinrihoe",
+      "region": "Korea",
+      "color": "#c26744",
+      "period": {
+        "from": 1901,
+        "to": 2026,
+        "peak": 1925,
+        "living": true,
+        "certainty": "attested",
+        "note": "Kang Jeungsan's 1901 Moaksan enlightenment opens the cheonji-gongsa works (1901-09); peak anchored to the mid-1920s, when the Jeungsanist branch Bocheongyo was colonial Korea's largest new religion (its multi-million membership claims are the movement's own); Daesoon Jinrihoe (est. 1969) is the largest living branch."
+      }
+    },
+    "won-buddhism": {
+      "name": "Won Buddhism",
+      "region": "Korea",
+      "color": "#b9973f",
+      "period": {
+        "from": 1916,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored to Sotaesan's great awakening of 28 April 1916 (year one of the Won Buddhist calendar); organized as the Society for the Study of the Buddha-dharma at Iksan in 1924, renamed Won Buddhism (Wonbulgyo) in 1948 under his successor Chongsan. Peak: n/a — steady institutional growth since 1916, no defensible apex."
+      }
+    },
+    "mari-native": {
+      "name": "Mari native religion (Chimarij)",
+      "region": "Mari El, Russia",
+      "color": "#7cb26b",
+      "period": {
+        "from": 960,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Cheremis (Mari) first securely named in the Khazar King Joseph's letter (~960s); grove sacrifice documented from 16th-c. Muscovite sources through to present-day Mari El — the Volga-Finnic substrate is older but undated. peak: n/a — an unbroken village practice with no defensible single apex."
+      }
+    },
+    "vattisen-yaly": {
+      "name": "Vattisen Yaly (Chuvash Tura worship)",
+      "region": "Chuvashia, Russia",
+      "color": "#63a8a4",
+      "period": {
+        "from": 922,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Ibn Fadlan's Volga embassy (922 CE) — the Bulgar conversion to Islam that some groups (the Suwāz, usual etymon of 'Chuvash') resisted; village religion richly documented from Magnitsky (1881); unbaptized-village practice and the modern Vattisen Yaly revival carry it to the present. peak: n/a — a village religion with no defensible single apex."
+      }
+    },
+    "udmurt-vos": {
+      "name": "Udmurt Vos",
+      "region": "Udmurtia, Russia",
+      "color": "#a3a95e",
+      "period": {
+        "from": 1552,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Dated conservatively from the written record: Muscovite sources after the fall of Kazan (1552), systematic description from G.F. Müller's 1733 academic expedition (published 1756); the Permic substrate is far older but undated. Living: unbroken practice among eastern (Bashkortostan) Udmurts plus post-Soviet revival — the 2019 self-immolation of scholar Albert Razin in Izhevsk marks its modern identity flashpoint. peak: n/a — no defensible apex."
+      }
+    },
+    "hungarian-taltos": {
+      "name": "Hungarian ősvallás / táltos tradition",
+      "region": "Hungary",
+      "color": "#b98d54",
+      "period": {
+        "from": 900,
+        "to": 2026,
+        "living": true,
+        "certainty": "reconstructed",
+        "note": "Pagan Magyar religion glimpsed in Ibn Rusta's notice (~903-913) and ended as open practice by Stephen I's Christianization (1000); preserved obliquely in the chronicles (Anonymus ~1200, Kézai ~1282), táltos witch-trial records (16th-18th c.), and reconstructed by Diószegi (1958); 'living' refers to the modern neopagan revival of a reconstruction, not continuity. peak: n/a — the pagan stage is visible only through later sources; an apex would be invented precision."
+      }
+    },
+    "habze": {
+      "name": "Circassian Habze",
+      "region": "North Caucasus + diaspora",
+      "color": "#6faf8a",
+      "period": {
+        "from": 1502,
+        "to": 2026,
+        "living": true,
+        "certainty": "reconstructed",
+        "note": "from = Giorgio Interiano's 'La vita et sito de Zychi' (Venice, 1502), the first detailed outside account of Circassian religion and custom; the substrate (Nart cycle, grove rites, Tha) is centuries older but carries no earlier firm date. peak: n/a — an unwritten customary code has no datable apex; Islamization (17th-19th c.) and the 1864 expulsion are ruptures, not peaks. Revival: post-Soviet Adyghe Khabze movements + diaspora identity work."
+      }
+    },
+    "uatsdin": {
+      "name": "Ossetian Uatsdin (Assianism)",
+      "region": "North + South Ossetia",
+      "color": "#8ea9cf",
+      "period": {
+        "from": 100,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "from = the Alans first named in Roman sources (1st c. CE), the ethnolinguistic ancestors of the Ossetes; the dzuar shrine cult is continuously documented by travelers and ethnographers from the 18th-19th c., the Nart corpus recorded from the 1860s-70s (Shanaev brothers; Dumezil 1930), and the organized Assianist codification is post-Soviet. peak: n/a — a folk shrine religion carried under successive Christian, Islamic, and Soviet overlays has no defensible apex."
+      }
+    },
+    "vainakh": {
+      "name": "Vainakh religion",
+      "region": "Chechnya/Ingushetia",
+      "color": "#a89272",
+      "period": {
+        "from": 700,
+        "to": 1944,
+        "living": false,
+        "certainty": "reconstructed",
+        "note": "from = the Tkhaba-Yerdy temple in highland Ingushetia (8th-9th c., the earliest dated cult architecture in Vainakh country); the Nakh substrate itself is far older but undated. to = 1944: residual shrine observance, already reduced to remnants by completed Islamization (Chechnya by the 18th c., Ingushetia by the 1860s) and Soviet suppression, did not survive the deportation of the entire Chechen and Ingush peoples. peak: n/a — a pre-literate mountain religion known mainly through its ruins and late ethnography; naming an apex would be invention."
+      }
+    },
+    "georgian-highland": {
+      "name": "Georgian highland religion (khevisberi tradition)",
+      "region": "Georgia (Khevsureti, Pshavi, Tusheti)",
+      "color": "#a35d68",
+      "period": {
+        "from": 1200,
+        "to": 2026,
+        "living": true,
+        "certainty": "contested",
+        "note": "from = the earliest datable anchor: the Lashari cult's eponym is linked by Georgian scholarship to King Giorgi IV Lasha (r. 1213-23). Whether the system is a pre-Christian survival (Charachidze 1968) or a medieval re-formation of Christianity in the church-less highlands (Tuite's 'archaism or innovation') is the live scholarly dispute — hence 'contested'. peak: n/a — an oral shrine system richly documented only by 19th-20th-c. ethnography; no defensible apex."
+      }
+    },
+    "rodnovery": {
+      "name": "Rodnovery (Slavic native faith)",
+      "region": "Russia, Ukraine, Poland, Slavic diaspora",
+      "color": "#b0523e",
+      "period": {
+        "from": 1921,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Formative stage opens with Władysław Kołodziej's Świętowit circle in interwar Poland (1921) and Volodymyr Shaian's Ukrainian revival (from 1934); mass growth follows the Soviet collapse (Union of Slavic Native Belief Communities, 1997). peak: n/a — post-Soviet expansion is still running; naming an apex would be fake bright gold."
+      }
+    },
+    "romuva": {
+      "name": "Romuva",
+      "region": "Lithuania + diaspora",
+      "color": "#6fb9a1",
+      "period": {
+        "from": 1967,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "Ramuva founded in Vilnius 1967 (first revived Rasa festival at Kernavė), suppressed by Soviet authorities 1971, re-founded 1988, registered 1992; the Seimas denied state recognition in 2019 and the ECtHR found the denial a rights violation in 2021. The name reaches back to Peter von Dusburg's Romow sanctuary (1326) and the philosopher Vydūnas (d. 1953) is the honored precursor — but the folk substrate is what is old; the institution is a revival. peak: n/a — a living revival with no defensible apex."
+      }
+    },
+    "hellenism-modern": {
+      "name": "Hellenism (modern Greek reconstructionism)",
+      "region": "Greece + diaspora (YSEE etc.)",
+      "color": "#5f7ec9",
+      "period": {
+        "from": 1996,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "First Prometheia festival below Mount Olympus 1996; YSEE (Supreme Council of Ethnic Hellenes) founded 1997; the Greek state recognized 'Hellenic Ethnic Religion' as a known religion in 2017 under the 2014 religious-communities law. Scattered earlier revivalists exist, but the organized formative stage is the 1990s. peak: n/a — a young living revival, no defensible apex."
+      }
+    },
+    "kemetism": {
+      "name": "Kemetism",
+      "region": "Global (Egyptian reconstructionism)",
+      "color": "#c9a648",
+      "period": {
+        "from": 1973,
+        "to": 2026,
+        "living": true,
+        "certainty": "attested",
+        "note": "The Ausar Auset Society founded in Brooklyn 1973 (the Afrocentric current); Tamara Siuda's Kemetic Orthodoxy taught from 1988; independent Kemetic reconstruction grows online from the 1990s. Two distinct threads, both dated by their own founding acts. peak: n/a — young parallel currents, no defensible apex."
+      }
+    },
+    "maori": {
+      "name": "Māori religion",
+      "region": "Aotearoa New Zealand",
+      "color": "#2e9e77",
+      "period": {
+        "from": 1250,
+        "to": 2026,
+        "peak": 1800,
+        "living": true,
+        "certainty": "attested",
+        "note": "Settlement of Aotearoa ~1250–1300 (Wilmshurst et al. 2008 radiocarbon consensus); classic Māori religion fully formed by European contact (Cook, 1769). peak 1800: the eve of large-scale missionization — mass Christian affiliation from the 1830s–50s never extinguished the marae complex, and tapu, tangihanga, and whakapapa remain living practice."
+      }
+    },
+    "ratana-ringatu": {
+      "name": "Ratana + Ringatu (Māori prophetic movements)",
+      "region": "Aotearoa New Zealand",
+      "color": "#8a5fb0",
+      "period": {
+        "from": 1868,
+        "to": 2026,
+        "peak": 1936,
+        "living": true,
+        "certainty": "attested",
+        "note": "Anchored on Te Kooti's visions on Wharekauri (1867–68) and the July 1868 escape on the Rifleman (Ringatū's founding), and on T. W. Rātana's vision of 8 November 1918; Te Haahi Rātana constituted 1925, the Temple at Rātana Pā opened 25 January 1928. peak 1936: the Rātana–Labour covenant with Savage, the movement's maximum religious-political reach — all four Māori seats held by Rātana members by 1943; both churches remain living, census-recorded denominations."
+      }
+    },
+    "moorish-science": {
+      "name": "Moorish Science Temple of America",
+      "region": "USA (Noble Drew Ali)",
+      "color": "#a94a5e",
+      "period": {
+        "from": 1913,
+        "to": 2026,
+        "peak": 1928,
+        "living": true,
+        "certainty": "attested",
+        "note": "Canaanite Temple, Newark 1913 (MSTA's own tradition; earliest documented incorporation is Chicago 1925); Circle Seven Koran printed 1927; Drew Ali d. 20 Jul 1929; peak 1928 = the renamed MSTA's national-convention height, just before the succession splits."
+      }
+    },
+    "martinism": {
+      "name": "Martinism",
+      "region": "France -> international orders",
+      "color": "#7b68c4",
+      "period": {
+        "from": 1754,
+        "to": 2026,
+        "peak": 1900,
+        "living": true,
+        "certainty": "attested",
+        "note": "Martinez de Pasqually's documented Masonic activity from 1754, his Elus Cohens temples operating by the 1760s (Bordeaux 1767); Saint-Martin's 'Des erreurs et de la verite' 1775; Papus's Ordre Martiniste Supreme Council 1891; peak c. 1900 = the order's Belle Epoque height under Papus."
+      }
+    },
+    "religion-of-humanity": {
+      "name": "Religion of Humanity (Comtean positivism)",
+      "region": "France -> Brazil (surviving chapels)",
+      "color": "#7d9e8a",
+      "period": {
+        "from": 1848,
+        "to": 2026,
+        "peak": 1889,
+        "living": true,
+        "certainty": "attested",
+        "note": "Comte announces the Religion de l'Humanite in the Discours sur l'ensemble du positivisme (1848); Calendrier positiviste 1849; Catechisme positiviste 1852; Igreja Positivista do Brasil 1881; peak 1889 = 'Ordem e Progresso' inscribed on the new Brazilian republic's flag."
+      }
+    },
+    "zurvanism": {
+      "name": "Zurvanism",
+      "region": "Sasanian Persia (extinct)",
+      "color": "#8f5a96",
+      "period": {
+        "from": -350,
+        "to": 1150,
+        "peak": 450,
+        "living": false,
+        "certainty": "contested",
+        "note": "Eudemus of Rhodes (4th c. BCE, via Damascius) attests Magian Time-speculation; peak = mid-5th-c. Sasanian court (Mihr Narseh's creed in Elishe, Eznik of Kolb's refutation, c. 440s); al-Shahrastani (d. 1153) still lists Zurwaniyya. Whether Zurvanism was ever a distinct SECT rather than a theological current is itself contested — Zaehner's classic case vs the skepticism of Shaked and de Jong."
+      }
+    },
+    "karaite-judaism": {
+      "name": "Karaite Judaism",
+      "region": "Middle East, Crimea, Israel (living)",
+      "color": "#d1965a",
+      "period": {
+        "from": 760,
+        "to": 2026,
+        "peak": 950,
+        "living": true,
+        "certainty": "attested",
+        "note": "From Anan ben David's activity in Abbasid Babylonia (c. 760s, under al-Mansur); peak = the 10th-c. Jerusalem golden age (al-Qirqisani's Kitab al-Anwar dated 937, the Mourners of Zion community); living communities today chiefly in Israel (centered on Ramla) and small diasporas."
+      }
+    },
+    "sufism": {
+      "name": "Sufism",
+      "region": "Islamic world -> global",
+      "color": "#c96a7e",
+      "period": {
+        "from": 700,
+        "to": 2026,
+        "peak": 1250,
+        "living": true,
+        "certainty": "attested",
+        "note": "Formative stage anchored on early Basran asceticism (Hasan al-Basri, d. 728; Rabi'a al-'Adawiyya, d. 801) and the late-8th-c. emergence of the term sufi; peak = the 13th c., when Ibn 'Arabi (d. 1240), Rumi (d. 1273) and the great tariqa orders crystallize."
+      }
+    },
+    "ismailism": {
+      "name": "Ismailism",
+      "region": "Islamic world (Nizari, Tayyibi; living)",
+      "color": "#a85246",
+      "period": {
+        "from": 765,
+        "to": 2026,
+        "peak": 973,
+        "living": true,
+        "certainty": "attested",
+        "note": "From the succession dispute at the death of Imam Ja'far al-Sadiq (765), when Seveners held to the line of his son Isma'il; peak = the Fatimid apex, anchored on al-Mu'izz transferring the caliphate to newly founded Cairo (973; al-Azhar founded 970); living Nizari and Tayyibi communities worldwide."
       }
     }
   },
@@ -24933,6 +25787,4426 @@ window.MIRROR_DATA = {
       "gloss": "The great serpent of storm and waterfall, a vast snake whose movements through the sky raise the tornado and the seasonal tempest, dwelling in deep pools and rising to seek its mate in the clouds.",
       "facet": "A weather made of snake: where other traditions split the storm-god from the world-serpent, the Nguni fuse them — the tempest is not hurled by a sky-wielder but is the very body of a serpent moving between pool and cloud.",
       "provenance": "Inkanyamba of the Zulu and neighbouring peoples (notably tied to Howick Falls); a living folk-belief recorded into the modern era."
+    },
+    {
+      "id": "catholicism-mass",
+      "tradition": "catholicism",
+      "kind": "rite",
+      "name": "The Mass (The Eucharistic Sacrifice)",
+      "archetypes": [
+        "primordial-sacrifice",
+        "creative-word"
+      ],
+      "gloss": "The central act of Catholic worship, in which bread and wine are held to become substantially the body and blood of Christ at the priest's words of consecration — the doctrine of transubstantiation, defined at the Fourth Lateran Council (1215) and reaffirmed with Aristotelian precision at Trent.",
+      "facet": "Catholicism radicalizes the shared Christian eucharist into a metaphysical claim: the accidents of bread remain while the substance changes, making every altar the site of Calvary re-presented — a daily, repeatable intersection of eternity and matter.",
+      "provenance": "Fourth Lateran Council canon 1 (1215); Council of Trent, Session XIII (1551); Thomas Aquinas, Summa Theologiae III."
+    },
+    {
+      "id": "catholicism-papacy",
+      "tradition": "catholicism",
+      "kind": "concept",
+      "name": "The Papacy (The Petrine Office)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The bishop of Rome as successor of Peter, visible head of the universal Church, holding the keys given in Matthew 16:18-19. The office grew from Leo I's primacy claims to Innocent III's plenitudo potestatis to the definition of papal infallibility at Vatican I (1870).",
+      "facet": "No other tradition concentrates religious authority so completely in one living, elected man: a monarchy that survived the empires around it by making its center portable in principle but fixed in Rome in fact.",
+      "provenance": "Matthew 16:18-19; Leo I's sermons and letters; Vatican I, Pastor Aeternus (1870); Eamon Duffy, 'Saints and Sinners: A History of the Popes'."
+    },
+    {
+      "id": "catholicism-communion-of-saints",
+      "tradition": "catholicism",
+      "kind": "concept",
+      "name": "The Communion of Saints",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The doctrine that the Church spans the living and the dead as one body: canonized saints in heaven intercede for petitioners on earth, each with feast days, patronages, relics, and iconography. Veneration (dulia) is formally distinguished from the worship (latria) owed to God alone.",
+      "facet": "This is the load-bearing wall of the great Atlantic syncretisms — a populated heaven of specialized, approachable intercessors with fixed images and attributes gave enslaved Africans a ready-made mask-set for the orisha and lwa.",
+      "provenance": "Apostles' Creed; Council of Trent, Session XXV (1563); Peter Brown, 'The Cult of the Saints'."
+    },
+    {
+      "id": "catholicism-marian-apparitions",
+      "tradition": "catholicism",
+      "kind": "concept",
+      "name": "Marian Apparitions (Guadalupe, Lourdes, Fátima)",
+      "archetypes": [
+        "great-mother",
+        "genius-loci"
+      ],
+      "gloss": "The recurring pattern of the Virgin Mary appearing at specific sites — Tepeyac to Juan Diego (1531), Lourdes to Bernadette Soubirous (1858), Fátima to three shepherd children (1917) — each generating a spring, an image, or a message, and a permanent pilgrimage shrine.",
+      "facet": "The apparitions bind the universal Mother to particular hills, grottoes, and springs; the Church's own cautious adjudication process (most claims are rejected) shows an institution rationing exactly the kind of localized theophany it cannot manufacture.",
+      "provenance": "Nican Mopohua (Guadalupe narrative, 16th c.); Lourdes episcopal commission (1862); Fátima documentation and 1930 approval; Ruth Harris, 'Lourdes: Body and Spirit in the Secular Age'."
+    },
+    {
+      "id": "catholicism-jesuits",
+      "tradition": "catholicism",
+      "kind": "concept",
+      "name": "The Society of Jesus (The Jesuits)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "The religious order founded by Ignatius of Loyola and approved by Paul III in 1540: formed by the thirty-day Spiritual Exercises, vowed to special obedience to the pope, and built for missions and schools from Paraguay to Beijing. The Superior General's real, attested nickname is the 'Black Pope' — from the plain black cassock and the office's global reach.",
+      "facet": "The Exercises are a technology of engineered interior transformation — imaginative immersion in the Gospel scenes as a directed ordeal. Note: the 'Black Pope' epithet is documented fact; the 'grey pope' bloodline-conspiracy lore that grew around the order has no historical standing and is excluded here as such.",
+      "provenance": "Ignatius of Loyola, 'Spiritual Exercises'; Regimini militantis Ecclesiae (1540); John W. O'Malley, 'The First Jesuits'."
+    },
+    {
+      "id": "catholicism-purgatory",
+      "tradition": "catholicism",
+      "kind": "place",
+      "name": "Purgatory",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The intermediate state in which the saved who die imperfect are purified before entering heaven, aided by the prayers, alms, and Masses of the living. Defined at Lyon II (1274) and Florence (1439); the indulgence economy attached to it helped detonate the Reformation.",
+      "facet": "Purgatory converts the afterlife into an ongoing economy between living and dead — Jacques Le Goff argued the doctrine crystallized as a mappable 'third place' only in the twelfth century, an afterworld invented to hold the ordinary sinner.",
+      "provenance": "Second Council of Lyon (1274); Council of Florence (1439); Council of Trent, Session XXV; Jacques Le Goff, 'The Birth of Purgatory'."
+    },
+    {
+      "id": "eastern-orthodoxy-theosis",
+      "tradition": "eastern-orthodoxy",
+      "kind": "principle",
+      "name": "Theosis (Deification)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The goal of the Christian life stated at maximum voltage: 'God became man so that man might become god' (Athanasius, On the Incarnation 54). The believer is progressively united with God's uncreated energies — never His essence — until the human being is transfigured like Christ on Tabor.",
+      "facet": "Where the Latin West organized salvation around guilt and satisfaction, the Greek East organized it around ontological transformation — salvation as a change in what the human being is, not merely in how it stands before the judge.",
+      "provenance": "Athanasius, 'On the Incarnation' 54; Maximus the Confessor; Gregory Palamas, 'Triads'; Vladimir Lossky, 'The Mystical Theology of the Eastern Church'."
+    },
+    {
+      "id": "eastern-orthodoxy-hesychasm",
+      "tradition": "eastern-orthodoxy",
+      "kind": "rite",
+      "name": "Hesychasm (The Jesus Prayer)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The discipline of stillness (hesychia): unceasing repetition of the Jesus Prayer — 'Lord Jesus Christ, Son of God, have mercy on me' — coordinated with breath and posture, until the practitioner beholds the uncreated light the apostles saw at the Transfiguration.",
+      "facet": "Defended by Gregory Palamas against Barlaam and vindicated by the councils of 1341-1351, hesychasm stakes the claim that the divine light is seen with the body's eyes transformed — the East's most systematic contemplative technology, codified in the Philokalia (1782).",
+      "provenance": "Gregory Palamas, 'Triads in Defense of the Holy Hesychasts'; the 'Philokalia' (comp. Nikodimos and Makarios, 1782); the anonymous 'Way of a Pilgrim'."
+    },
+    {
+      "id": "eastern-orthodoxy-icon",
+      "tradition": "eastern-orthodoxy",
+      "kind": "concept",
+      "name": "The Icon",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The painted image as a sacramental window: because God took matter in the Incarnation, matter can bear His image. After a century of imperial iconoclasm, Nicaea II (787) defined that the honor paid the image passes to its prototype; the 843 'Triumph of Orthodoxy' is still kept as a feast.",
+      "facet": "Icon theology is a precise doctrine of mediation, not indwelling — the board and pigment house nothing; veneration travels through them to the one depicted. A whole civilization's answer to the question of whether the divine can be pictured.",
+      "provenance": "John of Damascus, 'Three Treatises on the Divine Images'; Second Council of Nicaea (787); Theodore the Studite, 'On the Holy Icons'."
+    },
+    {
+      "id": "eastern-orthodoxy-athos",
+      "tradition": "eastern-orthodoxy",
+      "kind": "place",
+      "name": "Mount Athos (The Holy Mountain)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The monastic peninsula in northern Greece, a self-governing republic of monks since Athanasius the Athonite founded the Great Lavra in 963. Twenty ruling monasteries, sketes, and hermit cells; by the avaton rule, no woman has lawfully entered for a millennium.",
+      "facet": "Athos is Orthodoxy's living laboratory — the place where hesychasm was practiced before it was defended, and where the tradition's full contemplative inheritance is transmitted person-to-person rather than by text alone.",
+      "provenance": "Typikon of John Tzimiskes (972); Athanasius the Athonite's foundation of the Great Lavra (963); Graham Speake, 'Mount Athos: Renewal in Paradise'."
+    },
+    {
+      "id": "eastern-orthodoxy-liturgy",
+      "tradition": "eastern-orthodoxy",
+      "kind": "rite",
+      "name": "The Divine Liturgy",
+      "archetypes": [
+        "primordial-sacrifice",
+        "axis-mundi"
+      ],
+      "gloss": "The eucharistic service (in the forms of St. John Chrysostom and St. Basil) celebrated as heaven happening on earth — incense, chant, and the iconostasis staging the worshipper inside the kingdom. The Rus' Primary Chronicle has Vladimir's envoys report from Hagia Sophia (987): 'we knew not whether we were in heaven or on earth.'",
+      "facet": "Orthodoxy's primary theology is sung, not argued: the liturgy is the tradition's actual dogmatic textbook, and its beauty has functioned historically as an instrument of conversion.",
+      "provenance": "The Divine Liturgies of John Chrysostom and Basil the Great; Russian Primary Chronicle s.a. 987; Alexander Schmemann, 'For the Life of the World'."
+    },
+    {
+      "id": "oriental-orthodoxy-miaphysis",
+      "tradition": "oriental-orthodoxy",
+      "kind": "principle",
+      "name": "Miaphysis (The One United Nature)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "Cyril of Alexandria's formula — 'one incarnate nature of God the Word' — held against Chalcedon's 'in two natures' (451). Divinity and humanity are united in Christ without confusion, change, division, or separation; Ethiopia's own name for its church, Tewahedo, means 'made one'.",
+      "facet": "The christological boundary that made a family: modern ecumenical dialogue (agreed statements from 1989-1990) reads the fifteen-century split as largely terminological, which makes this the mirror's starkest case of a civilization-scale schism over a preposition.",
+      "provenance": "Cyril of Alexandria's letters; Council of Chalcedon acta (451); Eastern Orthodox-Oriental Orthodox agreed statements (Anba Bishoy 1989, Chambésy 1990)."
+    },
+    {
+      "id": "oriental-orthodoxy-kebra-nagast",
+      "tradition": "oriental-orthodoxy",
+      "kind": "text",
+      "name": "The Kebra Nagast (The Glory of Kings)",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The Ethiopian national epic, compiled in Ge'ez c. 1314-1322: the Queen of Sheba visits Solomon, bears his son Menelik I, and Menelik carries the Ark of the Covenant from Jerusalem to Ethiopia. It charters the Solomonic dynasty and Ethiopia's claim to be the new Israel.",
+      "facet": "A text functioning as a genealogy-machine: it converts a biblical episode into a living royal bloodline, and its claims were written into Ethiopia's 1955 constitution — myth operating as constitutional law into the twentieth century.",
+      "provenance": "Kebra Nagast (Ge'ez text, trans. E. A. Wallis Budge); Edward Ullendorff, 'Ethiopia and the Bible'; David Allan Hubbard's dissertation on its literary sources."
+    },
+    {
+      "id": "oriental-orthodoxy-tabot",
+      "tradition": "oriental-orthodoxy",
+      "kind": "concept",
+      "name": "The Tabot and the Ark of Zion",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "Every Ethiopian Tewahedo church is consecrated by its tabot — an altar tablet replicating the Ark of the Covenant — carried in procession under brocade at Timkat (Epiphany). The original Ark itself is claimed to rest at Our Lady Mary of Zion in Aksum, seen by no one but its lifelong guardian monk.",
+      "facet": "The claim is unverifiable by design — the guardian system forecloses inspection — but the tabot system is real and universal: an entire national church physically organized around the asserted presence of Israel's lost center.",
+      "provenance": "Kebra Nagast; Ethiopian Tewahedo liturgical practice (Timkat); Edward Ullendorff, 'Ethiopia and the Bible'; Stuart Munro-Hay, 'The Quest for the Ark of the Covenant'."
+    },
+    {
+      "id": "oriental-orthodoxy-anthony",
+      "tradition": "oriental-orthodoxy",
+      "kind": "hero",
+      "name": "Anthony the Great (Father of Monasticism)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "The Coptic anchorite (c. 251-356) who sold his inheritance and withdrew into the Egyptian desert, wrestling demons in the tombs and the inner mountain. Athanasius's 'Life of Antony' made him the template, and the desert filled with monks 'as a city'.",
+      "facet": "Christian monasticism is a Coptic invention exported to the world — the desert as a deliberate ordeal that remakes the self, with the monastery of St. Anthony by the Red Sea still inhabited after seventeen centuries.",
+      "provenance": "Athanasius, 'Life of Antony' (c. 360); 'Apophthegmata Patrum' (Sayings of the Desert Fathers)."
+    },
+    {
+      "id": "oriental-orthodoxy-gregory-illuminator",
+      "tradition": "oriental-orthodoxy",
+      "kind": "hero",
+      "name": "Gregory the Illuminator",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The apostle of Armenia: imprisoned for years in the pit of Khor Virap, he healed and converted King Tiridates III, making Armenia the first state to adopt Christianity (traditional date 301). The cathedral he founded at Etchmiadzin remains the Armenian church's see.",
+      "facet": "The first nationalization of Christianity anywhere — a conversion running crown-downward that fused church and people so completely that Armenian identity and Armenian Christianity became inseparable, through empire, diaspora, and genocide.",
+      "provenance": "Agathangelos, 'History of the Armenians' (5th c.); Armenian Apostolic tradition of Etchmiadzin."
+    },
+    {
+      "id": "protestantism-luther",
+      "tradition": "protestantism",
+      "kind": "hero",
+      "name": "Martin Luther",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Augustinian friar and Wittenberg professor whose Ninety-Five Theses (1517) against the sale of indulgences detonated the Reformation. His doctrine of justification by faith alone — the sinner declared righteous by trust in Christ, not by merit — and his German Bible put the sacred goods directly into lay hands.",
+      "facet": "A reformer, not a prophet: he claimed no new revelation, only that the church had buried the old one — the rare founder whose whole authority rests on pointing away from himself to a text.",
+      "provenance": "Ninety-Five Theses (1517); Heidelberg Disputation (1518); Luther's German New Testament (1522); Roland Bainton, Here I Stand (1950)."
+    },
+    {
+      "id": "protestantism-calvin",
+      "tradition": "protestantism",
+      "kind": "hero",
+      "name": "John Calvin",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The French exile whose Institutes of the Christian Religion (1536; definitive 1559) systematized the Reformation and whose Geneva became its training city. His signature is the absolute sovereignty of God — providence and predestination ordering every event, election resting on God's decree alone.",
+      "facet": "Where Luther supplies the Reformation's fire, Calvin supplies its architecture: a total system in which divine sovereignty functions almost as impersonal cosmic law, and disciplined worldly labor becomes the arena of obedience.",
+      "provenance": "Institutes of the Christian Religion (1536/1559); Geneva's Ecclesiastical Ordinances (1541); Bruce Gordon, Calvin (2009)."
+    },
+    {
+      "id": "protestantism-sola-scriptura",
+      "tradition": "protestantism",
+      "kind": "principle",
+      "name": "Sola Scriptura",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The formal principle of the Reformation: Scripture alone is the final authority in the church, standing above pope, council, and tradition. Staked publicly when Luther refused to recant at Worms (1521) unless convinced 'by Scripture and plain reason.'",
+      "facet": "It relocates the sacred center from an institution to a book — and in Protestant theology the preached Word does not merely inform but effects: faith itself is created by hearing it, a genuinely performative doctrine of language.",
+      "provenance": "Luther at the Diet of Worms (1521); Formula of Concord (1577); Westminster Confession of Faith (1646)."
+    },
+    {
+      "id": "protestantism-priesthood-of-all-believers",
+      "tradition": "protestantism",
+      "kind": "principle",
+      "name": "The Priesthood of All Believers",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The doctrine, argued from 1 Peter 2:9, that every baptized Christian stands before God without a mediating priestly caste — free to read Scripture, pray, and intercede for neighbors. Clergy differ by office and training, not by ontological grade.",
+      "facet": "The Reformation's most corrosive social idea: it dissolves the sacred/profane division of labor, and its long downstream runs through congregationalism and revivalism to every movement that hands religious authority to the unlicensed individual.",
+      "provenance": "1 Peter 2:9; Luther, To the Christian Nobility of the German Nation (1520)."
+    },
+    {
+      "id": "protestantism-new-birth",
+      "tradition": "protestantism",
+      "kind": "rite",
+      "name": "The New Birth (Evangelical Conversion)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "The datable personal crisis of conversion — conviction of sin, surrender, assurance — that the evangelical wave made the gate of authentic Christianity. Modeled on John 3 ('born again'), normalized by the Great Awakenings and Wesley's Aldersgate experience (1738).",
+      "facet": "It moves initiation from an infant sacrament administered by the church to an adult ordeal undergone by the self — the believer must be able to narrate the moment the old person died, which makes testimony itself a liturgical form.",
+      "provenance": "John 3:3; Jonathan Edwards, A Faithful Narrative of the Surprising Work of God (1737); John Wesley's Journal, 24 May 1738; David Bebbington, Evangelicalism in Modern Britain (1989)."
+    },
+    {
+      "id": "pentecostalism-seymour",
+      "tradition": "pentecostalism",
+      "kind": "hero",
+      "name": "William J. Seymour",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The son of freed Louisiana slaves, a one-eyed Holiness preacher who — after listening to Parham's classes from the hallway of a segregated Texas Bible school — led the Azusa Street revival of 1906, the launch event of global Pentecostalism.",
+      "facet": "The movement's carrier of its most scandalous feature: interracial worship in Jim Crow America, where 'the color line was washed away in the blood' — a social rupture as central to Azusa as the tongues.",
+      "provenance": "The Apostolic Faith newspaper (Los Angeles, 1906–1908); Cecil M. Robeck, The Azusa Street Mission and Revival (2006); Frank Bartleman, Azusa Street (1925)."
+    },
+    {
+      "id": "pentecostalism-spirit-baptism",
+      "tradition": "pentecostalism",
+      "kind": "concept",
+      "name": "Baptism in the Holy Spirit",
+      "archetypes": [
+        "divine-embodiment",
+        "sacred-initiation"
+      ],
+      "gloss": "The definitive Pentecostal experience: a work of grace subsequent to conversion in which the Holy Spirit floods and empowers the believer, modeled on the day of Pentecost in Acts 2. Classical doctrine holds tongues to be its 'initial physical evidence.'",
+      "facet": "It restores to Protestantism what cessationism had ruled out — the deity entering the devotee's body here and now — while insisting the experience is for every believer, not a virtuoso class.",
+      "provenance": "Acts 2; Charles Parham's Topeka formulation (1901); Assemblies of God, Statement of Fundamental Truths (1916)."
+    },
+    {
+      "id": "pentecostalism-glossolalia",
+      "tradition": "pentecostalism",
+      "kind": "rite",
+      "name": "Glossolalia (Speaking in Tongues)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "Ecstatic vocalization in syllables unknown to the speaker, practiced in worship and private prayer as the Spirit 'giving utterance' (Acts 2:4). Early Pentecostals expected real foreign languages for missions (xenolalia); the movement settled on tongues as devotional speech requiring interpretation in public.",
+      "facet": "A rite whose whole content is the surrender of semantic control — the tongue, the organ of human self-assertion, handed over as the proof-site that another will is speaking.",
+      "provenance": "Acts 2; 1 Corinthians 12–14; William J. Samarin, Tongues of Men and Angels (1972)."
+    },
+    {
+      "id": "pentecostalism-divine-healing",
+      "tradition": "pentecostalism",
+      "kind": "rite",
+      "name": "Divine Healing",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "Prayer for the sick with laying on of hands and anointing oil (James 5:14), grounded in the claim that healing is provided 'in the atonement.' Practiced from Azusa's earliest meetings through the great healing revivals and the tent campaigns of the 1940s–50s.",
+      "facet": "The anointing is handled as transferable power — through hands, prayer cloths (after Acts 19:12), even radio waves — an almost substance-like force flowing from the Spirit through sanctified conduits.",
+      "provenance": "James 5:14–15; Aimee Semple McPherson's Foursquare Gospel (Jesus as Healer, 1923); Candy Gunther Brown (ed.), Global Pentecostal and Charismatic Healing (2011)."
+    },
+    {
+      "id": "pentecostalism-azusa",
+      "tradition": "pentecostalism",
+      "kind": "place",
+      "name": "The Azusa Street Mission",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "A whitewashed former AME church and livery stable at 312 Azusa Street, Los Angeles, where from April 1906 services ran day and night for roughly three years. Pilgrims came from across the world, received Spirit baptism, and carried the revival home as missionaries.",
+      "facet": "A center-of-the-world made from the least prestigious real estate available — the movement's founding site is a stable with a dirt floor, and it functioned as a radiating hub precisely because anyone could enter it.",
+      "provenance": "Los Angeles Daily Times, 'Weird Babel of Tongues' (18 April 1906); The Apostolic Faith (1906–1908); Cecil M. Robeck, The Azusa Street Mission and Revival (2006)."
+    },
+    {
+      "id": "keylontic-science-ashayana-deane",
+      "tradition": "keylontic-science",
+      "kind": "prophet",
+      "name": "Ashayana Deane (the Speaker)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The movement's founder and sole authorized 'Speaker' (writing first as Anna Hayes) — a contactee who states she was inducted by the Guardian Alliance to translate the CDT-Plates for the 2000-2017 Stellar Activation Cycle. Her Voyagers volumes and the Azurite Press workshop transcripts constitute essentially the entire canon.",
+      "facet": "She rejects the label of channel: a Speaker does not lend her body to a foreign intelligence but 'translates' pre-encoded holographic records — a claim of textual authority framed as data transfer rather than possession.",
+      "provenance": "Ashayana Deane (Anna Hayes), 'Voyagers: The Sleeping Abductees' and 'Voyagers II: The Secrets of Amenti' (Granite Publishing, c. 1999-2002 editions); Azurite Press MCEO workshop materials."
+    },
+    {
+      "id": "keylontic-science-guardian-alliance",
+      "tradition": "keylontic-science",
+      "kind": "deity",
+      "name": "The Guardian Alliance",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The task force of 'Guardian' races within the Interdimensional Association of Free Worlds — collectives such as the Elohei-Elohim, Seraphei-Seraphim, and Bra-ha-Rama, under the three founding Breneau Orders (Emerald, Gold, Amethyst) — charged with defending the 15-dimensional Time Matrix and shepherding Earth's ascension against 'fallen angelic' legions (Anunnaki, Drakonian).",
+      "facet": "It re-arms the angelic hierarchy as a cosmic security apparatus: guardianship here is not moral instruction but grid defense, fought over DNA templates and planetary star-gates rather than over souls.",
+      "provenance": "Voyagers II: The Secrets of Amenti; Azurite Press MCEO (Melchizedek Cloister Emerald Order) materials."
+    },
+    {
+      "id": "keylontic-science-emerald-covenant",
+      "tradition": "keylontic-science",
+      "kind": "concept",
+      "name": "The Emerald Covenant",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The claimed pan-galactic co-evolution treaty administered by the Emerald Order: an agreement among Guardian collectives — open even to formerly fallen races willing to rehabilitate — to restore every being's original divine blueprint and reopen the way back to Source.",
+      "facet": "It turns soteriology into diplomacy: salvation is administered as a ratified interspecies treaty with signatories, defectors, and enforcement clauses, not as grace, sacrifice, or gnosis.",
+      "provenance": "Voyagers II: The Secrets of Amenti; Azurite Press MCEO workshop materials."
+    },
+    {
+      "id": "keylontic-science-cdt-plates",
+      "tradition": "keylontic-science",
+      "kind": "text",
+      "name": "The CDT-Plates (Cloister Dora-Teura Plates)",
+      "archetypes": [
+        "mystery-school"
+      ],
+      "gloss": "Twelve indestructible holographic disc records said to long pre-date Atlantis, translated periodically by sanctioned Speakers. Deane's Voyagers books present themselves as the current translation — and all authentic world scriptures as earlier, partial, and progressively distorted ones.",
+      "facet": "A closed-loop authority device: every rival scripture is honored as a degraded excerpt of the plates, so no external text can contradict the tradition — revelation with the priority permanently reversed in its own favor.",
+      "provenance": "Voyagers I-II (Granite Publishing); Azurite Press MCEO materials on the CDT-Plate 'translations'."
+    },
+    {
+      "id": "keylontic-science-fall-of-tara",
+      "tradition": "keylontic-science",
+      "kind": "concept",
+      "name": "The Fall of Tara",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The primal catastrophe: the Turaneusiam, the angelic-human prototype race of the planet Tara, fell some 550 million years ago when their planetary grid was exploded, fragmenting their soul-essence into lower dimensional fields. Earth and its humans exist as the rescue architecture — the Sphere of Amenti — through which the fragments re-evolve and re-ascend.",
+      "facet": "It fuses the Gnostic fall with planetary science fiction: original sin becomes a grid-engineering accident, and reincarnation on Earth becomes a multi-million-year salvage operation.",
+      "provenance": "Voyagers II: The Secrets of Amenti (the Amenti rescue-mission narrative)."
+    },
+    {
+      "id": "keylontic-science-stellar-activation-cycle",
+      "tradition": "keylontic-science",
+      "kind": "rite",
+      "name": "The Stellar Activation Cycle",
+      "archetypes": [
+        "transmutation",
+        "cyclic-ages"
+      ],
+      "gloss": "The 2000-2017 window in which Earth's star-gates were said to open, and the practices keyed to it: Kathara grid healing and DNA-template 'stellar activations' meant to reassemble the twelve-strand silicate matrix and carry the activated through ascension.",
+      "facet": "Ascension as biotechnical procedure with a deadline: grace is replaced by frequency mechanics, and the apocalyptic date-window is survived, in practice, by rolling revisions of the schedule.",
+      "provenance": "Voyagers II; Kathara Bio-Spiritual Healing Program manuals (Azurite Press)."
+    },
+    {
+      "id": "law-of-one-ra",
+      "tradition": "law-of-one",
+      "kind": "force",
+      "name": "Ra (the social memory complex)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "'We are those of Ra' — a sixth-density social memory complex that says it evolved on Venus and last walked Earth in Egypt, where it helped raise pyramids as instruments of initiation and healing before its teaching curdled into sun-cult and priestcraft. It returned, it says, to correct that distortion with a single message: all things are one Creator.",
+      "facet": "A god that files an erratum: Ra presents itself not as a deity demanding worship but as a 'humble messenger' making amends for the religion founded in its name — revelation delivered in the key of apology.",
+      "provenance": "The Law of One, sessions 1-106 (L/L Research, 1981-84), esp. sessions 1, 2, 14, and 23; The Ra Material (Donning, 1984)."
+    },
+    {
+      "id": "law-of-one-the-contact",
+      "tradition": "law-of-one",
+      "kind": "rite",
+      "name": "The Tuned Trance Contact",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The protocol of the Louisville sessions: Don Elkins questioning, Carla Rueckert in unconscious trance lending her voice, Jim McCarty scribing — the working 'tuned' before each session with a Bible opened to the Gospel of John, a lit candle, incense, and a chalice of water. 106 sessions, January 1981 to March 1984.",
+      "facet": "Channeling disciplined into laboratory method: fixed apparatus, repeatable procedure, and a physics professor as interrogator — the transcripts read like experiment logs, numbered question by question.",
+      "provenance": "The Law of One, Book I introduction (L/L Research); Carla Rueckert's autobiographical accounts; the lawofone.info session archive."
+    },
+    {
+      "id": "law-of-one-densities",
+      "tradition": "law-of-one",
+      "kind": "concept",
+      "name": "The Densities (the Octave)",
+      "archetypes": [
+        "transmutation",
+        "cyclic-ages"
+      ],
+      "gloss": "Seven densities of consciousness plus an eighth that begins the next octave, each a literal 'density' of light: first density the cycle of elemental awareness, third the density of self-aware choice that humans occupy, sixth the density from which Ra speaks. Progress is measured in light, not virtue.",
+      "facet": "The load-bearing wall of the modern ascension lexicon: 'third density', 'fourth-density Earth', and the pop-esoteric '5D' all trace to this scheme, usually with no memory of the source.",
+      "provenance": "The Law of One, esp. sessions 13, 16, 20, and 40-41 (L/L Research, 1981-84)."
+    },
+    {
+      "id": "law-of-one-the-choice",
+      "tradition": "law-of-one",
+      "kind": "principle",
+      "name": "The Choice (Service to Others / Service to Self)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "Third density exists for one decision: polarization in service to others or service to self. Both polarities graduate and both are named paths to the one Creator — though the negative road, Ra states, cannot be walked past mid-sixth density, where it must at last be surrendered.",
+      "facet": "Evil is granted a valid visa but a finite one: the adversarial path becomes a legitimate, temporary curriculum inside unity rather than a rival kingdom — dualism dissolved into pedagogy.",
+      "provenance": "The Law of One, esp. sessions 17 and 19-20 (L/L Research, 1981-84)."
+    },
+    {
+      "id": "law-of-one-the-harvest",
+      "tradition": "law-of-one",
+      "kind": "concept",
+      "name": "The Harvest",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The graduation at the close of a 75,000-year master cycle, when each soul is measured by the polarity of its 'violet ray' and either passes onward or repeats the grade. Ra placed Earth's harvest around 2011, with the planet birthing a fourth-density world of love and understanding.",
+      "facet": "The wellspring of ascension eschatology: much of the 2012-era 'ascension' discourse is this concept with the serial numbers filed off, carried outward from the Ra Material through the online esoteric commons.",
+      "provenance": "The Law of One, esp. sessions 6, 14, 17, and 40 (L/L Research, 1981-84); the c. 2011 dating is given in session 6."
+    },
+    {
+      "id": "law-of-one-social-memory-complex",
+      "tradition": "law-of-one",
+      "kind": "concept",
+      "name": "The Social Memory Complex",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The destiny-form of a matured species: a planetary population fused into a single being whose every memory and experience is available to all without erasing individual facets. Ra is one; the Confederation of Planets in the Service of the Infinite Creator is a federation of them.",
+      "facet": "It literalizes the Law of One sociologically — enlightenment is not a private summit but a species-scale merger, the noosphere become a person.",
+      "provenance": "The Law of One, esp. sessions 6, 11, and 14 (L/L Research, 1981-84)."
+    },
+    {
+      "id": "course-in-miracles-schucman",
+      "tradition": "course-in-miracles",
+      "kind": "prophet",
+      "name": "Helen Schucman (the Scribe)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A research psychologist at Columbia's College of Physicians and Surgeons — professionally skeptical and a self-described atheist — who in October 1965 began hearing a rapid inner dictation ('This is a course in miracles. Please take notes.') and, with her colleague William Thetford typing, took seven years of it down in shorthand.",
+      "facet": "The corpus's most reluctant prophet: she never joined the movement her notebooks created, remained privately conflicted about the material, and kept her authorship anonymous for the rest of her life.",
+      "provenance": "Kenneth Wapnick, 'Absence from Felicity' (1991); Foundation for Inner Peace preface and scribal history; William Thetford's accounts."
+    },
+    {
+      "id": "course-in-miracles-text",
+      "tradition": "course-in-miracles",
+      "kind": "text",
+      "name": "The Course (Text, Workbook, Manual)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The three-volume curriculum published by the Foundation for Inner Peace in 1976: a Text of theory, a Workbook of 365 daily lessons, and a Manual for Teachers — a complete self-study technology whose stated aim is not to teach love but to remove 'the blocks to the awareness of love's presence'.",
+      "facet": "Christian vocabulary run through a psychoanalytic lens to deliver a non-dual metaphysics: sin becomes error, atonement becomes undoing, the crucifixion a teaching demonstration — heresy composed in the mother tongue of the church.",
+      "provenance": "A Course in Miracles (Foundation for Inner Peace, 1976); Schucman-Thetford scribal history; D. Patrick Miller's documentary histories of the Course."
+    },
+    {
+      "id": "course-in-miracles-the-ego",
+      "tradition": "course-in-miracles",
+      "kind": "concept",
+      "name": "The Ego",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The belief in separation from God, which the Course treats as the manufacturer of the entire perceptual world: time, space, bodies, and death are its defensive dream, spun to keep the separation seemingly real and God seemingly absent.",
+      "facet": "A demiurge with no ontology: the Course's adversary makes the world, as in Gnosticism, yet is explicitly nothing — an insane thought taken seriously, to be dissolved not by battle but by withdrawal of belief.",
+      "provenance": "A Course in Miracles, Text (esp. the early chapters on the ego's dynamics); Kenneth Wapnick's exegesis."
+    },
+    {
+      "id": "course-in-miracles-holy-spirit",
+      "tradition": "course-in-miracles",
+      "kind": "force",
+      "name": "The Holy Spirit (the Answer)",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "God's Answer to the separation: the Voice placed within the dreaming mind that still remembers reality, reinterpreting everything the ego made — every grievance, body, and event — as a lesson leading home.",
+      "facet": "The psychopomp relocated inside the psyche: this guide ferries no souls across a literal threshold but escorts perception itself from nightmare to 'the real world', the last stop before God.",
+      "provenance": "A Course in Miracles, Text chapter 5 and the Manual for Teachers (Foundation for Inner Peace, 1976)."
+    },
+    {
+      "id": "course-in-miracles-forgiveness",
+      "tradition": "course-in-miracles",
+      "kind": "principle",
+      "name": "Forgiveness (the Undoing)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The Course's single practice and entire soteriology: the recognition that what your brother 'did' never happened in reality, so nothing needs pardoning — forgiveness 'sees there was no sin', and so undoes the world grievance by grievance.",
+      "facet": "Forgiveness inverted from transaction to demolition: it does not excuse a real offense but unmakes the offense's reality — mercy as metaphysical solvent rather than moral generosity.",
+      "provenance": "A Course in Miracles, Workbook lessons on forgiveness and Text chapter 26; Kenneth Wapnick, 'Forgiveness and Jesus' (1983)."
+    },
+    {
+      "id": "course-in-miracles-workbook-year",
+      "tradition": "course-in-miracles",
+      "kind": "rite",
+      "name": "The Workbook Year and the Study Group",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "One lesson a day for 365 days — beginning at 'Nothing I see... means anything' — practiced alone and rehearsed in the living-room study groups that became the movement's whole congregational form; there is no ACIM church, clergy, or sacrament.",
+      "facet": "A religion with the institutional footprint of a book club: the curriculum itself is the institution, and the only ordination is having done the year.",
+      "provenance": "Workbook for Students (Foundation for Inner Peace, 1976); FIP and Miracle Distribution Center study-group networks; Marianne Williamson, 'A Return to Love' (1992)."
+    },
+    {
+      "id": "mazdakism-mazdak",
+      "tradition": "mazdakism",
+      "kind": "prophet",
+      "name": "Mazdak son of Bāmdād",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The priest who preached the drist-dēn, 'the right religion' — a doctrine the sources say was founded a generation earlier by Zardusht of Fasa — and won King Kavad I himself to a program of opened granaries and broken aristocratic monopolies on wealth and marriage. Crown prince Khosrow had him executed and his followers massacred c. 524-528; legend has the Mazdakites buried head-down in a garden, 'planted' for Mazdak to view as his crop.",
+      "facet": "Every line we have about him was written by his executioners' heirs: the 'sharing of women' that damns him in the sources may be a leveling of aristocratic polygyny and bride-hoarding read through hostile eyes — the classic problem of a heresy known only from its verdict.",
+      "provenance": "Ferdowsi, Shahnameh; al-Tabari, History; Shahrastani, al-Milal wa-l-Nihal; Procopius, Wars 1.5; Ehsan Yarshater, 'Mazdakism' (Cambridge History of Iran 3/2, 1983); Patricia Crone, 'Kavad's Heresy and Mazdak's Revolt' (Iran 29, 1991)."
+    },
+    {
+      "id": "mazdakism-lord-of-light",
+      "tradition": "mazdakism",
+      "kind": "deity",
+      "name": "The Lord of Light Enthroned",
+      "archetypes": [
+        "sky-father",
+        "divine-embodiment"
+      ],
+      "gloss": "Shahrastani preserves the one surviving slab of Mazdakite theology: the object of worship sits on a throne in the world above as the Shah sits below, with four Powers before him — Discernment, Understanding, Memory, and Joy — governing the world through seven viziers within a circle of twelve spiritual forces; the man in whom the four Powers unite becomes rabbānī, divine, and beyond ritual obligation.",
+      "facet": "Heaven modeled openly on the Sasanian court, then turned against it: if the cosmos is a palace whose powers can converge in anyone, the actual palace loses its monopoly on the divine order it mirrors.",
+      "provenance": "Shahrastani, al-Milal wa-l-Nihal (12th-c. hostile heresiography); analysis in Yarshater (1983) and Crone (1991)."
+    },
+    {
+      "id": "mazdakism-light-and-darkness",
+      "tradition": "mazdakism",
+      "kind": "concept",
+      "name": "Light by Design, Darkness by Chance",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "Mazdakite dualism as the heresiographers report it: Light acts by free will and purpose, Darkness blindly and at random, and their mingling — unlike Mani's cosmic assault — happened by accident, as their final separation also will. Liberation is the gradual, gentle release of the light.",
+      "facet": "Softening the war changes the ethics: if darkness is not a strategist but a stumble, the right response is not combat but non-violence and patient disentangling — the metaphysics beneath Mazdakite pacifism.",
+      "provenance": "Shahrastani, al-Milal wa-l-Nihal, which explicitly compares Mazdak's teaching with Mani's; Yarshater (1983)."
+    },
+    {
+      "id": "mazdakism-common-store",
+      "tradition": "mazdakism",
+      "kind": "principle",
+      "name": "The Common Store (the Mazdakite Ethic)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "God set provision on the earth for equal division, the doctrine ran, and inequality is usurpation: property — and, the hostile sources insist, women — were to be held as a common trust, while bloodshed and the slaughter of cattle were forbidden. Under Kavad's brief favor this was implemented as opened granaries and redistributive decrees.",
+      "facet": "The rare heresy whose sin was economic: what the sources record as libertinism reads, against the grain, as an attack on aristocratic hoarding of wealth and wives — which is precisely why the aristocracy's historians wrote its obituary.",
+      "provenance": "al-Tabari, History (via the Khwaday-namag tradition); Procopius, Wars 1.5 (contemporary, on the marriage decree); Crone (1991) on the sources' hostility."
+    },
+    {
+      "id": "latter-day-saints-joseph-smith",
+      "tradition": "latter-day-saints",
+      "kind": "prophet",
+      "name": "Joseph Smith Jr.",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The farm boy of New York's revival-burned 'burned-over district' who reported a vision of the Father and Son (1820), received golden plates from the angel Moroni, and dictated the Book of Mormon largely through a seer stone. He organized the church on 6 April 1830, built Kirtland and Nauvoo, introduced the temple rites, and was killed by a mob at Carthage Jail on 27 June 1844.",
+      "facet": "Not a reformer but a restorer: where Luther pointed back to a text, Smith claimed the heavens had reopened — new scripture, new priesthood, new ordinances — making revelation itself, not interpretation, the movement's engine.",
+      "provenance": "Joseph Smith—History (Pearl of Great Price); Richard Bushman, Joseph Smith: Rough Stone Rolling (2005); Fawn Brodie, No Man Knows My History (1945)."
+    },
+    {
+      "id": "latter-day-saints-moroni",
+      "tradition": "latter-day-saints",
+      "kind": "spirit",
+      "name": "Moroni",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "In the Book of Mormon's own account, the last Nephite prophet-historian, who sealed the record and buried the plates about 421 CE — and who returned as a resurrected messenger to the seventeen-year-old Smith in 1823, meeting him yearly at the hill Cumorah until the plates were delivered in 1827. His trumpet-blowing figure crowns most Latter-day Saint temples.",
+      "facet": "Scripture delivered by its own dead author: the ancient chronicler personally hands over his book fourteen centuries later — the ancestor as archivist, collapsing the gap between composition and canon.",
+      "provenance": "Joseph Smith—History 1:27–54; Book of Mormon (Mormon 8; Moroni 10)."
+    },
+    {
+      "id": "latter-day-saints-book-of-mormon",
+      "tradition": "latter-day-saints",
+      "kind": "text",
+      "name": "The Book of Mormon",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Published at Palmyra in March 1830: presented as the record of Israelite families led to the Americas around 600 BCE, culminating in the risen Christ's ministry to them — 'Another Testament of Jesus Christ,' and in Smith's words the 'keystone' of the religion. Its ancient historicity is rejected by mainstream archaeology and genetics and held within the church by faith.",
+      "facet": "The canon reopened: the claim is not a better reading of the Bible but a second Bible of equal standing — the boldest scriptural move in American religious history, and the seam along which the tradition parted from Protestantism.",
+      "provenance": "The Book of Mormon (1830); Terryl Givens, By the Hand of Mormon (2002)."
+    },
+    {
+      "id": "latter-day-saints-endowment",
+      "tradition": "latter-day-saints",
+      "kind": "rite",
+      "name": "The Temple Endowment",
+      "archetypes": [
+        "sacred-initiation",
+        "mystery-school"
+      ],
+      "gloss": "The temple's central ordinance, first administered by Smith to nine men in the upper room of Nauvoo's Red Brick Store on 4 May 1842: washing and anointing, a dramatized creation-and-fall narrative, and covenants with signs and tokens, open only to members holding a temple recommend. Vicarious endowment for the dead extends the rite across the generations.",
+      "facet": "A genuine graded mystery inside modern Christianity: the tradition maintains an interior, access-controlled ritual world that even its own members must qualify to enter — sacred secrecy institutionalized, not residual.",
+      "provenance": "David John Buerger, The Mysteries of Godliness (1994); Michael W. Homer, Joseph's Temples (2014)."
+    },
+    {
+      "id": "latter-day-saints-exaltation",
+      "tradition": "latter-day-saints",
+      "kind": "concept",
+      "name": "Exaltation (Eternal Progression)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The doctrine that human spirits existed before birth — uncreated 'intelligences' organized as spirit children of God (Book of Abraham 3; D&C 93) — and that the faithful, sealed in temple marriage, may progress to godhood. Smith preached it fullest in the King Follett discourse (7 April 1844); Lorenzo Snow's couplet compressed it: 'As man now is, God once was; as God now is, man may be.'",
+      "facet": "It closes the ontological gap most theisms guard: God and humanity differ in degree, not kind — one eternal species at different points on the same road, with premortal existence as the road's beginning.",
+      "provenance": "King Follett Discourse (1844); Doctrine & Covenants 76, 93, 132; Pearl of Great Price, Book of Abraham 3."
+    },
+    {
+      "id": "latter-day-saints-continuing-revelation",
+      "tradition": "latter-day-saints",
+      "kind": "principle",
+      "name": "Continuing Revelation (The Living Prophet)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The principle that the church president is a living 'prophet, seer, and revelator' and the canon remains open: the Doctrine & Covenants collects revelations as scripture, and course-changing declarations — the 1890 Manifesto ending plural marriage, the 1978 revelation extending priesthood to Black members — carry canonical force.",
+      "facet": "Doctrine with a steering wheel: the same office that produced the canon can amend it, letting the tradition make binding reversals no fixed-canon church can — at the price of making history itself a theological instrument.",
+      "provenance": "Doctrine & Covenants (1835– ), Official Declarations 1 (1890) and 2 (1978); Ninth Article of Faith."
+    },
+    {
+      "id": "jehovahs-witnesses-russell",
+      "tradition": "jehovahs-witnesses",
+      "kind": "prophet",
+      "name": "Charles Taze Russell",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Pittsburgh haberdasher (1852–1916) whose faith, shaken by hellfire doctrine, was restored by Adventist preaching (Jonas Wendell, 1869). He absorbed Nelson Barbour's chronology, broke with him over the ransom doctrine, and founded Zion's Watch Tower (1879) and the Bible Student movement, publishing the six-volume Studies in the Scriptures.",
+      "facet": "A founder who built a publishing corporation rather than a church — the Watch Tower Society's printed page, not a clergy or a sacramental system, is the movement's true institutional skeleton from the start.",
+      "provenance": "Zion's Watch Tower (1879– ); N. H. Barbour & C. T. Russell, Three Worlds (1877); M. James Penton, Apocalypse Delayed (1985)."
+    },
+    {
+      "id": "jehovahs-witnesses-kingdom-1914",
+      "tradition": "jehovahs-witnesses",
+      "kind": "concept",
+      "name": "The Kingdom of 1914 (End of the Gentile Times)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The Watch Tower chronology: Daniel 4's 'seven times' read as 2,520 years from Jerusalem's fall — dated by the movement to 607 BCE against the scholarly 587/586 — ending in October 1914, when Christ was enthroned invisibly in heaven as King. God's theocratic kingdom, a real government, now stands ready to destroy all human rule at Armageddon; hence the Witnesses' strict political neutrality.",
+      "facet": "A rare case of a failed date that was kept while its event moved: visible expectations attached to 1874, 1914, and 1925 each lapsed, yet 1914 survived as an invisible enthronement — with the World War's outbreak retrofitted as its earthly confirmation.",
+      "provenance": "C. T. Russell, The Time Is at Hand (1889); Watch Tower publications on the 'Gentile Times'; M. James Penton, Apocalypse Delayed (1985)."
+    },
+    {
+      "id": "jehovahs-witnesses-144000",
+      "tradition": "jehovahs-witnesses",
+      "kind": "concept",
+      "name": "The 144,000 (The Anointed)",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "Revelation's 144,000 read as a literal, fixed number: the 'anointed' class resurrected to heaven to rule with Christ as kings and priests over a cleansed earth. Since Rutherford's 1935 teaching, all other faithful Witnesses form the 'great crowd' with an earthly paradise hope; at the annual Memorial only the anointed partake of the bread and wine.",
+      "facet": "A two-tier salvation with a head-count: heaven is a government post of limited enrollment, not a destination — the sharpest inversion of the generic Christian afterlife on the American religious map.",
+      "provenance": "Revelation 7:4, 14:1–3; J. F. Rutherford, 'The Great Multitude' (1935); George Chryssides, Jehovah's Witnesses: Continuity and Change (2016)."
+    },
+    {
+      "id": "jehovahs-witnesses-field-ministry",
+      "tradition": "jehovahs-witnesses",
+      "kind": "rite",
+      "name": "The Field Ministry (Door-to-Door Witness)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "House-to-house preaching, grounded in Matthew 24:14, organized under Rutherford into the defining practice of the movement: members are 'publishers' who report their hours, working territory maps from Kingdom Halls with The Watchtower and Awake! in hand.",
+      "facet": "The tradition's liturgy happens on a stranger's doorstep — evangelism occupies the structural place other churches give the sacraments, and membership itself is counted in preachers, not pew-sitters.",
+      "provenance": "Matthew 24:14; Watch Tower organizational literature (Organized to Do Jehovah's Will); George Chryssides, Jehovah's Witnesses: Continuity and Change (2016)."
+    },
+    {
+      "id": "jehovahs-witnesses-blood",
+      "tradition": "jehovahs-witnesses",
+      "kind": "concept",
+      "name": "The Blood Taboo",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The prohibition on blood transfusion, formalized in The Watchtower of 1 July 1945 from Genesis 9:4, Leviticus 17, and Acts 15:28–29: blood is the life itself and belongs to God, so it may not be taken into the body. Hospital Liaison Committees negotiate bloodless treatment; minor blood fractions were later left to individual conscience.",
+      "facet": "An ancient sacrificial theology of blood-as-life collides head-on with modern medicine — the refusal makes the member's own body the site of witness, the tradition's costliest and most litigated boundary marker.",
+      "provenance": "The Watchtower (1 July 1945); Acts 15:28–29; Genesis 9:4."
+    },
+    {
+      "id": "adventism-william-miller",
+      "tradition": "adventism",
+      "kind": "prophet",
+      "name": "William Miller",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "A Baptist farmer-preacher of Low Hampton, New York — a deist converted after the War of 1812 — who calculated from Daniel 8:14's '2,300 days' (counted as years from the decree of 457 BCE) that Christ would return about 1843–44. His movement drew tens of thousands; Samuel Snow's 'seventh-month' refinement fixed the date at 22 October 1844.",
+      "facet": "Apocalypse as arithmetic: Miller's fourteen rules of interpretation treat prophecy as a solvable equation any literate farmer can work, the democratized biblicism of the Second Great Awakening pushed to its limit.",
+      "provenance": "William Miller, Evidence from Scripture and History of the Second Coming of Christ (1836); Ronald Numbers & Jonathan Butler (eds.), The Disappointed (1987); George Knight, Millennial Fever and the End of the World (1993)."
+    },
+    {
+      "id": "adventism-heavenly-sanctuary",
+      "tradition": "adventism",
+      "kind": "concept",
+      "name": "The Heavenly Sanctuary and Investigative Judgment",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The doctrine forged out of the Great Disappointment: when 22 October 1844 passed without the Advent, Hiram Edson's cornfield conviction the next morning — elaborated by O. R. L. Crosier (Day-Star Extra, 1846) — held that the sanctuary to be cleansed was in heaven, where Christ had entered the Most Holy Place to begin an investigative judgment of the professed people of God.",
+      "facet": "The tradition's founding move is a reinterpretation rather than a retraction — the date was right, the event was relocated from earth to heaven, turning a failed prediction into a standing doctrine of a real temple above.",
+      "provenance": "O. R. L. Crosier, 'The Law of Moses,' Day-Star Extra (7 Feb 1846); Hiram Edson's fragmentary memoir; Seventh-day Adventist Fundamental Belief 24."
+    },
+    {
+      "id": "adventism-ellen-white",
+      "tradition": "adventism",
+      "kind": "prophet",
+      "name": "Ellen G. White",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The Portland, Maine, Millerite (1827–1915) whose visionary career began in December 1844 and ran to an estimated 2,000 visions and prophetic dreams, many received in attested physical trance. Co-founder of the church with James White and Joseph Bates, she is held to have exercised the 'Spirit of Prophecy'; The Great Controversy frames all history as the cosmic conflict between Christ and Satan.",
+      "facet": "A church that formally canonized a living modern prophetess while keeping her writings subordinate to Scripture — a deliberate two-tier canon; her documented literary borrowing from contemporary authors remains debated inside the church itself (Numbers; the Veltman study).",
+      "provenance": "Ellen G. White, The Great Controversy (1858/1888/1911) and Steps to Christ (1892); Ronald Numbers, Prophetess of Health (1976); Fred Veltman, 'The Desire of Ages Project' (1988)."
+    },
+    {
+      "id": "adventism-sabbath",
+      "tradition": "adventism",
+      "kind": "rite",
+      "name": "The Seventh-day Sabbath",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Saturday observance, sundown to sundown, adopted from the Seventh Day Baptists via Rachel Oakes Preston at Washington, New Hampshire (1844) and argued into the Adventist core by Joseph Bates's 1846 tract. In Adventist eschatology the Sabbath becomes the 'seal of God,' the final test of loyalty in the end-time crisis.",
+      "facet": "A memorial of creation transformed into an eschatological flashpoint: the tradition locates the last controversy of history not in a doctrine or a place but in which day one keeps.",
+      "provenance": "Joseph Bates, The Seventh Day Sabbath, a Perpetual Sign (1846); Exodus 20:8–11; Seventh-day Adventist Fundamental Belief 20."
+    },
+    {
+      "id": "adventism-health-message",
+      "tradition": "adventism",
+      "kind": "principle",
+      "name": "The Health Message",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The health-reform program rooted in Ellen White's Otsego, Michigan vision (June 1863): the body as the temple of God, vegetarianism commended, alcohol and tobacco rejected. It built the Battle Creek Sanitarium under John Harvey Kellogg and today a worldwide Adventist hospital network; Loma Linda's longevity is a staple of modern epidemiology.",
+      "facet": "Health reform framed as preparation of the body for translation at the Second Coming — diet as eschatological refinement — which is why a millenarian sect ended up running one of the world's largest religious medical systems.",
+      "provenance": "Ellen White, 'Health, or How to Live' (1865) and The Ministry of Healing (1905); Ronald Numbers, Prophetess of Health (1976); the Adventist Health Studies (Loma Linda University)."
+    },
+    {
+      "id": "adventism-branch-davidians",
+      "tradition": "adventism",
+      "kind": "concept",
+      "name": "The Branch Davidians (dark facet)",
+      "archetypes": [
+        "sacred-transgression"
+      ],
+      "gloss": "The schismatic line running from Victor Houteff's Shepherd's Rod reform movement (1929–30, expelled from the SDA church) to the Mount Carmel community near Waco (1935), Florence Houteff's failed 22 April 1959 prophecy, Benjamin Roden's 'Branch,' and finally Vernon Howell — David Koresh — who claimed the mantle of the Lamb able to open the Seven Seals. The ATF raid of 28 February 1993 and the fire of 19 April 1993 left seventy-six dead, Koresh among them.",
+      "facet": "The dark facet of institutionalized living prophecy: each schismatic claimed the same prophetic office the parent church had vested in Ellen White, and Koresh's 'New Light' doctrine (1989) used that office to annul his followers' marriages — prophetic authority overriding the community's own moral law.",
+      "provenance": "James Tabor & Eugene Gallagher, Why Waco? (1995); Kenneth Newport, The Branch Davidians of Waco (2006)."
+    },
+    {
+      "id": "christian-science-eddy",
+      "tradition": "christian-science",
+      "kind": "prophet",
+      "name": "Mary Baker Eddy",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The chronically ill New Hampshire Congregationalist (1821–1910) who, after treatment by Phineas Quimby (1862–65) and a healing while reading Matthew 9 following her fall on the ice in Lynn (February 1866), spent nine years producing Science and Health. She chartered the Church of Christ, Scientist (1879), ran the Massachusetts Metaphysical College (1881), rebuilt the church around the Boston Mother Church (1892–94), and founded The Christian Science Monitor at 87 (1908).",
+      "facet": "A woman founding and legally architecting a durable American denomination in the nineteenth century — and governing it posthumously: the Manual of The Mother Church still runs the institution by her fixed statutes, a dead founder ruling by law.",
+      "provenance": "Eddy, Science and Health with Key to the Scriptures (1875) and Retrospection and Introspection (1891); Gillian Gill, Mary Baker Eddy (1998)."
+    },
+    {
+      "id": "christian-science-science-and-health",
+      "tradition": "christian-science",
+      "kind": "text",
+      "name": "Science and Health with Key to the Scriptures",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Eddy's textbook, first published in 1875 and revised until her death in 1910. In 1895 she ordained the Bible and Science and Health together as the church's 'dual and impersonal pastor': Sunday services worldwide consist of readings from both, with no sermon and no preacher.",
+      "facet": "A tradition that abolished preaching outright — doctrinal authority is fixed in a page rather than a pulpit, insulating the teaching from every future interpreter, including the church's own clergy-less readers.",
+      "provenance": "Science and Health (1875; final edition 1910); Manual of The Mother Church (1895)."
+    },
+    {
+      "id": "christian-science-god-as-principle",
+      "tradition": "christian-science",
+      "kind": "concept",
+      "name": "God as Principle (The Seven Synonyms)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Eddy's definition of God through seven capitalized synonyms — Principle, Mind, Soul, Spirit, Life, Truth, Love. God is All-in-all; reality is entirely spiritual, Mind and its ideas; matter has no true existence. Because God is Principle, healing is held to be demonstrable with the exactness of a science.",
+      "facet": "New England Protestant theology pushed to its idealist limit: the personal sovereign of Puritanism becomes a demonstrable Principle, and prayer shifts from petition to proof.",
+      "provenance": "Science and Health, chap. 'Recapitulation' (p. 465); Stephen Gottschalk, The Emergence of Christian Science in American Religious Life (1973)."
+    },
+    {
+      "id": "christian-science-mortal-mind",
+      "tradition": "christian-science",
+      "kind": "concept",
+      "name": "Mortal Mind (Matter as Error)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The counterfeit of divine Mind: the false belief that life, substance, and intelligence reside in matter. Sin, disease, and death are its illusions, possessing no God-derived reality; its weaponized form, 'malicious animal magnetism' — hostile mental influence — preoccupied Eddy's later years.",
+      "facet": "Evil demoted from entity to error: the tradition's theodicy and its therapeutics are a single move — what has no reality need only be unmasked, not fought — which is why healing, not ethics or eschatology, is its central evidence.",
+      "provenance": "Science and Health (glossary, 'Mortal Mind'; chap. 'Animal Magnetism Unmasked'); Gillian Gill, Mary Baker Eddy (1998)."
+    },
+    {
+      "id": "christian-science-treatment",
+      "tradition": "christian-science",
+      "kind": "rite",
+      "name": "Christian Science Treatment (The Practitioner)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Metaphysical healing practiced by Journal-listed practitioners trained through Primary and Normal class instruction: silent or audible argument affirming God's allness and the unreality of disease, undertaken in place of medicine. Reliance on treatment instead of medical care has drawn repeated legal battles, most sharply over the deaths of adherents' children.",
+      "facet": "The priest and the physician replaced by a single office: healing as the tradition's ongoing act of worship and its public test — every recovery is claimed as a demonstration, which also makes every failure a doctrinal event.",
+      "provenance": "Science and Health, chap. 'Christian Science Practice'; Rennie Schoepflin, Christian Science on Trial (2003)."
+    },
+    {
+      "id": "quakers-george-fox",
+      "tradition": "quakers",
+      "kind": "prophet",
+      "name": "George Fox",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Leicestershire weaver's son (1624–1691) who, after years wandering among England's Civil War sects, heard 'there is one, even Christ Jesus, that can speak to thy condition' (1647) and preached that Christ has come to teach his people himself. His 1652 vision on Pendle Hill and sermon to a thousand Seekers at Firbank Fell launched the movement; the Valiant Sixty, itinerant preachers from the Westmorland north, carried it across Britain within two years.",
+      "facet": "A founder who abolished the founder's office: Fox claimed no monopoly on the Light he preached, so the movement he organized — into a discipline of meetings rather than a church under a man — could survive him without a succession crisis.",
+      "provenance": "The Journal of George Fox (pub. 1694, ed. Thomas Ellwood); William C. Braithwaite, The Beginnings of Quakerism (1912); H. Larry Ingle, First Among Friends (1994)."
+    },
+    {
+      "id": "quakers-inner-light",
+      "tradition": "quakers",
+      "kind": "principle",
+      "name": "The Inner Light",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The core Quaker conviction that 'that of God in every one' — the Light of Christ within — is directly available to each person without priest, sacrament, or ordained mediation. Fox charged Friends to 'walk cheerfully over the world, answering that of God in every one'; Robert Barclay's Apology gave the doctrine its systematic theology.",
+      "facet": "It relocates revelation from the past tense to the present: Scripture remains authoritative for Friends, but as the record of the same Spirit that still speaks — the boldest immediatist claim to survive within the Protestant family.",
+      "provenance": "The Journal of George Fox (1694); Robert Barclay, An Apology for the True Christian Divinity (Latin 1676, English 1678)."
+    },
+    {
+      "id": "quakers-meeting-for-worship",
+      "tradition": "quakers",
+      "kind": "rite",
+      "name": "Meeting for Worship (Unprogrammed Silence)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Worship as expectant waiting: Friends sit in silence with no liturgy, sermon, hymn, or clergy, until anyone — of any age or sex — feels moved by the Spirit to rise and speak. The name 'Quaker' began as mockery of the trembling that seized early Friends in these gatherings.",
+      "facet": "The most radical worship-form in Christianity's western family: it deletes every outward instrument of the cult — building sanctity, sacrament, priesthood, text-in-use — and stakes everything on the gathered stillness itself.",
+      "provenance": "The Journal of George Fox (1694); Barclay, Apology, Proposition XI (1676); Pink Dandelion, An Introduction to Quakerism (2007)."
+    },
+    {
+      "id": "quakers-testimonies",
+      "tradition": "quakers",
+      "kind": "principle",
+      "name": "The Testimonies (Peace, Simplicity, Equality, Integrity)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Not a creed but a discipline of life: the refusal of all war ('we utterly deny all outward wars and strife,' declared to Charles II in 1660/61), of oaths, of hat-honour and flattering titles, of luxury in dress and speech. Friends addressed judges and kings as 'thee' and went to prison by the thousand rather than swear or fight.",
+      "facet": "Ethics as evidence: the testimonies treat conduct itself as the argument for the faith — a life 'in the virtue of that life and power that takes away the occasion of all wars' is the claim, and the believer's body is where it is published.",
+      "provenance": "A Declaration from the Harmless and Innocent People of God, called Quakers, to Charles II (1660/61); Fox's Journal; Hugh Barbour & J. William Frost, The Quakers (1988)."
+    },
+    {
+      "id": "quakers-margaret-fell",
+      "tradition": "quakers",
+      "kind": "hero",
+      "name": "Margaret Fell",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The mistress of Swarthmoor Hall (1614–1702), convinced by Fox in 1652, whose home became the movement's nerve-center and funding base — she ran its correspondence network and relief fund for imprisoned Friends. Her Women's Speaking Justified (1666), written from Lancaster prison, is a founding text of the Quaker claim that the Spirit authorizes women's ministry; she married Fox in 1669.",
+      "facet": "She shows that early Quakerism's equality testimony was structural, not rhetorical: women preached, traveled in ministry, and from 1671 held their own decision-making meetings — a formal share of church government almost unique in the 17th century.",
+      "provenance": "Margaret Fell, Women's Speaking Justified (1666); her Swarthmoor correspondence; Bonnelyn Young Kunze, Margaret Fell and the Rise of Quakerism (1994)."
+    },
+    {
+      "id": "quakers-john-woolman",
+      "tradition": "quakers",
+      "kind": "hero",
+      "name": "John Woolman",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The New Jersey tailor (1720–1772) whose quiet, decades-long ministry against slaveholding — visiting slave-owning Friends one household at a time, refusing to write bills of sale, wearing undyed clothes to boycott slave-produced dye — moved Philadelphia Yearly Meeting to bar slaveholding in 1776. His posthumous Journal (1774) became the classic of Quaker spirituality.",
+      "facet": "The abolition witness in person: Woolman worked by convincement rather than denunciation, and his method — the patient, face-to-face moral audit — made Friends the first religious body in the Atlantic world to disown slaveholding, a century before emancipation.",
+      "provenance": "The Journal of John Woolman (1774); Some Considerations on the Keeping of Negroes (1754); Germantown Quaker Protest (1688); Thomas P. Slaughter, The Beautiful Soul of John Woolman (2008)."
+    },
+    {
+      "id": "shakers-mother-ann-lee",
+      "tradition": "shakers",
+      "kind": "prophet",
+      "name": "Mother Ann Lee",
+      "archetypes": [
+        "divine-embodiment",
+        "complementarity"
+      ],
+      "gloss": "The illiterate Manchester millworker (1736–1784) who joined the Wardleys' ecstatic society in 1758 and, after prison visions in 1770 revealed carnal lust as the root of the Fall, emerged as its leader — 'Mother in Christ.' She led eight followers to America in 1774, settled at Niskeyuna (Watervliet), New York, and made her missionary journeys through New England (1781–83) before dying at 48. Believers revere her as the second, female appearing of the Christ-spirit.",
+      "facet": "The rare case of a woman placed at the theological center rather than the margin of a Christian body: her person completes the Father-Mother image of God, making Shaker theology structurally bisexual in a way Believers argued was Christianity's unfinished half.",
+      "provenance": "Testimonies of the Life, Character, Revelations and Doctrines of Our Ever Blessed Mother Ann Lee (Hancock, 1816); Stephen J. Stein, The Shaker Experience in America (1992)."
+    },
+    {
+      "id": "shakers-holy-mother-wisdom",
+      "tradition": "shakers",
+      "kind": "deity",
+      "name": "Holy Mother Wisdom",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The maternal aspect of the Shaker Godhead — divine Wisdom as the eternal Mother beside the eternal Father. Largely implicit in early doctrine, she came forward in person during the Era of Manifestations, visiting the villages through entranced instruments and dictating Paulina Bates's The Divine Book of Holy and Eternal Wisdom (1849).",
+      "facet": "A dual-sexed Godhead reasoned from Genesis 1:27 — if humanity is made male and female in God's image, the image's source must be both — the same logic Ann Lee's own role as female Christ-appearing completes on the historical plane.",
+      "provenance": "Paulina Bates, The Divine Book of Holy and Eternal Wisdom (1849); Era of Manifestations gift messages; Marjorie Procter-Smith, Women in Shaker Community and Worship (1985)."
+    },
+    {
+      "id": "shakers-gospel-order",
+      "tradition": "shakers",
+      "kind": "principle",
+      "name": "Gospel Order (Celibate Millennial Communism)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "The Shaker rule of life: full celibacy, oral confession of sin, and 'joint interest' — all property held in common — lived in planned villages under paired male and female elders. Organized by Joseph Meacham and Lucy Wright at New Lebanon from 1787, it rests on the claim that Christ's second appearing has already occurred, so Believers live the resurrection order now, in which 'they neither marry nor are given in marriage.'",
+      "facet": "Millennialism inverted into economics: instead of waiting for the kingdom, the Shakers incorporated it — and their villages' celebrated workmanship, from furniture to seed-packets, was worship made visible ('put your hands to work and your hearts to God').",
+      "provenance": "Joseph Meacham, A Concise Statement of the Principles of the Only True Church (1790); the Millennial Laws (1821); Edward Deming Andrews, The People Called Shakers (1953); Stein 1992."
+    },
+    {
+      "id": "shakers-dance-worship",
+      "tradition": "shakers",
+      "kind": "rite",
+      "name": "The Laboring Dance & Gift Songs",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "Worship performed with the whole body: the involuntary shaking, whirling, and shouting that named the sect was gradually 'laid in order' into choreographed square and circle dances — the 'laboring' exercises — sung to a vast homegrown repertory of gift songs, including 'Simple Gifts' (attributed to Elder Joseph Brackett, Alfred, Maine, 1848).",
+      "facet": "A complete liturgical system built from ecstasy: where most churches suppress the body's seizures, the Shakers scored them — trembling domesticated into pattern, arguably the only fully danced liturgy in American Christianity.",
+      "provenance": "Edward Deming Andrews, The Gift to Be Simple: Songs, Dances and Rituals of the American Shakers (1940); Millennial Praises (1813)."
+    },
+    {
+      "id": "shakers-era-of-manifestations",
+      "tradition": "shakers",
+      "kind": "rite",
+      "name": "The Era of Manifestations (Mother Ann's Work)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The decade-plus of spirit revival that began at Watervliet in August 1837, when young sisters fell into trance: chosen 'instruments' delivered messages from Mother Ann, angels, and the dead; meetings closed to the public (1842–45); villages consecrated hilltop 'feast grounds'; and inspired sisters produced the gift drawings — Hannah Cohoon's Tree of Life (1854) chief among them.",
+      "facet": "Institutionalized mediumship a full decade before Spiritualism: the Society channeled, tested, and archived its spirit communications through its own eldership — charisma run through a bureaucracy, which is why the record survives.",
+      "provenance": "Philemon Stewart, A Holy, Sacred and Divine Roll and Book (1843); Hannah Cohoon and Polly Collins gift drawings (Hancock/Mount Lebanon collections); Stein 1992."
+    },
+    {
+      "id": "unification-church-sun-myung-moon",
+      "tradition": "unification-church",
+      "kind": "prophet",
+      "name": "Sun Myung Moon",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The founder (1920–2012), born in Jeongju in what is now North Korea, who reported that on Easter 1935 Jesus appeared and asked him to complete his unfinished mission. Imprisoned in the Hungnam labor camp (1948–50) and freed during the UN advance, he founded the church in Seoul in 1954, married Hak Ja Han in 1960 (the 'Marriage of the Lamb'), built a global movement and business-media empire, and in 1992 publicly declared the couple the True Parents and Messiah.",
+      "facet": "A messiah-claim engineered as completion rather than replacement: Moon positioned himself not against Jesus but as the Lord of the Second Advent finishing what the crucifixion cut short — the claim's force depends entirely on the Christianity it extends.",
+      "provenance": "Exposition of the Divine Principle (Wolli Kangron, 1966; Eng. 1973); George D. Chryssides, The Advent of Sun Myung Moon (1991); Massimo Introvigne, The Unification Church (2000)."
+    },
+    {
+      "id": "unification-church-true-parents",
+      "tradition": "unification-church",
+      "kind": "concept",
+      "name": "True Parents",
+      "archetypes": [
+        "first-ancestor",
+        "complementarity"
+      ],
+      "gloss": "The doctrinal office Moon and Hak Ja Han are held to occupy: the restored Adam and Eve, the first couple to form a sinless God-centered family, from whom a new lineage free of the Fall descends. Since Moon's death (2012) Hak Ja Han has led the main body as 'True Mother,' a succession contested by rival sons' schismatic churches.",
+      "facet": "Salvation re-founded on the family unit rather than the individual believer: the messianic office here is inherently a married pair, which makes the wedding — not the cross, not baptism — the tradition's central sacrament.",
+      "provenance": "Exposition of the Divine Principle, Part II (1966/1973); Chryssides 1991; Michael L. Mickler, A History of the Unification Church in America (1993)."
+    },
+    {
+      "id": "unification-church-divine-principle",
+      "tradition": "unification-church",
+      "kind": "text",
+      "name": "The Divine Principle",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The movement's scripture, systematized from Moon's teaching by disciple Hyo Won Eu (Wolli Kangron, 1966; English 1973, from a 1952 manuscript core). It reads history as God's restoration providence: creation through dual characteristics (positive/negative, internal/external), the Fall as Lucifer's sexual seduction of Eve, and Jesus as achieving spiritual but not physical salvation — leaving a Second Advent, born in Korea, to complete the work.",
+      "facet": "A complete providential historiography: every biblical epoch is mapped onto numbered parallel periods converging on 20th-century Korea — the text does not supplement the Bible so much as re-key it around its reader's own time and place.",
+      "provenance": "Wolli Wonbon (1952 ms.); Wolli Haesol (1957); Exposition of the Divine Principle (Wolli Kangron, 1966; Eng. trans. 1973)."
+    },
+    {
+      "id": "unification-church-blessing",
+      "tradition": "unification-church",
+      "kind": "rite",
+      "name": "The Blessing (Mass Weddings)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "The tradition's central sacrament: mass marriage ceremonies presided over by the True Parents, from the honored 36-couple cohort of 1960–61 to 30,000 couples in Seoul's Olympic Stadium (1992), with matches often arranged by Moon across national and racial lines. The preceding holy wine ceremony is held to graft the couple out of the fallen lineage into the True Parents' sinless one.",
+      "facet": "Initiation relocated into marriage: where most traditions transform the individual, the Blessing claims to transform a lineage — the ontological change runs through the couple's future children, making biology itself the ritual medium.",
+      "provenance": "Exposition of the Divine Principle (1966/1973); Chryssides 1991; Mickler 1993 (Blessing chronology per the movement's own widely reported counts)."
+    },
+    {
+      "id": "unification-church-indemnity",
+      "tradition": "unification-church",
+      "kind": "principle",
+      "name": "Indemnity (Tanggam)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The law of restoration: what was lost through the Fall must be reclaimed by humans establishing 'conditions of indemnity' — fasting, celibate discipline, fundraising, witnessing, suffering accepted on behalf of ancestors and providence. God cannot simply forgive; restoration must be earned back through the same principled order by which it was lost.",
+      "facet": "Atonement stretched from a single event into a universal accounting system — every member's hardship is legible as payment on a cosmic debt, which gives the tradition both its famed work ethic and its critics' chief target.",
+      "provenance": "Exposition of the Divine Principle, Part II ch. 1 (1966/1973); Chryssides 1991."
+    },
+    {
+      "id": "kimbanguism-simon-kimbangu",
+      "tradition": "kimbanguism",
+      "kind": "prophet",
+      "name": "Simon Kimbangu",
+      "archetypes": [
+        "culture-hero",
+        "divine-embodiment"
+      ],
+      "gloss": "The Baptist-trained catechist (c. 1887–1951) who, on 6 April 1921 at Nkamba, laid hands on a dying woman and ignited a mass healing revival that emptied mission churches and colonial work-gangs alike. Arrested within months, sentenced to death by a Belgian court-martial, commuted to life by King Albert I, he spent thirty years in Elisabethville prison and never preached again — and the movement grew anyway.",
+      "facet": "A church built almost entirely on its founder's ABSENCE: five months of public ministry, three decades of silence in a cell — the imprisonment itself became the passion narrative that organized the faith.",
+      "provenance": "Marie-Louise Martin, 'Kimbangu: An African Prophet and His Church' (1975); colonial trial records via Susan Asch, 'L'Église du prophète Kimbangu' (1983)."
+    },
+    {
+      "id": "kimbanguism-nkamba",
+      "tradition": "kimbanguism",
+      "kind": "place",
+      "name": "Nkamba (Nkamba-Jerusalem)",
+      "archetypes": [
+        "axis-mundi",
+        "genius-loci"
+      ],
+      "gloss": "Kimbangu's home village in Bas-Congo, renamed Nkamba-Jerusalem — the holy city where the first healing occurred, where his body was returned in 1960 and enshrined in a mausoleum, and where pilgrims draw sanctified water from the sacred pool and carry Nkamba's earth home.",
+      "facet": "A New Jerusalem sited not in the colonial capital but in the prophet's own village: the movement relocated the center of the Christian world to Congolese soil, and the pilgrimage economy of water and earth makes that relocation physical.",
+      "provenance": "Martin (1975); Susan Asch (1983) on the mausoleum, pool, and pilgrimage practice."
+    },
+    {
+      "id": "kimbanguism-diangienda",
+      "tradition": "kimbanguism",
+      "kind": "hero",
+      "name": "Joseph Diangienda Kuntima",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Kimbangu's youngest son (1918–1992), the movement's chief architect: he consolidated the clandestine, persecuted networks into the Église de Jésus-Christ sur la Terre par son envoyé spécial Simon Kimbangu (EJCSK), won Belgian legal recognition in 1959, and led the church into the World Council of Churches in 1969 — the first African-initiated church admitted.",
+      "facet": "The institutionalizer as second founder: the prophet supplied the passion, the son supplied the church — a division of labor between charisma and organization visible within a single family.",
+      "provenance": "Martin (1975); Asch (1983) on the EJCSK's legalization and WCC admission."
+    },
+    {
+      "id": "kimbanguism-ngunzism",
+      "tradition": "kimbanguism",
+      "kind": "concept",
+      "name": "The Ngunza (Prophet-Healer) Office",
+      "archetypes": [
+        "ecstatic-shaman",
+        "divine-embodiment"
+      ],
+      "gloss": "Kimbangu was received not as a novelty but as a ngunza — the Kongo prophet-healer seized and shaken by the Spirit (the trembling called zakama), who heals, exposes witchcraft, and speaks for the unseen. After 1921 the colonial state deported thousands of 'Ngunzists,' and the prophetic current repeatedly overflowed the church that tried to contain it.",
+      "facet": "The office is older than the movement: Kimbanguism is legible precisely because the ngunza role pre-existed it in Kongo religion — a Christian revival poured into an indigenous prophetic mold.",
+      "provenance": "Wyatt MacGaffey, 'Modern Kongo Prophets: Religion in a Plural Society' (1983); Martin (1975) on the deportations."
+    },
+    {
+      "id": "kimbanguism-divinization",
+      "tradition": "kimbanguism",
+      "kind": "concept",
+      "name": "The Divinized Line (Kimbangu and the Three Sons)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "Kimbanguist devotion progressively elevated the founder from 'special envoy' of Christ to incarnation of the Holy Spirit, and popular doctrine identifies his three sons with the persons of the Trinity; the church celebrates Christmas on 25 May, the birthday of the second son, Salomon Dialungana Kiangani, identified with the returned Christ. This teaching is internally central and ecumenically contested — it has strained the church's standing with the World Council of Churches.",
+      "facet": "A live case of divinization happening in documented time: the archive lets you watch a historical prisoner become a person of the Trinity within a single century — the process most traditions only preserve as a finished result.",
+      "provenance": "Anne Mélice's studies of Kimbanguist doctrine (2000s); Asch (1983); the 25 May Christmas observance is EJCSK practice, widely documented."
+    },
+    {
+      "id": "aladura-orimolade",
+      "tradition": "aladura",
+      "kind": "prophet",
+      "name": "Moses Orimolade Tunolase",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The itinerant Yoruba praying-man (c. 1879–1933), called Baba Aladura, who was summoned in 1925 to pray over the teenaged Christianah Abiodun Akinsowon after her days-long trance vision; from their partnership grew the Cherubim & Seraphim, the white-robed visionary society that spread across Yorubaland within a decade.",
+      "facet": "A founding that takes two: the movement begins not with one prophet but with the pairing of an elder intercessor and a young female visionary — and the C&S has carried a strong female prophetic stream ever since.",
+      "provenance": "J.D.Y. Peel, 'Aladura: A Religious Movement among the Yoruba' (1968); C&S founding accounts of the 1925 Corpus Christi vision."
+    },
+    {
+      "id": "aladura-babalola",
+      "tradition": "aladura",
+      "kind": "prophet",
+      "name": "Joseph Ayo Babalola",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The road-gang steamroller driver (1904–1959) who heard a call in 1928, and whose July 1930 revival at Oke-Ooye, Ilesa — with reports of the dead raised and thousands healed by sanctified water — detonated the Aladura movement into a mass phenomenon; his stream became the Christ Apostolic Church after splitting with its British Pentecostal partners over the use of medicine.",
+      "facet": "The revival that chose water over quinine: Babalola's churches broke with mission Christianity precisely on the question of whether God heals without medicine — divine healing as the non-negotiable center, not an accessory.",
+      "provenance": "Peel (1968) on the 1930 revival and the Christ Apostolic Church split; H.W. Turner, 'History of an African Independent Church' (1967) for the wider Aladura context."
+    },
+    {
+      "id": "aladura-oshoffa",
+      "tradition": "aladura",
+      "kind": "prophet",
+      "name": "Samuel Bilewu Joseph Oshoffa",
+      "archetypes": [
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The Porto-Novo carpenter (1909–1985) whose visionary call — tied in Celestial Church accounts to the May 1947 solar eclipse that caught him alone in the forest — founded the Celestial Church of Christ in 1947: barefoot worship, white sutana robes, ranked orders of prophets and visioners, and a liturgy dense with candles, incense, and revealed detail.",
+      "facet": "The most liturgically elaborated Aladura church: where C&S grew from a vision and CAC from a revival, the CCC grew from a continuous stream of trance-revelation that specifies everything from robe colors to ritual numbers.",
+      "provenance": "Afe Adogame, 'Celestial Church of Christ: The Politics of Cultural Identity in a West African Prophetic-Charismatic Movement' (1999)."
+    },
+    {
+      "id": "aladura-omi-iye",
+      "tradition": "aladura",
+      "kind": "rite",
+      "name": "Omi Iye (Holy Water)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "Water sanctified by prayer — the central Aladura sacrament of healing: drunk, bathed in, sprinkled on houses, dispensed at revivals by the barrel. At Ilesa in 1930 it was Babalola's stream-water that carried the revival's power; in the praying churches it remains the standing answer to sickness, barrenness, and attack.",
+      "facet": "Peel's key observation embodied: holy water answers the same pragmatic demand — protection, healing, children — that Yoruba religion had always serviced, but re-sourced entirely to the Christian God through prayer.",
+      "provenance": "Peel (1968) on prayer-sanctified water as functional successor to the herbalist's agbo infusion."
+    },
+    {
+      "id": "aladura-iran",
+      "tradition": "aladura",
+      "kind": "concept",
+      "name": "Ìran and Àlá (Vision and Dream)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "Dream and waking vision as the living channel of revelation: Aladura churches maintain rosters of prophets and 'visioners' whose seen messages — warnings, diagnoses, callings, robe-colors, names — are delivered to individuals and congregations as routine spiritual intelligence.",
+      "facet": "Revelation as an ongoing institution rather than a closed canon: the praying churches bureaucratized the vision, with recognized offices, testing procedures, and recorded messages — ecstasy given a filing system.",
+      "provenance": "Peel (1968); Turner (1967) on the visionary offices of the Church of the Lord (Aladura)."
+    },
+    {
+      "id": "aladura-ota",
+      "tradition": "aladura",
+      "kind": "concept",
+      "name": "The Enemies (Ọ̀tá) and Spiritual Warfare",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The Aladura world remains a contested field: witches, evil spirits, and human 'enemies' are real agents of sickness and misfortune, and prevailing prayer, fasting, psalms, and holy water are the weapons against them. The orisha cult was dropped; the Yoruba diagnosis of affliction was kept.",
+      "facet": "The substrate showing through the seam: Aladura Christianity rejected Yoruba gods but retained the Yoruba enemy — the movement's power lies in taking witchcraft fear seriously where mission churches dismissed it.",
+      "provenance": "Peel (1968) on the continuity of Yoruba assumptions about spiritual causation within Aladura prayer."
+    },
+    {
+      "id": "zion-christian-church-engenas-lekganyane",
+      "tradition": "zion-christian-church",
+      "kind": "prophet",
+      "name": "Engenas Barnabas Lekganyane",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Pedi founder (c. 1885–1948) who rose through the Zionist and Apostolic Faith streams, received his healing commission, and in 1924 founded the Zion Christian Church in the Limpopo hills — today, with its St Engenas sister church (the star and the dove), the largest African-initiated church in southern Africa, numbering in the millions and led since 1975 by his grandson Bishop Barnabas Lekganyane.",
+      "facet": "The founder as dynasty: where mission churches rotate clergy, the ZCC binds its episcopate to Lekganyane's bloodline — succession disputes at each death (1948, 1967) split the church along the founder's sons, star from dove.",
+      "provenance": "E.K. Lukhaimane, 'The Zion Christian Church of Ignatius (Engenas) Lekganyane, 1924 to 1948' (1980 thesis); Allan Anderson, 'Zion and Pentecost' (2000)."
+    },
+    {
+      "id": "zion-christian-church-moria",
+      "tradition": "zion-christian-church",
+      "kind": "place",
+      "name": "Moria (Zion City Moriah)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The ZCC's holy city east of Polokwane, on farmland the church acquired in the 1940s — destination of the Easter pilgrimage that draws millions of badge-wearing members in the largest regular religious gathering in southern Africa, blessed in person by presidents who come courting the bishop.",
+      "facet": "Zion transposed onto African ground: the name descends from Dowie's Zion City, Illinois, through the biblical mountain to a Limpopo farm — a holy center whose annual gravitational pull makes the church's scale physically visible once a year.",
+      "provenance": "Anderson (2000); the Easter pilgrimage is extensively documented in South African press and scholarship."
+    },
+    {
+      "id": "zion-christian-church-badge",
+      "tradition": "zion-christian-church",
+      "kind": "rite",
+      "name": "The ZCC Badge",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The silver star (dove, for St Engenas ZCC) pinned on green cloth, worn constantly by members — issued with membership, blessed, and widely held to carry protection for the wearer at work, on the road, and against unseen attack.",
+      "facet": "Membership made wearable and protective at once: the badge is simultaneously an identity document, a uniform, and a blessed object — church bureaucracy and apotropaic power in a single pin.",
+      "provenance": "Jean Comaroff, 'Body of Power, Spirit of Resistance' (1985) on Zionist protective insignia; Anderson (2000)."
+    },
+    {
+      "id": "zion-christian-church-mokhukhu",
+      "tradition": "zion-christian-church",
+      "kind": "rite",
+      "name": "Mokhukhu (the Dance)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The ZCC's male dance-praise: uniformed groups in khaki and white manyanyatha boots leaping and stamping the earth in disciplined unison, a percussive worship that shakes the ground at Moria and in township congregations every week.",
+      "facet": "Praise as drill and as power: the mokhukhu turns the migrant-labor world's uniforms and regimentation into an instrument of the Spirit — order itself made ecstatic.",
+      "provenance": "Anderson (2000); documented in South African ethnomusicology of ZCC worship."
+    },
+    {
+      "id": "zion-christian-church-baprofeti",
+      "tradition": "zion-christian-church",
+      "kind": "concept",
+      "name": "The Prophets (Baprofeti) and Spirit-Diagnosis",
+      "archetypes": [
+        "ecstatic-shaman",
+        "divine-embodiment"
+      ],
+      "gloss": "Zionist congregations run on prophets: members seized by the Spirit (Moya) who diagnose the causes of sickness and misfortune and prescribe blessed water, tea and coffee, sanctified papers, cords, and conduct — the healing consultation is the church's daily front door.",
+      "facet": "Sundkler's classic finding: the Zionist prophet is the functional successor of the diviner — the same clients bring the same afflictions, but the revealing agent is now the Holy Spirit rather than the ancestral shades or the bones.",
+      "provenance": "Bengt Sundkler, 'Bantu Prophets in South Africa' (1948/1961); Comaroff (1985) on Spirit-diagnosis among the Tshidi."
+    },
+    {
+      "id": "iglesia-ni-cristo-manalo",
+      "tradition": "iglesia-ni-cristo",
+      "kind": "prophet",
+      "name": "Felix Y. Manalo",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Tagalog seeker (1886–1963) who passed through Methodist, Presbyterian, Disciples, and Seventh-day Adventist missions before registering the Iglesia ni Cristo on 27 July 1914 — venerated by the church as the Sugo, God's last messenger, sent to re-establish the one true church in the Far East in the last days. Leadership has remained in his line: son Eraño (1963–2009), grandson Eduardo since 2009.",
+      "facet": "The restorationist funnel: a man who sampled nearly every American mission on offer and concluded they were all the apostasy — the INC's fierce independence is the biography of its founder made ecclesiology.",
+      "provenance": "Arthur Leonard Tuggy, 'Iglesia ni Cristo: A Study in Independent Church Dynamics' (1976); Fernando G. Elesterio, 'The Iglesia ni Cristo: Its Christology and Ecumenism' (1988)."
+    },
+    {
+      "id": "iglesia-ni-cristo-sugo",
+      "tradition": "iglesia-ni-cristo",
+      "kind": "concept",
+      "name": "Ang Sugo (the Last Messenger) and the Far East Prophecy",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The church's charter doctrine: Revelation 7:2-3's 'angel ascending from the east' and Isaiah 43:5's gathering 'from the far east' are read as Manalo and the Philippines, with July 1914 — the church's registration and the war's outbreak — as the prophesied hinge of the last days.",
+      "facet": "Prophecy as a national address: the doctrine relocates the center of sacred history to the Philippines by exegesis, making Filipino identity itself part of the proof-text — scripture read as a map with an arrow saying 'here.'",
+      "provenance": "INC doctrinal exposition in Pasugo (God's Message, the church's official magazine, founded 1939); analyzed in Tuggy (1976) and Elesterio (1988)."
+    },
+    {
+      "id": "iglesia-ni-cristo-human-christ",
+      "tradition": "iglesia-ni-cristo",
+      "kind": "concept",
+      "name": "The Human Christ (Anti-Trinitarian Christology)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The INC's defining doctrine: Jesus Christ is a man — the highest of God's creatures, sinless mediator and savior, raised from the dead and given all authority — but not God; the Trinity is held to be a post-apostolic corruption, and salvation requires membership in the church Christ founded and Manalo restored.",
+      "facet": "A modern mass-scale unitarianism grown outside the Western lineage: the INC arrived at a strict one-God, human-Christ position from its own Tagalog exegesis, and made it the daily polemical engine of a church of millions.",
+      "provenance": "Elesterio (1988) on INC Christology; standing doctrinal articles in Pasugo."
+    },
+    {
+      "id": "iglesia-ni-cristo-pagkakaisa",
+      "tradition": "iglesia-ni-cristo",
+      "kind": "concept",
+      "name": "Pagkakaisa (Unity and the Directed Vote)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The doctrine of oneness — grounded in 1 Corinthians 1:10's command to 'speak the same thing' — expressed in disciplined attendance, uniform doctrine, and most famously the bloc vote: at elections the church administration endorses candidates and members are expected to vote as one, making the INC a courted force in Philippine politics.",
+      "facet": "Unity treated as divine law rather than aspiration: the bloc vote is simply worship-discipline extended to the ballot box, and its electoral weight is the most publicly measurable form of religious obedience in the country.",
+      "provenance": "Tuggy (1976); the bloc-voting practice is extensively documented in Philippine political reporting and scholarship."
+    },
+    {
+      "id": "iglesia-ni-cristo-central-temple",
+      "tradition": "iglesia-ni-cristo",
+      "kind": "place",
+      "name": "The INC Central Temple",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The Quezon City mother church dedicated in 1984, designed by Carlos A. Santos-Viola — the flagship of the INC's unmistakable architecture: soaring white neo-Gothic spires and rose-window-like tracery repeated, at every scale, on thousands of chapels across the Philippines and the diaspora.",
+      "facet": "A church that brands space: the interlocking spires make any INC chapel identifiable at a glance anywhere on earth — architectural uniformity as the visible body of pagkakaisa.",
+      "provenance": "Documented INC architectural history; Santos-Viola's authorship of the Central Temple is a matter of public record."
+    },
+    {
+      "id": "rizalista-jose-rizal",
+      "tradition": "rizalista",
+      "kind": "deity",
+      "name": "José Rizal (the Tagalog Christ)",
+      "archetypes": [
+        "dying-rising",
+        "culture-hero"
+      ],
+      "gloss": "The novelist, doctor, and national hero (1861–1896), shot by Spanish firing squad at Bagumbayan — and, in the Rizalista churches, far more: variously the Filipino Christ, a divine incarnation for the Malay race, or a deathless king who will return; his portrait stands on their altars and his December 30 martyrdom orders their calendar.",
+      "facet": "A divinization the historical man would have refused: the secular ilustrado becomes a god precisely through the pasyon grammar of innocent suffering — the people's Christ-template mattered more than Rizal's own rationalism.",
+      "provenance": "Reynaldo Ileto, 'Pasyon and Revolution: Popular Movements in the Philippines, 1840-1910' (1979); Prospero Covar's fieldwork on the Iglesia Watawat ng Lahi (1970s); Consolacion Alaras, 'Pamathalaan' (1988)."
+    },
+    {
+      "id": "rizalista-hermano-pule",
+      "tradition": "rizalista",
+      "kind": "prophet",
+      "name": "Hermano Pule (Apolinario de la Cruz)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Tayabas lay brother (1815–1841) whose Cofradía de San José — founded in 1832 and barred from church recognition because it admitted only natives — gathered thousands at the foot of the Banahaw region until the colonial military crushed it in 1841 and executed him, displaying his severed head as a warning.",
+      "facet": "The proof that the Banahaw current predates Rizal: Pule's confraternity established the pattern — indigenous-led devotion, sacred mountain refuge, colonial martyrdom — into which Rizal's figure would later be received.",
+      "provenance": "Ileto (1979), whose second chapter reconstructs the Cofradía from trial records and surviving prayers."
+    },
+    {
+      "id": "rizalista-banahaw",
+      "tradition": "rizalista",
+      "kind": "place",
+      "name": "Mount Banahaw",
+      "archetypes": [
+        "axis-mundi",
+        "genius-loci"
+      ],
+      "gloss": "The volcano on the Quezon-Laguna border held by its devotees to be the new holy land — its springs, caves, and rock formations renamed as puwesto (sacred stations) with Calvary, Jordan, and Jerusalem transposed onto Tagalog terrain; the Rizalista and allied churches cluster at its foot in Dolores, and Holy Week fills its trails with pilgrims.",
+      "facet": "Sacred geography as repatriation: the Holy Land is not visited but declared to be HERE — the mountain answers colonial Christianity by relocating its entire map onto Filipino ground.",
+      "provenance": "Covar's Banahaw studies; Vicente Marasigan, 'A Banahaw Guru' (1985); Alaras (1988)."
+    },
+    {
+      "id": "rizalista-pamumuwesto",
+      "tradition": "rizalista",
+      "kind": "rite",
+      "name": "Pamumuwesto (the Station Pilgrimage)",
+      "archetypes": [
+        "sacred-initiation",
+        "genius-loci"
+      ],
+      "gloss": "The practice of visiting Banahaw's puwesto in sequence — bathing in the sacred springs, praying at the caves and rocks, and passing bodily ordeals like the Husgado cave, whose narrow passage is said to judge the pilgrim: the sinful stick fast, the cleansed crawl through.",
+      "facet": "Terrain as liturgy: the mountain itself administers the sacraments — water purifies, stone judges — with no priest required, which is precisely what made the practice ungovernable by the official church.",
+      "provenance": "Covar and Marasigan on puwesto practice; the Husgado ordeal is standard in the Banahaw ethnographic literature."
+    },
+    {
+      "id": "rizalista-pasyon-lens",
+      "tradition": "rizalista",
+      "kind": "concept",
+      "name": "The Pasyon Lens",
+      "archetypes": [
+        "primordial-sacrifice",
+        "dying-rising"
+      ],
+      "gloss": "The interpretive engine of the movements: the Tagalog pasyon — the chanted Passion epic of folk Catholicism — supplied the masses with a template of innocent suffering, death, and liberation through which national history is read, so that Rizal's martyrdom slots into Christ's place and the nation's redemption into the resurrection.",
+      "facet": "Ileto's thesis made visible: colonial catechesis handed the colonized the very grammar of their resistance — the pasyon taught peasants to recognize a redeemer, and they recognized Rizal.",
+      "provenance": "Ileto, 'Pasyon and Revolution' (1979)."
+    },
+    {
+      "id": "obeah-practitioner",
+      "tradition": "obeah",
+      "kind": "hero",
+      "name": "The Obeah-Man / Obeah-Woman",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "The individual ritual specialist of the Anglo-Caribbean, hired privately to heal, protect, divine, win court cases, or harm — working with herbs, grave dirt, and spirits of the dead rather than leading any congregation. From 1760 onward colonial statutes made the role itself a crime, so the practitioner worked, and often still works, under legal shadow.",
+      "facet": "A religious specialist defined by the client relationship instead of the congregation: obeah has no church, no communal liturgy, and no supreme cult — only the contracted transaction between practitioner, spirit, and paying client.",
+      "provenance": "Diana Paton, 'The Cultural Politics of Obeah' (2015); Jerome Handler & Kenneth Bilby, 'Enacting Power: The Criminalization of Obeah in the Anglophone Caribbean, 1760-2011' (2012). The word's derivation is contested: Twi 'obayifo'/'bayi' (witch/witchcraft) versus Igbo 'dibia'/'obia' (healer, esoteric knowledge) — Handler & Bilby (2001) argue for the Igbo-area root; unresolved."
+    },
+    {
+      "id": "obeah-bundle",
+      "tradition": "obeah",
+      "kind": "force",
+      "name": "The Obeah Bundle",
+      "archetypes": [
+        "fetish-vessel"
+      ],
+      "gloss": "A worked assemblage of grave dirt, blood, feathers, eggshells, bones, rum, and pins — buried at a doorstep, hung in a tree, or carried on the body — that houses and directs spiritual force toward protection or attack. Colonial court records preserve inventories of confiscated bundles in obsessive detail.",
+      "facet": "The clearest material signature of the craft: obeah's power is archived not in scripture but in constructed objects, which is precisely why colonial law prosecuted possession of the objects themselves.",
+      "provenance": "Jerome Handler & Kenneth Bilby, 'Enacting Power' (2012); Diana Paton, 'The Cultural Politics of Obeah' (2015) — both draw on trial records itemizing seized obeah paraphernalia."
+    },
+    {
+      "id": "obeah-duppy-work",
+      "tradition": "obeah",
+      "kind": "rite",
+      "name": "Duppy Catching and Setting",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The paired techniques of capturing a restless ghost — often bottled or pinned with rituals at the grave — and 'setting' it upon a client's enemy, or conversely pulling a set duppy off an afflicted victim. The obeah specialist is the recognized professional for both directions of the traffic.",
+      "facet": "The dead are treated as a deployable workforce: the same specialist who weaponizes a ghost is the one hired to disarm it, making obeah simultaneously the disease and the cure in the local spirit economy.",
+      "provenance": "Martha Warren Beckwith, 'Black Roadways: A Study of Jamaican Folk Life' (1929); Diana Paton, 'The Cultural Politics of Obeah' (2015)."
+    },
+    {
+      "id": "obeah-oath",
+      "tradition": "obeah",
+      "kind": "rite",
+      "name": "The Rebellion Oath",
+      "archetypes": [
+        "creative-word",
+        "sacred-initiation"
+      ],
+      "gloss": "The binding loyalty oath administered by obeah specialists to conspirators in slave uprisings — most famously Tacky's Revolt (Jamaica, 1760) — sworn while drinking a mixture of rum, grave dirt, and blood. Its power to hold rebel networks silent is what drove the first Obeah Act into law that same year.",
+      "facet": "Obeah at its most political: a spoken-and-swallowed formula strong enough that the colonial state answered it with capital legislation, criminalizing a form of words.",
+      "provenance": "Vincent Brown, 'Tacky's Revolt: The Story of an Atlantic Slave War' (2020); Edward Long, 'The History of Jamaica' (1774), the hostile primary account of the oath and the 1760 Act."
+    },
+    {
+      "id": "santa-muerte-la-flaquita",
+      "tradition": "santa-muerte",
+      "kind": "deity",
+      "name": "Santa Muerte (La Santísima Muerte)",
+      "archetypes": [
+        "psychopomp",
+        "great-mother"
+      ],
+      "gloss": "Death personified as a robed female skeleton bearing scythe, globe, and scales, petitioned with votive candles, tequila, and cigarette smoke for love, money, protection, and justice. Never canonized and formally condemned by the Vatican, she is nonetheless reckoned the fastest-growing devotion in the Americas, strongest among those the official church and state serve least — prisoners, police, sex workers, migrants.",
+      "facet": "The one 'saint' who cannot be accused of favoritism: because death takes everyone equally, her devotees argue she is the most impartial — and therefore most trustworthy — intercessor of all.",
+      "provenance": "R. Andrew Chesnut, 'Devoted to Death: Santa Muerte, the Skeleton Saint' (2012); 1797 Inquisition document 'Concerning the Superstitions of Various Indians from the Town of San Luis de la Paz'; Cardinal Gianfranco Ravasi's public condemnation of the cult (Mexico, 2013)."
+    },
+    {
+      "id": "santa-muerte-tepito-shrine",
+      "tradition": "santa-muerte",
+      "kind": "place",
+      "name": "The Tepito Shrine",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The life-size Santa Muerte effigy that Enriqueta Romero ('Doña Queta') set outside her home on Alfarería Street in Mexico City's Tepito barrio on Halloween 2001, transforming a discreet household devotion into public cult. Its monthly rosary draws thousands into the street of one of the city's toughest markets.",
+      "facet": "A precise, dateable threshold in the tradition's history: the moment a devotion practiced for two centuries behind closed doors stepped into the open and became a mass movement.",
+      "provenance": "R. Andrew Chesnut, 'Devoted to Death' (2012), which centers the Romero shrine in its fieldwork."
+    },
+    {
+      "id": "santa-muerte-curanderismo",
+      "tradition": "santa-muerte",
+      "kind": "rite",
+      "name": "Curanderismo",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The Mexican and Mexican-American folk-healing system of the curandero and curandera — sweeping limpias with herbs or an egg, treating susto (soul-fright), mal de ojo, and envidia — that forms the working substrate beneath the folk-saint complex. Santa Muerte and the folk saints are routinely petitioned inside curanderil practice.",
+      "facet": "The healing floor under the devotional edifice: folk saints answer petitions, but it is curanderismo that supplies the diagnostic categories and ritual technique through which the petitions move.",
+      "provenance": "Robert T. Trotter & Juan Antonio Chavira, 'Curanderismo: Mexican American Folk Healing' (1981); Ari Kiev, 'Curanderismo' (1968)."
+    },
+    {
+      "id": "santa-muerte-gauchito-gil",
+      "tradition": "santa-muerte",
+      "kind": "hero",
+      "name": "Gauchito Gil",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "Antonio Mamerto Gil, an Argentine gaucho deserter executed near Mercedes, Corrientes (traditionally 8 January 1878), whose dying words reportedly foretold the executioner's son's illness and cure — the founding miracle of a folk canonization. His red-flagged roadside shrines now line highways across Argentina.",
+      "facet": "Canonization from below: the people, not Rome, made him a saint, and the red shrines function as a parallel devotional infrastructure the institutional church can neither absorb nor abolish.",
+      "provenance": "Frank Graziano, 'Cultures of Devotion: Folk Saints of Spanish America' (2007)."
+    },
+    {
+      "id": "santa-muerte-san-la-muerte",
+      "tradition": "santa-muerte",
+      "kind": "spirit",
+      "name": "San La Muerte",
+      "archetypes": [
+        "psychopomp",
+        "fetish-vessel"
+      ],
+      "gloss": "The male skeletal folk saint of the Guaraní region — Corrientes, the Chaco, Paraguay — venerated in small carved amulets (payés) of wood or bone, the most powerful reputedly carved from human bone and sometimes inserted under the devotee's skin. Historically independent of the Mexican Santa Muerte despite the near-identical name.",
+      "facet": "The skeletal saint as portable object: where Santa Muerte lives on altars, San La Muerte's strongest form is a charm worn in or on the body, fusing saint and amulet into one thing.",
+      "provenance": "Frank Graziano, 'Cultures of Devotion: Folk Saints of Spanish America' (2007)."
+    },
+    {
+      "id": "maria-lionza-la-reina",
+      "tradition": "maria-lionza",
+      "kind": "deity",
+      "name": "María Lionza (La Reina)",
+      "archetypes": [
+        "great-mother",
+        "master-of-animals"
+      ],
+      "gloss": "The queen-goddess of nature, love, and water who rules from Sorte mountain in Yaracuy — in the best-known myth a green-eyed indigenous chief's daughter claimed by the anaconda of the lagoon and transfigured into the mountain's sovereign. Colina's 1951 statue of her riding a tapir and hoisting a female pelvis is a national icon of Caracas.",
+      "facet": "A goddess who is also a national self-portrait: her myth braids indigenous, Spanish, and African strands so directly that Venezuelans read her as the country's mestizaje made divine.",
+      "provenance": "Angelina Pollak-Eltz, 'María Lionza: mito y culto venezolano' (1972); Roger Canals, 'A Goddess in Motion: Visual Creativity in the Cult of María Lionza' (2017)."
+    },
+    {
+      "id": "maria-lionza-tres-potencias",
+      "tradition": "maria-lionza",
+      "kind": "concept",
+      "name": "Las Tres Potencias (The Three Powers)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The ruling trinity of the cult: María Lionza flanked by Guaicaipuro, the Teques cacique who fought the Spanish until his death in 1568, and Negro Felipe, the African soldier of legend. Together they head the entire spirit hierarchy and appear as a unit on chromolithographs and altars everywhere the cult reaches.",
+      "facet": "A trinity engineered from the nation's three ancestral streams — indigenous, African, and the mestiza queen above them — turning Venezuela's racial history into its governing pantheon.",
+      "provenance": "Angelina Pollak-Eltz (1972); Barbara Placido, \"'It's all to do with words': An analysis of spirit possession in the Venezuelan cult of María Lionza\" (JRAI, 2001)."
+    },
+    {
+      "id": "maria-lionza-cortes",
+      "tradition": "maria-lionza",
+      "kind": "force",
+      "name": "The Cortes (Spirit Courts)",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The organized legions of the dead beneath the Tres Potencias: the Corte India of indigenous chiefs, the Corte Negra, the Corte Médica led by the physician José Gregorio Hernández (d. 1919, canonized by Rome in 2025), the Corte Malandra of sanctified street outlaws, the Corte Vikinga, and more. Each court has its own manners, offerings, and specialties, and new courts keep forming.",
+      "facet": "An expandable bureaucracy of the dead: the court system lets the cult absorb any new class of spirit — doctors, Vikings, slain thieves — without breaking its structure.",
+      "provenance": "Roger Canals, 'A Goddess in Motion' (2017); Angelina Pollak-Eltz (1972); Barbara Placido (2001)."
+    },
+    {
+      "id": "maria-lionza-sorte",
+      "tradition": "maria-lionza",
+      "kind": "place",
+      "name": "Sorte Mountain (Cerro de Sorte)",
+      "archetypes": [
+        "axis-mundi",
+        "genius-loci"
+      ],
+      "gloss": "The forested mountain above the Yaracuy river where the queen holds court, its slopes terraced with altars ('portales') at which pilgrims camp, light velaciones of candle-rings, and undergo possession rites — with mass pilgrimage cresting every 12 October. Declared a natural monument by Venezuela in 1960.",
+      "facet": "The cult's cathedral is a literal mountain: sanctity graduates with altitude, the higher portales reserved for the strongest spirit-work, so the geography itself encodes the hierarchy.",
+      "provenance": "Angelina Pollak-Eltz (1972); Roger Canals, 'A Goddess in Motion' (2017), both grounded in Sorte fieldwork."
+    },
+    {
+      "id": "maria-lionza-materia",
+      "tradition": "maria-lionza",
+      "kind": "hero",
+      "name": "La Materia (The Medium)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The human vessel — 'the matter' — whose body the court spirits descend into during rites at Sorte and in urban centros, speaking diagnoses and counsel through them while an assisting banco steadies and interprets the session. Materias smoke cigars, walk embers, and take on the voice and posture of each visiting spirit.",
+      "facet": "The cult's own vocabulary makes the theology explicit: the human is named 'matter' and the spirit supplies the person, a complete inversion of the mediumship it borrowed from Kardec's parlors.",
+      "provenance": "Barbara Placido (JRAI, 2001), an ethnography of possession speech in the cult; Roger Canals (2017)."
+    },
+    {
+      "id": "hausa-bori-iskoki",
+      "tradition": "hausa-bori",
+      "kind": "spirit",
+      "name": "The Iskoki (the Winds)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The invisible spirit population of Hausaland — hundreds of named personalities dwelling in tamarind trees, anthills, borrow-pits, and the bush, organized into houses and lineages that mirror human society. They afflict the unwary with illness and madness, and reward their tamed mounts with healing power and standing.",
+      "facet": "A pantheon that never closed its rolls: Fulani herders, Muslim clerics, and in the 1920s even European colonial officers (the Babule spirits) joined the iskoki — the spirit world as a running census of everyone who ever held power over the Hausa.",
+      "provenance": "A. J. N. Tremearne, The Ban of the Bori (1914); Michael Onwuejeogwu, 'The Cult of the Bori Spirits among the Hausa' (1969); Fremont Besmer, Horses, Music, and Gods (1983); Adeline Masquelier, Prayer Has Spoiled Everything (2001) on the Babule episode."
+    },
+    {
+      "id": "hausa-bori-babbaku-farfaru",
+      "tradition": "hausa-bori",
+      "kind": "concept",
+      "name": "Babbaku and Farfaru (the Black and White Spirits)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The great division of the pantheon: the farfaru, 'white' Muslim spirits — clerics, emirs, pious Fulani — and the babbaku, 'black' pagan spirits of the bush and the old Maguzawa order. A full bori house keeps both moieties and dances both.",
+      "facet": "Islamization recorded from the inside: rather than deny the new faith or be erased by it, the pantheon split into a Muslim moiety and a pagan one — conversion mapped directly onto the spirit world.",
+      "provenance": "Besmer's Kano fieldwork (Horses, Music, and Gods, 1983); Tremearne (1914)."
+    },
+    {
+      "id": "hausa-bori-girka",
+      "tradition": "hausa-bori",
+      "kind": "rite",
+      "name": "Girka (the Initiation)",
+      "archetypes": [
+        "sacred-initiation",
+        "divine-embodiment"
+      ],
+      "gloss": "The curing-initiation that turns affliction into vocation: the sick person is diagnosed as ridden by particular iskoki, secluded, and taught each spirit's rhythms, gestures, and dance, emerging as a 'mare of the gods' — permanently married to the spirits that once tormented her.",
+      "facet": "Bori's therapeutic bargain in miniature — the spirit is never cast out but domesticated into a lifelong, fee-earning partnership; illness becomes office.",
+      "provenance": "Besmer (1983) documents the Kano girka in full; Tremearne (1914); Mary Smith, Baba of Karo (1954)."
+    },
+    {
+      "id": "hausa-bori-magajiya",
+      "tradition": "hausa-bori",
+      "kind": "hero",
+      "name": "Magajiya (the Bori Queen)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The title of the woman at the head of a bori community — organizer of the dances, diagnostician of spirit-caused illness, and protector of the unmarried, divorced, and otherwise 'independent' women who fill the cult's ranks. In Gobir, bori historically stood under the protection of the royal Inna, the 'mother' of the state.",
+      "facet": "Institutionalized female religious authority persisting inside an emirate order that grants women no public religious office — the cult as a parallel government of the marginalized.",
+      "provenance": "Tremearne (1914); Mary Smith, Baba of Karo (1954); Masquelier (2001) on Niger; Nicole Echard's Ader fieldwork."
+    },
+    {
+      "id": "hausa-bori-dan-galadima",
+      "tradition": "hausa-bori",
+      "kind": "spirit",
+      "name": "Dan Galadima (the Prince)",
+      "archetypes": [
+        "trickster"
+      ],
+      "gloss": "One of the best-loved iskoki: the handsome, open-handed young noble who gambles away fortunes and keeps mistresses — his possessed mounts strut, deal imaginary cards, and scatter money to the crowd.",
+      "facet": "The pantheon as social portraiture: bori keeps a spirit for every recognizable Hausa type, and the wastrel prince is held up to the community in a possessed body — admired, indulged, and quietly judged at once.",
+      "provenance": "Besmer (1983) records his praise-songs and possession behaviour in Kano; Tremearne (1914) lists him among the principal spirits."
+    },
+    {
+      "id": "zar-cult-zayran",
+      "tradition": "zar-cult",
+      "kind": "spirit",
+      "name": "The Zayran (the Zar Spirits)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The society of alien spirits that seize their hosts — most of them married women — with illness and never leave: Ethiopian nobles, Turkish pashas, European khawajat, Muslim holy men, southern strangers. Each zar has its own drum-rhythm, incense, costume, and appetites, and states its demands through the host's mouth.",
+      "facet": "A pantheon of foreigners: the zayran are everyone who ever held power over, or passed through, the Nile and Red Sea worlds — possession as an embodied ethnography of the powerful other, which Boddy reads as women's counter-commentary on their own society.",
+      "provenance": "Janice Boddy, Wombs and Alien Spirits (1989, northern Sudan); Michel Leiris's 1932 Gondar fieldwork (La possession et ses aspects théâtraux chez les Éthiopiens de Gondar, 1958); I. M. Lewis, Ecstatic Religion (1971)."
+    },
+    {
+      "id": "zar-cult-ceremony",
+      "tradition": "zar-cult",
+      "kind": "rite",
+      "name": "The Zar Ceremony",
+      "archetypes": [
+        "divine-embodiment",
+        "sacred-initiation"
+      ],
+      "gloss": "The cure: days of drumming and incense in which spirit after spirit is called by its own beat until the patient's zar rises and dances in her body, is named, negotiated with — gold, perfume, a new dress, a sacrificial animal — and feasted into peace.",
+      "facet": "Therapy staged as diplomacy: the ceremony ends not in expulsion but in a treaty — the woman keeps her spirit, the spirit keeps its dues, and the household is put on notice of both.",
+      "provenance": "Boddy (1989); Gerda Sengers, Women and Demons: Cult Healing in Islamic Egypt (2003); Leiris (1958)."
+    },
+    {
+      "id": "zar-cult-shaykha",
+      "tradition": "zar-cult",
+      "kind": "hero",
+      "name": "The Shaykha / Kodia (Mistress of the Zar)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The woman who runs the cult — shaykha in Sudan, kodia in Egypt, the great mediums of Leiris's Gondar in Ethiopia — herself a former patient whose own zar, once mastered, became her diagnostic partner. She identifies which spirit rides a sufferer and brokers its price.",
+      "facet": "Authority earned through affliction: the only path to the office runs through having been its patient — a hierarchy of the healed, and one of the few ritual careers open to women anywhere in these societies.",
+      "provenance": "Boddy (1989); Sengers (2003); Leiris (1958) on Malkam Ayyahou, the Gondar zar mistress."
+    },
+    {
+      "id": "zar-cult-accommodation",
+      "tradition": "zar-cult",
+      "kind": "principle",
+      "name": "Accommodation (the Zar Bargain)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The complex's ruling idea: zar spirits are never exorcised, because they cannot be — they can only be identified, honoured, and contracted with. Affliction is converted into relationship, and relationship into a durable claim the possessed woman holds against her spirit and her household alike.",
+      "facet": "The hinge of a whole scholarly literature: Lewis read it as leverage for the powerless — demands voiced through the spirit that a wife could never voice herself — Boddy as a counter-language of selfhood; either way, the refusal of exorcism is the datum.",
+      "provenance": "I. M. Lewis, Ecstatic Religion (1971); Boddy (1989); Lewis, al-Safi & Hurreiz (eds.), Women's Medicine: The Zar-Bori Cult in Africa and Beyond (1991)."
+    },
+    {
+      "id": "bwiti-iboga",
+      "tradition": "bwiti",
+      "kind": "rite",
+      "name": "Eboga (the Iboga Sacrament)",
+      "archetypes": [
+        "sacred-initiation",
+        "psychopomp"
+      ],
+      "gloss": "The rasped root-bark of Tabernanthe iboga, eaten in small doses to sustain the all-night liturgy and, once in a life, in a massive initiatory dose that lays the novice out for days — sent across the boundary of death to see Bwiti and the ancestors with their own eyes.",
+      "facet": "The tradition's entire epistemology in one plant: Bwiti asks not for belief but for eyewitness — banzie contrast the mission's God, merely preached, with the God eboga lets them see — and the initiatory dose is deliberately calibrated to the edge of death.",
+      "provenance": "James W. Fernandez, Bwiti: An Ethnography of the Religious Imagination in Africa (1982); the ritual use long predates the plant's botanical description (Baillon, 1889)."
+    },
+    {
+      "id": "bwiti-ngoze",
+      "tradition": "bwiti",
+      "kind": "rite",
+      "name": "Ngozé (the All-Night Liturgy)",
+      "archetypes": [
+        "axis-mundi",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The recurring worship of Bwiti: from dusk to dawn the banzie dance the chapel's cycle of creation, death, and return around its carved central pillar — the road between the worlds — sustained by small doses of eboga and steered by the ngombi harp.",
+      "facet": "Liturgy as endurance: the night-long circuit does with community, song, and fatigue what the great dose does with chemistry — a weekly, survivable rehearsal of the one-time crossing.",
+      "provenance": "Fernandez (1982), whose Fang fieldwork (1958-60) centers on the ngozé; Świderski's Gabon studies."
+    },
+    {
+      "id": "bwiti-nyingwan-mebege",
+      "tradition": "bwiti",
+      "kind": "deity",
+      "name": "Nyingwan Mebege (the Sister of God)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The great female principle of Fang Bwiti theology — the Sister of God: source of fecundity, blood, and hidden knowledge, honoured as the compassionate center of a cosmology whose male creator stands remote.",
+      "facet": "The affective center of the cult: where the creator recedes, the Sister remains — fecundity and esoteric knowledge gathered into a feminine mediator through whom the distant godhead is approached.",
+      "provenance": "Fernandez (1982) on Fang Bwiti cosmology; her prominence varies by branch."
+    },
+    {
+      "id": "bwiti-banzie",
+      "tradition": "bwiti",
+      "kind": "concept",
+      "name": "The Banzie (the Angels)",
+      "archetypes": [
+        "sacred-initiation",
+        "mystery-school"
+      ],
+      "gloss": "Bwiti's initiates — the community of men and women who have eaten the great dose of eboga and crossed over once, and who therefore worship as witnesses rather than believers.",
+      "facet": "Initiation as citizenship: banzie status cuts across clan and, in the syncretic branches, across mission denominations — a new kinship made of shared vision rather than shared blood.",
+      "provenance": "Fernandez (1982), who renders the initiates' self-designation banzie as 'angels'."
+    },
+    {
+      "id": "bwiti-ngombi",
+      "tradition": "bwiti",
+      "kind": "concept",
+      "name": "The Ngombi Harp",
+      "archetypes": [
+        "psychopomp"
+      ],
+      "gloss": "The eight-stringed cult harp, its neck often carved as a woman's head, whose music leads the ngozé and, at initiation, reaches the novice on the far side — played as the voice of Nyingwan Mebege calling the traveler home.",
+      "facet": "A sonic lifeline: the harp is less an accompaniment than a psychopomp in wood and string — the one thread the disembodied initiate can follow back to the living.",
+      "provenance": "Fernandez (1982); the harp's identification with the Sister of God is standard in accounts of Fang Bwiti liturgy (also Świderski)."
+    },
+    {
+      "id": "mbuti-ndura",
+      "tradition": "mbuti",
+      "kind": "deity",
+      "name": "Ndura (the Forest as Mother and Father)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The Ituri forest itself, addressed as a person: mother, father, friend, even lover. It gives food, shelter, and affection to its children; when misfortune comes the forest is not angry but asleep — and must be woken and made glad with song.",
+      "facet": "Theism with no throne: the Mbuti god is the total environment, benevolent by default — and it exceeds the mirror's mother-archetype by being deliberately both parents at once, a deity defined by intimacy rather than power.",
+      "provenance": "Colin Turnbull, The Forest People (1961) and Wayward Servants (1965). Turnbull's portrait is beloved and contested — Grinker (Houses in the Rainforest, 1994) and later Ituri ethnographers fault his romantic isolation of the Mbuti from their village neighbours — but the forest-as-parent address is direct informant testimony, whatever frame is put around it."
+    },
+    {
+      "id": "mbuti-molimo",
+      "tradition": "mbuti",
+      "kind": "rite",
+      "name": "The Molimo (Waking the Forest)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "After a death or in deep crisis the men bring out the molimo — a long trumpet kept hidden in the trees, in Turnbull's day sometimes a plain metal drainpipe — and for nights on end it answers the men's fireside songs from the darkness, animal-voiced, until the forest is awake and glad again.",
+      "facet": "The famous drainpipe is the theology: what sanctifies is not the object but the singing — a religion whose central 'ritual instrument' can be junk metal because the sacrament is the sound and the sitting together.",
+      "provenance": "Turnbull, The Forest People (1961), the classic account of the great molimo at Epulu; reported earlier, and framed differently, in Schebesta's 1920s-30s Ituri work."
+    },
+    {
+      "id": "mbuti-immediate-return",
+      "tradition": "mbuti",
+      "kind": "principle",
+      "name": "Immediate-Return Theism",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "Religion in the present tense: no ancestor cult, no priests, no stored obligations to gods or the dead — the forest gives today as it gave yesterday, and ritual's job is to keep the relationship glad, not to bank credit against a hereafter.",
+      "facet": "Woodburn's immediate-return category made theological: societies that store nothing store no eschatology either — the Mbuti case is the cleanest demonstration that a religion can run almost entirely without deferral.",
+      "provenance": "James Woodburn, 'Egalitarian Societies' (1982), which classes the Mbuti — with the Ju|'hoansi San and Hadza — as immediate-return; Turnbull's ethnography supplies the religious content."
+    },
+    {
+      "id": "mbuti-elima",
+      "tradition": "mbuti",
+      "kind": "rite",
+      "name": "The Elima (Festival of First Blood)",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "When a girl first menstruates the camp celebrates: she and her age-mates enter the elima house to learn the songs of adulthood, singing challenges to the young men outside — first blood greeted as a gift and a joy, not a danger to be secluded.",
+      "facet": "A precise inversion of the region's menarche-fear: the same biological moment that the neighbouring farming villages treat as polluting, the forest camp sings as a blessing — one datum, two opposite ritual signs.",
+      "provenance": "Turnbull, The Forest People (1961) and Wayward Servants (1965); the villager-contrast is Turnbull's own framing and shares in the critiques of his forest/village dichotomy."
+    },
+    {
+      "id": "mbuti-tore",
+      "tradition": "mbuti",
+      "kind": "deity",
+      "name": "Tore (the Named Face of the Forest)",
+      "archetypes": [
+        "master-of-animals"
+      ],
+      "gloss": "The name older ethnography gives the forest-god of the Ituri: keeper of the game, lord of the dead, owner of fire in some tellings. Schebesta built him into a pygmy high god; Turnbull's informants mostly folded the name back into the forest itself.",
+      "facet": "A figure whose chief lesson is methodological: the missionary-ethnographer found a Supreme Being where the romantic ethnographer found none — Tore is the test-strip showing how much of a 'god' can be an artifact of who is asking.",
+      "provenance": "Paul Schebesta's Ituri fieldwork (1920s-30s); Turnbull, Wayward Servants (1965), which directly disputes Schebesta's theistic framing."
+    },
+    {
+      "id": "sant-mat-shiv-dayal-singh",
+      "tradition": "sant-mat",
+      "kind": "hero",
+      "name": "Soamiji Maharaj (Shiv Dayal Singh)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Agra householder-saint (1818–1878) who, after years of closed-door meditation, opened public satsang in 1861 and systematized the medieval sant stream into a teachable path: one God reached by the inner sound, under a living master. His discourses and poems were gathered as the Sar Bachan.",
+      "facet": "A founder who claimed to found nothing — 'Sant Mat' names the teaching of the Sants as a class, and Soamiji presented himself as its distiller rather than its origin, which is precisely what let a dozen rival successor lines each claim the same mantle.",
+      "provenance": "Sar Bachan (prose and poetry collections); Mark Juergensmeyer, Radhasoami Reality (1991)."
+    },
+    {
+      "id": "sant-mat-radhasoami-anami",
+      "tradition": "sant-mat",
+      "kind": "deity",
+      "name": "Radhasoami / Anami Purush (the Nameless Lord)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The Supreme Being dwelling in the highest, purely spiritual region above mind and matter — Anami, 'the Nameless.' In the Agra lines 'Radhasoami' (lord of the soul-current) is held to be the true name of this being; the Beas line treats the highest reality as strictly beyond all names.",
+      "facet": "A God who does not descend: the Nameless Lord never incarnates or intervenes below, and is reached only by the soul's own ascent up the sound current — the whole cosmology is a ladder pointing at a summit that stays silent.",
+      "provenance": "Sar Bachan; the Agra/Beas interpretive split documented in Juergensmeyer, Radhasoami Reality (1991)."
+    },
+    {
+      "id": "sant-mat-surat-shabd-yoga",
+      "tradition": "sant-mat",
+      "kind": "rite",
+      "name": "Surat Shabd Yoga (the Sound Current)",
+      "archetypes": [
+        "creative-word",
+        "transmutation"
+      ],
+      "gloss": "The central practice: in meditation the surat (the soul's attention-current) is attached to the Shabd, the audible life-stream flowing down from the Supreme Being, and rides it back up — region by region, past the realms of mind and illusion — toward its source.",
+      "facet": "The creative Word made navigable: where most traditions have the divine sound create the world, Sant Mat turns it into transportation — a current that runs both ways, so the same vibration that emanated the cosmos carries the practitioner home.",
+      "provenance": "Sar Bachan; Julian Johnson, The Path of the Masters (1939)."
+    },
+    {
+      "id": "sant-mat-satguru",
+      "tradition": "sant-mat",
+      "kind": "principle",
+      "name": "The Living Satguru",
+      "archetypes": [
+        "psychopomp",
+        "one-through-many"
+      ],
+      "gloss": "The living human master, held to be the Shabd embodied, whose initiation (nam-dan) connects the disciple's attention to the current and who guides the soul inwardly through the regions no map can cover. A book, however holy, cannot initiate; only a living master can.",
+      "facet": "The office outranks every institution built around it: because authority lives in a body rather than a text, nearly every succession — Soamibagh, Dayalbagh, Beas, Ruhani Satsang — split the movement, each schism proving the doctrine that the living master is the irreplaceable term.",
+      "provenance": "Sar Bachan; succession history documented in Juergensmeyer, Radhasoami Reality (1991) and David Lane's Radhasoami studies."
+    },
+    {
+      "id": "sant-mat-kal",
+      "tradition": "sant-mat",
+      "kind": "deity",
+      "name": "Kal (the Negative Power)",
+      "archetypes": [
+        "cosmic-adversary"
+      ],
+      "gloss": "The ruler of the lower creation — mind, matter, time, and death — who administers karma and rebirth and holds souls in his realms. Inherited from the sant poets' 'Kal' (Time/Death), he is a jailer and tax-collector of souls rather than a devil.",
+      "facet": "Evil as administration: Kal runs the lower worlds lawfully, on karma's books, which makes escape a matter of jurisdiction rather than combat — the soul is not saved by defeating him but by being escorted out of his territory by the master.",
+      "provenance": "Sar Bachan; the Kal figure of sant literature (Kabir's verse onward), carried into Radhasoami cosmology."
+    },
+    {
+      "id": "kabir-panth-kabir",
+      "tradition": "kabir-panth",
+      "kind": "hero",
+      "name": "Kabir",
+      "archetypes": [
+        "culture-hero",
+        "trickster"
+      ],
+      "gloss": "The weaver-saint of Banaras — born into a low-caste Muslim julaha family, singing nirguna devotion in blunt vernacular verse that mocked pandit and mullah alike: idol-worship and circumcision, Veda and Quran, all scolded from the loom.",
+      "facet": "Iconoclasm with a day job: Kabir's authority comes from low-caste labor and lived devotion rather than lineage or learning, and his ulatbamsi ('upside-down speech') poems weaponize paradox the way other traditions weaponize miracle.",
+      "provenance": "The Bijak; Kabir's bhagat bani in the Adi Granth; Charlotte Vaudeville, A Weaver Named Kabir (1993)."
+    },
+    {
+      "id": "kabir-panth-nirguna-ram",
+      "tradition": "kabir-panth",
+      "kind": "deity",
+      "name": "Nirguna Ram (the Ram Beyond Attributes)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Kabir's God carries the name Ram yet is explicitly not Dasharatha's son — unborn, formless, without attributes, beyond both Hindu and Muslim naming. Kabir uses Ram, Hari, Allah, and Khuda interchangeably for the one reality none of them contains.",
+      "facet": "The boldest move in bhakti: taking the avatar's own name and emptying it of the avatar — devotion's warmest word kept, its mythology deleted, so that Hindu and Muslim each hear their own God refused and offered back in the same line.",
+      "provenance": "Kabir's verse in the Bijak and Adi Granth ('the Ram I speak of was never born'); Vaudeville (1993) on Kabir's nirguna theology."
+    },
+    {
+      "id": "kabir-panth-bijak",
+      "tradition": "kabir-panth",
+      "kind": "text",
+      "name": "The Bijak",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "'The Seed' or 'the Inventory' — the eastern-recension scripture of the Kabir Panth, gathering Kabir's ramainis, shabdas, and sakhis into the book his followers treat as the map to the treasure of the self.",
+      "facet": "A scripture of anti-scripture: the panth canonized a poet who boasted he never touched ink or paper and jeered at the book-learned — the mirror's cleanest case of an oral iconoclast becoming the sacred text he warned against.",
+      "provenance": "The Bijak (eastern/Dharamdasi recension); Linda Hess and Shukdev Singh, The Bijak of Kabir (1983)."
+    },
+    {
+      "id": "kabir-panth-shabda",
+      "tradition": "kabir-panth",
+      "kind": "force",
+      "name": "Shabda (the Word)",
+      "archetypes": [
+        "creative-word",
+        "vital-force"
+      ],
+      "gloss": "The Word that pierces: in Kabir's poems the true guru looses the shabda like an arrow, and the unstruck sound (anahad nad) rings in the body of the devotee who turns inward. Devotion is routed through hearing, not through image or rite.",
+      "facet": "The sant stream's load-bearing concept — an interior, imageless channel to the divine open to any caste and either creed — which is exactly the piece the later Radhasoami masters lifted and systematized into a formal yoga.",
+      "provenance": "Shabda poems of the Bijak (Hess & Singh trans.); Vaudeville (1993) on sant devotional vocabulary."
+    },
+    {
+      "id": "kabir-panth-magahar",
+      "tradition": "kabir-panth",
+      "kind": "place",
+      "name": "Magahar (the Cursed Deathbed)",
+      "archetypes": [
+        "sacred-transgression"
+      ],
+      "gloss": "The town where Kabir chose to die. Tradition promised liberation to whoever died in Kashi and rebirth as a donkey to whoever died in cursed Magahar — so Kabir left Kashi at the end, deliberately, to die in the wrong place. Legend says his body became flowers, divided between Hindu and Muslim mourners; a samadhi and a tomb stand at Magahar side by side.",
+      "facet": "The last act as the last argument: salvation is not real estate. Kabir spent his death the way he spent his verse — breaking a ritual guarantee to prove the guarantee empty — and both communities' shrines over one absent body seal the point.",
+      "provenance": "Kabir hagiography and the Magahar verses (Vaudeville 1993); the paired samadhi and mazar at Magahar, Uttar Pradesh."
+    },
+    {
+      "id": "ajivika-makkhali-gosala",
+      "tradition": "ajivika",
+      "kind": "hero",
+      "name": "Makkhali Gosala",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The leader of the Ajivikas — a naked wandering ascetic of the fifth century BCE, said (by his enemies) to have been born in a cowshed and to have walked six years as Mahavira's companion before their bitter rupture. He taught that all beings are carried by niyati, impersonal fate, to an end fixed in advance.",
+      "facet": "A founder known only through the people he lost arguments with: every biographical detail arrives pre-poisoned by Jain and Buddhist polemic, making Gosala the mirror's test case for reading a tradition through hostile glass.",
+      "provenance": "Bhagavatī Sūtra 15 (Jain); Sāmaññaphala Sutta, DN 2 (Buddhist); A. L. Basham, History and Doctrines of the Ājīvikas (1951)."
+    },
+    {
+      "id": "ajivika-niyati",
+      "tradition": "ajivika",
+      "kind": "principle",
+      "name": "Niyati (Cosmic Fate)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Absolute determinism: there is no cause, human or divine, for the purity or defilement of beings — all are bent by fate, circumstance, and nature (niyati-saṅgati-bhāva), and effort, vow, and deed change nothing of the outcome.",
+      "facet": "Cosmic order radicalized until agency vanishes — the one shard in the mirror where the impersonal law has neither lawgiver above it nor any lever left for the human hand.",
+      "provenance": "The Ajivika credo as quoted in the Sāmaññaphala Sutta (DN 2); Basham (1951)."
+    },
+    {
+      "id": "ajivika-samsara-suddhi",
+      "tradition": "ajivika",
+      "kind": "concept",
+      "name": "Saṃsāra-śuddhi (Purification by Wandering)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "Every soul must traverse the same fixed course of rebirths — 8,400,000 great aeons in the Buddhist report — and then release happens of itself, 'as a ball of thread, thrown, unwinds to its very end.' Neither virtue shortens the thread nor vice lengthens it.",
+      "facet": "The only soteriology in the mirror where liberation is a timetable rather than an achievement: everyone is saved, no one is saved early, and the wise and the fool cross the finish line by the same clock.",
+      "provenance": "Sāmaññaphala Sutta (DN 2) — the doctrine and the thread-simile survive inside the hostile Buddhist account; Basham (1951)."
+    },
+    {
+      "id": "ajivika-naked-asceticism",
+      "tradition": "ajivika",
+      "kind": "rite",
+      "name": "Naked Asceticism",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "Ajivika mendicants went naked, begged under strict self-imposed rules, and practiced severe austerities, in some accounts ending life by ritual starvation — a regimen as harsh as anything among their Jain rivals.",
+      "facet": "The paradox their opponents seized on: why mortify the flesh if nothing avails? The reconstructed Ajivika answer is that austerity is not a means but a symptom — what beings in their final births are fated to do, the badge of a thread nearly unwound.",
+      "provenance": "Jain and Buddhist descriptions of Ajivika practice collected in Basham (1951) — hostile sources, read against the grain."
+    },
+    {
+      "id": "ajivika-six-abhijatis",
+      "tradition": "ajivika",
+      "kind": "concept",
+      "name": "The Six Abhijātis (Colour-Classes of Souls)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "Humanity ranked in six fixed colour-classes from black up through blue, red, yellow, and white to supremely white — with the great Ajivika masters, Gosala among them, placed at the white summit of the scale.",
+      "facet": "Refinement without effort: the soul does brighten class by class across its aeons, but by fate's schedule alone — transmutation as something that happens TO the soul, never something it does.",
+      "provenance": "Aṅguttara Nikāya 6.57, where the scheme is attributed to Pūraṇa Kassapa yet ranks the Ajivika masters supreme; Basham (1951) reads it as Ajivika doctrine — attribution contested, carried as such."
+    },
+    {
+      "id": "charvaka-brihaspati",
+      "tradition": "charvaka",
+      "kind": "culture-hero",
+      "name": "Brihaspati (the Attributed Founder)",
+      "archetypes": [
+        "culture-hero",
+        "trickster"
+      ],
+      "gloss": "The legendary author of the lost Bārhaspatya-sūtras, the materialist charter. Hostile legend makes him the guru of the gods themselves, teaching materialism to the demons to lead them to ruin — the school's founder cast as a divine saboteur.",
+      "facet": "A founder who exists only in enemy custody: his sutras survive as quotations inside the refutations written to destroy them, and even his origin story was authored by the opposition — the mirror's purest case of a tradition wearing a mask its rivals carved.",
+      "provenance": "Sūtra fragments quoted in Sarvadarśanasaṃgraha ch. 1 and other doxographies; the demon-delusion frame in Maitrāyaṇīya Upaniṣad 7.9."
+    },
+    {
+      "id": "charvaka-ajita-kesakambali",
+      "tradition": "charvaka",
+      "kind": "hero",
+      "name": "Ajita Kesakambali (the Hair-Blanket Teacher)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The earliest historically attested Indian materialist — a contemporary of the Buddha who taught that a person is the four elements and nothing more: at death earth returns to earth, water to water, and 'fools and wise alike are cut off and perish; there is nothing after death.'",
+      "facet": "The caricature confounded in advance: the arch-materialist wore a garment of woven hair, the meanest and most austere of coverings — the annihilationist as ascetic, against every 'eat, drink' slander later stitched onto the school.",
+      "provenance": "Sāmaññaphala Sutta (DN 2), among the six heterodox teachers."
+    },
+    {
+      "id": "charvaka-pratyaksha",
+      "tradition": "charvaka",
+      "kind": "principle",
+      "name": "Pratyakṣa (Perception the Sole Proof)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The epistemological razor: perception alone is a valid means of knowledge (pramāṇa); inference and scriptural testimony compound error. What cannot be perceived — heaven, soul, karma, the fruits of sacrifice — is thereby dismissed.",
+      "facet": "Demolition by standard of evidence rather than counter-myth: the whole Vedic edifice is brought down not by rival gods but by tightening the rules for what may count as known — the mirror's oldest surviving evidentialism.",
+      "provenance": "Cārvāka chapter of Sarvadarśanasaṃgraha (Cowell & Gough trans.); Debiprasad Chattopadhyaya, Lokāyata (1959)."
+    },
+    {
+      "id": "charvaka-dehatmavada",
+      "tradition": "charvaka",
+      "kind": "concept",
+      "name": "Dehātmavāda (the Body-Self)",
+      "archetypes": [
+        "origin-of-death"
+      ],
+      "gloss": "The self IS the living body: consciousness arises from the four elements rightly combined 'as the intoxicating power arises from fermented grain,' and at death it simply disperses with them. There is no soul to travel and nowhere for it to go.",
+      "facet": "The kinva (ferment) analogy is a genuine emergentism — mind as a property of configured matter — argued from within a doxography compiled to refute it; the position survives because its enemies quoted it accurately enough to attack.",
+      "provenance": "Sarvadarśanasaṃgraha ch. 1, including the fermentation simile."
+    },
+    {
+      "id": "charvaka-ritual-mockery",
+      "tradition": "charvaka",
+      "kind": "concept",
+      "name": "The Mockery of the Rite",
+      "archetypes": [
+        "trickster",
+        "sacred-transgression"
+      ],
+      "gloss": "The surviving Cārvāka verses are jokes with edges: if the śrāddha offering feeds the dead, why provision a traveler — feed him by offering at home; if the beast slain in sacrifice goes to heaven, why does the sacrificer not offer his own father? The Vedas' authors are called buffoons, knaves, and demons.",
+      "facet": "Satire as the school's surviving genre: the laughter outlived the doctrine because opponents had to quote the jokes in order to refute them — the enemy archive preserving precisely what it meant to bury.",
+      "provenance": "Verses quoted in the Cārvāka chapter of Sarvadarśanasaṃgraha (Cowell & Gough trans.)."
+    },
+    {
+      "id": "ahmadiyya-mirza-ghulam-ahmad",
+      "tradition": "ahmadiyya",
+      "kind": "prophet",
+      "name": "Mirza Ghulam Ahmad (The Promised Messiah)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "A scholar of Qadian, Punjab, who from 1889 accepted the allegiance of followers first as the divinely appointed renewer (mujaddid) of the age, then as the Promised Messiah and Mahdi awaited by Muslims. He claimed a subordinate, non-law-bearing prophethood entirely within Islam, under Muhammad's seal.",
+      "facet": "His claim turns on a single Qur'anic phrase: reading 'Seal of the Prophets' as the guarantor of continuing, derivative prophecy rather than its termination — the precise reading Pakistan's 1974 constitutional amendment declared beyond the pale of Islam.",
+      "provenance": "Barahin-e-Ahmadiyya (1880–84); Ruhani Khaza'in (collected works); Yohanan Friedmann, 'Prophecy Continuous' (1989)."
+    },
+    {
+      "id": "ahmadiyya-khilafat",
+      "tradition": "ahmadiyya",
+      "kind": "principle",
+      "name": "Khilafat-i-Ahmadiyya (The Caliphate of the Messiah)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The elected office of Khalifatul Masih, successor to the Promised Messiah, held continuously since Ghulam Ahmad's death in 1908 — five caliphs to date, the fifth (Mirza Masroor Ahmad) since 2003 — directing a centralized global community of mosques, missions, and presses.",
+      "facet": "It is a caliphate in exile from the Muslim world that rejects it: Pakistan's 1974 Second Amendment declared Ahmadis non-Muslim and Ordinance XX (1984) criminalized their public Islam, driving the fourth caliph to London that year, where the office has resided since.",
+      "provenance": "Mirza Ghulam Ahmad, Al-Wasiyyat (The Will, 1905); Constitution of Pakistan, Second Amendment (1974); Ordinance XX (1984); Adil Hussain Khan, 'From Sufism to Ahmadiyya' (2015)."
+    },
+    {
+      "id": "ahmadiyya-jihad-of-the-pen",
+      "tradition": "ahmadiyya",
+      "kind": "principle",
+      "name": "Jihad of the Pen (Jihad bil-Qalam)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Ghulam Ahmad's ruling that armed jihad stands suspended in this age; the ordained struggle is argument, print, and persuasion. The community answered with translations of the Qur'an into dozens of languages, missionary presses, and the motto 'Love for All, Hatred for None'.",
+      "facet": "The renunciation has never been reciprocated: the community that disarmed jihad is the one most lethally targeted by takfir — the 1953 Lahore riots and the 2010 attack on two Ahmadi mosques in Lahore that killed more than 80 worshippers.",
+      "provenance": "Mirza Ghulam Ahmad, 'The British Government and Jihad' (1900); motto popularized under the third caliph, Mirza Nasir Ahmad."
+    },
+    {
+      "id": "ahmadiyya-yuz-asaf",
+      "tradition": "ahmadiyya",
+      "kind": "concept",
+      "name": "Yuz Asaf (The Jesus of Kashmir)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The doctrine that Jesus survived the crucifixion in a swoon, was healed, traveled east in search of the lost tribes of Israel, and died a natural death in Srinagar, Kashmir — where the Roza Bal shrine is held to be his tomb under the name Yuz Asaf.",
+      "facet": "It engages the dying-and-rising pattern only to dismantle it: a mortal Jesus already dead voids both the Christian resurrection and the mainstream Islamic bodily ascension, clearing the messianic office for Ghulam Ahmad to fill 'in the spirit and power' of Jesus. The Roza Bal identification is rejected by historians and by the shrine's own custodians; it stands here as Ahmadi doctrine, not history.",
+      "provenance": "Mirza Ghulam Ahmad, 'Jesus in India' (Masih Hindustan Mein, written 1899, published 1908)."
+    },
+    {
+      "id": "babism-the-bab",
+      "tradition": "babism",
+      "kind": "prophet",
+      "name": "The Báb (Siyyid 'Alí-Muhammad of Shiraz)",
+      "archetypes": [
+        "psychopomp",
+        "culture-hero"
+      ],
+      "gloss": "A young merchant of Shiraz who in May 1844 declared himself the Báb — the Gate — first as channel of the Hidden Twelfth Imam awaited by Shi'a Islam, then as the Qá'im himself and an independent Manifestation of God bearing a new law. He was executed by a firing squad of 750 rifles in Tabriz in 1850, aged thirty.",
+      "facet": "He shows a messianic claim escalating in public, in stages, under interrogation — from gate, to Imam, to theophany — each step preserved in trial records; Shi'i expectation raised to such a pitch that the herald became the revelation.",
+      "provenance": "Qayyúm al-Asmá (1844); the Persian Bayán; Abbas Amanat, 'Resurrection and Renewal' (1989); Denis MacEoin, 'The Messiah of Shiraz' (2009)."
+    },
+    {
+      "id": "babism-bayan",
+      "tradition": "babism",
+      "kind": "text",
+      "name": "The Bayán (The Exposition)",
+      "archetypes": [
+        "creative-word",
+        "cosmic-order"
+      ],
+      "gloss": "The Báb's book of law, composed in the prison-fortress of Máku (c. 1847–48) in Persian and Arabic: a deliberately unfinished code built on the number nineteen — a calendar of nineteen months of nineteen days, new tithes, a new qibla — abrogating the Qur'anic dispensation.",
+      "facet": "It is a scripture designed to expire: the Bayán repeatedly subordinates its own authority to 'Him Whom God shall make manifest' — a law-book engineered to hand itself over.",
+      "provenance": "The Persian Bayán; the Arabic Bayán; E. G. Browne's editions and notices; Amanat (1989)."
+    },
+    {
+      "id": "babism-tahirih",
+      "tradition": "babism",
+      "kind": "hero",
+      "name": "Táhirih (Qurratu'l-'Ayn)",
+      "archetypes": [
+        "sacred-transgression"
+      ],
+      "gloss": "Fátimih Baraghání of Qazvin, poet and Shaykhi scholar, the one woman among the Letters of the Living. At the Badasht conference of 1848 she appeared before the assembled Bábís unveiled, announcing that the old law was ended; she was strangled in Tehran in 1852 during the anti-Bábí pogrom.",
+      "facet": "Her unveiling is the movement's rupture made flesh — the abrogation of the shari'a performed as a single gesture on a woman's face, decades before any organized movement for women's emancipation in Iran.",
+      "provenance": "Nabíl's Narrative (The Dawn-Breakers); Abbas Amanat, 'Resurrection and Renewal' (1989); her surviving Persian poems."
+    },
+    {
+      "id": "babism-letters-of-the-living",
+      "tradition": "babism",
+      "kind": "concept",
+      "name": "The Letters of the Living (Hurúf al-Hayy)",
+      "archetypes": [
+        "first-ancestor",
+        "cyclic-ages"
+      ],
+      "gloss": "The first eighteen believers who independently recognized the Báb in 1844 and who, with him, complete the sacred unit of nineteen — the first Váhid (Unity) of the new creation, dispatched across Persia and Iraq as its apostles.",
+      "facet": "Bábí doctrine reads them as raj'a, the return: the Fourteen Immaculates of Shi'ism and the four original Gates come back as living men and one woman — the old sacred cosmos reincarnated as the new community's founding cell.",
+      "provenance": "The Persian Bayán; Nabíl's Narrative; MacEoin, 'The Messiah of Shiraz' (2009)."
+    },
+    {
+      "id": "babism-man-yuzhiruhu-llah",
+      "tradition": "babism",
+      "kind": "concept",
+      "name": "Him Whom God Shall Make Manifest (Man Yuzhiruhu'lláh)",
+      "archetypes": [
+        "one-through-many",
+        "cyclic-ages"
+      ],
+      "gloss": "The greater revelation the Bayán ceaselessly points toward — a coming theophany whose recognition outweighs all Bábí law, and to whom the Báb commends his community and his book.",
+      "facet": "It converts the religion into a fuse: within thirteen years of the Báb's death, Bahá'u'lláh's 1863 claim to be this figure absorbed nearly the whole community, while Subh-i-Azal's rejection of that claim left Azalí Bábism a dwindling remnant.",
+      "provenance": "The Persian Bayán; Bahá'u'lláh's Kitáb-i-Badí'; MacEoin (2009)."
+    },
+    {
+      "id": "dao-mau-lieu-hanh",
+      "tradition": "dao-mau",
+      "kind": "deity",
+      "name": "Thánh Mẫu Liễu Hạnh (Mother of the Heavenly Palace)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "A daughter of the Jade Emperor exiled to earth for breaking a jade cup, who lived, died, and returned through successive human lives before being enthroned as chief of the Mother Goddesses. One of Vietnam's Four Immortals, her seat is the Phủ Dầy temple complex in Nam Định.",
+      "facet": "She is no gentle madonna: the legends make her willful, punishing, and combative — a goddess who extracts recognition from emperors and monks, canonized from below like a popular verdict the state had to ratify.",
+      "provenance": "Đoàn Thị Điểm, 'Vân Cát thần nữ truyện' (1730s); Olga Dror, 'Cult, Culture, and Authority' (2007); Ngô Đức Thịnh, 'Đạo Mẫu ở Việt Nam'."
+    },
+    {
+      "id": "dao-mau-tu-phu",
+      "tradition": "dao-mau",
+      "kind": "concept",
+      "name": "Tứ Phủ (The Four Palaces)",
+      "archetypes": [
+        "axis-mundi",
+        "cosmic-order"
+      ],
+      "gloss": "The cosmos divided into four color-coded courts — Heaven (red), Earth (yellow), Water (white), and Mountains-and-Forests (green) — each under a Mother Goddess and staffed by ranked mandarins, dames, princes, princesses, and boy attendants.",
+      "facet": "It is a celestial administration built on the imperial court's model but crowned by women — the bureaucratic pantheon of the Sinosphere with Mothers, not an Emperor, as its operative sovereigns.",
+      "provenance": "Ngô Đức Thịnh, 'Đạo Mẫu ở Việt Nam'; Kirsten Endres, 'Performing the Divine' (2011)."
+    },
+    {
+      "id": "dao-mau-len-dong",
+      "tradition": "dao-mau",
+      "kind": "rite",
+      "name": "Lên Đồng (Mounting the Medium)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The central ritual, also called hầu bóng, 'serving the shadows': in a fixed sequence of possession episodes the spirits of the Four Palaces descend in turn into a medium (thanh đồng), each incarnation marked by costume change, dance, and sung invitation, and sealed by the distribution of blessed gifts (lộc).",
+      "facet": "Possession as repertory theatre with real stakes — dozens of named spirits in ranked order, each with its own dress, gestures, and music. Banned as superstition in the socialist North after 1954, it returned with Đổi Mới to become the crown of the 2016 UNESCO inscription.",
+      "provenance": "Barley Norton, 'Songs for the Spirits' (2009); Kirsten Endres, 'Performing the Divine' (2011); UNESCO ICH inscription, 'Practices related to the Việt beliefs in the Mother Goddesses of Three Realms' (2016)."
+    },
+    {
+      "id": "dao-mau-tran-hung-dao",
+      "tradition": "dao-mau",
+      "kind": "hero",
+      "name": "Đức Thánh Trần (Saint Trần Hưng Đạo)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The historical general who repelled the Mongol invasions of the thirteenth century, deified after his death in 1300 as a supreme exorcist-saint. His martial Trần-dynasty court of spirits is honored alongside the Four Palaces, and mediums possessed by him drive out malevolent spirits.",
+      "facet": "He shows the national hero and the god as one office: state commemoration and spirit possession run on the same figure, letting the religion carry Vietnamese patriotism inside its pantheon.",
+      "provenance": "Phạm Quỳnh Phương, 'Hero and Deity: Trần Hưng Đạo and the Resurgence of Popular Religion in Vietnam' (2009); temple traditions of Kiếp Bạc."
+    },
+    {
+      "id": "dao-mau-chau-van",
+      "tradition": "dao-mau",
+      "kind": "rite",
+      "name": "Chầu Văn (The Invitation Songs)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The ritual song genre that summons and serves the spirits during lên đồng: moon-lute, percussion, and a singer whose verses praise each descending spirit's legend, landscape, and rank, cueing the medium's every transformation.",
+      "facet": "The music is the liturgy's engine — spirits are sung down into bodies by named verse, so precisely that the songs double as the pantheon's oral archive.",
+      "provenance": "Barley Norton, 'Songs for the Spirits' (2009); recognized within the 2016 UNESCO inscription."
+    },
+    {
+      "id": "hoa-hao-huynh-phu-so",
+      "tradition": "hoa-hao",
+      "kind": "prophet",
+      "name": "Huỳnh Phú Sổ",
+      "archetypes": [
+        "culture-hero",
+        "dying-rising"
+      ],
+      "gloss": "A frail nineteen-year-old of Hòa Hảo village who emerged from chronic illness in 1939 healing the sick and preaching in plain verse, founding a Buddhism for peasants. He entered nationalist politics, founded the Dân Xã party in 1946, and was killed by the Việt Minh in April 1947; his body was never recovered.",
+      "facet": "Followers received him as the Buddha Master of Western Peace returned, and because he has no grave many still await his return — a founder whose absence is doctrinally load-bearing.",
+      "provenance": "Sấm Giảng Thi Văn Giáo Lý (Sổ's collected oracles and teachings); Hue-Tam Ho Tai, 'Millenarianism and Peasant Politics in Vietnam' (1983); Pascal Bourdeaux's studies of Hòa Hảo."
+    },
+    {
+      "id": "hoa-hao-buu-son-ky-huong",
+      "tradition": "hoa-hao",
+      "kind": "concept",
+      "name": "Bửu Sơn Kỳ Hương (Strange Fragrance from the Precious Mountain)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The Mekong millenarian lineage founded by Đoàn Minh Huyên, the 'Buddha Master of Western Peace' (Phật Thầy Tây An), who preached and healed through the 1849 cholera epidemic: the world is in the low age (Hạ Nguơn), and salvation lies in plain living, amulets bearing the four-character formula, and the Seven Mountains of the frontier.",
+      "facet": "It is frontier religion in the exact sense — apocalyptic Buddhism fitted to peasants clearing new delta land, which is why its heirs, Hòa Hảo among them, kept erupting into politics.",
+      "provenance": "Hue-Tam Ho Tai, 'Millenarianism and Peasant Politics in Vietnam' (1983); temple traditions of Tây An and the Thất Sơn (Seven Mountains) region."
+    },
+    {
+      "id": "hoa-hao-sam-giang",
+      "tradition": "hoa-hao",
+      "kind": "text",
+      "name": "Sấm Giảng (The Oracles)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Huỳnh Phú Sổ's sermons and prophecies, composed from 1939 onward largely in vernacular six-eight verse that unlettered farmers could memorize and chant; together with his prose teachings they form the movement's entire canon.",
+      "facet": "Scripture engineered for the unlettered: doctrine travels as memorized rhyme through village networks, bypassing monastery and clergy entirely.",
+      "provenance": "Sấm Giảng Thi Văn Giáo Lý; Hue-Tam Ho Tai (1983)."
+    },
+    {
+      "id": "hoa-hao-tran-da",
+      "tradition": "hoa-hao",
+      "kind": "rite",
+      "name": "The Trần Dà Altar (Practicing Buddhism at Home)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "Hòa Hảo worship stripped to its floor: a plain brown cloth (trần dà) in place of statues on the home altar, offerings of only fresh water, flowers, and incense, and an open-air sky altar (bàn thông thiên) in the yard facing heaven. No pagodas, no monks — the household is the temple.",
+      "facet": "Its motto 'Học Phật, Tu Nhân' — study the Buddha, cultivate humanity — relocates merit from monastic donation to peasant ethics, an austerity that doubled as economic protest against ritual expense.",
+      "provenance": "Huỳnh Phú Sổ, 'Cách Tu Hiền' (guidance on lay practice, 1945); Hue-Tam Ho Tai (1983)."
+    },
+    {
+      "id": "hoa-hao-tu-an",
+      "tradition": "hoa-hao",
+      "kind": "principle",
+      "name": "Tứ Ân (The Four Debts of Gratitude)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The moral spine of the teaching, inherited from Bửu Sơn Kỳ Hương: every believer owes four unpayable debts — to ancestors and parents, to country, to the Three Jewels of Buddhism, and to compatriots and humankind.",
+      "facet": "The debt to country sits inside the religious law itself, which is why Hòa Hảo piety flowed so directly into anti-colonial arms — patriotism here is not adjacent to religion but one of its four pillars.",
+      "provenance": "Sấm Giảng Thi Văn Giáo Lý; Hue-Tam Ho Tai (1983)."
+    },
+    {
+      "id": "hoa-hao-long-hoa",
+      "tradition": "hoa-hao",
+      "kind": "concept",
+      "name": "Hội Long Hoa (The Dragon Flower Assembly)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The millenarian horizon: at the close of the low age, Maitreya Buddha will convene the Dragon Flower Assembly, judging humanity and opening an age of peace — the virtuous gathered in, the wicked swept away.",
+      "facet": "It compresses Buddhist kalpa-cosmology into an imminent local event, with the Seven Mountains as its expected stage — keeping ordinary farm labor charged with end-time significance.",
+      "provenance": "Sấm Giảng; Hue-Tam Ho Tai (1983); the canonical Maitreya cycle of Buddhist eschatology."
+    },
+    {
+      "id": "donyi-polo-donyi-polo",
+      "tradition": "donyi-polo",
+      "kind": "deity",
+      "name": "Donyi-Polo (the Sun-Moon)",
+      "archetypes": [
+        "solar",
+        "lunar",
+        "complementarity"
+      ],
+      "gloss": "Donyi the sun and Polo the moon, addressed in Adi prayer as mother sun and father moon — not two gods but the two eyes of the supreme, the paired lights through which truth is witnessed day and night. Tani oaths are sworn under Donyi-Polo, and a false oath so sworn is believed to kill.",
+      "facet": "A supreme conceived primarily as witness rather than ruler: the sun-moon dyad functions as an all-seeing verification system for truth-telling, making perjury the tradition's paradigm sin.",
+      "provenance": "Verrier Elwin, 'Myths of the North-East Frontier of India' (1958); Claire S. Scheid, 'Talom Rukbo and the Donyipolo Yelam Kebang' (Internationales Asienforum); Donyi-Polo Yelam Kebang liturgy."
+    },
+    {
+      "id": "donyi-polo-sedi-melo",
+      "tradition": "donyi-polo",
+      "kind": "deity",
+      "name": "Sedi and Melo",
+      "archetypes": [
+        "world-parents",
+        "great-mother"
+      ],
+      "gloss": "In Adi (Minyong/Padam) cosmogony the world unfolds from Keyum, the primordial void, through a chanted genealogical series that culminates in Sedi the earth and Melo the sky. From Sedi's body the living landscape grows — the ground beneath the Tani hills is the mother's own flesh.",
+      "facet": "Creation as recited genealogy: the cosmos is not narrated as an event but descended through a lineage of names, so the cosmogony and the pedigree are one literary form.",
+      "provenance": "Sachin Roy, 'Aspects of Padam-Minyong Culture' (1960); Verrier Elwin (1958)."
+    },
+    {
+      "id": "donyi-polo-abotani",
+      "tradition": "donyi-polo",
+      "kind": "first-ancestor",
+      "name": "Abotani (Abo Tani)",
+      "archetypes": [
+        "first-ancestor",
+        "culture-hero",
+        "trickster"
+      ],
+      "gloss": "The first man and common ancestor of the Tani tribes — Adi, Nyishi, Apatani, Galo, Tagin — whose very ethnonym ('Tani') declares descent from him. In cycles of comic and perilous tales he wins cultivation, prosperity and wives from the spirit-world by cunning that as often backfires as succeeds.",
+      "facet": "A rare case where the first-ancestor myth is the living boundary of ethnic identity: the peoples of the Tani group literally name themselves 'his descendants', making the myth a working demonym.",
+      "provenance": "Stuart Blackburn, 'Himalayan Tribal Tales: Oral Tradition and Culture in the Apatani Valley' (2008); Verrier Elwin (1958)."
+    },
+    {
+      "id": "donyi-polo-nyibu",
+      "tradition": "donyi-polo",
+      "kind": "rite",
+      "name": "The Nyibu (shaman-chanter)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "creative-word",
+        "psychopomp"
+      ],
+      "gloss": "The Tani ritual specialist — nyibu among the Apatani and Nyishi, miri among the Adi — who chants long genealogical journey-texts in a distinct ritual register, negotiates with the spirits (uyu/wiyu), heals, and escorts the souls of the dead along the chanted route.",
+      "facet": "The chant is itself the ritual technology: efficacy lies in correctly traversing sequences of names and places aloud, an oral scripture that exists only in performance.",
+      "provenance": "Stuart Blackburn, 'The Sun Rises: A Shaman's Chant, Ritual Exchange and Fertility in the Apatani Valley' (2010)."
+    },
+    {
+      "id": "donyi-polo-uyu",
+      "tradition": "donyi-polo",
+      "kind": "spirit",
+      "name": "The Uyu (Wiyu) spirits",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The innumerable spirits of forest, river, rock and field with whom Tani life is a continuous negotiation — some benign, many dangerous, all requiring correct sacrifice mediated by the nyibu. Illness and misfortune are diagnosed as specific uyu demanding their due.",
+      "facet": "The pre-revival heart of the tradition: before Donyi-Polo was codified as a named religion, everyday Tani practice was this transactional spirit-ecology of the landscape.",
+      "provenance": "Verrier Elwin (1958); Sachin Roy (1960)."
+    },
+    {
+      "id": "donyi-polo-talom-rukbo",
+      "tradition": "donyi-polo",
+      "kind": "hero",
+      "name": "Talom Rukbo",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Adi writer and organizer (1937-2001), the father of the Donyi-Polo revival. He took early retirement from government service in 1972 for activism and founded the Donyi-Polo Yelam Kebang at Pasighat on 31 December 1986, giving an oral religion written prayers and hymns, congregational gangging halls, and a standardized sun iconography — an explicit bulwark against conversion pressure.",
+      "facet": "A documented case of a religion deliberately re-engineering itself within one lifetime: orality codified into liturgy, dispersed rites housed in halls, precisely the features of the missionizing rivals it was built to resist.",
+      "provenance": "Claire S. Scheid, 'Talom Rukbo and the Donyipolo Yelam Kebang' (Internationales Asienforum); Donyi-Polo Yelam Kebang publications."
+    },
+    {
+      "id": "sanamahism-sanamahi",
+      "tradition": "sanamahism",
+      "kind": "deity",
+      "name": "Lainingthou Sanamahi",
+      "archetypes": [
+        "smith",
+        "genius-loci"
+      ],
+      "gloss": "Eldest son of the supreme Sidaba Mapu and the deity who fashioned the created world at his father's command. Cheated of the throne when his brother Pakhangba, on their mother Leimarel Sidabi's counsel, won the race around the universe by circling the father's seat, he was enthroned instead in the sanamahi kachin — the southwest corner of every Meitei house, where each household worships him daily.",
+      "facet": "The creator-craftsman who lost kingship and gained ubiquity: excluded from the royal cult, he is present in every single home, making the domestic corner shrine the most distributed institution of Meitei religion.",
+      "provenance": "Saroj Nalini Arambam Parratt, 'The Religion of Manipur' (1980); T.C. Hodson, 'The Meitheis' (1908)."
+    },
+    {
+      "id": "sanamahism-pakhangba",
+      "tradition": "sanamahism",
+      "kind": "deity",
+      "name": "Pakhangba",
+      "archetypes": [
+        "cosmic-serpent",
+        "first-ancestor"
+      ],
+      "gloss": "The serpent-dragon deity who won kingship in the race against his brother Sanamahi, and the divine progenitor of the Ningthouja dynasty — the royal chronicle opens with his accession, traditionally 33 CE. His coiled heraldic forms (paphal) pattern Meitei sacred art, and his presence guards the old royal citadel of Kangla.",
+      "facet": "A cosmic serpent who is simultaneously a dynastic charter: royal legitimacy in Manipur was reckoned as literal descent from the coiled dragon, fusing cosmology and state.",
+      "provenance": "Saroj Nalini Arambam Parratt, 'The Court Chronicle of the Kings of Manipur: Cheitharol Kumpapa' (2005); T.C. Hodson (1908)."
+    },
+    {
+      "id": "sanamahism-panthoibi",
+      "tradition": "sanamahism",
+      "kind": "deity",
+      "name": "Panthoibi",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The great Meitei goddess of love, war, craft and civilization, celebrated in the Panthoibi Khongul narrative for choosing her own consort in defiance of her marriage. After Manipur's Hinduization she was widely identified with Durga, and her autumn worship merged into the Durga Puja season.",
+      "facet": "The seam where Meitei religion and Shaktism actually touch: a pre-Hindu warrior goddess absorbed into the Durga cult without losing her own name, narrative or shrines.",
+      "provenance": "Saroj Nalini Arambam Parratt (1980); 'Panthoibi Khongul' (Meitei text, in scholarly discussion)."
+    },
+    {
+      "id": "sanamahism-puyas",
+      "tradition": "sanamahism",
+      "kind": "text",
+      "name": "The Puyas",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The archaic Meitei manuscripts — cosmogonies, chronicles, ritual and genealogical texts — written in Meetei Mayek script and kept by scholar-priests (maichou). Revivalist memory holds that Puyas were burned at Garib Niwaz's order in the Puya Meithaba of 1729; the event is commemorated annually, though historians note it is first attested in a 1934 account and its historicity is debated.",
+      "facet": "A scripture whose modern power is its wounding: whether or not the 1729 burning happened as remembered, the Puya Meithaba became the founding trauma-narrative around which script revival and religious revival organized themselves.",
+      "provenance": "Saroj Nalini Arambam Parratt (1980, 2005); modern historiographical discussion of the Puya Meithaba tradition (first referenced in Khumanthem Kaomacha, 1934)."
+    },
+    {
+      "id": "sanamahism-lai-haraoba",
+      "tradition": "sanamahism",
+      "kind": "rite",
+      "name": "Lai Haraoba",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The 'pleasing of the gods' — the great pre-Hindu festival in which the lai (deities) are called down and entertained, and the maibi priestesses, possessed by the gods, dance the creation of the world and of the human body (the laibou sequence) step by chanted step.",
+      "facet": "A complete cosmogony preserved as choreography: the ritual survived Vaishnavization largely intact, so Manipur's pre-Hindu creation account is danced annually inside a formally Hindu society.",
+      "provenance": "Saroj Nalini Arambam Parratt & John Parratt, 'The Pleasing of the Gods: Meitei Lai Haraoba' (1997)."
+    },
+    {
+      "id": "sanamahism-naoriya-phulo",
+      "tradition": "sanamahism",
+      "kind": "hero",
+      "name": "Laininghal Naoriya Phulo",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Meitei revivalist (1888-1941) of Cachar, Assam, who founded the Apokpa Marup on 13 April 1930 — the first organized movement to restore the pre-Hindu religion. He preached return to ancestor worship (apokpa), rejected Brahmin authority and caste, devised his own script for Meitei, and is honoured by adherents as Laininghal, a prophet of the old gods.",
+      "facet": "The revival began in the diaspora: it was from outside Manipur's Vaishnava court society, among Meiteis in Cachar, that the counter-Hinduization movement could first organize.",
+      "provenance": "Documented biography (b. 28 Aug 1888, d. 1941; Apokpa Marup founded 13 Apr 1930); Meitei revivalist historiography."
+    },
+    {
+      "id": "kirat-mundhum-tagera-ningwaphuma",
+      "tradition": "kirat-mundhum",
+      "kind": "deity",
+      "name": "Tagera Ningwaphuma",
+      "archetypes": [
+        "one-through-many",
+        "great-mother"
+      ],
+      "gloss": "The supreme of the Limbu Mundhum — a formless, omniscient power, 'she who knows all', from whom everything issues. Too vast for direct approach, she is worshipped in her descended, graspable manifestation as the grandmother goddess Yuma Sammang.",
+      "facet": "A supreme conceived as knowing rather than ruling: her name centres omniscience, and her theology solves the remote-high-god problem by folding the distant absolute and the intimate hearth deity into one being at two intensities.",
+      "provenance": "I.S. Chemjong, 'History and Culture of the Kirat People' (1966); J.R. Subba's studies of Limbu religion (Yumaism)."
+    },
+    {
+      "id": "kirat-mundhum-yuma-sammang",
+      "tradition": "kirat-mundhum",
+      "kind": "deity",
+      "name": "Yuma Sammang",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The 'grandmother' — the principal deity of Limbu household worship and the earthly form of Tagera Ningwaphuma. She guards hearth, harvest and lineage, and receives the first fruits of the year at the Chasok Tangnam harvest rite before anyone may eat the new grain.",
+      "facet": "The supreme worshipped as kin: addressing the highest power as 'grandmother' domesticates transcendence into the household's own generational structure.",
+      "provenance": "Philippe Sagant, 'The Dozing Shaman: The Limbus of Eastern Nepal' (1996); I.S. Chemjong (1966)."
+    },
+    {
+      "id": "kirat-mundhum-mundhum",
+      "tradition": "kirat-mundhum",
+      "kind": "text",
+      "name": "The Mundhum",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The oral scripture of the Kirati peoples — cosmogony, origin-genealogies, migration routes and ritual procedure, recited in a ritual register distinct from everyday speech (Limbu mundhum; Rai muddum/ridum). It is performed, not read: Chemjong's 20th-c. compilations put parts in writing, but authority still lives in correct recitation.",
+      "facet": "A scripture that is a verb as much as a corpus: reciting the Mundhum's routes and genealogies is itself the efficacious ritual act, so the text and the rite are the same event.",
+      "provenance": "I.S. Chemjong, 'Kirat Mundhum' (1961); Martin Gaenszle, 'Origins and Migrations: Kinship, Mythology and Ethnic Identity among the Mewahang Rai' (2000)."
+    },
+    {
+      "id": "kirat-mundhum-paruhang-sumnima",
+      "tradition": "kirat-mundhum",
+      "kind": "deity",
+      "name": "Paruhang and Sumnima",
+      "archetypes": [
+        "world-parents",
+        "complementarity"
+      ],
+      "gloss": "The primal couple of the Rai (Khambu) mundhum: Paruhang of the sky and Sumnima of the earth, whose courtship, separation and reunion generate the beings of the world. They are honoured in the biannual Sakela festival, whose sili dance-steps mimic the movements of animals and the labour of cultivation.",
+      "facet": "The world-parents pattern kept in active liturgical use: the primal marriage is not archived myth but the explicit referent of a living agricultural festival cycle (Sakela Ubhauli and Udhauli).",
+      "provenance": "Martin Gaenszle (2000); Rai Kirat ethnography of the Sakela festival."
+    },
+    {
+      "id": "kirat-mundhum-phedangma",
+      "tradition": "kirat-mundhum",
+      "kind": "rite",
+      "name": "The Phedangma and Bijuwa (ritual specialists)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "psychopomp"
+      ],
+      "gloss": "The Kirati ritual specialists — phedangma, samba and yeba/yema among the Limbu, bijuwa and nakchhong among the Rai — who recite the Mundhum, retrieve strayed souls, and in death rites guide the deceased back along the chanted ancestral migration route to the land of the forebears.",
+      "facet": "Soul-geography: the dead are ritually walked backwards up the migration path, so the Mundhum's route-recitations double as a map, and every funeral rehearses the people's remembered history in reverse.",
+      "provenance": "Martin Gaenszle (2000) on Mewahang Rai death ritual; Philippe Sagant (1996) on Limbu specialists."
+    },
+    {
+      "id": "kirat-mundhum-sirijunga",
+      "tradition": "kirat-mundhum",
+      "kind": "hero",
+      "name": "Te-ongsi Sirijunga Xin Thebe",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Limbu teacher and martyr (1704-1741) who revived the Sirijunga script — attributed by tradition to a 9th-c. royal namesake — transcribed Mundhum material, and taught Limbu literacy across Limbuwan and Sikkim. Seen as a threat to Sikkim's Buddhist order, he was seized and killed by Tashiding-associated monks in 1741.",
+      "facet": "Script revival as religious resistance, two centuries early: his martyrdom made alphabet, scripture and ethnic identity a single cause, the template later Kirat and Northeast-Indian revivals would repeat.",
+      "provenance": "I.S. Chemjong (1966); Limbu script scholarship (history of the Sirijunga script)."
+    },
+    {
+      "id": "shugendo-en-no-gyoja",
+      "tradition": "shugendo",
+      "kind": "hero",
+      "name": "En no Gyoja (En no Ozunu)",
+      "archetypes": [
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The legendary founder of the yamabushi path: a seventh-century lay ascetic of Mount Katsuragi whom the Shoku Nihongi records as banished to Izu in 699 on a charge of leading people astray with sorcery. Legend gives him command of demon-servants Zenki and Goki, the opening of the Omine peaks, and at last an ascent into the sky as an immortal.",
+      "facet": "A founder attested first as a criminal — the state's sorcery charge of 699 is the oldest hard fact about him, and everything the tradition reveres grew as legend around that record. Mountain religion's authority here begins outside and against the court's ritual order.",
+      "provenance": "Shoku Nihongi (entry for 699); Nihon Ryoiki (c. 822, the earliest legend, already calling him a flying immortal); medieval En no Gyoja hagiographies; Miyake Hitoshi's Shugendo scholarship."
+    },
+    {
+      "id": "shugendo-zao-gongen",
+      "tradition": "shugendo",
+      "kind": "deity",
+      "name": "Zao Gongen",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The blue-black wrathful deity said to have burst from the rock of Kinpusen when En no Gyoja prayed for a protector fierce enough for the degenerate age — right leg raised to stamp, vajra brandished. He is a gongen, a 'provisional manifestation': Kinpusen tradition reads him as the composite mountain-form of Shakyamuni, Kannon, and Maitreya (past, present, and future).",
+      "facet": "A deity native to neither parent religion: not found in continental Buddhist canons, not a classical kami — the clearest single proof that shugen fusion produced something new rather than a mixture. The gongen logic (one buddha-reality wearing local provisional bodies) is compressed into his one figure.",
+      "provenance": "Kinpusen engi traditions and the Kinpusen-ji cult at Yoshino; the giant Zao triad of Kinpusen-ji's Zaodo; Miyake Hitoshi; Royall Tyler and Paul Swanson's Shugendo studies."
+    },
+    {
+      "id": "shugendo-yamabushi",
+      "tradition": "shugendo",
+      "kind": "hero",
+      "name": "The Yamabushi (Those Who Lie Down in the Mountains)",
+      "archetypes": [
+        "ecstatic-shaman",
+        "sacred-initiation"
+      ],
+      "gloss": "The practitioner-class of Shugendo: ascetics in the small black tokin cap and suzukake robe who enter the peaks to gain power through ordeal — waterfall austerities, fasting, recitation — and return to serve villages as healers, exorcists, and guides. The conch trumpet (horagai) announces them; in the Edo period tens of thousands were organized into the Honzan-ha (Tendai) and Tozan-ha (Shingon) networks.",
+      "facet": "The specialist who commutes between wilderness and village — power is won in the mountain but spent in the parish, a professionalized go-between economy of ordeal. The 1872 Meiji ban dissolved the class overnight, making the yamabushi also a study in how a state can amputate a religion by abolishing its personnel.",
+      "provenance": "H. Byron Earhart, A Religious Study of the Mount Haguro Sect of Shugendo (1970); Miyake Hitoshi, Shugendo: Essays on the Structure of Japanese Folk Religion; Meiji Dajokan edict of 1872 abolishing Shugendo."
+    },
+    {
+      "id": "shugendo-mineiri",
+      "tradition": "shugendo",
+      "kind": "rite",
+      "name": "Mineiri / Okugake (the Peak-Entry)",
+      "archetypes": [
+        "sacred-initiation",
+        "dying-rising",
+        "axis-mundi"
+      ],
+      "gloss": "The central rite: the ritualized traversal of the Omine range between Yoshino and Kumano, in which the mountain itself is entered as womb and mandala — the route mapped onto the Womb-realm and Diamond-realm mandalas of esoteric Buddhism — and the ascetic passes through the ten realms of rebirth (jikkai shugyo), including being hung out over the cliff-edge to confess.",
+      "facet": "Doctrine walked instead of read: the mandala is laid over real terrain so that traversing geography IS traversing the cosmos, and the initiate is symbolically gestated and reborn by the landscape. Few traditions anywhere make topography carry this much of the theology.",
+      "provenance": "The Yoshino-Kumano Okugake-michi practice (still performed; UNESCO-inscribed 2004 within the Kii pilgrimage routes); Miyake Hitoshi; Gorai Shigeru's shugen ethnography."
+    },
+    {
+      "id": "shugendo-shinbutsu-shugo",
+      "tradition": "shugendo",
+      "kind": "principle",
+      "name": "Shinbutsu-shugo / Honji-suijaku (the Kami-Buddha Fusion)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The doctrine Shugendo lives inside: kami are the local 'traces' (suijaku) of buddha 'originals' (honji), so mountain, kami, and buddha can be venerated as one continuous sacred order. For roughly a millennium this fusion, not either parent alone, was the normal religion of Japan — until the 1868 shinbutsu bunri decrees tore kami and buddhas apart by law.",
+      "facet": "A whole civilization's working theology that modern categories erase: because 'Shinto' and 'Buddhism' were legally separated in 1868, the fused thing itself became almost unnameable — and Shugendo, its purest institutional carrier, was banned four years later. The principle survives best in the mountains where it was practiced.",
+      "provenance": "Medieval honji-suijaku doctrine; Mark Teeuwen and Fabio Rambelli (eds.), Buddhas and Kami in Japan: Honji Suijaku as a Combinatory Paradigm (2003); the 1868 shinbutsu bunri decrees and 1872 Shugendo ban."
+    },
+    {
+      "id": "ryukyuan-noro",
+      "tradition": "ryukyuan",
+      "kind": "hero",
+      "name": "The Noro (the Priestesses)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The hereditary community priestesses of the Ryukyus, in white robes and beads, who alone conduct the rites of the utaki. Under King Sho Shin (r. 1477-1526) they were organized into a state hierarchy crowned by the kikoe-ogimi — the chief priestess, normally the king's sister or close kinswoman — making the kingdom's official cult an entirely female office. During ritual the noro is not the kami's messenger but, for the rite's duration, treated as kami herself.",
+      "facet": "A full state religion staffed exclusively by women — not a women's auxiliary within a male cult but the official cult itself, salaried and ranked by the crown. In the world's inventory of priesthoods this is among the very few state-sanctioned female monopolies on the sacred.",
+      "provenance": "Omoro Soshi; Ryukyu-koku yuraiki (1713); William Lebra, Okinawan Religion: Belief, Ritual, and Social Structure (1966); Susan Sered, Women of the Sacred Groves (1999)."
+    },
+    {
+      "id": "ryukyuan-onarigami",
+      "tradition": "ryukyuan",
+      "kind": "principle",
+      "name": "Onarigami (the Sister as Guardian God)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The belief that a sister is the innate spiritual protector of her brother — her prayer guards his voyages and battles, and a woven band or lock of her hair travels with him as a portable share of her power. The principle scales from household to throne: as the sister protects the brother, so the kikoe-ogimi spiritually protects the king.",
+      "facet": "Spiritual authority assigned by kinship gender-pairing rather than office or calling: every family reproduces in miniature the same brother-rules / sister-sanctifies structure the kingdom is built on. It is the theological root of the female priesthood, not a consequence of it.",
+      "provenance": "Iha Fuyu's onarigami studies (Onarigami no shima, 1938); Lebra (1966); Sered (1999)."
+    },
+    {
+      "id": "ryukyuan-utaki",
+      "tradition": "ryukyuan",
+      "kind": "place",
+      "name": "Utaki (the Sacred Groves)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The sacred sites of the Ryukyus: groves, springs, and rock clearings, typically with no building at all — the innermost ibi often just trees and stone, historically closed to men. Sefa-utaki on the Chinen peninsula stands highest, tied to the creation myth and the installation rites (o-araori) of the kikoe-ogimi.",
+      "facet": "A high religion whose principal sanctuaries are deliberately architecture-free: sanctity is the place itself, screened by prohibition rather than walls. Where a shrine tradition builds toward the kami, the utaki simply fences humans back from where the kami already is.",
+      "provenance": "Ryukyu-koku yuraiki (1713) site registers; Sefa-utaki (UNESCO-inscribed 2000 among the Gusuku sites); Lebra (1966)."
+    },
+    {
+      "id": "ryukyuan-amamikyu",
+      "tradition": "ryukyuan",
+      "kind": "first-ancestor",
+      "name": "Amamikyu (the Creatrix)",
+      "archetypes": [
+        "first-ancestor",
+        "great-mother"
+      ],
+      "gloss": "The founding goddess of the official mythology: sent down by the heavenly lord, she petitioned heaven for earth and stone, built the islands, planted the first groves and sacred sites, and became the source of the first people — from whom the tellings derive the lines of rulers, priestesses, and farmers.",
+      "facet": "A creation recorded first as statecraft: the canonical Amamikyu narrative is preserved in the kingdom's own official history (Chuzan Seikan, 1650), where island-making, utaki-founding, and the legitimation of the ruling order are a single gesture — cosmogony written as constitutional preamble.",
+      "provenance": "Chuzan Seikan (1650, the first official history of the Ryukyu Kingdom); Omoro Soshi songs; associated site traditions at Sefa-utaki and Kudaka island."
+    },
+    {
+      "id": "ryukyuan-yuta",
+      "tradition": "ryukyuan",
+      "kind": "concept",
+      "name": "The Yuta (the Spirit Mediums)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "Charismatic mediums, overwhelmingly women, called against their will through kamidaari — a spirit-sickness of visions and affliction that resolves only when the sufferer accepts the vocation. Consulted for divination, ancestor troubles, and misfortune, they were repeatedly banned and persecuted by the kingdom and later by Meiji and wartime authorities, and consulted anyway.",
+      "facet": "The unofficial twin of the noro system: where the priestess inherits her office and serves the community's calendar, the yuta is seized by her office and serves the client's crisis. The two-track division — sanctioned liturgy versus suppressed but indispensable mediumship — runs through the whole tradition.",
+      "provenance": "Lebra (1966) on the noro/yuta distinction and kamidaari; Sered (1999); documented yuta prohibition campaigns under the kingdom and the Meiji state."
+    },
+    {
+      "id": "ryukyuan-nirai-kanai",
+      "tradition": "ryukyuan",
+      "kind": "place",
+      "name": "Nirai Kanai (the Otherworld Across the Sea)",
+      "archetypes": [
+        "mother-of-waters"
+      ],
+      "gloss": "The distant realm beyond (in some tellings beneath) the eastern sea, from which fire, grain, and life-power first came and from which gods still arrive across the water at fixed seasons to bless the villages — and to which blessing, and in some tellings pestilence, returns. The horizon itself is the tradition's holy direction.",
+      "facet": "An otherworld that is a trade-wind rather than an underworld: the sacred elsewhere is not below the dead but across the water, and its traffic is seasonal, arriving like a fleet. Island cosmology written by island experience — everything of value has always come over the sea.",
+      "provenance": "Omoro Soshi; Lebra (1966); the seasonal visiting-deity rites of the Yaeyama and Okinawan villages documented in postwar Japanese folklore studies (Nihon minzokugaku tradition)."
+    },
+    {
+      "id": "soka-gakkai-nichiren",
+      "tradition": "soka-gakkai",
+      "kind": "prophet",
+      "name": "Nichiren (as Soka Gakkai receives him)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The thirteenth-century Japanese prophet (1222-1282) whose Buddhism the Gakkai practices: convinced the Lotus Sutra alone held the truth for the degenerate age, he distilled its power into chanting its title, denounced every rival school, warned the nation in the Rissho ankoku ron (1260), survived a near-execution at Tatsunokuchi (1271) and two exiles, and identified himself with the sutra's Bodhisattva Superior Practices. The Nichiren Shoshu doctrine the Gakkai inherited venerates him as the True Buddha of the Latter Day.",
+      "facet": "The rare Buddhist founder whose signature mode is confrontation — remonstrating with governments, naming heresies, courting martyrdom — which is precisely the inheritance that made his twentieth-century lay revival both evangelically explosive and politically unafraid.",
+      "provenance": "Nichiren's own writings (Gosho): Rissho ankoku ron (1260), Kaimoku-sho (1272), Kanjin no honzon-sho (1273); standard Nichiren biography scholarship."
+    },
+    {
+      "id": "soka-gakkai-three-presidents",
+      "tradition": "soka-gakkai",
+      "kind": "hero",
+      "name": "The Three Founding Presidents (Makiguchi, Toda, Ikeda)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The venerated founding lineage: Makiguchi Tsunesaburo (1871-1944), the educator whose 'value-creating' (soka) pedagogy named the movement and who died in prison after refusing the wartime state's Shinto talisman; Toda Josei (1900-1958), whose own prison awakening rebuilt the Gakkai into a mass movement and who declared against nuclear weapons in 1957; and Ikeda Daisaku (1928-2023), who globalized it as SGI (1975), founded universities, and launched the Komeito party (1964, formally separated from the Gakkai's religious organization in 1970).",
+      "facet": "Succession itself is the sacrament here: the 'oneness of mentor and disciple' between the three presidents functions as the movement's transmission lineage, doing the work a priestly ordination line does elsewhere — which is why the organization survived losing its priesthood entirely.",
+      "provenance": "Makiguchi, Soka kyoikugaku taikei (1930); Toda's postwar lectures and the 8 Sept 1957 anti-nuclear declaration; Ikeda, The Human Revolution; Levi McLaughlin, Soka Gakkai's Human Revolution (2019)."
+    },
+    {
+      "id": "soka-gakkai-daimoku",
+      "tradition": "soka-gakkai",
+      "kind": "rite",
+      "name": "Daimoku (Nam-myoho-renge-kyo)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The core practice: chanting 'Nam-myoho-renge-kyo' — devotion to the Mystic Law that is the Lotus Sutra's title — aloud, repeatedly, before the Gohonzon, morning and evening. In Nichiren's teaching the title contains the sutra's whole power, so the chant is held to draw out the chanter's innate Buddhahood and to change concrete circumstances: health, work, relationships are all legitimate objects of chanting.",
+      "facet": "Salvation compressed to a single repeatable utterance with no prerequisites — no ordination, no meditation training, no literacy in doctrine — which is the engine of the movement's mass scalability: the entire path fits in seven syllables anyone can say tonight.",
+      "provenance": "Nichiren's Gosho on the daimoku's supremacy; SGI liturgy (gongyo); McLaughlin (2019) on practice in members' lives."
+    },
+    {
+      "id": "soka-gakkai-gohonzon",
+      "tradition": "soka-gakkai",
+      "kind": "text",
+      "name": "The Gohonzon (the Mandala of Written Words)",
+      "archetypes": [
+        "creative-word",
+        "axis-mundi"
+      ],
+      "gloss": "The object of devotion: a calligraphic mandala devised by Nichiren with 'Nam-myoho-renge-kyo' inscribed down the center and the beings of the ten worlds arrayed around it in written characters — the Lotus Sutra's Ceremony in the Air rendered entirely in script, with no image. Members enshrine a printed transcription at home and chant before it; since 1993, following the 1991 rupture with the priesthood, the Gakkai has conferred its own reproductions of a 1720 transcription by the reformer-priest Nichikan.",
+      "facet": "An aniconic altar made of language: where other Buddhisms center a statue, Nichiren centered a page — and SGI teaches it as a mirror that reflects the chanter's own Buddha-nature back, not a vessel containing power in itself. The 1993 self-issuance is the movement's declaration that no priesthood owns access to it.",
+      "provenance": "Nichiren's Kanjin no honzon-sho (1273) and surviving autograph mandalas; SGI's 1993 issuance of the Nichikan Gohonzon after Nichiren Shoshu's excommunication of the Gakkai (28 Nov 1991)."
+    },
+    {
+      "id": "soka-gakkai-human-revolution",
+      "tradition": "soka-gakkai",
+      "kind": "principle",
+      "name": "Human Revolution (Ningen Kakumei)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The movement's summary doctrine, coined under Toda and canonized in Ikeda's novel-cycle of the same name: a profound inner transformation in a single ordinary person — won through practice — ripples outward to change a family, a society, and ultimately the destiny of humankind. It reframes Buddhist awakening as this-worldly self-transformation with public consequences, grounding the Gakkai's activism in education, culture, and peace work.",
+      "facet": "Enlightenment retooled as a theory of social change: the unit of world transformation is deliberately set at one unheroic individual, which dignifies every member's private struggle as cosmically consequential — the doctrinal core of the movement's morale.",
+      "provenance": "Toda's postwar usage; Ikeda Daisaku, The Human Revolution (serialized from 1965); McLaughlin (2019)."
+    },
+    {
+      "id": "oomoto-deguchi-nao",
+      "tradition": "oomoto",
+      "kind": "prophet",
+      "name": "Deguchi Nao",
+      "archetypes": [
+        "divine-embodiment",
+        "ecstatic-shaman"
+      ],
+      "gloss": "An illiterate, destitute widow of Ayabe (1837–1918) who at fifty-five was violently possessed by the kami Ushitora no Konjin and, though she had never learned to write, began producing automatic script in phonetic kana — a torrent of oracles continuing until her death. Her message was a peasant woman's judgment on Meiji modernity: the world of the strong devouring the weak must be torn down and rebuilt.",
+      "facet": "The starkest case of the Japanese new-religion founder pattern — divine authority erupting at the absolute bottom of the social order, in a woman with no literacy, property, or standing, whose possession itself became the credential.",
+      "provenance": "Deguchi Nao, Ofudesaki (1892–1918); Yasumaru Yoshio, Deguchi Nao (1977); Emily Groszos Ooms, Women and Millenarian Protest in Meiji Japan: Deguchi Nao and Ōmotokyō (1993)."
+    },
+    {
+      "id": "oomoto-onisaburo",
+      "tradition": "oomoto",
+      "kind": "prophet",
+      "name": "Deguchi Onisaburō",
+      "archetypes": [
+        "trickster",
+        "culture-hero",
+        "ecstatic-shaman"
+      ],
+      "gloss": "Born Ueda Kisaburō (1871–1948); a spirit-medium trained on Mount Takakuma who married Nao's daughter Sumiko, took the Deguchi name, and built Nao's oracles into a vast movement. He dictated the 81-volume Reikai Monogatari from his spirit-world journeys, adopted Esperanto (1923) as the tongue of coming world unity, rode into Mongolia in 1924 declaring a mission to unite Asia's faiths, and taught bankyō dōkon — that all religions grow from one root. Twice arrested in the state's suppressions of 1921 and 1935.",
+      "facet": "The flamboyant showman-prophet as organizational genius: Onisaburō posed as Miroku (Maitreya), dressed as goddesses for the camera, and courted mass media decades before it was ordinary — charisma run as deliberate publicity, which is precisely why the imperial state judged him a rival sovereignty and crushed the movement twice.",
+      "provenance": "Deguchi Onisaburō, Reikai Monogatari (dictated 1921–1934); Nancy K. Stalker, Prophet Motive: Deguchi Onisaburō, Oomoto, and the Rise of New Religions in Imperial Japan (2008)."
+    },
+    {
+      "id": "oomoto-ushitora-no-konjin",
+      "tradition": "oomoto",
+      "kind": "deity",
+      "name": "Ushitora no Konjin",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The feared 'golden kami of the northeast' — folk religion's most dangerous directional spirit — revealed through Nao as the true primal creator (identified with Kunitokotachi of the classical chronicles), unjustly banished by usurping kami to the demon-gate direction and now returning to judge and remake the world.",
+      "facet": "A deliberate inversion of folk demonology: the most avoided spirit in the calendar-diviner's repertoire is unmasked as the wronged original god, turning popular fear itself into evidence of a primordial injustice awaiting redress.",
+      "provenance": "Deguchi Nao, Ofudesaki (1892–1918); Ooms (1993); Stalker (2008)."
+    },
+    {
+      "id": "oomoto-ofudesaki",
+      "tradition": "oomoto",
+      "kind": "text",
+      "name": "Ofudesaki (Nao's Automatic Writings)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The 'tip of the brush': Nao's automatic script, produced in trance from 1892 until her death in 1918 and traditionally reckoned at some 200,000 pages of phonetic kana. Its refrain announces tatekae tatenaoshi — the tearing down and rebuilding of the world — and the dawn of the divine age when 'the greater world shall burst into bloom as plum blossoms at winter's end.'",
+      "facet": "Scripture whose authority rests on the writer's incapacity — an unlettered hand producing text was itself the proof that the kami, not the woman, was writing.",
+      "provenance": "Deguchi Nao, Ofudesaki (1892–1918; selections in Ōmoto Shin'yu); Yasumaru (1977); Ooms (1993)."
+    },
+    {
+      "id": "oomoto-tatekae-tatenaoshi",
+      "tradition": "oomoto",
+      "kind": "principle",
+      "name": "Tatekae Tatenaoshi (Rebuilding the World)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The core millenarian teaching: the present order — greedy, militarist, upside-down — must be demolished and reconstructed as the divine world of Miroku. Not reform but total renovation (yonaoshi radicalized), with the poor and despised vindicated in the rebuilt world.",
+      "facet": "Peasant world-renewal eschatology given a permanent institutional home: the demolition-and-reconstruction of the cosmos doubled as a barely-coded verdict on the Meiji state, which is why Oomoto alone among the new religions drew two full-scale suppressions (1921, 1935).",
+      "provenance": "Deguchi Nao, Ofudesaki (1892–1918); Ooms (1993); Stalker (2008)."
+    },
+    {
+      "id": "oomoto-chinkon-kishin",
+      "tradition": "oomoto",
+      "kind": "rite",
+      "name": "Chinkon Kishin (Spirit Pacification and Possession)",
+      "archetypes": [
+        "divine-embodiment",
+        "vital-force"
+      ],
+      "gloss": "The technique Onisaburō systematized in the 1910s: a seated practitioner is brought into controlled possession while a mediator (saniwa) interrogates and identifies the possessing spirit. It drew thousands to Ayabe around 1916–1921 before being curtailed after the first suppression.",
+      "facet": "The practice made Oomoto the seedbed of a whole lineage of light-and-spirit techniques: Sekai Kyūsei Kyō's jōrei and Mahikari's okiyome descend from this milieu, and Ueshiba Morihei — Onisaburō's devotee from 1920 — carried its vocabulary of spirit-pacification into aikido.",
+      "provenance": "Birgit Staemmler, Chinkon Kishin: Mediated Spirit Possession in Japanese New Religions (2009); Stalker (2008)."
+    },
+    {
+      "id": "konkokyo-konko-daijin",
+      "tradition": "konkokyo",
+      "kind": "prophet",
+      "name": "Konko Daijin (Kawate Bunjirō)",
+      "archetypes": [
+        "divine-embodiment",
+        "culture-hero"
+      ],
+      "gloss": "A diligent farmer of Ōtani village, Bitchū (1814–1883), whose string of family deaths and his own near-fatal illness at the unlucky age of forty-two were read as the wrath of the dreaded Konjin — until the deity revealed itself as a loving parent. From 1859 until his death he sat daily in his home's mediation hall, relaying petitions to the kami and the kami's replies to petitioners, and was recognized as Ikigami Konko Daijin, a living kami.",
+      "facet": "Sainthood as sitting still: his charisma was not ecstasy or miracle-working but twenty-four years of unbroken daily availability — divinity demonstrated as perfect attendance at a desk between god and neighbor.",
+      "provenance": "Konko Daijin Oboegaki (the founder's memoir, written 1874–1881); Gorikai (recorded teachings, Konkōkyō Kyōten); Delwin B. Schneider, Konkokyo: A Japanese Religion (1962)."
+    },
+    {
+      "id": "konkokyo-tenchi-kane-no-kami",
+      "tradition": "konkokyo",
+      "kind": "deity",
+      "name": "Tenchi Kane no Kami",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The 'Golden Kami of Heaven and Earth' — the parent kami of the universe, whose body is heaven and earth themselves and within whom all people live. This is the feared calendrical demon Konjin, scourge of unlucky directions, unmasked as a benevolent parent who was never wrathful at all: only misunderstood.",
+      "facet": "The rehabilitation of a folk terror into universal parenthood — Konkokyo's founding theological move, made a generation before Oomoto repeated it, dissolving directional taboo entirely: no day or direction is unlucky within the parent's body.",
+      "provenance": "Konko Daijin Oboegaki (1874–1881); Gorikai; Schneider (1962)."
+    },
+    {
+      "id": "konkokyo-toritsugi",
+      "tradition": "konkokyo",
+      "kind": "rite",
+      "name": "Toritsugi (Mediation)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The tradition's central practice: a mediator sits at the hiromae (worship hall) and relays between kami and petitioner — hearing a person's trouble, conveying it to Tenchi Kane no Kami, and speaking back the kami's response. Begun by the founder in 1859, the seat has been occupied by his successors in an unbroken line, kept open every day at the Konko headquarters.",
+      "facet": "Revelation bureaucratized in the gentlest sense — not a onetime prophet's book but a permanently staffed relay window between realms, where the mediation itself, not doctrine, is the religion's living center.",
+      "provenance": "Gorikai (Konkōkyō Kyōten); Schneider (1962)."
+    },
+    {
+      "id": "konkokyo-tenchi-kakitsuke",
+      "tradition": "konkokyo",
+      "kind": "text",
+      "name": "Tenchi Kakitsuke (The Divine Reminder)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The brief creedal text the founder wrote out for followers, displayed in every Konkokyo church: 'Ikigami Konko Daijin, Tenchi Kane no Kami — pray with a single heart. The divine favor depends upon one's own heart, on this very day, pray.' A whole soteriology in a few lines.",
+      "facet": "A canon compressed to a placard: where its Bakumatsu peers produced volumes of revealed scripture, Konkokyo's charter text fits on a wall — locating salvation in the disposition of the heart today rather than in a revealed cosmology.",
+      "provenance": "Tenchi Kakitsuke (Konkōkyō Kyōten); Schneider (1962)."
+    },
+    {
+      "id": "konkokyo-aiyo-kakeyo",
+      "tradition": "konkokyo",
+      "kind": "principle",
+      "name": "Aiyo Kakeyo (Mutual Fulfillment)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The teaching that kami and humanity are fulfilled through each other: the kami is realized through the salvation of people, and people flourish through the kami — neither complete alone. The founder's oracles state that the deity, too, is helped when humans are helped.",
+      "facet": "A rare theological symmetry: divinity that openly needs humanity, framing worship not as submission to the omnipotent but as two parties completing one another — reciprocity raised to first principle.",
+      "provenance": "Gorikai (Konkōkyō Kyōten); Schneider (1962)."
+    },
+    {
+      "id": "mahikari-okada-kotama",
+      "tradition": "mahikari",
+      "kind": "prophet",
+      "name": "Okada Kōtama",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Born Okada Yoshikazu (1901–1974), a former Imperial Army officer and member of Sekai Kyūsei Kyō who reported that on 27 February 1959 the creator God commanded him: 'The time of heaven has come. Rise. Thy name shall be Kōtama (Jewel of Light). Raise thy hand.' He founded the Mahikari movement to transmit divine light through the human palm, teaching that a fiery cleansing of civilization was near.",
+      "facet": "A founder whose revelation arrived as a job transfer within an existing lineage — Okada carried Sekai Kyūsei Kyō's light-channeling template into a new dispensation, illustrating how Japan's postwar new religions bud from one another rather than from nothing.",
+      "provenance": "Goseigen (compiled revelations of Okada Kōtama); Winston Davis, Dōjō: Magic and Exorcism in Modern Japan (1980); Brian J. McVeigh, Spirits, Selves, and Subjectivity in a Japanese New Religion (1997)."
+    },
+    {
+      "id": "mahikari-okiyome",
+      "tradition": "mahikari",
+      "kind": "rite",
+      "name": "Okiyome (The Giving of Light)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The central practice: a practitioner raises an open palm toward another person's forehead and body, radiating divine light held to purify spiritual toxins and pacify attaching ancestral and animal spirits, whose disturbances are diagnosed as the root of illness and misfortune. Any initiate who has received the amulet may give light — laity included, from the first day.",
+      "facet": "Thaumaturgy fully democratized: where most traditions reserve channeling for specialists, Mahikari hands the healing act to every member at initiation, making the rite itself the movement's recruitment engine.",
+      "provenance": "Winston Davis, Dōjō: Magic and Exorcism in Modern Japan (1980 — participant-observer study of okiyome practice); McVeigh (1997)."
+    },
+    {
+      "id": "mahikari-omitama",
+      "tradition": "mahikari",
+      "kind": "concept",
+      "name": "Omitama (The Divine Pendant)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "The consecrated locket received at the three-day initiation course, worn on the body and treated as the conduit through which Su God's light flows to the bearer's palm. It is hedged with strict handling taboos — it must never touch the ground, get wet, or be casually handled — and losing it severs the ability to give light until it is restored.",
+      "facet": "The sacred rendered portable and conditional: authority to channel divine power resides not in the person's attainment but in a small object's intact consecration, concentrating the whole tradition's discipline into the care of a locket.",
+      "provenance": "Winston Davis, Dōjō (1980); McVeigh (1997)."
+    },
+    {
+      "id": "mahikari-su-god",
+      "tradition": "mahikari",
+      "kind": "deity",
+      "name": "Su God (Mioya Motosu Mahikari Ōmikami)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The origin creator God of the universe, whose light all authentic religions are taught to have refracted in partial forms. Mahikari holds that the era of divided religions is closing and Su God is now moving humanity toward a unified, light-centered civilization — with a purifying 'baptism by fire' preceding it.",
+      "facet": "Monotheism framed as convergence rather than exclusion: rival faiths are not false but downstream — a claim of one root beneath all religions inherited recognizably from the Oomoto lineage's bankyō dōkon.",
+      "provenance": "Goseigen (Holy Words); Davis (1980); McVeigh (1997)."
+    },
+    {
+      "id": "mahikari-goseigen",
+      "tradition": "mahikari",
+      "kind": "text",
+      "name": "Goseigen (The Holy Words)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The canonical scripture: revelations Okada Kōtama reported receiving from Su God between 1959 and his death in 1974, compiled as direct divine speech in an archaic, oracular Japanese. It grounds the movement's cosmology of spirit disturbance, purification, and the coming change of civilizations.",
+      "facet": "Scripture as verbatim dictation within living memory — the text's authority rests on the founder's mediumship being recent, datable, and organizationally continuous, not on antiquity.",
+      "provenance": "Goseigen (Sekai Mahikari Bunmei Kyōdan 1970; Sukyo Mahikari editions thereafter); Davis (1980)."
+    },
+    {
+      "id": "mahikari-suza",
+      "tradition": "mahikari",
+      "kind": "place",
+      "name": "Suza (The World Main Shrine)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The monumental World Main Shrine completed in November 1984 at Takayama in the Japan Alps under Okada Keishu, the founder's successor — built as the seat of Su God on earth and the ritual center toward which the worldwide movement orients, with a golden roof and a great hall for thousands.",
+      "facet": "An axis mundi constructed on schedule and by contract in the 1980s — the world-center pattern executed as a modern building project, its sanctity dated to a ribbon-cutting rather than to myth.",
+      "provenance": "Sukyo Mahikari organizational history (Suza dedication, 1984); McVeigh (1997)."
+    },
+    {
+      "id": "aum-shinrikyo-asahara",
+      "tradition": "aum-shinrikyo",
+      "kind": "prophet",
+      "name": "Shoko Asahara (Matsumoto Chizuo)",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The founder (1955-2018), a partially blind acupuncturist and yoga teacher who claimed final liberation in the Himalayas, then escalated his self-claims from enlightened master to emanation of Shiva to, in 1992, the Christ. He demanded total renunciation and obedience from his ordained followers, directed the movement's murders and its 1994 Matsumoto and 1995 Tokyo sarin attacks, and was hanged on 6 July 2018 with six followers; six more were executed later that month.",
+      "facet": "Documents how an absolutized guru-claim removes every external check: once the master's word was defined as higher truth, his paranoia and criminal orders were received by disciples as dharma.",
+      "provenance": "Ian Reader (2000) 'Religious Violence in Contemporary Japan'; Robert Jay Lifton (1999) 'Destroying the World to Save It'; Tokyo District Court trial records (1996-2004)."
+    },
+    {
+      "id": "aum-shinrikyo-poa",
+      "tradition": "aum-shinrikyo",
+      "kind": "concept",
+      "name": "Poa (the Killing Doctrine)",
+      "archetypes": [
+        "psychopomp",
+        "sacred-transgression"
+      ],
+      "gloss": "Aum's term — lifted from the Tibetan phowa, the transference of consciousness at death — twisted into the claim that a spiritually superior person may kill someone accumulating bad karma, thereby 'transferring' the victim to a higher rebirth. It was invoked to rationalize the 1989 murder of lawyer Tsutsumi Sakamoto and his family, killings of members, and ultimately the gas attacks.",
+      "facet": "The clearest specimen in the corpus of doctrine as license: a rite of compassionate dying inverted, term intact, into a theology that reclassifies murder as salvation performed on the victim.",
+      "provenance": "Ian Reader (2000); Lifton (1999); testimony and verdicts in the Tokyo trials. No parent Buddhist form of phowa sanctions killing."
+    },
+    {
+      "id": "aum-shinrikyo-shiva",
+      "tradition": "aum-shinrikyo",
+      "kind": "deity",
+      "name": "Shiva (as Aum's Supreme God)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "Aum's principal deity: the Hindu Shiva read almost solely as lord of destruction and regeneration, whose emanation Asahara claimed to be. In Aum's cosmology Shiva's destructive function underwrote the coming annihilation of a hopelessly defiled world and the survival of the initiated.",
+      "facet": "Shows appropriation by amputation — the parent tradition's destroyer-creator, whose dissolution is one beat of an eternal rhythm, is cut down to the destruction alone and pointed at history.",
+      "provenance": "Asahara's published sermons and Aum tracts analyzed in Reader (2000) and Lifton (1999); the reading is Aum's own, not Shaiva doctrine."
+    },
+    {
+      "id": "aum-shinrikyo-armageddon",
+      "tradition": "aum-shinrikyo",
+      "kind": "concept",
+      "name": "The Armageddon Prophecy",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "Asahara's end-time scenario, assembled from the Book of Revelation, Nostradamus, and his Shiva doctrine: a final war — nuclear, and in later versions fought with poison gas — from which only Aum's trained renunciates would survive to seed the next civilization. As prophecy dates neared, the doctrine shifted from averting Armageddon to preparing for it, and finally toward precipitating it.",
+      "facet": "A documented case of catastrophic millennialism curdling from prediction into production: the community armed itself to manufacture the very signs its prophecy required.",
+      "provenance": "Reader (2000); Lifton (1999); Haruki Murakami (1997) 'Underground' for victim and member testimony; trial evidence on Aum's weapons program."
+    },
+    {
+      "id": "aum-shinrikyo-shaktipat",
+      "tradition": "aum-shinrikyo",
+      "kind": "rite",
+      "name": "Shaktipat and the Guru-Energy Initiations",
+      "archetypes": [
+        "vital-force",
+        "sacred-initiation"
+      ],
+      "gloss": "Aum's graded initiations transmitting the guru's energy: shaktipat by Asahara's touch, then increasingly literalized and monetized forms — drinking water infused with his blood or bathwater, and the 'Perfect Salvation Initiation' electrode headgear sold to synchronize the wearer's brainwaves with the master's.",
+      "facet": "Traces the mechanization of charisma: a yogic transmission-of-power idea concretized step by step into salable substances and hardware, binding members financially and physiologically to the guru's body.",
+      "provenance": "Reader (2000); Lifton (1999); Murakami (1997); contemporaneous journalism entered in the trial record."
+    },
+    {
+      "id": "jeungsanism-kang-jeungsan",
+      "tradition": "jeungsanism",
+      "kind": "deity",
+      "name": "Kang Jeungsan (Kang Il-sun), the Incarnate Sangje",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "A Jeolla-province healer and teacher (1871-1909) whom the Jeungsanist religions worship as the Supreme God of the Ninth Heaven (Gucheon Sangje) descended into human flesh. After a forty-nine-day practice on Mount Moaksan in 1901 he declared his heavenly authority and spent his remaining eight years not preaching a path but, as God, ritually repairing the world itself.",
+      "facet": "The rare case of a tradition whose founder is not the messenger of the high god but the high god — revelation collapses into incarnation, so his biography is read as cosmic administration rather than prophecy.",
+      "provenance": "Jeon-gyeong (Daesoon Jinrihoe canonical scripture, 1974); Lee Kang-o (1967) 'Chungsan-gyo', trans. Richard Rutt; Massimo Introvigne (2017), World Religions and Spirituality Project entry on Daesoon Jinrihoe."
+    },
+    {
+      "id": "jeungsanism-cheonji-gongsa",
+      "tradition": "jeungsanism",
+      "kind": "rite",
+      "name": "Cheonji-gongsa (the Reordering Works of Heaven and Earth)",
+      "archetypes": [
+        "cosmic-order",
+        "cyclic-ages"
+      ],
+      "gloss": "The nine years of ritual works (1901-1909) by which Kang, as incarnate Sangje, is held to have re-programmed the Degree Number (dosu) of the cosmos — correcting the mutual-conflict order of the Former World and fixing the schedule of the coming Later World. The works were performed with small gestures, written charms, burned papers, and assigned roles for disciples, each act binding at cosmic scale.",
+      "facet": "Salvation executed as completed divine engineering: the decisive cosmic intervention lies in the past, already done, and history since is the working-out of a ritually amended program.",
+      "provenance": "Jeon-gyeong; Jeungsando 'Dojeon' (1992); Lee Kang-o (1967)."
+    },
+    {
+      "id": "jeungsanism-haewon-sangsaeng",
+      "tradition": "jeungsanism",
+      "kind": "principle",
+      "name": "Haewon Sangsaeng (Resolution of Grievances for Mutual Beneficence)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The central Jeungsanist tenet: the Former World ran on sanggeuk, mutual overcoming, and its casualties — oppressed people, slighted spirits, even wronged beings of nature — accumulated won, grievance, that clogs the cosmos. The Later World can only run on sangsaeng, mutual life-giving, once every grievance is untied.",
+      "facet": "It makes theodicy procedural: evil is not rebellion or illusion but a backlog of unresolved historical injury, and the divine work is literally case-work through that backlog.",
+      "provenance": "Jeon-gyeong; Daesoon Jinrihoe doctrinal statements (Tenets); Introvigne (2017)."
+    },
+    {
+      "id": "jeungsanism-hucheon-gaebyeok",
+      "tradition": "jeungsanism",
+      "kind": "concept",
+      "name": "Hucheon Gaebyeok (the Great Opening of the Later World)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "The epochal turn from the Former World (seoncheon) of conflict to the Later World (hucheon) of harmony — an earthly paradise in which humans attain god-like stature and the divine and human orders are reconciled. In Jeungsanism the Opening is guaranteed, because Sangje already reset the cosmic program in the cheonji-gongsa.",
+      "facet": "Apocalypse with the terror amputated: because the decisive battle was fought ritually by God in 1901-09, the end-time becomes a scheduled maturation rather than a war to be won.",
+      "provenance": "Jeon-gyeong; shared gaebyeok vocabulary of Korea's founder religions documented in Don Baker (2008) 'Korean Spirituality'."
+    },
+    {
+      "id": "jeungsanism-taeeulju",
+      "tradition": "jeungsanism",
+      "kind": "rite",
+      "name": "Taeeulju (the Taeeul Mantra)",
+      "archetypes": [
+        "creative-word",
+        "vital-force"
+      ],
+      "gloss": "The incantation Kang taught his followers as the essential practice for the transition to the Later World — chanted rhythmically to invoke the salvific energy of heaven, heal illness, and carry the practitioner through the coming Opening. It remains the core daily practice across Jeungsanist branches.",
+      "facet": "The whole soteriology is compressed into a portable act of sound: where the founder's cosmic works are finished and unrepeatable, the mantra is the one lever left in the believer's own mouth.",
+      "provenance": "Jeon-gyeong; Jeungsando 'Dojeon' (1992); the mantra's pre-Kang origin is contested and left unattributed here."
+    },
+    {
+      "id": "jeungsanism-jo-jeongsan",
+      "tradition": "jeungsanism",
+      "kind": "prophet",
+      "name": "Jo Jeongsan (Jo Cheol-je), the Doju",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The lineage-founder (1895-1958) whom Daesoon Jinrihoe holds to have received Kang Jeungsan's religious authority by direct revelation in 1917 — the two never met in life. He organized the scattered post-Kang following into ordered bodies (Mugeukdo 1925, Taegeukdo 1950), from which Park Wudang established Daesoon Jinrihoe in 1969.",
+      "facet": "Succession without contact: authority passes by revelation across a founder's death, and it is the organizer of that claim — not the god-man himself — who turns completed cosmic works into a durable institution.",
+      "provenance": "Daesoon Jinrihoe orthodoxy as recorded in the Jeon-gyeong and institutional histories; Introvigne (2017); the 1917 revelation is the tradition's own claim, accepted by Daesoon Jinrihoe and disputed by rival branches."
+    },
+    {
+      "id": "won-buddhism-sotaesan",
+      "tradition": "won-buddhism",
+      "kind": "hero",
+      "name": "Sotaesan (Pak Chung-bin)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The founding master (1891-1943), a farmer's son from Yeonggwang in Jeolla province who, after years of self-directed searching, attained an awakening on 28 April 1916 without a teacher or lineage. Reading the Diamond Sutra afterward, he judged the Buddha-dharma the best frame for what he had realized — and then set his first disciples to building a savings union and reclaiming tidal land before he built them a doctrine.",
+      "facet": "A founder who arrives at Buddhism after his enlightenment rather than through it, and whose first sacred acts are economic — the levee at Yeonggwang stands in Won Buddhist memory where other traditions put a first sermon.",
+      "provenance": "The Scriptures of Won Buddhism (Wonbulgyo kyojon), trans. Bongkil Chung (2003), especially the Daejonggyeong discourses; Michael Pye, 'Won Buddhism as a Korean New Religion', Numen 49 (2002)."
+    },
+    {
+      "id": "won-buddhism-il-won-sang",
+      "tradition": "won-buddhism",
+      "kind": "concept",
+      "name": "Il-Won-Sang (the One-Circle Image)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The single black circle enshrined where other Buddhist halls place a Buddha statue. It stands for Il-Won, the unitary ultimate reality — identified in Won doctrine as the Dharmakaya Buddha, the mind-seal of all buddhas and sages, and the original nature of every sentient being.",
+      "facet": "Iconoclasm executed as an icon: the tradition keeps the devotional focal point but empties it of anthropomorphic form, so that worship is aimed past any person — including the historical Buddha — at the truth itself.",
+      "provenance": "The Principal Book (Jeongjeon) of the Wonbulgyo kyojon, trans. Bongkil Chung (2003); Bongkil Chung's doctrinal introduction."
+    },
+    {
+      "id": "won-buddhism-timeless-son",
+      "tradition": "won-buddhism",
+      "kind": "rite",
+      "name": "Musi-seon, Mucheo-seon (Timeless Son, Placeless Son)",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The signature Won practice: Son (Zen) meditation unfixed from the cushion and the mountain hall — 'at all times and in all places' — carried into farming, trade, housework, and speech. Paired with the maxim 'everywhere a Buddha image, every act a Buddha offering,' it makes daily life the monastery.",
+      "facet": "The laicization of the whole contemplative apparatus: rather than lowering the bar for householders, it relocates the entire discipline into their working day, dissolving the monastic/lay boundary from the practice side.",
+      "provenance": "The Principal Book (Jeongjeon), chapters on Timeless Son; trans. Bongkil Chung (2003)."
+    },
+    {
+      "id": "won-buddhism-fourfold-grace",
+      "tradition": "won-buddhism",
+      "kind": "principle",
+      "name": "Saeun (the Fourfold Grace)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The doctrine that every existence is held in life by four graces — Heaven and Earth, Parents, Fellow Beings, and Laws — and that the religious debt owed for them is repaid not by ritual but by requital: protecting others as heaven protects, serving the helpless as parents served, and so on.",
+      "facet": "Dependent origination converted into an ethic of gratitude: interdependence is not merely observed, it is invoiced, turning metaphysics directly into social obligation.",
+      "provenance": "The Principal Book (Jeongjeon), Doctrine chapter; trans. Bongkil Chung (2003)."
+    },
+    {
+      "id": "won-buddhism-spirit-gaebyeok",
+      "tradition": "won-buddhism",
+      "kind": "principle",
+      "name": "The Founding Motto (a Great Opening of Spirit)",
+      "archetypes": [
+        "cyclic-ages"
+      ],
+      "gloss": "Won Buddhism's founding motto: 'As material civilization develops (gaebyeok of matter), let us cultivate a corresponding Great Opening (gaebyeok) of spirit.' It reads the machine age itself as the epochal turn, and answers it not with retreat but with a modernization of the dharma to match.",
+      "facet": "The gaebyeok of Korea's founder religions with its polarity reversed: the Opening is not awaited from heaven but assigned to human self-cultivation, pacing spiritual work against industrial acceleration.",
+      "provenance": "Founding motto of the Wonbulgyo kyojon (trans. Bongkil Chung 2003); its place in the Korean gaebyeok lineage per Don Baker (2008) 'Korean Spirituality'."
+    },
+    {
+      "id": "mari-native-osh-kugu-jumo",
+      "tradition": "mari-native",
+      "kind": "deity",
+      "name": "Osh Kugu Jumo",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "The Great White God — the bright supreme sky-lord of the Mari, head of a household of subordinate jumo of sun, wind, birth and grain, prayed to in the sacred groves for bread, herds and peace, his offerings white beasts and white garments.",
+      "facet": "The sky-father joint still under active worship: where his Finnic kin survive only in reconstructed epic, Osh Kugu Jumo still receives grove sacrifice in Mari El — the one sky-father of pagan Europe with an unbroken congregation, the shard's whole reason for being.",
+      "provenance": "Uno Harva (Holmberg), Die Religion der Tscheremissen (1926); Sebeok & Ingemann, Studies in Cheremis: The Supernatural (1956); post-Soviet practice documented by Sonja Luehrmann and Mari El fieldwork."
+    },
+    {
+      "id": "mari-native-keremet",
+      "tradition": "mari-native",
+      "kind": "spirit",
+      "name": "Keremet",
+      "archetypes": [
+        "genius-loci",
+        "cosmic-adversary"
+      ],
+      "gloss": "The dark counterpart and his fenced enclosure in one word: the keremet spirit — in some tellings Jumo's brother who spoiled the creation — receives black animals in a walled grove set apart from the white god's kusoto, feared, fed and never neglected.",
+      "facet": "The sacred split into a two-sided offering economy rather than a war: the dark power is not exorcised but kept on the books, paid in black beasts at his own fenced address — adversary and genius loci fused into a working institution.",
+      "provenance": "Harva 1926 and 19th-c. Kazan-diocese ethnography; the keremet institution and its name (ultimately Arabic karāma via Volga Bulgar Islam) are shared across the Volga-Kama peoples."
+    },
+    {
+      "id": "mari-native-kusoto",
+      "tradition": "mari-native",
+      "kind": "rite",
+      "name": "The Kusoto Grove Sacrifice",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The küsoto, the consecrated sacred grove where the kart priests in white lead communal prayer and animal sacrifice with porridge, pancakes and altar-fires — several hundred groves survive in Mari El, some under legal protection, and the great collective prayers still fill them.",
+      "facet": "Europe's only living pagan sacrificial liturgy: not a revival and not a reconstruction but a continuity — the grove as a functioning temple whose priesthood (the karts) never lapsed, which is precisely the asymmetry this shard holds against its reconstructed Finnic kin.",
+      "provenance": "16th-c. Muscovite reports onward; Sebeok & Ingemann 1956 on kart and grove; contemporary documentation of Mari El grove prayers (mer kumaltysh) in post-Soviet ethnography and journalism on 'Europe's last pagans'."
+    },
+    {
+      "id": "mari-native-mlande-ava",
+      "tradition": "mari-native",
+      "kind": "deity",
+      "name": "Mlande Ava (Earth Mother)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The Earth Mother, foremost of the Mari ava — the 'mothers' of earth, water, sun, wind and fire (Mlande Ava, Vüd Ava, Keche Ava) who personify each element as a generative female keeper to be asked before it is used.",
+      "facet": "Divinity organised as a system of mothers: the female generative principle is not one great goddess but distributed across the whole working landscape — every element the farmer touches has an ava to be addressed, fertility as an administration.",
+      "provenance": "The ava-series is catalogued in Harva 1926 and in Sebeok & Ingemann's Cheremis deity lists (1956)."
+    },
+    {
+      "id": "mari-native-chimarij-dual-faith",
+      "tradition": "mari-native",
+      "kind": "concept",
+      "name": "Chi Marij & Marla Vera (the Dual Faith)",
+      "archetypes": [
+        "complementarity"
+      ],
+      "gloss": "The two registers of Mari religiosity: the chi marij ('pure Mari'), never baptized, keeping the grove faith whole; and the marla vera, baptized Mari who hold Orthodoxy and grove sacrifice together in one life — icon corner in the house, kusoto beyond the village.",
+      "facet": "Survival by held tension rather than isolation: the tradition endured five centuries of Christian pressure not by hiding but by institutionalising its own dual membership — the unbroken shard kept unbroken partly by those who also carried the other faith.",
+      "provenance": "The chi marij / marla vera distinction is standard in Mari studies (Harva 1926; post-Soviet work by Luehrmann and Mari scholars on 'Mari dvoeverie')."
+    },
+    {
+      "id": "vattisen-yaly-tura",
+      "tradition": "vattisen-yaly",
+      "kind": "deity",
+      "name": "Turӑ (Sülti Turӑ)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The Supreme God of the Chuvash sky — remote, singular, ruling a court of subordinate spirits and approached chiefly through communal sacrifice and intermediaries; his name is the Oghur-Turkic descendant of Tengri, carried up the Volga by the Bulgars.",
+      "facet": "The last living branch of the Tengri word west of the steppe: a Turkic sky-father transplanted into a Finnic river landscape and worshipped there in groves and fields — steppe theology gone agrarian, the sky-god of horsemen now asked for rain on rye.",
+      "provenance": "V.K. Magnitsky, Materials for the Explanation of the Old Chuvash Faith (1881); N.I. Ashmarin's Chuvash dictionary; the Turӑ < Turkic *teŋri etymology is standard Turkology."
+    },
+    {
+      "id": "vattisen-yaly-keremet",
+      "tradition": "vattisen-yaly",
+      "kind": "spirit",
+      "name": "Keremet",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The fenced sacrificial enclosure and its resident spirit: in the Chuvash legend a once-bright being of Tura's kin was slain and his scattered remains sprouted keremet sites everywhere — each village keeping its walled grove where the exacting spirit is fed lest he send sickness.",
+      "facet": "The shrine born of a murder: sanctity here is unquiet memory, a wronged power localised at a fenced address and kept appeased — the genius loci as an obligation the community inherits rather than a blessing it enjoys.",
+      "provenance": "The keremet legend and cult recorded by Magnitsky (1881) and 19th-c. Kazan ethnography; the institution and word (Arabic karāma via Volga Bulgar Islam) are shared across the Volga-Kama peoples."
+    },
+    {
+      "id": "vattisen-yaly-chuk",
+      "tradition": "vattisen-yaly",
+      "kind": "rite",
+      "name": "Chük (the Field Sacrifice)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The communal offering — animals and ritual porridge cooked at a fixed sacred field or spring — by which the village petitions Turӑ for rain and harvest; in its great form (uchuk) whole districts gathered, and in some unbaptized Chuvash villages the rite never stopped.",
+      "facet": "Where the revival and the survival meet: modern Vattisen Yaly reconstitutes ceremonies that a handful of villages simply kept doing — the same rite existing simultaneously as heritage performance and as unbroken practice, the tradition's two time-streams visible in one field.",
+      "provenance": "Uchuk/chük described by Magnitsky (1881) and later Chuvash ethnography; surviving village practice among unbaptized Chuvash and the post-Soviet revival are documented in modern regional scholarship."
+    },
+    {
+      "id": "vattisen-yaly-yumsa",
+      "tradition": "vattisen-yaly",
+      "kind": "rite",
+      "name": "The Yumӑҫ (Diviner-Healer)",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The Chuvash ritual specialist — diviner, healer and finder of causes, who determines by casting and reading which spirit is offended and what offering will settle the account, and who directs the household's dealings with keremet and the dead.",
+      "facet": "The shamanic office gone domestic: little trance-flight remains — the yumӑҫ is a technician of diagnosis and settlement rather than a soul-traveller, showing what the steppe ecstatic specialist becomes after centuries in a sedentary village economy.",
+      "provenance": "The yumӑҫ is documented in Magnitsky (1881) and Ashmarin's lexicography; the contrast with full Siberian shamanism is drawn in Volga-region comparative ethnography."
+    },
+    {
+      "id": "udmurt-vos-inmar",
+      "tradition": "udmurt-vos",
+      "kind": "deity",
+      "name": "Inmar",
+      "archetypes": [
+        "sky-father"
+      ],
+      "gloss": "The high sky-god of the Udmurts, whose name carries the old Uralic sky-word (in- 'sky, heaven'); petitioned at the great sacrifices for grain and rain, and in the centuries of dual faith increasingly fused with the Christian God without losing his own altars.",
+      "facet": "A sky-father whose very name IS the sky: Inmar preserves the Uralic *ilma word as a living theonym — the same root Finnish keeps in ilma and in Ilmarinen — a god built directly out of the shared ancestral vocabulary of the family.",
+      "provenance": "Uno Harva (Holmberg), Permalaisten uskonto (1914); N.G. Pervukhin's sketches of Udmurt religion (1888-90); V.E. Vladykin, Religious-Mythological Worldview of the Udmurts (1994). The Inmar ~ *ilma etymology is standard in Uralic studies."
+    },
+    {
+      "id": "udmurt-vos-kyldysin",
+      "tradition": "udmurt-vos",
+      "kind": "deity",
+      "name": "Kyldysin",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The creator and fertility power who once walked the field-margins in white, tending the crops among the people — until, wronged by human change to the old ways, he withdrew from the earth and could not be prayed back, leaving only his blessing on the grain.",
+      "facet": "A deus otiosus with a recorded reason: most withdrawn creators simply recede, but the Udmurt telling names the breach that drove him out — the withdrawal itself is moralised, making Kyldysin one of the clearest and most poignant Uralic versions of the joint.",
+      "provenance": "The Kyldysin withdrawal legend is recorded in Pervukhin (1888-90) and treated in Harva 1914 and Vladykin 1994."
+    },
+    {
+      "id": "udmurt-vos-vorshud",
+      "tradition": "udmurt-vos",
+      "kind": "spirit",
+      "name": "Vorshud",
+      "archetypes": [
+        "active-intercessors",
+        "fetish-vessel"
+      ],
+      "gloss": "The clan guardian spirit-complex — each Udmurt exogamous clan bears its own vorshud name (some seventy are recorded) — housed in the vorshud box kept on the shelf of the kuala shrine and fed with offerings at every family rite.",
+      "facet": "Kinship made into a sacred object: the vorshud fuses ancestor-guardian and fetish-vessel in one institution, the clan's identity literally kept in a box that must be carried, housed and fed — lineage as a tended thing rather than an abstraction.",
+      "provenance": "Vorshud cult and clan-name inventories in Pervukhin (1888-90), Harva 1914 and Vladykin 1994."
+    },
+    {
+      "id": "udmurt-vos-kuala",
+      "tradition": "udmurt-vos",
+      "kind": "place",
+      "name": "The Kuala Shrine",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The windowless log sanctuary — the family's pokchi kuala in the yard, the clan's budźym (great) kuala in the grove — with hearth and vorshud shelf, where the household's dealings with its spirits are conducted; when a family moved, coals from the old hearth seeded the new.",
+      "facet": "The sanctuary as a portable hearth-line: sanctity travels with the fire and the box, not the ground alone — a shrine architecture built for a landholding people who nonetheless kept their holiest continuity movable.",
+      "provenance": "Kuala cult described in Pervukhin (1888-90) and Harva 1914; the word is the Uralic *kota 'dwelling' (Finnish kota, Mari kudo)."
+    },
+    {
+      "id": "udmurt-vos-elen-vos",
+      "tradition": "udmurt-vos",
+      "kind": "rite",
+      "name": "Elen Vös (the Sacrifice for the Land)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The summit of the tiered Udmurt sacrifice ladder — family rite, village sacrifice (gurt vös), district, and at the top the elen vös for the whole land, held at fixed sacred places; among the eastern Udmurts of Bashkortostan the ladder survived and the great sacrifice was revived in the post-Soviet years.",
+      "facet": "Sacrifice as a map of the social order: the same offering scaled from hearth to nation, each tier with its place and priest — the community's whole political geography made visible in where and with whom it prays.",
+      "provenance": "The vös hierarchy in Harva 1914 and Vladykin 1994; the surviving and revived eastern-Udmurt ceremonies documented by Eva Toulouze, Liivo Niglas and Aado Lintrop."
+    },
+    {
+      "id": "hungarian-taltos-taltos",
+      "tradition": "hungarian-taltos",
+      "kind": "hero",
+      "name": "The Táltos",
+      "archetypes": [
+        "ecstatic-shaman"
+      ],
+      "gloss": "The chosen one marked at birth — born with teeth, a caul, or an extra bone — taken by sickness and dream, who battles rival táltos in the shape of bull or stallion and reads the weather; recorded not in scripture but in 16th-18th-c. trial records and village belief collected into the 20th century.",
+      "facet": "A specialist who outlived his religion: the táltos persists as a folk-belief fossil under a thousand years of Christianity — whether he descends from steppe shamanism (Diószegi's thesis) or is European wizard-lore in Hungarian dress remains genuinely contested, and that dispute is this shard's live wound.",
+      "provenance": "Vilmos Diószegi, A sámánhit emlékei a magyar népi műveltségben (1958); Éva Pócs on táltos figures in witch-trial records; earlier synthesis in Ipolyi's Magyar mythologia (1854). All reconstruction — no direct pagan-era source describes the táltos."
+    },
+    {
+      "id": "hungarian-taltos-egig-ero-fa",
+      "tradition": "hungarian-taltos",
+      "kind": "concept",
+      "name": "Az Égig Érő Fa (the Sky-High Tree)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The tree reaching to heaven of Hungarian folk-tale, sun and moon in its branches and otherworlds in its crown, which only the marked herd-boy can climb — read by the reconstructors as the world-tree of the lost Magyar cosmology surviving as a tale-type.",
+      "facet": "An axis mundi preserved in the nursery: the cosmological tree survives not as doctrine but as a folk-tale scaffold, its climber a disguised táltos — the clearest case of the reconstruction's method, reading cosmology back out of entertainment.",
+      "provenance": "János Berze Nagy, Égigérő fa (1958); Diószegi 1958 on the tale-tree as world-tree. The cosmological reading is scholarly reconstruction from folklore, not an attested pagan doctrine."
+    },
+    {
+      "id": "hungarian-taltos-turul",
+      "tradition": "hungarian-taltos",
+      "kind": "creature",
+      "name": "The Turul",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The raptor of Emese's dream: a great bird comes to the ancestress and from the dream the dynasty flows — Álmos is born and the Árpáds reckon their right to rule from it; the bird is named turul in Kézai's chronicle (~1282), the dream told earlier by Anonymus (~1200).",
+      "facet": "Dynastic legitimation in steppe idiom: heaven's warrant delivered through a bird to a foremother, not through anointing — one of the few genuinely medieval-attested fragments of the old religion, which is why the reconstruction leans so hard on it.",
+      "provenance": "Anonymus, Gesta Hungarorum (~1200, the Emese dream); Simon of Kéza, Gesta Hunnorum et Hungarorum (~1282, the name turul). Chronicle-attested; its pagan-era meaning is inference."
+    },
+    {
+      "id": "hungarian-taltos-hunor-magor",
+      "tradition": "hungarian-taltos",
+      "kind": "first-ancestor",
+      "name": "Hunor & Magor and the Csodaszarvas",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The twin brothers who chase the csodaszarvas, the wondrous hind, into the Maeotis marshes; the deer vanishes, the land is good, they take wives there and father the Huns and the Magyars — the origin legend as Kézai's chronicle (~1282) tells it.",
+      "facet": "A migration remembered as a hunt: the guiding-animal origin legend is a widespread steppe pattern, and here it does double duty — founding the people and (in Kézai's hands) chaining the Magyars to the prestige of Attila's Huns, myth already working as politics.",
+      "provenance": "Simon of Kéza, Gesta Hunnorum et Hungarorum (~1282); the Hun link is medieval construction, the guiding-hind motif has steppe parallels noted throughout the scholarship."
+    },
+    {
+      "id": "hungarian-taltos-boldogasszony",
+      "tradition": "hungarian-taltos",
+      "kind": "deity",
+      "name": "Boldogasszony (the Blessed Lady)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The Blessed Lady of childbed and of the guarded days — folk custom kept the 'bed of Boldogasszony' for new mothers — whose name the first Christian generations were, by tradition credited to bishop St. Gerard, permitted to keep as the Hungarian title of the Virgin Mary.",
+      "facet": "A goddess visible only as the shape she left in Mary: nothing of her survives except the seam of the syncretism itself — the pre-Christian mother reconstructed from the exact contours of what Christianity chose to absorb rather than erase.",
+      "provenance": "The Gerard attribution comes from medieval hagiographic tradition; the goddess-reading argued by Lajos Kálmány, Boldogasszony, ősvallásunk istenasszonya (1885); carried here as reconstruction, per the shard's whole register."
+    },
+    {
+      "id": "habze-tha",
+      "tradition": "habze",
+      "kind": "deity",
+      "name": "Tha (Thashkhue, the Great Tha)",
+      "archetypes": [
+        "withdrawn-creator",
+        "one-through-many"
+      ],
+      "gloss": "The unknowable source from whom the world emanates and to whom nothing can be depicted or housed — Circassians built no temples and carved no images of him, praying instead under the open sky. His name opens nearly every traditional Adyghe blessing, yet he is petitioned through the world he pours out rather than approached directly.",
+      "facet": "A high god defined by what may not be done to him — no image, no house, no priest-caste — so that the revival movement can read Habze as an aniconic monotheism without forcing the old material.",
+      "provenance": "Interiano (1502) on Circassian religion; Sultan Khan-Girey, 'Notes on Circassia' (1836); Amjad Jaimoukha, 'The Circassians: A Handbook' (2001)."
+    },
+    {
+      "id": "habze-khabze-code",
+      "tradition": "habze",
+      "kind": "principle",
+      "name": "The Khabze (Adyghe Xabze)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The unwritten code that governs everything from a guest's seat to a war's conduct — etiquette, honor, hospitality, deference to elders — administered not by clergy but by the thamade, the presiding elder, and by custom-law councils. It is simultaneously ethics, law, and cosmology: to live by Khabze is to live in the grain of the world Tha emanated.",
+      "facet": "A tradition whose sacred center is a code of conduct rather than a creed — which is why post-Soviet and diaspora revival could rebuild the religion around national identity: keeping Khabze IS the practice.",
+      "provenance": "Khan-Girey (1836); Jaimoukha (2001); post-Soviet Khabzist movement literature (Kabardino-Balkaria and Adygea, 1990s-2010s)."
+    },
+    {
+      "id": "habze-grove-rite",
+      "tradition": "habze",
+      "kind": "rite",
+      "name": "The Sacred-Grove Prayer",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "Worship conducted in hallowed groves and under ancient trees: an elder speaks the blessing bareheaded, an animal is offered, and the round of makhsyma (the fermented millet-and-honey drink) and shared meat binds the community before Tha and the patron powers of the place.",
+      "facet": "The grove replaces the temple entirely — sanctity is a property of living terrain, not of built enclosure — which let the rite survive Islamization quietly, as picnic-like village feasts under the same trees.",
+      "provenance": "19th-c. ethnography of the Adyghe (Khan-Girey, 1836; Shora Nogmov, 1840s); Jaimoukha (2001) on surviving and revived grove feasts."
+    },
+    {
+      "id": "habze-tlepsh",
+      "tradition": "habze",
+      "kind": "deity",
+      "name": "Tlepsh",
+      "archetypes": [
+        "smith",
+        "culture-hero"
+      ],
+      "gloss": "The smith-god of the Nart sagas, master of the forge who works iron with his bare hands, tempers the hero Sosruko in his tongs, and gives the Narts their first tools — the sickle among them — so that craft itself descends from his anvil.",
+      "facet": "The Circassian smith is a full culture-bringer rather than a court artisan: agriculture's basic implement is his invention, putting the forge at the origin of the sown field.",
+      "provenance": "Circassian Nart corpus (Hadaghatl'a Asker's collected 'Nartxer', 1968-71); John Colarusso, 'Nart Sagas from the Caucasus' (2002)."
+    },
+    {
+      "id": "habze-sosruko",
+      "tradition": "habze",
+      "kind": "hero",
+      "name": "Sosruko",
+      "archetypes": [
+        "trickster",
+        "culture-hero"
+      ],
+      "gloss": "The Nart hero born of stone — quickened when a shepherd's desire struck a boulder, cut free and tempered in Tlepsh's forge until his body was steel everywhere the tongs did not grip. Small, dark, and cunning, he wins by wit what the giant Narts win by strength, and steals fire back from the ogre for the freezing war-band; his untempered knees are his death, sheared by the hurled wheel Zhan-Sharkh.",
+      "facet": "Fire-thief, stone-born, and vulnerable only at the seam the forge missed — the Circassian telling fuses trickster and tempered-hero into one body whose flaw is a manufacturing defect, not a moral one.",
+      "provenance": "Circassian Nart corpus (Hadaghatl'a, 1968-71); Colarusso (2002), where the Sosruko cycle anchors the collection."
+    },
+    {
+      "id": "habze-satanaya",
+      "tradition": "habze",
+      "kind": "hero",
+      "name": "Satanaya (Setenaya)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The mother of the Narts — ageless, wise, and the actual governing intelligence of the war-band, who raises Sosruko from the stone-birth, brews the first drink, and untangles by counsel what the heroes cannot cut by sword. The sagas make her beauty and her judgment equally proverbial.",
+      "facet": "A matriarch who runs a heroic society without holding its titles — the corpus's quiet argument that the Nart world is administered from the hearth, not the saddle.",
+      "provenance": "Circassian Nart corpus (Hadaghatl'a, 1968-71); Colarusso (2002)."
+    },
+    {
+      "id": "uatsdin-styr-khuytsau",
+      "tradition": "uatsdin",
+      "kind": "deity",
+      "name": "Styr Khuytsau (The Great God)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The single God above all, named first in every prayer at the kuvd feast but owning no shrine of his own — governance of the lived world is delegated to the dzuar powers beneath him, whom he sends as a lord sends stewards.",
+      "facet": "A monotheistic apex over a working polytheism: the structure lets Assianism argue with a straight face that it was never pagan — one God, many commissioned powers.",
+      "provenance": "Ossetian kuvd prayer formulae recorded in 19th-20th-c. ethnography; V. I. Abaev's Ossetic lexicon (Khuytsau); Assianist statements of doctrine (post-Soviet)."
+    },
+    {
+      "id": "uatsdin-uastyrdzhi",
+      "tradition": "uatsdin",
+      "kind": "deity",
+      "name": "Uastyrdzhi",
+      "archetypes": [
+        "dragon-slayer"
+      ],
+      "gloss": "The chief dzuar — patron of men, travelers, warriors, and oaths, imagined as a white-bearded rider on a white horse. Women traditionally may not speak his name, calling him 'laegty dzuar', the men's dzuar; his week-long November feast Dzheorguyba is the biggest festival of the Ossetian year.",
+      "facet": "His name is St. George worn down by a millennium of Ossetic speech (Uas Gergi, 'Saint George'), and Dzheorguyba tracks the Georgian Giorgoba — yet the figure himself kept the rider-with-lance frame and dropped the church: the saint fully re-grown into a native god.",
+      "provenance": "Abaev's etymology of Uastyrdzhi; 19th-20th-c. Ossetian ethnography of the Dzheorguyba cycle; the living cult at Nykhas Uastyrdzhi and other shrines."
+    },
+    {
+      "id": "uatsdin-nart-sagas",
+      "tradition": "uatsdin",
+      "kind": "text",
+      "name": "The Nart Sagas (Ossetian corpus)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The oral epic of the Nart heroes — Soslan tempered in the forge, Batraz the steel-bodied, Satana the matriarch, and the Nartamongae, the wondrous cup that rises of itself to the hero whose boast is true. Recorded from the 1860s-70s onward, it is the mythological backbone Assianism reads as its scripture-equivalent.",
+      "facet": "Dumezil built much of comparative Indo-European mythology on this corpus, arguing it preserves Scythian epic memory carried into the mountains by the Alans — an oral text functioning as a two-and-a-half-millennium archive.",
+      "provenance": "Ossetian Nart collections from the Shanaev brothers (1870s) onward; Georges Dumezil, 'Legendes sur les Nartes' (1930) and 'Le livre des heros' (1965); V. I. Abaev's Nart studies."
+    },
+    {
+      "id": "uatsdin-three-pies",
+      "tradition": "uatsdin",
+      "kind": "rite",
+      "name": "The Three Pies (Walibakh Rite)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "At every kuvd the elder prays over three round cheese pies stacked with the sacrificial meat and a drink — three at feasts, an even two at memorials for the dead, the count itself liturgical. The customary gloss reads the three as God, the Sun, and the Earth: the cosmos set out on the table before the first toast.",
+      "facet": "A complete vertical cosmology encoded in festive food — the rite survives every overlay precisely because it looks like dinner.",
+      "provenance": "Living Ossetian practice, documented in 19th-20th-c. ethnography and standardized in Assianist observance; the three-vs-two pie distinction is a widely recorded funerary rule."
+    },
+    {
+      "id": "uatsdin-khetag-grove",
+      "tradition": "uatsdin",
+      "kind": "place",
+      "name": "Khetag's Grove (Khetadzhy Kokh)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "A freestanding round wood on the Alagir plain, sacred and untouchable: in the legend the fleeing Khetag could not reach the forest, so the forest tore itself loose and flew to shelter him. No branch may be carried out; the Day of Khetag was revived as an all-Ossetian festival in post-Soviet North Ossetia.",
+      "facet": "The genius loci inverted — instead of a spirit dwelling in a place, the place itself acts, moving to save a man; the grove's sanctity is remembered as its own deed.",
+      "provenance": "The Khetag legend (also reworked by Kosta Khetagurov's poem 'Khetag'); the living grove and festival near Suadag, Alagir district."
+    },
+    {
+      "id": "uatsdin-dzuar",
+      "tradition": "uatsdin",
+      "kind": "concept",
+      "name": "Dzuar (Shrine & Shrine-Power)",
+      "archetypes": [
+        "genius-loci",
+        "one-through-many"
+      ],
+      "gloss": "One word for the holy place, the power resident at it, and the 'saint' addressed there — hilltop enclosures, sacred trees, and stone sanctuaries like Rekom, each with its feast day, its animal offering, and its beer. The word itself is borrowed from Georgian jvari, 'cross'.",
+      "facet": "An entire ecclesiology compressed into a loanword: the vocabulary is Christian Georgian, the institution it names is the native mountain shrine — the seam between host church and folk religion visible inside a single term.",
+      "provenance": "V. I. Abaev, 'Historical-Etymological Dictionary of Ossetic' (dzuar < Georgian jvari); ethnography of the Rekom and other North Ossetian shrine cults."
+    },
+    {
+      "id": "vainakh-deela",
+      "tradition": "vainakh",
+      "kind": "deity",
+      "name": "Deela (Dela)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme god of the Chechen and Ingush pantheon, head of the host of patron powers and shrine-lords beneath him. Remote and rarely the direct object of cult, his name outlived his religion: 'Deela' is simply the word for God in Chechen and Ingush to this day, now referring to Allah.",
+      "facet": "A high god whose clearest surviving monument is lexical — the pagan sky-father's name carried whole into Islam, the substrate audible in every modern prayer.",
+      "provenance": "Bashir Dalgat, 'The Primitive Religion of the Chechens and Ingush' (fieldwork 1890s); Chakh Akhriev's Ingush ethnography (1870s); Amjad Jaimoukha, 'The Chechens: A Handbook' (2005)."
+    },
+    {
+      "id": "vainakh-sela",
+      "tradition": "vainakh",
+      "kind": "deity",
+      "name": "Sela",
+      "archetypes": [
+        "storm-wielder"
+      ],
+      "gloss": "The stern god of thunder and lightning, feared more than loved — his strikes read as judgments. The rainbow was called Sela's bow, and a month of the old Vainakh calendar bore his name.",
+      "facet": "A storm-wielder remembered chiefly through the sky's furniture — bow, bolt, calendar month — showing how a weather god persists as vocabulary after his cult is gone.",
+      "provenance": "Dalgat (1890s); Akhriev (1870s); Jaimoukha (2005) on the Vainakh calendar and pantheon."
+    },
+    {
+      "id": "vainakh-tusholi",
+      "tradition": "vainakh",
+      "kind": "deity",
+      "name": "Tusholi",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "The fertility goddess, petitioned by women for children and by all for the year's increase; the dove is her bird, a spring month bore her name, and her shrines kept anthropomorphic relics recorded by 19th-century observers. Hers was the last Vainakh cult to die — Ingush women were still bringing her offerings in the early 20th century, long after the men's gods had fallen silent.",
+      "facet": "The pre-Islamic substrate's final holdout was the goddess of the womb — a precise register of which needs official religion answered last in the mountains.",
+      "provenance": "Chakh Akhriev (1870s) and Bashir Dalgat (1890s), who documented the living Tusholi cult; Jaimoukha (2005)."
+    },
+    {
+      "id": "vainakh-erdy-sieling",
+      "tradition": "vainakh",
+      "kind": "place",
+      "name": "The Erdy Temples & Sieling Shrines",
+      "archetypes": [
+        "genius-loci",
+        "axis-mundi"
+      ],
+      "gloss": "The stone cult architecture of highland Ingushetia, kin to the famous Vainakh battle-towers: vaulted temples like Tkhaba-Yerdy and Alby-Yerdy, and smaller pillar shrines (sielings) on heights and passes, where communities climbed on feast days for prayers, sacrifice, and beer. Tkhaba-Yerdy itself was raised under medieval Georgian Christian influence and then absorbed into the native cult.",
+      "facet": "A shrine system legible as a palimpsest in masonry — Georgian church forms overwritten by mountain religion, the reverse of the usual story where paganism is the underlayer.",
+      "provenance": "The standing monuments (Tkhaba-Yerdy, 8th-9th c., with Georgian architectural and epigraphic traits); Akhriev (1870s); Dalgat (1890s)."
+    },
+    {
+      "id": "vainakh-maga-yerda",
+      "tradition": "vainakh",
+      "kind": "deity",
+      "name": "Maga-Yerda",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "A major shrine-lord of the mountain Ingush, honored at his own sanctuary with the communal cycle of pilgrimage, animal offering, and shared beer that defined the highland cult; one of the named 'yerda' powers — alongside the Myat-Loam pilgrimage shrines on Table Mountain — through whom the remote Deela touched local life.",
+      "facet": "The 'yerda' title binds god and building into one term, like Ossetian dzuar and Georgian jvari — across the central Caucasus, the shrine-word and the god-word tend to fuse.",
+      "provenance": "Chakh Akhriev's Ingush shrine ethnography (1870s); Dalgat (1890s)."
+    },
+    {
+      "id": "georgian-highland-morige-ghmerti",
+      "tradition": "georgian-highland",
+      "kind": "deity",
+      "name": "Morige Ghmerti (God the Orderer)",
+      "archetypes": [
+        "sky-father",
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme God who sits above the world and orders it but is not approached at the shrines — governance is delegated to his 'children', the khvtishvilni, dispatched to rule the communities of men, with Kviria as their steward and herald.",
+      "facet": "A Christian-shaped high God administering a feudal pantheon: the highland cosmos mirrors medieval Georgian kingship — sovereign, court, and enfeoffed lords — projected onto heaven.",
+      "provenance": "Georges Charachidze, 'Le systeme religieux de la Georgie paienne' (1968); Vera Bardavelidze's East Georgian mountaineer fieldwork (1930s-50s); Zurab Kiknadze's jvari-and-saqmo studies."
+    },
+    {
+      "id": "georgian-highland-khvtishvilni",
+      "tradition": "georgian-highland",
+      "kind": "deity",
+      "name": "The Khvtishvilni (Jvari-Khati, the Shrine Children of God)",
+      "archetypes": [
+        "genius-loci",
+        "one-through-many"
+      ],
+      "gloss": "The divine beings who actually run the highlands: each community is the saqmo — the 'vassalage' — of its own jvari or khati ('cross' / 'icon'), which owns land, banners, and treasure, punishes impurity, and speaks through its possessed oracle, the kadagi. The words are Orthodoxy's own; the beings they name are local lords of an independent shrine religion.",
+      "facet": "The host church's vocabulary — cross, icon, saint — captured and re-purposed as the names of resident gods: nominal Christianity as the skin of a distinct system.",
+      "provenance": "Charachidze (1968); Kiknadze on jvari and saqmo; Kevin Tuite's Khevsur/Pshav studies (1990s-2000s)."
+    },
+    {
+      "id": "georgian-highland-giorgi",
+      "tradition": "georgian-highland",
+      "kind": "deity",
+      "name": "Giorgi (St. George of the Shrines)",
+      "archetypes": [
+        "dragon-slayer"
+      ],
+      "gloss": "St. George multiplied into a host of local shrine-lords — Lasharis Jvari, the George of Khakhmati, Tetri ('White') Giorgi — the greatest of the khvtishvilni and the highlanders' war-leader among gods. In the Khevsur ballads he leads the raid on Kajaveti, the demon-smiths' land, carrying off their anvil, their treasure, and the kaji-woman Samdzimari, who becomes a shrine power at Khakhmati.",
+      "facet": "The saint's dragon has faded but the campaigning warrior remains and escalates — George here does not merely slay a monster, he conquers and plunders the otherworld like an epic king.",
+      "provenance": "Khevsur and Pshav ballad corpus; Kiknadze; Kevin Tuite (notably on the Kajaveti raid and Samdzimari); Charachidze (1968)."
+    },
+    {
+      "id": "georgian-highland-kopala",
+      "tradition": "georgian-highland",
+      "kind": "hero",
+      "name": "Kopala",
+      "archetypes": [
+        "dragon-slayer",
+        "culture-hero"
+      ],
+      "gloss": "The demon-crushing hero-god of Pshavi and Khevsureti, wielder of an iron mace, who with his companion Iakhsari cleared the land of the ogre-demons (devi) so that people could settle it; his shrine at Karati remained a resort for the mad and the possessed, whom Kopala alone can free.",
+      "facet": "A chaoskampf localized to real geography — each slain devi anchors a named place — and prolonged into therapy: the demon-slayer's ancient war continues as exorcism of individual patients.",
+      "provenance": "Pshav-Khevsur oral corpus; Kiknadze; Tuite on Kopala and Iakhsari; Charachidze (1968)."
+    },
+    {
+      "id": "georgian-highland-khevisberi",
+      "tradition": "georgian-highland",
+      "kind": "rite",
+      "name": "The Khevisberi & the Kadagi",
+      "archetypes": [
+        "divine-embodiment"
+      ],
+      "gloss": "The shrine's human apparatus: the khevisberi (in Khevsureti, khutsesi), the priest-elder who sacrifices, blesses, and rules the festival, flanked by shrine servants (dasturi) — and the kadagi, the oracle whom the jvari seizes and speaks through, announcing its will and sometimes naming the next officers. Selection runs through the shrine itself, by possession and dream, not through any church.",
+      "facet": "A complete indigenous clergy operating in Orthodox Georgia without bishops, ordination, or literacy — authority flows downward from the shrine-being through possession, the inverse of apostolic succession.",
+      "provenance": "Bardavelidze's fieldwork; Charachidze (1968); Tuite on the kadagi institution."
+    },
+    {
+      "id": "georgian-highland-beer-rite",
+      "tradition": "georgian-highland",
+      "kind": "rite",
+      "name": "The Shrine Beer (Ludi)",
+      "archetypes": [
+        "vital-force"
+      ],
+      "gloss": "Sacred beer brewed from communal barley in the shrine's own brewery (salude) — among the most sacred and restricted buildings of the complex — and poured and drunk at the great festivals, above all high-summer Atengenoba (from the feast of St. Athenogenes). The khevisberi consecrates it; sharing it is communion with the jvari.",
+      "facet": "Where the host church put the chalice, the shrine system put the beer-vat: the sanctified communal drink is the festival's sacramental center, brewed rather than transubstantiated.",
+      "provenance": "Bardavelidze on shrine breweries and festival cycles; Tuite on Atengenoba in Pshavi and Khevsureti; surviving practice in Tusheti's saludes."
+    },
+    {
+      "id": "rodnovery-perun",
+      "tradition": "rodnovery",
+      "kind": "deity",
+      "name": "Perun (revived)",
+      "archetypes": [
+        "storm-wielder",
+        "dragon-slayer"
+      ],
+      "gloss": "The thunder-god restored to the head of most Rodnover pantheons — the carved oak idol at the center of the kapishche, honored with warrior symbolism, oaths and the axe-amulet, as he headed Vladimir's Kyiv pantheon of 980 before the conversion threw him in the Dnipro.",
+      "facet": "A revival built on the best-attested Slavic god: Perun is one of the few pre-Christian Slavic deities with solid textual footing (chronicle oaths and the 980 pantheon), which is precisely why the movement reaches for him first — the shard rebuilt from its least-broken piece.",
+      "provenance": "The Primary Chronicle (treaty oaths of 907/971, Vladimir's pantheon of 980); modern cult documented in Kaarina Aitamurto, Paganism, Traditionalism, Nationalism: Narratives of Russian Rodnoverie (2016) and Victor Shnirelman's studies of Russian neopaganism."
+    },
+    {
+      "id": "rodnovery-veles",
+      "tradition": "rodnovery",
+      "kind": "deity",
+      "name": "Veles (revived)",
+      "archetypes": [
+        "underworld-sovereign"
+      ],
+      "gloss": "The 'cattle-god' of the chronicle oaths returned as lord of wealth, magic, poetry and the dead — the dark, horned counterweight to Perun in modern Rodnover theology, patron of sorcerers and musicians as Boyan the bard was called his grandson.",
+      "facet": "Shows a revival adopting a scholarly reconstruction as living theology: the Perun–Veles storm combat many communities now ritualize is not chronicle material but Ivanov and Toporov's 1974 reconstruction — the academy's hypothesis worshipped as myth.",
+      "provenance": "The Primary Chronicle (oath by Volos, 'god of cattle'); The Lay of Igor's Campaign (Boyan as Veles's grandson); V. V. Ivanov & V. N. Toporov, Issledovaniya v oblasti slavyanskikh drevnostei (1974); modern practice in Aitamurto 2016."
+    },
+    {
+      "id": "rodnovery-rod",
+      "tradition": "rodnovery",
+      "kind": "deity",
+      "name": "Rod and the Rozhanitsy",
+      "archetypes": [
+        "first-ancestor",
+        "one-through-many"
+      ],
+      "gloss": "The progenitor whose name means 'kin/lineage', honored with the Rozhanitsy — the birth-fate mothers — at meals set after a child is born; many Rodnover currents elevate Rod to the all-source of which the other gods are faces, and the movement's very name ('native faith') carries his root.",
+      "facet": "The gap between medieval evidence and modern rank: Rod is attested only thinly, in sermons scolding people for setting his table, while his supreme-god status is largely Boris Rybakov's maximalist 1981 reading — carried here as the revival's choice, not as ancient fact.",
+      "provenance": "Medieval sermons against paganism (Slovo ob idolakh and kin texts on Rod and the rozhanitsy); Boris Rybakov, Yazychestvo drevnikh slavyan (1981), whose over-systematization is itself part of the record; Aitamurto 2016 on Rod-centered theology."
+    },
+    {
+      "id": "rodnovery-kapishche",
+      "tradition": "rodnovery",
+      "kind": "place",
+      "name": "Kapishche (the open-air shrine)",
+      "archetypes": [
+        "axis-mundi",
+        "genius-loci"
+      ],
+      "gloss": "The revived open-air sanctuary — a cleared ground or grove with carved wooden idols, an offering fire and a surrounding boundary — where communities hold their seasonal rites; the communities themselves are often organized as a veche, the old Slavic assembly, deciding matters in open council.",
+      "facet": "Reconstruction working from archaeology rather than scripture: the round idol-and-fire sanctuaries excavated at sites like Peryn near Novgorod give the revival its template, so the kapishche is the movement's most defensible act of restoration — a floor plan, not a theology.",
+      "provenance": "Excavated sanctuary sites of the Slavic world (Peryn, Arkona on Rügen for the wider Slavic type); contemporary practice documented in Aitamurto 2016 and in Aitamurto & Simpson (eds.), Modern Pagan and Native Faith Movements in Central and Eastern Europe (2013)."
+    },
+    {
+      "id": "rodnovery-kolovrat",
+      "tradition": "rodnovery",
+      "kind": "concept",
+      "name": "Kolovrat (the wheel symbol)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The eight-armed spinning wheel adopted as the movement's near-universal emblem — read as the sun's yearly turning and worn as pendant and banner; the name means roughly 'spinning wheel', and the symbol under this name is a twentieth-century coinage, not an archaeological find.",
+      "facet": "The shard's honest crack: the kolovrat is also flown by the movement's nationalist and far-right wings, and its swastika-form draws them deliberately — the political entanglement is real and documented, though ethnographers find nature-religious and apolitical Rodnovers alongside it; the whole is not reducible to the wing.",
+      "provenance": "Shnirelman's work on Russian neopaganism and nationalism; Aitamurto 2016 on the spectrum from nature-spirituality to ethno-nationalism; the symbol's modern origin is standard in this scholarship."
+    },
+    {
+      "id": "romuva-amzina-ugnis",
+      "tradition": "romuva",
+      "kind": "rite",
+      "name": "Amžina ugnis (the Sacred Fire)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The holy fire kindled on the aukuras, the stone altar, at every Romuva rite — fed with offerings of grain, bread, salt and beer while participants sing; the perpetual fire of the old Baltic sanctuaries, which medieval chroniclers describe the Lithuanians tending, relit as the revival's central act.",
+      "facet": "Where the tier-honesty of the whole shard is decided: the fire the chroniclers saw was real and its cult attested, but no flame burned continuously from 1387 to 1967 — Romuva rekindles an attested rite across a break, and its own best spokesmen have framed it as restoration, not survival.",
+      "provenance": "Peter von Dusburg's Chronicon terrae Prussiae (1326) on the Romow sanctuary; Jerome of Prague's mission account of Lithuanian fire-veneration as preserved by Aeneas Sylvius Piccolomini (15th c.); modern rite in Jonas Trinkūnas (ed.), Of Gods and Holidays: The Baltic Heritage (1999)."
+    },
+    {
+      "id": "romuva-dainos",
+      "tradition": "romuva",
+      "kind": "text",
+      "name": "The Dainos (sung liturgy)",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The vast corpus of Lithuanian folk hymns — including the polyphonic sutartinės — taken up as Romuva's working scripture: rites are not read but sung, and the songs carry Saulė, Perkūnas, Žemyna and Laima exactly as the collectors found them in village mouths.",
+      "facet": "A revival whose liturgy is identical with its evidence: the dainos are the very source layer from which scholars reconstruct Baltic religion, so in singing them Romuva performs its own bibliography — the rare case where the act of worship and the citation are one gesture.",
+      "provenance": "Liudvikas Rėza's Dainos oder Litthauische Volkslieder (1825) and the subsequent Lithuanian folklore collections; their ritual use in Trinkūnas 1999 and in Michael Strmiska's studies of Baltic pagan music revival."
+    },
+    {
+      "id": "romuva-darna",
+      "tradition": "romuva",
+      "kind": "concept",
+      "name": "Darna (harmony)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Romuva's ethical center: darna, the state of attunement — within oneself, the family, the community, the ancestors and the living land — that ritual, song and right conduct exist to maintain; the name Romuva itself is glossed from ramus, 'calm, peace'.",
+      "facet": "The cosmic-order joint filled by a revival: darna as articulated by Trinkūnas is a modern systematization drawn from folk material rather than an attested ancient doctrine — honest as the movement's synthesis, and structurally kin to the order-concepts of far older shards.",
+      "provenance": "Trinkūnas (ed.), Of Gods and Holidays: The Baltic Heritage (1999); discussion of Romuva theology in Aitamurto & Simpson (eds.), Modern Pagan and Native Faith Movements in Central and Eastern Europe (2013)."
+    },
+    {
+      "id": "romuva-rasa",
+      "tradition": "romuva",
+      "kind": "rite",
+      "name": "Rasa (the solstice festival)",
+      "archetypes": [
+        "solar"
+      ],
+      "gloss": "The midsummer festival of dew and fire — wreaths on the water, fern-flower vigils, songs to the wedding sun — whose public celebration at the hillforts of Kernavė in 1967 was the founding act of the modern revival, staged as folklore under Soviet eyes because it could not be staged as religion.",
+      "facet": "The revival's tactical birth: Rasa 1967 shows a suppressed religion re-entering the world through the one door the state left open, ethnographic folklore — the festival was the vessel, and the faith stepped out of it after 1988.",
+      "provenance": "The 1967 Kernavė Rasa and the Ramuva movement's history are documented in Lithuanian ethnological literature and in Aitamurto & Simpson 2013; midsummer rites themselves are long attested in Baltic folklore collections."
+    },
+    {
+      "id": "romuva-trinkunas",
+      "tradition": "romuva",
+      "kind": "hero",
+      "name": "Jonas Trinkūnas",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Ethnologist and founder (1939–2014): organized Ramuva in 1967, was barred from academic work in the Soviet crackdown of the early 1970s, re-founded the movement in 1988 and was consecrated krivis — chief priest — in 2002, taking the name Jaunius; heir, in the movement's self-telling, to the line of Vydūnas.",
+      "facet": "The founder as fieldworker: Trinkūnas built the revival out of his own ethnographic expeditions, which keeps Romuva unusually close to documented folk practice — and his consecration as krivis revived a title known chiefly from a medieval chronicle, the romantic claim and the sober method in one man.",
+      "provenance": "Documented biography (obituaries and Lithuanian press, 2014); Trinkūnas 1999; the krivis title from Peter von Dusburg's account of the Krive; scholarly treatment in Aitamurto & Simpson 2013."
+    },
+    {
+      "id": "hellenism-modern-dodekatheon",
+      "tradition": "hellenism-modern",
+      "kind": "concept",
+      "name": "The Dodekatheon (the Twelve restored)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The Twelve Olympians returned to open cult — hymned in Greek, honored with incense, libation and barley at reconstructed altars; modern Hellenic theology is emphatically polytheist, while many practitioners also read the gods through the late-antique Platonists, as many powers of one divine order.",
+      "facet": "A revival with an unbroken philosophical textbook: where other reconstructions work from hostile chronicles, modern Hellenists can hand a newcomer Sallustius's On the Gods and the World — a pagan catechism written by pagans — which shapes the one-through-many strand in the movement's self-understanding.",
+      "provenance": "YSEE's published theology and ritual texts; Sallustius, On the Gods and the World (4th c. CE) as a common modern catechism; scholarly treatment in Kathryn Rountree (ed.), Contemporary Pagan and Native Faith Movements in Europe (2015)."
+    },
+    {
+      "id": "hellenism-modern-prometheia",
+      "tradition": "hellenism-modern",
+      "kind": "rite",
+      "name": "The Prometheia festival",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The movement's flagship public festival, held each summer since 1996 in the foothills of Mount Olympus at Litochoro — days of procession, athletic games, theatre and open ritual under the mountain of the gods, named for Prometheus the fire-giver.",
+      "facet": "The choice of patron is the program: by naming its great festival for the Titan who defied heaven for humankind's sake, the revival casts itself as bearer of stolen light against an establishment it regards as the usurper — self-definition performed as festival calendar.",
+      "provenance": "The Prometheia's history is documented in Greek press coverage and in Rountree 2015; the festival is organized by the Hellenic ethnic-religion movement around YSEE and allied groups."
+    },
+    {
+      "id": "hellenism-modern-household-worship",
+      "tradition": "hellenism-modern",
+      "kind": "rite",
+      "name": "Household worship (reconstructed)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The rebuilt domestic core of the religion: lustral water (khernips) before prayer, daily offerings at a household shrine, the hearth honored as Hestia's — first and last of libations — and the storeroom jar of Zeus Ktesios, all reassembled from classical literary and epigraphic sources.",
+      "facet": "Reconstruction at its most granular and most defensible: unlike the great civic cults, the household layer is recoverable from surviving texts in fine detail, so the revival's strongest continuity claim runs through the kitchen, not the temple.",
+      "provenance": "Reconstructed from classical sources (Hesiod's Works and Days; the Zeus Ktesios and Hestia testimonia gathered in modern scholarship such as Walter Burkert's Greek Religion, 1985); codified for practice in YSEE and practitioner handbooks."
+    },
+    {
+      "id": "hellenism-modern-rassias",
+      "tradition": "hellenism-modern",
+      "kind": "hero",
+      "name": "Vlassis Rassias",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Writer and organizer (1959–2019), co-founder of YSEE in 1997 and its long-time public face; his book Demolish Them (1994), a chronicle of the late-antique destruction of Hellenic temples and cult, gave the movement its historical indictment of the Orthodox establishment it still contends with.",
+      "facet": "The founder as prosecutor: Rassias built the revival's identity less on romantic continuity than on documented grievance — the argument that Hellenic religion did not fade but was suppressed, which keeps the movement's tension with the Church of Greece structural rather than incidental.",
+      "provenance": "Vlassis Rassias, Es Edafos Ferein ('Demolish Them', 1994); YSEE organizational history; obituaries and coverage of his death in 2019; Rountree 2015."
+    },
+    {
+      "id": "kemetism-netjer",
+      "tradition": "kemetism",
+      "kind": "concept",
+      "name": "Netjer and the Names",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "Kemetic Orthodoxy's governing theology: Netjer, the self-created divine, is one — and Ra, Aset, Wesir, Sekhmet and the rest are its 'Names', distinct persons of a single divinity; the position is called monolatry, worship of many who are faces of one.",
+      "facet": "A modern resolution of a genuinely ancient tension: Egyptologists themselves debate how far New Kingdom theology unified the gods (Hornung's 'the one and the many'), and Kemetic Orthodoxy settles by doctrine what the sources leave suspended — the revival's choice, worn openly as a choice.",
+      "provenance": "Kemetic Orthodoxy's published catechesis (Tamara Siuda, The Ancient Egyptian Prayerbook); Erik Hornung, Conceptions of God in Ancient Egypt: The One and the Many (1971, Eng. 1982) as the scholarly backdrop; Krogh & Pillifant, 'Kemetic Orthodoxy: Ancient Egyptian Religion on the Internet' (Sociology of Religion, 2004)."
+    },
+    {
+      "id": "kemetism-maat",
+      "tradition": "kemetism",
+      "kind": "concept",
+      "name": "Ma'at (the ethical center)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "Truth, balance and right-order taken up as the whole moral architecture of the revival: across every Kemetic current — Orthodox, independent, Afrocentric — living ma'at and opposing isfet (chaos, injustice) is the stated point of the practice, as it was the stated duty of the pharaonic state.",
+      "facet": "The one plank every Kemetic thread shares: communities that disagree about priesthood, race and ritual all anchor on ma'at, and the Afrocentric current has even produced formal scholarship on it — the ethical concept as the revival's common ground and its bridge back to the texts.",
+      "provenance": "The ma'at doctrine from Egyptological standards (Jan Assmann, Ma'at: Gerechtigkeit und Unsterblichkeit im Alten Ägypten, 1990); Maulana Karenga, Maat, the Moral Ideal in Ancient Egypt (2004); its centrality in practice per Krogh & Pillifant 2004 and Kemetic community literature."
+    },
+    {
+      "id": "kemetism-senut",
+      "tradition": "kemetism",
+      "kind": "rite",
+      "name": "Senut (the shrine rite)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "Kemetic Orthodoxy's daily personal practice: purification with water and natron, lighting the shrine's candle or lamp, incense, offering of cool water before the images of Netjer, prayer, and the reversion of offerings — consuming what was offered, as temple staff did in antiquity.",
+      "facet": "The pharaonic temple miniaturized into a bedroom cabinet: senut compresses the state cult's daily ritual sequence — purify, illuminate, offer, revert — to the scale of one practitioner, which is the whole reconstruction problem in one rite: the form is ancient, the private devotional setting is modern.",
+      "provenance": "Codified by Tamara Siuda (The Ancient Egyptian Prayerbook); the ancient daily temple ritual it compresses is documented in Egyptological literature on the cult service (e.g., Moret's and later editions of the daily ritual); practice described in Krogh & Pillifant 2004."
+    },
+    {
+      "id": "kemetism-siuda",
+      "tradition": "kemetism",
+      "kind": "hero",
+      "name": "Tamara Siuda (the Nisut)",
+      "archetypes": [
+        "culture-hero",
+        "divine-embodiment"
+      ],
+      "gloss": "Egyptologist-trained founder of Kemetic Orthodoxy (taught from 1988, organized as the House of Netjer): recognized by her community as Nisut — bearer of the kingly ka, the royal spirit that made pharaoh the mediator between gods and people — and crowned in rites modeled on pharaonic accession.",
+      "facet": "The boldest single claim in the reconstructionist world: reviving Egyptian religion complete with its linchpin office of divine kingship — where other revivals restore rites and skip the sacred king, Kemetic Orthodoxy restores the king and inherits every question that office raises in a voluntary modern congregation.",
+      "provenance": "Kemetic Orthodoxy's own institutional record and Siuda's publications; the kingly-ka theology from Egyptological work on divine kingship (Lanny Bell on the royal ka); movement described in Krogh & Pillifant 2004."
+    },
+    {
+      "id": "kemetism-afrocentric-current",
+      "tradition": "kemetism",
+      "kind": "concept",
+      "name": "The Afrocentric Kemetic current",
+      "archetypes": [
+        "mystery-school",
+        "transmutation"
+      ],
+      "gloss": "The distinct thread that reclaims Kemet as African ancestral heritage: the Ausar Auset Society (Ra Un Nefer Amen, Brooklyn 1973) teaches a graded initiatic system of meditation, divination and self-refinement drawn from Egyptian and wider African sources, serving the African diaspora specifically.",
+      "facet": "Not reconstruction but repatriation: where Kemetic Orthodoxy asks 'what did the temples do?', this current asks 'whose civilization was this?' — its Kemet is an ancestral estate to be reoccupied and its practice a discipline of transformation, a genuinely different project honestly counted as a second thread, not a branch of the first.",
+      "provenance": "Ra Un Nefer Amen, Metu Neter Vol. 1 (1990) and the Ausar Auset Society's institutional history; Maulana Karenga's Maat scholarship (2004) for the academic wing; the current's distinctness is standard in scholarship on Kemetic movements."
+    },
+    {
+      "id": "maori-whakapapa",
+      "tradition": "maori",
+      "kind": "concept",
+      "name": "Whakapapa (genealogy as cosmology)",
+      "archetypes": [
+        "one-through-many",
+        "cosmic-order"
+      ],
+      "gloss": "The genealogical method as ontology: all things — atua, people, fish, forests, even the numbered nights of the cosmogony — stand on one recited lattice of descent. To whakapapa is to lay layer upon layer; a person establishes identity, land-right, and relation to any stranger by reciting the lines that join them, and the trained memory that holds those lines was the core discipline of the whare wānanga.",
+      "facet": "The shard where genealogy is not a record OF the world but the structure of it: knowledge itself is organized as descent, so to know a thing is to be able to place it in the family of being.",
+      "provenance": "Te Rangi Hīroa (Peter Buck), 'The Coming of the Maori' (1949); Hirini Moko Mead, 'Tikanga Māori' (2003); the cosmogonic whakapapa recorded in Grey's 'Polynesian Mythology' and Best's whare-wānanga material."
+    },
+    {
+      "id": "maori-tapu-mana-noa",
+      "tradition": "maori",
+      "kind": "principle",
+      "name": "Tapu, Mana, Noa",
+      "archetypes": [
+        "vital-force",
+        "cosmic-order"
+      ],
+      "gloss": "The three-term physics of the Māori sacred: mana, the efficacious ancestral power that persons, lands, and works accumulate or forfeit; tapu, the state of being set under the influence of the atua — restricted, dangerous, demanding care (the chief's person, the burial ground, the new house, the woman in childbirth, each in differing degree); and noa, the ordinary, freed state to which things are deliberately returned by whakanoa rites of water and cooked food.",
+      "facet": "The complete circuit that kin shards show only in halves: not just power (mana) and prohibition (tapu) but the engineered return-to-ordinary (noa) — the sacred managed as a reversible state, with cooked food and water as its discharge-tools.",
+      "provenance": "Elsdon Best, 'Spiritual and Mental Concepts of the Maori' (1922); Te Rangi Hīroa, 'The Coming of the Maori' (1949); Mead, 'Tikanga Māori' (2003)."
+    },
+    {
+      "id": "maori-io",
+      "tradition": "maori",
+      "kind": "deity",
+      "name": "Io (Io-matua-kore, the Parentless)",
+      "archetypes": [
+        "withdrawn-creator"
+      ],
+      "gloss": "The supreme being of the esoteric whare-wānanga teachings: Io the parentless, self-existent in the highest of the twelve heavens, from whom Tāne fetched the three baskets of knowledge; his name held too tapu for common speech, his lore — if lore it anciently was — confined to the highest grade of tohunga. Recorded chiefly in S. Percy Smith's 'The Lore of the Whare-wānanga' (1913), from the 1860s teachings of Te Mātorohanga as written down by H. T. Whatahoro.",
+      "facet": "A genuinely contested figure, carried here as contested: one scholarly reading holds Io a pre-contact esoteric high god hidden from commoners and early missionaries alike; the other holds the tradition a post-missionary construction shaped by Christian monotheism — Te Rangi Hīroa doubted its antiquity and currency, Jonathan Z. Smith argued the case for invention, while Māori theologians such as Māori Marsden affirm the Io tradition from within. The mirror records the debate, not a verdict.",
+      "provenance": "S. Percy Smith, 'The Lore of the Whare-wānanga' (1913–15); Best, 'Maori Religion and Mythology'; contra: Te Rangi Hīroa, 'The Coming of the Maori' (1949) and Jonathan Z. Smith, 'The Unknown God: Myth in History', in 'Imagining Religion' (1982); affirmed from within by Māori Marsden, 'The Woven Universe' (2003)."
+    },
+    {
+      "id": "maori-marae-tangihanga",
+      "tradition": "maori",
+      "kind": "rite",
+      "name": "The Marae and the Tangihanga",
+      "archetypes": [
+        "active-intercessors",
+        "genius-loci"
+      ],
+      "gloss": "The marae ātea — the open ceremonial ground — and its carved meeting house, whose ridgepole is an ancestor's spine, rafters his ribs, gable-face his head: the community assembles inside the body of its forebear. On this ground the tangihanga unfolds, the days-long funeral in which the dead lie in state, are wept over and addressed directly in speech and song, and are finally farewelled on the spirit-road north to Te Rerenga Wairua at Cape Rēinga, where the wairua descends by the roots of the ancient pōhutukawa and turns toward Hawaiki.",
+      "facet": "Death handled as prolonged, structured conversation with the still-present dead — the body is spoken to, argued over, never left alone — staged inside a building that is itself an ancestor's body; among the most intact living funerary complexes in the mirror.",
+      "provenance": "Anne Salmond, 'Hui: A Study of Maori Ceremonial Gatherings' (1975); Mead, 'Tikanga Māori' (2003); Best, 'Spiritual and Mental Concepts of the Maori' (1922) on Te Rerenga Wairua."
+    },
+    {
+      "id": "maori-hawaiki",
+      "tradition": "maori",
+      "kind": "place",
+      "name": "Hawaiki",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The ancestral homeland over the horizon — Hawaiki-nui, Hawaiki-roa, Hawaiki-pāmamao — from which the founding canoes came, from which the kūmara was fetched, from which the child's soul arrives, and to which the dead return. The name is a true cognate of Savaiʻi (Sāmoa), Havaiʻi (the old name of Raʻiātea), and Hawaiʻi itself — reflexes of one inherited Polynesian homeland-name, *Sawaiki, carried across the ocean.",
+      "facet": "The axis of this cosmos is DISPLACED: the sacred center is not where the people stand but where they came from — origin, seed-source, and afterlife all sited over the sea-horizon, so the whole religion faces backward along the wake of the canoes.",
+      "provenance": "Margaret Orbell, 'Hawaiki: A New Approach to Māori Tradition' (1985); Te Rangi Hīroa (1949); the Savaiʻi/Havaiʻi/Hawaiʻi cognate set is standard Polynesian comparative linguistics (POLLEX)."
+    },
+    {
+      "id": "ratana-ringatu-te-kooti",
+      "tradition": "ratana-ringatu",
+      "kind": "prophet",
+      "name": "Te Kooti Arikirangi Te Tūruki",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "(c. 1832–1893) Rongowhakaata visionary deported without trial to Wharekauri (the Chatham Islands) in 1866 amid the East Coast wars. There, sick and imprisoned, he received the visions that founded the Ringatū faith; in July 1868 he seized the supply schooner Rifleman and sailed some three hundred whakarau (exiles) home. Hunted for four years after the reprisal killings at Matawhero (November 1868), sheltered by Tūhoe, pardoned in the 1883 amnesty, he spent his last decade as a man of peace, composing waiata and raising carved meeting houses.",
+      "facet": "Prophet, guerrilla, and liturgist in one span: the faith was forged in a prison camp, carried home by an act of piracy, and matured into pacifism — the founder's own arc from war to peace is the church's charter.",
+      "provenance": "Judith Binney, 'Redemption Songs: A Life of Te Kooti Arikirangi Te Turuki' (1995), the definitive study; William Greenwood, 'The Upraised Hand' (1942)."
+    },
+    {
+      "id": "ratana-ringatu-upraised-hand",
+      "tradition": "ratana-ringatu",
+      "kind": "rite",
+      "name": "Te Ringatū (the Upraised Hand) and the Twelfths",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "The liturgy Te Kooti built entirely from the Māori Bible — psalms, prophets, and prayers memorized and recited, for decades deliberately unwritten — closed with the right hand raised to Ihowa, the gesture that names the faith. Worship gathers on the Twelfths, the twelfth of each month, with annual planting (huamata) and first-fruits (pure) rites binding the agricultural year into scripture; Māori suffering is read throughout as Israel's exile, the people as a covenant remnant awaiting return to their land.",
+      "facet": "A scripture-religion held almost wholly in MEMORY: the whakapapa-trained Māori art of exact oral recital applied to the Bible — the book internalized so completely it needed no book.",
+      "provenance": "Binney, 'Redemption Songs' (1995); Greenwood, 'The Upraised Hand' (1942); the Twelfths and the huamata/pure rites are documented Ringatū practice."
+    },
+    {
+      "id": "ratana-ringatu-ratana",
+      "tradition": "ratana-ringatu",
+      "kind": "prophet",
+      "name": "Tahupōtiki Wiremu Rātana (Te Māngai)",
+      "archetypes": [
+        "culture-hero",
+        "divine-embodiment"
+      ],
+      "gloss": "(1873–1939) Whanganui farmer to whom, on 8 November 1918 — with the influenza pandemic killing Māori at several times the Pākehā rate — the Holy Spirit spoke, appointing him Māngai, the Mouthpiece of Ihoa o ngā Mano, Jehovah of Hosts. His healing mission drew thousands to Rātana Pā; the movement constituted itself as Te Haahi Rātana in 1925, then turned political: in April 1936 he sealed a covenant with Labour's Michael Joseph Savage with four symbolic gifts — a potato (the landless Māori), a broken gold watch (the broken machinery of the Treaty), a pounamu hei-tiki (the mana of the people), and a huia feather (the chiefly standing Savage would earn by mending the rest) — and by 1943 his nominees, the Four Quarters, held all four Māori parliamentary seats.",
+      "facet": "Where Te Kooti's church stayed liturgical, the Māngai's became a POLITICAL instrument in documented time — prophet-healer to kingmaker inside two decades, dispossession channeled into four seats that anchored Māori–Labour politics for half a century.",
+      "provenance": "J. McLeod Henderson, 'Ratana: The Man, the Church, the Political Movement' (1963; 2nd ed. 1972); Keith Newman, 'Ratana Revisited' (2006)."
+    },
+    {
+      "id": "ratana-ringatu-temepara",
+      "tradition": "ratana-ringatu",
+      "kind": "place",
+      "name": "Te Temepara Tapu o Ihoa (the Temple at Rātana Pā)",
+      "archetypes": [
+        "axis-mundi",
+        "genius-loci"
+      ],
+      "gloss": "The temple opened at Rātana Pā, near Whanganui, on 25 January 1928 — the Māngai's birthday — its twin domed towers named Arepa and Omeka, Alpha and Omega, crowned with the whetū mārama, the crescent-moon-and-star emblem of the church. The pā around it is the movement's capital and archive, and every January the nation's political leaders travel there for the anniversary gathering.",
+      "facet": "A prophetic movement that built its own capital and made the state visit it: the annual January pilgrimage of prime ministers to Rātana Pā re-enacts the 1936 covenant in reverse — the government comes to the prophet's village, not the prophet to the capital.",
+      "provenance": "Henderson (1963/1972); Newman, 'Ratana Revisited' (2006). The annual January gathering at Rātana Pā is standing New Zealand political practice."
+    },
+    {
+      "id": "moorish-science-noble-drew-ali",
+      "tradition": "moorish-science",
+      "kind": "prophet",
+      "name": "Noble Drew Ali (The Prophet)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Born Timothy Drew (1886, North Carolina), he founded the Canaanite Temple in Newark in 1913 (per MSTA tradition) and incorporated the movement in Chicago in 1925, teaching that so-called Negroes are Moorish-Americans — Moslems by heritage, Moabites by blood, Moroccans by nationality. He died on 20 July 1929, weeks after his release during the Claude Greene murder investigation; the cause of death remains contested (illness vs. injuries in custody).",
+      "facet": "He made nationality itself the sacrament: salvation begins not with creed but with the legal-cosmic act of reclaiming one's true name and nation from the erasures of slavery.",
+      "provenance": "Holy Koran of the Moorish Science Temple of America (1927); MSTA incorporation records, Cook County (1925); scholarship of Susan Nance and Edward E. Curtis IV on early American Islam."
+    },
+    {
+      "id": "moorish-science-circle-seven-koran",
+      "tradition": "moorish-science",
+      "kind": "text",
+      "name": "The Circle Seven Koran",
+      "archetypes": [
+        "mystery-school"
+      ],
+      "gloss": "The Holy Koran of the Moorish Science Temple of America (1927), its cover bearing a 7 in a circle — a 48-chapter scripture 'divinely prepared' by the Prophet. Roughly half reproduces Levi Dowling's Aquarian Gospel of Jesus the Christ (1908) and the Rosicrucian-published Unto Thee I Grant (AMORC, 1925); the closing chapters, Drew Ali's own, declare the Moabite origin of the Moors and the divine creed of the Moorish-American nation.",
+      "facet": "It shows scripture assembled as bricolage: existing esoteric texts re-cut and re-authorized around a new revelatory center, the whole made canonical by the Prophet's seal rather than by its sources.",
+      "provenance": "Holy Koran of the MSTA (1927); textual-dependence analysis in Peter Lamborn Wilson's 'Sacred Drift' (1993) and Susan Nance's studies of the MSTA."
+    },
+    {
+      "id": "moorish-science-moorish-american",
+      "tradition": "moorish-science",
+      "kind": "concept",
+      "name": "Moorish-American Nationality",
+      "archetypes": [
+        "first-ancestor"
+      ],
+      "gloss": "The teaching that Black Americans are not 'Negro, Black, or Colored' — labels of slavery — but Moorish-Americans, descendants of the ancient Moabites through Morocco. Members carry nationality and identification cards, take the name-suffixes El or Bey, and wear the fez or turban as marks of the reclaimed nation.",
+      "facet": "It relocates identity from race to nationality: the wound of the slave label is treated juridically, with a card, a name, and a flag, making citizenship itself the arena of redemption.",
+      "provenance": "Holy Koran of the MSTA chs. 45-48; MSTA nationality-card practice documented in 1928-29 Chicago press and FBI files; Susan Nance, 'Mystery of the Moorish Science Temple' (2002)."
+    },
+    {
+      "id": "moorish-science-five-principles",
+      "tradition": "moorish-science",
+      "kind": "principle",
+      "name": "Love, Truth, Peace, Freedom, Justice",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The five grand principles of the Moorish creed, recited as the foundation of the temple and printed on its literature and cards. They define the moral order the reclaimed Moorish nation is to embody within American civic life.",
+      "facet": "A whole ethics compressed to five civic words — deliberately legible to the state and the neighbor alike, the esoteric nation wearing an exoteric moral face.",
+      "provenance": "MSTA catechism ('Koran Questions for Moorish Americans') and temple literature; standard in MSTA scholarship."
+    },
+    {
+      "id": "moorish-science-1929-succession",
+      "tradition": "moorish-science",
+      "kind": "concept",
+      "name": "The 1929 Succession (The Reincarnated Prophet)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "After Drew Ali's death in July 1929 the movement split: Charles Kirkman Bey led the incorporated MSTA as Supreme Grand Advisor, while John Givens El's faction taught that the Prophet's spirit had reincarnated in him. W.D. Fard, who surfaced in Detroit in 1930 to found the Nation of Islam, emerged from this same milieu; some Moorish factions claimed him too as Drew Ali returned — a claim that remains contested.",
+      "facet": "The founder's contested death instantly generated a reincarnation doctrine — succession crisis resolved by making the Prophet himself the office that transmigrates.",
+      "provenance": "MSTA schism history in FBI files and Chicago press (1929-30); Susan Nance; Edward E. Curtis IV, 'Muslims in America' (2009)."
+    },
+    {
+      "id": "martinism-pasqually",
+      "tradition": "martinism",
+      "kind": "hero",
+      "name": "Martinez de Pasqually",
+      "archetypes": [
+        "mystery-school"
+      ],
+      "gloss": "The enigmatic theurgist (c. 1727-1774) who built the Ordre des Chevaliers Macons Elus Coens de l'Univers on top of the Masonic craft degrees, teaching ceremonial 'operations' — equinoctial invocations seeking luminous 'passes' as proof of contact with reconciling spirits. He died in Port-au-Prince, Saint-Domingue, in 1774, his Traite sur la reintegration des etres unfinished.",
+      "facet": "He shows theurgy as empiricism: the Elus Coens ritual is designed to produce verifiable signs, making reconciliation with the divine something operated and witnessed rather than merely believed.",
+      "provenance": "Traite sur la reintegration des etres (ms., c. 1770s); Elus Coens archives studied by Robert Amadou and Gerard van Rijnberk; Antoine Faivre's scholarship on Christian theosophy."
+    },
+    {
+      "id": "martinism-saint-martin",
+      "tradition": "martinism",
+      "kind": "hero",
+      "name": "Louis-Claude de Saint-Martin (The Unknown Philosopher)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "Pasqually's secretary (1743-1803), who signed his books 'le Philosophe Inconnu' and gave the tradition its name. He gradually set aside his master's ceremonial theurgy for an inward path, and late in life translated Jacob Boehme into French, fusing the reintegration doctrine with Boehme's theosophy.",
+      "facet": "He is the rare esotericist who abandoned the machinery of ritual at the height of his initiation, arguing that the only temple that matters is interior — a renunciation that itself founded a lineage.",
+      "provenance": "Des erreurs et de la verite (1775); L'Homme de desir (1790); Le Ministere de l'homme-esprit (1802); Robert Amadou's critical editions; A.E. Waite's biography."
+    },
+    {
+      "id": "martinism-reintegration",
+      "tradition": "martinism",
+      "kind": "principle",
+      "name": "Reintegration of Beings",
+      "archetypes": [
+        "transmutation"
+      ],
+      "gloss": "The core doctrine, from Pasqually's Traite: humanity was emanated as a divine agent, fell through Adam's 'prevarication' into material bondage, and must be restored — reintegrated — into its 'first estate' of divine powers, and with it all fallen beings. The whole Martinist work, theurgic or interior, is the operation of this return.",
+      "facet": "It reads the Fall as a cosmic demotion of function rather than a moral stain: man is a displaced officer of creation, and salvation is reinstatement to a post, not pardon for a crime.",
+      "provenance": "Traite sur la reintegration des etres; expounded across Saint-Martin's works; analyzed by Antoine Faivre and Arthur McCalla in studies of illuminism."
+    },
+    {
+      "id": "martinism-the-repairer",
+      "tradition": "martinism",
+      "kind": "deity",
+      "name": "The Repairer (Le Reparateur)",
+      "archetypes": [
+        "dying-rising"
+      ],
+      "gloss": "The Martinist name for Christ: the divine agent who descended into the fallen order to reopen the way of reintegration that Adam closed. In Saint-Martin's later writing the Repairer works through the inner Word, regenerating the 'man of desire' from within.",
+      "facet": "Christ re-titled by function — not judge or king but Repairer, the being whose whole identity is the reversal of a specific cosmic accident.",
+      "provenance": "Saint-Martin, L'Homme de desir (1790) and Le Ministere de l'homme-esprit (1802); Pasqually's Traite (the Reconciliateur)."
+    },
+    {
+      "id": "martinism-way-of-the-heart",
+      "tradition": "martinism",
+      "kind": "concept",
+      "name": "The Way of the Heart",
+      "archetypes": [
+        "creative-word"
+      ],
+      "gloss": "Saint-Martin's 'inward way': prayer, desire, and interior regeneration through the Word, deliberately preferred over his master's ceremonial operations. The heart, not the ritual chamber, is where the fallen divine faculty of speech-with-God is rekindled.",
+      "facet": "It internalizes an entire ceremonial system without repudiating it — the theurgic operation re-performed as a movement of desire, keeping the structure and discarding the apparatus.",
+      "provenance": "Saint-Martin's correspondence with Kirchberger (1792-97) and late works; the 'voie cardiaque' as framed in Martinist historiography (Amadou, Faivre)."
+    },
+    {
+      "id": "martinism-papus",
+      "tradition": "martinism",
+      "kind": "hero",
+      "name": "Papus (Gerard Encausse)",
+      "archetypes": [
+        "culture-hero",
+        "mystery-school"
+      ],
+      "gloss": "The physician-occultist (1865-1916) who organized the modern Ordre Martiniste (Supreme Council, 1891), claiming an initiatic chain back to Saint-Martin through Chaboseau — a lineage scholars regard as unverifiable. Author of Le Tarot des Bohemiens (1889) and a hub of the Belle Epoque French occult revival; he died in 1916 after serving as a military doctor.",
+      "facet": "He converted a philosopher's private posterity into an international initiatic order — demonstrating how modern occultism manufactures continuity, chartering the past it needs.",
+      "provenance": "Papus, Traite elementaire de science occulte (1888) and Le Tarot des Bohemiens (1889); order history in Marie-Sophie Andre & Christophe Beaufils's biography of Papus; David Allen Harvey, 'Beyond Enlightenment' (2005)."
+    },
+    {
+      "id": "religion-of-humanity-comte",
+      "tradition": "religion-of-humanity",
+      "kind": "hero",
+      "name": "Auguste Comte (High Priest of Humanity)",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The founder of sociology (1798-1857) who, after his transfiguring attachment to Clotilde de Vaux, built positivism into a full church: dogma, cult, and calendar, with himself as Grand-Pretre de l'Humanite. His Systeme de politique positive (1851-54) and Catechisme positiviste (1852) legislate worship for a post-theological age.",
+      "facet": "He is the rationalist who concluded that reason alone cannot bind a society — and so engineered a religion the way one engineers an institution, complete and top-down, from within unbelief.",
+      "provenance": "Systeme de politique positive (1851-54); Catechisme positiviste (1852); Mary Pickering's three-volume intellectual biography of Comte."
+    },
+    {
+      "id": "religion-of-humanity-grand-etre",
+      "tradition": "religion-of-humanity",
+      "kind": "deity",
+      "name": "The Great Being (Le Grand Etre)",
+      "archetypes": [
+        "one-through-many",
+        "active-intercessors"
+      ],
+      "gloss": "Humanity itself as the supreme being: the continuous whole of all who have served the species, in which the dead outnumber and govern the living. Immortality is 'subjective' — to be incorporated after death into the Great Being through the grateful memory of humankind.",
+      "facet": "A deity with a membership criterion: only those who served Humanity enter it, making worship, ethics, and historiography the same act.",
+      "provenance": "Systeme de politique positive, vol. II; Catechisme positiviste; discussed in T.R. Wright, 'The Religion of Humanity' (1986)."
+    },
+    {
+      "id": "religion-of-humanity-positivist-calendar",
+      "tradition": "religion-of-humanity",
+      "kind": "rite",
+      "name": "The Positivist Calendar",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "Comte's 1849 calendar of thirteen 28-day months named for benefactors of Humanity — Moses, Homer, Aristotle, Archimedes, Caesar, Saint Paul, Charlemagne, Dante, Gutenberg, Shakespeare, Descartes, Frederick, Bichat — with each day commemorating a further worthy: a complete sanctoral cycle of secular saints, closing with the Day of All the Dead.",
+      "facet": "It transposes the Catholic calendar of saints onto the history of civilization, making the veneration of the dead a precise, dated liturgy of human progress.",
+      "provenance": "Calendrier positiviste (1849); analyzed in T.R. Wright and in Andrew Wernick, 'Auguste Comte and the Religion of Humanity' (2001)."
+    },
+    {
+      "id": "religion-of-humanity-virgin-mother",
+      "tradition": "religion-of-humanity",
+      "kind": "concept",
+      "name": "The Virgin-Mother (Clotilde de Vaux)",
+      "archetypes": [
+        "great-mother"
+      ],
+      "gloss": "Clotilde de Vaux (1815-1846), whose death after Comte's 'year without parallel' made her the cult's angelic patroness; Comte prayed before her relics thrice daily and visited her tomb weekly. In the Systeme he crowned the cult with the 'Utopia of the Virgin-Mother,' and positivist iconography personifies Humanity as a woman of thirty bearing her son.",
+      "facet": "The feminine as moral providence in a Godless system: the tradition rebuilds the Madonna out of a real, dated woman, grief formalized into dogma.",
+      "provenance": "Systeme de politique positive, vol. IV; Comte's 'Confessions' and correspondence with Clotilde de Vaux; Mary Pickering on the 'annee sans pareille'."
+    },
+    {
+      "id": "religion-of-humanity-nine-sacraments",
+      "tradition": "religion-of-humanity",
+      "kind": "rite",
+      "name": "The Nine Social Sacraments",
+      "archetypes": [
+        "sacred-initiation"
+      ],
+      "gloss": "Sociolatry's life-liturgy: Presentation, Initiation, Admission, Destination, Marriage, Maturity, Retirement, Transformation (death), and — seven years after death, if judged worthy — Incorporation into the Great Being. Every stage of a civic life is consecrated to Humanity.",
+      "facet": "The sacrament's verdict is deferred and social: sanctity is not conferred at the font but adjudicated by posterity, seven years after the grave.",
+      "provenance": "Catechisme positiviste (1852); practice documented in the Brazilian Positivist Church; T.R. Wright, 'The Religion of Humanity'."
+    },
+    {
+      "id": "religion-of-humanity-templo-da-humanidade",
+      "tradition": "religion-of-humanity",
+      "kind": "place",
+      "name": "The Temples of Humanity (Rio and Paris)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The Igreja Positivista do Brasil (founded 1881 by Miguel Lemos and Raimundo Teixeira Mendes) built the Templo da Humanidade in Rio de Janeiro (inaugurated 1897, damaged by roof collapse in 2009, under restoration), and Brazilian positivists later founded the Chapelle de l'Humanite on rue Payenne in Paris. Teixeira Mendes put Comte's motto on the new republic's flag in 1889: 'Ordem e Progresso.'",
+      "facet": "The faith's most durable trace is on a national flag: a church that barely survives as congregation persists as state iconography, its creed flown daily by millions who no longer read it.",
+      "provenance": "Igreja Positivista do Brasil records; the 19 Nov 1889 flag decree (Teixeira Mendes's design, from Comte's formula 'love as principle, order as basis, progress as goal'); Wernick (2001)."
+    },
+    {
+      "id": "zurvanism-zurvan",
+      "tradition": "zurvanism",
+      "kind": "deity",
+      "name": "Zurvan Akarana (Infinite Time)",
+      "archetypes": [
+        "withdrawn-creator",
+        "complementarity"
+      ],
+      "gloss": "Boundless Time as the neuter, primordial godhead who existed before all things and sacrificed for a thousand years to obtain a son — becoming father of both Ohrmazd and Ahriman, then withdrawing behind the battle he had seeded.",
+      "facet": "Dualism's attempt to heal itself into monism: one parent set above the warring twins, so that good and evil become two-from-one rather than two co-eternals — at the price of making Time, not Goodness, ultimate.",
+      "provenance": "Eznik of Kolb, Refutation of the Sects (c. 440s); Theodore bar Konai, Scholion; Zaehner, Zurvan: A Zoroastrian Dilemma (1955). Zurvan appears in the Avesta only as a minor time-divinity — the exalted Zurvan is the heresy's move."
+    },
+    {
+      "id": "zurvanism-doubt-of-zurvan",
+      "tradition": "zurvanism",
+      "kind": "concept",
+      "name": "The Doubt of Zurvan",
+      "archetypes": [
+        "dualism"
+      ],
+      "gloss": "At the end of the thousand-year sacrifice Zurvan wavered — 'of what use is my offering?' — and from that single doubt Ahriman was conceived, while Ohrmazd was conceived of the sacrifice itself; Ahriman tore his way out of the womb first to claim the promised kingship.",
+      "facet": "The rarest answer to the problem of evil: evil born not from a rival principle nor a fallen creature but from a moment of hesitation INSIDE the one god — doubt itself as the origin of the Adversary.",
+      "provenance": "Eznik of Kolb's Armenian account, the fullest surviving version of the myth; widely read as exegesis of Yasna 30.3, where the two primal Spirits are called 'twins' without a named parent."
+    },
+    {
+      "id": "zurvanism-nine-thousand-years",
+      "tradition": "zurvanism",
+      "kind": "concept",
+      "name": "The Nine Thousand Years",
+      "archetypes": [
+        "cyclic-ages",
+        "dualism"
+      ],
+      "gloss": "Bound by his own vow to give the firstborn the kingdom, Zurvan grants Ahriman rulership of the world for a fixed term of nine thousand years, after which Ohrmazd will reign and evil will end.",
+      "facet": "Evil's dominion made CONTRACTUAL: the present age belongs to the Adversary legally, not accidentally — history as a lease that is guaranteed to expire.",
+      "provenance": "Eznik of Kolb; the 9,000/12,000-year world-scheme is shared with orthodox Pahlavi cosmology (Bundahishn), which Zurvanism re-parents rather than replaces."
+    },
+    {
+      "id": "zurvanism-spihr",
+      "tradition": "zurvanism",
+      "kind": "principle",
+      "name": "Spihr (the Sphere of Fate)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The turning firmament and its zodiac as the dispenser of every human lot — the fatalist strand in which wealth, station, and even wisdom come by the decree of Time and the stars, not by works.",
+      "facet": "Cosmic order curdled into fatalism: where orthodox Zoroastrianism stakes everything on free moral choice, the Zurvanite current lets the wheel of Time decide — the heresy's deepest break with the parent.",
+      "provenance": "Fatalist passages of the Menog-i Khrad; Zaehner's analysis of 'Zurvanite fatalism.' How far this strand was distinctly Zurvanite rather than broadly late-Sasanian is part of the sect debate — flagged."
+    },
+    {
+      "id": "karaite-judaism-anan-ben-david",
+      "tradition": "karaite-judaism",
+      "kind": "hero",
+      "name": "Anan ben David",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The 8th-century Babylonian sage who rejected the Talmud's authority and issued his own Aramaic Book of Commandments (Sefer ha-Mitzvot) drawn from Scripture alone; later Karaite tradition crowned him founder of the movement.",
+      "facet": "A founder made in retrospect: scholarship distinguishes Anan's rigorist Ananites from the Karaites proper who absorbed them a century later — the 'Anan founded Karaism' story is the community's own back-formation, carried here as such.",
+      "provenance": "Al-Qirqisani, Kitab al-Anwar (937), the earliest inside account; Nemoy's Karaite Anthology; the founder-critique in Moshe Gil and Yoram Erder. The famous dictum 'Search well in Scripture, and lean not on my opinion' is attributed to him only in later tradition."
+    },
+    {
+      "id": "karaite-judaism-mikra",
+      "tradition": "karaite-judaism",
+      "kind": "principle",
+      "name": "Mikra (Scripture Alone)",
+      "archetypes": [
+        "cosmic-order"
+      ],
+      "gloss": "The written Tanakh as the sole binding authority — the movement's very name comes from mikra, 'that which is read.' The Mishnah and Talmud are human commentary, revered by the rabbis but never revealed at Sinai.",
+      "facet": "The cleanest test-case of what happens when a revealed text is stripped of its interpretive guild: each Karaite is obligated to derive the law personally, and the community lived with the resulting plurality.",
+      "provenance": "Karaite legal literature from Benjamin al-Nahawandi (9th c.) onward; surveyed in Meira Polliack (ed.), Karaite Judaism: A Guide to Its History and Literary Sources (2003)."
+    },
+    {
+      "id": "karaite-judaism-avelei-zion",
+      "tradition": "karaite-judaism",
+      "kind": "rite",
+      "name": "Avelei Zion (the Mourners of Zion)",
+      "archetypes": [
+        "axis-mundi"
+      ],
+      "gloss": "The ascetic Karaite community that answered Daniel al-Qumisi's 9th-century call to leave the diaspora and settle Jerusalem — fasting, keeping night-vigils, and weeping over the ruined Temple to hasten the redemption.",
+      "facet": "Mourning weaponized into eschatology: grief for the lost center performed AT the center, on the conviction that the exile persists only because the exiled have not returned to weep in place.",
+      "provenance": "Daniel al-Qumisi's epistle urging settlement of Jerusalem; the Jerusalem Karaite corpus studied by Yoram Erder (The Karaite Mourners of Zion) and in Cairo Geniza documents."
+    },
+    {
+      "id": "karaite-judaism-qirqisani",
+      "tradition": "karaite-judaism",
+      "kind": "hero",
+      "name": "Ya'qub al-Qirqisani",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The 10th-century systematizer whose Kitab al-Anwar wal-Maraqib (937) codified Karaite law and opened with the earliest surviving comparative survey of Jewish sects — rabbinic, Karaite, and vanished alike.",
+      "facet": "The dissident as the tradition's best historian: because Karaism had to justify its split, it produced the map of Jewish diversity that the majority had no reason to draw.",
+      "provenance": "Kitab al-Anwar wal-Maraqib, ed. Nemoy (1939-43); treated throughout Polliack's Guide."
+    },
+    {
+      "id": "karaite-judaism-aviv-calendar",
+      "tradition": "karaite-judaism",
+      "kind": "rite",
+      "name": "The Aviv Calendar",
+      "archetypes": [
+        "lunar"
+      ],
+      "gloss": "Months begun at the sighted new crescent and the year intercalated by inspecting the ripeness (aviv) of barley in the Land of Israel — the observational calendar kept against the rabbis' fixed calculation.",
+      "facet": "The scripture-only principle made agricultural: rather than trust Hillel II's computed calendar, the Karaite year is re-anchored every spring to a moon actually seen and a crop actually checked.",
+      "provenance": "Karaite halakhic literature on Exodus 12 and Deuteronomy 16; the practice is maintained by the Karaite community in Israel today, with annual aviv inspections."
+    },
+    {
+      "id": "karaite-judaism-chufut-kale",
+      "tradition": "karaite-judaism",
+      "kind": "place",
+      "name": "Chufut-Kale (the Crimean Rock-Citadel)",
+      "archetypes": [
+        "genius-loci"
+      ],
+      "gloss": "The plateau fortress-town near Bakhchysarai that became the heartland of the Turkic-speaking Crimean Karaites (Qaraylar), with its kenesas and the venerated oak cemetery of Balta Tiymez — 'the axe does not touch.'",
+      "facet": "Where a scriptural movement grew a folk landscape: sacred oaks over ancestral graves in a community that elsewhere prided itself on textual purism — and where 19th-century identity politics (Firkovich's doctored antiquities, the contested Khazar-descent theory) redrew who the Qaraylar said they were.",
+      "provenance": "Abraham Firkovich's manuscript collections (his tombstone-date forgeries exposed by Harkavy); modern treatments in Polliack's Guide and studies of the Qaraylar; the Khazar-descent claim is carried here as a contested 19th-century construction, not accepted history."
+    },
+    {
+      "id": "sufism-tariqa",
+      "tradition": "sufism",
+      "kind": "principle",
+      "name": "Tariqa (the Path and the Orders)",
+      "archetypes": [
+        "mystery-school",
+        "sacred-initiation"
+      ],
+      "gloss": "The Sufi order as institution: a master (shaykh, pir) binding disciples through initiation and an unbroken chain of transmission (silsila) reaching back to the Prophet — Qadiri, Naqshbandi, Chishti, Mevlevi and hundreds more.",
+      "facet": "Mysticism given a genealogy: ecstatic experience is not free-floating but franchised through lineage, so that a disciple in Delhi or Konya can name every hand between his own and Muhammad's.",
+      "provenance": "Order histories from al-Jilani (d. 1166, Qadiriyya), Mu'in al-Din Chishti (d. 1236), Baha' al-Din Naqshband (d. 1389); surveyed in Trimingham, The Sufi Orders in Islam, and Schimmel, Mystical Dimensions of Islam."
+    },
+    {
+      "id": "sufism-dhikr",
+      "tradition": "sufism",
+      "kind": "rite",
+      "name": "Dhikr (Remembrance)",
+      "archetypes": [
+        "creative-word",
+        "ecstatic-shaman"
+      ],
+      "gloss": "The rhythmic repetition of God's Name — voiced or silent, breath-tied, sometimes danced — practiced until remembrance displaces the rememberer; the Mevlevi whirling sema is its most famous choreography.",
+      "facet": "The technology at Sufism's core: not doctrine but a repeatable practice for dismantling the self with a single word, tuned differently by every order (the Naqshbandi silent, the Rifa'i loud).",
+      "provenance": "Qur'anic injunction to remember God often (e.g., 33:41) as the proof-text; manuals such as al-Qushayri's Risala and Schimmel's treatment of dhikr technique."
+    },
+    {
+      "id": "sufism-al-hallaj",
+      "tradition": "sufism",
+      "kind": "hero",
+      "name": "Mansur al-Hallaj",
+      "archetypes": [
+        "sacred-transgression"
+      ],
+      "gloss": "The ecstatic of Baghdad executed in 922 after years of imprisonment, remembered above all for the utterance 'Ana al-Haqq' — 'I am the Truth/Real' — divine union spoken aloud in the marketplace.",
+      "facet": "The tradition's boundary-stone: later Sufis (Junayd's sober school) judged him not wrong but INDISCREET — the secret of union was true and should have stayed secret; his gallows became a station of the path.",
+      "provenance": "Louis Massignon, The Passion of al-Hallaj; the trial and execution are historically documented, while the exact circumstances of the 'Ana al-Haqq' utterance rest on later hagiography — flagged."
+    },
+    {
+      "id": "sufism-ibn-arabi",
+      "tradition": "sufism",
+      "kind": "hero",
+      "name": "Ibn 'Arabi",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The Andalusian 'Greatest Master' (al-Shaykh al-Akbar, 1165-1240), whose Meccan Revelations and Ringstones of Wisdom articulate the vision later named wahdat al-wujud — the oneness of being, all existence as the self-disclosure of the One.",
+      "facet": "The metaphysical ceiling of the tradition: every thing that exists is a face God shows Himself — though the label wahdat al-wujud is his school's coinage more than his own phrase, a precision his defenders and detractors both blur.",
+      "provenance": "Al-Futuhat al-Makkiyya and Fusus al-Hikam; Chittick, The Sufi Path of Knowledge, including the point that the term wahdat al-wujud is scarcely Ibn 'Arabi's own."
+    },
+    {
+      "id": "sufism-rumi",
+      "tradition": "sufism",
+      "kind": "hero",
+      "name": "Jalal al-Din Rumi",
+      "archetypes": [
+        "culture-hero"
+      ],
+      "gloss": "The Persian poet of Konya (1207-1273) whose meeting with the wandering dervish Shams of Tabriz turned a jurist into the singer of the Masnavi — six books of couplets his followers call 'the Qur'an in Persian' — and whose circle became the Mevlevi order.",
+      "facet": "Proof that a mystical tradition can conquer through beauty alone: Rumi's verse carried Sufism further than any conquest or mission, into languages and centuries that never saw a lodge.",
+      "provenance": "Masnavi-yi Ma'navi and Divan-i Shams; Franklin Lewis, Rumi: Past and Present, East and West. The Mevlevi order was institutionalized by his son Sultan Walad."
+    },
+    {
+      "id": "sufism-wali",
+      "tradition": "sufism",
+      "kind": "concept",
+      "name": "Wali (the Friend of God) and the Shrine",
+      "archetypes": [
+        "active-intercessors"
+      ],
+      "gloss": "The saint whose closeness to God persists after death, sought at tomb-shrines from Ajmer to Touba through visitation (ziyara), offerings, and petitions for intercession — the devotional infrastructure of much of the Islamic world.",
+      "facet": "Where Sufism meets the ground: the shrine network made the friends of God locally addressable — and made Sufism the prime target of the modern Salafi campaign against 'grave-worship,' from 19th-century polemic to the demolition of shrines in our own decade.",
+      "provenance": "Classical sainthood doctrine in al-Hakim al-Tirmidhi and Ibn 'Arabi; shrine culture and its Salafi opponents documented across modern ethnography and reportage (e.g., destruction of Sufi shrines in Timbuktu, 2012, tried before the ICC)."
+    },
+    {
+      "id": "ismailism-imam",
+      "tradition": "ismailism",
+      "kind": "principle",
+      "name": "The Imam of the Time (Hazir Imam)",
+      "archetypes": [
+        "axis-mundi",
+        "one-through-many"
+      ],
+      "gloss": "The living, divinely designated Imam in unbroken descent from 'Ali and Fatima through Isma'il — for Nizaris today the Aga Khan (the 50th Imam, since 2025); for Tayyibis an Imam in concealment represented by the Da'i al-Mutlaq of the Bohra communities.",
+      "facet": "Shi'ism's boldest continuity claim kept literal: where Twelvers await a hidden Imam, Nizari Ismailism maintains a PRESENT one — revelation's interpreter alive, addressable, and issuing guidance now.",
+      "provenance": "Fatimid imamate doctrine (al-Qadi al-Nu'man, Da'a'im al-Islam); Farhad Daftary, The Isma'ilis: Their History and Doctrines; the Aga Khan succession of 2025 is public record."
+    },
+    {
+      "id": "ismailism-batin",
+      "tradition": "ismailism",
+      "kind": "principle",
+      "name": "Batin and Zahir (the Inner and the Outer)",
+      "archetypes": [
+        "mystery-school"
+      ],
+      "gloss": "Every revelation has an outward letter (zahir) and an inner truth (batin) reachable only through the Imam's authorized interpretation (ta'wil) — the hermeneutic that earned Ismailis the polemical name Batiniyya.",
+      "facet": "Esotericism as constitutional principle rather than mood: the inner meaning is not free for the finding but keyed to a living interpretive office — hermeneutics and imamate lock into a single doctrine.",
+      "provenance": "Fatimid ta'wil literature (al-Qadi al-Nu'man, Ja'far ibn Mansur al-Yaman); analyzed in Daftary and in Henry Corbin's studies of Ismaili gnosis."
+    },
+    {
+      "id": "ismailism-dawa",
+      "tradition": "ismailism",
+      "kind": "concept",
+      "name": "The Da'wa (the Summons)",
+      "archetypes": [
+        "sacred-initiation",
+        "mystery-school"
+      ],
+      "gloss": "The graded missionary organization — da'is, hujjas, and ranks of instruction — that carried Ismailism from clandestine cells across the Abbasid world to an empire: the Fatimid caliphate (909-1171) that built Cairo and al-Azhar.",
+      "facet": "The rare case of an esoteric hierarchy scaling into a state: the same initiatory ladder that swore in a village disciple administered an empire from Sicily to Sind at its height.",
+      "provenance": "Fatimid da'wa documented in al-Qadi al-Nu'man and later Tayyibi sources; Daftary, The Isma'ilis; Heinz Halm, The Empire of the Mahdi."
+    },
+    {
+      "id": "ismailism-alamut",
+      "tradition": "ismailism",
+      "kind": "place",
+      "name": "Alamut",
+      "archetypes": [
+        "mystery-school"
+      ],
+      "gloss": "The Elburz mountain fortress seized by Hasan-i Sabbah in 1090, seat of the Nizari state and its famed library until the Mongols razed it in 1256 — and the site where the Qiyama, the spiritual Resurrection, was proclaimed in 1164.",
+      "facet": "The most defamed address in religious history: the 'Assassins' of Crusader rumor and Marco Polo's drugged-garden tale were a besieged scholastic community whose real story — hostile sources burned their own — had to be reconstructed from their enemies; the legend, not the order, is the sensation.",
+      "provenance": "Juwayni's hostile eyewitness account of Alamut's fall; the legend dismantled in Farhad Daftary, The Assassin Legends: Myths of the Isma'ilis; 'hashishiyya' attested as a pejorative label, not a description of practice."
+    },
+    {
+      "id": "ismailism-rasail-ikhwan",
+      "tradition": "ismailism",
+      "kind": "text",
+      "name": "Rasa'il Ikhwan al-Safa (Epistles of the Brethren of Purity)",
+      "archetypes": [
+        "one-through-many"
+      ],
+      "gloss": "The anonymous 10th-century Basran encyclopedia — 52 epistles running from arithmetic and music to cosmology and the soul's ascent — framing all the sciences as one ladder back to the One.",
+      "facet": "Esoteric Islam's bid to own the whole curriculum: number, harmony, and Neoplatonic emanation braided into a single initiatory syllabus — its precise Ismaili affiliation is a long scholarly debate (adopted by the later Tayyibi da'wa, whatever its origin), flagged.",
+      "provenance": "The Rasa'il themselves (Oxford/IIS critical edition in progress since 2008); affiliation debate surveyed in Daftary and in Nader El-Bizri's introductory volume."
     }
   ],
   "edges": [
@@ -52911,6 +58185,2974 @@ window.MIRROR_DATA = {
       "type": "analogous",
       "tier": "4",
       "note": "Both are Southern/West African powers tied to storm and the sky's bounty, but Sango is a thunder-king and Nomkhubulwane a rain-and-grain princess — a loose regional rhyme, not a cognate."
+    },
+    {
+      "a": "catholicism-mass",
+      "b": "christianity-eucharist",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The Mass is the Roman elaboration of the shared Christian eucharist — same rite, same institution narrative, with transubstantiation as the distinctively Catholic metaphysical claim."
+    },
+    {
+      "a": "catholicism-marian-apparitions",
+      "b": "christianity-mary",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The apparitions are Catholicism's living extension of the same Theotokos — the God-bearer of the Councils appearing as a localized, speaking presence."
+    },
+    {
+      "a": "catholicism-communion-of-saints",
+      "b": "santeria-chango",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The saints-over-orisha mask — in Cuba, Changó was overlaid on Santa Bárbara through shared red garments, castles, and lightning; the Catholic saint calendar became the orishas' public face."
+    },
+    {
+      "a": "catholicism-communion-of-saints",
+      "b": "vodou-haitian-legba",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In Haiti, Papa Legba took the chromolithographs of St. Peter (the keys) and St. Lazarus (the crutch and dog) as his images — Catholic saint iconography repurposed as lwa portraiture."
+    },
+    {
+      "a": "catholicism-communion-of-saints",
+      "b": "umbanda-oxala",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In Brazil, Oxalá is overlaid on Christ as Senhor do Bonfim, and Umbanda's altars run on Catholic saint imagery generally — the same saints-as-mask mechanism operating a generation deeper into synthesis."
+    },
+    {
+      "a": "catholicism-marian-apparitions",
+      "b": "aztec-coatlicue",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Sahagún (c. 1576) protested that the Guadalupe shrine at Tepeyac continued the cult of Tonantzin, 'Our Mother' — the site-continuity is attested; mapping Tonantzin onto the surviving figure of Coatlicue is approximate."
+    },
+    {
+      "a": "catholicism-papacy",
+      "b": "rastafari-babylon",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: Rastafari discourse explicitly names the papacy an organ of Babylon — one tradition's world-axis is the other's world-prison, an attested polemical identification, not a projection."
+    },
+    {
+      "a": "catholicism-mass",
+      "b": "catholicism-purgatory",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Masses offered for the dead are the engine of purgatory's economy — the sacrifice on the altar applied to souls in purification."
+    },
+    {
+      "a": "catholicism-jesuits",
+      "b": "catholicism-papacy",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The professed Jesuit's fourth vow binds the order to the pope directly for missions — the 'Black Pope' serves the white-clad one by constitution."
+    },
+    {
+      "a": "eastern-orthodoxy-liturgy",
+      "b": "christianity-eucharist",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The Divine Liturgy is the Byzantine elaboration of the shared Christian eucharist — the same sacrament staged as realized eschatology."
+    },
+    {
+      "a": "eastern-orthodoxy-theosis",
+      "b": "neoplatonism-epistrophe",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: Documented transmission — Pseudo-Dionysius (c. 500) carried Proclus's ascent-and-return metaphysics into Christian mysticism (shown by Koch and Stiglmayr, 1895), and through him theosis speaks emanationist grammar baptized."
+    },
+    {
+      "a": "eastern-orthodoxy-icon",
+      "b": "neoplatonism-synthemata",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both hold that matter can carry a charge of divine presence upward — though icon theology insists the image mediates to a prototype rather than housing a resident power."
+    },
+    {
+      "a": "eastern-orthodoxy-hesychasm",
+      "b": "neoplatonism-theourgia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both are late-antique-descended ritual technologies for union with the divine that recruit the body — breath, posture, repeated formulae — against the claim that intellect alone can ascend."
+    },
+    {
+      "a": "eastern-orthodoxy-hesychasm",
+      "b": "islam-fana",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The Jesus Prayer and Sufi dhikr are parallel disciplines of unceasing divine-name repetition dissolving the ego toward union — a long-noted structural kinship, not a documented borrowing."
+    },
+    {
+      "a": "eastern-orthodoxy-theosis",
+      "b": "eastern-orthodoxy-hesychasm",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Hesychasm is theosis's method: the prayer of stillness is how the doctrine of deification is practiced rather than merely professed."
+    },
+    {
+      "a": "eastern-orthodoxy-athos",
+      "b": "eastern-orthodoxy-hesychasm",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Athos is hesychasm's home ground — Palamas was an Athonite monk, and the Holy Mountain remains the practice's living transmission line."
+    },
+    {
+      "a": "oriental-orthodoxy-miaphysis",
+      "b": "christianity-christ",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The same incarnate Christ of the shared tradition — the non-Chalcedonian family diverges at 451 over how, not whether, God and man are one in him."
+    },
+    {
+      "a": "oriental-orthodoxy-kebra-nagast",
+      "b": "rastafari-jah",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: The Kebra Nagast's Solomonic charter is the documentary spine of Haile Selassie's throne titles ('Conquering Lion of the Tribe of Judah'), and Rastafari reads the emperor's divinity directly through this Ethiopian text — an attested textual transmission."
+    },
+    {
+      "a": "oriental-orthodoxy-tabot",
+      "b": "rastafari-zion",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both relocate Zion to Ethiopia — the Tewahedo church by claiming the Ark at Aksum, Rastafari by naming Ethiopia the promised land; kindred Ethiopianist claims rather than one documented chain."
+    },
+    {
+      "a": "oriental-orthodoxy-anthony",
+      "b": "eastern-orthodoxy-athos",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: Athonite monasticism stands in the direct historical lineage of Anthony's Egyptian desert experiment, transmitted through Basil and Byzantine cenobitism."
+    },
+    {
+      "a": "oriental-orthodoxy-kebra-nagast",
+      "b": "oriental-orthodoxy-tabot",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The epic narrates what the cult enacts: Menelik's theft of the Ark is the story for which every church's tabot is the standing physical witness."
+    },
+    {
+      "a": "oriental-orthodoxy-miaphysis",
+      "b": "oriental-orthodoxy-gregory-illuminator",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Gregory's national church, converted before Chalcedon, became a pillar of the non-Chalcedonian communion when Armenia rejected the council at Dvin (506-508)."
+    },
+    {
+      "a": "protestantism-luther",
+      "b": "protestantism-sola-scriptura",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Sola scriptura is Luther's formal principle — Scripture over pope and council, staked at Leipzig (1519) and Worms (1521)."
+    },
+    {
+      "a": "protestantism-luther",
+      "b": "protestantism-priesthood-of-all-believers",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Luther articulated the universal priesthood in To the Christian Nobility (1520) as the demolition charge under the clerical estate."
+    },
+    {
+      "a": "protestantism-luther",
+      "b": "christianity-cross",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: Direct descent — the Reformation is a reform within Latin Christianity, and Luther's theology of the cross re-centers the whole tradition on the Pauline atonement, claiming recovery, not new revelation."
+    },
+    {
+      "a": "protestantism-sola-scriptura",
+      "b": "christianity-christ",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: Same Christ, same creeds — Protestantism keeps Nicaea and Chalcedon intact and disputes only the mediating apparatus between Christ and the believer."
+    },
+    {
+      "a": "protestantism-priesthood-of-all-believers",
+      "b": "new-thought-divine-mind",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM (downstream): New Thought grew from New England's Protestant milieu — Quimby, post-Unitarian Transcendentalism, Emma Curtis Hopkins — radicalizing the unmediated believer into a mind that directly works the Divine."
+    },
+    {
+      "a": "protestantism-sola-scriptura",
+      "b": "new-thought-affirmation",
+      "type": "bridge",
+      "tier": "3",
+      "note": "GOLD SEAM: The Protestant conviction that the Word itself effects what it declares is secularized in New Thought's affirmation — the sermon's performative speech re-tooled as self-administered decree."
+    },
+    {
+      "a": "protestantism-priesthood-of-all-believers",
+      "b": "mystery-school",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The structural inverse of graded initiatory secrecy: the Reformation prints the innermost text in the vernacular and hands it to every plowboy."
+    },
+    {
+      "a": "pentecostalism-spirit-baptism",
+      "b": "pentecostalism-glossolalia",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The 'initial evidence' doctrine formulated at Parham's Topeka school (1901): tongues is the outward sign that Spirit baptism has occurred."
+    },
+    {
+      "a": "pentecostalism-seymour",
+      "b": "pentecostalism-azusa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Seymour led the Azusa Street mission from its opening in April 1906; the man and the address are the movement's twin origin marks."
+    },
+    {
+      "a": "pentecostalism-spirit-baptism",
+      "b": "protestantism-new-birth",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: Direct descent — Pentecostalism was born inside the Wesleyan-Holiness wing of Protestantism, and Spirit baptism is framed as a further work of grace presupposing the evangelical new birth."
+    },
+    {
+      "a": "pentecostalism-seymour",
+      "b": "protestantism-priesthood-of-all-believers",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Azusa radicalized the universal priesthood — the Spirit falling on women, laborers, and the formally unordained, who preached and prophesied on the spot."
+    },
+    {
+      "a": "pentecostalism-glossolalia",
+      "b": "jamaican-revival-trumping",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: When Pentecostal missions reached Jamaica in the early 20th century they met Revival Zion's existing trance repertoire — trumping and tongues read each other instantly, two Afro-Protestant fusions of evangelical revival with African possession practice (Austin-Broos, Jamaica Genesis, 1997)."
+    },
+    {
+      "a": "pentecostalism-spirit-baptism",
+      "b": "jamaican-revival-myal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both stage the Spirit's descent into the congregant's body as communal healing event — though Myal admits a plural spirit-world where Pentecostalism admits only the Holy Spirit."
+    },
+    {
+      "a": "pentecostalism-divine-healing",
+      "b": "new-thought-prosperity-consciousness",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Word of Faith wing (E. W. Kenyon → Kenneth Hagin) carries New Thought mind-power themes into Pentecostal healing and prosperity teaching; the degree of direct borrowing is debated, the family resemblance is not (Kate Bowler, Blessed, 2013)."
+    },
+    {
+      "a": "keylontic-science-guardian-alliance",
+      "b": "ascended-masters-great-white-brotherhood",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both administer Earth's evolution through a graded hierarchy of benevolent non-human intelligences; the Guardian material inherits the Theosophical brotherhood template but militarizes it into grid defense."
+    },
+    {
+      "a": "keylontic-science-ashayana-deane",
+      "b": "channeling-trance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Deane's 'translation' of Guardian transmissions is received inner dictation in all but name — the tradition's own refusal of the channel label marks how close the mechanism runs."
+    },
+    {
+      "a": "keylontic-science-guardian-alliance",
+      "b": "ufo-elohim",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both recast the biblical Elohim as extraterrestrial actors: Raelism makes them humanity's laboratory creators, Voyagers splits them into guardian and fallen factions warring over the genome."
+    },
+    {
+      "a": "keylontic-science-emerald-covenant",
+      "b": "hermeticism-emerald-tablet",
+      "type": "syncretic",
+      "tier": "3",
+      "note": "Deliberate modern borrowing of the emerald/Thoth emblem (via Doreal's 1939 'Emerald Tablets of Thoth', not the Greco-Egyptian corpus): Voyagers recasts Thoth's tablets as distorted excerpts of its own CDT-Plates — reinterpretation with the priority reversed, not descent."
+    },
+    {
+      "a": "keylontic-science-fall-of-tara",
+      "b": "sophia",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both begin with a pre-cosmic fall that fragments divine essence into lower worlds, making the material realm a rescue architecture rather than a home."
+    },
+    {
+      "a": "law-of-one-the-contact",
+      "b": "channeling-trance",
+      "type": "analogous",
+      "tier": "2",
+      "note": "The same attested practice and era — deep-trance vocal channeling in the American milieu of Seth and Ramtha; L/L Research names its own work channeling, adding an experimental discipline to it."
+    },
+    {
+      "a": "law-of-one-ra",
+      "b": "ra",
+      "type": "syncretic",
+      "tier": "3",
+      "note": "Reinterpretation, not descent: the 1981 entity claims to be the misremembered referent of Egyptian sun-worship — an identification made by the channel three millennia after the cult, running backward from Louisville to Heliopolis."
+    },
+    {
+      "a": "law-of-one-the-harvest",
+      "b": "new-age-age-of-aquarius",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Two datings of the same expected planetary graduation; the Ra Material's harvest-and-densities vocabulary demonstrably fed the later New Age ascension discourse around 2012."
+    },
+    {
+      "a": "law-of-one-social-memory-complex",
+      "b": "ufo-cosmic-masters",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Both are benevolent interplanetary councils from the attested contactee milieu: Elkins built the Ra experiment on channeling protocols inherited from 1950s contactee circles, as Book I's introduction documents."
+    },
+    {
+      "a": "law-of-one-densities",
+      "b": "new-age-vibrational-energy",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both grade reality by frequency and make spiritual progress a climb through vibratory strata."
+    },
+    {
+      "a": "course-in-miracles-text",
+      "b": "channeling-acim-voice",
+      "type": "bridge",
+      "tier": "1",
+      "note": "The same event on both sides of the seam: the channeling shard holds the dictating Voice; this shard holds the scribe, the curriculum, and the community it produced."
+    },
+    {
+      "a": "course-in-miracles-the-ego",
+      "b": "new-thought-error",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both dissolve evil into epistemology — a false belief with no ontological standing, cured by corrected mind rather than combat; the Course adds a psychoanalytic account of why the error defends itself."
+    },
+    {
+      "a": "course-in-miracles-holy-spirit",
+      "b": "new-thought-christ-consciousness",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both universalize 'Christ' from a person into a state or function present in every mind, demoting the historical Jesus to its clearest demonstrator."
+    },
+    {
+      "a": "course-in-miracles-text",
+      "b": "christ",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The text's own authorship claim: the dictating Voice is identified as Jesus and speaks in the first person about his crucifixion — attested as the tradition's self-understanding, not as history."
+    },
+    {
+      "a": "mazdakism-light-and-darkness",
+      "b": "angra-mainyu",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Child heresy of the Zoroastrian two-spirits doctrine: Mazdak's blind, accidental Darkness is Ahriman demoted from strategist to stumbling force — a reform reading (drist-dēn) from inside the Zoroastrian fold, known only through its enemies."
+    },
+    {
+      "a": "mazdakism-lord-of-light",
+      "b": "ahura-mazda",
+      "type": "cognate",
+      "tier": "2",
+      "note": "The enthroned Lord of Light is Ohrmazd re-imagined through the Sasanian court — the same supreme good deity, re-furnished with four Powers, seven viziers, and twelve spiritual forces."
+    },
+    {
+      "a": "mazdakism-light-and-darkness",
+      "b": "manichaeism-prince-of-darkness",
+      "type": "analogous",
+      "tier": "2",
+      "note": "Peer movements of Iranian dualism: Shahrastani likens Mazdak's doctrine to Mani's point by point, with one deliberate swap — Mani's Darkness invades by will, Mazdak's collides by chance."
+    },
+    {
+      "a": "mazdakism-common-store",
+      "b": "manichaeism-az",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both diagnose Āz — greed and desire — as the engine of bondage; Mani starves it by the asceticism of the Elect, Mazdak by abolishing the inequality that feeds it."
+    },
+    {
+      "a": "mazdakism-mazdak",
+      "b": "manichaeism-mani",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two prophets of Iranian dualist reform raised up and then destroyed by Sasanian kings — Mani dead in Bahram I's prison, Mazdak massacred with his movement on Khosrow I's order."
+    },
+    {
+      "a": "latter-day-saints-joseph-smith",
+      "b": "latter-day-saints-book-of-mormon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The book is Smith's founding act and credential — the 'keystone' whose existence is the movement's argument for his prophethood."
+    },
+    {
+      "a": "latter-day-saints-moroni",
+      "b": "latter-day-saints-book-of-mormon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Moroni is at once the book's final ancient author and its modern deliverer — custodian of the record on both sides of the grave."
+    },
+    {
+      "a": "latter-day-saints-endowment",
+      "b": "latter-day-saints-exaltation",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The endowment and temple sealing are the ordinance-track to exaltation — the rite exists to move candidates along the road the doctrine names."
+    },
+    {
+      "a": "latter-day-saints-joseph-smith",
+      "b": "christianity-christ",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Restorationist descent — the movement arose inside Second Great Awakening Protestantism and claims to restore, not reform, Christ's primitive church; the same Christ, radically reframed by an embodied Father and a non-Nicene Godhead."
+    },
+    {
+      "a": "latter-day-saints-endowment",
+      "b": "freemasonry-third-degree",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Smith was raised a Master Mason in Nauvoo on 15–16 March 1842; the endowment, introduced seven weeks later, carried documented Masonic ritual elements — signs, tokens, penalties, the five points of fellowship (the penalties removed in 1990)."
+    },
+    {
+      "a": "latter-day-saints-exaltation",
+      "b": "eastern-orthodoxy-theosis",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both teach human deification, but the kinship is structural, not genetic — theosis preserves the creature/Creator divide as participation in divine energies, while exaltation dissolves it into a single eternal species."
+    },
+    {
+      "a": "jehovahs-witnesses-russell",
+      "b": "adventism-william-miller",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Shared Millerite root — Russell's faith was rekindled by Second Adventist preaching (Wendell) and his chronology came from the Advent Christian Barbour; the Watch Tower system is a grandchild of the Great Disappointment that made the advent invisible."
+    },
+    {
+      "a": "jehovahs-witnesses-russell",
+      "b": "jehovahs-witnesses-kingdom-1914",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The 1914 chronology is Russell's signature doctrine, in print from 1876 onward — the movement's spine before and after his death."
+    },
+    {
+      "a": "jehovahs-witnesses-144000",
+      "b": "jehovahs-witnesses-kingdom-1914",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The anointed are the personnel of the 1914 Kingdom — Christ's co-rulers in the heavenly government that will replace all earthly ones."
+    },
+    {
+      "a": "jehovahs-witnesses-blood",
+      "b": "christianity-eucharist",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Two readings of the same Levitical premise that life resides in blood — the Eucharist centers on drinking the sacred blood, the Witness taboo forbids taking blood in at all."
+    },
+    {
+      "a": "adventism-william-miller",
+      "b": "protestantism-sola-scriptura",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: Direct descent — Miller was a licensed Baptist preacher and Millerism arose wholly inside revivalist Protestantism; his prophetic arithmetic is sola scriptura radicalized into a layman's equation."
+    },
+    {
+      "a": "adventism-william-miller",
+      "b": "adventism-heavenly-sanctuary",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The sanctuary doctrine is the direct answer to Miller's failed date — 22 October 1844 kept as correct, its event relocated from earth to the temple in heaven."
+    },
+    {
+      "a": "adventism-ellen-white",
+      "b": "adventism-heavenly-sanctuary",
+      "type": "pairs",
+      "tier": "2",
+      "note": "White's early visions endorsed the sanctuary reinterpretation, welding the scattered post-Disappointment remnant into a church."
+    },
+    {
+      "a": "adventism-ellen-white",
+      "b": "adventism-health-message",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The health message enters the tradition through White's Otsego vision of June 1863 and remains tied to her prophetic authority."
+    },
+    {
+      "a": "adventism-branch-davidians",
+      "b": "adventism-ellen-white",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Houteff, the Rodens, and Koresh each claimed the continuing prophetic office the church institutionalized in White — the schism runs along the tradition's own live wire."
+    },
+    {
+      "a": "adventism-william-miller",
+      "b": "ghost-dance-wovoka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Nineteenth-century American millenarian prophets whose date-specific hope of a transformed world survived disconfirmation by reinterpretation rather than collapse."
+    },
+    {
+      "a": "christian-science-eddy",
+      "b": "christian-science-science-and-health",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The book is Eddy's 'discovery' fixed in final form — she revised it for thirty-five years and then bound her church to it by statute."
+    },
+    {
+      "a": "christian-science-god-as-principle",
+      "b": "christian-science-mortal-mind",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Divine Mind is the sole reality; mortal mind is its illusory negative — the whole system is this single inversion worked out."
+    },
+    {
+      "a": "christian-science-treatment",
+      "b": "christian-science-mortal-mind",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Treatment exists to dissolve mortal mind's claims — the rite is the doctrine of error applied case by case."
+    },
+    {
+      "a": "christian-science-mortal-mind",
+      "b": "new-thought-error",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Shared Quimby milieu — Eddy was Quimby's patient (1862–65) and the Dressers carried his mind-cure into New Thought; but a seam, not a subset: Eddy denied the debt, the 1883–87 'Quimby controversy' litigated it, and the direction of dependence remains contested."
+    },
+    {
+      "a": "christian-science-eddy",
+      "b": "new-thought-divine-mind",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: Emma Curtis Hopkins, Eddy's student and Journal editor (1884–85), left to become New Thought's 'teacher of teachers' — Christian Science vocabulary flowed into New Thought through her classroom even as Eddy anathematized mind-cure."
+    },
+    {
+      "a": "christian-science-science-and-health",
+      "b": "protestantism-sola-scriptura",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: Eddy's Congregationalist inheritance radicalized — the Protestant relocation of authority from clergy to text is completed by ordaining two books as the church's only pastor."
+    },
+    {
+      "a": "quakers-inner-light",
+      "b": "protestantism-priesthood-of-all-believers",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: direct descent — Friends emerged from the radical Puritan and Seeker wing of the English Reformation, driving the universal priesthood to its terminus: no clergy, no outward sacraments, the Light immediate in every person."
+    },
+    {
+      "a": "quakers-meeting-for-worship",
+      "b": "protestantism-sola-scriptura",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Within the same family, the formal principle inverted: Friends set the living Spirit above the letter — Scripture is confirmed by the Light that gave it, and worship needs no book at all."
+    },
+    {
+      "a": "quakers-george-fox",
+      "b": "quakers-inner-light",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Fox's 1647 'opening' — one, even Christ Jesus, who can speak to thy condition — is the experiential seed the Inner Light doctrine formalizes."
+    },
+    {
+      "a": "quakers-john-woolman",
+      "b": "quakers-testimonies",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Woolman's abolition ministry is the equality testimony enacted: the same Light in every person makes owning a person an offense against God's presence in them."
+    },
+    {
+      "a": "shakers-mother-ann-lee",
+      "b": "quakers-meeting-for-worship",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM (origin): the Wardleys' Manchester society (c.1747) were 'Shaking Quakers' — ex-Friends whose silent waiting broke into Camisard-style ecstatic prophecy; Ann Lee's Believers carried both the name and the waiting-then-shaking worship to America."
+    },
+    {
+      "a": "shakers-era-of-manifestations",
+      "b": "spiritualism-medium",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Shaker instruments channeled the dead from 1837 — eleven years before the Hydesville raps — and Believers later greeted Spiritualism as their own gift gone abroad; anticipation and welcome are attested, descent is not claimed."
+    },
+    {
+      "a": "shakers-mother-ann-lee",
+      "b": "christianity-christ",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Shaker doctrine reads Ann Lee as the second, female appearing of the Christ-spirit that first dwelt in Jesus — the two appearings completing the Father-Mother image of God."
+    },
+    {
+      "a": "shakers-holy-mother-wisdom",
+      "b": "shakers-era-of-manifestations",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Holy Mother Wisdom's personal visitations through entranced instruments were the Era's theological summit, dictating Bates's Divine Book of Holy and Eternal Wisdom (1849)."
+    },
+    {
+      "a": "unification-church-true-parents",
+      "b": "christianity-christ",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: Divine Principle holds that Jesus won spiritual salvation but was crucified before marrying; the True Parents claim to complete the physical restoration he left undone — a doctrinal graft directly onto Christology."
+    },
+    {
+      "a": "unification-church-divine-principle",
+      "b": "christianity-fall",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The text's hinge is a rereading of Genesis 3 — the Fall as Lucifer's sexual seduction of Eve — making misused love the root sin and the restored God-centered family its cure."
+    },
+    {
+      "a": "unification-church-sun-myung-moon",
+      "b": "mudang",
+      "type": "bridge",
+      "tier": "3",
+      "note": "GOLD SEAM: the shamanic-Christian substrate of Korean new religions — Moon's revelatory spirit-world traffic and Korea-centered providence grew from the same soil where mudang practice met revivalist Christianity; shared milieu, not descent."
+    },
+    {
+      "a": "unification-church-indemnity",
+      "b": "christianity-cross",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Indemnity generalizes atonement: where the Cross pays once for all, tanggam distributes restitution across every believer's acts — restoration by accumulated conditions rather than a single sacrifice."
+    },
+    {
+      "a": "kimbanguism-simon-kimbangu",
+      "b": "kimbanguism-nkamba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The prophet and his holy city are one cult: the 1921 healing, the 1960 return of the body, and the mausoleum bind Kimbangu permanently to Nkamba-Jerusalem."
+    },
+    {
+      "a": "kimbanguism-ngunzism",
+      "b": "minkisi",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): Kimbangu ordered minkisi destroyed while assuming the very healing office the nganga and ngunza had filled — MacGaffey documents the Kongo prophet as the power-object's iconoclast successor."
+    },
+    {
+      "a": "kimbanguism-nkamba",
+      "b": "bakulu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The pilgrimage to the prophet's enshrined body and the earth of his village resonates with Kongo devotion to the powerful dead — a structural echo the church itself would reject as ancestor-cult, flagged accordingly."
+    },
+    {
+      "a": "kimbanguism-simon-kimbangu",
+      "b": "christianity-christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: the church's own name styles Kimbangu Christ's 'special envoy,' and his arrest, colonial trial, and thirty-year passion are read liturgically through the trial of Christ."
+    },
+    {
+      "a": "kimbanguism-divinization",
+      "b": "christianity-trinity",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Kimbanguist doctrine maps the founder and his three sons onto the Trinity — an attested, internally central, ecumenically contested re-inhabiting of Nicene structure."
+    },
+    {
+      "a": "kimbanguism-simon-kimbangu",
+      "b": "ghost-dance-wovoka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Colonial-era prophets whose healing revivals were answered with state suppression — mass deportations in the Congo, massacre at Wounded Knee — the same collision of indigenous prophecy and settler power."
+    },
+    {
+      "a": "aladura-babalola",
+      "b": "aladura-omi-iye",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The 1930 Ilesa revival ran on Babalola's sanctified water — prophet and sacrament are one event."
+    },
+    {
+      "a": "aladura-ota",
+      "b": "eshu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): the 19th-century Yoruba Bible rendered Satan as 'Èṣù,' and Aladura demonology inherited the equation — the orisha of the crossroads recast as the Enemy the praying churches battle."
+    },
+    {
+      "a": "aladura-babalola",
+      "b": "pentecostalism-divine-healing",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (kin wave): the Ijebu-Ode prayer band affiliated with Philadelphia's Faith Tabernacle from c. 1920, and Babalola's revival churches partnered with the British Apostolic Church from 1931 — the healing doctrine arrived through documented correspondence and mission, then was made Nigerian."
+    },
+    {
+      "a": "aladura-iran",
+      "b": "pentecostalism-spirit-baptism",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both movements re-open revelation in the present tense — the Spirit speaking now, through ordinary believers — but Aladura channels it through seen visions and dreams where classical Pentecostalism privileges tongues."
+    },
+    {
+      "a": "aladura-orimolade",
+      "b": "zion-christian-church-engenas-lekganyane",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Parallel founding prophets of the two great African-initiated church families of the same generation — both streams seeded in part by American divine-healing networks (Faith Tabernacle in Nigeria, Dowie's Zion in South Africa), both re-rooting Christianity in African healing pragmatics."
+    },
+    {
+      "a": "zion-christian-church-engenas-lekganyane",
+      "b": "zion-christian-church-moria",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Founder and holy city: Moria is the Lekganyane seat, and the Easter pilgrimage renews the dynasty's covenant with its millions annually."
+    },
+    {
+      "a": "zion-christian-church-engenas-lekganyane",
+      "b": "pentecostalism-spirit-baptism",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (kin wave): South African Zionism fused Dowie's Zion City healing movement with Azusa-derived Pentecostalism when the Apostolic Faith Mission arrived in 1908 — Lekganyane rose through exactly this Zionist-Apostolic stream before founding the ZCC."
+    },
+    {
+      "a": "zion-christian-church-baprofeti",
+      "b": "tswana-sotho-ditaola",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): Comaroff documents Zionist Spirit-diagnosis answering the same client demand the dingaka's divining bones once served — the consultation survives, re-sourced to the Holy Spirit."
+    },
+    {
+      "a": "zion-christian-church-baprofeti",
+      "b": "amadlozi",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): Sundkler's Zulu Zionist prophets receive a calling-sickness and a diagnostic office patterned on the isangoma, whose power flows from the amadlozi — the Spirit takes the structural seat of the shades."
+    },
+    {
+      "a": "zion-christian-church-moria",
+      "b": "rastafari-zion",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Zion relocated onto the believer's own continent — a Limpopo holy city and an Ethiopian promised land, two African re-plantings of the same biblical mountain."
+    },
+    {
+      "a": "zion-christian-church-badge",
+      "b": "ghost-dance-ghost-shirt",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Worn, blessed regalia carrying protection for the body of the believer — the badge and the shirt as membership and armor in one garment."
+    },
+    {
+      "a": "iglesia-ni-cristo-manalo",
+      "b": "iglesia-ni-cristo-sugo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The man and the office are one doctrine: Manalo's authority is the Sugo claim, and the church's founding date is its proof-text."
+    },
+    {
+      "a": "iglesia-ni-cristo-human-christ",
+      "b": "christianity-christ",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: the same Jesus, with the deity subtracted — the INC honors Christ as savior and mediator while denying precisely the incarnation claim that defines Nicene Christianity."
+    },
+    {
+      "a": "iglesia-ni-cristo-manalo",
+      "b": "christianity-trinity",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: the INC defines itself against the Trinity as a post-apostolic corruption — the seam to Christianity runs through the doctrine it exists to refuse."
+    },
+    {
+      "a": "iglesia-ni-cristo-manalo",
+      "b": "adventism-william-miller",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Manalo spent his formative years inside the American mission churches, ending with the Seventh-day Adventists (c. 1911-13), before founding the INC — the restorationist method descends through the Millerite lineage even as its conclusions diverge."
+    },
+    {
+      "a": "iglesia-ni-cristo-sugo",
+      "b": "jehovahs-witnesses-kingdom-1914",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two unrelated restorationist movements independently charge 1914 with decisive prophetic weight — the Watch Tower's end of the Gentile Times and the INC's registration at the war's outbreak."
+    },
+    {
+      "a": "rizalista-hermano-pule",
+      "b": "rizalista-jose-rizal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Ileto traces the line directly: the Cofradía's martyred brotherhood prepared the Banahaw pattern — mountain refuge, native-led devotion, colonial martyrdom — that received Rizal as its Christ."
+    },
+    {
+      "a": "rizalista-jose-rizal",
+      "b": "christianity-christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: the Rizalista churches explicitly identify Rizal with Christ — a Tagalog Christ whose December 30 martyrdom re-enacts the Passion on Philippine soil."
+    },
+    {
+      "a": "rizalista-jose-rizal",
+      "b": "catholicism-communion-of-saints",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: folk canonization without Rome — Rizal enters the intercessory economy of the saints, formalized as early as 1903 when the schismatic Philippine Independent Church canonized him."
+    },
+    {
+      "a": "rizalista-pamumuwesto",
+      "b": "anito-diwata",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): the puwesto continue the anito logic of springs, caves, and rocks as dwelling-places of power — pre-colonial sacred geography persisting under folk-Catholic names."
+    },
+    {
+      "a": "rizalista-jose-rizal",
+      "b": "cargo-cult-john-frum",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Divinized figures of the colonized who are awaited back — Rizal the returning king and John Frum the returning provider, each holding the promise that the colonial order will be overturned."
+    },
+    {
+      "a": "obeah-practitioner",
+      "b": "jamaican-revival-obeah",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The same craft: the Jamaican shard names obeah as a force within its island complex; this shard treats the pan-Anglo-Caribbean practice in its own right."
+    },
+    {
+      "a": "obeah-duppy-work",
+      "b": "jamaican-revival-duppy",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The duppy is the very spirit obeah catches and sets — one spirit ecology shared across the Anglo-Caribbean and its Jamaican shard."
+    },
+    {
+      "a": "obeah-practitioner",
+      "b": "jamaican-revival-myal",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Myal historically organized itself as the communal, congregational antidote to the obeah-man's private, hired craft — the attested polarity of Jamaican spiritual work."
+    },
+    {
+      "a": "obeah-bundle",
+      "b": "hoodoo-mojo-bag",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Parallel descendants of the same African bundle-technology in the Anglo-Caribbean and the US South — cognate craft, not descent of one from the other."
+    },
+    {
+      "a": "obeah-bundle",
+      "b": "minkisi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The obeah bundle carries forward the Kongo nkisi principle of binding spirit-force into a constructed, fed container of grave dirt and organic matter."
+    },
+    {
+      "a": "obeah-duppy-work",
+      "b": "hoodoo-graveyard-dirt",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both crafts contract the restless dead as spiritual mercenaries through grave materials — kindred Afro-Atlantic techniques on either side of the Caribbean."
+    },
+    {
+      "a": "obeah-oath",
+      "b": "nsamanfo",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The rebellion oath's grave-dirt-and-blood draught invokes the binding witness of the dead in the manner of Gold Coast (Akan) oath practice carried by Coromantee captives (Vincent Brown 2020); the further claim that the word 'obeah' itself is Akan (obayifo) is contested — tier-flagged, not asserted."
+    },
+    {
+      "a": "santa-muerte-la-flaquita",
+      "b": "catholicism-communion-of-saints",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The devotion wears the full Catholic apparatus — rosaries, novenas, votive candles, the very title 'Santa' — as a folk mask over an uncanonized figure the Church formally condemns (Ravasi, 2013)."
+    },
+    {
+      "a": "santa-muerte-la-flaquita",
+      "b": "aztec-mictlantecuhtli",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The popular claim that Santa Muerte descends from Mictecacihuatl and Mictlantecuhtli is CONTESTED — no documented continuity spans the colonial gap (Chesnut 2012); carried here as resonance, not descent."
+    },
+    {
+      "a": "santa-muerte-gauchito-gil",
+      "b": "catholicism-communion-of-saints",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "A folk canonization built entirely from Catholic saint-cult grammar — martyrdom narrative, miracle, shrine, feast day — operating without and despite Rome."
+    },
+    {
+      "a": "santa-muerte-san-la-muerte",
+      "b": "santa-muerte-la-flaquita",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two skeletal saints of historically independent origin — Guaraní Argentina and central Mexico — converging on the same devotional logic before any modern cross-contact (Graziano 2007; Chesnut 2012)."
+    },
+    {
+      "a": "santa-muerte-curanderismo",
+      "b": "espiritismo-despojo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The limpia and the despojo are sibling Latin American cleansing rites — sweeping the body with charged materials to strip away spiritual affliction."
+    },
+    {
+      "a": "santa-muerte-la-flaquita",
+      "b": "vodou-haitian-baron-samedi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Death personified as a skeletal patron of the marginal, paid in rum, cigars, and cigarette smoke — parallel New World figures with no demonstrated common descent."
+    },
+    {
+      "a": "maria-lionza-cortes",
+      "b": "espiritismo-comisiones",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The Venezuelan courts reproduce the Kardecist-derived commissions — the dead sorted into ethnic and professional legions — an espiritismo frame the cult absorbed in the 20th c. (Pollak-Eltz 1972)."
+    },
+    {
+      "a": "maria-lionza-materia",
+      "b": "espiritismo-medium",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The materia-banco pair descends from Kardecist mediumship as it creolized through the Caribbean — the same seance grammar re-tuned for full-body possession."
+    },
+    {
+      "a": "maria-lionza-materia",
+      "b": "santeria-asiento",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Since the late 20th c. Cuban Santería has interpenetrated Venezuelan practice — materias initiate as santeros and orichas appear beside the courts (Canals 2017)."
+    },
+    {
+      "a": "maria-lionza-la-reina",
+      "b": "pachamama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two South American female sovereigns of land and fertility who survived conquest by absorbing Catholic dress — the Andean earth-mother and the Venezuelan mountain queen, kin in function not descent."
+    },
+    {
+      "a": "maria-lionza-cortes",
+      "b": "catholicism-communion-of-saints",
+      "type": "bridge",
+      "tier": "2",
+      "note": "José Gregorio Hernández heads the Corte Médica while also canonized by Rome (2025) — one dead healer administered by two rival systems of intercession."
+    },
+    {
+      "a": "hausa-bori-iskoki",
+      "b": "hausa-bori-girka",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The rite exists for the winds: girka turns an iska's affliction into a governed, lifelong alliance — no initiation without a tormenting spirit to tame."
+    },
+    {
+      "a": "hausa-bori-iskoki",
+      "b": "islam-iblis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: under Islam the iskoki survive by reclassification as aljanu — the Qur'anic jinn-class to which Iblis belongs — orthodoxy's own demonology becoming the cover under which the old pantheon persists."
+    },
+    {
+      "a": "hausa-bori-babbaku-farfaru",
+      "b": "islam-allah",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: bori's map of its own Islamization — the order of Allah absorbed as the 'white' Muslim moiety of the pantheon while the pagan 'black' spirits keep the bush; a tension seam, not an equation."
+    },
+    {
+      "a": "hausa-bori-girka",
+      "b": "shango",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring West African possession idioms — Ṣàngó mounts his elegun as the iskoki ride their girka-made 'mares'; Hausa and Yoruba are unrelated language families, so the kinship is regional-typological, never cognate."
+    },
+    {
+      "a": "hausa-bori-girka",
+      "b": "zar-cult-ceremony",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The zar-bori complex (I. M. Lewis): twin African cults of affliction that heal by initiation and accommodation rather than exorcism; diffusion between them is argued — the Sudanese branch is even called 'zar bori' — but unproven, so the seam stays typological."
+    },
+    {
+      "a": "hausa-bori-magajiya",
+      "b": "zar-cult-shaykha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Women ritual masters of twin possession cults — the Magajiya and the shaykha are both graduated patients who became physicians of the spirit world."
+    },
+    {
+      "a": "hausa-bori-dan-galadima",
+      "b": "nat-burmese-ko-gyi-kyaw",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two beloved wastrel spirits — the gambling Hausa prince and the drinking Burmese playboy nat — possession pantheons on opposite sides of the world each keeping a spirit for the charming prodigal."
+    },
+    {
+      "a": "zar-cult-zayran",
+      "b": "zar-cult-ceremony",
+      "type": "pairs",
+      "tier": "2",
+      "note": "No zar without its beat: the ceremony exists to call each spirit by its own rhythm and bring it, named and negotiable, into the open."
+    },
+    {
+      "a": "zar-cult-zayran",
+      "b": "islam-iblis",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: like bori's iskoki, the zayran live inside Islam as a species of jinn — Boddy's Sudanese hosts class them as the 'red wind' — Qur'anic demonology licensing a women's cult that Islamic reformers condemn."
+    },
+    {
+      "a": "zar-cult-zayran",
+      "b": "oriental-orthodoxy-miaphysis",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: zar's other host faith — in Gondar the cult ran inside Tewahedo Christian households, its mediums baptized Christians (Leiris, 1932); the zayran lodge under the church without ever joining it."
+    },
+    {
+      "a": "zar-cult-accommodation",
+      "b": "hausa-bori-girka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both cults cure by adoption, not expulsion — the girka tames the iska into a lifelong mount-and-rider marriage exactly as the zar bargain converts affliction into contract; typological twins in Lewis's zar-bori complex, historical diffusion unproven."
+    },
+    {
+      "a": "zar-cult-shaykha",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Women whose call arrives as sickness and whose cure is the office itself — the shaykha and the Korean mudang both graduate from patient to specialist through the spirit that broke them."
+    },
+    {
+      "a": "bwiti-iboga",
+      "b": "bwiti-ngoze",
+      "type": "pairs",
+      "tier": "2",
+      "note": "One sacrament, two dosages: the ngozé runs on the small eating that keeps the dancers awake; initiation on the great eating that sends the novice across."
+    },
+    {
+      "a": "bwiti-nyingwan-mebege",
+      "b": "bwiti-ngombi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The harp is her instrument and her voice — the Sister of God made audible in the chapel, night after night."
+    },
+    {
+      "a": "bwiti-iboga",
+      "b": "entheogenic-churches-iboga",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: the same sacrament — the aggregate entheogenic shard's Gabon panel, now promoted into Bwiti's own shard; one cult described from two directions."
+    },
+    {
+      "a": "bwiti-ngombi",
+      "b": "entheogenic-churches-nima",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The Nima of the aggregate shard plays this very harp — initiator and instrument belong to the same Bwiti liturgy, split across two shards and here re-seamed."
+    },
+    {
+      "a": "bwiti-ngoze",
+      "b": "christianity-christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Fang Bwiti's syncretic layer is attested history — mission Christianity (1900s-40s) folded into the liturgy, God and Christ absorbed under Fang names without displacing eboga; the missions fought it, the chapels kept both."
+    },
+    {
+      "a": "bwiti-iboga",
+      "b": "christianity-eucharist",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both are eaten sacraments through which the divine becomes present in the communicant — but Bwiti stakes everything on direct vision where the eucharist works by faith; the banzie themselves draw the contrast."
+    },
+    {
+      "a": "bwiti-nyingwan-mebege",
+      "b": "christianity-mary",
+      "type": "analogous",
+      "tier": "3",
+      "note": "In Christianized chapels the Sister of God is read alongside the Virgin — a feminine mediator before a remote godhead; the equation is reported unevenly across branches, so the seam stays faint."
+    },
+    {
+      "a": "mbuti-ndura",
+      "b": "mbuti-molimo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The rite exists for the parent: the molimo's whole purpose is to wake the sleeping forest and delight it with song when its children are in grief."
+    },
+    {
+      "a": "mbuti-immediate-return",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Woodburn's immediate-return category holds both peoples — religions whose worship is an act performed now (the dance, the song) rather than a debt carried forward; the shared category is scholarly, the traditions unrelated."
+    },
+    {
+      "a": "mbuti-molimo",
+      "b": "san-trance-dance",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two all-night, sound-driven repairs of the world — the trance circle heals through the body, the molimo through the woken forest; forager religions whose crisis-response is to sing until dawn."
+    },
+    {
+      "a": "mbuti-ndura",
+      "b": "kaang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two African forager gods dissolved into the environment — Kaang recedes into the game and the hunt, the Mbuti god simply is the forest; divinity as habitat rather than throne, reached independently."
+    },
+    {
+      "a": "mbuti-elima",
+      "b": "san-rain-bull",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Menarche as cosmic potency in both — with opposite signs: the |Xam girl's first blood endangers the band unless hedged with !Khwa's taboos, while the Mbuti girl's is sung as a gift; one moment, two valences."
+    },
+    {
+      "a": "mbuti-molimo",
+      "b": "bora-initiation",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The concealed sound-instrument as the sacred's voice — the molimo trumpet and the bora bullroarer, both officially kept from the uninitiated, both making the invisible audible at the camp's edge."
+    },
+    {
+      "a": "sant-mat-satguru",
+      "b": "sant-mat-surat-shabd-yoga",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: initiation by the living master is what attaches the disciple's attention to the current the master himself embodies — the office and the practice are one mechanism."
+    },
+    {
+      "a": "sant-mat-radhasoami-anami",
+      "b": "sant-mat-kal",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Intra-tradition bond: the Nameless Lord of the pure spiritual regions against Kal, lord of mind, time, and death in the lower creation — the vertical axis the whole path climbs."
+    },
+    {
+      "a": "sant-mat-surat-shabd-yoga",
+      "b": "eckankar-the-eck",
+      "type": "cognate",
+      "tier": "2",
+      "note": "PARENT SEAM: Paul Twitchell was an initiate of Kirpal Singh's Ruhani Satsang and reworked surat shabd yoga into the ECK and Soul Travel — borrowings (including from Julian Johnson's The Path of the Masters) documented in David Lane, The Making of a Spiritual Movement (1983)."
+    },
+    {
+      "a": "sant-mat-kal",
+      "b": "eckankar-kal-niranjan",
+      "type": "cognate",
+      "tier": "2",
+      "note": "PARENT SEAM: Eckankar's ruler of the lower worlds carries the Radhasoami figure over with the name itself intact — 'Kal' — one of the clearest documented borrowings (Lane 1983)."
+    },
+    {
+      "a": "sant-mat-satguru",
+      "b": "eckankar-mahanta",
+      "type": "cognate",
+      "tier": "2",
+      "note": "PARENT SEAM: the Living ECK Master is the Radhasoami living-satguru office transplanted to an American audience — one living master at a time, initiation and inner guidance included (Lane 1983)."
+    },
+    {
+      "a": "sant-mat-surat-shabd-yoga",
+      "b": "sikh-guru-granth-sahib",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Radhasoami teachers expound the Adi Granth's shabd and nam hymns as their own vocabulary, and the Beas line was founded by the Sikh soldier Jaimal Singh — a documented drawing on Sikh scripture, not an endorsed one."
+    },
+    {
+      "a": "sant-mat-satguru",
+      "b": "sikh-guru-granth-sahib",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: the same guru-office resolved oppositely — Sikhism sealed guruship into the eternal text in 1708, while Sant Mat insists no text can initiate and reopened the living-master succession; the core reason orthodox Sikhism rejects Radhasoami."
+    },
+    {
+      "a": "sant-mat-surat-shabd-yoga",
+      "b": "kabir-panth-shabda",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: the Shabd that Radhasoami systematized into a yoga is the sant poets' Word — Radhasoami's own genealogy names Kabir the fountainhead of Sant Mat, and the shared shabd/satguru vocabulary is continuous."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "kabir-panth-bijak",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: the panth's scripture is the poet's gathered voice — the Bijak is Kabir as book, with all the irony that canonization carries."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "kabir-panth-nirguna-ram",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: the weaver and the attributeless Ram he loved — nirguna bhakti's devotee-and-God pair, with no image permitted between them."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "sikh-guru-granth-sahib",
+      "type": "bridge",
+      "tier": "1",
+      "note": "GOLD SEAM: several hundred of Kabir's hymns and couplets stand in the Adi Granth (compiled 1604) as bhagat bani — a documented textual inclusion; the seam is bound into the book itself."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "sikh-guru-nanak",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Nanak stands in the same nirguna sant stream as Kabir — one formless God, caste rejected, devotion over ritual (McLeod's scholarly consensus); no meeting between the two is attested."
+    },
+    {
+      "a": "kabir-panth-nirguna-ram",
+      "b": "vaishnava-rama",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: the same name, the avatar emptied — Kabir keeps 'Ram' while denying in his own verse that his Ram was ever born or wore a body; nirguna bhakti defined against the saguna avatar."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "vaishnava-bhakti",
+      "type": "syncretic",
+      "tier": "3",
+      "note": "GOLD SEAM (held low): hagiography from Nabhadas's Bhaktamal (c. 1600) makes Kabir a disciple of the Vaishnava Ramananda, pulling him into the bhakti lineage — the chronology is strained and scholars doubt the link, so the tier stays at claim-strength."
+    },
+    {
+      "a": "kabir-panth-kabir",
+      "b": "sant-mat-satguru",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM (held low): Radhasoami's self-genealogy names Kabir the first of the Sants whose office its living masters continue — a retrospective lineage claim (Juergensmeyer 1991), not an initiatic chain."
+    },
+    {
+      "a": "ajivika-niyati",
+      "b": "ajivika-samsara-suddhi",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: fate's law and fate's timetable — niyati fixes the course, saṃsāra-śuddhi is that course run to its automatic end."
+    },
+    {
+      "a": "ajivika-niyati",
+      "b": "ajivika-naked-asceticism",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: the paradox at the school's heart — brutal austerity practiced under a doctrine that says practice avails nothing."
+    },
+    {
+      "a": "ajivika-makkhali-gosala",
+      "b": "jain-mahavira",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM (hostile-source flag): six years' wandering companions, then bitter rivals — the shared śramaṇa apprenticeship and the rupture are attested only in the Jain canon's own account (Bhagavatī Sūtra 15)."
+    },
+    {
+      "a": "ajivika-six-abhijatis",
+      "b": "jain-jiva",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the six colour-classes of souls parallel the Jain leśyā soul-tints — Basham suggests common śramaṇa stock, but with only hostile sources the tier stays low."
+    },
+    {
+      "a": "ajivika-niyati",
+      "b": "buddhist-wheel",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: the wheel of becoming turns on karma — deeds steering rebirth — while niyati denies deeds any purchase at all; the Pali canon rates Makkhali's fatalism the most pernicious of doctrines, so the opposition itself is attested."
+    },
+    {
+      "a": "ajivika-samsara-suddhi",
+      "b": "buddhist-kalpas",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: sibling śramaṇa arithmetics of vast cosmic time — the Ajivika count of 8,400,000 great aeons survives embedded in the Buddhist report of the rival doctrine."
+    },
+    {
+      "a": "charvaka-pratyaksha",
+      "b": "charvaka-dehatmavada",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: the epistemology and its verdict — admit perception alone as proof, and the unperceived soul dissolves into the perfectly perceivable body."
+    },
+    {
+      "a": "charvaka-brihaspati",
+      "b": "charvaka-ritual-mockery",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition bond: the attributed founder and the school's surviving voice — the anti-ritual verses circulate under Brihaspati's name in the doxographies."
+    },
+    {
+      "a": "charvaka-dehatmavada",
+      "b": "epicureanism-death-dissolution",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: both dissolve the afterlife by physics — consciousness ends when the body's elements disperse, and the terror of post-mortem judgment dies with it; a typological kinship, no contact attested."
+    },
+    {
+      "a": "charvaka-pratyaksha",
+      "b": "epicureanism-atoms-void",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: two independent ancient materialisms grounding knowledge in the senses and reality in matter, each demoting the gods to irrelevance rather than waging war on them — parallel inventions, no transmission attested."
+    },
+    {
+      "a": "charvaka-pratyaksha",
+      "b": "secular-humanism-reason",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (legacy): modern Indian rationalism explicitly reclaims Cārvāka/Lokāyata as its ancestor — Chattopadhyaya's Lokāyata (1959) is the landmark — a documented adoption, not an unbroken descent."
+    },
+    {
+      "a": "charvaka-dehatmavada",
+      "b": "secular-humanism-finality-of-death",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: the same conclusion twenty-four centuries apart — death as complete cessation, and this one life made precious precisely because it is the only one."
+    },
+    {
+      "a": "charvaka-ajita-kesakambali",
+      "b": "ajivika-makkhali-gosala",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: fellow heterodox teachers among the six of the Sāmaññaphala Sutta — the same Gangetic śramaṇa generation, attested side by side, though doctrinal opposites: annihilation at death against fated aeons of rebirth."
+    },
+    {
+      "a": "ahmadiyya-mirza-ghulam-ahmad",
+      "b": "islam-muhammad",
+      "type": "pairs",
+      "tier": "2",
+      "note": "GOLD SEAM: Ghulam Ahmad claimed only a derivative, non-law-bearing prophethood under Muhammad's seal — the subordination itself is the doctrine, and the reading of that seal is the exact wound Pakistan's anti-Ahmadi laws legislate."
+    },
+    {
+      "a": "ahmadiyya-yuz-asaf",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Explicit doctrinal identification of the Roza Bal saint Yuz Asaf with Jesus of Nazareth — attested Ahmadi teaching since 1899, rejected by historians."
+    },
+    {
+      "a": "ahmadiyya-khilafat",
+      "b": "islam-imamah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both answer the same wound — how divine guidance continues after the founder — one through an infallible bloodline, the other through an elected caliphate held to be divinely guided."
+    },
+    {
+      "a": "ahmadiyya-mirza-ghulam-ahmad",
+      "b": "bahai-bahaullah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Contemporaneous 19th-century claimants to the converged Mahdi-and-Messiah office — Bahá'u'lláh exits Islam into a new dispensation, while Ghulam Ahmad insists his office lives entirely inside it."
+    },
+    {
+      "a": "ahmadiyya-mirza-ghulam-ahmad",
+      "b": "ahmadiyya-jihad-of-the-pen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: his messianic claim carries the ruling that the sword is retired — the Mahdi's war is fought in print."
+    },
+    {
+      "a": "ahmadiyya-mirza-ghulam-ahmad",
+      "b": "ahmadiyya-khilafat",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the khilafat exists solely to steward the Promised Messiah's mission after 1908."
+    },
+    {
+      "a": "babism-the-bab",
+      "b": "bahai-bab",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The same historical person — Bábism's founding prophet as canonized inside its child religion; parent and child share one hinge figure."
+    },
+    {
+      "a": "babism-man-yuzhiruhu-llah",
+      "b": "bahai-bahaullah",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The explicit parent-link — Bahá'u'lláh's 1863 declaration claims this precise Bábí office, turning Bábism's central promise into the Bahá'í Faith's foundation."
+    },
+    {
+      "a": "babism-the-bab",
+      "b": "islam-imamah",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Báb's initial 1844 claim was to be the gate of the Hidden Twelfth Imam — Twelver Shi'i expectation, sharpened by the Shaykhi school, is the soil the movement grew from."
+    },
+    {
+      "a": "babism-bayan",
+      "b": "islam-quran",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Bayán is modeled on the Qur'an's station while explicitly claiming to abrogate its dispensation — successor scripture, not commentary."
+    },
+    {
+      "a": "babism-the-bab",
+      "b": "alawite-salman-bab",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: 'The Gate' as a standing office of esoteric mediation in Shi'i-derived systems — the threshold between the hidden divine and the community."
+    },
+    {
+      "a": "babism-tahirih",
+      "b": "babism-letters-of-the-living",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Táhirih is the one woman among the Letters, accepted into their number without ever meeting the Báb in person."
+    },
+    {
+      "a": "babism-bayan",
+      "b": "babism-man-yuzhiruhu-llah",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Bayán's law is explicitly provisional, held in trust for Him Whom God shall make manifest."
+    },
+    {
+      "a": "dao-mau-lieu-hanh",
+      "b": "chinese-folk-mazu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Two women deified from below into supreme popular goddesses of their nations, both forcing state ratification of their cults; in southern Vietnam, Mazu (Thiên Hậu) worship interweaves with the Mother cult it parallels."
+    },
+    {
+      "a": "dao-mau-tu-phu",
+      "b": "chinese-folk-chenghuangshen",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both project the imperial bureaucracy into the spirit world — ranked celestial offices mirroring the earthly court — though the Vietnamese version answers to Mothers."
+    },
+    {
+      "a": "dao-mau-lieu-hanh",
+      "b": "taoism-religious-yuhuang-dadi",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Her legend makes her the Jade Emperor's exiled daughter — the Taoist celestial court adopted wholesale as the Mother's family tree."
+    },
+    {
+      "a": "dao-mau-len-dong",
+      "b": "caodai-co-but",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Two modern Vietnamese revelation technologies in mirror image — Đạo Mẫu brings the spirits down into ecstatic, costumed bodies; Caodaism replaced exactly that trance with sober bureaucratic spirit-writing."
+    },
+    {
+      "a": "dao-mau-lieu-hanh",
+      "b": "caodai-dieu-tri-kim-mau",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The supreme Mother presiding beside and outside the male administrative order — Caodaism's Jade Pool Mother draws on the same Vietnamese mother-goddess current that Đạo Mẫu crowns."
+    },
+    {
+      "a": "dao-mau-len-dong",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: East Asian professional mediumship as staged sequence — the Korean gut and Vietnamese lên đồng both run ranked spirits through one specialist's body with music, costume, and fee."
+    },
+    {
+      "a": "dao-mau-len-dong",
+      "b": "vodou-haitian-chwal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: The mounted body across hemispheres — the deity rides a human vehicle whose own personality withdraws for the duration."
+    },
+    {
+      "a": "dao-mau-lieu-hanh",
+      "b": "dao-mau-tu-phu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Liễu Hạnh reigns as Mother of the Heavenly Palace, the sovereign apex of the Four-Palace order."
+    },
+    {
+      "a": "dao-mau-chau-van",
+      "b": "dao-mau-len-dong",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the songs are the rite's ignition — no spirit descends unsung."
+    },
+    {
+      "a": "hoa-hao-tran-da",
+      "b": "buddhist-vehicles-bodhisattva-ideal",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: A documented laicization of the Mahayana vehicle — merit and awakening pursued by householders in the rice field, with monkhood and the temple economy stripped away."
+    },
+    {
+      "a": "hoa-hao-long-hoa",
+      "b": "buddhist-kalpas",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The three-age scheme and the coming assembly descend directly from Buddhist kalpa-cosmology and the canonical Maitreya prophecy, compressed to an imminent horizon."
+    },
+    {
+      "a": "hoa-hao-long-hoa",
+      "b": "yiguandao-milefo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Both traditions await Maitreya's Dragon Flower Assembly by that very name — parallel heirs of the same East Asian Maitreyan current."
+    },
+    {
+      "a": "hoa-hao-long-hoa",
+      "b": "caodai-tam-ky-pho-do",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Two Mekong-era announcements that the final age has arrived — Caodaism answers with a universal amnesty, Hòa Hảo with a judgment assembly."
+    },
+    {
+      "a": "hoa-hao-tran-da",
+      "b": "caodai-thien-nhan",
+      "type": "inverts",
+      "tier": "3",
+      "note": "GOLD SEAM: Mirror answers to representing the absolute in colonial Cochinchina — Caodaism builds a cathedral around a single divine Eye; Hòa Hảo hangs a plain brown cloth and calls the household a temple."
+    },
+    {
+      "a": "hoa-hao-huynh-phu-so",
+      "b": "hoa-hao-buu-son-ky-huong",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: followers received Sổ as the Buddha Master of Western Peace returned — Hòa Hảo understands itself as this lineage's completion."
+    },
+    {
+      "a": "hoa-hao-huynh-phu-so",
+      "b": "hoa-hao-sam-giang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the founder's verse oracles are the movement's entire canon."
+    },
+    {
+      "a": "donyi-polo-abotani",
+      "b": "donyi-polo-nyibu",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the nyibu's chanted genealogies run back to Abotani — the first ancestor is the anchor of the ritual specialist's recited descent-lines."
+    },
+    {
+      "a": "donyi-polo-talom-rukbo",
+      "b": "sarnaism-sarna-sthal",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: Indian indigenous religions institutionalizing a marked worship-place identity — the gangging hall network and the sarna grove of the Sarna-code movement — as a legal and cultural bulwark against conversion."
+    },
+    {
+      "a": "donyi-polo-donyi-polo",
+      "b": "sarnaism-singbonga",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: an aniconic supreme associated with the sun who watches over tribal truth-telling and morality rather than governing daily affairs."
+    },
+    {
+      "a": "sanamahism-sanamahi",
+      "b": "sanamahism-pakhangba",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the race around the throne — the elder brother who made the world holds every household, the younger who circled the father holds the kingship."
+    },
+    {
+      "a": "sanamahism-panthoibi",
+      "b": "shakta-durga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Cross-tradition GOLD SEAM: after Manipur's 18th-c. Hinduization the Meitei warrior goddess Panthoibi was identified with Durga and her worship merged into the Durga Puja season — an attested syncretic equation, not a shared origin."
+    },
+    {
+      "a": "sanamahism-naoriya-phulo",
+      "b": "donyi-polo-talom-rukbo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: 20th-c. Northeast-Indian revival founders who answered conversion pressure by giving an oral indigenous religion the apparatus of its rivals — organization, liturgy, script — Phulo (1930) a half-century before Rukbo (1986)."
+    },
+    {
+      "a": "sanamahism-puyas",
+      "b": "sanamahism-naoriya-phulo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the revival built its identity on the remembered burning of the Puyas — recovered manuscripts and reinvented script as the movement's twin relics."
+    },
+    {
+      "a": "kirat-mundhum-tagera-ningwaphuma",
+      "b": "kirat-mundhum-yuma-sammang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the formless omniscient supreme and her worshippable manifestation as the household grandmother — one deity at two intensities."
+    },
+    {
+      "a": "kirat-mundhum-phedangma",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: the soul-travelling ritual specialist as the community's working core — recitation-led soul retrieval and guidance of the dead; typological kinship only, no demonstrated descent."
+    },
+    {
+      "a": "kirat-mundhum-paruhang-sumnima",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: a sky-power paired with an earth-mother counterpart (as Tengri with Umai) — the Inner-Asian sky-frame in Himalayan dress; structural analogy, not a proven lineage."
+    },
+    {
+      "a": "kirat-mundhum-phedangma",
+      "b": "bon-sky-burial-bardo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: guiding the dead along a recited route through a dangerous landscape — a shared Himalayan death-ritual grammar between Kirati funerals and the Bon death-passage."
+    },
+    {
+      "a": "kirat-mundhum-mundhum",
+      "b": "bon-drung-deu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: priestly authority carried in memorized recitation-craft rather than in books — the Mundhum beside Bon's drung and deu; Himalayan typological kinship, kept at analogy."
+    },
+    {
+      "a": "kirat-mundhum-sirijunga",
+      "b": "sanamahism-naoriya-phulo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Cross-tradition GOLD SEAM: script revival as religious resistance — the 18th-c. Limbu martyr and the 20th-c. Meitei revivalist each made an alphabet the vessel of a suppressed religion's return."
+    },
+    {
+      "a": "shugendo-en-no-gyoja",
+      "b": "shugendo-zao-gongen",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Founder and revelation: Zao Gongen is the deity the tradition says En no Gyoja called forth on Kinpusen — the ascetic and his summoned protector define the cult together."
+    },
+    {
+      "a": "shugendo-yamabushi",
+      "b": "shugendo-mineiri",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The peak-entry is what makes a yamabushi — rank within the shugen orders is earned by completed mountain-entries; practitioner and rite are one institution."
+    },
+    {
+      "a": "shugendo-shinbutsu-shugo",
+      "b": "amaterasu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "SHINTO SEAM: under honji-suijaku the sun-goddess herself was identified as the trace of the cosmic buddha Dainichi (Mahavairocana) — Ryobu Shinto mapped Ise's two shrines onto the two mandalas — the paradigm case of the fusion Shugendo inhabits."
+    },
+    {
+      "a": "shugendo-mineiri",
+      "b": "buddhist-vehicles-yidam",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "BUDDHIST SEAM: the peak-entry transposes Vajrayana's mandala-and-deity technology into landscape — the Omine route is walked as the Womb and Diamond mandalas of Japanese mikkyo, and the ascetic ritually identifies with the wrathful deity (Fudo Myoo) as a yidam practitioner does."
+    },
+    {
+      "a": "shugendo-zao-gongen",
+      "b": "buddhist-avalokitesvara",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Kinpusen tradition reads Zao Gongen as the composite manifestation of Shakyamuni, Kannon (Avalokitesvara), and Maitreya — the bodhisattva of compassion folded into a mountain god's wrathful body."
+    },
+    {
+      "a": "shugendo-yamabushi",
+      "b": "taoism-religious-fulu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "TAOIST SEAM: the yamabushi's protective spellcraft carries Daoist talismanic technology — most concretely the nine-syllable kuji formula (rin-pyo-to-sha...), first attested as a protective charm in Ge Hong's Baopuzi, transmitted via onmyodo into shugen practice."
+    },
+    {
+      "a": "shugendo-en-no-gyoja",
+      "b": "taoism-religious-neidan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The founder is remembered in the Daoist immortal's vocabulary — the Nihon Ryoiki already has En no Gyoja flying off as a sennin (xian), the transcendent-body ideal that neidan engineers; shared ideal absorbed into his legend, no shared practice claimed."
+    },
+    {
+      "a": "shugendo-shinbutsu-shugo",
+      "b": "one-through-many",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Honji-suijaku is the one-through-many joint stated as national doctrine: one buddha-reality manifesting through countless local kami vessels."
+    },
+    {
+      "a": "ryukyuan-noro",
+      "b": "ryukyuan-onarigami",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Onarigami is the noro system's theological root: the sister's innate guardianship, scaled to the kingdom, yields the king's kinswoman as chief priestess — principle and institution are one structure."
+    },
+    {
+      "a": "ryukyuan-noro",
+      "b": "ryukyuan-yuta",
+      "type": "inverts",
+      "tier": "2",
+      "note": "The tradition's own two tracks, inverted point for point: the noro inherits office and serves the sanctioned communal calendar; the yuta is seized by spirit-sickness and serves private crises under official ban — priestess by descent versus shaman by affliction."
+    },
+    {
+      "a": "ryukyuan-amamikyu",
+      "b": "ryukyuan-utaki",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The official mythology has Amamikyu found the great sacred sites herself — Sefa-utaki and its peers are venerated as her works, so creatrix and sanctuary system authenticate each other."
+    },
+    {
+      "a": "ryukyuan-noro",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "SHINTO SEAM (kin, not subset): two Japonic solar-and-sovereignty cults centered on sacred women — the kikoe-ogimi sanctifying the Ryukyuan king (himself styled tedako, 'child of the sun') as the sun-goddess and her Ise priestesses sanctify the Yamato line; kin developments from a shared archipelago substrate, neither derived from the other."
+    },
+    {
+      "a": "ryukyuan-amamikyu",
+      "b": "amaterasu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "SHINTO SEAM: both official mythologies open with descent from heaven that makes islands and dynasties in one motion — Amamikyu lowered to build the Ryukyus as the Japanese cycle stirs its islands and sends Amaterasu's grandchild down to rule; parallel Japonic statecraft-cosmogony, not borrowing."
+    },
+    {
+      "a": "ryukyuan-noro",
+      "b": "ainu-kamuy-huci",
+      "type": "analogous",
+      "tier": "3",
+      "note": "AINU SEAM: the two non-Yamato religions of the Japanese archipelago both station a woman at the gate of the sacred — the Ryukyuan priestess through whom the community's rites must pass, the Ainu fire-grandmother through whom every prayer must travel; parallel peoples, parallel solution, no contact claimed."
+    },
+    {
+      "a": "ryukyuan-yuta",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both East Asian women's mediumship traditions recruit by initiatory illness — the yuta's kamidaari and the mudang's sinbyeong are the same pattern of affliction-as-vocation, arising in societies whose official cults excluded these women's gifts; structural kinship, no descent claimed."
+    },
+    {
+      "a": "ryukyuan-nirai-kanai",
+      "b": "mother-of-waters",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Nirai Kanai is the life-giving deep rendered as geography rather than goddess — the sea as the source from which fire, grain, and the gods themselves arrive, the mother-of-waters joint with the personification removed."
+    },
+    {
+      "a": "soka-gakkai-nichiren",
+      "b": "soka-gakkai-daimoku",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The daimoku is Nichiren's signature act — he established chanting the Lotus Sutra's title as the whole practice for the Latter Day, and everything the Gakkai does descends from that compression."
+    },
+    {
+      "a": "soka-gakkai-daimoku",
+      "b": "soka-gakkai-gohonzon",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The chant and its object are one apparatus: the Gohonzon is the daimoku written and enthroned, and the daimoku is the Gohonzon spoken — practice is performed aloud before the words it repeats."
+    },
+    {
+      "a": "soka-gakkai-three-presidents",
+      "b": "soka-gakkai-human-revolution",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The doctrine is told through the lineage: Ikeda's Human Revolution novels narrate Toda's (and then his own) transformation as the archetype every member reenacts — the presidents are the principle's worked examples."
+    },
+    {
+      "a": "soka-gakkai-nichiren",
+      "b": "buddhist-vehicles-bodhisattva-ideal",
+      "type": "pairs",
+      "tier": "2",
+      "note": "BUDDHIST SEAM: Nichiren read himself into the Lotus Sutra as Bodhisattva Superior Practices, leader of the Bodhisattvas of the Earth, and SGI members take that role as their own collective identity — the Mahayana bodhisattva vow inherited as the movement's self-definition."
+    },
+    {
+      "a": "soka-gakkai-daimoku",
+      "b": "buddhist-vehicles-tathagatagarbha",
+      "type": "pairs",
+      "tier": "2",
+      "note": "BUDDHIST SEAM: chanting works, in Nichiren doctrine, because Buddhahood is already innate and need only be called forth — the daimoku is the tathagatagarbha strand of Mahayana turned into a daily vocal technology."
+    },
+    {
+      "a": "soka-gakkai-three-presidents",
+      "b": "buddhist-vehicles-guru-lama",
+      "type": "inverts",
+      "tier": "3",
+      "note": "A precise inversion of the root-teacher pattern: SGI abolished dependence on clergy altogether after the 1991 excommunication, yet re-centers devotion on the mentor-disciple bond with a lay president — the guru-function surviving, relocated outside priesthood entirely."
+    },
+    {
+      "a": "soka-gakkai-daimoku",
+      "b": "transcendental-meditation-bija-mantra",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two twentieth-century movements that carried a single sonic formula out of its monastic matrix and scaled it to a global lay membership — though the daimoku is chanted aloud as public devotion with doctrinal content, where the TM mantra is silent and deliberately semantically empty."
+    },
+    {
+      "a": "soka-gakkai-human-revolution",
+      "b": "tenrikyo-yokigurashi",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two Japanese new religions relocating salvation into this world: Tenrikyo's Joyous Life and the Gakkai's human revolution both make the transformed ordinary life — not a hereafter — the religion's promised outcome; parallel Japanese NRM pattern, separate lineages."
+    },
+    {
+      "a": "oomoto-ushitora-no-konjin",
+      "b": "amaterasu",
+      "type": "inverts",
+      "tier": "2",
+      "note": "Oomoto exalts the banished primal kami (identified with Kunitokotachi of the Shinto chronicles) above the Amaterasu-centered imperial orthodoxy — a documented doctrinal inversion of State Shinto that the state prosecuted as lèse-majesté in 1921 and 1935."
+    },
+    {
+      "a": "oomoto-deguchi-nao",
+      "b": "tenrikyo-oyasama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two peasant women seized by a kami revealed as humanity's true parent, each producing automatic scripture called Ofudesaki and founding a world-renewal religion — the same founder pattern, one generation apart, with no proven borrowing."
+    },
+    {
+      "a": "oomoto-tatekae-tatenaoshi",
+      "b": "cheondoism-gaebyeok",
+      "type": "analogous",
+      "tier": "3",
+      "note": "World-renewal eschatology in two East Asian new religions: the demolition-and-rebuilding of the world and the Great Opening both announce a total cosmic reconstruction vindicating the downtrodden."
+    },
+    {
+      "a": "oomoto-ofudesaki",
+      "b": "caodai-co-but",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Revelation by automatic writing: the entranced hand as the deity's instrument, in Nao's kana torrent and the beaked basket of the Cao Đài séances."
+    },
+    {
+      "a": "oomoto-ofudesaki",
+      "b": "yiguandao-fuji",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Spirit-writing as the engine of scripture — fuji planchette revelation and Nao's trance script both ground a new canon in writing produced past the writer's own hand."
+    },
+    {
+      "a": "oomoto-deguchi-nao",
+      "b": "oomoto-onisaburo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the raw oracle and her systematizer — Nao's possession supplied the revelation, Onisaburō the cosmology, organization, and reach; the tradition is their fusion."
+    },
+    {
+      "a": "konkokyo-tenchi-kane-no-kami",
+      "b": "amaterasu",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Konkokyo grew inside the Shinto world and was sanctioned in 1900 as one of the thirteen Kyōha Shintō sects — its universal parent kami emerged from the folk-Shinto Konjin cult while its liturgy and priesthood remained Shinto in form."
+    },
+    {
+      "a": "konkokyo-konko-daijin",
+      "b": "tenrikyo-oyasama",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Bakumatsu-era peasant founders of the same wave — Nakayama Miki (from 1838) and Kawate Bunjirō (from 1859), each seized by a kami revealed as the parent of humanity and each transformed into a living channel; parallel careers, no documented contact."
+    },
+    {
+      "a": "konkokyo-tenchi-kane-no-kami",
+      "b": "tenrikyo-oyagami",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two 19th-century Japanese reconceptions of kami as the single parent deity of the universe, intimate rather than judging — the parent-god pattern arising twice in the same generation."
+    },
+    {
+      "a": "konkokyo-konko-daijin",
+      "b": "oomoto-deguchi-nao",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Documented lineage: Deguchi Nao encountered Konjin faith through Konkokyo, and her early group operated under Konkokyo affiliation (c. 1893–1897) before Oomoto's independence — the fountainhead religion's own fountainhead."
+    },
+    {
+      "a": "konkokyo-tenchi-kane-no-kami",
+      "b": "oomoto-ushitora-no-konjin",
+      "type": "cognate",
+      "tier": "2",
+      "note": "The same folk deity rehabilitated twice in one lineage: the feared Konjin becomes Konkokyo's parent of the universe, and via Nao's Konkokyo-mediated encounter becomes Oomoto's banished creator — attested descent, differently theologized."
+    },
+    {
+      "a": "konkokyo-konko-daijin",
+      "b": "cheondoism-choe-je-u",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Near-simultaneous founder revelations in East Asia (1859 and 1860): a rural man's encounter with the supreme deity revealed as intimately present, launching a mediating new religion amid late-dynastic crisis — parallel emergence, no contact claimed."
+    },
+    {
+      "a": "konkokyo-toritsugi",
+      "b": "konkokyo-aiyo-kakeyo",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: mediation is mutual fulfillment enacted — each relay across the hiromae desk completes both parties, kami and petitioner, exactly as the principle claims."
+    },
+    {
+      "a": "mahikari-okiyome",
+      "b": "oomoto-chinkon-kishin",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Documented lineage with one intermediate step: Okada Kōtama was a Sekai Kyūsei Kyō member, whose founder Okada Mokichi developed jōrei light-channeling after his years as an Oomoto leader — okiyome descends from the Oomoto spirit-pacification milieu through that chain."
+    },
+    {
+      "a": "mahikari-su-god",
+      "b": "oomoto-onisaburo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The one-root-of-all-religions claim: Mahikari's teaching that all faiths refract Su God's single light recognizably continues the bankyō dōkon universalism Onisaburō preached — a lineage-plausible echo, tiered as analogy since direct doctrinal transmission is not documented."
+    },
+    {
+      "a": "mahikari-okiyome",
+      "b": "pentecostalism-divine-healing",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Healing power transmitted through the raised hand of the ordinary believer — okiyome and Pentecostal divine healing both democratize the channeling of sacred power to the laity, arising independently in the same century."
+    },
+    {
+      "a": "mahikari-okiyome",
+      "b": "mahikari-omitama",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the rite and its enabling object — light can be given only while the consecrated pendant is worn and intact; the practice runs through the locket."
+    },
+    {
+      "a": "aum-shinrikyo-asahara",
+      "b": "buddhist-vehicles-guru-lama",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "APPROPRIATION seam: Aum explicitly styled its secret teaching 'Vajrayana' and absolutized the root-guru doctrine into unconditional obedience to Asahara — an attested borrowing the parent tradition neither made nor endorses."
+    },
+    {
+      "a": "aum-shinrikyo-shiva",
+      "b": "shaiva-nataraja",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "APPROPRIATION seam: Aum installed Shiva as its supreme god but kept only the destroyer — Nataraja's dissolution-in-rhythm carries no warrant for historical violence, and Shaivism is not a party to Aum's reading."
+    },
+    {
+      "a": "aum-shinrikyo-poa",
+      "b": "bon-sky-burial-bardo",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The Tibetan death-passage lore Aum raided (its poa is the phowa of Vajrayana and Bon death-practice, an attested borrowing) inverted from guiding the dying into a license to kill; anchored here to the nearest death-passage figure in the corpus."
+    },
+    {
+      "a": "aum-shinrikyo-armageddon",
+      "b": "adventism-branch-davidians",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Twin cases in the scholarship of catastrophic millennialism (Wessinger): apocalyptic communities of the same decade whose end-time certainty ended in mass death — though Waco's violence arrived from outside and Aum manufactured its own."
+    },
+    {
+      "a": "aum-shinrikyo-poa",
+      "b": "order-nine-angles-culling",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Dark-shard kinship: two unrelated systems that each built a doctrinal instrument for reclassifying murder as spiritual work — Aum by inverted compassion, the ONA by predatory selection."
+    },
+    {
+      "a": "aum-shinrikyo-asahara",
+      "b": "aum-shinrikyo-shaktipat",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the guru and the initiation economy built from his body — energy, blood, and brainwaves as the currency of membership."
+    },
+    {
+      "a": "aum-shinrikyo-armageddon",
+      "b": "aum-shinrikyo-poa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the prophecy supplied the emergency and the doctrine supplied the permission — together they form the movement's rationale for the 1995 attack (13 dead; a fourteenth victim died of her injuries in 2020)."
+    },
+    {
+      "a": "jeungsanism-kang-jeungsan",
+      "b": "cheondoism-jeung-san",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The same historical person: Kang Il-sun, sketched in the Korean-NRM cluster shard, rendered here in his own tradition — identity, not analogy."
+    },
+    {
+      "a": "jeungsanism-haewon-sangsaeng",
+      "b": "cheondoism-haewon-sangsaeng",
+      "type": "cognate",
+      "tier": "1",
+      "note": "The identical doctrine carried in both shards — the Korean-NRM cluster holds the summary, this shard the tradition it belongs to."
+    },
+    {
+      "a": "jeungsanism-hucheon-gaebyeok",
+      "b": "cheondoism-gaebyeok",
+      "type": "cognate",
+      "tier": "2",
+      "note": "The same Great Opening concept moving through Korea's founder-religion wave from Donghak into Jeungsanism; shared term and shared expectation, though Kang's sources also include Jeong Yeok cosmology."
+    },
+    {
+      "a": "jeungsanism-kang-jeungsan",
+      "b": "cheondoism-choe-je-u",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Attested succession claim: Jeungsanist doctrine holds Sangje first commissioned Choe Je-u, and descended in person as Kang when Donghak failed — Kang's ministry began in Gobu, the very district where the 1894 Donghak revolution broke out."
+    },
+    {
+      "a": "jeungsanism-kang-jeungsan",
+      "b": "hwanin",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Korea's high Lord of Heaven, who in the old myth delegates and remains aloft, is here declared to have come down himself — the withdrawn sky-father inverted into full incarnation; the Sangje-Hwanin/Hanunim mapping is structural, not the tradition's own wording."
+    },
+    {
+      "a": "jeungsanism-cheonji-gongsa",
+      "b": "mudang",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Kang's reordering works speak the idiom of the Korean shamanic gut — paper charms, burned writings, seated and voiced spirits, the untying of the aggrieved dead — scaled from a household ritual to the cosmos; the kinship is documented ethnographically, not a proven borrowing."
+    },
+    {
+      "a": "jeungsanism-taeeulju",
+      "b": "cheondoism-sicheonju",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Twin central incantations of the same Korean wave: a short, rhythmically chanted formula as the lay believer's whole portable practice — Donghak's 21-character sicheonju and Jeungsanism's Taeeulju."
+    },
+    {
+      "a": "jeungsanism-kang-jeungsan",
+      "b": "jeungsanism-cheonji-gongsa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the incarnate god and the nine years of ritual works that are the entire content of his earthly mission."
+    },
+    {
+      "a": "jeungsanism-haewon-sangsaeng",
+      "b": "jeungsanism-hucheon-gaebyeok",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Later World cannot open until the backlog of grievances is resolved — the principle is the precondition of the epoch."
+    },
+    {
+      "a": "jeungsanism-jo-jeongsan",
+      "b": "jeungsanism-kang-jeungsan",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the god-man and the never-met successor who received his authority by revelation in 1917 — the claim on which Daesoon Jinrihoe's legitimacy rests."
+    },
+    {
+      "a": "won-buddhism-il-won-sang",
+      "b": "buddhist-vehicles-tathagatagarbha",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Direct reform-Buddhist descent: Won doctrine names Il-Won the original nature of all sentient beings — the Buddha-nature teaching inherited and set at the center of a modernized dharma."
+    },
+    {
+      "a": "won-buddhism-il-won-sang",
+      "b": "buddhist-trikaya",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The Principal Book identifies Il-Won-Sang explicitly with the Dharmakaya Buddha — the Truth Body of Trikaya doctrine drawn as a single circle."
+    },
+    {
+      "a": "won-buddhism-sotaesan",
+      "b": "buddhist-vehicles-guru-lama",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Two answers to how dharma is transmitted: the Vajrayana root teacher absolutized as the sole living gate, against Sotaesan's deliberate laicization that opens the whole practice to everyone's working day."
+    },
+    {
+      "a": "won-buddhism-spirit-gaebyeok",
+      "b": "jeungsanism-hucheon-gaebyeok",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The same gaebyeok expectation of Korea's founder-religion wave, attested in Won Buddhism's own founding motto — though Won reassigns the Opening from divine works to human self-cultivation."
+    },
+    {
+      "a": "won-buddhism-spirit-gaebyeok",
+      "b": "cheondoism-gaebyeok",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Shared vocabulary of the same wave: the Great Opening that Donghak awaited and Jeungsanism declared accomplished becomes, in Won Buddhism, a program of spiritual modernization."
+    },
+    {
+      "a": "won-buddhism-sotaesan",
+      "b": "jeungsanism-kang-jeungsan",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Era-kin founders of the same Jeolla-province religious ferment a decade apart — but inverted in self-claim: Kang declared himself the supreme god incarnate, Sotaesan claimed only an awakened human's authority."
+    },
+    {
+      "a": "won-buddhism-sotaesan",
+      "b": "won-buddhism-il-won-sang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the founder and the circle he set in the Buddha's place — his awakening given its aniconic seal."
+    },
+    {
+      "a": "won-buddhism-timeless-son",
+      "b": "won-buddhism-il-won-sang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: Timeless Son is defined as keeping the mind aligned with Il-Won through every time and place — the practice is the circle walked."
+    },
+    {
+      "a": "won-buddhism-fourfold-grace",
+      "b": "won-buddhism-il-won-sang",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Fourfold Grace is Il-Won met concretely — the one reality encountered as the four debts that sustain a life."
+    },
+    {
+      "a": "mari-native-osh-kugu-jumo",
+      "b": "ukko",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Mari jumo and Finnish jumala share the Finno-Volgaic god-word *juma — a real lexical cognate; the offices grew apart, and the deeper seam is the asymmetry: Ukko is reconstructed from song while Jumo still eats grove sacrifice."
+    },
+    {
+      "a": "mari-native-kusoto",
+      "b": "tapio",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The holy forest as the place where the god is met — but the kusoto is a consecrated sanctuary with priest and altar-fire while Tapio's wood is the wild itself; kin peoples, different offices of the forest."
+    },
+    {
+      "a": "mari-native-mlande-ava",
+      "b": "ilmatar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Mother-powers of Finnic kin peoples, met at different scales: Ilmatar is the one oceanic mother of the cosmogony, Mlande Ava one of a working system of element-mothers tending the tilled land — the same joint, cosmic versus agrarian register."
+    },
+    {
+      "a": "mari-native-osh-kugu-jumo",
+      "b": "mari-native-keremet",
+      "type": "inverts",
+      "tier": "3",
+      "note": "White god of the open grove against the dark keeper of the fenced enclosure — offerings split between them by colour and kind; a maintained polarity of the sacred, not a war of good and evil."
+    },
+    {
+      "a": "vattisen-yaly-tura",
+      "b": "tengri",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Chuvash Turӑ is the Oghur-Turkic reflex of the same sky-name as Tengri — direct linguistic descent through Volga Bulgar; the westernmost living branch of the Tengri word."
+    },
+    {
+      "a": "vattisen-yaly-keremet",
+      "b": "mari-native-keremet",
+      "type": "cognate",
+      "tier": "2",
+      "note": "One Volga keremet institution shared across Chuvash, Mari and Udmurt villages — the word itself (Arabic karāma via Bulgar Islam) travelled with the fenced-grove cult; a documented areal kinship, though the exact direction of borrowing is debated."
+    },
+    {
+      "a": "vattisen-yaly-tura",
+      "b": "mari-native-osh-kugu-jumo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring supreme gods of one Volga-Kama religious landscape — a Turkic name and a Uralic name filling the same office of grove-worshipped high sky under the same Orthodox pressure; areal kinship, not descent."
+    },
+    {
+      "a": "vattisen-yaly-chuk",
+      "b": "mari-native-kusoto",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two rooms of the one Volga-Kama sacrificial complex — communal animal-and-porridge offering at a fixed holy place; the kinship of the institutions is plain, but specific descent between them is untraced, so tiered as analogy."
+    },
+    {
+      "a": "vattisen-yaly-yumsa",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The same office of dealing with the spirits on the community's behalf, but diverged in technique: the Siberian shaman flies the three worlds in trance while the yumӑҫ diagnoses and settles accounts by divination — the ecstatic specialist domesticated."
+    },
+    {
+      "a": "vattisen-yaly-tura",
+      "b": "vattisen-yaly-keremet",
+      "type": "inverts",
+      "tier": "3",
+      "note": "The remote bright sky and the near dark enclosure — Turӑ petitioned for increase, keremet paid against harm; the Chuvash sacred split into a high address and a fenced one."
+    },
+    {
+      "a": "udmurt-vos-inmar",
+      "b": "ilmarinen",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Inmar and Ilmarinen both grow from the Uralic sky-word *ilma — a real name-kinship across the family; the offices diverged (high sky-lord versus sky-forging smith), so the seam is the shared root, not a shared cult."
+    },
+    {
+      "a": "udmurt-vos-inmar",
+      "b": "mari-native-osh-kugu-jumo",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighbouring Volga-Kama supreme sky-gods with parallel histories — each grove-worshipped, each partly fused with the Christian God under the same dual-faith pressure; areal kinship of office, no descent claimed between the cults."
+    },
+    {
+      "a": "udmurt-vos-kuala",
+      "b": "mari-native-kusoto",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two rooms of one Volga sanctuary landscape — the Udmurt family log-shrine (whose name answers the Mari kudo, both from Uralic *kota) beside the Mari communal grove; kindred institutions at different social scales."
+    },
+    {
+      "a": "udmurt-vos-elen-vos",
+      "b": "mari-native-kusoto",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The great communal grove sacrifice of the Volga-Kama complex in its Udmurt and Mari forms — plainly one regional family of practice, but specific descent between the two rites is untraced, so tiered as analogy."
+    },
+    {
+      "a": "udmurt-vos-kuala",
+      "b": "udmurt-vos-vorshud",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Vessel and tenant: the kuala is the house and the vorshud the indwelling clan spirit kept on its shelf — shrine and guardian meaningless without each other."
+    },
+    {
+      "a": "hungarian-taltos-taltos",
+      "b": "shaman-three-worlds",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Diószegi argued the táltos is inherited Siberian-steppe shamanism surviving in Hungary; the typological kinship (election by mark and sickness, animal-form spirit-battle, trance) is real, but genetic descent remains contested — tiered as analogy, not descent."
+    },
+    {
+      "a": "hungarian-taltos-egig-ero-fa",
+      "b": "world-tree-pillar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The tale-tree the marked boy climbs beside the notched pole the shaman ascends — Diószegi read them as one inheritance, but the seam is held at structural kinship: the same vertical cosmos, the Hungarian one surviving only as story."
+    },
+    {
+      "a": "hungarian-taltos-turul",
+      "b": "kut",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Heaven's withdrawable warrant to rule, delivered in steppe idiom — the Turul-dream legitimates the Árpáds as the sky's kut legitimates a khan; the Magyars were a steppe polity, so influence is plausible, but no document ties the two, hence analogy."
+    },
+    {
+      "a": "hungarian-taltos-taltos",
+      "b": "vainamoinen",
+      "type": "analogous",
+      "tier": "4",
+      "note": "The deep-Uralic argument: two ecstatic wonder-workers of related language families read as echoes of a shared shamanic substrate — suggestive, unprovable across four thousand years of separation, and both reconstructed; flagged speculative."
+    },
+    {
+      "a": "hungarian-taltos-boldogasszony",
+      "b": "umai",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The near mother-power guarding childbed and infant — Boldogasszony's birth-bed customs beside Umai's cradle-watch; a structural kinship of office, with the Hungarian figure herself a reconstruction read out of Marian syncretism."
+    },
+    {
+      "a": "hungarian-taltos-taltos",
+      "b": "hungarian-taltos-egig-ero-fa",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The climber and the tree: in the tales only the marked one can ascend the sky-high tree — the reconstruction's two central fragments interlock as technique and road."
+    },
+    {
+      "a": "habze-tha",
+      "b": "habze-khabze-code",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The unknowable source and the livable code: Tha does not legislate — the Khabze is how the world he emanated behaves, ethics as cosmology."
+    },
+    {
+      "a": "habze-tha",
+      "b": "tengri",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Typological seam only: two supreme, imageless, temple-less high powers over a customary-law society — no linguistic or historical descent claimed across the Caucasus/steppe line."
+    },
+    {
+      "a": "habze-khabze-code",
+      "b": "cosmic-order",
+      "type": "analogous",
+      "tier": "3",
+      "note": "This shard's contribution to the cosmic-order joint: the right-order carried entirely as unwritten etiquette and custom-law, with elders — not priests or texts — as its living medium."
+    },
+    {
+      "a": "habze-sosruko",
+      "b": "uatsdin-nart-sagas",
+      "type": "cognate",
+      "tier": "1",
+      "note": "One epos, two peoples: Circassian Sosruko is the same Nart hero as Ossetian Soslan/Sosryko — the shared North Caucasus Nart corpus is documented, corpus-level common inheritance."
+    },
+    {
+      "a": "habze-satanaya",
+      "b": "uatsdin-nart-sagas",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Satanaya is Satana of the Ossetian Nart cycle — the same matriarch presiding over both tellings of the shared epic."
+    },
+    {
+      "a": "habze-grove-rite",
+      "b": "uatsdin-khetag-grove",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Neighboring North Caucasus grove-sanctities — worship under living trees instead of a built temple; areal kinship between adjacent peoples, no derivation shown."
+    },
+    {
+      "a": "uatsdin-nart-sagas",
+      "b": "scythian-targitaos",
+      "type": "cognate",
+      "tier": "2",
+      "note": "THE LIVING DESCENDANT SEAM: Ossetic is the proven linguistic descendant of Alanic, the surviving Scytho-Sarmatian tongue; Dumezil and Abaev read the Nart corpus as that lineage's epic memory carried off the steppe into the Caucasus."
+    },
+    {
+      "a": "uatsdin-nart-sagas",
+      "b": "scythian-golden-implements",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Dumezil's showpiece correspondence: the Nartamongae, the cup that rises to the truthful hero, continues the Scythians' heaven-sent golden cup that only the worthy king could take — the same sovereignty-test vessel, twenty-five centuries apart."
+    },
+    {
+      "a": "uatsdin-styr-khuytsau",
+      "b": "uatsdin-dzuar",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition architecture: the Great God holds no shrine and the shrines hold no Great God — Khuytsau delegates, the dzuars administer."
+    },
+    {
+      "a": "uatsdin-styr-khuytsau",
+      "b": "uatsdin-three-pies",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The rite is the theology performed: the elder's prayer over the three pies addresses Styr Khuytsau first, then the dzuars in order — the delegation hierarchy spoken aloud at every feast."
+    },
+    {
+      "a": "uatsdin-uastyrdzhi",
+      "b": "georgian-highland-giorgi",
+      "type": "cognate",
+      "tier": "2",
+      "note": "Both continue the medieval Caucasian cult of St. George (Uas Gergi / Giorgi) re-grown into the chief native divine patron — one saint, two neighboring re-paganizations, the names still cognate."
+    },
+    {
+      "a": "uatsdin-dzuar",
+      "b": "georgian-highland-khvtishvilni",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Documented transmission in a word: Ossetic dzuar is the Georgian jvari ('cross') borrowed across the range — and on both slopes the 'cross' names a shrine-being with feast, beer, and sacrifice, not a church."
+    },
+    {
+      "a": "uatsdin-uastyrdzhi",
+      "b": "uatsdin-khetag-grove",
+      "type": "pairs",
+      "tier": "3",
+      "note": "The grove's shrine is held to be Uastyrdzhi's — the acting place and the patron of travelers joined in one sanctuary where Khetag was saved mid-flight."
+    },
+    {
+      "a": "vainakh-deela",
+      "b": "habze-tha",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Caucasus kin: two remote high gods over working pantheons among neighboring mountain peoples — areal kinship across unrelated language families (Nakh / Northwest Caucasian), no descent claimed."
+    },
+    {
+      "a": "vainakh-erdy-sieling",
+      "b": "uatsdin-dzuar",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Adjacent mountain shrine institutions — height sanctuaries, feast-day pilgrimage, sacrifice and beer, and a god-word fused with a shrine-word (yerda / dzuar); strong areal kinship between next-door neighbors, left at structural tier."
+    },
+    {
+      "a": "vainakh-deela",
+      "b": "vainakh-sela",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: the remote sovereign and the active punisher — Deela holds the order, Sela enforces it from the storm."
+    },
+    {
+      "a": "vainakh-maga-yerda",
+      "b": "vainakh-erdy-sieling",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: the named shrine-lord and the shrine system he inhabits — in the highlands the god is scarcely separable from his building."
+    },
+    {
+      "a": "georgian-highland-khvtishvilni",
+      "b": "eastern-orthodoxy-icon",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "HOST SEAM: jvari and khati are Orthodoxy's own 'cross' and 'icon' — the shrine divinities wear the host church's vocabulary while refusing its theology of mediation: here the khati does not point to a prototype, it IS the local lord."
+    },
+    {
+      "a": "georgian-highland-beer-rite",
+      "b": "eastern-orthodoxy-liturgy",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The consecrated communal drink at the rite's center — shrine beer standing where the host liturgy sets the eucharistic cup; a structural rhyme under the same nominal religion, not a documented derivation."
+    },
+    {
+      "a": "georgian-highland-khvtishvilni",
+      "b": "vainakh-erdy-sieling",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Across the main ridge: medieval Georgian churchmen built Tkhaba-Yerdy in Ingushetia (Georgian architectural and epigraphic traits), and on both slopes the same thing followed — nominally Christian shrines re-absorbed into a native mountain cult of feast, sacrifice, and beer."
+    },
+    {
+      "a": "georgian-highland-morige-ghmerti",
+      "b": "georgian-highland-khvtishvilni",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Orderer and his enfeoffed children — heaven as a medieval Georgian court, the communities of men as the fiefs (saqmo) of divine lords."
+    },
+    {
+      "a": "georgian-highland-giorgi",
+      "b": "georgian-highland-kopala",
+      "type": "pairs",
+      "tier": "3",
+      "note": "Intra-tradition: the two campaigners against the demon-world — George raids Kajaveti, Kopala clears the devi from the valleys; conquest and settlement as two phases of one war."
+    },
+    {
+      "a": "rodnovery-perun",
+      "b": "perun",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The defining revival-of seam: modern Rodnovery deliberately restores the chronicle-attested Perun to his 980 station — a documented reach back across a thousand-year break, not a continuity."
+    },
+    {
+      "a": "rodnovery-veles",
+      "b": "velnias",
+      "type": "cognate",
+      "tier": "2",
+      "note": "The revived Veles carries the old Slavic name whose *wel- root scholars link with Baltic Velnias and the Latvian veļi (the dead) — a Balto-Slavic chthonic name-line (Ivanov–Toporov), encoded here to the Baltic node since the old Slavic shard holds no Veles."
+    },
+    {
+      "a": "rodnovery-perun",
+      "b": "rodnovery-veles",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the storm-god against the chthonic lord is the revival's central polarity — ritualized as living myth although the combat itself is Ivanov and Toporov's 1974 scholarly reconstruction, adopted whole."
+    },
+    {
+      "a": "rodnovery-kapishche",
+      "b": "heathenry-blot",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Class seam of European reconstructionism: communal open-air offering rites rebuilt from medieval sources and archaeology on the same gift-for-a-gift logic, in movements that arose independently but in parallel."
+    },
+    {
+      "a": "rodnovery-rod",
+      "b": "laima",
+      "type": "analogous",
+      "tier": "3",
+      "note": "The Rozhanitsy who receive the birth-meal and set the newborn's lot stand beside Baltic Laima at the threshold of birth — the birth-allotment office in the two neighboring families, a classic Balto-Slavic folklore parallel, not proven descent."
+    },
+    {
+      "a": "romuva-dainos",
+      "b": "saule",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The revival-of seam at its cleanest: the dainos Romuva sings are the same collected corpus from which Saulė and the Baltic pantheon are known at all — the liturgy and the primary source are one body of song."
+    },
+    {
+      "a": "romuva-amzina-ugnis",
+      "b": "perkunas",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The rekindled sacred fire restores the attested cult-form of the old Baltic sanctuaries whose perpetual flame the chroniclers tied to the worship of Perkūnas — an attested rite revived across a six-century break, not an unbroken flame."
+    },
+    {
+      "a": "romuva-darna",
+      "b": "heathenry-wyrd",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Class seam of European reconstructionism: each movement's modern systematization of an order-concept from old sources — darna as harmony to be maintained, wyrd as the web one weaves into — parallel constructions, no contact required."
+    },
+    {
+      "a": "romuva-amzina-ugnis",
+      "b": "romuva-rasa",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the altar fire and the festival fire are the same instrument at two scales — the aukuras flame kindled at Rasa in 1967 is the founding case of the rite."
+    },
+    {
+      "a": "hellenism-modern-dodekatheon",
+      "b": "zeus",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The defining revival-of seam: the modern Dodekatheon deliberately restores the classical Olympian cult, Zeus at its head, worked from the ancient sources in the gods' own language — a documented reach across a fifteen-century break."
+    },
+    {
+      "a": "hellenism-modern-prometheia",
+      "b": "prometheus",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The movement's chief festival is explicitly named for and dedicated to Prometheus — the ancient fire-thief adopted as the emblem of a religion reclaiming what it holds was taken from it."
+    },
+    {
+      "a": "hellenism-modern-household-worship",
+      "b": "heathenry-blot",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Class seam of European reconstructionism: offering rites rebuilt from period sources on the reciprocal gift-logic — libation and khernips beside mead and horn — parallel modern reconstructions, not contact."
+    },
+    {
+      "a": "hellenism-modern-prometheia",
+      "b": "hellenism-modern-household-worship",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the revival rebuilds ancient religion's two ancient halves together — the public festival under Olympus and the daily cult of hearth and storeroom, polis-scale and household-scale of one practice."
+    },
+    {
+      "a": "kemetism-maat",
+      "b": "maat",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The defining revival-of seam: modern Kemetism deliberately restores Ma'at — the attested Egyptian order-concept and goddess — as its living ethical center, worked directly from the Egyptological record across a sixteen-century break."
+    },
+    {
+      "a": "kemetism-afrocentric-current",
+      "b": "osiris",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The Ausar Auset Society is named for Ausar and Auset — Osiris and Isis in their Egyptian names — and sets the resurrected lord at the center of its initiatic system: the Afrocentric current's own documented reach back to the Egyptian shard."
+    },
+    {
+      "a": "kemetism-senut",
+      "b": "heathenry-blot",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Class seam of modern reconstructionism: offering rites rebuilt from ancient sources on a reciprocal logic — senut's reversion of offerings beside the blót's gift-for-a-gift — parallel modern constructions from unrelated ancient models."
+    },
+    {
+      "a": "kemetism-netjer",
+      "b": "kemetism-senut",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the doctrine and its enactment — senut is where the ordinary practitioner meets the Names of Netjer daily, the monolatry performed rather than argued."
+    },
+    {
+      "a": "kemetism-siuda",
+      "b": "kemetism-netjer",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Nisut office and the Netjer theology are one system — the community that holds the gods to be Names of one divine also holds its founder to carry the kingly ka that mediates them."
+    },
+    {
+      "a": "maori-whakapapa",
+      "b": "te-kore-te-po",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The recited cosmogony IS a whakapapa: Te Kore begets the numbered nights begets Rangi and Papa — the organizing concept of this shard and the Māori-recorded genealogy-of-nothingness are one instrument."
+    },
+    {
+      "a": "maori-whakapapa",
+      "b": "ranginui",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The atua are genealogy: iwi lines are recited back through Tāne, Tangaroa, or Tū to Rangi and Papa themselves — the world-parents stand at the head of human whakapapa, gods and descendants on one unbroken lattice."
+    },
+    {
+      "a": "maori-whakapapa",
+      "b": "maui",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Māui cycle is written into descent and landscape alike: iwi traditions recite lines from Māui himself, and the North Island is Te Ika-a-Māui, the fish he hauled up, the South Island his canoe — the trickster fixed as ancestor and geography."
+    },
+    {
+      "a": "maori-whakapapa",
+      "b": "hawaiian-kumulipo",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: the genealogical cosmogony as a shared East Polynesian inherited FORM — the Kumulipo is literally a whakapapa of the cosmos; the chants are independent compositions, but the genre of world-as-recited-descent is common ancestry."
+    },
+    {
+      "a": "maori-tapu-mana-noa",
+      "b": "hawaiian-mana-kapu",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Proven descent: Māori tapu and Hawaiian kapu are regular reflexes of Proto-Polynesian *tapu (*t > Hawaiian k), and mana is the same inherited word in both — one sacred-power-and-prohibition system split across the daughter languages."
+    },
+    {
+      "a": "maori-tapu-mana-noa",
+      "b": "melanesian-tabu",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Māori tapu and Melanesian tabu/tambu descend from the same Proto-Oceanic *tabu — the etymon Cook carried into English (via Tongan) as 'taboo'; one Oceanic word-and-institution surfacing in two branches of the family."
+    },
+    {
+      "a": "maori-tapu-mana-noa",
+      "b": "rapanui-moai",
+      "type": "cognate",
+      "tier": "2",
+      "note": "The mana the moai concentrate and the tapu that shrouded them are the same inherited Polynesian sacred-power vocabulary carried to the mirror's farthest eastern shard — the words are tier-1 cognates; the concept-to-monument deployment is Rapa Nui's own."
+    },
+    {
+      "a": "maori-io",
+      "b": "tane",
+      "type": "pairs",
+      "tier": "2",
+      "note": "In the whare-wānanga teaching it is from Io's highest heaven that Tāne fetches the three baskets of knowledge — but the Io frame around the basket-quest is exactly the stratum whose pre-contact antiquity scholarship contests; the seam is real in the recorded lore, tier-flagged for the debate."
+    },
+    {
+      "a": "maori-marae-tangihanga",
+      "b": "hine-nui-te-po",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The tangihanga delivers the dead to her: the farewelled wairua goes down into the Pō where Hine-nui-te-pō, the wronged first-daughter, gathers her descendants — the living rite and the death-myth are two ends of one road."
+    },
+    {
+      "a": "maori-marae-tangihanga",
+      "b": "maori-hawaiki",
+      "type": "pairs",
+      "tier": "1",
+      "note": "The spirit-road runs from the marae to the homeland: the tangihanga farewells the wairua up the island to Te Rerenga Wairua, the leaping-place of the return to Hawaiki."
+    },
+    {
+      "a": "maori-tapu-mana-noa",
+      "b": "maori-whakapapa",
+      "type": "pairs",
+      "tier": "1",
+      "note": "Mana descends by whakapapa: a person's sacred power is in large part their recited nearness to the atua and the founding ancestors — the power-system and the genealogy-system are one ranking."
+    },
+    {
+      "a": "maori-hawaiki",
+      "b": "rapanui-hotu-matua",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: both islands preserve the East Polynesian founding-voyage charter — a named ancestral homeland (Hawaiki / Hiva), chiefly double-hulled canoes, crops carried aboard — the same inherited settlement-tradition genre, independently localized at the two far corners of the triangle."
+    },
+    {
+      "a": "maori-hawaiki",
+      "b": "hawaiian-po",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Two namings of where the dead return: the Hawaiian dead go back into Pō, the generative Night, as the Māori dead voyage back to Hawaiki — the source-realm doubling as destination in both theologies."
+    },
+    {
+      "a": "ratana-ringatu-te-kooti",
+      "b": "ratana-ringatu-upraised-hand",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The founder and his liturgy: Te Kooti composed the Ringatū services from memorized Māori scripture in the Wharekauri prison camp, and the raised right hand of his practice became the faith's very name."
+    },
+    {
+      "a": "ratana-ringatu-ratana",
+      "b": "ratana-ringatu-temepara",
+      "type": "pairs",
+      "tier": "2",
+      "note": "The Māngai and his holy village are one cult: the 1918 vision, the healing pilgrimages, and the 1928 Temple bind Rātana permanently to Rātana Pā."
+    },
+    {
+      "a": "ratana-ringatu-te-kooti",
+      "b": "ratana-ringatu-ratana",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Two waves of Māori prophetic response fifty years apart — Ringatū out of war and exile (1868), Rātana out of influenza and land loss (1918); separate churches, the same covenant-Israel reading of Māori suffering."
+    },
+    {
+      "a": "ratana-ringatu-ratana",
+      "b": "maori-tapu-mana-noa",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): the Māngai required followers to renounce tohunga practice and the old tapu — a Māori prophet dismantling the tapu system from within, even as his movement fought for Māori land and mana."
+    },
+    {
+      "a": "ratana-ringatu-upraised-hand",
+      "b": "maori-marae-tangihanga",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM (substrate): Ringatū worship lives on the marae and in carved meeting houses Te Kooti himself raised — Binney documents his house-building, notably Te Tokanganui-a-noho at Te Kūiti (1873) — scripture recited inside the ancestor's body."
+    },
+    {
+      "a": "ratana-ringatu-ratana",
+      "b": "christianity-trinity",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Rātana liturgy invokes Te Matua, Te Tama, Te Wairua Tapu — and with them ngā Anahera Pono, the Faithful Angels, and the Māngai himself; the mainstream churches broke with the movement in the mid-1920s over precisely this extension of Trinitarian prayer."
+    },
+    {
+      "a": "ratana-ringatu-upraised-hand",
+      "b": "christianity-christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: a church built wholly of Christian scripture in Māori, received from the missions and re-covenanted — yet with its centre of gravity in Ihowa and the prophets of Israel's exile rather than in the missionaries' own churches, which Te Kooti's people refused."
+    },
+    {
+      "a": "ratana-ringatu-te-kooti",
+      "b": "ghost-dance-wovoka",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Prophets of dispossessed peoples inside settler states, visions turned into new liturgies in the same generation — Te Kooti's faith survived armed pursuit into a living church, where the Ghost Dance was broken at Wounded Knee."
+    },
+    {
+      "a": "ratana-ringatu-ratana",
+      "b": "kimbanguism-simon-kimbangu",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Prophet-healers raised within three years of each other (Rātana 1918, Kimbangu 1921), each founding an independent indigenous church under a settler or colonial state — Rātana channelled his into parliament where Kimbangu's grew through its founder's imprisonment."
+    },
+    {
+      "a": "ratana-ringatu-temepara",
+      "b": "kimbanguism-nkamba",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Each movement built its own holy capital — Rātana Pā with its twin-towered temple, Nkamba-Jerusalem with its mausoleum and pool — the prophet's home village promoted to centre of the religious world."
+    },
+    {
+      "a": "moorish-science-noble-drew-ali",
+      "b": "nation-of-islam-wd-fard",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Parent seam: Fard emerged from the documented Moorish Science milieu of 1929-30, and the early NOI carries Drew Ali's frame (Asiatic identity, Islam as Black nationality) forward; Moorish claims that Fard was Drew Ali reincarnated remain contested."
+    },
+    {
+      "a": "moorish-science-noble-drew-ali",
+      "b": "nation-of-islam-esoteric-noble-drew-ali",
+      "type": "cognate",
+      "tier": "1",
+      "note": "Same historical person: Noble Drew Ali is carried in the NOI-esoteric shard as an ancestor-figure of the Five-Percent lineage; this shard is his home tradition."
+    },
+    {
+      "a": "moorish-science-moorish-american",
+      "b": "nation-of-islam-tribe-of-shabazz",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The NOI's Tribe of Shabazz reworks Drew Ali's prior teaching of a lost 'Asiatic' nationality for Black Americans — documented conceptual descent within the same movement family."
+    },
+    {
+      "a": "moorish-science-moorish-american",
+      "b": "black-hebrew-israelites-12-tribes-chart",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Era-kin: two contemporaneous early-20th-century systems re-assigning Black Americans a pre-slavery sacred genealogy — Moabite Moors in one, the tribes of Israel in the other — each replacing imposed racial labels with a covenant nationality."
+    },
+    {
+      "a": "moorish-science-circle-seven-koran",
+      "b": "new-thought-christ-consciousness",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Documented textual dependence: roughly half the Circle Seven Koran reproduces Levi Dowling's Aquarian Gospel (1908), a New Thought life of Jesus, carrying its Christ-consciousness teaching into Moorish scripture."
+    },
+    {
+      "a": "moorish-science-noble-drew-ali",
+      "b": "moorish-science-1929-succession",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the Prophet's contested death and the reincarnation-and-schism doctrine it immediately produced."
+    },
+    {
+      "a": "martinism-pasqually",
+      "b": "martinism-saint-martin",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the theurgic master and the secretary who interiorized his system — ceremony and heart as the tradition's two poles."
+    },
+    {
+      "a": "martinism-saint-martin",
+      "b": "martinism-papus",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Intra-tradition: Papus's 1891 order institutionalized Saint-Martin's legacy; the claimed person-to-person initiatic chain between them is contested and unverifiable."
+    },
+    {
+      "a": "martinism-pasqually",
+      "b": "freemasonry-third-degree",
+      "type": "bridge",
+      "tier": "2",
+      "note": "The Elus Coens was chartered as high-grade Freemasonry, recruiting through and building its theurgic grades atop the Masonic craft degrees."
+    },
+    {
+      "a": "martinism-reintegration",
+      "b": "christianity-fall",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Pasqually's Traite is an esoteric exegesis of Genesis: reintegration is the doctrine of the Fall run in reverse, restoring Adam's estate rather than atoning for his sin."
+    },
+    {
+      "a": "martinism-the-repairer",
+      "b": "christ",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "The Repairer is explicitly Christ, re-read through the reintegration doctrine as the reopener of humanity's lost divine function."
+    },
+    {
+      "a": "martinism-papus",
+      "b": "rosicrucianism-rosy-cross",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Documented exchange: Papus sat on the supreme council of the Ordre Kabbalistique de la Rose-Croix (founded 1888 with Stanislas de Guaita), and Martinist grades fed its Rosicrucian curriculum — the French occult revival wearing the rose-cross emblem."
+    },
+    {
+      "a": "martinism-papus",
+      "b": "golden-dawn-tarot",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Papus's Le Tarot des Bohemiens (1889) and the Golden Dawn's Book of Thoth are twin systematizations of Eliphas Levi's Tarot-Kabbalah key; the Golden Dawn's own Tarot synthesis names Papus among its sources."
+    },
+    {
+      "a": "martinism-reintegration",
+      "b": "the-divine-spark",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both frame salvation as the return of a fallen divine element to its origin — though Martinism restores a functioning agent of God where gnosis frees a trapped fragment of light."
+    },
+    {
+      "a": "religion-of-humanity-comte",
+      "b": "religion-of-humanity-grand-etre",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the self-appointed High Priest and the collective deity he defined — founder and godhead in one act of system-building."
+    },
+    {
+      "a": "religion-of-humanity-virgin-mother",
+      "b": "christianity-mary",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Documented transposition: Comte deliberately rebuilt Marian devotion — Madonna iconography, the Virgin-Mother utopia, a female moral providence — around Clotilde de Vaux and personified Humanity."
+    },
+    {
+      "a": "religion-of-humanity-nine-sacraments",
+      "b": "christianity-eucharist",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "Comte modeled sociolatry's nine social sacraments explicitly on the Catholic sacramental system — the borrowing Huxley skewered as 'Catholicism minus Christianity' (1869)."
+    },
+    {
+      "a": "religion-of-humanity-grand-etre",
+      "b": "deism-clockmaker",
+      "type": "inverts",
+      "tier": "3",
+      "note": "Mirror-image exits from Christianity: Deism keeps the Creator and discards the church; Comte discards the Creator and keeps the church, transferring worship to Humanity itself."
+    },
+    {
+      "a": "religion-of-humanity-comte",
+      "b": "secular-humanism-deed-before-creed",
+      "type": "bridge",
+      "tier": "2",
+      "note": "Descendant-class seam: Comte coined 'altruism', and his positivist churches in England pioneered the godless congregational format — ethics, hymns, festivals without theology — that Ethical Culture (1876) and organized humanism inherited."
+    },
+    {
+      "a": "religion-of-humanity-grand-etre",
+      "b": "secular-humanism-human-rights",
+      "type": "analogous",
+      "tier": "3",
+      "note": "Both make humanity itself the ultimate object of moral devotion — but Comte builds it into a deity with rites, where secular humanism keeps it a principle and refuses the altar."
+    },
+    {
+      "a": "religion-of-humanity-positivist-calendar",
+      "b": "religion-of-humanity-grand-etre",
+      "type": "pairs",
+      "tier": "2",
+      "note": "Intra-tradition: the calendar is the Great Being made legible — the roll of the incorporated dead arranged into the worshipping year."
+    },
+    {
+      "a": "zurvanism-doubt-of-zurvan",
+      "b": "spenta-mainyu",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The Zurvanite twin-myth is direct exegesis of Yasna 30.3, where the two primal Spirits are 'twins' — the heresy grows from the parent scripture's own unanswered question: twins of whom?"
+    },
+    {
+      "a": "zurvanism-zurvan",
+      "b": "ahura-mazda",
+      "type": "inverts",
+      "tier": "2",
+      "note": "GOLD SEAM: Zurvanism demotes the uncreated Wise Lord into a created son of Time — orthodoxy's supreme god becomes one of two brothers, a reading the Pahlavi books polemicize against."
+    },
+    {
+      "a": "zurvanism-zurvan",
+      "b": "manichaeism-father-of-greatness",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: In Middle Persian Manichaica (Turfan fragments) Mani's Father of Greatness is rendered 'Zurwan' — the Apostle of Light borrowed the Iranian time-god's name to preach his supreme deity to Persia."
+    },
+    {
+      "a": "zurvanism-zurvan",
+      "b": "mithraism-leontocephalus",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Cumont read the lion-headed Aion of the Mithraea as Zurvan; modern scholarship doubts the identification — kept as a debated structural rhyme of boundless Time enthroned, flagged."
+    },
+    {
+      "a": "zurvanism-zurvan",
+      "b": "orphism-chronos",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Unaging Time as the first principle from which the cosmos unfolds — influence between Iran and the Orphic theogonies has been argued in both directions (Zaehner, West) but never proven; structural kinship only."
+    },
+    {
+      "a": "zurvanism-spihr",
+      "b": "stoicism-eimarmene",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Fate as the cosmic decree no one escapes — but the Stoic sage assents to eimarmene as reason, while the Zurvanite fatalist merely submits to the turning sphere."
+    },
+    {
+      "a": "zurvanism-nine-thousand-years",
+      "b": "frashokereti",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The fixed term of the cosmic battle ending in the renovation is the shared Zoroastrian clock — Zurvanism keeps orthodoxy's ending intact while re-parenting its combatants."
+    },
+    {
+      "a": "karaite-judaism-mikra",
+      "b": "judaism-torah",
+      "type": "inverts",
+      "tier": "1",
+      "note": "GOLD SEAM: The same Written Torah, split over the Oral — Karaism accepts the rabbis' scripture and rejects their Mishnah-Talmud chain of authority; a child of Judaism defined by the refusal."
+    },
+    {
+      "a": "karaite-judaism-avelei-zion",
+      "b": "judaism-mashiach",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: The Mourners settled 10th-century Jerusalem in ascetic grief expressly to hasten the messianic redemption both communities await — one eschatology across the rabbanite-Karaite split."
+    },
+    {
+      "a": "karaite-judaism-mikra",
+      "b": "protestantism-sola-scriptura",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Scripture-alone raised against an authorized interpretive tradition — the 'Protestants of Judaism' label is a later comparative analogy; Karaism precedes the Reformation by seven centuries and no contact is claimed."
+    },
+    {
+      "a": "karaite-judaism-mikra",
+      "b": "samaritanism-torah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Two refusals of the rabbinic chain — but Samaritans keep only their own Pentateuch while Karaites keep the full Tanakh; independent splits (medieval polemics linking Karaites to the Sadducees are contested, not descent)."
+    },
+    {
+      "a": "sufism-tariqa",
+      "b": "islam-muhammad",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: Every silsila terminates in the Prophet (most via 'Ali) — Sufism is Islam's interior discipline claiming direct descent, not a separate religion beside it."
+    },
+    {
+      "a": "sufism-dhikr",
+      "b": "islam-fana",
+      "type": "pairs",
+      "tier": "1",
+      "note": "GOLD SEAM: Fana, annihilation in the Beloved, is the terminus of dhikr practice — the parent shard already carries Sufism's crown concept; one seam, same body."
+    },
+    {
+      "a": "sufism-al-hallaj",
+      "b": "alevism-dar-i-mansur",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Alevi cem's station of judgment is named dar-i Mansur, 'the gallows of Mansur' — al-Hallaj's execution ritually re-lived in Anatolia, a documented borrowing of the martyr into the liturgy."
+    },
+    {
+      "a": "sufism-tariqa",
+      "b": "alevism-haci-bektas-veli",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: Haci Bektas was a Khorasani Sufi pir and the Bektashi order bearing his name is itself a tariqa — Alevism grows from Sufi rootstock, though the degree of continuity is debated."
+    },
+    {
+      "a": "sufism-tariqa",
+      "b": "sikh-guru-granth-sahib",
+      "type": "bridge",
+      "tier": "2",
+      "note": "GOLD SEAM: The Guru Granth Sahib canonizes verses attributed to the Chishti master Shaykh Farid — a Sufi voice bound inside Sikh scripture; the inclusion is fact, though whether the hymns are Farid's own or his Pakpattan successors' is debated."
+    },
+    {
+      "a": "sufism-rumi",
+      "b": "alevism-semah",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Mevlevi sema and Alevi semah — two ecstatic turning rites of the same Anatolian soil and era; kinship of milieu and vocabulary, not proven descent."
+    },
+    {
+      "a": "sufism-dhikr",
+      "b": "eastern-orthodoxy-hesychasm",
+      "type": "analogous",
+      "tier": "3",
+      "note": "GOLD SEAM: Breath-tied repetition of the divine Name until the heart prays itself — the Jesus Prayer and dhikr are the classic comparanda of contemplative technique; mutual influence often suggested, never proven."
+    },
+    {
+      "a": "ismailism-imam",
+      "b": "islam-imamah",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The Sevener imamate descends directly from the Shi'i doctrine of divinely designated leadership, branching at Ja'far al-Sadiq's succession in 765 — proven doctrinal descent within Islam."
+    },
+    {
+      "a": "druze-al-hakim",
+      "b": "ismailism-imam",
+      "type": "cognate",
+      "tier": "1",
+      "note": "GOLD SEAM: The Druze faith crystallized in 1017 inside the Fatimid Ismaili da'wa around the caliph-imam al-Hakim — documented parent-child descent; the child then sealed itself off from the parent."
+    },
+    {
+      "a": "druze-hamza",
+      "b": "ismailism-batin",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: Hamza ibn 'Ali built Druze doctrine with the tools of Fatimid ta'wil — the batin/zahir hermeneutic carried out of Ismailism into the new faith, then radicalized."
+    },
+    {
+      "a": "ismailism-rasail-ikhwan",
+      "b": "neoplatonism-the-one",
+      "type": "syncretic",
+      "tier": "2",
+      "note": "GOLD SEAM: The Epistles pour Plotinian emanation into Islamic form via the Arabic Plotinus corpus (the so-called Theology of Aristotle) — documented textual dependence, not mere resemblance."
+    },
+    {
+      "a": "ismailism-batin",
+      "b": "druze-uqqal",
+      "type": "cognate",
+      "tier": "2",
+      "note": "GOLD SEAM: The Druze division into initiated 'uqqal and uninitiated juhhal carries forward the Ismaili grading of access to the batin — the esoteric-tier structure inherited from the parent da'wa."
     }
   ]
 };
