@@ -28,7 +28,8 @@
     const WALL_R = room.WALL_R;               // the cella's inner face (lobby wall)
     const DIAG_ = root.DIAG || { mark() {} };
     const Y = t => {
-      DIAG_.mark("raising the temple · " + t);
+      if (H.__narrate) H.__narrate("raising the temple · " + t);
+      else DIAG_.mark("raising the temple · " + t);
       if (H.__rt) { H.renderer.render(H.scene, H.camera); DIAG_.mark("survived render · " + t); }
       return H.__yield ? H.__yield() : new Promise(r => requestAnimationFrame(r));
     };

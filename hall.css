@@ -137,8 +137,18 @@ canvas{ display:block; touch-action:none; }
 #hall-header .sub{ margin:.4em 0 0; font-style:italic; font-weight:300;
   font-size:13.5px; letter-spacing:.04em; color:var(--silver-dim); }
 
-/* ---------- nav (stations) + year ---------- */
-#nav{ position:fixed; top:26px; right:30px; z-index:7; text-align:right; }
+/* ---------- nav (stations) + year ----------
+   The chrome reveals itself in stages (Joe's staging): nothing at the gate;
+   the two relic stations once inside; the seeker, the year and the mend only
+   once a simulation runs — and the mend only at the instrument. */
+#nav{ position:fixed; top:26px; right:30px; z-index:7; text-align:right; display:none; }
+body[data-stage="room"] #nav, body[data-stage="holo"] #nav{ display:block; }
+#btn-mend{ display:none; }
+body[data-stage="holo"][data-station="instrument"] #btn-mend{ display:inline-block; }
+#search{ display:none; }
+body[data-stage="holo"] #search{ display:block; }
+#year-readout{ display:none; }
+body[data-stage="holo"] #year-readout{ display:block; }
 #nav .stations{ display:flex; gap:6px; justify-content:flex-end; }
 #nav button{
   font-family:'Spectral',serif; font-size:11.5px; letter-spacing:.13em;

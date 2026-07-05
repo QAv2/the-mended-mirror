@@ -43,12 +43,22 @@
       ? () => new Promise(r => setTimeout(r, 0))
       : () => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
     H.__yield = yieldFrame;
-    const stage = t => {
+    /* every builder narrates through here: the diag always, the gate button
+       while the loading screen is still becoming the splash */
+    H.__narrate = t => {
       DIAG.mark(t);
       if (gateNarrates && gateStatus) gateStatus.textContent = t;
+    };
+    const stage = t => {
+      H.__narrate(t);
       if (H.__rt && H.renderer) { H.renderer.render(H.scene, H.camera); DIAG.mark("survived render · " + t); }
       return yieldFrame();
     };
+    /* the chrome reveals itself in stages (Joe's staging): nothing at the
+       gate; the two relic stations in the room; the seeker and the year once
+       a simulation runs; the mend only at the instrument */
+    const setChrome = s => { document.body.dataset.stage = s; };
+    setChrome("gate");
     await stage("laying the mirror…");
     H.model = HALL.buildModel(root.MIRROR_DATA);
     await stage("opening the void…");
@@ -107,7 +117,7 @@
       DIAG.mark("holodeck ready (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
     }
     function ensureHolo() {
-      for (const [label, has, build] of holoSteps) if (!has()) { DIAG.mark(label); build(); }
+      for (const [label, has, build] of holoSteps) if (!has()) { H.__narrate(label); build(); }
       postHolo();
     }
     H.ensureHolo = ensureHolo;
@@ -152,7 +162,7 @@
       for (const [label, has, build] of holoSteps) {
         while ((H.approach && H.approach.playing) || H.rig.locked)
           await new Promise(r => setTimeout(r, 350));          // never hitch a flight
-        if (!has()) { DIAG.mark(label); build(); }
+        if (!has()) { H.__narrate(label); build(); }
         await yieldFrame();
         await new Promise(r => setTimeout(r, 50));
       }
@@ -225,6 +235,8 @@
 
       if (name === "room") {
         station = "room";
+        setChrome("room");
+        document.body.dataset.station = "room";
         H.ui.setStation("room");
         leavePano();
         clampsFor("room");
@@ -235,6 +247,8 @@
 
       if (name === "instrument") {
         station = "instrument";
+        setChrome("holo");
+        document.body.dataset.station = "instrument";
         H.ui.setStation("instrument");
         leavePano();
         clampsFor("instrument");
@@ -253,6 +267,8 @@
 
       if (name === "scroll") {
         station = "scroll";
+        setChrome("holo");
+        document.body.dataset.station = "scroll";
         H.ui.setStation("scroll");
         ensureHolo();
         H.room.showInstrument(false);     // stand in the ages; the floor astrolabe would occlude the perimeter
@@ -432,6 +448,8 @@
     function ensureInstrumentRig() {
       if (station === "instrument") return;
       station = "instrument";
+      setChrome("holo");
+      document.body.dataset.station = "instrument";
       H.ui.setStation("instrument");
       leavePano();
       clampsFor("instrument");
@@ -878,40 +896,12 @@
        leave the visitor here, and the interior cannot tell which road it was */
     function arrive() {
       station = "room";
+      setChrome("room");
+      document.body.dataset.station = "room";
       clampsFor("room");
       H.ui.setStation("room");
       H.ui.hint(HINTS.room);
       try { localStorage.setItem("mm-approached", "1"); } catch (e) { /* private mode */ }
-    }
-
-    /* the world landed while the title still holds: the gate thins to a
-       vignette over the daylit temple and *begin* departs from wherever the
-       visitor carries the orbit */
-    function upgradeToIntro() {
-      INTRO = true;
-      H.env.setDay();
-      H.exterior.setPorthole(false);
-      H.threshold.setSunk();
-      gate.classList.add("over-world");
-      clampsFor("exterior");
-      seatRig(POSES.exterior);
-      enterBtn.textContent = "Enter";
-      let seen = false;
-      try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
-      if (seen) {
-        const sk = document.createElement("div");
-        sk.id = "gate-skip";
-        sk.textContent = "pass directly within";
-        sk.addEventListener("click", ev => {
-          ev.stopPropagation();
-          if (entered) return;
-          entered = true;
-          gate.classList.add("hidden");
-          H.approach.play(arrive, true);
-          buildHoloBehind();
-        });
-        gate.appendChild(sk);
-      }
     }
 
     if (INSPECT_WANT) await buildWorld();       // the reviewer's seat wants the world NOW
@@ -927,30 +917,54 @@
         H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
         buildHoloBehind();
       } else {
-        /* the gate opens on the bare lobby, enterable NOW; the world raises
-           behind the title and upgrades the gate to the approach when ready */
-        gateNarrates = false;
-        enterBtn.textContent = "Enter";
-        enterBtn.classList.add("ready");
-        DIAG.mark("gate interactive (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
+        /* the loading screen BECOMES the splash (Joe): narration runs through
+           the world and the exhibits on the gate button itself, and only a
+           finished hall offers Enter — the visitor clicks, never falls, in */
         buildWorld().then(() => {
-          if (H.exterior && !entered && INTRO_WANT && H.approach) {
-            upgradeToIntro();
+          if (H.exterior && INTRO_WANT && H.approach) {
+            INTRO = true;
+            H.env.setDay();
+            H.exterior.setPorthole(false);
+            H.threshold.setSunk();
+            clampsFor("exterior");
+            seatRig(POSES.exterior);      // the flight departs the aerial seat, behind the opaque splash
+            let seen = false;
+            try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
+            if (seen) {
+              const sk = document.createElement("div");
+              sk.id = "gate-skip";
+              sk.textContent = "pass directly within";
+              sk.addEventListener("click", ev => {
+                ev.stopPropagation();
+                if (entered || !enterBtn.classList.contains("ready")) return;
+                entered = true;
+                gate.classList.add("hidden");
+                H.approach.play(arrive, true);
+              });
+              gate.appendChild(sk);
+            }
           } else if (H.exterior) {
-            /* entered already, or ?intro=0: night has fallen; the temple
-               waits outside the door exactly as the lobby expects */
+            /* ?intro=0: night has fallen; the temple waits outside the door
+               exactly as the lobby expects */
             H.exterior.setNight(1);
             H.exterior.setPorthole(true);
             H.exterior.fade(1);
             H.env.toInterior(1);
           }
-        }).then(() => buildHoloBehind());
+          return buildHoloBehind();
+        }).then(() => {
+          gateNarrates = false;
+          enterBtn.textContent = "Enter";
+          enterBtn.classList.add("ready");
+          DIAG.mark("splash ready — Enter offered (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
+        });
       }
-      gate.addEventListener("click", () => {
-        if (entered) return;
+      enterBtn.addEventListener("click", ev => {
+        ev.stopPropagation();
+        if (entered || !enterBtn.classList.contains("ready")) return;
         entered = true;
         gate.classList.add("hidden");
-        if (INTRO && H.approach) { H.approach.play(arrive); buildHoloBehind(); return; }
+        if (INTRO && H.approach) { H.approach.play(arrive); return; }
         // arrival: a long slow settle down toward the plinth
         H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
         H.rig.sph.copy(H.rig.dSph);
@@ -958,7 +972,8 @@
         clampsFor("room");
         H.rig.flyTo(POSES.room, 4.6, () => H.ui.hint(HINTS.room));
         H.ui.setStation("room");
-        buildHoloBehind();
+        setChrome("room");
+        document.body.dataset.station = "room";
       });
     }
 
@@ -1029,6 +1044,8 @@
       if (q.get("selShard")) selectShard(+q.get("selShard"));
       if (q.get("selFig")) selectFigure(+q.get("selFig"));
       if (q.get("selJoint")) selectJoint(+q.get("selJoint"));
+      setChrome(station === "room" ? "room" : "holo");
+      document.body.dataset.station = station;
       H.__shotReady = true;      // the snap harness waits for the COMPOSED shot
     } else {
       H.__shotReady = true;      // interactive: the gate is the composition

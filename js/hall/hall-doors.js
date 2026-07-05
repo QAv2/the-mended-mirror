@@ -128,12 +128,50 @@
       tw = H.tween(dur, u => apply(from + (k - from) * u), null, () => { tw = null; });
     }
 
-    /* ---------- the GLB skin: geometry upgrade, bronze stays ours ---------- */
+    /* ---------- the engraved skin: the 2D design IS the intricacy ----------
+       A gold door design (fal.ai FLUX, 2D-first — Joe's pipeline) lands at
+       assets/doors-leaf.png and becomes the leaf: a clean slab whose front
+       and back carry the design as albedo + bump. Every engraved line
+       survives at full resolution, where 15k triangles of image-to-3D
+       geometry smooth them away. When it loads, the GLB stands down. */
+    let skinned2d = false;
+    if (HALL.Q.glb) {
+      new THREE.TextureLoader().load("assets/doors-leaf.png", tex => {
+        tex.encoding = THREE.sRGBEncoding;
+        tex.anisotropy = HALL.Q.aniso;
+        const engraved = new THREE.MeshStandardMaterial({
+          map: tex, bumpMap: tex, bumpScale: -0.05,     // dark engraving cuts IN
+          color: 0xffffff, metalness: 0.85, roughness: 0.5,
+          emissive: 0x120c04, emissiveIntensity: 0.5,
+        });
+        const mkLeaf = () => {
+          const leaf = new THREE.Group();
+          leaf.add(new THREE.Mesh(new THREE.BoxGeometry(LEAF_W, LEAF_H, LEAF_D), bronze));
+          const front = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engraved);
+          front.position.z = -LEAF_D / 2 - 0.006;
+          front.rotation.y = Math.PI;                   // faces outward (−z)
+          const back = front.clone();
+          back.position.z = LEAF_D / 2 + 0.006;
+          back.rotation.y = 0;                          // the room sees the same craft
+          leaf.add(front, back);
+          return leaf;
+        };
+        skinned2d = true;
+        for (const h of hinges) {
+          h.carrier.remove(h.carrier.children[0]);
+          h.carrier.add(mkLeaf());
+        }
+        DIAG.mark("gold doors: engraved 2D skin mounted");
+      }, undefined, () => { /* no design yet — relief carries it */ });
+    }
+
+    /* ---------- the GLB skin: geometry upgrade, the gold stays ours ---------- */
     if (root.THREE && THREE.GLTFLoader && HALL.Q.glb) {
       try {
         new THREE.GLTFLoader().load("assets/doors-leaf.glb", gltf => {
+          if (skinned2d) return;   // the engraved 2D design outranks the relief
           // the WHOLE scene is the leaf (Meshy splits its relief across
-          // meshes — taking one renders stray bars); the bronze stays ours
+          // meshes — taking one renders stray bars); the gold stays ours
           const src = gltf.scene;
           let any = false;
           src.traverse(o => { if (o.isMesh) { o.material = bronze; any = true; } });
