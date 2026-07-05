@@ -68,7 +68,8 @@ canvas{ display:block; touch-action:none; }
   color:var(--gold-deep); margin-bottom:1.7em; }
 #gate h1{
   font-family:'Marcellus', serif; font-weight:400; margin:0;
-  font-size:clamp(36px, 6vw, 62px); letter-spacing:.05em; line-height:1.05;
+  font-size:clamp(36px, 6vw, 62px); letter-spacing:.05em; line-height:1.18;
+  padding-bottom:.06em;   /* gradient-clipped text crops descenders without it (the g in Ages) */
   background:linear-gradient(180deg,#fff1c8,#e7b24a 68%,#a9772f);
   -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
 }
@@ -149,7 +150,7 @@ canvas{ display:block; touch-action:none; }
 #hall-header{ position:fixed; top:26px; left:32px; z-index:6; pointer-events:none;
   text-shadow:0 2px 20px rgba(0,0,0,0.75); }
 #hall-header h1{ font-family:'Marcellus', serif; font-weight:400; margin:0;
-  font-size:26px; letter-spacing:.06em; line-height:1.1;
+  font-size:26px; letter-spacing:.06em; line-height:1.2; padding-bottom:.06em;
   background:linear-gradient(180deg,#fff1c8,#e7b24a 70%,#a9772f);
   -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
 #hall-header .sub{ margin:.4em 0 0; font-style:italic; font-weight:300;

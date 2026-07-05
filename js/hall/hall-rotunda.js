@@ -182,10 +182,12 @@
       g.font = "300 26px Spectral, Georgia, serif";
       g.fillStyle = "rgba(130,139,156,0.7)";
       g.fillText("the one interval history has not written — the way back out", xdMid, py(H_TOPR * 0.52 - 1.4));
-      // title above the lintel
+      // title above the lintel — the baseline keeps its ascenders inside the
+      // canvas at any wall height (they clipped at catalog scale)
       g.fillStyle = "rgba(255,228,154,0.85)";
-      g.font = "58px Marcellus, Georgia, serif";
-      g.fillText("The Scroll of Ages", xdMid, py(H_TOPR + 2.55));
+      const titleFs = Math.min(58, Math.floor((py(H_TOPR + 2.1)) * 0.55));
+      g.font = titleFs + "px Marcellus, Georgia, serif";
+      g.fillText("The Scroll of Ages", xdMid, py(H_TOPR + 2.1) * 0.8);
     })();
 
     const tex = new THREE.CanvasTexture(canvas);

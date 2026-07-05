@@ -117,7 +117,10 @@
     const RAD = RIM_OUT + 1.8;                        // the wall wraps the instrument
     const Y0R = 2.6;                                  // first lane above the floor
     const H_TOPR = Y0R + (S.H_TOP - S.Y0);            // banded lanes, transplanted
-    const WALL_H = H_TOPR + 3.4;                      // strata wall + cornice headroom
+    const WALL_H = H_TOPR + 4.6;                      // strata wall + cornice headroom
+                                                      // (4.6: the title band above the
+                                                      // lintel must hold 58px ascenders
+                                                      // at catalog wall heights)
     H.dims = {
       RIM_IN, RIM_OUT, RAD, Y0R, H_TOPR,
       WALL_H,                                         // the strata wall (holo — TARDIS-tall)
