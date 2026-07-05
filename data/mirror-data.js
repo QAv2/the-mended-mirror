@@ -393,10 +393,9 @@ window.MIRROR_DATA = {
       "period": {
         "from": -50000,
         "to": 2026,
-        "peak": 1700,
         "living": true,
         "certainty": "deep",
-        "note": "The Dreaming — among the oldest continuous living cultures on Earth (~50,000+ yrs). [span verified vs scholarship 2026-07-04]"
+        "note": "The Dreaming — among the oldest continuous living cultures on Earth (~50,000+ yrs). [span verified vs scholarship 2026-07-04; peak: n/a — continuous deep-time tradition, no single apex]"
       }
     },
     "ainu": {
@@ -2356,10 +2355,9 @@ window.MIRROR_DATA = {
       "period": {
         "from": -2000,
         "to": 2026,
-        "peak": 1600,
         "living": true,
         "certainty": "inferred",
-        "note": "Indigenous Fennoscandia; the deep date is inferred from Iron-Age archaeology (direct records only 17th–18th c.); living, with active revival. [span verified vs scholarship 2026-07-04]"
+        "note": "Indigenous Fennoscandia; the deep date is inferred from Iron-Age archaeology (direct records only 17th–18th c.); living, with active revival. [span verified vs scholarship 2026-07-04; peak: n/a — continuous deep-time tradition, no single apex]"
       }
     },
     "san": {
@@ -2369,10 +2367,9 @@ window.MIRROR_DATA = {
       "period": {
         "from": -22000,
         "to": 2026,
-        "peak": -500,
         "living": true,
         "certainty": "deep",
-        "note": "The |Xam/San — deep-time continuous; rock-art tens of millennia old. [span verified vs scholarship 2026-07-04]"
+        "note": "The |Xam/San — deep-time continuous; rock-art tens of millennia old. [span verified vs scholarship 2026-07-04; peak: n/a — continuous deep-time tradition, no single apex]"
       }
     },
     "santeria": {
