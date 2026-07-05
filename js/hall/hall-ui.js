@@ -73,7 +73,23 @@
       return items ? `<h3>Where it converges</h3><ul class="rel-edges">${items}</ul>` : "";
     }
 
-    function openFigure(fi) {
+    /* prose (glosses, edge notes, dossiers, links) lives in per-tradition
+       chunks — gate each open on its chunk, with a beat of patience if the
+       fetch is still in the air. Token guards stale renders. */
+    function gated(ids, render) {
+      if (!HALL.chunks || HALL.chunks.ready(ids)) { render(); return; }
+      const tok = ++openToken;
+      show(`<div class="rel-kicker">unsealing the record…</div>`);
+      HALL.chunks.ensure(ids).then(() => { if (tok === openToken) render(); });
+    }
+    function openFigure(fi) { gated([D.figures[fi].tradition], () => renderFigure(fi)); }
+    function openTradition(k) { gated([k], () => renderTradition(k)); }
+    function openSeam(e) {
+      const oi = M.figById[e.a];
+      gated(oi !== undefined ? [D.figures[oi].tradition] : [], () => renderSeam(e));
+    }
+
+    function renderFigure(fi) {
       const f = D.figures[fi];
       const t = D.traditions[f.tradition] || {};
       let h = "";
@@ -94,7 +110,7 @@
       show(h);
     }
 
-    function openTradition(k) {
+    function renderTradition(k) {
       const t = D.traditions[k];
       if (!t) return;
       const si = M.shardOfTrad[k];
@@ -163,7 +179,7 @@
       show(h);
     }
 
-    function openSeam(e) {
+    function renderSeam(e) {
       const ai = M.figById[e.a], bi = M.figById[e.b];
       const fa = D.figures[ai], fb = D.figures[bi];
       const label = (D.edgeTypes[e.type] && D.edgeTypes[e.type].label) || e.type;

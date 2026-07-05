@@ -48,3 +48,6 @@ scroll.js
 
 # design specs / briefs (internal)
 design/
+# wave-2 forge staging + raw link sidecars (public copies ride data/t/ chunks)
+data/_forge2/
+data/_link/

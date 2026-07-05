@@ -493,6 +493,7 @@
         const s = M.shards[h.idx];
         H.mater.hoverV[h.idx] = Math.max(H.mater.hoverV[h.idx], 0.55);
         lastHoverShard = h.idx;
+        if (HALL.chunks) HALL.chunks.prefetch(s.trad);
         const t = D.traditions[s.trad];
         const p = t.period || {};
         const years = (p.from < 0 ? Math.abs(p.from).toLocaleString() + " BCE" : p.from + " CE") + " — " + (p.living ? "living" : (p.to < 0 ? Math.abs(p.to) + " BCE" : p.to + " CE"));
@@ -502,6 +503,7 @@
         const f = D.figures[h.idx];
         H.figures.figHover[h.idx] = 1;
         lastHoverFig = h.idx;
+        if (HALL.chunks) HALL.chunks.prefetch(f.tradition);
         const a = M.figAnchor[h.idx];
         const t = D.traditions[f.tradition];
         H.ui.setHover(new THREE.Vector3(a.x, a.y + 0.35, a.z), f.name, (t ? t.name : "") + " · " + f.kind, t ? t.color : undefined);
@@ -518,6 +520,7 @@
       } else if (h.kind === "rule" || h.kind === "rmeridian") {
         H.ui.setHover(null);
       } else if (h.kind === "rlane") {
+        if (HALL.chunks) HALL.chunks.prefetch(h.trad);
         const t = D.traditions[h.trad];
         const p = t.period || {};
         const years = (p.from < 0 ? Math.abs(p.from).toLocaleString() + " BCE" : p.from + " CE") + " — " + (p.living ? "living" : (p.to < 0 ? Math.abs(p.to) + " BCE" : p.to + " CE"));

@@ -28,9 +28,13 @@
 
      The rule on the floor and the meridian on the wall are the same hand.
 
-     Everything is vendored (Three.js r147 UMD + fonts) — runs from file://
-     offline, no build step. Drop a Meshy model at assets/astrolabe.glb and
-     the threshold relic swaps itself in (needs http:// or file-XHR allowed).
+     Everything is vendored (Three.js r147 UMD + fonts), no build step. Boot
+     loads the LITE core (data/mirror-core.js); figure prose, dossiers and
+     source links fetch per tradition from data/t/ as reliquaries open — so
+     the page wants http:// (from file:// it degrades to the lite fields).
+     Drop a Meshy model at assets/astrolabe.glb and the threshold relic swaps
+     itself in. Regenerate the split after any data change:
+     node build-dossiers.js && node design/build-split.js
      ============================================================================ -->
 
 <link rel="stylesheet" href="hall.css">
@@ -151,10 +155,10 @@
 <script src="vendor/three.min.js"></script>
 <script>DIAG.mark("three.js loaded r" + (window.THREE ? THREE.REVISION : "?!"))</script>
 <script src="vendor/GLTFLoader.js"></script>
-<script src="data/mirror-data.js"></script>
-<script>DIAG.mark("corpus parsed — " + (window.MIRROR_DATA ? Object.keys(MIRROR_DATA.traditions).length + " traditions, " + MIRROR_DATA.figures.length + " figures" : "MISSING"))</script>
-<script src="data/mirror-dossiers.js"></script>
-<script>DIAG.mark("dossiers parsed — " + (window.MIRROR_DOSSIERS ? Object.keys(MIRROR_DOSSIERS).length : "MISSING"))</script>
+<script src="data/mirror-core.js"></script>
+<script>DIAG.mark("core parsed — " + (window.MIRROR_DATA ? Object.keys(MIRROR_DATA.traditions).length + " traditions, " + MIRROR_DATA.figures.length + " figures (lite v" + (MIRROR_DATA.__v || "?") + ")" : "MISSING"))</script>
+<script src="js/hall/hall-chunks.js"></script>
+<script>DIAG.mark("chunk loader ready — prose fetches per tradition from data/t/")</script>
 <script src="js/hall/hall-data.js"></script>
 <script src="js/hall/hall-scene.js"></script>
 <script src="js/hall/hall-mater.js"></script>
