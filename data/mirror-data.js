@@ -14,7 +14,7 @@ window.MIRROR_DATA = {
     "workingTitle": "The Mended Mirror",
     "subtitle": "a kintsugi of the world's pantheons",
     "purpose": "mending the mirror — so the one face can be seen again",
-    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 219 traditions, 1736 figures, 42 archetype-joints.",
+    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 219 traditions, 1731 figures, 42 archetype-joints.",
     "span": {
       "from": -50000,
       "to": 2369
@@ -3990,9 +3990,9 @@ window.MIRROR_DATA = {
         "complementarity",
         "one-through-many"
       ],
-      "gloss": "In the grounded Toltec lineage William Douglas Horden learned from real Tarahumara shamans: the tonal, the island of the known; the nagual, the boundless unknown from which it rises.",
-      "facet": "The known and the unknown as one reality seen from two sides — Horden's life-work bridges it to the I Ching.",
-      "provenance": "Sourced to Horden's named lineage (Tarahumara shamans of the Copper Canyon; I Ching master Khigh Alx Dhiegh) — deliberately NOT to Castaneda's fabricated version (see the forgery node)."
+      "gloss": "In Mesoamerican thought, the self is doubled: the tonal — the day-sign soul, one's calendrical destiny and waking person — and the nagual, the hidden animal co-essence, or the specialist able to cross into it and travel apart from the body.",
+      "facet": "The best-documented Mesoamerican answer to what else a human is: a public calendrical person set beside a hidden animal counterpart — the schema the famous forgery imitated.",
+      "provenance": "Nahua tonalli in Alfredo López Austin, 'The Human Body and Ideology' (1980); nagualism surveyed in George Foster, 'Nagualism in Mexico and Guatemala' (1944); colonial attestation in Ruiz de Alarcón's 'Treatise' (1629). Distinct from Castaneda's fabricated version (the forgery node); Horden's modern Toltec I Ching synthesis rides the yin-yang bridge edge, not this entry's pedigree."
     },
     {
       "id": "purusha-prakriti",
@@ -11372,26 +11372,6 @@ window.MIRROR_DATA = {
       "provenance": "The Emerald Tablet ('that which is above is as that which is below'); the Hermetica."
     },
     {
-      "id": "mani",
-      "tradition": "gnostic",
-      "kind": "hero",
-      "name": "Mani",
-      "archetypes": [
-        "culture-hero",
-        "dualism"
-      ],
-      "gloss": "The third-century prophet of Babylon who proclaimed himself the Seal of the Prophets and fused Zoroaster, Jesus and the Buddha into one universal religion of Light against Darkness — a faith built on purpose to gather all revelations into one.",
-      "facet": "The meta-shard: a tradition that consciously TRIED to mend the mirror, declaring the prior prophets partial witnesses of one truth — and was branded the arch-heresy for it across three empires.",
-      "provenance": "Cologne Mani-Codex; Coptic Kephalaia; Augustine's anti-Manichaean works.",
-      "date": {
-        "from": 216,
-        "to": 274,
-        "peak": 250,
-        "certainty": "attested",
-        "note": "Mani, historical founder of Manichaeism."
-      }
-    },
-    {
       "id": "manichaean-dualism",
       "tradition": "gnostic",
       "kind": "principle",
@@ -16904,44 +16884,6 @@ window.MIRROR_DATA = {
       "provenance": "Late 1990s and 2000s Burmese urban legends; roots in older rural cemetery guardian lore."
     },
     {
-      "id": "nation-of-islam-esoteric-fard-muhammad",
-      "tradition": "nation-of-islam-esoteric",
-      "kind": "deity",
-      "name": "W.D. Fard (God in Person)",
-      "archetypes": [
-        "withdrawn-creator",
-        "culture-hero"
-      ],
-      "gloss": "The mysterious itinerant silk peddler who appeared in 1930s Detroit, teaching that he was the Supreme Being and the Great Mahdi. He imparted secret knowledge of humanity's true origins before vanishing entirely in 1934.",
-      "facet": "God is explicitly incarnational and radically humanized; he is not an invisible spirit but a physical Asiatic man who walked among the oppressed to trigger an eschatological awakening.",
-      "provenance": "Elijah Muhammad's 'Message to the Blackman in America' (1965); 'The Supreme Wisdom Lessons'."
-    },
-    {
-      "id": "nation-of-islam-esoteric-yacub",
-      "tradition": "nation-of-islam-esoteric",
-      "kind": "hero",
-      "name": "Yacub (The Big Head Scientist)",
-      "archetypes": [
-        "cosmic-adversary",
-        "smith"
-      ],
-      "gloss": "A brilliant but rebellious scientist who, 6,600 years ago on the island of Patmos, instituted a strict eugenics program to graft the white race out of the Original Black Nation, systematically stripping away their melanin and divine nature.",
-      "facet": "Demonology is strictly biological and historical. The 'devil' is not a fallen angel from a spiritual heaven, but a genetically engineered race designed to rule the earth for a fixed apocalyptic cycle of 6,000 years.",
-      "provenance": "Elijah Muhammad's 'Message to the Blackman in America' (1965)."
-    },
-    {
-      "id": "nation-of-islam-esoteric-original-man",
-      "tradition": "nation-of-islam-esoteric",
-      "kind": "ancestor",
-      "name": "The Original Man",
-      "archetypes": [
-        "first-ancestor"
-      ],
-      "gloss": "The Asiatic Black Man, cosmologically defined as the Maker, the Owner, the Cream of the Planet Earth, and Father of Civilization. He is the beginning and the end of the human narrative.",
-      "facet": "Primordial humanity is inherently racialized and divinized; the Original Man did not fall into sin requiring salvation, but rather fell into historical amnesia requiring esoteric re-education.",
-      "provenance": "'The Supreme Wisdom Lessons' (1930s)."
-    },
-    {
       "id": "nation-of-islam-esoteric-supreme-mathematics",
       "tradition": "nation-of-islam-esoteric",
       "kind": "principle",
@@ -16952,18 +16894,6 @@ window.MIRROR_DATA = {
       "gloss": "An esoteric system formalized by Clarence 13X where the digits 0-9 correspond to immutable divine realities (e.g., 1 is Knowledge, 7 is God, 9 is Born). It is the structural code used to read the universe.",
       "facet": "Numbers are not mere quantitative tools but the literal, active building blocks of consciousness. Mastering them allows the initiate to 'show and prove' their own divinity in everyday street life.",
       "provenance": "Teachings of Clarence 13X and the Five-Percent Nation (1960s)."
-    },
-    {
-      "id": "nation-of-islam-esoteric-mother-plane",
-      "tradition": "nation-of-islam-esoteric",
-      "kind": "place",
-      "name": "The Mother Plane (The Wheel)",
-      "archetypes": [
-        "axis-mundi"
-      ],
-      "gloss": "A massive, heavily armed, wheel-like spacecraft built by original scientists. It orbits the earth and carries 1,500 smaller planes, waiting to unleash apocalyptic destruction on the wicked world order at the end of time.",
-      "facet": "It merges biblical prophetic visions with mid-century ufology and militarism, transforming the eschatological judgment from a spiritual event into a mechanized, aerial military intervention.",
-      "provenance": "Elijah Muhammad's 'The Fall of America' (1973)."
     },
     {
       "id": "nation-of-islam-esoteric-noble-drew-ali",
@@ -17020,7 +16950,6 @@ window.MIRROR_DATA = {
       "kind": "hero",
       "name": "Elijah Muhammad (The Messenger)",
       "archetypes": [
-        "dying-rising",
         "culture-hero"
       ],
       "gloss": "Born Elijah Poole, he was chosen by W.D. Fard as the sole Messenger to the 'Lost-Found Nation.' For over forty years, he systematized the movement's theology, strict dietary laws, and vision of economic independence.",
@@ -17036,7 +16965,7 @@ window.MIRROR_DATA = {
         "cosmic-adversary",
         "smith"
       ],
-      "gloss": "A rogue, brilliant Black scientist who, 6,000 years ago on the island of Patmos, instituted a ruthless eugenics program to graft the white race out of the original Black nation, creating a race of 'devils' to rule temporarily.",
+      "gloss": "A rogue, brilliant Black scientist who, some 6,600 years ago on the island of Patmos, instituted a ruthless eugenics program to graft the white race out of the original Black nation — a race of 'devils' allotted 6,000 years of temporary rule.",
       "facet": "Evil is not a fallen angelic spirit but a genetically engineered phenotype. The demonic is stripped of the supernatural and recast as a historical, biological consequence.",
       "provenance": "'Message to the Blackman in America'."
     },
@@ -17207,7 +17136,7 @@ window.MIRROR_DATA = {
       "provenance": "David F. Aberle, 'The Peyote Religion among the Navaho' (1966)."
     },
     {
-      "id": "changing-woman",
+      "id": "navajo-changing-woman",
       "tradition": "navajo",
       "kind": "deity",
       "name": "Asdzáá Nádleehé (Changing Woman)",
@@ -17220,7 +17149,7 @@ window.MIRROR_DATA = {
       "provenance": "Recorded from Blessingway and creation-cycle tradition (Wyman, Reichard, Zolbrod); ceremonial detail is held sacred and many tellings are deliberately incomplete in print at Diné direction."
     },
     {
-      "id": "naayee-neizghani",
+      "id": "navajo-naayee-neizghani",
       "tradition": "navajo",
       "kind": "hero",
       "name": "Naayééʼ Neizghání (Monster Slayer)",
@@ -17233,7 +17162,7 @@ window.MIRROR_DATA = {
       "provenance": "From the Diné Bahaneʼ creation cycle and the Enemyway/Monsterway ceremonials; lava fields, mountains and canyons are named as the monsters' remains across the actual Navajo landscape."
     },
     {
-      "id": "tobadzistsini",
+      "id": "navajo-tobadzistsini",
       "tradition": "navajo",
       "kind": "hero",
       "name": "Tó Bájíshchíní (Born-for-Water)",
@@ -17246,7 +17175,7 @@ window.MIRROR_DATA = {
       "provenance": "Held in the same Hero-Twins tradition; the water-and-sun paternity distinguishes the two and is central to how the Diné read complementary natures."
     },
     {
-      "id": "johonaa-ei",
+      "id": "navajo-johonaa-ei",
       "tradition": "navajo",
       "kind": "deity",
       "name": "Jóhonaaʼéí (Sun-Bearer)",
@@ -17259,7 +17188,7 @@ window.MIRROR_DATA = {
       "provenance": "From the Diné Bahaneʼ; the Sun's demand for payment (a life for each day's crossing) is a recurring theme in the cycle."
     },
     {
-      "id": "spider-woman",
+      "id": "navajo-spider-woman",
       "tradition": "navajo",
       "kind": "deity",
       "name": "Naʼashjéʼii Asdzáá (Spider Woman)",
@@ -17272,7 +17201,7 @@ window.MIRROR_DATA = {
       "provenance": "Living tradition tied to a named landmark (Spider Rock); weaving practice and its sacred account remain active among Diné weavers."
     },
     {
-      "id": "maii-coyote",
+      "id": "navajo-maii-coyote",
       "tradition": "navajo",
       "kind": "deity",
       "name": "Mąʼii (Coyote)",
@@ -17285,7 +17214,7 @@ window.MIRROR_DATA = {
       "provenance": "Coyote tales are traditionally told only in winter; the figure runs through both the solemn creation cycle and a vast body of comic narrative."
     },
     {
-      "id": "four-sacred-mountains",
+      "id": "navajo-four-sacred-mountains",
       "tradition": "navajo",
       "kind": "concept",
       "name": "Dził Diyinii (The Four Sacred Mountains)",
@@ -17298,7 +17227,7 @@ window.MIRROR_DATA = {
       "provenance": "The four peaks are real, mapped mountains still central to Diné identity and land claims; their colours and the materials binding them are standard in the tradition."
     },
     {
-      "id": "first-man-first-woman",
+      "id": "navajo-first-man-first-woman",
       "tradition": "navajo",
       "kind": "ancestor",
       "name": "Áłtsé Hastiin dóó Áłtsé Asdzáá (First Man & First Woman)",
@@ -17312,7 +17241,7 @@ window.MIRROR_DATA = {
       "provenance": "From the Diné emergence (Hajíínéí) narrative; the number and colours of the underworlds vary by telling and singer."
     },
     {
-      "id": "hozho",
+      "id": "navajo-hozho",
       "tradition": "navajo",
       "kind": "principle",
       "name": "Hózhó",
@@ -17634,7 +17563,7 @@ window.MIRROR_DATA = {
     {
       "id": "new-age-ascended-masters",
       "tradition": "new-age",
-      "kind": "deity",
+      "kind": "hero",
       "name": "Ascended Masters",
       "archetypes": [
         "psychopomp",
@@ -20583,9 +20512,7 @@ window.MIRROR_DATA = {
       "tradition": "scientology",
       "kind": "concept",
       "name": "Clear",
-      "archetypes": [
-        "first-ancestor"
-      ],
+      "archetypes": [],
       "gloss": "A state achieved when an individual has completely erased their reactive mind through auditing. A Clear no longer has engrams or the stimulus-response mechanism dictating their behavior.",
       "facet": "Presents spiritual liberation not as an ongoing moral struggle or a mystical union with God, but as a permanent, achievable psychological baseline—a literal hardware upgrade yielding perfect recall and high rationality.",
       "provenance": "L. Ron Hubbard, 'Dianetics'."
@@ -20605,7 +20532,7 @@ window.MIRROR_DATA = {
     {
       "id": "scientology-xenu",
       "tradition": "scientology",
-      "kind": "force",
+      "kind": "cosmic-adversary",
       "name": "Xenu",
       "archetypes": [
         "cosmic-adversary"
@@ -26512,7 +26439,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "amazonian-kene-icaros",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The principle of aesthetic, geometric, and harmonic balance that must be constantly restored through sung ritual to cure illness."
@@ -26652,7 +26579,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "andean-pre-inca-moche-priestess",
-      "b": "spider-woman",
+      "b": "navajo-spider-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Supreme female figures deeply associated with spider iconography, spinning the literal threads of fate and divine intercession."
@@ -27954,7 +27881,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "balinese-hindu-tri-hita-karana",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A holistic concept of beauty, balance, and order that dictates not just moral behavior, but the exact physical and architectural orientation of daily life."
@@ -28626,7 +28553,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "black-hebrew-israelites-yahawashi",
-      "b": "naayee-neizghani",
+      "b": "navajo-naayee-neizghani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are warrior saviors tasked with returning to the earth to violently slaughter the unnatural monsters (or systemic oppressors) that prey on the people."
@@ -28976,7 +28903,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "brahmoism-samaj-sthapak",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The founder of a synthetic, universalized faith who draws on multiple older traditions (Vedic, Islamic, Christian) to forge a rational doctrine of light and truth."
@@ -29410,7 +29337,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buryat-olkhon",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Specific, inviolable physical geography that serves as the anchoring axis for the entire cosmological and spiritual world."
@@ -29466,14 +29393,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "california-tribes-hutash",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are deeply tied to the cyclic renewal of the earth, agricultural sustenance, and the origin of their respective peoples."
     },
     {
       "a": "california-tribes-snilemun",
-      "b": "maii-coyote",
+      "b": "navajo-maii-coyote",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are manifestations of the Coyote trickster, though Snilemun functions specifically as a celestial advocate rather than a purely disruptive force."
@@ -29536,7 +29463,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "california-tribes-momoy",
-      "b": "spider-woman",
+      "b": "navajo-spider-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both function as mythic grandmother figures who bestow crucial esoteric knowledge, magical aids, and rites of passage to mortals."
@@ -29781,7 +29708,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "caodai-tam-thanh",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Prophetic figures who consciously and explicitly attempt to stitch all prior, geographically distinct religions into a single tapestry."
@@ -30558,7 +30485,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "chewa-mfiti",
-      "b": "maii-coyote",
+      "b": "navajo-maii-coyote",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: An entity synonymous with witchcraft, inverted social norms, and the malicious disruption of communal harmony."
@@ -30859,7 +30786,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "chukchi-kutkh",
-      "b": "maii-coyote",
+      "b": "navajo-maii-coyote",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The quintessential trickster-creator who is both a sacred shaper of reality and a base, foolish animal driven by bodily urges."
@@ -31090,7 +31017,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "confucian-li",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The state of universal harmony, balance, and beauty that is constantly threatened by human error and must be actively restored through precise ritual action."
@@ -31559,7 +31486,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "deism-natural-religion",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both seek a state of alignment with the innate, harmonious structure of the world, rather than appeasing a temperamental deity."
@@ -31671,7 +31598,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dinka-nuer-abuk",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The primary feminine principle defining immediate earthly sustenance and the cyclic, domestic fertility of the people."
@@ -33050,7 +32977,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "epicureanism-epicurus-soter",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are historical founders elevated by later adherents to the status of ultimate, enlightened revealers of cosmic truth."
@@ -34702,7 +34629,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "ghost-dance-wovoka",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A syncretic prophet who receives direct revelation and merges indigenous belief systems with imported eschatology."
@@ -34757,7 +34684,7 @@ window.MIRROR_DATA = {
       "note": "The axiom of correspondence is the heart of the Hermetica that Hermes Trismegistus reveals — teacher and teaching are one within the Hermetic corpus."
     },
     {
-      "a": "mani",
+      "a": "manichaeism-mani",
       "b": "manichaean-dualism",
       "type": "pairs",
       "tier": "2",
@@ -34820,21 +34747,21 @@ window.MIRROR_DATA = {
       "note": "The mirror's hinge again: Mani makes Light and Darkness UNMIXED enemies to be sundered forever, where Yin and Yang interpenetrate and become each other — total dualism against total complementarity."
     },
     {
-      "a": "mani",
+      "a": "manichaeism-mani",
       "b": "christ",
       "type": "syncretic",
       "tier": "2",
       "note": "Mani held Jesus among the true apostles of Light and called himself an apostle of Jesus Christ; Manichaean texts venerate a Jesus of Light. A deliberate, documented incorporation of Christ into the fused religion."
     },
     {
-      "a": "mani",
+      "a": "manichaeism-mani",
       "b": "saoshyant",
       "type": "syncretic",
       "tier": "2",
       "note": "Mani placed himself in the prophetic succession that includes Zoroaster, whose tradition awaits the Saoshyant — the Seal of the Prophets claiming and completing the Iranian revelation he gathered in."
     },
     {
-      "a": "mani",
+      "a": "manichaeism-mani",
       "b": "buddhist-trikaya",
       "type": "syncretic",
       "tier": "2",
@@ -35017,7 +34944,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "goddess-movement-great-goddess",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both represent a divine feminine matrix inextricably linked to the cyclic aging process of nature, constantly renewing themselves without a male creator."
@@ -35234,7 +35161,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "golden-dawn-lbrp",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Ritually establishing an inviolable, sacred center by energetically anchoring the four cardinal directions."
@@ -35668,21 +35595,21 @@ window.MIRROR_DATA = {
     },
     {
       "a": "earth-diver-animals",
-      "b": "first-man-first-woman",
+      "b": "navajo-first-man-first-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Two North-American emergence-and-making cosmogonies set side by side — the Iroquois earth dived up from beneath the water against the Navajo First Man and First Woman climbing up through the worlds; both build the lived world from a below, not a sky-command."
     },
     {
       "a": "teharonhiawako",
-      "b": "naayee-neizghani",
+      "b": "navajo-naayee-neizghani",
       "type": "analogous",
       "tier": "3",
       "note": "The good twin who fits the world for human life beside the Navajo Monster-Slayer who clears it of menace — paired heroic sons in two unrelated Native cosmologies, each making the world habitable, one by shaping and one by slaying."
     },
     {
       "a": "tawiskaron",
-      "b": "tobadzistsini",
+      "b": "navajo-tobadzistsini",
       "type": "analogous",
       "tier": "4",
       "note": "Both are the second of a creative twin-pair, but the rhyme is loose and even inverted: Tó Bájísh Chíní is Born-for-Water, the water-twin who aids his brother, where Tawiskaron is Flint, the brother's opponent — paired-twin structure shared, moral valence reversed; flagged."
@@ -35787,7 +35714,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sky-woman",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Two Native great-mothers from whose persons the people and their sustenance descend — Sky Woman who danced the island wide and bore the human line, Changing Woman who made the first Navajo clans; the ancestress as the source of the nation in two cosmologies."
@@ -36023,7 +35950,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "heathenry-wyrd",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both represent an underlying cosmic and moral order that humans must actively maintain through correct speech, ritual, and harmonious living."
@@ -37388,7 +37315,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "igbo-ofo-ogu",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "4",
       "note": "Both name a state of rightness one must hold to be in order — but Navajo hózhó is harmony/beauty restored through ceremony where ọfọ na ọgụ is forensic innocence in oath and law. A loose cosmic-order echo, flagged."
@@ -38004,7 +37931,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "islam-muhammad",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both prophetic figures explicitly claimed the title of the 'Seal of the Prophets', bringing a final revelation to correct the corrupted texts of previous traditions."
@@ -38809,7 +38736,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kalash-onjeshta-pragata",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A system of maintaining cosmic and spatial balance through strict ritual actions and taboos."
@@ -39313,14 +39240,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kikuyu-kirinyaga",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Sacred topography that enforces strict geographical orientation in daily life and ritual."
     },
     {
       "a": "kikuyu-mumbi",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A supreme maternal figure who directly births the founding clans of the nation."
@@ -40503,7 +40430,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maasai-ol-doinyo-lengai",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Specific, awe-inspiring geological formations that serve not as mere symbols, but as the active, literal presence of the divine."
@@ -40671,7 +40598,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mandaeism-yuhana",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Late Antique Near Eastern prophets of Light who codified complex systems of gnosis, purification, and dualism into distinct, surviving traditions."
@@ -40733,13 +40660,6 @@ window.MIRROR_DATA = {
       "note": "The Bema is the ritual culmination of Mani's legacy, where his spiritual presence takes the throne he vacated in physical martyrdom."
     },
     {
-      "a": "manichaeism-mani",
-      "b": "mani",
-      "type": "syncretic",
-      "tier": "2",
-      "note": "GOLD SEAM: The historical founder, mirrored as a divine emanation in broader Gnostic cosmologies; the identical figure bridged into related esotericism."
-    },
-    {
       "a": "manichaeism-prince-of-darkness",
       "b": "angra-mainyu",
       "type": "syncretic",
@@ -40759,13 +40679,6 @@ window.MIRROR_DATA = {
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both are utterly transcendent, unbegotten sources of spiritual reality, completely insulated from the corrupt act of material creation."
-    },
-    {
-      "a": "manichaeism-mani",
-      "b": "christ",
-      "type": "syncretic",
-      "tier": "2",
-      "note": "GOLD SEAM: Mani proclaimed himself the Paraclete promised by Christ, positioning his revelation as the final fulfillment of the Christian narrative."
     },
     {
       "a": "manichaeism-primal-man",
@@ -41336,7 +41249,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "micronesian-fuuna",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A supreme female creator who physically forms the first human beings directly from her own substance."
@@ -41378,7 +41291,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "micronesian-isokelekel",
-      "b": "naayee-neizghani",
+      "b": "navajo-naayee-neizghani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The warrior son of a sky deity explicitly dispatched to rid the world of monstrous oppressors."
@@ -42372,7 +42285,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "muscogee-red-white",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "4",
       "note": "Cross-tradition GOLD SEAM: Both represent the profound indigenous pursuit of systemic harmony and dynamic balance in civic and spiritual life, rather than a binary of good and evil."
@@ -42623,70 +42536,70 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: The uncompromising female sovereign of the graveyard and the dead, operating outside the jurisdiction of the celestial pantheon."
     },
     {
-      "a": "nation-of-islam-esoteric-yacub",
-      "b": "nation-of-islam-esoteric-original-man",
+      "a": "nation-of-islam-yakub",
+      "b": "nation-of-islam-asiatic-black-man",
       "type": "inverts",
       "tier": "2",
       "note": "Intra-tradition bond: Yacub utilizes eugenics to literally reverse the genetic and spiritual polarity of the Original Man, breeding a physically oppositional race."
     },
     {
       "a": "nation-of-islam-esoteric-allah",
-      "b": "nation-of-islam-esoteric-fard-muhammad",
+      "b": "nation-of-islam-wd-fard",
       "type": "bridge",
       "tier": "2",
       "note": "Intra-tradition bond: Clarence 13X bridged the NOI concept of God from a specific historical figure (Fard) to the universalized, awakened Black man (A.L.L.A.H.)."
     },
     {
-      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "a": "nation-of-islam-wd-fard",
       "b": "nation-of-islam-esoteric-noble-drew-ali",
       "type": "bridge",
       "tier": "2",
       "note": "Intra-tradition bond: Fard historically absorbed and mutated the esoteric 'Asiatic' identity and Moorish cosmological frameworks established earlier by Noble Drew Ali."
     },
     {
-      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "a": "nation-of-islam-wd-fard",
       "b": "yahweh",
       "type": "syncretic",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Elijah Muhammad explicitly identified W.D. Fard as the incarnate fulfillment of the biblical Jehovah, the Long-Awaited Messiah."
     },
     {
-      "a": "nation-of-islam-esoteric-fard-muhammad",
+      "a": "nation-of-islam-wd-fard",
       "b": "christ",
       "type": "syncretic",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Fard is theologically identified as the returning Son of Man from the New Testament, collapsing Christian eschatology into his physical arrival in Detroit."
     },
     {
-      "a": "nation-of-islam-esoteric-yacub",
+      "a": "nation-of-islam-yakub",
       "b": "angra-mainyu",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both figures serve as the architect of a corrupted counter-creation; Angra Mainyu creates pests and death, while Yacub grafts the 'devil' race."
     },
     {
-      "a": "nation-of-islam-esoteric-yacub",
+      "a": "nation-of-islam-yakub",
       "b": "yaldabaoth",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Like the Gnostic Demiurge, Yacub is a rogue, localized creator whose artificial genesis traps humanity in a cycle of ignorance and material oppression."
     },
     {
-      "a": "nation-of-islam-esoteric-yacub",
+      "a": "nation-of-islam-yakub",
       "b": "dogon-ogo",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are highly intelligent but spiritually rebellious actors who isolate themselves to improperly engineer creation, bringing chaos to the original harmony."
     },
     {
-      "a": "nation-of-islam-esoteric-original-man",
+      "a": "nation-of-islam-asiatic-black-man",
       "b": "the-divine-spark",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both posit an original, uncorrupted divine essence currently trapped or suppressed within a hostile world system, awaiting esoteric realization."
     },
     {
-      "a": "nation-of-islam-esoteric-original-man",
+      "a": "nation-of-islam-asiatic-black-man",
       "b": "ptah",
       "type": "analogous",
       "tier": "3",
@@ -42707,14 +42620,14 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Both represent a comprehensive, revealed system of interpreting mundane physical data to decode the explicit will and order of the cosmos."
     },
     {
-      "a": "nation-of-islam-esoteric-mother-plane",
+      "a": "nation-of-islam-mother-plane",
       "b": "yahweh",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The Mother Plane is a mechanized reinterpretation of Ezekiel's biblical vision, transforming the divine chariot of God into a literal, apocalyptic spacecraft."
     },
     {
-      "a": "nation-of-islam-esoteric-mother-plane",
+      "a": "nation-of-islam-mother-plane",
       "b": "cyclic-ages",
       "type": "analogous",
       "tier": "3",
@@ -42722,7 +42635,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nation-of-islam-esoteric-noble-drew-ali",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Visionary syncretists who explicitly drew from diverse regional faiths to synthesize an entirely new, culturally specific esoteric identity and scripture."
@@ -42763,46 +42676,11 @@ window.MIRROR_DATA = {
       "note": "Intra-tradition: The cosmic adversary and the structural system of deception he birthed to rule the world."
     },
     {
-      "a": "nation-of-islam-yakub",
-      "b": "nation-of-islam-asiatic-black-man",
-      "type": "inverts",
-      "tier": "2",
-      "note": "Intra-tradition: The rogue scientist actively corrupts and strips away the pure genetic divinity of the original man."
-    },
-    {
-      "a": "nation-of-islam-wd-fard",
-      "b": "christ",
-      "type": "syncretic",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: W.D. Fard is explicitly identified in NOI theology as the awaited Messiah expected by Christians."
-    },
-    {
       "a": "nation-of-islam-wd-fard",
       "b": "allah-meccan",
       "type": "syncretic",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Explicitly adopts the Islamic name and ultimate authority of God, but radically reimagines him as a living Black man."
-    },
-    {
-      "a": "nation-of-islam-yakub",
-      "b": "yaldabaoth",
-      "type": "analogous",
-      "tier": "3",
-      "note": "Cross-tradition GOLD SEAM: An arrogant, flawed creator figure who brings about a defective, oppressive material order separate from the true divine source."
-    },
-    {
-      "a": "nation-of-islam-yakub",
-      "b": "angra-mainyu",
-      "type": "analogous",
-      "tier": "3",
-      "note": "Cross-tradition GOLD SEAM: The active, engineered source of cosmic evil and opposition to the original harmonious truth."
-    },
-    {
-      "a": "nation-of-islam-yakub",
-      "b": "dogon-ogo",
-      "type": "analogous",
-      "tier": "3",
-      "note": "Cross-tradition GOLD SEAM: The disruptive, rebellious figure who breaks the original cosmic unity through an act of premature, illicit creation."
     },
     {
       "a": "nation-of-islam-mother-plane",
@@ -42813,7 +42691,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nation-of-islam-elijah-muhammad",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A prophetic figure who synthesizes previous revelations into a highly systematized, dualistic cosmology for a new era."
@@ -42845,13 +42723,6 @@ window.MIRROR_DATA = {
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A specific historical rupture that fundamentally altered the nature of reality, introducing corruption, limitation, and mortality."
-    },
-    {
-      "a": "nation-of-islam-mother-plane",
-      "b": "yahweh",
-      "type": "analogous",
-      "tier": "4",
-      "note": "Cross-tradition GOLD SEAM: A loose parallel where mechanical, celestial fury replaces the storm-god's wrath as the instrument of ultimate divine retribution."
     },
     {
       "a": "native-american-church-great-spirit",
@@ -42939,7 +42810,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "native-american-church-peyote-road",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "bridge",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Among Navajo congregants, the Peyote Road is heavily syncretized with the traditional indigenous pursuit of beauty, balance, and order."
@@ -42953,7 +42824,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "native-american-church-quanah-parker",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are historical visionaries who systematically synthesized disparate indigenous and colonizing religious elements into a cohesive, enduring new faith."
@@ -42974,7 +42845,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "native-american-church-half-moon-altar",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both establish a vital, oriented ritual geography around which spiritual communion and identity are structurally organized."
@@ -42994,252 +42865,252 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Both represent an innocent, luminous figure of peace whose unjust death acts as a focal point for cosmological tragedy and eventual spiritual renewal."
     },
     {
-      "a": "changing-woman",
-      "b": "naayee-neizghani",
+      "a": "navajo-changing-woman",
+      "b": "navajo-naayee-neizghani",
       "type": "pairs",
       "tier": "2",
       "note": "Mother and elder son: Changing Woman bears the Hero Twins to the Sun and to the dripping water, and it is to rid her world of the devouring monsters that the elder takes up the lightning arrows."
     },
     {
-      "a": "naayee-neizghani",
-      "b": "tobadzistsini",
+      "a": "navajo-naayee-neizghani",
+      "b": "navajo-tobadzistsini",
       "type": "pairs",
       "tier": "2",
       "note": "The two Hero Twins, sun-begotten slayer and water-begotten watcher — one strikes the monsters while the other holds the life-token and guards the home; warrior and keeper, a single power split in two."
     },
     {
-      "a": "johonaa-ei",
-      "b": "changing-woman",
+      "a": "navajo-johonaa-ei",
+      "b": "navajo-changing-woman",
       "type": "pairs",
       "tier": "2",
       "note": "Sun-Bearer and Changing Woman, father and mother of the Hero Twins; their union (and his demands of the sons) drives the whole monster-slaying cycle."
     },
     {
-      "a": "johonaa-ei",
-      "b": "naayee-neizghani",
+      "a": "navajo-johonaa-ei",
+      "b": "navajo-naayee-neizghani",
       "type": "pairs",
       "tier": "2",
       "note": "Father and son: Jóhonaaʼéí makes the twins prove their solar lineage through lethal trials before arming them with lightning against the Naayééʼ."
     },
     {
-      "a": "spider-woman",
-      "b": "naayee-neizghani",
+      "a": "navajo-spider-woman",
+      "b": "navajo-naayee-neizghani",
       "type": "pairs",
       "tier": "2",
       "note": "Spider Woman is the twins' indispensable counsellor — she gives the elder the protective feather and the words to survive the road to the Sun's house and his father's tests."
     },
     {
-      "a": "four-sacred-mountains",
-      "b": "first-man-first-woman",
+      "a": "navajo-four-sacred-mountains",
+      "b": "navajo-first-man-first-woman",
       "type": "pairs",
       "tier": "2",
       "note": "First Man lays out the four sacred mountains from the medicine bundle after the emergence, fixing the quartered Diné world that the people climbed up into."
     },
     {
-      "a": "hozho",
-      "b": "changing-woman",
+      "a": "navajo-hozho",
+      "b": "navajo-changing-woman",
       "type": "pairs",
       "tier": "2",
       "note": "Changing Woman gives the Blessingway, the central rite for walking a life back into hózhó; the renewing mother and the principle of restored balance are bound at the heart of Diné ceremony."
     },
     {
-      "a": "hozho",
-      "b": "maii-coyote",
+      "a": "navajo-hozho",
+      "b": "navajo-maii-coyote",
       "type": "inverts",
       "tier": "2",
       "note": "Coyote is hózhó's necessary disturbance: his star-scattering disorder is the irregularity against which balance is forever re-made — the principle and its built-in saboteur within one cosmos."
     },
     {
-      "a": "four-sacred-mountains",
-      "b": "hozho",
+      "a": "navajo-four-sacred-mountains",
+      "b": "navajo-hozho",
       "type": "pairs",
       "tier": "2",
       "note": "To dwell inside the four mountains is to dwell in hózhó; the quartered homeland is the spatial body of the harmony the ceremonies restore."
     },
     {
-      "a": "naayee-neizghani",
+      "a": "navajo-naayee-neizghani",
       "b": "hero-twins",
       "type": "analogous",
       "tier": "3",
       "note": "The Diné Hero Twins and the Maya Hunahpu and Xbalanque are the great American twin-pair — both born of a marvel, both ridding the world of devouring powers — but a structural rhyme across unrelated families, NOT a shared line."
     },
     {
-      "a": "tobadzistsini",
+      "a": "navajo-tobadzistsini",
       "b": "hero-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Paired saviour-brothers who overcome monstrous adversaries together; the Diné split into striker and watcher where the Maya twins are two equal tricksters, two faces of one widespread twin-archetype."
     },
     {
-      "a": "naayee-neizghani",
+      "a": "navajo-naayee-neizghani",
       "b": "indra",
       "type": "analogous",
       "tier": "3",
       "note": "Lightning-armed slayers of the monster that blocks the world's life — Monster Slayer with his bolt-arrows beheading Yéʼiitsoh as Indra wields the vajra against Vṛtra; the dragon-slayer template arrived at far outside Indo-European."
     },
     {
-      "a": "naayee-neizghani",
+      "a": "navajo-naayee-neizghani",
       "b": "marduk",
       "type": "analogous",
       "tier": "3",
       "note": "Champions who slay the primordial monster of chaos and from its body shape the ordered world — Marduk splits Tiamat, Monster Slayer's giant-blood becomes the lava beds; world-from-the-slain-foe, independently reached."
     },
     {
-      "a": "naayee-neizghani",
+      "a": "navajo-naayee-neizghani",
       "b": "huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Two warrior sons of a self-renewing mother who are born to destroy the enemies threatening her — the Diné Monster Slayer and the Mexica solar warrior, each violence sanctified as protection of the maternal order."
     },
     {
-      "a": "spider-woman",
+      "a": "navajo-spider-woman",
       "b": "athena",
       "type": "analogous",
       "tier": "4",
       "note": "Goddesses who give the loom and the craft of weaving — but Athena is an attested figure absent from this mirror; logged as a reach toward the weaver-as-civiliser pattern, not to a present node."
     },
     {
-      "a": "spider-woman",
+      "a": "navajo-spider-woman",
       "b": "prometheus",
       "type": "analogous",
       "tier": "3",
       "note": "Culture-bringers who hand humankind a defining art and aid the heroes against hostile powers — Spider Woman's weaving and counsel against the monsters answering Prometheus's fire and craft for mortals."
     },
     {
-      "a": "maii-coyote",
+      "a": "navajo-maii-coyote",
       "b": "loki",
       "type": "analogous",
       "tier": "3",
       "note": "Shape-shifting troublemakers whose disorder is woven into the cosmos itself — Coyote scattering the stars, Loki breeding chaos among the gods — the trickster as the mischief the world cannot do without."
     },
     {
-      "a": "maii-coyote",
+      "a": "navajo-maii-coyote",
       "b": "eshu",
       "type": "analogous",
       "tier": "3",
       "note": "Tricksters who are also the principle of unpredictability the order requires — Coyote and Èṣù both keep the world from freezing into dead perfection by introducing chance and change."
     },
     {
-      "a": "maii-coyote",
+      "a": "navajo-maii-coyote",
       "b": "tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "American disorder-bringers and shape-shifters whose meddling drives the world's mutability; Coyote's smaller mischief rhymes with the Smoking Mirror's cosmic disruption, a New-World trickster cast."
     },
     {
-      "a": "maii-coyote",
+      "a": "navajo-maii-coyote",
       "b": "hermes",
       "type": "analogous",
       "tier": "4",
       "note": "Both thief, deceiver and culture-bringer at once; a loose parallel of the trickster who also benefits humankind, flagged as a reach across wholly separate families."
     },
     {
-      "a": "changing-woman",
+      "a": "navajo-changing-woman",
       "b": "demeter",
       "type": "analogous",
       "tier": "3",
       "note": "Mothers in whom the year's turning is embodied — Changing Woman ageing and renewing with the seasons as Demeter's grief and joy drive winter and spring; the great-mother as the cycle of the year, separately conceived."
     },
     {
-      "a": "changing-woman",
+      "a": "navajo-changing-woman",
       "b": "gaia",
       "type": "analogous",
       "tier": "3",
       "note": "Earth-and-fertility mothers from whom the people descend — Changing Woman forms the first clans from her own skin as Gaia brings forth the lineages; the maternal source of humankind in two unrelated worlds."
     },
     {
-      "a": "changing-woman",
+      "a": "navajo-changing-woman",
       "b": "amaterasu",
       "type": "analogous",
       "tier": "4",
       "note": "A solar-linked renewing goddess at the centre of her people's ceremony and identity — a faint parallel of the life-giving female power, with the seam tied to no shared descent."
     },
     {
-      "a": "johonaa-ei",
+      "a": "navajo-johonaa-ei",
       "b": "helios",
       "type": "analogous",
       "tier": "3",
       "note": "The sun as a bearer who physically carries the disk across the sky each day — Jóhonaaʼéí on his back, Helios in his chariot — the daily solar crossing as labour, independently imagined."
     },
     {
-      "a": "johonaa-ei",
+      "a": "navajo-johonaa-ei",
       "b": "surya",
       "type": "analogous",
       "tier": "3",
       "note": "Solar deities who father heroic sons and serve as the sky's measure; the Sun-Bearer's demanding paternity of the twins rhymes with Sūrya siring his sons, a parallel solar fatherhood."
     },
     {
-      "a": "johonaa-ei",
+      "a": "navajo-johonaa-ei",
       "b": "ra",
       "type": "analogous",
       "tier": "3",
       "note": "Sun-gods who traverse the heavens daily and stand at the head of the cosmos; Jóhonaaʼéí's turquoise crossing answers Ra's solar barque, two unconnected accounts of the sun's journey."
     },
     {
-      "a": "four-sacred-mountains",
+      "a": "navajo-four-sacred-mountains",
       "b": "four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "The quartered, colour-coded cosmos — four Diné mountains at the cardinal points, four Tezcatlipocas holding the world's corners; the same four-directional cosmogram across separate American traditions."
     },
     {
-      "a": "four-sacred-mountains",
+      "a": "navajo-four-sacred-mountains",
       "b": "eden-four-rivers",
       "type": "analogous",
       "tier": "3",
       "note": "A sacred centre fixed by a fourfold scheme — four mountains binding Dinétah, four rivers parting from Eden; the quartered axis-mundi independently witnessed."
     },
     {
-      "a": "four-sacred-mountains",
+      "a": "navajo-four-sacred-mountains",
       "b": "patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Both lay the cosmos out as a quartered, four-directional figure — the Diné homeland's four colour-coded peaks and the cross-shaped Patolli board — the same diagram of the world in landscape and in play."
     },
     {
-      "a": "four-sacred-mountains",
+      "a": "navajo-four-sacred-mountains",
       "b": "mount-meru",
       "type": "analogous",
       "tier": "3",
       "note": "Sacred mountains as the structuring centre of the cosmos; the four Diné peaks bound the proper world as Meru axes the Vedic one — the world-mountain motif, four-fold here, central there."
     },
     {
-      "a": "hozho",
+      "a": "navajo-hozho",
       "b": "maat",
       "type": "analogous",
       "tier": "3",
       "note": "Hózhó and Ma'at name the same office — the right-order of beauty, truth and balance the world must be kept in — but where Ma'at is a standing cosmic law, hózhó is a balance ritually re-made; one of the great cross-family rhymes of the cosmic-order joint. (Ma'at not yet a node in this mirror; seam logged toward the principle.)"
     },
     {
-      "a": "hozho",
+      "a": "navajo-hozho",
       "b": "tao",
       "type": "analogous",
       "tier": "3",
       "note": "Both are the all-embracing way of harmony in which one walks rather than a god to be obeyed — hózhó the path of beauty, the Dao the path of nature; cosmic order as a way of life, separately arrived at."
     },
     {
-      "a": "hozho",
+      "a": "navajo-hozho",
       "b": "cosmic-order",
       "type": "analogous",
       "tier": "3",
       "note": "Hózhó belongs with Ṛta and Aṣ̌a in the family of impersonal right-orders the cosmos obeys — though uniquely it is recovered by ceremony rather than upheld by gods. (Seam logged toward the cosmic-order joint shared across the mirror.)"
     },
     {
-      "a": "first-man-first-woman",
+      "a": "navajo-first-man-first-woman",
       "b": "gaia",
       "type": "analogous",
       "tier": "4",
       "note": "First beings from whom the people descend, but the Diné pair emerge by ascent through prior worlds rather than being born of the earth; a divergent parallel of the first-ancestor pattern, flagged as a reach."
     },
     {
-      "a": "first-man-first-woman",
+      "a": "navajo-first-man-first-woman",
       "b": "ranginui",
       "type": "inverts",
       "tier": "3",
       "note": "Where the Sky-and-Earth world-parents must be forced apart to make the lived world, the Diné First Man and First Woman are a paired human origin reached by climbing upward through stacked worlds — emergence inverting separation as the shape of beginning."
     },
     {
-      "a": "tobadzistsini",
+      "a": "navajo-tobadzistsini",
       "b": "xolotl",
       "type": "analogous",
       "tier": "4",
@@ -43821,7 +43692,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "new-thought-prosperity-consciousness",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both equate spiritual alignment with tangible, harmonious conditions in the physical world (health, beauty, success), rejecting the idea that spirituality requires physical suffering."
@@ -44899,7 +44770,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pantheism-web-of-life",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both frame reality as an intricate system of balance, where disrupting one strand violently disrupts the harmony of the whole."
@@ -44990,7 +44861,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "papuan-afek",
-      "b": "changing-woman",
+      "b": "navajo-changing-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The supreme divine woman who creates the people and dictates their foundational rituals, sustenance, and architectural dwellings."
@@ -45473,35 +45344,35 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pueblo-emergence",
-      "b": "first-man-first-woman",
+      "b": "navajo-first-man-first-woman",
       "type": "analogous",
       "tier": "2",
       "note": "The Pueblo and the neighbouring Diné share the Southwest emergence pattern — the people climb up through stacked coloured/dark lower worlds into this world; close geographic neighbours whose cosmogonies rhyme strongly, attested as a regional form rather than proven common descent."
     },
     {
       "a": "pueblo-spider-grandmother",
-      "b": "spider-woman",
+      "b": "navajo-spider-woman",
       "type": "analogous",
       "tier": "2",
       "note": "Hopi/Zuni Spider Grandmother and Diné Spider Woman are the same Southwest weaver-counsellor — a spider grandmother atop the world who guides the people and advises the war/hero twins; neighbouring traditions sharing one figure, kept tier-2 as a regional analogue, not a demonstrated single origin."
     },
     {
       "a": "pueblo-war-twins",
-      "b": "naayee-neizghani",
+      "b": "navajo-naayee-neizghani",
       "type": "analogous",
       "tier": "2",
       "note": "The Pueblo war-twins and the Diné Monster Slayer are the Southwest's monster-killing sons of the Sun, counselled by Spider Grandmother/Woman; neighbouring versions of one regional war-twin tradition."
     },
     {
       "a": "pueblo-war-twins",
-      "b": "tobadzistsini",
+      "b": "navajo-tobadzistsini",
       "type": "analogous",
       "tier": "2",
       "note": "Paired Southwest war-brothers set at the world's points and born of the Sun; the Hopi Pöqángwhoya/Palöngawhoya beside the Diné Monster Slayer and Born-for-Water, the same neighbouring twin-pattern."
     },
     {
       "a": "pueblo-tawa",
-      "b": "johonaa-ei",
+      "b": "navajo-johonaa-ei",
       "type": "analogous",
       "tier": "2",
       "note": "Hopi Sun Father and Diné Sun-Bearer are the Southwest's solar father of the twins, greeted at dawn and reckoned the measure of the day; neighbouring solar fatherhoods of one regional cast."
@@ -46285,7 +46156,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "rosicrucianism-crc",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Founders who traveled extensively eastward, synthesized disparate religious currents into a universal gnosis, and structured it via a strict, hidden elect."
@@ -46362,7 +46233,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "samaritanism-moses",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both claim the absolute status of the final, ultimate conduit of divine truth, foreclosing any future legitimate prophets."
@@ -47053,7 +46924,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sarnaism-marang-buru",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The literal geological features of the landscape venerated as the anchoring spiritual and territorial guardians of the indigenous nation."
@@ -48117,7 +47988,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "shona-matonjeni",
-      "b": "four-sacred-mountains",
+      "b": "navajo-four-sacred-mountains",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Specific geological formations that do not merely represent the divine, but act as literal, active conduits for divine interaction."
@@ -48306,7 +48177,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sikh-guru-nanak",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The traveling prophet who actively crosses heavily guarded religious boundaries to synthesize a new, unifying revelation, rejecting the strictures of the competing orthodoxies."
@@ -48873,7 +48744,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "subud-susila-budhi-dharma",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Right living and absolute balance recognized as both a prerequisite for and a result of spiritual alignment."
@@ -49055,7 +48926,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "swedenborgian-swedenborg",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Visionary founders who synthesized complex, systematic cosmologies claiming to be the final, pure revelation correcting previous theological distortions."
@@ -49125,7 +48996,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-cacibajagua",
-      "b": "first-man-first-woman",
+      "b": "navajo-first-man-first-woman",
       "type": "analogous",
       "tier": "3",
       "note": "Origin as ascent into this world rather than fabrication from above — the Taíno emerge from a cave as the Diné climb through stacked prior worlds; the emergence motif independently reached across the Americas."
@@ -49496,7 +49367,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "temple-of-set-michael-aquino",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both were charismatic synthesizers who formalized disparate esoteric and adversarial currents into highly rigorous, intellectually complex dualistic religions."
@@ -49776,7 +49647,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tenrikyo-yokigurashi",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A state of profound, active harmony, beauty, and health that must be vigilantly maintained through collective ritual and right living."
@@ -50651,7 +50522,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tswana-sotho-pula",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The ultimate state of peace, balance, and blessing, maintained through correct action and ritual."
@@ -51118,7 +50989,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "unitarian-universalist-interdependent-web",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The conceptualization of the universe as a delicate web of relations, where moral action is defined strictly by restoring balance and harmony to the whole."
@@ -51531,7 +51402,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "vaishnava-rama",
-      "b": "naayee-neizghani",
+      "b": "navajo-naayee-neizghani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The dutiful, weapon-wielding hero who systematically cleanses the earth of alien, chaos-bringing monsters to make it habitable for humanity."
@@ -51755,7 +51626,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "waaqeffanna-safuu",
-      "b": "hozho",
+      "b": "navajo-hozho",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The dynamic, encompassing state of harmony, beauty, and right relationship between humanity, nature, and the divine."
@@ -52350,7 +52221,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "yazidism-sheikh-adi",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Charismatic Near Eastern reformers who codified entirely new faith structures by syncretizing older, indigenous cosmologies with Abrahamic aesthetics."
@@ -52518,7 +52389,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "yiguandao-wujiao-heyi",
-      "b": "mani",
+      "b": "manichaeism-mani",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The conscious, theological integration of Buddhism, Christianity, and local faiths into a single universalist system."

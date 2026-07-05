@@ -37,6 +37,18 @@ window.MIRROR_DOSSIERS = {
    "Karen Armstrong, 'A History of God' (1993)"
   ]
  },
+ "adventism": {
+  "essence": "Seventh-day Adventism is the Protestant denomination that rose out of the wreckage of the Millerite movement after the Great Disappointment of 22 October 1844, formally organized at Battle Creek, Michigan, in 1863 around the seventh-day Sabbath, the imminent visible Second Coming, and the prophetic ministry of Ellen G. White. With roughly twenty-two million members, most of them now in Africa and Latin America, it ranks among the most widely distributed Protestant bodies on earth.",
+  "cosmos": "Adventist cosmology frames all history as the 'great controversy' between Christ and Satan, fought over the character of God's law and government. Since 1844 Christ has been conducting an investigative judgment in the heavenly sanctuary; at his visible return the righteous dead — who sleep unconscious in the grave, for Adventism denies the immortal soul — are raised and taken to heaven for the millennium, after which the wicked are annihilated rather than eternally tormented and the earth is made new.",
+  "practice": "Observance centers on the Saturday Sabbath, kept sundown to sundown, with believer's baptism by immersion, tithing, and a health message — vegetarianism commended, alcohol and tobacco rejected — that built the Battle Creek Sanitarium and today one of the world's largest religious hospital, publishing, and school networks. Ellen White's writings function as authoritative 'Spirit of Prophecy' counsel, held formally subordinate to Scripture.",
+  "canon": "The Protestant Bible as the sole rule of faith, with Ellen G. White's corpus — above all The Great Controversy (1858/1888/1911) — as a formally subordinate second tier of prophetic counsel.",
+  "reflects": "The alchemy by which failed prophecy survives — a movement that kept its date, relocated the event from earth to heaven, and institutionalized the reinterpretation into a durable global church.",
+  "sources": [
+   "Ronald L. Numbers, 'Prophetess of Health: A Study of Ellen G. White' (1976)",
+   "Ronald L. Numbers & Jonathan M. Butler (eds.), 'The Disappointed: Millerism and Millenarianism in the Nineteenth Century' (1987)",
+   "George R. Knight, 'Millennial Fever and the End of the World: A Study of Millerite Adventism' (1993)"
+  ]
+ },
  "ainu": {
   "essence": "The animist religion of the Ainu, the indigenous people of Hokkaidō, Sakhalin, and the Kuril Islands, distinct from the Yamato Japanese in language and descent. Its central claim: the world is shared with kamuy — spirit-persons of fire, bear, orca, plants, and even tools — who visit the human land wearing bodies, and whose goodwill is kept by hospitality and correct send-off.",
   "cosmos": "Everything that acts has ramat, animating spirit; the kamuy are ramat at full intensity, dwelling in their own country (Kamuy Mosir) and visiting Ainu Mosir, the human world, disguised as animals, objects, and phenomena. Meat, pelts, and useful things are gifts a visiting kamuy leaves behind; killed game or a worn-out tool is not destroyed but released homeward with offerings so that it will return. The human dead likewise depart to an ancestral other-world, sent on by funeral rites with the hearth-fire as mediator.",
@@ -446,6 +458,19 @@ window.MIRROR_DOSSIERS = {
    "Amy Wallace, 'Sorcerer's Apprentice: My Life with Carlos Castaneda' (2003)"
   ]
  },
+ "catholicism": {
+  "essence": "The largest single Christian communion — roughly 1.3–1.4 billion people on every continent — defined by full communion with the bishop of Rome as successor of Peter. It holds itself to be the one Church founded by Christ, subsisting visibly in the body governed by the pope and the bishops in communion with him. Its center of gravity has shifted south: the majority of Catholics now live in Latin America, Africa, and Asia.",
+  "cosmos": "The shared Christian cosmology — one triune God creating from nothing, the Fall, the Incarnation, linear history ending in resurrection and judgment — with distinctively Roman elaborations of the middle distances. At death each soul faces particular judgment and passes to heaven, hell, or purgatory, where the imperfect saved are purified and can be aided by the prayers and Masses of the living. The Church spans that divide as the communion of saints: the blessed in heaven intercede for petitioners on earth, and Mary, conceived without sin and assumed bodily into heaven (dogmas of 1854 and 1950), stands at the head of the intercessors.",
+  "practice": "Life is organized around seven sacraments, anchored by the Mass — in which bread and wine are held to become substantially Christ's body and blood — and by confession of sins to a priest. A celibate clergy in the Latin rite, governed hierarchically from pope through bishops under a universal code of canon law, coexists with a vast ecology of religious orders (Benedictines, Franciscans, Dominicans, Jesuits) vowed to poverty, chastity, and obedience. It asks Sunday Mass attendance, an annual minimum of confession and communion, observance of fasts and feasts, and adherence to a developed moral theology.",
+  "canon": "The Bible including the deuterocanonical books (canon fixed at Trent, 1546), read within apostolic Tradition as interpreted by the magisterium; conciliar and papal definitions carry binding weight, currently summarized in the Catechism of the Catholic Church (1992).",
+  "reflects": "The institutionalizing impulse at full strength — sacred power made durable, portable, and continuous by routing all mediation through one visible hierarchy claiming unbroken succession from a founding mandate.",
+  "sources": [
+   "Eamon Duffy, 'Saints and Sinners: A History of the Popes' (1997)",
+   "Jacques Le Goff, 'The Birth of Purgatory' (1984)",
+   "John W. O'Malley, 'The First Jesuits' (1993)",
+   "Catholic Church, 'Catechism of the Catholic Church' (1992)"
+  ]
+ },
  "celtic": {
   "essence": "The pre-Christian religion of the Celtic-speaking peoples of Iron Age Europe — Gaul, Britain, Ireland, Iberia, the Alpine lands, and Galatia — from roughly the Hallstatt/La Tène horizon through Romanization and Christianization. No insider account survives: the religion must be triangulated from archaeology, Greco-Roman testimony, Romano-Celtic inscriptions, and medieval Irish and Welsh literature written down centuries later by Christians.",
   "cosmos": "No unified cosmology is attested. The evidence points to sanctity concentrated in the land itself — springs, rivers, groves (nemeton), and waters receiving deliberate deposits — and, in the Insular literature, an Otherworld adjacent to this one, entered through burial mounds (síd), water, or mist. Classical authors report druidic teaching that souls do not perish but pass into other bodies (Caesar, Diodorus), a doctrine they compared to Pythagorean transmigration.",
@@ -545,6 +570,19 @@ window.MIRROR_DOSSIERS = {
    "Julia Ching, 'Chinese Religions' (1993)",
    "Kristofer Schipper, 'The Taoist Body' (1993)",
    "Michael J. Puett, 'To Become a God: Cosmology, Sacrifice, and Self-Divinization in Early China' (2002)"
+  ]
+ },
+ "christian-science": {
+  "essence": "Christian Science is the metaphysical-healing church founded by Mary Baker Eddy, who dated her 'discovery' to a healing at Lynn, Massachusetts, in February 1866, published Science and Health in 1875, and chartered the Church of Christ, Scientist, in 1879, rebuilding it around the Boston Mother Church. Its central claim is that reality is wholly spiritual and disease an illusion of 'mortal mind,' dispellable by prayer with — the tradition insists — the exactness of a science; from a US peak near 269,000 members counted in 1936 it has undergone a long, documented decline.",
+  "cosmos": "God is defined through seven synonyms — Principle, Mind, Soul, Spirit, Life, Truth, Love — and is All-in-all: reality consists of divine Mind and its ideas, and matter has no true existence. Sin, disease, and death are errors of 'mortal mind,' the counterfeit sense of life in matter; death itself is an illusion, existence continuing after 'passing on' until every error is outgrown, with heaven and hell understood as present states of thought rather than places.",
+  "practice": "There is no clergy: elected lay Readers conduct Sunday services consisting of readings from the Bible and Science and Health, ordained together in 1895 as the church's 'dual and impersonal pastor,' with Wednesday meetings for testimonies of healing. Journal-listed practitioners give metaphysical treatment in place of medicine — a substitution that has drawn repeated litigation, most sharply over the deaths of members' children — and the Manual of The Mother Church still governs the institution by Eddy's fixed statutes.",
+  "canon": "The Bible together with Mary Baker Eddy's Science and Health with Key to the Scriptures (1875; final revision 1910), the church's joint 'pastor,' governed institutionally by her Manual of The Mother Church (1895).",
+  "reflects": "The therapeutic facet of the religious impulse made the entire system — healing as worship, evidence, and argument at once, religion recast as demonstrable science in the idiom of the nineteenth century.",
+  "sources": [
+   "Gillian Gill, 'Mary Baker Eddy' (1998)",
+   "Stephen Gottschalk, 'The Emergence of Christian Science in American Religious Life' (1973)",
+   "Rennie B. Schoepflin, 'Christian Science on Trial: Religious Healing in America' (2003)",
+   "Mary Baker Eddy, 'Science and Health with Key to the Scriptures' (1875; final revision 1910)"
   ]
  },
  "christianity": {
@@ -702,6 +740,18 @@ window.MIRROR_DOSSIERS = {
    "Nejla M. Abu-Izzeddin, 'The Druzes: A New Study of Their History, Faith and Society' (1984)",
    "Kais M. Firro, 'A History of the Druzes' (1992)",
    "David R.W. Bryer, 'The Origins of the Druze Religion' (BSOAS, 1975-76)"
+  ]
+ },
+ "eastern-orthodoxy": {
+  "essence": "The communion of self-governing (autocephalous) churches — Constantinople, Alexandria, Antioch, Jerusalem, Russia, Serbia, Romania, Georgia, Greece, and others — that holds the faith of the seven ecumenical councils and has been formally separated from Rome since 1054. Roughly 200–260 million people, concentrated in Eastern Europe, the Balkans, Russia, and the Near East, with global diasporas. Its central claim is unbroken continuity: that it simply is the Church of the councils, neither reformed nor needing reform.",
+  "cosmos": "One triune God creates from nothing; the human vocation is theosis — progressive union with God's uncreated energies (never His essence) until the person is transfigured like Christ on Tabor. Salvation is thus framed as ontological transformation and the healing of death's corruption more than as the settling of legal guilt. History ends in Christ's return, bodily resurrection, and judgment; at death the soul awaits that resurrection in a foretaste of its state — the dead are prayed for, but Orthodoxy defines no purgatory as a distinct place, leaving the interim deliberately underspecified.",
+  "practice": "Worship centers on the Divine Liturgy of John Chrysostom or Basil, celebrated as heaven happening on earth behind and through the icon screen; icons are venerated on the definition of Nicaea II (787) that honor passes to the prototype. The sacraments are called mysteries and counted loosely; fasting seasons cover a large part of the year; parish clergy may marry before ordination while bishops are drawn from the monks. Monasticism — above all the self-governing republic of Mount Athos — functions as the tradition's contemplative engine, transmitting the hesychast discipline of the Jesus Prayer.",
+  "canon": "The Bible (with the Septuagint as the received Old Testament) read within Holy Tradition — the seven ecumenical councils, the liturgy itself, and the Fathers; the Philokalia (1782) is the canonical anthology of the contemplative tradition.",
+  "reflects": "Continuity as sanctity — the conviction that the sacred is preserved not by a single office or by reform but by the total inherited pattern of worship, and that the end of religion is the literal transfiguration of the human being.",
+  "sources": [
+   "Timothy Ware, 'The Orthodox Church' (1963)",
+   "Vladimir Lossky, 'The Mystical Theology of the Eastern Church' (1957)",
+   "John Meyendorff, 'Byzantine Theology: Historical Trends and Doctrinal Themes' (1974)"
   ]
  },
  "eckankar": {
@@ -1242,6 +1292,18 @@ window.MIRROR_DOSSIERS = {
    "Maureen Warner-Lewis, 'Central Africa in the Caribbean' (2003)"
   ]
  },
+ "jehovahs-witnesses": {
+  "essence": "Jehovah's Witnesses are the millenarian restorationist movement that grew from Charles Taze Russell's Pittsburgh Bible-student circle of the 1870s into a centralized world organization directed by a Governing Body through the Watch Tower Society. Roughly 8.8 million active 'publishers' preach in over 230 lands; the central claim is that Christ was enthroned invisibly in heaven in 1914 and that God's kingdom — a real government — will shortly destroy all human rule at Armageddon.",
+  "cosmos": "The theology is non-trinitarian: Jehovah alone is Almighty God, Christ is his first creation (identified with the archangel Michael), and the holy spirit is God's active force rather than a person. There is no immortal soul — the dead are unconscious, awaiting resurrection — and no hell of torment; after Armageddon a literal 144,000 'anointed' rule with Christ in heaven while the 'great crowd' of the faithful live forever on a restored paradise earth. Satan is the present ruler of this world, which is why the Witnesses refuse it their allegiance.",
+  "practice": "The defining practice is the door-to-door field ministry — members are 'publishers' who report their preaching activity — alongside weekly meetings at Kingdom Halls, baptism by immersion, and the annual Memorial of Christ's death, at which only the anointed partake of the emblems. Strict neutrality forbids voting, military service, flag salutes, and the observance of holidays and birthdays; the blood-transfusion prohibition (formalized 1945) and the practice of disfellowshipping mark the community's costliest boundaries.",
+  "canon": "The Bible in the movement's own New World Translation (completed 1961), read through Watch Tower literature — above all the magazine that carried the movement from the start, The Watchtower (founded as Zion's Watch Tower, 1879).",
+  "reflects": "Apocalyptic expectation made a permanent institution — a community organized to publish, sustain, and recalibrate the imminence of the end across generations of deferral.",
+  "sources": [
+   "M. James Penton, 'Apocalypse Delayed: The Story of Jehovah's Witnesses' (1985)",
+   "George D. Chryssides, 'Jehovah's Witnesses: Continuity and Change' (2016)",
+   "Andrew Holden, 'Jehovah's Witnesses: Portrait of a Contemporary Religious Movement' (2002)"
+  ]
+ },
  "judaism": {
   "essence": "The monotheistic religion of the Jewish people, understood in its rabbinic form as it developed after the destruction of the Second Temple (70 CE) out of the biblical religion of ancient Israel. It centers on the covenant between the one God (YHWH) and Israel, mediated through the Torah — both the written Hebrew Bible and the Oral Law elaborated by the Rabbis. Its foundational claim is the unity and sole sovereignty of God, who created the world, gave the Torah at Sinai, and holds Israel to its commandments.",
   "cosmos": "One transcendent God, whose ineffable name (the Tetragrammaton) is never pronounced, created and governs the world and is immanently present as the Shekhinah, said to share Israel's exile. Evil is not a rival power: Ha-Satan is a servant-prosecutor in the divine court, and the human 'evil inclination' (yetzer hara) is a God-given drive to be channeled, not a demon. History moves toward redemption — a human, Davidic Messiah heralded by Elijah, followed by the resurrection of the dead and the World to Come (Olam Ha-Ba); humans possess genuine free will and can transform their past through repentance (teshuvah).",
@@ -1367,6 +1429,19 @@ window.MIRROR_DOSSIERS = {
    "Frances Densmore, 'Teton Sioux Music' (1918)",
    "Joseph Epes Brown, 'The Sacred Pipe: Black Elk's Account of the Seven Rites of the Oglala Sioux' (1953)",
    "Raymond J. DeMallie, 'The Sixth Grandfather: Black Elk's Teachings Given to John G. Neihardt' (1984)"
+  ]
+ },
+ "latter-day-saints": {
+  "essence": "The Church of Jesus Christ of Latter-day Saints is the restorationist church organized by Joseph Smith in upstate New York in 1830 on the claim that the heavens had reopened: God had called a new prophet, restored the ancient priesthood, and delivered new scripture in the Book of Mormon. Headquartered in Salt Lake City after the exodus of 1846-47, it counts roughly seventeen million members worldwide and continues to expand its global temple network.",
+  "cosmos": "Latter-day Saint cosmology closes the gap between God and humanity: God the Father is an exalted, embodied being, human spirits are his premortal children organized from uncreated 'intelligences,' and mortal life is a probationary schooling within a 'plan of salvation.' At death spirits enter a spirit world to await a universal resurrection and assignment to graded kingdoms of glory — celestial, terrestrial, telestial — while the faithful, sealed by temple ordinances, may progress toward exaltation: godhood in eternal families, on the road Lorenzo Snow's couplet compressed to 'as God now is, man may be.'",
+  "practice": "The church runs on an unpaid lay priesthood — no professional clergy — with weekly sacrament meetings, tithing, the Word of Wisdom's abstention from alcohol, tobacco, coffee, and tea, and a signature corps of young full-time missionaries. Temple worship stands apart from Sunday worship: the endowment, the sealing of marriages and families, and vicarious ordinances for the dead (the engine of the church's vast genealogical enterprise), open only to members holding a temple recommend. A living prophet-president and the Quorum of the Twelve Apostles govern by continuing revelation.",
+  "canon": "An open canon of four 'standard works' — the Bible (King James Version), the Book of Mormon (1830), the Doctrine and Covenants, and the Pearl of Great Price — to which the living prophet's canonized declarations can still add.",
+  "reflects": "The impulse to restore rather than reform — reopening the canon and the prophetic office itself, so that revelation operates as an ongoing institution rather than a closed inheritance.",
+  "sources": [
+   "Richard Lyman Bushman, 'Joseph Smith: Rough Stone Rolling' (2005)",
+   "Terryl L. Givens, 'By the Hand of Mormon: The American Scripture that Launched a New World Religion' (2002)",
+   "Jan Shipps, 'Mormonism: The Story of a New Religious Tradition' (1985)",
+   "Joseph Smith Jr. (trans.), 'The Book of Mormon' (1830)"
   ]
  },
  "lingayat": {
@@ -1823,6 +1898,19 @@ window.MIRROR_DOSSIERS = {
    "Massimo Introvigne, 'Satanism: A Social History' (2016)"
   ]
  },
+ "oriental-orthodoxy": {
+  "essence": "The family of churches — Coptic, Ethiopian and Eritrean Tewahedo, Armenian Apostolic, Syriac, and Malankara (Indian) — that rejected the Council of Chalcedon (451) and holds Cyril of Alexandria's formula of the one united incarnate nature of Christ (miaphysis). Roughly 50–60 million people whose heartlands are Egypt, Ethiopia, Armenia, Syria, and Kerala, much of the family living for centuries as minorities under Islamic or imperial rule. Each church is fully autonomous; what binds them is the shared non-Chalcedonian christology and mutual communion.",
+  "cosmos": "The shared Christian cosmology — triune creator, Fall, Incarnation, resurrection, final judgment — held in its pre-Chalcedonian form: divinity and humanity united in Christ without confusion, change, division, or separation, but confessed as one nature rather than in two. The distinctive cosmological signature is sacred geography made national: Ethiopia claims the Ark of the Covenant itself at Aksum and charters its kingship on descent from Solomon, while Armenia anchors its church at Etchmiadzin, where Gregory the Illuminator's vision fixed the altar. Prayer for the dead is universal; no purgatory is defined.",
+  "practice": "Ancient eucharistic liturgies celebrated in classical sacred languages — Ge'ez, Coptic, Classical Armenian, Syriac — with fasting regimes among the most rigorous in Christianity, covering as much as half the Coptic and Ethiopian year. Monasticism was born here: Anthony's Egyptian desert withdrawal became the template exported to the whole Christian world, and desert and highland monasteries remain living institutions after seventeen centuries. The churches are fused to their peoples — Armenian, Coptic, or Ethiopian identity and church membership are historically inseparable — and every Ethiopian church is consecrated by its tabot, a replica of the Ark carried in procession at Timkat.",
+  "canon": "The Bible in nationally distinct canons — the Ethiopian Tewahedo canon of 81 books, including 1 Enoch and Jubilees, is the most extensive in Christendom — alongside foundational national texts such as Agathangelos's History of the Armenians and the Kebra Nagast, Ethiopia's Solomonic epic (national charter rather than scripture proper).",
+  "reflects": "The nationalization of the sacred — Christianity so completely fused with particular peoples, languages, and landscapes that the church becomes the organ of ethnic survival itself, held together across empires by a fifteen-century doctrinal boundary.",
+  "sources": [
+   "Aziz S. Atiya, 'A History of Eastern Christianity' (1968)",
+   "Edward Ullendorff, 'Ethiopia and the Bible' (1968)",
+   "E. A. Wallis Budge (trans.), 'The Queen of Sheba and Her Only Son Menyelek (Kebra Nagast)' (1922)",
+   "John Binns, 'The Orthodox Church of Ethiopia: A History' (2017)"
+  ]
+ },
  "orisha-trinidad": {
   "essence": "An Afro-Caribbean religion of Trinidad — historically called 'Shango' — derived chiefly from Yoruba orisha worship carried by 19th-century liberated Africans and syncretized with Catholicism, the Spiritual (Shouter) Baptist faith, and, in Trinidad's plural society, some Hindu elements. It is a living tradition in which the orishas (called 'powers') are served through drumming, sacrifice, and spirit possession, and in which many practitioners move fluidly between the Orisha yard and the Baptist church.",
   "cosmos": "A supreme God presides over the orishas, each characteristically paired with a Catholic saint — Shango with St. John the Baptist, Ogun with St. Michael, the water-mother Yemoja/Emanjah with St. Anne or the Virgin. The powers are active presences who 'manifest' by mounting their devotees in trance; ancestors and a range of spirits also populate the world. The Spiritual Baptist overlay adds the Holy Spirit and a Christian frame, so a single event may host African deity, saint, and Holy Ghost without felt contradiction.",
@@ -1913,6 +2001,19 @@ window.MIRROR_DOSSIERS = {
    "Markus Altena Davidsen, 'Fiction-based Religion: Conceptualising a New Category against History-based Religion and Fandom' (2013)"
   ]
  },
+ "pentecostalism": {
+  "essence": "Pentecostalism is the twentieth-century Christian renewal movement that treats baptism in the Holy Spirit — with charismatic gifts of tongues, prophecy, and healing — as normal present-day Christian experience. Born in the Wesleyan-Holiness milieu at Charles Parham's Topeka Bible school (1901) and William J. Seymour's Azusa Street revival in Los Angeles (1906), it has become, together with the wider charismatic wave, one of the fastest-growing religious movements on earth, its adherents counted in the hundreds of millions with the center of gravity in the Global South.",
+  "cosmos": "It shares evangelical Protestant cosmology — triune creator, Fall, atonement, heaven and hell — but re-enchants it: the world is an arena where the Holy Spirit and demonic powers act observably now, in bodies, illnesses, and fortunes. The classical 'full gospel' preaches Jesus as Savior, Spirit-baptizer, Healer, and coming King, and early Pentecostals read their revival as the 'latter rain' of Joel 2 — the end-time restoration of apostolic power before an imminent Second Coming.",
+  "practice": "Worship is participatory and ecstatic — congregational tongues, prophecy, testimony, and laying on of hands for healing — with entry by conversion followed by the sought experience of Spirit baptism. The bar to ministry is calling rather than credential, which from Azusa onward put women, laborers, and the poor in the pulpit; historic holiness codes governed dress and amusement, loosening in the later charismatic wave. Organization runs from classical denominations such as the Assemblies of God and the Church of God in Christ to vast independent and neo-charismatic networks with no common center.",
+  "canon": "The Protestant Bible, read with the Acts of the Apostles as the template for normal church life; the founding revival documented itself in its own periodical, The Apostolic Faith (Los Angeles, 1906–1908).",
+  "reflects": "The demand that divine power be immediately and bodily present — ecstasy and miracle restored to a rationalized tradition and distributed to every believer rather than reserved for a virtuoso class.",
+  "sources": [
+   "Allan Anderson, 'An Introduction to Pentecostalism: Global Charismatic Christianity' (2004)",
+   "Grant Wacker, 'Heaven Below: Early Pentecostals and American Culture' (2001)",
+   "Cecil M. Robeck Jr., 'The Azusa Street Mission and Revival' (2006)",
+   "Harvey Cox, 'Fire from Heaven: The Rise of Pentecostal Spirituality and the Reshaping of Religion in the Twenty-First Century' (1995)"
+  ]
+ },
  "phi-thai": {
   "essence": "The indigenous spirit-religion of the Tai (Thai, Lao) and Khmer peoples of mainland Southeast Asia — the cults of phi (Thai/Lao spirits) and neak ta (Khmer territorial ancestor-guardians) — that underlies and coexists with Theravada Buddhism across Thailand, Laos, and Cambodia. It is a living, near-universal layer of village and household life, expressed in spirit houses, guardian shrines, soul-calling rites, and mediumship, held without contradiction alongside Buddhist merit-making.",
   "cosmos": "The landscape is saturated with spirits: guardians of place (the Thai Phra Phum / Chao Thi in his spirit house), Khmer territorial ancestor-lords (neak ta) bound to trees, stones, and mounds, nature and tree spirits, the dangerous ghosts of violent death (phi tai hong), and a distant Tai sky-lord (Phaya Thaen). A person is animated by multiple soul-elements (khwan, commonly reckoned as thirty-two) that can be startled away, causing illness. All of this is layered beneath, not against, the Buddhist cosmology of karma and rebirth.",
@@ -1950,6 +2051,19 @@ window.MIRROR_DOSSIERS = {
    "Elsdon Best, 'Maori Religion and Mythology' (1924)",
    "Margaret Orbell, 'The Illustrated Encyclopedia of Māori Myth and Legend' (1995)",
    "Patrick V. Kirch & Roger C. Green, 'Hawaiki, Ancestral Polynesia: An Essay in Historical Anthropology' (2001)"
+  ]
+ },
+ "protestantism": {
+  "essence": "Protestantism is the family of Christian churches descending from the sixteenth-century Reformation — Lutheran, Reformed and Presbyterian, Anglican, and the later Baptist, Methodist, and evangelical bodies — today global and numbering roughly 800 million to a billion depending on whether independent churches are counted. Its central claim is that sinners are justified by grace through faith in Christ alone, and that Scripture — not pope, council, or tradition — is the church's final authority.",
+  "cosmos": "It keeps classical Christian cosmology intact: one triune God creating from nothing, the Fall, redemption through the incarnate Christ's cross and resurrection, linear history ending in judgment and a renewed creation. What the Reformation redrew was the map of salvation rather than of the cosmos — purgatory and the treasury of merit are rejected, so at death the soul passes to Christ's presence or to separation from him, awaiting bodily resurrection, with nothing the living can purchase to alter the outcome.",
+  "practice": "Worship centers on the preached Word, with the sermon and vernacular Bible at the heart of the assembly and, in most bodies, two sacraments — baptism and the Lord's Supper — in place of the medieval seven. Its ethical signature is vocation: ordinary labor, marriage, and citizenship as arenas of divine calling rather than a lower track beneath monasticism. Institutionally it has no single center — state churches, presbyterian assemblies, and congregational independency coexist, and schism is the family's structural habit as much as reform is its founding gesture.",
+  "canon": "The Protestant Bible — the Hebrew-canon Old Testament without the deuterocanonical books, plus the twenty-seven-book New Testament — as sole final authority; confessional documents such as the Augsburg Confession (1530), the Westminster Confession (1646), and the Book of Common Prayer hold subordinate, Scripture-normed status.",
+  "reflects": "The reforming impulse itself — the recurring conviction that the institution has buried the original revelation, and that religious authority belongs finally to the text and the unmediated conscience of the believer.",
+  "sources": [
+   "Martin Luther, 'Disputation on the Power and Efficacy of Indulgences (The Ninety-Five Theses)' (1517)",
+   "Diarmaid MacCulloch, 'The Reformation: A History' (2003)",
+   "Mark A. Noll, 'Protestantism: A Very Short Introduction' (2011)",
+   "Roland H. Bainton, 'Here I Stand: A Life of Martin Luther' (1950)"
   ]
  },
  "pueblo": {
