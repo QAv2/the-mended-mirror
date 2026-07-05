@@ -60,15 +60,23 @@
     prefetch: ids => { if (lite) norm(ids).forEach(fetchOne); },
   };
 
-  /* the after-boot trickle: one chunk at a time, gently */
+  /* the after-boot trickle: one chunk at a time, gently. 288 chunks × ~19 KB
+     — a long visit ends fully offline-capable. It yields: a hidden tab or a
+     reliquary fetch already in the air pushes the next sip back. */
   if (lite) {
     const queue = Object.keys(D.traditions);
+    const COARSE = typeof matchMedia !== "undefined" && matchMedia("(pointer:coarse)").matches;
+    const CADENCE = COARSE ? 700 : 250;
     let delay = 8000;                              // let the temple raise first
     (function tick() {
       setTimeout(() => {
         while (queue.length && loaded[queue[0]]) queue.shift();
         if (!queue.length) return;
-        fetchOne(queue.shift()).then(() => { delay = 300; tick(); });
+        if ((typeof document !== "undefined" && document.hidden) || Object.keys(inflight).length) {
+          delay = 1500; tick(); return;            // someone is drinking — wait
+        }
+        delay = CADENCE;
+        fetchOne(queue.shift()).then(tick);
       }, delay);
     })();
   }

@@ -54,7 +54,7 @@
       panel.querySelectorAll("[data-jt]").forEach(el => el.onclick = () => H.jump.tradition(el.getAttribute("data-jt")));
       panel.querySelectorAll("[data-jj]").forEach(el => el.onclick = () => H.jump.joint(+el.getAttribute("data-jj")));
     }
-    function close() { panel.classList.remove("open"); }
+    function close() { openToken++; panel.classList.remove("open"); }   // claim the token: an in-flight chunk must not reopen a closed panel
 
     function edgeListHTML(fi) {
       const f = D.figures[fi];
@@ -75,15 +75,47 @@
 
     /* prose (glosses, edge notes, dossiers, links) lives in per-tradition
        chunks — gate each open on its chunk, with a beat of patience if the
-       fetch is still in the air. Token guards stale renders. */
+       fetch is still in the air. EVERY open claims the token (and close does
+       too), so a slow chunk can neither repaint a panel the visitor has moved
+       past nor reopen one they closed. If the fetch outlasts the patience,
+       the lite fields render honestly and the chunk upgrades them in place. */
     function gated(ids, render) {
-      if (!HALL.chunks || HALL.chunks.ready(ids)) { render(); return; }
       const tok = ++openToken;
+      if (!HALL.chunks || HALL.chunks.ready(ids)) { render(); return; }
       show(`<div class="rel-kicker">unsealing the record…</div>`);
-      HALL.chunks.ensure(ids).then(() => { if (tok === openToken) render(); });
+      let rendered = false;
+      const fire = () => { if (tok === openToken) { rendered = true; render(); } };
+      const slow = setTimeout(() => { if (!rendered) fire(); }, 4000);
+      HALL.chunks.ensure(ids).then(() => { clearTimeout(slow); fire(); });
     }
-    function openFigure(fi) { gated([D.figures[fi].tradition], () => renderFigure(fi)); }
-    function openTradition(k) { gated([k], () => renderTradition(k)); }
+    /* a panel's jump links are one click from other traditions — warm those */
+    function prefetchPartners(ts) {
+      if (HALL.chunks && ts.length) HALL.chunks.prefetch(ts);
+    }
+    function openFigure(fi) {
+      const f = D.figures[fi];
+      gated([f.tradition], () => renderFigure(fi));
+      const seen = {}, ts = [];
+      for (const ei of M.edgesOfFig[fi]) {
+        const e = D.edges[ei];
+        const oi = M.figById[e.a === f.id ? e.b : e.a];
+        if (oi === undefined) continue;
+        const t = D.figures[oi].tradition;
+        if (t !== f.tradition && !seen[t]) { seen[t] = 1; ts.push(t); if (ts.length >= 8) break; }
+      }
+      prefetchPartners(ts);
+    }
+    function openTradition(k) {
+      gated([k], () => renderTradition(k));
+      const partners = [];
+      for (const key in M.pairAgg) {
+        const cut = key.indexOf("|");
+        const a = key.slice(0, cut), b = key.slice(cut + 1);
+        if (a === k || b === k) partners.push({ o: a === k ? b : a, g: M.pairAgg[key] });
+      }
+      partners.sort((x, y) => (y.g.bestW * y.g.count) - (x.g.bestW * x.g.count));
+      prefetchPartners(partners.slice(0, 6).map(p => p.o));
+    }
     function openSeam(e) {
       const oi = M.figById[e.a];
       gated(oi !== undefined ? [D.figures[oi].tradition] : [], () => renderSeam(e));
@@ -159,7 +191,8 @@
       show(h);
     }
 
-    function openJoint(ji) {
+    function openJoint(ji) { gated([], () => renderJoint(ji)); }   // no chunk needed; claims the token
+    function renderJoint(ji) {
       const j = M.joints[ji], a = j.a;
       let h = `<div class="rel-kicker">archetype · ${esc(a.subtype || "")}</div>`;
       h += `<h2>${esc(a.name)}</h2>`;
