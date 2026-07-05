@@ -52,7 +52,7 @@
     if (!el) {
       el = document.createElement("pre");
       el.id = "diag";
-      el.style.cssText = "position:fixed;top:0;left:0;right:0;max-height:55vh;overflow:auto;margin:0;padding:8px 10px;background:rgba(0,0,0,.85);color:#8f8;font:11px/1.5 monospace;z-index:99999;white-space:pre-wrap;pointer-events:auto";
+      el.style.cssText = "position:fixed;top:0;left:0;right:0;max-height:32vh;overflow:auto;margin:0;padding:8px 10px;background:rgba(0,0,0,.72);color:#8f8;font:11px/1.5 monospace;z-index:99999;white-space:pre-wrap;pointer-events:none";
       (document.body || document.documentElement).appendChild(el);
     }
     el.textContent = lines.join("\n");

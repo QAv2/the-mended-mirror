@@ -162,10 +162,14 @@
       setOpen, apply,
       onOpen: null,                               // audio hook (H.doors.onOpen) — sound system unbuilt
       /* the flight's hand: t in flight-seconds, K the dial — opens ahead of
-         the camera, closes behind it; the porthole cut hides BEHIND them */
+         the camera, closes behind it; the porthole cut hides BEHIND them.
+         The camera crosses the leaf plane at ~5.5K (knot 5, the portal): the
+         leaves are FULL open a beat before that, and stay open until the
+         camera is well inside (Joe flew through bronze in rev 1 — the scrub
+         verified the curve but misread the crossing). */
       drive(t, K) {
         const sm = (a, b, x) => { const q = Math.max(0, Math.min(1, (x - a) / (b - a))); return q * q * (3 - 2 * q); };
-        apply(sm(5.2 * K, 6.9 * K, t) - sm(8.2 * K, 9.4 * K, t));
+        apply(sm(3.4 * K, 5.0 * K, t) - sm(6.9 * K, 9.0 * K, t));
       },
     };
     H.doors = api;
