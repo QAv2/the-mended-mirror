@@ -51,3 +51,6 @@ design/
 # wave-2 forge staging + raw link sidecars (public copies ride data/t/ chunks)
 data/_forge2/
 data/_link/
+# wave-3 completion staging (figures/fixes/seams from the coverage audit)
+data/_forge3/
+data/_forge3-seams/
