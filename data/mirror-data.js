@@ -14,7 +14,7 @@ window.MIRROR_DATA = {
     "workingTitle": "The Mended Mirror",
     "subtitle": "a kintsugi of the world's pantheons",
     "purpose": "mending the mirror — so the one face can be seen again",
-    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 288 traditions, 2091 figures, 42 archetype-joints.",
+    "note": "The seed was a vertical slice; the fan-out filled the rest of the human race. 288 traditions, 2079 figures, 42 archetype-joints.",
     "span": {
       "from": -50000,
       "to": 2026
@@ -1088,7 +1088,7 @@ window.MIRROR_DATA = {
       }
     },
     "entheogenic-churches": {
-      "name": "Entheogenic churches (Santo Daime / UDV / Bwiti)",
+      "name": "Entheogenic churches (Santo Daime / UDV)",
       "region": "Brazil / Gabon",
       "color": "#d8b84a",
       "period": {
@@ -4215,8 +4215,8 @@ window.MIRROR_DATA = {
       "gloss": "The remote sky-father at the head of the Sumerian pantheon — authority so high it barely acts."
     },
     {
-      "id": "ranginui",
-      "tradition": "polynesian",
+      "id": "maori-ranginui",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Ranginui",
       "archetypes": [
@@ -4300,16 +4300,6 @@ window.MIRROR_DATA = {
         "dragon-slayer"
       ],
       "gloss": "Canaanite storm-and-rain god who defeats Yam, the chaos-sea, to win his kingship."
-    },
-    {
-      "id": "tlaloc",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Tlāloc",
-      "archetypes": [
-        "storm-wielder"
-      ],
-      "gloss": "Aztec god of rain, lightning and mountains — giver of water, and keeper of the drowned in a paradise of his own."
     },
     {
       "id": "raijin",
@@ -4426,18 +4416,6 @@ window.MIRROR_DATA = {
       "facet": "Not a rogue but a required gate: the trickster as the indispensable translator between human and divine."
     },
     {
-      "id": "tezcatlipoca",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Tezcatlipoca",
-      "archetypes": [
-        "trickster",
-        "sky-father"
-      ],
-      "gloss": "'Smoking Mirror' — the Black Tezcatlipoca of the North; god of night, sorcery, fate and the obsidian scrying-glass.",
-      "facet": "His attribute is an obsidian mirror that shows the soul its own hidden face. This whole mirror is his instrument."
-    },
-    {
       "id": "osiris",
       "tradition": "egyptian",
       "kind": "deity",
@@ -4502,19 +4480,6 @@ window.MIRROR_DATA = {
       "facet": "The only resurrection that waits for the end — renewal deferred past the apocalypse itself."
     },
     {
-      "id": "quetzalcoatl",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Quetzalcōātl",
-      "archetypes": [
-        "dying-rising",
-        "trickster",
-        "sky-father"
-      ],
-      "gloss": "The Feathered Serpent — White Tezcatlipoca of the West; culture-bringer who burns himself and rises as the morning star, vowing to return.",
-      "facet": "Sky and earth fused in one body — the feathers of heaven's bird on the serpent of the ground: opposites reconciled."
-    },
-    {
       "id": "christ",
       "tradition": "abrahamic",
       "kind": "deity",
@@ -4575,8 +4540,8 @@ window.MIRROR_DATA = {
       "gloss": "The first man to die — who therefore became lord of the dead and judge of the road they walk."
     },
     {
-      "id": "xolotl",
-      "tradition": "mesoamerican",
+      "id": "aztec-xolotl",
+      "tradition": "aztec",
       "kind": "deity",
       "name": "Xōlōtl",
       "archetypes": [
@@ -4606,16 +4571,6 @@ window.MIRROR_DATA = {
       "gloss": "The unseen one — lord of the dead and of the wealth that lies beneath the earth."
     },
     {
-      "id": "mictlantecuhtli",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Mictlāntēcuhtli",
-      "archetypes": [
-        "underworld-sovereign"
-      ],
-      "gloss": "Skeletal lord of Mictlan, the lowest underworld, where most of the dead complete a four-year journey to rest."
-    },
-    {
       "id": "ereshkigal",
       "tradition": "mesopotamian",
       "kind": "deity",
@@ -4625,16 +4580,6 @@ window.MIRROR_DATA = {
         "great-mother"
       ],
       "gloss": "Queen of the great below, sister of Inanna, before whom even gods must strip away every emblem of power."
-    },
-    {
-      "id": "lords-of-xibalba",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Lords of Xibalba",
-      "archetypes": [
-        "underworld-sovereign"
-      ],
-      "gloss": "One Death and Seven Death — the death-gods of the Maya underworld who summon the Hero Twins to the killing-game."
     },
     {
       "id": "hephaestus",
@@ -4732,18 +4677,6 @@ window.MIRROR_DATA = {
       "facet": "The sun as she — and as ancestral sovereign — overturning the usual male-solar pattern in a single stroke."
     },
     {
-      "id": "huitzilopochtli",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Huītzilōpōchtli",
-      "archetypes": [
-        "solar",
-        "dragon-slayer"
-      ],
-      "gloss": "The Blue Tezcatlipoca of the South — sun-and-war god who must be fed hearts to keep the sun in motion.",
-      "facet": "The sun that demands blood: cosmic maintenance reimagined as the engine of an empire."
-    },
-    {
       "id": "gaia",
       "tradition": "greek",
       "kind": "deity",
@@ -4805,19 +4738,8 @@ window.MIRROR_DATA = {
       "gloss": "Ancestral mother of the Túatha Dé Danann — the very 'people of the goddess Danu'."
     },
     {
-      "id": "coatlicue",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Cōātlīcue",
-      "archetypes": [
-        "great-mother"
-      ],
-      "gloss": "'Serpent-Skirt' — earth-mother of the gods, wearing a necklace of hearts and hands; she who births life and eats it back.",
-      "facet": "The mother who is also the grave — birth and death worn on one terrible body."
-    },
-    {
-      "id": "papatuanuku",
-      "tradition": "polynesian",
+      "id": "maori-papatuanuku",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Papatūānuku",
       "archetypes": [
@@ -4871,8 +4793,8 @@ window.MIRROR_DATA = {
       "gloss": "The Creative (pure yang, Heaven) and the Receptive (pure yin, Earth) — the first two trigrams and parents of the other six."
     },
     {
-      "id": "ometeotl",
-      "tradition": "mesoamerican",
+      "id": "aztec-ometeotl",
+      "tradition": "aztec",
       "kind": "deity",
       "name": "Ometēotl",
       "archetypes": [
@@ -4922,18 +4844,8 @@ window.MIRROR_DATA = {
       "gloss": "The golden world-mountain at the center of the universe, around which sun, moon and stars revolve."
     },
     {
-      "id": "ceiba-world-tree",
-      "tradition": "mesoamerican",
-      "kind": "principle",
-      "name": "The Ceiba (Yaxche)",
-      "archetypes": [
-        "axis-mundi"
-      ],
-      "gloss": "The green world-tree at the center, with four coloured ceibas at the corners holding up the sky — roots in the underworld, crown in the heavens."
-    },
-    {
-      "id": "four-tezcatlipocas",
-      "tradition": "mesoamerican",
+      "id": "aztec-four-tezcatlipocas",
+      "tradition": "aztec",
       "kind": "principle",
       "name": "The Four Tezcatlipocas",
       "archetypes": [
@@ -4966,8 +4878,8 @@ window.MIRROR_DATA = {
       "provenance": "The cosmic ballgame and the Hero-Twins myth are firmly attested (Popol Vuh). A distinct game from patolli — the athletic court, not the four-directions board."
     },
     {
-      "id": "patolli",
-      "tradition": "mesoamerican",
+      "id": "aztec-patolli",
+      "tradition": "aztec",
       "kind": "rite",
       "name": "Patolli",
       "archetypes": [
@@ -4976,39 +4888,6 @@ window.MIRROR_DATA = {
       "gloss": "The Aztec board game whose cross-shaped board is a quincunx — four arms aligned to the four cardinal directions around a center, a 52-space circuit matching the Calendar Round. Played for ruinous stakes under Macuilxōchitl, god of games, and consulted as an oracle.",
       "facet": "The board IS the quartered cosmos: to play is to walk a token through the four directions of the world — and to read fate by doing so. The four-directions worldview made playable.",
       "provenance": "Board-as-four-directions cosmogram is attested — Caso found the stone Pedregal board aligned exactly to the cardinal points; the 52-space circuit = the Calendar Round. Oracle/divination use is well-founded scholarship (Durán; Mexicolore). The modern 'four players each embody a direction' overlay is NOT pre-Columbian and is deliberately left out."
-    },
-    {
-      "id": "hero-twins",
-      "tradition": "mesoamerican",
-      "kind": "deity",
-      "name": "Hunahpú & Xbalanqué",
-      "archetypes": [
-        "dragon-slayer",
-        "dying-rising"
-      ],
-      "gloss": "The Hero Twins of the Popol Vuh, who beat the Lords of Xibalba at their own ballgame, are killed, return, and rise as the sun and the moon."
-    },
-    {
-      "id": "ixiptla",
-      "tradition": "mesoamerican",
-      "kind": "concept",
-      "name": "Ixiptla (teixiptla)",
-      "archetypes": [
-        "one-through-many"
-      ],
-      "gloss": "A person or object that takes on the 'skin' of a god and becomes the living vessel through which teōtl — the one divine force — acts in the world.",
-      "facet": "The Aztec word for this mirror's own thesis: one force, countless eyes. The god plays through the human the way the player plays the game.",
-      "provenance": "From Nahuatl xip ('to flay / take the skin') + ixtli ('face / surface'). Bassett, The Fate of Earthly Things; Hvidtfeldt, Teōtl and Ixiptlatli."
-    },
-    {
-      "id": "teotl",
-      "tradition": "mesoamerican",
-      "kind": "principle",
-      "name": "Teōtl",
-      "archetypes": [
-        "one-through-many"
-      ],
-      "gloss": "Not 'a god' but the single sacred energy that is everything, ceaselessly self-transforming — the gods are its faces, the ixiptla its vessels."
     },
     {
       "id": "brahman",
@@ -6725,7 +6604,7 @@ window.MIRROR_DATA = {
         "dualism"
       ],
       "gloss": "The omnipotent, invisible, and capricious lord of the night sky, destiny, and sorcery. He observes all human deeds through his obsidian mirror, raising slaves to royalty and casting kings into ruin purely at his whim.",
-      "facet": "Unlike standard cosmic adversaries, he is neither evil nor opposed to the highest order; he *is* the arbitrary nature of fate itself, enforcing absolute humility through the unpredictable reversal of human fortune.",
+      "facet": "Unlike standard cosmic adversaries, he is neither evil nor opposed to the highest order; he *is* the arbitrary nature of fate itself, enforcing absolute humility through the unpredictable reversal of human fortune. His attribute is an obsidian mirror that shows the soul its own hidden face — this whole mirror is his instrument.",
       "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); 'Codex Borgia' (pre-Columbian)."
     },
     {
@@ -6786,10 +6665,11 @@ window.MIRROR_DATA = {
       "kind": "concept",
       "name": "Ixiptla (Deity Impersonator)",
       "archetypes": [
-        "primordial-sacrifice"
+        "primordial-sacrifice",
+        "one-through-many"
       ],
       "gloss": "A human captive or slave who is bathed, dressed, and ritually transformed into the living embodiment of a god. For a set period, they are treated with utter reverence before being sacrificed to reenact the deity's mythic death.",
-      "facet": "It breaks the boundary between offering and receiver; the sacrifice *becomes* the god dying to renew the god. The flayed human skin worn by priests afterward makes this ontological merger viscerally literal.",
+      "facet": "It breaks the boundary between offering and receiver; the sacrifice *becomes* the god dying to renew the god. The flayed human skin worn by priests afterward makes this ontological merger viscerally literal. The Aztec word for this mirror's own thesis: one force, countless eyes — the god plays through the human the way the player plays the game.",
       "provenance": "Bernardino de Sahagun, 'Florentine Codex' (1577); Inga Clendinnen, 'Aztecs: An Interpretation' (1991)."
     },
     {
@@ -10742,24 +10622,10 @@ window.MIRROR_DATA = {
       "provenance": "Central sacrament of the UDV, formalized by Mestre Gabriel in 1961."
     },
     {
-      "id": "entheogenic-churches-iboga",
-      "tradition": "entheogenic-churches",
-      "kind": "rite",
-      "name": "The Holy Wood (Tabernanthe iboga)",
-      "archetypes": [
-        "psychopomp",
-        "ecstatic-shaman",
-        "sacred-initiation"
-      ],
-      "gloss": "The powerful root bark consumed by the Bwiti of Gabon. During initiation, it is taken in massive, physically overwhelming doses to sever the soul from the body and force an encounter with the divine.",
-      "facet": "Iboga is not a gentle teacher but a chemical sledgehammer; the initiation is fundamentally a controlled near-death experience designed to obliterate the ego and expose the architecture of the afterlife.",
-      "provenance": "Pre-colonial Pygmy knowledge, adapted by Fang and Mitsogo peoples in Central Africa."
-    },
-    {
-      "id": "entheogenic-churches-bwiti",
-      "tradition": "entheogenic-churches",
+      "id": "bwiti-nzame",
+      "tradition": "bwiti",
       "kind": "principle",
-      "name": "Bwiti (Nzam)",
+      "name": "Nzame (Zame ye Mebege)",
       "archetypes": [
         "withdrawn-creator"
       ],
@@ -10768,8 +10634,8 @@ window.MIRROR_DATA = {
       "provenance": "Core theological entity in Bwiti belief systems, syncretized with the Christian God among the Fang."
     },
     {
-      "id": "entheogenic-churches-nima",
-      "tradition": "entheogenic-churches",
+      "id": "bwiti-nima",
+      "tradition": "bwiti",
       "kind": "hero",
       "name": "The Nima",
       "archetypes": [
@@ -16524,7 +16390,8 @@ window.MIRROR_DATA = {
       "name": "Hunahpu & Xbalanque (The Hero Twins)",
       "archetypes": [
         "divine-twins",
-        "trickster"
+        "trickster",
+        "dying-rising"
       ],
       "gloss": "The cunning, ball-playing brothers who descend into the underworld to avenge their murdered father. Surviving Xibalba's trap-filled houses, they defeat the Lords of Death, ascending to become the sun and moon.",
       "facet": "They conquer death not by overpowering it, but by outperforming it. They voluntarily submit to the underworld's sacrificial oven, using their subsequent resurrection as an elaborate magic trick to coax the Death Lords into begging to be sacrificed themselves.",
@@ -19781,8 +19648,8 @@ window.MIRROR_DATA = {
       "provenance": "Thai folk belief; common in rural village storytelling and warning tales."
     },
     {
-      "id": "tane",
-      "tradition": "polynesian",
+      "id": "maori-tane",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Tāne-mahuta (Tāne, lord of forests)",
       "archetypes": [
@@ -19807,8 +19674,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology' (the children of Rangi and Papa); Best. Across wider Polynesia (Tahiti, Hawai‘i as Kanaloa) Tangaroa is elevated far higher — in Māoridom he is one brother among the storm-scattered six."
     },
     {
-      "id": "tumatauenga",
-      "tradition": "polynesian",
+      "id": "maori-tumatauenga",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Tūmatauenga (Tū, the war-faced)",
       "archetypes": [
@@ -19820,8 +19687,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. Tū is invoked as the ancestor-atua of warriors and in rites of war and first-fruits."
     },
     {
-      "id": "tawhirimatea",
-      "tradition": "polynesian",
+      "id": "maori-tawhirimatea",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Tāwhirimātea (lord of storms)",
       "archetypes": [
@@ -19833,8 +19700,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology'; Orbell, 'Concise Encyclopedia of Māori Myth and Legend'. His standing war on his siblings is the Māori etiology of storms."
     },
     {
-      "id": "rongo",
-      "tradition": "polynesian",
+      "id": "maori-rongo",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Rongo-mā-tāne (Rongo, lord of the kūmara)",
       "archetypes": [
@@ -19845,8 +19712,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Agriculture'. Rongo is cognate with wider Polynesian Lono/Ro‘o, an attested Polynesian descent though glossed only here."
     },
     {
-      "id": "haumia",
-      "tradition": "polynesian",
+      "id": "maori-haumia",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Haumia-tiketike (lord of fernroot)",
       "archetypes": [
@@ -19857,8 +19724,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. Haumia and Rongo are consistently paired as the wild and cultivated foods hidden in Papatūānuku."
     },
     {
-      "id": "hine-nui-te-po",
-      "tradition": "polynesian",
+      "id": "maori-hine-nui-te-po",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Hine-nui-te-pō (the Great Lady of Night)",
       "archetypes": [
@@ -19870,8 +19737,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology' (the death of Māui); Best; Orbell. The Hine-tītama-to-Hine-nui-te-pō transformation is the Māori myth of the entry of death."
     },
     {
-      "id": "hine-ahu-one",
-      "tradition": "polynesian",
+      "id": "maori-hine-ahu-one",
+      "tradition": "maori",
       "kind": "ancestor",
       "name": "Hine-ahu-one (the Earth-formed Maid)",
       "archetypes": [
@@ -19883,8 +19750,8 @@ window.MIRROR_DATA = {
       "provenance": "Grey, 'Polynesian Mythology'; Best, 'Maori Religion and Mythology'. The forming of Hine-ahu-one at Kurawaka is the Māori anthropogony."
     },
     {
-      "id": "whiro",
-      "tradition": "polynesian",
+      "id": "maori-whiro",
+      "tradition": "maori",
       "kind": "deity",
       "name": "Whiro (lord of darkness and decay)",
       "archetypes": [
@@ -19896,8 +19763,8 @@ window.MIRROR_DATA = {
       "provenance": "Best, 'Maori Religion and Mythology' (the contest of Tāne and Whiro for the baskets of knowledge); Tregear. Whiro's cosmic-adversary role is most developed in the esoteric whare-wānanga teachings recorded by Best, which are themselves a learned tradition."
     },
     {
-      "id": "te-kore-te-po",
-      "tradition": "polynesian",
+      "id": "maori-te-kore-te-po",
+      "tradition": "maori",
       "kind": "concept",
       "name": "Te Kore · Te Pō · Te Ao Mārama (the unfolding of light)",
       "archetypes": [
@@ -30373,14 +30240,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "ra",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "The sun whose daily survival must be paid for — by slaying (Ra) or by feeding (Huitzilopochtli)."
     },
     {
       "a": "gaia",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "The Earth as primal mother, pressed beneath the Sky until the two are forced apart."
@@ -30393,14 +30260,14 @@ window.MIRROR_DATA = {
       "note": "The world-axis as cosmic tree / cosmic mountain — the still center binding the realms."
     },
     {
-      "a": "ceiba-world-tree",
+      "a": "maya-wacah-chan",
       "b": "mount-meru",
       "type": "analogous",
       "tier": "3",
       "note": "Center-tree and center-mountain: the same quincunx of four quarters around a holy middle."
     },
     {
-      "a": "ceiba-world-tree",
+      "a": "maya-wacah-chan",
       "b": "eden-four-rivers",
       "type": "analogous",
       "tier": "3",
@@ -30408,7 +30275,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "brahman",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "A single sacred reality of which all gods and things are passing faces."
@@ -30421,29 +30288,29 @@ window.MIRROR_DATA = {
       "note": "The one source behind the ten-thousand things, knowable only by ceasing to stand outside it."
     },
     {
-      "a": "teotl",
+      "a": "aztec-teotl",
       "b": "ein-sof",
       "type": "analogous",
       "tier": "4",
       "note": "The unconditioned ground from which a knowable, named divinity unfolds — a far reach across very different grammars."
     },
     {
-      "a": "ranginui",
-      "b": "papatuanuku",
+      "a": "maori-ranginui",
+      "b": "maori-papatuanuku",
       "type": "pairs",
       "tier": "2",
       "note": "Sky-Father and Earth-Mother in unbroken embrace, until their children part them to make the lit world."
     },
     {
       "a": "qian-kun",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "The supreme principle as an irreducible male-female pair: Heaven/Earth, Lord/Lady."
     },
     {
-      "a": "ixiptla",
-      "b": "teotl",
+      "a": "aztec-ixiptla",
+      "b": "aztec-teotl",
       "type": "pairs",
       "tier": "2",
       "note": "The mechanism of the One Through Many: teōtl acts in the world by 'wearing' an ixiptla."
@@ -30470,36 +30337,36 @@ window.MIRROR_DATA = {
       "note": "Pótnia Thērôn and Paśupati — the Mistress and the Lord of Animals, the same archaic office of the one who owns the wild and its beasts, split into a goddess and a god."
     },
     {
-      "a": "hero-twins",
+      "a": "maya-popol-vuh-twins",
       "b": "ballgame",
       "type": "pairs",
       "tier": "1",
       "note": "The Twins win their lives by out-playing death at the court — the founding match of the Popol Vuh."
     },
     {
-      "a": "hero-twins",
-      "b": "lords-of-xibalba",
+      "a": "maya-popol-vuh-twins",
+      "b": "maya-lords-of-xibalba",
       "type": "inverts",
       "tier": "1",
       "note": "Life against death across the same court — the cosmic contest with bodies as the pieces."
     },
     {
-      "a": "patolli",
-      "b": "four-tezcatlipocas",
+      "a": "aztec-patolli",
+      "b": "aztec-four-tezcatlipocas",
       "type": "pairs",
       "tier": "2",
       "note": "The board's four arms are the four directional quarters the Tezcatlipocas govern — the cosmogram the game is played on."
     },
     {
-      "a": "patolli",
-      "b": "ceiba-world-tree",
+      "a": "aztec-patolli",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Quincunx: four directions around a green center — the board and the world-tree are the same diagram."
     },
     {
-      "a": "four-tezcatlipocas",
-      "b": "ceiba-world-tree",
+      "a": "aztec-four-tezcatlipocas",
+      "b": "maya-wacah-chan",
       "type": "pairs",
       "tier": "2",
       "note": "Four quarters around a green center — the directional gods and the world-tree are one diagram."
@@ -30775,7 +30642,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "rainbow-serpent",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "4",
       "note": "A reach: both are great serpent creator-beings central to their worlds, but Quetzalcoatl is a feathered culture-hero god of wind and learning while the Rainbow Serpent is the water-snake of the land's own making. Serpent-as-cosmos in both, but the resemblance is loose. Flagged."
@@ -30796,7 +30663,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "the-dreaming",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Both name a single sacred ground-power immanent in all things rather than a god above them — the Dreaming and the Mesoamerican teotl — the divine as the very fabric of what-is, expressed through countless particular beings. One-through-many reached by unrelated peoples."
@@ -30824,14 +30691,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "wandjina",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Two rain-and-storm powers with great staring eyes whose images must be served to keep the rains coming — the haloed mouthless Wandjina repainted in the rock, and the goggle-eyed rain-god fed in his mountains. The rain made a face that maintenance keeps alive, by unrelated peoples."
     },
     {
       "a": "wandjina",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "4",
       "note": "Loose: both fuse the sacred being with its physical embodiment so that tending the image IS tending the god — the Wandjina that became its own painting, the Mesoamerican ixiptla that the deity inhabits. Presence-in-the-image in both, but the mechanisms differ sharply. Flagged."
@@ -30859,7 +30726,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "bunjil",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "3",
       "note": "Two Oceanic/Australasian sky-creator-ancestors who shape the world and are bound to the heavens — the eaglehawk Bunjil and the sky-father Ranginui — neighbouring oceans, unrelated traditions, both putting the maker in the sky. Structural kin, never a cognate."
@@ -31139,7 +31006,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nyame",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "3",
       "note": "Sky-father over earth-mother in both, but Ranginui is separated by force while Nyame recedes of his own holiness — two routes to the same remote sky."
@@ -31167,14 +31034,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "asase-yaa",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "Earth-mother beneath a withdrawn/separated sky-father, keeper of crops and of the dead — the world-parents pattern across unrelated families."
     },
     {
       "a": "asase-yaa",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Old-woman Earth who both bears and devours, mother of crops and grave of the dead."
@@ -31230,7 +31097,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "abosom",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "4",
       "note": "A reach: both name the many sacred powers as faces of a single diffused divinity — the one-through-many. Speculative, no contact."
@@ -31433,7 +31300,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "alchemy-nigredo",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Dark, terrifying forces that govern the necessary descent into the underworld to strip away the old form before new life can emerge."
@@ -31587,7 +31454,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "alevism-musahiplik",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The profound elevation of a dyad; a spiritual pairing necessary to navigate the severe trials of the cosmos and approach the sacred."
@@ -31797,7 +31664,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "andean-pre-inca-ai-apaec",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The monstrous, fanged chthonic creator whose absolute fertility is entirely dependent on continuous decapitation and human blood."
@@ -31916,7 +31783,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "illapa",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Mountain-dwelling storm and rain gods of the Americas whose life-giving waters require intense, sometimes bloody, propitiation."
@@ -31965,7 +31832,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "supay",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Lords of the pre-Columbian American underworlds, governing the deep earth and the realm of the dead."
@@ -32636,39 +32503,11 @@ window.MIRROR_DATA = {
       "note": "Intra-tradition: The great cosmic rivalry, balancing the civilizing creation of Quetzalcoatl against the destructive caprice of Tezcatlipoca."
     },
     {
-      "a": "aztec-teotl",
-      "b": "aztec-ixiptla",
-      "type": "pairs",
-      "tier": "2",
-      "note": "Intra-tradition: The Ixiptla serves as the temporary, highly concentrated physical vessel for the otherwise formless flowing energy of Teotl."
-    },
-    {
       "a": "aztec-huitzilopochtli",
       "b": "aztec-tonatiuh",
       "type": "pairs",
       "tier": "2",
       "note": "Intra-tradition: The tribal war god who is ritually tasked with continuously feeding and sustaining the fragile Fifth Sun."
-    },
-    {
-      "a": "aztec-huitzilopochtli",
-      "b": "huitzilopochtli",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The specific Mexica manifestation of the broader pan-Mesoamerican patron deity."
-    },
-    {
-      "a": "aztec-tezcatlipoca",
-      "b": "tezcatlipoca",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The specific Mexica manifestation of the broader pan-Mesoamerican obsidian mirror deity."
-    },
-    {
-      "a": "aztec-quetzalcoatl",
-      "b": "quetzalcoatl",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The specific Mexica iteration of the ancient pan-Mesoamerican feathered serpent."
     },
     {
       "a": "aztec-huitzilopochtli",
@@ -32746,13 +32585,6 @@ window.MIRROR_DATA = {
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Subterranean sovereigns commanding the cold realms where human souls eventually descend and dissolve."
-    },
-    {
-      "a": "aztec-teotl",
-      "b": "brahman",
-      "type": "analogous",
-      "tier": "3",
-      "note": "Cross-tradition GOLD SEAM: The singular, panentheistic cosmic energy from which all individual gods and physical reality are mere transient manifestations."
     },
     {
       "a": "aztec-teotl",
@@ -32861,7 +32693,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "baganda-kibuuka",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A volatile war deity whose martial power is intrinsically linked to the sky and the defense of the state."
@@ -32875,7 +32707,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "baganda-kabaka",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A living human who serves as the flawless, structural embodiment of divine and cosmic order for the state."
@@ -32987,7 +32819,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "bahai-manifestation",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "4",
       "note": "GOLD SEAM: A speculative but striking structural parallel: a human vessel who becomes the flawless physical manifestation of the divine, though utterly detached from the mesoamerican sacrificial context."
@@ -33113,7 +32945,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "balinese-hindu-rwa-bhineda",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The cosmos fundamentally defined not by a singular moral good, but by an inherently dualistic, self-balancing engine of creation and destruction."
@@ -33134,7 +32966,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "balinese-hindu-rangda",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Terrifying, fanged, monstrous mother figures draped in the iconography of death, yet fundamentally venerated as necessary cosmic forces."
@@ -33456,7 +33288,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "bambara-nyama",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The dynamic, impersonal cosmic energy that underlies all existence and demands heavy ritual management to prevent disaster."
@@ -33533,7 +33365,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "basque-sugaar",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "The serpent as benign cosmic principle rather than monster — feathered or fiery, consort to creation rather than its enemy."
@@ -33694,7 +33526,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "berber-ifri",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Earth goddesses strongly associated with caves and the subterranean realm, serving as both maternal protectors and primordial forces."
@@ -34023,7 +33855,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "bon-srid-cosmogony",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Speculative: the splitting of the primordial source into a luminous and a dark lineage at the origin loosely rhymes with the dual-natured Ometeotl from whom the paired ordering powers issue — a reach of the dualising-origin theme, flagged."
@@ -34289,7 +34121,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buddhist-vehicles-yidam",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both involve the radical identification of a human practitioner with a divine being, though Vajrayana operates via mental visualization while Mesoamerican Ixiptla relied on physical ritual embodiment."
@@ -34415,7 +34247,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buddhist-yama",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Sovereign of the land of the dead through which all the unliberated must pass — a structural parallel of the underworld-king, no contact."
@@ -34450,7 +34282,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buddhist-trikaya",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "One sacred reality refracted into countless masks (ixiptla / nirmāṇakāya) — the one-through-many reached independently in Mesoamerica and in Mahāyāna."
@@ -34478,7 +34310,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buddhist-kalpas",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "Time as successive worlds destroyed and remade — the Mesoamerican Five Suns and the Buddhist kalpas both read history as recurring catastrophe-and-renewal, independently."
@@ -34499,7 +34331,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buddhist-mara",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Speculative: the lord of delusion and the smoking-mirror lord of fate and temptation both rule the realm of binding desire — a reach of theme, no descent; flagged."
@@ -34604,7 +34436,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "buryat-ongon",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A physical receptacle—whether wood, fur, or human—that serves as the literal, localized housing for a divine force requiring biological sustenance."
@@ -34660,7 +34492,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "california-tribes-hutash",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are foundational Earth Mothers from whose literal body or domain humanity emerges as a living crop."
@@ -34681,7 +34513,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "california-tribes-kakunupmawa",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are solar entities conceptualized as fierce powers that require human lives to sustain their fiery cosmic trajectory."
@@ -34744,7 +34576,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "california-tribes-snilemun",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both elevate gambling from a human pastime to a cosmic mechanism, where the fate of the world or the individual is decided by the dice or bones."
@@ -35045,7 +34877,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "cargo-cult-john-frum",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both involve the mythic narrative of a culturally foundational figure expected to return from over the sea."
@@ -35122,7 +34954,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "cargo-cult-tom-navy",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Operating as a brotherly dyad (with John Frum) that outwits the lords of the current world order to secure survival."
@@ -35416,7 +35248,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "cheondoism-hanullim",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A supreme cosmic force that is not a localized deity but the pervasive, immanent energy moving through all things."
@@ -35990,14 +35822,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "christianity-satan",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "syncretic",
       "tier": "2",
       "note": "GOLD SEAM: Spanish colonizers intentionally conflated the Mesoamerican lord of the dead with the Christian Devil, projecting moral evil onto a morally neutral cosmic function."
     },
     {
       "a": "christianity-cross",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "syncretic",
       "tier": "2",
       "note": "GOLD SEAM: In the Americas, indigenous populations and missionaries frequently synthesized the Christian cross directly with the Mesoamerican axis mundi."
@@ -36193,7 +36025,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "church-of-all-worlds-thou-art-god",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Viewing the universe not as a container for deities, but as being composed entirely of a unified, self-generating sacred energy."
@@ -36417,7 +36249,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "cybele-magna-mater",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The terrifying, primordial earth mother whose profound vitality is inextricably linked to visceral destruction and blood offering."
@@ -36571,7 +36403,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dayak-godhead-unity",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "A single bisexual godhead held as a male-female unity — the Ngaju two-in-one parallels the Nahua Lord/Lady of Duality."
@@ -36592,7 +36424,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dayak-tambon",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "4",
       "note": "A loose parallel — both are great serpent-beings of cosmic standing, but Quetzalcoatl is sky-feathered culture-bringer where Tambon is the underworld-water body; resemblance is the serpent-emblem, not the role."
@@ -36606,7 +36438,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dayak-tree-of-life",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "A cosmic tree joining the worlds along the central axis — the Batang Garing rhymes with the Maya ceiba as world-axis."
@@ -36830,7 +36662,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dinka-nuer-deng",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The visceral embodiment of the rain and storm, bringing both life-sustaining water and the lethal threat of lightning."
@@ -36886,7 +36718,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dinka-nuer-colwic",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The shared belief that those killed by lightning bypass normal death and are instead instantly chosen for a sacred spiritual existence."
@@ -36935,7 +36767,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dionysian-sparagmos",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The ritual tearing of living flesh to intimately consume the divine essence, bypassing symbolic abstraction for terrifying, physical communion."
@@ -37145,7 +36977,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "divination-systems-wheel-of-fortune",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The intersection of games of chance and cosmic destiny, where throwing dice or drawing lots acts as a microcosm of the gods' gambling with human fate."
@@ -37222,14 +37054,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dogon-nommo",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both render the first divine reality as androgynous and paired before differentiation; a reach across families, flagged — twinned primordial wholeness."
     },
     {
       "a": "dogon-nommo",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Divine twins who pass through death to set the world right — but the Dogon twins are watery, androgynous redeemers where the Maya twins are hunters who outwit death."
@@ -37264,7 +37096,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dogon-amma-egg",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "4",
       "note": "Both place an undifferentiated primal whole at the origin from which the ordered world emerges; world-egg beside the unseparated sky-earth, offered cautiously."
@@ -37299,7 +37131,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dogon-ogo",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Both pair a disordering trickster-power against an ordering creator-sibling; offered cautiously, the adversary as the necessary counterweight to order."
@@ -37355,7 +37187,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dogon-amma-egg",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "4",
       "note": "Both encode the whole cosmos as a single geometric figure to be read — the world-egg's spiral beside the quartered board; a flagged cosmogram-rhyme, no contact."
@@ -37376,7 +37208,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dravidian-murugan",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Two young war-gods born to fierce mothers, each a solar warrior who dances victory and is honoured on heights — Murugan of the Tamil hills and Huitzilopochtli of the Mexica, the youthful martial sun reached independently."
@@ -37401,13 +37233,6 @@ window.MIRROR_DATA = {
       "type": "analogous",
       "tier": "3",
       "note": "The battlefield goddess who feeds on the slain and grants or withholds victory — Koṟṟavai and the Morrígan as the war-mother who haunts the field of the dead, a striking structural parallel across wholly separate families."
-    },
-    {
-      "a": "dravidian-kotravai",
-      "b": "coatlicue",
-      "type": "analogous",
-      "tier": "3",
-      "note": "The fierce mother of the war-god, bloody and devouring yet generative — Koṟṟavai mother of Murugan and Coatlicue mother of Huitzilopochtli, the terrible-mother-of-the-warrior reached independently."
     },
     {
       "a": "dravidian-mariyamman",
@@ -37453,7 +37278,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dravidian-anangu",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "An impersonal sacred potency saturating the world beneath the named gods — aṉaṅku as charged dangerous power and teōtl as the single sacred force refracted into deities; the holy-as-energy reached independently in Tamil country and in Mexico."
@@ -37502,7 +37327,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dravidian-pey",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "analogous",
       "tier": "4",
       "note": "Speculative: both figure the dead as hungry and ungoverned — but the pēy are a swarming appetite, not a court, where Xibalba is a ruled kingdom. A loose rhyme of the dead-as-hunger; flagged for the difference."
@@ -37950,7 +37775,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "eleusinian-triptolemus",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Benevolent, traveling culture-heroes who explicitly gift the staple crop (wheat/maize) to humanity to ensure their civilization and survival."
@@ -38013,7 +37838,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "eleusinian-eubouleus",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Animal-associated chthonic guides or figures structurally tethered to a catastrophic descent into the underworld."
@@ -38040,8 +37865,8 @@ window.MIRROR_DATA = {
       "note": "Intra-tradition bond: The Daime provides the spiritual force, while the hinarios provide the structural container and map for the visions."
     },
     {
-      "a": "entheogenic-churches-iboga",
-      "b": "entheogenic-churches-bwiti",
+      "a": "bwiti-iboga",
+      "b": "bwiti-nzame",
       "type": "pairs",
       "tier": "2",
       "note": "Intra-tradition bond: Iboga is the sole technological key capable of unlocking direct access to the withdrawn creator, Bwiti."
@@ -38054,7 +37879,7 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Santo Daime doctrine explicitly identifies Juramidam as the return of Jesus Christ, incarnated in the Amazonian brew."
     },
     {
-      "a": "entheogenic-churches-bwiti",
+      "a": "bwiti-nzame",
       "b": "yahweh",
       "type": "syncretic",
       "tier": "2",
@@ -38082,21 +37907,21 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Both traditions encode the geography of the spiritual world and ancestral law entirely within unbroken, transmitted song."
     },
     {
-      "a": "entheogenic-churches-iboga",
+      "a": "bwiti-iboga",
       "b": "charon",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Iboga serves as the chemical ferryman, demanding a physical toll to transport the initiate's soul across the river of death."
     },
     {
-      "a": "entheogenic-churches-nima",
+      "a": "bwiti-nima",
       "b": "angakkuq-soul-flight",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both involve an ecstatic specialist who uses rhythmic sound and trance to sever the soul from the body and navigate the spirit world."
     },
     {
-      "a": "entheogenic-churches-iboga",
+      "a": "bwiti-iboga",
       "b": "persephone",
       "type": "analogous",
       "tier": "3",
@@ -38110,7 +37935,7 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Both are heroic figures who retrieve a potent, divine technology from the spiritual realm and institutionalize it for humanity."
     },
     {
-      "a": "entheogenic-churches-bwiti",
+      "a": "bwiti-nzame",
       "b": "dogon-amma",
       "type": "analogous",
       "tier": "3",
@@ -38145,7 +37970,7 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Both represent an invisible, transmissible spiritual energy that can be harnessed, gathered, and directed through ritual action."
     },
     {
-      "a": "entheogenic-churches-nima",
+      "a": "bwiti-nima",
       "b": "hermes",
       "type": "analogous",
       "tier": "3",
@@ -38447,7 +38272,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "aita",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Independent underworld-sovereigns of unrelated traditions — both grim enthroned lords of a chthonic realm, convergence on the death-king joint."
@@ -38503,14 +38328,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "piacenza-liver",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Two quartered-cosmos grids of unrelated peoples: the templum's sixteen sky-houses on the liver and the four-directions board of Patolli, the cosmos drawn as a divided field to be read or played."
     },
     {
       "a": "piacenza-liver",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "The quartered heaven as a working diagram — sixteen regiones around the rim echoing the four-cornered cosmos held by the four Tezcatlipocas; the axis-and-quarters joint surfacing on two continents."
@@ -38538,7 +38363,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "disciplina-etrusca",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Comparable conceptions of an all-pervading sacred order made legible through ritual specialists — the Etruscan revealed-law beside the Nahua teotl as ground of the read cosmos."
@@ -38552,7 +38377,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tages",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "Both are teacher-heroes who deliver the sacred calendar and ritual knowledge to a people, then withdraw — Tages sinks into the furrow, Quetzalcoatl departs over the sea."
@@ -38643,7 +38468,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "evenki-tuuru",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A sacred tree anchoring the vertical axis of indigenous cosmologies."
@@ -38748,7 +38573,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "ewe-ga-mawu-lisa",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A supreme creator entity that is fundamentally a male-female dyad in perfect equilibrium."
@@ -38972,7 +38797,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fijian-ravuyalo",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The fearsome, monstrous escort and adversary encountered on the perilous physical journey through the underworld."
@@ -39147,7 +38972,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "ilmatar",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "Primal mother-figures of a water-and-earth genesis; Ilmatar floats on the deep to shape the land as Papatūānuku is the earth-mother — independent maternal cosmogonies, no contact."
@@ -39168,7 +38993,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "world-egg-kalevala",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both render the first division of the cosmos from an undifferentiated whole; the Finnish egg-halves and the Nahua dual-source are far-flung, unrelated answers to the same question — a distant rhyme, flagged."
@@ -39294,7 +39119,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fon-fa",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "4",
       "note": "Both reduce destiny to a casting-system over a fixed sign-set; offered cautiously, no contact — divination and board-cosmogram as two readings of fate."
@@ -39308,7 +39133,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fon-mawu-lisa",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "Both name a single dual creator of paired male/female aspect at the head of the cosmos — divinity as a self-complementary couple."
@@ -39322,7 +39147,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fon-mawu-lisa",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "3",
       "note": "Sky-and-earth / sun-and-moon parenthood: world-parents whose union and roles order the made cosmos."
@@ -39350,7 +39175,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fon-dan-ayida",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "The serpent as cosmic sustainer and sky-bridge rather than slain dragon — feathered/rainbow snake as continuity, not chaos."
@@ -39406,7 +39231,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fon-sakpata",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "The earth-mother who gives life and deals death in one body — terrible fertility shared across continents."
@@ -39777,7 +39602,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "fuegian-yoalox",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Fraternal culture heroes whose cooperative and competitive dynamic establishes the tools and limits of humanity."
@@ -40211,7 +40036,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "goddess-movement-great-goddess",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both figures embody the dual, terrifyingly fertile nature of the earth, holding the inseparable powers of both creation and destruction within the feminine."
@@ -40505,7 +40330,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "golden-dawn-tarot",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Systems originally bearing elements of chance that function as rigorous maps of cosmic destiny, calendrical cycles, and divine forces."
@@ -40575,7 +40400,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "guanche-tibicenas",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both intimately link the imagery of monstrous or shadowy dogs with the dangerous, chthonic forces of the underworld."
@@ -40666,7 +40491,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "harappan-pipal-deity",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Endemic, towering flora acting as the central axis of religious life and the required conduit for ritual and sacrificial offerings."
@@ -40701,7 +40526,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "harappan-tiger-woman",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Fearsome, shifting powers intrinsically tied to the apex feline, embodying the lethal, unpredictable wilderness at the edge of civilization."
@@ -40820,7 +40645,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "harranian-zuhal",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are dark, demanding, omnipotent forces requiring rigorous, often severe propitiation to avert their devastating cosmic whims."
@@ -40890,7 +40715,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "teharonhiawako",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "American divine twins who bring order against death and disorder — Sapling and Flint of the Northeast beside Hunahpu and Xbalanque of the Popol Vuh; the contending or cooperating brother-pair as a New-World cosmogonic engine, no shared line between them."
@@ -40904,7 +40729,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tawiskaron",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Both the obsidian-or-flint-bodied disruptive power set against a brighter creator-brother — Tawiskaron against Sapling, dark Tezcatlipoca against Quetzalcoatl; a loose stone-mirror/flint adversary rhyme across the Americas, flagged as a reach."
@@ -40918,7 +40743,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "orenda",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Orenda and teōtl both name a pervasive sacred energy rather than a personal high god — the impersonal holy power-stuff of the cosmos, arrived at on opposite ends of the continent without contact."
@@ -40932,7 +40757,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "great-turtle",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "4",
       "note": "Both make a world-body of the cosmos itself — the land borne on the Turtle's living back, the sky a parent-being overhead in Polynesia; a faint world-as-creature echo only, the figures otherwise unalike, flagged."
@@ -41044,7 +40869,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hawaiian-kane",
-      "b": "tane",
+      "b": "maori-tane",
       "type": "cognate",
       "tier": "1",
       "note": "Kāne IS Tāne by regular sound-law: Proto-Polynesian *Taane > Hawaiian Kāne under the systematic shift *t > Hawaiian k. The same inherited creator-and-light god, name and role retained, split across the Polynesian languages.",
@@ -41063,14 +40888,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hawaiian-ku",
-      "b": "tumatauenga",
+      "b": "maori-tumatauenga",
       "type": "cognate",
       "tier": "1",
       "note": "Kū continues Proto-Polynesian *Tuu (*t > Hawaiian k); Māori Tū(-matauenga) is the same inherited god of war and the upright — the Hawaiian war-god and the Māori war-god are reflexes of one Polynesian etymon."
     },
     {
       "a": "hawaiian-lono",
-      "b": "rongo",
+      "b": "maori-rongo",
       "type": "cognate",
       "tier": "1",
       "note": "Lono < Proto-Polynesian *Rongo by regular reflex — *r > l, *ŋ > n — the cognate of Māori Rongo, god of cultivated food and peace; the same agriculture-and-peace deity descended in two daughter languages."
@@ -41091,14 +40916,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hawaiian-kane",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "3",
       "note": "Both the light, sky-associated, life-giving pole of the Polynesian creative pair — Kāne of the day and fresh water beside the Māori Sky-Father Ranginui; near-kin theologies of the bright above, though Hawaiian thought makes Kāne a maker more than a parted world-parent."
     },
     {
       "a": "hawaiian-kanaloa",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "4",
       "note": "A faint structural rhyme only: both are the dark, lower, receiving pole of a Polynesian dyad — Kanaloa's deep sea against Papatūānuku the Earth-Mother below — but Kanaloa is sea not earth and male not mother; the depth-and-darkness pairing shared, the figures otherwise unalike, flagged."
@@ -41119,7 +40944,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hawaiian-pele",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "The great-mother who both brings forth and devours — Pele who builds the land in the same eruption that buries it, Coatlicue the earth-mother of birth and the maw; the creative-destructive feminine ground reached on either side of the Pacific."
@@ -41168,7 +40993,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hawaiian-mana-kapu",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Mana and Nahua teōtl both name a pervasive sacred energy filling the cosmos rather than a single high god — the impersonal holy power-stuff that manifests in differing concentrations; the same sacred-power intuition on opposite shores of the Pacific."
@@ -41336,7 +41161,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hermetic-qabalah-tree-of-life",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A central axis mundi that maps the flow of divine forces down into the material world."
@@ -41406,7 +41231,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hermetic-qabalah-tarot",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A recreational game format structurally transformed into a profound cosmological and divinatory map of the universe's mechanics."
@@ -41882,7 +41707,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kumarbi",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "A reach across families: both are deposed-yet-scheming powers driving the cosmos through cycles of overthrow — but no contact whatsoever; flagged speculative, a bare structural rhyme of the eternal usurper."
@@ -42015,7 +41840,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hmong-zaj-laug",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The sovereign of rain and subterranean waters whose domain demands deep respect and who can bestow sudden wealth or storms."
@@ -42113,14 +41938,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hoodoo-mojo-bag",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Neither is a mere symbol; both the Mojo and the Ixiptla are constructed physical vessels transubstantiated to literally house and radiate a living spiritual force."
     },
     {
       "a": "hoodoo-black-man",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are nocturnal, morally ambiguous lords of the crossroads who test wanderers in the dark, granting tremendous worldly power to those who show no fear."
@@ -42218,7 +42043,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hurrian-alalu",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Elder deities residing in the subterranean depths, representing a darker, obsolete cosmic era."
@@ -42288,7 +42113,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "iberian-dama",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are monumental, highly adorned earth mothers who hold the duality of life-giving fertility and the consuming grave."
@@ -42323,7 +42148,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "iberian-bicha",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are terrifying, animalistic guardians who oversee the dead and protect them from the spiritual hazards of the underworld."
@@ -42491,7 +42316,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "igbo-ala",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "4",
       "note": "Both are an earth-mother who is womb and tomb at once, bearing crops and devouring the dead — but Coatlicue is a fearsome serpent-skirted devourer where Ala is the gentle moral ground. A loose structural echo, flagged."
@@ -42757,7 +42582,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sedna",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "4",
       "note": "Both are mother-bodies from which sustenance is drawn, but Sedna is sea and resentment where Papatuanuku is earth and grief — a speculative pairing of provider-mothers wounded into their role."
@@ -42799,7 +42624,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sila",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Both name a single all-pervading sacred power/process behind the many spirits rather than a personal high god — order as substance, not sovereign."
@@ -43408,7 +43233,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "jain-rishabha",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "Both are the founder-king of the arts who finally departs the kingdom he taught — agriculture, writing and law given, then the throne abandoned for a higher liberation."
@@ -43688,7 +43513,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "judaism-shekhinah",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "4",
       "note": "Both are feminine divine figures associated with the earth and the underworld — but the Shekhinah is a presence of light and holiness, while Coatlicue is a fearsome earth-mother of life and death. A loose great-mother echo, flagged."
@@ -43702,7 +43527,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "judaism-eliyahu",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both are psychopomps who guide the dead — but Xolotl is a dog-headed god of the underworld, while Elijah is a human prophet who never died. A loose structural echo of the psychopomp joint, flagged."
@@ -44122,7 +43947,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kejawen-semar",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The grotesque, dog-like or clownish twin of the high god who descends to aid humanity and navigate the lower realms."
@@ -44535,7 +44360,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kikuyu-mugumo",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A colossal, sacred tree serving as the vertical conduit between the terrestrial and divine realms."
@@ -44654,21 +44479,21 @@ window.MIRROR_DATA = {
     },
     {
       "a": "dikenga",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "The fourfold quartered cosmos — four directional powers / four moments turning around a still centre — appears in both Kongo and Mesoamerica with no possible contact. A striking structural convergence."
     },
     {
       "a": "dikenga",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Both are quartered-cosmos diagrams: a cross-in-a-circle whose four arms map the directions and the turning of time. The cosmogram and the gameboard as the same fourfold glyph."
     },
     {
       "a": "dikenga",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "4",
       "note": "Both set a vertical axis joining the worlds at the centre of a quartered space — but the dikenga's axis is a line of light and water, not a tree. A loose axis-mundi echo, flagged."
@@ -44682,7 +44507,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kalunga",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "4",
       "note": "Both govern an underworld reached by crossing waters, but Kalunga is a threshold-line and inversion rather than an enthroned lord of the dead — a loose echo, flagged."
@@ -44696,7 +44521,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "bisimbi",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "4",
       "note": "A reach: both diffuse one sacred power into the many faces of the landscape — the one-through-many. Speculative, no contact."
@@ -44717,7 +44542,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "minkisi",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "4",
       "note": "Both make a fashioned object/body into a true vessel of sacred presence — the nkisi inhabited by a captured dead, the ixiptla by a god. A reach across unrelated rites, flagged."
@@ -44731,7 +44556,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mahungu",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both name a primal dual-gendered unity prior to division, but the parallel is interpretive and Mahungu is a first human rather than a creator-pair. Flagged as a reach."
@@ -44836,7 +44661,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "hwanung",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "A descending divine benefactor who brings grain, law and the civilised arts to a people — analogous culture-hero/civiliser across wholly separate worlds."
@@ -44976,7 +44801,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "wakan-tanka",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Two American conceptions of a single sacred power-stuff diffused through all things — wakȟáŋ and teōtl alike a holy energy pervading the cosmos rather than a personal high god; the panentheist intuition reached twice in the Americas."
@@ -44997,7 +44822,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "wakan-tanka",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both stand behind the working powers as the source-totality, but the parallel is loose — Ometeotl a self-existent dual deity, Wakáŋ Tȟáŋka a mystery and relatedness, not a maker; a faint one-through-many echo only."
@@ -45025,14 +44850,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "inktomi",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Both the restless, deceiving intelligence loose within the sacred order, but the weight differs — Tezcatlipoca a dread omnipotent power, Iktómi a comic primal namer; a loose trickster rhyme, flagged."
     },
     {
       "a": "ptesan-win",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "American culture-bringers who deliver the sacred arts and the rites of right living and then depart in transfigured form — the Feathered Serpent and the White Buffalo Calf Woman, revelation that walks in and walks out."
@@ -45060,7 +44885,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "wi",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "inverts",
       "tier": "3",
       "note": "Two New-World solar cults whose great rite feeds the sun with offered flesh — but inverted: Huitzilopochtli is fed the captive's heart, Wí is repaid the dancer's OWN flesh; sacrifice of the other against sacrifice of the self."
@@ -45102,7 +44927,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "unktehi",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Lords of the waters and the deep whose bones and storms govern flood and rain; the Lakota water-monster and the Mesoamerican rain-lord both rule the perilous gift of water from below and above."
@@ -45123,14 +44948,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sacred-hoop",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "The four-directions cosmogram made the ground-plan of a sacred figure — the Lakota hoop-and-cross and the Mesoamerican quartered board both lay the quartered cosmos flat as a usable diagram of the world."
     },
     {
       "a": "sacred-hoop",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "The world held by its four quarters, each a coloured power with its own quarter of the sky — the four winds of the Lakota hoop answering the four Tezcatlipocas of the four directions, the quartered cosmos in two Americas."
@@ -45221,7 +45046,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "lingayat-jangama",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The living human being who becomes the literal, moving embodiment and representative of the deity within the community."
@@ -45347,7 +45172,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "luba-kuba-nkongolo",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A chaotic, deeply terrestrial, and destructive sovereign whose era must end to pave the way for a more structured, orderly epoch."
@@ -45515,7 +45340,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "luciferianism-lucifer",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are symbolically linked to the morning star (Venus) and serve as cultural heroes who brought knowledge to mankind."
@@ -45606,7 +45431,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "lusitanian-cosus",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are gods who govern the chaotic, raw aggression and initiation rites of youthful warrior bands."
@@ -45683,7 +45508,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maasai-enkai",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A singular supreme deity composed of a dualistic, perfectly balanced nature of opposing forces."
@@ -45746,7 +45571,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maasai-oreteti",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A colossal, sheltering sacred tree acting as an axis mundi that physically connects the terrestrial realm with the sky above."
@@ -46138,14 +45963,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mapuche-ngenechen",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "Sovereignty figured as a fourfold unity: Ngenechen invoked as old-man/old-woman/young-man/young-woman rhymes with the single Tezcatlipoca quartered into four directional sons — the one ruler that can only be named as four, reached independently in two American cosmoses."
     },
     {
       "a": "mapuche-ngenechen",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "The supreme as an internally-dual/complementary principle — Ngenechen's male-female, elder-youthful unity beside the Nahua 'Lord-and-Lady of Duality'; the high god as built-in complementarity rather than a lone king, two American witnesses to the same shape."
@@ -46214,13 +46039,6 @@ window.MIRROR_DATA = {
       "note": "Intra-tradition: Often paired as the primordial creator couple of the uppermost heavens."
     },
     {
-      "a": "maya-popol-vuh-twins",
-      "b": "maya-lords-of-xibalba",
-      "type": "inverts",
-      "tier": "2",
-      "note": "Intra-tradition: The ultimate cosmic rivalry, pitching human wit and athletic skill against the arrogant inevitability of death."
-    },
-    {
       "a": "maya-kinich-ajaw",
       "b": "maya-chaac",
       "type": "pairs",
@@ -46236,42 +46054,21 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maya-kukulkan",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "bridge",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The direct Maya expression of the pan-Mesoamerican feathered serpent creator."
     },
     {
       "a": "maya-chaac",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "bridge",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The direct Maya equivalent of the Central Mexican storm and rain deity."
     },
     {
-      "a": "maya-lords-of-xibalba",
-      "b": "lords-of-xibalba",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The specific Maya iteration of the pan-Mesoamerican lords of the underworld."
-    },
-    {
-      "a": "maya-popol-vuh-twins",
-      "b": "hero-twins",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The specific Popol Vuh manifestation of the pan-Mesoamerican mythic twins."
-    },
-    {
-      "a": "maya-wacah-chan",
-      "b": "ceiba-world-tree",
-      "type": "bridge",
-      "tier": "2",
-      "note": "Cross-tradition GOLD SEAM: The Maya instantiation of the Mesoamerican central cosmic ceiba."
-    },
-    {
       "a": "maya-kuh",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "bridge",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Shared Mesoamerican conceptualizations of a flowing, animating sacred energy."
@@ -46334,7 +46131,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maya-ix-chel",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Fearsome mother goddesses who embody both vital terrestrial creation and terrifying, unyielding destruction."
@@ -46383,7 +46180,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "melanesian-mana",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A fluid, moving sacred energy that charges all things in the cosmos, operating more like electricity than moral grace."
@@ -46530,7 +46327,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "micronesian-fuuna",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The earth mother whose body becomes the literal terrestrial landscape humanity walks upon."
@@ -46558,7 +46355,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "micronesian-saudeleur",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Cruel, entrenched sovereigns who demand impossible, often lethal tribute from their subjugated populations."
@@ -46684,7 +46481,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "minoan-snake-goddess",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Chthonic earth-mothers whose fearsome, unmediated power is expressed through the literal handling and wearing of venomous serpents."
@@ -47223,7 +47020,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mongol-folk-etugen",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The primordial Earth Mother forever paired in a sacred dyad with the encompassing Sky Father."
@@ -47265,7 +47062,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mongol-folk-ovoo",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both serve as localized axes mundi connecting the underworld, earth, and heavens for ritual interaction."
@@ -47335,7 +47132,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "muisca-bochica",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The bearded, pacifistic culture hero who arrives to civilize humanity before mysteriously departing."
@@ -47377,7 +47174,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "muisca-chibchacum",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The tempestuous deity of the commoners who sends cataclysmic floods to punish human transgressions."
@@ -47398,7 +47195,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "muisca-sue",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The sovereign solar deity whose cosmic journey depends entirely on the continuous sacrifice of human blood."
@@ -47496,7 +47293,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "muscogee-birdman",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both involve celestial, monster-slaying champions who navigate the perilous underworld to secure martial order for the surface."
@@ -47643,7 +47440,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "mycenaean-wanax",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The human sovereign functioning strictly as a ritual vessel and conduit for divine resources, bound by exhaustive ceremonial duties."
@@ -47755,7 +47552,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nat-burmese-taungbyon-brothers",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A dyad of fiercely bonded, unruly brothers who navigate and ultimately disrupt the established order of their civilization."
@@ -47769,7 +47566,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nat-burmese-popa-medaw",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The terrifying, monstrous mother figure who births major cultural forces but is marked by profound tragic alienation."
@@ -48203,14 +48000,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-naayee-neizghani",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "The Diné Hero Twins and the Maya Hunahpu and Xbalanque are the great American twin-pair — both born of a marvel, both ridding the world of devouring powers — but a structural rhyme across unrelated families, NOT a shared line."
     },
     {
       "a": "navajo-tobadzistsini",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "Paired saviour-brothers who overcome monstrous adversaries together; the Diné split into striker and watcher where the Maya twins are two equal tricksters, two faces of one widespread twin-archetype."
@@ -48231,7 +48028,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-naayee-neizghani",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "Two warrior sons of a self-renewing mother who are born to destroy the enemies threatening her — the Diné Monster Slayer and the Mexica solar warrior, each violence sanctified as protection of the maternal order."
@@ -48266,7 +48063,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-maii-coyote",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "American disorder-bringers and shape-shifters whose meddling drives the world's mutability; Coyote's smaller mischief rhymes with the Smoking Mirror's cosmic disruption, a New-World trickster cast."
@@ -48322,7 +48119,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-four-sacred-mountains",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "The quartered, colour-coded cosmos — four Diné mountains at the cardinal points, four Tezcatlipocas holding the world's corners; the same four-directional cosmogram across separate American traditions."
@@ -48336,7 +48133,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-four-sacred-mountains",
-      "b": "patolli",
+      "b": "aztec-patolli",
       "type": "analogous",
       "tier": "3",
       "note": "Both lay the cosmos out as a quartered, four-directional figure — the Diné homeland's four colour-coded peaks and the cross-shaped Patolli board — the same diagram of the world in landscape and in play."
@@ -48378,14 +48175,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "navajo-first-man-first-woman",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "inverts",
       "tier": "3",
       "note": "Where the Sky-and-Earth world-parents must be forced apart to make the lived world, the Diné First Man and First Woman are a paired human origin reached by climbing upward through stacked worlds — emergence inverting separation as the shape of beginning."
     },
     {
       "a": "navajo-tobadzistsini",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "4",
       "note": "The quieter, water-and-death-shadowed half of a divine pair — Born-for-Water as watcher beside the slayer, Xolotl the underworld twin of Quetzalcoatl; a loose parallel of the second, darker twin, flagged as a reach."
@@ -48798,7 +48595,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "new-age-channeling",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both require a human vessel to temporarily step aside and become the literal, speaking embodiment of an otherworldly entity."
@@ -49015,7 +48812,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nubian-apedemak",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Indigenous patron deities of warfare who demand captive offerings and define the militant identity of an ascendant empire."
@@ -49078,7 +48875,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nubian-jebel-barkal",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The towering natural spire that acts as the unbroken conduit connecting the earth to the divine realm."
@@ -49246,14 +49043,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "olmec-were-jaguar",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The Olmec weeping rain-baby is the direct iconographic and conceptual ancestor of the Aztec and Teotihuacan rain gods."
     },
     {
       "a": "olmec-feathered-serpent",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: A documented iconographic lineage stretching from La Venta directly to the Aztec creator deity."
@@ -49372,7 +49169,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "order-nine-angles-culling",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Tezcatlipoca requires the blood of the captive to sustain the cosmos; O9A demands the blood of the 'dross' to feed acausal entities."
@@ -49386,7 +49183,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "order-nine-angles-dark-gods",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Predatory, subterranean or acausal lords who actively scheme to trick, test, and consume human life."
@@ -49400,7 +49197,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "order-nine-angles-baphomet",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A terrifying, monstrous mother figure who embodies the absolute, devouring darkness of the cosmos."
@@ -49673,7 +49470,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pnw-raven",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Both are dark, shape-shifting trickster-makers entangled with the origin of the lit world; an interpretive reach, the resemblance loose."
@@ -49722,7 +49519,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pnw-konankada",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "4",
       "note": "Both personify a vast elemental domain as the source of sustenance, though one is the sea-chief and one the earth-mother; a loose mother-of-waters/great-source rhyme."
@@ -49771,7 +49568,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pnw-property-soul",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "4",
       "note": "An immanent ordering force enacted through ritual rather than a personal deity; loose structural kinship, flagged."
@@ -49974,7 +49771,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pantheism-deus-sive-natura",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both describe a single, dynamic energy that is identical to the cosmos itself, constantly generating reality."
@@ -50107,7 +49904,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "papuan-bisj",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A great tree acting as the blood-drenched conduit bridging the living and the dead."
@@ -50428,133 +50225,133 @@ window.MIRROR_DATA = {
       "note": "Cross-tradition GOLD SEAM: Beautiful, territorial female nature spirits who seduce men and ruthlessly punish transgressors against their localized moral codes."
     },
     {
-      "a": "tane",
-      "b": "ranginui",
+      "a": "maori-tane",
+      "b": "maori-ranginui",
       "type": "pairs",
       "tier": "1",
       "note": "Son against father: it is Tāne who lies on his back and thrusts Ranginui up off the Earth-Mother, propping the sky on poles — the separation that makes the lit world is the work of this child's straining legs."
     },
     {
-      "a": "tane",
-      "b": "papatuanuku",
+      "a": "maori-tane",
+      "b": "maori-papatuanuku",
       "type": "pairs",
       "tier": "1",
       "note": "Tāne pries Papatūānuku free of her sky-husband and then moulds the first woman, Hine-ahu-one, from the red earth of Kurawaka on her body — he frees the Earth-Mother and shapes humanity from her flesh."
     },
     {
-      "a": "tawhirimatea",
-      "b": "ranginui",
+      "a": "maori-tawhirimatea",
+      "b": "maori-ranginui",
       "type": "pairs",
       "tier": "1",
       "note": "The one loyal son: Tāwhirimātea alone opposed the parting and followed his father up into the sky, from where he looses the storms in unending protest at the separation."
     },
     {
-      "a": "tawhirimatea",
-      "b": "tane",
+      "a": "maori-tawhirimatea",
+      "b": "maori-tane",
       "type": "inverts",
       "tier": "1",
       "note": "Brother against brother and the hinge of creation: Tāne forces the parents apart, Tāwhirimātea rages against it and snaps Tāne's forests in revenge — the maker of the lit world and the storm that mourns it."
     },
     {
-      "a": "tawhirimatea",
+      "a": "maori-tawhirimatea",
       "b": "tangaroa",
       "type": "pairs",
       "tier": "1",
       "note": "The storm drives Tangaroa into the deep; in the flight his sea-children and land-children split, setting ocean against shore — the Māori etiology of why the lizard fled inland and the fish stayed in the sea."
     },
     {
-      "a": "tawhirimatea",
-      "b": "tumatauenga",
+      "a": "maori-tawhirimatea",
+      "b": "maori-tumatauenga",
       "type": "inverts",
       "tier": "1",
       "note": "Tū alone stands unbroken before the storm-brother's full assault; the gale cannot drive him off, and his endurance against Tāwhirimātea is why war-faced Tū becomes the ancestor of unyielding humankind."
     },
     {
-      "a": "tumatauenga",
-      "b": "tane",
+      "a": "maori-tumatauenga",
+      "b": "maori-tane",
       "type": "inverts",
       "tier": "2",
       "note": "Revenge on the brothers who fled: Tū hunts and eats Tāne's birds, Tangaroa's fish, and Rongo's and Haumia's plants, founding by that devouring humankind's right to take them all as food."
     },
     {
-      "a": "rongo",
-      "b": "haumia",
+      "a": "maori-rongo",
+      "b": "maori-haumia",
       "type": "pairs",
       "tier": "1",
       "note": "The cultivated and the wild harvest as twin brothers who both hide in Papatūānuku's body from the storm — Rongo the planted kūmara, Haumia the gathered fernroot, drawn together from the Earth-Mother's flesh."
     },
     {
-      "a": "rongo",
-      "b": "tumatauenga",
+      "a": "maori-rongo",
+      "b": "maori-tumatauenga",
       "type": "inverts",
       "tier": "2",
       "note": "Peace against war: Rongo-mā-tāne, atua of the planted field and of peace, stands as the counter-pole to his brother Tū the war-faced — the garden and the battlefield as opposed brothers."
     },
     {
-      "a": "tane",
-      "b": "hine-ahu-one",
+      "a": "maori-tane",
+      "b": "maori-hine-ahu-one",
       "type": "pairs",
       "tier": "1",
       "note": "Maker and made: Tāne forms Hine-ahu-one from the earth of Kurawaka and breathes her alive, then takes her to wife — the first woman shaped by the same god who pried heaven from earth."
     },
     {
-      "a": "hine-ahu-one",
-      "b": "hine-nui-te-po",
+      "a": "maori-hine-ahu-one",
+      "b": "maori-hine-nui-te-po",
       "type": "pairs",
       "tier": "1",
       "note": "Mother and daughter, life into death: Hine-ahu-one's daughter Hine-tītama flees in shame on learning Tāne is both husband and father, descends to the Pō, and becomes Hine-nui-te-pō, gatherer of the dead."
     },
     {
-      "a": "hine-nui-te-po",
-      "b": "whiro",
+      "a": "maori-hine-nui-te-po",
+      "b": "maori-whiro",
       "type": "pairs",
       "tier": "2",
       "note": "The two powers of the underworld: Hine-nui-te-pō receives the dead in the Pō, while Whiro sends sickness, decay and the gnawing insects up from below — the gathering-dark and the corrupting-dark."
     },
     {
-      "a": "whiro",
-      "b": "tane",
+      "a": "maori-whiro",
+      "b": "maori-tane",
       "type": "inverts",
       "tier": "1",
       "note": "Light against decay: Tāne and Whiro contend for the ascent to heaven to fetch the three baskets of knowledge; Tāne wins and Whiro, defeated, descends to send disease and evil up against the world of light forever."
     },
     {
-      "a": "te-kore-te-po",
-      "b": "ranginui",
+      "a": "maori-te-kore-te-po",
+      "b": "maori-ranginui",
       "type": "pairs",
       "tier": "1",
       "note": "The cosmogony delivers the world-parents: out of Te Kore and the long nights of Te Pō, Rangi and Papa at last appear, and their children's parting opens Te Ao Mārama, the World of Light."
     },
     {
-      "a": "hine-nui-te-po",
+      "a": "maori-hine-nui-te-po",
       "b": "maui",
       "type": "inverts",
       "tier": "1",
       "note": "Why death stands: Māui crawls into the sleeping Hine-nui-te-pō to win immortality for humankind, but she wakes and crushes him in the obsidian teeth between her thighs — the trickster's one defeat, and the reason death has never been undone."
     },
     {
-      "a": "tane",
+      "a": "maori-tane",
       "b": "gaia",
       "type": "analogous",
       "tier": "3",
       "note": "Both turn on the violent parting of a Sky-and-Earth couple by their children — but the Māori myth puts the deed in a SON'S thrusting legs (Tāne) where the Greek hands it to Kronos's sickle; the world-parents joint reached by two unrelated routes."
     },
     {
-      "a": "te-kore-te-po",
+      "a": "maori-te-kore-te-po",
       "b": "qian-kun",
       "type": "analogous",
       "tier": "3",
       "note": "Cosmos as an irreducible Heaven-and-Earth polarity emerging from a prior undifferentiation; Qián/Kūn name the primal pair as Te Kore and Te Pō ripen toward Rangi and Papa — a structural rhyme of differentiation, no contact."
     },
     {
-      "a": "hine-nui-te-po",
+      "a": "maori-hine-nui-te-po",
       "b": "ereshkigal",
       "type": "analogous",
       "tier": "3",
       "note": "Two queens of the night-world who receive all the dead into the dark; Hine-nui-te-pō diverges as the wronged first-daughter who went down by her own shame, the gentle gatherer rather than the dread Mesopotamian sovereign of the great below."
     },
     {
-      "a": "tumatauenga",
+      "a": "maori-tumatauenga",
       "b": "tyr",
       "type": "analogous",
       "tier": "3",
@@ -50653,21 +50450,21 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pueblo-war-twins",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "The Pueblo war-twins and the Maya Hunahpu and Xbalanque are paired marvel-born brothers who tame or slay the monstrous and patron games — a structural rhyme of the American divine-twins across unrelated families, not a shared line."
     },
     {
       "a": "pueblo-kachina",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "The masked Katsina dancer who BECOMES the spirit and the Mexica ixiptla, the human or image into whom a god is made present, are two American forms of the vessel-of-spirit — the deity bodied forth in a consecrated wearer, independently reached."
     },
     {
       "a": "pueblo-kachina",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "4",
       "note": "A loose parallel: the sacred animating presence the masked dancer takes on rhymes with teotl, the Nahua charged sacred force that fills its vessels — flagged as a reach toward the idea of an immanent power donned, not a documented link."
@@ -50681,14 +50478,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pueblo-kachina",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "The Katsinam as cloud-and-rain ancestors who must be danced into presence to bring the water, and Tláloc the Mexica rain-lord of the storied mountaintops, are two Southwestern-Mesoamerican faces of the rain made personal and petitioned by a maize-people."
     },
     {
       "a": "pueblo-masauu",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Skull-faced American lords of death and the earth's lower realm — Maasaw who owns the Fourth World's surface and keeps the dead, Mictlantēcuhtli who rules Mictlan; the death-sovereign of the New World, though Maasaw uniquely also greets and keeps the living."
@@ -50723,7 +50520,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pueblo-awonawilona",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "Bisexual self-existent first beings who contain both sexes and generate the cosmos from their own dual wholeness — the Zuni All-Container 'He-She' and the Nahua Ōmeteōtl 'Two-God'; the androgyne source as one-through-many, separately conceived in two American highlands."
@@ -50744,7 +50541,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "pueblo-four-worlds",
-      "b": "four-tezcatlipocas",
+      "b": "aztec-four-tezcatlipocas",
       "type": "analogous",
       "tier": "3",
       "note": "Successive worlds made and destroyed: the Hopi four worlds ruined by corruption and the Mexica suns ended in cataclysm under the four Tezcatlipocas — the American world-ages motif, ascent-by-floors here, recurring-suns there."
@@ -50835,7 +50632,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "punic-tophet",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Divine recipients of institutionalized child sacrifice, where the state enforces a brutal, mathematical exchange of elite blood for rain, fertility, and cosmic stability."
@@ -51045,7 +50842,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "quimbanda-exu-caveira",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A skeletal lord of the underworld who consumes the dead and rules over the stark reality of the grave."
@@ -51150,14 +50947,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "rapanui-makemake",
-      "b": "tane",
+      "b": "maori-tane",
       "type": "syncretic",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The creation of humanity from earth by Makemake directly adopts the pan-Polynesian myth of Tane."
     },
     {
       "a": "rapanui-tangata-manu",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both traditions select a human to become the terrifying, living embodiment of a deity for a strictly delimited period of time."
@@ -51988,7 +51785,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "san-gao-na",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "Loose: the lesser, ambivalent god bound up with the dead and with sorcery distantly rhymes with the smoking-mirror god of fate and affliction, but the San figure is far less personified and far less malign. Flagged."
@@ -52009,7 +51806,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "san-rain-bull",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Both are the rain made a being to be ritually fed — but Tlaloc is an enthroned rain-god served with sacrifice, while !Khwa is a rain-animal hunted and slaughtered by a shaman. The same dependence on rain, divinised at opposite poles: god versus quarry."
@@ -52191,7 +51988,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sarnaism-marang-buru",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A commanding mountain deity who directly controls the rains, storms, and the agricultural lifelines of the people."
@@ -52219,7 +52016,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sarnaism-sarna-sthal",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Specific living trees treated as the untouchable, sacred center of the world that connect the earthly and divine planes."
@@ -52317,7 +52114,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "satanic-temple-satan",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are disruptive adversaries who use their chaotic influence to challenge complacency and test the moral fiber of humanity."
@@ -52485,7 +52282,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "satanism-laveyan-satan",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both are dark, adversarial forces intricately tied to earthly matters, strife, and the exposing of human hypocrisy."
@@ -52695,14 +52492,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "scythian-api",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Fearsome, chthonic earth mothers visually and theologically bound to generative, serpentine imagery."
     },
     {
       "a": "scythian-api",
-      "b": "papatuanuku",
+      "b": "maori-papatuanuku",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The primordial earth-mother forcefully coupled with the sky-father in the structural act of cosmic generation."
@@ -52961,7 +52758,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "serer-saas",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A colossal sacred tree functioning as a localized axis mundi and the primary site for ancestral communication."
@@ -53024,7 +52821,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "shaiva-lingam",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A vertical axis mundi structurally connecting the underworld, the earthly realm, and the heavens."
@@ -53052,7 +52849,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "shaiva-bhairava",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The terrifying, canine-associated deity of the margins and the grotesque, pointing to transformative underworld powers that defy the neat order of the sky gods."
@@ -53094,7 +52891,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "shaiva-bhairava",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The dark, unpredictable, norm-shattering lord associated with the night, skulls, and the terrifying destruction of the old order."
@@ -53164,7 +52961,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "shakta-kali",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The terrifying mother adorned with severed human body parts, embodying the brutal, cyclical necessity of death to sustain cosmic life."
@@ -53563,7 +53360,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "sol-invictus-deus",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Solar deities intimately tied to warfare, state survival, and unconquerable military might, requiring specific rites to sustain their victorious power."
@@ -53682,7 +53479,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "spiritualism-summerland",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "inverts",
       "tier": "3",
       "note": "GOLD SEAM: The Summerland radically rejects the concept of a dark, static underworld ruled by a fearsome lord of the dead, replacing it with a bright realm of continuous life."
@@ -53983,7 +53780,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "subud-power-of-god",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Conceptualizing the divine not as a static entity, but as a dynamic, vibrating energy that composes and moves all of existence."
@@ -54284,28 +54081,28 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-zemi",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "The spirit-vessel arrived at twice in the New World: the zemí is the carved idol the spirit inhabits and that is fed and answers, as the ixiptla is the body the teōtl 'puts on' — divinity localised in a material vessel, separately conceived."
     },
     {
       "a": "taino-zemi",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "One sacred power expressed through many vessels — the zemí as the spirit-in-its-idol rhymes with teōtl, the single divine force whose faces are the gods and whose vessels are the ixiptla; the one-through-many joint reached on both sides of the Caribbean."
     },
     {
       "a": "taino-maketaori",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "Lords of the land of the dead in the same Mesoamerican-Caribbean world — Maquetaurie Guayaba over the night-roaming, guava-eating opía and Mictlāntēcuhtli over the four-year journey of Mictlan; underworld-sovereigns of unjudged, non-fiery realms."
     },
     {
       "a": "taino-maketaori",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "analogous",
       "tier": "3",
       "note": "Death-rulers of a hidden New-World underworld; the Taíno Coaybay of the navel-less dead and the Maya Xibalba of One Death and Seven Death, kindred in setting though Coaybay neither judges nor plays the killing-game."
@@ -54319,7 +54116,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-opiyel",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "The dog as guide of the dead, reached twice in the New World: Opiyelguabirán the dog-zemi steering the opía to Coaybay and dog-headed Xōlōtl leading the sun and the dead through the Mexica underworld; the canine psychopomp, separately arrived at."
@@ -54347,7 +54144,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-guabancex",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "analogous",
       "tier": "3",
       "note": "Antillean and Mexica masters of the storm-waters, but inverted in valence: where Tlāloc's rain is the giver of life and a paradise, Guabancex's whirling tempest is catastrophe — the same weather-power split toward fertility there and ruin here."
@@ -54361,7 +54158,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-guabancex",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "4",
       "note": "The principled bringer of disorder within the cosmos — Guabancex's destroying hurricane set against the food-giving order, loosely echoing the Smoking Mirror's cosmic disruption; flagged as a reach across separate traditions."
@@ -54396,14 +54193,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "taino-boinayel-marohu",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "4",
       "note": "American divine twins, but the Antillean pair is split into wet and dry weather rather than the Maya twins' shared adventure against death; a loose rhyme of the twin-archetype on opposite functions, flagged as a reach."
     },
     {
       "a": "taino-deminan",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "4",
       "note": "Culture-heroes whose own affliction makes the world's gifts — scabby Deminán from whose sore back the first ancestress is cut, the Feathered Serpent who burns himself to rise as the morning star; a faint parallel of the suffering culture-bringer, flagged as a reach."
@@ -54592,7 +54389,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "temple-of-set-set",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are nocturnal, adversarial figures associated with the manipulation of fate, subjective reality, and testing humanity's individual volition."
@@ -54738,15 +54535,8 @@ window.MIRROR_DATA = {
       "note": "Both sovereigns of the realm of the dead; Erlik diverges by also being the cosmic spoiler — judge and adversary in one, where Hades is morally neutral."
     },
     {
-      "a": "erlik",
-      "b": "mictlantecuhtli",
-      "type": "analogous",
-      "tier": "3",
-      "note": "Lords of the lowest layered underworld (nine layers in both reckonings), receivers of all the dead — a striking structural rhyme across utterly unconnected worlds."
-    },
-    {
       "a": "ulgen",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "3",
       "note": "A benign creator-maker met at the topmost sky-layer, paired against a destructive double — analogous high-creator function across families."
@@ -54816,7 +54606,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "kut",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "A single animating sacred force underlying many beings (one-through-many) — analogous impersonal-power concepts across wholly separate worlds."
@@ -54907,7 +54697,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tenrikyo-jiba",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The central vertical pillar linking the cosmic realms, marking the energetic heart and origin of the world."
@@ -55012,7 +54802,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "theistic-satanism-satan",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: Both are nocturnal, adversarial figures who employ temptation, disruption, and forbidden magic to test and strengthen humanity."
@@ -55194,7 +54984,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "thelema-ra-hoor-khuit",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both are fiercely martial, solar deities demanding energetic participation and representing an unapologetic ethos of strength."
@@ -55278,7 +55068,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "theosophy-lucifer",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both are symbolized by the Morning Star (Venus) and function as culture heroes who bring awakening and civilization to mankind."
@@ -55425,7 +55215,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "thracian-pleistoros",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Dark, uncompromising divinities intimately linked to the violent martial reality of the state, demanding human war captives."
@@ -55922,7 +55712,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "tupi-mboitata",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "4",
       "note": "A reach across the Americas: both are luminous serpents bound to a shining sky-element rather than to slaying — but Quetzalcoatl is a great creator-civiliser and Mboi-tata a guarding fire-beast; flagged as a loose serpent-of-light rhyme."
@@ -56095,7 +55885,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "ufo-ti-and-do",
-      "b": "hero-twins",
+      "b": "maya-popol-vuh-twins",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both feature a profound dyad who descend into a mortal, perilous realm to conquer death and establish a pathway for human ascension."
@@ -56186,7 +55976,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "umbanda-exu",
-      "b": "xolotl",
+      "b": "aztec-xolotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: A shadowed, often feared entity associated with the margins, tasked with guiding human souls through the dangerous spiritual underworld."
@@ -56480,7 +56270,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "urartian-haldi",
-      "b": "huitzilopochtli",
+      "b": "aztec-huitzilopochtli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Supreme state patron gods of war whose worship demands immense, formalized tribute to sustain imperial expansion."
@@ -56564,7 +56354,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "urartian-sacred-tree",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The central world-tree serving as the conduit for divine blessing, structurally uniting the heavens and the earth."
@@ -56655,7 +56445,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "vaishnava-krishna",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The eternally youthful, mesmerizing, and dangerously unpredictable supreme lord who playfully manipulates human destinies like a cosmic game."
@@ -56774,14 +56564,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "vodou-haitian-baron-samedi",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Skeletal lords of the dead who fuse macabre terror with a profound, leveling cosmic inevitability."
     },
     {
       "a": "vodou-haitian-poto-mitan",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both act as the vital vertical axis structurally connecting the underworld, earth, and heavens."
@@ -56879,7 +56669,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "waaqeffanna-ayyaana",
-      "b": "teotl",
+      "b": "aztec-teotl",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The divine, animating principle that flows from the supreme source, differentiating itself into all temporal and natural phenomena."
@@ -56921,7 +56711,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "waaqeffanna-odaa",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The massive, sacred central tree acting as the physical and spiritual anchor for cosmic order and community assembly."
@@ -57026,7 +56816,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "wicca-drawing-down-the-moon",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: Both involve a human actively stepping aside to become the physical, speaking vessel of a deity, rather than just a passive conduit."
@@ -57530,7 +57320,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "yazidism-lalish",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "analogous",
       "tier": "3",
       "note": "GOLD SEAM: The central vertical axis that stabilizes the cosmos and connects the heavenly, earthly, and subterranean realms."
@@ -57712,7 +57502,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zapotec-mixtec-cocijo-dzahui",
-      "b": "tlaloc",
+      "b": "aztec-tlaloc",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The shared Mesoamerican storm and rain deity complex, manifesting with identical goggled eyes and lightning-serpent iconography."
@@ -57726,7 +57516,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zapotec-mixtec-apoala-tree",
-      "b": "ceiba-world-tree",
+      "b": "maya-wacah-chan",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The pan-Mesoamerican cosmic tree motif, here highly localized as the specific birth-site of the Mixtec royalty."
@@ -57740,14 +57530,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zapotec-mixtec-lord-8-deer",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "syncretic",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: Lord 8 Deer's political legitimation required a literal journey to receive a Toltec nose-piercing, binding Mixtec royalty to the cult of Quetzalcoatl."
     },
     {
       "a": "zapotec-mixtec-lady-9-grass",
-      "b": "mictlantecuhtli",
+      "b": "aztec-mictlantecuhtli",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The skeletal sovereign of the Mesoamerican underworld, though Lady 9 Grass acts more actively as a political oracle."
@@ -57761,7 +57551,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zapotec-mixtec-one-deer",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The dualistic, male-female primordial creator principle of Mesoamerica, existing before all other gods."
@@ -57796,14 +57586,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zapotec-mixtec-sacred-bundle",
-      "b": "ixiptla",
+      "b": "aztec-ixiptla",
       "type": "analogous",
       "tier": "3",
       "note": "Cross-tradition GOLD SEAM: The bundle serves as a literal, physical manifestation or 'impersonator' of the divine force on earth, acting as its proxy."
     },
     {
       "a": "zapotec-mixtec-coqui-bezelao",
-      "b": "lords-of-xibalba",
+      "b": "maya-lords-of-xibalba",
       "type": "cognate",
       "tier": "2",
       "note": "Cross-tradition GOLD SEAM: The elite lords of the subterranean death realm, demanding blood sacrifice and hosting the dead kings."
@@ -57922,7 +57712,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "angra-mainyu",
-      "b": "tezcatlipoca",
+      "b": "aztec-tezcatlipoca",
       "type": "analogous",
       "tier": "3",
       "note": "Both are principled adversaries woven into the cosmos, but Tezcatlipoca is ambivalent fate-and-smoke while Ahriman is unambiguous evil — the contrast sharpens what ethical dualism means."
@@ -58083,14 +57873,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "umvelinqangi",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "analogous",
       "tier": "3",
       "note": "Sky-being 'who came first' over the lived world; both name the heavens as the prior, originating term of creation."
     },
     {
       "a": "zulu-uthlanga",
-      "b": "ometeotl",
+      "b": "aztec-ometeotl",
       "type": "analogous",
       "tier": "4",
       "note": "Both figure origin as an undifferentiated source from which the world is brought forth — but uHlanga is a vegetal reed-matrix, not a dual divinity. A loose world-egg echo, flagged."
@@ -58118,7 +57908,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "nomkhubulwane",
-      "b": "coatlicue",
+      "b": "aztec-coatlicue",
       "type": "analogous",
       "tier": "4",
       "note": "Earth/fertility mother tied to the agricultural cycle, but where Coatlicue devours as well as bears, Nomkhubulwane is wholly the green giver — a partial echo, flagged."
@@ -58167,7 +57957,7 @@ window.MIRROR_DATA = {
     },
     {
       "a": "zulu-inkanyamba",
-      "b": "quetzalcoatl",
+      "b": "aztec-quetzalcoatl",
       "type": "analogous",
       "tier": "3",
       "note": "The serpent fused with sky and weather; both are world-serpents of cloud and storm rather than mere chaos-dragons, the snake as continuity rather than enemy."
@@ -59223,15 +59013,8 @@ window.MIRROR_DATA = {
       "note": "The harp is her instrument and her voice — the Sister of God made audible in the chapel, night after night."
     },
     {
-      "a": "bwiti-iboga",
-      "b": "entheogenic-churches-iboga",
-      "type": "cognate",
-      "tier": "1",
-      "note": "GOLD SEAM: the same sacrament — the aggregate entheogenic shard's Gabon panel, now promoted into Bwiti's own shard; one cult described from two directions."
-    },
-    {
       "a": "bwiti-ngombi",
-      "b": "entheogenic-churches-nima",
+      "b": "bwiti-nima",
       "type": "cognate",
       "tier": "1",
       "note": "The Nima of the aggregate shard plays this very harp — initiator and instrument belong to the same Bwiti liturgy, split across two shards and here re-seamed."
@@ -60687,14 +60470,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maori-whakapapa",
-      "b": "te-kore-te-po",
+      "b": "maori-te-kore-te-po",
       "type": "pairs",
       "tier": "1",
       "note": "The recited cosmogony IS a whakapapa: Te Kore begets the numbered nights begets Rangi and Papa — the organizing concept of this shard and the Māori-recorded genealogy-of-nothingness are one instrument."
     },
     {
       "a": "maori-whakapapa",
-      "b": "ranginui",
+      "b": "maori-ranginui",
       "type": "pairs",
       "tier": "1",
       "note": "The atua are genealogy: iwi lines are recited back through Tāne, Tangaroa, or Tū to Rangi and Papa themselves — the world-parents stand at the head of human whakapapa, gods and descendants on one unbroken lattice."
@@ -60736,14 +60519,14 @@ window.MIRROR_DATA = {
     },
     {
       "a": "maori-io",
-      "b": "tane",
+      "b": "maori-tane",
       "type": "pairs",
       "tier": "2",
       "note": "In the whare-wānanga teaching it is from Io's highest heaven that Tāne fetches the three baskets of knowledge — but the Io frame around the basket-quest is exactly the stratum whose pre-contact antiquity scholarship contests; the seam is real in the recorded lore, tier-flagged for the debate."
     },
     {
       "a": "maori-marae-tangihanga",
-      "b": "hine-nui-te-po",
+      "b": "maori-hine-nui-te-po",
       "type": "pairs",
       "tier": "1",
       "note": "The tangihanga delivers the dead to her: the farewelled wairua goes down into the Pō where Hine-nui-te-pō, the wronged first-daughter, gathers her descendants — the living rite and the death-myth are two ends of one road."
