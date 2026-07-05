@@ -29,18 +29,21 @@
     group.name = "doors";
     H.scene.add(group);
 
-    /* DoubleSide throughout: the right leaf is the left mirrored (scale −1),
-       and doubled faces on a slab cost nothing. Part-metal, a breath of
-       emissive: the portal recess faces away from the sun, and a full-metal
-       leaf in shade reflects only darkness. */
+    /* GOLD (Joe's call, 2026-07-05) — the leaves join the kintsugi register:
+       the hall's own gold, part-metal with a breath of emissive so the pair
+       reads in the portal's shade. DoubleSide throughout: the right leaf is
+       the left mirrored (scale −1), and doubled faces on a slab cost nothing. */
     const bronze = new THREE.MeshStandardMaterial({
-      color: 0x7a5f2c, metalness: 0.85, roughness: 0.58,
-      emissive: 0x1a1206, emissiveIntensity: 0.55, side: THREE.DoubleSide,
+      color: 0xb8923e, metalness: 0.9, roughness: 0.42,
+      emissive: 0x2a1f08, emissiveIntensity: 0.6, side: THREE.DoubleSide,
     });
-    const verdigris = new THREE.MeshStandardMaterial({ color: 0x4a6b5d, metalness: 0.75, roughness: 0.68, side: THREE.DoubleSide });
+    const verdigris = new THREE.MeshStandardMaterial({
+      color: HALL.COL.goldDeep, metalness: 0.85, roughness: 0.5,
+      emissive: 0x1a1206, emissiveIntensity: 0.4, side: THREE.DoubleSide,
+    });
     const goldEdge = new THREE.MeshStandardMaterial({
-      color: HALL.COL.gold, metalness: 1, roughness: 0.32,
-      emissive: HALL.COL.goldDeep, emissiveIntensity: 0.18, side: THREE.DoubleSide,
+      color: HALL.COL.goldBright, metalness: 1, roughness: 0.3,
+      emissive: HALL.COL.goldDeep, emissiveIntensity: 0.3, side: THREE.DoubleSide,
     });
 
     /* ---------- the procedural leaf: rings · meridian · stars ---------- */

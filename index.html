@@ -114,12 +114,16 @@
   <p class="sub">a kintsugi of the world&rsquo;s pantheons</p>
   <div id="gate-enter">laying the mirror&hellip;</div>
   <p class="controls-note">
-    <b>drag</b> to turn &middot; <b>scroll</b> to draw close &middot; <b>click</b> what gleams<br>
-    <b>1 · 2 · 3</b> — the room, the instrument, the scroll
+    <b>drag</b> to turn &middot; <b>scroll</b> to draw close &middot; <b>click</b> what gleams &middot; <b>/</b> to search<br>
+    <b>1 · 2 · 3</b> — the room, the instrument, the scroll &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &amp; sink
   </p>
   <p class="controls-note touch">
     <b>drag</b> to turn &middot; <b>pinch</b> to draw close &middot; <b>tap</b> what gleams
   </p>
+  <div id="gate-legend">
+    <p class="mandate">every seam bears its <b>evidence tier</b> — the gold is earned, dark cracks are honest absences</p>
+    <div id="legend-tiers"></div>
+  </div>
 </div>
 
 <!-- persistent chrome -->
@@ -135,24 +139,18 @@
     <button data-station="scroll">the scroll</button>
   </div>
   <button id="btn-mend" title="replay the mending of the mirror">⟲ mend again</button>
+  <div id="search">
+    <input id="search-input" type="text" placeholder="seek a name… ( / )" autocomplete="off" spellcheck="false">
+    <div id="search-results"></div>
+  </div>
   <div id="year-readout"></div>
 </nav>
-
-<details id="legend" open>
-  <summary>the gold is earned</summary>
-  <p class="mandate">Every seam bears its <b>evidence tier</b> — the mirror&rsquo;s immune system.
-  The rings of the fracture are <b>ages</b>: the mirror shattered outward from the deep past.
-  Dark cracks are honest absences.</p>
-  <div id="legend-tiers"></div>
-</details>
 
 <div id="hint"></div>
 <div id="hover-label"></div>
 <div id="ceremony-line"></div>
 
 <aside id="reliquary"></aside>
-
-<div id="foot"><a href="flat.html" title="the 2D map">the flat mirror</a></div>
 
 <!-- vendored: works from file://, offline -->
 <script src="vendor/three.min.js"></script>

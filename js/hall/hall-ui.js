@@ -30,14 +30,16 @@
       return s;
     }
 
-    /* ---------- legend ---------- */
+    /* ---------- legend (lives on the gate now — Joe: keep the hall clear) ---------- */
     (function () {
       const wrap = $("legend-tiers");
+      if (!wrap) return;
       ["1", "2", "3", "4", "forgery"].forEach(k => {
         const t = D.tiers[k];
         if (!t) return;
         const el = document.createElement("div");
         el.className = "tier-row";
+        el.title = t.desc;                 // the chip carries its meaning on hover
         el.innerHTML = `<span class="tier-chip" style="--c:${t.gold}">${t.name}</span><span class="tier-desc">${esc(t.desc)}</span>`;
         wrap.appendChild(el);
       });
@@ -283,6 +285,71 @@
       clearTimeout(ceremonyTimer);
       ceremonyTimer = setTimeout(() => ceremonyEl.classList.remove("on"), hold || 3800);
     }
+
+    /* ---------- the seeker: every name in the mirror, one field ----------
+       Traditions, archetypes, figures — 4,400+ names from the lite core, no
+       chunk needed. A hit rides the existing jump flights: the camera goes,
+       the panel opens, the selection lights. "/" summons it. */
+    (function () {
+      const input = $("search-input"), box = $("search-results");
+      if (!input) return;
+      const idx = [];
+      Object.keys(D.traditions).forEach(k =>
+        idx.push({ n: D.traditions[k].name, l: D.traditions[k].name.toLowerCase(), kind: "tradition", k }));
+      M.joints.forEach((j, ji) =>
+        idx.push({ n: j.a.name, l: j.a.name.toLowerCase(), kind: "archetype", ji }));
+      D.figures.forEach((f, fi) => {
+        const t = D.traditions[f.tradition];
+        idx.push({ n: f.name, l: f.name.toLowerCase(), kind: "figure", fi, sub: t ? t.name : "" });
+      });
+      function score(e, q) {
+        const i = e.l.indexOf(q);
+        if (i < 0) return -1;
+        if (i === 0) return 0;                                    // the name begins with it
+        if (e.l[i - 1] === " " || e.l[i - 1] === "-") return 1;   // a word begins with it
+        return 2;
+      }
+      const KIND_W = { tradition: 0, archetype: 1, figure: 2 };
+      let items = [], hot = -1;
+      function render() {
+        box.innerHTML = items.map((e, i) =>
+          `<div class="search-hit${i === hot ? " hot" : ""}" data-i="${i}"><b>${esc(e.n)}</b><span>${esc(e.sub || e.kind)}</span></div>`).join("");
+        box.classList.toggle("open", items.length > 0);
+        box.querySelectorAll(".search-hit").forEach(el => {
+          el.onpointerdown = ev => { ev.preventDefault(); go(+el.getAttribute("data-i")); };
+        });
+      }
+      function go(i) {
+        const e = items[i];
+        if (!e) return;
+        input.value = ""; items = []; hot = -1; render(); input.blur();
+        if (e.kind === "tradition") H.jump.tradition(e.k);
+        else if (e.kind === "archetype") H.jump.joint(e.ji);
+        else H.jump.figure(e.fi);
+      }
+      input.addEventListener("input", () => {
+        const q = input.value.trim().toLowerCase();
+        hot = -1;
+        if (q.length < 2) { items = []; render(); return; }
+        items = idx.map(e => ({ e, s: score(e, q) }))
+          .filter(x => x.s >= 0)
+          .sort((a, b) => (a.s - b.s) || (KIND_W[a.e.kind] - KIND_W[b.e.kind]) || (a.e.n.length - b.e.n.length))
+          .slice(0, 12).map(x => x.e);
+        hot = items.length ? 0 : -1;
+        render();
+      });
+      input.addEventListener("keydown", ev => {
+        if (ev.key === "ArrowDown") { hot = Math.min(items.length - 1, hot + 1); render(); ev.preventDefault(); }
+        else if (ev.key === "ArrowUp") { hot = Math.max(0, hot - 1); render(); ev.preventDefault(); }
+        else if (ev.key === "Enter") { go(hot >= 0 ? hot : 0); ev.preventDefault(); }
+        else if (ev.key === "Escape") { input.value = ""; items = []; render(); input.blur(); }
+        ev.stopPropagation();          // typing must never walk the room
+      });
+      input.addEventListener("blur", () => setTimeout(() => { items = []; render(); }, 150));
+      addEventListener("keydown", ev => {
+        if (ev.key === "/" && document.activeElement !== input) { ev.preventDefault(); input.focus(); }
+      });
+    })();
 
     /* ---------- nav ---------- */
     document.querySelectorAll("#nav [data-station]").forEach(btn => {

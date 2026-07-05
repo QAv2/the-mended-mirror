@@ -757,8 +757,9 @@
     H.onWheelLocked = () => { if (cer.active) cer.speed = 6; };
 
     /* ---------- keys ---------- */
+    const typing = e => e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA");
     addEventListener("keydown", e => {
-      if (!entered) return;                 // the world outside has no stations
+      if (!entered || typing(e)) return;    // the world outside has no stations; a seeker types freely
       if (e.code === "Digit1") goStation("room");
       else if (e.code === "Digit2") goStation("instrument");
       else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
@@ -783,8 +784,8 @@
       if (code === "KeyQ" || code === "PageDown") return "d";   // descend
       return null;
     }
-    addEventListener("keydown", e => { const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
-    addEventListener("keyup",   e => { const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
+    addEventListener("keydown", e => { if (typing(e)) return; const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
+    addEventListener("keyup",   e => { if (typing(e)) return; const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
 
     /* ---------- touch: walking the scroll without keys ----------
        Standing in the ages on a phone: a walk pad (drag off its center —
@@ -894,7 +895,7 @@
       gate.classList.add("over-world");
       clampsFor("exterior");
       seatRig(POSES.exterior);
-      enterBtn.textContent = "begin the approach";
+      enterBtn.textContent = "Enter";
       let seen = false;
       try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
       if (seen) {
@@ -929,7 +930,7 @@
         /* the gate opens on the bare lobby, enterable NOW; the world raises
            behind the title and upgrades the gate to the approach when ready */
         gateNarrates = false;
-        enterBtn.textContent = "enter the room";
+        enterBtn.textContent = "Enter";
         enterBtn.classList.add("ready");
         DIAG.mark("gate interactive (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
         buildWorld().then(() => {
