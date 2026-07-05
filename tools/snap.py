@@ -11,17 +11,17 @@ import websocket
 
 URL = sys.argv[1]
 OUT = sys.argv[2]
-READY = sys.argv[3] if len(sys.argv) > 3 else "!!(window.H && window.H.room)"
+READY = sys.argv[3] if len(sys.argv) > 3 else "!!(window.H && window.H.__shotReady)"
 SETTLE = float(sys.argv[4]) if len(sys.argv) > 4 else 4.0
-PORT = int(os.environ.get("SNAP_PORT", "9333"))
 
-# a dedicated profile: never touch (or copy!) the desktop profile — a locked
-# default profile makes chrome clone ~160MB into /tmp per launch and stalls CDP
-PROFILE = os.path.expanduser("~/.cache/mm-snap-profile") + f"-{PORT}"
+# a dedicated per-run profile: never touch the desktop profile, and never
+# collide with a zombie snap chrome (port 0 + DevToolsActivePort — a stale
+# browser on a fixed port answers /json and eats the websocket in silence)
+PROFILE = os.path.expanduser(f"~/.cache/mm-snap-profile-{os.getpid()}")
 
-# Software GL by default. SNAP_GL=gl-egl opts into hardware — but NB: the
-# Hall's first frame GPU-HANGS the UHD 610 on this box (i915 preemption
-# reset, context lost), so hardware is only for machines that can chew it.
+# Software GL by default. SNAP_GL=gl-egl opts into hardware — the UHD 610
+# survives the lobby-first boot's light first frame (verified 2026-07-05;
+# the old build-everything first frame used to GPU-hang it).
 if os.environ.get("SNAP_GL") == "gl-egl":
     GL_FLAGS = ["--use-angle=gl-egl"]
 else:
@@ -32,23 +32,35 @@ chrome = subprocess.Popen([
     *GL_FLAGS,
     "--disable-gpu-sandbox", "--hide-scrollbars",
     f"--user-data-dir={PROFILE}", "--no-first-run", "--disable-extensions",
-    f"--remote-debugging-port={PORT}", "--remote-allow-origins=*",
-    f"--window-size={os.environ.get('SNAP_WIN', '1600,900')}", "about:blank",
+    "--remote-debugging-port=0", "--remote-allow-origins=*",
+    f"--window-size={os.environ.get('SNAP_WIN', '1600,900')}", URL,
 ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-def cdp_http(path):
-    return json.load(urllib.request.urlopen(f"http://127.0.0.1:{PORT}{path}"))
+def own_port(timeout=30):
+    p = os.path.join(PROFILE, "DevToolsActivePort")
+    t0 = time.time()
+    while time.time() - t0 < timeout:
+        try:
+            with open(p) as f:
+                return int(f.readline().strip())
+        except Exception:
+            time.sleep(0.3)
+    raise TimeoutError("chrome never wrote DevToolsActivePort")
 
 try:
-    # wait for the debugger endpoint
+    PORT = own_port()
+    tab = None
     for _ in range(60):
         try:
-            cdp_http("/json/version"); break
+            tabs = json.load(urllib.request.urlopen(f"http://127.0.0.1:{PORT}/json/list", timeout=2))
+            page = [t for t in tabs if t.get("type") == "page" and t.get("url", "").startswith("http")]
+            if page:
+                tab = page[0]; break
         except Exception:
-            time.sleep(0.5)
-    tab = json.load(urllib.request.urlopen(
-        urllib.request.Request(f"http://127.0.0.1:{PORT}/json/new?{urllib.parse.urlencode({'': URL})[1:]}",
-                               method="PUT")))
+            pass
+        time.sleep(0.5)
+    if not tab:
+        print("no page tab appeared", file=sys.stderr); sys.exit(1)
     # Under software GL the renderer blocks synchronously for long stretches
     # (shader compiles, canvas uploads) — a single blocking recv() would die
     # there. Instead: short per-recv timeouts inside an overall deadline, so a
@@ -96,3 +108,5 @@ finally:
     chrome.terminate()
     try: chrome.wait(timeout=5)
     except Exception: chrome.kill()
+    import shutil
+    shutil.rmtree(PROFILE, ignore_errors=True)

@@ -1028,6 +1028,9 @@
       if (q.get("selShard")) selectShard(+q.get("selShard"));
       if (q.get("selFig")) selectFigure(+q.get("selFig"));
       if (q.get("selJoint")) selectJoint(+q.get("selJoint"));
+      H.__shotReady = true;      // the snap harness waits for the COMPOSED shot
+    } else {
+      H.__shotReady = true;      // interactive: the gate is the composition
     }
 
     /* ---------- loop ---------- */

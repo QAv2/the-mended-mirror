@@ -30,8 +30,13 @@
     H.scene.add(group);
 
     /* DoubleSide throughout: the right leaf is the left mirrored (scale −1),
-       and doubled faces on a slab cost nothing */
-    const bronze = new THREE.MeshStandardMaterial({ color: 0x6d5527, metalness: 1.0, roughness: 0.52, side: THREE.DoubleSide });
+       and doubled faces on a slab cost nothing. Part-metal, a breath of
+       emissive: the portal recess faces away from the sun, and a full-metal
+       leaf in shade reflects only darkness. */
+    const bronze = new THREE.MeshStandardMaterial({
+      color: 0x7a5f2c, metalness: 0.85, roughness: 0.58,
+      emissive: 0x1a1206, emissiveIntensity: 0.55, side: THREE.DoubleSide,
+    });
     const verdigris = new THREE.MeshStandardMaterial({ color: 0x4a6b5d, metalness: 0.75, roughness: 0.68, side: THREE.DoubleSide });
     const goldEdge = new THREE.MeshStandardMaterial({
       color: HALL.COL.gold, metalness: 1, roughness: 0.32,
@@ -124,23 +129,26 @@
     if (root.THREE && THREE.GLTFLoader && HALL.Q.glb) {
       try {
         new THREE.GLTFLoader().load("assets/doors-leaf.glb", gltf => {
+          // the WHOLE scene is the leaf (Meshy splits its relief across
+          // meshes — taking one renders stray bars); the bronze stays ours
           const src = gltf.scene;
-          let geo = null;
-          src.traverse(o => { if (o.isMesh && !geo) geo = o.geometry; });
-          if (!geo) return;
-          geo = geo.clone();
-          geo.computeBoundingBox();
-          const bb = geo.boundingBox, sz = bb.getSize(new THREE.Vector3());
+          let any = false;
+          src.traverse(o => { if (o.isMesh) { o.material = bronze; any = true; } });
+          if (!any) return;
+          const bb = new THREE.Box3().setFromObject(src);
+          const sz = bb.getSize(new THREE.Vector3());
+          if (!(sz.x > 0 && sz.y > 0 && sz.z > 0)) return;
+          const seat = new THREE.Group();
           // seat on origin, then stretch to the leaf's opening — the relief's
           // circles run to ellipses, which orbits always were
-          geo.translate(-(bb.min.x + bb.max.x) / 2, -(bb.min.y + bb.max.y) / 2, -(bb.min.z + bb.max.z) / 2);
-          geo.scale(LEAF_W / sz.x, LEAF_H / sz.y, Math.min(1, LEAF_D * 2.2 / sz.z));
+          src.position.set(-(bb.min.x + bb.max.x) / 2, -(bb.min.y + bb.max.y) / 2, -(bb.min.z + bb.max.z) / 2);
+          seat.add(src);
+          seat.scale.set(LEAF_W / sz.x, LEAF_H / sz.y, Math.min(1, LEAF_D * 2.2 / sz.z));
+          seat.rotation.y = Math.PI;                 // Meshy relief faces +z; the hall's leaves face −z (outward)
           for (const h of hinges) {
             const old = h.carrier.children[0];
             h.carrier.remove(old);
-            const m = new THREE.Mesh(geo, bronze);   // mirrored by the carrier's own scale
-            m.rotation.y = Math.PI;                  // Meshy relief faces +z; the hall's leaves face −z (outward)
-            h.carrier.add(m);
+            h.carrier.add(h.side === -1 ? seat : seat.clone(true));
           }
           DIAG.mark("bronze doors: GLB relief mounted");
         }, undefined, () => { /* the procedural leaves stand */ });
