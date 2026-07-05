@@ -289,15 +289,17 @@
        THE RIM — the calendar of ages engraved around the instrument's limb.
        Angle IS time: one turn from the deep past to now.
        ========================================================================= */
-    const RIM_IN = M.R + 0.55, RIM_OUT = M.R + 3.2;
+    const RIM_IN = H.dims.RIM_IN, RIM_OUT = H.dims.RIM_OUT;
     const angleOfT = t => M.timeAngle.angleOfT(t);   // the shared hand — one mapping for rule, calendar, wall
 
+    const RIM_PX = HALL.texSize(2048, 1024);         // the calendar carries text — floor at 1024
     const rimCanvas = document.createElement("canvas");
-    rimCanvas.width = rimCanvas.height = 2048;
+    rimCanvas.width = rimCanvas.height = RIM_PX;
     function drawRim() {
       const g = rimCanvas.getContext("2d");
-      const CC = 1024, S = 1024 / (RIM_OUT + 0.4);   // world → px
-      g.clearRect(0, 0, 2048, 2048);
+      const CC = RIM_PX / 2, S = CC / (RIM_OUT + 0.4);   // world → px
+      const FS = RIM_PX / 2048;                          // font scale rides the canvas
+      g.clearRect(0, 0, RIM_PX, RIM_PX);
       g.translate(CC, CC);
       // limb circles
       g.strokeStyle = "rgba(240,196,90,0.34)"; g.lineWidth = 2.5;
@@ -322,7 +324,7 @@
         g.translate(Math.cos(a0) * (RIM_IN - 0.75) * S, Math.sin(a0) * (RIM_IN - 0.75) * S);
         g.rotate(a0 + (upright ? -Math.PI / 2 : Math.PI / 2));
         g.fillStyle = "rgba(130,139,156,0.66)";
-        g.font = "300 19px Spectral, Georgia, serif";
+        g.font = "300 " + Math.round(19 * FS) + "px Spectral, Georgia, serif";
         g.textAlign = "center";
         g.fillText(yr, 0, 0);
         g.restore();
@@ -331,7 +333,7 @@
         const aMid = (a0 + a1) / 2;
         const rText = (RIM_IN + RIM_OUT) / 2 * S;
         g.fillStyle = "rgba(240,196,90,0.66)";
-        g.font = "26px Marcellus, Georgia, serif";
+        g.font = Math.round(26 * FS) + "px Marcellus, Georgia, serif";
         const totalArc = (a1 - a0) * 0.72;
         const per = totalArc / Math.max(1, name.length - 1);
         const flip = Math.sin(aMid) > 0;               // lower half: keep glyphs upright
@@ -368,7 +370,7 @@
       g.translate(Math.cos(aDm) * (RIM_IN - 0.95) * S, Math.sin(aDm) * (RIM_IN - 0.95) * S);
       g.rotate(aDm + (Math.sin(aDm) > 0 ? -Math.PI / 2 : Math.PI / 2));
       g.fillStyle = "rgba(200,180,130,0.58)";
-      g.font = "italic 300 19px Spectral, Georgia, serif";
+      g.font = "italic 300 " + Math.round(19 * FS) + "px Spectral, Georgia, serif";
       g.textAlign = "center";
       g.fillText("the prophesied", 0, 0);
       g.restore();
@@ -376,9 +378,9 @@
     drawRim();
     const rimTex = new THREE.CanvasTexture(rimCanvas);
     rimTex.encoding = THREE.sRGBEncoding;
-    rimTex.anisotropy = 8;
+    rimTex.anisotropy = HALL.Q.aniso;
     const rimMesh = new THREE.Mesh(
-      new THREE.CircleGeometry(RIM_OUT + 0.4, 128),
+      new THREE.CircleGeometry(RIM_OUT + 0.4, HALL.segN(128, 64)),
       new THREE.MeshBasicMaterial({ map: rimTex, transparent: true, depthWrite: false, fog: false, opacity: 0.9 })
     );
     rimMesh.rotation.x = -Math.PI / 2;

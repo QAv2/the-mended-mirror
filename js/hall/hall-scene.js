@@ -15,6 +15,34 @@
     parchment: 0xe9dcc0, fools: 0x6f7c4c,
   };
 
+  /* ---------- the quality tier: ONE knob, like the flight's K ----------
+     Chosen once from what the device declares (texture ceiling, memory,
+     touch), overridable with ?tier=0|1|2 for testing. Everything that costs
+     — canvas resolutions, segment counts, dust, pixelRatio, whether GLBs are
+     fetched at all — reads these factors. Tier 2 is EXACTLY the hall as it
+     shipped; lower tiers only take away. */
+  HALL.quality = function (renderer) {
+    const maxTex = renderer.capabilities.maxTextureSize;
+    const mem = navigator.deviceMemory || 4;
+    const coarse = matchMedia("(pointer:coarse)").matches;
+    let tier = 2;
+    if (coarse || mem <= 4 || maxTex < 8192) tier = 1;
+    if (maxTex < 4096 || mem <= 2) tier = 0;
+    const o = new URLSearchParams(location.search).get("tier");
+    if (o !== null && o !== "") tier = Math.max(0, Math.min(2, +o || 0));
+    const Q = [
+      { tier: 0, tex: 0.25, segs: 0.5,  dust: 220, stars: 500,  px: 1.25, glb: false, aniso: 2, bumps: false, fullLights: false },
+      { tier: 1, tex: 0.5,  segs: 0.75, dust: 450, stars: 800,  px: 1.5,  glb: true,  aniso: 4, bumps: true,  fullLights: true },
+      { tier: 2, tex: 1,    segs: 1,    dust: 900, stars: 1400, px: 2,    glb: true,  aniso: 8, bumps: true,  fullLights: true },
+    ][tier];
+    Q.maxTex = maxTex;
+    return Q;
+  };
+  /* tier-scaled helpers — safe before buildScene (fall back to full) */
+  const q = () => HALL.Q || { tex: 1, segs: 1, aniso: 8 };
+  HALL.texSize = (base, floor) => Math.max(floor || 256, Math.round(base * q().tex));
+  HALL.segN = (base, floor) => Math.max(floor || 8, Math.round(base * q().segs));
+
   /* ---------- procedural stone / sealed-concrete surfaces ----------
      Canvas-built (self-contained, zero asset weight): cloudy mottling from
      blurred value-noise octaves + aggregate speckle, paired with matching bump
@@ -23,7 +51,7 @@
      RepeatWrapping; the caller sets .repeat for the surface's scale. */
   HALL.surface = function (opts) {
     opts = opts || {};
-    const S = opts.size || 1024;
+    const S = HALL.texSize(opts.size || 1024, 256);
     const base = opts.base || "#63666b";
     const dark = opts.dark || "#484b50";
     const lite = opts.lite || "#7d8086";
@@ -57,19 +85,21 @@
       }
     }
 
-    const A = pad(base); octaves(A.g, dark, lite);
-    if (grain) speckle(A.g, (S * S / 320) * grain,
-      "rgba(24,26,30,0.20)", "rgba(206,210,218,0.13)");
-    const B = pad("#7c7c7c"); octaves(B.g, "#5a5a5a", "#9a9a9a");
-    if (grain) speckle(B.g, (S * S / 300) * grain, "rgba(18,18,18,0.5)", "rgba(240,240,240,0.42)");
-    const R = pad("#9a9a9a"); octaves(R.g, "#6f6f6f", "#c6c6c6");
-
     const mk = (c, srgb) => {
       const t = new THREE.CanvasTexture(c);
-      t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8;
+      t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = q().aniso || 8;
       if (srgb) t.encoding = THREE.sRGBEncoding;
       return t;
     };
+    const A = pad(base); octaves(A.g, dark, lite);
+    if (grain) speckle(A.g, (S * S / 320) * grain,
+      "rgba(24,26,30,0.20)", "rgba(206,210,218,0.13)");
+    /* tier 0 runs on the color map alone — the bump/roughness pair costs a
+       heavier shader permutation than a weak GPU (or SwiftShader) can carry */
+    if (HALL.Q && !HALL.Q.bumps) return { map: mk(A.c, true), bumpMap: null, roughnessMap: null };
+    const B = pad("#7c7c7c"); octaves(B.g, "#5a5a5a", "#9a9a9a");
+    if (grain) speckle(B.g, (S * S / 300) * grain, "rgba(18,18,18,0.5)", "rgba(240,240,240,0.42)");
+    const R = pad("#9a9a9a"); octaves(R.g, "#6f6f6f", "#c6c6c6");
     return { map: mk(A.c, true), bumpMap: mk(B.c, false), roughnessMap: mk(R.c, false) };
   };
 
@@ -78,9 +108,11 @@
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
     renderer.setSize(innerWidth, innerHeight);
-    // phones render plenty at 1.5 dpr — the wall texture carries the detail
-    const IS_TOUCH = matchMedia("(pointer:coarse)").matches;
-    renderer.setPixelRatio(Math.min(devicePixelRatio, IS_TOUCH ? 1.5 : 2));
+    // the ONE quality knob — everything that costs reads HALL.Q from here on
+    HALL.Q = HALL.quality(renderer);
+    DIAG.mark("quality tier " + HALL.Q.tier + " — tex×" + HALL.Q.tex + " segs×" + HALL.Q.segs +
+              " dust " + HALL.Q.dust + " px≤" + HALL.Q.px + (HALL.Q.glb ? "" : " (GLBs skipped)"));
+    renderer.setPixelRatio(Math.min(devicePixelRatio, HALL.Q.px));
     renderer.outputEncoding = THREE.sRGBEncoding;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.02;
@@ -122,7 +154,7 @@
 
     /* ---------- the dust (motes drifting in the shaft) ---------- */
     const dust = (function () {
-      const N = 900, pos = new Float32Array(N * 3), seed = new Float32Array(N);
+      const N = HALL.Q.dust, pos = new Float32Array(N * 3), seed = new Float32Array(N);
       for (let i = 0; i < N; i++) {
         const r = 4 + Math.pow(Math.random(), 0.6) * 24;   // motes stay inside the room
         const a = Math.random() * Math.PI * 2;
@@ -166,7 +198,7 @@
 
     /* ---------- far stars (the void is not empty, only patient) ---------- */
     (function () {
-      const N = 1400, pos = new Float32Array(N * 3), cl = new Float32Array(N * 3);
+      const N = HALL.Q.stars, pos = new Float32Array(N * 3), cl = new Float32Array(N * 3);
       const c1 = new THREE.Color(0x9aa6c4), c2 = new THREE.Color(0xd8c9a0);
       for (let i = 0; i < N; i++) {
         // sphere shell far out
@@ -381,8 +413,16 @@
       toInterior(k) {
         env.k = k;
         scene.fog.density = ENV.day.fog + (ENV.night.fog - ENV.day.fog) * k;
-        scene.fog.color.copy(ENV.day.fogCol).lerp(ENV.night.fogCol, k);
-        scene.background.copy(ENV.day.bg).lerp(ENV.night.bg, k);
+        if (k >= 1) {          // land EXACTLY on the void — the porthole trick
+          scene.fog.color.copy(ENV.night.fogCol);       // needs sky == obsidian2,
+          scene.background.copy(ENV.night.bg);          // and lerp(…,1) drifts a ulp
+        } else if (k <= 0) {
+          scene.fog.color.copy(ENV.day.fogCol);
+          scene.background.copy(ENV.day.bg);
+        } else {
+          scene.fog.color.copy(ENV.day.fogCol).lerp(ENV.night.fogCol, k);
+          scene.background.copy(ENV.day.bg).lerp(ENV.night.bg, k);
+        }
         shaft.intensity = 1.55 * k;
         if (H.starsMat) H.starsMat.opacity = 0.75 * k;
         if (H.exterior) H.exterior.setNight(k);

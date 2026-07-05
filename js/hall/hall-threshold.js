@@ -19,13 +19,13 @@
 
     /* ---------- the plinth (the museum's altar, kept) — dark dressed granite ---------- */
     const stone = HALL.surface({ base: "#3b3e44", dark: "#26282d", lite: "#4f535a", grain: 1.2, size: 512 });
-    [stone.map, stone.bumpMap, stone.roughnessMap].forEach(t => t.repeat.set(2, 2));
+    [stone.map, stone.bumpMap, stone.roughnessMap].filter(Boolean).forEach(t => t.repeat.set(2, 2));
     const plinthMat = new THREE.MeshStandardMaterial({
       map: stone.map, bumpMap: stone.bumpMap, bumpScale: 0.016,
       roughnessMap: stone.roughnessMap, roughness: 0.62, metalness: 0.0,
     });
     const stoneTop = HALL.surface({ base: "#43474e", dark: "#2e3136", lite: "#585d65", grain: 0.9, size: 512 });
-    [stoneTop.map, stoneTop.bumpMap, stoneTop.roughnessMap].forEach(t => t.repeat.set(2, 2));
+    [stoneTop.map, stoneTop.bumpMap, stoneTop.roughnessMap].filter(Boolean).forEach(t => t.repeat.set(2, 2));
     const plinthTopMat = new THREE.MeshStandardMaterial({
       map: stoneTop.map, bumpMap: stoneTop.bumpMap, bumpScale: 0.013,
       roughnessMap: stoneTop.roughnessMap, roughness: 0.55, metalness: 0.0,
@@ -141,7 +141,7 @@
        to the same footprint. Silent fallback if unreachable. Metallic PBR needs
        reflections to live, so the model gets its own environment map — scoped
        to the relic only; the hall's obsidian register stays untouched. */
-    if (root.THREE && THREE.GLTFLoader) {
+    if (root.THREE && THREE.GLTFLoader && HALL.Q.glb) {
       try {
         new THREE.GLTFLoader().load("assets/astrolabe.glb", gltf => {
           const model = gltf.scene;

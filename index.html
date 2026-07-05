@@ -59,6 +59,9 @@
   }
   function log(msg, isErr) {
     lines.push((isErr ? "✗ " : "· ") + stamp() + "  " + msg);
+    // mirror the last breadcrumb into the title: CDP's /json/list reads it
+    // over plain HTTP even while the renderer thread is buried in a build
+    document.title = "· " + stamp() + " " + msg;
     if (document.body) show(); else document.addEventListener("DOMContentLoaded", show);
   }
   window.DIAG = { mark: function (m) { log(m); } };
@@ -167,6 +170,7 @@
 <script src="js/hall/hall-rotunda.js"></script>
 <script src="js/hall/hall-room.js"></script>
 <script src="js/hall/hall-threshold.js"></script>
+<script src="js/hall/hall-doors.js"></script>
 <script src="js/hall/hall-exterior.js"></script>
 <script src="js/hall/hall-approach.js"></script>
 <script src="js/hall/hall-ui.js"></script>

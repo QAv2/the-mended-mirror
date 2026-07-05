@@ -20,9 +20,8 @@
   const TAU = Math.PI * 2;
 
   HALL.buildRoom = function (H) {
-    const R = H.rotunda;
-    const WALL_R = R.RAD - 0.22;        // lobby wall just inside the strata wall
-    const WALL_H = R.WALL_H;
+    const WALL_R = H.dims.RAD - 0.22;   // lobby wall just inside the strata wall
+    const WALL_H = H.dims.LOBBY_H;      // the shell the exterior wraps (exterior-true)
     const LID_Y = 0.46;                 // the lobby floor, covering the mirror
 
     const group = new THREE.Group();
@@ -42,7 +41,7 @@
     // Opaque at rest; transparency is rented only while the dissolve runs
     // (see lobbySolid below).
     const floorSurf = HALL.surface({ base: "#484c52", dark: "#31353b", lite: "#5a5f66", grain: 1, size: 1024 });
-    [floorSurf.map, floorSurf.bumpMap, floorSurf.roughnessMap].forEach(t => t.repeat.set(6, 6));
+    [floorSurf.map, floorSurf.bumpMap, floorSurf.roughnessMap].filter(Boolean).forEach(t => t.repeat.set(6, 6));
     const lid = new THREE.Mesh(
       new THREE.RingGeometry(0.02, WALL_R + 0.6, 96, 24),
       new THREE.MeshStandardMaterial({
@@ -79,9 +78,11 @@
 
     /* ---------- the lobby wall: plain plaster-dark, faintly articulated ---------- */
     const wallCanvas = document.createElement("canvas");
-    wallCanvas.width = 2048; wallCanvas.height = 512;
+    const WCW = HALL.texSize(2048, 512), WCH = WCW / 4, WK = WCW / 2048;
+    wallCanvas.width = WCW; wallCanvas.height = WCH;
     (function () {
       const g = wallCanvas.getContext("2d");
+      g.scale(WK, WK);   // paint in the 2048×512 frame at any resolution
       // plaster slate — dark museum stone, but STONE, not void
       const grd = g.createLinearGradient(0, 0, 0, 512);
       grd.addColorStop(0, "#262b38");
@@ -119,7 +120,7 @@
     const DOOR_TL = TAU - 2 * DOOR_HALF_A;
     const LINTEL_Y = 9.55;                            // the wall resumes above this
     const lobbyWall = new THREE.Mesh(
-      new THREE.CylinderGeometry(WALL_R, WALL_R, WALL_H, 96, 1, true, DOOR_T0, DOOR_TL),
+      new THREE.CylinderGeometry(WALL_R, WALL_R, WALL_H, HALL.segN(96, 48), 1, true, DOOR_T0, DOOR_TL),
       new THREE.MeshStandardMaterial({ map: wallTex, roughness: 0.92, metalness: 0.05, side: THREE.BackSide })
     );
     lobbyWall.position.y = WALL_H / 2;
@@ -172,7 +173,7 @@
     const PHI_MIN = Math.asin(OC_R / DOME_R);
     const domeCenterY = WALL_H - DOME_R * Math.cos(PHI_EDGE);
     const dome = new THREE.Mesh(
-      new THREE.SphereGeometry(DOME_R, 96, 24, 0, TAU, PHI_MIN, PHI_EDGE - PHI_MIN),
+      new THREE.SphereGeometry(DOME_R, HALL.segN(96, 48), HALL.segN(24, 12), 0, TAU, PHI_MIN, PHI_EDGE - PHI_MIN),
       new THREE.MeshStandardMaterial({ color: 0x232838, roughness: 0.94, metalness: 0.05, side: THREE.BackSide })
     );
     dome.position.y = domeCenterY;
@@ -189,17 +190,18 @@
 
     /* ---------- lights that belong to the room's two states ---------- */
     // the warm breath at the center of the executed room
-    const heart = new THREE.PointLight(0xffe0a6, 0.0, R.RAD * 2.2, 1.6);
+    const heart = new THREE.PointLight(0xffe0a6, 0.0, H.dims.RAD * 2.2, 1.6);
     heart.position.set(0, 6.5, 0);
     group.add(heart);
     // the lobby's own air — a soft cool fill so the stone reads as stone
     const air = new THREE.PointLight(0xaab4cf, 0.55, WALL_R * 3.2, 1.8);
     air.position.set(0, WALL_H * 0.62, 0);
     group.add(air);
-    // a faint warm wash climbing the wall from the floor bands
+    // a faint warm wash climbing the wall from the floor bands — a luxury
+    // light: tier 0 lives without it (every point light widens the shader)
     const skirt = new THREE.PointLight(0xffd98a, 0.30, WALL_R * 2.4, 2.0);
     skirt.position.set(-WALL_R * 0.45, 2.2, -WALL_R * 0.3);
-    group.add(skirt);
+    if (HALL.Q.fullLights) group.add(skirt);
 
     /* ---------- fade machinery ---------- */
     function eachFadable(g2, fn) {
@@ -218,7 +220,9 @@
       });
     }
 
-    const exhibits = () => [H.mater.group, H.figures.group, H.rotunda.group];
+    /* the holo pieces build lazily behind the title — everything here that
+       touches them must survive their absence (the lobby needs none of them) */
+    const exhibits = () => [H.mater, H.figures, H.rotunda].filter(Boolean).map(x => x.group);
 
     /* ---------- the state machine ---------- */
     let state = "lobby";     // lobby | executing | holo | powering
@@ -237,9 +241,9 @@
     // (mater floor + figures/rete) is the layer we can hide for the standing view
     function applyInstrumentVis() {
       const on = (state === "holo" || state === "executing");
-      H.rotunda.group.visible = on;
-      H.mater.group.visible = on && instrumentShown;
-      H.figures.group.visible = on && instrumentShown;
+      if (H.rotunda) H.rotunda.group.visible = on;
+      if (H.mater) H.mater.group.visible = on && instrumentShown;
+      if (H.figures) H.figures.group.visible = on && instrumentShown;
       // standing in the scroll keeps the stone floor underfoot — dim, lit
       // only by the heart and the shaft, the roof still open to the stars —
       // so the ages wrap a room, not a visitor floating in space (Joe).
@@ -281,10 +285,14 @@
       if (k >= 0.999) lobbySolid();
     }
     function exhibitFade(k) {            // k: materialization of instrument+figures+wall
-      H.rotunda.wallMat.uniforms.uFade.value = k;
-      H.figures.arcMat.uniforms.uOpacity.value = k;
-      fadeGroup(H.figures.group, k);
-      fadeGroup(H.rotunda.group, k);     // meridian, seals (shader wall skipped — no .opacity)
+      if (H.rotunda) {
+        H.rotunda.wallMat.uniforms.uFade.value = k;
+        fadeGroup(H.rotunda.group, k);   // meridian, seals (shader wall skipped — no .opacity)
+      }
+      if (H.figures) {
+        H.figures.arcMat.uniforms.uOpacity.value = k;
+        fadeGroup(H.figures.group, k);
+      }
       heart.intensity = 0.9 * k;
     }
     function thresholdFade(k, sink) {

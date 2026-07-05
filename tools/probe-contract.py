@@ -19,22 +19,38 @@ import json, os, subprocess, sys, time, urllib.request, urllib.parse
 import websocket
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else "http://127.0.0.1:8013"
-URL = BASE.rstrip("/") + "/index.html"
-PORT = int(os.environ.get("SNAP_PORT", "9451"))
-PROFILE = os.path.expanduser(f"~/.cache/mm-snap-profile-{PORT}")
+# render=0 — logic frames only (SwiftShader on the dev box dies mid-frame at
+# catalog scale); the contract is rig/env/state math, not pixels
+URL = BASE.rstrip("/") + "/index.html?render=0&tier=0"
+PROFILE = os.path.expanduser(f"~/.cache/mm-snap-profile-{os.getpid()}")
 
 if os.environ.get("SNAP_GL") == "gl-egl":
     GL_FLAGS = ["--use-angle=gl-egl"]
 else:
     GL_FLAGS = ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"]
 
+# port 0 + DevToolsActivePort: never collide with a zombie browser; launch
+# WITH the url (/json/new tab creation stopped answering on this chrome)
 chrome = subprocess.Popen([
     os.environ.get("SNAP_CHROME", "google-chrome"), "--headless=new", *GL_FLAGS,
     "--disable-gpu-sandbox", "--hide-scrollbars",
     f"--user-data-dir={PROFILE}", "--no-first-run", "--disable-extensions",
-    f"--remote-debugging-port={PORT}", "--remote-allow-origins=*",
-    "--window-size=1280,720", "about:blank",
+    "--remote-debugging-port=0", "--remote-allow-origins=*",
+    "--window-size=1280,720", URL,
 ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+def own_port(timeout=30):
+    p = os.path.join(PROFILE, "DevToolsActivePort")
+    t0 = time.time()
+    while time.time() - t0 < timeout:
+        try:
+            with open(p) as f:
+                return int(f.readline().strip())
+        except Exception:
+            time.sleep(0.3)
+    raise TimeoutError("chrome never wrote DevToolsActivePort")
+
+PORT = own_port()
 
 fails = []
 def check(name, got, want, tol=None):
@@ -44,14 +60,18 @@ def check(name, got, want, tol=None):
         fails.append(name)
 
 try:
-    for _ in range(40):
+    tab = None
+    for _ in range(60):
         try:
-            urllib.request.urlopen(f"http://127.0.0.1:{PORT}/json/version", timeout=2); break
+            tabs = json.load(urllib.request.urlopen(f"http://127.0.0.1:{PORT}/json/list", timeout=2))
+            page = [t for t in tabs if t.get("type") == "page" and "index.html" in t.get("url", "")]
+            if page:
+                tab = page[0]; break
         except Exception:
-            time.sleep(0.5)
-    tab = json.load(urllib.request.urlopen(
-        urllib.request.Request(f"http://127.0.0.1:{PORT}/json/new?{urllib.parse.urlencode({'': URL})[1:]}",
-                               method="PUT"), timeout=10))
+            pass
+        time.sleep(0.5)
+    if not tab:
+        print("FAIL  page tab never appeared"); sys.exit(1)
     ws = websocket.create_connection(tab["webSocketDebuggerUrl"], timeout=15)
     mid = [0]
     def send(method, deadline=300, **params):
@@ -158,3 +178,5 @@ finally:
         chrome.wait(timeout=5)
     except Exception:
         chrome.kill()
+    import shutil
+    shutil.rmtree(PROFILE, ignore_errors=True)

@@ -29,13 +29,13 @@
     const S = H.scroll;                       // the scroll's brain — ranks / lanes / moments
     const TA = M.timeAngle;                   // the one hand
 
-    /* ---------- geometry of the wall ---------- */
-    const RAD = H.mater.RIM_OUT + 1.8;              // the instrument's exterior diameter
-    const LANE = S.ranked.length ? (S.H_TOP - S.Y0) / S.ranked.length : 0.115;
-    const Y0R = 2.6;                                // first lane above the floor
-    const H_TOPR = Y0R + S.ranked.length * LANE;    // ~27.8
-    const WALL_H = H_TOPR + 3.4;                    // cornice headroom
-    const EYE = new THREE.Vector3(0, 1.7, 0);       // where you stand for the scroll
+    /* ---------- geometry of the wall (shared measures: HALL.dims) ---------- */
+    const RAD = H.dims.RAD;                         // the instrument's exterior diameter
+    const Y0R = H.dims.Y0R;                         // first lane above the floor
+    const H_TOPR = H.dims.H_TOPR;
+    const WALL_H = H.dims.WALL_H;                   // cornice headroom included
+    const EYE = H.dims.EYE;                         // where you stand for the scroll
+    const yW = y => Y0R + (y - S.Y0);               // scroll frame → wall frame
 
     /* bearings (atan2(z,x) — same frame as the rim calendar and the rule) */
     const angleOfYear = y => TA.angleOfYear(y);
@@ -51,7 +51,7 @@
     H.scene.add(group);
 
     /* ---------- the strata field: one canvas, one cylinder ---------- */
-    const W = 8192, Hc = 2048;
+    const W = Math.min(HALL.texSize(8192, 2048), HALL.Q.maxTex), Hc = HALL.texSize(2048, 512);
     const px = b => (((b % TAU) + TAU) % TAU) / TAU * W;   // canvas x of a bearing
     const py = y => Hc - (y / WALL_H) * Hc;                // canvas y of a height
     const pxYear = y => px(angleOfYear(y));
@@ -103,9 +103,31 @@
       g.textAlign = "center";
       g.fillText("now", xn, py(1.15));
 
-      /* the lanes — every tradition a ring-segment of its life */
+      /* the band cornices — the geology the lanes sit in. Each birth-era
+         band is parted from the next by a string course; its name runs in
+         the gap, repeated around the circle so any bearing can read it. */
+      const gapPx = Math.max(10, (0.55 / WALL_H) * Hc);
+      S.bands.forEach((bd, bi) => {
+        // a whisper of alternating tint so each stratum reads as one body
+        if (bi % 2 === 1) {
+          g.fillStyle = "rgba(205,210,220,0.018)";
+          g.fillRect(0, py(yW(bd.y1)), W, py(yW(bd.y0)) - py(yW(bd.y1)));
+        }
+        // string course under the band's foot
+        const yLine = py(yW(bd.y0) - 0.10);
+        g.strokeStyle = "rgba(240,196,90,0.16)"; g.lineWidth = 2;
+        g.beginPath(); g.moveTo(0, yLine); g.lineTo(W, yLine); g.stroke();
+        // the era's name, small and patient, every sixth of the circle
+        g.fillStyle = "rgba(240,196,90,0.34)";
+        g.font = "300 " + Math.round(gapPx * 0.82) + "px Spectral, Georgia, serif";
+        g.textAlign = "left";
+        for (let rep = 0; rep < 6; rep++)
+          g.fillText(bd.eras.toUpperCase(), (rep / 6) * W + 30, yLine - gapPx * 0.25);
+      });
+
+      /* the lanes — every tradition a ring-segment of its life, its height
+         weighted by the roster it carries */
       const CERT_A = { attested: 1.0, inferred: 0.62, reconstructed: 0.5, contested: 0.42, deep: 0.62, prophesied: 0.3 };
-      const laneH = (LANE / WALL_H) * Hc;
       function spanY(thA, thB, yC, h, fill) {
         let xa = px(thA), xb = px(thB);
         g.fillStyle = fill;
@@ -115,12 +137,12 @@
       S.ranked.forEach((rk, i) => {
         const t = D.traditions[rk.k], p = rk.p;
         const a = (CERT_A[p.certainty] || 0.8) * 0.62;
-        const yC = py(Y0R + i * LANE);
+        const yC = py(yW(S.laneY[i]));
         const from = p.from !== undefined ? p.from : -1000;
         const to = p.living ? M.NOW : (p.to !== undefined ? p.to : M.NOW);
         const c = new THREE.Color(t.color);
         const rgba = k => `rgba(${Math.round(c.r * 255)},${Math.round(c.g * 255)},${Math.round(c.b * 255)},${k})`;
-        const h = Math.max(2.5, laneH * 0.72);
+        const h = Math.max(2.5, (S.laneH[i] * 0.74 / WALL_H) * Hc);
         spanY(angleOfYear(from), angleOfYear(Math.min(to, M.NOW)), yC, h, rgba(a));
         // birth tick
         const xb = pxYear(from);
@@ -168,7 +190,7 @@
 
     const tex = new THREE.CanvasTexture(canvas);
     tex.encoding = THREE.sRGBEncoding;
-    tex.anisotropy = 8;
+    tex.anisotropy = HALL.Q.aniso;
     tex.wrapS = THREE.RepeatWrapping;
 
     const wallMat = new THREE.ShaderMaterial({
@@ -213,7 +235,7 @@
         }`,
     });
     const wall = new THREE.Mesh(
-      new THREE.CylinderGeometry(RAD, RAD, WALL_H, 160, 1, true),
+      new THREE.CylinderGeometry(RAD, RAD, WALL_H, HALL.segN(160, 64), 1, true),
       wallMat
     );
     wall.position.y = WALL_H / 2;
@@ -288,6 +310,99 @@
       rMoments.push({ group: g2, dia, edge: e, b });
     });
 
+    /* ---------- the beads: every figure a mote on its lane ----------
+       Positions are LAYOUT, not data (9 of 4,106 figures carry dates — too
+       few to place honestly): each roster spreads evenly across its lane's
+       written life, staggered into 2–3 rows where the arc runs tight (13
+       traditions need it; the worst is 11 figures on one world-unit). Beads
+       are the wall's pick targets for figures — the conductor finds them by
+       projected screen distance, so every bead stays individually reachable
+       at eye distance no matter the crowd. */
+    const beadWorld = [];                              // flat xyz, world
+    const beadFig = [];                                // bead → figure index
+    const BEAD_OFF = 0.16;                             // proud of the paint, shy of the seals
+    (function layBeads() {
+      const pos = [], col = [], size = [], tArr = [];
+      const cc = new THREE.Color();
+      S.ranked.forEach((rk, i) => {
+        const figs = M.figsOfTrad[rk.k] || [];
+        if (!figs.length) return;
+        const p = rk.p;
+        const from = p.from !== undefined ? p.from : -1000;
+        const to = p.living ? M.NOW : (p.to !== undefined ? p.to : M.NOW);
+        const t0 = M.time.yearToT(from), t1 = Math.max(t0 + 0.004, M.time.yearToT(Math.min(to, M.NOW)));
+        const arc = (t1 - t0) * TA.SPAN * RAD;
+        const rows = Math.min(3, Math.max(1, Math.ceil((figs.length * 0.30) / Math.max(arc, 0.3))));
+        const nCol = Math.ceil(figs.length / rows);
+        const yLane = yW(S.laneY[i]);
+        const hLane = S.laneH[i];
+        cc.set(D.traditions[rk.k].color).convertSRGBToLinear();
+        const s = Math.max(0.55, Math.min(1.05, 5.5 * hLane)) * (rows > 1 ? 0.82 : 1);
+        figs.forEach((fi, j) => {
+          const row = Math.floor(j / nCol), colI = j % nCol;
+          const tt = t0 + (t1 - t0) * ((colI + 0.5 + row * 0.33) / nCol);
+          const b = TA.angleOfT(Math.min(tt, 1));
+          const y = yLane + (rows > 1 ? (row - (rows - 1) / 2) * (hLane * 0.56 / (rows - 1)) : 0);
+          const r = RAD - BEAD_OFF;
+          const x = Math.cos(b) * r, z = Math.sin(b) * r;
+          pos.push(x, y, z);
+          col.push(cc.r, cc.g, cc.b);
+          size.push(s);
+          tArr.push(Math.min(tt, 1));
+          beadWorld.push(x, y, z);
+          beadFig.push(fi);
+        });
+      });
+      const idx = new Float32Array(beadFig.length);
+      for (let i = 0; i < idx.length; i++) idx[i] = i;
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+      geo.setAttribute("color", new THREE.Float32BufferAttribute(col, 3));
+      geo.setAttribute("aSize", new THREE.Float32BufferAttribute(size, 1));
+      geo.setAttribute("aT", new THREE.Float32BufferAttribute(tArr, 1));
+      geo.setAttribute("aIdx", new THREE.BufferAttribute(idx, 1));
+      geo.computeBoundingSphere();
+      const mat = new THREE.ShaderMaterial({
+        transparent: true, depthWrite: false, fog: false, vertexColors: true,
+        uniforms: {
+          uCursorP: { value: 1.0 },                 // shares the wall's dark-ahead rule
+          uHot: { value: -1 },                      // hovered bead index
+          uOpacity: { value: 1.0 },
+          uPx: { value: H.renderer.getPixelRatio() },
+        },
+        vertexShader: `
+          attribute float aSize; attribute float aT; attribute float aIdx;
+          varying vec3 vColor; varying float vLit; varying float vHot;
+          uniform float uCursorP; uniform float uPx; uniform float uHot;
+          void main(){
+            vColor = color;
+            vLit = mix(1.0, 0.22, smoothstep(uCursorP - 0.002, uCursorP + 0.015, aT));
+            vHot = (abs(aIdx - uHot) < 0.5) ? 1.0 : 0.0;
+            vec4 mv = modelViewMatrix * vec4(position, 1.0);
+            gl_Position = projectionMatrix * mv;
+            gl_PointSize = uPx * aSize * (1.0 + vHot * 0.6) * (46.0 / max(2.0, -mv.z));
+          }`,
+        fragmentShader: `
+          varying vec3 vColor; varying float vLit; varying float vHot;
+          uniform float uOpacity;
+          void main(){
+            vec2 q = gl_PointCoord - 0.5;
+            float d = length(q);
+            if (d > 0.5) discard;
+            float core = smoothstep(0.42, 0.12, d);
+            vec3 c = vColor * (0.55 + 0.75 * core) + vec3(1.0, 0.93, 0.75) * vHot * core * 0.8;
+            gl_FragColor = vec4(c * vLit, core * (0.55 + 0.45 * vLit) * uOpacity);
+            #include <tonemapping_fragment>
+            #include <encodings_fragment>
+          }`,
+      });
+      const beads = new THREE.Points(geo, mat);
+      beads.name = "wallbeads";
+      beads.frustumCulled = false;
+      group.add(beads);
+      H._beadMat = mat;
+    })();
+
     /* the drawn door is also pickable — the way back to the room */
     const doorGrab = new THREE.Mesh(
       new THREE.PlaneGeometry(RAD * TA.DOOR_A * 0.9, H_TOPR),
@@ -359,6 +474,9 @@
     const _qY = new THREE.Quaternion(), _yAxis = new THREE.Vector3(0, 1, 0);
     function tick(dt, elapsed) {
       if (!group.visible) return;
+      // the room's fade machinery writes .opacity on materials — the bead
+      // shader reads it through its own uniform
+      if (H._beadMat) H._beadMat.uniforms.uOpacity.value = H._beadMat.opacity;
       // seals breathe
       for (let i = 0; i < rMoments.length; i++) {
         rMoments[i].dia.rotation.y += dt * 0.4;
@@ -377,6 +495,7 @@
       placeMeridian(y);
       wallMat.uniforms.uCursorP.value = SFRAC(y);
       wallMat.uniforms.uCeremony.value = (opts && opts.ceremony) ? 1.0 : 0.0;
+      if (H._beadMat) H._beadMat.uniforms.uCursorP.value = SFRAC(y);   // beads share the dark-ahead rule
     }
     setYear(M.NOW);
 
@@ -384,14 +503,13 @@
     function laneAt(worldPoint) {
       const b = Math.atan2(worldPoint.z, worldPoint.x);
       const yr = yearOfAngle(b);
-      const i = Math.round((worldPoint.y - Y0R) / LANE);
-      if (i < 0 || i >= S.ranked.length) return null;
-      if (Math.abs(worldPoint.y - (Y0R + i * LANE)) > LANE * 0.45) return null;
+      const i = S.rankAtY(worldPoint.y - Y0R + S.Y0);   // wall frame → scroll frame
+      if (i === null) return null;
       const rk = S.ranked[i], p = rk.p;
       const from = p.from !== undefined ? p.from : -1000;
       const to = p.living ? M.NOW : (p.to !== undefined ? p.to : M.NOW);
       if (yr < from - 80 || yr > to + 80) return null;
-      return { trad: rk.k, pos: posAt(b, Y0R + i * LANE, 0.3) };
+      return { trad: rk.k, pos: posAt(b, yW(S.laneY[i]), 0.3) };
     }
     function yearAt(worldPoint) {
       return yearOfAngle(Math.atan2(worldPoint.z, worldPoint.x));
@@ -400,6 +518,7 @@
     H.rotunda = {
       group, EYE, RAD, WALL_H, wallMat,
       pickables: [merGrab, doorGrab, pickWall].concat(rMoments.map(m => m.group.children.find(o => o.userData.kind === "rmoment"))),
+      beads: { world: beadWorld, fig: beadFig, mat: H._beadMat },   // the conductor picks these by screen distance
       tick, setYear, laneAt, yearAt, setStanding,
       angleOfYear, yearOfAngle,
       gyro,

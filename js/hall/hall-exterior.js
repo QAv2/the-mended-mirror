@@ -20,10 +20,18 @@
   const HALL = root.HALL = root.HALL || {};
   const TAU = Math.PI * 2;
 
-  HALL.buildExterior = function (H) {
-    const R = H.rotunda, room = H.room;
+  /* async: yields a frame between the temple's great pieces so the gate
+     stays live while the world raises, and narrates each piece to ?diag=1 */
+  HALL.buildExterior = async function (H) {
+    const room = H.room;
     const LID_Y = room.LID_Y;                 // temple floor = the lobby lid
     const WALL_R = room.WALL_R;               // the cella's inner face (lobby wall)
+    const DIAG_ = root.DIAG || { mark() {} };
+    const Y = t => {
+      DIAG_.mark("raising the temple · " + t);
+      if (H.__rt) { H.renderer.render(H.scene, H.camera); DIAG_.mark("survived render · " + t); }
+      return H.__yield ? H.__yield() : new Promise(r => requestAnimationFrame(r));
+    };
 
     /* ---------- the temple's measures (derived from the interior) ---------- */
     const DRUM_R = WALL_R + 0.85;             // outer masonry shell of the cella
@@ -50,7 +58,7 @@
     function reg(m) { EXT_MATS.push(m); return m; }
 
     const marbleSurf = HALL.surface({ base: "#cfc7b6", dark: "#a9a08e", lite: "#eae4d6", grain: 0.55, size: 1024 });
-    [marbleSurf.map, marbleSurf.bumpMap, marbleSurf.roughnessMap].forEach(t => t.repeat.set(4, 2));
+    [marbleSurf.map, marbleSurf.bumpMap, marbleSurf.roughnessMap].filter(Boolean).forEach(t => t.repeat.set(4, 2));
     const marble = reg(new THREE.MeshStandardMaterial({
       map: marbleSurf.map, bumpMap: marbleSurf.bumpMap, bumpScale: 0.02,
       roughnessMap: marbleSurf.roughnessMap, roughness: 0.62, metalness: 0.0,
@@ -59,23 +67,24 @@
     marbleFlat.bumpScale = 0.012;
 
     const rockSurf = HALL.surface({ base: "#4d473d", dark: "#332e26", lite: "#645c4d", grain: 1.3, size: 1024 });
-    [rockSurf.map, rockSurf.bumpMap, rockSurf.roughnessMap].forEach(t => t.repeat.set(5, 3));
+    [rockSurf.map, rockSurf.bumpMap, rockSurf.roughnessMap].filter(Boolean).forEach(t => t.repeat.set(5, 3));
     const rock = reg(new THREE.MeshStandardMaterial({
       map: rockSurf.map, bumpMap: rockSurf.bumpMap, bumpScale: 0.05,
       roughnessMap: rockSurf.roughnessMap, roughness: 0.95, metalness: 0.0,
       flatShading: true,
     }));
 
-    const bronze = reg(new THREE.MeshStandardMaterial({ color: 0x8a6a30, metalness: 1.0, roughness: 0.42 }));
+    
     const goldTrim = reg(new THREE.MeshStandardMaterial({
       color: HALL.COL.gold, metalness: 1, roughness: 0.3,
       emissive: HALL.COL.goldDeep, emissiveIntensity: 0.25,
     }));
 
     /* ---------- the crag and its paved crown ---------- */
+    await Y("the crag");
     (function crag() {
       const DEPTH = 32, TOP_R = 46.5, BOT_R = 60;
-      const geo = new THREE.CylinderGeometry(TOP_R, BOT_R, DEPTH, 96, 7, true);
+      const geo = new THREE.CylinderGeometry(TOP_R, BOT_R, DEPTH, HALL.segN(96, 48), 7, true);
       const p = geo.attributes.position;
       for (let i = 0; i < p.count; i++) {
         const x = p.getX(i), y = p.getY(i), z = p.getZ(i);
@@ -109,8 +118,10 @@
 
       // the esplanade — worn paving, rings and radial joints
       const c = document.createElement("canvas");
-      c.width = c.height = 1024;
+      const EP = HALL.texSize(1024, 512), EK = EP / 1024;
+      c.width = c.height = EP;
       const g = c.getContext("2d");
+      g.scale(EK, EK);   // paint in the 1024 frame at any resolution
       g.fillStyle = "#b7ac94"; g.fillRect(0, 0, 1024, 1024);
       // mottle
       for (let i = 0; i < 900; i++) {
@@ -135,7 +146,7 @@
       // ring-grid, not a fan (CircleGeometry) — fans sparkle radially in
       // motion; see the lobby lid
       const esp = new THREE.Mesh(
-        new THREE.RingGeometry(0.02, TOP_R - 0.4, 96, 12),
+        new THREE.RingGeometry(0.02, TOP_R - 0.4, HALL.segN(96, 48), 12),
         reg(new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9, metalness: 0 }))
       );
       esp.rotation.x = -Math.PI / 2;
@@ -148,17 +159,19 @@
        risers are open cylinders and treads ring-grids — a cylinder CAP is a
        triangle fan, and a fan's per-wedge UV derivatives disco-ball at a
        graze under a moving camera (see the lobby lid) */
+    await Y("the krepis");
     const steps = new THREE.Group();
+    const STEP_SEG = HALL.segN(128, 64);
     for (let i = 0; i < 3; i++) {
       const r = STYLO_R + i * STEP_W;
       const topY = LID_Y - i * STEP_H;
-      const riser = new THREE.Mesh(new THREE.CylinderGeometry(r, r, STEP_H, 128, 1, true), marble);
+      const riser = new THREE.Mesh(new THREE.CylinderGeometry(r, r, STEP_H, STEP_SEG, 1, true), marble);
       riser.position.y = topY - STEP_H / 2;
       steps.add(riser);
       // the exposed annulus only: tucked under the ring above (or, for the
       // top step, starting just past the lid's edge inside the drum cavity)
       const rIn = i === 0 ? WALL_R + 0.62 : STYLO_R + (i - 1) * STEP_W - 0.02;
-      const tread = new THREE.Mesh(new THREE.RingGeometry(rIn, r, 128, 3), marble);
+      const tread = new THREE.Mesh(new THREE.RingGeometry(rIn, r, STEP_SEG, 3), marble);
       tread.rotation.x = -Math.PI / 2;
       tread.position.y = topY;
       steps.add(tread);
@@ -166,18 +179,19 @@
     group.add(steps);
 
     /* the ambulatory floor between the drum and the colonnade edge */
-    const ambu = new THREE.Mesh(new THREE.RingGeometry(WALL_R + 0.6, STYLO_R - 0.02, 128, 3), marble);
+    const ambu = new THREE.Mesh(new THREE.RingGeometry(WALL_R + 0.6, STYLO_R - 0.02, STEP_SEG, 3), marble);
     ambu.rotation.x = -Math.PI / 2;
     ambu.position.y = LID_Y + 0.012;
     group.add(ambu);
 
     /* ---------- the colonnade: one fluted Doric column, twenty times ---------- */
+    await Y("the colonnade");
     const colParts = [];
     (function colonnade() {
       const SH_H = COL_H - 1.06;             // shaft; capital takes the rest
       const RB = 1.55, RT = 1.26, FLUTES = 20, DEPTH = 0.055;
       // fluted, tapered shaft with a whisper of entasis
-      const RAD_SEG = FLUTES * 6, H_SEG = 6;
+      const RAD_SEG = FLUTES * Math.max(3, Math.round(6 * (HALL.Q ? HALL.Q.segs : 1))), H_SEG = 6;
       const pos = [], norm = [], uv = [], idx = [];
       for (let iy = 0; iy <= H_SEG; iy++) {
         const t = iy / H_SEG;
@@ -209,7 +223,7 @@
         new THREE.Vector2(RT - 0.02, 0), new THREE.Vector2(RT + 0.06, 0.16),
         new THREE.Vector2(RT + 0.3, 0.34), new THREE.Vector2(RT + 0.52, 0.5),
         new THREE.Vector2(RT + 0.62, 0.62),
-      ], 40);
+      ], HALL.segN(40, 20));
       const abGeo = new THREE.BoxGeometry((RT + 0.68) * 2, 0.44, (RT + 0.68) * 2);
 
       const mkInst = (geo, y, alignSquare) => {
@@ -240,26 +254,30 @@
     })();
 
     /* ---------- the entablature: architrave, triglyph frieze, cornice ---------- */
+    await Y("the entablature");
     const entab = new THREE.Group();
     (function entablature() {
       const Y0 = LID_Y + COL_H;
       const ARCH_H = 1.75, FRI_H = 1.95, COR_H = 0.55, DRIP_H = 0.3;
       const R_OUT = COL_R + 1.75, R_IN = COL_R - 1.75;
+      const ESEG = HALL.segN(128, 64);
       // architrave — plain band, outer and inner faces + soffit
-      const archOut = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT, R_OUT, ARCH_H, 128, 1, true), marble);
+      const archOut = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT, R_OUT, ARCH_H, ESEG, 1, true), marble);
       archOut.position.y = Y0 + ARCH_H / 2;
-      const archIn = new THREE.Mesh(new THREE.CylinderGeometry(R_IN, R_IN, ARCH_H, 96, 1, true),
+      const archIn = new THREE.Mesh(new THREE.CylinderGeometry(R_IN, R_IN, ARCH_H, HALL.segN(96, 48), 1, true),
         reg(new THREE.MeshStandardMaterial({ map: marbleSurf.map, roughness: 0.7, metalness: 0, side: THREE.BackSide })));
       archIn.position.y = Y0 + ARCH_H / 2;
-      const soffit = new THREE.Mesh(new THREE.RingGeometry(R_IN, R_OUT, 128, 1), marble);
+      const soffit = new THREE.Mesh(new THREE.RingGeometry(R_IN, R_OUT, ESEG, 1), marble);
       soffit.rotation.x = Math.PI / 2;
       soffit.position.y = Y0 + 0.01;
       entab.add(archOut, archIn, soffit);
 
       // frieze — triglyphs and metopes painted round a band
       const c = document.createElement("canvas");
-      c.width = 4096; c.height = 160;
+      const FW = HALL.texSize(4096, 1024), FK = FW / 4096;
+      c.width = FW; c.height = Math.max(40, Math.round(160 * FK));
       const g = c.getContext("2d");
+      g.scale(FK, FK);   // paint in the 4096×160 frame at any resolution
       g.fillStyle = "#cbc2b0"; g.fillRect(0, 0, 4096, 160);
       const PAIRS = N_COL * 2;                       // one over each column, one between
       for (let i = 0; i < PAIRS; i++) {
@@ -275,18 +293,18 @@
       // taenia — a thin gold line under the frieze (the temple remembers the seams)
       g.fillStyle = "rgba(190,150,70,0.5)"; g.fillRect(0, 152, 4096, 5);
       const friTex = new THREE.CanvasTexture(c);
-      friTex.encoding = THREE.sRGBEncoding; friTex.anisotropy = 8; friTex.wrapS = THREE.RepeatWrapping;
-      const frieze = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.05, R_OUT + 0.05, FRI_H, 128, 1, true),
+      friTex.encoding = THREE.sRGBEncoding; friTex.anisotropy = HALL.Q.aniso; friTex.wrapS = THREE.RepeatWrapping;
+      const frieze = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.05, R_OUT + 0.05, FRI_H, ESEG, 1, true),
         reg(new THREE.MeshStandardMaterial({ map: friTex, roughness: 0.72, metalness: 0 })));
       frieze.position.y = Y0 + ARCH_H + FRI_H / 2;
       entab.add(frieze);
 
       // cornice + drip, then the cap the sky sees
-      const cor = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.55, R_OUT + 0.35, COR_H, 128, 1, true), marble);
+      const cor = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.55, R_OUT + 0.35, COR_H, ESEG, 1, true), marble);
       cor.position.y = Y0 + ARCH_H + FRI_H + COR_H / 2;
-      const drip = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.75, R_OUT + 0.75, DRIP_H, 128, 1, true), marble);
+      const drip = new THREE.Mesh(new THREE.CylinderGeometry(R_OUT + 0.75, R_OUT + 0.75, DRIP_H, ESEG, 1, true), marble);
       drip.position.y = Y0 + ARCH_H + FRI_H + COR_H + DRIP_H / 2;
-      const cap = new THREE.Mesh(new THREE.RingGeometry(R_IN, R_OUT + 0.75, 128, 1), marble);
+      const cap = new THREE.Mesh(new THREE.RingGeometry(R_IN, R_OUT + 0.75, ESEG, 1), marble);
       cap.rotation.x = -Math.PI / 2;
       cap.position.y = Y0 + ARCH_H + FRI_H + COR_H + DRIP_H;
       entab.add(cor, drip, cap);
@@ -297,19 +315,22 @@
 
     /* ---------- the ring roof: colonnade up to the drum ---------- */
     const ringRoof = new THREE.Mesh(
-      new THREE.CylinderGeometry(DRUM_R + 0.35, COL_R + 2.45, 3.0, 128, 1, true),
+      new THREE.CylinderGeometry(DRUM_R + 0.35, COL_R + 2.45, 3.0, HALL.segN(128, 64), 1, true),
       marble
     );
     ringRoof.position.y = entab.userData.topY + 1.5;
     group.add(ringRoof);
 
     /* ---------- the drum: the cella seen from the world ---------- */
+    await Y("the drum");
     const drumGroup = new THREE.Group();
     (function drum() {
       // coursing canvas — quiet ashlar masonry
       const c = document.createElement("canvas");
-      c.width = 2048; c.height = 512;
+      const DW = HALL.texSize(2048, 512), DK = DW / 2048;
+      c.width = DW; c.height = DW / 4;
       const g = c.getContext("2d");
+      g.scale(DK, DK);   // paint in the 2048×512 frame at any resolution
       g.fillStyle = "#c8bfae"; g.fillRect(0, 0, 2048, 512);
       for (let y = 0; y < 512; y += 46) {
         g.fillStyle = "rgba(70,62,50,0.30)"; g.fillRect(0, y, 2048, 2);
@@ -326,12 +347,12 @@
       }
       g.globalAlpha = 1;
       const tex = new THREE.CanvasTexture(c);
-      tex.encoding = THREE.sRGBEncoding; tex.anisotropy = 8; tex.wrapS = THREE.RepeatWrapping;
+      tex.encoding = THREE.sRGBEncoding; tex.anisotropy = HALL.Q.aniso; tex.wrapS = THREE.RepeatWrapping;
       const drumMat = reg(new THREE.MeshStandardMaterial({ map: tex, roughness: 0.78, metalness: 0 }));
 
       const H_DRUM = DRUM_TOP - LID_Y;
       const T0 = Math.PI + DOOR_HALF_A, TL = TAU - 2 * DOOR_HALF_A;
-      const shell = new THREE.Mesh(new THREE.CylinderGeometry(DRUM_R, DRUM_R, H_DRUM, 128, 1, true, T0, TL), drumMat);
+      const shell = new THREE.Mesh(new THREE.CylinderGeometry(DRUM_R, DRUM_R, H_DRUM, HALL.segN(128, 64), 1, true, T0, TL), drumMat);
       shell.position.y = LID_Y + H_DRUM / 2;
       drumGroup.add(shell);
       // transom — the drum continues above the door lintel
@@ -353,24 +374,25 @@
     })();
 
     /* ---------- the dome and its oculus (the sky's own door) ---------- */
+    await Y("the dome");
     const domeGroup = new THREE.Group();
     (function dome() {
       const R_D = 60, OC_R = 7.2;
       const phiEdge = Math.asin(DRUM_R / R_D), phiOc = Math.asin(OC_R / R_D);
       const yc = DRUM_TOP - R_D * Math.cos(phiEdge);
-      const cap = new THREE.Mesh(new THREE.SphereGeometry(R_D, 128, 24, 0, TAU, phiOc, phiEdge - phiOc), marble);
+      const cap = new THREE.Mesh(new THREE.SphereGeometry(R_D, HALL.segN(128, 64), HALL.segN(24, 12), 0, TAU, phiOc, phiEdge - phiOc), marble);
       cap.position.y = yc;
       domeGroup.add(cap);
       // stepped rings, the Pantheon's memory
       [0.44, 0.36, 0.27].forEach(phi => {
         const r = R_D * Math.sin(phi), y = yc + R_D * Math.cos(phi);
-        const ring = new THREE.Mesh(new THREE.CylinderGeometry(r + 0.22, r + 0.22, 0.5, 128, 1, true), marble);
+        const ring = new THREE.Mesh(new THREE.CylinderGeometry(r + 0.22, r + 0.22, 0.5, HALL.segN(128, 64), 1, true), marble);
         ring.position.y = y - 0.1;
         domeGroup.add(ring);
       });
       // the oculus collar and its gold lip — aligned over the interior's oculus
       const yOc = yc + R_D * Math.cos(phiOc);
-      const collar = new THREE.Mesh(new THREE.CylinderGeometry(OC_R, OC_R, 0.75, 96, 1, true), marble);
+      const collar = new THREE.Mesh(new THREE.CylinderGeometry(OC_R, OC_R, 0.75, HALL.segN(96, 48), 1, true), marble);
       collar.position.y = yOc + 0.2;
       const lip = new THREE.Mesh(new THREE.TorusGeometry(OC_R, 0.14, 10, 96), goldTrim);
       lip.rotation.x = Math.PI / 2;
@@ -379,7 +401,8 @@
       group.add(domeGroup);
     })();
 
-    /* ---------- the portal: jambs, lintel, bronze doors standing open ---------- */
+    /* ---------- the portal: jambs, lintel (the leaves live in hall-doors) ---------- */
+    await Y("the portal");
     const portal = new THREE.Group();
     (function portalBuild() {
       const zFace = -(DRUM_R + 0.22);                 // proud of the drum
@@ -406,26 +429,13 @@
       const sill = new THREE.Mesh(new THREE.BoxGeometry(DOOR_W + 1.2, 0.14, 2.6), marble);
       sill.position.set(0, LID_Y - 0.045, -(WALL_R + 0.35));
       portal.add(sill);
-      // bronze doors, open — they were opened for you, long ago
-      [-1, 1].forEach(s => {
-        const hinge = new THREE.Group();
-        hinge.position.set(s * (DOOR_W / 2 + 0.02), 0, -(DRUM_R - 0.18));
-        const leaf = new THREE.Mesh(new THREE.BoxGeometry(DOOR_W / 2 - 0.02, DOOR_H - 0.25, 0.13), bronze);
-        leaf.position.set(-s * (DOOR_W / 4), (DOOR_H - 0.25) / 2 + 0.05, 0);
-        hinge.add(leaf);
-        // three raised bands — the leaf remembers its making
-        [0.22, 0.5, 0.78].forEach(f => {
-          const band = new THREE.Mesh(new THREE.BoxGeometry(DOOR_W / 2 - 0.14, 0.16, 0.045), goldTrim);
-          band.position.set(-s * (DOOR_W / 4), (DOOR_H - 0.25) * f + 0.05, -0.085);
-          hinge.add(band);
-        });
-        hinge.rotation.y = s * 1.28;                   // standing open, inward
-        portal.add(hinge);
-      });
+      // the bronze leaves themselves live in hall-doors (interior-owned: they
+      // survive the porthole cut and serve as the in-room door)
       group.add(portal);
     })();
 
     /* ---------- the sea ---------- */
+    await Y("the sea");
     const oceanUniforms = {
       uTime: { value: 0 },
       uSunDir: { value: SUN_DIR.clone() },
@@ -437,7 +447,7 @@
       uOpacity: { value: 1.0 },
     };
     const ocean = new THREE.Mesh(
-      new THREE.RingGeometry(2, 660, 150, 56),
+      new THREE.RingGeometry(2, 660, HALL.segN(150, 80), HALL.segN(56, 32)),
       new THREE.ShaderMaterial({
         uniforms: oceanUniforms, fog: false,
         vertexShader: `
@@ -488,6 +498,7 @@
     group.add(ocean);
 
     /* ---------- the one sky (it persists; night is only its far side) ---------- */
+    await Y("the sky");
     const skyUniforms = {
       uSunDir: { value: SUN_DIR.clone() },
       uZen: { value: new THREE.Color(0x33506e).convertSRGBToLinear() },
@@ -497,7 +508,7 @@
       uSunI: { value: 1.0 },
     };
     const sky = new THREE.Mesh(
-      new THREE.SphereGeometry(600, 48, 24),
+      new THREE.SphereGeometry(600, HALL.segN(48, 24), HALL.segN(24, 12)),
       new THREE.ShaderMaterial({
         uniforms: skyUniforms, side: THREE.BackSide, fog: false, depthWrite: false,
         vertexShader: `

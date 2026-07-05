@@ -17,46 +17,49 @@
   HALL.start = async function () {
     const H = {};
     root.H = H;   // debugging handle
+    const T0 = performance.now();
 
-    /* ---------- build everything, narrating the splash ---------- */
+    const q0 = new URLSearchParams(location.search);
+    const shot0 = q0.get("shot");
+
+    /* ---------- build the LOBBY first, narrating the splash ----------
+       The gate opens on a bare room: the model's math, the void, the shell,
+       the plinth. The world outside and the holodeck exhibits raise BEHIND
+       the title (or on demand) — the visitor reads a kicker, not a spinner. */
     const gateStatus = document.getElementById("gate-enter");
+    let gateNarrates = true;
+    /* ?rt=1 — render-trace: force a real frame after every build stage so a
+       renderer that dies in first paint names its killer in the diag/title.
+       ?render=0 — headless logic probes: run the whole hall (picking, panels,
+       stations, chunks) without ever submitting a GL frame — SwiftShader on
+       the dev box dies mid-frame at catalog scale, and the probes only need
+       the DOM and the math. Visitors never see either param. */
+    H.__rt = q0.get("rt") === "1";
+    const RENDER_OFF = q0.get("render") === "0";
+    /* one yield primitive for every deferred builder: real frames when we
+       paint; plain timeouts when we don't (headless starves rAF the moment
+       nothing invalidates the canvas) */
+    const yieldFrame = RENDER_OFF
+      ? () => new Promise(r => setTimeout(r, 0))
+      : () => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+    H.__yield = yieldFrame;
     const stage = t => {
-      if (gateStatus) gateStatus.textContent = t;
-      return new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+      DIAG.mark(t);
+      if (gateNarrates && gateStatus) gateStatus.textContent = t;
+      if (H.__rt && H.renderer) { H.renderer.render(H.scene, H.camera); DIAG.mark("survived render · " + t); }
+      return yieldFrame();
     };
     await stage("laying the mirror…");
     H.model = HALL.buildModel(root.MIRROR_DATA);
     await stage("opening the void…");
     HALL.buildScene(H);
-    await stage("cutting the shards…");
-    HALL.buildMater(H);
-    await stage("raising the seams…");
-    HALL.buildFigures(H);
-    await stage("unrolling the scroll…");
-    HALL.buildScroll(H);
-    await stage("bending the scroll into the wall…");
-    HALL.buildRotunda(H);
+    HALL.buildScroll(H);            // the layout brain — pure math, instant
+    HALL.dims(H);                   // the interior's shared measures
     await stage("building the room…");
     HALL.buildRoom(H);
     await stage("setting the plinth…");
     HALL.buildThreshold(H);
-    /* the world outside — skipped for bare-interior shots; if it fails to
-       build, the gate stands alone and the hall opens exactly as before */
-    const q0 = new URLSearchParams(location.search);
-    const shot0 = q0.get("shot");
-    if (!shot0 || shot0 === "exterior" || shot0 === "approach") {
-      try {
-        await stage("raising the temple…");
-        HALL.buildExterior(H);
-      } catch (e) {
-        console.error("the exterior failed to build — falling back to the gate", e);
-        ["exterior", "sky"].forEach(n => {
-          const o = H.scene.getObjectByName(n);
-          if (o) H.scene.remove(o);
-        });
-        H.exterior = null;
-      }
-    }
+    HALL.buildDoors(H);              // the bronze pair on the prophesied bearing
     HALL.buildUI(H);
 
     const M = H.model, D = M.DATA, TA = M.timeAngle;
@@ -80,10 +83,67 @@
     let station = "room";
     let visitedInstrument = false;
 
-    /* the approach needs the lobby pose as its landing contract */
-    if (H.exterior) {
-      try { HALL.buildApproach(H, POSES.room); }
-      catch (e) { console.error("the approach failed to build", e); H.approach = null; }
+    /* ---------- the deferred builds ----------
+       The world outside (temple, sea, sky) and the holodeck exhibits (mirror,
+       figures, strata wall) raise behind the title. Demand paths — a relic
+       clicked, a station key, shot mode — call ensureHolo() and get the same
+       builders synchronously; each piece builds exactly once. */
+    const holoSteps = [
+      ["cutting the shards…", () => H.mater, () => HALL.buildMater(H)],
+      ["raising the seams…", () => H.figures, () => HALL.buildFigures(H)],
+      ["bending the scroll into the wall…", () => H.rotunda, () => HALL.buildRotunda(H)],
+    ];
+    let holoInited = false;
+    function postHolo() {
+      if (holoInited || !H.mater || !H.figures || !H.rotunda) return;
+      holoInited = true;
+      // the lobby veils what just materialized
+      if (!H.room.holo) [H.mater.group, H.figures.group, H.rotunda.group].forEach(g => g.visible = false);
+      // rete fade base opacities (the ceremony dims the rete at its close)
+      H.figures.rete.traverse(o => {
+        if (o.material && o.material.opacity !== undefined) reteBase.push({ m: o.material, o: o.material.opacity, t: o.material.transparent });
+      });
+      applyYear(true);
+      DIAG.mark("holodeck ready (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
+    }
+    function ensureHolo() {
+      for (const [label, has, build] of holoSteps) if (!has()) { DIAG.mark(label); build(); }
+      postHolo();
+    }
+    H.ensureHolo = ensureHolo;
+    let holoKicked = false;
+    async function buildHoloBehind() {
+      if (holoKicked) return;
+      holoKicked = true;
+      for (const [label, has, build] of holoSteps) {
+        while ((H.approach && H.approach.playing) || H.rig.locked)
+          await new Promise(r => setTimeout(r, 350));          // never hitch a flight
+        if (!has()) { DIAG.mark(label); build(); }
+        await yieldFrame();
+        await new Promise(r => setTimeout(r, 50));
+      }
+      postHolo();
+    }
+
+    /* the world outside — if it fails to build, the gate stands alone and
+       the hall opens exactly as before */
+    let worldPromise = null;
+    function buildWorld() {
+      if (!worldPromise) worldPromise = (async () => {
+        try {
+          await HALL.buildExterior(H);
+          HALL.buildApproach(H, POSES.room);   // the lobby pose is the landing contract
+        } catch (e) {
+          console.error("the exterior failed to build — the gate stands alone", e);
+          ["exterior", "sky"].forEach(n => {
+            const o = H.scene.getObjectByName(n);
+            if (o) H.scene.remove(o);
+          });
+          H.exterior = null;
+          H.approach = null;
+        }
+      })();
+      return worldPromise;
     }
 
     function clampsFor(name) {
@@ -143,6 +203,7 @@
         H.ui.setStation("instrument");
         leavePano();
         clampsFor("instrument");
+        ensureHolo();
         H.room.showInstrument(true);
         H.room.execute();
         rig.flyTo(POSES.instrument, dur || 3.6, () => {
@@ -158,6 +219,7 @@
       if (name === "scroll") {
         station = "scroll";
         H.ui.setStation("scroll");
+        ensureHolo();
         H.room.showInstrument(false);     // stand in the ages; the floor astrolabe would occlude the perimeter
         H.room.execute();
         const eye = H.rotunda.EYE.clone();
@@ -181,9 +243,8 @@
     function applyYear(force, opts) {
       if (!force && lastAppliedYear !== null && Math.abs(H.year - lastAppliedYear) < 0.5) return;
       lastAppliedYear = H.year;
-      H.mater.applyYear(H.year, opts);
-      H.figures.applyYear(H.year);
-      H.mater.setRuleYear(H.year);
+      if (H.mater) { H.mater.applyYear(H.year, opts); H.mater.setRuleYear(H.year); }
+      if (H.figures) H.figures.applyYear(H.year);
       if (H.rotunda) H.rotunda.setYear(H.year, opts);
       H.ui.setYear(H.year);
     }
@@ -205,7 +266,7 @@
       cer.active = false;
       H.year = M.NOW;
       applyYear(true);
-      H.figures.arcMat.uniforms.uOpacity.value = 1.0;
+      if (H.figures) H.figures.arcMat.uniforms.uOpacity.value = 1.0;
       setReteFade(1);
       H.ui.ceremonyLine("", 1);               // clear the current line
       H.ui.hint(HINTS[station]);
@@ -233,30 +294,29 @@
     }
     function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
 
-    /* rete fade helper (store base opacities once) */
+    /* rete fade helper (base opacities stored when the rete builds — postHolo) */
     const reteBase = [];
-    H.figures.rete.traverse(o => {
-      if (o.material && o.material.opacity !== undefined) reteBase.push({ m: o.material, o: o.material.opacity, t: o.material.transparent });
-    });
     function setReteFade(k) {
+      if (!H.figures) return;
       for (const r of reteBase) {
         r.m.transparent = true;
         r.m.opacity = r.o * k;
       }
       H.figures.rete.visible = k > 0.005;
     }
-    setReteFade(1);
 
     /* ---------- selection ---------- */
     const sel = { type: null, id: null };
 
     function clearSelection() {
       sel.type = null; sel.id = null;
-      H.figures.figSel.fill(0); H.figures.figDim.fill(0); H.figures.figHover.fill(0);
-      H.mater.selV.fill(0); H.mater.hoverV.fill(0); H.mater.dimV.value = 0;
+      if (H.figures) {
+        H.figures.figSel.fill(0); H.figures.figDim.fill(0); H.figures.figHover.fill(0);
+        H.figures.overlay.clear(); H.figures.threads.clear();
+        H.figures.arcMat.uniforms.uOpacity.value = H.room.holo ? 1.0 : 0.0;
+      }
+      if (H.mater) { H.mater.selV.fill(0); H.mater.hoverV.fill(0); H.mater.dimV.value = 0; }
       lastHoverShard = -1; lastHoverFig = -1;
-      H.figures.overlay.clear(); H.figures.threads.clear();
-      H.figures.arcMat.uniforms.uOpacity.value = H.room.holo ? 1.0 : 0.0;
       applyYear(true);
     }
     H.onPanelClose = clearSelection;
@@ -338,6 +398,7 @@
       H.ui.setStation("instrument");
       leavePano();
       clampsFor("instrument");
+      ensureHolo();
       H.room.showInstrument(true);
       H.room.execute();
     }
@@ -368,10 +429,37 @@
 
     /* ---------- picking ---------- */
     const raycaster = new THREE.Raycaster();
-    raycaster.params.Points = { threshold: 0.55 };
     const ndc = new THREE.Vector2();
     const planeY0 = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0);
     const v3 = new THREE.Vector3();
+
+    /* screen-space point picking — at 4,106 marks a world-space ray threshold
+       turns dense shards into a lottery; the eye picks by PROJECTED distance,
+       so the conductor does too. One linear pass, only on pointer moves. */
+    const _pj = new THREE.Vector3();
+    function pickPoints(flat, clientX, clientY, maxPx, accept) {
+      let best = -1, bestD = maxPx * maxPx;
+      const w2 = innerWidth / 2, h2 = innerHeight / 2;
+      for (let i = 0, n = flat.length; i < n; i += 3) {
+        _pj.set(flat[i], flat[i + 1], flat[i + 2]).project(H.camera);
+        if (_pj.z > 1 || _pj.z < 0) continue;               // behind the eye / past far
+        const dx = (_pj.x * w2 + w2) - clientX, dy = (-_pj.y * h2 + h2) - clientY;
+        const d = dx * dx + dy * dy;
+        if (d < bestD) {
+          const idx = i / 3;
+          if (!accept || accept(idx)) { bestD = d; best = idx; }
+        }
+      }
+      return best;
+    }
+    let figWorld = null;   // flat xyz of every figure anchor (floor exhibit)
+    function figWorldFlat() {
+      if (!figWorld) {
+        figWorld = new Float32Array(M.figAnchor.length * 3);
+        M.figAnchor.forEach((a, i) => { figWorld[i * 3] = a.x; figWorld[i * 3 + 1] = a.y; figWorld[i * 3 + 2] = a.z; });
+      }
+      return figWorld;
+    }
 
     function shardAtPlane(x, z) {
       const r = Math.hypot(x, z);
@@ -398,11 +486,13 @@
     function pick() {
       raycaster.setFromCamera(ndc, H.camera);
 
-      /* the lobby: only the relics live */
+      /* the lobby: the relics — and the sealed bronze pair — live */
       if (!H.room.holo) {
-        const hits = raycaster.intersectObjects(H.threshold.pickables, false);
+        const lobbyObjs = H.threshold.pickables.concat(H.doors ? H.doors.pickables : []);
+        const hits = raycaster.intersectObjects(lobbyObjs, false);
         for (const h of hits) {
           if (h.object.userData.kind === "relic") return { kind: "relic", which: h.object.userData.which, obj: h.object };
+          if (h.object.userData.kind === "doors" && h.object.visible) return { kind: "doors" };
         }
         return null;
       }
@@ -420,6 +510,9 @@
         }
         if (mer) return { kind: "rmeridian" };
         if (seal) return { kind: "rmoment", edge: seal.object.userData.edge, obj: seal.object };
+        // a bead outranks the lane behind it — the figure is the finer read
+        const bi = pickPoints(H.rotunda.beads.world, H.pointer.x, H.pointer.y, 14);
+        if (bi >= 0) return { kind: "rbead", fi: H.rotunda.beads.fig[bi], bead: bi };
         if (door) return { kind: "rdoor" };
         if (wall) {
           const lane = H.rotunda.laneAt(wall.point);
@@ -432,16 +525,14 @@
       /* the executed room: floor exhibit + wall exhibit together */
       const objs = [H.mater.grab];
       H.figures.joints.forEach(j => objs.push(j.mesh));
-      objs.push(H.figures.points);
       H.rotunda.pickables.forEach(o => objs.push(o));
       const hits = raycaster.intersectObjects(objs.filter(Boolean), false);
-      let grabHit = null, jointHit = null, figHit = null;
+      let grabHit = null, jointHit = null;
       let mer = null, seal = null, door = null, wall = null;
       for (const h of hits) {
         const kind = h.object.userData.kind;
         if (kind === "rule" && !grabHit) grabHit = h;
         else if (kind === "joint" && !jointHit) jointHit = h;
-        else if (h.object === H.figures.points && !figHit) figHit = h;
         else if (kind === "rmeridian" && !mer) mer = h;
         else if (kind === "rmoment" && !seal) seal = h;
         else if (kind === "rdoor" && !door) door = h;
@@ -450,8 +541,10 @@
       if (grabHit) return { kind: "rule" };
       if (mer) return { kind: "rmeridian" };
       if (jointHit) return { kind: "joint", idx: jointHit.object.userData.joint, obj: jointHit.object };
-      if (figHit && figHit.index !== undefined && H.figures.isLit(figHit.index)) {
-        return { kind: "figure", idx: figHit.index };
+      // figures pick by projected screen distance — lit marks only
+      if (H.figures.group.visible) {
+        const fi = pickPoints(figWorldFlat(), H.pointer.x, H.pointer.y, 15, i => H.figures.isLit(i));
+        if (fi >= 0) return { kind: "figure", idx: fi };
       }
       if (seal) return { kind: "rmoment", edge: seal.object.userData.edge, obj: seal.object };
       // the floor: analytic mater pick (shards, pool, rim calendar)
@@ -470,7 +563,7 @@
     }
 
     /* ---------- hover ---------- */
-    let hover = null, hoverDirty = false, lastHoverShard = -1, lastHoverFig = -1;
+    let hover = null, hoverDirty = false, lastHoverShard = -1, lastHoverFig = -1, lastHoverBead = -1;
     H.onPointerMove = () => { hoverDirty = true; };
     function applyHover() {
       if (!hoverDirty || !entered || H.rig.locked || H.pointer.down) return;
@@ -486,6 +579,10 @@
       if (lastHoverFig >= 0 && (!h || h.kind !== "figure" || h.idx !== lastHoverFig)) {
         H.figures.figHover[lastHoverFig] = 0;
         lastHoverFig = -1; applyYear(true);
+      }
+      if (lastHoverBead >= 0 && (!h || h.kind !== "rbead" || h.bead !== lastHoverBead)) {
+        if (H.rotunda) H.rotunda.beads.mat.uniforms.uHot.value = -1;
+        lastHoverBead = -1;
       }
       document.body.style.cursor = h ? "pointer" : "default";
       if (!h) { H.ui.setHover(null); return; }
@@ -515,10 +612,24 @@
       } else if (h.kind === "relic") {
         const p = new THREE.Vector3(); h.obj.getWorldPosition(p); p.y += 0.55;
         H.ui.setHover(p, h.obj.userData.label, h.obj.userData.cap);
+      } else if (h.kind === "doors") {
+        const p = new THREE.Vector3(0, 5.4, -(H.dims.RAD - 2));
+        H.ui.setHover(p, "the bronze doors", H.doors.openK > 0.5
+          ? "the night stands beyond — click to seal them"
+          : "the way the world was — click to open");
       } else if (h.kind === "pool") {
         H.ui.setHover(new THREE.Vector3(0, 0.6, 0), "the one face", "click to mend the mirror again");
       } else if (h.kind === "rule" || h.kind === "rmeridian") {
         H.ui.setHover(null);
+      } else if (h.kind === "rbead") {
+        const f = D.figures[h.fi];
+        if (HALL.chunks) HALL.chunks.prefetch(f.tradition);
+        const t = D.traditions[f.tradition];
+        const w = H.rotunda.beads.world;
+        H.rotunda.beads.mat.uniforms.uHot.value = h.bead;
+        lastHoverBead = h.bead;
+        H.ui.setHover(new THREE.Vector3(w[h.bead * 3], w[h.bead * 3 + 1] + 0.28, w[h.bead * 3 + 2]),
+          f.name, (t ? t.name : "") + " · " + (f.kind || ""), t ? t.color : undefined);
       } else if (h.kind === "rlane") {
         if (HALL.chunks) HALL.chunks.prefetch(h.trad);
         const t = D.traditions[h.trad];
@@ -578,6 +689,9 @@
       }
       if (h.kind === "relic") {
         goStation(h.which === "astrolabe" ? "instrument" : "scroll");
+      } else if (h.kind === "doors") {
+        // the sealed pair opens onto the night the crossing left behind
+        H.doors.setOpen(H.doors.openK > 0.5 ? 0 : 1, 2.6);
       } else if (h.kind === "figure") {
         selectFigure(h.idx);
         const a = M.figAnchor[h.idx];
@@ -591,6 +705,8 @@
       } else if (h.kind === "rim") {
         H.year = TA.yearOfAngle(h.theta);
         applyYear(true);
+      } else if (h.kind === "rbead") {
+        selectFigure(h.fi);      // the panel opens; standing in the scroll, no flight
       } else if (h.kind === "rlane") {
         H.ui.openTradition(h.trad);
       } else if (h.kind === "rmoment") {
@@ -639,6 +755,8 @@
       if (!f && !s && !v) return;
       const rig = H.rig;
       const spd = (rig.pano ? 7.5 : 12) * dt;                  // units / second
+      // the rise scales with the wall: the top of the ages stays ~4.5s away
+      const vspd = Math.max(rig.pano ? 7.5 : 12, H.dims.WALL_H / 4.5) * dt;
       // horizontal move along the camera's forward & right, flattened to the floor
       _wf.setFromMatrixColumn(H.camera.matrixWorld, 2).multiplyScalar(-1); _wf.y = 0;
       _wr.setFromMatrixColumn(H.camera.matrixWorld, 0); _wr.y = 0;
@@ -647,18 +765,18 @@
       _wm.set(0, 0, 0).addScaledVector(_wf, f).addScaledVector(_wr, s);
       if (_wm.lengthSq() > 1) _wm.normalize();                 // no diagonal speed-up (horizontal only)
       _wm.multiplyScalar(spd);
-      const vstep = v * spd;                                   // vertical is its own axis (Q/E · PageUp/Dn)
+      const vstep = v * vspd;                                  // vertical is its own axis (Q/E · PageUp/Dn)
       if (rig.pano) {
         const e = rig.pano.eye;
         e.x += _wm.x; e.z += _wm.z; e.y += vstep;
-        const maxR = H.rotunda.RAD - 1.3, r = Math.hypot(e.x, e.z);
+        const maxR = H.dims.RAD - 1.3, r = Math.hypot(e.x, e.z);
         if (r > maxR) { const q = maxR / r; e.x *= q; e.z *= q; }              // stay inside the wall
-        e.y = Math.max(1.0, Math.min(H.rotunda.WALL_H - 1.5, e.y));            // rise to the newest shards up top
+        e.y = Math.max(1.0, Math.min(H.dims.WALL_H - 1.5, e.y));               // rise to the newest shards up top
       } else {
         rig.dTarget.x += _wm.x; rig.dTarget.z += _wm.z; rig.dTarget.y += vstep;
-        const lim = (H.rotunda ? H.rotunda.RAD : 30) - 3, r = Math.hypot(rig.dTarget.x, rig.dTarget.z);
+        const lim = H.dims.RAD - 3, r = Math.hypot(rig.dTarget.x, rig.dTarget.z);
         if (r > lim) { const q = lim / r; rig.dTarget.x *= q; rig.dTarget.z *= q; }
-        rig.dTarget.y = Math.max(0.2, Math.min((H.rotunda ? H.rotunda.WALL_H : 30) - 1, rig.dTarget.y));
+        rig.dTarget.y = Math.max(0.2, Math.min(H.dims.WALL_H - 1, rig.dTarget.y));
         rig.clampGoals();
       }
     }
@@ -669,8 +787,9 @@
     let entered = false;
     /* ?inspect=exterior — the reviewer's seat: straight onto the daylit
        temple, free camera, no gate (snap.py's way to circle the build) */
-    const INSPECT = !shot0 && !!H.exterior && q0.get("inspect") === "exterior";
-    const INTRO = !!(H.exterior && H.approach) && !shot0 && !INSPECT && q0.get("intro") !== "0";
+    const INSPECT_WANT = !shot0 && q0.get("inspect") === "exterior";
+    const INTRO_WANT = !shot0 && !INSPECT_WANT && q0.get("intro") !== "0";
+    let INTRO = false;   // upgraded the moment the world lands (if unentered)
 
     /* the one arrival — the approach's ending, its skip, and ?intro=0 all
        leave the visitor here, and the interior cannot tell which road it was */
@@ -682,21 +801,14 @@
       try { localStorage.setItem("mm-approached", "1"); } catch (e) { /* private mode */ }
     }
 
-    if (INSPECT) {
-      gate.classList.add("hidden");
+    /* the world landed while the title still holds: the gate thins to a
+       vignette over the daylit temple and *begin* departs from wherever the
+       visitor carries the orbit */
+    function upgradeToIntro() {
+      INTRO = true;
       H.env.setDay();
       H.exterior.setPorthole(false);
       H.threshold.setSunk();
-      clampsFor("exterior");
-      seatRig(POSES.exterior);
-      H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
-    } else if (INTRO) {
-      H.env.setDay();
-      H.exterior.setPorthole(false);
-      H.threshold.setSunk();
-      /* the title floats over the living world: the gate thins to a vignette
-         (pointer events fall through it) and the visitor holds the orbit from
-         the first frame — *begin* departs from wherever they carried it */
       gate.classList.add("over-world");
       clampsFor("exterior");
       seatRig(POSES.exterior);
@@ -713,41 +825,89 @@
           entered = true;
           gate.classList.add("hidden");
           H.approach.play(arrive, true);
+          buildHoloBehind();
         });
         gate.appendChild(sk);
       }
-    } else {
-      if (H.exterior) H.env.toInterior(1);   // ?intro=0: night already fallen
-      enterBtn.textContent = "enter the room";
     }
-    enterBtn.classList.add("ready");
-    gate.addEventListener("click", () => {
-      if (entered) return;
-      entered = true;
-      gate.classList.add("hidden");
-      if (INTRO) { H.approach.play(arrive); return; }
-      // arrival: a long slow settle down toward the plinth
-      H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
-      H.rig.sph.copy(H.rig.dSph);
-      H.rig.target.set(0, 1.3, 0); H.rig.dTarget.copy(H.rig.target);
-      clampsFor("room");
-      H.rig.flyTo(POSES.room, 4.6, () => H.ui.hint(HINTS.room));
-      H.ui.setStation("room");
-    });
+
+    if (INSPECT_WANT) await buildWorld();       // the reviewer's seat wants the world NOW
+    if (!shot0) {
+      if (INSPECT_WANT && H.exterior) {
+        gateNarrates = false;
+        gate.classList.add("hidden");
+        H.env.setDay();
+        H.exterior.setPorthole(false);
+        H.threshold.setSunk();
+        clampsFor("exterior");
+        seatRig(POSES.exterior);
+        H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
+        buildHoloBehind();
+      } else {
+        /* the gate opens on the bare lobby, enterable NOW; the world raises
+           behind the title and upgrades the gate to the approach when ready */
+        gateNarrates = false;
+        enterBtn.textContent = "enter the room";
+        enterBtn.classList.add("ready");
+        DIAG.mark("gate interactive (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
+        buildWorld().then(() => {
+          if (H.exterior && !entered && INTRO_WANT && H.approach) {
+            upgradeToIntro();
+          } else if (H.exterior) {
+            /* entered already, or ?intro=0: night has fallen; the temple
+               waits outside the door exactly as the lobby expects */
+            H.exterior.setNight(1);
+            H.exterior.setPorthole(true);
+            H.exterior.fade(1);
+            H.env.toInterior(1);
+          }
+        }).then(() => buildHoloBehind());
+      }
+      gate.addEventListener("click", () => {
+        if (entered) return;
+        entered = true;
+        gate.classList.add("hidden");
+        if (INTRO && H.approach) { H.approach.play(arrive); buildHoloBehind(); return; }
+        // arrival: a long slow settle down toward the plinth
+        H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
+        H.rig.sph.copy(H.rig.dSph);
+        H.rig.target.set(0, 1.3, 0); H.rig.dTarget.copy(H.rig.target);
+        clampsFor("room");
+        H.rig.flyTo(POSES.room, 4.6, () => H.ui.hint(HINTS.room));
+        H.ui.setStation("room");
+        buildHoloBehind();
+      });
+    }
 
     /* ---------- shot mode (headless review) ----------
-       hall.html?shot=room|instrument|scroll[&year=][&r=&phi=&th=][&selShard=…] */
-    (function () {
-      const q = new URLSearchParams(location.search);
-      let shot = q.get("shot");
-      if (!shot) return;
+       hall.html?shot=room|instrument|scroll[&year=][&r=&phi=&th=][&selShard=…]
+       Deterministic: the shot builds what it shows, synchronously. */
+    if (shot0) {
+      const q = q0;
+      let shot = shot0;
       if (shot === "threshold") shot = "room";
       if (shot === "rotunda") shot = "scroll";
+      if (shot === "exterior" || shot === "approach" || shot === "doors") await buildWorld();
+      ensureHolo();
       entered = true;
       visitedInstrument = true;
       gate.classList.add("hidden");
       const rig = H.rig;
-      if ((shot === "exterior" || shot === "approach") && H.approach) {
+      if (shot === "doors" && H.exterior) {
+        /* the sealed pair from outside — the review seat for the GLB relief */
+        H.room.setInstant("lobby");
+        station = "room";
+        H.env.setDay();
+        H.exterior.setPorthole(false);
+        H.threshold.setRisen();
+        if (H.doors) H.doors.apply(0);
+        rig.dTarget.set(0, 4.6, -31); rig.target.copy(rig.dTarget);
+        rig.dSph.radius = +q.get("r") || 15;
+        rig.dSph.phi = +q.get("phi") || 1.32;
+        rig.dSph.theta = q.get("th") !== null ? +q.get("th") : Math.PI;
+        rig.sph.copy(rig.dSph);
+        H.ui.setStation("room");
+      } else if ((shot === "exterior" || shot === "approach") && H.approach) {
         // the temple in daylight (?shot=exterior), or the flight scrubbed to
         // any moment (?shot=approach&k=0..1) — for the screenshot harness
         H.room.setInstant("lobby");
@@ -786,7 +946,7 @@
       if (q.get("selShard")) selectShard(+q.get("selShard"));
       if (q.get("selFig")) selectFigure(+q.get("selFig"));
       if (q.get("selJoint")) selectJoint(+q.get("selJoint"));
-    })();
+    }
 
     /* ---------- loop ---------- */
     const clock = new THREE.Clock();
@@ -799,17 +959,22 @@
       H.rig.update(dt);
       if (H.approach) H.approach.tick(dt, elapsed);   // after the rig: last hand on the camera wins
       stepCeremony(dt);
-      H.mater.tick(elapsed);
-      H.figures.tick(elapsed, dt);
+      if (H.mater) H.mater.tick(elapsed);
+      if (H.figures) H.figures.tick(elapsed, dt);
       H.threshold.tick(dt);
-      H.rotunda.tick(dt, elapsed);
+      if (H.rotunda) H.rotunda.tick(dt, elapsed);
       if (H.exterior) H.exterior.tick(dt, elapsed);
       if (H.dustMat) H.dustMat.uniforms.uTime.value = elapsed;
       if (H.shaftMat) H.shaftMat.uniforms.uTime.value = elapsed;
       applyHover();
       H.ui.tickHover();
-      H.renderer.render(H.scene, H.camera);
-      requestAnimationFrame(frame);
+      if (RENDER_OFF) {
+        H.camera.updateMatrixWorld();                   // projections stay honest without GL
+        setTimeout(frame, 16);                          // rAF starves when nothing paints
+      } else {
+        H.renderer.render(H.scene, H.camera);
+        requestAnimationFrame(frame);
+      }
     }
     frame();
   };

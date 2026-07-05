@@ -86,7 +86,9 @@
     function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
     const envK = t => smooth(4.4 * K, 6.8 * K, t);
     const fovAt = t => 58 + 5.5 * (smooth(4.0 * K, 5.4 * K, t) - smooth(5.6 * K, 7.8 * K, t));
-    const PLINTH_T = 7.6 * K, PORTHOLE_T = 8.4 * K;
+    /* the world is struck BEHIND the closing doors (P4): the leaves are most
+       of the way shut before the porthole cut — the doors motivate the cut */
+    const PLINTH_T = 7.6 * K, PORTHOLE_T = 9.2 * K;
 
     /* ---------- state ---------- */
     let mode = "idle";            // idle | play | seek | done
@@ -116,6 +118,7 @@
       const f = fovAt(t);
       if (Math.abs(H.camera.fov - f) > 0.01) { H.camera.fov = f; H.camera.updateProjectionMatrix(); }
       H.env.toInterior(envK(t));
+      if (H.doors) H.doors.drive(t, K);   // leaves swing open ahead, close behind
       if (live && mode === "play") {
         if (!plinthFired && t >= PLINTH_T) { plinthFired = true; H.threshold.rise(2.3 * K); }
         if (!portholeDone && t >= PORTHOLE_T) { portholeDone = true; H.exterior.setPorthole(true); }
