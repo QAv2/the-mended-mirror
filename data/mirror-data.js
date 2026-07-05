@@ -274,12 +274,12 @@ window.MIRROR_DATA = {
       "region": "Eastern Europe",
       "color": "#cf6b52",
       "period": {
-        "from": -500,
-        "to": 1100,
-        "peak": 800,
+        "from": 500,
+        "to": 1200,
+        "peak": 980,
         "living": false,
         "certainty": "attested",
-        "note": "Rooted earlier; attested late; Christianization of Rus 988."
+        "note": "Rooted earlier; attested late; Christianization of Rus 988. [span verified vs scholarship 2026-07-04]"
       }
     },
     "yoruba": {
@@ -302,10 +302,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -300,
         "to": 2026,
-        "peak": 712,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "Yayoi kami-roots; codified (Kojiki 712); living."
+        "note": "Yayoi kami-roots; codified (Kojiki 712); living. [span verified vs scholarship 2026-07-04]"
       }
     },
     "mesoamerican": {
@@ -354,10 +354,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1200,
         "to": 2026,
-        "peak": 30,
+        "peak": 2000,
         "living": true,
         "certainty": "attested",
-        "note": "Composite: Israelite Yahwism → Judaism / Christianity / Islam. Deserves its own splitting/deepening pass."
+        "note": "Composite: Israelite Yahwism → Judaism / Christianity / Islam. Deserves its own splitting/deepening pass. [span verified vs scholarship 2026-07-04]"
       }
     },
     "castaneda": {
@@ -393,9 +393,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -50000,
         "to": 2026,
+        "peak": 1700,
         "living": true,
         "certainty": "deep",
-        "note": "The Dreaming — among the oldest continuous living cultures on Earth (~50,000+ yrs)."
+        "note": "The Dreaming — among the oldest continuous living cultures on Earth (~50,000+ yrs). [span verified vs scholarship 2026-07-04]"
       }
     },
     "ainu": {
@@ -403,12 +404,12 @@ window.MIRROR_DATA = {
       "region": "Hokkaidō & Sakhalin",
       "color": "#c75f9a",
       "period": {
-        "from": -500,
+        "from": 1200,
         "to": 2026,
         "peak": 1600,
         "living": true,
         "certainty": "attested",
-        "note": "Jōmon-rooted; Ainu culture proper from ~13th c.; living, with revival."
+        "note": "Jōmon-rooted; Ainu culture proper from ~13th c.; living, with revival. [span verified vs scholarship 2026-07-04]"
       }
     },
     "akan": {
@@ -431,10 +432,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 859,
         "to": 2026,
-        "peak": 1325,
+        "peak": 2000,
         "living": true,
         "certainty": "attested",
-        "note": "the Ali-Muhammad-Salman trinity; metempsychosis; secret rites (auto-dated; refine later)"
+        "note": "the Ali-Muhammad-Salman trinity; metempsychosis; secret rites [span verified vs scholarship 2026-07-04]"
       }
     },
     "alchemy": {
@@ -444,10 +445,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -300,
         "to": 2026,
-        "peak": 630,
+        "peak": 1600,
         "living": true,
         "certainty": "attested",
-        "note": "the Magnum Opus; the Philosopher's Stone; nigredo→albedo→rubedo (auto-dated; refine later)"
+        "note": "the Magnum Opus; the Philosopher's Stone; nigredo→albedo→rubedo [span verified vs scholarship 2026-07-04]"
       }
     },
     "alevism": {
@@ -470,10 +471,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -2000,
         "to": 2026,
-        "peak": -390,
+        "peak": 1400,
         "living": true,
         "certainty": "attested",
-        "note": "Omama & the xapiri; the ayahuasca icaros & kené patterns; the Sun-Father's Yuruparí order (auto-dated; refine later)"
+        "note": "Omama & the xapiri; the ayahuasca icaros & kené patterns; the Sun-Father's Yuruparí order [span verified vs scholarship 2026-07-04]"
       }
     },
     "andean-pre-inca": {
@@ -482,11 +483,11 @@ window.MIRROR_DATA = {
       "color": "#5ab87a",
       "period": {
         "from": -1200,
-        "to": -700,
-        "peak": -1000,
+        "to": 1000,
+        "peak": 600,
         "living": false,
         "certainty": "attested",
-        "note": "the Chavín Lanzón Staff-God; the Moche 'Decapitator' Ai-Apaec; the Tiwanaku Gateway-of-the-Sun (Viracocha prot (auto-dated; refine later)"
+        "note": "the Chavín Lanzón Staff-God; the Moche 'Decapitator' Ai-Apaec; the Tiwanaku Gateway-of-the-Sun (Viracocha prot [span verified vs scholarship 2026-07-04]"
       }
     },
     "andean": {
@@ -509,10 +510,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1500,
         "to": 2026,
-        "peak": -90,
+        "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "anito & diwata spirits; Bathala; the babaylan shaman-priestess (auto-dated; refine later)"
+        "note": "anito & diwata spirits; Bathala; the babaylan shaman-priestess [span verified vs scholarship 2026-07-04]"
       }
     },
     "anthroposophy": {
@@ -573,11 +574,11 @@ window.MIRROR_DATA = {
       "color": "#5ab87a",
       "period": {
         "from": 1325,
-        "to": 1825,
-        "peak": 1525,
+        "to": 1521,
+        "peak": 1500,
         "living": false,
         "certainty": "attested",
-        "note": "Huitzilopochtli demanding blood to forestall the Fifth Sun's collapse (auto-dated; refine later)"
+        "note": "Huitzilopochtli demanding blood to forestall the Fifth Sun's collapse [span verified vs scholarship 2026-07-04]"
       }
     },
     "baganda": {
@@ -585,12 +586,12 @@ window.MIRROR_DATA = {
       "region": "Uganda",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1300,
         "to": 2026,
-        "peak": 210,
+        "peak": 1850,
         "living": true,
         "certainty": "attested",
-        "note": "Katonda the distant creator; the Balubaale pantheon (Mukasa, Kibuka); royal shrines (auto-dated; refine later)"
+        "note": "Katonda the distant creator; the Balubaale pantheon (Mukasa, Kibuka); royal shrines [span verified vs scholarship 2026-07-04]"
       }
     },
     "bahai": {
@@ -600,10 +601,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1863,
         "to": 2026,
-        "peak": 1928,
+        "peak": 2000,
         "living": true,
         "certainty": "attested",
-        "note": "Baháʼu'lláh; progressive revelation; unity of all religions (auto-dated; refine later)"
+        "note": "Baháʼu'lláh; progressive revelation; unity of all religions [span verified vs scholarship 2026-07-04]"
       }
     },
     "balinese-hindu": {
@@ -626,10 +627,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -500,
         "to": 1400,
-        "peak": 1,
+        "peak": 1300,
         "living": false,
         "certainty": "attested",
-        "note": "Conservative IE paganism; Lithuania was Europe's last pagan state (1387); revived as Romuva."
+        "note": "Conservative IE paganism; Lithuania was Europe's last pagan state (1387); revived as Romuva. [span verified vs scholarship 2026-07-04]"
       }
     },
     "bambara": {
@@ -637,12 +638,12 @@ window.MIRROR_DATA = {
       "region": "Mali",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1600,
         "to": 2026,
-        "peak": 210,
+        "peak": 1750,
         "living": true,
         "certainty": "attested",
-        "note": "Maa Ngala the creator; the six initiation societies (Komo, Chiwara…) (auto-dated; refine later)"
+        "note": "Maa Ngala the creator; the six initiation societies (Komo, Chiwara…) [span verified vs scholarship 2026-07-04]"
       }
     },
     "basque": {
@@ -741,12 +742,12 @@ window.MIRROR_DATA = {
       "region": "Lake Baikal",
       "color": "#7fae9a",
       "period": {
-        "from": -500,
+        "from": 1200,
         "to": 2026,
-        "peak": 510,
+        "peak": 1700,
         "living": true,
         "certainty": "attested",
-        "note": "the 99 tengri; Father-Heaven/Mother-Earth; the böö shamans of Olkhon (auto-dated; refine later)"
+        "note": "the 99 tengri; Father-Heaven/Mother-Earth; the böö shamans of Olkhon [span verified vs scholarship 2026-07-04]"
       }
     },
     "california-tribes": {
@@ -756,10 +757,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "Hutash the Earth-Mother & the Rainbow Bridge; the 'antap astronomer-priesthood; Sky-Coyote (auto-dated; refine later)"
+        "note": "Hutash the Earth-Mother & the Rainbow Bridge; the 'antap astronomer-priesthood; Sky-Coyote [span verified vs scholarship 2026-07-04]"
       }
     },
     "candomble": {
@@ -767,12 +768,12 @@ window.MIRROR_DATA = {
       "region": "Brazil (Bahia)",
       "color": "#b8447a",
       "period": {
-        "from": 1549,
+        "from": 1789,
         "to": 2026,
-        "peak": 1739,
+        "peak": 1980,
         "living": true,
         "certainty": "attested",
-        "note": "the Orixás in nação houses (Ketu/Jeje/Angola); axé; the terreiro (auto-dated; refine later)"
+        "note": "the Orixás in nação houses (Ketu/Jeje/Angola); axé; the terreiro [span verified vs scholarship 2026-07-04]"
       }
     },
     "caodai": {
@@ -858,12 +859,12 @@ window.MIRROR_DATA = {
       "region": "Malawi / Zambia",
       "color": "#c75f9a",
       "period": {
-        "from": -500,
+        "from": 1200,
         "to": 2026,
-        "peak": 510,
+        "peak": 1650,
         "living": true,
         "certainty": "attested",
-        "note": "Chiuta the rainbow sky-creator; the Nyau secret society & Gule Wamkulu masked dance (auto-dated; refine later)"
+        "note": "Chiuta the rainbow sky-creator; the Nyau secret society & Gule Wamkulu masked dance [span verified vs scholarship 2026-07-04]"
       }
     },
     "chinese-folk": {
@@ -873,10 +874,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1500,
         "to": 2026,
-        "peak": -90,
+        "peak": 1200,
         "living": true,
         "certainty": "attested",
-        "note": "the Jade Emperor's bureaucratic pantheon; ancestor worship; temple cults (auto-dated; refine later)"
+        "note": "the Jade Emperor's bureaucratic pantheon; ancestor worship; temple cults [span verified vs scholarship 2026-07-04]"
       }
     },
     "christianity": {
@@ -886,10 +887,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 30,
         "to": 2026,
-        "peak": 828,
+        "peak": 1250,
         "living": true,
         "certainty": "attested",
-        "note": "Christ, Trinity, the Cross & Resurrection (auto-dated; refine later)"
+        "note": "Christ, Trinity, the Cross & Resurrection [span verified vs scholarship 2026-07-04]"
       }
     },
     "chukchi": {
@@ -899,10 +900,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "Raven (Kutkh) the trickster-creator; Amanita shamanism (auto-dated; refine later)"
+        "note": "Raven (Kutkh) the trickster-creator; Amanita shamanism [span verified vs scholarship 2026-07-04]"
       }
     },
     "church-of-all-worlds": {
@@ -925,10 +926,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -500,
         "to": 2026,
-        "peak": 510,
+        "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "Confucius; Tian (Heaven); ren & li; sage & ancestor veneration (auto-dated; refine later)"
+        "note": "Confucius; Tian (Heaven); ren & li; sage & ancestor veneration [span verified vs scholarship 2026-07-04]"
       }
     },
     "cybele": {
@@ -937,11 +938,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -700,
-        "to": -200,
-        "peak": -500,
+        "to": 400,
+        "peak": 150,
         "living": false,
         "certainty": "attested",
-        "note": "the Great Mother & Attis; the Galli; the taurobolium blood-baptism (auto-dated; refine later)"
+        "note": "the Great Mother & Attis; the Galli; the taurobolium blood-baptism [span verified vs scholarship 2026-07-04]"
       }
     },
     "dayak": {
@@ -977,10 +978,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "Nhialic / Kwoth the sky-creator; the ox-sacrifice & spear-master (auto-dated; refine later)"
+        "note": "Nhialic / Kwoth the sky-creator; the ox-sacrifice & spear-master [span verified vs scholarship 2026-07-04]"
       }
     },
     "dionysian": {
@@ -989,11 +990,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -700,
-        "to": -200,
+        "to": 400,
         "peak": -500,
         "living": false,
         "certainty": "attested",
-        "note": "ecstatic mania, maenads, the liknon (auto-dated; refine later)"
+        "note": "ecstatic mania, maenads, the liknon [span verified vs scholarship 2026-07-04]"
       }
     },
     "divination-systems": {
@@ -1003,10 +1004,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -2000,
         "to": 2026,
-        "peak": -390,
+        "peak": 150,
         "living": true,
         "certainty": "attested",
-        "note": "the zodiac as fate-map; the 78 Tarot keys; Pythagorean sacred number (auto-dated; refine later)"
+        "note": "the zodiac as fate-map; the 78 Tarot keys; Pythagorean sacred number [span verified vs scholarship 2026-07-04]"
       }
     },
     "dogon": {
@@ -1014,12 +1015,12 @@ window.MIRROR_DATA = {
       "region": "West Africa (Mali)",
       "color": "#c0894a",
       "period": {
-        "from": 1000,
+        "from": 1300,
         "to": 2026,
         "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "Living; the Sirius/Nommo cosmology rests on Griaule's contested ethnography."
+        "note": "Living; the Sirius/Nommo cosmology rests on Griaule's contested ethnography. [span verified vs scholarship 2026-07-04]"
       }
     },
     "dravidian": {
@@ -1067,11 +1068,11 @@ window.MIRROR_DATA = {
       "color": "#d8a24a",
       "period": {
         "from": -2700,
-        "to": -2200,
-        "peak": -2500,
+        "to": -500,
+        "peak": -1200,
         "living": false,
         "certainty": "attested",
-        "note": "Inshushinak + the highland triad Napirisha/Kiririsha (auto-dated; refine later)"
+        "note": "Inshushinak + the highland triad Napirisha/Kiririsha [span verified vs scholarship 2026-07-04]"
       }
     },
     "eleusinian": {
@@ -1080,11 +1081,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -1500,
-        "to": -1000,
-        "peak": -1300,
+        "to": 392,
+        "peak": -400,
         "living": false,
         "certainty": "attested",
-        "note": "Demeter & Persephone; the secret kykeon initiation (auto-dated; refine later)"
+        "note": "Demeter & Persephone; the secret kykeon initiation [span verified vs scholarship 2026-07-04]"
       }
     },
     "entheogenic-churches": {
@@ -1094,10 +1095,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1900,
         "to": 2026,
-        "peak": 1950,
+        "peak": 2000,
         "living": true,
         "certainty": "attested",
-        "note": "the ayahuasca sacrament 'Daime' & the hymns; the UDV's hoasca; Gabonese iboga & the initiatory death-rebirth (auto-dated; refine later)"
+        "note": "the ayahuasca sacrament 'Daime' & the hymns; the UDV's hoasca; Gabonese iboga & the initiatory death-rebirth [span verified vs scholarship 2026-07-04]"
       }
     },
     "epicureanism": {
@@ -1146,10 +1147,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1600,
         "living": true,
         "certainty": "attested",
-        "note": "Buga the cosmos-spirit; the three-world taiga — ★ the etymological HOME of the word 'shaman' (auto-dated; refine later)"
+        "note": "Buga the cosmos-spirit; the three-world taiga — ★ the etymological HOME of the word 'shaman' [span verified vs scholarship 2026-07-04]"
       }
     },
     "ewe-ga": {
@@ -1157,12 +1158,12 @@ window.MIRROR_DATA = {
       "region": "Togo / SE Ghana",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1300,
         "to": 2026,
-        "peak": 210,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Ewe Mawu-Lisa & Afa divination; Ga Ataa-Naa Nyongmo & the Homowo festival (auto-dated; refine later)"
+        "note": "Ewe Mawu-Lisa & Afa divination; Ga Ataa-Naa Nyongmo & the Homowo festival [span verified vs scholarship 2026-07-04]"
       }
     },
     "falun-gong": {
@@ -1172,10 +1173,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1992,
         "to": 2026,
-        "peak": 2005,
+        "peak": 1999,
         "living": true,
         "certainty": "attested",
-        "note": "Li Hongzhi; the rotating falun; Zhen-Shan-Ren (truth-compassion-forbearance) (auto-dated; refine later)"
+        "note": "Li Hongzhi; the rotating falun; Zhen-Shan-Ren (truth-compassion-forbearance) [span verified vs scholarship 2026-07-04]"
       }
     },
     "fijian": {
@@ -1185,10 +1186,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -900,
         "to": 2026,
-        "peak": 270,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Degei the great serpent-god; ancestral vū spirits (auto-dated; refine later)"
+        "note": "Degei the great serpent-god; ancestral vū spirits [span verified vs scholarship 2026-07-04]"
       }
     },
     "finnish": {
@@ -1198,10 +1199,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 1400,
-        "peak": -200,
+        "peak": 1000,
         "living": false,
         "certainty": "attested",
-        "note": "Finnic pagan oral substrate; Christianized ~1200; compiled as the Kalevala in 1835."
+        "note": "Finnic pagan oral substrate; Christianized ~1200; compiled as the Kalevala in 1835. [span verified vs scholarship 2026-07-04]"
       }
     },
     "fon": {
@@ -1248,12 +1249,12 @@ window.MIRROR_DATA = {
       "region": "Tierra del Fuego",
       "color": "#5ab87a",
       "period": {
-        "from": -3000,
-        "to": -2500,
-        "peak": -2800,
+        "from": -6000,
+        "to": 1933,
+        "peak": 1800,
         "living": false,
         "certainty": "attested",
-        "note": "Temáukel & the Hain initiation with its masked spirits; Watauinéwa — the southernmost human religion (auto-dated; refine later)"
+        "note": "Temáukel & the Hain initiation with its masked spirits; Watauinéwa — the southernmost human religion [span verified vs scholarship 2026-07-04]"
       }
     },
     "ghost-dance": {
@@ -1262,11 +1263,11 @@ window.MIRROR_DATA = {
       "color": "#5a8fc7",
       "period": {
         "from": 1869,
-        "to": 2369,
-        "peak": 2069,
+        "to": 1900,
+        "peak": 1890,
         "living": false,
         "certainty": "attested",
-        "note": "Wovoka's circle-dance prophecy of the returning dead; the Ghost Shirt (auto-dated; refine later)"
+        "note": "Wovoka's circle-dance prophecy of the returning dead; the Ghost Shirt [span verified vs scholarship 2026-07-04]"
       }
     },
     "gnostic": {
@@ -1315,10 +1316,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1888,
         "to": 2026,
-        "peak": 1943,
+        "peak": 1897,
         "living": true,
         "certainty": "attested",
-        "note": "Mathers/Westcott/Woodman; the master-synthesis of Western ceremonial magic (auto-dated; refine later)"
+        "note": "Mathers/Westcott/Woodman; the master-synthesis of Western ceremonial magic [span verified vs scholarship 2026-07-04]"
       }
     },
     "guanche": {
@@ -1326,12 +1327,12 @@ window.MIRROR_DATA = {
       "region": "Canary Islands",
       "color": "#9fb8d8",
       "period": {
-        "from": -500,
-        "to": 0,
-        "peak": -300,
+        "from": -100,
+        "to": 1496,
+        "peak": 1300,
         "living": false,
         "certainty": "attested",
-        "note": "Achamán the sky-father; Guayota the volcano-demon of Teide (auto-dated; refine later)"
+        "note": "Achamán the sky-father; Guayota the volcano-demon of Teide [span verified vs scholarship 2026-07-04]"
       }
     },
     "harappan": {
@@ -1340,11 +1341,11 @@ window.MIRROR_DATA = {
       "color": "#d8a24a",
       "period": {
         "from": -2600,
-        "to": -2100,
-        "peak": -2400,
+        "to": -1900,
+        "peak": -2200,
         "living": false,
         "certainty": "attested",
-        "note": "the 'Pashupati' proto-Shiva seal; terracotta Mother-Goddess; pipal & water cult (auto-dated; refine later)"
+        "note": "the 'Pashupati' proto-Shiva seal; terracotta Mother-Goddess; pipal & water cult [span verified vs scholarship 2026-07-04]"
       }
     },
     "harranian": {
@@ -1352,12 +1353,12 @@ window.MIRROR_DATA = {
       "region": "Harran (Upper Mesopotamia)",
       "color": "#c8a6d0",
       "period": {
-        "from": -300,
-        "to": 200,
-        "peak": -100,
+        "from": -550,
+        "to": 1050,
+        "peak": 900,
         "living": false,
         "certainty": "attested",
-        "note": "seven planetary temple-spirits; Hermes as prophet — last living pagan astral cult (auto-dated; refine later)"
+        "note": "seven planetary temple-spirits; Hermes as prophet — last living pagan astral cult [span verified vs scholarship 2026-07-04]"
       }
     },
     "haudenosaunee": {
@@ -1393,10 +1394,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1972,
         "to": 2026,
-        "peak": 1993,
+        "peak": 2020,
         "living": true,
         "certainty": "attested",
-        "note": "Sveinbjörn Beinteinsson; the blót; the Nine Noble Virtues; the Æsir reborn (auto-dated; refine later)"
+        "note": "Sveinbjörn Beinteinsson; the blót; the Nine Noble Virtues; the Æsir reborn [span verified vs scholarship 2026-07-04]"
       }
     },
     "hermetic-qabalah": {
@@ -1406,10 +1407,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1486,
         "to": 2026,
-        "peak": 1702,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "the Tree of Life & 32 Paths as the occult skeleton of the West (auto-dated; refine later)"
+        "note": "the Tree of Life & 32 Paths as the occult skeleton of the West [span verified vs scholarship 2026-07-04]"
       }
     },
     "hermeticism": {
@@ -1419,10 +1420,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -100,
         "to": 2026,
-        "peak": 750,
+        "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "Hermes Trismegistus & the Corpus Hermeticum; 'as above, so below'; the nous-ascent (auto-dated; refine later)"
+        "note": "Hermes Trismegistus & the Corpus Hermeticum; 'as above, so below'; the nous-ascent [span verified vs scholarship 2026-07-04]"
       }
     },
     "hittite": {
@@ -1443,12 +1444,12 @@ window.MIRROR_DATA = {
       "region": "SW China / SE Asia / diaspora",
       "color": "#3aa6a0",
       "period": {
-        "from": -1000,
+        "from": -500,
         "to": 2026,
-        "peak": 210,
+        "peak": 1950,
         "living": true,
         "certainty": "attested",
-        "note": "the txiv neeb shaman; soul-calling (hu plig); three-world journeys (auto-dated; refine later)"
+        "note": "the txiv neeb shaman; soul-calling (hu plig); three-world journeys [span verified vs scholarship 2026-07-04]"
       }
     },
     "hoodoo": {
@@ -1470,11 +1471,11 @@ window.MIRROR_DATA = {
       "color": "#d8a24a",
       "period": {
         "from": -2300,
-        "to": -1800,
-        "peak": -2100,
+        "to": -1200,
+        "peak": -1400,
         "living": false,
         "certainty": "attested",
-        "note": "Teshub vs Kumarbi succession-myth — the SOURCE of the Greek Kronos-Zeus pattern (auto-dated; refine later)"
+        "note": "Teshub vs Kumarbi succession-myth — the SOURCE of the Greek Kronos-Zeus pattern [span verified vs scholarship 2026-07-04]"
       }
     },
     "iberian": {
@@ -1482,12 +1483,12 @@ window.MIRROR_DATA = {
       "region": "E & S Spain",
       "color": "#9fb8d8",
       "period": {
-        "from": -600,
-        "to": -100,
+        "from": -800,
+        "to": -50,
         "peak": -400,
         "living": false,
         "certainty": "attested",
-        "note": "the Lady-goddess (Dama de Elche); sphinx/underworld cult (auto-dated; refine later)"
+        "note": "the Lady-goddess (Dama de Elche); sphinx/underworld cult [span verified vs scholarship 2026-07-04]"
       }
     },
     "igbo": {
@@ -1509,11 +1510,11 @@ window.MIRROR_DATA = {
       "color": "#9fb8d8",
       "period": {
         "from": -1000,
-        "to": -500,
-        "peak": -800,
+        "to": 400,
+        "peak": -250,
         "living": false,
         "certainty": "attested",
-        "note": "Dei-pátrous / Redon; serpent-veneration → Albanian folklore (auto-dated; refine later)"
+        "note": "Dei-pátrous / Redon; serpent-veneration → Albanian folklore [span verified vs scholarship 2026-07-04]"
       }
     },
     "inuit": {
@@ -1535,11 +1536,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -300,
-        "to": 200,
-        "peak": -100,
+        "to": 537,
+        "peak": 150,
         "living": false,
         "certainty": "attested",
-        "note": "Isis Myrionymos 'of ten-thousand names'; Serapis (auto-dated; refine later)"
+        "note": "Isis Myrionymos 'of ten-thousand names'; Serapis [span verified vs scholarship 2026-07-04]"
       }
     },
     "islam": {
@@ -1614,10 +1615,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1500,
         "to": 2026,
-        "peak": -90,
+        "peak": 1400,
         "living": true,
         "certainty": "attested",
-        "note": "Dezau the creator; Balumain — the LAST living Indo-Aryan pagan tradition (auto-dated; refine later)"
+        "note": "Dezau the creator; Balumain — the LAST living Indo-Aryan pagan tradition [span verified vs scholarship 2026-07-04]"
       }
     },
     "kejawen": {
@@ -1627,10 +1628,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -500,
         "to": 2026,
-        "peak": 510,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Javanese inner-essence mysticism (rasa) (auto-dated; refine later)"
+        "note": "Javanese inner-essence mysticism (rasa) [span verified vs scholarship 2026-07-04]"
       }
     },
     "khanty-mansi": {
@@ -1640,10 +1641,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -800,
         "to": 2026,
-        "peak": 330,
+        "peak": 1500,
         "living": true,
         "certainty": "attested",
-        "note": "Numi-Torum the sky-father; the World-Surveyor-Man; the bear-feast (auto-dated; refine later)"
+        "note": "Numi-Torum the sky-father; the World-Surveyor-Man; the bear-feast [span verified vs scholarship 2026-07-04]"
       }
     },
     "khoekhoe": {
@@ -1653,10 +1654,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -100,
         "to": 2026,
-        "peak": 1,
+        "peak": 1600,
         "living": true,
         "certainty": "inferred",
-        "note": "Khoe pastoralists ~2000 yrs in southern Africa; the traditional religion was largely displaced by Christianity by ~1900, but the Nama survive with language, oral tradition & cultural revival."
+        "note": "Khoe pastoralists ~2000 yrs in southern Africa; the traditional religion was largely displaced by Christianity by ~1900, but the Nama survive with language, oral tradition & cultural revival. [span verified vs scholarship 2026-07-04]"
       }
     },
     "kikuyu": {
@@ -1664,12 +1665,12 @@ window.MIRROR_DATA = {
       "region": "Central Kenya",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1200,
         "to": 2026,
-        "peak": 210,
+        "peak": 1850,
         "living": true,
         "certainty": "attested",
-        "note": "Ngai/Mwene-Nyaga on Mt Kenya; the Gĩkũyũ & Mũmbi ancestral couple (auto-dated; refine later)"
+        "note": "Ngai/Mwene-Nyaga on Mt Kenya; the Gĩkũyũ & Mũmbi ancestral couple [span verified vs scholarship 2026-07-04]"
       }
     },
     "kongo": {
@@ -1729,12 +1730,12 @@ window.MIRROR_DATA = {
       "region": "DR Congo",
       "color": "#c75f9a",
       "period": {
-        "from": -500,
+        "from": 700,
         "to": 2026,
-        "peak": 510,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Shakapanga/Leza; Mbombo/Bumba who vomited the sun & moon into being (auto-dated; refine later)"
+        "note": "Shakapanga/Leza; Mbombo/Bumba who vomited the sun & moon into being [span verified vs scholarship 2026-07-04]"
       }
     },
     "luciferianism": {
@@ -1744,10 +1745,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1880,
         "to": 2026,
-        "peak": 1938,
+        "peak": 2010,
         "living": true,
         "certainty": "attested",
-        "note": "Lucifer as light-bringer/liberator (not Satan); gnostic-adjacent self-divinization (auto-dated; refine later)"
+        "note": "Lucifer as light-bringer/liberator (not Satan); gnostic-adjacent self-divinization [span verified vs scholarship 2026-07-04]"
       }
     },
     "lusitanian": {
@@ -1756,11 +1757,11 @@ window.MIRROR_DATA = {
       "color": "#9fb8d8",
       "period": {
         "from": -700,
-        "to": -200,
-        "peak": -500,
+        "to": 400,
+        "peak": 150,
         "living": false,
         "certainty": "attested",
-        "note": "Endovelicus the oracular healer; Ataecina (auto-dated; refine later)"
+        "note": "Endovelicus the oracular healer; Ataecina [span verified vs scholarship 2026-07-04]"
       }
     },
     "maasai": {
@@ -1768,12 +1769,12 @@ window.MIRROR_DATA = {
       "region": "Kenya / Tanzania",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1500,
         "to": 2026,
-        "peak": 210,
+        "peak": 1850,
         "living": true,
         "certainty": "attested",
-        "note": "Enkai/Engai, the black-and-red sky-god of Ol Doinyo Lengai; cattle from God (auto-dated; refine later)"
+        "note": "Enkai/Engai, the black-and-red sky-god of Ol Doinyo Lengai; cattle from God [span verified vs scholarship 2026-07-04]"
       }
     },
     "mandaeism": {
@@ -1795,11 +1796,11 @@ window.MIRROR_DATA = {
       "color": "#e0c060",
       "period": {
         "from": 240,
-        "to": 740,
+        "to": 1400,
         "peak": 440,
         "living": false,
         "certainty": "attested",
-        "note": "Mani; radical Light/Darkness dualism — a universal world religion (auto-dated; refine later)"
+        "note": "Mani; radical Light/Darkness dualism — a universal world religion [span verified vs scholarship 2026-07-04]"
       }
     },
     "mapuche": {
@@ -1822,10 +1823,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -2000,
         "to": 2026,
-        "peak": -390,
+        "peak": 700,
         "living": true,
         "certainty": "attested",
-        "note": "Itzamna & the Popol Vuh Hero Twins; the Lords of Xibalba; K'inich Ajaw (auto-dated; refine later)"
+        "note": "Itzamna & the Popol Vuh Hero Twins; the Lords of Xibalba; K'inich Ajaw [span verified vs scholarship 2026-07-04]"
       }
     },
     "melanesian": {
@@ -1835,10 +1836,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "mana — the impersonal sacred power (Codrington's source-concept); ancestral tindalo (auto-dated; refine later)"
+        "note": "mana — the impersonal sacred power (Codrington's source-concept); ancestral tindalo [span verified vs scholarship 2026-07-04]"
       }
     },
     "micronesian": {
@@ -1848,10 +1849,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1500,
         "to": 2026,
-        "peak": -90,
+        "peak": 1400,
         "living": true,
         "certainty": "attested",
-        "note": "Nan Madol's priest-kings & Isokelekel; Puntan & Fu'una the Chamorro sibling-creators (auto-dated; refine later)"
+        "note": "Nan Madol's priest-kings & Isokelekel; Puntan & Fu'una the Chamorro sibling-creators [span verified vs scholarship 2026-07-04]"
       }
     },
     "minoan": {
@@ -1860,11 +1861,11 @@ window.MIRROR_DATA = {
       "color": "#9fb8d8",
       "period": {
         "from": -3000,
-        "to": -2500,
-        "peak": -2800,
+        "to": -1100,
+        "peak": -1600,
         "living": false,
         "certainty": "attested",
-        "note": "the Snake-Goddess / Mountain-Mother; labrys & bull-leaping (auto-dated; refine later)"
+        "note": "the Snake-Goddess / Mountain-Mother; labrys & bull-leaping [span verified vs scholarship 2026-07-04]"
       }
     },
     "mithraism": {
@@ -1872,12 +1873,12 @@ window.MIRROR_DATA = {
       "region": "Roman Empire (army frontier)",
       "color": "#c8a6d0",
       "period": {
-        "from": -100,
+        "from": 80,
         "to": 400,
-        "peak": 100,
+        "peak": 200,
         "living": false,
         "certainty": "attested",
-        "note": "the tauroctony (bull-slaying); 7-grade cave initiation (auto-dated; refine later)"
+        "note": "the tauroctony (bull-slaying); 7-grade cave initiation [span verified vs scholarship 2026-07-04]"
       }
     },
     "modern-druidry": {
@@ -1887,10 +1888,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1717,
         "to": 2026,
-        "peak": 1840,
+        "peak": 2000,
         "living": true,
         "certainty": "attested",
-        "note": "Iolo Morganwg's bardic revival; the awen; the bard-ovate-druid path (auto-dated; refine later)"
+        "note": "Iolo Morganwg's bardic revival; the awen; the bard-ovate-druid path [span verified vs scholarship 2026-07-04]"
       }
     },
     "modern-hindu-nrm": {
@@ -1898,12 +1899,12 @@ window.MIRROR_DATA = {
       "region": "India → global",
       "color": "#e08a3c",
       "period": {
-        "from": 1875,
+        "from": 1917,
         "to": 2026,
-        "peak": 1935,
+        "peak": 1970,
         "living": true,
         "certainty": "attested",
-        "note": "TM, Brahma Kumaris, Self-Realization Fellowship, Ananda Marga, Osho, Sahaja Yoga, ISKCON (auto-dated; refine later)"
+        "note": "TM, Brahma Kumaris, Self-Realization Fellowship, Ananda Marga, Osho, Sahaja Yoga, ISKCON [span verified vs scholarship 2026-07-04]"
       }
     },
     "mongol-folk": {
@@ -1911,12 +1912,12 @@ window.MIRROR_DATA = {
       "region": "Mongolia",
       "color": "#7fae9a",
       "period": {
-        "from": -1000,
+        "from": -300,
         "to": 2026,
-        "peak": 210,
+        "peak": 1250,
         "living": true,
         "certainty": "attested",
-        "note": "Qormusta Tengri, chief of the 99 tngri; ovoo cairn-offerings (auto-dated; refine later)"
+        "note": "Qormusta Tengri, chief of the 99 tngri; ovoo cairn-offerings [span verified vs scholarship 2026-07-04]"
       }
     },
     "muisca": {
@@ -1924,12 +1925,12 @@ window.MIRROR_DATA = {
       "region": "Colombian Altiplano",
       "color": "#5ab87a",
       "period": {
-        "from": 600,
-        "to": 1100,
-        "peak": 800,
+        "from": 800,
+        "to": 1537,
+        "peak": 1450,
         "living": false,
         "certainty": "attested",
-        "note": "Bochica the bearded culture-hero; the El Dorado gold-offering at Guatavita (auto-dated; refine later)"
+        "note": "Bochica the bearded culture-hero; the El Dorado gold-offering at Guatavita [span verified vs scholarship 2026-07-04]"
       }
     },
     "muscogee": {
@@ -1963,12 +1964,12 @@ window.MIRROR_DATA = {
       "region": "Myanmar",
       "color": "#3aa6a0",
       "period": {
-        "from": -1000,
+        "from": -200,
         "to": 2026,
-        "peak": 210,
+        "peak": 1100,
         "living": true,
         "certainty": "attested",
-        "note": "the Thirty-Seven Nats (spirits of violent death); Mahagiri; nat-pwe possession (auto-dated; refine later)"
+        "note": "the Thirty-Seven Nats (spirits of violent death); Mahagiri; nat-pwe possession [span verified vs scholarship 2026-07-04]"
       }
     },
     "nation-of-islam-esoteric": {
@@ -1978,10 +1979,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1913,
         "to": 2026,
-        "peak": 1958,
+        "peak": 1970,
         "living": true,
         "certainty": "attested",
-        "note": "Moorish Science (Noble Drew Ali); the Five-Percent Nation's Supreme Mathematics (auto-dated; refine later)"
+        "note": "Moorish Science (Noble Drew Ali); the Five-Percent Nation's Supreme Mathematics [span verified vs scholarship 2026-07-04]"
       }
     },
     "nation-of-islam": {
@@ -2004,10 +2005,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1880,
         "to": 2026,
-        "peak": 1938,
+        "peak": 1990,
         "living": true,
         "certainty": "attested",
-        "note": "the peyote sacrament ('Mescalito'); the Half-Moon altar; the Peyote Road (auto-dated; refine later)"
+        "note": "the peyote sacrament ('Mescalito'); the Half-Moon altar; the Peyote Road [span verified vs scholarship 2026-07-04]"
       }
     },
     "navajo": {
@@ -2030,10 +2031,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -800,
         "to": 2026,
-        "peak": 330,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Num the sky-god & Nga the death-god; Ya-Nebya 'Mother Earth'; the sacred sledge (auto-dated; refine later)"
+        "note": "Num the sky-god & Nga the death-god; Ya-Nebya 'Mother Earth'; the sacred sledge [span verified vs scholarship 2026-07-04]"
       }
     },
     "neoplatonism": {
@@ -2042,11 +2043,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": 200,
-        "to": 700,
-        "peak": 400,
+        "to": 620,
+        "peak": 450,
         "living": false,
         "certainty": "attested",
-        "note": "Plotinus' emanation from the One; theurgy (Iamblichus) (auto-dated; refine later)"
+        "note": "Plotinus' emanation from the One; theurgy (Iamblichus) [span verified vs scholarship 2026-07-04]"
       }
     },
     "neoshamanism": {
@@ -2093,12 +2094,12 @@ window.MIRROR_DATA = {
       "region": "Sudan (Napata, Meroe)",
       "color": "#d8a24a",
       "period": {
-        "from": -2500,
-        "to": -2000,
-        "peak": -2300,
+        "from": -800,
+        "to": 350,
+        "peak": 50,
         "living": false,
         "certainty": "attested",
-        "note": "Apedemak the lion-headed war-god (indigenous, vs imported Amun) (auto-dated; refine later)"
+        "note": "Apedemak the lion-headed war-god (indigenous, vs imported Amun) [span verified vs scholarship 2026-07-04]"
       }
     },
     "ojibwe": {
@@ -2120,11 +2121,11 @@ window.MIRROR_DATA = {
       "color": "#5ab87a",
       "period": {
         "from": -1500,
-        "to": -1000,
-        "peak": -1300,
+        "to": -400,
+        "peak": -900,
         "living": false,
         "certainty": "attested",
-        "note": "the were-jaguar / proto-Feathered-Serpent — the 'mother culture' the later gods descend from (auto-dated; refine later)"
+        "note": "the were-jaguar / proto-Feathered-Serpent — the 'mother culture' the later gods descend from [span verified vs scholarship 2026-07-04]"
       }
     },
     "order-nine-angles": {
@@ -2134,10 +2135,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1970,
         "to": 2026,
-        "peak": 1992,
+        "peak": 2015,
         "living": true,
         "certainty": "attested",
-        "note": "'Anton Long' (David Myatt); the sinister Seven-Fold Way (auto-dated; refine later)"
+        "note": "'Anton Long' (David Myatt); the sinister Seven-Fold Way [span verified vs scholarship 2026-07-04]"
       }
     },
     "orisha-trinidad": {
@@ -2145,12 +2146,12 @@ window.MIRROR_DATA = {
       "region": "Trinidad",
       "color": "#b8447a",
       "period": {
-        "from": 1800,
+        "from": 1845,
         "to": 2026,
         "peak": 1890,
         "living": true,
         "certainty": "attested",
-        "note": "the Orishas (Shango central) feasted with saints; the 'mourning' rite, bell & chalk veves (auto-dated; refine later)"
+        "note": "the Orishas (Shango central) feasted with saints; the 'mourning' rite, bell & chalk veves [span verified vs scholarship 2026-07-04]"
       }
     },
     "orphism": {
@@ -2159,11 +2160,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -550,
-        "to": -50,
+        "to": 200,
         "peak": -350,
         "living": false,
         "certainty": "attested",
-        "note": "Orpheus & dismembered Zagreus; the gold soul-tablets (auto-dated; refine later)"
+        "note": "Orpheus & dismembered Zagreus; the gold soul-tablets [span verified vs scholarship 2026-07-04]"
       }
     },
     "pacificnw": {
@@ -2184,12 +2185,12 @@ window.MIRROR_DATA = {
       "region": "Cuba",
       "color": "#b8447a",
       "period": {
-        "from": 1500,
+        "from": 1750,
         "to": 2026,
-        "peak": 1710,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "Nzambi + the nganga/prenda cauldron housing an nfumbi spirit; the mpungos (auto-dated; refine later)"
+        "note": "Nzambi + the nganga/prenda cauldron housing an nfumbi spirit; the mpungos [span verified vs scholarship 2026-07-04]"
       }
     },
     "pantheism": {
@@ -2212,10 +2213,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -3000,
         "to": 2026,
-        "peak": -990,
+        "peak": 1930,
         "living": true,
         "certainty": "attested",
-        "note": "ancestral ghosts & the pig-exchange (Te/Moka); the Asmat bisj poles; the Marind Dema (auto-dated; refine later)"
+        "note": "ancestral ghosts & the pig-exchange (Te/Moka); the Asmat bisj poles; the Marind Dema [span verified vs scholarship 2026-07-04]"
       }
     },
     "parody-religions": {
@@ -2225,10 +2226,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1957,
         "to": 2026,
-        "peak": 1984,
+        "peak": 2005,
         "living": true,
         "certainty": "attested",
-        "note": "Eris/Discordianism, the Flying Spaghetti Monster, Jediism, the Church of the SubGenius's 'Slack', Kopimism, Du (auto-dated; refine later)"
+        "note": "Eris/Discordianism, the Flying Spaghetti Monster, Jediism, the Church of the SubGenius's 'Slack', Kopimism, Du [span verified vs scholarship 2026-07-04]"
       }
     },
     "phi-thai": {
@@ -2238,10 +2239,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1900,
         "living": true,
         "certainty": "attested",
-        "note": "the phi spirits & the spirit-house; Khmer neak ta territorial guardians; the baci soul-calling (auto-dated; refine later)"
+        "note": "the phi spirits & the spirit-house; Khmer neak ta territorial guardians; the baci soul-calling [span verified vs scholarship 2026-07-04]"
       }
     },
     "pueblo": {
@@ -2263,11 +2264,11 @@ window.MIRROR_DATA = {
       "color": "#d8a24a",
       "period": {
         "from": -814,
-        "to": -314,
-        "peak": -614,
+        "to": -146,
+        "peak": -300,
         "living": false,
         "certainty": "attested",
-        "note": "Tanit & Baal Hammon; the tophet rite (auto-dated; refine later)"
+        "note": "Tanit & Baal Hammon; the tophet rite [span verified vs scholarship 2026-07-04]"
       }
     },
     "pythagorean": {
@@ -2276,11 +2277,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": -530,
-        "to": -30,
-        "peak": -330,
+        "to": -300,
+        "peak": -450,
         "living": false,
         "certainty": "attested",
-        "note": "number as cosmos; metempsychosis; the akousmata brotherhood (auto-dated; refine later)"
+        "note": "number as cosmos; metempsychosis; the akousmata brotherhood [span verified vs scholarship 2026-07-04]"
       }
     },
     "quimbanda": {
@@ -2302,11 +2303,11 @@ window.MIRROR_DATA = {
       "color": "#3aa6a0",
       "period": {
         "from": 1200,
-        "to": 2026,
+        "to": 1868,
         "peak": 1530,
-        "living": true,
+        "living": false,
         "certainty": "attested",
-        "note": "Makemake the creator; the Tangata Manu (Birdman) cult at Orongo; the moai (auto-dated; refine later)"
+        "note": "Makemake the creator; the Tangata Manu (Birdman) cult at Orongo; the moai [span verified vs scholarship 2026-07-04]"
       }
     },
     "rastafari": {
@@ -2342,10 +2343,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -400,
         "to": 2026,
-        "peak": 570,
+        "peak": 400,
         "living": true,
         "certainty": "attested",
-        "note": "Mt Gerizim (not Jerusalem); the Samaritan Pentateuch (auto-dated; refine later)"
+        "note": "Mt Gerizim (not Jerusalem); the Samaritan Pentateuch [span verified vs scholarship 2026-07-04]"
       }
     },
     "sami": {
@@ -2355,9 +2356,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -2000,
         "to": 2026,
+        "peak": 1600,
         "living": true,
         "certainty": "inferred",
-        "note": "Indigenous Fennoscandia; the deep date is inferred from Iron-Age archaeology (direct records only 17th–18th c.); living, with active revival."
+        "note": "Indigenous Fennoscandia; the deep date is inferred from Iron-Age archaeology (direct records only 17th–18th c.); living, with active revival. [span verified vs scholarship 2026-07-04]"
       }
     },
     "san": {
@@ -2367,9 +2369,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -22000,
         "to": 2026,
+        "peak": -500,
         "living": true,
         "certainty": "deep",
-        "note": "The |Xam/San — deep-time continuous; rock-art tens of millennia old."
+        "note": "The |Xam/San — deep-time continuous; rock-art tens of millennia old. [span verified vs scholarship 2026-07-04]"
       }
     },
     "santeria": {
@@ -2377,12 +2380,12 @@ window.MIRROR_DATA = {
       "region": "Cuba",
       "color": "#b8447a",
       "period": {
-        "from": 1500,
+        "from": 1800,
         "to": 2026,
-        "peak": 1710,
+        "peak": 1960,
         "living": true,
         "certainty": "attested",
-        "note": "the Orichas (Elegguá, Changó, Yemayá) under the Catholic saints; Ifá divination; the asiento (auto-dated; refine later)"
+        "note": "the Orichas (Elegguá, Changó, Yemayá) under the Catholic saints; Ifá divination; the asiento [span verified vs scholarship 2026-07-04]"
       }
     },
     "sarnaism": {
@@ -2392,10 +2395,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 2011,
         "living": true,
         "certainty": "attested",
-        "note": "the sacred grove (sarna sthal); village & ancestral spirits (auto-dated; refine later)"
+        "note": "the sacred grove (sarna sthal); village & ancestral spirits [span verified vs scholarship 2026-07-04]"
       }
     },
     "satanic-temple": {
@@ -2418,10 +2421,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1966,
         "to": 2026,
-        "peak": 1990,
+        "peak": 1970,
         "living": true,
         "certainty": "attested",
-        "note": "Anton LaVey & the Satanic Bible; self-as-one's-own-god; indulgence over abstinence (auto-dated; refine later)"
+        "note": "Anton LaVey & the Satanic Bible; self-as-one's-own-god; indulgence over abstinence [span verified vs scholarship 2026-07-04]"
       }
     },
     "scientology": {
@@ -2429,12 +2432,12 @@ window.MIRROR_DATA = {
       "region": "USA",
       "color": "#d8b84a",
       "period": {
-        "from": 1954,
+        "from": 1950,
         "to": 2026,
-        "peak": 1982,
+        "peak": 1990,
         "living": true,
         "certainty": "attested",
-        "note": "L. Ron Hubbard; the thetan; the reactive mind; auditing toward 'Clear' (auto-dated; refine later)"
+        "note": "L. Ron Hubbard; the thetan; the reactive mind; auditing toward 'Clear' [span verified vs scholarship 2026-07-04]"
       }
     },
     "scythian": {
@@ -2457,10 +2460,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1876,
         "to": 2026,
-        "peak": 1936,
+        "peak": 2010,
         "living": true,
         "certainty": "attested",
-        "note": "human reason, ethics & dignity without the supernatural; Ethical Culture's 'deed before creed' (auto-dated; refine later)"
+        "note": "human reason, ethics & dignity without the supernatural; Ethical Culture's 'deed before creed' [span verified vs scholarship 2026-07-04]"
       }
     },
     "serer": {
@@ -2470,10 +2473,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1600,
         "living": true,
         "certainty": "attested",
-        "note": "Roog Sene the supreme immensity; the pangool ancestral intercessors (auto-dated; refine later)"
+        "note": "Roog Sene the supreme immensity; the pangool ancestral intercessors [span verified vs scholarship 2026-07-04]"
       }
     },
     "shaiva": {
@@ -2483,10 +2486,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -400,
         "to": 2026,
-        "peak": 570,
+        "peak": 1000,
         "living": true,
         "certainty": "attested",
-        "note": "Shiva as supreme reality; lingam, Nataraja, the third eye (auto-dated; refine later)"
+        "note": "Shiva as supreme reality; lingam, Nataraja, the third eye [span verified vs scholarship 2026-07-04]"
       }
     },
     "shakta": {
@@ -2496,10 +2499,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -400,
         "to": 2026,
-        "peak": 570,
+        "peak": 1100,
         "living": true,
         "certainty": "attested",
-        "note": "Devi/Shakti supreme; Durga, Kali, the ten Mahavidyas (auto-dated; refine later)"
+        "note": "Devi/Shakti supreme; Durga, Kali, the ten Mahavidyas [span verified vs scholarship 2026-07-04]"
       }
     },
     "shona": {
@@ -2507,12 +2510,12 @@ window.MIRROR_DATA = {
       "region": "Zimbabwe",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 300,
         "to": 2026,
-        "peak": 210,
+        "peak": 1350,
         "living": true,
         "certainty": "attested",
-        "note": "Mwari/Musikavanhu at the Matonjeni oracle-caves; the mhondoro lion-spirits (auto-dated; refine later)"
+        "note": "Mwari/Musikavanhu at the Matonjeni oracle-caves; the mhondoro lion-spirits [span verified vs scholarship 2026-07-04]"
       }
     },
     "sikh": {
@@ -2522,10 +2525,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1469,
         "to": 2026,
-        "peak": 1691,
+        "peak": 1820,
         "living": true,
         "certainty": "attested",
-        "note": "Ik Onkar — one formless creator; the Guru Granth Sahib as living Guru (auto-dated; refine later)"
+        "note": "Ik Onkar — one formless creator; the Guru Granth Sahib as living Guru [span verified vs scholarship 2026-07-04]"
       }
     },
     "sol-invictus": {
@@ -2534,11 +2537,11 @@ window.MIRROR_DATA = {
       "color": "#c8a6d0",
       "period": {
         "from": 200,
-        "to": 700,
-        "peak": 400,
+        "to": 400,
+        "peak": 280,
         "living": false,
         "certainty": "attested",
-        "note": "the Unconquered Sun; Aurelian's 274 CE state cult; Dec-25 Dies Natalis (auto-dated; refine later)"
+        "note": "the Unconquered Sun; Aurelian's 274 CE state cult; Dec-25 Dies Natalis [span verified vs scholarship 2026-07-04]"
       }
     },
     "spiritualism": {
@@ -2561,10 +2564,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -300,
         "to": 200,
-        "peak": -100,
+        "peak": 150,
         "living": false,
         "certainty": "attested",
-        "note": "the Logos/pneuma pervading a providential cosmos; kata physin (auto-dated; refine later)"
+        "note": "the Logos/pneuma pervading a providential cosmos; kata physin [span verified vs scholarship 2026-07-04]"
       }
     },
     "stregheria": {
@@ -2574,10 +2577,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1899,
         "to": 2026,
-        "peak": 1949,
+        "peak": 1995,
         "living": true,
         "certainty": "attested",
-        "note": "Leland's Aradia; Diana, Lucifer & Aradia as witch-deities (auto-dated; refine later)"
+        "note": "Leland's Aradia; Diana, Lucifer & Aradia as witch-deities [span verified vs scholarship 2026-07-04]"
       }
     },
     "subud": {
@@ -2691,10 +2694,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1904,
         "to": 2026,
-        "peak": 1952,
+        "peak": 1995,
         "living": true,
         "certainty": "attested",
-        "note": "Aleister Crowley & the Book of the Law; 'Do what thou wilt'; True Will; the Aeon of Horus (auto-dated; refine later)"
+        "note": "Aleister Crowley & the Book of the Law; 'Do what thou wilt'; True Will; the Aeon of Horus [span verified vs scholarship 2026-07-04]"
       }
     },
     "theosophy": {
@@ -2716,11 +2719,11 @@ window.MIRROR_DATA = {
       "color": "#9fb8d8",
       "period": {
         "from": -1500,
-        "to": -1000,
-        "peak": -1300,
+        "to": 400,
+        "peak": -400,
         "living": false,
         "certainty": "attested",
-        "note": "Zalmoxis the immortality-god; the Thracian Horseman (auto-dated; refine later)"
+        "note": "Zalmoxis the immortality-god; the Thracian Horseman [span verified vs scholarship 2026-07-04]"
       }
     },
     "transcendental-meditation": {
@@ -2743,10 +2746,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1881,
         "to": 2026,
-        "peak": 1939,
+        "peak": 2015,
         "living": true,
         "certainty": "attested",
-        "note": "Fyodorov's Cosmist 'Common Task' (resurrect all the dead); Terasem (mindfiles); the Turing Church; Way of the  (auto-dated; refine later)"
+        "note": "Fyodorov's Cosmist 'Common Task' (resurrect all the dead); Terasem (mindfiles); the Turing Church; Way of the  [span verified vs scholarship 2026-07-04]"
       }
     },
     "tswana-sotho": {
@@ -2754,12 +2757,12 @@ window.MIRROR_DATA = {
       "region": "Botswana / Lesotho / S Africa",
       "color": "#c75f9a",
       "period": {
-        "from": -1000,
+        "from": 1200,
         "to": 2026,
-        "peak": 210,
+        "peak": 1800,
         "living": true,
         "certainty": "attested",
-        "note": "Modimo the source-of-all via the badimo ancestors; rain-making (auto-dated; refine later)"
+        "note": "Modimo the source-of-all via the badimo ancestors; rain-making [span verified vs scholarship 2026-07-04]"
       }
     },
     "tupi": {
@@ -2808,10 +2811,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1565,
         "to": 2026,
-        "peak": 1749,
+        "peak": 1850,
         "living": true,
         "certainty": "attested",
-        "note": "a creedless covenantal faith drawing from all traditions; the inherent worth of every person (auto-dated; refine later)"
+        "note": "a creedless covenantal faith drawing from all traditions; the inherent worth of every person [span verified vs scholarship 2026-07-04]"
       }
     },
     "urantia": {
@@ -2821,10 +2824,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1882,
         "to": 2026,
-        "peak": 1939,
+        "peak": 1975,
         "living": true,
         "certainty": "attested",
-        "note": "the celestial-authored Urantia Book cosmology; the Thought Adjuster; an expanded Jesus (Michael) (auto-dated; refine later)"
+        "note": "the celestial-authored Urantia Book cosmology; the Thought Adjuster; an expanded Jesus (Michael) [span verified vs scholarship 2026-07-04]"
       }
     },
     "urartian": {
@@ -2833,11 +2836,11 @@ window.MIRROR_DATA = {
       "color": "#d8a24a",
       "period": {
         "from": -860,
-        "to": -360,
-        "peak": -660,
+        "to": -590,
+        "peak": -730,
         "living": false,
         "certainty": "attested",
-        "note": "Haldi the war-god atop a lion (auto-dated; refine later)"
+        "note": "Haldi the war-god atop a lion [span verified vs scholarship 2026-07-04]"
       }
     },
     "vaishnava": {
@@ -2858,12 +2861,12 @@ window.MIRROR_DATA = {
       "region": "Haiti",
       "color": "#b8447a",
       "period": {
-        "from": 1500,
+        "from": 1700,
         "to": 2026,
-        "peak": 1710,
+        "peak": 1791,
         "living": true,
         "certainty": "attested",
-        "note": "the Lwa (Legba, Erzulie, Baron Samedi) in Rada & Petwo nanchon; the poto-mitan (auto-dated; refine later)"
+        "note": "the Lwa (Legba, Erzulie, Baron Samedi) in Rada & Petwo nanchon; the poto-mitan [span verified vs scholarship 2026-07-04]"
       }
     },
     "waaqeffanna": {
@@ -2873,10 +2876,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": -1000,
         "to": 2026,
-        "peak": 210,
+        "peak": 1580,
         "living": true,
         "certainty": "attested",
-        "note": "Waaqa the sky supreme-being; the Gadaa system; the Irreecha thanksgiving (auto-dated; refine later)"
+        "note": "Waaqa the sky supreme-being; the Gadaa system; the Irreecha thanksgiving [span verified vs scholarship 2026-07-04]"
       }
     },
     "wicca": {
@@ -2910,12 +2913,12 @@ window.MIRROR_DATA = {
       "region": "Sakha (Lena basin)",
       "color": "#7fae9a",
       "period": {
-        "from": -800,
+        "from": 1300,
         "to": 2026,
-        "peak": 330,
+        "peak": 1600,
         "living": true,
         "certainty": "attested",
-        "note": "Ürüng Aiyy Toyon the white-creator vs the abaasy; the white-vs-black shaman split (auto-dated; refine later)"
+        "note": "Ürüng Aiyy Toyon the white-creator vs the abaasy; the white-vs-black shaman split [span verified vs scholarship 2026-07-04]"
       }
     },
     "yarsanism": {
@@ -2938,10 +2941,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1160,
         "to": 2026,
-        "peak": 1506,
+        "peak": 1275,
         "living": true,
         "certainty": "attested",
-        "note": "Melek Taûs the Peacock Angel; the seven holy beings (auto-dated; refine later)"
+        "note": "Melek Taûs the Peacock Angel; the seven holy beings [span verified vs scholarship 2026-07-04]"
       }
     },
     "yiguandao": {
@@ -2951,10 +2954,10 @@ window.MIRROR_DATA = {
       "period": {
         "from": 1930,
         "to": 2026,
-        "peak": 1968,
+        "peak": 1947,
         "living": true,
         "certainty": "attested",
-        "note": "the Eternal Venerable Mother (Wusheng Laomu); five-teachings syncretism; spirit-writing (auto-dated; refine later)"
+        "note": "the Eternal Venerable Mother (Wusheng Laomu); five-teachings syncretism; spirit-writing [span verified vs scholarship 2026-07-04]"
       }
     },
     "zapotec-mixtec": {
