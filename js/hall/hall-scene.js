@@ -131,6 +131,19 @@
       renderer.setSize(innerWidth, innerHeight);
     });
 
+    /* context loss: never white-screen. preventDefault makes the context
+       restorable; on restore three re-uploads what it kept, and we nudge the
+       hall's own state (env, year textures) back onto the GPU. */
+    renderer.domElement.addEventListener("webglcontextlost", e => {
+      e.preventDefault();
+      DIAG.mark("WEBGL CONTEXT LOST — holding for restore");
+    }, false);
+    renderer.domElement.addEventListener("webglcontextrestored", () => {
+      DIAG.mark("webgl context restored — repainting the hall");
+      if (H.env) H.env.toInterior(H.env.k);
+      if (H.applyYearForce) H.applyYearForce();
+    }, false);
+
     /* ---------- light: restraint. one great shaft + cold whisper ---------- */
     scene.add(new THREE.AmbientLight(0x28324a, 0.20));
     const hemi = new THREE.HemisphereLight(0x2c3550, 0x05060a, 0.20);

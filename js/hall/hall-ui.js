@@ -17,7 +17,7 @@
     const hoverEl = $("hover-label");
     const ceremonyEl = $("ceremony-line");
 
-    function esc(s) { return (s || "").replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c])); }
+    function esc(s) { return (s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
     function chip(tier) {
       const t = D.tiers[tier] || D.tiers["3"];
       return `<span class="tier-chip" style="--c:${t.gold}">${t.name}</span>`;
@@ -164,7 +164,22 @@
         if (dos.practice) h += `<h3>The practice</h3><p class="rel-gloss">${esc(dos.practice)}</p>`;
         if (dos.canon) h += `<h3>The canon</h3><p class="rel-gloss">${esc(dos.canon)}</p>`;
         if (dos.reflects) h += `<h3>Where it stands alone</h3><p class="rel-facet">${esc(dos.reflects)}</p>`;
-        if (dos.sources && dos.sources.length) h += `<h3>Sources</h3><p class="rel-prov">${dos.sources.map(esc).join(" · ")}</p>`;
+        /* sources: a citation becomes a link ONLY when the chunk carries a
+           verified URL for it (data/_link sidecars, matched verbatim) — an
+           anchor and a small access badge; everything else stays honest
+           plain text. No dead links, no placeholders. */
+        if (dos.sources && dos.sources.length) {
+          const byCite = {};
+          ((root.MIRROR_LINKS && root.MIRROR_LINKS[k]) || []).forEach(l => {
+            if (l && l.cite && l.url) byCite[l.cite] = l;
+          });
+          h += `<h3>Sources</h3><p class="rel-prov">` + dos.sources.map(s => {
+            const l = byCite[s];
+            if (!l) return esc(s);
+            return `<a class="rel-src" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(s)}</a>` +
+                   `<span class="rel-access">${esc(l.access || "reference")}</span>`;
+          }).join(" · ") + `</p>`;
+        }
       }
       // partners: top convergent traditions
       const partners = [];

@@ -455,15 +455,19 @@
       if (motionBtn) motionBtn.classList.remove("on");
     }
 
-    /* the motion button lives only while you stand in the scroll, on touch */
+    /* the motion button lives only while you stand in the scroll, on touch
+       (reused across GPU rent/return rebuilds — the DOM survives the scene) */
     let motionBtn = null;
     if (gyro.supported && matchMedia("(pointer:coarse)").matches) {
-      motionBtn = document.createElement("button");
-      motionBtn.id = "motion-btn";
-      motionBtn.textContent = "◉ turn with me";
-      motionBtn.title = "let the phone become a window — turn your body to turn the room";
-      motionBtn.addEventListener("click", () => gyro.active ? disableGyro() : enableGyro());
-      document.body.appendChild(motionBtn);
+      motionBtn = document.getElementById("motion-btn");
+      if (!motionBtn) {
+        motionBtn = document.createElement("button");
+        motionBtn.id = "motion-btn";
+        motionBtn.textContent = "◉ turn with me";
+        motionBtn.title = "let the phone become a window — turn your body to turn the room";
+        document.body.appendChild(motionBtn);
+      }
+      motionBtn.onclick = () => gyro.active ? disableGyro() : enableGyro();
     }
     function setStanding(on) {
       if (motionBtn) motionBtn.classList.toggle("here", !!on);

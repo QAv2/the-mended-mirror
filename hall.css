@@ -42,6 +42,17 @@ canvas{ display:block; touch-action:none; }
 #motion-btn.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.6);
   background:rgba(240,196,90,0.10); box-shadow:0 0 18px rgba(240,196,90,0.18); }
 
+/* ---------- the walk pad + rise bar (scroll station, touch devices) ---------- */
+#walk-pad, #rise-bar{ position:fixed; z-index:8; display:none;
+  background:rgba(12,14,20,0.55); border:1px solid rgba(240,196,90,0.25);
+  touch-action:none; }
+#walk-pad.here, #rise-bar.here{ display:flex; align-items:center; justify-content:center; }
+#walk-pad{ left:18px; bottom:88px; width:96px; height:96px; border-radius:50%; }
+#rise-bar{ right:18px; bottom:88px; width:44px; height:110px; border-radius:22px; }
+#walk-nub, #rise-nub{ width:34px; height:34px; border-radius:50%;
+  background:rgba(240,196,90,0.18); border:1px solid rgba(240,196,90,0.5);
+  pointer-events:none; }
+
 /* ---------- the gate (threshold overlay) ---------- */
 #gate{
   position:fixed; inset:0; z-index:30; cursor:pointer;
@@ -224,6 +235,13 @@ canvas{ display:block; touch-action:none; }
 #reliquary .rel-mini-line{ font-size:12px; color:var(--silver-dim); font-style:italic; }
 #reliquary .rel-jump{ cursor:pointer; border-bottom:1px dotted rgba(205,210,220,0.3); }
 #reliquary .rel-jump:hover{ color:#fff; }
+/* verified source links — an anchor and a quiet access badge */
+#reliquary a.rel-src{ color:var(--silver); text-decoration:none;
+  border-bottom:1px dotted rgba(240,196,90,0.45); }
+#reliquary a.rel-src:hover{ color:var(--gold-bright); border-bottom-color:var(--gold); }
+#reliquary .rel-access{ display:inline-block; margin-left:.45em; padding:0 5px;
+  font-size:9px; letter-spacing:.14em; text-transform:uppercase; vertical-align:1px;
+  color:var(--gold-deep); border:1px solid rgba(240,196,90,0.3); border-radius:3px; }
 .rel-edges,.rel-figs{ list-style:none; margin:0; padding:0; }
 .rel-edges li{ margin:0 0 1.05em; }
 .rel-figs li{ margin:0 0 .5em; font-size:13.5px; }

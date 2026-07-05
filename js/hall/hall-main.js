@@ -111,6 +111,40 @@
       postHolo();
     }
     H.ensureHolo = ensureHolo;
+
+    /* the GPU rent returned: a power-down hands the exhibits' memory back
+       (the strata canvas alone is a phone's whole texture budget) — the next
+       execute rebuilds them behind its own dissolve, through the same
+       builders, exactly once */
+    function disposeGroup(g2) {
+      const seen = new Set();
+      g2.traverse(o => {
+        if (o.geometry) o.geometry.dispose();
+        const mats = Array.isArray(o.material) ? o.material : (o.material ? [o.material] : []);
+        for (const m of mats) {
+          if (seen.has(m)) continue;
+          seen.add(m);
+          for (const k in m) if (m[k] && m[k].isTexture) m[k].dispose();
+          if (m.uniforms) for (const k in m.uniforms) {
+            const v = m.uniforms[k] && m.uniforms[k].value;
+            if (v && v.isTexture) v.dispose();
+          }
+          m.dispose();
+        }
+      });
+      H.scene.remove(g2);
+    }
+    function disposeHolo() {
+      if (!holoInited || H.room.holo) return;      // only from the lobby, fully built
+      [H.mater, H.figures, H.rotunda].forEach(x => x && disposeGroup(x.group));
+      H.mater = H.figures = H.rotunda = null;
+      H._beadMat = null;
+      reteBase.length = 0;
+      holoInited = false;
+      holoKicked = true;                            // rebuilt on demand, not behind the title
+      DIAG.mark("holodeck returned (GPU rent handed back)");
+    }
+    H.disposeHolo = disposeHolo;
     let holoKicked = false;
     async function buildHoloBehind() {
       if (holoKicked) return;
@@ -178,6 +212,7 @@
       if (!H.rig.pano) return;
       H.rig.pano = null;
       H.rotunda.setStanding(false);
+      showPads(false);
     }
 
     function goStation(name, dur) {
@@ -193,7 +228,7 @@
         H.ui.setStation("room");
         leavePano();
         clampsFor("room");
-        H.room.powerDown();
+        H.room.powerDown(() => { if (H.room.state === "lobby") disposeHolo(); });
         rig.flyTo(POSES.room, dur || 2.8, () => H.ui.hint(HINTS.room));
         return;
       }
@@ -230,6 +265,7 @@
           rig.dSph.theta += Math.PI; rig.sph.theta += Math.PI;
           rig.dSph.phi = 1.18; rig.sph.phi = 1.18;
           H.rotunda.setStanding(true);
+          showPads(true);
           H.ui.hint(HINTS.scroll);
         });
         return;
@@ -249,6 +285,7 @@
       H.ui.setYear(H.year);
     }
     applyYear(true);
+    H.applyYearForce = () => applyYear(true);   // context-restore refresh hook
 
     /* ---------- the mend ceremony ---------- */
     const cer = { active: false, p: 0, dur: 26, speed: 1 };
@@ -748,6 +785,51 @@
     }
     addEventListener("keydown", e => { const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
     addEventListener("keyup",   e => { const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
+
+    /* ---------- touch: walking the scroll without keys ----------
+       Standing in the ages on a phone: a walk pad (drag off its center —
+       forward/back/strafe) and a rise bar (drag up/down — the thumb's Q/E).
+       Coarse pointers only, and only while standing in the scroll; they
+       write the same walk axes the keys do, analog. */
+    let showPads = () => {};
+    if (matchMedia("(pointer:coarse)").matches) {
+      const mk = (id, nubId) => {
+        const el = document.createElement("div");
+        el.id = id;
+        const nub = document.createElement("div");
+        nub.id = nubId;
+        el.appendChild(nub);
+        document.body.appendChild(el);
+        return { el, nub };
+      };
+      const pad = mk("walk-pad", "walk-nub");
+      const rise = mk("rise-bar", "rise-nub");
+      const clamp1 = v => Math.max(-1, Math.min(1, v));
+      const drive = (p, fn) => {
+        let pid = null, cx = 0, cy = 0;
+        p.el.addEventListener("pointerdown", e => {
+          pid = e.pointerId; cx = e.clientX; cy = e.clientY;
+          p.el.setPointerCapture(pid);
+        });
+        p.el.addEventListener("pointermove", e => {
+          if (e.pointerId !== pid) return;
+          fn(clamp1((e.clientX - cx) / 42), clamp1((e.clientY - cy) / 42), p.nub);
+        });
+        const end = e => { if (e.pointerId === pid) { pid = null; fn(0, 0, p.nub); } };
+        p.el.addEventListener("pointerup", end);
+        p.el.addEventListener("pointercancel", end);
+      };
+      drive(pad, (nx, ny, nub) => {
+        walk.r = Math.max(0, nx); walk.l = Math.max(0, -nx);
+        walk.b = Math.max(0, ny); walk.f = Math.max(0, -ny);
+        nub.style.transform = `translate(${nx * 26}px, ${ny * 26}px)`;
+      });
+      drive(rise, (nx, ny, nub) => {
+        walk.d = Math.max(0, ny); walk.u = Math.max(0, -ny);
+        nub.style.transform = `translateY(${ny * 26}px)`;
+      });
+      showPads = on => [pad.el, rise.el].forEach(el => el.classList.toggle("here", !!on));
+    }
     const _wf = new THREE.Vector3(), _wr = new THREE.Vector3(), _wm = new THREE.Vector3();
     function walkStep(dt) {
       if (!entered || H.rig.locked || cer.active) return;   // no walking during the mend cutscene
