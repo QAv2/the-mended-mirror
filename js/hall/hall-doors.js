@@ -142,17 +142,22 @@
         const engraved = new THREE.MeshStandardMaterial({
           map: tex, bumpMap: tex, bumpScale: -0.05,     // dark engraving cuts IN
           color: 0xffffff, metalness: 0.85, roughness: 0.5,
-          emissive: 0x120c04, emissiveIntensity: 0.5,
+          emissive: 0x120c04, emissiveIntensity: 0.5, side: THREE.DoubleSide,
         });
+        /* the room side lives in the reveal's shade — it carries its own
+           warmer glow so the craft reads from within (Joe's catch) */
+        const engravedIn = engraved.clone();
+        engravedIn.emissive = new THREE.Color(0x2a1e0a);
+        engravedIn.emissiveIntensity = 0.9;
+        engravedIn.map = tex; engravedIn.bumpMap = tex;
         const mkLeaf = () => {
           const leaf = new THREE.Group();
           leaf.add(new THREE.Mesh(new THREE.BoxGeometry(LEAF_W, LEAF_H, LEAF_D), bronze));
           const front = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engraved);
           front.position.z = -LEAF_D / 2 - 0.006;
           front.rotation.y = Math.PI;                   // faces outward (−z)
-          const back = front.clone();
-          back.position.z = LEAF_D / 2 + 0.006;
-          back.rotation.y = 0;                          // the room sees the same craft
+          const back = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engravedIn);
+          back.position.z = LEAF_D / 2 + 0.006;         // the room sees the same craft
           leaf.add(front, back);
           return leaf;
         };

@@ -927,22 +927,7 @@
             H.exterior.setPorthole(false);
             H.threshold.setSunk();
             clampsFor("exterior");
-            seatRig(POSES.exterior);      // the flight departs the aerial seat, behind the opaque splash
-            let seen = false;
-            try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
-            if (seen) {
-              const sk = document.createElement("div");
-              sk.id = "gate-skip";
-              sk.textContent = "pass directly within";
-              sk.addEventListener("click", ev => {
-                ev.stopPropagation();
-                if (entered || !enterBtn.classList.contains("ready")) return;
-                entered = true;
-                gate.classList.add("hidden");
-                H.approach.play(arrive, true);
-              });
-              gate.appendChild(sk);
-            }
+            seatRig(POSES.exterior);      // the world waits behind the opaque splash
           } else if (H.exterior) {
             /* ?intro=0: night has fallen; the temple waits outside the door
                exactly as the lobby expects */
@@ -954,17 +939,53 @@
           return buildHoloBehind();
         }).then(() => {
           gateNarrates = false;
-          enterBtn.textContent = "Enter";
+          enterBtn.textContent = INTRO ? "Begin" : "Enter";
           enterBtn.classList.add("ready");
-          DIAG.mark("splash ready — Enter offered (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
+          DIAG.mark("splash ready — " + enterBtn.textContent + " offered (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
         });
       }
+
+      /* the crossing takes TWO clicks (Joe): Begin lifts the splash onto the
+         tholos from without — orbit it, take your time — and Enter begins
+         the approach. Only the flightless road (?intro=0) enters in one. */
+      function showOutside() {
+        gate.classList.add("hidden");
+        H.ui.hint("the temple from without &middot; drag to orbit &middot; scroll to draw close", true);
+        const wrap = document.createElement("div");
+        wrap.id = "enter-live";
+        const be = document.createElement("button");
+        be.id = "enter-live-btn";
+        be.textContent = "Enter";
+        be.onclick = () => {
+          if (entered) return;
+          entered = true;
+          wrap.remove();
+          H.approach.play(arrive);
+        };
+        wrap.appendChild(be);
+        let seen = false;
+        try { seen = localStorage.getItem("mm-approached") === "1"; } catch (e) {}
+        if (seen) {
+          const sk = document.createElement("button");
+          sk.id = "enter-live-skip";
+          sk.textContent = "pass directly within";
+          sk.onclick = () => {
+            if (entered) return;
+            entered = true;
+            wrap.remove();
+            H.approach.play(arrive, true);
+          };
+          wrap.appendChild(sk);
+        }
+        document.body.appendChild(wrap);
+      }
+
       enterBtn.addEventListener("click", ev => {
         ev.stopPropagation();
         if (entered || !enterBtn.classList.contains("ready")) return;
+        if (INTRO && H.approach) { showOutside(); return; }   // Begin: the world first
         entered = true;
         gate.classList.add("hidden");
-        if (INTRO && H.approach) { H.approach.play(arrive); return; }
         // arrival: a long slow settle down toward the plinth
         H.rig.dSph.radius = 24; H.rig.dSph.phi = 0.85; H.rig.dSph.theta = -0.55;
         H.rig.sph.copy(H.rig.dSph);
