@@ -62,25 +62,28 @@
       const g = c.getContext("2d"); g.fillStyle = fill; g.fillRect(0, 0, S, S);
       return { c, g };
     }
-    // layered blurred value-noise — cheap organic mottling, no per-pixel loop.
-    // Below tier 2 the gaussian filter is skipped and the octaves halved:
-    // mobile Chrome rasterizes canvas blur in software and the stone
-    // surfaces alone cost MINUTES of boot (Joe's Motorola, 2026-07-05);
-    // overlapping soft-alpha cells read fine at half resolution.
+    // layered value-noise as soft radial-gradient blobs — the organic
+    // mottling the old filter:blur gave, at a fraction of the cost on EVERY
+    // tier (canvas gaussians rasterize in software: minutes on the Motorola,
+    // long seconds on desktops; gradients are cheap everywhere). Tier 2
+    // carries one octave more than the phones.
     function octaves(g, lo, hi) {
-      const lite = HALL.Q && HALL.Q.tier < 2;
-      const rows = lite ? [[5, 0], [11, 0]] : [[5, 30], [11, 15], [23, 7], [47, 3]];
-      rows.forEach(([cells, blur], oi) => {
-        g.save();
-        if (blur) g.filter = "blur(" + blur + "px)";
-        const cell = S / cells, amp = [0.55, 0.4, 0.3, 0.22][oi] * (lite ? 0.8 : 1);
+      const rows = HALL.Q && HALL.Q.tier < 2
+        ? [[5, 0.55], [11, 0.4]]
+        : [[5, 0.55], [11, 0.4], [23, 0.3]];
+      rows.forEach(([cells, amp]) => {
+        const cell = S / cells, r = cell * 1.15;
         for (let y = -1; y <= cells; y++) for (let x = -1; x <= cells; x++) {
           const v = Math.random();
-          g.globalAlpha = amp * Math.abs(v - 0.5);
-          g.fillStyle = v < 0.5 ? lo : hi;
-          g.fillRect(x * cell, y * cell, cell * 1.5, cell * 1.5);
+          const cx = (x + 0.75) * cell, cy = (y + 0.75) * cell;
+          const col = v < 0.5 ? lo : hi;
+          const gr = g.createRadialGradient(cx, cy, 0, cx, cy, r);
+          gr.addColorStop(0, col);
+          gr.addColorStop(1, col + "00");      // 8-digit hex: fade to clear
+          g.globalAlpha = amp * Math.abs(v - 0.5) * 1.6;
+          g.fillStyle = gr;
+          g.fillRect(cx - r, cy - r, r * 2, r * 2);
         }
-        g.restore();
       });
       g.globalAlpha = 1;
     }

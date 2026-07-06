@@ -204,8 +204,10 @@
         rig.min = 2.5; rig.max = 26;
         rig.minPhi = 0.35; rig.maxPhi = 1.50;
       } else if (name === "instrument") {
-        rig.min = 5; rig.max = 30;
-        rig.minPhi = 0.06; rig.maxPhi = 1.32;
+        rig.min = 4; rig.max = 30;
+        // down to the floor, gaze LEVEL through the motes and seams (Joe) —
+        // 1.60 is a breath past horizontal without diving under the mirror
+        rig.minPhi = 0.06; rig.maxPhi = 1.60;
       } else if (name === "exterior") {
         // outside, before entry: orbit the whole build — never through the
         // colonnade, and phi stops a breath above horizontal so the camera
@@ -272,7 +274,15 @@
         ensureHolo();
         H.room.showInstrument(true);
         H.room.execute();
-        rig.flyTo(POSES.instrument, dur || 3.6, () => {
+        // portrait screens back the ceremony vantage off so the whole
+        // mirror fits the narrower field (Joe's phone walk)
+        const fit = Math.min(2.0, Math.max(1, 1.18 / Math.max(0.35, H.camera.aspect)));
+        const pose = fit > 1.01
+          ? { target: POSES.instrument.target, radius: POSES.instrument.radius * fit,
+              phi: POSES.instrument.phi, theta: POSES.instrument.theta }
+          : POSES.instrument;
+        if (fit > 1.01) rig.max = Math.max(rig.max, pose.radius + 4);
+        rig.flyTo(pose, dur || 3.6, () => {
           H.ui.hint(HINTS.instrument);
           if (!visitedInstrument) {
             visitedInstrument = true;
@@ -327,7 +337,8 @@
       clearSelection(); H.ui.close();
       cer.active = true; cer.p = 0; cer.speed = 1; cer.mid = false;
       H.ui.ceremonyLine("It was one mirror.", 4200);
-      H.ui.hint("watching the mend &middot; <b>S</b> to skip &middot; click to hasten", true);
+      // no tap-to-hasten: a visitor turning to watch must not speed the mend (Joe)
+      H.ui.hint(IS_TOUCH ? "watching the mend &middot; drag to look around" : "watching the mend &middot; <b>S</b> to skip &middot; drag to look around", true);
     }
     H.startCeremony = startCeremony;
     function skipCeremony() {
@@ -723,7 +734,7 @@
     /* ---------- drags (rule & meridian are the same hand) ---------- */
     H.onPointerDown = () => {
       if (!entered) return;                 // outside, the pointer only orbits
-      if (cer.active) { cer.speed = 6; return; }
+      if (cer.active) return;               // the mend keeps its own time — the hand may orbit, not hasten
       if (H.rig.locked) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
@@ -788,7 +799,7 @@
         if (sel.type) { clearSelection(); H.ui.close(); }
       }
     };
-    H.onWheelLocked = () => { if (cer.active) cer.speed = 6; };
+    // wheel no longer hastens the mend — the ceremony keeps its own time
 
     /* ---------- keys ---------- */
     const typing = e => e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA");
