@@ -96,6 +96,7 @@
     }
     function openFigure(fi) {
       const f = D.figures[fi];
+      recordTrail("figure", fi, f.name);
       gated([f.tradition], () => renderFigure(fi));
       const seen = {}, ts = [];
       for (const ei of M.edgesOfFig[fi]) {
@@ -108,6 +109,7 @@
       prefetchPartners(ts);
     }
     function openTradition(k) {
+      recordTrail("tradition", k, (D.traditions[k] || {}).name || k);
       gated([k], () => renderTradition(k));
       const partners = [];
       for (const key in M.pairAgg) {
@@ -208,7 +210,10 @@
       show(h);
     }
 
-    function openJoint(ji) { gated([], () => renderJoint(ji)); }   // no chunk needed; claims the token
+    function openJoint(ji) {
+      recordTrail("joint", ji, M.joints[ji].a.name);
+      gated([], () => renderJoint(ji));                              // no chunk needed; claims the token
+    }
     function renderJoint(ji) {
       const j = M.joints[ji], a = j.a;
       let h = `<div class="rel-kicker">archetype · ${esc(a.subtype || "")}</div>`;
@@ -351,6 +356,52 @@
         if (ev.key === "/" && document.activeElement !== input) { ev.preventDefault(); input.focus(); }
       });
     })();
+
+    /* ---------- the trail: the path the seeker has walked ----------
+       Every record the visitor lands on flows through open{Figure,Tradition,
+       Joint} — whether summoned by the seeker, followed from a reliquary jump,
+       or lit by a gleam clicked in the hall. We tap that one choke: each
+       landing lays a crumb (an immediate repeat is swallowed), and a crumb
+       clicked flies the camera back there and prunes the path after it —
+       browser-back, not a growing ledger. Figures, traditions, archetypes
+       only; each re-rides its H.jump flight. Seams stay off the path (they
+       are a relation between two names, not a place). */
+    const trailEl = $("search-trail");
+    let trail = [];
+    const TRAIL_MAX = 12;
+    function sameCrumb(a, b) { return a && b && a.type === b.type && a.ref === b.ref; }
+    function recordTrail(type, ref, label) {
+      if (!trailEl) return;
+      const node = { type, ref, label };
+      if (sameCrumb(trail[trail.length - 1], node)) return;   // already standing here
+      trail.push(node);
+      if (trail.length > TRAIL_MAX) trail.shift();
+      renderTrail();
+    }
+    function jumpTrail(n) {
+      if (n.type === "figure") H.jump.figure(n.ref);
+      else if (n.type === "tradition") H.jump.tradition(n.ref);
+      else if (n.type === "joint") H.jump.joint(n.ref);
+    }
+    function renderTrail() {
+      if (!trailEl) return;
+      if (!trail.length) { trailEl.className = ""; trailEl.innerHTML = ""; return; }
+      trailEl.className = "on";
+      trailEl.innerHTML = trail.map((n, i) => {
+        const crumb = i === trail.length - 1
+          ? `<span class="trail-current">${esc(n.label)}</span>`
+          : `<span class="trail-crumb" data-i="${i}">${esc(n.label)}</span>`;
+        return (i ? `<span class="trail-sep">&rsaquo;</span>` : "") + crumb;
+      }).join("");
+      trailEl.querySelectorAll(".trail-crumb[data-i]").forEach(el => {
+        el.onclick = () => {
+          const n = trail[+el.getAttribute("data-i")];
+          trail = trail.slice(0, +el.getAttribute("data-i") + 1);   // prune the walk forward of here
+          renderTrail();
+          jumpTrail(n);                     // open{…} re-fires, sees this crumb as the tail → no repeat
+        };
+      });
+    }
 
     /* ---------- nav ---------- */
     document.querySelectorAll("#nav [data-station]").forEach(btn => {
