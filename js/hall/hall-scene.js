@@ -132,7 +132,11 @@
     scene.background = new THREE.Color(COL.obsidian2);
     scene.fog = new THREE.FogExp2(COL.obsidian2, 0.0052);
 
-    const camera = new THREE.PerspectiveCamera(58, innerWidth / innerHeight, 0.1, 700);
+    // far 950: the portrait Begin-seat backs off to radius ~200+, and the
+    // sky (600) and sea (660) must outreach camera-distance + their radius —
+    // at 700 the sky's far side clipped into a background-blue dome (Joe's
+    // phone). 0.1→950 keeps depth precision comfortably.
+    const camera = new THREE.PerspectiveCamera(58, innerWidth / innerHeight, 0.1, 950);
     camera.position.set(0, 3.4, 58);
 
     addEventListener("resize", () => {
