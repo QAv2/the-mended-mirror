@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Conclave of Becoming</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="The capstone of the Mended Mirror: a lotus of infinite petals, each one a living cosmology. 288 traditions, 4,106 figures, gathered as family. Not as masters — as mirrors.">
+<meta property="og:title" content="The Conclave of Becoming">
+<meta property="og:description" content="A lotus of infinite petals, each one a living cosmology. Every story you have ever told is here.">
+<meta name="theme-color" content="#06070b">
+<link rel="stylesheet" href="conclave.css">
+<!--
+  THE CONCLAVE OF BECOMING — the space above the Hall of Ages.
+  Reached (one day) by looking straight up through the oculus and rising.
+  Everything vendored (Three.js r147 UMD + fonts), no build step.
+  The corpus is read-only here; the Mirror remains the Mirror.
+-->
+</head>
+<body data-state="gate">
+<div id="stage"></div>
+
+<div id="whisper"></div>
+<div id="hint"></div>
+
+<div id="presblock" class="hidden">
+  <h2></h2>
+  <div class="meta"></div>
+  <p class="gloss"></p>
+  <p class="speech"></p>
+</div>
+
+<div id="echo"></div>
+<form id="speak" class="hidden" autocomplete="off">
+  <input type="text" placeholder="speak" maxlength="400" autocomplete="off" spellcheck="false">
+</form>
+
+<div id="gate">
+  <h1>THE&nbsp;CONCLAVE&nbsp;OF&nbsp;BECOMING</h1>
+  <p class="epi">&laquo;You see us now. Not as masters, but as mirrors.&raquo;</p>
+  <p class="rise">rise</p>
+</div>
+
+<div id="veil"></div>
+
+<script src="vendor/three.min.js"></script>
+<script src="vendor/GLTFLoader.js"></script>
+<script src="data/mirror-core.js"></script>
+<script src="js/hall/hall-chunks.js"></script>
+<script src="js/conclave/conclave-data.js"></script>
+<script src="js/conclave/conclave-audio.js"></script>
+<script src="js/conclave/conclave-scene.js"></script>
+<script src="js/conclave/conclave-lotus.js"></script>
+<script src="js/conclave/conclave-presence.js"></script>
+<script src="js/conclave/conclave-voice.js"></script>
+<script src="js/conclave/conclave-main.js"></script>
+</body>
+</html>

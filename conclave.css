@@ -1,0 +1,160 @@
+/* THE CONCLAVE OF BECOMING — no chrome, only the space and a few breaths of text */
+@import url('fonts/fonts.css');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  background: #06070b;
+  color: #c4cde0;
+  font-family: 'Spectral', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  touch-action: none;
+}
+#stage, #stage canvas { position: fixed; inset: 0; display: block; }
+
+/* ---- the gate ---------------------------------------------------------- */
+#gate {
+  position: fixed; inset: 0; z-index: 40;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 18px; text-align: center;
+  background: radial-gradient(120% 90% at 50% 42%, #0a0d16 0%, #06070b 58%, #040509 100%);
+  cursor: pointer;
+  transition: opacity 1.4s ease;
+  padding: 0 6vw;
+}
+#gate.gone { opacity: 0; pointer-events: none; }
+#gate h1 {
+  font-family: 'Marcellus', serif; font-weight: 400;
+  font-size: clamp(30px, 5.4vw, 58px);
+  letter-spacing: .14em; line-height: 1.2;
+  background: linear-gradient(180deg, #fff1c8, #e7b24a 68%, #a9772f);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#gate .epi {
+  font-style: italic; font-weight: 300;
+  font-size: clamp(14px, 2vw, 18px);
+  color: #8d97b0; letter-spacing: .04em;
+}
+#gate .rise {
+  margin-top: 5vh;
+  font-family: 'Marcellus', serif;
+  font-size: 15px; letter-spacing: .5em; text-indent: .5em;
+  color: #b89454;
+  animation: risePulse 3.2s ease-in-out infinite;
+}
+@keyframes risePulse {
+  0%, 100% { opacity: .25; } 50% { opacity: .9; }
+}
+
+/* ---- the veil ----------------------------------------------------------- */
+#veil {
+  position: fixed; inset: 0; z-index: 50; background: #000;
+  opacity: 0; pointer-events: none; transition: opacity .9s ease;
+}
+#veil.down { opacity: 1; }
+
+/* ---- whisper (hover names) ---------------------------------------------- */
+#whisper {
+  position: fixed; z-index: 30; pointer-events: none;
+  font-family: 'Marcellus', serif; font-size: 15px; letter-spacing: .08em;
+  text-shadow: 0 1px 8px rgba(0,0,0,.9);
+  opacity: 0; transform: translateY(4px);
+  transition: opacity .25s ease, transform .25s ease;
+  white-space: nowrap;
+}
+#whisper.on { opacity: .95; transform: translateY(0); }
+
+/* ---- the evaporating hint ------------------------------------------------ */
+#hint {
+  position: fixed; left: 50%; bottom: max(26px, env(safe-area-inset-bottom, 26px));
+  transform: translateX(-50%);
+  z-index: 30; pointer-events: none;
+  font-style: italic; font-weight: 300; font-size: 14px;
+  color: #77809a; letter-spacing: .05em; text-align: center;
+  text-shadow: 0 1px 6px rgba(0,0,0,.8);
+  transition: opacity 1.2s ease; opacity: .9;
+  padding: 0 5vw;
+}
+#hint.gone { opacity: 0; }
+#hint:empty { opacity: 0; }
+
+/* ---- the presence block (pinned beneath the summoned light) -------------- */
+#presblock {
+  position: fixed; z-index: 25; pointer-events: none;
+  transform: translate(-50%, 0);
+  width: min(64ch, 82vw); text-align: center;
+  transition: opacity .4s ease;
+}
+#presblock.hidden { opacity: 0 !important; }
+#presblock h2 {
+  font-family: 'Marcellus', serif; font-weight: 400;
+  font-size: clamp(22px, 3.4vw, 34px); letter-spacing: .1em;
+  background: linear-gradient(180deg, #fff1c8, #e7b24a 72%, #a9772f);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#presblock .meta {
+  margin-top: 2px;
+  font-variant: small-caps; letter-spacing: .18em;
+  font-size: 12.5px; color: #7f89a4;
+}
+#presblock .gloss {
+  margin-top: 10px;
+  font-style: italic; font-weight: 300;
+  font-size: clamp(14px, 1.9vw, 16.5px); line-height: 1.55;
+  color: #aab3ca;
+}
+#presblock .speech {
+  margin-top: 14px;
+  font-weight: 400; font-size: clamp(15px, 2vw, 17.5px); line-height: 1.6;
+  color: #e6d9b8;
+  text-shadow: 0 1px 10px rgba(0,0,0,.85);
+  opacity: 0;
+}
+#presblock .speech.said { animation: speechIn 1.6s ease forwards; }
+@keyframes speechIn {
+  0% { opacity: 0; letter-spacing: .06em; filter: blur(3px); }
+  100% { opacity: 1; letter-spacing: .01em; filter: blur(0); }
+}
+
+/* ---- the communion line --------------------------------------------------- */
+#echo {
+  position: fixed; left: 50%; bottom: calc(max(64px, env(safe-area-inset-bottom, 24px) + 58px));
+  transform: translateX(-50%);
+  z-index: 26; pointer-events: none;
+  font-style: italic; font-size: 13.5px; color: #6f7890;
+  max-width: 70vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: 0;
+}
+#echo.said { animation: echoIn 6s ease forwards; }
+@keyframes echoIn {
+  0% { opacity: 0; } 8% { opacity: .8; } 70% { opacity: .8; } 100% { opacity: 0; }
+}
+#speak {
+  position: fixed; left: 50%; bottom: max(22px, env(safe-area-inset-bottom, 22px));
+  transform: translateX(-50%);
+  z-index: 26; width: min(52ch, 78vw);
+  transition: opacity .6s ease;
+}
+#speak.hidden { opacity: 0; pointer-events: none; }
+#speak input {
+  width: 100%;
+  background: transparent; border: none; outline: none;
+  border-bottom: 1px solid rgba(196, 205, 224, .22);
+  padding: 8px 2px;
+  font-family: 'Spectral', Georgia, serif; font-size: 16px;
+  color: #dfe5f2; text-align: center; letter-spacing: .02em;
+  caret-color: #e7b24a;
+  transition: border-color .4s ease;
+}
+#speak input:focus { border-bottom-color: rgba(231, 178, 74, .55); }
+#speak input::placeholder {
+  color: #5b647e; font-style: italic; letter-spacing: .3em; text-indent: .3em;
+}
+
+@media (pointer: coarse) {
+  #hint { font-size: 13px; }
+  #presblock .gloss { font-size: 14px; }
+}
