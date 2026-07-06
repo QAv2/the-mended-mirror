@@ -110,6 +110,7 @@
     }
     function openTradition(k) {
       recordTrail("tradition", k, (D.traditions[k] || {}).name || k);
+      markSystem(k);
       gated([k], () => renderTradition(k));
       const partners = [];
       for (const key in M.pairAgg) {
@@ -401,6 +402,45 @@
           jumpTrail(n);                     // open{…} re-fires, sees this crumb as the tail → no repeat
         };
       });
+    }
+
+    /* ---------- the roll of systems: every shard by name, one pane ----------
+       The early console's left rail, brought home: the whole roster of
+       traditions in a single scrollable column, folded shut until wanted. A
+       dot carries each shard's colour; a name clicked flies to its shard (and
+       openTradition lights the row). Landing on a tradition by any road — the
+       seeker, a gleam, a jump-link — lights it here too. */
+    const sysListEl = $("systems-list"), sysCountEl = $("sys-count");
+    const sysRowByKey = {};
+    let sysActive = null;
+    (function buildRoll() {
+      if (!sysListEl) return;
+      const keys = Object.keys(D.traditions).sort((a, b) =>
+        ((D.traditions[a] || {}).name || a).localeCompare((D.traditions[b] || {}).name || b));
+      if (sysCountEl) sysCountEl.textContent = String(keys.length);
+      const frag = document.createDocumentFragment();
+      keys.forEach(k => {
+        const t = D.traditions[k] || {};
+        const b = document.createElement("button");
+        b.className = "sys-item";
+        b.type = "button";
+        b.setAttribute("role", "listitem");
+        b.innerHTML = `<i style="background:${t.color || "#8a8f9c"}"></i><span>${esc(t.name || k)}</span>`;
+        b.title = t.region ? (t.name || k) + " · " + t.region : (t.name || k);
+        b.onclick = () => H.jump.tradition(k);        // the flight lights the row through openTradition
+        sysRowByKey[k] = b;
+        frag.appendChild(b);
+      });
+      sysListEl.appendChild(frag);
+    })();
+    function markSystem(k) {
+      if (sysActive && sysRowByKey[sysActive]) sysRowByKey[sysActive].classList.remove("on");
+      sysActive = k;
+      const row = sysRowByKey[k];
+      if (!row) return;
+      row.classList.add("on");
+      const det = document.getElementById("systems");
+      if (det && det.open) row.scrollIntoView({ block: "nearest" });   // walk the rail to the lit name
     }
 
     /* ---------- nav ---------- */
