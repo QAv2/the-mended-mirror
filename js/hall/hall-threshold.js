@@ -33,8 +33,11 @@
     const PL_H = 0.95;
     const base = new THREE.Mesh(new THREE.BoxGeometry(1.9, 0.18, 1.9), plinthMat);
     base.position.y = 0.09;
-    const column = new THREE.Mesh(new THREE.CylinderGeometry(0.6, 0.72, PL_H - 0.3, 8), plinthMat);
-    column.position.y = 0.09 + (PL_H - 0.3) / 2;
+    // the shaft runs from inside the base up INTO the cap's underside at
+    // PL_H − 0.08 (it used to stop 0.13 shy — the tabletop floated)
+    const COL_H = PL_H - 0.16;
+    const column = new THREE.Mesh(new THREE.CylinderGeometry(0.6, 0.72, COL_H, 8), plinthMat);
+    column.position.y = 0.09 + COL_H / 2;
     const cap = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.16, 1.5), plinthTopMat);
     cap.position.y = PL_H;
     const capInlay = new THREE.Mesh(
