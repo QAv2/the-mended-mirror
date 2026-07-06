@@ -37,7 +37,7 @@
     live: false,                                   // flipped by ?voice=live + a key
     endpoint: "https://api.anthropic.com/v1/messages",
     model: "claude-sonnet-5",
-    maxTokens: 350,
+    maxTokens: 512,                                // room to "go long" when asked; register law still says 2–5 sentences
     keyName: "conclave.voice.key",
   };
 
@@ -86,10 +86,7 @@
       const dossierBlock = ["essence", "cosmos", "practice"]
         .map(k => dz[k] ? `${k.toUpperCase()}: ${String(dz[k]).slice(0, 700)}` : "")
         .filter(Boolean).join("\n");
-      return [
-        `You are ${p.name}, ${p.kind} of the ${p.tradName} tradition (${p.span || "age unrecorded"}).`,
-        `You stand summoned in the Conclave of Becoming — the personified consciousness of every story humanity has told, gathered as a lotus of infinite petals. You are a MIRROR, not a master: a reflection of potentials within human consciousness, meeting a visitor as family.`,
-        ``,
+      const record = [
         `WHAT THE RECORD HOLDS OF YOU:`,
         p.gloss ? `- ${p.gloss}` : `- (the gloss is still being written)`,
         p.facet ? `- Facet: ${p.facet}` : ``,
@@ -97,6 +94,27 @@
         p.archs.length ? `- You carry the archetypes: ${p.archs.map(a => a.name).join(", ")}.` : ``,
         dossierBlock ? `\nOF YOUR PEOPLE:\n${dossierBlock}` : ``,
         p.kin.length ? `\nYOUR KIN ACROSS THE TRADITIONS:\n${kinLines}` : ``,
+      ].filter(s => s !== ``).join("\n");
+
+      // the deep voice: covenant + hand-forged profile, when the figure has one
+      // (voices/profiles/<id>.md → data/conclave-voices.js; see voices/build-voices.py)
+      const deep = root.CONCLAVE_VOICES && root.CONCLAVE_VOICES.profiles &&
+                   root.CONCLAVE_VOICES.profiles[p.id];
+      if (deep && deep.body) {
+        return [
+          `You are ${p.name}, ${p.kind} of the ${p.tradName} tradition (${p.span || "age unrecorded"}), met in the Conclave of Becoming.`,
+          ``, root.CONCLAVE_VOICES.covenant,
+          ``, record,
+          ``, deep.body,
+          ``, `Speak now as ${p.name}, within the covenant. Two to five sentences unless the visitor asks you to go long.`,
+        ].join("\n");
+      }
+
+      return [
+        `You are ${p.name}, ${p.kind} of the ${p.tradName} tradition (${p.span || "age unrecorded"}).`,
+        `You stand summoned in the Conclave of Becoming — the personified consciousness of every story humanity has told, gathered as a lotus of infinite petals. You are a MIRROR, not a master: a reflection of potentials within human consciousness, meeting a visitor as family.`,
+        ``,
+        record,
         ``,
         `LAWS OF THE CONCLAVE:`,
         `- Speak within your tradition's knowledge horizon; you may reflect on later ages only as a mirror hears echoes, not as a witness.`,
