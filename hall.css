@@ -31,16 +31,6 @@ canvas{ display:block; touch-action:none; }
   opacity:0; pointer-events:none; transition:opacity .6s ease; }
 #passage-veil.dark{ opacity:1; pointer-events:auto; }
 
-/* ---------- the motion button (rotunda, touch devices) ---------- */
-#motion-btn{ position:fixed; bottom:64px; left:50%; transform:translateX(-50%);
-  z-index:8; display:none;
-  font-family:'Spectral',serif; font-size:12px; letter-spacing:.18em;
-  text-transform:uppercase; color:var(--silver-dim);
-  background:rgba(12,14,20,0.72); border:1px solid rgba(240,196,90,0.25);
-  border-radius:20px; padding:9px 20px; cursor:pointer; transition:.25s; }
-#motion-btn.here{ display:block; }
-#motion-btn.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.6);
-  background:rgba(240,196,90,0.10); box-shadow:0 0 18px rgba(240,196,90,0.18); }
 
 /* ---------- the walk pad + rise bar (touch devices, every in-hall stage) ----------
    Joe: phones have no arrows — the directional device lives bottom right. */
@@ -332,7 +322,6 @@ body[data-stage="holo"] #search{ display:block; }
   #reliquary.open{ transform:translateY(0); }
   #reliquary h2{ font-size:21px; }
 
-  #motion-btn{ bottom:52px; }
   #gate .controls-note{ display:none; }
   #gate .controls-note.touch{ display:block; }
   #gate h1{ font-size:clamp(30px,9vw,44px); }

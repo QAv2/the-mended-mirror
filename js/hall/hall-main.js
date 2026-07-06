@@ -99,6 +99,7 @@
     };
     let station = "room";
     let visitedInstrument = false;
+    let visitedScroll = false;
 
     /* ---------- the deferred builds ----------
        The world outside (temple, sea, sky) and the holodeck exhibits (mirror,
@@ -249,6 +250,7 @@
       if (name === "rotunda") name = "scroll";        // legacy alias
       if (name === station && name !== "room") return;
       const rig = H.rig;
+      skipWallCeremony();                             // leaving the wall ends its rite cleanly
       H.ui.close();
       clearSelection();
 
@@ -309,6 +311,10 @@
           rig.dSph.phi = 1.18; rig.sph.phi = 1.18;
           H.rotunda.setStanding(true);
           H.ui.hint(HINTS.scroll);
+          if (!visitedScroll) {
+            visitedScroll = true;
+            setTimeout(() => startWallCeremony(), 450);
+          }
         });
         return;
       }
@@ -373,6 +379,48 @@
       }
     }
     function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
+
+    /* ---------- the writing of the ages (the scroll's own ceremony) ----------
+       First time standing in the scroll: the meridian starts at the deep
+       past and sweeps the written circle once — the room turns with the
+       bar, and the ages ignite as it passes (the wall's dark-ahead rule
+       does the writing). It ends at NOW, beside the prophesied door.
+       The mend belongs to the instrument; this belongs to the wall. */
+    const wcer = { active: false, p: 0, dur: 26, speed: 1 };
+    function startWallCeremony() {
+      if (wcer.active || cer.active || !H.rig.pano) return;
+      clearSelection(); H.ui.close();
+      wcer.active = true; wcer.p = 0; wcer.speed = 1;
+      H.rig.dSph.phi = 1.05;             // eyes lifted to the strata; phi stays the visitor's
+      H.ui.hint(IS_TOUCH ? "the ages, written in order" : "the ages, written in order &middot; <b>S</b> to skip", true);
+    }
+    H.startWallCeremony = startWallCeremony;
+    function skipWallCeremony() {
+      if (!wcer.active) return;
+      wcer.active = false;
+      H.year = M.NOW;
+      applyYear(true);
+      H.ui.hint(HINTS.scroll);
+    }
+    function stepWallCeremony(dt) {
+      if (!wcer.active) return;
+      if (!H.rig.pano) { skipWallCeremony(); return; }
+      wcer.p += (dt / wcer.dur) * wcer.speed;
+      const p = Math.min(1, wcer.p);
+      H.year = M.time.tToYear(p);
+      applyYear(true);
+      // the room turns with the bar (theta only — the visitor keeps phi)
+      const th = Math.PI / 2 - TA.angleOfYear(H.year);
+      let d = th - H.rig.dSph.theta;
+      d = ((d + Math.PI) % TAU + TAU) % TAU - Math.PI;
+      H.rig.dSph.theta += d;
+      if (wcer.p >= 1) {
+        wcer.active = false;
+        H.year = M.NOW;
+        applyYear(true);
+        H.ui.hint(HINTS.scroll);
+      }
+    }
 
     /* rete fade helper (base opacities stored when the rete builds — postHolo) */
     const reteBase = [];
@@ -734,7 +782,7 @@
     /* ---------- drags (rule & meridian are the same hand) ---------- */
     H.onPointerDown = () => {
       if (!entered) return;                 // outside, the pointer only orbits
-      if (cer.active) return;               // the mend keeps its own time — the hand may orbit, not hasten
+      if (cer.active || wcer.active) return; // a rite keeps its own time — the hand may orbit, not hasten
       if (H.rig.locked) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
@@ -762,7 +810,7 @@
     /* ---------- clicks ---------- */
     H.onPointerUp = (e, isClick) => {
       if (!entered || !isClick || H.rig.locked) return;
-      if (cer.active) return;
+      if (cer.active || wcer.active) return;
       ndc.set(H.pointer.nx, H.pointer.ny);
       const h = pick();
       if (!h) {
@@ -808,8 +856,8 @@
       if (e.code === "Digit1") goStation("room");
       else if (e.code === "Digit2") goStation("instrument");
       else if (e.code === "Digit3" || e.code === "Digit4") goStation("scroll");
-      else if (e.code === "Space") { e.preventDefault(); if (!cer.active) startCeremony(); else cer.speed = 6; }
-      else if (e.code === "KeyS" && cer.active) { skipCeremony(); }   // skip the mend
+      else if (e.code === "Space") { e.preventDefault(); if (wcer.active) wcer.speed = 6; else if (cer.active) cer.speed = 6; else startCeremony(); }
+      else if (e.code === "KeyS" && (cer.active || wcer.active)) { skipCeremony(); skipWallCeremony(); }   // skip the playing rite
       else if (e.code === "Escape") {
         if (H.approach && H.approach.playing) { H.approach.skip(); return; }
         clearSelection(); H.ui.close();
@@ -876,7 +924,7 @@
     }
     const _wf = new THREE.Vector3(), _wr = new THREE.Vector3(), _wm = new THREE.Vector3();
     function walkStep(dt) {
-      if (!entered || H.rig.locked || cer.active) return;   // no walking during the mend cutscene
+      if (!entered || H.rig.locked || cer.active || wcer.active) return;   // no walking during a rite
       const f = walk.f - walk.b, s = walk.r - walk.l, v = walk.u - walk.d;
       if (!f && !s && !v) return;
       const rig = H.rig;
@@ -1037,6 +1085,7 @@
       ensureHolo();
       entered = true;
       visitedInstrument = true;
+      visitedScroll = true;
       gate.classList.add("hidden");
       const rig = H.rig;
       if (shot === "doors" && H.exterior) {
@@ -1110,6 +1159,7 @@
       H.rig.update(dt);
       if (H.approach) H.approach.tick(dt, elapsed);   // after the rig: last hand on the camera wins
       stepCeremony(dt);
+      stepWallCeremony(dt);
       if (H.mater) H.mater.tick(elapsed);
       if (H.figures) H.figures.tick(elapsed, dt);
       H.threshold.tick(dt);

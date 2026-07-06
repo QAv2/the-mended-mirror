@@ -16,8 +16,7 @@
    shader samples the canvas BY WORLD BEARING (fract(atan(z,x)/TAU)), so the
    paint frame and the world agree by construction — no mirror bookkeeping.
 
-   On touch devices the room runs on the gyroscope: you physically turn, and
-   the phone becomes a window into the chamber.
+   On touch devices the walk pads and drag carry the standing view.
    ============================================================================ */
 (function (root) {
   "use strict";
@@ -415,66 +414,11 @@
     doorGrab.userData.kind = "rdoor";
     group.add(doorGrab);
 
-    /* ============================================================
-       the camera: gyroscope for standing inside (touch devices)
-       ============================================================ */
-    const gyro = {
-      supported: typeof DeviceOrientationEvent !== "undefined",
-      active: false, hasData: false,
-      quat: new THREE.Quaternion(),
-      yawOffset: 0,
-      _zee: new THREE.Vector3(0, 0, 1),
-      _euler: new THREE.Euler(),
-      _q0: new THREE.Quaternion(),
-      _q1: new THREE.Quaternion(-Math.sqrt(0.5), 0, 0, Math.sqrt(0.5)),
-      _qYaw: new THREE.Quaternion(),
-    };
-    function onOrient(e) {
-      if (e.alpha === null || e.alpha === undefined) return;
-      const alpha = THREE.MathUtils.degToRad(e.alpha);
-      const beta = THREE.MathUtils.degToRad(e.beta || 0);
-      const gamma = THREE.MathUtils.degToRad(e.gamma || 0);
-      const orient = THREE.MathUtils.degToRad((screen.orientation && screen.orientation.angle) || 0);
-      gyro._euler.set(beta, alpha, -gamma, "YXZ");
-      gyro.quat.setFromEuler(gyro._euler);
-      gyro.quat.multiply(gyro._q1);
-      gyro.quat.multiply(gyro._q0.setFromAxisAngle(gyro._zee, -orient));
-      gyro.hasData = true;
-    }
-    function enableGyro() {
-      const arm = () => {
-        addEventListener("deviceorientation", onOrient, true);
-        gyro.active = true;
-        if (motionBtn) motionBtn.classList.add("on");
-      };
-      if (typeof DeviceOrientationEvent.requestPermission === "function") {
-        DeviceOrientationEvent.requestPermission().then(r => { if (r === "granted") arm(); }).catch(() => {});
-      } else arm();
-    }
-    function disableGyro() {
-      removeEventListener("deviceorientation", onOrient, true);
-      gyro.active = false; gyro.hasData = false;
-      if (motionBtn) motionBtn.classList.remove("on");
-    }
-
-    /* the motion button lives only while you stand in the scroll, on touch
-       (reused across GPU rent/return rebuilds — the DOM survives the scene) */
-    let motionBtn = null;
-    if (gyro.supported && matchMedia("(pointer:coarse)").matches) {
-      motionBtn = document.getElementById("motion-btn");
-      if (!motionBtn) {
-        motionBtn = document.createElement("button");
-        motionBtn.id = "motion-btn";
-        motionBtn.textContent = "◉ turn with me";
-        motionBtn.title = "let the phone become a window — turn your body to turn the room";
-        document.body.appendChild(motionBtn);
-      }
-      motionBtn.onclick = () => gyro.active ? disableGyro() : enableGyro();
-    }
-    function setStanding(on) {
-      if (motionBtn) motionBtn.classList.toggle("here", !!on);
-      if (!on) disableGyro();
-    }
+    /* the gyroscope window is retired (Joe: it didn't work and isn't
+       needed) — the walk pads and drag carry the standing view. The inert
+       stub keeps the conductor's and the scene's guards honest. */
+    const gyro = { supported: false, active: false, hasData: false, yawOffset: 0 };
+    function setStanding(on) { /* the pads stage themselves via CSS */ }
 
     /* ---------- per-frame ---------- */
     const _qY = new THREE.Quaternion(), _yAxis = new THREE.Vector3(0, 1, 0);
@@ -487,12 +431,6 @@
       for (let i = 0; i < rMoments.length; i++) {
         rMoments[i].dia.rotation.y += dt * 0.4;
         rMoments[i].dia.position.y = Math.sin(elapsed * 0.6 + i * 1.7) * 0.08;
-      }
-      // gyro drives the camera directly (drag-yaw folded in as an offset)
-      if (gyro.active && gyro.hasData && H.rig.pano) {
-        H.camera.position.copy(EYE);
-        _qY.setFromAxisAngle(_yAxis, gyro.yawOffset);
-        H.camera.quaternion.copy(_qY).multiply(gyro.quat);
       }
     }
 
