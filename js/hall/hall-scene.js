@@ -62,11 +62,18 @@
       const g = c.getContext("2d"); g.fillStyle = fill; g.fillRect(0, 0, S, S);
       return { c, g };
     }
-    // layered blurred value-noise — cheap organic mottling, no per-pixel loop
+    // layered blurred value-noise — cheap organic mottling, no per-pixel loop.
+    // Below tier 2 the gaussian filter is skipped and the octaves halved:
+    // mobile Chrome rasterizes canvas blur in software and the stone
+    // surfaces alone cost MINUTES of boot (Joe's Motorola, 2026-07-05);
+    // overlapping soft-alpha cells read fine at half resolution.
     function octaves(g, lo, hi) {
-      [[5, 30], [11, 15], [23, 7], [47, 3]].forEach(([cells, blur], oi) => {
-        g.save(); g.filter = "blur(" + blur + "px)";
-        const cell = S / cells, amp = [0.55, 0.4, 0.3, 0.22][oi];
+      const lite = HALL.Q && HALL.Q.tier < 2;
+      const rows = lite ? [[5, 0], [11, 0]] : [[5, 30], [11, 15], [23, 7], [47, 3]];
+      rows.forEach(([cells, blur], oi) => {
+        g.save();
+        if (blur) g.filter = "blur(" + blur + "px)";
+        const cell = S / cells, amp = [0.55, 0.4, 0.3, 0.22][oi] * (lite ? 0.8 : 1);
         for (let y = -1; y <= cells; y++) for (let x = -1; x <= cells; x++) {
           const v = Math.random();
           g.globalAlpha = amp * Math.abs(v - 0.5);

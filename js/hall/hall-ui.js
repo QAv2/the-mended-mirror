@@ -246,6 +246,7 @@
 
     /* ---------- year readout ---------- */
     function setYear(y) {
+      if (!yearEl) return;   // the readout is retired (Joe) — the wall and rim carry the years
       const era = M.time.eraOfYear(y);
       const yr = y < 0 ? Math.abs(Math.round(y)).toLocaleString() + " BCE" : Math.round(y) + " CE";
       yearEl.innerHTML = `<b>${yr}</b><span>${esc(era.name)}</span>`;

@@ -42,13 +42,15 @@ canvas{ display:block; touch-action:none; }
 #motion-btn.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.6);
   background:rgba(240,196,90,0.10); box-shadow:0 0 18px rgba(240,196,90,0.18); }
 
-/* ---------- the walk pad + rise bar (scroll station, touch devices) ---------- */
+/* ---------- the walk pad + rise bar (touch devices, every in-hall stage) ----------
+   Joe: phones have no arrows — the directional device lives bottom right. */
 #walk-pad, #rise-bar{ position:fixed; z-index:8; display:none;
   background:rgba(12,14,20,0.55); border:1px solid rgba(240,196,90,0.25);
-  touch-action:none; }
-#walk-pad.here, #rise-bar.here{ display:flex; align-items:center; justify-content:center; }
-#walk-pad{ left:18px; bottom:88px; width:96px; height:96px; border-radius:50%; }
-#rise-bar{ right:18px; bottom:88px; width:44px; height:110px; border-radius:22px; }
+  touch-action:none; align-items:center; justify-content:center; }
+body.touch[data-stage="room"] #walk-pad, body.touch[data-stage="holo"] #walk-pad,
+body.touch[data-stage="room"] #rise-bar, body.touch[data-stage="holo"] #rise-bar{ display:flex; }
+#walk-pad{ right:16px; bottom:18px; width:96px; height:96px; border-radius:50%; }
+#rise-bar{ right:122px; bottom:18px; width:44px; height:96px; border-radius:22px; }
 #walk-nub, #rise-nub{ width:34px; height:34px; border-radius:50%;
   background:rgba(240,196,90,0.18); border:1px solid rgba(240,196,90,0.5);
   pointer-events:none; }
@@ -171,8 +173,6 @@ body[data-stage="room"] #nav, body[data-stage="holo"] #nav{ display:block; }
 body[data-stage="holo"][data-station="instrument"] #btn-mend{ display:inline-block; }
 #search{ display:none; }
 body[data-stage="holo"] #search{ display:block; }
-#year-readout{ display:none; }
-body[data-stage="holo"] #year-readout{ display:block; }
 #nav .stations{ display:flex; gap:6px; justify-content:flex-end; }
 #nav button{
   font-family:'Spectral',serif; font-size:11.5px; letter-spacing:.13em;
@@ -184,12 +184,6 @@ body[data-stage="holo"] #year-readout{ display:block; }
 #nav button.on{ color:var(--gold-bright); border-color:rgba(240,196,90,0.55);
   background:rgba(240,196,90,0.08); }
 #nav #btn-mend{ margin-top:6px; }
-#year-readout{ margin-top:10px; font-family:'Marcellus',serif; pointer-events:none;
-  text-shadow:0 2px 14px rgba(0,0,0,0.8); }
-#year-readout b{ display:block; font-weight:400; font-size:20px; color:var(--gold-bright);
-  letter-spacing:.05em; }
-#year-readout span{ display:block; font-family:'Spectral',serif; font-style:italic;
-  font-weight:300; font-size:12.5px; color:var(--silver-dim); margin-top:2px; }
 
 /* ---------- the legend, folded into the gate (Joe: keep the hall clear) ---------- */
 #gate-legend{ margin-top:2.6em; max-width:620px; }
@@ -323,8 +317,6 @@ body[data-stage="holo"] #year-readout{ display:block; }
   #nav .stations{ flex-wrap:wrap; justify-content:flex-end; gap:4px; max-width:62vw; }
   #nav .stations button{ padding:6px 8px; font-size:9.5px; letter-spacing:.1em; }
   #nav #btn-mend{ padding:5px 8px; font-size:9.5px; }
-  #year-readout b{ font-size:16px; }
-  #year-readout span{ font-size:11px; }
 
   #hint{ bottom:14px; font-size:11px; width:92vw; line-height:1.6; }
   #ceremony-line{ font-size:clamp(17px,5.4vw,26px); white-space:normal; width:92vw; text-align:center; }

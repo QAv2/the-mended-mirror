@@ -85,7 +85,14 @@
       // side, the raking sun modelling the colonnade
       exterior: { target: new THREE.Vector3(0, 8, 0), radius: 78, phi: 1.15, theta: Math.PI - 0.45 },
     };
-    const HINTS = {
+    /* keyboard words for keyboards, thumb words for thumbs (Joe) */
+    const IS_TOUCH = matchMedia("(pointer:coarse)").matches;
+    if (IS_TOUCH) document.body.classList.add("touch");
+    const HINTS = IS_TOUCH ? {
+      room: "drag to look &middot; <b>pads</b> to walk &amp; rise &middot; <b>tap a relic</b> to run its simulation",
+      instrument: "drag to turn &middot; pinch to draw close &middot; <b>pads</b> to walk &amp; rise &middot; <b>tap what gleams</b> &middot; drag the <b>rule</b> to travel time",
+      scroll: "you stand inside the ages &middot; <b>pads</b> to walk &amp; rise &middot; drag to turn &middot; drag the <b>gold meridian</b> to travel time &middot; <b>the door</b> leads back",
+    } : {
       room: "drag to look &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &amp; sink &middot; <b>click a relic</b> to run its simulation",
       instrument: "drag to turn &middot; scroll to draw close &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise &middot; <b>click what gleams</b> &middot; drag the <b>rule</b> to travel time",
       scroll: "you stand inside the ages &middot; <b>arrows</b> walk &middot; <b>Q/E</b> rise to the newest ages &middot; drag to turn &middot; drag the <b>gold meridian</b> to travel time &middot; <b>the door</b> leads back",
@@ -217,12 +224,22 @@
       rig.sph.copy(rig.dSph);
       rig.locked = false;
     }
+    /* portrait screens sit too close to the temple (the horizontal field
+       narrows with the aspect) — back the seat off until the crag fits */
+    function fitExteriorSeat() {
+      const fit = Math.max(1, 1.3 / Math.max(0.35, H.camera.aspect));
+      if (fit > 1.01) {
+        const rig = H.rig;
+        rig.max = Math.max(rig.max, POSES.exterior.radius * fit + 12);
+        rig.dSph.radius = POSES.exterior.radius * fit;
+        rig.sph.radius = rig.dSph.radius;
+      }
+    }
 
     function leavePano() {
       if (!H.rig.pano) return;
       H.rig.pano = null;
       H.rotunda.setStanding(false);
-      showPads(false);
     }
 
     function goStation(name, dur) {
@@ -281,7 +298,6 @@
           rig.dSph.theta += Math.PI; rig.sph.theta += Math.PI;
           rig.dSph.phi = 1.18; rig.sph.phi = 1.18;
           H.rotunda.setStanding(true);
-          showPads(true);
           H.ui.hint(HINTS.scroll);
         });
         return;
@@ -805,13 +821,12 @@
     addEventListener("keydown", e => { if (typing(e)) return; const k = walkAxis(e.code); if (k) { walk[k] = 1; e.preventDefault(); } });
     addEventListener("keyup",   e => { if (typing(e)) return; const k = walkAxis(e.code); if (k) { walk[k] = 0; } });
 
-    /* ---------- touch: walking the scroll without keys ----------
-       Standing in the ages on a phone: a walk pad (drag off its center —
-       forward/back/strafe) and a rise bar (drag up/down — the thumb's Q/E).
-       Coarse pointers only, and only while standing in the scroll; they
-       write the same walk axes the keys do, analog. */
-    let showPads = () => {};
-    if (matchMedia("(pointer:coarse)").matches) {
+    /* ---------- touch: walking without keys ----------
+       A walk pad (drag off its center — forward/back/strafe) and a rise bar
+       (drag up/down — the thumb's Q/E), bottom right, in every in-hall stage
+       on coarse pointers (Joe: phones have no arrows). They write the same
+       walk axes the keys do, analog; CSS stages their visibility. */
+    if (IS_TOUCH) {
       const mk = (id, nubId) => {
         const el = document.createElement("div");
         el.id = id;
@@ -847,7 +862,6 @@
         walk.d = Math.max(0, ny); walk.u = Math.max(0, -ny);
         nub.style.transform = `translateY(${ny * 26}px)`;
       });
-      showPads = on => [pad.el, rise.el].forEach(el => el.classList.toggle("here", !!on));
     }
     const _wf = new THREE.Vector3(), _wr = new THREE.Vector3(), _wm = new THREE.Vector3();
     function walkStep(dt) {
@@ -914,6 +928,7 @@
         H.threshold.setSunk();
         clampsFor("exterior");
         seatRig(POSES.exterior);
+        fitExteriorSeat();
         H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
         buildHoloBehind();
       } else {
@@ -928,6 +943,7 @@
             H.threshold.setSunk();
             clampsFor("exterior");
             seatRig(POSES.exterior);      // the world waits behind the opaque splash
+            fitExteriorSeat();
           } else if (H.exterior) {
             /* ?intro=0: night has fallen; the temple waits outside the door
                exactly as the lobby expects */
