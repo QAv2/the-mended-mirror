@@ -116,7 +116,28 @@
   HALL.buildScene = function (H) {
     const app = document.getElementById("app");
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+    /* the renderer, hardened for the whole range of machines that visit.
+       A Mac can refuse an antialiased or discrete-GPU context yet grant a
+       plainer one; a browser with WebGL switched off — or a privacy shield
+       faking it away — must be told so in plain words, not "something cracked".
+       Try the full context, then gentler ones; if every attempt is refused,
+       throw a NAMED error the boot turns into a readable rescue for the visitor. */
+    let renderer = null;
+    const attempts = [
+      { antialias: true, powerPreference: "high-performance" },
+      { antialias: true },
+      { antialias: false },
+      { antialias: false, failIfMajorPerformanceCaveat: false },   // accept a software context
+    ];
+    for (const opts of attempts) {
+      try { renderer = new THREE.WebGLRenderer(opts); break; }
+      catch (e) { DIAG.mark("renderer refused " + JSON.stringify(opts) + " — " + (e && e.message), true); }
+    }
+    if (!renderer) {
+      const err = new Error("WebGL is unavailable — the browser or its graphics settings blocked the 3D canvas.");
+      err.code = "NO_WEBGL";
+      throw err;
+    }
     renderer.setSize(innerWidth, innerHeight);
     // the ONE quality knob — everything that costs reads HALL.Q from here on
     HALL.Q = HALL.quality(renderer);
