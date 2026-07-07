@@ -224,7 +224,8 @@ body[data-stage="holo"] #search{ display:block; }
 
 /* ---------- the trail: the path the seeker has walked ----------
    Sits under the field, matched to its width and wrapping so a long walk
-   folds into rows. A crumb flies you back and prunes the path after it. */
+   folds into rows. A crumb flies you back and lights it; the path stays a
+   persistent ledger until the × at its end clears it. */
 #search-trail{ display:none; width:228px; max-width:56vw; margin:9px 0 0 auto;
   text-align:left; line-height:1.85; max-height:26vh; overflow-y:auto; }
 #search-trail.on{ display:block; }
@@ -240,6 +241,13 @@ body[data-stage="holo"] #search{ display:block; }
 .trail-current.resume{ cursor:pointer; transition:color .2s; }
 .trail-current.resume::before{ content:'\21A9'; color:var(--gold); margin-right:.35em; }
 .trail-current.resume:hover{ color:#fff; }
+/* the clear glyph: the one manual way to empty a persistent trail.
+   Scoped past #nav button (border/bg/pad/uppercase) so it reads as a bare ×. */
+#search-trail .trail-clear{ margin-left:10px; padding:0 3px; border:0; background:none;
+  border-radius:0; text-transform:none; letter-spacing:0; color:var(--silver-dim);
+  font-family:'Marcellus',serif; font-size:14px; line-height:1; opacity:.5;
+  cursor:pointer; transition:color .2s,opacity .2s; vertical-align:baseline; }
+#search-trail .trail-clear:hover{ color:var(--gold); opacity:1; border-color:transparent; }
 
 /* ---------- the roll of systems: the left rail, folded until wanted ----------
    A shaded, blurred pane so the names read over any color in the space; the

@@ -403,61 +403,74 @@
        Every record the visitor lands on flows through open{Figure,Tradition,
        Joint} — whether summoned by the seeker, followed from a reliquary jump,
        or lit by a gleam clicked in the hall. We tap that one choke: each
-       landing lays a crumb (an immediate repeat is swallowed), and a crumb
-       clicked flies the camera back there and prunes the path after it —
-       browser-back, not a growing ledger. Figures, traditions, archetypes
-       only; each re-rides its H.jump flight. Seams stay off the path (they
-       are a relation between two names, not a place). */
+       landing lays a crumb (an immediate repeat is swallowed). The path is a
+       PERSISTENT ledger: a crumb clicked flies the camera back there and lights
+       it as "you are here", but the walk ahead of it STAYS — nothing prunes it.
+       The only way the trail empties is the seeker asking, with the × glyph at
+       its end (clearTrail). The walk survives the visit (mm-trail). Figures,
+       traditions, archetypes only; each re-rides its H.jump flight. Seams stay
+       off the path (they are a relation between two names, not a place). */
     const trailEl = $("search-trail");
-    let trail = store.get("mm-trail", []);                  // the walk survives the visit now
+    let trail = store.get("mm-trail", []);                  // the walk survives the visit
+    let cur = trail.length - 1;         // the crumb the seeker stands on now (lit "you are here"); -1 when empty
     let resumable = trail.length > 0;   // a restored trail = somewhere to return to, until they move again
+    let jumping = false;                // true only while a clicked crumb flies the camera — swallows the echo landing
     const TRAIL_MAX = 12;
     function sameCrumb(a, b) { return a && b && a.type === b.type && a.ref === b.ref; }
     function recordTrail(type, ref, label) {
       if (!trailEl) return;
-      resumable = false;                 // any live landing means they are no longer "picking up where they left off"
+      if (jumping) return;               // the seeker clicked a crumb; cur is already set and the ledger must not grow
+      resumable = false;                 // a live landing means they are no longer "picking up where they left off"
       const node = { type, ref, label };
-      if (sameCrumb(trail[trail.length - 1], node)) { renderTrail(); return; }   // already standing here — but the resume glyph must clear
+      if (sameCrumb(trail[trail.length - 1], node)) { cur = trail.length - 1; renderTrail(); return; }  // already standing here
       trail.push(node);
       if (trail.length > TRAIL_MAX) trail.shift();
+      cur = trail.length - 1;
       store.set("mm-trail", trail);
       renderTrail();
     }
-    function jumpTrail(n) {               // refs are stable ids — resolve to the current index at click time
+    function jumpTrail(i) {               // refs are stable ids — resolve to the current index at click time
+      const n = trail[i];
+      if (!n) return;
+      cur = i; resumable = false;
+      renderTrail();                      // light the crumb we are flying to, before the flight
+      jumping = true;                     // the open{…} this triggers is an echo of a place already on the path, not a new step
       if (n.type === "figure") { const fi = M.figById[n.ref]; if (fi !== undefined) H.jump.figure(fi); }
       else if (n.type === "tradition") H.jump.tradition(n.ref);
       else if (n.type === "joint") { const ji = M.jointById[n.ref]; if (ji !== undefined) H.jump.joint(ji); }
+      jumping = false;
+    }
+    function clearTrail() {               // the one manual way to empty a persistent trail
+      trail = []; cur = -1; resumable = false;
+      store.set("mm-trail", []);
+      renderTrail();                      // empty → the bar folds away
     }
     function renderTrail() {
       if (!trailEl) return;
       if (!trail.length) { trailEl.className = ""; trailEl.innerHTML = ""; return; }
-      trailEl.className = "on";
       const last = trail.length - 1;
-      trailEl.innerHTML = trail.map((n, i) => {
+      if (cur > last || cur < 0) cur = last;   // guard after a shift
+      trailEl.className = "on";
+      const path = trail.map((n, i) => {
         let crumb;
-        if (i === last) {
-          // where you left off: while resumable, the tail is a one-tap way back; once you move, it is the inert "you are here"
-          crumb = resumable
-            ? `<span class="trail-current resume" data-resume title="return to where you left off">${esc(n.label)}</span>`
-            : `<span class="trail-current">${esc(n.label)}</span>`;
+        if (resumable && i === last) {
+          // where you left off: the restored tail is a one-tap way back, until they move
+          crumb = `<span class="trail-current resume" data-resume title="return to where you left off">${esc(n.label)}</span>`;
+        } else if (i === cur) {
+          crumb = `<span class="trail-current" title="you are here">${esc(n.label)}</span>`;   // inert: the place you stand
         } else {
-          crumb = `<span class="trail-crumb" data-i="${i}">${esc(n.label)}</span>`;
+          crumb = `<span class="trail-crumb" data-i="${i}">${esc(n.label)}</span>`;            // click to fly back, path intact
         }
         return (i ? `<span class="trail-sep">&rsaquo;</span>` : "") + crumb;
       }).join("");
+      trailEl.innerHTML = path + `<button type="button" class="trail-clear" data-clear title="clear the trail" aria-label="clear the trail">&times;</button>`;
       trailEl.querySelectorAll(".trail-crumb[data-i]").forEach(el => {
-        el.onclick = () => {
-          const i = +el.getAttribute("data-i");
-          const n = trail[i];
-          resumable = false;
-          trail = trail.slice(0, i + 1);   // prune the walk forward of here
-          store.set("mm-trail", trail);
-          renderTrail();
-          jumpTrail(n);                     // open{…} re-fires, sees this crumb as the tail → no repeat
-        };
+        el.onclick = () => jumpTrail(+el.getAttribute("data-i"));
       });
       const rc = trailEl.querySelector("[data-resume]");
-      if (rc) rc.onclick = () => { resumable = false; renderTrail(); jumpTrail(trail[trail.length - 1]); };
+      if (rc) rc.onclick = () => jumpTrail(last);
+      const cl = trailEl.querySelector("[data-clear]");
+      if (cl) cl.onclick = clearTrail;
     }
 
     /* ---------- the roll of systems: every shard by name, one pane ----------
