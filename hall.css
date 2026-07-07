@@ -76,6 +76,17 @@ body.touch[data-stage="room"] #rise-bar, body.touch[data-stage="holo"] #rise-bar
   color:var(--gold-bright); border-color:rgba(240,196,90,0.4);
   animation:breathe 3.4s ease-in-out infinite;
 }
+/* the boot could not lay the mirror (WebGL blocked is the usual cause): the
+   pill stops being a button and becomes a plain-spoken, readable rescue note */
+#gate-enter.gate-fail{
+  text-transform:none; letter-spacing:.015em; font-size:13.5px; line-height:1.65;
+  max-width:33em; text-align:center; color:rgba(205,210,220,0.9);
+  border-color:rgba(240,196,90,0.26); background:rgba(240,196,90,0.04);
+  animation:none; cursor:default;
+}
+#gate-enter.gate-fail b{ color:var(--gold-bright); font-weight:400; }
+#gate-enter.gate-fail a{ color:var(--gold-bright); text-decoration:underline;
+  text-underline-offset:2px; cursor:pointer; }
 @keyframes breathe{
   0%,100%{ opacity:.6; box-shadow:0 0 0 rgba(240,196,90,0); }
   50%    { opacity:1;  box-shadow:0 0 26px rgba(240,196,90,0.16); }
@@ -103,7 +114,7 @@ body.touch[data-stage="room"] #rise-bar, body.touch[data-stage="holo"] #rise-bar
 }
 #gate.over-world #gate-enter,
 #gate.over-world #gate-skip{ pointer-events:auto; cursor:pointer; }
-#gate.over-world #gate-enter{ background:rgba(6,7,11,0.55); backdrop-filter:blur(2px); }
+#gate.over-world #gate-enter{ background:rgba(6,7,11,0.55); -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px); }
 #gate.over-world h1{ filter:drop-shadow(0 2px 18px rgba(0,0,0,0.6)); }
 #gate.over-world .kicker,
 #gate.over-world .sub,
@@ -116,7 +127,7 @@ body.touch[data-stage="room"] #rise-bar, body.touch[data-stage="holo"] #rise-bar
   font-family:'Spectral',serif; font-size:13px; letter-spacing:.24em;
   text-transform:uppercase; color:var(--gold-bright); cursor:pointer;
   background:rgba(6,7,11,0.55); border:1px solid rgba(240,196,90,0.4);
-  border-radius:2px; padding:13px 34px; backdrop-filter:blur(2px);
+  border-radius:2px; padding:13px 34px; -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px);
   animation:breathe 3.4s ease-in-out infinite;
 }
 #enter-live-skip{
@@ -133,7 +144,7 @@ body.touch[data-stage="room"] #rise-bar, body.touch[data-stage="holo"] #rise-bar
   font-family:'Spectral',serif; font-size:11.5px; letter-spacing:.18em;
   text-transform:uppercase; color:rgba(205,210,220,0.7);
   background:rgba(12,14,20,0.55); border:1px solid rgba(240,196,90,0.2);
-  border-radius:2px; padding:9px 16px; backdrop-filter:blur(3px);
+  border-radius:2px; padding:9px 16px; -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px);
 }
 #skip-intro span{ color:rgba(130,139,156,0.7); margin-left:.7em; font-size:10px; }
 #skip-intro:hover{ color:var(--gold-bright); border-color:rgba(240,196,90,0.45); }
@@ -200,7 +211,7 @@ body[data-stage="holo"] #search{ display:block; }
 #search-results{ position:absolute; right:0; top:calc(100% + 6px); width:300px;
   max-height:52vh; overflow:auto; display:none; text-align:left;
   background:var(--panel-bg); border:1px solid rgba(240,196,90,0.25);
-  border-radius:8px; backdrop-filter:blur(6px); }
+  border-radius:8px; -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); }
 #search-results.open{ display:block; }
 .search-hit{ padding:8px 14px; cursor:pointer; display:flex; justify-content:space-between;
   align-items:baseline; gap:12px; border-bottom:1px solid rgba(240,196,90,0.08); }
@@ -235,7 +246,7 @@ body[data-stage="holo"] #search{ display:block; }
    whole roster in one scrollable column, a shard's hue on every dot. */
 #systems{ display:none; position:fixed; top:96px; left:32px; z-index:7;
   width:238px; max-width:60vw; overflow:hidden;
-  background:var(--panel-bg); backdrop-filter:blur(9px);
+  background:var(--panel-bg); -webkit-backdrop-filter:blur(9px); backdrop-filter:blur(9px);
   border:1px solid var(--hair); border-radius:8px; box-shadow:0 18px 50px rgba(0,0,0,0.45); }
 body[data-stage="holo"] #systems{ display:block; }
 #systems > summary{ cursor:pointer; list-style:none; user-select:none;
@@ -272,7 +283,7 @@ body[data-stage="holo"] #systems{ display:block; }
 /* ---------- your favorites: the same rail language, bottom-left, born only when it holds a star ---------- */
 #favorites{ display:none; position:fixed; left:32px; bottom:24px; z-index:7;
   width:238px; max-width:60vw; overflow:hidden;
-  background:var(--panel-bg); backdrop-filter:blur(9px);
+  background:var(--panel-bg); -webkit-backdrop-filter:blur(9px); backdrop-filter:blur(9px);
   border:1px solid var(--hair); border-radius:8px; box-shadow:0 18px 50px rgba(0,0,0,0.45); }
 body[data-stage="holo"] #favorites.has-stars{ display:block; }
 #favorites > summary{ cursor:pointer; list-style:none; user-select:none;
@@ -335,7 +346,7 @@ body[data-stage="holo"] #favorites.has-stars{ display:block; }
 /* ---------- reliquary ---------- */
 #reliquary{ position:fixed; top:0; right:0; z-index:12; width:400px; max-width:92vw;
   height:100vh; overflow-y:auto; padding:60px 30px 40px;
-  background:var(--panel-bg); backdrop-filter:blur(14px);
+  background:var(--panel-bg); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
   border-left:1px solid var(--hair);
   transform:translateX(110%); transition:transform .45s cubic-bezier(.2,.7,.2,1);
   box-shadow:-30px 0 60px rgba(0,0,0,0.5); }

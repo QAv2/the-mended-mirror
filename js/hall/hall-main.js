@@ -1182,7 +1182,25 @@
 
   /* boot: wait for fonts so canvas labels are lapidary, not fallback */
   function boot() {
-    const go = () => { HALL.start().catch(e => { console.error(e); const el = document.getElementById("gate-enter"); if (el) el.textContent = "something cracked — see console"; }); };
+    const go = () => { HALL.start().catch(e => {
+      console.error(e);
+      DIAG.mark("BOOT FAILED — " + (e && (e.message || e)), true);
+      const el = document.getElementById("gate-enter");
+      if (!el) return;
+      el.classList.remove("ready");
+      el.classList.add("gate-fail");
+      if (e && e.code === "NO_WEBGL") {
+        // the common cause of a blank Mac: WebGL off, an old GPU it blacklists,
+        // or a privacy shield hiding it. Say it plainly, with the way out.
+        el.innerHTML = "This hall is built in <b>WebGL</b>, and this browser has it switched off or blocked.<br>" +
+          "Turn on hardware acceleration (or lower a privacy shield), or open it in the latest " +
+          "<b>Safari, Chrome, Edge, or Firefox</b> — then reload.";
+      } else {
+        // anything else: turn the visitor into a one-tap bug report
+        el.innerHTML = "Something cracked while laying the mirror.<br>" +
+          "<a href=\"?diag=1\">Reload with diagnostics</a> and send whatever it shows.";
+      }
+    }); };
     if (document.fonts && document.fonts.ready) {
       let done = false;
       const once = () => { if (!done) { done = true; go(); } };
