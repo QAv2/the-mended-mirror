@@ -30,6 +30,42 @@
       return s;
     }
 
+    /* ---------- a visitor's own progress, kept in their own browser ----------
+       localStorage only — the same store the threshold uses to remember a
+       returning visitor (mm-approached). Nothing leaves the machine; there is
+       no server to leave to. Three keys hold what a walk earns: the trail
+       walked (mm-trail), the systems read (mm-read), the records starred
+       (mm-stars). Private mode and a full quota degrade to "this session only"
+       without ceremony. Refs are STABLE ids (figure.id, tradition key,
+       archetype id), not array indices — so a saved star still points at the
+       same god after the data is rebuilt and reordered. */
+    const store = {
+      get(k, fb) { try { const v = localStorage.getItem(k); return v == null ? fb : JSON.parse(v); } catch (e) { return fb; } },
+      set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode / quota */ } },
+    };
+    let stars = store.get("mm-stars", []);            // [{type, id, label}]
+    let readSet = new Set(store.get("mm-read", []));  // tradition keys whose reliquary has been opened
+    let shownRecord = null;                           // the starrable record on show now (null for seams / placeholders)
+
+    function starKey(r) { return r.type + ":" + r.id; }
+    function isStarred(r) { const k = starKey(r); return stars.some(s => starKey(s) === k); }
+    function toggleStar(r) {
+      const k = starKey(r);
+      const i = stars.findIndex(s => starKey(s) === k);
+      if (i >= 0) stars.splice(i, 1);
+      else stars.push({ type: r.type, id: r.id, label: r.label });
+      store.set("mm-stars", stars);
+      renderStars();          // repaint the favorites pane
+      refreshOpenStar();      // and the ★/☆ in the open reliquary
+    }
+    function refreshOpenStar() {
+      const sb = $("rel-star");
+      if (!sb || !shownRecord) return;
+      const on = isStarred(shownRecord);
+      sb.textContent = on ? "★" : "☆";
+      sb.classList.toggle("on", on);
+    }
+
     /* ---------- legend (lives on the gate now — Joe: keep the hall clear) ---------- */
     (function () {
       const wrap = $("legend-tiers");
@@ -47,11 +83,14 @@
 
     /* ---------- reliquary views ---------- */
     let openToken = 0;
-    function show(html) {
-      panel.innerHTML = `<button id="rel-close" aria-label="close">×</button>` + html;
+    function show(html, record) {
+      shownRecord = record || null;                 // seams and the "unsealing…" placeholder pass none — no star
+      const star = record ? `<button id="rel-star" aria-label="bookmark this record" title="bookmark this — keep it in your favorites">☆</button>` : "";
+      panel.innerHTML = `<button id="rel-close" aria-label="close">×</button>` + star + html;
       panel.classList.add("open");
       panel.scrollTop = 0;
       $("rel-close").onclick = () => { close(); if (H.onPanelClose) H.onPanelClose(); };
+      if (record) { $("rel-star").onclick = () => toggleStar(record); refreshOpenStar(); }
       panel.querySelectorAll("[data-jf]").forEach(el => el.onclick = () => H.jump.figure(+el.getAttribute("data-jf")));
       panel.querySelectorAll("[data-jt]").forEach(el => el.onclick = () => H.jump.tradition(el.getAttribute("data-jt")));
       panel.querySelectorAll("[data-jj]").forEach(el => el.onclick = () => H.jump.joint(+el.getAttribute("data-jj")));
@@ -96,7 +135,7 @@
     }
     function openFigure(fi) {
       const f = D.figures[fi];
-      recordTrail("figure", fi, f.name);
+      recordTrail("figure", f.id, f.name);          // stable id, not the array index
       gated([f.tradition], () => renderFigure(fi));
       const seen = {}, ts = [];
       for (const ei of M.edgesOfFig[fi]) {
@@ -111,6 +150,7 @@
     function openTradition(k) {
       recordTrail("tradition", k, (D.traditions[k] || {}).name || k);
       markSystem(k);
+      markRead(k);          // opening its reliquary is reading it — dim its name in the rail
       gated([k], () => renderTradition(k));
       const partners = [];
       for (const key in M.pairAgg) {
@@ -144,7 +184,7 @@
       h += edgeListHTML(fi);
       if (f.facet) h += `<h3>Where it stands alone</h3><p class="rel-facet">${esc(f.facet)}</p>`;
       if (f.provenance) h += `<h3>Provenance</h3><p class="rel-prov">${esc(f.provenance)}</p>`;
-      show(h);
+      show(h, { type: "figure", id: f.id, label: f.name });
     }
 
     function renderTradition(k) {
@@ -208,11 +248,12 @@
           return `<li><b data-jf="${fi}">${esc(f.name)}</b> <span class="rel-mini">${esc(f.kind)}</span></li>`;
         }).join("") + `</ul>`;
       }
-      show(h);
+      show(h, { type: "tradition", id: k, label: t.name });
     }
 
     function openJoint(ji) {
-      recordTrail("joint", ji, M.joints[ji].a.name);
+      const a = M.joints[ji].a;
+      recordTrail("joint", a.id, a.name);           // stable archetype id, not the joint index
       gated([], () => renderJoint(ji));                              // no chunk needed; claims the token
     }
     function renderJoint(ji) {
@@ -232,7 +273,7 @@
         return `<li><span class="rel-mini" style="color:${t ? t.color : "#888"}">${esc(t ? t.name : tk)}</span> ` +
           byTrad[tk].map(fi => `<b data-jf="${fi}">${esc(D.figures[fi].name)}</b>`).join(", ") + `</li>`;
       }).join("") + `</ul>`;
-      show(h);
+      show(h, { type: "joint", id: a.id, label: a.name });
     }
 
     function renderSeam(e) {
@@ -368,40 +409,55 @@
        only; each re-rides its H.jump flight. Seams stay off the path (they
        are a relation between two names, not a place). */
     const trailEl = $("search-trail");
-    let trail = [];
+    let trail = store.get("mm-trail", []);                  // the walk survives the visit now
+    let resumable = trail.length > 0;   // a restored trail = somewhere to return to, until they move again
     const TRAIL_MAX = 12;
     function sameCrumb(a, b) { return a && b && a.type === b.type && a.ref === b.ref; }
     function recordTrail(type, ref, label) {
       if (!trailEl) return;
+      resumable = false;                 // any live landing means they are no longer "picking up where they left off"
       const node = { type, ref, label };
-      if (sameCrumb(trail[trail.length - 1], node)) return;   // already standing here
+      if (sameCrumb(trail[trail.length - 1], node)) { renderTrail(); return; }   // already standing here — but the resume glyph must clear
       trail.push(node);
       if (trail.length > TRAIL_MAX) trail.shift();
+      store.set("mm-trail", trail);
       renderTrail();
     }
-    function jumpTrail(n) {
-      if (n.type === "figure") H.jump.figure(n.ref);
+    function jumpTrail(n) {               // refs are stable ids — resolve to the current index at click time
+      if (n.type === "figure") { const fi = M.figById[n.ref]; if (fi !== undefined) H.jump.figure(fi); }
       else if (n.type === "tradition") H.jump.tradition(n.ref);
-      else if (n.type === "joint") H.jump.joint(n.ref);
+      else if (n.type === "joint") { const ji = M.jointById[n.ref]; if (ji !== undefined) H.jump.joint(ji); }
     }
     function renderTrail() {
       if (!trailEl) return;
       if (!trail.length) { trailEl.className = ""; trailEl.innerHTML = ""; return; }
       trailEl.className = "on";
+      const last = trail.length - 1;
       trailEl.innerHTML = trail.map((n, i) => {
-        const crumb = i === trail.length - 1
-          ? `<span class="trail-current">${esc(n.label)}</span>`
-          : `<span class="trail-crumb" data-i="${i}">${esc(n.label)}</span>`;
+        let crumb;
+        if (i === last) {
+          // where you left off: while resumable, the tail is a one-tap way back; once you move, it is the inert "you are here"
+          crumb = resumable
+            ? `<span class="trail-current resume" data-resume title="return to where you left off">${esc(n.label)}</span>`
+            : `<span class="trail-current">${esc(n.label)}</span>`;
+        } else {
+          crumb = `<span class="trail-crumb" data-i="${i}">${esc(n.label)}</span>`;
+        }
         return (i ? `<span class="trail-sep">&rsaquo;</span>` : "") + crumb;
       }).join("");
       trailEl.querySelectorAll(".trail-crumb[data-i]").forEach(el => {
         el.onclick = () => {
-          const n = trail[+el.getAttribute("data-i")];
-          trail = trail.slice(0, +el.getAttribute("data-i") + 1);   // prune the walk forward of here
+          const i = +el.getAttribute("data-i");
+          const n = trail[i];
+          resumable = false;
+          trail = trail.slice(0, i + 1);   // prune the walk forward of here
+          store.set("mm-trail", trail);
           renderTrail();
           jumpTrail(n);                     // open{…} re-fires, sees this crumb as the tail → no repeat
         };
       });
+      const rc = trailEl.querySelector("[data-resume]");
+      if (rc) rc.onclick = () => { resumable = false; renderTrail(); jumpTrail(trail[trail.length - 1]); };
     }
 
     /* ---------- the roll of systems: every shard by name, one pane ----------
@@ -428,6 +484,7 @@
         b.innerHTML = `<i style="background:${t.color || "#8a8f9c"}"></i><span>${esc(t.name || k)}</span>`;
         b.title = t.region ? (t.name || k) + " · " + t.region : (t.name || k);
         b.onclick = () => H.jump.tradition(k);        // the flight lights the row through openTradition
+        if (readSet.has(k)) b.classList.add("read");  // a system read on a past visit stays dimmed
         sysRowByKey[k] = b;
         frag.appendChild(b);
       });
@@ -442,6 +499,51 @@
       const det = document.getElementById("systems");
       if (det && det.open) row.scrollIntoView({ block: "nearest" });   // walk the rail to the lit name
     }
+    function markRead(k) {                 // called when a tradition's reliquary opens; idempotent
+      if (readSet.has(k)) return;
+      readSet.add(k);
+      store.set("mm-read", Array.from(readSet));
+      const row = sysRowByKey[k];
+      if (row) row.classList.add("read");
+    }
+
+    /* ---------- your favorites: the stars you drop, one pane ----------
+       The bookmarks a visitor leaves — figures, systems, archetypes — gathered
+       in a pane that mirrors the roll of systems (bottom-left, same family).
+       Shown only once there is something in it. A row flies you to the record;
+       its × lets it go. The ★/☆ in the reliquary and this list stay in step. */
+    const favEl = $("favorites"), favListEl = $("favorites-list"), favCountEl = $("fav-count");
+    function openStar(s) {
+      if (s.type === "figure") { const fi = M.figById[s.id]; if (fi !== undefined) H.jump.figure(fi); }
+      else if (s.type === "tradition") H.jump.tradition(s.id);
+      else if (s.type === "joint") { const ji = M.jointById[s.id]; if (ji !== undefined) H.jump.joint(ji); }
+    }
+    function removeStar(i) {
+      stars.splice(i, 1);
+      store.set("mm-stars", stars);
+      renderStars();
+      refreshOpenStar();      // if that record is on show, flip its ★ back to ☆
+    }
+    function renderStars() {
+      if (!favEl) return;
+      favEl.classList.toggle("has-stars", stars.length > 0);   // the pane appears only when it holds something
+      if (favCountEl) favCountEl.textContent = String(stars.length);
+      if (!favListEl) return;
+      favListEl.innerHTML = "";
+      const frag = document.createDocumentFragment();
+      stars.forEach((s, i) => {
+        const kind = s.type === "joint" ? "archetype" : s.type;
+        const row = document.createElement("div");
+        row.className = "fav-item";
+        row.setAttribute("role", "listitem");
+        row.innerHTML = `<span class="fav-star">★</span><span class="fav-name">${esc(s.label)}</span>` +
+          `<span class="fav-kind">${esc(kind)}</span><button class="fav-remove" aria-label="remove from favorites" title="remove">×</button>`;
+        row.onclick = () => openStar(s);
+        row.querySelector(".fav-remove").onclick = ev => { ev.stopPropagation(); removeStar(i); };
+        frag.appendChild(row);
+      });
+      favListEl.appendChild(frag);
+    }
 
     /* ---------- nav ---------- */
     document.querySelectorAll("#nav [data-station]").forEach(btn => {
@@ -452,6 +554,10 @@
       document.querySelectorAll("#nav [data-station]").forEach(b =>
         b.classList.toggle("on", b.getAttribute("data-station") === name));
     }
+
+    /* paint whatever a previous visit left behind (read-marks ride buildRoll above) */
+    renderTrail();
+    renderStars();
 
     H.ui = {
       openFigure, openTradition, openJoint, openSeam, close,

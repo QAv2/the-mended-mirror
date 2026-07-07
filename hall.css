@@ -225,6 +225,10 @@ body[data-stage="holo"] #search{ display:block; }
 .trail-sep{ color:rgba(240,196,90,0.30); margin:0 5px; font-size:10px; }
 .trail-current{ color:var(--gold-bright); font-size:12px; font-family:'Marcellus',serif;
   cursor:default; }
+/* where you left off: the restored tail, one tap back until you move again */
+.trail-current.resume{ cursor:pointer; transition:color .2s; }
+.trail-current.resume::before{ content:'\21A9'; color:var(--gold); margin-right:.35em; }
+.trail-current.resume:hover{ color:#fff; }
 
 /* ---------- the roll of systems: the left rail, folded until wanted ----------
    A shaded, blurred pane so the names read over any color in the space; the
@@ -260,6 +264,44 @@ body[data-stage="holo"] #systems{ display:block; }
 .sys-item span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .sys-item:hover{ color:var(--silver); background:rgba(240,196,90,0.06); }
 .sys-item.on{ color:var(--gold-bright); background:rgba(240,196,90,0.10); }
+/* a system already read fades its name (the dot keeps its hue); the active row never dims */
+.sys-item.read span{ opacity:.5; }
+.sys-item.read i{ opacity:.7; }
+.sys-item.on span, .sys-item.on i{ opacity:1; }
+
+/* ---------- your favorites: the same rail language, bottom-left, born only when it holds a star ---------- */
+#favorites{ display:none; position:fixed; left:32px; bottom:24px; z-index:7;
+  width:238px; max-width:60vw; overflow:hidden;
+  background:var(--panel-bg); backdrop-filter:blur(9px);
+  border:1px solid var(--hair); border-radius:8px; box-shadow:0 18px 50px rgba(0,0,0,0.45); }
+body[data-stage="holo"] #favorites.has-stars{ display:block; }
+#favorites > summary{ cursor:pointer; list-style:none; user-select:none;
+  display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  padding:9px 14px; font-family:'Spectral',serif; font-size:11px;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--gold-deep); transition:color .2s; }
+#favorites > summary::-webkit-details-marker{ display:none; }
+#favorites > summary:hover{ color:var(--gold); }
+#favorites .fav-title::before{ content:'★'; margin-right:.6em; font-size:.85em; color:var(--gold); }
+#favorites .fav-count{ font-size:10px; letter-spacing:.1em; font-style:italic; color:var(--silver-dim); }
+#favorites:not([open]) #favorites-list{ display:none; }
+#favorites-list{ max-height:38vh; overflow-y:auto;
+  padding:5px 6px 8px; border-top:1px solid rgba(240,196,90,0.12);
+  display:flex; flex-direction:column; gap:1px; }
+#favorites-list::-webkit-scrollbar{ width:7px; }
+#favorites-list::-webkit-scrollbar-thumb{ background:rgba(240,196,90,0.20); border-radius:4px; }
+#favorites-list::-webkit-scrollbar-track{ background:transparent; }
+.fav-item{ display:flex; align-items:center; gap:7px; width:100%; text-align:left;
+  cursor:pointer; color:var(--silver-dim);
+  font-family:'Spectral',serif; font-size:12.5px; line-height:1.25;
+  padding:4px 6px; border-radius:4px; transition:background .15s, color .15s; }
+.fav-item:hover{ color:var(--silver); background:rgba(240,196,90,0.06); }
+.fav-item .fav-star{ flex:none; font-size:11px; color:var(--gold); }
+.fav-item .fav-name{ flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.fav-item .fav-kind{ flex:none; font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:rgba(130,139,156,0.6); }
+.fav-item .fav-remove{ flex:none; border:none; background:none; color:rgba(130,139,156,0.5);
+  cursor:pointer; font-size:14px; line-height:1; padding:0 2px; opacity:0; transition:opacity .15s, color .15s; }
+.fav-item:hover .fav-remove{ opacity:1; }
+.fav-item .fav-remove:hover{ color:var(--gold-bright); }
 
 /* ---------- hint ---------- */
 #hint{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:6;
@@ -303,6 +345,12 @@ body[data-stage="holo"] #systems{ display:block; }
 #rel-close{ position:absolute; top:16px; right:20px; background:none; border:none;
   color:var(--silver-dim); font-size:26px; line-height:1; cursor:pointer; transition:.2s; }
 #rel-close:hover{ color:var(--gold-bright); }
+/* the bookmark: ☆ hollow until dropped, ★ gold and lit once it is */
+#rel-star{ position:absolute; top:17px; left:24px; background:none; border:none;
+  color:var(--silver-dim); font-size:21px; line-height:1; cursor:pointer;
+  transition:color .2s, transform .15s; }
+#rel-star:hover{ color:var(--gold); transform:scale(1.14); }
+#rel-star.on{ color:var(--gold); text-shadow:0 0 14px rgba(240,196,90,0.55); }
 #reliquary .rel-kicker{ font-size:11px; letter-spacing:.2em; text-transform:uppercase;
   color:var(--gold-deep); margin-bottom:.4em; }
 #reliquary h2{ font-family:'Marcellus',serif; font-weight:400; font-size:26px;
