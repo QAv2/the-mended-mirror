@@ -27,14 +27,17 @@ OUT_BOOK = VOICES / "voice-book.html"
 # the seating order of the book — roughly the order a visitor is likely to seek them
 BOOK_ORDER = [
     "christianity-christ", "zeus", "greek-hestia", "greek-poseidon", "athena",
+    "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
-    "norse-odin", "thor", "loki", "isis", "anubis",
+    "norse-odin", "thor", "loki", "isis", "anubis", "orphism-orpheus",
+    "anansi", "amaterasu",
 ]
 
 TRAD_LABEL = {
     "christianity": "Christianity", "greek": "Greek", "buddhist": "Buddhism",
     "vaishnava": "Vaishnavism", "vedic": "Vedic / Hindu", "norse": "Norse",
-    "egyptian": "Egyptian",
+    "egyptian": "Egyptian", "orphism": "Orphism", "akan": "Akan",
+    "shinto": "Shinto",
 }
 
 
