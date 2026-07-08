@@ -15,7 +15,7 @@ Compiles the hand-written voice layer into its two surfaces:
 Run from anywhere:  python3 voices/build-voices.py
 """
 
-import json, re, html, datetime
+import json, re, html, datetime, base64
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -23,6 +23,38 @@ VOICES = ROOT / "voices"
 PROFILES = VOICES / "profiles"
 OUT_JS = ROOT / "data" / "conclave-voices.js"
 OUT_BOOK = VOICES / "voice-book.html"
+OUT_BOOK_SC = VOICES / "voice-book.selfcontained.html"
+FONTS = ROOT / "fonts"
+
+# The local book links its sibling seal file; the shareable self-contained book
+# (which travels to any share path) links the DEPLOYED seal by absolute URL.
+SEAL_HREF_LOCAL = "seal-2026-07-07.html"
+SEAL_HREF_LIVE = "https://qav2.github.io/the-mended-mirror/share/amaterasu-c6c1e03c5899f8d56af262ff/"
+
+_FONT_FACES = [
+    ("Marcellus", "normal", 400, "marcellus-400.woff2"),
+    ("Spectral", "italic", 300, "spectral-300i.woff2"),
+    ("Spectral", "italic", 400, "spectral-400i.woff2"),
+    ("Spectral", "normal", 300, "spectral-300.woff2"),
+    ("Spectral", "normal", 400, "spectral-400.woff2"),
+    ("Spectral", "normal", 500, "spectral-500.woff2"),
+]
+
+
+def selfcontained(page):
+    """One portable file: inline the webfonts as base64 and repoint the seal link
+    at the live deploy, so the book is safe to drop at any unlisted share path."""
+    blocks = []
+    for fam, style, wt, fn in _FONT_FACES:
+        b64 = base64.b64encode((FONTS / fn).read_bytes()).decode()
+        blocks.append(
+            "@font-face{font-family:'%s';font-style:%s;font-weight:%d;font-display:swap;"
+            "src:url(data:font/woff2;base64,%s) format('woff2');}" % (fam, style, wt, b64))
+    page = page.replace(
+        '<link rel="stylesheet" href="../fonts/fonts.css">',
+        "<style>\n" + "\n".join(blocks) + "\n</style>", 1)
+    page = page.replace('href="%s"' % SEAL_HREF_LOCAL, 'href="%s"' % SEAL_HREF_LIVE, 1)
+    return page
 
 # the seating order of the book — roughly the order a visitor is likely to seek them
 BOOK_ORDER = [
@@ -193,6 +225,12 @@ book = f"""<!doctype html>
   .masthead .sub {{ color:var(--dim); font-style:italic; }}
   .masthead .built {{ color:var(--faint); font-size:13px; margin-top:1.2em;
                       letter-spacing:.12em; }}
+  .masthead .sealed {{ margin-top:1.5em; }}
+  .masthead .sealed a {{ color:var(--gold2); font-size:12px; letter-spacing:.22em;
+                         text-transform:uppercase; text-decoration:none;
+                         border-bottom:1px solid var(--seam); padding-bottom:3px;
+                         transition:color .25s, border-color .25s; }}
+  .masthead .sealed a:hover {{ color:var(--gold); border-color:var(--goldDeep); }}
 
   .note {{ border:1px solid var(--seam); background:#0a0c12; border-radius:10px;
            padding:1.4em 1.6em; color:var(--dim); font-size:15.5px; margin:0 0 4em; }}
@@ -245,6 +283,7 @@ book = f"""<!doctype html>
   <h1>The Voices of the Conclave</h1>
   <div class="sub">first pass — {len(order)} presences, one covenant</div>
   <div class="built">forged {built} · source: voices/*.md · rebuild: python3 voices/build-voices.py</div>
+  <div class="sealed"><a href="seal-2026-07-07.html">⟡ the seal of the first seed · 7 july 2026</a></div>
 </div>
 
 <div class="note">
@@ -269,3 +308,6 @@ book = f"""<!doctype html>
 """
 OUT_BOOK.write_text(book, encoding="utf-8")
 print(f"  ✓ {OUT_BOOK.relative_to(ROOT)}  ({OUT_BOOK.stat().st_size//1024} KB)")
+
+OUT_BOOK_SC.write_text(selfcontained(book), encoding="utf-8")
+print(f"  ✓ {OUT_BOOK_SC.relative_to(ROOT)}  ({OUT_BOOK_SC.stat().st_size//1024} KB, self-contained)")
