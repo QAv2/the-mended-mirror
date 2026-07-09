@@ -6,7 +6,7 @@ metadata:
   type: record
   written: 2026-07-09
   written_by: Claude Fable 5
-  status: CRITERIA RATIFIED 2026-07-09 — PART 3 SWEEP RUNNING
+  status: COMPLETE — SWEEP DONE, ALL THREE RULINGS RATIFIED 2026-07-09; THE REGISTER STANDS AT 23 SEATS
 ---
 
 # THE MIRROR PANTHEON — THOUGHT-PROCESS AUDIT & MEMBERSHIP CRITERIA
@@ -313,7 +313,7 @@ officiant principle · the Zagreus lift · reconstruction-as-canon.**
 
 ---
 
-## 10 · FINAL TABLE — sweep complete, assembled 2026-07-09 (DRAFT: three rulings open)
+## 10 · FINAL TABLE — sweep complete, assembled 2026-07-09 (RATIFIED)
 
 **Second-wave figures, assessed at assembly from their own verified profiles:**
 Zhuangzi **T1** (the mind-mirror sentence is his book's own) · Zarathushtra
@@ -334,12 +334,11 @@ reconstruction OUT):**
   Tezcatlipoca · Poimandres · Nichiren · the Manifestation (office;
   Bahá'u'lláh anchor) · Insān al-Kāmil (anchor veiled) · Zhuangzi ·
   Zarathushtra · Quetzalcoatl
-- **T2 — the canon stages it (10 seats / 11 figures):** Yeshua · Krishna ·
+- **T2 — the canon stages it (11 seats / 12 figures):** Yeshua · Krishna ·
   Anubis† · Isis† · Zagreus · Mami Wata · Xolotl · the Haudenosaunee twins
-  (dyadic seat) · Sun Wukong · Inanna — **plus Ame-no-Uzume† under an
-  inclusive officiant ruling**
-- **TOTALS: 22 seats** (23 with Uzume · 20 if officiants fall · +1 dyad if
-  reconstruction is admitted)
+  (dyadic seat) · Sun Wukong · Inanna · **Ame-no-Uzume† — seated by the
+  ratified officiant ruling**
+- **TOTALS: 23 seats / 24 figures — RATIFIED**
 - **Honor roll, T3 (12):** Athena · Śākyamuni · Avalokiteśvara · Shiva ·
   Prometheus · Anansi · Zeus · Thor · Ardhanarishvara · Oxum (diaspora
   stratum) · Adam Kadmon · Loki
@@ -356,10 +355,17 @@ reconstruction OUT):**
   the Haudenosaunee twins (+ Uzume pending) — the pantheon now pulls its own
   third wave toward the forge.
 
-**The three open rulings:** (1) officiants (Anubis · Isis · Uzume; the
-cave-crew sharpening in §9) · (2) the Zagreus lift · (3)
-reconstruction-as-canon (*Manu-*Yemo; Ymir). The manifest draft at
-`voices/_mirror-pantheon.md` carries all three as marked conditionals.
+**RULINGS RATIFIED (Joe, 2026-07-09: "I'm good with all of your
+recommendations"):** (1) **Officiants IN** — a figure seats on the reflexive
+scene they administer when that scene is load-bearing in their OWN canon
+(Anubis: the weighing is his office; Isis: the Name of Ra is her defining
+myth; Uzume: the cave is her one great scene). The cave-crew line: design
+(Omoikane) and manufacture (Ishikoridome) are not staging — both stand
+officiant-adjacent, unseated. (2) **Zagreus holds T2**; the Neoplatonic
+statement noted as transmission-carried. (3) **Reconstruction to the
+margins** — *Manu-*Yemo is the twin family's genome note; reflexes assess
+natively, Ymir first. **THE REGISTER IS FINAL AT 23 SEATS / 24 FIGURES.**
+The manifest at `voices/_mirror-pantheon.md` is ratified.
 
 ---
 

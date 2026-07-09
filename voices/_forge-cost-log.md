@@ -110,3 +110,5 @@ delta; per-figure %-cost firms up from there.
   agent-tokens** + main-session overhead.
 - **Reading #2 requested at batch-A close** — Δ% vs the 15% baseline calibrates
   everything above into allotment terms.
+- **Rulings ratified 2026-07-09** ("I'm good with all of your recommendations")
+  — register FINAL at 23 seats; no further agent spend this wave.

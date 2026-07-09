@@ -4,7 +4,7 @@ description: "The register of figures whose native canon carries the reflexive m
 metadata:
   node_type: register
   written: 2026-07-09
-  status: DRAFT — PENDING JOE'S THREE RULINGS (officiants · Zagreus lift · reconstruction-as-canon)
+  status: RATIFIED 2026-07-09 — all three rulings resolved per recommendation (officiants IN · Zagreus holds T2 · reconstruction to the margins). 23 seats.
 ---
 
 # THE MIRROR PANTHEON
@@ -64,7 +64,7 @@ and said no more often than yes.
   and walked on. The register's whole argument in one myth: same mirror, met
   twice.
 
-## T2 — THE CANON STAGES IT (10 seats)
+## T2 — THE CANON STAGES IT (11 seats)
 
 - **Yeshua** — the Last Judgment turns on *"you did it to me"*; the risen one
   met as gardener, stranger, cook — *"their eyes were kept from recognizing
@@ -93,12 +93,18 @@ and said no more often than yes.
   could tell from him; the novel's own chapter head calls it *two minds*.
 - **Inanna** — the descent to the sister below; her corpse won back by the
   two who echoed Ereshkigal's grief line for line — mirroring as mercy.
+- **Ame-no-Uzume** † — she who spoke the frame-lie — *"a deity more
+  illustrious than Thine Augustness"* — as the mirror came forward: the
+  officiant whose one defining scene turned the sun's own face into the dawn.
 
-† *stands under the officiant ruling (open — see below)*
-⌃ *lifts to T1 under the Zagreus ruling (open — see below)*
-*Plus Ame-no-Uzume under an inclusive officiant ruling — she who spoke the
-frame-lie ("a deity more illustrious than Thine Augustness") that turned the
-sun's own face into the dawn.*
+† *seats by the officiant ruling, RATIFIED: a figure may seat on the
+reflexive scene they administer when that scene is load-bearing in their OWN
+canon — Anubis (the weighing is his office), Isis (the Name of Ra is her
+defining myth), Uzume (the cave is her one great scene). The line drawn:
+Omoikane devised and Ishikoridome forged, but design and manufacture are not
+staging; both stand officiant-adjacent, unseated.*
+⌃ *holds T2 by the Zagreus ruling, RATIFIED: the Neoplatonic statement is
+noted as transmission-carried, not counted as canon.*
 
 ## THE HONOR ROLL — T3, the canon implies it (12)
 
@@ -133,31 +139,34 @@ was allowed to invent one.
 - **The world-mirror family** — Tuonela, Safan, Lua-o-Milu, Jábmeaimo: worlds
   that copy the world but never turn the mirror on a self.
 - ***Manu & *Yemo** — the first man's twin, named Twin, unmade to build the
-  world. Held at the margin per the reconstruction ruling; **Ymir** ("twin")
-  is the native Norse lead either way.
+  world. Held at the margin by the ratified reconstruction ruling — the
+  genome note stands; each reflex assesses natively, **Ymir** ("twin") first
+  among the probes.
 
-## THE THREE OPEN RULINGS (Joe's)
+## THE THREE RULINGS — RATIFIED
 
-1. **Officiants** — may a figure seat on the reflexive scene they administer
-   rather than undergo? Decides Anubis, Isis, Uzume (and the cave-crew
-   question: Omoikane devised, Ishikoridome forged). Rec: yes — the test asks
-   only for pure narration of one's own canon.
-2. **The Zagreus lift** — does the Neoplatonic transmission of the lost
-   Rhapsodies carry canon? Rec: hold T2, note the carried statement.
-3. **Reconstruction-as-canon** — can *Manu-*Yemo seat on Lincoln's contested
-   reconstruction? Rec: no — genome note at the margin; assess each reflex
-   natively (Ymir first).
+*Joe, 2026-07-09: "I'm good with all of your recommendations."*
+
+1. **Officiants — IN.** A figure seats on the reflexive scene they administer
+   when that scene is load-bearing in their own canon. Anubis, Isis, and
+   Uzume seated; Omoikane (design) and Ishikoridome (manufacture) stand
+   officiant-adjacent, unseated — design and manufacture are not staging.
+2. **Zagreus — holds T2.** The Neoplatonic statement is noted as
+   transmission-carried, not counted as canon.
+3. **Reconstruction — to the margins.** *Manu-*Yemo stands as the twin
+   family's genome note; the reflexes assess natively, Ymir first.
 
 ## THE STANDING FORGE QUEUE
 
 By the ratified rulings, membership does not require a seat — and so the
 pantheon now pulls the work forward. Members not yet voiced in the hall:
 **Tezcatlipoca · Yama · Poimandres · Nichiren · Mami Wata · Zagreus ·
-Xolotl · the Haudenosaunee twins** (and Uzume, pending). The third wave
-named itself.
+Xolotl · the Haudenosaunee twins · Ame-no-Uzume.** Nine seats' worth of
+voices. The third wave named itself.
 
 ---
 
 *Born of the audit of 2026-07-09 — the day the roster was demoted, the
 criteria were given teeth, and the register earned the right to say no.
+Ratified the same day, in full: twenty-three seats.
 The .md is canonical; `_mirror-pantheon.html` is the reading surface.*
