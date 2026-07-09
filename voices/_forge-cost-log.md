@@ -70,7 +70,10 @@ delta; per-figure %-cost firms up from there.
   - Brigid forge — **DONE: 111,820 tokens · 39 tool uses · 19.2 min** — profile
     written (325 lines); AUDIT FINDING reported honestly: no reflexive native
     canon found (triplism and the goddess/saint doubling weighed, not inflated)
-  - Brigid verify — launched at forge close
+  - Brigid verify — **DONE: 88,511 tokens · 20 tool uses · 14.3 min** — verdict
+    SEAT-READY AFTER EDITS (CMT/Forester/Carmichael character-exact); 6 edits
+    applied; no-unearned-mirror check passed; **SEATED as c0741ca**
+- **Per-figure:** Brigid forge+verify = **200,331 agent-tokens**
   - Audit run 1 — **DONE: 107,714 tokens · 32 tool uses · 19.8 min** — 17
     assessed: 7 members (T1 Amaterasu/Odin/Orpheus; T2 Anubis/Isis pending the
     officiant ruling, Yeshua, Krishna), 8 honor-roll, 2 NONE
@@ -79,7 +82,10 @@ delta; per-figure %-cost firms up from there.
     Insān-al-Kāmil; T2 Zagreus/Mami Wata), 3 honor-roll, 2 NONE, al-Hakim
     declined by reverence
   - NEEDS-CHECK sweep (2 verdict-relevant facts + profile-grade verbatims) — launched
-  - Audit run 3 (T2 batch + families) — queued for a free slot
+  - Audit run 3 — **DONE: 79,623 tokens · 25 tool uses · 14.5 min** — 9 dockets:
+    2 members (Xolotl T2; Haudenosaunee twins T2, first dyadic seat), Uzume
+    officiant-pending, *Manu-*Yemo conditional on a third ruling
+    (reconstruction-as-canon), 6 clean NONEs, Kalunga = tradition-anchor
 - **Fable allotment %:** baseline 15% logged mid-flight — see Allotment readings table
 - **Commits / wall clock:** — at close
 - **Notes:** batches now overlap (rolling pipeline under the two-by-two policy);

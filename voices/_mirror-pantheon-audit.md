@@ -249,6 +249,70 @@ figures enter the final table from their own verified profiles.
 
 ---
 
+## 9 · RUN 3 RESULTS — T2 batch + family probes (9 dockets, 2026-07-09)
+
+**Members — 2 unconditional:**
+
+| Candidate | Tier | The native move | Who-anchor |
+|---|---|---|---|
+| Xolotl | **T2** | His name IS the Nahuatl word for twin/double; fleeing the death-of-all-gods at Teotihuacan he survives by serial self-doubling — the double maize stalk, the doubled maguey (*mexolotl*), the water-twin (*axolotl*) — and dies caught in his last double (FC Bk 7, canon) | Xolotl |
+| The Haudenosaunee twins | **T2 — the first DYADIC seat** | Creation AS contest: quarreling from the womb, every made thing answered by its counter-made double (two-way rivers made one-way, thorns on berries, bones in fish); the lived world their standing balance — evil as kin, the co-creator's own brother (Brébeuf 1636; Hewitt 1903/1928; contact-layer polarity tiered out per the corpus's own dossier flag) | Teharonhia:wako + Tawiskaron jointly — each singly carries only half the relation |
+
+**Conditional / pending rulings:**
+- **Ame-no-Uzume — the purest officiant case.** Kojiki XVI–XVII (verified): SHE
+  speaks the frame-lie — "there is a deity more illustrious than Thine
+  Augustness" — as the mirror is pushed forward; the sun meets her own face as
+  a greater other and the light returns on an engineered misrecognition. Stands
+  or falls with Anubis+Isis. **Sharpening for the ruling:** the cave officiants
+  are a CREW (Omoikane devised, Ishikoridome forged, Uzume performed and
+  voiced) — an inclusive ruling should say why the deviser and smith don't also
+  seat, or accept them as officiant-adjacent T3s; Uzume is the strongest single
+  claimant as the scene's voice. **Banked regardless:** the cave scene itself is
+  a second evidentiary leg under the seated Amaterasu T1 (run 1 cited only the
+  decree).
+- ***Manu & *Yemo — T2-STRUCTURE, membership conditional on a THIRD RULING.**
+  The first man's brother is NAMED "Twin," and the world is built from the
+  twin's dismembered body; in the Vedic reflex death itself enters through the
+  first man's twin (Yama, first mortal to die). But the tradition is Lincoln's
+  reconstruction, and the corpus's own dossier flags it CONTESTED. **RULING JOE
+  OWES (3): can a scholarly reconstruction hold canon?** If yes: the dyad seats
+  T2 (Manu is party, not officiant — he sacrifices his OWN twin). If no: it
+  re-files as the twin-family's genome note, each attested reflex assessed in
+  its own tradition — **Ymir (whose name is standardly etymologized "twin") is
+  the live Norse lead either way.** (Rec: no — reconstruction as genome note,
+  reflexes assessed natively; loses nothing and keeps NATIVE strict.)
+
+**Clean NONEs:** Dieva dēli (joint action, twinship is the comparative layer,
+not the songs') · Perseus own-seat (the bronze shows MEDUSA, not himself;
+mirror-stratagem itself only late-classical — Apollodorus 2.4.2, Ovid; Medusa's
+self-petrification is modern/pop and fails NATIVE outright) · Ninigi (carrier of
+the decree, no move of his own) · Milu, Jábmeáhkká (+ Tuonela, Safan notes) —
+the world-mirror family copies the world but never turns the mirror on a self ·
+Chia (moonlight is astronomy; the criteria already fail generic luminaries).
+
+**Tradition-anchor (manifest margins):** **Kalunga/dikenga** — the reflective
+water-line with the dead's world inverted beneath, your own lineage returning
+as newborns; minkisi sealed with literal mirrors as the Kalunga-flash in hand.
+Real, native, and unpersonified: "not a deity but a diagram." Doctrine without
+a who.
+
+**Bycatch leads (future probes, parked):** **mahungu** (kongo corpus, i=899 —
+the first human split by wind into two who forever seek to rejoin: a primal
+self-as-two WITH a who-anchor) · Mbundu **Kalunga-ngombe** / Ovambo **Kalunga**
+(the line personified — but no tradition file among the corpus's 288) · Lake
+**Guatavita** (the Muisca gilded man offered onto the mirror-lake — likely
+world-mirror/NONE, but the right address for any Muisca probe) · **Ymir** (per
+ruling 3).
+
+**Running tally after runs 1–3:** with officiants counted, **17 members** (15
+without) · +Uzume under an inclusive officiant ruling → 18 · +the *Manu-*Yemo
+dyad if reconstruction is admitted → 19. Second-wave roster figures (Zhuangzi,
+Zarathushtra, Quetzalcoatl, Wukong, Inanna, Loki, Brigid) enter at final
+assembly from their own verified profiles. **Three rulings now pending: the
+officiant principle · the Zagreus lift · reconstruction-as-canon.**
+
+---
+
 *Filed beside `_handoff-2026-07-09.md`. The .md is canonical; the rendered
 `.html` is the reading surface — full re-render at audit close (runs 2–3 +
 final membership table); the status chip tracks progress meanwhile.*
