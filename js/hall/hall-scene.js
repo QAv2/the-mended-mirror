@@ -9,11 +9,14 @@
   const HALL = root.HALL = root.HALL || {};
 
   const COL = HALL.COL = {
-    obsidian: 0x0b0d12, obsidian2: 0x06070b,
+    obsidian2: 0x06070b,
     gold: 0xf0c45a, goldBright: 0xffe49a, goldDeep: 0xb8893a,
-    silver: 0xcdd2dc, silverDim: 0x828b9c,
-    parchment: 0xe9dcc0, fools: 0x6f7c4c,
+    parchment: 0xe9dcc0,
   };
+
+  /* smoothstep — one home for the ramp every stage borrows (flight, fades,
+     door swing, ember kindle). Consumers alias `const smooth = HALL.smooth`. */
+  HALL.smooth = (a, b, x) => { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); };
 
   /* ---------- the quality tier: ONE knob, like the flight's K ----------
      Chosen once from what the device declares (texture ceiling, memory,
@@ -426,7 +429,7 @@
     });
     el.addEventListener("wheel", e => {
       e.preventDefault();
-      if (rig.locked) { if (H.onWheelLocked) H.onWheelLocked(); return; }
+      if (rig.locked) return;
       const f = Math.pow(1.0011, e.deltaY);
       rig.dSph.radius *= f;
       rig.clampGoals();
@@ -481,9 +484,8 @@
     /* ---------- expose ---------- */
     H.renderer = renderer; H.scene = scene; H.camera = camera;
     H.rig = rig; H.pointer = pointer;
-    H.tween = tween; H.easeOut = easeOut; H.easeInOut = easeInOut;
+    H.tween = tween; H.easeOut = easeOut;
     H.stepTweens = stepTweens;
-    H.lights = { shaft, hemi, thresholdGlow };
     H.env = env;
     H.dustMat = dust.mat;
   };

@@ -102,7 +102,7 @@
       update(dt) {
         if (this.flight) {
           const f = this.flight, u = Math.min(1, (performance.now() / 1000 - f.t0) / f.dur);
-          const e = u < 0.5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2;
+          const e = C.ease(u);
           this.dTheta = f.from + (f.to - f.from) * e;
           this.dPhi = f.fromP + (f.toP - f.fromP) * e;
           if (u >= 1) { this.flight = null; if (f.done) f.done(); }

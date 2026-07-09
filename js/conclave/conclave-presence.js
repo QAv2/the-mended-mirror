@@ -30,8 +30,6 @@
   const T3 = root.THREE;
   const TAU = Math.PI * 2;
 
-  const TIER_WORD = { "1": "cognate", "2": "attested", "3": "analogous",
-                      "4": "speculative", "forgery": "forgery" };
   const WISP_CAP = 7;
 
   C.buildPresence = function () {
@@ -146,7 +144,7 @@
           t0: performance.now() / 1000,
           tick(tt) {
             const T = Math.min(1, tt / 1.15);
-            const q = T < 0.5 ? 2 * T * T : 1 - Math.pow(-2 * T + 2, 2) / 2;
+            const q = C.ease(T);
             grp.position.lerpVectors(lift0, P.anchor, q);
             const s = 0.5 + q * 1.5;
             core.scale.set(s, s, 1);
@@ -187,7 +185,7 @@
           t0: performance.now() / 1000,
           tick(tt) {
             const T = Math.min(1, tt / 0.8);
-            const q = T < 0.5 ? 2 * T * T : 1 - Math.pow(-2 * T + 2, 2) / 2;
+            const q = C.ease(T);
             grp.position.lerpVectors(from, back, q);
             const s = fromS * (1 - q * 0.8);
             core.scale.set(s, s, 1);

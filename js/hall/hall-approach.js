@@ -83,7 +83,7 @@
       return t;
     }
 
-    function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
+    const smooth = HALL.smooth;
     const envK = t => smooth(4.4 * K, 6.8 * K, t);
     const fovAt = t => 58 + 5.5 * (smooth(4.0 * K, 5.4 * K, t) - smooth(5.6 * K, 7.8 * K, t));
     /* the world is struck BEHIND the closing doors (P4): the leaves are most
@@ -151,9 +151,7 @@
 
     /* ---------- public ---------- */
     const api = {
-      DUR,
       get playing() { return mode === "play"; },
-      get mode() { return mode; },
 
       /* fly. instant=true jumps to the arrived state (one code path).
          Before this, the rig is the visitor's — the title state is simply the

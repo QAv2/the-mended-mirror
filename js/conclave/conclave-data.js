@@ -19,18 +19,11 @@
   if (!D) { console.error("conclave: MIRROR_DATA missing"); return; }
   C.D = D;
 
-  const TAU = Math.PI * 2;
   const GA = Math.PI * (3 - Math.sqrt(5));       // the golden angle
 
   /* ---- palette (the Hall's blood) ------------------------------------- */
   C.COL = {
     void:      0x06070b,                          // the Hall's obsidian, continued
-    goldDeep:  0xb8893a,
-    warm:      { r: 1.0, g: 0.93, b: 0.75 },      // the node-light warm white
-    ember:     0xff9a4a,
-    emberDeep: 0xb3541e,
-    solar:     0xffd27a,
-    lunar:     0xcfd8ea,
     tierGold:  {                                  // wisps wear tier honesty
       "1": "#ffd86b", "2": "#e6ad44", "3": "#c19a52",
       "4": "#8f8c79", "forgery": "#6f7c4c",
@@ -66,7 +59,7 @@
 
   const N = trads.length;
   // aim seat 0 dead ahead of the arrival gaze (bearing 0 = -Z, north)
-  const A0 = -0 * GA;
+  const A0 = 0;
   const seats = [], seatByTid = {};
   for (let n = 0; n < N; n++) {
     const s = seatShape(n, N), tr = trads[n];
@@ -130,8 +123,6 @@
   C.M = { trads, seats, seatByTid, N,
           figIndexById, figsOfTrad, degree, degMax, edgesByFig, archById };
   C.hash01 = hash01;
-  C.fmtYear = fmtYear;
   C.fmtSpan = fmtSpan;
-  C.TAU = TAU;
-  C.GA = GA;
+  C.ease = x => x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;   // easeInOutQuad — one home for the conclave's tweens
 })(typeof window !== "undefined" ? window : globalThis);

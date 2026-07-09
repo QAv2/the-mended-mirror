@@ -54,7 +54,6 @@
     const t = Math.max(0, Math.min(1, (x - a) / (b - a)));
     return t * t * (3 - 2 * t);
   }
-  C.petalSurf = surf;
 
   function petalGeometry(nu, nv) {
     const pos = [], uv = [], idx = [];
@@ -269,7 +268,7 @@
     const L = C.lotus = {
       update, present, dismiss, neighbors,
       hoverSeat, setHover, pickSeat, pickCrowd, pickPresentedFig,
-      presented: null, presenting: false, hovered: -1,
+      presented: null, hovered: -1,
       figWorld, setBright, setDim, presentedFigs: [],
       heroReady: false,
     };
@@ -570,7 +569,6 @@
       if (root.HALL && HALL.chunks) HALL.chunks.prefetch([tid]);
 
       const swapOut = L.presented ? dismissQuick(dir) : Promise.resolve();
-      L.presenting = true;
       return swapOut.then(() => new Promise(res => {
         // hide the seat instance
         dummy.matrix.copy(seat.matrix);
@@ -631,7 +629,6 @@
           grp.position.copy(HOLD);
           grp.scale.setScalar(PS);
           faceEye(grp, eye);
-          L.presenting = false;
           if (C.audio.started) C.audio.chime(seat.n, N);
           res();
           return;
@@ -674,7 +671,6 @@
             faceEye(grp, eye, roll);
             if (T >= 1) {
               grp.position.copy(HOLD); grp.scale.setScalar(PS); faceEye(grp, eye);
-              L.presenting = false;
               C.audio.chime(seat.n, N);
               anim = null; res();
             }
@@ -762,7 +758,7 @@
       if (roll) g.rotateZ(roll);
     }
 
-    function ease(x) { return x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; }
+    const ease = C.ease;
     function bez3(p0, p1, p2, p3, t) {
       const it = 1 - t;
       return new T3.Vector3(

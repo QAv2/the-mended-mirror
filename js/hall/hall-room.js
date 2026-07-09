@@ -382,7 +382,7 @@
       }
     }
 
-    function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
+    const smooth = HALL.smooth;
 
     H.room = api;
   };

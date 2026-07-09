@@ -501,7 +501,7 @@
     ui.pres.style.top = (-_pv.y * 0.5 + 0.5) * innerHeight + "px";
   }
 
-  function ease(x) { return x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; }
+  const ease = C.ease;
   function smooth01(x) { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); }
 
   /* the tuner's door — drive the space from the console or the snap harness */

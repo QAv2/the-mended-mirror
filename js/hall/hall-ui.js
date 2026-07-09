@@ -575,7 +575,6 @@
     H.ui = {
       openFigure, openTradition, openJoint, openSeam, close,
       setYear, setHover, tickHover, hint, ceremonyLine, setStation,
-      isOpen: () => panel.classList.contains("open"),
     };
   };
 })(typeof window !== "undefined" ? window : globalThis);

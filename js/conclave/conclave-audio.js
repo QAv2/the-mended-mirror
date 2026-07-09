@@ -99,7 +99,6 @@
     const wg = ctx.createGain(); wg.gain.value = 0.028;
     wind.connect(wf); wf.connect(wg); wg.connect(hush);
     wind.start();
-    A._windGain = wg;
 
     /* fade the world in over six seconds */
     master.gain.setTargetAtTime(0.5, ctx.currentTime, 2.4);

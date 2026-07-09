@@ -203,7 +203,7 @@
 
     /* ---------- expose ---------- */
     const api = {
-      group, grab, pickables: [grab],
+      group, pickables: [grab],
       get openK() { return openK; },
       setOpen, apply,
       onOpen: null,                               // audio hook (H.doors.onOpen) — sound system unbuilt
@@ -214,8 +214,7 @@
          camera is well inside (Joe flew through bronze in rev 1 — the scrub
          verified the curve but misread the crossing). */
       drive(t, K) {
-        const sm = (a, b, x) => { const q = Math.max(0, Math.min(1, (x - a) / (b - a))); return q * q * (3 - 2 * q); };
-        apply(sm(3.4 * K, 5.0 * K, t) - sm(6.9 * K, 9.0 * K, t));
+        apply(HALL.smooth(3.4 * K, 5.0 * K, t) - HALL.smooth(6.9 * K, 9.0 * K, t));
       },
     };
     H.doors = api;
