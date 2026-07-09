@@ -168,5 +168,87 @@ N."), Narcissus if figures-scope holds (the cautionary member), Mímir's well
 
 ---
 
+## 7 · RUN 1 RESULTS — the seated first-seed (17 assessed, 2026-07-09)
+
+*Verdicts rest on native canon as carried in the verified profiles;
+craft-renderings excluded as evidence; five targeted web checks. Full evidence
+paragraphs in the run-1 agent report (session record).*
+
+**Members under the ratified cut — 7 of 17:**
+
+| Figure | Tier | The native move |
+|---|---|---|
+| Amaterasu | **T1** | The cave mirror + the decree: "regard this mirror exactly as if it were our august spirit" |
+| Odin | **T1** | Hávamál 138 — hung nine nights, *"given to Óðinn, myself to myself"* (sjálfr sjálfum mér): offerer, offering, and receiver one being; the rune-winning hinges on it |
+| Orpheus | **T1**\* | The Gurob papyrus (~250s BCE, actual Orphic liturgy) lists the MIRROR among the Titans' lures at the dismemberment; the gold tablets have the dead renamed god ("you shall be a god instead of a mortal"). \*The self-gaze *narration* is late-stratum (Nonnus/Neoplatonic); if T1 demands early statement he re-files T2 — seat unaffected |
+| Anubis | **T2**† | BD 125/30B — the dead meet their own exteriorized heart as hostile witness ("my heart of my mother, do not stand against me as witness"); the justified exit renamed "Osiris N" |
+| Yeshua | **T2** | Matt 25's judgment hinges on "you did it to me"; the risen one is structurally met as strangers, "their eyes were kept from recognizing him" (Luke 24:16). John 14:9 was tested and REFUTED as an anchor — manifestational, not reflexive |
+| Krishna | **T2** | Bhāgavata 10.8.39 — Yaśodā, checking the child's mouth for dirt, sees the universe with Vraja and HERSELF inside it; doubt seizes her; the god re-veils her. (Sanskrit wording NEEDS-CHECK) |
+| Isis | **T2**† | The Name of Ra — the serpent shaped from Ra's own spittle, canonically unrecognized as his own ("my hand did not make it"); cured only by inmost self-disclosure |
+
+**Honor roll (T3, 8):** Athena (Metis interiorized; the Perseus-shield reading
+for HER seat refuted — she authors it, it shows an *other*, and it isn't
+load-bearing for her arc) · Śākyamuni (MN 61's literal mirror is instructional,
+not load-bearing; Chan mirrors fail NATIVE for his tier) · Avalokiteśvara
+(mirrors the crier's *need*, never the crier's self) · Shiva (Pratyabhijñā
+"recognition" is the strongest later-echo mirror audited — the school's move,
+not the myth's) · Prometheus · Anansi · Zeus · Thor.
+**NONE (2):** Hestia, Poseidon.
+
+**† THE OFFICIANT RULING — open, Joe's.** Anubis and Isis seat T2 on reflexive
+scenes they *administer or engineer* rather than undergo. Must a member be a
+PARTY to the self-meeting, or does authoring/officiating the load-bearing
+reflexive scene of one's own defining canon suffice? They stand or fall as a
+pair: **7 members if officiants count, 5 if not.** (Rec: officiants count — the
+ratified test asks whether the figure can state the thesis by pure narration of
+their own canon, and "in my hall the dead meet their own heart, and the true of
+voice leave renamed as the god" is pure narration. The letter of the test leans
+inclusive; the call stays Joe's.)
+
+---
+
+## 8 · RUN 2 RESULTS — the corpus T1 batch (11 assessed, 2026-07-09)
+
+**Members — 8:**
+
+| Candidate | Tier | The native move | Who-anchor |
+|---|---|---|---|
+| Yama (buddhist) | **T1** | The Mirror of Karma "wherein every good and evil act is vividly reflected" — and the Bardo's own refrain: the tribunal, Yama included, is the dead's own projection | Yama (Dharmarāja / Yanluo / Enma — one office) |
+| Tezcatlipoca | **T1** | The mirror is his NAME (tezcatl + poca, "Smoking Mirror"); in the Anales he carries it to Tollan: "I have come to show you your body" | Tezcatlipoca |
+| Poimandres | **T1** | CH I.14–15 — the Anthropos sees "the form like to himself… in her Water, loved it and willed to live in it": the reflection-fall IS the anthropogony; man twofold ever after | Poimandres (the Anthropos folded in as one membership) |
+| Nichiren (the Gohonzon) | **T1** | "Never seek this Gohonzon outside yourself…" (1277, to Nichinyo); the mind "like a tarnished mirror, but when polished…" with chanting as the polishing (1255) | Nichiren (living lineages; the modern "mirror of your life" formulation = later echo, continuous) |
+| The Manifestation (Bahá'í) | **T1** | "These sanctified Mirrors… are one and all the Exponents on earth" + the same book's reflexive decree: "He hath known God who hath known himself" (Kitáb-i-Íqán) | Held as **office**; Bahá'u'lláh the attested anchor. Flags: no-incarnation theology; image-reticence etiquette |
+| Insān al-Kāmil (Sufi) | **T1** | Fuṣūṣ al-Ḥikam, bezel of Adam: God wished "to see His own Essence in one global object… which he uses for himself as a mirror"; "Adam was the very polishing of that mirror." Bezel of Seth doubles it: the servant "will only see his own form in the mirror of the Real" | **Muhammad — VEILED/ANICONIC standing ruling honored; never embodied.** Ibn ʿArabī available as the human-sage articulator (Zhuangzi precedent) |
+| Zagreus | **T2** ⌃ | Nonnus 6.172–73: the Titans strike "while he contemplated his changeling countenance reflected in a mirror"; the mirror among the mystery-tokens from Clement (Protrep. 2) onward | Zagreus (Dionysus first-born). ⌃ See ruling below |
+| Mami Wata | **T2** | The mirror-and-comb IS the cult's grammar: mirror-built altars, the self-gazing water-queen, devotees who worship by MIRRORING her (Drewal 1988/2008) | Mami Wata (living tradition; public, consented ethnography; modern-formed and tiered as such) |
+
+**Honor roll (T3):** Ardhanarishvara (the darpana alternates with lotus/parrot in
+the āgama digests — a substitutable attribute is décor; fusion ≠ self-meeting;
+the true Śaiva mirror seam is Kashmiri pratibimba — a lead for the seated Shiva
+profile, different evidence body) · Oxum (the abebé-mirror is **diaspora-era on
+current evidence** — said plainly) · Adam Kadmon (blueprint-anthropos, no stated
+self-seeing, no clean who).
+**NONE:** yoruba-osun (Yorubaland canon carries brass, fan, river — no mirror) ·
+umbanda-iemanja (mirrors as Réveillon gifts — gift-grammar, not reflexive).
+**DECLINED BY REVERENCE — al-Hakim (Druze), no tier assigned:** the mirror
+simile is attested in published scholarship, but the Rasā'il al-Ḥikma are sealed
+by the tradition's own covenant (kitmān al-sirr). The register declines depth in
+honor of the seal: a summoned al-Hakim would put words in a sealed mouth.
+
+**SECOND RULING JOE OWES — the Zagreus lift.** The self-gaze is STAGED in Nonnus
+(T2, solid); it is STATED outright only in the Neoplatonic transmission
+(Proclus/Damascius) that is also our chief carrier of the lost Orphic
+Rhapsodies. If transmission-carried statement counts as canon, Zagreus lifts to
+T1. (Rec: hold T2 and note the carried statement — conservative; the seat is
+identical either way.)
+
+**Running tally after runs 1–2:** 15 members (13 if the officiant ruling goes
+against Anubis+Isis) · 11 honor roll · 4 NONE · 1 declined-by-reverence. Run 3
+(twins, Xolotl, Kalunga, the inverted underworlds) still out; second-wave roster
+figures enter the final table from their own verified profiles.
+
+---
+
 *Filed beside `_handoff-2026-07-09.md`. The .md is canonical; the rendered
-`.html` is the reading surface — regenerate on every edit.*
+`.html` is the reading surface — full re-render at audit close (runs 2–3 +
+final membership table); the status chip tracks progress meanwhile.*

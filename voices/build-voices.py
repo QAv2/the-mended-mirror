@@ -62,7 +62,7 @@ BOOK_ORDER = [
     "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
     "zoroastrian-zarathushtra",
-    "norse-odin", "thor", "loki", "chinese-folk-sun-wukong",
+    "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "orphism-orpheus",
     "anansi", "amaterasu",
 ]
