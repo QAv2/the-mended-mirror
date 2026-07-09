@@ -30,14 +30,25 @@ and on running average — in case Fable becomes API-only and the work has to be
 | When (2026-07-09) | Reading | Covers | In flight at reading |
 |---|---|---|---|
 | evening, mid-batch-B ("as of 4 minutes ago") | **15%** | The crashed Fable session + this pickup session, cumulative. (The Opus damage-control session between them drew no Fable.) | Zarathushtra already SEATED (7e7bd05); Brigid forge · audit run 1 · Quetzalcoatl verify · audit run 2 all running |
+| late evening, register ratified | **26%** | Everything through the ratified register (all commits to c0207c0); all lanes closed | nothing — wave complete |
 
-**Working estimates from reading #1 (rough — recalibrate at every new reading):**
-15% bought: 5 seated figures (4 pre-crash + Zarathushtra), the crash's burned
-fan-out, recovery + audit overhead, and 4 in-flight partials → ballpark
-**~2.5–3% of allotment per figure, all-in, at current practice.** Projected
-remainder of this wave (Quetzalcoatl close + Brigid + audit runs 2–3 + manifest):
-**≈ +5–8%.** The next reading at batch-A close gives the first clean per-batch
-delta; per-figure %-cost firms up from there.
+**CALIBRATED from readings #1→#2 (Δ11 points):**
+- The Δ11 bought: ≈684k agent-tokens landed after the baseline (the wave's
+  1.04M minus the ~356k already spent at reading #1) plus the main session's
+  own late work (audit assembly, manifest, renders, edits). → **≈60–65k
+  agent-tokens per allotment point**, agents-only; implied total allotment
+  ≈ 6–9M tokens-equivalent all-in.
+- **The whole recovered wave cost ≈ 11–13 points all-in**: seated figures
+  ≈ 2.5–3 points each (≈8 points for three), the full 37-docket audit +
+  manifest ≈ 4 points.
+- **Third-wave forecast at current practice: ≈ 22–26 points** for the nine
+  queued seats' worth of voices (their audit is already paid — membership is
+  verified; only forge+verify per figure remains). Running it now would land
+  the total near **48–52%**.
+- **Headroom after the wave: 74%.**
+- The original +5–8% projection undershot by ~half — the audit's assembly and
+  the manifest work were the unbudgeted mass. Carried forward as a lesson:
+  budget the synthesis, not just the agents.
 
 ---
 
