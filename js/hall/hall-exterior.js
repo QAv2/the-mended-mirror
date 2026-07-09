@@ -615,13 +615,10 @@
       oceanUniforms.uTime.value = elapsed;
     }
 
-    function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
+    const smooth = HALL.smooth;
 
     H.exterior = {
-      group, sky, sun, moon, dayHemi,
-      SUN_DIR, SEA_Y, ESPL_Y, DRUM_R, COL_R, STYLO_R, DOOR_W, DOOR_H,
-      tick, fade, setNight, setPorthole,
-      get nightK() { return nightK; },
+      group, tick, fade, setNight, setPorthole,
     };
   };
 })(typeof window !== "undefined" ? window : globalThis);

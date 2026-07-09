@@ -601,7 +601,7 @@
     return {
       DATA: DATA, time: time, ERAS: ERAS, NOW: NOW, FUTURE_TO: FUTURE_TO,
       timeAngle: timeAngle,
-      rings: ringDef, ringR: ringR, R: R_OUT, POOL_R: POOL_R, CRACK_W: CRACK_W,
+      rings: ringDef, R: R_OUT, POOL_R: POOL_R,
       shards: shards, shardOfTrad: shardOfTrad, borders: borders,
       pairAgg: pairAgg, figAnchor: figAnchor, figById: figById,
       figsOfTrad: figsOfTrad, edgesOfFig: edgesOfFig, degree: degree,

@@ -119,7 +119,7 @@
       if (!H.room.holo) [H.mater.group, H.figures.group, H.rotunda.group].forEach(g => g.visible = false);
       // rete fade base opacities (the ceremony dims the rete at its close)
       H.figures.rete.traverse(o => {
-        if (o.material && o.material.opacity !== undefined) reteBase.push({ m: o.material, o: o.material.opacity, t: o.material.transparent });
+        if (o.material && o.material.opacity !== undefined) reteBase.push({ m: o.material, o: o.material.opacity });
       });
       applyYear(true);
       DIAG.mark("holodeck ready (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
@@ -378,7 +378,7 @@
         H.ui.hint(HINTS[station]);
       }
     }
-    function smooth(a, b, x) { const k = Math.max(0, Math.min(1, (x - a) / (b - a))); return k * k * (3 - 2 * k); }
+    const smooth = HALL.smooth;
 
     /* ---------- the writing of the ages (the scroll's own ceremony) ----------
        First time standing in the scroll: the meridian starts at the deep

@@ -272,16 +272,6 @@
         });
         ovCommit();
       },
-      forPair(tradA, tradB) {
-        ovCount = 0;
-        D.edges.forEach((e, ei) => {
-          const ends = edgeEnds[ei];
-          if (!ends || ends[0] === undefined || ends[1] === undefined) return;
-          const ta = D.figures[ends[0]].tradition, tb = D.figures[ends[1]].tradition;
-          if ((ta === tradA && tb === tradB) || (ta === tradB && tb === tradA)) ovArc(ends[0], ends[1], e.tier, 1.0);
-        });
-        ovCommit();
-      },
     };
 
     /* =========================================================================

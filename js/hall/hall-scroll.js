@@ -52,16 +52,11 @@
     });
     bands.push({ y0: bands.length ? bands[bands.length - 1].y1 + BAND_GAP : Y0, y1: yCur, i0: bandStart, i1: ranked.length - 1, band: bandOf[ranked[ranked.length - 1].k] });
     bands.forEach(bd => bd.eras = M.rings[bd.band] ? M.rings[bd.band].eras.map(e => M.ERAS[e].name).join(" · ") : "");
-    const LANE_H = ranked.length ? (yCur - Y0) / ranked.length : 0.115;   // mean, for consumers that want a scale
     const H_TOP = yCur;
 
     function xOfYear(y) {
       if (y <= M.NOW) return X0 + M.time.yearToT(y) * (X1 - X0);
       return X1 + Math.min(1, (y - M.NOW) / (M.FUTURE_TO - M.NOW)) * (XF - X1);
-    }
-    function yearOfX(x) {
-      if (x <= X1) return M.time.tToYear((x - X0) / (X1 - X0));
-      return M.NOW + ((x - X1) / (XF - X1)) * (M.FUTURE_TO - M.NOW);
     }
     function yOfRank(i) { return laneY[i]; }
     /* reverse lookup: scroll-frame y → rank index (null in a cornice gap) */
@@ -91,10 +86,9 @@
     });
 
     H.scroll = {
-      X0, X1, XF, H_TOP, Y0, LANE_H,
-      xOfYear, yearOfX, yOfRank, rankOf, ranked, moments,
+      X0, X1, XF, H_TOP, Y0,
+      xOfYear, yOfRank, rankOf, ranked, moments,
       laneY, laneH, bands, rankAtY,
-      setCursorYear() {},        // the wall's meridian is the cursor now
     };
   };
 
