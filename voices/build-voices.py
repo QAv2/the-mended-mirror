@@ -61,15 +61,15 @@ BOOK_ORDER = [
     "christianity-christ", "zeus", "greek-hestia", "greek-poseidon", "athena",
     "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
-    "norse-odin", "thor", "loki", "isis", "anubis", "orphism-orpheus",
-    "anansi", "amaterasu",
+    "norse-odin", "thor", "loki", "isis", "anubis", "inanna",
+    "orphism-orpheus", "anansi", "amaterasu",
 ]
 
 TRAD_LABEL = {
     "christianity": "Christianity", "greek": "Greek", "buddhist": "Buddhism",
     "vaishnava": "Vaishnavism", "vedic": "Vedic / Hindu", "norse": "Norse",
     "egyptian": "Egyptian", "orphism": "Orphism", "akan": "Akan",
-    "shinto": "Shinto",
+    "shinto": "Shinto", "mesopotamian": "Mesopotamian",
 }
 
 
