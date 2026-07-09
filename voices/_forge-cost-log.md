@@ -51,9 +51,14 @@ delta; per-figure %-cost firms up from there.
   - Zarathushtra verify — **DONE: 92,633 tokens · 31 tool uses · 15.6 min** —
     verdict SEAT-READY AFTER EDITS (every canon-tier quote confirmed verbatim);
     9 edits applied inline; **SEATED this commit**
-  - Quetzalcoatl verify — running
-- **Per-figure so far:** Zarathushtra forge+verify = **216,647 agent-tokens**
-  (main-session inline overhead not counted)
+  - Quetzalcoatl verify — **DONE: 154,509 tokens · 42 tool uses · 29.0 min** —
+    SEAT-READY AFTER EDITS; reached PRIMARY sources (Velázquez/UNAM codices);
+    9 edits applied incl. exchange compression; **SEATED as 901ae40**
+- **Per-figure:** Zarathushtra = **216,647** · Quetzalcoatl = **294,271**
+  agent-tokens (Q's primary-source dives cost the extra; main-session inline
+  overhead not counted)
+- **BATCH A CLOSED at 901ae40** — 4 agents, **510,918 agent-tokens** total;
+  commits 7e7bd05 (Zarathushtra) + 901ae40 (Quetzalcoatl)
 - **Lanes:** Zarathushtra launched solo (pre-policy); Quetzalcoatl lane added when
   the two-wide call came in; ≤2 agents live at all times
 - **Fable allotment %:** baseline 15% logged mid-flight — see Allotment readings table
@@ -81,7 +86,12 @@ delta; per-figure %-cost firms up from there.
     assessed: 8 members (T1 Yama/Tezcatlipoca/Poimandres/Nichiren/Manifestation/
     Insān-al-Kāmil; T2 Zagreus/Mami Wata), 3 honor-roll, 2 NONE, al-Hakim
     declined by reverence
-  - NEEDS-CHECK sweep (2 verdict-relevant facts + profile-grade verbatims) — launched
+  - NEEDS-CHECK sweep — **DONE: 52,742 tokens · 14 tool uses · 10.0 min** —
+    both verdict-relevant facts HELD (Krishna's sahātmānam is in the Sanskrit;
+    no Yorubaland dígí for Ọ̀ṣun); Nichiren mirror-bow located (Ongi Kuden ch.
+    20, disputed-authorship note required)
+- **BATCH B agents complete** — Brigid 200,331 + audit runs 276,586 +
+  needs-check 52,742 = **529,659 agent-tokens**; commit c0741ca (Brigid)
   - Audit run 3 — **DONE: 79,623 tokens · 25 tool uses · 14.5 min** — 9 dockets:
     2 members (Xolotl T2; Haudenosaunee twins T2, first dyadic seat), Uzume
     officiant-pending, *Manu-*Yemo conditional on a third ruling
@@ -91,6 +101,12 @@ delta; per-figure %-cost firms up from there.
 - **Notes:** batches now overlap (rolling pipeline under the two-by-two policy);
   ledger keeps them as accounting units.
 
-## Running averages
-- — after batch A closes (per-figure est. tokens, per-batch Δ%, projected cost of a
-  full 4-figure wave).
+## Running averages (2026-07-09, wave complete)
+- **Per figure (forge+verify): ≈237k agent-tokens** (Z 217k · Brigid 200k ·
+  Q 294k). Q's premium bought primary-codex verification.
+- **Audit: 4 agents, 329,328 tokens, 37 dockets ≈ 8.9k/docket** — membership
+  auditing is ~25× cheaper per name than voice-forging.
+- **Whole recovered wave (3 figures + full audit + sweep): 1,040,577
+  agent-tokens** + main-session overhead.
+- **Reading #2 requested at batch-A close** — Δ% vs the 15% baseline calibrates
+  everything above into allotment terms.

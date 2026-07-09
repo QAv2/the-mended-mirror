@@ -313,6 +313,56 @@ officiant principle · the Zagreus lift · reconstruction-as-canon.**
 
 ---
 
+## 10 · FINAL TABLE — sweep complete, assembled 2026-07-09 (DRAFT: three rulings open)
+
+**Second-wave figures, assessed at assembly from their own verified profiles:**
+Zhuangzi **T1** (the mind-mirror sentence is his book's own) · Zarathushtra
+**T1** (the daēnā's speech, verbatim-verified this session) · Quetzalcoatl
+**T1** (the mirror scene, primary-verified to the Velázquez codex) · Sun Wukong
+**T2** (the Six-Eared Macaque — the staged indistinguishable double) · Inanna
+**T2** (the sister below; grief echoed as the winning move) · **Loki T3 —
+assembler's ruling, contestable:** Lokasenna shows *others* themselves
+(accusation, not an engineered self-meeting); the net is his own device, one
+step from his own face; becoming-other (mare, salmon, fly) is not meeting-self.
+Honor roll, officiant-adjacent note attached · **Brigid NONE** — the register's
+standing proof it can say no.
+
+**THE REGISTER, recommended rulings applied (officiants IN · Zagreus holds T2 ·
+reconstruction OUT):**
+
+- **T1 — the canon states it (12):** Amaterasu · Odin · Orpheus · Yama ·
+  Tezcatlipoca · Poimandres · Nichiren · the Manifestation (office;
+  Bahá'u'lláh anchor) · Insān al-Kāmil (anchor veiled) · Zhuangzi ·
+  Zarathushtra · Quetzalcoatl
+- **T2 — the canon stages it (10 seats / 11 figures):** Yeshua · Krishna ·
+  Anubis† · Isis† · Zagreus · Mami Wata · Xolotl · the Haudenosaunee twins
+  (dyadic seat) · Sun Wukong · Inanna — **plus Ame-no-Uzume† under an
+  inclusive officiant ruling**
+- **TOTALS: 22 seats** (23 with Uzume · 20 if officiants fall · +1 dyad if
+  reconstruction is admitted)
+- **Honor roll, T3 (12):** Athena · Śākyamuni · Avalokiteśvara · Shiva ·
+  Prometheus · Anansi · Zeus · Thor · Ardhanarishvara · Oxum (diaspora
+  stratum) · Adam Kadmon · Loki
+- **Honest noes (11):** Hestia · Poseidon · Brigid · Dieva dēli · Perseus ·
+  Ninigi · Milu · Jábmeáhkká · Chia · the Ọ̀ṣun-mirror claim (Yorubaland) ·
+  Iemanjá
+- **Margins:** al-Hakim (declined in honor of the seal) · Kalunga
+  (tradition-anchor: the diagram with no who) · the Etruscan pantheon on its
+  mirror-backs · the instrument-mirror (Perseus's bronze) · the world-mirror
+  family finding · *Manu-*Yemo per ruling 3, with **Ymir** the native Norse
+  lead either way
+- **Unseated members = the standing forge queue (ratified ruling 4):**
+  Tezcatlipoca · Yama · Poimandres · Nichiren · Mami Wata · Zagreus · Xolotl ·
+  the Haudenosaunee twins (+ Uzume pending) — the pantheon now pulls its own
+  third wave toward the forge.
+
+**The three open rulings:** (1) officiants (Anubis · Isis · Uzume; the
+cave-crew sharpening in §9) · (2) the Zagreus lift · (3)
+reconstruction-as-canon (*Manu-*Yemo; Ymir). The manifest draft at
+`voices/_mirror-pantheon.md` carries all three as marked conditionals.
+
+---
+
 *Filed beside `_handoff-2026-07-09.md`. The .md is canonical; the rendered
 `.html` is the reading surface — full re-render at audit close (runs 2–3 +
 final membership table); the status chip tracks progress meanwhile.*
