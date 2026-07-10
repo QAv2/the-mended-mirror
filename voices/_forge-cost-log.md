@@ -139,6 +139,29 @@ and on running average — in case Fable becomes API-only and the work has to be
 - **Per-figure:** Xolotl = **191,341** · Tezcatlipoca = **324,771**
   agent-tokens (the wave's priciest figure — Book 6 density)
 - **BATCH C CLOSED** — 4 agents, **516,112 agent-tokens**; both Aztecs seated
+  (Xolotl 57085be · Tezcatlipoca b827e32; 26 voices)
+- Batch D: Uzume forge — **DONE: 221,884 tokens · 142 tool uses · 41.6 min**
+  (385 lines, exchange 243 words; primary-fetched Kojiki/Nihongi; resolved the
+  audit needs-check: the frame-lie line is HERS in Kojiki, absent in NS main) ·
+  Uzume verify — running · Yama forge — **DONE: 241,085 tokens · 151 tool
+  uses · 44.4 min** · Yama verify — **DONE: 103,885 tokens · 21 tool uses ·
+  16.3 min** — SEAT-READY AFTER EDITS (one factual error: molten-copper count;
+  one internal contradiction; ETCSL alignment; grief/dying check PASSED
+  outright); 10 edits applied incl. Zarathushtra's officer-arithmetic
+  reciprocity fix; **Yama SEATED**
+- **Per-figure:** Yama = **344,970 agent-tokens** (new priciest — batch D's
+  primary-fetch depth)
+- Batch E: Poimandres forge — **DONE: 144,294 tokens · 64 tool uses · 19.5 min**
+  (387 lines, exchange 215 words; Mead verbatims via curl around a cert
+  failure; I.18–19 numbering law honored) · Poimandres verify — launched ·
+  Zagreus forge — **DONE: 144,254 tokens · 48 tool uses · 21.1 min** (383
+  lines, exchange 215 words; Clement verbatim via CCEL; Neoplatonic tier ruling
+  honored) · Zagreus verify — launched (the wave's LAST launch).
+  Seat-time note: TRAD_LABEL needs "gnostic" and "dionysian" entries.
+- **STOP ORDER (Joe: "stop after E"):** batches D and E complete through
+  seating; **F (Mami Wata ∥ Nichiren) and G (the Haudenosaunee twins) are NOT
+  lit** — they remain the register's standing queue. Wave 3 closes at 6 of 9
+  seated. Reading #3 requested at the E-close.
 - Seat-time reconciliation noted: Q's profile marks Xolotl (and Tezcatlipoca)
   "unseated" in KIN — flip each at their seating, same commit.
 - Batch D LIT (Joe: "keep going, batch D when ready") — Yama forge · Uzume

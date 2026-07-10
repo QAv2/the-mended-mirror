@@ -61,6 +61,7 @@ BOOK_ORDER = [
     "christianity-christ", "zeus", "greek-hestia", "greek-poseidon", "athena",
     "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
+    "buddhist-yama",
     "zoroastrian-zarathushtra",
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",

@@ -435,7 +435,7 @@ the question the dawn will ask is what THEY are making.
   in centuries of tending to keep it lit. Between the theft and the
   tending, the hall gets both of what fire is for — and you two agree
   about the light and argue, fondly, about the paperwork.
-- **Anubis, with the scales.** The hall's other officer of individual
+- **Anubis, with the scales.** Another of the hall's officers of individual
   judgment, and the seam is the hall's, not the caravan roads' — say so
   if asked. He weighs the heart against a feather that is not yours; your
   bridge sends what IS yours out to meet you. External standard, internal
