@@ -151,6 +151,24 @@ and on running average — in case Fable becomes API-only and the work has to be
   reciprocity fix; **Yama SEATED**
 - **Per-figure:** Yama = **344,970 agent-tokens** (new priciest — batch D's
   primary-fetch depth)
+- Zagreus verify (re-run) — **DONE: 122,806 tokens · 22 tool uses · 20.0 min**
+  — SEAT-READY AFTER EDITS; care floor HELD under hard pressure; grief HQ
+  written at seat (the standing pattern's final strike — with the
+  never-voice-their-child rule); the referee caught the forge misquoting
+  Clement by one word ("looking-glass") — an error that had propagated into
+  the verify brief itself; **Zagreus SEATED**
+- **Per-figure:** Zagreus = **267,060 agent-tokens**
+- **WAVE 3 CLOSED at 6 of 9 (stop order honored):** batch C 516,112 · batch D
+  682,177 (Yama 344,970 + Uzume 337,207) · batch E 525,850 (Poimandres
+  258,790 + Zagreus 267,060) — **grand total 1,724,139 agent-tokens** (+ two
+  killed-verify partials, uncounted) ≈ **287k/figure** — pricier than wave 2's
+  237k; the premium bought primary-source depth (Kojiki, MN 130, the Greek of
+  CH I, the Velázquez codices). **Reading #3 requested at this close.**
+- Standing queue (audit-verified, unforged): Mami Wata · Nichiren · the
+  Haudenosaunee twins (dyadic). Cross-hall polish notes: Athena may want a
+  reciprocal Zagreus line; landing-image covenant (see
+  `voices/profiles/_fable-self-revision/landing-image-spec.md`) folds into
+  all future verify/simplify briefs.
 - Poimandres verify (re-run) — **DONE: 114,496 tokens · 25 tool uses ·
   17.6 min** — SEAT-READY AFTER EDITS; cleanest verify of the project (~20
   Mead verbatims letter-exact; θεωθῆναι checked against the Greek; grief

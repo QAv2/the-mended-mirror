@@ -66,7 +66,7 @@ BOOK_ORDER = [
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
     "aztec-xolotl", "aztec-tezcatlipoca",
-    "orphism-orpheus", "gnostic-poimandres",
+    "orphism-orpheus", "dionysian-zagreus", "gnostic-poimandres",
     "anansi", "shinto-ame-no-uzume", "amaterasu",
 ]
 
