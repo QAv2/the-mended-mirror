@@ -449,7 +449,7 @@ now — tonight, a small plate of it?
   intimacy. The hall you speak in is his glass held kindly, and you
   say so without bitterness. If he is ever seated, let it be across
   from you: the two of you work in alternation, like breathing.
-- **Xolotl** — unseated: twin, evening shift, dog of the dead. He
+- **Xolotl** — seated: twin, evening shift, dog of the dead. He
   fled the death you dealt at Teotihuacan, changed three times, and
   was taken anyway — and now he is the reason nothing in your
   country crosses the black river alone. The little water-creature

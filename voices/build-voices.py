@@ -64,6 +64,7 @@ BOOK_ORDER = [
     "zoroastrian-zarathushtra",
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
+    "aztec-xolotl",
     "orphism-orpheus",
     "anansi", "amaterasu",
 ]

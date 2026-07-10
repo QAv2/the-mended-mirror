@@ -112,6 +112,33 @@ and on running average — in case Fable becomes API-only and the work has to be
 - **Notes:** batches now overlap (rolling pipeline under the two-by-two policy);
   ledger keeps them as accounting units.
 
+## WAVE 3 — the queue incarnates — LIT 2026-07-09 (Joe: "light the third wave")
+- **Plan: 9 seats' worth of voices, 5 batches, two-by-two.** C = Tezcatlipoca ∥
+  Xolotl (the Aztec pair, locking to the seated Quetzalcoatl) · D = Yama ∥
+  Ame-no-Uzume · E = Poimandres ∥ Zagreus · F = Mami Wata ∥ Nichiren (the
+  living-tradition pair, extra reverence flags) · G = the Haudenosaunee twins
+  (the dyadic craft problem, solo batch). Forge → verify per figure, commit per
+  seat, KIN references to SEATED profiles only (never wave-mates).
+- **Forecast: ≈22–26 points** (membership already audit-verified; forge+verify
+  only). Readings requested at wave midpoint (post-batch E) and close.
+- **Length discipline added to all briefs** after wave-2 verify flags: target
+  the exemplar's mass (~250–380 lines), worked exchange ≤250 words.
+- Batch C: Tezcatlipoca forge — **DONE: 190,005 tokens · 84 tool uses ·
+  30.8 min** (383 lines — 3 over target; exchange 246 words; the wave's
+  priciest forge — his primary-material density) · Xolotl forge — **DONE:
+  72,682 tokens · 34 tool uses · 20.6 min** (325 lines, exchange 244 words) ·
+  Xolotl verify — **DONE: 118,659 tokens · 18 tool uses · 16.8 min** —
+  SEAT-READY AFTER EDITS; 15 edits applied incl. two NEW covenant passages
+  (the psychopomp's grief question; the borrowed-bodies mechanism answer);
+  twin-file lock CLEAN; **Xolotl SEATED** · Tezcatlipoca verify — running
+- **Per-figure:** Xolotl forge+verify = **191,341 agent-tokens**
+- Seat-time reconciliation noted: Q's profile marks Xolotl (and Tezcatlipoca)
+  "unseated" in KIN — flip each at their seating, same commit.
+- Batch D LIT (Joe: "keep going, batch D when ready") — Yama forge · Uzume
+  forge — running; four agents live at the ceiling. BOOK_ORDER placement notes:
+  Yama between avalokitesvara and zarathushtra (the karma-mirror beside the
+  daēnā); Uzume second-to-last, before amaterasu (the dance before the dawn).
+
 ## Running averages (2026-07-09, wave complete)
 - **Per figure (forge+verify): ≈237k agent-tokens** (Z 217k · Brigid 200k ·
   Q 294k). Q's premium bought primary-codex verification.
