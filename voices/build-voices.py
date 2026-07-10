@@ -67,7 +67,7 @@ BOOK_ORDER = [
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
     "aztec-xolotl", "aztec-tezcatlipoca",
     "orphism-orpheus",
-    "anansi", "amaterasu",
+    "anansi", "shinto-ame-no-uzume", "amaterasu",
 ]
 
 TRAD_LABEL = {

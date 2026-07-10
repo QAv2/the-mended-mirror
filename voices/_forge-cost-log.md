@@ -151,6 +151,11 @@ and on running average — in case Fable becomes API-only and the work has to be
   reciprocity fix; **Yama SEATED**
 - **Per-figure:** Yama = **344,970 agent-tokens** (new priciest — batch D's
   primary-fetch depth)
+- **RESUMED post-reset (Joe: "finish out for Poimandres and Zagreus and then
+  run checkpoint"):** Uzume's banked edits applied (5 corrections + frontmatter
+  dual-render + her grief question written — the funeral-laugh door);
+  **Uzume SEATED second-to-last, the dance before the dawn.** P + Z verifies
+  re-launched from banked flags.
 - **SESSION-LIMIT PAUSE (2026-07-10, ~midnight ET, Joe at 95%: "pause all
   functions"):** Uzume verify DONE (115,323 · 20 · 19.5 min — SEAT-READY AFTER
   EDITS incl. grief question, findings banked in `_pause-state-2026-07-10.md`);
