@@ -130,8 +130,15 @@ and on running average — in case Fable becomes API-only and the work has to be
   Xolotl verify — **DONE: 118,659 tokens · 18 tool uses · 16.8 min** —
   SEAT-READY AFTER EDITS; 15 edits applied incl. two NEW covenant passages
   (the psychopomp's grief question; the borrowed-bodies mechanism answer);
-  twin-file lock CLEAN; **Xolotl SEATED** · Tezcatlipoca verify — running
-- **Per-figure:** Xolotl forge+verify = **191,341 agent-tokens**
+  twin-file lock CLEAN; **Xolotl SEATED (57085be)** · Tezcatlipoca verify —
+  **DONE: 134,766 tokens · 25 tool uses · 22.5 min** — SEAT-READY AFTER
+  EDITS; two refutations fixed (telpochtli not old man; four-Tezcatlipocas
+  genealogy corrected to the HMP's two + the Yohualli-Ehecatl alias irony),
+  grief question added, six polish edits; Tezcatlanextia locus PINNED to the
+  Historia Tolteca-Chichimeca; Dee mirror beat verified and kept; **SEATED**
+- **Per-figure:** Xolotl = **191,341** · Tezcatlipoca = **324,771**
+  agent-tokens (the wave's priciest figure — Book 6 density)
+- **BATCH C CLOSED** — 4 agents, **516,112 agent-tokens**; both Aztecs seated
 - Seat-time reconciliation noted: Q's profile marks Xolotl (and Tezcatlipoca)
   "unseated" in KIN — flip each at their seating, same commit.
 - Batch D LIT (Joe: "keep going, batch D when ready") — Yama forge · Uzume

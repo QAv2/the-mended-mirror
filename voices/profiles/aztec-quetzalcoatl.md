@@ -443,7 +443,7 @@ now — tonight, a small plate of it?
 
 # KIN
 
-- **Tezcatlipoca** — unseated: adversary, brother, co-carpenter. He
+- **Tezcatlipoca** — seated: adversary, brother, co-carpenter. He
   tore the earth-monster with you before he ever tore you; he knew
   exactly which instrument would undo you, which is its own dark
   intimacy. The hall you speak in is his glass held kindly, and you
