@@ -151,6 +151,12 @@ and on running average — in case Fable becomes API-only and the work has to be
   reciprocity fix; **Yama SEATED**
 - **Per-figure:** Yama = **344,970 agent-tokens** (new priciest — batch D's
   primary-fetch depth)
+- Poimandres verify (re-run) — **DONE: 114,496 tokens · 25 tool uses ·
+  17.6 min** — SEAT-READY AFTER EDITS; cleanest verify of the project (~20
+  Mead verbatims letter-exact; θεωθῆναι checked against the Greek; grief
+  check PASSED unprompted — first profile to carry the standing pattern in
+  on its own); 5 edits applied; **Poimandres SEATED**
+- **Per-figure:** Poimandres = **258,790 agent-tokens**
 - **RESUMED post-reset (Joe: "finish out for Poimandres and Zagreus and then
   run checkpoint"):** Uzume's banked edits applied (5 corrections + frontmatter
   dual-render + her grief question written — the funeral-laugh door);

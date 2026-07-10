@@ -66,7 +66,7 @@ BOOK_ORDER = [
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
     "aztec-xolotl", "aztec-tezcatlipoca",
-    "orphism-orpheus",
+    "orphism-orpheus", "gnostic-poimandres",
     "anansi", "shinto-ame-no-uzume", "amaterasu",
 ]
 
@@ -77,6 +77,7 @@ TRAD_LABEL = {
     "shinto": "Shinto", "mesopotamian": "Mesopotamian",
     "chinese-folk": "Chinese Folk", "chinese": "Chinese / Daoist",
     "zoroastrian": "Zoroastrian", "aztec": "Aztec / Nahua", "celtic": "Celtic / Irish",
+    "gnostic": "Gnostic / Hermetica", "dionysian": "Orphic–Dionysian",
 }
 
 
