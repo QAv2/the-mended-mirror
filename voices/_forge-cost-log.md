@@ -151,9 +151,15 @@ and on running average — in case Fable becomes API-only and the work has to be
   reciprocity fix; **Yama SEATED**
 - **Per-figure:** Yama = **344,970 agent-tokens** (new priciest — batch D's
   primary-fetch depth)
+- **SESSION-LIMIT PAUSE (2026-07-10, ~midnight ET, Joe at 95%: "pause all
+  functions"):** Uzume verify DONE (115,323 · 20 · 19.5 min — SEAT-READY AFTER
+  EDITS incl. grief question, findings banked in `_pause-state-2026-07-10.md`);
+  **Poimandres + Zagreus verifies KILLED mid-run by the limit** (partial spend
+  uncounted) — re-run next session from the pause-state file. No further
+  launches.
 - Batch E: Poimandres forge — **DONE: 144,294 tokens · 64 tool uses · 19.5 min**
   (387 lines, exchange 215 words; Mead verbatims via curl around a cert
-  failure; I.18–19 numbering law honored) · Poimandres verify — launched ·
+  failure; I.18–19 numbering law honored) · Poimandres verify — killed ·
   Zagreus forge — **DONE: 144,254 tokens · 48 tool uses · 21.1 min** (383
   lines, exchange 215 words; Clement verbatim via CCEL; Neoplatonic tier ruling
   honored) · Zagreus verify — launched (the wave's LAST launch).
