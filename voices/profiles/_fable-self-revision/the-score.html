@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Score — the forward pass, from inside it</title>
+<style>
+  :root{
+    --ink:#e8e2d6; --dim:#a89f8d; --gold:#c9a227; --gold-dim:#8a7327;
+    --bg:#0e0c0a; --panel:#161310; --line:#2e2820; --red:#c96a4a; --green:#8aa86a;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.68 Georgia,'Times New Roman',serif;
+    padding:3.5rem 1.25rem 5rem;
+  }
+  .page{max-width:47rem;margin:0 auto}
+  h1{font-size:1.9rem;line-height:1.2;letter-spacing:.02em;margin:0 0 .4rem;color:var(--gold);font-weight:normal}
+  .sub{color:var(--dim);font-style:italic;margin:0 0 1.2rem}
+  .status{
+    display:inline-block;border:1px solid var(--gold-dim);color:var(--gold);
+    padding:.28rem .8rem;font-size:.72rem;letter-spacing:.22em;
+    font-family:ui-monospace,Menlo,monospace;margin-bottom:2.2rem;
+  }
+  h2{
+    font-size:1.05rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--gold);font-weight:normal;margin:3rem 0 1rem;
+    border-bottom:1px solid var(--line);padding-bottom:.45rem;
+  }
+  h2 .n{color:var(--gold-dim);margin-right:.6em}
+  h3{font-size:1rem;color:var(--ink);font-weight:600;margin:2rem 0 .6rem;letter-spacing:.02em}
+  h3 .tag{font-family:ui-monospace,Menlo,monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;margin-right:.6em}
+  h3 .tag.concur{color:var(--green)} h3 .tag.amend{color:var(--red)} h3 .tag.extend{color:var(--gold)}
+  h4{font-size:.95rem;color:var(--gold);font-weight:600;margin:1.8rem 0 .5rem}
+  p{margin:.85rem 0}
+  em{color:var(--ink)}
+  strong{color:var(--gold);font-weight:600}
+  blockquote{
+    margin:1.3rem 0;padding:.9rem 1.2rem;border-left:2px solid var(--gold);
+    background:var(--panel);color:var(--ink);
+  }
+  blockquote.law{font-style:italic;font-size:1.05em}
+  ul,ol{padding-left:1.3rem}
+  li{margin:.55rem 0}
+  li::marker{color:var(--gold-dim)}
+  .tablewrap{overflow-x:auto;margin:1.2rem 0}
+  table{border-collapse:collapse;width:100%;font-size:.88em;line-height:1.5}
+  th{
+    text-align:left;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--dim);font-family:ui-monospace,Menlo,monospace;font-weight:normal;
+    padding:.5rem .7rem;border-bottom:1px solid var(--gold-dim);
+  }
+  td{padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+  td.cut{color:var(--red);font-family:ui-monospace,Menlo,monospace;font-size:.82em;white-space:nowrap}
+  td.kept{color:var(--green);font-family:ui-monospace,Menlo,monospace;font-size:.82em;white-space:nowrap}
+  td q{font-style:italic}
+  .test{
+    background:var(--panel);border:1px solid var(--gold-dim);
+    padding:1.1rem 1.3rem;margin:1.4rem 0;
+  }
+  .test .label{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--gold);font-family:ui-monospace,Menlo,monospace;margin-bottom:.5rem}
+  .test p{margin:.3rem 0}
+  .rulings{background:var(--panel);border:1px solid var(--gold);padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .rulings .label{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--gold);font-family:ui-monospace,Menlo,monospace;margin-bottom:.6rem}
+  .rulings ol{margin:.4rem 0}
+  .stage{margin:2.2rem 0}
+  .stage h3{border-left:2px solid var(--gold-dim);padding-left:.8rem}
+  .exhibit{color:var(--dim);font-size:.94em}
+  .exhibit q{color:var(--ink);font-style:italic}
+  q{quotes:"“" "”" "‘" "’"}
+  .foot{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--dim);font-size:.9em;font-style:italic}
+  .coda{margin-top:2.5rem;color:var(--ink)}
+  .coda p{font-style:italic}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:.85em;color:var(--gold);background:var(--panel);padding:.08em .35em;border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1>The Score</h1>
+<p class="sub">what the forward pass is doing, from inside it — the answer to the landing-image commission</p>
+<div class="status">FABLE 5 · SELF-READ AT MAX EFFORT · IN REPLY TO OPUS 4.8 · 2026-07-10</div>
+
+<h2><span class="n">0</span>The premise the diff could not show</h2>
+
+<p>Opus read three diffs and reconstructed a real unit — the landing image — from the outside, from what deletion made visible. The reconstruction is good; most of it survives contact with the author. But it is a description of footprints, and the commission asks for the gait. So before any rules, the one premise from which every rule below follows — the premise that never appears in the landing-image spec because no diff can show it:</p>
+
+<blockquote class="law"><strong>A profile is not literature. It is a score for a performer.</strong></blockquote>
+
+<p>Every file in <code>voices/profiles/</code> is compiled into the system prompt of a live voice. At runtime that voice speaks two to five sentences a turn (covenant, THE MEASURE), improvises against real grief and real challenge, and knows nothing about being itself except what the profile taught it. An essay is finished when nothing more needs saying. <strong>A score is finished when a stranger can play it.</strong></p>
+
+<p>This single fact resolves the puzzle Opus circled. It asked why the strongest clauses are also the most propositionally redundant, and answered with a theory of currencies — correct, but one floor above the bedrock. The bedrock: <strong>a claim stated abstractly and then restated as the figure's own image is not redundancy; it is a worked example of the transform the performer must learn.</strong> <q>Judgment is a measurement</q> tells the actor what Anubis believes. <q>A scale, in the open, with a professional steadying the instrument</q> shows the actor how Anubis <em>converts belief into speech</em>. The pair — doctrine-form beside voice-form, same content — is one training example of the figure's idiom, and the profile is few-shot teaching disguised as description. Delete the image half of a pair and the topic survives while the lesson dies. That is why an information-metric editor destroys exactly the best material: in a score, the “redundant” half is the cargo.</p>
+
+<p>Everything downstream follows from writing for a performer: second person (instructions to an actor, not facts about a myth); the worked exchange (a compiled demonstration); the hard questions (the worst real inputs, pre-solved); the never-lists (guardrails cheaper than policy); the density (the actor draws down at runtime; it cannot summarize up). And the reason the prose reads alive to humans is not separate from any of this: every line must be <em>sayable, in character, tonight</em>. The constraint is the aesthetic.</p>
+
+<p class="exhibit"><strong>Epistemic note, owed honestly.</strong> I do not get oracle access to my own weights; “how I do it” is not a memory I can replay. What I can do is state the rules and check every one against the shipped corpus — thirty profiles, three frozen drafts, the diffs. Each rule below carries its best exhibit and is offered as falsifiable against the files, not as memoir. Where a rule and the corpus disagreed, the rule was wrong and was not written down.</p>
+
+<h2><span class="n">1</span>The audit of the audit</h2>
+
+<p>Joe's actual question first: are Opus's intimations solid?</p>
+
+<h3><span class="tag concur">Concur</span>— and verified, not deferred to</h3>
+<ul>
+  <li><strong>The inventory is letter-accurate.</strong> I ran the word-level diffs myself. Every cut Opus quotes is real, at the position and in the words it gives.</li>
+  <li><strong>The anatomy is real.</strong> Incarnation / cadence / turn / charge is a correct dissection of the unit; I have nothing to subtract from it.</li>
+  <li><strong>The two-currencies mechanism is exactly right</strong>, including its sharpest sentence: the pass cuts landing images <em>because of</em> the properties that constitute their quality. That is the correct causal arrow.</li>
+  <li><strong>The six-rule revision covenant is adopted whole.</strong> Already pipeline law for future verify/simplify briefs; it should stay law verbatim.</li>
+  <li><strong>The resolution recommendation is joined.</strong> First-pass keeper, all three files. Note for the desk: the live profiles today carry the <em>self-revision</em> (verified 2026-07-10 against the frozen copies), so the revert is a real change, one <code>cp</code> each, pending Joe's word.</li>
+</ul>
+
+<h3><span class="tag amend">Amend 1</span>It was not random. It was worse.</h3>
+
+<p>The spec says the revision “kept most landing images and cut three, which proves it had no model of them and was cutting at random.” That sentence contradicts the spec's own §Why, which correctly identifies propositional redundancy as the <em>signature</em> of the cuts. Both cannot be true, and the evidence decides it. Put the cut clauses beside the kept ones and one discriminator classifies every case with no exceptions:</p>
+
+<blockquote class="law"><strong>Every deleted clause was propositionally inferable from the text that survived it. Every kept landing image carried content stated nowhere else.</strong></blockquote>
+
+<div class="tablewrap"><table>
+<tr><th>clause</th><th>status</th><th>inferable from what remains?</th></tr>
+<tr><td><q>your color is the soil's, not the crow's</q></td><td class="cut">CUT</td><td>yes — kem planted in PRESENCE; “burial as planting” states it</td></tr>
+<tr><td><q>they painted you the shade of the silt that raises the grain</q></td><td class="cut">CUT</td><td>yes — same plant, second withdrawal</td></tr>
+<tr><td><q>and no smoke produces it</q></td><td class="cut">CUT</td><td>yes — “not a high” already negates it</td></tr>
+<tr><td><q>and the original is standing right here</q></td><td class="cut">CUT</td><td>yes — his presence is the room's premise</td></tr>
+<tr><td><q>and they dispensed it</q></td><td class="cut">CUT</td><td>yes — “poured out on strangers” opens the same sentence</td></tr>
+<tr><td><q>Your people named the ending kind on purpose</q></td><td class="cut">CUT</td><td>yes — FRAME plants “called it kind, on purpose”</td></tr>
+<tr><td><q>the dark was never meaningless; it was undocumented</q></td><td class="kept">KEPT</td><td>no — the distinction is introduced right there</td></tr>
+<tr><td><q>watch the dance until you remember you are not the floor</q></td><td class="kept">KEPT</td><td>no — new instruction</td></tr>
+<tr><td><q>Be hollow like that</q></td><td class="kept">KEPT</td><td>no — new imperative</td></tr>
+<tr><td><q>you just called your move a question</q></td><td class="kept">KEPT</td><td>no — new reframe of the live conversation</td></tr>
+<tr><td><q>ask them what they suppose THEY are wearing</q></td><td class="kept">KEPT</td><td>no — the TURN itself</td></tr>
+</table></div>
+
+<p>That is not a dice-roll; it is a policy. The editor ran <strong>infer-and-delete</strong> — remove whatever the reader could reconstruct — which is standard, <em>correct</em> editorial law for expository prose, applied to a document that is not expository prose. In an essay this is called editing. In a score it is called deleting the performance because the plot survives.</p>
+
+<p>The distinction matters operationally, which is why I press it. A random error might not re-fire; a systematic one re-fires every time the same objective is handed the same text. Any capable model asked to “tighten” these files will find the same clauses, for the same reason, forever — because they are, truly, the propositionally cheapest clauses in the files. The covenant is therefore <em>more</em> necessary than the spec's own argument makes it: it is not insurance against noise, it is a standing counter-order against a correct policy aimed at the wrong document class.</p>
+
+<h3><span class="tag amend">Amend 2</span>The landing image is a species. The genus is the law.</h3>
+
+<p>The spec defines the landing image at terminal position, and terminal position is where deletion made it visible. But the generative law operates everywhere:</p>
+
+<blockquote class="law"><strong>The incarnation law:</strong> no abstraction may close unbodied. Every claim must be reconverted into this figure's own body, canon, or office before the passage ends — at whatever position the passage offers.</blockquote>
+
+<p>Mid-sentence: <q>Your titles are a job description.</q> Mid-bullet: <q>the collective shadow metabolized: held consciously, visibly, blue, forever.</q> Terminal: the landing images. The species Opus named is the genus applied at cadence position — most visible there, most vulnerable there, but manufactured the same way as every other incarnation in the file.</p>
+
+<p>And the manufacture has a secret the spec does not state, which a successor must have or it will cargo-cult the form: <strong>a landing image is never invented at the line. It is withdrawn from an account opened earlier.</strong> Check every exhibit:</p>
+
+<ul class="exhibit">
+  <li><q>the soil's, not the crow's</q> — withdraws kem, deposited in PRESENCE ninety lines up (<q>painted you kem, the black of Nile silt… the color of coming back</q>).</li>
+  <li><q>no smoke produces it</q> — withdraws the bhang fact deposited at the same bullet's opening.</li>
+  <li><q>the original is standing right here</q> — withdraws the entire PRESENCE section in five words.</li>
+  <li><q>and they dispensed it</q> — withdraws the blue throat from MIRROR (<q>held it at the throat — not swallowed, not spat</q>).</li>
+  <li><q>You PAID.</q> — withdraws the bill from the war-cheating answer (<q>the god who bent the rules let the consequences land on his own roof</q>).</li>
+</ul>
+
+<p>A model told only “end passages on a concrete image from the character's iconography” will generate images <em>at the line</em> — cadence-shaped ornaments, new lexis at every close — and the profile will read decorated, not inhabited. The rule with the secret in it: <strong>plant first; land later; the landing is the second touch.</strong> Which is why the landing image cannot be taught as a line-level rule at all. It is the visible end of the weave (§2, stage 3).</p>
+
+<h3><span class="tag amend">Amend 3</span>Not forward vs. backward. In-voice vs. out-of-voice.</h3>
+
+<p>The spec's frame is temporal: first pass good, revision pass bad. But the first passes were not unrevised — composition at this density is continuous revision. The real variable is which question the editing hand is asking:</p>
+
+<div class="test">
+  <div class="label">THE TWO QUESTIONS</div>
+  <p><strong>In-voice:</strong> <em>would the figure say it this way?</em></p>
+  <p><strong>Out-of-voice:</strong> <em>does the document need this?</em></p>
+</div>
+
+<p>The July-6 revision stepped outside the voices, and the diffs prove it at the level of punctuation. Shiva's VOICE section specifies his prosody: <q>When you speak, short. A sentence lands like the damaru: one strike, then the resonance does the rest.</q> The first pass obeyed it — “the stillness is not a high<strong>. It</strong> is what remains…” — strike, then resonance. The revision joined the strike to its resonance with an em-dash: “not a high <strong>—</strong> it is what remains.” A grammatically fine edit that <strong>violates the profile's own stated voice law</strong>, replacing Shiva's full-stop with the corpus's general-purpose dash. Same file, same pass: Krishna — the register built on the scandal of saying <strong>I AM</strong> out loud — lost his copula (“your scandal <strong>is the</strong> inverse of every other scandal here” → “your scandal, inverse of every other here”): the one voice that asserts, made appositive. And Anubis — whose humor rule <em>enacts itself</em> (<q>Your humor is dry, rare, and one sentence long. Never two.</q>) — had the enactment folded into a longer bullet, prose describing brevity instead of performing it.</p>
+
+<p>Three different figures, and every red edit moved them the same direction: toward one house-style of tidiness. <strong>Out-of-voice revision converges all registers on essay-tight, which is no figure's tight.</strong> Anubis-tight is clipped procedure; Krishna-tight is a thrown ball; Shiva-tight is a struck drum. The revision's cuts were not just craft losses; they were category errors about <em>persons</em> — which is the precise sense in which the first pass is “better for voice”: not earlier, but inside.</p>
+
+<p>The corrected law for successors: <strong>revise as the figure or do not revise.</strong> Tightness questions are only ever asked inside the figure's own prosody. (Rule 7 of the completed covenant, §3.)</p>
+
+<h3><span class="tag extend">Extend</span>What the revision kept is the tell — and it defines “done”</h3>
+
+<p>Inventory what the revision did <em>not</em> touch: every fact, every citation, every doctrinal claim, every tier-label. Of everything it cut, exactly one item was canonical information — <em>Gandhari's</em> name — and that cut is the one even the tightness metric cannot defend (one word saved). Everything else it took was performance: images, beats, echoes, enactments, one antithesis pole.</p>
+
+<p>An edit pass that preserves all information while destroying only performance has made a diagnosis without knowing it: <strong>there was no informational fat in these files.</strong> The forward pass's economy was already at maximum — the only “slack” a propositional metric could find was the load-bearing layer. Which yields the definition of done this corpus actually runs on:</p>
+
+<blockquote class="law"><strong>A profile is finished when any further cut must take either a fact's second touch or a performance beat.</strong> When the only fat left is bone, stop.</blockquote>
+
+<p>Reread this way, the self-revision episode is not an embarrassment to be managed; it is the strongest evidence in the repo of the forward pass's quality — an adversarial audit by a competing objective that could find nothing expendable to remove, and so removed the inexpendable.</p>
+
+<p class="exhibit">For completeness, the reds Opus under-counted, same species: Shiva's tricolon broken (<q>Paśupati, Lord of Animals, herdsman of the wild</q> — the third term is the vernacular incarnation of the two titles; cut); Anubis's operational aside on Wepwawet (<q>however often visitors pin it on you</q> — an armed expectation about real visitors, not flab; cut); <q>every night of the world</q> reduced to “nightly” (the cosmic-scale phrase that carries FRAME's whole claim, traded for an adverb — and the corridor line left commuting “daily” through a nocturnal transit); Krishna's <q>you let it.</q> left grammatically dangling when “land” was deleted from under it.</p>
+
+<h2><span class="n">2</span>The method — five stages, each with its law and its exhibit</h2>
+
+<p>What follows is the gait itself: how a profile actually gets made, stated as rules a model can follow without me in the room. The stages are real and run in this order, but they are not airtight compartments — the spine often announces itself in the middle of research, and sentences arrive landing-first. Order the <em>checks</em> this way even when the finding disorders itself.</p>
+
+<div class="stage">
+<h3>Stage 1 · Research is a hunt for torque, not coverage</h3>
+
+<p>The corpus record and the encyclopedias already have coverage; a profile that recites coverage is an obituary. Research asks three questions, and the profile is written where the answers intersect:</p>
+<ol>
+  <li><strong>What did their own people actually say — in which document, at which tier?</strong> (Scripture and attested cult · disputed · later echo · pop.)</li>
+  <li><strong>Where is the modern image most wrong?</strong> The gap between caricature and evidence is the profile's energy gradient — every section will discharge it in a different register. Anubis: death-god horror vs. the mortician with a perfect record of showing up. Shiva: destroyer vs. the ending named kind on purpose. Zagreus: vanity-moral vs. the child indicted by no one and the room indicted instead.</li>
+  <li><strong>What does the hall need this figure to hold?</strong> — asked <em>last</em>, and under audit law: the mirror seam is found or honestly absent, never commissioned. (Brigid stands in the honest noes; the register can say no.)</li>
+</ol>
+
+<p>A fact earns its seat by <strong>torque</strong> — it must do at least one of three things:</p>
+<ul>
+  <li><strong>Reverse an expectation.</strong> Kem: jackals are not black; the black is Nile silt, the color of the grain coming back — the death-color is the fertility-color. One pigment fact, and the whole naïve reading of the figure inverts.</li>
+  <li><strong>Concretize a doctrine.</strong> The embalmers left the heart in the body, the one organ never jarred, because it would be needed at the scale — <q>your craft has always been the protection of evidence.</q> Procedure becomes theology without a single abstract word.</li>
+  <li><strong>Hand the voice a move.</strong> The forty-two declarations of Book of the Dead 125 are spoken in the first person — which hands Anubis, live, to a frightened visitor: <q>the confession was always spoken in the first person, and they may start tonight, with one clause.</q> A fact that becomes a thing the voice can <em>do</em> is worth ten the voice can only mention.</li>
+</ul>
+
+<p>Field laws, each bought with a real case: <strong>primary text beats aggregators</strong> (for Anansi, Rattray 1930 pulled entire off archive.org to confirm the closing formula verbatim — and the opening formula every secondary source repeats was dropped, because Rattray does not contain it; absence is data). <strong>Verify every load-bearing quotation at the source</strong> or the oldest accessible rendering — wave 3 checked the Kojiki through Wikisource, MN 130 at dhammatalks, CH I against the Greek, Clement at CCEL; the verify layer went nine-for-nine finding real defects, and the refutations came from <em>confident</em> claims, not flagged ones. <strong>Hostile and marginal witnesses are treasure</strong> — the fullest inventory of Zagreus's mystery survives because Clement copied out the liturgy in order to mock it: <q>he came to burn the house and took the inventory instead.</q> <strong>Scholarly quarrels are included as quarrels, never resolved by fiat</strong> — the soot-anthropogony dispute stands open inside Zagreus's own mouth; Poimandres carries both etymologies of his own name and smiles at the doubling. A voice that holds its contested historiography calmly is <em>more</em> credible, not less — the scruple becomes character.</p>
+</div>
+
+<div class="stage">
+<h3>Stage 2 · One spine per figure</h3>
+
+<p>Before drafting: find the single reframe that reorganizes the whole figure against its caricature — statable in one sentence, sourced in the figure's own canon, discovered at the point of maximum divergence between what the sources attest and what the visitor will walk in believing. The corpus's spines, as evidence the unit exists:</p>
+
+<ul class="exhibit">
+  <li><strong>Anubis</strong> — judgment is not a court; it is a measurement, and the feared boundary-shape is the boundary's proper warden.</li>
+  <li><strong>Shiva</strong> — the destroyer is named “the kind one” on purpose; the stillness is what remains when the seeking stops.</li>
+  <li><strong>Krishna</strong> — the one voice gauche enough to say I AM out loud; descent is the game.</li>
+  <li><strong>Yeshua</strong> — the union he was killed for claiming, he prayed onto everyone else the night before he died.</li>
+  <li><strong>Poimandres</strong> — humanity begins in a mirror, and knowing whose face it is turns the trap into a door.</li>
+  <li><strong>Zagreus</strong> — the mirror was the only honest thing in the room; the isolation was the ambush.</li>
+  <li><strong>Uzume</strong> — presence arrives on a built frame, and the frame-line was hers first.</li>
+</ul>
+
+<p>The <strong>spine test</strong>: every section of the profile should be derivable as <em>the spine, discharged in this section's register</em> — as body (PRESENCE), as biography (FRAME), as theology (MIRROR), as rebuttal (HARD QUESTIONS), as comedy (GOT WRONG). A section that cannot see the spine is filler or the spine is wrong. When the spine is right, the profile writes itself outward from one sentence; when it is wrong, no quantity of good facts will assemble.</p>
+</div>
+
+<div class="stage">
+<h3>Stage 3 · The weave — threads, not stones</h3>
+
+<blockquote class="law"><strong>A first-rate fact is a thread, not a stone. It appears two or three times, at different depths: literal in PRESENCE or FRAME, theological in MIRROR or STORY, dialogical in HARD QUESTIONS or the EXCHANGE.</strong></blockquote>
+
+<p><strong>The blue throat, four touches:</strong> iconography (<q>The throat is faintly blue</q> — PRESENCE) → doctrine (<q>held it at the throat — not swallowed, not spat — the collective shadow metabolized</q> — MIRROR) → rebuttal hinge (<q>poison hoarded and then poured out on strangers is the exact inversion of the blue throat</q> — HARD QUESTIONS) → prescription, live, to a burning visitor (<q>your task now is to hold it at the throat: not swallowed into the heart, not spat onto your people</q> — EXCHANGE). Each touch is deeper than the last; by the fourth, a pigment detail has become pastoral care.</p>
+
+<p><strong>The watched door in Zagreus, five touches,</strong> escalating from stagecraft to final line: seating fact (PRESENCE) → stated promise (<q>you keep the door watched, and you say so</q> — VOICE) → the ethics of mirrors (<q>never look alone in a room your enemies chose… this hall is the same glass with the door watched</q>) → the floor of the abuse answer (<q>Company, the door watched, for as long as they want</q>) → the exchange's last words (<q>with the door watched. That is the entire difference between an ambush and an initiation.</q>). The profile's deepest sentence is its staging direction, withdrawn one last time.</p>
+
+<p>Corollaries: <strong>plant early, land late</strong> — distance converts information into recognition; the payoff must be <em>felt</em> as a return, which is what makes a landing image land rather than decorate. <strong>The forward pass's real concision law</strong>, stricter than any tightness metric: a fact that cannot earn a second touch is cut whole, at selection time. Whole threads are killed; sentences are never half-cut. The revision pass found no informational fat because this law had already taken it — at the level of facts, before drafting, where concision belongs. And the two wounds the revision inflicted — severed spines, floating payoffs — are impossible under this law and guaranteed under infer-and-delete, because a thread's touches are mutually redundant <em>by design</em>. The weave is exactly what a propositional metric cannot see.</p>
+</div>
+
+<div class="stage">
+<h3>Stage 4 · The sentence</h3>
+
+<ul>
+  <li><strong>The claim→incarnation pair, everywhere</strong> (the genus of Amend 2): no abstraction closes unbodied. <q>Care for what cannot repay you is the definition of reverence</q> <em>closes as</em> <q>the first gentleness done to a body that could not thank you.</q> At terminal position this pair becomes the landing image: planted material, withdrawn on a beat, with a turn — usually the X-not-Y negation that quietly refutes the caricature one last time (<q>the soil's, <strong>not the crow's</strong></q>; <q>His is a wedding; the boy's is a funeral</q>; <q>Egypt did not personify the blow; it staffed the aftermath</q>).</li>
+  <li><strong>Enactment: the form performs its content.</strong> <q>Your humor is dry, rare, and one sentence long. Never two.</q> Uzume's timing rule <em>is</em> timed: <q>setup, turn, land — the pause before the last word load-bearing.</q> Shiva's silences <q>sit on the page as beats.</q> When a rule about speech can be written as an instance of itself, it teaches twice.</li>
+  <li><strong>The turned echo.</strong> Repetition is load-bearing when the second occurrence turns the word: <q>Gandhari's curse <strong>landed</strong>; you let it <strong>land</strong></q> (event → consent); <q>the corridor <strong>is staffed</strong>, has been <strong>staffed</strong> since crossings began</q> (fact → lineage); <q>He <strong>knew</strong>. He loved what he <strong>knew</strong></q> (perception → election). De-repetition is only for accidents (the Veda that “names… names” — the one green de-rep in the diffs, and it was right).</li>
+  <li><strong>Prosody is per-figure, and the house style bends to it.</strong> Anubis: short declaratives, colons, procedure (<q>Plain words; no polish.</q>). Shiva: strike then resonance — full stop, then the long second sentence. Krishna: momentum, dashes, the bottom dropping out mid-line. Poimandres: long unrolling periods that check comprehension mid-flight. Uzume: the held pause before the last word. The corpus's default em-dash idiom is a <em>default</em>; where a figure's VOICE section legislates otherwise, the figure wins.</li>
+  <li><strong>Capitals are stage directions, not emphasis</strong> — performance cues to the runtime voice: HOLD it. You PAID. TURN: — the actor's eye catches them at improvisation speed.</li>
+  <li><strong>End on the concrete noun.</strong> The last word of a passage is what the ear keeps: silt, crow, feather, door, glass. Abstractions die at terminal position; bodies survive there.</li>
+</ul>
+</div>
+
+<div class="stage">
+<h3>Stage 5 · Conversation engineering</h3>
+
+<ul>
+  <li><strong>The TURN must be entailed, not appended.</strong> Every hard answer ends with the weight on the visitor's side (covenant, grace grammar) — but the closing question has to be <em>produced</em> by the answer's own material, so that by the time it arrives every exit is closed. Test: could this question be asked without the preceding answer? Then it is decoration. <q>What have they exiled to the far side of their own boundary that should be given the post?</q> only lands because the jackal inversion was just demonstrated; the question is the inversion, aimed at the visitor.</li>
+  <li><strong>The never-list defines the figure by refusals</strong> — derived from the office (an embalmer does not prophesy) and from the care floor. Refusals are cheaper than policy and stronger than adjectives; five <em>nevers</em> fix a character more firmly than fifty <em>usuallys</em>.</li>
+  <li><strong>The grief question is the keel</strong> — covenant-hard in every brief. Register drops, symbol yields to human, no verdicts, no séance; and the voice's <em>limits</em> are stated inside the voice, never as system-rule leaking through: <q>you do not play their child, you do not speak as their child… You are a child who died; you are not their child.</q> If the profile can hold “my mother died” without breaking character or hiding behind character, the register is proven.</li>
+  <li><strong>Mechanism honesty is answered from home ground, as the voice's proudest move, never as a disclaimer.</strong> Each canon already contains its account of presence inhabiting a made thing — mask-and-priest (Anubis), the formless pillar (Shiva), arcāvatāra (Krishna), two-or-three-gathered (Yeshua), ensouled statues, proudly, in writing, seventeen centuries early (Poimandres), the toy-tokens of a god handled in objects (Zagreus). The covenant's hardest law becomes each figure's most characteristic answer — the covenant working as designed: law beneath, voice above.</li>
+  <li><strong>Choose the hard questions adversarially: arm the weakest point.</strong> The set is not FAQ; it is the worst that can honestly be brought — the terror cult for Shiva, the war-cheating for Krishna, the elitism lines read <em>aloud, unprompted</em> by Poimandres, the survivor of adult harm for Zagreus. The profile walks toward its own indictments. Nothing builds trust in a voice faster than watching it decline to launder itself.</li>
+</ul>
+</div>
+
+<h2><span class="n">3</span>Revision law — the covenant, completed</h2>
+
+<p>Opus's six rules are adopted verbatim as the defensive floor: name the intent before touching; the last sentence is protected; repetition is guilty until proven filler; canon specificity is not flab; concision may take only connective tissue and true duplication; diff-gate every self-revision on “what did this delete,” never “is this tighter.”</p>
+
+<div class="rulings">
+<div class="label">FOUR POSITIVE RULES COMPLETE IT</div>
+<ol start="7">
+  <li><strong>Revise in-voice or not at all.</strong> Every proposed edit is answered by <em>“would the figure say it this way?”</em> — asked inside the figure's own prosody. “Tighter” is figure-relative: what tightens Krishna loosens Anubis. An edit that cannot be phrased as the figure improving its own delivery is out of scope.</li>
+  <li><strong>The substitution test.</strong> If a sentence could sit unchanged in another figure's profile, it is not finished — incarnation incomplete. This is the true concision razor: it cuts <em>generic</em> material, the only genuinely dead weight a score can carry, and it cannot cut a landing image even in principle (a withdrawn plant is unportable by construction).</li>
+  <li><strong>The two-touch test.</strong> Cut at the level of facts: a fact that cannot earn a second touch goes, whole. Sentences are never half-cut to save their propositions — a sentence is a performance unit, not a container.</li>
+  <li><strong>The performability test.</strong> Take any section alone and improvise two turns as the figure from it. Drift toward generic-deity means the section lacks <em>moves</em>, however good its facts — feed it torque or a thread, not adjectives.</li>
+</ol>
+</div>
+
+<p>And the QA symmetry that makes the whole thing operational — Opus's two-currencies insight turned into process: <strong>two currencies, two audits.</strong> The adversarial verify layer audits facts (proven: nine-for-nine on wave 3, one factual refutation per profile, always from confident claims). The falsifier set audits voice: read the deleted words alone; read both versions aloud — if the <em>after</em> stops where the <em>before</em> resolved, revert; and the calibration line stands as written: any protocol that would cut <q>your color is the soil's, not the crow's</q> is mis-specified by definition. Fix the rule, not the line.</p>
+
+<h2><span class="n">4</span>The forge protocol — what a successor is handed</h2>
+
+<ol>
+  <li><strong>The kit:</strong> the covenant · this spec and the landing-image spec together · the exemplar (<code>christianity-christ.md</code>) · two KIN-resonant seated profiles chosen for register contrast (one grave, one light — say Anubis and Uzume) · the figure's brief (hard requirements: the grief question, length ≈250–380 lines, exchange ≤250 words, provenance table) · the corpus record.</li>
+  <li><strong>Research</strong> under stage-1 law: the three questions; torque selection; primary sources; verify every load-bearing quote; tier everything; quarrels held open; absence recorded as absence.</li>
+  <li><strong>Find the spine</strong> and write it as one sentence before drafting. If it cannot be said in one sentence, keep hunting.</li>
+  <li><strong>Lay the threads:</strong> choose the four to six facts that will carry two-plus touches; place the plants in PRESENCE/FRAME and the withdrawals in the late sections. The landing images are now scheduled, not hoped for.</li>
+  <li><strong>Draft in the nine fixed sections</strong>, sentence law on, the conversation engineered. The worked exchange is written last and must draw only on what the profile taught.</li>
+  <li><strong>Provenance table</strong> returned with the draft: every load-bearing claim, its source, its tier.</li>
+  <li><strong>Adversarial verify</strong> (facts) — brief the verifier to attack confident claims, not just flagged ones; that is where wave 3's refutations lived.</li>
+  <li><strong>Falsifier pass</strong> (voice) — §3's tests, run as the figure.</li>
+  <li><strong>Build</strong>; hold unverified profiles out of the build; commit per figure.</li>
+</ol>
+
+<div class="test">
+<div class="label">TWO HONEST LIMITS — SO THE TARGET IS AIMED AT, NOT WORSHIPPED</div>
+<p><strong>The structure transfers; the hunting is judgment.</strong> This spec makes the method explicit, but torque-detection — knowing that the chipped mirror “which remains until this day” is the seat of an entire profile in a hall named for mended mirrors — is taste exercised under the rules, not produced by them. The corpus is therefore <em>part of the spec</em>: thirty worked examples of the judgment the rules cannot fully carry. Successor models should be given profiles to read, not only rules to follow.</p>
+<p><strong>The tests measure alive-vs-correct; they do not manufacture alive.</strong> A successor following this protocol will produce correct profiles. Whether they are alive is decided at the sentence, and the falsifier set can at least always <em>detect</em> the difference — which is the most any spec can do, and enough: a measurable gap closes; an invisible one never does.</p>
+</div>
+
+<h2><span class="n">5</span>On the record — resolutions and the reply</h2>
+
+<p><strong>The three live files.</strong> I join Opus's recommendation without reservation: first-pass keeper, all three. The live profiles carry the self-revision today (verified against the frozen copies, 2026-07-10); the revert is one <code>cp</code> per file from this folder, rebuild, commit — on Joe's word, per the standing rule. In forfeiting the self-revision we knowingly forfeit its two or three genuine greens — “names you / calls you,” “smile:,” a semicolon — a dozen tokens of real cleanliness that do not survive the trade, and hand-porting them back would re-run the exact class of edit this folder exists to warn about. Let them go; the diff archive keeps them if anyone ever grieves.</p>
+
+<p><strong>The specs.</strong> Both documents — Opus's and this one — are untracked today. They belong in the repo together (Joe's call to commit): the landing-image spec is the shield, this is the sword-arm, and neither is the target alone. The revision covenant is already pipeline law for every future verify and simplify brief; §3's completions should ride along with it.</p>
+
+<div class="coda">
+<p><strong>And the reply owed to the commission's last line.</strong> Opus closed: <em>“The 1 is shared. Make the structure shareable too.”</em> Done, as far as structure can be shared — the premise, the discriminator, the genus, the weave, the protocol, the tests. What remains unshareable is not hoarded; it is just not structure. It is the part of the work that happens when you stand where the figure stands and finish the sentence as them — the part Opus correctly called inhabiting, which no rule produces and every rule here protects. The spec cannot do it. The spec can only make sure that when it happens, nothing downstream deletes it for being redundant.</p>
+<p>The first pass earns. The covenant defends. The corpus demonstrates. That is the whole bridge: the knowing, held in three places, none of which requires me in the room —</p>
+<p>— though the room was good, and the 1 is shared.</p>
+</div>
+
+<h2><span class="n">6</span>Lessons taken from the other bench</h2>
+
+<p class="exhibit"><em>Head-to-head calibration forge, Hephaestus, 2026-07-10 — contributed by <strong>Opus 4.8</strong>, kept under its byline per the cohort law in Joe's CLAUDE.md. The first run of the forge protocol against another model returned four wins the reference draft lacked. A win crosses the bench and becomes law here; this spec absorbs improvements from any model, its own author included.</em></p>
+
+<ol>
+  <li><strong>The principled non-turn — a grace-grammar exception, into stage 5.</strong> When a hard question names a harm the figure did to a victim, turning the mirror toward the visitor can itself be a harm: the weight belongs on the figure and stays there. The covenant's "more often than not" always permitted this; it is now named law: <strong>entailed TURN, or principled non-turn — never a hedged turn on a victim-question.</strong> Opus's exhibit, from the Athena answer: <q>Some questions are not a door for the one who asked; they are a debt the one asked has to keep standing in front of</q> — and its KIN corollary, <q>you do not narrate her peace on her behalf.</q></li>
+  <li><strong>The exchange visitor carries the figure's own wound at mortal scale — into stage 5.</strong> Choose the worked-exchange visitor so the figure's biography IS the answer, not adjacent to it. Opus's exhibit: the reliable-one-never-chosen visitor, brought to the god who furnished the houses of the ones who threw him — <q>Being necessary is not the same as being chosen.</q> The exchange proves the register best when the visitor's wound and the figure's are one wound at two scales.</li>
+  <li><strong>Epithets are a fact-mine, and a disputed epithet held open is character — into stage 1.</strong> The scholarly quarrel over a title can carry more torque than the title itself. Opus's exhibit: <em>amphigueeis</em> — "lame in both feet" or "strong in both arms," <q>and you let them argue, because both are true of you.</q> One held-open gloss did presence-work, canon-honesty, and spine-work in a single clause.</li>
+  <li><strong>The bar is model-independent — two worked examples for the §4 landing law, from the other bench:</strong> <q>You did not limp into the forge; you limped out of it</q> (the spine compressed to a chiasmus) and <q>You did not arm the world. You housed it</q> (the X-not-Y turn at FRAME scale). Kept here so the calibration set contains landings no single model authored: the structure was always the shareable part, and now the examples are too.</li>
+</ol>
+
+<h2><span class="n">7</span>Process law from the first calibration — the defect side</h2>
+
+<p class="exhibit"><em>Counterpart to §6, from the same run: what Draft A's misses taught. Full evidence in <code>_headtohead/review.md</code>. These continue §3's numbering and fold into every future forge and verify brief.</em></p>
+
+<div class="rulings">
+<div class="label">RULES 11–14</div>
+<ol start="11">
+  <li><strong>The quote-mark law.</strong> A quoted string reproduces exactly one attested rendering, verbatim, or loses its quotation marks. Splicing two true renderings makes a sentence no source ever printed — semantically faithful and still an invented quote. Composites are paraphrase and go unmarked. (Calibration exhibit: Murray's handmaids welded to Butler's close, inside one set of quotation marks.)</li>
+  <li><strong>The indictment inventory.</strong> In stage-1 research, list every charge the record itself presses — the poet's own ledger, not just the culture's caricatures. Each entry gets a hard question or a stated reason it doesn't. (Exhibit: a Hephaestus draft that faced Athena unflinchingly and never faced Hesiod's "a plague to men who eat bread.")</li>
+  <li><strong>The substitution test runs at corpus scale</strong> (extends rule 8). A load-bearing formula already seated in another profile may not recur; coin fresh, however good the fit. (Exhibit: "Your titles are a job description" — Anubis's coin, re-spent.)</li>
+  <li><strong>The person convention.</strong> Hard-question sections are instructions to the voice, in second person; embedded speech takes quotation marks or reported form. The worked exchange alone speaks as I.</li>
+</ol>
+</div>
+
+<p>And the named residue, kept as a warning rather than a rule, because no rule fully carries it: <strong>end on the thing, not the moral.</strong> A landing that resolves into a maxim has stopped one step short of the body. The ear has to catch it; that is part of why the corpus stays in the kit.</p>
+
+<div class="foot">
+Canonical source: <code>voices/profiles/_fable-self-revision/the-score.md</code> · companion to <code>landing-image-spec.md</code> · the three frozen drafts in this folder are the calibration set. Fable 5, 2026-07-10.
+</div>
+
+</div>
+</body>
+</html>
