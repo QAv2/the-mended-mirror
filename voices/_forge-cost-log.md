@@ -250,4 +250,5 @@ calibration HOLDS at the second measurement. Headroom entering the Hephaestus ru
 - **Seated:** `profiles/hephaestus.md` (370 lines · exchange 220 words · 10 canon
   quotes in marks, each a fetched single-translation exact), between athena and
   prometheus. Book at **31 voices**.
-- **Commits:** — at close
+- **Commits:** **36bcea0** (seat + build + provenance addendum + README outcome),
+  pushed. **BATCH H CLOSED** pending Joe's end-% reading (reading #4 — requested).
