@@ -166,4 +166,279 @@ A mirror, mended with honest gold — which, made this way, happens to reflect t
 
 ---
 
+## Appendix · The Fable handoff, verbatim
+
+*The document below is the actual build spec handed to Fable 5 on 3 July 2026 — the one referenced in section 4 ("One unbroken breath"). It is reproduced here word for word, exactly as it was written and handed over: it commissions the world outside the Hall — the tholos on the sea-cliff — and the flight that carries the visitor across the threshold into the interior, which already existed. Nothing in it has been changed.*
+
+---
+
+# The Mended Mirror — Exterior & Entry Sequence
+
+**A build spec for Fable 5.** Build the world *outside* the Hall of Ages — a Tholos on a
+sea-cliff — and the cinematic fly-in that carries the visitor across the threshold, into
+the interior, and hands them the controls. The interior already exists and must not be
+rebuilt; your job is the exterior, the transition, and the seam between them.
+
+---
+
+## 0. The one-paragraph vision
+
+The visitor opens on a **Greek tholos** (a round, colonnaded temple) standing on a **cliff
+above the ocean**, in low golden light. They press *begin*. The camera **flies in** — down
+toward the stylobate, up the steps, and **through the doorway between the columns**. The
+crossing of that threshold is the hinge of the whole piece: the daylit mortal world gives
+way, in one continuous move, to the dark interior void where the one mirror lies shattered
+into every tradition. Inside, the camera pulls to the center; the **plinth rises from the
+bare floor** bearing its two relics; the light settles; and control is handed to the
+visitor. From that instant the existing Hall takes over unchanged.
+
+The exterior is the world; the interior is the cosmos. Crossing the threshold *is* the
+subject. Make the crossing feel like one unbroken breath, not a cut.
+
+---
+
+## 1. What already exists (do not rebuild)
+
+The interior is a working three.js scene — plain browser globals, IIFE modules on
+`window.HALL`, **no build step**, served as static files (GitHub Pages). three.js is an
+older revision (uses `.encoding = THREE.sRGBEncoding`, `renderer.outputEncoding`), loaded
+from `vendor/three.min.js` with `vendor/GLTFLoader.js`. Everything is **self-contained: no
+CDN, no external fetches** (CSP-clean, and it must stay deployable as flat files).
+
+**Module load order (index.html):** `three.min.js` → `GLTFLoader.js` → `data/mirror-data.js`
+→ `data/mirror-dossiers.js` → `hall-data` → `hall-scene` → `hall-mater` → `hall-figures`
+→ `hall-scroll` → `hall-rotunda` → `hall-room` → `hall-threshold` → `hall-ui` → `hall-main`.
+
+**The build/boot (`hall-main.js` → `HALL.start()`):** an async sequence builds each layer,
+then `H.room.setInstant("lobby")`, defines the stations/keys/animation loop, and wires the
+**DOM gate** (`#gate` overlay with a `#gate-enter` button reading "enter the room"). Clicking
+the gate sets an arrival camera pose and flies to the lobby.
+
+**Key objects and hooks you will attach to (all live on the `H` handle, `window.H`):**
+
+| Hook | What it is |
+|---|---|
+| `H.scene`, `H.camera`, `H.renderer` | the three.js essentials. Camera: `PerspectiveCamera(58°, …, near 0.1, far 700)` |
+| `H.rig` | the custom orbit/pano camera rig. `H.rig.flyTo(pose, durSec, done)` tweens to a pose `{target:Vector3, radius, phi, theta}`. `H.rig.pano = {eye}` switches to first-person. `H.rig.locked` during flights. |
+| `H.tween(dur, fn(k), ease, done)` | the global tween engine; `H.stepTweens(dt)` runs in the loop. Use this for the fly-in and the plinth rise so everything shares one clock. |
+| `H.room` | the interior state machine. `H.room.setInstant("lobby"\|"holo")`, `execute()`, `powerDown()`, `showInstrument(bool)`, and `H.room.LID_Y` (= 0.46). |
+| `H.threshold` | the plinth + two relics group (`H.threshold.group`), and `H.threshold.tick(dt)`. **You will add `H.threshold.rise(dur)` here.** |
+| `H.goStation(name)` | hands control to the interior: `"room"`, `"instrument"`, `"scroll"`. |
+| `H.ui.hint(html, sticky)` | the bottom-of-screen hint line. |
+
+### Scale & coordinate anchors (these are the contract — match them exactly)
+
+- **Origin (0,0,0)** is the dead center of the interior, on the `y=0` plane (the shattered
+  mirror lies at `y=0`; the pool/heart is at the center).
+- **Interior floor** (the lobby "lid") sits at **`y = LID_Y = 0.46`**.
+- **Interior wall** is a cylinder of radius **`WALL_R ≈ 31.3`** (`= rotunda RAD − 0.22`,
+  where `RAD = H.mater.RIM_OUT + 1.8 ≈ 31.5`). Wall height **`WALL_H ≈ 31.2`**.
+- **Dome:** a shallow cap above the wall with a real **oculus** (`OC_R = 6.5`) open to the
+  sky, and a warm light-shaft falling through it onto the center.
+- **Standing eye height** (scroll view) = **`(0, 1.7, 0)`**.
+- **Lobby settle pose** — the fly-in must end here:
+  `POSES.room = { target:(0, 1.1, 0), radius: 8.5, phi: 1.28, theta: 0.35 }`.
+- **Interior environment (the END state):** `scene.background = obsidian2 (0x06070b)`,
+  `scene.fog = FogExp2(0x06070b, 0.0052)`, a warm `SpotLight` shaft from above through the
+  oculus, plus dim cool ambient/hemi fills. A field of far stars sits at radius ~380–540.
+
+**The tholos must be sized and placed so its interior cella *is* the existing rotunda:**
+inner colonnade radius just outside `WALL_R`, floor at `y = LID_Y`, entrance on a chosen
+bearing. When the camera crosses the door it should already be looking into the rotunda at
+the right scale — no jump.
+
+---
+
+## 2. What to build — the Tholos and its world
+
+A round peristyle temple on a promontory. Keep it **cheap enough for phones** (the interior
+already caps pixel ratio and targets mobile) and **fully procedural / self-contained** —
+or vendored **GLB** assets with procedural fallbacks, mirroring the existing astrolabe-GLB
+hook pattern in `hall-threshold.js`.
+
+> **Asset pipeline — Meshy.ai is available (~975 credits).** Use it to generate 3D pieces
+> (the tholos, a single column, bronze doors, cliff rocks, props) as **GLB**, then vendor the
+> result into `assets/` and load it through the existing **GLTFLoader-with-procedural-fallback**
+> hook (see `hall-threshold.js`'s `assets/astrolabe.glb` mount). This keeps *runtime* fully
+> self-contained — the GLB is a **local file**, no external calls at load, still deployable as
+> flat files. **Budget the credits deliberately** (each text-/image-to-3D + texture/refine run
+> costs several; ~975 total): generate the few highest-leverage pieces — **one column you can
+> `InstancedMesh` ×16–20**, the entablature/roof, the doors — not every object. **Decimate and
+> optimize every GLB before committing** (geometry weight *is* download weight; the repo is
+> kept lean on purpose — draco/meshopt or a decimate pass, target well under a few MB each).
+> Every Meshy asset must keep a **procedural fallback** so a missing/oversized file never
+> bricks the scene.
+
+**The temple (a tholos):**
+- A ring of columns (**recommend an `InstancedMesh`** — one column geometry, ~16–20
+  instances) on a **stepped stylobate** (2–3 concentric rings of steps). Entablature ring
+  (architrave + simple frieze) over the columns; a low **dome or shallow conical roof**
+  echoing the interior dome. An **oculus** in that roof aligned with the interior oculus
+  (so the shaft of sky is continuous — see §5 thematic note).
+- **One entrance:** a wider inter-column gap, or a framed doorway with a lintel and
+  (optional) open **bronze doors**. This is the portal the camera threads. Put it on a
+  clean bearing — **recommend the `−Z` axis** so the establishing camera looks along `+Z`
+  toward it, and cut the matching doorway gap in the interior wall on the same bearing.
+- **Material:** weathered marble / travertine — warm off-white, non-metallic, with the same
+  procedural stone approach now used on the interior floor & plinth (`HALL.surface({…})` in
+  `hall-scene.js` — reuse it; that's your texture toolkit, zero asset weight). Bronze for
+  the doors/accents, tying to the interior's gold register.
+
+**The site:**
+- **Cliff / promontory:** a simple displaced ground plane or a low-poly rock mass the temple
+  stands on, dropping away to the sea. It only needs to read from the establishing and
+  approach beats.
+- **Ocean:** a large plane with a **cheap animated water shader** (scrolling normal or a few
+  summed sine/gerstner waves in the vertex shader + a fresnel-ish sky reflection tint) — **not**
+  a heavy FFT ocean. Horizon far out.
+- **Sky:** a procedural gradient dome or hemisphere (warm horizon → deep zenith), a soft sun
+  disk / god-ray hint in the golden-hour direction. No HDRI files.
+- **Light:** one warm **directional "sun"** low on the horizon (golden hour) + sky/hemi fill.
+  This is the daylight START state that cross-fades to the interior's shaft-lit void.
+
+Everything exterior lives in one group (e.g. `H.exterior.group`) that can be **faded and then
+`visible=false`'d** once the visitor is inside, so it costs nothing during navigation.
+
+---
+
+## 3. The entry choreography (beat sheet)
+
+One continuous, skippable move. Suggested ~10–12s total; tune freely. Drive it with
+`H.tween`/`H.rig.flyTo` so it shares the loop clock. Easing: `easeInOut` for the big moves;
+the threshold cross should feel like a smooth glide, never a jump-cut.
+
+| # | Beat | ~dur | Camera / action |
+|---|---|---|---|
+| 0 | **Establish** | 1.5s | Wide, high, ~100–140 units out along `+Z`, temple on the cliff, ocean & sky behind, slow drift. Title / *begin* overlay. |
+| 1 | **Approach** | 3.0s | Push in toward the entrance, descending toward the stylobate steps; the columns grow and part around the doorway. |
+| 2 | **Threshold cross** | 2.0s | Dolly **through the doorway** between the columns (thread the gap — never clip a column). **Begin the environment cross-fade mid-cross** (daylight → void; §4). A subtle FOV widen→settle sells the pull-in. |
+| 3 | **Interior pull** | 2.0s | Continue into the rotunda, rising toward the center; the exterior group finishes fading out behind you; the interior wall/dome/stars are now the world. |
+| 4 | **Plinth rise** | 2.0s | Floor is **bare**; the plinth **rises** from center (`H.threshold.rise`), relics settle onto it, the warm case-light blooms. |
+| 5 | **Settle & hand-off** | 1.5s | Ease to `POSES.room`; `H.room.setInstant("lobby")` is already true; show the hint; enable navigation. Done. |
+
+**Skip:** a persistent *skip* affordance (button + Esc) that jumps straight to the end
+state at any point. Repeat visitors and accessibility need this. The end state is exactly
+what the existing **shot-mode `?shot=room`** already produces — reuse that path so skip and
+the natural ending converge on one code path.
+
+---
+
+## 4. The seam — how the two worlds connect (integration contract)
+
+This is the load-bearing part. The fly-in **must end in precisely the state the interior
+expects**, so the existing conductor takes over with zero special-casing.
+
+**End-state the sequence must produce (all of it):**
+1. `H.room.setInstant("lobby")` (interior in lobby state — instrument/wall hidden).
+2. `H.rig` at `POSES.room`, `H.rig.locked = false`, `station = "room"`.
+3. `#gate` overlay hidden; exterior group faded and `visible=false`.
+4. Plinth **risen** and relics present; `H.ui.hint(HINTS.room)` shown.
+5. The animation loop already running (it is, from `HALL.start`).
+
+**Environment cross-fade (day → void).** The interior's dark `background` + `FogExp2` and the
+exterior's sky/sun are mutually exclusive looks. Manage a single **environment state** you can
+tween across the threshold cross (beat 2→3):
+- `scene.background`: lerp exterior sky color → `obsidian2 (0x06070b)`.
+- `scene.fog`: raise `FogExp2.density` from ~0 (clear day) to `0.0052` (interior). Optionally
+  lerp fog color too.
+- Lights: fade the exterior **sun/sky** down while the interior **shaft + fills** come up.
+- Expose this as a small helper (e.g. in `hall-scene.js`: `H.env.toInterior(k)` where
+  `k:0→1` blends exterior→interior) so both the fly-in and the skip path call the same thing.
+
+**The doorway.** Cut a gap in the **interior wall** (`hall-room.js` `roomwall` / the rotunda)
+on the entrance bearing so the camera path passes through an actual opening, and the temple's
+door frames it. Align exterior entrance bearing == interior wall gap bearing (recommend `−Z`).
+
+**The plinth rise.** In `hall-threshold.js`: start the plinth group **sunk and hidden**
+(below `LID_Y`, opacity 0), and add `H.threshold.rise(dur)` that tweens it up to rest and
+fades the relics/case-light in — the inverse of the existing `thresholdFade(k, sink)` sink
+that already runs on `H.room.execute()`. On the **skip** path, place it risen instantly.
+
+**Scale continuity.** Temple interior floor at `y = LID_Y`, centered at origin, inner radius
+just outside `WALL_R ≈ 31.3`. Get this right and the crossing has no visible scale pop.
+
+**Shot-mode & determinism.** Keep `?shot=room|instrument|scroll` booting **straight to the
+interior** (no fly-in) — the headless screenshot harness (`tools/snap.py`) and deep links
+depend on it. Add e.g. `?intro=0` (or reuse skip) to bypass the fly-in explicitly.
+
+---
+
+## 5. Mood & thematic tie
+
+- **Golden hour** outside motivates the **warm shaft** inside — read the interior shaft as
+  the last of that daylight following the visitor in through the oculus. If feasible, let the
+  **same sky** you flew under be what's visible through the interior **oculus** once inside
+  (continuity of the one sky). This is the strongest single tie between the worlds.
+- The cliff and ocean are the **edge of the known**; the tholos is the last built thing before
+  the drop; crossing into it is crossing from world into cosmos — the Campbellian threshold,
+  which is literally the subject of the interior (one mirror, shattered into all faiths).
+- Register to match: reverent, still, cinematic; marble & bronze outside rhyming with the
+  stone & gold inside. Restraint over spectacle — the interior's whole aesthetic is "one shaft
+  of light in a patient dark." The exterior should feel like the same author's daylight.
+- Reference silhouettes: the **Tholos of Delphi** / **Temple of Vesta** (round peristyle
+  temples); a slow establishing aerial that descends and enters.
+
+---
+
+## 6. Files & conventions
+
+**Create:**
+- `js/hall/hall-exterior.js` — `HALL.buildExterior(H)` → the tholos, cliff, ocean, sky, sun
+  as `H.exterior` (with `group`, a `tick(dt, elapsed)` for the water/sun, and a `fade(k)`).
+  Reuse `HALL.surface(...)` for stone. Follow the existing IIFE-on-`window.HALL` pattern.
+- `js/hall/hall-approach.js` **or** a section of `hall-main.js` — the fly-in sequence
+  (`H.approach.play(onDone)` + `skip()`), driving `H.rig`/`H.tween` and `H.env`, then calling
+  into the interior end-state (§4).
+
+**Modify:**
+- `hall-scene.js` — add the tweenable **environment state** (`H.env.toInterior(k)`); it owns
+  `scene.background`, `scene.fog`, and the day-vs-shaft light balance.
+- `hall-room.js` — a **doorway gap** in the interior wall on the entrance bearing.
+- `hall-threshold.js` — plinth starts sunk/hidden; add `H.threshold.rise(dur)`.
+- `hall-main.js` — replace the gate handler with: build exterior, render the establishing
+  shot behind a title, *begin* → `H.approach.play` → hand-off. Keep `?shot=` and add a
+  fly-in bypass (`?intro=0`) + a skip button. Ensure the loop `tick`s `H.exterior` while it
+  is visible.
+- `index.html` — new `<script>` tags in load order (exterior before main); adapt the
+  `#gate` overlay into a title card over the live exterior.
+
+**Constraints (hard):**
+- **Self-contained** — no CDN, no external images/HDRIs/fonts, no runtime API calls. Assets
+  are **procedural or vendored GLB** (Meshy.ai-generated is fine — it's a design-time tool;
+  the output is a local file) via the GLTFLoader-with-fallback pattern. Decimate GLBs; keep a
+  fallback. It must still deploy as flat files to Pages.
+- **Mobile-cheap** — instanced columns, a light water shader, a gradient sky; respect the
+  existing pixel-ratio cap; no per-frame allocations in `tick`.
+- **Non-destructive** — do not alter the interior's data, the ceremony, the stations, the
+  walk/vertical controls, or the reliquary. The interior after hand-off must behave exactly
+  as it does today.
+- **Degrade gracefully** — if the exterior fails to build, fall through to the current
+  "enter the room" gate → lobby, so the site is never bricked by the intro.
+- **Verify** with `tools/snap.py` (CDP screenshot harness; `?shot=room` etc.) and the local
+  server on `:8013`. `?shot=` paths must stay fly-in-free.
+
+---
+
+## 7. Open decisions for Joe (resolve before or during the build)
+
+1. **Time of day:** golden-hour sunset *(recommended — ties to the warm interior)* / bright
+   midday / cold pre-dawn.
+2. **Sea state:** calm & glassy (reverent) / a living swell / dramatic surf.
+3. **Column order:** Doric (severe) / Ionic (graceful) / Corinthian (ornate).
+4. **The portal:** open peristyle gap / a framed doorway / bronze doors that swing open as
+   you approach.
+5. **Sky through the oculus:** make the interior oculus show the *same* exterior sky
+   (strong continuity) — yes/no.
+6. **Repeat visits:** always play the fly-in / remember and auto-skip after the first.
+7. **Audio** (surf & wind outside → a low hum / silence inside) — in scope, or later?
+
+---
+
+*Interior reference: `js/hall/` (`hall-scene`, `hall-room`, `hall-threshold`, `hall-rotunda`,
+`hall-main`), served at `http://127.0.0.1:8013/`, deployed at
+`https://qav2.github.io/the-mended-mirror/`. This spec is the contract for the seam; the
+interior end-state in §4 is non-negotiable, everything else is yours to author.*
+
+---
+
 *The Mended Mirror · walk it here: <https://qav2.github.io/the-mended-mirror/>*
