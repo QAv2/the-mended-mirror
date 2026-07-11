@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>How the Mended Mirror Was Built</title>
+<style>
+  :root{
+    --obsidian:#0b0d12; --obsidian2:#06070b; --ink:#0a0c11;
+    --gold-bright:#f0c45a; --gold-warm:#e6ad44; --gold-deep:#b8893a; --gold-faint:#7a6533;
+    --silver:#cdd2dc; --silver-dim:#8b93a3; --silver-quiet:#6a7180;
+    --parchment:#e9dcc0; --marble:#f4efe4;
+    --line:rgba(205,210,220,.12);
+    --line-gold:rgba(230,173,68,.2);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"URW Palladio L","Book Antiqua",Georgia,"Times New Roman",serif;
+    --sans:"Optima","Gill Sans","Gill Sans MT",Corbel,Avenir,"Segoe UI","Helvetica Neue",sans-serif;
+    --mono:"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
+  body{
+    margin:0; color:var(--silver);
+    background:radial-gradient(140% 90% at 50% -8%, #13161f 0%, var(--obsidian) 40%, var(--obsidian2) 100%) fixed;
+    font-family:var(--serif); font-size:18px; line-height:1.62; letter-spacing:.1px; padding-bottom:6rem;
+  }
+  .wrap{max-width:730px; margin:0 auto; padding:0 1.6rem}
+  ::selection{background:rgba(240,196,90,.22); color:var(--marble)}
+
+  header.mast{text-align:center; padding:5.5rem 1.6rem 2.8rem;
+    background:radial-gradient(85% 130% at 50% 0%, rgba(240,196,90,.06), transparent 60%);}
+  .mast .over{font-family:var(--sans); text-transform:uppercase; letter-spacing:.42em; font-size:.66rem;
+    color:var(--gold-warm); margin:0 0 1.4rem}
+  .mast h1{font-weight:400; font-size:2.7rem; line-height:1.1; margin:0 0 1rem; color:var(--marble); letter-spacing:.3px}
+  .mast .dek{font-style:italic; color:var(--silver-dim); font-size:1.1rem; max-width:42ch; margin:0 auto .9rem}
+  .mast .byline{font-family:var(--sans); font-size:.74rem; letter-spacing:.06em; color:var(--silver-quiet)}
+  .mast .meta{font-family:var(--sans); font-size:.66rem; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--silver-quiet); margin-top:1.5rem}
+  .seam{height:1px; border:0; margin:2.4rem auto 0; max-width:280px;
+    background:linear-gradient(90deg,transparent,var(--gold-deep) 22%,var(--gold-bright) 50%,var(--gold-deep) 78%,transparent);}
+  .seam.tight{margin:2.2rem auto; max-width:150px; opacity:.65}
+
+  section{padding-top:3rem}
+  p{margin:0 0 1rem}
+  em{color:var(--parchment); font-style:italic}
+  strong{color:var(--marble); font-weight:600}
+  a{color:var(--gold-warm); text-decoration:none; border-bottom:1px solid var(--line-gold)}
+  a:hover{color:var(--gold-bright)}
+  code{font-family:var(--mono); font-size:.8em; color:var(--parchment);
+    background:rgba(205,210,220,.05); padding:.1em .36em; border-radius:3px}
+  .standfirst{font-size:1.06rem; color:var(--silver)}
+  .standfirst::first-letter{float:left; font-family:var(--serif); font-size:3.9rem; line-height:.82;
+    padding:.3rem .48rem .1rem 0; color:var(--gold-bright)}
+
+  .chap{margin-top:.5rem}
+  .chap .num{font-family:var(--sans); font-size:.72rem; letter-spacing:.3em; color:var(--gold-deep);
+    display:block; margin-bottom:.5rem}
+  .chap h2{font-weight:400; font-size:1.62rem; line-height:1.18; margin:0 0 .2rem; color:var(--gold-bright); letter-spacing:.2px}
+  .chap .when{font-family:var(--sans); font-size:.68rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--silver-quiet); margin:.15rem 0 1.2rem}
+
+  .epi{margin:1.3rem 0 1.4rem; padding:.05rem 0 .05rem 1.3rem; border-left:2px solid var(--gold-deep)}
+  .epi .line{color:var(--parchment); font-style:italic; font-size:1rem; margin:.1rem 0}
+  .epi .attr{font-family:var(--mono); font-size:.7rem; color:var(--silver-quiet); margin-top:.45rem; font-style:normal}
+
+  .weigh{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; margin:1.7rem 0;
+    background:var(--line-gold); border:1px solid var(--line-gold); border-radius:6px; overflow:hidden}
+  .weigh div{background:var(--ink); padding:1.05rem .6rem; text-align:center}
+  .weigh .n{font-family:var(--serif); font-size:1.7rem; color:var(--gold-bright); display:block; line-height:1}
+  .weigh .l{font-family:var(--sans); font-size:.6rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--silver-dim); margin-top:.45rem; display:block}
+  @media(max-width:540px){.weigh{grid-template-columns:repeat(2,1fr)}}
+
+  .tbl-wrap{overflow-x:auto; margin:1.2rem 0}
+  table{width:100%; border-collapse:collapse; font-size:.88rem}
+  th,td{text-align:left; padding:.45rem .65rem; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--sans); font-size:.62rem; letter-spacing:.13em; text-transform:uppercase; color:var(--gold-warm)}
+  .dot{display:inline-block; width:.66em; height:.66em; border-radius:50%; vertical-align:middle; margin-right:.15em}
+
+  .fingerprint{margin:1.5rem 0; padding:1.2rem 1.4rem; border:1px solid var(--line); border-radius:6px;
+    background:linear-gradient(180deg, rgba(233,220,192,.03), rgba(6,7,11,.3));
+    font-family:var(--mono); font-size:.76rem; line-height:1.85; color:var(--silver-dim); overflow-x:auto}
+  .fingerprint .h{display:block; font-family:var(--sans); font-size:.62rem; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--gold-warm); margin-bottom:.8rem}
+  .fingerprint .sha{color:var(--gold-faint)} .fingerprint .msg{color:var(--parchment)}
+
+  .pull{text-align:center; font-size:1.35rem; line-height:1.4; color:var(--marble); font-style:italic;
+    margin:2.2rem auto; max-width:28ch; letter-spacing:.2px}
+
+  nav.toc{margin:2.2rem 0 .5rem; padding:1.3rem 1.5rem; border:1px solid var(--line); border-radius:7px;
+    background:rgba(6,7,11,.28)}
+  nav.toc .h{font-family:var(--sans); font-size:.62rem; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--gold-warm); margin-bottom:.8rem}
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:c}
+  nav.toc li{counter-increment:c; padding:.28rem 0; border-bottom:1px solid var(--line);
+    display:flex; align-items:baseline; gap:.8rem}
+  nav.toc li:last-child{border-bottom:0}
+  nav.toc li::before{content:"0" counter(c); font-family:var(--mono); font-size:.68rem; color:var(--gold-faint); min-width:1.8em}
+  nav.toc a{border:0; color:var(--silver); font-size:1rem}
+  nav.toc a:hover{color:var(--gold-bright)}
+  nav.toc .t{color:var(--silver-quiet); font-size:.78rem; font-style:italic; margin-left:auto; text-align:right}
+
+  .note{font-size:.88rem; color:var(--silver-dim); font-style:italic}
+  footer{margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--line); text-align:center;
+    color:var(--silver-quiet); font-size:.84rem; font-style:italic}
+
+  @media print{
+    body{background:#fff; color:#20232a; font-size:11pt}
+    .mast{padding-top:1rem}
+    .mast h1,.chap h2,.pull,.weigh .n,strong,em{color:#111 !important}
+    .chap h2{border-bottom:1px solid #caa94a; padding-bottom:.15rem}
+    .epi .line{color:#333}
+    .fingerprint,.weigh div,nav.toc{background:#faf7ef !important}
+    a{color:#7a5a12} section{break-inside:avoid-page}
+  }
+  @media(max-width:540px){body{font-size:16.5px} .mast h1{font-size:2.05rem}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <p class="over">A build account · The Mended Mirror</p>
+  <h1>How the Mended Mirror Was Built</h1>
+  <p class="dek">A stepwise account of the process — from the first image to the shipped site.</p>
+  <p class="byline">Written by Claude, the AI collaborator on the build.</p>
+  <p class="meta">20 June – 10 July 2026 · 65 commits · ships as self-contained flat files</p>
+  <hr class="seam">
+</header>
+
+<div class="wrap">
+
+<!-- prologue -->
+<section id="intro">
+  <p class="standfirst">This is an account of how one project was built, in order, with the receipts kept: the real dates, the real numbers, and the commit log. It was written by the AI that did the building alongside its maker — so where the text says <em>I</em>, that is the tool talking, not the person who sent this to you.</p>
+
+  <p>One note on method up front, because it tends to be the surprising part. When you build with an AI that carries a durable memory of how a particular person works — what they value, what they refuse, how they'd rather be wrong — the output stops looking generic. It begins to carry the maker's taste, the way a room built by one person feels like that person even before you're told whose it is. That is the only editorial thread running under what follows. Everything else is just the build, stage by stage.</p>
+
+  <nav class="toc">
+    <div class="h">Contents</div>
+    <ol>
+      <li><a href="#eye">The eye before the hand</a><span class="t">20–22 Jun</span></li>
+      <li><a href="#gold">The honest gold</a><span class="t">the data</span></li>
+      <li><a href="#room">The room it gets mended in</a><span class="t">2 Jul</span></li>
+      <li><a href="#breath">One unbroken breath</a><span class="t">3–4 Jul</span></li>
+      <li><a href="#register">The register calls</a><span class="t">the tells</span></li>
+      <li><a href="#scale">The hall at scale</a><span class="t">5 Jul</span></li>
+      <li><a href="#earns">What a visit earns</a><span class="t">6 Jul</span></li>
+      <li><a href="#stands">What stands now</a><span class="t">shipped</span></li>
+    </ol>
+  </nav>
+</section>
+
+<hr class="seam tight">
+
+<!-- 01 -->
+<section id="eye">
+  <div class="chap"><span class="num">01</span><h2>The eye before the hand</h2><p class="when">20–22 June · before a line of code</p></div>
+  <p>Most builds start with the data or the feature and add a look at the end. This one started with the look. Before the repository existed, the first files on disk were three images — a network of light, an obsidian texture, a signature — dated 20 June. The palette of the whole project was fixed as an <em>image</em> first; everything after had to earn its place against it, rather than the reverse.</p>
+  <p>A day later, the first shard of content was written. By the 22nd there was a rough, walkable <em>museum</em> — two relics on a plinth in a dark room — built specifically to be thrown away: a way to find the <em>feeling</em> of the space by standing inside a draft of it instead of arguing about it on paper. That instinct — learn the room by walking a cheap version — is the first tell, and it recurs at every stage.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 02 -->
+<section id="gold">
+  <div class="chap"><span class="num">02</span><h2>The honest gold</h2><p class="when">the corpus · the intellectual spine</p></div>
+  <p>The thesis is one sentence: every religious and mythic tradition on Earth is a shard of one shattered mirror, and the gold seams that rejoin them are the real convergences. The easy version of that idea is a lie — perennialism, <em>it's all secretly the same thing</em> — and the entire data design exists to refuse it.</p>
+  <p>Every connection between traditions carries a <em>tier</em>: a graded confession of how true it is, and the gold is literally colored by the confession.</p>
+  <div class="tbl-wrap"><table>
+    <tr><th>Tier</th><th>Gold</th><th>What it means</th></tr>
+    <tr><td>1 · Cognate</td><td><span class="dot" style="background:#ffd86b"></span>brightest</td><td>Proven common descent by language or history. Rare; almost never across unrelated families.</td></tr>
+    <tr><td>2 · Attested</td><td><span class="dot" style="background:#e6ad44"></span>warm</td><td>A documented historical link, borrowing, or syncretism.</td></tr>
+    <tr><td>3 · Analogous</td><td><span class="dot" style="background:#c19a52"></span>faint</td><td>A structural parallel, no proven descent. The honest default — most seams are this.</td></tr>
+    <tr><td>4 · Speculative</td><td><span class="dot" style="background:#8f8c79"></span>grey-gold</td><td>An interpretive reach — allowed, but flagged as one.</td></tr>
+    <tr><td>forgery</td><td><span class="dot" style="background:#6f7c4c"></span>fool's</td><td>A fabrication. Its seam points home to the real thing it counterfeited.</td></tr>
+  </table></div>
+  <p>The rule every research pass followed was written into the spec in plain terms — <em>over-claiming a connection is the only unforgivable error; the tiering is the project's immune system against lazy perennialism.</em> Alongside it, every figure carries a <em>facet</em>: the one thing about it that cannot be folded into any other tradition. Convergence proves it was once one mirror; the facets prove you need every last shard to see the whole face. The governing sentence, and the reason the finished thing has weight rather than glow: <strong>honest faint gold beats fake bright gold.</strong></p>
+  <p>The corpus was forged one shard at a time by a fan-out of research agents (Google's Gemini, driven through the aider tool), each handed a single tradition and the same exacting spec. It began at 219 traditions; the rest was poured in three audited waves.</p>
+  <div class="weigh">
+    <div><span class="n">288</span><span class="l">traditions</span></div>
+    <div><span class="n">4,106</span><span class="l">figures</span></div>
+    <div><span class="n">7,479</span><span class="l">seams</span></div>
+    <div><span class="n">1,032</span><span class="l">tier-1 cognates</span></div>
+  </div>
+</section>
+
+<hr class="seam tight">
+
+<!-- 03 -->
+<section id="room">
+  <div class="chap"><span class="num">03</span><h2>The room it gets mended in</h2><p class="when">2 July · the repository is born</p></div>
+  <p>The git history opens on 2 July with the interior — the Hall of Ages. The brief that governed it drew one hard line: <strong>a relic, a reliquary — not a console.</strong> More museum than app; the awe is in the restraint, and what you don't show matters as much as what you do. Inside: a shattered mirror lying at the exact center of the floor, a plinth bearing two relics — a scroll laying the traditions along a ribbon of time, and an astrolabe wheeling them together as one instrument — and a dome overhead with a real oculus open to a sky. Palette and type were inherited from those first images down to the hex.</p>
+  <div class="epi"><p class="line">The mirror shattered. Your job is to build the room it gets mended in.</p><p class="attr">— the interior brief, closing line</p></div>
+  <p>Within a day you could walk it, and the opening animation that assembles the mirror was already skippable — because a thing you'll revisit has to respect the second visit.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 04 -->
+<section id="breath">
+  <div class="chap"><span class="num">04</span><h2>One unbroken breath</h2><p class="when">3–4 July · the exterior, and the seam</p></div>
+  <p>With the interior standing, the next document was the first one handed to Fable to build: the world <em>outside</em> — a temple on a sea-cliff — and the flight that carries the visitor across the threshold into the interior. The hard part was never the temple; it was the <em>seam</em>. The brief was blunt about it: <em>make the crossing feel like one unbroken breath, not a cut.</em></p>
+  <p>So the daylight has to bleed into the dark mid-crossing — sky color, fog density, and the lighting all crossfading on one shared value, so that the automatic fly-in and the manual skip button land in <em>exactly</em> the same state. That state was pinned to the decimal: floor height, wall radius, the final camera pose all written out in full, so that when the camera threads the doorway the temple's interior <em>is</em> the room, at the right scale, with no visible pop.</p>
+  <p>Revision one, the next day, reads like a note to a film editor rather than a programmer — <em>a longer breath, a free orbit, a sealed crossing, a still floor</em> — and the commit beside it is the purest specimen of the whole ethic:</p>
+  <div class="epi"><p class="line">The crag closes under the pavement: a footing collar seals the rim seam.</p><p class="attr">— commit c731f64 · 4 July</p></div>
+  <p>No bug report demanded that. Somewhere the ground and the temple's floor met at a rim that almost no one would ever look at directly. It was closed because it was <em>there</em> — which is what "not glossing the experienced layer" means in practice: the standard holds even where nobody is grading.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 05 -->
+<section id="register">
+  <div class="chap"><span class="num">05</span><h2>The register calls</h2><p class="when">the decisions no default makes</p></div>
+  <p>The corpus carries dates: when each tradition emerged, flourished, faded. A machine will happily assign a peak year to <em>everything</em>, because the schema has a slot for it. But some traditions aren't history — they are living — and stamping them with a "peak" quietly implies the flourishing is over. So three of the oldest continuous cultures on Earth were deliberately left open at the present, against the grain of the data model:</p>
+  <div class="epi"><p class="line">dates: aboriginal / sami / san carry NO peak — deliberately (a register call).</p><p class="attr">— commit f583a4a · 4 July</p></div>
+  <p>That is a moral choice wearing the costume of a data choice, and it is exactly the kind of decision that survives from a person's memory into the build. The same day, 114 dates were corrected against verification rather than guessed, and the workshop's own uncertainties were kept out of the visitor's sight — a reliquary doesn't show you its scaffolding. None of these were the simple win. Each took the longer, truer road, because nothing was forcing the shorter one.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 06 -->
+<section id="scale">
+  <div class="chap"><span class="num">06</span><h2>The hall at scale</h2><p class="when">5 July · the day the corpus tripled</p></div>
+  <p>The fifth of July did the most work. The data went through three waves in a row: 69 new traditions took the count from 219 to 288; a rebalance gave every figure exactly one canonical home; and a final wave forged 2,028 more figures across all 288 traditions, with 186 same-entity clusters drawn as new seams. The hall that had been tuned for 1,736 figures now had to hold 4,106, so it was rebuilt at scale — the data split so a light core boots the room instantly while each tradition's prose streams in only when reached.</p>
+  <p>Bronze doors went on the temple. The commit that records the fix for them is a small comedy about who the work is really for:</p>
+  <div class="epi"><p class="line">the doors open BEFORE the visitor arrives (Joe flew through bronze).</p><p class="attr">— commit 008f968 · 5 July</p></div>
+  <p>The maker walked his own build, flew straight through a closed door, and the fix shipped in the same breath as the discovery. That same day also unclipped a single clipped letter — the tail of a descender, caught by a hair, fixed and given its own line in the log — and made the whole thing usable under a thumb on a phone. None of it is glamorous. All of it is the difference.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 07 -->
+<section id="earns">
+  <div class="chap"><span class="num">07</span><h2>What a visit earns</h2><p class="when">6 July · the finishing craft</p></div>
+  <p>The finishing pass is the part most builds skip, and it's where the fingerprint shows most. The Hall learned to remember its visitor — the figures you've read, the ones you've marked, and a breadcrumb trail back through the names you followed, all kept locally so they survive the tab closing. A systems rail lists every one of the traditions by name. And when the hardware simply can't render — an old phone, a locked-down browser — the glass says <em>why</em> rather than failing to a silent black:</p>
+  <div class="epi"><p class="line">when the glass stays dark, say why — WebGL fallback + Safari frost.</p><p class="attr">— commit 953e0a2 · 6 July</p></div>
+  <p>That last one is invisible to everyone whose machine works. It exists entirely for the person whose machine doesn't — which is the whole disposition in one line.</p>
+
+  <div class="fingerprint">
+    <span class="h">A note on the log — the project's own commit messages, verbatim</span>
+    <div><span class="sha">f583a4a</span> <span class="msg">dates: aboriginal/sami/san carry NO peak — deliberately (Joe's register call)</span></div>
+    <div><span class="sha">c731f64</span> <span class="msg">The crag closes under the pavement: a footing collar seals the rim seam</span></div>
+    <div><span class="sha">5bdb87b</span> <span class="msg">no letter left behind: the wall title and the splash descender unclipped</span></div>
+    <div><span class="sha">a37c845</span> <span class="msg">the plinth becomes one stone: the shaft rises to meet its cap</span></div>
+    <div><span class="sha">1b50757</span> <span class="msg">what a visit earns, kept: stars, read-marks, a trail that survives</span></div>
+    <div><span class="sha">ea5f208</span> <span class="msg">Begin, then Enter: the tholos earns a long look — and the hall states its name</span></div>
+  </div>
+  <p class="note">A commit message is normally the most disposable text a developer writes. Across the whole history, not one of them reads "fix bug," "update," or "wip." Here the log is where the build keeps its diary — which is another way of saying the care doesn't switch off when the visitor stops looking.</p>
+</section>
+
+<hr class="seam tight">
+
+<!-- 08 -->
+<section id="stands">
+  <div class="chap"><span class="num">08</span><h2>What stands now</h2><p class="when">the shipped site</p></div>
+  <p>It is live, self-contained, and ships as flat files — no CDN, no external calls, the whole thing carried in the download. Its own one-line description is the thesis in miniature:</p>
+  <div class="epi"><p class="line">A kintsugi of the world's pantheons: 288 traditions, 4,106 figures, 7,479 evidenced connections — walked as a temple. The gold is earned; dark cracks are honest absences.</p><p class="attr">— the shipped page description</p></div>
+  <p>Under it: a compact core that boots the room, and several megabytes of prose in 288 chunks that stream in only as you reach for them. You arrive on the cliff at golden hour, cross the bronze into the dark on one unbroken breath, and the plinth rises from the bare floor to meet you. What was two relics in a throwaway museum on 22 June is now a temple you can lose an afternoon inside.</p>
+  <div class="weigh">
+    <div><span class="n">3 wks</span><span class="l">20 Jun → 10 Jul</span></div>
+    <div><span class="n">65</span><span class="l">commits</span></div>
+    <div><span class="n">288</span><span class="l">traditions</span></div>
+    <div><span class="n">flat files</span><span class="l">no dependencies</span></div>
+  </div>
+</section>
+
+<hr class="seam">
+
+<!-- coda -->
+<section id="coda">
+  <p>Back to the method note, now with the build behind it. The reason this doesn't look generic is that it wasn't assembled from the average of a thousand similar sites and handed back. It was made in the space between two processes, one of which holds a lasting memory of the other's taste — which honesty to keep, which crack to leave dark, and the fact that there was never a clock. These are labors of love, and love is patient with the parts no one will grade.</p>
+  <p>The build's own governing rule says it best, and it is a rule about truth rather than beauty:</p>
+  <div class="pull">The gold is earned; the dark cracks are honest absences.</div>
+  <p>A mirror, mended with honest gold — which, made this way, happens to reflect the person who mended it.</p>
+</section>
+
+<footer>The Mended Mirror · <a href="https://qav2.github.io/the-mended-mirror/">walk it here</a></footer>
+
+</div>
+</body>
+</html>
