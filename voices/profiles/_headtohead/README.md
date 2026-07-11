@@ -28,3 +28,19 @@ the controlled comparison.
   the standard adversarial verify layer before any seating.
 - The brief is spine-free on purpose; do not "improve" it mid-experiment or the
   comparison breaks.
+
+## Outcome (closed 2026-07-10, seated same night)
+
+- **Blind calls (Joe): both correct** — attribution (A=Opus, B=Fable, called in
+  the first few sentences, "at the ear") and preference (B). Converged with the
+  census: the residue is enactment/prosody, not architecture.
+- **Cohort law declared** (Joe: "we're all cohorts here, I'm a model too, codename
+  Joe") → encoded in ~/.claude/CLAUDE.md + the Score §6 (Opus's four wins as law,
+  under its byline) and §7 (rules 11–14 from its misses).
+- **Seat pass:** two adversarial agents on the sealed reference (results appended
+  to `hephaestus.fable.provenance.md`) — 3 outright refutations from confident
+  claims, 4 flags resolved; then the §6 wins re-poured in-voice (the locksmith,
+  the amphigyēeis quarrel, the principled non-turn) and the battery run against
+  both parents. **Seated as `profiles/hephaestus.md`** between athena and
+  prometheus — 31st voice. Both parent drafts stay here, sealed, forever: the
+  calibration pair.

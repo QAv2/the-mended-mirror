@@ -48,3 +48,94 @@ claim, confirm phrasing survives scrutiny. (3) Ares "singed" in the Return — l
 tradition (fire-brands), confirm attestation before build. (4) Charis-greeting and
 sponge passage summarized rather than quoted by the fetch — confirm exact lines if
 either is ever quoted rather than described.
+
+---
+
+# SEAT-PASS VERIFY + RE-POUR — 2026-07-10 (two adversarial agents; seat copy = `profiles/hephaestus.md`)
+
+This file stays as sealed (the head-to-head parent). Everything below records what
+the verify layer found and what the seat copy changed. The sealed draft above was
+forged BEFORE Score rules 11–14 existed; the seat pass brought it under them.
+
+## Flag verdicts (agent 1)
+1. **Theogony 927–29 — CONFIRMED, now fetched verbatim** (Perseus/Evelyn-White):
+   "But Hera without union with Zeus—for she was very angry and quarrelled with
+   her mate—bare famous Hephaestus." Anger/quarrel is inside 927–29 itself; the
+   Athena linkage is by juxtaposition with 924–26 (+929a Chrysippus variant,
+   "because of this strife," reinforces). Row 28 upgraded; seat copy now uses the
+   textual "without union, angry and quarrelling with her mate."
+2. **Hephaisteion — split.** "Best-kept temple in Greece" survives (standard
+   superlative, scoped). "Roofed in marble" REFUTED: original wooden roof lost;
+   present cover is the church-era vault; preservation owed to ~11 centuries as
+   the Church of St George Akamates. Seat copy turns the refutation into doctrine:
+   "it never stood idle… the service kept the walls; the roof on it now is the
+   tenants'." Row 34 corrected accordingly.
+3. **Ares in the Return — RE-TIER.** Attested: ps.-Libanius Narration 7 (threatened
+   with torches / driven back); François Vase c. 570 BC keeps Ares kneeling
+   (defeat, iconographic). NO source prints "singed" — seat copy reads "driven off
+   with fire; the vase-painters kept him kneeling." Alcaeus fr. 349 linkage =
+   scholarly reconstruction (Page, Gantz), unverified by fetch — stays flagged.
+4. **Charis greeting + sponge — CONFIRMED**, Murray verbatims banked (Il. 18.382–93,
+   412–17, 424–27). Sponge list in seat copy now carries the chest. Bonus: Hephaestus
+   repeats Charis's greeting formula word-for-word (18.424–25) — the hospitality
+   extrapolation is sturdier than declared. Rows 13/26 upgraded to verbatim-banked.
+
+## Confident-claim verdicts (agent 2) — 3 outright refutations, the pipeline law again
+1. **REFUTED:** HQ2's "you keep it exact: she wished to hide me, because I was lame"
+   — no translation prints it (probable Murray+Butler weld) under an explicit
+   exactness label. Seat copy: exact Murray, quote-marked — "fain to hide me away
+   by reason of my lameness."
+2. **REFUTED (row 23 + FRAME weld):** "the famed god of the two strong arms" cited
+   to Il. 1.606–08, where Murray prints "the famed Hephaestus, **the limping god**."
+   The two-strong-arms formula is Murray's Book-18 rendering of the SAME epithet
+   (amphigyēeis). Seat copy re-welds correctly AND opens the quarrel as FRAME
+   material (§6.3): one word, two castings, both quoted exactly under quote marks
+   (Il. 1.607–08 and 18.382–83).
+3. **REFUTED:** "Aeschylus keeps your words" quote dropped Smyth's "myself" (PB 14–15)
+   — the wave-3 one-word genus. Seat copy restores it, both PB quotes now marked.
+- **OVERSTATED, fixed in seat copy:** net verdict mid-span rewrite → full Murray
+  restored in marks ("for all that he is the swiftest of the gods who hold
+  Olympus"); fall speech ×3 deployments dropped Murray's "but" → all three now
+  exact in marks; "every… shield in the poems" → "on Olympus" (Ajax's shield =
+  Tychius, Il. 7.220–23; Agamemnon's corselet = Cinyras, Il. 11.19–28); vase
+  superlative → "painted that return for centuries" + the kneeling Ares; grief
+  re-say → reported form ("the shape of that sentence"); "Cnossus" → Murray's
+  "Cnosus"; exchange verdict → reported form. Row 37: Callimachus puts the
+  Cyclopes at Hephaestus's anvils on LIPARA (H. Artemis 3.46–49); Etna proper is
+  Virgil (Geo. 4.170–73, Aen. 8.416–25) — body text was already Virgil-defensible.
+- **CONFIRMED clean:** corpus record (17 edges incl. roman-vulcan syncretic T2, no
+  phantom KIN), all five "seated" claims + Thetis-not-seated, prometheus.md and
+  dionysian-zagreus.md reciprocity (no flips needed — both already read
+  seated-compatible), covenant structure 9/9, grief question at care floor,
+  exchange 220 words, tiering language throughout. athena.md carries no Hephaestus
+  content at all — reciprocity GAP noted for a future polish pass, out of scope.
+
+## Invented fabric — one addition
+The **leather apron** joins the declared-invention list (Homer's smith dons a
+tunic, Il. 18.416); burn-gloss, ticking hammer, quench-smell, chair-offer as
+declared at seal.
+
+## Re-pour under §6 (the cohort-law wins, poured in-voice, never pasted)
+- §6.1 → the Athena answer ends in a principled non-turn ("And here, no turn…
+  This one is yours. You stand in front of it, and you stay standing") + the
+  her-side line ("you do not tell it for her, and you do not speak of her peace").
+- §6.2 → re-coined where it sets true, the throne bullet: "Heaven had not sent
+  for the son; it sent for the locksmith."
+- §6.3 → the amphigyēeis quarrel into FRAME, with Murray's own two castings as
+  the exhibit.
+- B's own review defects fixed: throne/cup-round order swapped (plant before
+  payoff), FRAME temple sentence tightened-and-truer, hold-motif thinned 3
+  (bears / carries no load / made to last).
+
+## Hold-motif ruling (the ear, with the math)
+Post-pour census: 3 law-statements (offer/anger/temple) + 3 narrative events
+(trap, net, vessel) + 1 machinist term of art ("holds the tolerance") + grip-sense
+and canon-quote uses exempt. Ruled MOTIF, not tic: it is the profile's thesis
+thread, every touch turns, no two adjacent; precedent Zagreus watched-door ×5.
+
+## Battery vs both parents
+No Opus strings pasted (all three wins re-coined); deleted-words-alone reviewed —
+the one real loss (the repair-that-cannot-purchase-the-before turn) is ruled out
+by §6.1 law on victim-questions, banked here for a future non-victim context.
+370 lines · exchange 220 words · 10 canon quotes in marks, every one a fetched
+single-translation exact.

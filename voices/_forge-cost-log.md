@@ -31,6 +31,13 @@ and on running average — in case Fable becomes API-only and the work has to be
 |---|---|---|---|
 | evening, mid-batch-B ("as of 4 minutes ago") | **15%** | The crashed Fable session + this pickup session, cumulative. (The Opus damage-control session between them drew no Fable.) | Zarathushtra already SEATED (7e7bd05); Brigid forge · audit run 1 · Quetzalcoatl verify · audit run 2 all running |
 | late evening, register ratified | **26%** | Everything through the ratified register (all commits to c0207c0); all lanes closed | nothing — wave complete |
+| **2026-07-10, Hephaestus-run start (reading #3)** | **65%** | Wave 3 complete (6 seats, 1,724,139 agent-tokens + 2 killed partials) + the Score + the full head-to-head calibration forge (reference forge, ~15 inline fetches, review, blind pair) + §6/§7 amendments + the three-file revert, cumulative since 26% | Hephaestus verify pair just launched |
+
+**Reading #3 cross-check (Δ39 points over 26%→65%):** at the batch-A/B calibration
+of ≈60–65k agent-tokens per point, Δ39 ≈ 2.3–2.5M tokens-equivalent. Ledgered mass:
+wave-3 agents 1.72M + two killed partials + the head-to-head/Score main-session work
+(reference forge, review, specs — all inline, unmetered). Consistent — the
+calibration HOLDS at the second measurement. Headroom entering the Hephaestus run: 35%.
 
 **CALIBRATED from readings #1→#2 (Δ11 points):**
 - The Δ11 bought: ≈684k agent-tokens landed after the baseline (the wave's
@@ -215,3 +222,32 @@ and on running average — in case Fable becomes API-only and the work has to be
   everything above into allotment terms.
 - **Rulings ratified 2026-07-09** ("I'm good with all of your recommendations")
   — register FINAL at 23 seats; no further agent spend this wave.
+
+## Batch H — the Hephaestus seating run — 2026-07-10 — IN FLIGHT
+- **Content:** adversarial verify on the sealed head-to-head reference
+  (`_headtohead/hephaestus.fable.md`) → in-voice re-pour of Opus 4.8's §6 wins →
+  seat as `profiles/hephaestus.md` (31st voice). The forge itself was already paid
+  inline during the head-to-head (unmetered main-session work); this batch buys
+  verify + re-pour + seating.
+- **Start reading: 65%** (reading #3 — see Allotment readings table).
+- **Agents (harness actuals):**
+  - Flag-attack verify (4 declared provenance flags) — **DONE: 68,099 tokens ·
+    17 tool uses · 10.4 min** — Theogony CONFIRMED (fetched verbatim, incl. 929a
+    variant) · Hephaisteion split (superlative holds; "roofed in marble" REFUTED —
+    church-era roof, preservation owed to 11 centuries as St George's = voice-gold:
+    survives by staying in service) · Ares-singed RE-TIER (ps.-Libanius torches;
+    no source says burned) · Charis/sponge CONFIRMED (+2 nits: sponge list wants
+    the chest; leather apron = undeclared invention). Verbatim bank returned.
+  - Confident-claim verify (quote battery + corpus/KIN + covenant) — **DONE:
+    104,279 tokens · 25 tool uses · 19.4 min** — THREE outright refutations, all
+    quote-genus, all under exactness frames (the "keep it exact" clause no
+    translation prints · two-strong-arms cited to Il. 1 where Murray prints "the
+    limping god" · the dropped "myself" in PB 14–15); 6 overstatements; corpus/KIN/
+    covenant clean; ZERO reciprocity flips needed. Verify layer now **11-for-11**.
+- **Batch H agents: 172,378 agent-tokens total** — the project's cheapest seat
+  (~0.6× the 287k wave-3 average) because the forge itself was paid inline during
+  the head-to-head. Re-pour + battery + seating all main-session inline.
+- **Seated:** `profiles/hephaestus.md` (370 lines · exchange 220 words · 10 canon
+  quotes in marks, each a fetched single-translation exact), between athena and
+  prometheus. Book at **31 voices**.
+- **Commits:** — at close

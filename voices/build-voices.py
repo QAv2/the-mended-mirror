@@ -59,7 +59,7 @@ def selfcontained(page):
 # the seating order of the book — roughly the order a visitor is likely to seek them
 BOOK_ORDER = [
     "christianity-christ", "zeus", "greek-hestia", "greek-poseidon", "athena",
-    "prometheus",
+    "hephaestus", "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
     "buddhist-yama",
     "zoroastrian-zarathushtra",
