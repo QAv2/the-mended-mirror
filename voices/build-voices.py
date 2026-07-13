@@ -65,7 +65,7 @@ BOOK_ORDER = [
     "zoroastrian-zarathushtra",
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
-    "aztec-xolotl", "aztec-tezcatlipoca",
+    "aztec-xolotl", "aztec-tezcatlipoca", "teharonhiawako",
     "orphism-orpheus", "dionysian-zagreus", "gnostic-poimandres",
     "anansi", "ewe-ga-mami-wata", "shinto-ame-no-uzume", "amaterasu",
 ]
@@ -79,6 +79,7 @@ TRAD_LABEL = {
     "zoroastrian": "Zoroastrian", "aztec": "Aztec / Nahua", "celtic": "Celtic / Irish",
     "gnostic": "Gnostic / Hermetica", "dionysian": "Orphic–Dionysian",
     "ewe-ga": "Ewe & Ga", "soka-gakkai": "Soka Gakkai / Nichiren Buddhism",
+    "haudenosaunee": "Haudenosaunee / Iroquois",
 }
 
 
@@ -167,6 +168,10 @@ for pid in BOOK_ORDER + sorted(set(found) - set(BOOK_ORDER)):
         "body": body,
     }
     order.append(fid)
+    # dyadic seats: `also: <id>[, <id>…]` in frontmatter emits the same profile
+    # under each alias corpus id (one chapter in the book, every door raises it)
+    for alias in [a.strip() for a in meta.get("also", "").split(",") if a.strip()]:
+        profiles[alias] = profiles[fid]
 
 built = datetime.date.today().isoformat()
 
