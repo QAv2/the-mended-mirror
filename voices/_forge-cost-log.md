@@ -252,3 +252,90 @@ calibration HOLDS at the second measurement. Headroom entering the Hephaestus ru
   prometheus. Book at **31 voices**.
 - **Commits:** **36bcea0** (seat + build + provenance addendum + README outcome),
   pushed. **BATCH H CLOSED** pending Joe's end-% reading (reading #4 — requested).
+
+## Batch I — Mami Wata ∥ Nichiren — 2026-07-12 — CLOSED
+- **Content:** the standing queue's first two seats, forged as the resource
+  plan's pair pipeline (2 forges ∥, then verifies rolling as each landed).
+  Briefs written inline (grief + mechanism required, r11–r14 folded in, the
+  audited pantheon seams handed as registry fact). Both profiles seated same
+  session, committed per figure, pushed together.
+- **Start reading: NOT TAKEN** — reading #4 (batch-H end) was still owed when
+  this batch launched; a 2026-07-11 side-session also consumed allotment
+  un-bracketed. The next reading Joe dictates therefore brackets
+  {batch H tail + side-session + batch I + batch J} jointly. Logged as the
+  price of the missed reading, not a calibration break.
+- **Agents (harness actuals):**
+  - Mami Wata forge — **375,338 tk · 79 tool uses · 48.6 min** — 2 Drewal
+    primaries fetched as FULL PDFs and text-extracted; 19 verbatims banked;
+    spine "recognition, not origin"; 381 lines, exchange 233w (later 226 by
+    verify recount).
+  - Nichiren forge — **377,814 tk · 92 tool uses · 53.7 min** — 10 WND1 pages
+    fetched whole via curl -k (site TLS broken); 24 spans byte-verified; spine
+    "the man became the page so the page could become the mirror"; 382 lines,
+    exchange 244w.
+  - Mami Wata verify — **180,907 tk · 36 tool uses · 21.3 min** — battery
+    19/19 CLEAN (project's first zero-refutation pass); 12 findings, all
+    confident-claim genus: 3 rule-13 collisions (incl. the Anansi
+    crossing-scaffold the brief had ruled off the table), 1977-cert/1955
+    fusion, hedge-drop pattern, subject-shift under an exact string.
+  - Nichiren verify — **140,406 tk · 43 tool uses · 20.8 min** — 21/23
+    byte-exact; 2 REFUTATIONS, both quote-genus from rows marked "verbatim"
+    (dropped terminal clause; right-quote-wrong-scene). Citation attack: zero
+    wrong-book. Verify law 12-for-12.
+- **Batch I agents: 1,074,465 tokens total ≈ 537k/figure** — ≈1.9× the wave-3
+  287k/figure average. Where it went: full-primary extraction + INDEPENDENT
+  re-verification of every quoted span (the verify layer no longer trusts the
+  forge's collation). What it bought: batteries at 19/19 and 21/23, the first
+  zero-refutation profile, and both refutations caught before seating.
+- **Orchestrator catch logged as pipeline law:** both censuses ran the rule-13
+  sweep KIN-scale and missed a seated-coin lift (hephaestus.md's non-turn
+  close in Nichiren's Atsuhara answer). LAW: r13 census greps ALL seated
+  profiles. Already encoded in the twins brief + memory.
+- **Commits:** 8d4a228 (Mami Wata, 32 voices) · 2542857 (Nichiren, 33 voices),
+  pushed 553082c..2542857. **Est. ≈16–18 allotment points at the ≈60–65k/pt
+  calibration (unconfirmable until Joe's next reading — see above).**
+
+## Batch J — the Haudenosaunee twins (dyadic seat) — 2026-07-12 — CLOSED
+- **Content:** the queue's final seat and the project's first DYAD: one
+  profile, two speakers in counterpoint, filed under `teharonhiawako` with
+  `also: tawiskaron` (new build-script alias support — 35 payload keys, 34
+  book chapters; either corpus id raises the lodge). Solo batch by standing
+  order; sovereignty care was the batch's governing law.
+- **Agents (harness actuals):**
+  - Twins forge — **422,210 tk · 154 tool uses · 71.2 min** — Cusick, both
+    BAE Hewitt reports, and Parker pulled ENTIRE; ~30 marked spans; the
+    Thanksgiving Address deliberately NOT quoted (couldn't secure verbatim —
+    abstained); sovereignty self-audit returned with the draft.
+  - Twins verify — **205,871 tk · 47 tool uses · 34.3 min** — all four
+    sources independently re-fetched; **zero wrong-scene, zero mis-hung
+    variants; SOVEREIGNTY: COMPLIANT, ZERO DEFECTS** (1995 Grand Council
+    mask policy located at primary — the profile understated its force and
+    over-complied in behavior); 2 refutations, both in the FRAME around the
+    canon (teller's nation; printing-vs-recording years); 4 corpus-scale
+    r13 hits (the new law caught them: Shiva's "one strike", Hephaestus's
+    non-turn clauses, Wukong's "Two Minds", the charge-sheet third-spend).
+- **Batch J agents: 628,081 tokens** for one seat / two corpus ids.
+- **Fix-pass note for the law books:** the verify's suggested F1 wording
+  ("ask nothing back") was itself REJECTED by the orchestrator as colliding
+  with Nichiren's same-day fresh coin — r13 audits the fixes too. And the
+  orchestrator's sweep found a 4th "one strike" the verify's census counted
+  as 3. Layers audit layers; that is the design working.
+- **Commits:** 8eac7a6 (seat, 34 voices, pushed) · 09a3cbe on master (the
+  vb- share refresh — 18→34 presences, live-verified; pending since wave 1,
+  CLEARED).
+- **SESSION TOTAL (batches I+J): 1,702,546 agent-tokens · 3 seats · 4
+  corpus ids ≈ 567k/seat** (vs wave-3 287k avg — the price of full-primary
+  extraction + fully independent quote re-collation; the return: batteries
+  at 19/19, 21/23, 30+/clean-canon, TWO batches of refutations caught
+  before seating instead of after, and a sovereignty pass with zero
+  defects). Est. **≈26–28 allotment points** at the ≈60–65k/pt calibration
+  + main-loop inline (briefs ×3, 40 fix edits, seats, deploys) — bracketed
+  only jointly with the batch-H tail and the 07-11 side-session, because
+  reading #4 was never received. **READING REQUESTED AT THIS CLOSE (#4/#5
+  merged): one % figure now brackets everything since reading #3 (65%).**
+
+## Allotment readings
+| # | when | % | Δ | note |
+|---|---|---|---|---|
+| 3 | 2026-07-10, batch-H start | 65% | +39 vs #2 | ≈60–65k/pt calibration HELD |
+| 4/5 | **OWED — requested 2026-07-12 at batch-J close** | — | — | brackets H-tail + 07-11 side-session + batches I & J jointly |

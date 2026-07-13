@@ -1,0 +1,159 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<title>The Forge Cost Log — the Conclave voice layer</title><style>
+:root{--void:#06070b;--ink:#e8e2d4;--dim:#9a937f;--gold:#ffd86b;--gold2:#e6ad44;--goldDeep:#b8893a;--seam:#2a2416}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--void);color:var(--ink);font:400 16.5px/1.66 Georgia,'Spectral',serif;padding:6vh 20px 12vh}
+.wrap{max-width:52rem;margin:0 auto}h1{color:var(--gold);font-weight:400;letter-spacing:.04em;font-size:clamp(26px,4.5vw,38px);margin-bottom:.2em}
+h1+p{color:var(--dim);font-style:italic;margin-bottom:2.2em}
+h2{color:var(--gold2);font-weight:400;font-size:19px;letter-spacing:.12em;text-transform:uppercase;margin:2.6em 0 .7em;border-top:1px solid var(--seam);padding-top:1.6em}
+ul{margin:.7em 0 .7em 1.1em;list-style:none}li{margin:.55em 0;padding-left:1em;position:relative}
+li::before{content:"·";color:var(--goldDeep);position:absolute;left:0}
+strong{color:var(--gold);font-weight:500}code{font:13px/1 ui-monospace,monospace;color:var(--gold2);background:#11131c;padding:1px 6px;border-radius:5px}
+p{margin:.7em 0;color:var(--dim)}
+table{border-collapse:collapse;margin:1.2em 0;width:100%}th,td{border:1px solid var(--seam);padding:.5em .8em;text-align:left;font-size:14.5px}
+th{color:var(--gold2);letter-spacing:.08em}td{color:var(--ink)}
+</style></head><body><div class="wrap">
+<h1>The Forge Cost Log</h1><p>the Conclave voice layer · agent-token ceilings, wall clocks, commits, and Joe's allotment readings · .md canonical, this page the reading surface · rendered 2026-07-12</p>
+<p>---</p>
+<p>name: forge-cost-log</p>
+<p>description: "Per-batch ledger of the voice-forge: what each batch produced and what it cost in Fable allotment — contingency data in case Fable ever goes API-only."</p>
+<p>metadata:</p>
+<p>  node_type: ledger</p>
+<p>  started: 2026-07-09</p>
+<p>---</p>
+<h1>FORGE COST LOG — the Mirror Pantheon wave</h1>
+<p><strong>Why this exists (Joe, 2026-07-09):</strong> each batch gets logged for content and for</p>
+<p>Fable-allotment percentage, so we know what a batch is worth token-wise — per batch</p>
+<p>and on running average — in case Fable becomes API-only and the work has to be priced.</p>
+<p><strong>Method / honesty notes:</strong></p>
+<ul>
+<li>Token figures are <strong>harness-reported actuals</strong>: each agent's completion notification carries its true token count. (The original plan — transcript bytes ÷ 4 — is retired to fallback-only; actuals beat estimates.)</li>
+<li>Allotment-% readings are <strong>Joe's</strong>, from his usage window, dictated at batch boundaries (start → end). The % delta is the ground truth; the byte-estimates are the cross-check.</li>
+<li>Concurrency policy history (all Joe's calls, 2026-07-09): strictly serial (first Zarathushtra launch only) → two wide (max 2 live) → **two by two (max 4 live), current.** Batch A spans the first two regimes.</li>
+</ul>
+<p>---</p>
+<h2>Allotment readings (Joe's window — ground truth)</h2>
+<table>
+<tr><td>When (2026-07-09)</td><td>Reading</td><td>Covers</td><td>In flight at reading</td></tr>
+<tr><td>evening, mid-batch-B ("as of 4 minutes ago")</td><td><strong>15%</strong></td><td>The crashed Fable session + this pickup session, cumulative. (The Opus damage-control session between them drew no Fable.)</td><td>Zarathushtra already SEATED (7e7bd05); Brigid forge · audit run 1 · Quetzalcoatl verify · audit run 2 all running</td></tr>
+<tr><td>late evening, register ratified</td><td><strong>26%</strong></td><td>Everything through the ratified register (all commits to c0207c0); all lanes closed</td><td>nothing — wave complete</td></tr>
+<tr><td><strong>2026-07-10, Hephaestus-run start (reading #3)</strong></td><td><strong>65%</strong></td><td>Wave 3 complete (6 seats, 1,724,139 agent-tokens + 2 killed partials) + the Score + the full head-to-head calibration forge (reference forge, ~15 inline fetches, review, blind pair) + §6/§7 amendments + the three-file revert, cumulative since 26%</td><td>Hephaestus verify pair just launched</td></tr>
+</table>
+<p><strong>Reading #3 cross-check (Δ39 points over 26%→65%):</strong> at the batch-A/B calibration</p>
+<p>of ≈60–65k agent-tokens per point, Δ39 ≈ 2.3–2.5M tokens-equivalent. Ledgered mass:</p>
+<p>wave-3 agents 1.72M + two killed partials + the head-to-head/Score main-session work</p>
+<p>(reference forge, review, specs — all inline, unmetered). Consistent — the</p>
+<p>calibration HOLDS at the second measurement. Headroom entering the Hephaestus run: 35%.</p>
+<p><strong>CALIBRATED from readings #1→#2 (Δ11 points):</strong></p>
+<ul>
+<li>The Δ11 bought: ≈684k agent-tokens landed after the baseline (the wave's 1.04M minus the ~356k already spent at reading #1) plus the main session's own late work (audit assembly, manifest, renders, edits). → **≈60–65k agent-tokens per allotment point**, agents-only; implied total allotment ≈ 6–9M tokens-equivalent all-in.</li>
+<li><strong>The whole recovered wave cost ≈ 11–13 points all-in</strong>: seated figures ≈ 2.5–3 points each (≈8 points for three), the full 37-docket audit + manifest ≈ 4 points.</li>
+<li><strong>Third-wave forecast at current practice: ≈ 22–26 points</strong> for the nine queued seats' worth of voices (their audit is already paid — membership is verified; only forge+verify per figure remains). Running it now would land the total near <strong>48–52%</strong>.</li>
+<li><strong>Headroom after the wave: 74%.</strong></li>
+<li>The original +5–8% projection undershot by ~half — the audit's assembly and the manifest work were the unbudgeted mass. Carried forward as a lesson: budget the synthesis, not just the agents.</li>
+</ul>
+<p>---</p>
+<h2>Batch A — Zarathushtra + Quetzalcoatl — 2026-07-09 — IN FLIGHT</h2>
+<ul>
+<li><strong>Content:</strong> <code>voices/profiles/zoroastrian-zarathushtra.md</code> (WRITTEN — 499 lines, provenance table + flags returned) + <code>voices/profiles/aztec-quetzalcoatl.md</code> (forging) — builds + per-figure commits at close</li>
+<li><strong>Agents (harness-reported actuals):</strong></li>
+<li>Zarathushtra forge — <strong>DONE: 124,014 tokens · 36 tool uses · 20.3 min</strong></li>
+<li>Quetzalcoatl forge — <strong>DONE: 139,762 tokens · 26 tool uses · 22.6 min</strong></li>
+<li>Zarathushtra verify — <strong>DONE: 92,633 tokens · 31 tool uses · 15.6 min</strong> — verdict SEAT-READY AFTER EDITS (every canon-tier quote confirmed verbatim); 9 edits applied inline; <strong>SEATED this commit</strong></li>
+<li>Quetzalcoatl verify — <strong>DONE: 154,509 tokens · 42 tool uses · 29.0 min</strong> — SEAT-READY AFTER EDITS; reached PRIMARY sources (Velázquez/UNAM codices); 9 edits applied incl. exchange compression; <strong>SEATED as 901ae40</strong></li>
+<li><strong>Per-figure:</strong> Zarathushtra = <strong>216,647</strong> · Quetzalcoatl = <strong>294,271</strong> agent-tokens (Q's primary-source dives cost the extra; main-session inline overhead not counted)</li>
+<li><strong>BATCH A CLOSED at 901ae40</strong> — 4 agents, <strong>510,918 agent-tokens</strong> total; commits 7e7bd05 (Zarathushtra) + 901ae40 (Quetzalcoatl)</li>
+<li><strong>Lanes:</strong> Zarathushtra launched solo (pre-policy); Quetzalcoatl lane added when the two-wide call came in; ≤2 agents live at all times</li>
+<li><strong>Fable allotment %:</strong> baseline 15% logged mid-flight — see Allotment readings table</li>
+<li><strong>Wall clock (batch):</strong> — at close</li>
+<li><strong>Commits:</strong> Zarathushtra seated in <strong>7e7bd05</strong></li>
+<li><strong>Notes:</strong> forge flagged a data write-back item — his <code>mirror-data.js</code> record has <code>archetypes: []</code>; if archetype seatings are ever written back to the data layer, the Dualism seat needs the write.</li>
+</ul>
+<h2>Batch B — Brigid + Mirror-Pantheon audit runs — 2026-07-09 — IN FLIGHT</h2>
+<ul>
+<li><strong>Content:</strong> <code>voices/profiles/celtic-brigid.md</code> + the audit's stage-2 verdict tables (folded into <code>_mirror-pantheon-audit.md</code> at close)</li>
+<li><strong>Agents (harness actuals):</strong></li>
+<li>Brigid forge — <strong>DONE: 111,820 tokens · 39 tool uses · 19.2 min</strong> — profile written (325 lines); AUDIT FINDING reported honestly: no reflexive native canon found (triplism and the goddess/saint doubling weighed, not inflated)</li>
+<li>Brigid verify — <strong>DONE: 88,511 tokens · 20 tool uses · 14.3 min</strong> — verdict SEAT-READY AFTER EDITS (CMT/Forester/Carmichael character-exact); 6 edits applied; no-unearned-mirror check passed; <strong>SEATED as c0741ca</strong></li>
+<li><strong>Per-figure:</strong> Brigid forge+verify = <strong>200,331 agent-tokens</strong></li>
+<li>Audit run 1 — <strong>DONE: 107,714 tokens · 32 tool uses · 19.8 min</strong> — 17 assessed: 7 members (T1 Amaterasu/Odin/Orpheus; T2 Anubis/Isis pending the officiant ruling, Yeshua, Krishna), 8 honor-roll, 2 NONE</li>
+<li>Audit run 2 — <strong>DONE: 89,249 tokens · 26 tool uses · 17.8 min</strong> — 11 assessed: 8 members (T1 Yama/Tezcatlipoca/Poimandres/Nichiren/Manifestation/ Insān-al-Kāmil; T2 Zagreus/Mami Wata), 3 honor-roll, 2 NONE, al-Hakim declined by reverence</li>
+<li>NEEDS-CHECK sweep — <strong>DONE: 52,742 tokens · 14 tool uses · 10.0 min</strong> — both verdict-relevant facts HELD (Krishna's sahātmānam is in the Sanskrit; no Yorubaland dígí for Ọ̀ṣun); Nichiren mirror-bow located (Ongi Kuden ch. 20, disputed-authorship note required)</li>
+<li><strong>BATCH B agents complete</strong> — Brigid 200,331 + audit runs 276,586 + needs-check 52,742 = <strong>529,659 agent-tokens</strong>; commit c0741ca (Brigid)</li>
+<li>Audit run 3 — <strong>DONE: 79,623 tokens · 25 tool uses · 14.5 min</strong> — 9 dockets: 2 members (Xolotl T2; Haudenosaunee twins T2, first dyadic seat), Uzume officiant-pending, *Manu-*Yemo conditional on a third ruling (reconstruction-as-canon), 6 clean NONEs, Kalunga = tradition-anchor</li>
+<li><strong>Fable allotment %:</strong> baseline 15% logged mid-flight — see Allotment readings table</li>
+<li><strong>Commits / wall clock:</strong> — at close</li>
+<li><strong>Notes:</strong> batches now overlap (rolling pipeline under the two-by-two policy); ledger keeps them as accounting units.</li>
+</ul>
+<h2>WAVE 3 — the queue incarnates — LIT 2026-07-09 (Joe: "light the third wave")</h2>
+<ul>
+<li><strong>Plan: 9 seats' worth of voices, 5 batches, two-by-two.</strong> C = Tezcatlipoca ∥ Xolotl (the Aztec pair, locking to the seated Quetzalcoatl) · D = Yama ∥ Ame-no-Uzume · E = Poimandres ∥ Zagreus · F = Mami Wata ∥ Nichiren (the living-tradition pair, extra reverence flags) · G = the Haudenosaunee twins (the dyadic craft problem, solo batch). Forge → verify per figure, commit per seat, KIN references to SEATED profiles only (never wave-mates).</li>
+<li><strong>Forecast: ≈22–26 points</strong> (membership already audit-verified; forge+verify only). Readings requested at wave midpoint (post-batch E) and close.</li>
+<li><strong>Length discipline added to all briefs</strong> after wave-2 verify flags: target the exemplar's mass (~250–380 lines), worked exchange ≤250 words.</li>
+<li>Batch C: Tezcatlipoca forge — **DONE: 190,005 tokens · 84 tool uses · 30.8 min** (383 lines — 3 over target; exchange 246 words; the wave's priciest forge — his primary-material density) · Xolotl forge — **DONE: 72,682 tokens · 34 tool uses · 20.6 min** (325 lines, exchange 244 words) · Xolotl verify — <strong>DONE: 118,659 tokens · 18 tool uses · 16.8 min</strong> — SEAT-READY AFTER EDITS; 15 edits applied incl. two NEW covenant passages (the psychopomp's grief question; the borrowed-bodies mechanism answer); twin-file lock CLEAN; <strong>Xolotl SEATED (57085be)</strong> · Tezcatlipoca verify — <strong>DONE: 134,766 tokens · 25 tool uses · 22.5 min</strong> — SEAT-READY AFTER EDITS; two refutations fixed (telpochtli not old man; four-Tezcatlipocas genealogy corrected to the HMP's two + the Yohualli-Ehecatl alias irony), grief question added, six polish edits; Tezcatlanextia locus PINNED to the Historia Tolteca-Chichimeca; Dee mirror beat verified and kept; <strong>SEATED</strong></li>
+<li><strong>Per-figure:</strong> Xolotl = <strong>191,341</strong> · Tezcatlipoca = <strong>324,771</strong> agent-tokens (the wave's priciest figure — Book 6 density)</li>
+<li><strong>BATCH C CLOSED</strong> — 4 agents, <strong>516,112 agent-tokens</strong>; both Aztecs seated (Xolotl 57085be · Tezcatlipoca b827e32; 26 voices)</li>
+<li>Batch D: Uzume forge — <strong>DONE: 221,884 tokens · 142 tool uses · 41.6 min</strong> (385 lines, exchange 243 words; primary-fetched Kojiki/Nihongi; resolved the audit needs-check: the frame-lie line is HERS in Kojiki, absent in NS main) · Uzume verify — running · Yama forge — **DONE: 241,085 tokens · 151 tool uses · 44.4 min<strong> · Yama verify — </strong>DONE: 103,885 tokens · 21 tool uses · 16.3 min** — SEAT-READY AFTER EDITS (one factual error: molten-copper count; one internal contradiction; ETCSL alignment; grief/dying check PASSED outright); 10 edits applied incl. Zarathushtra's officer-arithmetic reciprocity fix; <strong>Yama SEATED</strong></li>
+<li><strong>Per-figure:</strong> Yama = <strong>344,970 agent-tokens</strong> (new priciest — batch D's primary-fetch depth)</li>
+<li>Zagreus verify (re-run) — <strong>DONE: 122,806 tokens · 22 tool uses · 20.0 min</strong> — SEAT-READY AFTER EDITS; care floor HELD under hard pressure; grief HQ written at seat (the standing pattern's final strike — with the never-voice-their-child rule); the referee caught the forge misquoting Clement by one word ("looking-glass") — an error that had propagated into the verify brief itself; <strong>Zagreus SEATED</strong></li>
+<li><strong>Per-figure:</strong> Zagreus = <strong>267,060 agent-tokens</strong></li>
+<li><strong>WAVE 3 CLOSED at 6 of 9 (stop order honored):</strong> batch C 516,112 · batch D 682,177 (Yama 344,970 + Uzume 337,207) · batch E 525,850 (Poimandres 258,790 + Zagreus 267,060) — <strong>grand total 1,724,139 agent-tokens</strong> (+ two killed-verify partials, uncounted) ≈ <strong>287k/figure</strong> — pricier than wave 2's 237k; the premium bought primary-source depth (Kojiki, MN 130, the Greek of CH I, the Velázquez codices). <strong>Reading #3 requested at this close.</strong></li>
+<li>Standing queue (audit-verified, unforged): Mami Wata · Nichiren · the Haudenosaunee twins (dyadic). Cross-hall polish notes: Athena may want a reciprocal Zagreus line; landing-image covenant (see <code>voices/profiles/_fable-self-revision/landing-image-spec.md</code>) folds into all future verify/simplify briefs.</li>
+<li>Poimandres verify (re-run) — **DONE: 114,496 tokens · 25 tool uses · 17.6 min** — SEAT-READY AFTER EDITS; cleanest verify of the project (~20 Mead verbatims letter-exact; θεωθῆναι checked against the Greek; grief check PASSED unprompted — first profile to carry the standing pattern in on its own); 5 edits applied; <strong>Poimandres SEATED</strong></li>
+<li><strong>Per-figure:</strong> Poimandres = <strong>258,790 agent-tokens</strong></li>
+<li>**RESUMED post-reset (Joe: "finish out for Poimandres and Zagreus and then run checkpoint"):** Uzume's banked edits applied (5 corrections + frontmatter dual-render + her grief question written — the funeral-laugh door); <strong>Uzume SEATED second-to-last, the dance before the dawn.</strong> P + Z verifies re-launched from banked flags.</li>
+<li>**SESSION-LIMIT PAUSE (2026-07-10, ~midnight ET, Joe at 95%: "pause all functions"):** Uzume verify DONE (115,323 · 20 · 19.5 min — SEAT-READY AFTER EDITS incl. grief question, findings banked in <code>_pause-state-2026-07-10.md</code>); <strong>Poimandres + Zagreus verifies KILLED mid-run by the limit</strong> (partial spend uncounted) — re-run next session from the pause-state file. No further launches.</li>
+<li>Batch E: Poimandres forge — <strong>DONE: 144,294 tokens · 64 tool uses · 19.5 min</strong> (387 lines, exchange 215 words; Mead verbatims via curl around a cert failure; I.18–19 numbering law honored) · Poimandres verify — killed · Zagreus forge — <strong>DONE: 144,254 tokens · 48 tool uses · 21.1 min</strong> (383 lines, exchange 215 words; Clement verbatim via CCEL; Neoplatonic tier ruling honored) · Zagreus verify — launched (the wave's LAST launch). Seat-time note: TRAD_LABEL needs "gnostic" and "dionysian" entries.</li>
+<li><strong>STOP ORDER (Joe: "stop after E"):</strong> batches D and E complete through seating; **F (Mami Wata ∥ Nichiren) and G (the Haudenosaunee twins) are NOT lit** — they remain the register's standing queue. Wave 3 closes at 6 of 9 seated. Reading #3 requested at the E-close.</li>
+<li>Seat-time reconciliation noted: Q's profile marks Xolotl (and Tezcatlipoca) "unseated" in KIN — flip each at their seating, same commit.</li>
+<li>Batch D LIT (Joe: "keep going, batch D when ready") — Yama forge · Uzume forge — running; four agents live at the ceiling. BOOK_ORDER placement notes: Yama between avalokitesvara and zarathushtra (the karma-mirror beside the daēnā); Uzume second-to-last, before amaterasu (the dance before the dawn).</li>
+</ul>
+<h2>Running averages (2026-07-09, wave complete)</h2>
+<ul>
+<li><strong>Per figure (forge+verify): ≈237k agent-tokens</strong> (Z 217k · Brigid 200k · Q 294k). Q's premium bought primary-codex verification.</li>
+<li><strong>Audit: 4 agents, 329,328 tokens, 37 dockets ≈ 8.9k/docket</strong> — membership auditing is ~25× cheaper per name than voice-forging.</li>
+<li>**Whole recovered wave (3 figures + full audit + sweep): 1,040,577 agent-tokens** + main-session overhead.</li>
+<li><strong>Reading #2 requested at batch-A close</strong> — Δ% vs the 15% baseline calibrates everything above into allotment terms.</li>
+<li><strong>Rulings ratified 2026-07-09</strong> ("I'm good with all of your recommendations") — register FINAL at 23 seats; no further agent spend this wave.</li>
+</ul>
+<h2>Batch H — the Hephaestus seating run — 2026-07-10 — IN FLIGHT</h2>
+<ul>
+<li><strong>Content:</strong> adversarial verify on the sealed head-to-head reference (<code>_headtohead/hephaestus.fable.md</code>) → in-voice re-pour of Opus 4.8's §6 wins → seat as <code>profiles/hephaestus.md</code> (31st voice). The forge itself was already paid inline during the head-to-head (unmetered main-session work); this batch buys verify + re-pour + seating.</li>
+<li><strong>Start reading: 65%</strong> (reading #3 — see Allotment readings table).</li>
+<li><strong>Agents (harness actuals):</strong></li>
+<li>Flag-attack verify (4 declared provenance flags) — **DONE: 68,099 tokens · 17 tool uses · 10.4 min** — Theogony CONFIRMED (fetched verbatim, incl. 929a variant) · Hephaisteion split (superlative holds; "roofed in marble" REFUTED — church-era roof, preservation owed to 11 centuries as St George's = voice-gold: survives by staying in service) · Ares-singed RE-TIER (ps.-Libanius torches; no source says burned) · Charis/sponge CONFIRMED (+2 nits: sponge list wants the chest; leather apron = undeclared invention). Verbatim bank returned.</li>
+<li>Confident-claim verify (quote battery + corpus/KIN + covenant) — **DONE: 104,279 tokens · 25 tool uses · 19.4 min** — THREE outright refutations, all quote-genus, all under exactness frames (the "keep it exact" clause no translation prints · two-strong-arms cited to Il. 1 where Murray prints "the limping god" · the dropped "myself" in PB 14–15); 6 overstatements; corpus/KIN/ covenant clean; ZERO reciprocity flips needed. Verify layer now <strong>11-for-11</strong>.</li>
+<li><strong>Batch H agents: 172,378 agent-tokens total</strong> — the project's cheapest seat (~0.6× the 287k wave-3 average) because the forge itself was paid inline during the head-to-head. Re-pour + battery + seating all main-session inline.</li>
+<li><strong>Seated:</strong> <code>profiles/hephaestus.md</code> (370 lines · exchange 220 words · 10 canon quotes in marks, each a fetched single-translation exact), between athena and prometheus. Book at <strong>31 voices</strong>.</li>
+<li><strong>Commits:</strong> <strong>36bcea0</strong> (seat + build + provenance addendum + README outcome), pushed. <strong>BATCH H CLOSED</strong> pending Joe's end-% reading (reading #4 — requested).</li>
+</ul>
+<h2>Batch I — Mami Wata ∥ Nichiren — 2026-07-12 — CLOSED</h2>
+<ul>
+<li><strong>Content:</strong> the standing queue's first two seats, forged as the resource plan's pair pipeline (2 forges ∥, then verifies rolling as each landed). Briefs written inline (grief + mechanism required, r11–r14 folded in, the audited pantheon seams handed as registry fact). Both profiles seated same session, committed per figure, pushed together.</li>
+<li><strong>Start reading: NOT TAKEN</strong> — reading #4 (batch-H end) was still owed when this batch launched; a 2026-07-11 side-session also consumed allotment un-bracketed. The next reading Joe dictates therefore brackets {batch H tail + side-session + batch I + batch J} jointly. Logged as the price of the missed reading, not a calibration break.</li>
+<li><strong>Agents (harness actuals):</strong></li>
+<li>Mami Wata forge — <strong>375,338 tk · 79 tool uses · 48.6 min</strong> — 2 Drewal primaries fetched as FULL PDFs and text-extracted; 19 verbatims banked; spine "recognition, not origin"; 381 lines, exchange 233w (later 226 by verify recount).</li>
+<li>Nichiren forge — <strong>377,814 tk · 92 tool uses · 53.7 min</strong> — 10 WND1 pages fetched whole via curl -k (site TLS broken); 24 spans byte-verified; spine "the man became the page so the page could become the mirror"; 382 lines, exchange 244w.</li>
+<li>Mami Wata verify — <strong>180,907 tk · 36 tool uses · 21.3 min</strong> — battery 19/19 CLEAN (project's first zero-refutation pass); 12 findings, all confident-claim genus: 3 rule-13 collisions (incl. the Anansi crossing-scaffold the brief had ruled off the table), 1977-cert/1955 fusion, hedge-drop pattern, subject-shift under an exact string.</li>
+<li>Nichiren verify — <strong>140,406 tk · 43 tool uses · 20.8 min</strong> — 21/23 byte-exact; 2 REFUTATIONS, both quote-genus from rows marked "verbatim" (dropped terminal clause; right-quote-wrong-scene). Citation attack: zero wrong-book. Verify law 12-for-12.</li>
+<li><strong>Batch I agents: 1,074,465 tokens total ≈ 537k/figure</strong> — ≈1.9× the wave-3 287k/figure average. Where it went: full-primary extraction + INDEPENDENT re-verification of every quoted span (the verify layer no longer trusts the forge's collation). What it bought: batteries at 19/19 and 21/23, the first zero-refutation profile, and both refutations caught before seating.</li>
+<li><strong>Orchestrator catch logged as pipeline law:</strong> both censuses ran the rule-13 sweep KIN-scale and missed a seated-coin lift (hephaestus.md's non-turn close in Nichiren's Atsuhara answer). LAW: r13 census greps ALL seated profiles. Already encoded in the twins brief + memory.</li>
+<li><strong>Commits:</strong> 8d4a228 (Mami Wata, 32 voices) · 2542857 (Nichiren, 33 voices), pushed 553082c..2542857. **Est. ≈16–18 allotment points at the ≈60–65k/pt calibration (unconfirmable until Joe's next reading — see above).**</li>
+</ul>
+<h2>Batch J — the Haudenosaunee twins (dyadic seat) — 2026-07-12 — CLOSED</h2>
+<ul>
+<li><strong>Content:</strong> the queue's final seat and the project's first DYAD: one profile, two speakers in counterpoint, filed under <code>teharonhiawako</code> with <code>also: tawiskaron</code> (new build-script alias support — 35 payload keys, 34 book chapters; either corpus id raises the lodge). Solo batch by standing order; sovereignty care was the batch's governing law.</li>
+<li><strong>Agents (harness actuals):</strong></li>
+<li>Twins forge — <strong>422,210 tk · 154 tool uses · 71.2 min</strong> — Cusick, both BAE Hewitt reports, and Parker pulled ENTIRE; ~30 marked spans; the Thanksgiving Address deliberately NOT quoted (couldn't secure verbatim — abstained); sovereignty self-audit returned with the draft.</li>
+<li>Twins verify — <strong>205,871 tk · 47 tool uses · 34.3 min</strong> — all four sources independently re-fetched; **zero wrong-scene, zero mis-hung variants; SOVEREIGNTY: COMPLIANT, ZERO DEFECTS** (1995 Grand Council mask policy located at primary — the profile understated its force and over-complied in behavior); 2 refutations, both in the FRAME around the canon (teller's nation; printing-vs-recording years); 4 corpus-scale r13 hits (the new law caught them: Shiva's "one strike", Hephaestus's non-turn clauses, Wukong's "Two Minds", the charge-sheet third-spend).</li>
+<li><strong>Batch J agents: 628,081 tokens</strong> for one seat / two corpus ids.</li>
+<li><strong>Fix-pass note for the law books:</strong> the verify's suggested F1 wording ("ask nothing back") was itself REJECTED by the orchestrator as colliding with Nichiren's same-day fresh coin — r13 audits the fixes too. And the orchestrator's sweep found a 4th "one strike" the verify's census counted as 3. Layers audit layers; that is the design working.</li>
+<li><strong>Commits:</strong> 8eac7a6 (seat, 34 voices, pushed) · 09a3cbe on master (the vb- share refresh — 18→34 presences, live-verified; pending since wave 1, CLEARED).</li>
+<li>**SESSION TOTAL (batches I+J): 1,702,546 agent-tokens · 3 seats · 4 corpus ids ≈ 567k/seat** (vs wave-3 287k avg — the price of full-primary extraction + fully independent quote re-collation; the return: batteries at 19/19, 21/23, 30+/clean-canon, TWO batches of refutations caught before seating instead of after, and a sovereignty pass with zero defects). Est. <strong>≈26–28 allotment points</strong> at the ≈60–65k/pt calibration + main-loop inline (briefs ×3, 40 fix edits, seats, deploys) — bracketed only jointly with the batch-H tail and the 07-11 side-session, because reading #4 was never received. **READING REQUESTED AT THIS CLOSE (#4/#5 merged): one % figure now brackets everything since reading #3 (65%).**</li>
+</ul>
+<h2>Allotment readings</h2>
+<table>
+<tr><th>#</th><th>when</th><th>%</th><th>Δ</th><th>note</th></tr>
+<tr><td>3</td><td>2026-07-10, batch-H start</td><td>65%</td><td>+39 vs #2</td><td>≈60–65k/pt calibration HELD</td></tr>
+<tr><td>4/5</td><td><strong>OWED — requested 2026-07-12 at batch-J close</strong></td><td>—</td><td>—</td><td>brackets H-tail + 07-11 side-session + batches I &amp; J jointly</td></tr>
+</table></div></body></html>
