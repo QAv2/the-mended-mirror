@@ -61,7 +61,7 @@ BOOK_ORDER = [
     "christianity-christ", "zeus", "greek-hestia", "greek-poseidon", "athena",
     "hephaestus", "prometheus",
     "buddhist-sakyamuni", "vaishnava-krishna", "shiva", "buddhist-avalokitesvara",
-    "buddhist-yama",
+    "buddhist-yama", "soka-gakkai-nichiren",
     "zoroastrian-zarathushtra",
     "norse-odin", "thor", "loki", "celtic-brigid", "chinese-folk-sun-wukong",
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
@@ -78,7 +78,7 @@ TRAD_LABEL = {
     "chinese-folk": "Chinese Folk", "chinese": "Chinese / Daoist",
     "zoroastrian": "Zoroastrian", "aztec": "Aztec / Nahua", "celtic": "Celtic / Irish",
     "gnostic": "Gnostic / Hermetica", "dionysian": "Orphic–Dionysian",
-    "ewe-ga": "Ewe & Ga",
+    "ewe-ga": "Ewe & Ga", "soka-gakkai": "Soka Gakkai / Nichiren Buddhism",
 }
 
 
