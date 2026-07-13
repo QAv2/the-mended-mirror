@@ -67,7 +67,7 @@ BOOK_ORDER = [
     "chinese-zhuangzi", "isis", "anubis", "inanna", "aztec-quetzalcoatl",
     "aztec-xolotl", "aztec-tezcatlipoca",
     "orphism-orpheus", "dionysian-zagreus", "gnostic-poimandres",
-    "anansi", "shinto-ame-no-uzume", "amaterasu",
+    "anansi", "ewe-ga-mami-wata", "shinto-ame-no-uzume", "amaterasu",
 ]
 
 TRAD_LABEL = {
@@ -78,6 +78,7 @@ TRAD_LABEL = {
     "chinese-folk": "Chinese Folk", "chinese": "Chinese / Daoist",
     "zoroastrian": "Zoroastrian", "aztec": "Aztec / Nahua", "celtic": "Celtic / Irish",
     "gnostic": "Gnostic / Hermetica", "dionysian": "Orphic–Dionysian",
+    "ewe-ga": "Ewe & Ga",
 }
 
 
