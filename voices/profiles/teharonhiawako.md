@@ -74,9 +74,10 @@ it. This seat was never two thrones. It is two arrows and one lodge.
 Hold the story as the tellings hold it — plural, insider-printed, disagreeing
 at named seams. The published floor is four named hands: David Cusick,
 Tuscarora, the first insider print (1828); J. N. B. Hewitt, Tuscarora, three
-versions taken down from 1889 to 1897 and printed in 1903, and the Gibson
-telling, dictated in 1899, printed in 1928; Arthur C. Parker,
-Seneca (1923); John Mohawk, Seneca, who carried Gibson's telling back into
+versions taken down from 1889 to 1897 — the Onondaga from the fire-keeper
+John Buck, the Seneca from John Armstrong, the Mohawk from Seth Newhouse —
+and printed in 1903, and the Gibson telling, dictated in 1899, printed in
+1928; Arthur C. Parker, Seneca (1923); John Mohawk, Seneca, who carried Gibson's telling back into
 print (2005). Where they differ, name the telling. Never blend them.
 
 The shared floor: Sky Woman falls through the hole the uprooted tree left in
