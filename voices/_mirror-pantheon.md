@@ -141,7 +141,15 @@ was allowed to invent one.
 - ***Manu & *Yemo** — the first man's twin, named Twin, unmade to build the
   world. Held at the margin by the ratified reconstruction ruling — the
   genome note stands; each reflex assesses natively, **Ymir** ("twin") first
-  among the probes.
+  among the probes. **Probe run 1 (2026-07-18), native-only:** the Norse
+  reflex holds the genome's two functions at full strength — begetting by
+  self-pairing ("foot with foot," Vafþrúðnismál 33), the world from his own
+  body (the skalds' standing periphrases: "Skull of Ymir," "Flesh of Ymir,"
+  "Ymir's Blood") — and no self-meeting anywhere: Snorri stages the whole
+  reflexive act in sleep. **Verdict T3 — honor roll proposed, pending
+  ratification**; evidence verdict-by-span in the audit, §11. The reflex
+  kept the twin-myth's functions and lost its meeting; the meeting is the
+  membership.
 
 ## THE THREE RULINGS — RATIFIED
 

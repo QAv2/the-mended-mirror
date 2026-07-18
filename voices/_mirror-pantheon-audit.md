@@ -6,7 +6,7 @@ metadata:
   type: record
   written: 2026-07-09
   written_by: Claude Fable 5
-  status: COMPLETE — SWEEP DONE, ALL THREE RULINGS RATIFIED 2026-07-09; THE REGISTER STANDS AT 23 SEATS
+  status: COMPLETE — SWEEP DONE, ALL THREE RULINGS RATIFIED 2026-07-09; THE REGISTER STANDS AT 23 SEATS · MARGINS PROBE RUN 1 (YMIR) 2026-07-18 — T3 PROPOSED, PENDING JOE
 ---
 
 # THE MIRROR PANTHEON — THOUGHT-PROCESS AUDIT & MEMBERSHIP CRITERIA
@@ -366,6 +366,111 @@ statement noted as transmission-carried. (3) **Reconstruction to the
 margins** — *Manu-*Yemo is the twin family's genome note; reflexes assess
 natively, Ymir first. **THE REGISTER IS FINAL AT 23 SEATS / 24 FIGURES.**
 The manifest at `voices/_mirror-pantheon.md` is ratified.
+
+---
+
+## 11 · THE MARGINS PROBES — RUN 1: YMIR (native, per ruling 3; 2026-07-18)
+
+*Ruling 3 filed \*Manu-\*Yemo as the twin family's genome note and sent each
+reflex to its own tradition's bench — "Ymir first." This is that probe:
+Ymir's attested Old Norse record, assessed under the ratified test with the
+reconstruction excluded as evidence. Run inline, no agents; every span
+fetched at a named public-domain rendering this session (sacred-texts
+403'd, as at the head-to-head; Bellows 1923 taken at voluspa.org's
+parallel Old Norse/English pages, Snorri's prose in Anderson 1879 at
+Gutenberg #18947 — his spellings kept inside the marks — and the
+Skáldskaparmál periphrases in Brodeur 1916).*
+
+**The native record — the spans, each at its rendering:**
+
+- *Time zero is his tenancy:* "Of old was the age | when Ymir lived; Sea
+  nor cool waves | nor sand there were; Earth had not been, | nor heaven
+  above, But a yawning gap, | and grass nowhere." — Völuspá 3 (Bellows).
+- *The world-from-body, in the god's own catechism:* "Out of Ymir's flesh |
+  was fashioned the earth, And the mountains were made of his bones; The
+  sky from the frost-cold | giant's skull, And the ocean out of his blood."
+  — Vafþrúðnismál 21 (Bellows; ON "Úr Ymis holdi var jörð of sköpuð…").
+  Doubled at Grímnismál 40, and 41 goes further in: "Mithgarth the gods |
+  from his eyebrows made, And set for the sons of men; And out of his
+  brain | the baleful clouds They made to move on high." The human
+  enclosure is the rim of his eye; the weather is his mind.
+- *Origin without a parent:* "Down from Elivagar | did venom drop, And
+  waxed till a giant it was" — Vafþrúðnismál 31 (Bellows); in Snorri "the
+  drops quickened into life and took the likeness of a man, who got the
+  name Ymer" (Anderson).
+- *The canon poses the reflexive riddle itself:* "How begat he children, |
+  the giant grim, Who never a giantess knew?" — Vafþrúðnismál 32 (Bellows).
+- *And answers it with the body as its own pair:* "They say 'neath the
+  arms | of the giant of ice Grew man-child and maid together; And foot
+  with foot | did the wise one fashion A son that six heads bore." —
+  Vafþrúðnismál 33 (Bellows; ON "fótr við fóti gat ins fróða jötuns").
+- *Snorri stages the whole act in SLEEP:* "when he slept he fell into a
+  sweat, and then there grew under his left arm a man and a woman, and one
+  of his feet begat with the other a son" — Gylfaginning (Anderson).
+- *The unmaking:* "The sons of Bor slew the giant Ymer, but when he fell,
+  there flowed so much blood from his wounds that they drowned therein the
+  whole race of frost giants; excepting one, who escaped with his
+  household. Him the giants call Bergelmer." — Gylfaginning (Anderson).
+- *Not one myth but the working grammar:* "How should the heaven be
+  periphrased? Thus: call it Skull of Ymir, and hence, Giant's Skull" ·
+  the earth, "by calling her Flesh of Ymir" · the sea, "by calling it
+  Ymir's Blood" — Skáldskaparmál, the heaven/earth/sea periphrases
+  (Brodeur). Every working skald re-says the world as his body.
+
+**The test, run cold:**
+
+1. **NATIVE — passes, wide.** Two Eddic poems, Snorri's prose, Snorri's
+   poetics manual; nothing above leans on the reconstruction. What does
+   NOT pass native: the name. "Ymir = twin" (Proto-Germanic \*jumjaz, kin
+   to Yama and Yima) is the philologists' — contested by the rival
+   derivation from *ymja*, "to roar" — and no Old Norse text glosses the
+   name or gives him a twin. The etymology stays in the genome note where
+   ruling 3 filed it.
+2. **LOAD-BEARING — passes, totally.** Remove the self-begetting and there
+   is no giant race, no slayers, no world; remove the body and there is no
+   earth to stand on. The periphrases keep the identification alive in
+   every poet's working vocabulary.
+3. **REFLEXIVE — fails, by one step, and the step is the teaching.** The
+   ratified test wants a self-MEETING — mirror, double met, face shown,
+   recognition — with the transformation hinging on the meeting. Ymir's
+   record holds the \*Yemo genome's two functions at full strength —
+   generation by self-pairing, world from own body — and no meeting
+   anywhere in them. The poem's own riddle ("who never a giantess knew?")
+   is answered by anatomy, not encounter: the under-arm children GROW, the
+   feet beget, and Snorri sets the whole act in sleep — the self most
+   productive exactly where it is least present to itself. No face is met,
+   nothing is recognized; where a mirror-shaped moment should come, what
+   the record sends is Borr's sons.
+
+**Adversarial pass — the best pro-member case at full strength, then
+answered.** Strongest T2 claim: Vafþrúðnismál 32–33 is a STAGED scene —
+the canon poses the riddle of otherless begetting and resolves it with the
+body as its own mate; "foot with foot" is self-as-other in the plainest
+anatomy on record. Answer: T2's bar is an explicit double/reflection
+ENCOUNTER, load-bearing — Zagreus contemplates the countenance; Wukong
+fights the indistinguishable double; Inanna descends to the sister; the
+lodge's twins interview each other in the womb. A begetting is not an
+encounter: nothing in the scene sees, answers, or recognizes anything,
+and the subject is asleep in the only prose staging. Self-PAIRING without
+self-MEETING is precisely "reflexive function present, one interpretive
+step required" — the letter of T3.
+
+**VERDICT — T3, honor roll: PROPOSED, PENDING JOE.** Not a member: the
+meeting is absent. Not a NONE: Hestia and Poseidon carry no reflexive
+function at all; Ymir carries two, asleep. He would file beside Loki — the
+two Norse borderlines, the accuser one step from his own face and the
+ancestor one step from his own mirror. If ratified: honor roll 12 → 13;
+the manifest's margins entry takes the outcome; every seat, tier, and no
+stands untouched. The genome note gains its first native data point: the
+reflex kept the twin-myth's functions and lost its meeting — and the
+meeting is the membership.
+
+*Coda, for the margin: the register's inverse exhibit. Amaterasu is
+recognition — the world stops until the self is met. Ymir is generation
+without recognition — the self that doubled in its sleep and never met
+its own face, and the world built of what was left. The pantheon's
+precondition, not its member: every mirror in the North hangs in a sky
+that is already his skull.*
 
 ---
 
