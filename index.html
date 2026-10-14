@@ -48,6 +48,11 @@
 
      The rule on the floor and the meridian on the wall are the same hand.
 
+     Every local script and stylesheet carries ?v=<deploy date>: GitHub
+     Pages' CDN caches each file for 10 minutes on its own, and a fresh
+     page with a stale module would boot a mismatched hall. Bump the stamp
+     (all of them, one find-and-replace) whenever a module changes.
+
      Everything is vendored (Three.js r147 UMD + fonts), no build step. Boot
      loads the LITE core (data/mirror-core.js); figure prose, dossiers and
      source links fetch per tradition from data/t/ as reliquaries open — so
@@ -57,7 +62,13 @@
      node build-dossiers.js && node design/build-split.js
      ============================================================================ -->
 
-<link rel="stylesheet" href="hall.css">
+<!-- the faces the splash and the canvas labels wait on, fetched with the page
+     (not discovered three hops down: html → hall.css → fonts.css → woff2) -->
+<link rel="preload" href="fonts/marcellus-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/spectral-300i.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/spectral-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css?v=20261013">
+<link rel="stylesheet" href="hall.css?v=20261013">
 
 <!-- ?diag=1 — boot diagnostics overlay (inert without the param). Catches errors
      earlier scripts throw, resource-load failures, WebGL context loss, and shows
@@ -194,27 +205,27 @@
 <aside id="reliquary"></aside>
 
 <!-- vendored: works from file://, offline -->
-<script src="vendor/three.min.js"></script>
+<script src="vendor/three.min.js?v=20261013"></script>
 <script>DIAG.mark("three.js loaded r" + (window.THREE ? THREE.REVISION : "?!"))</script>
-<script src="vendor/GLTFLoader.js"></script>
-<script src="data/mirror-core.js"></script>
+<script src="vendor/GLTFLoader.js?v=20261013"></script>
+<script src="data/mirror-core.js?v=20261013"></script>
 <script>DIAG.mark("core parsed — " + (window.MIRROR_DATA ? Object.keys(MIRROR_DATA.traditions).length + " traditions, " + MIRROR_DATA.figures.length + " figures (lite v" + (MIRROR_DATA.__v || "?") + ")" : "MISSING"))</script>
-<script src="js/hall/hall-chunks.js"></script>
+<script src="js/hall/hall-chunks.js?v=20261013"></script>
 <script>DIAG.mark("chunk loader ready — prose fetches per tradition from data/t/")</script>
-<script src="js/hall/hall-data.js"></script>
-<script src="js/hall/hall-scene.js"></script>
-<script src="js/hall/hall-mater.js"></script>
-<script src="js/hall/hall-figures.js"></script>
-<script src="js/hall/hall-scroll.js"></script>
-<script src="js/hall/hall-rotunda.js"></script>
-<script src="js/hall/hall-room.js"></script>
-<script src="js/hall/hall-threshold.js"></script>
-<script src="js/hall/hall-doors.js"></script>
-<script src="js/hall/hall-exterior.js"></script>
-<script src="js/hall/hall-approach.js"></script>
-<script src="js/hall/hall-ui.js"></script>
+<script src="js/hall/hall-data.js?v=20261013"></script>
+<script src="js/hall/hall-scene.js?v=20261013"></script>
+<script src="js/hall/hall-mater.js?v=20261013"></script>
+<script src="js/hall/hall-figures.js?v=20261013"></script>
+<script src="js/hall/hall-scroll.js?v=20261013"></script>
+<script src="js/hall/hall-rotunda.js?v=20261013"></script>
+<script src="js/hall/hall-room.js?v=20261013"></script>
+<script src="js/hall/hall-threshold.js?v=20261013"></script>
+<script src="js/hall/hall-doors.js?v=20261013"></script>
+<script src="js/hall/hall-exterior.js?v=20261013"></script>
+<script src="js/hall/hall-approach.js?v=20261013"></script>
+<script src="js/hall/hall-ui.js?v=20261013"></script>
 <script>DIAG.mark("all hall modules loaded")</script>
-<script src="js/hall/hall-main.js"></script>
+<script src="js/hall/hall-main.js?v=20261013"></script>
 <script>DIAG.mark("hall-main executed — scene building")</script>
 </body>
 </html>

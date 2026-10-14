@@ -46,6 +46,45 @@
   HALL.texSize = (base, floor) => Math.max(floor || 256, Math.round(base * q().tex));
   HALL.segN = (base, floor) => Math.max(floor || 8, Math.round(base * q().segs));
 
+  /* ---------- the GPU's first-use bill, paid behind the splash ----------
+     WebGL charges an object on the first frame it is DRAWN: its shader
+     compiles, its textures and buffers upload. Anything first drawn
+     mid-flight (the plinth rising, a room corner turning into view) stalls
+     that frame. HALL.warm(H) settles the bill up front: one frame with every
+     object drawn — visibility and frustum culling lifted — scissored to a
+     single pixel so the GPU fills nothing. The splash covers it.
+     Assets that arrive by network (GLBs, the door design) register with
+     HALL.track() so the boot can wait for them (bounded), and mount through
+     HALL.mount() so a late arrival never lands inside a flight. */
+  HALL.pending = [];
+  HALL.track = function () {
+    let done;
+    HALL.pending.push(new Promise(r => { done = r; }));
+    return done;
+  };
+  HALL.mount = function (H, fn) {
+    if (!H.__warmed) { fn(); return; }        // the boot's warm pass will cover it
+    (function go() {
+      if ((H.approach && H.approach.playing) || (H.rig && H.rig.locked)) { setTimeout(go, 300); return; }
+      fn();
+      HALL.warm(H);
+    })();
+  };
+  HALL.warm = function (H) {
+    const r = H.renderer, lifted = [];
+    H.scene.traverse(o => {
+      if (!o.visible) { lifted.push([o, "visible", false]); o.visible = true; }
+      if (o.frustumCulled) { lifted.push([o, "frustumCulled", true]); o.frustumCulled = false; }
+    });
+    r.setScissorTest(true);
+    r.setScissor(0, 0, 1, 1);
+    try { r.render(H.scene, H.camera); }
+    finally {
+      r.setScissorTest(false);
+      for (const [o, k, v] of lifted) o[k] = v;
+    }
+  };
+
   /* ---------- procedural stone / sealed-concrete surfaces ----------
      Canvas-built (self-contained, zero asset weight): cloudy mottling from
      blurred value-noise octaves + aggregate speckle, paired with matching bump
