@@ -134,10 +134,16 @@
     astroGrab.userData = astro.userData;
     astro.add(astroGrab);
 
-    // a small warm case-light over the plinth top so the relics read
+    // a small warm case-light over the plinth top so the relics read.
+    // It lives in the SCENE, not the group: the group hides while the plinth
+    // is sunk, and a light that leaves the render list changes the light
+    // count — every lit shader in view recompiles that frame (the hitch the
+    // approach had at the rise). tick() carries it with the group instead;
+    // its intensity is already 0 whenever the group is hidden.
+    const CASE_AT = new THREE.Vector3(0.3, 2.0, 1.7);
     const caseLight = new THREE.PointLight(0xffe0a6, 1.0, 5.5, 2.0);
-    caseLight.position.set(0.3, 2.0, 1.7);
-    group.add(caseLight);
+    caseLight.position.copy(CASE_AT).add(group.position);
+    H.scene.add(caseLight);
 
     /* >>> MOUNT-HOOK · assets/astrolabe.glb <<<
        Drop the Meshy model there; it replaces the procedural relic, normalized
@@ -145,56 +151,60 @@
        reflections to live, so the model gets its own environment map — scoped
        to the relic only; the hall's obsidian register stays untouched. */
     if (root.THREE && THREE.GLTFLoader && HALL.Q.glb) {
+      const landed = HALL.track();
       try {
         new THREE.GLTFLoader().load("assets/astrolabe.glb", gltf => {
-          const model = gltf.scene;
-          const box = new THREE.Box3().setFromObject(model);
-          const size = box.getSize(new THREE.Vector3());
-          const scale = 0.62 / Math.max(size.x, size.y, size.z);
-          model.scale.setScalar(scale);
-          box.setFromObject(model);
-          const center = box.getCenter(new THREE.Vector3());
-          model.position.sub(center);
-          model.position.y += (box.max.y - box.min.y) / 2 + 0.02;
-          // tiny procedural equirect environment: obsidian below, a warm gold
-          // key above, a cool silver counter — just enough sky for brass to live
-          const EW = 128, EH = 64;
-          const px = new Uint8Array(EW * EH * 4);
-          for (let y = 0; y < EH; y++) {
-            for (let x = 0; x < EW; x++) {
-              const v = y / (EH - 1);                       // 0 top … 1 bottom
-              const u = x / EW;
-              let r = 8, g = 9, b = 13;                     // the void
-              const sky = Math.max(0, 1 - v * 1.9);
-              r += sky * 26; g += sky * 30; b += sky * 44;  // cool high sheen
-              const dGold = Math.min(Math.abs(u - 0.22), 1 - Math.abs(u - 0.22));
-              const gold = Math.exp(-((dGold * 6.5) ** 2)) * Math.exp(-(((v - 0.18) * 3.4) ** 2));
-              r += gold * 235; g += gold * 180; b += gold * 90;
-              const dCool = Math.min(Math.abs(u - 0.74), 1 - Math.abs(u - 0.74));
-              const cool = Math.exp(-((dCool * 7.5) ** 2)) * Math.exp(-(((v - 0.30) * 3.8) ** 2));
-              r += cool * 70; g += cool * 90; b += cool * 130;
-              const i = (y * EW + x) * 4;
-              px[i] = Math.min(255, r); px[i + 1] = Math.min(255, g);
-              px[i + 2] = Math.min(255, b); px[i + 3] = 255;
+          HALL.mount(H, () => {
+            const model = gltf.scene;
+            const box = new THREE.Box3().setFromObject(model);
+            const size = box.getSize(new THREE.Vector3());
+            const scale = 0.62 / Math.max(size.x, size.y, size.z);
+            model.scale.setScalar(scale);
+            box.setFromObject(model);
+            const center = box.getCenter(new THREE.Vector3());
+            model.position.sub(center);
+            model.position.y += (box.max.y - box.min.y) / 2 + 0.02;
+            // tiny procedural equirect environment: obsidian below, a warm gold
+            // key above, a cool silver counter — just enough sky for brass to live
+            const EW = 128, EH = 64;
+            const px = new Uint8Array(EW * EH * 4);
+            for (let y = 0; y < EH; y++) {
+              for (let x = 0; x < EW; x++) {
+                const v = y / (EH - 1);                       // 0 top … 1 bottom
+                const u = x / EW;
+                let r = 8, g = 9, b = 13;                     // the void
+                const sky = Math.max(0, 1 - v * 1.9);
+                r += sky * 26; g += sky * 30; b += sky * 44;  // cool high sheen
+                const dGold = Math.min(Math.abs(u - 0.22), 1 - Math.abs(u - 0.22));
+                const gold = Math.exp(-((dGold * 6.5) ** 2)) * Math.exp(-(((v - 0.18) * 3.4) ** 2));
+                r += gold * 235; g += gold * 180; b += gold * 90;
+                const dCool = Math.min(Math.abs(u - 0.74), 1 - Math.abs(u - 0.74));
+                const cool = Math.exp(-((dCool * 7.5) ** 2)) * Math.exp(-(((v - 0.30) * 3.8) ** 2));
+                r += cool * 70; g += cool * 90; b += cool * 130;
+                const i = (y * EW + x) * 4;
+                px[i] = Math.min(255, r); px[i + 1] = Math.min(255, g);
+                px[i + 2] = Math.min(255, b); px[i + 3] = 255;
+              }
             }
-          }
-          const envTex = new THREE.DataTexture(px, EW, EH, THREE.RGBAFormat);
-          envTex.mapping = THREE.EquirectangularReflectionMapping;
-          envTex.magFilter = THREE.LinearFilter;
-          envTex.minFilter = THREE.LinearFilter;
-          envTex.needsUpdate = true;
-          model.traverse(o => {
-            if (o.isMesh && o.material && o.material.isMeshStandardMaterial) {
-              o.material.envMap = envTex;
-              o.material.envMapIntensity = 0.85;
-              if (o.material.metalness > 0.85) o.material.metalness = 0.85;
-              o.material.needsUpdate = true;
-            }
+            const envTex = new THREE.DataTexture(px, EW, EH, THREE.RGBAFormat);
+            envTex.mapping = THREE.EquirectangularReflectionMapping;
+            envTex.magFilter = THREE.LinearFilter;
+            envTex.minFilter = THREE.LinearFilter;
+            envTex.needsUpdate = true;
+            model.traverse(o => {
+              if (o.isMesh && o.material && o.material.isMeshStandardMaterial) {
+                o.material.envMap = envTex;
+                o.material.envMapIntensity = 0.85;
+                if (o.material.metalness > 0.85) o.material.metalness = 0.85;
+                o.material.needsUpdate = true;
+              }
+            });
+            proc.visible = false;
+            astro.add(model);
           });
-          proc.visible = false;
-          astro.add(model);
-        }, undefined, () => { /* keep the procedural relic */ });
-      } catch (e) { /* file:// XHR refusal — the procedural relic stands in */ }
+          landed();
+        }, undefined, () => { landed(); /* keep the procedural relic */ });
+      } catch (e) { landed(); /* file:// XHR refusal — the procedural relic stands in */ }
     }
 
     /* ---------- the intro: the plinth waits beneath the floor, then rises ----------
@@ -228,7 +238,7 @@
         const e = 1 - Math.pow(1 - k, 3);            // stone settles; it does not bounce
         group.position.y = lidY() - SUNK * (1 - e);
         const op = Math.min(1, k * 2.6);
-        eachFade(m => { m.opacity = m.userData._baseOp * op; });
+        eachFade(m => { m.transparent = true; m.opacity = m.userData._baseOp * op; });   // a relic mounted after setSunk fades in with the rest
         caseLight.intensity = 1.0 * k;
       }, x => x, () => { setRisen(); if (done) done(); });
     }
@@ -237,7 +247,10 @@
       group, astro, scroll, rete, caseLight,
       pickables: [astroGrab, scrollGrab],
       setSunk, setRisen, rise,
-      tick(dt) { rete.rotation.y += dt * 0.25; },
+      tick(dt) {
+        rete.rotation.y += dt * 0.25;
+        caseLight.position.copy(CASE_AT).add(group.position);
+      },
     };
   };
 })(typeof window !== "undefined" ? window : globalThis);

@@ -59,9 +59,13 @@
        FIGURE POINTS
        ========================================================================= */
     const N = D.figures.length;
-    const stateW = 2048;
-    const figState = new Uint8Array(stateW * 4);
-    const figTex = new THREE.DataTexture(figState, stateW, 1, THREE.RGBAFormat);
+    /* per-figure state, row-wrapped: a 1-row strip outgrew its 2048 texels
+       when the catalog passed 2,048 figures (every figure past it read the
+       last texel's state and failed isLit, so could not be picked), and a
+       4096+ strip would breach the texture ceiling of older phones */
+    const stateW = 1024, stateH = Math.ceil(N / stateW);
+    const figState = new Uint8Array(stateW * stateH * 4);
+    const figTex = new THREE.DataTexture(figState, stateW, stateH, THREE.RGBAFormat);
     figTex.magFilter = figTex.minFilter = THREE.NearestFilter;
     figTex.needsUpdate = true;
 
@@ -90,16 +94,17 @@
     const pMat = new THREE.ShaderMaterial({
       transparent: true, depthWrite: false, fog: false, vertexColors: true,
       uniforms: {
-        uState: { value: figTex }, uStateW: { value: stateW },
+        uState: { value: figTex }, uStateW: { value: stateW }, uStateH: { value: stateH },
         uPx: { value: H.renderer.getPixelRatio() },
       },
       vertexShader: `
         attribute float aSize; attribute float aFig;
         varying vec3 vColor; varying float vLit; varying float vBright; varying float vDim;
-        uniform sampler2D uState; uniform float uStateW; uniform float uPx;
+        uniform sampler2D uState; uniform float uStateW; uniform float uStateH; uniform float uPx;
         void main(){
           vColor = color;
-          vec4 st = texture2D(uState, vec2((aFig + 0.5) / uStateW, 0.5));
+          float row = floor((aFig + 0.5) / uStateW);
+          vec4 st = texture2D(uState, vec2((aFig - row * uStateW + 0.5) / uStateW, (row + 0.5) / uStateH));
           vLit = st.r; vBright = st.g; vDim = st.b;
           vec4 mv = modelViewMatrix * vec4(position, 1.0);
           gl_Position = projectionMatrix * mv;

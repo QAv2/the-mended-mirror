@@ -125,8 +125,12 @@
       DIAG.mark("holodeck ready (" + ((performance.now() - T0) / 1000).toFixed(1) + "s)");
     }
     function ensureHolo() {
-      for (const [label, has, build] of holoSteps) if (!has()) { H.__narrate(label); build(); }
+      let built = false;
+      for (const [label, has, build] of holoSteps) if (!has()) { H.__narrate(label); build(); built = true; }
       postHolo();
+      // a rebuild on demand (after a power-down handed the GPU rent back)
+      // pays its first-use bill now, at the click — not across the dissolve
+      if (built && H.__warmed) HALL.warm(H);
     }
     H.ensureHolo = ensureHolo;
 
@@ -152,8 +156,13 @@
       });
       H.scene.remove(g2);
     }
+    /* only where memory is tight: a phone/tablet, or the lowest tier. A
+       desktop keeps the exhibits resident — handing them back there bought
+       nothing and charged a full rebuild (canvases, buffers, shaders) on the
+       next relic click */
+    const RENT_BACK = IS_TOUCH || HALL.Q.tier === 0;
     function disposeHolo() {
-      if (!holoInited || H.room.holo) return;      // only from the lobby, fully built
+      if (!RENT_BACK || !holoInited || H.room.holo) return;      // only from the lobby, fully built
       [H.mater, H.figures, H.rotunda].forEach(x => x && disposeGroup(x.group));
       H.mater = H.figures = H.rotunda = null;
       H._beadMat = null;
@@ -177,6 +186,28 @@
       postHolo();
     }
 
+    /* the last step behind the splash: let the network assets land (GLBs,
+       the door design — bounded, a slow line never holds the door shut),
+       then draw everything once so no shader compiles and no texture
+       uploads inside a flight. A straggler mounts later via HALL.mount. */
+    async function settleGPU() {
+      if (RENDER_OFF) return;
+      if (HALL.pending.length) {
+        H.__narrate("polishing the relics…");
+        await Promise.race([Promise.all(HALL.pending), new Promise(r => setTimeout(r, 8000))]);
+      }
+      const t = performance.now();
+      try {
+        HALL.warm(H);
+        H.__warmed = true;
+        DIAG.mark("gpu warmed (" + Math.round(performance.now() - t) + "ms, " + H.renderer.info.programs.length + " programs)");
+      } catch (e) {
+        // an optimization only — the hall opens cold rather than not at all
+        DIAG.mark("gpu warm skipped — " + (e && e.message), true);
+      }
+      await yieldFrame();
+    }
+
     /* the world outside — if it fails to build, the gate stands alone and
        the hall opens exactly as before */
     let worldPromise = null;
@@ -187,7 +218,7 @@
           HALL.buildApproach(H, POSES.room);   // the lobby pose is the landing contract
         } catch (e) {
           console.error("the exterior failed to build — the gate stands alone", e);
-          ["exterior", "sky"].forEach(n => {
+          ["exterior", "exterior-lights", "sky"].forEach(n => {
             const o = H.scene.getObjectByName(n);
             if (o) H.scene.remove(o);
           });
@@ -989,7 +1020,7 @@
         seatRig(POSES.exterior);
         fitExteriorSeat();
         H.ui.hint("inspecting the temple &middot; drag to orbit &middot; scroll to draw close", true);
-        buildHoloBehind();
+        buildHoloBehind().then(settleGPU);
       } else {
         /* the loading screen BECOMES the splash (Joe): narration runs through
            the world and the exhibits on the gate button itself, and only a
@@ -1012,7 +1043,7 @@
             H.env.toInterior(1);
           }
           return buildHoloBehind();
-        }).then(() => {
+        }).then(settleGPU).then(() => {
           gateNarrates = false;
           enterBtn.textContent = INTRO ? "Begin" : "Enter";
           enterBtn.classList.add("ready");

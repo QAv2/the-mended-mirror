@@ -537,16 +537,30 @@
     sky.name = "sky";
     H.scene.add(sky);
 
-    /* ---------- the lights of the world ---------- */
+    /* ---------- the lights of the world ----------
+       They hang in their own always-visible group, NOT in `group`: the
+       exterior hides once the room executes, and a light that leaves the
+       render list changes the light count — every lit shader recompiles that
+       frame. Instead they go dark with it (applyLights, every tick). */
+    const lights = new THREE.Group();
+    lights.name = "exterior-lights";
+    H.scene.add(lights);
     const sun = new THREE.DirectionalLight(0xffd9a4, 2.35);
     sun.position.copy(SUN_DIR).multiplyScalar(300);
     sun.target.position.set(0, 0, 0);
-    group.add(sun, sun.target);
+    lights.add(sun, sun.target);
     const dayHemi = new THREE.HemisphereLight(0xa9c2dc, 0x8a7758, 0.8);
-    group.add(dayHemi);
+    lights.add(dayHemi);
     const moon = new THREE.DirectionalLight(0x8fa3c8, 0.0);      // rises as the sun dies
     moon.position.set(-100, 120, -160);
-    group.add(moon);
+    lights.add(moon);
+    const lit = { sun: 2.35, hemi: 0.8, moon: 0.0 };              // what setNight asks for
+    function applyLights() {
+      const on = group.visible;
+      sun.intensity = on ? lit.sun : 0;
+      dayHemi.intensity = on ? lit.hemi : 0;
+      moon.intensity = on ? lit.moon : 0;
+    }
 
     /* ---------- palettes: the same world, before and after the crossing ---------- */
     const PAL = {
@@ -584,9 +598,10 @@
       lerp(oceanUniforms.uHaze, d.haze, n.haze);
       lerp(oceanUniforms.uSunCol, d.sunCol, n.sunCol);
       oceanUniforms.uSunI.value = 0.06 + Math.pow(1 - k, 1.6) * 0.94;
-      sun.intensity = 2.35 * Math.pow(1 - k, 1.5);
-      dayHemi.intensity = 0.8 * (1 - k);
-      moon.intensity = 0.34 * smooth(0.45, 1, k);
+      lit.sun = 2.35 * Math.pow(1 - k, 1.5);
+      lit.hemi = 0.8 * (1 - k);
+      lit.moon = 0.34 * smooth(0.45, 1, k);
+      applyLights();
     }
 
     /* ---------- fade / porthole / tick ---------- */
@@ -611,6 +626,7 @@
     }
 
     function tick(dt, elapsed) {
+      applyLights();                       // follow the group's visibility, wherever it was set
       if (!group.visible) return;
       oceanUniforms.uTime.value = elapsed;
     }

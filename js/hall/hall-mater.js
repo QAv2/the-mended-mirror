@@ -19,9 +19,11 @@
 
     /* =========================================================================
        SHARDS — one merged extruded geometry, one custom shader.
-       Per-shard state (lit / hover / select) lives in a 256×1 DataTexture.
+       Per-shard state (lit / hover / select) lives in an N×1 DataTexture,
+       sized from the catalog (a fixed 256 silently shared texel 255 among
+       every shard past it once the mirror grew to 288).
        ========================================================================= */
-    const stateW = 256;
+    const stateW = THREE.MathUtils.ceilPowerOfTwo(Math.max(256, M.shards.length));
     const shardState = new Uint8Array(stateW * 4);
     const shardTex = new THREE.DataTexture(shardState, stateW, 1, THREE.RGBAFormat);
     shardTex.magFilter = shardTex.minFilter = THREE.NearestFilter;
@@ -165,7 +167,7 @@
        GOLD RIBBONS — the kintsugi. Only where convergence is real.
        ========================================================================= */
     const mended = M.borders.filter(b => b.agg);
-    const borderW = 512;
+    const borderW = THREE.MathUtils.ceilPowerOfTwo(Math.max(512, mended.length));
     const borderState = new Uint8Array(borderW * 4);
     const borderTex = new THREE.DataTexture(borderState, borderW, 1, THREE.RGBAFormat);
     borderTex.magFilter = borderTex.minFilter = THREE.NearestFilter;

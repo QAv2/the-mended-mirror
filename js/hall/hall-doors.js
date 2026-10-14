@@ -130,75 +130,80 @@
 
     /* ---------- the engraved skin: the 2D design IS the intricacy ----------
        A gold door design (fal.ai FLUX, 2D-first — Joe's pipeline) lands at
-       assets/doors-leaf.png and becomes the leaf: a clean slab whose front
-       and back carry the design as albedo + bump. Every engraved line
-       survives at full resolution, where 15k triangles of image-to-3D
-       geometry smooth them away. When it loads, the GLB stands down. */
-    let skinned2d = false;
+       assets/doors-leaf.jpg (master: doors-leaf.png) and becomes the leaf: a
+       clean slab whose front and back carry the design as albedo + bump.
+       Every engraved line survives at full resolution, where 15k triangles of
+       image-to-3D geometry smooth them away. The GLB relief is fetched only
+       if the design cannot load — it never outranks it, so it never costs
+       the download. */
+    const landed = HALL.track();
     if (HALL.Q.glb) {
-      new THREE.TextureLoader().load("assets/doors-leaf.png", tex => {
-        tex.encoding = THREE.sRGBEncoding;
-        tex.anisotropy = HALL.Q.aniso;
-        const engraved = new THREE.MeshStandardMaterial({
-          map: tex, bumpMap: tex, bumpScale: -0.05,     // dark engraving cuts IN
-          color: 0xffffff, metalness: 0.85, roughness: 0.5,
-          emissive: 0x120c04, emissiveIntensity: 0.5, side: THREE.DoubleSide,
+      new THREE.TextureLoader().load("assets/doors-leaf.jpg", tex => {
+        HALL.mount(H, () => {
+          tex.encoding = THREE.sRGBEncoding;
+          tex.anisotropy = HALL.Q.aniso;
+          const engraved = new THREE.MeshStandardMaterial({
+            map: tex, bumpMap: tex, bumpScale: -0.05,     // dark engraving cuts IN
+            color: 0xffffff, metalness: 0.85, roughness: 0.5,
+            emissive: 0x120c04, emissiveIntensity: 0.5, side: THREE.DoubleSide,
+          });
+          /* the room side lives in the reveal's shade — it carries its own
+             warmer glow so the craft reads from within (Joe's catch) */
+          const engravedIn = engraved.clone();
+          engravedIn.emissive = new THREE.Color(0x2a1e0a);
+          engravedIn.emissiveIntensity = 0.9;
+          engravedIn.map = tex; engravedIn.bumpMap = tex;
+          const mkLeaf = () => {
+            const leaf = new THREE.Group();
+            leaf.add(new THREE.Mesh(new THREE.BoxGeometry(LEAF_W, LEAF_H, LEAF_D), bronze));
+            const front = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engraved);
+            front.position.z = -LEAF_D / 2 - 0.006;
+            front.rotation.y = Math.PI;                   // faces outward (−z)
+            const back = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engravedIn);
+            back.position.z = LEAF_D / 2 + 0.006;         // the room sees the same craft
+            leaf.add(front, back);
+            return leaf;
+          };
+          for (const h of hinges) {
+            h.carrier.remove(h.carrier.children[0]);
+            h.carrier.add(mkLeaf());
+          }
+          DIAG.mark("gold doors: engraved 2D skin mounted");
         });
-        /* the room side lives in the reveal's shade — it carries its own
-           warmer glow so the craft reads from within (Joe's catch) */
-        const engravedIn = engraved.clone();
-        engravedIn.emissive = new THREE.Color(0x2a1e0a);
-        engravedIn.emissiveIntensity = 0.9;
-        engravedIn.map = tex; engravedIn.bumpMap = tex;
-        const mkLeaf = () => {
-          const leaf = new THREE.Group();
-          leaf.add(new THREE.Mesh(new THREE.BoxGeometry(LEAF_W, LEAF_H, LEAF_D), bronze));
-          const front = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engraved);
-          front.position.z = -LEAF_D / 2 - 0.006;
-          front.rotation.y = Math.PI;                   // faces outward (−z)
-          const back = new THREE.Mesh(new THREE.PlaneGeometry(LEAF_W - 0.02, LEAF_H - 0.02), engravedIn);
-          back.position.z = LEAF_D / 2 + 0.006;         // the room sees the same craft
-          leaf.add(front, back);
-          return leaf;
-        };
-        skinned2d = true;
-        for (const h of hinges) {
-          h.carrier.remove(h.carrier.children[0]);
-          h.carrier.add(mkLeaf());
-        }
-        DIAG.mark("gold doors: engraved 2D skin mounted");
-      }, undefined, () => { /* no design yet — relief carries it */ });
-    }
+        landed();
+      }, undefined, loadRelief);              // no design — try the relief
+    } else landed();
 
     /* ---------- the GLB skin: geometry upgrade, the gold stays ours ---------- */
-    if (root.THREE && THREE.GLTFLoader && HALL.Q.glb) {
+    function loadRelief() {
+      if (!(root.THREE && THREE.GLTFLoader)) { landed(); return; }
       try {
         new THREE.GLTFLoader().load("assets/doors-leaf.glb", gltf => {
-          if (skinned2d) return;   // the engraved 2D design outranks the relief
           // the WHOLE scene is the leaf (Meshy splits its relief across
           // meshes — taking one renders stray bars); the gold stays ours
           const src = gltf.scene;
           let any = false;
           src.traverse(o => { if (o.isMesh) { o.material = bronze; any = true; } });
-          if (!any) return;
           const bb = new THREE.Box3().setFromObject(src);
           const sz = bb.getSize(new THREE.Vector3());
-          if (!(sz.x > 0 && sz.y > 0 && sz.z > 0)) return;
-          const seat = new THREE.Group();
-          // seat on origin, then stretch to the leaf's opening — the relief's
-          // circles run to ellipses, which orbits always were
-          src.position.set(-(bb.min.x + bb.max.x) / 2, -(bb.min.y + bb.max.y) / 2, -(bb.min.z + bb.max.z) / 2);
-          seat.add(src);
-          seat.scale.set(LEAF_W / sz.x, LEAF_H / sz.y, Math.min(1, LEAF_D * 2.2 / sz.z));
-          seat.rotation.y = Math.PI;                 // Meshy relief faces +z; the hall's leaves face −z (outward)
-          for (const h of hinges) {
-            const old = h.carrier.children[0];
-            h.carrier.remove(old);
-            h.carrier.add(h.side === -1 ? seat : seat.clone(true));
-          }
-          DIAG.mark("bronze doors: GLB relief mounted");
-        }, undefined, () => { /* the procedural leaves stand */ });
-      } catch (e) { /* file:// refusal — the procedural leaves stand */ }
+          if (any && sz.x > 0 && sz.y > 0 && sz.z > 0) HALL.mount(H, () => {
+            const seat = new THREE.Group();
+            // seat on origin, then stretch to the leaf's opening — the relief's
+            // circles run to ellipses, which orbits always were
+            src.position.set(-(bb.min.x + bb.max.x) / 2, -(bb.min.y + bb.max.y) / 2, -(bb.min.z + bb.max.z) / 2);
+            seat.add(src);
+            seat.scale.set(LEAF_W / sz.x, LEAF_H / sz.y, Math.min(1, LEAF_D * 2.2 / sz.z));
+            seat.rotation.y = Math.PI;                 // Meshy relief faces +z; the hall's leaves face −z (outward)
+            for (const h of hinges) {
+              const old = h.carrier.children[0];
+              h.carrier.remove(old);
+              h.carrier.add(h.side === -1 ? seat : seat.clone(true));
+            }
+            DIAG.mark("bronze doors: GLB relief mounted");
+          });
+          landed();
+        }, undefined, () => { landed(); /* the procedural leaves stand */ });
+      } catch (e) { landed(); /* file:// refusal — the procedural leaves stand */ }
     }
 
     /* ---------- expose ---------- */
